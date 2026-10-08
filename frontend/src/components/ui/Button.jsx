@@ -1,7 +1,8 @@
 import styles from './Button.module.css'
 
 /**
- * @param {'primary' | 'rail' | 'ghost'} variant  `rail` sits on the dark header rail.
+ * @param {'primary' | 'rail' | 'ghost' | 'quiet'} variant  `rail` sits on the dark header rail;
+ *   `quiet` is a text-weight action for secondary choices.
  */
 export function Button({ variant = 'primary', icon: Icon, children, className = '', ...props }) {
   return (

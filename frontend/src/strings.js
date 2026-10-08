@@ -16,6 +16,46 @@ export const strings = {
     missingDrawing: 'Drawing not in the archive yet',
   },
 
+  hints: {
+    heading: 'Hints',
+    empty: 'Each hint gives a little more away. Take them whenever you like.',
+    show: (n, total) => `Show hint ${n} of ${total}`,
+    allShown: 'All hints shown',
+    label: (n) => `Hint ${n}`,
+    photo: 'Photo',
+    fact: 'Fact',
+    missingPhoto: 'Photo not in the archive yet',
+  },
+
+  guess: {
+    heading: 'Your guess',
+    fields: {
+      name: 'Building',
+      architect: 'Architect',
+      country: 'Country',
+      era: 'Era',
+    },
+    placeholders: {
+      name: 'e.g. Villa Rotonda',
+      architect: 'Any one architect',
+      country: 'Start typing a country',
+      era: 'Choose an era',
+    },
+    erasUnavailable: 'Eras couldn’t be loaded',
+    wrong: 'Not this one. Edit it, or take a hint.',
+    correct: 'Correct',
+    revealedValue: 'Answer',
+    submit: 'Check guess',
+    giveUp: 'Reveal answer',
+    next: 'Next building',
+    nothingToCheck: 'Fill in at least one field to check it.',
+    solved: 'All four right. Nicely read.',
+    gaveUp: 'Here’s the answer. The fields you got are ticked.',
+    result: (correct, wrong) =>
+      [correct && `${correct} correct`, wrong && `${wrong} not quite`].filter(Boolean).join(', ') + '.',
+    countrySuggestions: 'Country suggestions',
+  },
+
   titleBlock: {
     project: 'Project',
     architect: 'Architect',

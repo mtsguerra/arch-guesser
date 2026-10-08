@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useReducer, useRef } from 'react'
 import { fetchRandomBuilding } from '../api/buildings.js'
 import { gameReducer, initialState } from './gameReducer.js'
+import { evaluateGuess } from './matchGuess.js'
 import { readSeen, recordSeen } from './seenBuildings.js'
 
 export function useGameRound() {
@@ -30,6 +31,13 @@ export function useGameRound() {
 
   const revealHint = useCallback(() => dispatch({ type: 'hint/reveal' }), [])
   const revealAnswer = useCallback(() => dispatch({ type: 'answer/reveal' }), [])
+  const editField = useCallback((field) => dispatch({ type: 'guess/edit', field }), [])
 
-  return { ...state, loadNext, revealHint, revealAnswer }
+  const { building } = state
+  const submitGuess = useCallback(
+    (values) => dispatch({ type: 'guess/submit', results: evaluateGuess(building, values) }),
+    [building],
+  )
+
+  return { ...state, loadNext, revealHint, revealAnswer, submitGuess, editField }
 }

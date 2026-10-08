@@ -10,14 +10,14 @@ import styles from './ArchImage.module.css'
  *
  * @param fit  'contain' for drawings (never crop a plan), 'cover' for photos.
  */
-export function ArchImage({ src, alt, placeholderLabel, fit = 'contain', className = '' }) {
+export function ArchImage({ src, alt, placeholderTitle = strings.board.missingDrawing, placeholderLabel, fit = 'contain', className = '' }) {
   const [status, setStatus] = useState('loading')
 
   if (status === 'error') {
     return (
       <div className={`${styles.placeholder} ${className}`} role="img" aria-label={alt}>
         <div className={styles.note} aria-hidden="true">
-          <span className={styles.noteTitle}>{strings.board.missingDrawing}</span>
+          <span className={styles.noteTitle}>{placeholderTitle}</span>
           {placeholderLabel && <span className={styles.noteLabel}>{placeholderLabel}</span>}
         </div>
       </div>

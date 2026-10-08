@@ -5,7 +5,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 2fr 1.6fr 1.5fr minmax(7.5rem, 0.8fr);
+  grid-template-columns: 1.6fr 1.6fr 1.3fr max-content;
 }
 
 .field {
@@ -35,14 +35,13 @@
 
 .value {
   display: block;
-  overflow: hidden;
   font-size: var(--text-sm);
   font-weight: 650;
   font-stretch: 112%;
+  line-height: 1.25;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  text-wrap: balance;
   font-variant-numeric: tabular-nums;
 }
 
@@ -72,8 +71,4 @@
     padding: var(--space-2);
   }
 
-  .value {
-    white-space: normal;
-    text-wrap: balance;
-  }
 }
