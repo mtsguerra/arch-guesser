@@ -1,0 +1,79 @@
+/*
+ * Design tokens. Palette is brief-pinned:
+ * https://coolors.co/palette/6f1d1b-bb9457-432818-99582a-ffe6a7
+ * Light colours are grounds and paper; dark reds and browns are type and accents.
+ * Camel is too light for text on cream: borders, grid lines and decoration only.
+ */
+:root {
+  color-scheme: light;
+
+  /* Palette */
+  --oxblood: #6f1d1b;
+  --camel: #bb9457;
+  --chocolate: #432818;
+  --russet: #99582a;
+  --cream: #ffe6a7;
+
+  /* Roles */
+  --mat: var(--cream);
+  --mat-grid: color-mix(in oklab, var(--camel) 16%, transparent);
+  --mat-grid-major: color-mix(in oklab, var(--camel) 34%, transparent);
+  --paper: #fff8e4;
+  --paper-shade: color-mix(in oklab, var(--cream) 55%, var(--paper));
+  --paper-rule: color-mix(in oklab, var(--chocolate) 70%, var(--paper));
+  --paper-hairline: color-mix(in oklab, var(--camel) 55%, var(--paper));
+  --ink: var(--chocolate);
+  --ink-soft: color-mix(in oklab, var(--chocolate) 78%, var(--paper));
+  --rail: var(--chocolate);
+  --rail-ink: var(--cream);
+  --rail-ink-soft: color-mix(in oklab, var(--cream) 70%, var(--chocolate));
+  --accent: var(--oxblood);
+  --accent-strong: color-mix(in oklab, var(--oxblood) 82%, black);
+  --accent-ink: var(--paper);
+  --link: var(--russet);
+  --focus: var(--russet);
+
+  /* Type */
+  --font-sans: 'Archivo Variable', 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --width-normal: 100;
+  --width-wide: 118;
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.625rem;
+  --tracking-caps: 0.06em;
+
+  /* Space (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  /* Shape: drafting is crisp, so corners stay small */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --hairline: 1px;
+
+  /* Depth */
+  --shadow-sheet:
+    0 1px 1px rgb(67 40 24 / 0.08),
+    0 10px 24px -8px rgb(67 40 24 / 0.28),
+    0 28px 56px -20px rgb(67 40 24 / 0.24);
+  --shadow-raised: 0 1px 2px rgb(67 40 24 / 0.12), 0 4px 10px -4px rgb(67 40 24 / 0.22);
+
+  /* Motion (mirrored in src/motion.js) */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 160ms;
+  --dur-base: 320ms;
+  --dur-slow: 560ms;
+
+  /* Layout */
+  --rail-h: 3.5rem;
+  --gutter: clamp(1rem, 2.5vw, 2rem);
+}

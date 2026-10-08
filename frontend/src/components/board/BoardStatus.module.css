@@ -1,0 +1,68 @@
+/* Matches the tab row height so the sheet doesn't jump when drawings arrive. */
+.tabsSpacer {
+  height: 2.375rem;
+}
+
+.body {
+  position: relative;
+  container-type: size;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  padding: var(--space-6);
+  text-align: center;
+}
+
+.message {
+  max-width: 34ch;
+  font-size: var(--text-sm);
+  color: var(--ink-soft);
+}
+
+.error {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-3);
+}
+
+.errorTitle {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  font-stretch: 112%;
+}
+
+.error > :last-child {
+  margin-top: var(--space-2);
+}
+
+/* A pen-plotter carriage sweeping the sheet while drawings load. */
+.plotter {
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 1.5px;
+  background: var(--accent);
+  opacity: 0.5;
+  animation: plot 2.4s var(--ease-out) infinite;
+}
+
+@keyframes plot {
+  from {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(100cqh);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .plotter {
+    animation: none;
+    display: none;
+  }
+}

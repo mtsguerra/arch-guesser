@@ -1,0 +1,87 @@
+.sheet {
+  --margin: 1.125rem;
+  position: relative;
+  height: 100%;
+  padding: var(--margin);
+  background: var(--paper);
+  box-shadow: var(--shadow-sheet);
+}
+
+.frame {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  height: 100%;
+  border: 1.5px solid var(--paper-rule);
+}
+
+.content {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* Zone references: numbers across the top margin, letters down the left. */
+.zonesTop,
+.zonesSide {
+  position: absolute;
+  display: grid;
+  font-size: 0.5625rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+  pointer-events: none;
+}
+
+.zonesTop {
+  top: 0;
+  left: var(--margin);
+  right: var(--margin);
+  height: var(--margin);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.zonesSide {
+  top: var(--margin);
+  bottom: var(--margin);
+  left: 0;
+  width: var(--margin);
+  grid-auto-rows: 1fr;
+}
+
+.zonesTop span,
+.zonesSide span {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+/* Tick marks at zone boundaries */
+.zonesTop span + span::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0.375rem;
+  border-left: var(--hairline) solid var(--paper-rule);
+}
+
+.zonesSide span + span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.375rem;
+  border-top: var(--hairline) solid var(--paper-rule);
+}
+
+@media (max-width: 45rem) {
+  .sheet {
+    --margin: 0.625rem;
+  }
+
+  .zonesTop,
+  .zonesSide {
+    display: none;
+  }
+}

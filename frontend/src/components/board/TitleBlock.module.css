@@ -1,0 +1,79 @@
+.titleBlock {
+  border-top: 1.5px solid var(--paper-rule);
+  background: var(--paper);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1.6fr 1.5fr minmax(7.5rem, 0.8fr);
+}
+
+.field {
+  display: grid;
+  gap: 0.125rem;
+  align-content: start;
+  min-width: 0;
+  padding: var(--space-2) var(--space-3) var(--space-3);
+}
+
+.field + .field {
+  border-left: var(--hairline) solid var(--paper-rule);
+}
+
+.label {
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  font-stretch: 118%;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.dd {
+  min-width: 0;
+}
+
+.value {
+  display: block;
+  overflow: hidden;
+  font-size: var(--text-sm);
+  font-weight: 650;
+  font-stretch: 112%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.wide .value {
+  font-size: var(--text-base);
+}
+
+.muted {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+@media (max-width: 45rem) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .field:nth-child(3) {
+    border-left: 0;
+  }
+
+  .field:nth-child(n + 3) {
+    border-top: var(--hairline) solid var(--paper-rule);
+  }
+
+  .field {
+    padding: var(--space-2);
+  }
+
+  .value {
+    white-space: normal;
+    text-wrap: balance;
+  }
+}

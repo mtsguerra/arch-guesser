@@ -1,0 +1,23 @@
+.board {
+  --sheet-ratio: 1.414; /* ISO A-series, landscape */
+  /* Fit the whole sheet in the viewport below the rail and tabs. */
+  width: min(100%, max(36rem, calc((100dvh - var(--rail-h) - 7.5rem) * var(--sheet-ratio))));
+}
+
+.stage {
+  position: relative;
+  aspect-ratio: var(--sheet-ratio);
+}
+
+/* Both outgoing and incoming sheets occupy the stage during a flip. */
+.page {
+  position: absolute;
+  inset: 0;
+}
+
+@media (max-width: 45rem) {
+  .board {
+    --sheet-ratio: 0.8;
+    width: 100%;
+  }
+}

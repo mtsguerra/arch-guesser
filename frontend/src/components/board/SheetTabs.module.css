@@ -1,0 +1,63 @@
+.tabs {
+  display: flex;
+  gap: var(--space-1);
+  padding-inline: var(--space-3);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tab {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  flex: none;
+  padding: var(--space-2) var(--space-4) calc(var(--space-2) + 2px);
+  border: 0;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  background: transparent;
+  color: var(--ink-soft);
+  transition: color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
+}
+
+.tab:hover:not(.selected) {
+  color: var(--ink);
+  background: color-mix(in oklab, var(--paper) 45%, transparent);
+}
+
+.tab:focus-visible {
+  outline-offset: -2px;
+}
+
+.selected {
+  color: var(--ink);
+}
+
+/* The selected tab's paper slides between tabs and joins the sheet below. */
+.paper {
+  position: absolute;
+  inset: 0 0 -2px;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--paper);
+  border-top: 2px solid var(--accent);
+  box-shadow: 0 -4px 10px -6px rgb(67 40 24 / 0.25);
+}
+
+.number {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  font-stretch: 112%;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+.selected .number {
+  color: var(--accent);
+}
+
+.label {
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
