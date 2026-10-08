@@ -19,6 +19,8 @@
   width: 100%;
   height: 100%;
   padding: var(--space-5);
+  /* will-change isolates this layer, so scans multiply against this paper, not the sheet behind */
+  background: var(--paper);
   will-change: transform;
 }
 

@@ -10,10 +10,17 @@
         "lifespan": "1508–1580",
         "nationality": "Italian (Republic of Venice)",
         "bio": "Born in Padua and trained as a stonemason, Palladio became the most influential architect of the Renaissance. His treatise The Four Books of Architecture (1570) spread his symmetrical, temple-fronted villas across Europe and the Americas, giving rise to Palladianism."
+      },
+      {
+        "name": "Vincenzo Scamozzi",
+        "aliases": ["Scamozzi"],
+        "lifespan": "1548–1616",
+        "nationality": "Italian (Republic of Venice)",
+        "bio": "Born in Vicenza, Scamozzi inherited several of Palladio's unfinished projects after the master's death in 1580, among them the Teatro Olimpico and La Rotonda, where he designed the lower, Pantheon-like dome. His treatise L'idea della architettura universale (1615) and his only pupil, Baldassarre Longhena, carried Palladian ideas into the Venetian Baroque."
       }
     ],
     "location": { "city": "Vicenza", "country": "Italy", "countryCode": "IT" },
-    "yearCompleted": 1592,
+    "yearCompleted": 1605,
     "era": "RENAISSANCE",
     "style": "Palladian",
     "drawings": [
@@ -22,14 +29,14 @@
         "label": "Main floor plan",
         "src": "/buildings/villa-rotonda/plan.jpg",
         "alt": "Square floor plan with an identical portico on each of its four sides and a circular hall at the centre",
-        "credit": "Placeholder — source TBD"
+        "credit": "Ottavio Bertotti Scamozzi, engraving, 1778 · Public domain · Wikimedia Commons"
       },
       {
         "type": "SECTION",
         "label": "Cross section",
         "src": "/buildings/villa-rotonda/section.jpg",
         "alt": "Section through a raised villa showing a central domed hall rising above the surrounding rooms",
-        "credit": "Placeholder — source TBD"
+        "credit": "Ottavio Bertotti Scamozzi, engraving, 1778 · Public domain · Wikimedia Commons"
       }
     ],
     "hints": [
@@ -38,8 +45,8 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/villa-rotonda/interior.jpg",
-          "alt": "Circular hall beneath a frescoed dome",
-          "credit": "Placeholder — source TBD"
+          "alt": "Looking up into a frescoed dome with an oculus at its centre",
+          "credit": "Photo: Andrek02 · CC0 · Wikimedia Commons"
         },
         "caption": "The whole house turns around a single domed, circular hall."
       },
@@ -53,14 +60,14 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/villa-rotonda/exterior.jpg",
-          "alt": "Pale villa on a hill with columned porticoes and a low dome",
-          "credit": "Placeholder — source TBD"
+          "alt": "Cream-coloured villa on a lawn, with temple porticoes on two visible sides and a low tiled dome",
+          "credit": "Photo: Hans A. Rosbach · CC BY-SA 3.0 · Wikimedia Commons"
         },
         "caption": "Exterior"
       }
     ],
     "summary": {
-      "description": "Built on a hilltop outside Vicenza for the retired cleric Paolo Almerico, La Rotonda is a perfectly symmetrical square block with a portico on every side and a domed hall at its heart. Palladio treated a private house like an ancient temple, and the result became one of the most copied buildings in Western architecture.",
+      "description": "Begun in 1567 on a hilltop outside Vicenza for the retired cleric Paolo Almerico, La Rotonda is a perfectly symmetrical square block with a portico on every side and a domed hall at its heart. Palladio treated a private house like an ancient temple, and the result became one of the most copied buildings in Western architecture.",
       "keyFeatures": [
         "Square plan with four identical Ionic porticoes",
         "Central circular hall under a dome",
@@ -68,7 +75,7 @@
         "Raised on a hill to command views on every side"
       ],
       "funFacts": [
-        "Palladio died before it was finished; Vincenzo Scamozzi completed the work.",
+        "Palladio died in 1580; Vincenzo Scamozzi completed the villa and replaced the planned high dome with a lower one, open to the sky through an oculus like the Pantheon in Rome.",
         "It inspired buildings from Chiswick House in London to country houses across Britain and America.",
         "It is part of the UNESCO World Heritage Site 'City of Vicenza and the Palladian Villas of the Veneto'."
       ]
@@ -94,17 +101,17 @@
     "drawings": [
       {
         "type": "FLOOR_PLAN",
-        "label": "Church plan",
+        "label": "Church and courtyard plan",
         "src": "/buildings/sant-ivo-alla-sapienza/plan.jpg",
         "alt": "Plan of a six-pointed star formed by two overlapping triangles, with rounded and angled recesses at its points",
-        "credit": "Placeholder — source TBD"
+        "credit": "Francesco Borromini, Opera del Caval. Francesco Boromino, 1720 · Public domain · Wikimedia Commons"
       },
       {
         "type": "SECTION",
-        "label": "Longitudinal section",
+        "label": "Section through the dome",
         "src": "/buildings/sant-ivo-alla-sapienza/section.jpg",
-        "alt": "Section of a tall centralized church with a stepped dome and a slender lantern on top",
-        "credit": "Placeholder — source TBD"
+        "alt": "Cut-away view of a tall centralized church: the walls rise into a ribbed dome topped by a slender lantern",
+        "credit": "Francesco Borromini, Opera del Caval. Francesco Boromino, 1720 · Public domain · Wikimedia Commons"
       }
     ],
     "hints": [
@@ -113,8 +120,8 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/sant-ivo-alla-sapienza/interior.jpg",
-          "alt": "Looking up into a white star-shaped dome",
-          "credit": "Placeholder — source TBD"
+          "alt": "Looking up white walls that flow without a break into a star-patterned dome",
+          "credit": "Photo: Hugo DK · CC BY-SA 4.0 · Wikimedia Commons"
         },
         "caption": "The walls flow upward into the dome without a break."
       },
@@ -128,8 +135,8 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/sant-ivo-alla-sapienza/exterior.jpg",
-          "alt": "Dome topped by a corkscrew-shaped spiral lantern",
-          "credit": "Placeholder — source TBD"
+          "alt": "Concave church front at the end of an arcaded courtyard, crowned by a spiralling lantern",
+          "credit": "Photo: Pedro P. Palazzo · CC BY 4.0 · Wikimedia Commons"
         },
         "caption": "A spiral lantern crowns the dome."
       }
@@ -169,17 +176,17 @@
     "drawings": [
       {
         "type": "FLOOR_PLAN",
-        "label": "Main floor plan",
+        "label": "First floor plan",
         "src": "/buildings/monticello/plan.jpg",
-        "alt": "Symmetrical house plan with a projecting octagonal room on one front and a portico on the other",
-        "credit": "Placeholder — source TBD"
+        "alt": "Symmetrical house plan with porticoes front and back, a central hall and parlour, and octagonal rooms at the corners",
+        "credit": "Historic American Buildings Survey (HABS VA-241), measured drawing, 1989–92 · Public domain · Wikimedia Commons"
       },
       {
         "type": "ELEVATION",
-        "label": "West elevation",
+        "label": "South elevation",
         "src": "/buildings/monticello/elevation.jpg",
-        "alt": "Elevation of a brick house with a columned portico beneath a low octagonal dome",
-        "credit": "Placeholder — source TBD"
+        "alt": "Side elevation of a house with three tall arched windows below a balustraded roof and a low dome",
+        "credit": "Historic American Buildings Survey (HABS VA-241), measured drawing, 1989–92 · Public domain · Wikimedia Commons"
       }
     ],
     "hints": [
@@ -188,8 +195,8 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/monticello/interior.jpg",
-          "alt": "Two-storey entrance hall with a balcony, maps and natural history specimens",
-          "credit": "Placeholder — source TBD"
+          "alt": "Hall wall hung with antlers, maps and a library ladder above a marble bust",
+          "credit": "Photo: Frypie · CC BY-SA 4.0 · Wikimedia Commons"
         },
         "caption": "The entrance hall doubled as a museum of fossils, maps and expedition finds."
       },
@@ -203,8 +210,8 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/monticello/exterior.jpg",
-          "alt": "Red-brick house with white columns and an octagonal dome on a hilltop lawn",
-          "credit": "Placeholder — source TBD"
+          "alt": "Red-brick house with a white columned portico and a low octagonal dome, seen across a lawn",
+          "credit": "Photo: YF12s · CC BY-SA 3.0 · Wikimedia Commons"
         },
         "caption": "This façade appears on a US coin."
       }
@@ -253,22 +260,19 @@
         "type": "FLOOR_PLAN",
         "label": "Ground floor plan",
         "src": "/buildings/villa-savoye/plan-ground.jpg",
-        "alt": "Square grid of slender columns with a curved glazed entrance hall at one end",
-        "credit": "Placeholder — source TBD"
+        "alt": "Square grid of slender columns with a curved glazed entrance hall at one end"
       },
       {
         "type": "FLOOR_PLAN",
         "label": "First floor plan",
         "src": "/buildings/villa-savoye/plan-first.jpg",
-        "alt": "Square upper floor wrapped around an open-air terrace, with a ramp at the centre",
-        "credit": "Placeholder — source TBD"
+        "alt": "Square upper floor wrapped around an open-air terrace, with a ramp at the centre"
       },
       {
         "type": "SECTION",
         "label": "Longitudinal section",
         "src": "/buildings/villa-savoye/section.jpg",
-        "alt": "Section showing a ramp rising through three levels to a roof garden",
-        "credit": "Placeholder — source TBD"
+        "alt": "Section showing a ramp rising through three levels to a roof garden"
       }
     ],
     "hints": [
@@ -277,8 +281,7 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/villa-savoye/interior.jpg",
-          "alt": "White interior ramp climbing between floors beside large windows",
-          "credit": "Placeholder — source TBD"
+          "alt": "White interior ramp climbing between floors beside large windows"
         },
         "caption": "A ramp climbs through the middle of the house to a roof garden."
       },
@@ -292,8 +295,7 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/villa-savoye/exterior.jpg",
-          "alt": "White box raised on thin columns above a lawn, with a long horizontal window",
-          "credit": "Placeholder — source TBD"
+          "alt": "White box raised on thin columns above a lawn, with a long horizontal window"
         },
         "caption": "Exterior"
       }
@@ -336,15 +338,13 @@
         "type": "SITE_PLAN",
         "label": "Site plan",
         "src": "/buildings/salk-institute/site-plan.jpg",
-        "alt": "Two long parallel wings on either side of an open plaza, ending at a cliff edge",
-        "credit": "Placeholder — source TBD"
+        "alt": "Two long parallel wings on either side of an open plaza, ending at a cliff edge"
       },
       {
         "type": "SECTION",
         "label": "Cross section",
         "src": "/buildings/salk-institute/section.jpg",
-        "alt": "Section through stacked laboratory floors alternating with shallower service floors",
-        "credit": "Placeholder — source TBD"
+        "alt": "Section through stacked laboratory floors alternating with shallower service floors"
       }
     ],
     "hints": [
@@ -352,11 +352,11 @@
         "order": 1,
         "type": "IMAGE",
         "image": {
-          "src": "/buildings/salk-institute/interior.jpg",
-          "alt": "Wide column-free laboratory with large windows",
-          "credit": "Placeholder — source TBD"
+          "src": "/buildings/salk-institute/passage.jpg",
+          "alt": "Shaded passage of raw concrete, its timber-marked walls dotted with small round holes",
+          "credit": "Photo: Beyond My Ken · CC BY-SA 4.0 · Wikimedia Commons"
         },
-        "caption": "Column-free laboratory floors, with full-height service floors between them."
+        "caption": "Raw, board-formed concrete; the holes left by the formwork ties are kept on show."
       },
       {
         "order": 2,
@@ -368,8 +368,8 @@
         "type": "IMAGE",
         "image": {
           "src": "/buildings/salk-institute/exterior.jpg",
-          "alt": "Empty stone plaza between two concrete wings, a thin water channel leading to the ocean",
-          "credit": "Placeholder — source TBD"
+          "alt": "Empty stone plaza between two concrete wings, a thin water channel running toward the ocean at sunset",
+          "credit": "Photo: TheNose · CC BY-SA 2.0 · Wikimedia Commons"
         },
         "caption": "Two mirror-image wings frame an empty plaza that opens to the Pacific."
       }

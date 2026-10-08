@@ -82,7 +82,7 @@ export function DrawingBoard({ building, revealed, fields }) {
               aria-labelledby={`${idPrefix}-tab-${index}`}
               titleBlock={<TitleBlock fields={titleFields} />}
             >
-              <ZoomableDrawing drawing={drawing} />
+              <ZoomableDrawing drawing={drawing} revealed={revealed} />
             </Sheet>
           </motion.div>
         </AnimatePresence>

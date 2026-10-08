@@ -17,7 +17,7 @@ const clamp = (n) => Math.min(1, Math.max(0, n))
  * follows the pointer (or finger), so the whole sheet is explorable without
  * drag handles. Arrow keys pan from the zoom button; Esc exits.
  */
-export function ZoomableDrawing({ drawing }) {
+export function ZoomableDrawing({ drawing, revealed }) {
   const [zoomed, setZoomed] = useState(false)
   const [loaded, setLoaded] = useState(false)
   const viewport = useRef(null)
@@ -120,8 +120,9 @@ export function ZoomableDrawing({ drawing }) {
         </button>
       </div>
 
-      {/* Credits belong to real images; the placeholder already labels itself. */}
-      {loaded && drawing.credit && <p className={styles.credit}>{drawing.credit}</p>}
+      {/* Credits belong to real images (the placeholder labels itself), and appear only after
+          the reveal: a drawing's author is often the architect, which would give the answer away. */}
+      {revealed && loaded && drawing.credit && <p className={styles.credit}>{drawing.credit}</p>}
     </div>
   )
 }
