@@ -1,0 +1,392 @@
+[
+  {
+    "id": "villa-rotonda",
+    "name": "Villa La Rotonda",
+    "aliases": ["Villa Rotonda", "La Rotonda", "Villa Almerico Capra", "Villa Capra"],
+    "architects": [
+      {
+        "name": "Andrea Palladio",
+        "aliases": ["Palladio", "Andrea di Pietro della Gondola"],
+        "lifespan": "1508–1580",
+        "nationality": "Italian (Republic of Venice)",
+        "bio": "Born in Padua and trained as a stonemason, Palladio became the most influential architect of the Renaissance. His treatise The Four Books of Architecture (1570) spread his symmetrical, temple-fronted villas across Europe and the Americas, giving rise to Palladianism."
+      }
+    ],
+    "location": { "city": "Vicenza", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1592,
+    "era": "RENAISSANCE",
+    "style": "Palladian",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": "/buildings/villa-rotonda/plan.jpg",
+        "alt": "Square floor plan with an identical portico on each of its four sides and a circular hall at the centre",
+        "credit": "Placeholder — source TBD"
+      },
+      {
+        "type": "SECTION",
+        "label": "Cross section",
+        "src": "/buildings/villa-rotonda/section.jpg",
+        "alt": "Section through a raised villa showing a central domed hall rising above the surrounding rooms",
+        "credit": "Placeholder — source TBD"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/villa-rotonda/interior.jpg",
+          "alt": "Circular hall beneath a frescoed dome",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "The whole house turns around a single domed, circular hall."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Four identical temple fronts face the four directions, so this hilltop house has no back."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/villa-rotonda/exterior.jpg",
+          "alt": "Pale villa on a hill with columned porticoes and a low dome",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built on a hilltop outside Vicenza for the retired cleric Paolo Almerico, La Rotonda is a perfectly symmetrical square block with a portico on every side and a domed hall at its heart. Palladio treated a private house like an ancient temple, and the result became one of the most copied buildings in Western architecture.",
+      "keyFeatures": [
+        "Square plan with four identical Ionic porticoes",
+        "Central circular hall under a dome",
+        "Symmetry on both axes",
+        "Raised on a hill to command views on every side"
+      ],
+      "funFacts": [
+        "Palladio died before it was finished; Vincenzo Scamozzi completed the work.",
+        "It inspired buildings from Chiswick House in London to country houses across Britain and America.",
+        "It is part of the UNESCO World Heritage Site 'City of Vicenza and the Palladian Villas of the Veneto'."
+      ]
+    }
+  },
+  {
+    "id": "sant-ivo-alla-sapienza",
+    "name": "Sant'Ivo alla Sapienza",
+    "aliases": ["Sant Ivo", "Saint Ivo", "Sant'Ivo"],
+    "architects": [
+      {
+        "name": "Francesco Borromini",
+        "aliases": ["Borromini", "Francesco Castelli"],
+        "lifespan": "1599–1667",
+        "nationality": "Swiss-Italian (born in Ticino)",
+        "bio": "A stonemason's son from Bissone on Lake Lugano, Borromini spent his career in Rome, where his restless geometry and rippling walls made him the great rival of Gian Lorenzo Bernini. He built few, mostly small, churches, yet his inventive use of geometry shaped Baroque architecture across Europe."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1660,
+    "era": "BAROQUE",
+    "style": "Roman Baroque",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Church plan",
+        "src": "/buildings/sant-ivo-alla-sapienza/plan.jpg",
+        "alt": "Plan of a six-pointed star formed by two overlapping triangles, with rounded and angled recesses at its points",
+        "credit": "Placeholder — source TBD"
+      },
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section",
+        "src": "/buildings/sant-ivo-alla-sapienza/section.jpg",
+        "alt": "Section of a tall centralized church with a stepped dome and a slender lantern on top",
+        "credit": "Placeholder — source TBD"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/sant-ivo-alla-sapienza/interior.jpg",
+          "alt": "Looking up into a white star-shaped dome",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "The walls flow upward into the dome without a break."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The church closes the end of a courtyard belonging to the city's old university."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/sant-ivo-alla-sapienza/exterior.jpg",
+          "alt": "Dome topped by a corkscrew-shaped spiral lantern",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "A spiral lantern crowns the dome."
+      }
+    ],
+    "summary": {
+      "description": "Borromini built this university church inside the existing courtyard of the Palazzo della Sapienza in Rome. Its plan grows from two interlocking equilateral triangles, and the star-shaped walls continue straight up into the dome, making the whole interior read as a single sculpted space.",
+      "keyFeatures": [
+        "Star plan from two interlocking triangles",
+        "Walls and dome form one continuous surface",
+        "Almost colourless white interior that puts form first",
+        "Spiral lantern above a stepped dome"
+      ],
+      "funFacts": [
+        "The plan is often said to evoke a bee, the heraldic emblem of Pope Urban VIII's Barberini family.",
+        "Borromini was appointed architect of the Sapienza in 1632, reportedly on Bernini's recommendation.",
+        "Construction spanned the reigns of three popes, each of whom left his emblems on the building."
+      ]
+    }
+  },
+  {
+    "id": "monticello",
+    "name": "Monticello",
+    "aliases": [],
+    "architects": [
+      {
+        "name": "Thomas Jefferson",
+        "aliases": ["Jefferson"],
+        "lifespan": "1743–1826",
+        "nationality": "American",
+        "bio": "Third President of the United States and principal author of the Declaration of Independence, Jefferson was also a self-taught architect. Learning largely from Palladio's books, he promoted classical architecture as a model for the new republic and designed the Virginia State Capitol and the University of Virginia."
+      }
+    ],
+    "location": { "city": "Charlottesville, Virginia", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1809,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical (Palladian)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": "/buildings/monticello/plan.jpg",
+        "alt": "Symmetrical house plan with a projecting octagonal room on one front and a portico on the other",
+        "credit": "Placeholder — source TBD"
+      },
+      {
+        "type": "ELEVATION",
+        "label": "West elevation",
+        "src": "/buildings/monticello/elevation.jpg",
+        "alt": "Elevation of a brick house with a columned portico beneath a low octagonal dome",
+        "credit": "Placeholder — source TBD"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/monticello/interior.jpg",
+          "alt": "Two-storey entrance hall with a balcony, maps and natural history specimens",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "The entrance hall doubled as a museum of fossils, maps and expedition finds."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its owner spent four decades designing, demolishing and rebuilding it."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/monticello/exterior.jpg",
+          "alt": "Red-brick house with white columns and an octagonal dome on a hilltop lawn",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "This façade appears on a US coin."
+      }
+    ],
+    "summary": {
+      "description": "Jefferson began his hilltop plantation house in 1768 and spent forty years reshaping it, adding an octagonal dome after seeing the latest Neoclassical buildings in Paris. Built and maintained largely by enslaved people, it is today presented both as an architectural landmark and as a place to confront the history of slavery in the United States.",
+      "keyFeatures": [
+        "Low octagonal dome over the west front",
+        "Temple-like porticoes in the manner of Palladio",
+        "Designed to look like a single storey, hiding the upper floors",
+        "Service wings tucked under terraces in the hillside"
+      ],
+      "funFacts": [
+        "The west front is pictured on the back of the US five-cent coin.",
+        "It is a UNESCO World Heritage Site together with the University of Virginia, which Jefferson also designed.",
+        "Jefferson learned architecture largely from Palladio's Four Books, and the porticoes and proportions show it."
+      ]
+    }
+  },
+  {
+    "id": "villa-savoye",
+    "name": "Villa Savoye",
+    "aliases": ["Savoye House", "Les Heures Claires"],
+    "architects": [
+      {
+        "name": "Le Corbusier",
+        "aliases": ["Corbusier", "Charles-Édouard Jeanneret"],
+        "lifespan": "1887–1965",
+        "nationality": "Swiss-French",
+        "bio": "Born Charles-Édouard Jeanneret in La Chaux-de-Fonds, Switzerland, he took the name Le Corbusier in Paris and became one of the founders of modern architecture. His writings, buildings and city plans, from the Five Points of Architecture to the Unité d'Habitation, shaped twentieth-century design worldwide."
+      },
+      {
+        "name": "Pierre Jeanneret",
+        "aliases": [],
+        "lifespan": "1896–1967",
+        "nationality": "Swiss",
+        "bio": "Le Corbusier's cousin and partner for nearly two decades, Pierre Jeanneret co-signed the firm's houses of the 1920s and 1930s. He later spent fifteen years in India building the new city of Chandigarh, where his furniture designs have since become collectors' pieces."
+      }
+    ],
+    "location": { "city": "Poissy", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1931,
+    "era": "MODERNISM",
+    "style": "International Style",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": "/buildings/villa-savoye/plan-ground.jpg",
+        "alt": "Square grid of slender columns with a curved glazed entrance hall at one end",
+        "credit": "Placeholder — source TBD"
+      },
+      {
+        "type": "FLOOR_PLAN",
+        "label": "First floor plan",
+        "src": "/buildings/villa-savoye/plan-first.jpg",
+        "alt": "Square upper floor wrapped around an open-air terrace, with a ramp at the centre",
+        "credit": "Placeholder — source TBD"
+      },
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section",
+        "src": "/buildings/villa-savoye/section.jpg",
+        "alt": "Section showing a ramp rising through three levels to a roof garden",
+        "credit": "Placeholder — source TBD"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/villa-savoye/interior.jpg",
+          "alt": "White interior ramp climbing between floors beside large windows",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "A ramp climbs through the middle of the house to a roof garden."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The curve of the glazed ground floor was set by the turning circle of a car."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/villa-savoye/exterior.jpg",
+          "alt": "White box raised on thin columns above a lawn, with a long horizontal window",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Designed as a weekend house for Pierre and Eugénie Savoye, the villa is a white box lifted on slender columns above a meadow outside Paris. It is the fullest demonstration of Le Corbusier's Five Points of Architecture and a defining work of the International Style.",
+      "keyFeatures": [
+        "Pilotis lifting the house off the ground",
+        "Free plan, unconstrained by load-bearing walls",
+        "Free façade, independent of the structure",
+        "Long horizontal ribbon windows",
+        "Roof garden replacing the ground lost below"
+      ],
+      "funFacts": [
+        "The family named it 'Les Heures Claires' (The Bright Hours).",
+        "Persistent roof leaks made the house hard to live in, and the Savoyes complained repeatedly.",
+        "After years of neglect and a threat of demolition, it was listed as a French historic monument in 1965."
+      ]
+    }
+  },
+  {
+    "id": "salk-institute",
+    "name": "Salk Institute for Biological Studies",
+    "aliases": ["Salk Institute", "The Salk"],
+    "architects": [
+      {
+        "name": "Louis Kahn",
+        "aliases": ["Louis I. Kahn", "Kahn"],
+        "lifespan": "1901–1974",
+        "nationality": "American (born in Estonia)",
+        "bio": "Born on the island of Saaremaa in present-day Estonia and raised in Philadelphia, Kahn found his voice late, in his fifties. His monumental buildings of concrete, brick and light, including the Kimbell Art Museum and the National Assembly of Bangladesh, made him one of the most revered architects of the twentieth century."
+      }
+    ],
+    "location": { "city": "La Jolla, San Diego, California", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1965,
+    "era": "BRUTALISM",
+    "style": "Late Modernism (Brutalist)",
+    "drawings": [
+      {
+        "type": "SITE_PLAN",
+        "label": "Site plan",
+        "src": "/buildings/salk-institute/site-plan.jpg",
+        "alt": "Two long parallel wings on either side of an open plaza, ending at a cliff edge",
+        "credit": "Placeholder — source TBD"
+      },
+      {
+        "type": "SECTION",
+        "label": "Cross section",
+        "src": "/buildings/salk-institute/section.jpg",
+        "alt": "Section through stacked laboratory floors alternating with shallower service floors",
+        "credit": "Placeholder — source TBD"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/salk-institute/interior.jpg",
+          "alt": "Wide column-free laboratory with large windows",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "Column-free laboratory floors, with full-height service floors between them."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The client asked for a place worthy of a visit by Picasso."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "/buildings/salk-institute/exterior.jpg",
+          "alt": "Empty stone plaza between two concrete wings, a thin water channel leading to the ocean",
+          "credit": "Placeholder — source TBD"
+        },
+        "caption": "Two mirror-image wings frame an empty plaza that opens to the Pacific."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned by Jonas Salk, developer of the polio vaccine, the institute sits on cliffs above the Pacific. Two symmetrical laboratory wings flank a travertine plaza cut by a narrow channel of water running toward the ocean, one of the most celebrated outdoor spaces in modern architecture.",
+      "keyFeatures": [
+        "Board-formed concrete with exposed form-tie holes",
+        "Travertine plaza split by a central water channel",
+        "Service floors between the labs for flexible layouts",
+        "Teak-clad studies angled toward the ocean"
+      ],
+      "funFacts": [
+        "Mexican architect Luis Barragán persuaded Kahn to leave the plaza bare instead of planting a garden, calling it a façade to the sky.",
+        "The water channel lines up with the setting sun around the equinoxes.",
+        "Kahn's plan also included residences and a meeting house, but only the laboratories were built."
+      ]
+    }
+  }
+]
