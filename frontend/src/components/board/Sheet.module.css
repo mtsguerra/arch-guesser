@@ -75,7 +75,8 @@
   border-top: var(--hairline) solid var(--paper-rule);
 }
 
-@media (max-width: 45rem) {
+/* Narrow board: a phone, or the reference column beside the summary */
+@container board (max-width: 40rem) {
   .sheet {
     --margin: 0.625rem;
   }

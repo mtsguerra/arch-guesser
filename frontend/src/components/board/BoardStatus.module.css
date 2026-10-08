@@ -1,8 +1,3 @@
-/* Matches the tab row height so the sheet doesn't jump when drawings arrive. */
-.tabsSpacer {
-  height: 2.375rem;
-}
-
 .body {
   position: relative;
   container-type: size;
@@ -28,7 +23,7 @@
 .errorTitle {
   font-size: var(--text-lg);
   font-weight: 700;
-  font-stretch: 112%;
+  font-stretch: var(--stretch-semi);
 }
 
 .error > :last-child {

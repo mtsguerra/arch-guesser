@@ -19,6 +19,7 @@ const clamp = (n) => Math.min(1, Math.max(0, n))
  */
 export function ZoomableDrawing({ drawing }) {
   const [zoomed, setZoomed] = useState(false)
+  const [loaded, setLoaded] = useState(false)
   const viewport = useRef(null)
   const originX = useMotionValue(0.5)
   const originY = useMotionValue(0.5)
@@ -83,7 +84,13 @@ export function ZoomableDrawing({ drawing }) {
           animate={{ scale: zoomed ? ZOOM : 1 }}
           transition={{ duration: duration.slow, ease: easeOut }}
         >
-          <ArchImage key={drawing.src} src={drawing.src} alt={drawing.alt} placeholderLabel={drawing.label} />
+          <ArchImage
+            key={drawing.src}
+            src={drawing.src}
+            alt={drawing.alt}
+            placeholderLabel={drawing.label}
+            onLoad={() => setLoaded(true)}
+          />
         </motion.div>
       </div>
 
@@ -113,7 +120,8 @@ export function ZoomableDrawing({ drawing }) {
         </button>
       </div>
 
-      {drawing.credit && <p className={styles.credit}>{drawing.credit}</p>}
+      {/* Credits belong to real images; the placeholder already labels itself. */}
+      {loaded && drawing.credit && <p className={styles.credit}>{drawing.credit}</p>}
     </div>
   )
 }

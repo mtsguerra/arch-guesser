@@ -1,0 +1,62 @@
+.playLayout,
+.summaryLayout {
+  display: grid;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.playLayout {
+  grid-template-columns: minmax(0, 1fr) 22.5rem;
+}
+
+/* Revealed: the board becomes a pinned reference column beside the monograph. */
+.summaryLayout {
+  grid-template-columns: minmax(18rem, 26rem) minmax(0, 1fr);
+}
+
+/* The drawing stays pinned while the page scrolls, so hint photos and the
+   summary can always be compared with the plan. */
+.boardSlot {
+  position: sticky;
+  top: calc(var(--rail-h) + var(--space-5));
+  display: grid;
+  gap: var(--space-3);
+}
+
+.boardAction > button {
+  width: 100%;
+  justify-content: center;
+}
+
+.aside {
+  display: grid;
+  gap: var(--space-6);
+}
+
+/* Laptop: everything stacks; guess and hints sit side by side under the board. */
+@media (max-width: 70rem) {
+  .playLayout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .playLayout .boardSlot {
+    position: static;
+  }
+
+  .aside {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    align-items: start;
+  }
+}
+
+/* Narrow: the summary leads; the board follows as a reference. */
+@media (max-width: 52rem) {
+  .summaryLayout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .summaryLayout .boardSlot {
+    position: static;
+    order: 1;
+  }
+}

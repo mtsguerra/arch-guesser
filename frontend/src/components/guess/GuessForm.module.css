@@ -1,18 +1,23 @@
-/* The guess form is a worksheet: same paper and rule as the drawing sheets. */
+/* The guess form is a worksheet: same paper, inner frame and ruled strip as the drawing sheets. */
 .sheet {
   display: grid;
   gap: var(--space-4);
-  padding: var(--space-4) var(--space-4) var(--space-5);
+  padding: var(--space-5) var(--space-5) var(--space-6);
   background: var(--paper);
   box-shadow: var(--shadow-sheet);
-  border-top: 3px solid var(--accent);
+  outline: 1.5px solid var(--paper-rule);
+  outline-offset: -0.625rem;
 }
 
+/* Ruled header strip in title-block lettering */
 .heading {
-  font-size: var(--text-lg);
+  padding-bottom: var(--space-2);
+  border-bottom: 1.5px solid var(--paper-rule);
+  font-size: var(--text-sm);
   font-weight: 700;
-  font-stretch: 112%;
-  line-height: 1.2;
+  font-stretch: var(--stretch-extra);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .form {
@@ -29,7 +34,7 @@
 .label {
   font-size: var(--text-2xs);
   font-weight: 650;
-  font-stretch: 118%;
+  font-stretch: var(--stretch-wide);
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
   color: var(--ink-soft);
@@ -69,14 +74,6 @@
 .field[data-status='wrong'] .input {
   border-color: var(--accent);
   box-shadow: 0 0 0 1px var(--accent);
-}
-
-/* Correct: inked in and locked */
-.field[data-status='correct'] .input {
-  border-color: transparent;
-  background: var(--paper-shade);
-  font-weight: 650;
-  cursor: default;
 }
 
 .answer {
@@ -155,11 +152,6 @@
   cursor: default;
 }
 
-.field[data-status='correct'] .select {
-  opacity: 1;
-  color: var(--ink);
-}
-
 .chevron {
   position: absolute;
   right: var(--space-3);
@@ -169,10 +161,6 @@
   height: 1rem;
   pointer-events: none;
   color: var(--ink-soft);
-}
-
-.field[data-status='correct'] .chevron {
-  display: none;
 }
 
 /* Country combobox */

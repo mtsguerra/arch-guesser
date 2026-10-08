@@ -20,7 +20,7 @@ const sheetMotion = {
  * The drawing set for one building. Remount per building (`key={building.id}`)
  * so the selected sheet resets.
  */
-export function DrawingBoard({ building, revealed }) {
+export function DrawingBoard({ building, revealed, fields }) {
   const idPrefix = useId()
   const [[index, direction], setPage] = useState([0, 1])
   const numbers = useMemo(() => sheetNumbers(building.drawings), [building.drawings])
@@ -32,19 +32,23 @@ export function DrawingBoard({ building, revealed }) {
     if (next !== index) setPage([next, next > index ? 1 : -1])
   }
 
+  // Title block cells fill in as soon as their guess field locks, not only at the reveal.
+  const knowName = revealed || fields?.name === 'correct'
+  const knowArchitect = revealed || fields?.architect === 'correct'
+
   const titleFields = [
     {
       key: 'project',
       label: strings.titleBlock.project,
-      value: revealed ? building.name : strings.titleBlock.unidentified,
-      muted: !revealed,
+      value: knowName ? building.name : strings.titleBlock.unidentified,
+      muted: !knowName,
       wide: true,
     },
     {
       key: 'architect',
       label: strings.titleBlock.architect,
-      value: revealed ? building.architects.map((a) => a.name).join(' & ') : strings.titleBlock.unknown,
-      muted: !revealed,
+      value: knowArchitect ? building.architects.map((a) => a.name).join(' & ') : strings.titleBlock.unknown,
+      muted: !knowArchitect,
     },
     { key: 'drawing', label: strings.titleBlock.drawing, value: drawing.label },
     {

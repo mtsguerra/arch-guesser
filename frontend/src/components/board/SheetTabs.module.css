@@ -42,13 +42,13 @@
   border-radius: inherit;
   background: var(--paper);
   border-top: 2px solid var(--accent);
-  box-shadow: 0 -4px 10px -6px rgb(67 40 24 / 0.25);
+  box-shadow: var(--shadow-tab);
 }
 
 .number {
   font-size: var(--text-xs);
   font-weight: 700;
-  font-stretch: 112%;
+  font-stretch: var(--stretch-semi);
   letter-spacing: 0.04em;
   font-variant-numeric: tabular-nums;
 }
@@ -60,4 +60,21 @@
 .label {
   font-size: var(--text-sm);
   font-weight: 500;
+}
+
+/* Narrow board: sheet numbers only, so every sheet stays reachable. The name stays
+   in the accessibility tree and in the title block's DRAWING cell. */
+@container board (max-width: 40rem) {
+  .tab {
+    padding-inline: var(--space-3);
+  }
+
+  .label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
 }

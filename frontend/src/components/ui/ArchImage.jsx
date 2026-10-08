@@ -8,9 +8,18 @@ import styles from './ArchImage.module.css'
  * Image that develops into view once decoded and falls back to a hatched
  * placeholder when the file is missing. Remount with `key={src}` to reset.
  *
- * @param fit  'contain' for drawings (never crop a plan), 'cover' for photos.
+ * @param fit     'contain' for drawings (never crop a plan), 'cover' for photos.
+ * @param onLoad  called once the real image has loaded (e.g. to show its credit).
  */
-export function ArchImage({ src, alt, placeholderTitle = strings.board.missingDrawing, placeholderLabel, fit = 'contain', className = '' }) {
+export function ArchImage({
+  src,
+  alt,
+  placeholderTitle = strings.board.missingDrawing,
+  placeholderLabel,
+  fit = 'contain',
+  className = '',
+  onLoad,
+}) {
   const [status, setStatus] = useState('loading')
 
   if (status === 'error') {
@@ -31,7 +40,10 @@ export function ArchImage({ src, alt, placeholderTitle = strings.board.missingDr
       decoding="async"
       draggable={false}
       className={`${styles.image} ${styles[fit]} ${className}`}
-      onLoad={() => setStatus('loaded')}
+      onLoad={() => {
+        setStatus('loaded')
+        onLoad?.()
+      }}
       onError={() => setStatus('error')}
       initial={false}
       animate={status === 'loaded' ? { opacity: 1, filter: 'blur(0px)' } : { opacity: 0, filter: 'blur(8px)' }}

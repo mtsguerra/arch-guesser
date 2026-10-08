@@ -5,7 +5,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1.6fr 1.6fr 1.3fr max-content;
+  grid-template-columns: 1.6fr 1.6fr 1.3fr minmax(7.5rem, max-content);
 }
 
 .field {
@@ -23,7 +23,7 @@
 .label {
   font-size: var(--text-2xs);
   font-weight: 600;
-  font-stretch: 118%;
+  font-stretch: var(--stretch-wide);
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
   color: var(--ink-soft);
@@ -37,7 +37,7 @@
   display: block;
   font-size: var(--text-sm);
   font-weight: 650;
-  font-stretch: 112%;
+  font-stretch: var(--stretch-semi);
   line-height: 1.25;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -54,7 +54,8 @@
   font-weight: 500;
 }
 
-@media (max-width: 45rem) {
+/* Narrow board: a phone, or the reference column beside the summary */
+@container board (max-width: 40rem) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }

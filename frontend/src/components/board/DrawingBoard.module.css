@@ -1,5 +1,6 @@
 .board {
   --sheet-ratio: 1.414; /* ISO A-series, landscape */
+  container: board / inline-size;
   /* Fit the whole sheet in the viewport below the rail and tabs. */
   width: min(100%, max(36rem, calc((100dvh - var(--rail-h) - 7.5rem) * var(--sheet-ratio))));
 }
@@ -17,7 +18,14 @@
 
 @media (max-width: 45rem) {
   .board {
-    --sheet-ratio: 0.8;
     width: 100%;
+  }
+}
+
+/* Narrow board (phone, or the reference column beside the summary): portrait sheet
+   so the drawing keeps real room above the stacked title block. */
+@container board (max-width: 40rem) {
+  .stage {
+    aspect-ratio: 0.8;
   }
 }

@@ -35,12 +35,16 @@
 
   /* Type */
   --font-sans: 'Archivo Variable', 'Archivo', ui-sans-serif, system-ui, sans-serif;
-  --width-normal: 100;
-  --width-wide: 118;
+  /* Width axis (Archivo wdth 62–125%): wider = more title-block */
+  --stretch-normal: 100%;
+  --stretch-semi: 112%;
+  --stretch-wide: 118%;
+  --stretch-extra: 125%;
   --text-2xs: 0.6875rem;
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
   --text-base: 1rem;
+  --text-md: 1.1875rem;
   --text-lg: 1.25rem;
   --text-xl: 1.625rem;
   --tracking-caps: 0.06em;
@@ -66,6 +70,8 @@
     0 10px 24px -8px rgb(67 40 24 / 0.28),
     0 28px 56px -20px rgb(67 40 24 / 0.24);
   --shadow-raised: 0 1px 2px rgb(67 40 24 / 0.12), 0 4px 10px -4px rgb(67 40 24 / 0.22);
+  --shadow-rail: 0 1px 0 rgb(40 22 12 / 0.5), 0 6px 16px -10px rgb(67 40 24 / 0.6);
+  --shadow-tab: 0 -4px 10px -6px rgb(67 40 24 / 0.25);
 
   /* Motion (mirrored in src/motion.js) */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);

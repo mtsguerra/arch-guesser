@@ -39,9 +39,10 @@
 }
 
 .noteTitle {
+  text-wrap: balance;
   font-size: var(--text-xs);
   font-weight: 650;
-  font-stretch: 118%;
+  font-stretch: var(--stretch-wide);
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
 }

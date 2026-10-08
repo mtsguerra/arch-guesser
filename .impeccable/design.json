@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T23:31:38+00:00",
+  "title": "Design System: Arch Guesser",
+  "extensions": {
+    "colorMeta": {
+      "oxblood": {
+        "role": "primary",
+        "displayName": "Oxblood",
+        "canonical": "oklch(36.5% 0.116 26.1)",
+        "tonalRamp": [
+          "#250000",
+          "#4a0306",
+          "#701f1d",
+          "#8d453f",
+          "#ac6c66",
+          "#cb958f",
+          "#eabfba",
+          "#ffe6e2"
+        ]
+      },
+      "oxblood-deep": {
+        "role": "primary",
+        "displayName": "Deep Oxblood",
+        "canonical": "color-mix(in oklab, #6f1d1b 82%, black)"
+      },
+      "russet": {
+        "role": "secondary",
+        "displayName": "Russet",
+        "canonical": "oklch(52.7% 0.105 53.4)",
+        "tonalRamp": [
+          "#1c0300",
+          "#3d1800",
+          "#61310b",
+          "#884c21",
+          "#ad7047",
+          "#cd9775",
+          "#eec0a3",
+          "#ffe6cf"
+        ]
+      },
+      "camel": {
+        "role": "tertiary",
+        "displayName": "Camel",
+        "canonical": "oklch(69.0% 0.092 77.5)",
+        "tonalRamp": [
+          "#130900",
+          "#302108",
+          "#503c1a",
+          "#73582e",
+          "#9c7a45",
+          "#c49e63",
+          "#e6c593",
+          "#ffeac0"
+        ]
+      },
+      "chocolate": {
+        "role": "neutral",
+        "displayName": "Chocolate",
+        "canonical": "oklch(30.7% 0.048 50.8)",
+        "tonalRamp": [
+          "#180600",
+          "#351d0e",
+          "#53392a",
+          "#70584a",
+          "#907b70",
+          "#b2a197",
+          "#d4c8c1",
+          "#f6ece7"
+        ]
+      },
+      "chocolate-soft": {
+        "role": "neutral",
+        "displayName": "Soft Chocolate",
+        "canonical": "color-mix(in oklab, #432818 78%, #fff8e4)"
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream (Drafting Mat)",
+        "canonical": "oklch(93.1% 0.084 88.9)",
+        "tonalRamp": [
+          "#0f0b03",
+          "#282418",
+          "#463f2f",
+          "#665d44",
+          "#8d7f5d",
+          "#b5a377",
+          "#dec992",
+          "#ffecaf"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Drafting Paper",
+        "canonical": "oklch(97.9% 0.027 90.9)",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403b",
+          "#605d57",
+          "#838076",
+          "#a9a498",
+          "#d0caba",
+          "#f5eedb"
+        ]
+      },
+      "paper-shade": {
+        "role": "neutral",
+        "displayName": "Paper Shade",
+        "canonical": "color-mix(in oklab, #ffe6a7 55%, #fff8e4)"
+      },
+      "paper-rule": {
+        "role": "neutral",
+        "displayName": "Paper Rule",
+        "canonical": "color-mix(in oklab, #432818 70%, #fff8e4)"
+      },
+      "paper-hairline": {
+        "role": "neutral",
+        "displayName": "Paper Hairline",
+        "canonical": "color-mix(in oklab, #bb9457 55%, #fff8e4)"
+      },
+      "mat-grid": {
+        "role": "neutral",
+        "displayName": "Mat Grid (fine, 8px)",
+        "canonical": "color-mix(in oklab, #bb9457 16%, transparent)"
+      },
+      "mat-grid-major": {
+        "role": "neutral",
+        "displayName": "Mat Grid (major, 40px)",
+        "canonical": "color-mix(in oklab, #bb9457 34%, transparent)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Building name heading the monograph; once per screen. Width: semi (112%)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Architect names, board error title; byline at weight 500 in oxblood. Width: semi (112%)."
+      },
+      "title": {
+        "displayName": "Title-block value",
+        "purpose": "Uppercase wide tabular values in title-block cells and the zoom control. Width: semi (112%)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prose and inputs."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Monograph opening paragraph at the md scale step (1.1875rem); lead and biographies max 62ch."
+      },
+      "ui": {
+        "displayName": "UI",
+        "purpose": "Button labels and sheet tab names. Width: normal (100%)."
+      },
+      "label": {
+        "displayName": "Title-block label",
+        "purpose": "Wide uppercase caps for cell, field, fact and slip labels. Width: wide (118%)."
+      },
+      "section-label": {
+        "displayName": "Section label",
+        "purpose": "Hint tray and monograph section headings at wide (118%); the worksheet heading is 0.875rem at extra (125%) with 0.08em tracking on a 1.5px rule."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sheet",
+        "value": "0 1px 1px rgb(67 40 24 / 0.08), 0 10px 24px -8px rgb(67 40 24 / 0.28), 0 28px 56px -20px rgb(67 40 24 / 0.24)",
+        "purpose": "Full paper sheets: drawing sheets, guess worksheet, monograph, combobox listbox."
+      },
+      {
+        "name": "raised",
+        "value": "0 1px 2px rgb(67 40 24 / 0.12), 0 4px 10px -4px rgb(67 40 24 / 0.22)",
+        "purpose": "Small paper objects: hint slips, photo prints, zoom control, primary button."
+      },
+      {
+        "name": "rail",
+        "value": "0 1px 0 rgb(40 22 12 / 0.5), 0 6px 16px -10px rgb(67 40 24 / 0.6)",
+        "purpose": "Header rail only: deep-chocolate edge line plus a short fall onto the mat."
+      },
+      {
+        "name": "tab",
+        "value": "0 -4px 10px -6px rgb(67 40 24 / 0.25)",
+        "purpose": "Selected sheet tab paper only; casts upward so the tab joins the sheet below."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px color-mix(in oklab, #99582a 28%, transparent)",
+        "purpose": "Russet halo with russet border on focused inputs."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The single easing curve for every transition (CSS --ease-out, motion.js easeOut)."
+      },
+      {
+        "name": "dur-fast",
+        "value": "160ms",
+        "purpose": "Hover, color and press state changes."
+      },
+      {
+        "name": "dur-base",
+        "value": "320ms",
+        "purpose": "Enter/exit fades, sheet exit, print un-tilt."
+      },
+      {
+        "name": "dur-slow",
+        "value": "560ms",
+        "purpose": "Sheet flip entry, image fade-in, zoom."
+      },
+      {
+        "name": "plot",
+        "value": "clip-path inset(0 100% 0 0) -> inset(0 0 0 0), 784ms (dur-slow x 1.4), ease-out",
+        "purpose": "Title-block values drawing in left to right as a guess locks or on reveal."
+      },
+      {
+        "name": "sheet-flip",
+        "value": "enter x 6%*dir, rotate 0.5deg*dir, opacity 0; exit x -4%*dir, scale 0.985",
+        "purpose": "Directional page flip between sheets in the set."
+      },
+      {
+        "name": "spring-soft",
+        "value": "spring stiffness 260, damping 32, mass 0.9",
+        "purpose": "Selected tab paper sliding between sheet tabs."
+      },
+      {
+        "name": "plotter-sweep",
+        "value": "2.4s ease-out infinite, 1.5px oxblood line at 50%",
+        "purpose": "Loading state on the sheet; hidden under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "rail-compact",
+        "value": "30rem"
+      },
+      {
+        "name": "board-narrow (container)",
+        "value": "40rem"
+      },
+      {
+        "name": "board-full-width",
+        "value": "45rem"
+      },
+      {
+        "name": "summary-stack",
+        "value": "52rem"
+      },
+      {
+        "name": "play-stack",
+        "value": "70rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one primary action per context, e.g. Check guess.",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg>Check guess</button>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)} .ds-btn{display:inline-flex;align-items:center;gap:.5rem;min-height:2.5rem;padding:0 1rem;border:1px solid transparent;border-radius:6px;background:transparent;font:inherit;font-size:.875rem;font-weight:600;letter-spacing:.01em;cursor:pointer;transition:background-color 160ms var(--ease-out),border-color 160ms var(--ease-out),color 160ms var(--ease-out),transform 160ms var(--ease-out)} .ds-btn:active{transform:translateY(1px) scale(.98)} .ds-btn:focus-visible{outline:2px solid var(--focus);outline-offset:2px} .ds-btn svg{width:1.05em;height:1.05em} .ds-btn-primary{background:var(--accent);color:var(--paper);box-shadow:var(--shadow-raised)} .ds-btn-primary:hover{background:var(--accent-strong)}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary paper button, e.g. Back to drawings or Show a hint.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Back to drawings</button>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)} .ds-btn{display:inline-flex;align-items:center;gap:.5rem;min-height:2.5rem;padding:0 1rem;border:1px solid transparent;border-radius:6px;background:transparent;font:inherit;font-size:.875rem;font-weight:600;letter-spacing:.01em;cursor:pointer;transition:background-color 160ms var(--ease-out),border-color 160ms var(--ease-out),color 160ms var(--ease-out),transform 160ms var(--ease-out)} .ds-btn:active{transform:translateY(1px) scale(.98)} .ds-btn:focus-visible{outline:2px solid var(--focus);outline-offset:2px} .ds-btn svg{width:1.05em;height:1.05em} .ds-btn-ghost{background:var(--paper);color:var(--ink);border-color:var(--paper-hairline)} .ds-btn-ghost:hover{border-color:var(--ink-soft)}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Underlined russet text action, e.g. Reveal answer.",
+      "html": "<button class=\"ds-btn ds-btn-quiet\">Reveal answer</button>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)} .ds-btn{display:inline-flex;align-items:center;gap:.5rem;min-height:2.5rem;padding:0 1rem;border:1px solid transparent;border-radius:6px;background:transparent;font:inherit;font-size:.875rem;font-weight:600;letter-spacing:.01em;cursor:pointer;transition:background-color 160ms var(--ease-out),border-color 160ms var(--ease-out),color 160ms var(--ease-out),transform 160ms var(--ease-out)} .ds-btn:active{transform:translateY(1px) scale(.98)} .ds-btn:focus-visible{outline:2px solid var(--focus);outline-offset:2px} .ds-btn svg{width:1.05em;height:1.05em} .ds-btn-quiet{padding-inline:.5rem;color:var(--link);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.25em} .ds-btn-quiet:hover{color:var(--accent)}"
+    },
+    {
+      "name": "Header Rail",
+      "kind": "nav",
+      "refersTo": "button-rail",
+      "description": "Sticky chocolate rail with plan-mark, wide caps wordmark and a rail button.",
+      "html": "<header class=\"ds-rail\"><span class=\"ds-brand\"><svg class=\"ds-mark\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect width=\"32\" height=\"32\" rx=\"6\" fill=\"#6f1d1b\"/><g fill=\"none\" stroke=\"#ffe6a7\" stroke-width=\"2.2\" stroke-linecap=\"square\"><path d=\"M7 7h18v18H7z\"/><path d=\"M7 16h7M18 7v6\"/><path d=\"M14 16a6 6 0 0 1 6 6\" stroke-width=\"1.6\"/></g></svg><span class=\"ds-wordmark\">Arch Guesser</span></span><button class=\"ds-btn ds-btn-rail\">Another building</button></header>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)} .ds-btn{display:inline-flex;align-items:center;gap:.5rem;min-height:2.5rem;padding:0 1rem;border:1px solid transparent;border-radius:6px;background:transparent;font:inherit;font-size:.875rem;font-weight:600;letter-spacing:.01em;cursor:pointer;transition:background-color 160ms var(--ease-out),border-color 160ms var(--ease-out),color 160ms var(--ease-out),transform 160ms var(--ease-out)} .ds-btn:active{transform:translateY(1px) scale(.98)} .ds-btn:focus-visible{outline:2px solid var(--focus);outline-offset:2px} .ds-btn svg{width:1.05em;height:1.05em} .ds-rail{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:3.5rem;padding:0 1.5rem;background:var(--chocolate);color:var(--cream);box-shadow:var(--shadow-rail)} .ds-brand{display:inline-flex;align-items:center;gap:.75rem} .ds-mark{width:1.75rem;height:1.75rem} .ds-wordmark{font-size:.875rem;font-weight:700;font-stretch:var(--stretch-extra);letter-spacing:.1em;text-transform:uppercase} .ds-btn-rail{color:var(--cream);border-color:color-mix(in oklab,var(--cream) 35%,transparent)} .ds-btn-rail:hover{border-color:var(--cream);background:color-mix(in oklab,var(--cream) 10%,transparent)} .ds-btn-rail:focus-visible{outline-color:var(--cream)}"
+    },
+    {
+      "name": "Guess Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Worksheet input with wide caps label; russet focus halo, oxblood wrong state.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-label\">Architect</span><input class=\"ds-input\" placeholder=\"Who designed it?\"></label><div class=\"ds-field ds-wrong\"><span class=\"ds-label\">Building</span><input class=\"ds-input\" value=\"Louis Kahn\"><span class=\"ds-msg\">Not this one. Edit it, or take a hint.</span></div><div class=\"ds-field\"><span class=\"ds-label\">Country</span><span class=\"ds-locked\">France<span class=\"ds-badge\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg></span></span></div>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)}  .ds-field{display:grid;gap:.25rem;margin-bottom:1rem;max-width:20rem} .ds-label{font-size:.6875rem;font-weight:600;font-stretch:var(--stretch-wide);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft)} .ds-input{min-height:2.75rem;padding:0 2.5rem 0 .75rem;border:1px solid var(--paper-rule);border-radius:2px;background:var(--paper);font:inherit;font-size:1rem;color:var(--ink);transition:border-color 160ms var(--ease-out),box-shadow 160ms var(--ease-out)} .ds-input:hover{border-color:var(--ink)} .ds-input:focus-visible{outline:none;border-color:var(--focus);box-shadow:0 0 0 3px color-mix(in oklab,var(--focus) 28%,transparent)} .ds-wrong .ds-input{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)} .ds-msg{font-size:.75rem;font-weight:550;color:var(--accent)} .ds-locked{display:flex;align-items:center;justify-content:space-between;min-height:2.75rem;padding:0 .5rem 0 .75rem;border-radius:2px;background:var(--paper-shade);font-weight:650} .ds-badge svg{width:1.5rem;height:1.5rem;padding:.25rem;border-radius:50%;background:var(--russet);color:var(--paper)}"
+    },
+    {
+      "name": "Sheet Tabs",
+      "kind": "nav",
+      "refersTo": "sheet-tab-selected",
+      "description": "Drawing-set tabs: tabular sheet number plus name; selected tab is a paper tongue with an oxblood top edge.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab ds-selected\"><span class=\"ds-num\">A-101</span><span>Ground floor plan</span></button><button class=\"ds-tab\"><span class=\"ds-num\">A-102</span><span>First floor plan</span></button><button class=\"ds-tab\"><span class=\"ds-num\">A-301</span><span>Section</span></button></div>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)}  .ds-tabs{display:flex;gap:.25rem;padding:0 .75rem;background:var(--cream)} .ds-tab{display:inline-flex;align-items:baseline;gap:.5rem;padding:.5rem 1rem calc(.5rem + 2px);border:0;border-top:2px solid transparent;border-radius:6px 6px 0 0;background:transparent;font:inherit;font-size:.875rem;font-weight:500;color:var(--ink-soft);cursor:pointer;transition:color 160ms var(--ease-out),background-color 160ms var(--ease-out)} .ds-tab:hover:not(.ds-selected){color:var(--ink);background:color-mix(in oklab,var(--paper) 45%,transparent)} .ds-tab:focus-visible{outline:2px solid var(--focus);outline-offset:-2px} .ds-selected{color:var(--ink);background:var(--paper);border-top-color:var(--accent);box-shadow:var(--shadow-tab)} .ds-num{font-size:.75rem;font-weight:700;font-stretch:var(--stretch-semi);letter-spacing:.04em;font-variant-numeric:tabular-nums} .ds-selected .ds-num{color:var(--accent)}"
+    },
+    {
+      "name": "Drawing Sheet with Title Block",
+      "kind": "custom",
+      "refersTo": "sheet",
+      "description": "Signature: framed paper sheet with zone margin, poché placeholder and a ruled four-cell title block.",
+      "html": "<figure class=\"ds-sheet\"><div class=\"ds-frame\"><div class=\"ds-poche\"><div class=\"ds-note\"><span class=\"ds-note-title\">Drawing not in the archive yet</span><span class=\"ds-note-label\">Ground floor plan</span></div></div><dl class=\"ds-tb\"><div class=\"ds-cell\"><dt>Project</dt><dd>Villa Savoye</dd></div><div class=\"ds-cell\"><dt>Architect</dt><dd class=\"ds-muted\">—</dd></div><div class=\"ds-cell\"><dt>Drawing</dt><dd>Ground floor plan</dd></div><div class=\"ds-cell\"><dt>Sheet</dt><dd>A-101 · 1 of 3</dd></div></dl></div></figure>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)}  .ds-sheet{margin:0;padding:1.125rem;background:var(--paper);box-shadow:var(--shadow-sheet)} .ds-frame{display:grid;grid-template-rows:14rem auto;border:1.5px solid var(--paper-rule)} .ds-poche{display:grid;place-items:center;padding:1rem;background:repeating-linear-gradient(-45deg,transparent 0 9px,var(--paper-hairline) 9px 10px)} .ds-note{display:grid;gap:.25rem;padding:.75rem 1rem;border:1px solid var(--paper-rule);background:var(--paper);text-align:center} .ds-note-title{font-size:.75rem;font-weight:650;font-stretch:var(--stretch-wide);letter-spacing:.06em;text-transform:uppercase} .ds-note-label{font-size:.875rem;color:var(--ink-soft)} .ds-tb{display:grid;grid-template-columns:1.6fr 1.6fr 1.3fr minmax(7.5rem,max-content);margin:0;border-top:1.5px solid var(--paper-rule)} .ds-cell{display:grid;gap:.125rem;padding:.5rem .75rem .75rem} .ds-cell+.ds-cell{border-left:1px solid var(--paper-rule)} .ds-cell dt{font-size:.6875rem;font-weight:600;font-stretch:var(--stretch-wide);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft)} .ds-cell dd{margin:0;font-size:.875rem;font-weight:650;font-stretch:var(--stretch-semi);letter-spacing:.02em;text-transform:uppercase;font-variant-numeric:tabular-nums;line-height:1.25;animation:ds-plot 784ms var(--ease-out) both} .ds-cell dd.ds-muted{color:var(--ink-soft);font-weight:500} @keyframes ds-plot{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}} @media (prefers-reduced-motion:reduce){.ds-cell dd{animation:none}}"
+    },
+    {
+      "name": "Zoom Control",
+      "kind": "button",
+      "refersTo": "zoom-control",
+      "description": "Paper chip in the sheet corner; inverts to chocolate on hover and when pressed.",
+      "html": "<button class=\"ds-zoom\" aria-pressed=\"false\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M12 5v14\"/></svg>Zoom in</button>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)}  .ds-zoom{display:inline-flex;align-items:center;gap:.25rem;min-height:2.25rem;padding:0 .75rem 0 .5rem;border:1px solid var(--paper-rule);border-radius:6px;background:var(--paper);font:inherit;font-size:.75rem;font-weight:650;font-stretch:var(--stretch-semi);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);box-shadow:var(--shadow-raised);cursor:pointer;transition:background-color 160ms var(--ease-out),color 160ms var(--ease-out)} .ds-zoom svg{width:1rem;height:1rem} .ds-zoom:hover,.ds-zoom[aria-pressed=true]{background:var(--ink);color:var(--paper)} .ds-zoom:focus-visible{outline:2px solid var(--focus);outline-offset:2px}"
+    },
+    {
+      "name": "Hint Slip",
+      "kind": "card",
+      "refersTo": "hint-slip",
+      "description": "A slip of paper on the mat: raised shadow, oxblood caps label, no frame.",
+      "html": "<article class=\"ds-slip\"><span class=\"ds-slip-label\">Hint 2 · Fact</span><p>The curve of the glazed ground floor was set by the turning circle of a car.</p></article>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)}  .ds-slip{display:grid;gap:.5rem;max-width:22rem;padding:.75rem;background:var(--paper);box-shadow:var(--shadow-raised)} .ds-slip-label{font-size:.6875rem;font-weight:650;font-stretch:var(--stretch-wide);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)} .ds-slip p{margin:0;font-size:.875rem;line-height:1.55}"
+    },
+    {
+      "name": "Outcome Chips",
+      "kind": "chip",
+      "refersTo": "chip-got",
+      "description": "Monograph recap: russet pill for a field the player got, hairline pill for a missed one.",
+      "html": "<ul class=\"ds-chips\"><li class=\"ds-chip ds-got\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg>Building</li><li class=\"ds-chip ds-missed\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>Architect</li></ul>",
+      "css": ":host{--oxblood:#6f1d1b;--camel:#bb9457;--chocolate:#432818;--russet:#99582a;--cream:#ffe6a7;--paper:#fff8e4;--ink:var(--chocolate);--ink-soft:color-mix(in oklab,var(--chocolate) 78%,var(--paper));--paper-rule:color-mix(in oklab,var(--chocolate) 70%,var(--paper));--paper-hairline:color-mix(in oklab,var(--camel) 55%,var(--paper));--paper-shade:color-mix(in oklab,var(--cream) 55%,var(--paper));--accent:var(--oxblood);--accent-strong:color-mix(in oklab,var(--oxblood) 82%,black);--focus:var(--russet);--link:var(--russet);--shadow-sheet:0 1px 1px rgb(67 40 24/.08),0 10px 24px -8px rgb(67 40 24/.28),0 28px 56px -20px rgb(67 40 24/.24);--shadow-raised:0 1px 2px rgb(67 40 24/.12),0 4px 10px -4px rgb(67 40 24/.22);--ease-out:cubic-bezier(0.16,1,0.3,1);--stretch-normal:100%;--stretch-semi:112%;--stretch-wide:118%;--stretch-extra:125%;--shadow-rail:0 1px 0 rgb(40 22 12/.5),0 6px 16px -10px rgb(67 40 24/.6);--shadow-tab:0 -4px 10px -6px rgb(67 40 24/.25);font-family:'Archivo Variable','Archivo',ui-sans-serif,system-ui,sans-serif;color:var(--ink)}  .ds-chips{display:flex;gap:.5rem;padding:0;margin:0;list-style:none} .ds-chip{display:inline-flex;align-items:center;gap:.25rem;padding:.25rem .75rem .25rem .5rem;border-radius:999px;font-size:.75rem;font-weight:600} .ds-chip svg{width:.875rem;height:.875rem} .ds-got{background:var(--russet);color:var(--paper)} .ds-missed{box-shadow:inset 0 0 0 1px var(--paper-hairline);color:var(--ink-soft)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Drawing Set on the Table",
+    "overview": "**Creative North Star: \"The Drawing Set on the Table\"**\n\nThe screen is a drafting table. A chocolate rail runs across the top like the edge of the desk; below it lies a saturated cream drafting mat ruled with a faint camel grid (8px fine, 40px major). On the mat sit sheets of paler paper, each with a hairline inner frame and a soft, lifted shadow. A building is presented the way architects document it: sheet by sheet, numbered (A-101, A-301), with a title block along the bottom edge that stays blank until the player earns the answer and then plots in cell by cell.\n\nEverything is lettered like a drawing set. Labels on documents use Archivo stretched wide, uppercase and tracked, like title-block lettering; prose, inputs and buttons stay at normal width so the game stays easy to read. Width comes from a four-step stretch scale, not from ad hoc percentages. Numbers that identify things (sheet numbers, counts, years) are tabular. Placeholder drawings are hatched with 45 degree poché, the drafting convention for solid material cut through, so a missing scan still reads as part of the set.\n\nDensity is calm and generous. The game is a stress-free study session: there are no scores, timers or celebratory effects, and motion follows the drafting metaphor. Sheets slide in from the direction you flip, values draw in from left to right like a pen plotter, and the board steps aside into a reference column when the monograph opens.",
+    "keyCharacteristics": [
+      "Cream mat with a two-weight camel grid; paler paper sheets lifted above it.",
+      "Sheets with a 1.5px inner frame, zone references in the margins, and a ruled title block.",
+      "Archivo variable: wide uppercase caps for document lettering, normal width for UI and prose.",
+      "Oxblood for acting and selecting; russet for links, focus and correct answers.",
+      "Hatched poché placeholders that belong to the set rather than apologising for it.",
+      "Ease-out motion that follows drafting gestures (flip, plot, pin)."
+    ],
+    "rules": [
+      {
+        "name": "The Camel Never Speaks Rule",
+        "body": "Camel is too light to read on cream. It draws grids, hatching and hairlines; it is never used for text or icons.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Accents Rule",
+        "body": "Oxblood means act, select or wrong. Russet means go somewhere, focus, or correct. Do not swap them.",
+        "section": "colors"
+      },
+      {
+        "name": "The Title-Block Lettering Rule",
+        "body": "Wide uppercase caps are reserved for lettering on the drawing set: cell labels, field labels, section heads and sheet numbers. Sentences, buttons, inputs and prose stay at normal width and in sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Four Widths Rule",
+        "body": "Archivo's width axis takes only four values: normal (100%) for prose, inputs, buttons and the compact wordmark under 30rem; semi (112%) for display, headlines, title-block values and sheet numbers; wide (118%) for caps labels; extra (125%) for the wordmark and the worksheet heading. Never set an in-between percentage.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Sheet numbers, counts (2/3), years and dates use tabular numerals so they align like a drawing register.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper-on-Mat Rule",
+        "body": "Paper lifts at one of two levels (sheet or raised); the mat never casts a shadow. Beyond those, only the rail and the selected tab carry shadows, each its own token. No other shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Inner Frame Rule",
+        "body": "A surface that is a document (drawing sheet, worksheet, monograph) carries a 1.5px inner frame. Slips and prints do not.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** put new documents on paper (`paper`) over the mat, with the sheet shadow and a 1.5px `paper-rule` inner frame.",
+      "**Do** letter labels on documents in Archivo at wide (118%) width, uppercase, 0.06em tracking, in soft chocolate; keep prose, inputs and buttons at normal width.",
+      "**Do** take every font width from the four-step stretch scale (100 / 112 / 118 / 125%).",
+      "**Do** use oxblood for the one primary action and selected state, and russet for links, focus and correct.",
+      "**Do** use the hatched poché placeholder with a framed caps note whenever an image is missing.",
+      "**Do** number sheets in the A-101 / A-301 convention with tabular figures.",
+      "**Do** animate with `cubic-bezier(0.16, 1, 0.3, 1)` at 160 / 320 / 560ms, making motion follow a drafting gesture (flip, plot, pin)."
+    ],
+    "donts": [
+      "**Don't** set text or icons in camel; it is for grids, hatching and hairlines only.",
+      "**Don't** use neutral grey or black shadows, or add shadows beyond the four tokens (sheet, raised, rail, tab).",
+      "**Don't** round sheets, slips or prints, or go above 6px on controls; pills are only for the recap outcome chips.",
+      "**Don't** add a second typeface; vary Archivo's width axis instead.",
+      "**Don't** add scores, timers, streaks or celebratory effects to the game.",
+      "**Don't** tilt anything except photographic prints laid on the monograph."
+    ]
+  }
+}

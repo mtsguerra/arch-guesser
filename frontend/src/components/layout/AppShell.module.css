@@ -15,7 +15,7 @@
   padding: 0 var(--gutter);
   background: var(--rail);
   color: var(--rail-ink);
-  box-shadow: 0 1px 0 rgb(0 0 0 / 0.2), 0 6px 16px -10px rgb(67 40 24 / 0.6);
+  box-shadow: var(--shadow-rail);
 }
 
 .brand {
@@ -39,7 +39,7 @@
 .wordmark {
   font-size: var(--text-sm);
   font-weight: 700;
-  font-stretch: 125%;
+  font-stretch: var(--stretch-extra);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   white-space: nowrap;
@@ -47,7 +47,7 @@
 
 @media (max-width: 30rem) {
   .wordmark {
-    font-stretch: 105%;
+    font-stretch: var(--stretch-normal);
     letter-spacing: 0.06em;
   }
 }

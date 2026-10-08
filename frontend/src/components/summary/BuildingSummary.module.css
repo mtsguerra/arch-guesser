@@ -1,0 +1,271 @@
+/* A monograph page: one wide paper sheet, set for reading. */
+.monograph {
+  container: monograph / inline-size;
+  display: grid;
+  gap: var(--space-6);
+  --inset: clamp(var(--space-5), 4vw, var(--space-7));
+  padding: var(--inset) var(--inset) var(--space-7);
+  background: var(--paper);
+  box-shadow: var(--shadow-sheet);
+  outline: 1.5px solid var(--paper-rule);
+  outline-offset: -0.75rem;
+}
+
+.header {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.title {
+  font-size: clamp(2rem, 1.4rem + 2.4vw, 3.25rem);
+  font-weight: 750;
+  font-stretch: var(--stretch-semi);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  outline: none;
+}
+
+.byline {
+  font-size: var(--text-lg);
+  font-weight: 500;
+  color: var(--accent);
+}
+
+/* Fact strip: set like a title block */
+.strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  border: 1.5px solid var(--paper-rule);
+}
+
+.stripCell {
+  display: grid;
+  align-content: start;
+  gap: 0.125rem;
+  padding: var(--space-2) var(--space-3) var(--space-3);
+  border-left: var(--hairline) solid var(--paper-rule);
+  border-top: var(--hairline) solid var(--paper-rule);
+  margin: -1px 0 0 -1px;
+}
+
+.stripCell dt {
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.stripCell dd {
+  font-weight: 650;
+  text-wrap: balance;
+  font-variant-numeric: tabular-nums;
+}
+
+.recap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+}
+
+.outcome {
+  font-size: var(--text-sm);
+  color: var(--ink-soft);
+}
+
+.recapList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: 0;
+  list-style: none;
+}
+
+/* Narrow: an even 2 × 2 instead of three chips and an orphan */
+@container monograph (max-width: 30rem) {
+  .recapList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+}
+
+.recapList li {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3) var(--space-1) var(--space-2);
+  border-radius: 999px;
+  font-size: var(--text-xs);
+  font-weight: 600;
+}
+
+.recapList svg {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.got {
+  background: var(--russet);
+  color: var(--paper);
+}
+
+.missed {
+  box-shadow: inset 0 0 0 1px var(--paper-hairline);
+  color: var(--ink-soft);
+}
+
+.lead {
+  max-width: 62ch;
+  font-size: var(--text-md);
+  line-height: 1.6;
+}
+
+.sectionTitle {
+  margin-bottom: var(--space-3);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: var(--space-6);
+}
+
+.features,
+.facts {
+  display: grid;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-base);
+  line-height: 1.5;
+}
+
+/* Grid-node bullets, like survey points on a plan */
+.features {
+  gap: var(--space-2);
+}
+
+.features li {
+  position: relative;
+  padding-left: var(--space-5);
+}
+
+.features li::before {
+  content: '';
+  position: absolute;
+  left: 0.25rem;
+  top: 0.55em;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border: 1.5px solid var(--accent);
+  rotate: 45deg;
+}
+
+.facts li {
+  padding: var(--space-2) 0;
+  border-top: var(--hairline) solid var(--paper-hairline);
+}
+
+.facts li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--space-5);
+}
+
+/* Prints laid on the page, slightly askew */
+.photo {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-2) var(--space-3);
+  background: var(--paper);
+  box-shadow: var(--shadow-raised);
+  rotate: -0.6deg;
+  transition: rotate var(--dur-base) var(--ease-out);
+}
+
+.photo:nth-child(even) {
+  rotate: 0.5deg;
+}
+
+.photo:hover {
+  rotate: 0deg;
+}
+
+.print {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--paper-shade);
+}
+
+.photo figcaption {
+  display: grid;
+  gap: 0.125rem;
+  font-size: var(--text-sm);
+}
+
+.credit {
+  font-size: var(--text-2xs);
+  color: var(--ink-soft);
+}
+
+.architects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: var(--space-6);
+}
+
+.architect {
+  display: grid;
+  gap: var(--space-1);
+  padding-top: var(--space-3);
+  border-top: 1.5px solid var(--paper-rule);
+}
+
+.architectName {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  font-stretch: var(--stretch-semi);
+}
+
+.architectMeta {
+  font-size: var(--text-sm);
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.bio {
+  margin-top: var(--space-2);
+  max-width: 62ch;
+  line-height: 1.6;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: var(--space-5);
+  border-top: var(--hairline) solid var(--paper-hairline);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photo,
+  .photo:nth-child(even) {
+    rotate: 0deg;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}

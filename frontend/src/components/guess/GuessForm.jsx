@@ -1,6 +1,6 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
-import { ArrowRight, Check, ChevronDown, Eye, X } from 'lucide-react'
+import { ArrowRight, BookOpen, Check, ChevronDown, Eye, X } from 'lucide-react'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraRange } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
@@ -20,12 +20,19 @@ function answerFor(field, building, eras) {
       return building.architects.map((a) => a.name).join(' & ')
     case 'country':
       return building.location.country
-    case 'era':
-      return eras?.find((e) => e.id === building.era)?.label ?? building.era
+    case 'era': {
+      const era = eras?.find((e) => e.id === building.era)
+      return era ? `${era.label} · ${eraRange(era)}` : building.era
+    }
   }
 }
 
-function Field({ id, field, status, attempts, revealedAnswer, children }) {
+/**
+ * One guess field. Once correct (or revealed) the input is replaced by the
+ * canonical answer, plotted in like the title block, so "Savoy" is corrected
+ * to "Villa Savoye" the moment it locks.
+ */
+function Field({ id, field, status, attempts, revealed, answer, children }) {
   const controls = useAnimationControls()
   const messageId = `${id}-message`
 
@@ -34,7 +41,7 @@ function Field({ id, field, status, attempts, revealedAnswer, children }) {
   }, [status, attempts, controls])
 
   const locked = status === 'correct'
-  const revealed = revealedAnswer != null
+  const showAnswer = answer != null
 
   return (
     <motion.div className={styles.field} data-status={revealed ? (locked ? 'correct' : 'revealed') : status} animate={controls}>
@@ -42,12 +49,18 @@ function Field({ id, field, status, attempts, revealedAnswer, children }) {
         {strings.guess.fields[field]}
       </label>
 
-      {revealed ? (
+      {showAnswer ? (
         <output id={id} className={styles.answer} aria-describedby={messageId}>
-          {revealedAnswer}
+          <motion.span
+            initial={{ clipPath: 'inset(0 100% 0 0)' }}
+            animate={{ clipPath: 'inset(0 0% 0 0)' }}
+            transition={{ duration: duration.slow * 1.4, ease: easeOut }}
+          >
+            {answer}
+          </motion.span>
         </output>
       ) : (
-        children({ id, 'aria-describedby': messageId, 'aria-invalid': status === 'wrong' || undefined, readOnly: locked })
+        children({ id, 'aria-describedby': messageId, 'aria-invalid': status === 'wrong' || undefined })
       )}
 
       <span className={styles.badge} aria-hidden="true">
@@ -79,7 +92,7 @@ function Field({ id, field, status, attempts, revealedAnswer, children }) {
 /**
  * The guess sheet. Remount per building (`key={building.id}`) to clear the inputs.
  */
-export function GuessForm({ building, eras, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp, onNext }) {
+export function GuessForm({ building, eras, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp, onNext, onShowSummary }) {
   const idPrefix = useId()
   const [values, setValues] = useState(emptyValues)
   const [nothingToCheck, setNothingToCheck] = useState(false)
@@ -116,7 +129,8 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
     field,
     status: fields[field],
     attempts,
-    revealedAnswer: revealed ? answerFor(field, building, eras) : null,
+    revealed,
+    answer: revealed || fields[field] === 'correct' ? answerFor(field, building, eras) : null,
   })
 
   return (
@@ -169,13 +183,13 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
         </Field>
 
         <Field {...fieldProps('era')}>
-          {({ readOnly, ...props }) => (
+          {(props) => (
             <div className={styles.selectWrap}>
               <select
                 {...props}
                 className={`${styles.input} ${styles.select}`}
                 value={values.era}
-                disabled={readOnly || !eras?.length}
+                disabled={!eras?.length}
                 onChange={(e) => update('era', e.target.value)}
               >
                 <option value="">{eras?.length === 0 ? strings.guess.erasUnavailable : strings.guess.placeholders.era}</option>
@@ -196,9 +210,16 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
 
         <div className={styles.actions}>
           {revealed ? (
-            <Button ref={nextButton} icon={ArrowRight} onClick={onNext} className={styles.primary}>
-              {strings.guess.next}
-            </Button>
+            <>
+              <Button ref={nextButton} icon={ArrowRight} onClick={onNext} className={styles.primary}>
+                {strings.guess.next}
+              </Button>
+              {onShowSummary && (
+                <Button variant="quiet" icon={BookOpen} onClick={onShowSummary}>
+                  {strings.summary.showSummary}
+                </Button>
+              )}
+            </>
           ) : (
             <>
               <Button type="submit" icon={Check} className={styles.primary}>

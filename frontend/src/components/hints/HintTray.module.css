@@ -9,7 +9,7 @@
   justify-content: space-between;
   font-size: var(--text-xs);
   font-weight: 700;
-  font-stretch: 118%;
+  font-stretch: var(--stretch-wide);
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
 }
@@ -45,7 +45,7 @@
 .label {
   font-size: var(--text-2xs);
   font-weight: 650;
-  font-stretch: 118%;
+  font-stretch: var(--stretch-wide);
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
   color: var(--accent);

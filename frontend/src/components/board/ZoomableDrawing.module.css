@@ -44,7 +44,7 @@
   background: var(--paper);
   font-size: var(--text-xs);
   font-weight: 650;
-  font-stretch: 112%;
+  font-stretch: var(--stretch-semi);
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
   box-shadow: var(--shadow-raised);
@@ -80,7 +80,8 @@
   pointer-events: none;
 }
 
-@media (max-width: 45rem) {
+/* Narrow board: a phone, or the reference column beside the summary */
+@container board (max-width: 40rem) {
   .canvas {
     padding: var(--space-3);
   }

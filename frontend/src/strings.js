@@ -8,7 +8,7 @@ export const strings = {
     tabsLabel: 'Drawing sheets',
     loading: 'Pulling drawings from the archive…',
     errorTitle: 'The drawing archive didn’t answer',
-    errorBody: 'Check that the backend is running on port 8080, then try again.',
+    errorBody: 'The drawings are out of reach for a moment. Try again shortly.',
     retry: 'Try again',
     zoomIn: 'Zoom in',
     zoomOut: 'Zoom out',
@@ -54,6 +54,25 @@ export const strings = {
     result: (correct, wrong) =>
       [correct && `${correct} correct`, wrong && `${wrong} not quite`].filter(Boolean).join(', ') + '.',
     countrySuggestions: 'Country suggestions',
+  },
+
+  summary: {
+    label: 'About this building',
+    showDrawings: 'Back to drawings',
+    showSummary: 'Read about it',
+    facts: {
+      location: 'Location',
+      completed: 'Completed',
+      era: 'Era',
+      style: 'Style',
+    },
+    recap: 'Your guess',
+    recapGot: 'got it',
+    recapMissed: 'revealed',
+    keyFeatures: 'Key features',
+    funFacts: 'Worth knowing',
+    photos: 'Photographs',
+    architects: (n) => (n === 1 ? 'The architect' : 'The architects'),
   },
 
   titleBlock: {

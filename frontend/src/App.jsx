@@ -6,46 +6,14 @@ import { duration, easeOut } from './motion.js'
 import { strings } from './strings.js'
 import { AppShell } from './components/layout/AppShell.jsx'
 import { BoardStatus } from './components/board/BoardStatus.jsx'
-import { DrawingBoard } from './components/board/DrawingBoard.jsx'
-import { GuessForm } from './components/guess/GuessForm.jsx'
-import { HintTray } from './components/hints/HintTray.jsx'
+import { Round } from './components/layout/Round.jsx'
 import { Button } from './components/ui/Button.jsx'
-import styles from './App.module.css'
 
 // A new drawing set is laid on the table; the old one is lifted away.
 const roundMotion = {
   initial: { opacity: 0, y: 28 },
   animate: { opacity: 1, y: 0, transition: { duration: duration.slow, ease: easeOut } },
   exit: { opacity: 0, y: -16, transition: { duration: duration.base, ease: easeOut } },
-}
-
-function Round({ round, eras }) {
-  const { building, phase } = round
-  return (
-    <div className={styles.workspace}>
-      <DrawingBoard building={building} revealed={phase === 'revealed'} />
-      <aside className={styles.aside}>
-        <GuessForm
-          building={building}
-          eras={eras}
-          phase={phase}
-          fields={round.fields}
-          attempts={round.attempts}
-          outcome={round.outcome}
-          onSubmit={round.submitGuess}
-          onEdit={round.editField}
-          onGiveUp={round.revealAnswer}
-          onNext={round.loadNext}
-        />
-        <HintTray
-          hints={building.hints}
-          hintLevel={round.hintLevel}
-          canReveal={phase === 'playing'}
-          onReveal={round.revealHint}
-        />
-      </aside>
-    </div>
-  )
 }
 
 export default function App() {
