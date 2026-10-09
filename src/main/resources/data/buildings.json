@@ -4669,5 +4669,610 @@
         "It has been a National Monument since 2018."
       ]
     }
+  },
+  {
+    "id": "palacio-da-bolsa",
+    "name": "Palácio da Bolsa",
+    "aliases": ["Stock Exchange Palace", "Porto Stock Exchange", "Bolsa do Porto", "Palacio da Bolsa"],
+    "architects": [
+      {
+        "name": "Joaquim da Costa Lima Júnior",
+        "aliases": ["Costa Lima", "Joaquim da Costa Lima"],
+        "lifespan": "1807–1864",
+        "nationality": "Portuguese",
+        "bio": "Porto architect who led the project from 1840 to 1860 and gave it its general Neo-Palladian design."
+      },
+      {
+        "name": "Gustavo Adolfo Gonçalves e Sousa",
+        "aliases": ["Gonçalves e Sousa", "Gustavo Adolfo Gonçalves"],
+        "nationality": "Portuguese",
+        "bio": "Architect who later designed the palace's grand stairway and its Arab Room."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1910,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical (Neo-Palladian), with a Neo-Moorish hall",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Porto_July_2014-31a.jpg/1920px-Porto_July_2014-31a.jpg",
+        "alt": "Large Neoclassical palace with a pedimented front, seen among the roofs of a hillside city by a river",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Porto_July_2014-31a.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Palacio_da_Bolsa_Arab_Room_%2842141799374%29.jpg/1920px-Palacio_da_Bolsa_Arab_Room_%2842141799374%29.jpg",
+        "alt": "Octagonal hall covered in gilded Moorish-style stucco arabesques, with horseshoe arches and a patterned ceiling",
+        "caption": "The Arab Room.",
+        "credit": "Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palacio_da_Bolsa_Arab_Room_(42141799374).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built by the merchants of its city as the seat of their commercial association."
+      },
+      {
+        "order": 2,
+        "text": "It stands on the ruins of a convent's cloisters, burned during the Liberal Wars in 1832."
+      },
+      {
+        "order": 3,
+        "text": "Its most famous room imitates the Alhambra, although the rest of the building is Neoclassical."
+      }
+    ],
+    "summary": {
+      "description": "After Queen Maria II gave the ruins of the São Francisco convent to Porto's merchants in 1841, the Commercial Association built its seat there to plans by Joaquim da Costa Lima Júnior, a Neoclassical palace of Palladian influence. The structure was finished by about 1850, but the lavish interiors took until 1910; Gustavo Adolfo Gonçalves e Sousa added the stairway and the Arab Room.",
+      "keyFeatures": [
+        "Neo-Palladian façades",
+        "Courtyard covered by a metal and glass dome by Tomás Soler",
+        "Grand stairway",
+        "Arab Room in Neo-Moorish style"
+      ],
+      "funFacts": [
+        "It has been a National Monument since 1982.",
+        "It stands right beside the church of São Francisco, the surviving part of the old convent."
+      ]
+    }
+  },
+  {
+    "id": "quinta-da-regaleira",
+    "name": "Quinta da Regaleira",
+    "aliases": ["Regaleira", "Palace of Monteiro the Millionaire", "Palácio da Regaleira", "Regaleira Palace"],
+    "architects": [
+      {
+        "name": "Luigi Manini",
+        "aliases": ["Manini"],
+        "lifespan": "1848–1936",
+        "nationality": "Italian (worked in Portugal)",
+        "bio": "Born in Crema, he came to Lisbon in 1879 as a scenographer for the São Carlos opera house and went on to design Neo-Manueline fantasies such as the Buçaco Palace."
+      }
+    ],
+    "location": { "city": "Sintra", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1910,
+    "era": "HISTORICISM",
+    "style": "Romantic Neo-Manueline and Neo-Gothic",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Quinta_da_Regaleira%2C_Sintra%2C_Portugal%2C_2022-07-25%2C_DD_15.jpg/1920px-Quinta_da_Regaleira%2C_Sintra%2C_Portugal%2C_2022-07-25%2C_DD_15.jpg",
+        "alt": "Lacy grey stone mansion with pinnacles and a turret, rising above a garden",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Quinta_da_Regaleira,_Sintra,_Portugal,_2022-07-25,_DD_15.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Quinta_Regaleira_%2814%29.jpg/1920px-Quinta_Regaleira_%2814%29.jpg",
+        "alt": "Room panelled in carved dark wood with a painted frieze above a monumental doorway",
+        "caption": "A panelled room.",
+        "credit": "Photo: Jorge Lobo · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Quinta_Regaleira_(14).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its owner, nicknamed 'the Millionaire', bought the estate in 1892." },
+      {
+        "order": 2,
+        "text": "Its park hides grottoes, tunnels and two 'initiation wells' that were never meant to hold water."
+      },
+      {
+        "order": 3,
+        "text": "Its symbols allude to alchemy, Freemasonry, the Knights Templar and the Rosicrucians."
+      }
+    ],
+    "summary": {
+      "description": "António Augusto Carvalho Monteiro bought the estate in 1892 and, with Luigi Manini, built a Romantic palace, chapel and park between 1904 and 1910. Manini's architecture evokes Roman, Gothic, Renaissance and Manueline styles, and the park is filled with buildings and passages charged with esoteric symbolism.",
+      "keyFeatures": [
+        "Neo-Manueline palace with pinnacles and a turret",
+        "Chapel",
+        "Initiation Well with a 27-metre spiral staircase",
+        "Grottoes, lakes and tunnels in the park"
+      ],
+      "funFacts": [
+        "The Initiation Well's nine flights of stairs may allude to the nine founders of the Knights Templar.",
+        "Before Carvalho Monteiro, it belonged to the Viscountess of Regaleira."
+      ]
+    }
+  },
+  {
+    "id": "estacao-de-sao-bento",
+    "name": "Estação de São Bento",
+    "aliases": ["São Bento railway station", "São Bento station", "Porto São Bento", "Sao Bento", "São Bento"],
+    "architects": [
+      {
+        "name": "José Marques da Silva",
+        "aliases": ["Marques da Silva"],
+        "lifespan": "1869–1947",
+        "nationality": "Portuguese",
+        "bio": "Trained at the École des Beaux-Arts in Paris under Victor Laloux, he combined the Beaux-Arts tradition with practical modern planning and long directed the Porto School of Fine Arts."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1916,
+    "era": "HISTORICISM",
+    "style": "Beaux-Arts",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porto%2C_Portugal_%2848513789692%29.jpg/1920px-Porto%2C_Portugal_%2848513789692%29.jpg",
+        "alt": "Granite Beaux-Arts building with a clock in a curved pediment and a mansard roof, on a street corner",
+        "credit": "Photo: Andrey Filippov 安德烈 · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Porto,_Portugal_(48513789692).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/A_Glimpse_into_S%C3%A3o_Bento_Train_Station%27s_Artistic_Interior_%2855248750584%29.jpg/1920px-A_Glimpse_into_S%C3%A3o_Bento_Train_Station%27s_Artistic_Interior_%2855248750584%29.jpg",
+        "alt": "Entrance hall lined with large blue-and-white tile panels under tall arched windows and a clock",
+        "caption": "The vestibule.",
+        "credit": "Photo: Michael Gaylard · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Glimpse_into_S%C3%A3o_Bento_Train_Station%27s_Artistic_Interior_(55248750584).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It stands on the site of a Benedictine convent founded by King Manuel I in 1518."
+      },
+      {
+        "order": 2,
+        "text": "Its vestibule is lined with about 20,000 painted tiles showing scenes of the nation's history."
+      },
+      { "order": 3, "text": "Trains reach it through a tunnel carved into the hill behind it." }
+    ],
+    "summary": {
+      "description": "Built on the site of the Benedictine convent of São Bento da Avé Maria, Porto's central station was designed by José Marques da Silva in the French Beaux-Arts manner. Works began in 1904, and the definitive building opened on 5 October 1916. Its vestibule holds about 20,000 azulejo tiles by Jorge Colaço.",
+      "keyFeatures": [
+        "U-shaped plan facing the Praça Almeida Garrett",
+        "Central atrium flanked by two volumes",
+        "Azulejo panels by Jorge Colaço, about 551 m²",
+        "Tunnel through the Batalha escarpment"
+      ],
+      "funFacts": [
+        "A provisional station had opened on the site in 1896.",
+        "The city removed Marques da Silva from the project in 1909."
+      ]
+    }
+  },
+  {
+    "id": "estacao-do-rossio",
+    "name": "Estação do Rossio",
+    "aliases": ["Rossio railway station", "Rossio station", "Estação Central", "Rossio"],
+    "architects": [
+      {
+        "name": "José Luís Monteiro",
+        "aliases": ["José Luis Monteiro", "Monteiro"],
+        "lifespan": "1848–1942",
+        "nationality": "Portuguese",
+        "bio": "One of the most influential Portuguese architects of the late 19th century, and teacher of Porfírio Pardal Monteiro at the Lisbon School of Fine Arts."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1890,
+    "era": "HISTORICISM",
+    "style": "Neo-Manueline",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Lisbon_2015_10_13_0929_%2823294937322%29.jpg/1920px-Lisbon_2015_10_13_0929_%2823294937322%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.92 },
+        "alt": "Ornate white stone façade with a clock turret, pinnacles and rows of carved arched windows",
+        "credit": "Photo: Harvey Barrison · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lisbon_2015_10_13_0929_(23294937322).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Gare_Rossio_Lisbonne_4.jpg/1920px-Gare_Rossio_Lisbonne_4.jpg",
+        "crop": { "x": 0, "y": 0, "w": 0.76, "h": 1 },
+        "alt": "Concourse with an iron roof truss, skylights and pointed arched openings",
+        "caption": "The concourse.",
+        "credit": "Photo: Chabe01 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gare_Rossio_Lisbonne_4.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was originally called 'Central Station', a name still carved on its façade."
+      },
+      { "order": 2, "text": "Trains reach it through a tunnel almost 3 km long under the city." },
+      { "order": 3, "text": "Its entrance has two intertwined horseshoe-shaped portals." }
+    ],
+    "summary": {
+      "description": "Commissioned by the Portuguese Royal Railway Company and designed in 1886–87 by José Luís Monteiro, the station was completed in 1890 at the end of a tunnel of over 2.9 km. Its Neo-Manueline façade is a Romantic recreation of the exuberant style of early 16th-century Portugal.",
+      "keyFeatures": [
+        "Neo-Manueline façade",
+        "Two intertwined horseshoe portals",
+        "Clock in a small turret",
+        "Tunnel of over 2.9 km"
+      ],
+      "funFacts": ["The station was closed to trains from 2004 to 2008 while the tunnel was renewed."]
+    }
+  },
+  {
+    "id": "livraria-lello",
+    "name": "Livraria Lello",
+    "aliases": ["Lello Bookshop", "Livraria Lello & Irmão", "Livraria Chardron", "Lello"],
+    "architects": [
+      {
+        "name": "Francisco Xavier Esteves",
+        "aliases": ["Xavier Esteves", "Esteves"],
+        "lifespan": "1864–1944",
+        "nationality": "Portuguese",
+        "bio": "Engineer, professor and politician, considered the man who introduced reinforced concrete to civil construction in Portugal."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1906,
+    "era": "ART_NOUVEAU",
+    "style": "Neo-Gothic and Art Nouveau",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Porto%2C_Portugal_%2852961033038%29.jpg/1920px-Porto%2C_Portugal_%2852961033038%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.86 },
+        "alt": "Narrow shopfront with a Gothic-style gable, painted figures and tall windows",
+        "credit": "Photo: thirdsphoto · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Porto,_Portugal_(52961033038).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Livraria_Lello_Bookshop_Porto_%2842859364891%29.jpg/1920px-Livraria_Lello_Bookshop_Porto_%2842859364891%29.jpg",
+        "alt": "Forked wooden staircase rising to a gallery under a stained-glass ceiling, between walls of books",
+        "caption": "The staircase.",
+        "credit": "Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Livraria_Lello_Bookshop_Porto_(42859364891).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a shop, founded by a Frenchman in 1869 and later run by two brothers."
+      },
+      { "order": 2, "text": "Its present building opened in 1906." },
+      {
+        "order": 3,
+        "text": "Inside, a forked staircase climbs to a gallery under a large stained-glass window with the motto 'Decus in Labore'."
+      }
+    ],
+    "summary": {
+      "description": "The bookshop founded by Ernesto Chardron passed to the brothers José and António Lello, who hired engineer Francisco Xavier Esteves to build new premises on Rua das Carmelitas, inaugurated in 1906. The façade mixes Neo-Gothic and Art Nouveau; inside, a forked staircase rises to a gallery beneath an 8-by-3.5-metre stained-glass window.",
+      "keyFeatures": [
+        "Neo-Gothic gable with painted figures of Art and Science",
+        "Forked staircase to a first-floor gallery",
+        "Carved wood balusters",
+        "Large stained-glass skylight with the owners' monogram"
+      ],
+      "funFacts": ["It was called Livraria Chardron until 1919."]
+    }
+  },
+  {
+    "id": "teatro-nacional-sao-joao",
+    "name": "Teatro Nacional São João",
+    "aliases": ["São João National Theatre", "Teatro São João", "Teatro de São João", "Real Teatro de São João", "São João"],
+    "architects": [
+      {
+        "name": "José Marques da Silva",
+        "aliases": ["Marques da Silva"],
+        "lifespan": "1869–1947",
+        "nationality": "Portuguese",
+        "bio": "Trained at the École des Beaux-Arts in Paris under Victor Laloux, he combined the Beaux-Arts tradition with practical modern planning and long directed the Porto School of Fine Arts."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1918,
+    "era": "HISTORICISM",
+    "style": "Eclectic",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Teatro_Nacional_Dom_Jo%C3%A3o_-_Porto_-_Portugal_%2827537390050%29.jpg/1920px-Teatro_Nacional_Dom_Jo%C3%A3o_-_Porto_-_Portugal_%2827537390050%29.jpg",
+        "crop": { "x": 0, "y": 0.34, "w": 1, "h": 0.66 },
+        "alt": "Large stone theatre with Ionic columns, arched windows and sculpted reliefs, on a square",
+        "credit": "Photo: Vitor Oliveira · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_Dom_Jo%C3%A3o_-_Porto_-_Portugal_(27537390050).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Teatro_Nacional_S%C3%A3o_Jo%C3%A3o_%282%29.jpg/1920px-Teatro_Nacional_S%C3%A3o_Jo%C3%A3o_%282%29.jpg",
+        "alt": "Foyer with marbled red columns, gilded capitals and a coffered ceiling hung with lamps",
+        "caption": "The foyer.",
+        "credit": "Photo: Joseolgon · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_S%C3%A3o_Jo%C3%A3o_(2).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It replaced an 18th-century royal theatre destroyed by fire in 1908." },
+      {
+        "order": 2,
+        "text": "Its architect won the competition for the new building and work began in 1911."
+      },
+      { "order": 3, "text": "It opened in 1920 with a performance of Verdi's 'Aida'." }
+    ],
+    "summary": {
+      "description": "The original Royal Theatre of São João, opened in 1798, burned down on 11 April 1908. José Marques da Silva won the competition for a new theatre on the same site, and building began in 1911. It was complete in 1918 and inaugurated on 7 March 1920 with Verdi's 'Aida'.",
+      "keyFeatures": [
+        "Façade with four Ionic columns",
+        "Reliefs of Kindness, Pain, Hatred and Love by Diogo de Macedo and Sousa Caldas",
+        "Horseshoe-shaped auditorium with a painted ceiling",
+        "Sculpted entrance hall"
+      ],
+      "funFacts": ["From 1932 it also worked as a cinema, the São João Cine."]
+    }
+  },
+  {
+    "id": "casa-dos-patudos",
+    "name": "Casa dos Patudos",
+    "aliases": ["Casa-Museu dos Patudos", "Casa de José Relvas", "Patudos"],
+    "architects": [
+      {
+        "name": "Raul Lino",
+        "aliases": ["Lino"],
+        "lifespan": "1879–1974",
+        "nationality": "Portuguese",
+        "bio": "Architect, designer and theorist of the 'Casa Portuguesa', an idealised concept of Portuguese residential architecture; many of his houses stand in Cascais and Sintra."
+      }
+    ],
+    "location": { "city": "Alpiarça", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1909,
+    "era": "HISTORICISM",
+    "style": "Casa Portuguesa",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Alpendre_em_galil%C3%A9_da_Casa-Museu_dos_Patudos.jpg/1920px-Alpendre_em_galil%C3%A9_da_Casa-Museu_dos_Patudos.jpg",
+        "alt": "White country house with a long arcaded upper gallery and tiled roofs, beside an open yard",
+        "credit": "Photo: Threeohsix · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Alpendre_em_galil%C3%A9_da_Casa-Museu_dos_Patudos.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pormenor_da_escadaria_principal_para_o_primeiro_piso.jpg/1920px-Pormenor_da_escadaria_principal_para_o_primeiro_piso.jpg",
+        "alt": "Grand staircase with carved wooden balustrade and statues, against a blue-and-white tile panel",
+        "caption": "The grand staircase.",
+        "credit": "Photo: Senhormario · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pormenor_da_escadaria_principal_para_o_primeiro_piso.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for a republican politician who proclaimed the Republic from a city hall balcony in 1910."
+      },
+      {
+        "order": 2,
+        "text": "Its owner left it to his town in his will, asking that it be kept as a museum."
+      },
+      { "order": 3, "text": "Its architect was the leading theorist of the 'Portuguese house'." }
+    ],
+    "summary": {
+      "description": "Raul Lino designed this house, built between 1905 and 1909, for José Relvas, the republican who proclaimed the Republic in Lisbon on 5 October 1910 and later briefly led the government. Relvas left it and its collections to the municipality of Alpiarça, and it opened as a museum on 15 May 1960.",
+      "keyFeatures": [
+        "Arcaded gallery",
+        "White walls and tiled roofs inspired by traditional Portuguese houses",
+        "Grand staircase and mezzanine",
+        "Rooms kept with the owner's art collections"
+      ],
+      "funFacts": ["José Relvas died in the house in 1929."]
+    }
+  },
+  {
+    "id": "casa-de-serralves",
+    "name": "Casa de Serralves",
+    "aliases": ["Serralves Villa", "Villa Serralves", "Serralves"],
+    "architects": [
+      {
+        "name": "Charles Siclis",
+        "aliases": ["Siclis"],
+        "lifespan": "1889–1942",
+        "nationality": "French",
+        "bio": "Parisian architect and decorator, author of various projects for Paris theatres."
+      },
+      {
+        "name": "José Marques da Silva",
+        "aliases": ["Marques da Silva"],
+        "lifespan": "1869–1947",
+        "nationality": "Portuguese",
+        "bio": "Trained at the École des Beaux-Arts in Paris under Victor Laloux, he combined the Beaux-Arts tradition with practical modern planning and long directed the Porto School of Fine Arts."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1940,
+    "era": "ART_DECO",
+    "style": "Art Deco",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Art_deco_mansion_%2832608592537%29.jpg/1920px-Art_deco_mansion_%2832608592537%29.jpg",
+        "alt": "Pink Art Deco villa with a rounded bay, vertical window strips and a terrace of steps",
+        "credit": "Photo: Francisco Anzola · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Art_deco_mansion_(32608592537).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Porto-Casa_de_Serralves-Porta_do_sal%C3%A3o-20140910.jpg/1920px-Porto-Casa_de_Serralves-Porta_do_sal%C3%A3o-20140910.jpg",
+        "alt": "Doorway with a gilded wrought-iron grille between pale columns, opening onto a sequence of rooms",
+        "caption": "The salon door.",
+        "credit": "Photo: Daniel VILLAFRUELA. · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Porto-Casa_de_Serralves-Porta_do_sal%C3%A3o-20140910.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was commissioned by an aristocrat of the textile industry who inherited the estate in 1923."
+      },
+      {
+        "order": 2,
+        "text": "A French architect drew the project; a Portuguese architect carried it out and kept changing it."
+      },
+      {
+        "order": 3,
+        "text": "It stands in a park whose grounds now also hold a contemporary art museum."
+      }
+    ],
+    "summary": {
+      "description": "The 2nd Count of Vizela had the house designed by the French architect Charles Siclis; its execution fell to José Marques da Silva, whose successive changes delayed the works until 1940. Considered a unique example of Art Deco in Portugal, it was bought by the State in 1986 and became the core of the Serralves Foundation.",
+      "keyFeatures": [
+        "Pink rendered Art Deco volumes",
+        "Gardens by Jacques Gréber, designed in 1932",
+        "Axial water garden",
+        "Rooms now used for exhibitions"
+      ],
+      "funFacts": [
+        "The Count moved in only in 1944 and sold it about ten years later.",
+        "The Serralves buildings were classified as a National Monument in 2012."
+      ]
+    }
+  },
+  {
+    "id": "coliseu-do-porto",
+    "name": "Coliseu do Porto",
+    "aliases": ["Coliseum of Porto", "Porto Coliseum", "Coliseu"],
+    "architects": [
+      {
+        "name": "Cassiano Branco",
+        "aliases": ["Cassiano Viriato Branco", "Branco"],
+        "lifespan": "1897–1970",
+        "nationality": "Portuguese",
+        "bio": "One of the most important Portuguese architects of the first half of the 20th century, also known for the Hotel Vitória and the Portugal dos Pequenitos park."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1941,
+    "era": "ART_DECO",
+    "style": "Streamline Moderne and Art Deco",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Coliseu_do_Porto%2C_29_de_ourubro_de_2016_%281%29.jpg/1920px-Coliseu_do_Porto%2C_29_de_ourubro_de_2016_%281%29.jpg",
+        "crop": { "x": 0.26, "y": 0.25, "w": 0.48, "h": 0.75 },
+        "alt": "Cream building with horizontal bands of windows, round porthole openings and a dark stone base",
+        "credit": "Photo: Joehawkins · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coliseu_do_Porto,_29_de_ourubro_de_2016_(1).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coliseu_do_Porto_in_2016_%282%29.jpg/1920px-Coliseu_do_Porto_in_2016_%282%29.jpg",
+        "alt": "Auditorium with tiers of boxes, a gilded relief above the stage and a ceiling ring lit in blue",
+        "caption": "The auditorium.",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coliseu_do_Porto_in_2016_(2).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced a garden-hall that had been the meeting place of its city's society."
+      },
+      { "order": 2, "text": "It opened in December 1941 and is one of its city's main concert venues." },
+      {
+        "order": 3,
+        "text": "In 1995 its sale to a Brazilian church caused a popular revolt, and the city council bought it instead."
+      }
+    ],
+    "summary": {
+      "description": "Built on the site of the Passos Manuel garden-hall, the Coliseu was designed by Cassiano Branco with Júlio de Brito, with the Parisian theatre architect Charles Siclis also invited onto the project. It opened on 19 December 1941 and is an example of Streamline Moderne and Art Deco in Porto.",
+      "keyFeatures": [
+        "Horizontal bands of windows and porthole openings",
+        "Tall corner tower",
+        "Large auditorium with tiers of boxes",
+        "Ceiling lit from a central ring"
+      ],
+      "funFacts": [
+        "After the protests of 1995 the city council bought it in 1996.",
+        "A fire in 1996 destroyed the stage and main hall; it reopened on 17 December that year."
+      ]
+    }
+  },
+  {
+    "id": "igreja-de-nossa-senhora-de-fatima",
+    "name": "Igreja de Nossa Senhora de Fátima",
+    "aliases": [
+      "Church of Our Lady of Fátima",
+      "Igreja de Nossa Senhora do Rosário de Fátima",
+      "Our Lady of the Rosary of Fátima",
+      "Igreja de Fátima"
+    ],
+    "architects": [
+      {
+        "name": "Porfírio Pardal Monteiro",
+        "aliases": ["Pardal Monteiro"],
+        "lifespan": "1897–1957",
+        "nationality": "Portuguese",
+        "bio": "One of the most important Portuguese architects of the first half of the 20th century, student of José Luís Monteiro and author of the Instituto Superior Técnico campus in Lisbon."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1938,
+    "era": "MODERNISM",
+    "style": "Modernism with Art Deco traits",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Lisbon_Portugal_February_2015_11.jpg/1920px-Lisbon_Portugal_February_2015_11.jpg",
+        "alt": "White stone church with a tall slender bell tower ending in a pointed spire, on a street corner",
+        "credit": "Photo: Bengt Nyman · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lisbon_Portugal_February_2015_11.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lisboa%2C_Igreja_de_Nossa_Senhora_do_Ros%C3%A1rio_de_F%C3%A1tima%2C_interior.jpg/1920px-Lisboa%2C_Igreja_de_Nossa_Senhora_do_Ros%C3%A1rio_de_F%C3%A1tima%2C_interior.jpg",
+        "alt": "Nave with pointed concrete arches leading to an apse filled with blue stained glass",
+        "caption": "The nave.",
+        "credit": "Photo: Palickap · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lisboa,_Igreja_de_Nossa_Senhora_do_Ros%C3%A1rio_de_F%C3%A1tima,_interior.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was commissioned in 1933 and consecrated in October 1938." },
+      { "order": 2, "text": "It won the Valmor Prize for architecture in the year it was consecrated." },
+      {
+        "order": 3,
+        "text": "It is considered a landmark of its country's Modernism, with a flat roof and an asymmetrical composition."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned from Porfírio Pardal Monteiro in 1933, the church was consecrated in October 1938 and won that year's Valmor Prize. It keeps Art Deco traits in its fragmented, ornamented volumes, but its modernity lies in its asymmetry, flat roof and the expression of its structure. Its nave is lit by tall stained-glass windows between great concrete arches.",
+      "keyFeatures": [
+        "Tall bell tower",
+        "Circular baptistery with a stepped concrete dome",
+        "Great concrete arches carrying the nave roof",
+        "Apse walls filled with stained glass"
+      ],
+      "funFacts": ["Raul Rodrigues Lima and João Faria da Costa worked on the project in Pardal Monteiro's studio."]
+    }
   }
 ]
