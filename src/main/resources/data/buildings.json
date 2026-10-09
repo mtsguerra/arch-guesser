@@ -1143,5 +1143,1171 @@
         "Güell himself moved onto the estate in 1906 to promote it."
       ]
     }
+  },
+  {
+    "id": "casa-batllo",
+    "name": "Casa Batlló",
+    "aliases": ["Batlló House", "Casa dels Ossos", "House of Bones"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1906,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Façade and section (1904)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fachada_y_secci%C3%B3n_Casa_Batll%C3%B3_%281904%29.jpg",
+        "alt": "Hand-drawn elevation of a narrow house front with bulging windows, beside its section",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fachada_y_secci%C3%B3n_Casa_Batll%C3%B3_(1904).jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Casa_Batllo%2C_Barcelona_%2840897276590%29.jpg/1920px-Casa_Batllo%2C_Barcelona_%2840897276590%29.jpg",
+        "alt": "Colourful mosaic façade with bone-like balconies shaped like masks",
+        "credit": "Photo: Mike McBey · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_Batllo,_Barcelona_(40897276590).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Casa_Batillo%2C_Gaudi%2C_finished_1906_%287%29_%2830880379170%29.jpg/1920px-Casa_Batillo%2C_Gaudi%2C_finished_1906_%287%29_%2830880379170%29.jpg",
+        "alt": "Curving plaster wall pierced by two rounded windows of leaded glass",
+        "caption": "Rounded windows along the stairwell.",
+        "credit": "Photo: Richard Mortel · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_Batillo,_Gaudi,_finished_1906_(7)_(30880379170).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was not a new building: its architect transformed an existing house from 1877."
+      },
+      {
+        "order": 2,
+        "text": "Locals call it the House of Bones, after its bone-like columns and mask-like balconies."
+      },
+      {
+        "order": 3,
+        "text": "Its roof, covered in scale-like tiles, is often likened to the back of a dragon."
+      }
+    ],
+    "summary": {
+      "description": "In 1904 the textile industrialist Josep Batlló hired Gaudí to transform his 1877 house on the Passeig de Gràcia. Finished in 1906, it has a façade of broken-tile mosaic shading from gold to blue-green, mask-like balconies, bone-like columns and a roof that recalls the back of a dragon.",
+      "keyFeatures": [
+        "Trencadís mosaic façade",
+        "Mask-like balconies and bone-like columns",
+        "Arched, scaly roof",
+        "Few straight lines anywhere"
+      ],
+      "funFacts": [
+        "Barcelona's City Council shortlisted it for the 1906 best building award, which went to another architect.",
+        "Locals call it Casa dels Ossos, the House of Bones."
+      ]
+    }
+  },
+  {
+    "id": "casa-mila",
+    "name": "Casa Milà",
+    "aliases": ["La Pedrera", "Casa Mila"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1912,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Typical floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gaudi-casaMila-planol.jpg",
+        "alt": "Floor plan of a block around two irregular courtyards, with curving room shapes",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gaudi-casaMila-planol.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section (1906)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Secci%C3%B3n_Pedrera_%281906%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.87 },
+        "alt": "Hand-drawn section through a multi-storey building with an arched attic",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Secci%C3%B3n_Pedrera_(1906).jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Barcelona_23_21_15_431000.jpeg/1920px-Barcelona_23_21_15_431000.jpeg",
+        "alt": "Corner apartment building with an undulating pale stone façade and twisting iron balconies",
+        "credit": "Photo: Robot8A · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barcelona_23_21_15_431000.jpeg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/La_Pedrera_Barcelona_May_2026-2.jpg/1920px-La_Pedrera_Barcelona_May_2026-2.jpg",
+        "alt": "Entrance stair with painted, cave-like walls and a carved wooden door",
+        "caption": "A painted entrance hall.",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Pedrera_Barcelona_May_2026-2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its stone façade carries no load: columns hold up the floors, so walls inside could go anywhere."
+      },
+      {
+        "order": 2,
+        "text": "Its city mocked it with a nickname meaning 'the stone quarry', and the name stuck."
+      },
+      { "order": 3, "text": "It was its architect's last private house, finished in 1912." }
+    ],
+    "summary": {
+      "description": "Gaudí's last private house, built in 1906–12 for Pere Milà and Roser Segimon, wraps around two courtyards behind an undulating stone façade with twisting wrought-iron balconies. Columns carry the floors so that interior walls can go anywhere, and an underground garage and a sculpted roof terrace complete a building far ahead of its time.",
+      "keyFeatures": [
+        "Self-supporting, undulating stone façade",
+        "Free floor plans on a column structure",
+        "Two large inner courtyards",
+        "Roof terrace of sculpted chimneys and stair towers"
+      ],
+      "funFacts": [
+        "Barcelona mocked it as 'La Pedrera', the stone quarry, and the nickname stuck.",
+        "Its wrought-iron balconies were designed by Josep Maria Jujol.",
+        "Gaudí certified the building complete on 31 October 1912."
+      ]
+    }
+  },
+  {
+    "id": "sagrada-familia",
+    "name": "Sagrada Família",
+    "aliases": ["Basílica de la Sagrada Família", "Temple Expiatori de la Sagrada Família", "Sagrada Familia"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": null,
+    "era": "ART_NOUVEAU",
+    "style": "Catalan Modernisme (Gothic-inspired)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Planta_de_la_Sagrada_Fam%C3%ADlia.jpg",
+        "alt": "Plan of a large cross-shaped church with a many-aisled nave, a rounded apse and broad stairs at the front",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Planta_de_la_Sagrada_Fam%C3%ADlia.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Barcelona-Eixample%2C_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg/1920px-Barcelona-Eixample%2C_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg",
+        "alt": "Façade of angular sculpted figures beneath tall pointed spires",
+        "credit": "Photo: Michielverbeek · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barcelona-Eixample,_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Apsis_Sagrada_Familia.jpg/1920px-Apsis_Sagrada_Familia.jpg",
+        "alt": "Tall branching columns like a forest, rising to a vault, with coloured light",
+        "caption": "Columns branch like trees to hold up the vaults.",
+        "credit": "Photo: Triptychon · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apsis_Sagrada_Familia.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Begun in 1882, it is still being built, paid for entirely by donations." },
+      { "order": 2, "text": "Its columns branch like trees to carry the vaults." },
+      {
+        "order": 3,
+        "text": "Its architect devoted his last years entirely to it and is buried in its crypt."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1882 to a conventional Gothic Revival design, the expiatory church passed in 1883 to Gaudí, who reshaped it into a vast, forest-like basilica and worked on it until his death in 1926. Construction continues, funded by donations; in 2026 its central Tower of Jesus Christ reached 172.5 metres, making it the world's tallest church.",
+      "keyFeatures": [
+        "Branching, tree-like columns",
+        "Three façades: Nativity, Passion and Glory",
+        "Towers for the apostles, the evangelists, Mary and Jesus",
+        "Geometry of hyperboloids and helicoids"
+      ],
+      "funFacts": [
+        "Its first architect, Francisco de Paula del Villar, resigned in 1883.",
+        "Pope Benedict XVI consecrated it as a basilica on 7 November 2010.",
+        "The central tower was blessed on 10 June 2026, a hundred years after Gaudí's death."
+      ]
+    }
+  },
+  {
+    "id": "hotel-tassel",
+    "name": "Hôtel Tassel",
+    "aliases": ["Hotel Tassel", "Tassel House", "Maison Tassel"],
+    "architects": [
+      {
+        "name": "Victor Horta",
+        "aliases": ["Horta", "Baron Horta"],
+        "lifespan": "1861–1947",
+        "nationality": "Belgian",
+        "bio": "Born in Ghent, Horta designed a series of Brussels town houses in the 1890s that made him the pioneer of Art Nouveau architecture, with open plans, exposed iron and whiplash ornament. Four of them, including the Hôtel Tassel and his own house, form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Brussels", "country": "Belgium", "countryCode": "BE" },
+    "yearCompleted": 1893,
+    "era": "ART_NOUVEAU",
+    "style": "Art Nouveau",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/HortaHotelTassel.jpg/1920px-HortaHotelTassel.jpg",
+        "alt": "Narrow stone town-house front with a projecting bow window of iron and glass",
+        "credit": "Photo: Kat_hly.1608 · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:HortaHotelTassel.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tassel_House_stairway-00.JPG",
+        "alt": "Curving stair with whiplash ironwork, slender iron column and painted swirling walls",
+        "caption": "The stair hall at the heart of the house.",
+        "credit": "Photo: Henry Townsend · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tassel_House_stairway-00.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for a scientist and university professor, and is counted among the very first buildings of its style."
+      },
+      {
+        "order": 2,
+        "text": "Instead of a row of dark rooms, its rooms are arranged around a central stair hall."
+      },
+      {
+        "order": 3,
+        "text": "It stands in a European capital known for its comic strips and its parliament of the Union."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Victor Horta for the scientist and professor Émile Tassel and built in 1892–93, this Brussels town house is considered one of the first Art Nouveau buildings. Instead of the usual row of dark rooms, Horta arranged the house around a central stair hall, and let exposed iron and whiplash ornament flow through it.",
+      "keyFeatures": [
+        "Central stair hall linking the different levels",
+        "Exposed iron columns, inside and on the façade",
+        "Whiplash ornament in iron, mosaic and paint",
+        "Projecting bow window"
+      ],
+      "funFacts": [
+        "It strongly influenced the French Art Nouveau architect Hector Guimard.",
+        "With three other Horta town houses, it became a UNESCO World Heritage Site in 2000."
+      ]
+    }
+  },
+  {
+    "id": "glasgow-school-of-art",
+    "name": "Glasgow School of Art",
+    "aliases": ["Mackintosh Building", "GSA", "Glasgow School of Art Mackintosh Building"],
+    "architects": [
+      {
+        "name": "Charles Rennie Mackintosh",
+        "aliases": ["Mackintosh", "C. R. Mackintosh", "Charles Mackintosh"],
+        "lifespan": "1868–1928",
+        "nationality": "Scottish",
+        "bio": "Glasgow architect, designer and watercolourist and the leading figure of the Glasgow Style. Working with the firm Honeyman & Keppie, he won the 1896 competition for the School of Art; late in life he gave up architecture to paint watercolours in France."
+      },
+      {
+        "name": "Margaret Macdonald Mackintosh",
+        "aliases": ["Margaret Macdonald"],
+        "lifespan": "1864–1933",
+        "nationality": "Scottish (born in England)",
+        "bio": "Artist and designer, one of 'The Four' of the Glasgow Style, and Charles Rennie Mackintosh's wife and collaborator."
+      }
+    ],
+    "location": { "city": "Glasgow", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1909,
+    "era": "ART_NOUVEAU",
+    "style": "Glasgow Style",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Glasgow_School_of_Art_-_8931386483.jpg/1920px-Glasgow_School_of_Art_-_8931386483.jpg",
+        "alt": "Stone façade with large studio windows, an off-centre entrance and curving iron railings",
+        "credit": "Photo: Dave & Margie Hill / Kleerup · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Glasgow_School_of_Art_-_8931386483.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Board_room_in_the_Glasgow_School_of_Art_-_1964_%28geograph_6496602%29.jpg",
+        "alt": "Black-and-white room with tall-backed dark chairs around a long table",
+        "caption": "The Board Room, photographed in 1964.",
+        "credit": "Photo: Alan Murray-Rust · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Board_room_in_the_Glasgow_School_of_Art_-_1964_(geograph_6496602).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built in two phases, finished in 1899 and 1909." },
+      { "order": 2, "text": "Its huge north-facing windows light painting studios." },
+      { "order": 3, "text": "It was gutted by fire twice, in 2014 and 2018." }
+    ],
+    "summary": {
+      "description": "Charles Rennie Mackintosh won the 1896 competition for the school's new building on Garnethill, which went up in two phases, completed in 1899 and 1909. Its huge north-facing studio windows, stark stone masses and inventive ironwork made it a landmark of early modern design. It was badly damaged by fire in 2014 and gutted by a second fire in 2018.",
+      "keyFeatures": [
+        "Large north-facing studio windows",
+        "Asymmetrical stone façade with an off-centre entrance",
+        "Decorative wrought-iron brackets and railings",
+        "Library of timber columns and beams, lost in the 2014 fire"
+      ],
+      "funFacts": [
+        "Its library, one of Mackintosh's finest interiors, was destroyed in the 2014 fire.",
+        "Six recent Turner Prize winners studied at the school."
+      ]
+    }
+  },
+  {
+    "id": "robie-house",
+    "name": "Robie House",
+    "aliases": ["Frederick C. Robie House", "Frederick Robie House"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Chicago, Illinois", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1910,
+    "era": "MODERNISM",
+    "style": "Prairie School",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section and south elevation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Frederick_C._Robie_House%2C_5757_Woodlawn_Avenue%2C_Chicago%2C_Cook_County%2C_IL_HABS_ILL%2C16-CHIG%2C33-_%28sheet_5_of_14%29.png/3840px-Frederick_C._Robie_House%2C_5757_Woodlawn_Avenue%2C_Chicago%2C_Cook_County%2C_IL_HABS_ILL%2C16-CHIG%2C33-_%28sheet_5_of_14%29.png",
+        "crop": { "x": 0.1, "y": 0.15, "w": 0.8, "h": 0.65 },
+        "alt": "Long, low house in section and elevation, with wide overhanging roofs",
+        "credit": "Historic American Buildings Survey (HABS ILL,16-CHIG,33-), measured drawing · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frederick_C._Robie_House,_5757_Woodlawn_Avenue,_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,33-_(sheet_5_of_14).png"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/The_Robie_House%2C_considered_one_of_Frank_Lloyd_Wright%27s_most_important_works%2C_Chicago%2C_Illinois_LCCN2011632338.tif/lossy-page1-1920px-The_Robie_House%2C_considered_one_of_Frank_Lloyd_Wright%27s_most_important_works%2C_Chicago%2C_Illinois_LCCN2011632338.tif.jpg",
+        "alt": "Long, low brick house with deep overhanging roofs and bands of windows",
+        "credit": "Photo: Carol M. Highsmith · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Robie_House,_considered_one_of_Frank_Lloyd_Wright%27s_most_important_works,_Chicago,_Illinois_LCCN2011632338.tif"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Bedroom%2C_Frederick_C._Robie_House%2C_Woodlawn_Avenue_and_58th_Street%2C_Hyde_Park%2C_Chicago%2C_IL_-_54213651031.jpg/1920px-Bedroom%2C_Frederick_C._Robie_House%2C_Woodlawn_Avenue_and_58th_Street%2C_Hyde_Park%2C_Chicago%2C_IL_-_54213651031.jpg",
+        "alt": "Bedroom with wooden furniture and a row of leaded art-glass windows",
+        "caption": "A bedroom lit by art-glass windows.",
+        "credit": "Photo: w_lemay · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bedroom,_Frederick_C._Robie_House,_Woodlawn_Avenue_and_58th_Street,_Hyde_Park,_Chicago,_IL_-_54213651031.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its roofs cantilever far beyond the walls, and its long horizontal lines echo the flat Midwestern prairie."
+      },
+      {
+        "order": 2,
+        "text": "It was built for a manufacturing executive and now belongs to a university."
+      },
+      { "order": 3, "text": "It helped popularise picture windows, deep eaves and attached garages." }
+    ],
+    "summary": {
+      "description": "Completed in 1910 for the manufacturing executive Frederick C. Robie in Chicago's Hyde Park, this is often called the finest of Frank Lloyd Wright's Prairie houses. Its low brick walls, bands of art-glass windows and roofs cantilevered far beyond the walls stretch the house along its corner plot.",
+      "keyFeatures": [
+        "Long, low horizontal lines",
+        "Roofs cantilevered far beyond the walls",
+        "Bands of art-glass windows",
+        "Terraces on several levels"
+      ],
+      "funFacts": [
+        "It helped popularise picture windows, deep eaves and attached garages in American houses.",
+        "It now belongs to the University of Chicago and is part of the UNESCO site 'The 20th-Century Architecture of Frank Lloyd Wright'.",
+        "It was one of the last buildings Wright designed at his Oak Park studio."
+      ]
+    }
+  },
+  {
+    "id": "looshaus",
+    "name": "Looshaus",
+    "aliases": ["Goldman & Salatsch Building", "Haus am Michaelerplatz", "Loos House"],
+    "architects": [
+      {
+        "name": "Adolf Loos",
+        "aliases": ["Loos"],
+        "lifespan": "1870–1933",
+        "nationality": "Austrian (born in Brno)",
+        "bio": "Viennese architect and polemicist whose essay 'Ornament and Crime' attacked decoration as wasteful. His buildings pair plain exteriors with rich materials inside, and his Raumplan arranged rooms at different heights."
+      }
+    ],
+    "location": { "city": "Vienna", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1911,
+    "era": "MODERNISM",
+    "style": "Early Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Pianta_Looshaus.jpg",
+        "alt": "Irregular corner-plot plan with a shop floor, columns and stairs",
+        "credit": "FiliGelpi03 · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pianta_Looshaus.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Sezione_Looshaus.jpg",
+        "alt": "Section through a multi-storey building: a shop below, plain apartment floors above",
+        "credit": "FiliGelpi03 · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sezione_Looshaus.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wien%2C_Michaelerplatz_3-20160625-001.jpg/1920px-Wien%2C_Michaelerplatz_3-20160625-001.jpg",
+        "alt": "Corner building with a green marble-clad base and plain white upper floors with window boxes",
+        "credit": "Photo: Tilman2007 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Wien,_Michaelerplatz_3-20160625-001.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Looshaus%2C_Seiteneingang.jpg/1920px-Looshaus%2C_Seiteneingang.jpg",
+        "alt": "Marble-lined entrance passage with glass doors",
+        "caption": "Rich marble lines the ground-floor entrance.",
+        "credit": "Photo: Thomas Ledl · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Looshaus,_Seiteneingang.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its plain upper floors caused such a scandal that the architect had to add flower boxes to the windows."
+      },
+      {
+        "order": 2,
+        "text": "It was built for a firm of gentlemen's tailors, opposite an imperial palace."
+      },
+      { "order": 3, "text": "Its architect wrote a famous essay attacking ornament." }
+    ],
+    "summary": {
+      "description": "Built for the tailors Goldman & Salatsch on Vienna's Michaelerplatz, opposite the imperial Hofburg, the building contrasts a base of green Cipollino marble with completely plain upper floors. In 1910 the bare façade caused a public scandal; construction resumed only after Loos agreed to add window boxes with flowers.",
+      "keyFeatures": [
+        "Ground floor and mezzanine clad in green marble",
+        "Unornamented white upper storeys",
+        "Classical columns at the shop entrance",
+        "Window boxes added to quiet the critics"
+      ],
+      "funFacts": [
+        "Emperor Franz Joseph reportedly kept the Hofburg's curtains closed so he would not have to see it.",
+        "One newspaper called it a 'dung heap' before the flower boxes were added."
+      ]
+    }
+  },
+  {
+    "id": "fagus-factory",
+    "name": "Fagus Factory",
+    "aliases": ["Fagus-Werk", "Fagus Werk", "Faguswerk"],
+    "architects": [
+      {
+        "name": "Walter Gropius",
+        "aliases": ["Gropius"],
+        "lifespan": "1883–1969",
+        "nationality": "German (later American)",
+        "bio": "After working for Peter Behrens, Gropius founded the Bauhaus in Weimar in 1919 and moved it to Dessau in 1925. He emigrated in the 1930s and taught at Harvard, spreading modernist teaching in America."
+      },
+      {
+        "name": "Adolf Meyer",
+        "aliases": ["Meyer"],
+        "lifespan": "1881–1929",
+        "nationality": "German",
+        "bio": "Gropius's partner in his early practice and co-designer of the Fagus Factory; he later taught at the Bauhaus and became Frankfurt's city building director."
+      }
+    ],
+    "location": { "city": "Alfeld, Lower Saxony", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1913,
+    "era": "MODERNISM",
+    "style": "Early Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Fagus-Werk_MainBuilding_017_3600.jpg/1920px-Fagus-Werk_MainBuilding_017_3600.jpg",
+        "alt": "Three-storey building whose glass walls wrap around a corner with no supporting pillar",
+        "credit": "Photo: Ludvig14 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fagus-Werk_MainBuilding_017_3600.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Fagus-Werk_MainBuilding_Interior_017_3673.jpg/1920px-Fagus-Werk_MainBuilding_Interior_017_3673.jpg",
+        "alt": "Stair hall with black-banded walls and a stair rising beside a glazed corner",
+        "caption": "The main stair, beside the glass corner.",
+        "credit": "Photo: Ludvig14 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fagus-Werk_MainBuilding_Interior_017_3673.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its glass walls wrap around a corner with no supporting pillar." },
+      { "order": 2, "text": "Its owner made shoe lasts and wanted a building that broke with the past." },
+      {
+        "order": 3,
+        "text": "Both its architects had worked for the designer of a famous Berlin turbine hall."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1911–13 for Carl Benscheidt's shoe-last company, the factory's main block wraps glass walls around its corners with no supporting pillar, turning the wall into a thin screen hung between recessed brick piers. It reversed the heavy corners of Behrens's AEG turbine hall, where both of its architects had worked.",
+      "keyFeatures": [
+        "Glass curtain walls running the full height",
+        "Corners left free of supports",
+        "Brick piers set back behind the glass",
+        "Additions and interiors completed in 1925"
+      ],
+      "funFacts": [
+        "Gropius described the walls as 'mere screens stretched between the upright columns of the framework'.",
+        "It has been a UNESCO World Heritage Site since 2011.",
+        "The factory still makes shoe lasts."
+      ]
+    }
+  },
+  {
+    "id": "einstein-tower",
+    "name": "Einstein Tower",
+    "aliases": ["Einsteinturm", "Einstein Turm"],
+    "architects": [
+      {
+        "name": "Erich Mendelsohn",
+        "aliases": ["Mendelsohn", "Erich Mendelssohn"],
+        "lifespan": "1887–1953",
+        "nationality": "German (later British and American)",
+        "bio": "Mendelsohn sketched fluid, dynamic buildings while serving in the First World War; the Einstein Tower made his name, followed by department stores in Germany. He left in 1933, working in Britain, Palestine and the United States."
+      }
+    ],
+    "location": { "city": "Potsdam", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1921,
+    "era": "MODERNISM",
+    "style": "Expressionism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Einsteinturm-02.jpg/1920px-Einsteinturm-02.jpg",
+        "alt": "Smooth, curving white tower topped by a small dome, among trees",
+        "credit": "Photo: Muck · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Einsteinturm-02.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Einsteinturm.Sonnenteleskop.Umlenkspiegel.P1185992.jpg/1920px-Einsteinturm.Sonnenteleskop.Umlenkspiegel.P1185992.jpg",
+        "alt": "Large telescope mirror mounted in a white instrument chamber",
+        "caption": "Inside, mirrors send sunlight down a shaft to the laboratory.",
+        "credit": "Photo: Bautsch · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Einsteinturm.Sonnenteleskop.Umlenkspiegel.P1185992.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built to test a famous scientist's theory of relativity by observing the Sun."
+      },
+      {
+        "order": 2,
+        "text": "Its flowing form was imagined in concrete, but much of it is brick covered in stucco."
+      },
+      { "order": 3, "text": "It is still a working solar observatory." }
+    ],
+    "summary": {
+      "description": "Designed by Erich Mendelsohn and built in 1919–21 on the Telegraphenberg in Potsdam, this solar observatory houses a telescope built to test Albert Einstein's theory of relativity. Its flowing, sculptural form was imagined in concrete, but wartime shortages meant much of it was built in brick covered with stucco.",
+      "keyFeatures": [
+        "Fluid, sculptural Expressionist form",
+        "Dome housing the coelostat at the top",
+        "Shaft sending light down to a basement laboratory",
+        "Brick and stucco shaped to look like poured concrete"
+      ],
+      "funFacts": [
+        "Einstein never worked there, but he supported its construction.",
+        "It is still a working solar observatory.",
+        "The young Richard Neutra was on Mendelsohn's staff during the project."
+      ]
+    }
+  },
+  {
+    "id": "rietveld-schroder-house",
+    "name": "Rietveld Schröder House",
+    "aliases": ["Schröder House", "Rietveld Schröderhuis", "Schröderhuis", "Schroder House"],
+    "architects": [
+      {
+        "name": "Gerrit Rietveld",
+        "aliases": ["Rietveld", "Gerrit Thomas Rietveld"],
+        "lifespan": "1888–1964",
+        "nationality": "Dutch",
+        "bio": "A cabinetmaker turned architect, Rietveld joined the De Stijl movement and designed the Red and Blue Chair before building this house with Truus Schröder. He went on to a long career in Utrecht."
+      }
+    ],
+    "location": { "city": "Utrecht", "country": "Netherlands", "countryCode": "NL" },
+    "yearCompleted": 1924,
+    "era": "MODERNISM",
+    "style": "De Stijl",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Rietveld_Schr%C3%B6derhuis_winter_2014-15_03.JPG/1920px-Rietveld_Schr%C3%B6derhuis_winter_2014-15_03.JPG",
+        "alt": "Small house of overlapping white and grey planes at the end of a brick terrace",
+        "credit": "Photo: Luis Guillermo R. · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rietveld_Schr%C3%B6derhuis_winter_2014-15_03.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rietveld_Schr%C3%B6derhuis_interieur.tif/lossy-page1-1280px-Rietveld_Schr%C3%B6derhuis_interieur.tif.jpg",
+        "alt": "Simple table and red chair in a room with windows on two sides",
+        "caption": "The upper floor, with its corner windows.",
+        "credit": "Photo: G.oorthuys · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rietveld_Schr%C3%B6derhuis_interieur.tif"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its upper floor can be one open space or divided into rooms with sliding and revolving panels."
+      },
+      {
+        "order": 2,
+        "text": "It sits at the end of a terrace of brick houses but ignores them completely."
+      },
+      {
+        "order": 3,
+        "text": "Its designer, trained as a cabinetmaker, is also famous for a red and blue chair."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1924 for Truus Schröder-Schräder and her three children at the end of a brick terrace in Utrecht, the house is the purest built expression of De Stijl: free-floating planes, lines and primary colours. Its upper floor can be opened into one space or divided into rooms with sliding and revolving panels.",
+      "keyFeatures": [
+        "Composition of independent planes and lines",
+        "Primary colours with white, grey and black",
+        "Flexible upper floor with sliding partitions",
+        "Corner windows that open to remove the corner entirely"
+      ],
+      "funFacts": [
+        "It included a garage, though Truus Schröder did not own a car.",
+        "It became a UNESCO World Heritage Site in 2000."
+      ]
+    }
+  },
+  {
+    "id": "bauhaus-dessau",
+    "name": "Bauhaus Building, Dessau",
+    "aliases": ["Bauhaus Dessau", "Bauhausgebäude", "Bauhaus building"],
+    "architects": [
+      {
+        "name": "Walter Gropius",
+        "aliases": ["Gropius"],
+        "lifespan": "1883–1969",
+        "nationality": "German (later American)",
+        "bio": "After working for Peter Behrens, Gropius founded the Bauhaus in Weimar in 1919 and moved it to Dessau in 1925. He emigrated in the 1930s and taught at Harvard, spreading modernist teaching in America."
+      }
+    ],
+    "location": { "city": "Dessau", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1926,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/6249_Dessau.JPG/1920px-6249_Dessau.JPG",
+        "alt": "Workshop wing with a continuous glass curtain wall, beside a lower white wing",
+        "credit": "Photo: Spyrosdrakopoulos · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:6249_Dessau.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bauhaus_Aula.jpg/1920px-Bauhaus_Aula.jpg",
+        "alt": "Assembly hall with rows of tubular lamps hanging from a ribbed ceiling",
+        "caption": "The assembly hall.",
+        "credit": "Photo: James Steakley · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bauhaus_Aula.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its wings for workshops, classrooms and student studios are linked by a two-storey bridge over a road."
+      },
+      { "order": 2, "text": "Its workshop wing is wrapped in a continuous glass curtain wall." },
+      {
+        "order": 3,
+        "text": "It was built when a famous art and design school moved here from Weimar in 1925."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1925–26 when the Bauhaus school moved from Weimar to Dessau, Gropius's building gives each function its own wing: a workshop block behind a glass curtain wall, a technical school, and a five-storey studio house for students, joined by a bridge over the road and a low wing with the hall and canteen.",
+      "keyFeatures": [
+        "Glass curtain wall of the workshop wing",
+        "Pinwheel plan of separate wings",
+        "Two-storey bridge spanning a road",
+        "Studio house with small balconies"
+      ],
+      "funFacts": [
+        "The 28 studios in the five-storey Prellerhaus were living and working space for students and young masters.",
+        "Curtains needed for sun protection spoiled the intended transparency of the glass wall.",
+        "It has been part of a UNESCO World Heritage Site since 1996."
+      ]
+    }
+  },
+  {
+    "id": "barcelona-pavilion",
+    "name": "Barcelona Pavilion",
+    "aliases": ["German Pavilion", "Pavelló alemany", "Mies van der Rohe Pavilion"],
+    "architects": [
+      {
+        "name": "Ludwig Mies van der Rohe",
+        "aliases": ["Mies van der Rohe", "Mies", "Ludwig Mies"],
+        "lifespan": "1886–1969",
+        "nationality": "German (later American)",
+        "bio": "A former assistant of Peter Behrens, Mies reduced architecture to steel, glass and fine materials ('less is more'). Last director of the Bauhaus, he emigrated to Chicago, where he built the Illinois Institute of Technology campus and later the Seagram Building in New York."
+      },
+      {
+        "name": "Lilly Reich",
+        "aliases": ["Reich"],
+        "lifespan": "1885–1947",
+        "nationality": "German",
+        "bio": "Designer and Mies's close collaborator in the late 1920s and 1930s, co-author of the pavilion and its furniture, and head of the Bauhaus weaving and interior workshops."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1929,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/1920px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg",
+        "alt": "Low pavilion of stone walls and glass under a flat roof, beside a pool",
+        "credit": "Photo: Ashley Pomeroy at English Wikipedia · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Barcelona_Pavilion,_Barcelona,_2010.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Barcelona_Pavilion_interior.jpg/1920px-Barcelona_Pavilion_interior.jpg",
+        "crop": { "x": 0.42, "y": 0, "w": 0.45, "h": 1 },
+        "alt": "Open interior with a polished onyx wall and glass partitions looking onto a pool",
+        "caption": "Free-standing walls of onyx and glass.",
+        "credit": "Photo: No machine-readable author provided. Mcginnly assumed (based on copyright claims). · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barcelona_Pavilion_interior.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for an international exposition and held no exhibits, only the building itself."
+      },
+      {
+        "order": 2,
+        "text": "It was demolished less than a year after it opened, and rebuilt on the same site in 1986."
+      },
+      { "order": 3, "text": "A famous steel and leather chair was designed for it." }
+    ],
+    "summary": {
+      "description": "Built as Germany's pavilion for the 1929 International Exposition in Barcelona, it held no exhibits: only the building itself, a sculpture by Georg Kolbe and furniture designed for it. Free-standing walls of marble, onyx and tinted glass divide a flowing space under a thin flat roof on slender steel columns.",
+      "keyFeatures": [
+        "Thin flat roof on cruciform steel columns",
+        "Free-standing walls of marble, onyx and glass",
+        "Travertine plinth and reflecting pools",
+        "Open, flowing plan"
+      ],
+      "funFacts": [
+        "The Barcelona chair was designed for it and is still made today.",
+        "It was torn down in early 1930 and reconstructed in 1986."
+      ]
+    }
+  },
+  {
+    "id": "hagia-sophia",
+    "name": "Hagia Sophia",
+    "aliases": ["Ayasofya", "Aya Sofya", "Holy Wisdom", "Sancta Sophia", "Hagia Sophia Grand Mosque"],
+    "architects": [
+      {
+        "name": "Isidore of Miletus",
+        "aliases": ["Isidore"],
+        "lifespan": "6th century",
+        "nationality": "Byzantine Greek",
+        "bio": "Greek geometer and engineer from Miletus, commissioned by Emperor Justinian I to design the new cathedral of Constantinople with Anthemius of Tralles."
+      },
+      {
+        "name": "Anthemius of Tralles",
+        "aliases": ["Anthemius"],
+        "lifespan": "6th century",
+        "nationality": "Byzantine Greek",
+        "bio": "Greek mathematician and engineer from Tralles in Asia Minor, co-designer of Hagia Sophia for Emperor Justinian I."
+      }
+    ],
+    "location": { "city": "Istanbul", "country": "Turkey", "countryCode": "TR" },
+    "yearCompleted": 537,
+    "era": "BYZANTINE",
+    "style": "Byzantine",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hagia-Sophia-Grundriss.jpg/3840px-Hagia-Sophia-Grundriss.jpg",
+        "alt": "Plan of a huge rectangular church with a central square crowned by a circle and half-domes at each end",
+        "credit": "19th-century engraving · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hagia-Sophia-Grundriss.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Hagia-Sophia-Laengsschnitt.jpg/3840px-Hagia-Sophia-Laengsschnitt.jpg",
+        "alt": "Section through a vast church with a shallow central dome on a ring of windows",
+        "credit": "19th-century engraving · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hagia-Sophia-Laengsschnitt.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg/1920px-At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg",
+        "alt": "Domed building with minarets on a hill above a waterfront city",
+        "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ayasofya_2022-09-04_16.19.12_1791267189.JPG/1920px-Ayasofya_2022-09-04_16.19.12_1791267189.JPG",
+        "alt": "Vast interior under a golden dome ringed with windows, with large calligraphic roundels",
+        "caption": "A dome ringed by windows seems to float over the nave.",
+        "credit": "Photo: Kemal KOZBAEV · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ayasofya_2022-09-04_16.19.12_1791267189.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "For nearly a thousand years it enclosed the largest interior space in the world."
+      },
+      { "order": 2, "text": "It has been a cathedral, a mosque, a museum, and a mosque again." },
+      { "order": 3, "text": "Its dome rests on a ring of forty windows, so it seems to float." }
+    ],
+    "summary": {
+      "description": "Built for Emperor Justinian I between 532 and 537 and designed by the geometers Isidore of Miletus and Anthemius of Tralles, Hagia Sophia was the cathedral of Constantinople. Its vast dome, one of the first carried on pendentives, rests on a ring of windows. It became a mosque in 1453, a museum in 1935, and a mosque again in 2020.",
+      "keyFeatures": [
+        "Central dome on pendentives",
+        "Ring of 40 windows at the base of the dome",
+        "Half-domes extending the central space",
+        "Minarets added after 1453"
+      ],
+      "funFacts": [
+        "It became the model for Ottoman mosques a thousand years later.",
+        "It was Turkey's most visited tourist attraction in 2019."
+      ]
+    }
+  },
+  {
+    "id": "florence-cathedral-dome",
+    "name": "Dome of Florence Cathedral",
+    "aliases": ["Florence Cathedral", "Santa Maria del Fiore", "Brunelleschi's Dome", "Il Duomo di Firenze", "Duomo"],
+    "architects": [
+      {
+        "name": "Filippo Brunelleschi",
+        "aliases": ["Brunelleschi", "Filippo di ser Brunellesco"],
+        "lifespan": "1377–1446",
+        "nationality": "Italian (Florentine)",
+        "bio": "Trained as a goldsmith, Brunelleschi is credited with rediscovering linear perspective and with founding Renaissance architecture through works such as the Foundling Hospital and San Lorenzo in Florence. His dome solved a problem that had defeated builders for decades."
+      }
+    ],
+    "location": { "city": "Florence", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1436,
+    "era": "RENAISSANCE",
+    "style": "Early Renaissance",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "Section of the dome (Cigoli, c. 1613)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cigoli%2C_Florence_Dome_cropped.jpg",
+        "alt": "Hand-drawn section of a tall pointed dome with an inner and outer shell, surrounded by notes",
+        "credit": "Lodovico Cardi (Cigoli), drawing, c. 1613 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cigoli,_Florence_Dome_cropped.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Florence_Cathedral_-_Duomo_-_Cathedral_of_Santa_Maria_del_Fiore_%2851352275805%29.jpg/1920px-Florence_Cathedral_-_Duomo_-_Cathedral_of_Santa_Maria_del_Fiore_%2851352275805%29.jpg",
+        "alt": "Huge red-tiled ribbed dome with a lantern above a city of terracotta roofs",
+        "credit": "Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Florence_Cathedral_-_Duomo_-_Cathedral_of_Santa_Maria_del_Fiore_(51352275805).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Santa_Maria_del_Fiore%2C_Florence_Cathedral%2C_interior%2C_223756.jpg/1920px-Santa_Maria_del_Fiore%2C_Florence_Cathedral%2C_interior%2C_223756.jpg",
+        "alt": "Gothic nave of tall pointed arches leading to a domed octagon",
+        "caption": "The nave leads to a vast octagonal crossing.",
+        "credit": "Photo: Zde · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Fiore,_Florence_Cathedral,_interior,_223756.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its builder won a competition against the goldsmith Lorenzo Ghiberti." },
+      {
+        "order": 2,
+        "text": "It was built without the full timber centring normally used to support a dome during construction."
+      },
+      { "order": 3, "text": "It is still the largest masonry dome ever built." }
+    ],
+    "summary": {
+      "description": "The cathedral of Florence was begun in 1296 to a design by Arnolfo di Cambio, but its huge octagonal crossing stood open for decades. Filippo Brunelleschi built the dome between 1420 and 1436 without the timber centring normally used, and it remains the largest masonry dome ever built.",
+      "keyFeatures": [
+        "Octagonal dome of two shells",
+        "Eight white marble ribs over red tile",
+        "Built without full timber centring",
+        "Lantern crowning the dome"
+      ],
+      "funFacts": [
+        "Pope Eugene IV consecrated the cathedral on 25 March 1436.",
+        "Guillaume Dufay's motet Nuper rosarum flores was written for the consecration.",
+        "Brunelleschi and Ghiberti were appointed jointly, a rivalry that lasted for years."
+      ]
+    }
+  },
+  {
+    "id": "tempietto",
+    "name": "Tempietto of San Pietro in Montorio",
+    "aliases": ["Tempietto", "Tempietto del Bramante", "San Pietro in Montorio"],
+    "architects": [
+      {
+        "name": "Donato Bramante",
+        "aliases": ["Bramante", "Donato di Pascuccio d'Antonio"],
+        "lifespan": "1444–1514",
+        "nationality": "Italian",
+        "bio": "Born near Urbino, Bramante worked in Milan before moving to Rome in 1499. The Tempietto launched the High Renaissance there, and in 1503 Pope Julius II charged him with rebuilding St Peter's Basilica."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1502,
+    "era": "RENAISSANCE",
+    "style": "High Renaissance",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan (Palladio, 1570)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/Tempietto_-_Houtsnede_door_Palladio_2.jpeg",
+        "alt": "Circular plan: a ring of columns around a round cella with niches",
+        "credit": "Andrea Palladio, woodcut, 1570 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tempietto_-_Houtsnede_door_Palladio_2.jpeg"
+      },
+      {
+        "type": "SITE_PLAN",
+        "label": "Planned courtyard (Serlio)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tempietto_-_Plattegrond_Serlio.jpeg",
+        "crop": { "x": 0, "y": 0.2, "w": 1, "h": 0.8 },
+        "alt": "Plan of a small round temple at the centre of a colonnaded circular courtyard",
+        "credit": "Sebastiano Serlio, woodcut · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tempietto_-_Plattegrond_Serlio.jpeg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tempietto_und_Glockenturm_von_San_Pietro_in_Montorio.jpg/1920px-Tempietto_und_Glockenturm_von_San_Pietro_in_Montorio.jpg",
+        "alt": "Round temple with a ring of columns and a dome, beside a bell tower",
+        "credit": "Photo: JTSH26 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tempietto_und_Glockenturm_von_San_Pietro_in_Montorio.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/02_Tempietto_Interior_Dome.jpg/1920px-02_Tempietto_Interior_Dome.jpg",
+        "alt": "Looking up into a small stone dome ringed by statues in shell-headed niches",
+        "caption": "Inside the tiny dome.",
+        "credit": "Photo: NateBergin · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:02_Tempietto_Interior_Dome.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It marks the spot where Saint Peter was traditionally believed to have been martyred."
+      },
+      {
+        "order": 2,
+        "text": "Despite its tiny size, it follows ancient Roman proportions so strictly that it launched a new style in its city."
+      },
+      { "order": 3, "text": "Its architect later began the rebuilding of St Peter's Basilica." }
+    ],
+    "summary": {
+      "description": "Commissioned around 1502 for the courtyard of San Pietro in Montorio on the Janiculum, Bramante's tiny round temple marks the traditional site of Saint Peter's martyrdom. Ringed by Doric columns and crowned by a dome, it applies ancient Roman proportions so rigorously that it is seen as the beginning of the High Renaissance in Rome.",
+      "keyFeatures": [
+        "Circular plan with a peristyle of Doric columns",
+        "Hemispherical dome on a drum",
+        "Balustrade above the colonnade",
+        "Strict classical proportions at small scale"
+      ],
+      "funFacts": [
+        "Serlio's engraving shows that Bramante planned to set it in a circular colonnaded courtyard, never built.",
+        "It was commissioned by Ferdinand of Aragon and Isabella of Castile, or possibly by Pope Julius II."
+      ]
+    }
+  },
+  {
+    "id": "fallingwater",
+    "name": "Fallingwater",
+    "aliases": ["Kaufmann Residence", "Edgar J. Kaufmann House", "Falling Water"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Mill Run, Pennsylvania", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1939,
+    "era": "MODERNISM",
+    "style": "Organic architecture",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Second floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Fallingwaterfloorplan.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.83 },
+        "alt": "House plan with terraces jutting out over a stream",
+        "credit": "Arsenalbubs · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fallingwaterfloorplan.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Frank_Lloyd_Wright_-_Mill_Run%2C_PA_-_Fallingwater_%28A%29.jpg/1920px-Frank_Lloyd_Wright_-_Mill_Run%2C_PA_-_Fallingwater_%28A%29.jpg",
+        "alt": "House of stacked cantilevered terraces over a waterfall in a wood",
+        "credit": "Photo: Bmzuckerman · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_Mill_Run,_PA_-_Fallingwater_(A).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Fallingwater_-_ob%C3%BDvac%C3%AD_pokoj_7.png/1920px-Fallingwater_-_ob%C3%BDvac%C3%AD_pokoj_7.png",
+        "alt": "Living room with stone floor, built-in sofas and a stone fireplace wall",
+        "caption": "The living room, built around the boulder of the hearth.",
+        "credit": "Photo: Sakul9 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fallingwater_-_ob%C3%BDvac%C3%AD_pokoj_7.png"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was a weekend house for the owner of a Pittsburgh department store and his wife."
+      },
+      { "order": 2, "text": "Its terraces cantilever out over a waterfall." },
+      { "order": 3, "text": "Its architect also designed a spiral museum in New York." }
+    ],
+    "summary": {
+      "description": "Frank Lloyd Wright designed this weekend house in 1934 for Edgar and Liliane Kaufmann, who owned a Pittsburgh department store, and built it directly over a waterfall on Bear Run. Reinforced-concrete terraces cantilever out from a stone core above the falls; the family moved in in 1937, and a guest wing followed in 1939.",
+      "keyFeatures": [
+        "Cantilevered concrete terraces",
+        "Stone chimney core rising from the rock",
+        "Built over a waterfall",
+        "Bands of glass opening to the woods"
+      ],
+      "funFacts": [
+        "It has been open to visitors since 1963, run by the Western Pennsylvania Conservancy.",
+        "It is part of the UNESCO site 'The 20th-Century Architecture of Frank Lloyd Wright'."
+      ]
+    }
+  },
+  {
+    "id": "sydney-opera-house",
+    "name": "Sydney Opera House",
+    "aliases": ["Opera House", "Sydney Opera"],
+    "architects": [
+      {
+        "name": "Jørn Utzon",
+        "aliases": ["Utzon", "Jorn Utzon"],
+        "lifespan": "1918–2008",
+        "nationality": "Danish",
+        "bio": "Utzon won the 1957 competition for the Opera House with a design that made his name, but resigned in 1966 amid disputes over cost and design. He received the Pritzker Prize in 2003."
+      },
+      {
+        "name": "Peter Hall",
+        "aliases": ["Hall"],
+        "lifespan": "1931–1995",
+        "nationality": "Australian",
+        "bio": "Australian architect who led the team that completed the Opera House, including its interiors, after Utzon's resignation."
+      }
+    ],
+    "location": { "city": "Sydney", "country": "Australia", "countryCode": "AU" },
+    "yearCompleted": 1973,
+    "era": "MODERNISM",
+    "style": "Expressionist Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/NZ7_2340_%2840056091673%29.jpg/1920px-NZ7_2340_%2840056091673%29.jpg",
+        "alt": "White sail-like shells on a podium by a harbour, with skyscrapers behind",
+        "credit": "Photo: Bengt Nyman · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:NZ7_2340_(40056091673).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Main_concert_hall.jpg/1920px-Main_concert_hall.jpg",
+        "alt": "Large concert hall with wooden ceiling panels, tiers of seats and a stage",
+        "caption": "The concert hall.",
+        "credit": "Photo: PLBechly · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Main_concert_hall.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its architect won an international competition of 233 entries in 1957, but left before it was finished."
+      },
+      { "order": 2, "text": "Its roof shells are covered in over a million tiles." },
+      { "order": 3, "text": "It stands on a point jutting into a harbour." }
+    ],
+    "summary": {
+      "description": "Jørn Utzon won the 1955–57 competition with a design of white concrete 'shells' rising from a monumental podium on Bennelong Point. After disputes over cost and design he resigned in 1966, and an Australian team led by Peter Hall completed the building, which Queen Elizabeth II opened on 20 October 1973.",
+      "keyFeatures": [
+        "Roof 'shells' cut from a sphere of 75.2 m radius",
+        "1,056,006 glossy white and matte cream tiles",
+        "Monumental podium clad in pink granite",
+        "Glass walls closing the shells' open ends"
+      ],
+      "funFacts": [
+        "The shells are actually precast concrete panels on precast ribs, not shells in the structural sense.",
+        "It became a UNESCO World Heritage Site in 2007.",
+        "The competition drew 233 entries from 32 countries."
+      ]
+    }
   }
 ]
