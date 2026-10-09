@@ -72,25 +72,27 @@ function Recap({ fields, outcome }) {
   )
 }
 
-function Photo({ hint }) {
-  const [loaded, setLoaded] = useState(false)
+/** A print in the gallery. If its file fails to load, the whole print disappears. */
+function Photo({ photo }) {
+  const [status, setStatus] = useState('loading')
+  if (status === 'error') return null
   return (
     <figure className={styles.photo}>
       <div className={styles.print}>
         <ArchImage
-          src={hint.image.src}
-          alt={hint.image.alt}
+          src={photo.src}
+          alt={photo.alt}
           fit="cover"
-          crop={hint.image.crop}
-          placeholderTitle={strings.hints.missingPhoto}
-          onLoad={() => setLoaded(true)}
+          crop={photo.crop}
+          onLoad={() => setStatus('loaded')}
+          onError={() => setStatus('error')}
         />
       </div>
       <figcaption>
-        {hint.caption}
-        {loaded && hint.image.credit && (
+        {photo.caption ?? strings.board.views[photo.view]}
+        {status === 'loaded' && photo.credit && (
           <span className={styles.credit}>
-            <Credit text={hint.image.credit} source={hint.image.source} />
+            <Credit text={photo.credit} source={photo.source} />
           </span>
         )}
       </figcaption>
@@ -101,8 +103,8 @@ function Photo({ hint }) {
 export function BuildingSummary({ building, eras, fields, outcome, onNext }) {
   const heading = useRef(null)
   const era = eras?.find((e) => e.id === building.era)
-  const photos = building.hints.filter((h) => h.type === 'IMAGE')
-  const facts = [...building.hints.filter((h) => h.type === 'FACT').map((h) => h.text), ...building.summary.funFacts]
+  const photos = building.photos ?? []
+  const facts = [...building.hints.map((h) => h.text), ...building.summary.funFacts]
 
   // Move focus to the summary so keyboard and screen-reader users land on the payoff.
   useEffect(() => heading.current?.focus({ preventScroll: true }), [])
@@ -155,8 +157,8 @@ export function BuildingSummary({ building, eras, fields, outcome, onNext }) {
         <motion.section variants={section}>
           <h3 className={styles.sectionTitle}>{strings.summary.photos}</h3>
           <div className={styles.gallery}>
-            {photos.map((hint) => (
-              <Photo key={hint.order} hint={hint} />
+            {photos.map((photo) => (
+              <Photo key={photo.src} photo={photo} />
             ))}
           </div>
         </motion.section>

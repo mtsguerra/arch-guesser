@@ -13,7 +13,7 @@ import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
-@SpringBootTest
+@SpringBootTest(properties = "archguesser.data-location=classpath:data/test-buildings.json")
 @AutoConfigureMockMvc
 class BuildingControllerTest {
 
@@ -34,7 +34,8 @@ class BuildingControllerTest {
         mvc.perform(get("/api/buildings/villa-savoye"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.name").value("Villa Savoye"))
-                .andExpect(jsonPath("$.architects[*].name").value(Matchers.contains("Le Corbusier", "Pierre Jeanneret")))
+                .andExpect(jsonPath("$.architects[*].name").value(Matchers.contains("Le Corbusier")))
+                .andExpect(jsonPath("$.photos[*].view").value(Matchers.contains("EXTERIOR", "INTERIOR")))
                 .andExpect(jsonPath("$.era").value("MODERNISM"))
                 .andExpect(jsonPath("$.hints[0].order").value(1));
     }
@@ -74,6 +75,7 @@ class BuildingControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$[0].id").value("CLASSICAL"))
                 .andExpect(jsonPath("$[0].startYear").value(-800))
+                .andExpect(jsonPath("$[*].id").value(Matchers.hasItems("ART_DECO", "OTTOMAN")))
                 .andExpect(jsonPath("$[?(@.id == 'CONTEMPORARY')].endYear").value(Matchers.contains(Matchers.nullValue())));
     }
 }

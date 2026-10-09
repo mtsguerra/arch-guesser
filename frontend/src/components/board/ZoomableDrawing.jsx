@@ -18,7 +18,8 @@ const clamp = (n) => Math.min(1, Math.max(0, n))
  * follows the pointer (or finger), so the whole sheet is explorable without
  * drag handles. Arrow keys pan from the zoom button; Esc exits.
  */
-export function ZoomableDrawing({ drawing, revealed }) {
+export function ZoomableDrawing({ sheet, revealed, onError }) {
+  const image = sheet.image
   const [zoomed, setZoomed] = useState(false)
   const [loaded, setLoaded] = useState(false)
   const viewport = useRef(null)
@@ -86,12 +87,13 @@ export function ZoomableDrawing({ drawing, revealed }) {
           transition={{ duration: duration.slow, ease: easeOut }}
         >
           <ArchImage
-            key={drawing.src}
-            src={drawing.src}
-            alt={drawing.alt}
-            placeholderLabel={drawing.label}
-            crop={drawing.crop}
+            key={image.src}
+            src={image.src}
+            alt={image.alt}
+            fit={sheet.kind === 'photo' ? 'photo' : 'contain'}
+            crop={image.crop}
             onLoad={() => setLoaded(true)}
+            onError={onError}
           />
         </motion.div>
       </div>
@@ -122,11 +124,11 @@ export function ZoomableDrawing({ drawing, revealed }) {
         </button>
       </div>
 
-      {/* Credits belong to real images (the placeholder labels itself), and appear only after
-          the reveal: a drawing's author is often the architect, which would give the answer away. */}
-      {revealed && loaded && drawing.credit && (
+      {/* Credits appear only after the reveal: a drawing's author is often the architect,
+          and photo credits can name the building, either of which would give the answer away. */}
+      {revealed && loaded && image.credit && (
         <p className={styles.credit}>
-          <Credit text={drawing.credit} source={drawing.source} />
+          <Credit text={image.credit} source={image.source} />
         </p>
       )}
     </div>

@@ -18,6 +18,7 @@ public record Building(
         Era era,
         String style,
         List<Drawing> drawings,
+        List<Photo> photos,
         List<Hint> hints,
         Summary summary
 ) {
@@ -25,6 +26,7 @@ public record Building(
         aliases = Lists.nullToEmpty(aliases);
         architects = Lists.nullToEmpty(architects);
         drawings = Lists.nullToEmpty(drawings);
+        photos = Lists.nullToEmpty(photos);
         hints = Lists.nullToEmpty(hints);
     }
 }

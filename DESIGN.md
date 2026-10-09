@@ -166,7 +166,7 @@ components:
 
 The screen is a drafting table. A chocolate rail runs across the top like the edge of the desk; below it lies a saturated cream drafting mat ruled with a faint camel grid (8px fine, 40px major). On the mat sit sheets of paler paper, each with a hairline inner frame and a soft, lifted shadow. A building is presented the way architects document it: sheet by sheet, numbered (A-101, A-301), with a title block along the bottom edge that stays blank until the player earns the answer and then plots in cell by cell.
 
-Everything is lettered like a drawing set. Labels on documents use Archivo stretched wide, uppercase and tracked, like title-block lettering; prose, inputs and buttons stay at normal width so the game stays easy to read. Width comes from a four-step stretch scale, not from ad hoc percentages. Numbers that identify things (sheet numbers, counts, years) are tabular. Placeholder drawings are hatched with 45 degree poché, the drafting convention for solid material cut through, so a missing scan still reads as part of the set.
+Everything is lettered like a drawing set. Labels on documents use Archivo stretched wide, uppercase and tracked, like title-block lettering; prose, inputs and buttons stay at normal width so the game stays easy to read. Width comes from a four-step stretch scale, not from ad hoc percentages. Numbers that identify things (sheet numbers, counts, years) are tabular. Photographs join the drawing set as P-numbered sheets after the cuts (A-101, A-301… then P-1 exterior, P-2 interior).
 
 Density is calm and generous. The game is a stress-free study session: there are no scores, timers or celebratory effects, and motion follows the drafting metaphor. Sheets slide in from the direction you flip, values draw in from left to right like a pen plotter, and the board steps aside into a reference column when the monograph opens.
 
@@ -175,7 +175,7 @@ Density is calm and generous. The game is a stress-free study session: there are
 - Sheets with a 1.5px inner frame, zone references in the margins, and a ruled title block.
 - Archivo variable: wide uppercase caps for document lettering, normal width for UI and prose.
 - Oxblood for acting and selecting; russet for links, focus and correct answers.
-- Hatched poché placeholders that belong to the set rather than apologising for it.
+- Photographs filed as numbered sheets of the set (P-1, P-2), never as decoration.
 - Ease-out motion that follows drafting gestures (flip, plot, pin).
 
 ## Colors
@@ -189,7 +189,7 @@ A warm, brief-pinned five-colour drafting palette: light colours are grounds and
 - **Russet** (`russet`): links and quiet text buttons ("Reveal answer"), the focus ring and focus halo on every control, and the filled badge or chip that marks a correct field.
 
 ### Tertiary
-- **Camel** (`camel`): drafting-mat grid lines, poché hatching, paper hairlines and the scrollbar thumb. Decorative and structural only.
+- **Camel** (`camel`): drafting-mat grid lines, paper hairlines and the scrollbar thumb. Decorative and structural only.
 
 ### Neutral
 - **Chocolate** (`chocolate`): the header rail and all ink: body text, headings, title-block values. Inverted fills (zoom control hover, selected combobox option) use chocolate behind paper text.
@@ -198,7 +198,7 @@ A warm, brief-pinned five-colour drafting palette: light colours are grounds and
 - **Drafting Paper** (`paper`): every sheet, worksheet, slip, input and monograph page.
 - **Paper Shade** (`paper-shade`): locked (correct) answer fields and empty print frames.
 - **Paper Rule** (`paper-rule`): sheet frames, title-block cell rules, input borders and zone ticks.
-- **Paper Hairline** (`paper-hairline`): softer dividers, ghost button borders, missed-field chips and the poché hatch lines.
+- **Paper Hairline** (`paper-hairline`): softer dividers, ghost button borders, and missed-field chips.
 
 ### Named Rules
 **The Camel Never Speaks Rule.** Camel is too light to read on cream. It draws grids, hatching and hairlines; it is never used for text or icons.
@@ -297,8 +297,8 @@ Compact, firm and inked: a 2.5rem control in weight 600 that presses down 1px an
 ### Title Block (signature)
 A four-cell strip ruled into the bottom of every drawing sheet: PROJECT, ARCHITECT, DRAWING, SHEET n OF N. Unknown values show a muted dash. When a guess locks or the answer is revealed, the canonical value plots in from left to right with a clip-path wipe (0.784s, ease-out). The monograph's fact strip reuses the same ruled-cell construction.
 
-### Poché Placeholder (signature)
-Missing drawings and photos are filled with 45 degree hatching (1px paper-hairline every 10px). At the centre sits a small framed paper note with a wide caps title ("Drawing not in the archive yet") and the drawing name below. Real scans use `multiply` blending so they sit on the paper instead of on a white box.
+### Photo Sheets (signature)
+Every building carries at least one exterior and one interior photograph, shown as sheets P-1 and P-2 after the cuts. Photos sit on the paper at their own aspect (no multiply blend, unlike scans). There is no placeholder: a sheet whose image fails to load removes its own tab, and the gallery print disappears the same way.
 
 ### Zoom Control
 A paper chip in the corner of the sheet with a 1px rule, raised shadow and wide caps label. It inverts to chocolate on hover and while pressed. Zoom happens in place and follows the pointer, with zoom-in and zoom-out cursors.
@@ -316,7 +316,7 @@ One ease-out curve (`cubic-bezier(0.16, 1, 0.3, 1)`) and three durations (160ms 
 - **Do** letter labels on documents in Archivo at wide (118%) width, uppercase, 0.06em tracking, in soft chocolate; keep prose, inputs and buttons at normal width.
 - **Do** take every font width from the four-step stretch scale (100 / 112 / 118 / 125%).
 - **Do** use oxblood for the one primary action and selected state, and russet for links, focus and correct.
-- **Do** use the hatched poché placeholder with a framed caps note whenever an image is missing.
+- **Do** let a sheet with a broken image remove itself; never show a placeholder.
 - **Do** number sheets in the A-101 / A-301 convention with tabular figures.
 - **Do** animate with `cubic-bezier(0.16, 1, 0.3, 1)` at 160 / 320 / 560ms, making motion follow a drafting gesture (flip, plot, pin).
 

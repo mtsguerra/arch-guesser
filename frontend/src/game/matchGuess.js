@@ -25,6 +25,7 @@ const CLOSE_ERAS = [
   ['BRUTALISM', 'CONTEMPORARY'],
   ['POSTMODERNISM', 'CONTEMPORARY'],
   ['HISTORICISM', 'ART_NOUVEAU'],
+  ['ART_DECO', 'MODERNISM'],
 ]
 
 export function eraMatches(guess, answer) {

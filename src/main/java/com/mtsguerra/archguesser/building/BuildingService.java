@@ -30,6 +30,7 @@ public class BuildingService {
     public Building random(Set<String> exclude) {
         List<Building> all = repository.findAll();
         List<Building> unseen = all.stream().filter(b -> !exclude.contains(b.id())).toList();
+        if (all.isEmpty()) throw new NotFoundException("The building catalogue is empty");
         List<Building> pool = unseen.isEmpty() ? all : unseen;
         return pool.get(ThreadLocalRandom.current().nextInt(pool.size()));
     }

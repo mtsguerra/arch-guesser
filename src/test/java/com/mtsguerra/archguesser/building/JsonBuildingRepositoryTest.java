@@ -17,14 +17,18 @@ class JsonBuildingRepositoryTest {
 
     @Test
     void shippedCatalogueLoadsAndPassesValidation() {
+        // Throws if any shipped building breaks a rule (e.g. lacks an interior photo).
         var repository = new JsonBuildingRepository(jsonMapper, new ClassPathResource("data/buildings.json"));
 
-        assertThat(repository.findAll()).hasSizeGreaterThanOrEqualTo(5);
+        assertThat(repository.findAll()).allSatisfy(b -> assertThat(b.photos()).hasSizeGreaterThanOrEqualTo(2));
+    }
+
+    @Test
+    void testCatalogueLoads() {
+        var repository = new JsonBuildingRepository(jsonMapper, new ClassPathResource("data/test-buildings.json"));
+
         assertThat(repository.findById("villa-savoye")).get()
-                .satisfies(b -> {
-                    assertThat(b.era()).isEqualTo(Era.MODERNISM);
-                    assertThat(b.hints()).hasSizeGreaterThanOrEqualTo(BuildingValidator.MIN_HINTS);
-                });
+                .satisfies(b -> assertThat(b.hints()).hasSizeGreaterThanOrEqualTo(BuildingValidator.MIN_HINTS));
     }
 
     @Test

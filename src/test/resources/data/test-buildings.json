@@ -1,0 +1,167 @@
+[
+  {
+    "id": "villa-savoye",
+    "name": "Villa Savoye",
+    "aliases": [],
+    "architects": [
+      {
+        "name": "Le Corbusier",
+        "aliases": [],
+        "bio": "Test architect."
+      }
+    ],
+    "location": {
+      "city": "City",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1931,
+    "era": "MODERNISM",
+    "style": "Style",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Plan.jpg",
+        "alt": "Plan"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ext.jpg",
+        "alt": "Exterior"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Int.jpg",
+        "alt": "Interior"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "First tip."
+      },
+      {
+        "order": 2,
+        "text": "Second tip."
+      }
+    ],
+    "summary": {
+      "description": "Description.",
+      "keyFeatures": [],
+      "funFacts": []
+    }
+  },
+  {
+    "id": "test-two",
+    "name": "Test Two",
+    "aliases": [],
+    "architects": [
+      {
+        "name": "Someone",
+        "aliases": [],
+        "bio": "Test architect."
+      }
+    ],
+    "location": {
+      "city": "City",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1931,
+    "era": "BAROQUE",
+    "style": "Style",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Plan.jpg",
+        "alt": "Plan"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ext.jpg",
+        "alt": "Exterior"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Int.jpg",
+        "alt": "Interior"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "First tip."
+      },
+      {
+        "order": 2,
+        "text": "Second tip."
+      }
+    ],
+    "summary": {
+      "description": "Description.",
+      "keyFeatures": [],
+      "funFacts": []
+    }
+  },
+  {
+    "id": "test-three",
+    "name": "Test Three",
+    "aliases": [],
+    "architects": [
+      {
+        "name": "Someone Else",
+        "aliases": [],
+        "bio": "Test architect."
+      }
+    ],
+    "location": {
+      "city": "City",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1931,
+    "era": "ART_DECO",
+    "style": "Style",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Plan.jpg",
+        "alt": "Plan"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ext.jpg",
+        "alt": "Exterior"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Int.jpg",
+        "alt": "Interior"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "First tip."
+      },
+      {
+        "order": 2,
+        "text": "Second tip."
+      }
+    ],
+    "summary": {
+      "description": "Description.",
+      "keyFeatures": [],
+      "funFacts": []
+    }
+  }
+]

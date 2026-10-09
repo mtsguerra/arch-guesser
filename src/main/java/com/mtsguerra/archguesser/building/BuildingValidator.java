@@ -46,6 +46,7 @@ final class BuildingValidator {
             validateArchitects(b.architects(), e);
             validateLocation(b.location(), e);
             validateDrawings(b, e);
+            validatePhotos(b, e);
             validateHints(b, e);
             validateSummary(b.summary(), e);
         }
@@ -77,18 +78,40 @@ final class BuildingValidator {
         }
     }
 
+    /** Cuts are optional (many works are still in copyright), but every one must be a real image. */
     private static void validateDrawings(Building b, Errors e) {
-        if (b.drawings().isEmpty()) e.add("at least one drawing is required");
         for (int i = 0; i < b.drawings().size(); i++) {
             Drawing d = b.drawings().get(i);
             String field = "drawings[" + i + "]";
             if (d.type() == null) e.add(field + ".type is required");
-            // A null src is allowed: no free drawing exists, so the client shows a placeholder.
-            if (d.src() != null) e.requireAsset(b.id(), d.src(), field + ".src");
+            e.requireText(d.label(), field + ".label");
+            e.requireAsset(b.id(), d.src(), field + ".src");
             e.requireText(d.alt(), field + ".alt");
             e.optionalSource(d.source(), field + ".source");
             validateCrop(d.crop(), field + ".crop", e);
         }
+    }
+
+    /** The hard rule: at least one exterior and one interior photo, so the board never shows a placeholder. */
+    private static void validatePhotos(Building b, Errors e) {
+        boolean exterior = false;
+        boolean interior = false;
+        for (int i = 0; i < b.photos().size(); i++) {
+            Photo p = b.photos().get(i);
+            String field = "photos[" + i + "]";
+            if (p.view() == null) {
+                e.add(field + ".view is required");
+            } else {
+                exterior |= p.view() == PhotoView.EXTERIOR;
+                interior |= p.view() == PhotoView.INTERIOR;
+            }
+            e.requireAsset(b.id(), p.src(), field + ".src");
+            e.requireText(p.alt(), field + ".alt");
+            e.optionalSource(p.source(), field + ".source");
+            validateCrop(p.crop(), field + ".crop", e);
+        }
+        if (!exterior) e.add("at least one EXTERIOR photo is required");
+        if (!interior) e.add("at least one INTERIOR photo is required");
     }
 
     private static void validateHints(Building b, Errors e) {
@@ -98,23 +121,7 @@ final class BuildingValidator {
             Hint h = hints.get(i);
             String field = "hints[" + i + "]";
             if (h.order() != i + 1) e.add(field + ".order must be " + (i + 1) + " (hints are listed in reveal order)");
-            if (h.type() == null) {
-                e.add(field + ".type is required");
-                continue;
-            }
-            switch (h.type()) {
-                case IMAGE -> {
-                    if (h.image() == null) {
-                        e.add(field + ".image is required for IMAGE hints");
-                    } else {
-                        e.requireAsset(b.id(), h.image().src(), field + ".image.src");
-                        e.requireText(h.image().alt(), field + ".image.alt");
-                        e.optionalSource(h.image().source(), field + ".image.source");
-                        validateCrop(h.image().crop(), field + ".image.crop", e);
-                    }
-                }
-                case FACT -> e.requireText(h.text(), field + ".text");
-            }
+            e.requireText(h.text(), field + ".text");
         }
     }
 

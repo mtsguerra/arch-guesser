@@ -3,37 +3,16 @@ import { AnimatePresence, motion } from 'motion/react'
 import { Lightbulb } from 'lucide-react'
 import { duration, easeOut } from '../../motion.js'
 import { strings } from '../../strings.js'
-import { ArchImage } from '../ui/ArchImage.jsx'
 import { Button } from '../ui/Button.jsx'
 import styles from './HintTray.module.css'
 
-// Each hint is laid down on the table like a print: drops in, slightly askew, then settles.
+// Each hint is laid down on the table like a note: drops in, slightly askew, then settles.
 const hintMotion = {
   initial: { opacity: 0, y: -14, rotate: -1.2, scale: 0.97 },
   animate: { opacity: 1, y: 0, rotate: 0, scale: 1, transition: { duration: duration.slow, ease: easeOut } },
 }
 
-function HintContent({ hint }) {
-  if (hint.type === 'IMAGE') {
-    return (
-      <figure className={styles.photo}>
-        <div className={styles.print}>
-          <ArchImage
-            key={hint.image.src}
-            src={hint.image.src}
-            alt={hint.image.alt}
-            fit="cover"
-            crop={hint.image.crop}
-            placeholderTitle={strings.hints.missingPhoto}
-          />
-        </div>
-        {hint.caption && <figcaption className={styles.caption}>{hint.caption}</figcaption>}
-      </figure>
-    )
-  }
-  return <p className={styles.fact}>{hint.text}</p>
-}
-
+/** Progressive text-only tips; every image is already on the board. */
 export function HintTray({ hints, hintLevel, canReveal, onReveal }) {
   const shown = hints.slice(0, hintLevel)
   const remaining = hints.length - hintLevel
@@ -71,10 +50,8 @@ export function HintTray({ hints, hintLevel, canReveal, onReveal }) {
               initial="initial"
               animate="animate"
             >
-              <span className={styles.label}>
-                {strings.hints.label(i + 1)} · {hint.type === 'IMAGE' ? strings.hints.photo : strings.hints.fact}
-              </span>
-              <HintContent hint={hint} />
+              <span className={styles.label}>{strings.hints.label(i + 1)}</span>
+              <p className={styles.fact}>{hint.text}</p>
             </motion.li>
           ))}
         </AnimatePresence>

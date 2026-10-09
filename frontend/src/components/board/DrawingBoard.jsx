@@ -1,4 +1,4 @@
-import { useId, useMemo, useState } from 'react'
+import { useEffect, useId, useMemo, useState } from 'react'
 import { AnimatePresence, LayoutGroup, motion } from 'motion/react'
 import { duration, easeOut } from '../../motion.js'
 import { strings } from '../../strings.js'
@@ -6,7 +6,7 @@ import { Sheet } from './Sheet.jsx'
 import { SheetTabs } from './SheetTabs.jsx'
 import { TitleBlock } from './TitleBlock.jsx'
 import { ZoomableDrawing } from './ZoomableDrawing.jsx'
-import { sheetNumbers } from './sheetNumbers.js'
+import { buildSheets } from './sheets.js'
 import styles from './DrawingBoard.module.css'
 
 // Sheets slide like pages pulled from a set: in from the side you're heading to.
@@ -17,20 +17,39 @@ const sheetMotion = {
 }
 
 /**
- * The drawing set for one building. Remount per building (`key={building.id}`)
- * so the selected sheet resets.
+ * The building's whole image set as sheets: cuts first, then photographs, all
+ * available from the start. A sheet whose image fails to load (a hotlinked file
+ * deleted upstream) removes its own tab instead of showing a placeholder.
+ * Remount per building (`key={building.id}`) so the selected sheet resets.
  */
 export function DrawingBoard({ building, revealed, fields }) {
   const idPrefix = useId()
-  const [[index, direction], setPage] = useState([0, 1])
-  const numbers = useMemo(() => sheetNumbers(building.drawings), [building.drawings])
-
-  const sheets = building.drawings.map((d, i) => ({ number: numbers[i], label: d.label }))
-  const drawing = building.drawings[index]
+  const [[requested, direction], setPage] = useState([0, 1])
+  const [failed, setFailed] = useState(() => new Set())
+  const allSheets = useMemo(() => buildSheets(building), [building])
+  const sheets = allSheets.filter((s) => !failed.has(s.key))
+  const index = Math.min(requested, Math.max(sheets.length - 1, 0))
+  const sheet = sheets[index]
 
   function select(next) {
     if (next !== index) setPage([next, next > index ? 1 : -1])
   }
+
+  function drop(key) {
+    setFailed((prev) => new Set(prev).add(key))
+  }
+
+  // Probe every image up front, so a broken file loses its tab before anyone clicks it
+  // (only the visible sheet renders its <img>). Successful probes also warm the cache.
+  useEffect(() => {
+    const probes = allSheets.map((s) => {
+      const img = new Image()
+      img.onerror = () => setFailed((prev) => new Set(prev).add(s.key))
+      img.src = s.image.src
+      return img
+    })
+    return () => probes.forEach((img) => (img.onerror = null))
+  }, [allSheets])
 
   // Title block cells fill in as soon as their guess field locks, not only at the reveal.
   const knowName = revealed || fields?.name === 'correct'
@@ -50,11 +69,11 @@ export function DrawingBoard({ building, revealed, fields }) {
       value: knowArchitect ? building.architects.map((a) => a.name).join(' & ') : strings.titleBlock.unknown,
       muted: !knowArchitect,
     },
-    { key: 'drawing', label: strings.titleBlock.drawing, value: drawing.label },
+    { key: 'drawing', label: strings.titleBlock.drawing, value: sheet ? sheet.title : strings.titleBlock.unknown },
     {
       key: 'sheet',
       label: strings.titleBlock.sheet,
-      value: `${numbers[index]} · ${strings.titleBlock.sheetOf(index + 1, sheets.length)}`,
+      value: sheet ? `${sheet.number} · ${strings.titleBlock.sheetOf(index + 1, sheets.length)}` : strings.titleBlock.unknown,
     },
   ]
 
@@ -65,9 +84,17 @@ export function DrawingBoard({ building, revealed, fields }) {
       </LayoutGroup>
 
       <div className={styles.stage}>
+        {sheets.length === 0 && (
+          <Sheet className={styles.page} titleBlock={<TitleBlock fields={titleFields} />}>
+            <p className={styles.unavailable} role="alert">
+              {strings.board.imagesUnavailable}
+            </p>
+          </Sheet>
+        )}
         <AnimatePresence initial={false} custom={direction}>
+          {sheet && (
           <motion.div
-            key={index}
+            key={sheet.key}
             className={styles.page}
             custom={direction}
             variants={sheetMotion}
@@ -82,9 +109,10 @@ export function DrawingBoard({ building, revealed, fields }) {
               aria-labelledby={`${idPrefix}-tab-${index}`}
               titleBlock={<TitleBlock fields={titleFields} />}
             >
-              <ZoomableDrawing drawing={drawing} revealed={revealed} />
+              <ZoomableDrawing sheet={sheet} revealed={revealed} onError={() => drop(sheet.key)} />
             </Sheet>
           </motion.div>
+          )}
         </AnimatePresence>
       </div>
     </section>

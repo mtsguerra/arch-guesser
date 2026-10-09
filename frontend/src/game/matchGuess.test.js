@@ -101,6 +101,7 @@ describe('eraMatches', () => {
     ['CONTEMPORARY', 'BRUTALISM'],
     ['POSTMODERNISM', 'CONTEMPORARY'],
     ['ART_NOUVEAU', 'HISTORICISM'],
+    ['ART_DECO', 'MODERNISM'],
   ])('treats %s as close enough to %s', (guess, answer) => {
     expect(eraMatches(guess, answer)).toBe(true)
   })
@@ -110,6 +111,7 @@ describe('eraMatches', () => {
     ['POSTMODERNISM', 'MODERNISM'],
     ['ART_NOUVEAU', 'MODERNISM'],
     ['CLASSICAL', 'CONTEMPORARY'],
+    ['OTTOMAN', 'BYZANTINE'],
   ])('rejects %s for %s', (guess, answer) => {
     expect(eraMatches(guess, answer)).toBe(false)
   })

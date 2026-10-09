@@ -1,0 +1,3578 @@
+[
+  {
+    "id": "villa-rotonda",
+    "name": "Villa La Rotonda",
+    "aliases": ["Villa Rotonda", "La Rotonda", "Villa Almerico Capra", "Villa Capra"],
+    "architects": [
+      {
+        "name": "Andrea Palladio",
+        "aliases": ["Palladio", "Andrea di Pietro della Gondola"],
+        "lifespan": "1508–1580",
+        "nationality": "Italian (Republic of Venice)",
+        "bio": "Born in Padua and trained as a stonemason, Palladio became the most influential architect of the Renaissance. His treatise The Four Books of Architecture (1570) spread his symmetrical, temple-fronted villas across Europe and the Americas, giving rise to Palladianism."
+      },
+      {
+        "name": "Vincenzo Scamozzi",
+        "aliases": ["Scamozzi"],
+        "lifespan": "1548–1616",
+        "nationality": "Italian (Republic of Venice)",
+        "bio": "Born in Vicenza, Scamozzi inherited several of Palladio's unfinished projects after the master's death in 1580, among them the Teatro Olimpico and La Rotonda, where he designed the lower, Pantheon-like dome. His treatise L'idea della architettura universale (1615) and his only pupil, Baldassarre Longhena, carried Palladian ideas into the Venetian Baroque."
+      }
+    ],
+    "location": { "city": "Vicenza", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1605,
+    "era": "RENAISSANCE",
+    "style": "Palladian",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Palladio_Rotonda_planta_Scamozzi_1778_%2823547396%29.jpg/1920px-Palladio_Rotonda_planta_Scamozzi_1778_%2823547396%29.jpg",
+        "alt": "Square floor plan with an identical portico on each of its four sides and a circular hall at the centre",
+        "credit": "Ottavio Bertotti Scamozzi, engraving, 1778 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palladio_Rotonda_planta_Scamozzi_1778_(23547396).jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Cross section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Palladio_Rotonda_%2823547400%29.jpg/1920px-Palladio_Rotonda_%2823547400%29.jpg",
+        "alt": "Section through a raised villa showing a central domed hall rising above the surrounding rooms",
+        "credit": "Ottavio Bertotti Scamozzi, engraving, 1778 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palladio_Rotonda_(23547400).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Cupola_Villa_Rotonda_Vicenza.jpg/1920px-Cupola_Villa_Rotonda_Vicenza.jpg",
+          "alt": "Looking up into a frescoed dome with an oculus at its centre",
+          "credit": "Photo: Andrek02 · CC0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Cupola_Villa_Rotonda_Vicenza.jpg"
+        },
+        "caption": "The whole house turns around a single domed, circular hall."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Four identical temple fronts face the four directions, so this hilltop house has no back."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/VillaCapra_2007_07_18_3.jpg/1920px-VillaCapra_2007_07_18_3.jpg",
+          "alt": "Cream-coloured villa on a lawn, with temple porticoes on two visible sides and a low tiled dome",
+          "credit": "Photo: Hans A. Rosbach · CC BY-SA 3.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:VillaCapra_2007_07_18_3.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1567 on a hilltop outside Vicenza for the retired cleric Paolo Almerico, La Rotonda is a perfectly symmetrical square block with a portico on every side and a domed hall at its heart. Palladio treated a private house like an ancient temple, and the result became one of the most copied buildings in Western architecture.",
+      "keyFeatures": [
+        "Square plan with four identical Ionic porticoes",
+        "Central circular hall under a dome",
+        "Symmetry on both axes",
+        "Raised on a hill to command views on every side"
+      ],
+      "funFacts": [
+        "Palladio died in 1580; Vincenzo Scamozzi completed the villa and replaced the planned high dome with a lower one, open to the sky through an oculus like the Pantheon in Rome.",
+        "It inspired buildings from Chiswick House in London to country houses across Britain and America.",
+        "It is part of the UNESCO World Heritage Site 'City of Vicenza and the Palladian Villas of the Veneto'."
+      ]
+    }
+  },
+  {
+    "id": "sant-ivo-alla-sapienza",
+    "name": "Sant'Ivo alla Sapienza",
+    "aliases": ["Sant Ivo", "Saint Ivo", "Sant'Ivo"],
+    "architects": [
+      {
+        "name": "Francesco Borromini",
+        "aliases": ["Borromini", "Francesco Castelli"],
+        "lifespan": "1599–1667",
+        "nationality": "Swiss-Italian (born in Ticino)",
+        "bio": "A stonemason's son from Bissone on Lake Lugano, Borromini spent his career in Rome, where his restless geometry and rippling walls made him the great rival of Gian Lorenzo Bernini. He built few, mostly small, churches, yet his inventive use of geometry shaped Baroque architecture across Europe."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1660,
+    "era": "BAROQUE",
+    "style": "Roman Baroque",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Church and courtyard plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Opera_del_caval_1720_%2829586924%29.jpg/1920px-Opera_del_caval_1720_%2829586924%29.jpg",
+        "crop": { "x": 0.12, "y": 0.125, "w": 0.73, "h": 0.77 },
+        "alt": "Plan of a six-pointed star formed by two overlapping triangles, with rounded and angled recesses at its points",
+        "credit": "Francesco Borromini, Opera del Caval. Francesco Boromino, 1720 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Opera_del_caval_1720_(29586924).jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section through the dome",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Opera_del_caval_1720_%2829586919%29.jpg/1920px-Opera_del_caval_1720_%2829586919%29.jpg",
+        "crop": { "x": 0.17, "y": 0.125, "w": 0.63, "h": 0.755 },
+        "alt": "Cut-away view of a tall centralized church: the walls rise into a ribbed dome topped by a slender lantern",
+        "credit": "Francesco Borromini, Opera del Caval. Francesco Boromino, 1720 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Opera_del_caval_1720_(29586919).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sant%27Ivo_alla_Sapienza_3.jpg/1920px-Sant%27Ivo_alla_Sapienza_3.jpg",
+          "alt": "Looking up white walls that flow without a break into a star-patterned dome",
+          "credit": "Photo: Hugo DK · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Sant%27Ivo_alla_Sapienza_3.jpg"
+        },
+        "caption": "The walls flow upward into the dome without a break."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The church closes the end of a courtyard belonging to the city's old university."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/It-roma-s_ivo_sapienza-150810-pp-2136.jpg/1920px-It-roma-s_ivo_sapienza-150810-pp-2136.jpg",
+          "alt": "Concave church front at the end of an arcaded courtyard, crowned by a spiralling lantern",
+          "credit": "Photo: Pedro P. Palazzo · CC BY 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:It-roma-s_ivo_sapienza-150810-pp-2136.jpg"
+        },
+        "caption": "A spiral lantern crowns the dome."
+      }
+    ],
+    "summary": {
+      "description": "Borromini built this university church inside the existing courtyard of the Palazzo della Sapienza in Rome. Its plan grows from two interlocking equilateral triangles, and the star-shaped walls continue straight up into the dome, making the whole interior read as a single sculpted space.",
+      "keyFeatures": [
+        "Star plan from two interlocking triangles",
+        "Walls and dome form one continuous surface",
+        "Almost colourless white interior that puts form first",
+        "Spiral lantern above a stepped dome"
+      ],
+      "funFacts": [
+        "The plan is often said to evoke a bee, the heraldic emblem of Pope Urban VIII's Barberini family.",
+        "Borromini was appointed architect of the Sapienza in 1632, reportedly on Bernini's recommendation.",
+        "Construction spanned the reigns of three popes, each of whom left his emblems on the building."
+      ]
+    }
+  },
+  {
+    "id": "monticello",
+    "name": "Monticello",
+    "aliases": [],
+    "architects": [
+      {
+        "name": "Thomas Jefferson",
+        "aliases": ["Jefferson"],
+        "lifespan": "1743–1826",
+        "nationality": "American",
+        "bio": "Third President of the United States and principal author of the Declaration of Independence, Jefferson was also a self-taught architect. Learning largely from Palladio's books, he promoted classical architecture as a model for the new republic and designed the Virginia State Capitol and the University of Virginia."
+      }
+    ],
+    "location": { "city": "Charlottesville, Virginia", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1809,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical (Palladian)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "First floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Monticello%2C_State_Route_53_vicinity%2C_Charlottesville%2C_Charlottesville%2C_VA_HABS_VA%2C2-CHAR.V%2C1-_%28sheet_3_of_32%29.tif/lossy-page1-1920px-Monticello%2C_State_Route_53_vicinity%2C_Charlottesville%2C_Charlottesville%2C_VA_HABS_VA%2C2-CHAR.V%2C1-_%28sheet_3_of_32%29.tif.jpg",
+        "crop": { "x": 0.045, "y": 0.03, "w": 0.828, "h": 0.96 },
+        "alt": "Symmetrical house plan with porticoes front and back, a central hall and parlour, and octagonal rooms at the corners",
+        "credit": "Historic American Buildings Survey (HABS VA,2-CHAR.V,1-), measured drawing · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Monticello,_State_Route_53_vicinity,_Charlottesville,_Charlottesville,_VA_HABS_VA,2-CHAR.V,1-_(sheet_3_of_32).tif"
+      },
+      {
+        "type": "ELEVATION",
+        "label": "South elevation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Monticello%2C_State_Route_53_vicinity%2C_Charlottesville%2C_Charlottesville%2C_VA_HABS_VA%2C2-CHAR.V%2C1-_%28sheet_17_of_32%29.tif/lossy-page1-1920px-Monticello%2C_State_Route_53_vicinity%2C_Charlottesville%2C_Charlottesville%2C_VA_HABS_VA%2C2-CHAR.V%2C1-_%28sheet_17_of_32%29.tif.jpg",
+        "crop": { "x": 0.13, "y": 0.24, "w": 0.66, "h": 0.53 },
+        "alt": "Side elevation of a house with three tall arched windows below a balustraded roof and a low dome",
+        "credit": "Historic American Buildings Survey (HABS VA,2-CHAR.V,1-), measured drawing · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Monticello,_State_Route_53_vicinity,_Charlottesville,_Charlottesville,_VA_HABS_VA,2-CHAR.V,1-_(sheet_17_of_32).tif"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Monticello_entrance_hall_7327.jpg/1920px-Monticello_entrance_hall_7327.jpg",
+          "alt": "Hall wall hung with antlers, maps and a library ladder above a marble bust",
+          "credit": "Photo: Frypie · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Monticello_entrance_hall_7327.jpg"
+        },
+        "caption": "The entrance hall doubled as a museum of fossils, maps and expedition finds."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its owner spent four decades designing, demolishing and rebuilding it."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Monticello_2010-10-29.jpg/1920px-Monticello_2010-10-29.jpg",
+          "alt": "Red-brick house with a white columned portico and a low octagonal dome, seen across a lawn",
+          "credit": "Photo: YF12s · CC BY-SA 3.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Monticello_2010-10-29.jpg"
+        },
+        "caption": "This façade appears on a US coin."
+      }
+    ],
+    "summary": {
+      "description": "Jefferson began his hilltop plantation house in 1768 and spent forty years reshaping it, adding an octagonal dome after seeing the latest Neoclassical buildings in Paris. Built and maintained largely by enslaved people, it is today presented both as an architectural landmark and as a place to confront the history of slavery in the United States.",
+      "keyFeatures": [
+        "Low octagonal dome over the west front",
+        "Temple-like porticoes in the manner of Palladio",
+        "Designed to look like a single storey, hiding the upper floors",
+        "Service wings tucked under terraces in the hillside"
+      ],
+      "funFacts": [
+        "The west front is pictured on the back of the US five-cent coin.",
+        "It is a UNESCO World Heritage Site together with the University of Virginia, which Jefferson also designed.",
+        "Jefferson learned architecture largely from Palladio's Four Books, and the porticoes and proportions show it."
+      ]
+    }
+  },
+  {
+    "id": "villa-savoye",
+    "name": "Villa Savoye",
+    "aliases": ["Savoye House", "Les Heures Claires"],
+    "architects": [
+      {
+        "name": "Le Corbusier",
+        "aliases": ["Corbusier", "Charles-Édouard Jeanneret"],
+        "lifespan": "1887–1965",
+        "nationality": "Swiss-French",
+        "bio": "Born Charles-Édouard Jeanneret in La Chaux-de-Fonds, Switzerland, he took the name Le Corbusier in Paris and became one of the founders of modern architecture. His writings, buildings and city plans, from the Five Points of Architecture to the Unité d'Habitation, shaped twentieth-century design worldwide."
+      },
+      {
+        "name": "Pierre Jeanneret",
+        "aliases": [],
+        "lifespan": "1896–1967",
+        "nationality": "Swiss",
+        "bio": "Le Corbusier's cousin and partner for nearly two decades, Pierre Jeanneret co-signed the firm's houses of the 1920s and 1930s. He later spent fifteen years in India building the new city of Chandigarh, where his furniture designs have since become collectors' pieces."
+      }
+    ],
+    "location": { "city": "Poissy", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1931,
+    "era": "MODERNISM",
+    "style": "International Style",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Square grid of slender columns with a curved glazed entrance hall at one end"
+      },
+      {
+        "type": "FLOOR_PLAN",
+        "label": "First floor plan",
+        "src": null,
+        "alt": "Square upper floor wrapped around an open-air terrace, with a ramp at the centre"
+      },
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section",
+        "src": null,
+        "alt": "Section showing a ramp rising through three levels to a roof garden"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "FACT",
+        "text": "A ramp climbs through the middle of the house, from the entrance hall up to a roof garden."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The curve of the glazed ground floor was set by the turning circle of a car."
+      },
+      {
+        "order": 3,
+        "type": "FACT",
+        "text": "The house stands alone in a meadow in a western suburb of Paris, lifted off the grass on slender columns."
+      }
+    ],
+    "summary": {
+      "description": "Designed as a weekend house for Pierre and Eugénie Savoye, the villa is a white box lifted on slender columns above a meadow outside Paris. It is the fullest demonstration of Le Corbusier's Five Points of Architecture and a defining work of the International Style.",
+      "keyFeatures": [
+        "Pilotis lifting the house off the ground",
+        "Free plan, unconstrained by load-bearing walls",
+        "Free façade, independent of the structure",
+        "Long horizontal ribbon windows",
+        "Roof garden replacing the ground lost below"
+      ],
+      "funFacts": [
+        "The family named it 'Les Heures Claires' (The Bright Hours).",
+        "Persistent roof leaks made the house hard to live in, and the Savoyes complained repeatedly.",
+        "After years of neglect and a threat of demolition, it was listed as a French historic monument in 1965."
+      ]
+    }
+  },
+  {
+    "id": "salk-institute",
+    "name": "Salk Institute for Biological Studies",
+    "aliases": ["Salk Institute", "The Salk"],
+    "architects": [
+      {
+        "name": "Louis Kahn",
+        "aliases": ["Louis I. Kahn", "Kahn"],
+        "lifespan": "1901–1974",
+        "nationality": "American (born in Estonia)",
+        "bio": "Born on the island of Saaremaa in present-day Estonia and raised in Philadelphia, Kahn found his voice late, in his fifties. His monumental buildings of concrete, brick and light, including the Kimbell Art Museum and the National Assembly of Bangladesh, made him one of the most revered architects of the twentieth century."
+      }
+    ],
+    "location": { "city": "La Jolla, San Diego, California", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1965,
+    "era": "BRUTALISM",
+    "style": "Late Modernism (Brutalist)",
+    "drawings": [
+      {
+        "type": "SITE_PLAN",
+        "label": "Site plan",
+        "src": null,
+        "alt": "Two long parallel wings on either side of an open plaza, ending at a cliff edge"
+      },
+      {
+        "type": "SECTION",
+        "label": "Cross section",
+        "src": null,
+        "alt": "Section through stacked laboratory floors alternating with shallower service floors"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/2019_Salk_Institute_south_building_exterior_passageway.jpg/1920px-2019_Salk_Institute_south_building_exterior_passageway.jpg",
+          "alt": "Shaded passage of raw concrete, its timber-marked walls dotted with small round holes",
+          "credit": "Photo: Beyond My Ken · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_south_building_exterior_passageway.jpg"
+        },
+        "caption": "Raw, board-formed concrete; the holes left by the formwork ties are kept on show."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The client asked for a place worthy of a visit by Picasso."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Salk_Institute.jpg/1920px-Salk_Institute.jpg",
+          "alt": "Empty stone plaza between two concrete wings, a thin water channel running toward the ocean at sunset",
+          "credit": "Photo: TheNose · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Salk_Institute.jpg"
+        },
+        "caption": "Two mirror-image wings frame an empty plaza that opens to the Pacific."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned by Jonas Salk, developer of the polio vaccine, the institute sits on cliffs above the Pacific. Two symmetrical laboratory wings flank a travertine plaza cut by a narrow channel of water running toward the ocean, one of the most celebrated outdoor spaces in modern architecture.",
+      "keyFeatures": [
+        "Board-formed concrete with exposed form-tie holes",
+        "Travertine plaza split by a central water channel",
+        "Service floors between the labs for flexible layouts",
+        "Teak-clad studies angled toward the ocean"
+      ],
+      "funFacts": [
+        "Mexican architect Luis Barragán persuaded Kahn to leave the plaza bare instead of planting a garden, calling it a façade to the sky.",
+        "The water channel lines up with the setting sun around the equinoxes.",
+        "Kahn's plan also included residences and a meeting house, but only the laboratories were built."
+      ]
+    }
+  },
+  {
+    "id": "sao-francisco-de-assis-ouro-preto",
+    "name": "Igreja de São Francisco de Assis (Ouro Preto)",
+    "aliases": [
+      "Igreja de São Francisco de Assis",
+      "Church of Saint Francis of Assisi",
+      "São Francisco de Assis de Ouro Preto"
+    ],
+    "architects": [
+      {
+        "name": "Antônio Francisco Lisboa",
+        "aliases": ["Aleijadinho", "Antonio Francisco Lisboa"],
+        "lifespan": "c. 1730/38–1814",
+        "nationality": "Brazilian (colonial Brazil)",
+        "bio": "Son of a Portuguese architect and an enslaved African woman, Aleijadinho ('the little cripple') became the greatest artist of colonial Brazil, carving soapstone and wood across the gold-mining towns of Minas Gerais. A degenerative illness left him disabled, yet he kept working; his twelve soapstone prophets at Congonhas are his best-known sculptures."
+      }
+    ],
+    "location": { "city": "Ouro Preto, Minas Gerais", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1794,
+    "era": "BAROQUE",
+    "style": "Rococo (Barroco Mineiro)",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Church plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sao_Francisco_de_Assis_Church_%287_of_16%29.jpg/1920px-Sao_Francisco_de_Assis_Church_%287_of_16%29.jpg",
+          "alt": "Painted ceiling of a church nave: a sky full of figures framed by painted architecture",
+          "credit": "Photo: Rezende1968 · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Sao_Francisco_de_Assis_Church_(7_of_16).jpg"
+        },
+        "caption": "The nave ceiling, painted by Manuel da Costa Ataíde."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its circular bell towers were a novelty among the region's churches, and its frontispiece is carved in local soapstone."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Igreja_S%C3%A3o_Francisco_de_Assis_lateral.jpg/1920px-Igreja_S%C3%A3o_Francisco_de_Assis_lateral.jpg",
+          "alt": "White church with round bell towers and ornate stone carving around a green door",
+          "credit": "Photo: Paulo Bueno · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Igreja_S%C3%A3o_Francisco_de_Assis_lateral.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built for the Third Order of Saint Francis in Ouro Preto, the gold-rush capital of Minas Gerais, this church is the masterpiece of Aleijadinho, who designed both the building and much of its carving. Its curving façade, round towers and soapstone reliefs make it the defining work of the Barroco Mineiro, the late, Rococo-tinged Baroque of Brazil's mining towns.",
+      "keyFeatures": [
+        "Circular bell towers set back from the façade",
+        "Soapstone frontispiece with a relief of Saint Francis receiving the stigmata",
+        "Oculus filled with a carved relief instead of a window",
+        "Nave ceiling painted by Manuel da Costa Ataíde"
+      ],
+      "funFacts": [
+        "The Third Order asked Lisbon for permission to build in 1752; approval only came in 1771, years after work had begun under a provisional licence.",
+        "Ouro Preto's historic centre is a UNESCO World Heritage Site."
+      ]
+    }
+  },
+  {
+    "id": "mosteiro-de-sao-bento-rio",
+    "name": "Mosteiro de São Bento",
+    "aliases": ["São Bento Monastery", "Monastery of Saint Benedict", "Mosteiro de São Bento do Rio de Janeiro"],
+    "architects": [
+      {
+        "name": "Francisco Frias de Mesquita",
+        "aliases": ["Frias de Mesquita", "Francisco de Frias da Mesquita"],
+        "lifespan": "c. 1578–c. 1645",
+        "nationality": "Portuguese",
+        "bio": "A Portuguese military engineer sent to colonial Brazil, Frias de Mesquita designed fortifications and buildings along the coast. In 1617 he drew up the plans for São Bento in the plain Mannerist manner then current in Portugal."
+      },
+      {
+        "name": "Frei Bernardo de São Bento Correia de Souza",
+        "aliases": ["Bernardo de São Bento", "Frei Bernardo"],
+        "bio": "A Benedictine friar and architect active in colonial Rio de Janeiro and one of the main figures behind the monastery's construction. He altered the original plan while it was being built, turning the single-nave church into one with three naves."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1671,
+    "era": "BAROQUE",
+    "style": "Mannerist exterior, Baroque interior",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Church plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mosteiro_de_S%C3%A3o_Bento_01.jpg/1920px-Mosteiro_de_S%C3%A3o_Bento_01.jpg",
+          "alt": "Plain white church front with two pointed towers and three arched entrances",
+          "credit": "Photo: Klayton Aurélio de Oliveira · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Mosteiro_de_S%C3%A3o_Bento_01.jpg"
+        },
+        "caption": "A sober front of white walls and grey stone, on a hill above the port."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was paid for with income from sugar-cane estates given to the monks, and built by enslaved labourers."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Igreja_de_S%C3%A3o_de_Bento.JPG/1920px-Igreja_de_S%C3%A3o_de_Bento.JPG",
+          "alt": "Church nave lined almost entirely with gilded carved woodwork",
+          "credit": "Photo: Rafael.carvalhosa · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Igreja_de_S%C3%A3o_de_Bento.JPG"
+        },
+        "caption": "Inside, almost every surface is covered in gilded carving."
+      }
+    ],
+    "summary": {
+      "description": "Planned in 1617 and begun in 1633 on a hill overlooking Rio de Janeiro's harbour, the Benedictine monastery hides one of the richest Baroque interiors in Brazil behind a sober Mannerist façade. The church was enlarged to three naves during construction, and from the late 17th century its walls and vaults were covered in gilded carving.",
+      "keyFeatures": [
+        "Mannerist façade with three entrance arches and a triangular pediment",
+        "Nave and chapels lined with gilded woodcarving (talha dourada)",
+        "Carving that runs from late Baroque to Rococo",
+        "Cloister completed in 1755"
+      ],
+      "funFacts": [
+        "Much of the carving in the nave and chancel was designed by the Benedictine Frei Domingos da Conceição (1643–1718).",
+        "The cloister was designed by the military engineer José Fernandes Pinto Alpoim and finished in 1755."
+      ]
+    }
+  },
+  {
+    "id": "theatro-municipal-rio",
+    "name": "Theatro Municipal do Rio de Janeiro",
+    "aliases": ["Theatro Municipal", "Teatro Municipal", "Municipal Theatre of Rio de Janeiro"],
+    "architects": [
+      {
+        "name": "Francisco de Oliveira Passos",
+        "aliases": ["Oliveira Passos"],
+        "lifespan": "1878–1958",
+        "nationality": "Brazilian",
+        "bio": "An engineer and later politician, the son of Rio's reforming mayor Francisco Pereira Passos. Under the pseudonym 'Áquila' he won the city's competition for a new municipal theatre."
+      },
+      {
+        "name": "Albert Guilbert",
+        "aliases": ["Guilbert"],
+        "nationality": "French",
+        "bio": "French architect who worked with Oliveira Passos on the theatre's design, which takes Charles Garnier's Paris Opéra as its model."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1909,
+    "era": "HISTORICISM",
+    "style": "Eclectic (Beaux-Arts)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Brazil-00993_-_Theatre_Detail_%2848985050992%29.jpg/1920px-Brazil-00993_-_Theatre_Detail_%2848985050992%29.jpg",
+          "alt": "Gilded eagle with spread wings on top of a green and gold dome",
+          "credit": "Photo: Dennis G. Jarvis · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Brazil-00993_-_Theatre_Detail_(48985050992).jpg"
+        },
+        "caption": "A gilded eagle crowns one of the domes."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was built in four and a half years, from 1905 to 1909, on a foundation of 1,180 wooden piles driven into waterlogged ground."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Teatro_Municipal_do_Rio_de_Janeiro_Cinel%C3%A2ndia.jpg/1920px-Teatro_Municipal_do_Rio_de_Janeiro_Cinel%C3%A2ndia.jpg",
+          "alt": "Black-and-white street of wet cobblestones leading to an ornate domed building",
+          "credit": "Photo: Antonio Donioli · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Teatro_Municipal_do_Rio_de_Janeiro_Cinel%C3%A2ndia.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Rio's opera house was the showpiece of the city's Parisian-style remodelling in the early 1900s, when the new Avenida Central was cut through the old centre. Its eclectic, richly sculpted design follows Charles Garnier's Paris Opéra, and it opened in July 1909 with seats for 1,739 people.",
+      "keyFeatures": [
+        "Eclectic façade modelled on the Paris Opéra",
+        "Green and gilded domes crowned by eagles",
+        "Names of European and Brazilian artists inscribed on the outer walls",
+        "Foundation of 1,180 wooden piles"
+      ],
+      "funFacts": [
+        "The winning design was entered under the pseudonym 'Áquila'.",
+        "President Nilo Peçanha inaugurated it on 14 July 1909.",
+        "It faces Cinelândia square, near the National Library and the National Museum of Fine Arts."
+      ]
+    }
+  },
+  {
+    "id": "palacio-gustavo-capanema",
+    "name": "Palácio Gustavo Capanema",
+    "aliases": [
+      "Gustavo Capanema Palace",
+      "Ministry of Education and Health Building",
+      "Ministério da Educação e Saúde",
+      "Edifício Gustavo Capanema"
+    ],
+    "architects": [
+      {
+        "name": "Lúcio Costa",
+        "aliases": ["Lucio Costa", "Costa"],
+        "lifespan": "1902–1998",
+        "nationality": "Brazilian",
+        "bio": "Costa led the team that designed the Ministry and became the leading theorist of Brazilian modernism. He is best known for the Plano Piloto, the master plan of Brasília."
+      },
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      },
+      {
+        "name": "Affonso Eduardo Reidy",
+        "aliases": ["Reidy"],
+        "lifespan": "1909–1964",
+        "nationality": "Brazilian",
+        "bio": "Son of an English father and a Brazilian mother, Reidy trained in Rio de Janeiro and spent much of his career designing for the city, from the Pedregulho housing estate to the Museum of Modern Art in Flamengo Park."
+      },
+      {
+        "name": "Carlos Leão",
+        "aliases": ["Carlos Azevedo Leão", "Leão"],
+        "lifespan": "1906–1983",
+        "nationality": "Brazilian",
+        "bio": "Rio-born architect, painter and watercolourist, and a member of Lúcio Costa's team for the Ministry of Education and Health."
+      },
+      {
+        "name": "Jorge Machado Moreira",
+        "aliases": ["Jorge Moreira", "Moreira"],
+        "lifespan": "1904–1992",
+        "nationality": "Brazilian",
+        "bio": "A member of the Ministry team, Moreira later led the planning and design of the Federal University of Rio de Janeiro's campus on Fundão Island."
+      },
+      {
+        "name": "Ernani Vasconcellos",
+        "aliases": ["Ernani Mendes de Vasconcellos", "Ernâni Vasconcelos", "Vasconcellos"],
+        "lifespan": "1912–1989",
+        "nationality": "Brazilian",
+        "bio": "Architect, painter and muralist from Rio de Janeiro, and the youngest member of the Ministry team."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1945,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Typical floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Gustavo_Capanema_Palace_%2811381268055%29.jpg/1920px-Gustavo_Capanema_Palace_%2811381268055%29.jpg",
+          "alt": "Wall of blue and white tiles with flowing shapes and stars, behind slender columns",
+          "credit": "Photo: Wagner Tamanaha · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Gustavo_Capanema_Palace_(11381268055).jpg"
+        },
+        "caption": "Blue and white tiles under the raised block, a nod to Portuguese colonial azulejos."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The young Brazilian team invited Le Corbusier to advise them on the design in 1936."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/MESP1.JPG",
+          "alt": "Tall office slab whose façade is covered in adjustable horizontal sun-shades",
+          "credit": "Photo: Imagens AMB · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:MESP1.JPG"
+        },
+        "caption": "Adjustable sun-shades on the north façade."
+      }
+    ],
+    "summary": {
+      "description": "Designed in 1935–36 and completed in 1945 for Brazil's new Ministry of Education and Health, this fifteen-storey slab was the country's first great modernist public building. It is raised on pilotis above an open ground floor, shaded by adjustable brises-soleil, and decorated with azulejo tiles, Portinari murals and gardens by Roberto Burle Marx.",
+      "keyFeatures": [
+        "Slab raised on tall pilotis above a public ground floor",
+        "Adjustable brises-soleil on the north façade, the first system of its kind",
+        "Blue and white azulejo murals",
+        "Gardens by Roberto Burle Marx"
+      ],
+      "funFacts": [
+        "Oscar Niemeyer began on the project as an intern in Lúcio Costa's office.",
+        "It was the first modernist public building in the Americas, larger than anything Le Corbusier himself had built by then.",
+        "The tile murals outside and the paintings inside are by Cândido Portinari."
+      ]
+    }
+  },
+  {
+    "id": "igreja-sao-francisco-pampulha",
+    "name": "Igreja de São Francisco de Assis da Pampulha",
+    "aliases": [
+      "Igrejinha da Pampulha",
+      "Pampulha Church",
+      "Church of Saint Francis of Assisi (Pampulha)",
+      "Igreja da Pampulha"
+    ],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Belo Horizonte, Minas Gerais", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1943,
+    "era": "MODERNISM",
+    "style": "Brazilian Modernism",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Church plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Igreja_de_S%C3%A3o_Francisco_de_Assis_%2837555991674%29.jpg/1920px-Igreja_de_S%C3%A3o_Francisco_de_Assis_%2837555991674%29.jpg",
+          "alt": "Curved concrete vault beside a tall lattice bell tower",
+          "credit": "Photo: Nicolas de Camaret · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Igreja_de_S%C3%A3o_Francisco_de_Assis_(37555991674).jpg"
+        },
+        "caption": "A parabolic concrete vault and a separate lattice bell tower."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Church authorities refused for years to consecrate it, objecting to its form and to a mural showing a dog beside Saint Francis."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Igreja_de_Sao_Francisco_de_Assis_-_Fundo.jpg/1920px-Igreja_de_Sao_Francisco_de_Assis_-_Fundo.jpg",
+          "alt": "Row of white parabolic vaults with a blue and white tile mural, beside a lattice tower",
+          "credit": "Photo: Camilla Vitoria Machado · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Igreja_de_Sao_Francisco_de_Assis_-_Fundo.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "The last building of the Pampulha ensemble that Niemeyer designed for Juscelino Kubitschek, then mayor of Belo Horizonte, this small chapel abandons the slab-on-pilotis formula for a row of parabolic concrete vaults that are structure and enclosure at once. Its free curves announced a distinctly Brazilian modernism.",
+      "keyFeatures": [
+        "Parabolic reinforced-concrete vaults, a form then used for hangars",
+        "Vaults acting as both structure and walls",
+        "Freestanding lattice bell tower",
+        "Tile murals by Cândido Portinari and Paulo Werneck"
+      ],
+      "funFacts": [
+        "Inside, Portinari's fourteen Stations of the Cross are considered among his most important works.",
+        "The structure was calculated by the engineer Joaquim Cardozo, Niemeyer's long-time collaborator.",
+        "The Pampulha Modern Ensemble became a UNESCO World Heritage Site in 2016."
+      ]
+    }
+  },
+  {
+    "id": "casa-de-vidro",
+    "name": "Casa de Vidro",
+    "aliases": ["Glass House", "The Glass House"],
+    "architects": [
+      {
+        "name": "Lina Bo Bardi",
+        "aliases": ["Bo Bardi", "Achillina Bo"],
+        "lifespan": "1914–1992",
+        "nationality": "Italian-born Brazilian",
+        "bio": "Born Achillina Bo in Rome, she moved to Brazil in 1946 with her husband, the critic and dealer Pietro Maria Bardi. Fascinated by Brazilian popular culture, she joined modernist rigour to a raw, humane architecture, from MASP to SESC Pompéia."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1951,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Escadaria_da_Casa_de_Vidro_de_Lina_Bo_Bardi.jpg/1920px-Escadaria_da_Casa_de_Vidro_de_Lina_Bo_Bardi.jpg",
+          "alt": "Light steel staircase rising between thin columns into a forest canopy",
+          "credit": "Photo: Igor Marotti · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Escadaria_da_Casa_de_Vidro_de_Lina_Bo_Bardi.jpg"
+        },
+        "caption": "A light steel stair rises from the forest floor to the glazed living floor."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was its architect's first built work, finished the year she became a naturalized Brazilian."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Casa_de_Vidro_-_Instituto_Bardi.jpg/1920px-Casa_de_Vidro_-_Instituto_Bardi.jpg",
+          "alt": "Glass-walled house raised on slender stilts among dense trees",
+          "credit": "Photo: LeoINN · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Casa_de_Vidro_-_Instituto_Bardi.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Lina Bo Bardi built this house for herself and her husband in 1951 on a steep plot in what was then a remnant of Atlantic Forest on the edge of São Paulo. A glass-walled living floor floats on slender pilotis above the slope, letting the landscape flow beneath it; today the forest has grown back and hides the house from view.",
+      "keyFeatures": [
+        "Glass-walled living floor on thin steel pilotis",
+        "Light stair rising from the garden",
+        "Landscape flowing under the raised house",
+        "Forest regrown around the building"
+      ],
+      "funFacts": [
+        "It was one of the first three houses in the then-new Morumbi neighbourhood.",
+        "It now houses the institute that looks after the archive of Lina Bo Bardi and Pietro Maria Bardi."
+      ]
+    }
+  },
+  {
+    "id": "palacio-da-alvorada",
+    "name": "Palácio da Alvorada",
+    "aliases": ["Alvorada Palace", "Palace of Dawn"],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Brasília", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1958,
+    "era": "MODERNISM",
+    "style": "Brazilian Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Pal%C3%A1cio_da_Alvorada_%282%29.jpg",
+          "alt": "Black-and-white view of slender, curving white columns tapering to points",
+          "credit": "Photo: Unknown photographer · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_da_Alvorada_(2).jpg"
+        },
+        "caption": "Its columns taper to fine points at top and bottom."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its name comes from a question its client asked: what is the new capital, if not the dawn of a new day for Brazil?"
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/MG_5309_%2841147082140%29.jpg/1920px-MG_5309_%2841147082140%29.jpg",
+          "alt": "Long, low glass palace behind a colonnade of curving white columns, reflected in a pool at dusk",
+          "credit": "Photo: MTur Destinos · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:MG_5309_(41147082140).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built in about fourteen months, from April 1957 to June 1958, the official residence of the President of Brazil was one of the first buildings of the new capital. A long glass box sits behind a portico of sculptural white columns whose curves became a symbol of Brasília.",
+      "keyFeatures": [
+        "Glass box set back behind a colonnade",
+        "Curving columns tapering to fine points",
+        "Reflecting pool in front",
+        "Long, low proportions near the shore of Lake Paranoá"
+      ],
+      "funFacts": [
+        "Every Brazilian president since Juscelino Kubitschek has lived there.",
+        "A golden wall inside carries a 1956 quotation by Kubitschek about the new capital."
+      ]
+    }
+  },
+  {
+    "id": "congresso-nacional-brasilia",
+    "name": "Palácio do Congresso Nacional",
+    "aliases": [
+      "National Congress of Brazil",
+      "National Congress Palace",
+      "Congresso Nacional",
+      "Brazilian National Congress"
+    ],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Brasília", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1960,
+    "era": "MODERNISM",
+    "style": "Brazilian Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Platform plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Obras_do_Congresso_Nacional_-_BR_RJANRIO_PH_0_FOT_00742_0021%2C_Acervo_do_Arquivo_Nacional.jpg/1920px-Obras_do_Congresso_Nacional_-_BR_RJANRIO_PH_0_FOT_00742_0021%2C_Acervo_do_Arquivo_Nacional.jpg",
+          "alt": "Black-and-white construction site with a long platform and the base of a dome",
+          "credit": "Photo: Arquivo Nacional (Brazil) · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Obras_do_Congresso_Nacional_-_BR_RJANRIO_PH_0_FOT_00742_0021,_Acervo_do_Arquivo_Nacional.jpg"
+        },
+        "caption": "Under construction in the late 1950s."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The low dome shelters one chamber of the legislature; the upturned bowl, the other."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Fotos_produzidas_pelo_Senado_%2831117527736%29.jpg/1920px-Fotos_produzidas_pelo_Senado_%2831117527736%29.jpg",
+          "alt": "Twin office towers rising between a dome and an upturned bowl on a long platform, beside a pool",
+          "credit": "Photo: Senado Federal · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Fotos_produzidas_pelo_Senado_(31117527736).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Inaugurated with the new capital in 1960, Brazil's parliament closes the Esplanade of Ministries at the Square of the Three Powers. Niemeyer set the two houses on a long horizontal platform, the Senate under a dome and the Chamber of Deputies in an upturned bowl, with twin 28-storey office towers rising between them.",
+      "keyFeatures": [
+        "Horizontal platform whose roof is a raised plaza",
+        "Dome over the Federal Senate",
+        "Upturned bowl over the Chamber of Deputies",
+        "Twin office towers linked to form an H"
+      ],
+      "funFacts": [
+        "In Rio de Janeiro the two houses had sat in separate buildings; Brasília joined them in one palace.",
+        "The structure was designed by the engineer Joaquim Cardozo.",
+        "Brasília is a UNESCO World Heritage Site."
+      ]
+    }
+  },
+  {
+    "id": "edificio-copan",
+    "name": "Edifício Copan",
+    "aliases": ["Copan Building", "Copan"],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1966,
+    "era": "MODERNISM",
+    "style": "Brazilian Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Typical floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Edif%C3%ADcio_Copan_S%C3%A3o_Paulo_2017-2.jpg/1920px-Edif%C3%ADcio_Copan_S%C3%A3o_Paulo_2017-2.jpg",
+          "alt": "Close-up of a towering curved façade wrapped in continuous horizontal concrete bands",
+          "credit": "Photo: Paul R. Burley · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Edif%C3%ADcio_Copan_S%C3%A3o_Paulo_2017-2.jpg"
+        },
+        "caption": "Horizontal concrete sun-breakers wrap the whole façade."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It has so many residents that the postal service gave it a postcode of its own."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ROGERIOCASSIMIRO_EDIFICIOCOPAN_SAOPAULO_SP_%2827088931388%29.jpg/1920px-ROGERIOCASSIMIRO_EDIFICIOCOPAN_SAOPAULO_SP_%2827088931388%29.jpg",
+          "alt": "Wavy residential tower with horizontal bands rising above the city",
+          "credit": "Photo: MTur Destinos · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:ROGERIOCASSIMIRO_EDIFICIOCOPAN_SAOPAULO_SP_(27088931388).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Conceived for the fourth centenary of São Paulo, Copan is a single sinuous slab, 115 metres tall, holding 1,160 apartments, from studios to three-bedroom flats, above a shopping arcade. Begun in 1952 and finished only in 1966, it houses residents of very different incomes in one building.",
+      "keyFeatures": [
+        "S-shaped plan",
+        "Continuous horizontal brise-soleil",
+        "1,160 apartments in six blocks",
+        "Ground-floor shopping gallery open to the street"
+      ],
+      "funFacts": [
+        "Its reinforced-concrete structure is the largest in Brazil.",
+        "Niemeyer was personally responsible for the sinuous façade; the project was developed with the architect Carlos Lemos."
+      ]
+    }
+  },
+  {
+    "id": "mam-rio",
+    "name": "Museu de Arte Moderna do Rio de Janeiro",
+    "aliases": ["MAM Rio", "MAM", "Museum of Modern Art of Rio de Janeiro", "Museum of Modern Art Rio"],
+    "architects": [
+      {
+        "name": "Affonso Eduardo Reidy",
+        "aliases": ["Reidy"],
+        "lifespan": "1909–1964",
+        "nationality": "Brazilian",
+        "bio": "Son of an English father and a Brazilian mother, Reidy trained in Rio de Janeiro and spent much of his career designing for the city, from the Pedregulho housing estate to the Museum of Modern Art in Flamengo Park."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1967,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Exhibition block plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/MAM_%2821637889809%29.jpg/1920px-MAM_%2821637889809%29.jpg",
+          "alt": "Raw concrete frames slanting outwards beside a glazed gallery",
+          "credit": "Photo: Pedro Mendonça · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:MAM_(21637889809).jpg"
+        },
+        "caption": "Slanted concrete frames carry the galleries."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "A fire in 1978 destroyed about 90% of its collection, including works by Picasso, Miró, Magritte and Dalí."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/MAM_-_Museu_de_Arte_Moderna_do_Rio_de_Janeiro_02.jpg/1920px-MAM_-_Museu_de_Arte_Moderna_do_Rio_de_Janeiro_02.jpg",
+          "alt": "Long concrete building held by a row of V-shaped frames above a garden pool",
+          "credit": "Photo: Halley Pacheco de Oliveira · CC BY-SA 3.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:MAM_-_Museu_de_Arte_Moderna_do_Rio_de_Janeiro_02.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Set in Flamengo Park, on land reclaimed from Guanabara Bay, the Museum of Modern Art is Affonso Eduardo Reidy's masterpiece. Its long exhibition block is carried by a row of V-shaped concrete frames, freeing the galleries of columns and opening the ground floor to views of the gardens by Roberto Burle Marx.",
+      "keyFeatures": [
+        "Exhibition block carried by V-shaped concrete frames",
+        "Column-free galleries",
+        "Ground floor open between park and bay",
+        "Gardens by Roberto Burle Marx"
+      ],
+      "funFacts": [
+        "The school block opened first, in 1958; the exhibition block was completed in 1967.",
+        "Reidy's partner, the engineer Carmen Portinho, was chief engineer on the project."
+      ]
+    }
+  },
+  {
+    "id": "masp",
+    "name": "Museu de Arte de São Paulo",
+    "aliases": ["MASP", "São Paulo Museum of Art", "Museu de Arte de São Paulo Assis Chateaubriand"],
+    "architects": [
+      {
+        "name": "Lina Bo Bardi",
+        "aliases": ["Bo Bardi", "Achillina Bo"],
+        "lifespan": "1914–1992",
+        "nationality": "Italian-born Brazilian",
+        "bio": "Born Achillina Bo in Rome, she moved to Brazil in 1946 with her husband, the critic and dealer Pietro Maria Bardi. Fascinated by Brazilian popular culture, she joined modernist rigour to a raw, humane architecture, from MASP to SESC Pompéia."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1968,
+    "era": "BRUTALISM",
+    "style": "Brutalism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Gallery floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Vista_a%C3%A9rea_de_la_Avenida_Paulista_de_S%C3%A3o_Paulo_09.jpg/1920px-Vista_a%C3%A9rea_de_la_Avenida_Paulista_de_S%C3%A3o_Paulo_09.jpg",
+          "alt": "Aerial view of a long roof with two red beams spanning across it, beside a busy avenue",
+          "credit": "Photo: ProtoplasmaKid · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_la_Avenida_Paulista_de_S%C3%A3o_Paulo_09.jpg"
+        },
+        "caption": "Two great red beams run the length of the building."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its collection of European art is considered one of the finest in the Southern Hemisphere."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Museu_de_Arte_de_S%C3%A3o_Paulo_Assis_Chateaubriand_em_31_de_Julho_de_2025.jpg/1920px-Museu_de_Arte_de_S%C3%A3o_Paulo_Assis_Chateaubriand_em_31_de_Julho_de_2025.jpg",
+          "alt": "Glass-walled gallery box held up between two red-painted concrete frames",
+          "credit": "Photo: Boaventuravinicius · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_de_Arte_de_S%C3%A3o_Paulo_Assis_Chateaubriand_em_31_de_Julho_de_2025.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "On the site of the old Trianon belvedere on Avenida Paulista, Lina Bo Bardi lifted the museum's galleries into a glass and concrete box hung between two great frames. Beneath it, a covered public plaza about 74 metres long is left open to the city.",
+      "keyFeatures": [
+        "Gallery box spanning about 74 metres between two pairs of pillars",
+        "Free public plaza beneath (the vão livre)",
+        "Exposed concrete and glass",
+        "Paintings shown on transparent easels"
+      ],
+      "funFacts": [
+        "Bo Bardi displayed the paintings on glass and concrete easels so they seemed to float in the gallery; the museum brought them back in 2015.",
+        "The museum opened in 1947 in a downtown building and moved here in 1968.",
+        "Queen Elizabeth II attended its inauguration in 1968."
+      ]
+    }
+  },
+  {
+    "id": "fau-usp",
+    "name": "Edifício da FAU-USP",
+    "aliases": [
+      "FAU-USP",
+      "FAU USP",
+      "Faculdade de Arquitetura e Urbanismo da USP",
+      "Faculty of Architecture and Urbanism, University of São Paulo"
+    ],
+    "architects": [
+      {
+        "name": "Vilanova Artigas",
+        "aliases": ["João Batista Vilanova Artigas", "Artigas"],
+        "lifespan": "1915–1985",
+        "nationality": "Brazilian",
+        "bio": "Born in Curitiba, Artigas became the founding figure of the Paulista School and a long-time teacher at the University of São Paulo's architecture faculty, whose building he designed. The military regime removed him from teaching in 1969."
+      },
+      {
+        "name": "Carlos Cascaldi",
+        "aliases": ["Cascaldi"],
+        "lifespan": "1918–2010",
+        "nationality": "Brazilian",
+        "bio": "São Paulo architect, a former student of Vilanova Artigas and his partner throughout the 1950s, and co-author of the faculty building."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1969,
+    "era": "BRUTALISM",
+    "style": "Paulista Brutalism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Section through the ramps",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Fachada_da_FAU-USP.jpg/1920px-Fachada_da_FAU-USP.jpg",
+          "alt": "Tapering concrete column under the edge of a massive raw-concrete block",
+          "credit": "Photo: Matheus Carvalho Teixeira · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Fachada_da_FAU-USP.jpg"
+        },
+        "caption": "The heavy concrete block rests on slender, tapering columns."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "A sequence of gentle ramps links all its floors around a great central hall under a skylit roof."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/FAU_at_USP.jpg/1920px-FAU_at_USP.jpg",
+          "alt": "Massive concrete box with a deep overhang on tapered columns, behind a lawn",
+          "credit": "Photo: Lombana · CC BY-SA 3.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:FAU_at_USP.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Inaugurated in 1969, Vilanova Artigas's building for the University of São Paulo's architecture school gathers its studios under a single concrete roof pierced by skylights. Ramps join the staggered levels around a central hall, expressing Artigas's idea of the school as an open, democratic space.",
+      "keyFeatures": [
+        "Single roof of concrete coffers with skylights",
+        "Ramps connecting staggered levels",
+        "Great central hall as a meeting space",
+        "Heavy concrete block on slender tapered columns"
+      ],
+      "funFacts": [
+        "Artigas also helped create the school's curriculum, giving equal weight to technique, history and design.",
+        "The military regime removed Artigas from teaching in 1969, the year the building opened."
+      ]
+    }
+  },
+  {
+    "id": "catedral-de-brasilia",
+    "name": "Catedral Metropolitana de Brasília",
+    "aliases": ["Cathedral of Brasília", "Catedral de Brasília", "Brasília Cathedral"],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Brasília", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1970,
+    "era": "MODERNISM",
+    "style": "Brazilian Modernism",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Catedral21_7.jpg/1920px-Catedral21_7.jpg",
+          "alt": "Crown of curved white concrete ribs seen across a glass roof",
+          "credit": "Photo: Fwsbsb2 · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Catedral21_7.jpg"
+        },
+        "caption": "From outside, the ribs rise like a crown above a glass roof."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Bronze statues of the four Evangelists stand at its entrance."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/11_01_2024_-_-TBT_um_templo_de_f%C3%A9%2C_arte_e_hist%C3%B3ria_%2853457488345%29.jpg/1920px-11_01_2024_-_-TBT_um_templo_de_f%C3%A9%2C_arte_e_hist%C3%B3ria_%2853457488345%29.jpg",
+          "alt": "Circular building of sixteen curved white concrete ribs gathered at the top, with glass between them",
+          "credit": "Photo: Agência Brasília · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:11_01_2024_-_-TBT_um_templo_de_f%C3%A9,_arte_e_hist%C3%B3ria_(53457488345).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "A hyperboloid of sixteen curved concrete columns, each weighing about 90 tonnes, rises from a circular base like hands reaching towards the sky. Visitors enter through a dark, low passage and emerge into a nave filled with coloured light.",
+      "keyFeatures": [
+        "Hyperboloid of 16 concrete columns",
+        "Glass between the ribs, with stained glass by Marianne Peretti (1990)",
+        "Entrance through a low, dark passage",
+        "Reflecting pool around the building"
+      ],
+      "funFacts": [
+        "Three angels by Alfredo Ceschiatti hang from steel cables over the nave.",
+        "It was engineered by Joaquim Cardozo and dedicated on 31 May 1970."
+      ]
+    }
+  },
+  {
+    "id": "palacio-itamaraty",
+    "name": "Palácio Itamaraty",
+    "aliases": ["Itamaraty Palace", "Palácio dos Arcos", "Palace of the Arches", "Itamaraty"],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Brasília", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1970,
+    "era": "MODERNISM",
+    "style": "Brazilian Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Brasil%2C_gira_Caribe_y_Sur_Am%C3%A9rica_%2812206492973%29.jpg/1920px-Brasil%2C_gira_Caribe_y_Sur_Am%C3%A9rica_%2812206492973%29.jpg",
+          "alt": "Corner of a building with tall concrete arches rising from a reflecting pool",
+          "credit": "Photo: Ricardo Patiño · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Brasil,_gira_Caribe_y_Sur_Am%C3%A9rica_(12206492973).jpg"
+        },
+        "caption": "Tall arches stand directly in the water."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Inside, a spiral staircase with no central support seems to float between floors."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Brasil%2C_gira_Caribe_y_Sur_Am%C3%A9rica_%2812206496083%29.jpg/1920px-Brasil%2C_gira_Caribe_y_Sur_Am%C3%A9rica_%2812206496083%29.jpg",
+          "alt": "Long arcade of slender concrete arches around a glass building, with a white sculpture in the pool",
+          "credit": "Photo: Ricardo Patiño · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Brasil,_gira_Caribe_y_Sur_Am%C3%A9rica_(12206496083).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Brazil's Ministry of Foreign Affairs occupies a glass box surrounded by a colonnade of slender concrete arches that rise out of a reflecting pool, with gardens by Roberto Burle Marx. Technical difficulties delayed its completion until April 1970.",
+      "keyFeatures": [
+        "Glass building inside a concrete arcade",
+        "Arches standing in a reflecting pool",
+        "Spiral staircase without central support",
+        "Gardens by Roberto Burle Marx"
+      ],
+      "funFacts": [
+        "It was first called the Palácio dos Arcos, the Palace of the Arches.",
+        "In front of it stands Meteoro, a marble sculpture by Bruno Giorgi."
+      ]
+    }
+  },
+  {
+    "id": "pinacoteca-sao-paulo",
+    "name": "Pinacoteca do Estado de São Paulo",
+    "aliases": ["Pinacoteca", "Pinacoteca de São Paulo", "Pinacoteca Luz", "Pina Luz"],
+    "architects": [
+      {
+        "name": "Ramos de Azevedo",
+        "aliases": ["Francisco de Paula Ramos de Azevedo"],
+        "lifespan": "1851–1928",
+        "nationality": "Brazilian",
+        "bio": "The most prolific architect of turn-of-the-century São Paulo, Ramos de Azevedo ran the office behind many of the city's public buildings and directed the Liceu de Artes e Ofícios, for which this building was designed."
+      },
+      {
+        "name": "Domiziano Rossi",
+        "aliases": ["Domiciano Rossi", "Rossi"],
+        "nationality": "Italian",
+        "bio": "Ramos de Azevedo's main collaborator, who designed the Liceu building with him in the Italian eclectic manner."
+      },
+      {
+        "name": "Paulo Mendes da Rocha",
+        "aliases": ["Mendes da Rocha"],
+        "lifespan": "1928–2021",
+        "nationality": "Brazilian",
+        "bio": "Born in Vitória and based in São Paulo, Mendes da Rocha was a leading figure of the Paulista School, known for bold, economical concrete structures. He received the Pritzker Prize in 2006 and the Venice Biennale's Golden Lion in 2016."
+      },
+      {
+        "name": "Eduardo Colonelli",
+        "aliases": ["Eduardo Argenton Colonelli", "Colonelli"],
+        "nationality": "Brazilian",
+        "bio": "São Paulo architect who led the 1993–98 renovation with Paulo Mendes da Rocha and Weliton Ricoy Torres."
+      },
+      {
+        "name": "Weliton Ricoy Torres",
+        "aliases": ["Ricoy Torres"],
+        "nationality": "Brazilian",
+        "bio": "São Paulo architect, co-author of the 1993–98 renovation with Paulo Mendes da Rocha and Eduardo Colonelli."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1900,
+    "era": "HISTORICISM",
+    "style": "Italian eclecticism (renovated 1993–98)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Pinacoteca_do_Estado_de_S%C3%A3o_Paulo.jpg/1920px-Pinacoteca_do_Estado_de_S%C3%A3o_Paulo.jpg",
+          "alt": "Corner of a building in bare red brick, seen from below",
+          "credit": "Photo: Eugenio Hansen, OFS · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Pinacoteca_do_Estado_de_S%C3%A3o_Paulo.jpg"
+        },
+        "caption": "The brick walls were never covered with the plaster that was planned."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was built for a school of arts and crafts and opened, still unfinished, in 1900."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pinacoteca_de_S%C3%A3o_Paulo%2C_Brazil.jpg/1920px-Pinacoteca_de_S%C3%A3o_Paulo%2C_Brazil.jpg",
+          "alt": "Long brick building with colonnaded loggias behind a garden fountain",
+          "credit": "Photo: Wilfredor · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Pinacoteca_de_S%C3%A3o_Paulo,_Brazil.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Designed by Ramos de Azevedo and Domiziano Rossi for the Liceu de Artes e Ofícios, this eclectic brick building beside the Jardim da Luz opened unfinished in 1900 and became the home of São Paulo's oldest art museum, founded in 1905. Between 1993 and 1998 Paulo Mendes da Rocha, with Eduardo Colonelli and Weliton Ricoy Torres, transformed it: the courtyards were roofed with glass and crossed by metal walkways, and the bare brick was left on show.",
+      "keyFeatures": [
+        "Exposed brick walls, never plastered",
+        "Two inner courtyards roofed in glass during the renovation",
+        "Metal walkways crossing the courtyards",
+        "Side loggias and windows facing the Jardim da Luz"
+      ],
+      "funFacts": [
+        "The renovation won the Mies van der Rohe Prize for Latin America.",
+        "It was listed as a heritage building in 1982, part of the turn-of-the-century ensemble of the Luz district."
+      ]
+    }
+  },
+  {
+    "id": "sesc-pompeia",
+    "name": "SESC Pompéia",
+    "aliases": ["SESC Pompeia", "Sesc Pompéia", "Fábrica da Pompéia"],
+    "architects": [
+      {
+        "name": "Lina Bo Bardi",
+        "aliases": ["Bo Bardi", "Achillina Bo"],
+        "lifespan": "1914–1992",
+        "nationality": "Italian-born Brazilian",
+        "bio": "Born Achillina Bo in Rome, she moved to Brazil in 1946 with her husband, the critic and dealer Pietro Maria Bardi. Fascinated by Brazilian popular culture, she joined modernist rigour to a raw, humane architecture, from MASP to SESC Pompéia."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1986,
+    "era": "BRUTALISM",
+    "style": "Brutalism (industrial conversion)",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Site plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sesc_Pompeia.jpg/1920px-Sesc_Pompeia.jpg",
+          "alt": "Looking up at concrete walkways crossing between two towers",
+          "credit": "Photo: Clarissa Sá · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Sesc_Pompeia.jpg"
+        },
+        "caption": "Concrete walkways leap between the sports towers."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It began as a 1938 factory that made oil drums and, later, refrigerators."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sesc_Pomp%C3%A9ia_-_panoramio.jpg/1920px-Sesc_Pomp%C3%A9ia_-_panoramio.jpg",
+          "alt": "Concrete tower with irregular, rounded window openings, behind a fence",
+          "credit": "Photo: CORRETOR-CARVALHO · CC BY-SA 3.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Sesc_Pomp%C3%A9ia_-_panoramio.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Lina Bo Bardi turned a 1938 drum factory in São Paulo's working-class Pompéia district into a leisure centre for SESC, a social-services organisation. She kept the brick sheds for workshops, a library and a theatre, and added two concrete towers for sports, linked by eight walkways and pierced by irregular 'cave' windows.",
+      "keyFeatures": [
+        "Restored brick factory sheds",
+        "Two concrete sports towers",
+        "Eight walkways linking the towers",
+        "Irregular, cave-like window openings"
+      ],
+      "funFacts": [
+        "Bo Bardi first visited the site in 1976 and insisted on keeping the industrial buildings.",
+        "The first part opened on 22 January 1982; the sports towers followed in 1986."
+      ]
+    }
+  },
+  {
+    "id": "hospital-sarah-salvador",
+    "name": "Hospital Sarah Salvador",
+    "aliases": ["Sarah Salvador", "Hospital Sarah Kubitschek Salvador", "Rede Sarah Salvador"],
+    "architects": [
+      {
+        "name": "João Filgueiras Lima",
+        "aliases": ["Lelé", "Lele", "Filgueiras Lima"],
+        "lifespan": "1932–2014",
+        "nationality": "Brazilian",
+        "bio": "Lelé moved to Brasília in 1957, just after graduating, and learned on the new capital's building sites, which drew him to industrialised construction. He became Brazil's pioneer of prefabrication; as head of the Sarah hospital network's technology centre he designed its hospitals and built them from components made in its own factory."
+      }
+    ],
+    "location": { "city": "Salvador, Bahia", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1994,
+    "era": "CONTEMPORARY",
+    "style": "Industrialised construction",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "FACT",
+        "text": "It belongs to a national network of rehabilitation hospitals, most of them designed by the same architect."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its building components were prefabricated in a factory run by the hospital network itself."
+      },
+      {
+        "order": 3,
+        "type": "FACT",
+        "text": "It opened in 1994 in a city on the Bay of All Saints, in north-eastern Brazil."
+      }
+    ],
+    "summary": {
+      "description": "Lelé's hospital in Salvador belongs to the Sarah network of rehabilitation hospitals, which grew from Brasília to cities across Brazil. It was built from prefabricated components produced by the network's own technology centre, which Lelé directed, combining industrial methods with daylight, natural ventilation and gardens.",
+      "keyFeatures": [
+        "Prefabricated steel and ferrocement components",
+        "Roofs designed to bring in daylight and fresh air",
+        "Treatment spaces opening onto gardens",
+        "Low, spread-out layout"
+      ],
+      "funFacts": [
+        "Lelé learned on Brasília's building sites and later studied prefabrication in Eastern Europe.",
+        "The Sarah network specialises in rehabilitation for patients with locomotor problems."
+      ]
+    }
+  },
+  {
+    "id": "mube",
+    "name": "Museu Brasileiro da Escultura",
+    "aliases": ["MuBE", "Museu Brasileiro da Escultura e Ecologia", "Brazilian Museum of Sculpture"],
+    "architects": [
+      {
+        "name": "Paulo Mendes da Rocha",
+        "aliases": ["Mendes da Rocha"],
+        "lifespan": "1928–2021",
+        "nationality": "Brazilian",
+        "bio": "Born in Vitória and based in São Paulo, Mendes da Rocha was a leading figure of the Paulista School, known for bold, economical concrete structures. He received the Pritzker Prize in 2006 and the Venice Biennale's Golden Lion in 2016."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1995,
+    "era": "CONTEMPORARY",
+    "style": "Paulista Brutalism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Section through the site",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Paulo_mendes_da_rocha%2C_sao_paulo_april_2006_%28493990086%29.jpg/1920px-Paulo_mendes_da_rocha%2C_sao_paulo_april_2006_%28493990086%29.jpg",
+          "alt": "Edge of a thick concrete slab against the sky",
+          "credit": "Photo: seier+seier · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Paulo_mendes_da_rocha,_sao_paulo_april_2006_(493990086).jpg"
+        },
+        "caption": "A single massive concrete beam floats over the site."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Most of the museum lies below ground, following the natural slope of its site."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Museu_Brasileiro_da_Escultura_%28MuBE%29%2C_Paulo_Mendes_da_Rocha_%285878309120%29.jpg/1920px-Museu_Brasileiro_da_Escultura_%28MuBE%29%2C_Paulo_Mendes_da_Rocha_%285878309120%29.jpg",
+          "alt": "Broad open concrete plaza sheltered by a long, deep beam",
+          "credit": "Photo: Arte Fora do Museu · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_Brasileiro_da_Escultura_(MuBE),_Paulo_Mendes_da_Rocha_(5878309120).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Chosen through a closed competition and built over eight years from 1988, the museum hides its galleries below ground in a residential district of São Paulo. Above them, a huge concrete beam spans the site like an open-air shelter over a public plaza, beside a garden designed by Roberto Burle Marx.",
+      "keyFeatures": [
+        "Semi-underground galleries",
+        "Great concrete beam over an open plaza",
+        "Levels stepping with the slope",
+        "Garden designed by Roberto Burle Marx"
+      ],
+      "funFacts": [
+        "It opened in May 1995 with an exhibition of 140 works by Victor Brecheret.",
+        "A large sign once fixed to the beam was removed after criticism."
+      ]
+    }
+  },
+  {
+    "id": "mac-niteroi",
+    "name": "Museu de Arte Contemporânea de Niterói",
+    "aliases": ["MAC Niterói", "MAC", "Niterói Contemporary Art Museum"],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Niterói, Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1996,
+    "era": "CONTEMPORARY",
+    "style": "Late Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Gallery floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i_-_Niter%C3%B3i_-_20250308133219.JPG/1920px-Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i_-_Niter%C3%B3i_-_20250308133219.JPG",
+          "alt": "Underside of a white saucer-shaped building with a band of windows, against blue sky and hills",
+          "credit": "Photo: Thaismay · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i_-_Niter%C3%B3i_-_20250308133219.JPG"
+        },
+        "caption": "A white saucer with a ribbon of windows."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It rises 16 metres from a reflecting pool on a clifftop, looking across a bay to a famous granite peak."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Rio_From_Above_27-06-2017-517.jpg/1920px-Rio_From_Above_27-06-2017-517.jpg",
+          "alt": "Aerial view of a white saucer-shaped building on a rocky point above a beach",
+          "credit": "Photo: Diego Baravelli · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Rio_From_Above_27-06-2017-517.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Perched on a rocky point above Boa Viagem beach, Niemeyer's museum rises from a single cylindrical base out of its reflecting pool. The saucer-shaped gallery, 50 metres across, looks over Guanabara Bay to Rio de Janeiro and Sugarloaf Mountain.",
+      "keyFeatures": [
+        "Saucer-shaped volume on a single cylindrical support",
+        "Reflecting pool of 817 m² around the base",
+        "Continuous band of windows with views across the bay",
+        "Sculptural access ramp"
+      ],
+      "funFacts": ["Niemeyer said it rises from its pool 'like a flower'.", "It has often been likened to a UFO."]
+    }
+  },
+  {
+    "id": "museu-oscar-niemeyer",
+    "name": "Museu Oscar Niemeyer",
+    "aliases": ["MON", "Museu do Olho", "Eye Museum", "Oscar Niemeyer Museum", "Novo Museu"],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Curitiba, Paraná", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 2002,
+    "era": "CONTEMPORARY",
+    "style": "Late Modernism",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Annex plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Museu_Oscar_Niemeyer%2C_Centro_C%C3%ADvico_de_Curitiba.jpg/1920px-Museu_Oscar_Niemeyer%2C_Centro_C%C3%ADvico_de_Curitiba.jpg",
+          "alt": "Close-up of a curved white volume with a dark glazed face, against blue sky",
+          "credit": "Photo: Cassia Naomi Nakai · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_Oscar_Niemeyer,_Centro_C%C3%ADvico_de_Curitiba.jpg"
+        },
+        "caption": "A curved, glazed volume raised on a single pillar."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its long main building was designed by the same architect in 1967 as an education institute and opened in 1978."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Museu_do_Olho_-_Oscar_Niemeyer_-_Curitiba_Brasil_%2810146239796%29.jpg/1920px-Museu_do_Olho_-_Oscar_Niemeyer_-_Curitiba_Brasil_%2810146239796%29.jpg",
+          "alt": "Eye-shaped building on a yellow pillar beside a long low block, with a curving ramp",
+          "credit": "Photo: Marinelson Almeida - Traveling through Brazil · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_do_Olho_-_Oscar_Niemeyer_-_Curitiba_Brasil_(10146239796).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "In 2002 Curitiba turned a 1967 Niemeyer building, designed as an education institute, into a museum. The next year the architect, then 95, added the annex that gave it its nickname: an eye-shaped gallery of glass and steel raised on a single yellow pillar, set in grounds landscaped by Roberto Burle Marx.",
+      "keyFeatures": [
+        "Eye-shaped annex on a single pillar",
+        "Glass and steel façades lighting the exhibition space",
+        "Sinuous access ramps",
+        "Long modernist main building"
+      ],
+      "funFacts": [
+        "It opened in 2002 as the Novo Museu and took its architect's name in 2003.",
+        "Inside the 'eye', a spiral stair links the levels."
+      ]
+    }
+  },
+  {
+    "id": "museu-do-amanha",
+    "name": "Museu do Amanhã",
+    "aliases": ["Museum of Tomorrow", "Museu do Amanha"],
+    "architects": [
+      {
+        "name": "Santiago Calatrava",
+        "aliases": ["Calatrava", "Santiago Calatrava Valls"],
+        "lifespan": "born 1951",
+        "nationality": "Spanish",
+        "bio": "Born near Valencia, Calatrava trained as both an architect and a structural engineer, studying in Valencia and at ETH Zurich. His white, skeletal and often moving structures range from bridges and railway stations to Valencia's City of Arts and Sciences."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 2015,
+    "era": "CONTEMPORARY",
+    "style": "Neo-futurism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Museu_do_Amanh%C3%A3_-_Rio_de_Janeiro.jpg/1920px-Museu_do_Amanh%C3%A3_-_Rio_de_Janeiro.jpg",
+          "alt": "Black-and-white close-up of a white steel structure with long, rib-like fins",
+          "credit": "Photo: João Thiago da Silva · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_do_Amanh%C3%A3_-_Rio_de_Janeiro.jpg"
+        },
+        "caption": "Long steel fins line the roof."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It stands on a pier in the regenerated port of a large South American city."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Museu_do_Amanh%C3%A3_waterfront_building%2C_Rio_de_Janeiro%2C_Brazil.jpg/1920px-Museu_do_Amanh%C3%A3_waterfront_building%2C_Rio_de_Janeiro%2C_Brazil.jpg",
+          "alt": "Long white building with a projecting roof of fins, beside a reflecting pool",
+          "credit": "Photo: Wilfredor · CC0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_do_Amanh%C3%A3_waterfront_building,_Rio_de_Janeiro,_Brazil.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Opened on 17 December 2015 on Pier Mauá, in the regenerated port of Rio de Janeiro, Calatrava's science museum stretches out over Guanabara Bay under a cantilevered roof of steel fins. Its exhibitions explore sustainability and how humanity might live in the coming decades.",
+      "keyFeatures": [
+        "Cantilevered roof of steel fins",
+        "Long, low volume on a pier",
+        "Reflecting pools around the building",
+        "Exhibitions on sustainability and the future"
+      ],
+      "funFacts": ["President Dilma Rousseff attended the opening.", "Some of the roof's fins carry solar panels."]
+    }
+  },
+  {
+    "id": "casa-vicens",
+    "name": "Casa Vicens",
+    "aliases": ["Vicens House"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1885,
+    "era": "ART_NOUVEAU",
+    "style": "Orientalist / Neo-Mudéjar (early Modernisme)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan (1883)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Vicens_Plano_planta_baja.JPG",
+        "crop": { "x": 0, "y": 0.105, "w": 1, "h": 0.78 },
+        "alt": "Hand-drawn ground floor plan of a compact house, with a round fountain in the garden",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vicens_Plano_planta_baja.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Vicens_2017_int_008.jpg/1920px-Casa_Vicens_2017_int_008.jpg",
+          "alt": "Room with carved ceilings, tiled walls, latticed screens and a small fountain",
+          "credit": "Photo: Pol Viladoms · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Casa_Vicens_2017_int_008.jpg"
+        },
+        "caption": "Inside: carved ceilings, tiles and a small fountain."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was its architect's first major commission: a summer house for a stock and currency broker."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Barcelona_-_Carrer_de_les_Carolines_-_View_WNW_on_Casa_Vicens_1883-89_Antoni_Gaud%C3%AD.jpg/1920px-Barcelona_-_Carrer_de_les_Carolines_-_View_WNW_on_Casa_Vicens_1883-89_Antoni_Gaud%C3%AD.jpg",
+          "alt": "House with chequered green and white tiles and a decorated corner tower",
+          "credit": "Photo: Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Carrer_de_les_Carolines_-_View_WNW_on_Casa_Vicens_1883-89_Antoni_Gaud%C3%AD.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Gaudí's first major house was built in 1883–85 as a summer residence for Manuel Vicens, a stock and currency broker, in what was then the town of Gràcia. Its brick and tile walls draw on Mudéjar, Persian and Japanese sources, in an orientalist style Gaudí made his own.",
+      "keyFeatures": [
+        "Green and white chequered ceramic tiles",
+        "Brick walls with Mudéjar-inspired decoration",
+        "Ornate ceilings and oriental-style rooms",
+        "Cast-iron railings with palm-leaf motifs"
+      ],
+      "funFacts": [
+        "Gaudí studied Owen Jones's drawings of the Alhambra while developing its oriental style.",
+        "It is part of the UNESCO World Heritage Site 'Works of Antoni Gaudí'."
+      ]
+    }
+  },
+  {
+    "id": "palau-guell",
+    "name": "Palau Güell",
+    "aliases": ["Güell Palace", "Palacio Güell"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1888,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Plaf%C3%B3_cuf%C3%AD_del_Palau_G%C3%BCell%2C_Barcelona%2C_Catalunya%2C_ES.jpg/1920px-Plaf%C3%B3_cuf%C3%AD_del_Palau_G%C3%BCell%2C_Barcelona%2C_Catalunya%2C_ES.jpg",
+          "alt": "Ornate coffered wooden ceiling seen from below",
+          "credit": "Photo: Clyde Charles Brown · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Plaf%C3%B3_cuf%C3%AD_del_Palau_G%C3%BCell,_Barcelona,_Catalunya,_ES.jpg"
+        },
+        "caption": "Carved, coffered ceilings fill the reception rooms."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Carriages drove in through gates shaped as parabolic arches, with ironwork resembling seaweed."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Barcelona_-_Palau_G%C3%BCell.jpg/1920px-Barcelona_-_Palau_G%C3%BCell.jpg",
+          "alt": "Rooftop corner with chimneys clad in coloured broken tiles",
+          "credit": "Photo: Fred Romero · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Palau_G%C3%BCell.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built in 1886–88 in Barcelona's old town for the industrialist Eusebi Güell, Gaudí's great patron, this town palace is organised around a tall central hall rising to a dome. Above, chimneys clad in broken-tile mosaic crown the roof.",
+      "keyFeatures": [
+        "Parabolic entrance arches with wrought-iron gates",
+        "Central hall rising to a perforated dome",
+        "Stables in the basement",
+        "Rooftop chimneys covered in trencadís"
+      ],
+      "funFacts": [
+        "Guests arrived in horse-drawn carriages, driving straight in through the front gates.",
+        "It is part of the UNESCO World Heritage Site 'Works of Antoni Gaudí'."
+      ]
+    }
+  },
+  {
+    "id": "park-guell",
+    "name": "Park Güell",
+    "aliases": ["Parc Güell", "Parque Güell"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1914,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme landscape",
+    "drawings": [
+      { "type": "SITE_PLAN", "label": "Site plan", "src": null, "alt": "Site plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Barcelona_-_Parc_G%C3%BCell_-_View_NE_on_outer_edge_of_the_main_square%27s_mosaic_benches.jpg/1920px-Barcelona_-_Parc_G%C3%BCell_-_View_NE_on_outer_edge_of_the_main_square%27s_mosaic_benches.jpg",
+          "alt": "Leaning colonnade of rough rubble stone under palm trees",
+          "credit": "Photo: Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Parc_G%C3%BCell_-_View_NE_on_outer_edge_of_the_main_square%27s_mosaic_benches.jpg"
+        },
+        "caption": "Leaning colonnades of rough stone carry the paths."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was planned as a garden city for wealthy families, but only two houses were built."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Barcelona_-_Parc_G%C3%BCell_-_Main_stairs_-_View_SSE_towards_smaller_entrance_building.jpg/1920px-Barcelona_-_Parc_G%C3%BCell_-_Main_stairs_-_View_SSE_towards_smaller_entrance_building.jpg",
+          "alt": "Fairy-tale gatehouse with a mosaic-covered roof and a tall tiled spire",
+          "credit": "Photo: Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Parc_G%C3%BCell_-_Main_stairs_-_View_SSE_towards_smaller_entrance_building.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Count Eusebi Güell commissioned Gaudí to lay out a hillside estate of houses in the spirit of the English garden city. Built between 1900 and 1914, the scheme failed as housing, and the grounds opened as a public park in 1926: viaducts of rough stone, gatehouses, a hall of columns beneath a great terrace, and a serpentine mosaic bench.",
+      "keyFeatures": [
+        "Viaducts and leaning colonnades of rubble stone",
+        "Two gatehouse pavilions at the entrance",
+        "Hall of columns under the main terrace",
+        "Serpentine bench covered in trencadís"
+      ],
+      "funFacts": [
+        "The serpentine bench was designed by Gaudí's collaborator Josep Maria Jujol.",
+        "Güell himself moved onto the estate in 1906 to promote it."
+      ]
+    }
+  },
+  {
+    "id": "casa-batllo",
+    "name": "Casa Batlló",
+    "aliases": ["Batlló House", "Casa dels Ossos", "House of Bones"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1906,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Façade and section (1904)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fachada_y_secci%C3%B3n_Casa_Batll%C3%B3_%281904%29.jpg",
+        "alt": "Hand-drawn elevation of a narrow house front with bulging windows, beside its section",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fachada_y_secci%C3%B3n_Casa_Batll%C3%B3_(1904).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Casa_Batll%C3%B3_%2850257834956%29.jpg/1920px-Casa_Batll%C3%B3_%2850257834956%29.jpg",
+          "alt": "Ridged, scaly roof in mosaic tiles beside a cluster of tiled chimneys",
+          "credit": "Photo: Jose Ramirez · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_(50257834956).jpg"
+        },
+        "caption": "A scaly, arched roof and a cluster of tiled chimneys."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was not a new building: its architect transformed an existing house from 1877."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Casa_Batllo%2C_Barcelona_%2840897276590%29.jpg/1920px-Casa_Batllo%2C_Barcelona_%2840897276590%29.jpg",
+          "alt": "Colourful mosaic façade with bone-like balconies shaped like masks",
+          "credit": "Photo: Mike McBey · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Casa_Batllo,_Barcelona_(40897276590).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "In 1904 the textile industrialist Josep Batlló hired Gaudí to transform his 1877 house on the Passeig de Gràcia. Finished in 1906, it has a façade of broken-tile mosaic shading from gold to blue-green, mask-like balconies, bone-like columns and a roof that recalls the back of a dragon.",
+      "keyFeatures": [
+        "Trencadís mosaic façade",
+        "Mask-like balconies and bone-like columns",
+        "Arched, scaly roof",
+        "Few straight lines anywhere"
+      ],
+      "funFacts": [
+        "Barcelona's City Council shortlisted it for the 1906 best building award, which went to another architect.",
+        "Locals call it Casa dels Ossos, the House of Bones."
+      ]
+    }
+  },
+  {
+    "id": "casa-mila",
+    "name": "Casa Milà",
+    "aliases": ["La Pedrera", "Casa Mila"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1912,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Typical floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gaudi-casaMila-planol.jpg",
+        "alt": "Floor plan of a block around two irregular courtyards, with curving room shapes",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gaudi-casaMila-planol.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section (1906)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Secci%C3%B3n_Pedrera_%281906%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.87 },
+        "alt": "Hand-drawn section through a multi-storey building with an arched attic",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Secci%C3%B3n_Pedrera_(1906).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Barcelona_1064_17.jpg/1920px-Barcelona_1064_17.jpg",
+          "alt": "Rooftop of swirling stone chimneys and stair towers seen through an arch",
+          "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_1064_17.jpg"
+        },
+        "caption": "A rooftop of sculpted chimneys and stair exits."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its stone façade carries no load: columns hold up the floors, so walls inside could go anywhere."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Barcelona_23_21_15_431000.jpeg/1920px-Barcelona_23_21_15_431000.jpeg",
+          "alt": "Corner apartment building with an undulating pale stone façade and twisting iron balconies",
+          "credit": "Photo: Robot8A · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_23_21_15_431000.jpeg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Gaudí's last private house, built in 1906–12 for Pere Milà and Roser Segimon, wraps around two courtyards behind an undulating stone façade with twisting wrought-iron balconies. Columns carry the floors so that interior walls can go anywhere, and an underground garage and a sculpted roof terrace complete a building far ahead of its time.",
+      "keyFeatures": [
+        "Self-supporting, undulating stone façade",
+        "Free floor plans on a column structure",
+        "Two large inner courtyards",
+        "Roof terrace of sculpted chimneys and stair towers"
+      ],
+      "funFacts": [
+        "Barcelona mocked it as 'La Pedrera', the stone quarry, and the nickname stuck.",
+        "Its wrought-iron balconies were designed by Josep Maria Jujol.",
+        "Gaudí certified the building complete on 31 October 1912."
+      ]
+    }
+  },
+  {
+    "id": "sagrada-familia",
+    "name": "Sagrada Família",
+    "aliases": ["Basílica de la Sagrada Família", "Temple Expiatori de la Sagrada Família", "Sagrada Familia"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": null,
+    "era": "ART_NOUVEAU",
+    "style": "Catalan Modernisme (Gothic-inspired)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Planta_de_la_Sagrada_Fam%C3%ADlia.jpg",
+        "alt": "Plan of a large cross-shaped church with a many-aisled nave, a rounded apse and broad stairs at the front",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Planta_de_la_Sagrada_Fam%C3%ADlia.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Apsis_Sagrada_Familia.jpg/1920px-Apsis_Sagrada_Familia.jpg",
+          "alt": "Tall branching columns like a forest, rising to a vault, with coloured light",
+          "credit": "Photo: Triptychon · CC0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Apsis_Sagrada_Familia.jpg"
+        },
+        "caption": "Columns branch like trees to hold up the vaults."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Begun in 1882, it is still being built, paid for entirely by donations."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Barcelona-Eixample%2C_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg/1920px-Barcelona-Eixample%2C_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg",
+          "alt": "Façade of angular sculpted figures beneath tall pointed spires",
+          "credit": "Photo: Michielverbeek · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona-Eixample,_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1882 to a conventional Gothic Revival design, the expiatory church passed in 1883 to Gaudí, who reshaped it into a vast, forest-like basilica and worked on it until his death in 1926. Construction continues, funded by donations; in 2026 its central Tower of Jesus Christ reached 172.5 metres, making it the world's tallest church.",
+      "keyFeatures": [
+        "Branching, tree-like columns",
+        "Three façades: Nativity, Passion and Glory",
+        "Towers for the apostles, the evangelists, Mary and Jesus",
+        "Geometry of hyperboloids and helicoids"
+      ],
+      "funFacts": [
+        "Its first architect, Francisco de Paula del Villar, resigned in 1883.",
+        "Pope Benedict XVI consecrated it as a basilica on 7 November 2010.",
+        "The central tower was blessed on 10 June 2026, a hundred years after Gaudí's death."
+      ]
+    }
+  },
+  {
+    "id": "hotel-tassel",
+    "name": "Hôtel Tassel",
+    "aliases": ["Hotel Tassel", "Tassel House", "Maison Tassel"],
+    "architects": [
+      {
+        "name": "Victor Horta",
+        "aliases": ["Horta", "Baron Horta"],
+        "lifespan": "1861–1947",
+        "nationality": "Belgian",
+        "bio": "Born in Ghent, Horta designed a series of Brussels town houses in the 1890s that made him the pioneer of Art Nouveau architecture, with open plans, exposed iron and whiplash ornament. Four of them, including the Hôtel Tassel and his own house, form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Brussels", "country": "Belgium", "countryCode": "BE" },
+    "yearCompleted": 1893,
+    "era": "ART_NOUVEAU",
+    "style": "Art Nouveau",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Huis_Tassel_03.jpg/1920px-Huis_Tassel_03.jpg",
+          "alt": "Curved bay window with slender iron columns and flowing iron railings",
+          "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Huis_Tassel_03.jpg"
+        },
+        "caption": "A bow window framed in slender iron columns."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was built for a scientist and university professor, and is counted among the very first buildings of its style."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/HortaHotelTassel.jpg/1920px-HortaHotelTassel.jpg",
+          "alt": "Narrow stone town-house front with a projecting bow window of iron and glass",
+          "credit": "Photo: Kat_hly.1608 · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:HortaHotelTassel.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Designed by Victor Horta for the scientist and professor Émile Tassel and built in 1892–93, this Brussels town house is considered one of the first Art Nouveau buildings. Instead of the usual row of dark rooms, Horta arranged the house around a central stair hall, and let exposed iron and whiplash ornament flow through it.",
+      "keyFeatures": [
+        "Central stair hall linking the different levels",
+        "Exposed iron columns, inside and on the façade",
+        "Whiplash ornament in iron, mosaic and paint",
+        "Projecting bow window"
+      ],
+      "funFacts": [
+        "It strongly influenced the French Art Nouveau architect Hector Guimard.",
+        "With three other Horta town houses, it became a UNESCO World Heritage Site in 2000."
+      ]
+    }
+  },
+  {
+    "id": "glasgow-school-of-art",
+    "name": "Glasgow School of Art",
+    "aliases": ["Mackintosh Building", "GSA", "Glasgow School of Art Mackintosh Building"],
+    "architects": [
+      {
+        "name": "Charles Rennie Mackintosh",
+        "aliases": ["Mackintosh", "C. R. Mackintosh", "Charles Mackintosh"],
+        "lifespan": "1868–1928",
+        "nationality": "Scottish",
+        "bio": "Glasgow architect, designer and watercolourist and the leading figure of the Glasgow Style. Working with the firm Honeyman & Keppie, he won the 1896 competition for the School of Art; late in life he gave up architecture to paint watercolours in France."
+      },
+      {
+        "name": "Margaret Macdonald Mackintosh",
+        "aliases": ["Margaret Macdonald"],
+        "lifespan": "1864–1933",
+        "nationality": "Scottish (born in England)",
+        "bio": "Artist and designer, one of 'The Four' of the Glasgow Style, and Charles Rennie Mackintosh's wife and collaborator."
+      }
+    ],
+    "location": { "city": "Glasgow", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1909,
+    "era": "ART_NOUVEAU",
+    "style": "Glasgow Style",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Glasgow_School_of_Art_-_15441468932.jpg/1920px-Glasgow_School_of_Art_-_15441468932.jpg",
+          "alt": "Tall sandstone wall with deep-set windows and a projecting stone bay",
+          "credit": "Photo: Chilanga Cement · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Glasgow_School_of_Art_-_15441468932.jpg"
+        },
+        "caption": "The west front rises sheer above a steep street."
+      },
+      { "order": 2, "type": "FACT", "text": "It was built in two phases, finished in 1899 and 1909." },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Glasgow_School_of_Art_-_8931386483.jpg/1920px-Glasgow_School_of_Art_-_8931386483.jpg",
+          "alt": "Stone façade with large studio windows, an off-centre entrance and curving iron railings",
+          "credit": "Photo: Dave & Margie Hill / Kleerup · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Glasgow_School_of_Art_-_8931386483.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Charles Rennie Mackintosh won the 1896 competition for the school's new building on Garnethill, which went up in two phases, completed in 1899 and 1909. Its huge north-facing studio windows, stark stone masses and inventive ironwork made it a landmark of early modern design. It was badly damaged by fire in 2014 and gutted by a second fire in 2018.",
+      "keyFeatures": [
+        "Large north-facing studio windows",
+        "Asymmetrical stone façade with an off-centre entrance",
+        "Decorative wrought-iron brackets and railings",
+        "Library of timber columns and beams, lost in the 2014 fire"
+      ],
+      "funFacts": [
+        "Its library, one of Mackintosh's finest interiors, was destroyed in the 2014 fire.",
+        "Six recent Turner Prize winners studied at the school."
+      ]
+    }
+  },
+  {
+    "id": "aeg-turbine-factory",
+    "name": "AEG Turbine Factory",
+    "aliases": ["AEG-Turbinenfabrik", "AEG Turbinenhalle", "Turbinenhalle", "AEG Turbine Hall"],
+    "architects": [
+      {
+        "name": "Peter Behrens",
+        "aliases": ["Behrens"],
+        "lifespan": "1868–1940",
+        "nationality": "German",
+        "bio": "A painter turned architect and designer, Behrens became AEG's artistic consultant in 1907 and shaped its buildings, products and graphics, an early corporate identity. Walter Gropius, Mies van der Rohe and Le Corbusier all worked in his office."
+      }
+    ],
+    "location": { "city": "Berlin", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1909,
+    "era": "MODERNISM",
+    "style": "Early Modernism (industrial)",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Hall plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "FACT",
+        "text": "A steel-framed hall about 100 metres long, with glass walls 15 metres tall, it brought restrained modern design to industrial building."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its architect was also the company's artistic consultant, designing its products and its logo."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/AEG-Turbinenfabrik.jpg/1920px-AEG-Turbinenfabrik.jpg",
+          "crop": { "x": 0, "y": 0.33, "w": 1, "h": 0.67 },
+          "alt": "Long industrial hall with tall glazed bays between steel columns, behind trees",
+          "credit": "Photo: Oana Popa · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:AEG-Turbinenfabrik.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built in 1909 in Berlin-Moabit for the electrical company AEG, Peter Behrens's turbine hall turned a factory shed into a 'temple of power'. Its steel frames are left exposed along the flanks, with huge glazed bays between them, while the massive gable recalls a classical pediment.",
+      "keyFeatures": [
+        "22 steel frames at 9-metre intervals",
+        "Huge windows angled slightly inwards",
+        "Exposed steel columns, bolts and joints",
+        "Polygonal gable echoing a temple front"
+      ],
+      "funFacts": [
+        "It was engineered by Karl Bernhard.",
+        "The hall was extended northwards in 1939 by Jacob Schallenberger and Paul Schmidt.",
+        "Walter Gropius, Mies van der Rohe and Le Corbusier all worked in Behrens's office."
+      ]
+    }
+  },
+  {
+    "id": "robie-house",
+    "name": "Robie House",
+    "aliases": ["Frederick C. Robie House", "Frederick Robie House"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Chicago, Illinois", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1910,
+    "era": "MODERNISM",
+    "style": "Prairie School",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section and south elevation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Frederick_C._Robie_House%2C_5757_Woodlawn_Avenue%2C_Chicago%2C_Cook_County%2C_IL_HABS_ILL%2C16-CHIG%2C33-_%28sheet_5_of_14%29.png/3840px-Frederick_C._Robie_House%2C_5757_Woodlawn_Avenue%2C_Chicago%2C_Cook_County%2C_IL_HABS_ILL%2C16-CHIG%2C33-_%28sheet_5_of_14%29.png",
+        "crop": { "x": 0.1, "y": 0.15, "w": 0.8, "h": 0.65 },
+        "alt": "Long, low house in section and elevation, with wide overhanging roofs",
+        "credit": "Historic American Buildings Survey (HABS ILL,16-CHIG,33-), measured drawing · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frederick_C._Robie_House,_5757_Woodlawn_Avenue,_Chicago,_Cook_County,_IL_HABS_ILL,16-CHIG,33-_(sheet_5_of_14).png"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Chicago_Hyde_Park_%2829232014870%29.jpg/1920px-Chicago_Hyde_Park_%2829232014870%29.jpg",
+          "alt": "Brick terraces and planters under a deep overhanging roof",
+          "credit": "Photo: erikccooper · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Chicago_Hyde_Park_(29232014870).jpg"
+        },
+        "caption": "Brick terraces and flower urns beneath the eaves."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its roofs cantilever far beyond the walls, and its long horizontal lines echo the flat Midwestern prairie."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/The_Robie_House%2C_considered_one_of_Frank_Lloyd_Wright%27s_most_important_works%2C_Chicago%2C_Illinois_LCCN2011632338.tif/lossy-page1-1920px-The_Robie_House%2C_considered_one_of_Frank_Lloyd_Wright%27s_most_important_works%2C_Chicago%2C_Illinois_LCCN2011632338.tif.jpg",
+          "alt": "Long, low brick house with deep overhanging roofs and bands of windows",
+          "credit": "Photo: Carol M. Highsmith · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:The_Robie_House,_considered_one_of_Frank_Lloyd_Wright%27s_most_important_works,_Chicago,_Illinois_LCCN2011632338.tif"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Completed in 1910 for the manufacturing executive Frederick C. Robie in Chicago's Hyde Park, this is often called the finest of Frank Lloyd Wright's Prairie houses. Its low brick walls, bands of art-glass windows and roofs cantilevered far beyond the walls stretch the house along its corner plot.",
+      "keyFeatures": [
+        "Long, low horizontal lines",
+        "Roofs cantilevered far beyond the walls",
+        "Bands of art-glass windows",
+        "Terraces on several levels"
+      ],
+      "funFacts": [
+        "It helped popularise picture windows, deep eaves and attached garages in American houses.",
+        "It now belongs to the University of Chicago and is part of the UNESCO site 'The 20th-Century Architecture of Frank Lloyd Wright'.",
+        "It was one of the last buildings Wright designed at his Oak Park studio."
+      ]
+    }
+  },
+  {
+    "id": "looshaus",
+    "name": "Looshaus",
+    "aliases": ["Goldman & Salatsch Building", "Haus am Michaelerplatz", "Loos House"],
+    "architects": [
+      {
+        "name": "Adolf Loos",
+        "aliases": ["Loos"],
+        "lifespan": "1870–1933",
+        "nationality": "Austrian (born in Brno)",
+        "bio": "Viennese architect and polemicist whose essay 'Ornament and Crime' attacked decoration as wasteful. His buildings pair plain exteriors with rich materials inside, and his Raumplan arranged rooms at different heights."
+      }
+    ],
+    "location": { "city": "Vienna", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1911,
+    "era": "MODERNISM",
+    "style": "Early Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Pianta_Looshaus.jpg",
+        "alt": "Irregular corner-plot plan with a shop floor, columns and stairs",
+        "credit": "FiliGelpi03 · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pianta_Looshaus.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Sezione_Looshaus.jpg",
+        "alt": "Section through a multi-storey building: a shop below, plain apartment floors above",
+        "credit": "FiliGelpi03 · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sezione_Looshaus.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Looshaus%2C_Seiteneingang.jpg/1920px-Looshaus%2C_Seiteneingang.jpg",
+          "alt": "Marble-lined entrance passage with glass doors",
+          "credit": "Photo: Thomas Ledl · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Looshaus,_Seiteneingang.jpg"
+        },
+        "caption": "Rich marble lines the ground-floor entrance."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its plain upper floors caused such a scandal that the architect had to add flower boxes to the windows."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wien%2C_Michaelerplatz_3-20160625-001.jpg/1920px-Wien%2C_Michaelerplatz_3-20160625-001.jpg",
+          "alt": "Corner building with a green marble-clad base and plain white upper floors with window boxes",
+          "credit": "Photo: Tilman2007 · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Wien,_Michaelerplatz_3-20160625-001.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built for the tailors Goldman & Salatsch on Vienna's Michaelerplatz, opposite the imperial Hofburg, the building contrasts a base of green Cipollino marble with completely plain upper floors. In 1910 the bare façade caused a public scandal; construction resumed only after Loos agreed to add window boxes with flowers.",
+      "keyFeatures": [
+        "Ground floor and mezzanine clad in green marble",
+        "Unornamented white upper storeys",
+        "Classical columns at the shop entrance",
+        "Window boxes added to quiet the critics"
+      ],
+      "funFacts": [
+        "Emperor Franz Joseph reportedly kept the Hofburg's curtains closed so he would not have to see it.",
+        "One newspaper called it a 'dung heap' before the flower boxes were added."
+      ]
+    }
+  },
+  {
+    "id": "fagus-factory",
+    "name": "Fagus Factory",
+    "aliases": ["Fagus-Werk", "Fagus Werk", "Faguswerk"],
+    "architects": [
+      {
+        "name": "Walter Gropius",
+        "aliases": ["Gropius"],
+        "lifespan": "1883–1969",
+        "nationality": "German (later American)",
+        "bio": "After working for Peter Behrens, Gropius founded the Bauhaus in Weimar in 1919 and moved it to Dessau in 1925. He emigrated in the 1930s and taught at Harvard, spreading modernist teaching in America."
+      },
+      {
+        "name": "Adolf Meyer",
+        "aliases": ["Meyer"],
+        "lifespan": "1881–1929",
+        "nationality": "German",
+        "bio": "Gropius's partner in his early practice and co-designer of the Fagus Factory; he later taught at the Bauhaus and became Frankfurt's city building director."
+      }
+    ],
+    "location": { "city": "Alfeld, Lower Saxony", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1913,
+    "era": "MODERNISM",
+    "style": "Early Modernism",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Site plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Alfeld_UNESCO-Welterbe-Fagus-Werk_Aussenansicht-06_2022-05-04-16-53-22_CCBY_Ralf-Koenig.jpg/1920px-Alfeld_UNESCO-Welterbe-Fagus-Werk_Aussenansicht-06_2022-05-04-16-53-22_CCBY_Ralf-Koenig.jpg",
+          "alt": "Yellow brick factory buildings with a square tower and a tall chimney",
+          "credit": "Photo: Ralf König · CC BY 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Alfeld_UNESCO-Welterbe-Fagus-Werk_Aussenansicht-06_2022-05-04-16-53-22_CCBY_Ralf-Koenig.jpg"
+        },
+        "caption": "Yellow brick buildings around a factory yard."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its owner made shoe lasts and wanted a building that broke with the past."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Fagus-Werk_MainBuilding_017_3600.jpg/1920px-Fagus-Werk_MainBuilding_017_3600.jpg",
+          "alt": "Three-storey building whose glass walls wrap around a corner with no supporting pillar",
+          "credit": "Photo: Ludvig14 · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Fagus-Werk_MainBuilding_017_3600.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built in 1911–13 for Carl Benscheidt's shoe-last company, the factory's main block wraps glass walls around its corners with no supporting pillar, turning the wall into a thin screen hung between recessed brick piers. It reversed the heavy corners of Behrens's AEG turbine hall, where both of its architects had worked.",
+      "keyFeatures": [
+        "Glass curtain walls running the full height",
+        "Corners left free of supports",
+        "Brick piers set back behind the glass",
+        "Additions and interiors completed in 1925"
+      ],
+      "funFacts": [
+        "Gropius described the walls as 'mere screens stretched between the upright columns of the framework'.",
+        "It has been a UNESCO World Heritage Site since 2011.",
+        "The factory still makes shoe lasts."
+      ]
+    }
+  },
+  {
+    "id": "einstein-tower",
+    "name": "Einstein Tower",
+    "aliases": ["Einsteinturm", "Einstein Turm"],
+    "architects": [
+      {
+        "name": "Erich Mendelsohn",
+        "aliases": ["Mendelsohn", "Erich Mendelssohn"],
+        "lifespan": "1887–1953",
+        "nationality": "German (later British and American)",
+        "bio": "Mendelsohn sketched fluid, dynamic buildings while serving in the First World War; the Einstein Tower made his name, followed by department stores in Germany. He left in 1933, working in Britain, Palestine and the United States."
+      }
+    ],
+    "location": { "city": "Potsdam", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1921,
+    "era": "MODERNISM",
+    "style": "Expressionism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Einsteinturm.Sonnenteleskop.Umlenkspiegel.P1185992.jpg/1920px-Einsteinturm.Sonnenteleskop.Umlenkspiegel.P1185992.jpg",
+          "alt": "Large telescope mirror mounted in a white instrument chamber",
+          "credit": "Photo: Bautsch · CC0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Einsteinturm.Sonnenteleskop.Umlenkspiegel.P1185992.jpg"
+        },
+        "caption": "Inside, mirrors send sunlight down a shaft to the laboratory."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was built to test a famous scientist's theory of relativity by observing the Sun."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Einsteinturm-02.jpg/1920px-Einsteinturm-02.jpg",
+          "alt": "Smooth, curving white tower topped by a small dome, among trees",
+          "credit": "Photo: Muck · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Einsteinturm-02.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Designed by Erich Mendelsohn and built in 1919–21 on the Telegraphenberg in Potsdam, this solar observatory houses a telescope built to test Albert Einstein's theory of relativity. Its flowing, sculptural form was imagined in concrete, but wartime shortages meant much of it was built in brick covered with stucco.",
+      "keyFeatures": [
+        "Fluid, sculptural Expressionist form",
+        "Dome housing the coelostat at the top",
+        "Shaft sending light down to a basement laboratory",
+        "Brick and stucco shaped to look like poured concrete"
+      ],
+      "funFacts": [
+        "Einstein never worked there, but he supported its construction.",
+        "It is still a working solar observatory.",
+        "The young Richard Neutra was on Mendelsohn's staff during the project."
+      ]
+    }
+  },
+  {
+    "id": "rietveld-schroder-house",
+    "name": "Rietveld Schröder House",
+    "aliases": ["Schröder House", "Rietveld Schröderhuis", "Schröderhuis", "Schroder House"],
+    "architects": [
+      {
+        "name": "Gerrit Rietveld",
+        "aliases": ["Rietveld", "Gerrit Thomas Rietveld"],
+        "lifespan": "1888–1964",
+        "nationality": "Dutch",
+        "bio": "A cabinetmaker turned architect, Rietveld joined the De Stijl movement and designed the Red and Blue Chair before building this house with Truus Schröder. He went on to a long career in Utrecht."
+      }
+    ],
+    "location": { "city": "Utrecht", "country": "Netherlands", "countryCode": "NL" },
+    "yearCompleted": 1924,
+    "era": "MODERNISM",
+    "style": "De Stijl",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Upper floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Utrecht_143.jpg/1920px-Utrecht_143.jpg",
+          "alt": "White and grey planes and balconies with thin red, yellow and blue lines",
+          "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Utrecht_143.jpg"
+        },
+        "caption": "Planes, lines and primary colours."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its upper floor can be one open space or divided into rooms with sliding and revolving panels."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Rietveld_Schr%C3%B6derhuis_winter_2014-15_03.JPG/1920px-Rietveld_Schr%C3%B6derhuis_winter_2014-15_03.JPG",
+          "alt": "Small house of overlapping white and grey planes at the end of a brick terrace",
+          "credit": "Photo: Luis Guillermo R. · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Rietveld_Schr%C3%B6derhuis_winter_2014-15_03.JPG"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built in 1924 for Truus Schröder-Schräder and her three children at the end of a brick terrace in Utrecht, the house is the purest built expression of De Stijl: free-floating planes, lines and primary colours. Its upper floor can be opened into one space or divided into rooms with sliding and revolving panels.",
+      "keyFeatures": [
+        "Composition of independent planes and lines",
+        "Primary colours with white, grey and black",
+        "Flexible upper floor with sliding partitions",
+        "Corner windows that open to remove the corner entirely"
+      ],
+      "funFacts": [
+        "It included a garage, though Truus Schröder did not own a car.",
+        "It became a UNESCO World Heritage Site in 2000."
+      ]
+    }
+  },
+  {
+    "id": "bauhaus-dessau",
+    "name": "Bauhaus Building, Dessau",
+    "aliases": ["Bauhaus Dessau", "Bauhausgebäude", "Bauhaus building"],
+    "architects": [
+      {
+        "name": "Walter Gropius",
+        "aliases": ["Gropius"],
+        "lifespan": "1883–1969",
+        "nationality": "German (later American)",
+        "bio": "After working for Peter Behrens, Gropius founded the Bauhaus in Weimar in 1919 and moved it to Dessau in 1925. He emigrated in the 1930s and taught at Harvard, spreading modernist teaching in America."
+      }
+    ],
+    "location": { "city": "Dessau", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1926,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/6248_Dessau.JPG/1920px-6248_Dessau.JPG",
+          "alt": "White wing with bands of windows linked to a glass block across a lawn",
+          "credit": "Photo: Spyrosdrakopoulos · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:6248_Dessau.JPG"
+        },
+        "caption": "White wings with bands of windows meet a glass block."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its wings for workshops, classrooms and student studios are linked by a two-storey bridge over a road."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/6249_Dessau.JPG/1920px-6249_Dessau.JPG",
+          "alt": "Workshop wing with a continuous glass curtain wall, beside a lower white wing",
+          "credit": "Photo: Spyrosdrakopoulos · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:6249_Dessau.JPG"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built in 1925–26 when the Bauhaus school moved from Weimar to Dessau, Gropius's building gives each function its own wing: a workshop block behind a glass curtain wall, a technical school, and a five-storey studio house for students, joined by a bridge over the road and a low wing with the hall and canteen.",
+      "keyFeatures": [
+        "Glass curtain wall of the workshop wing",
+        "Pinwheel plan of separate wings",
+        "Two-storey bridge spanning a road",
+        "Studio house with small balconies"
+      ],
+      "funFacts": [
+        "The 28 studios in the five-storey Prellerhaus were living and working space for students and young masters.",
+        "Curtains needed for sun protection spoiled the intended transparency of the glass wall.",
+        "It has been part of a UNESCO World Heritage Site since 1996."
+      ]
+    }
+  },
+  {
+    "id": "barcelona-pavilion",
+    "name": "Barcelona Pavilion",
+    "aliases": ["German Pavilion", "Pavelló alemany", "Mies van der Rohe Pavilion"],
+    "architects": [
+      {
+        "name": "Ludwig Mies van der Rohe",
+        "aliases": ["Mies van der Rohe", "Mies", "Ludwig Mies"],
+        "lifespan": "1886–1969",
+        "nationality": "German (later American)",
+        "bio": "A former assistant of Peter Behrens, Mies reduced architecture to steel, glass and fine materials ('less is more'). Last director of the Bauhaus, he emigrated to Chicago, where he built the Illinois Institute of Technology campus and later the Seagram Building in New York."
+      },
+      {
+        "name": "Lilly Reich",
+        "aliases": ["Reich"],
+        "lifespan": "1885–1947",
+        "nationality": "German",
+        "bio": "Designer and Mies's close collaborator in the late 1920s and 1930s, co-author of the pavilion and its furniture, and head of the Bauhaus weaving and interior workshops."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1929,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Mies_van_der_Rohe_Pavilion_-_Flickr_-_Alexander.H%C3%BCls.jpg/1920px-Mies_van_der_Rohe_Pavilion_-_Flickr_-_Alexander.H%C3%BCls.jpg",
+          "alt": "Black-and-white view of a thin flat roof over a shallow pool and a travertine plinth",
+          "credit": "Photo: Alexander.Hüls · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Mies_van_der_Rohe_Pavilion_-_Flickr_-_Alexander.H%C3%BCls.jpg"
+        },
+        "caption": "A thin roof floats over a shallow pool."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was demolished less than a year after it opened, and rebuilt on the same site in 1986."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/1920px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg",
+          "alt": "Low pavilion of stone walls and glass under a flat roof, beside a pool",
+          "credit": "Photo: Ashley Pomeroy at English Wikipedia · CC BY 3.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:The_Barcelona_Pavilion,_Barcelona,_2010.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built as Germany's pavilion for the 1929 International Exposition in Barcelona, it held no exhibits: only the building itself, a sculpture by Georg Kolbe and furniture designed for it. Free-standing walls of marble, onyx and tinted glass divide a flowing space under a thin flat roof on slender steel columns.",
+      "keyFeatures": [
+        "Thin flat roof on cruciform steel columns",
+        "Free-standing walls of marble, onyx and glass",
+        "Travertine plinth and reflecting pools",
+        "Open, flowing plan"
+      ],
+      "funFacts": [
+        "The Barcelona chair was designed for it and is still made today.",
+        "It was torn down in early 1930 and reconstructed in 1986."
+      ]
+    }
+  },
+  {
+    "id": "melnikov-house",
+    "name": "Melnikov House",
+    "aliases": ["Dom Melnikova", "Melnikov's House", "Konstantin Melnikov House"],
+    "architects": [
+      {
+        "name": "Konstantin Melnikov",
+        "aliases": ["Melnikov"],
+        "lifespan": "1890–1974",
+        "nationality": "Soviet (Russian)",
+        "bio": "One of the boldest Soviet avant-garde architects of the 1920s, Melnikov designed the USSR pavilion at the 1925 Paris exhibition and a series of workers' clubs in Moscow, before falling out of favour in the 1930s."
+      }
+    ],
+    "location": { "city": "Moscow", "country": "Russia", "countryCode": "RU" },
+    "yearCompleted": 1929,
+    "era": "MODERNISM",
+    "style": "Soviet avant-garde",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Melnikov_House_Krivoarbatskiy_lane_10_2016-04-12_2465.jpg/1920px-Melnikov_House_Krivoarbatskiy_lane_10_2016-04-12_2465.jpg",
+          "alt": "White cylinder pierced by rows of hexagonal windows, among trees",
+          "credit": "Photo: Mike1979 Russia · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Melnikov_House_Krivoarbatskiy_lane_10_2016-04-12_2465.jpg"
+        },
+        "caption": "A white cylinder pierced by hexagonal windows."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The architect built it in 1927–29 as a home and studio for himself and his family."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/%D0%94%D0%BE%D0%BC_%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_-_panoramio.jpg/1920px-%D0%94%D0%BE%D0%BC_%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_-_panoramio.jpg",
+          "alt": "Two interlocking white cylinders with a tall glazed front, behind a fence",
+          "credit": "Photo: Александр Спиридонов · CC BY 3.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC_%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_-_panoramio.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Konstantin Melnikov built this house and studio for his family in a lane off the Arbat in central Moscow. It is made of two interlocking cylinders whose walls are pierced by rows of hexagonal windows, a rare private house in the Soviet capital.",
+      "keyFeatures": [
+        "Two interlocking cylinders",
+        "Rows of hexagonal windows",
+        "Tall glazed front on the street side",
+        "Studio and living spaces in one home"
+      ],
+      "funFacts": [
+        "The design grew out of an unrealised competition project for the Zuev workers' club.",
+        "The construction estimate rose from about 25,000 to nearly 38,000 roubles."
+      ]
+    }
+  },
+  {
+    "id": "hagia-sophia",
+    "name": "Hagia Sophia",
+    "aliases": ["Ayasofya", "Aya Sofya", "Holy Wisdom", "Sancta Sophia", "Hagia Sophia Grand Mosque"],
+    "architects": [
+      {
+        "name": "Isidore of Miletus",
+        "aliases": ["Isidore"],
+        "lifespan": "6th century",
+        "nationality": "Byzantine Greek",
+        "bio": "Greek geometer and engineer from Miletus, commissioned by Emperor Justinian I to design the new cathedral of Constantinople with Anthemius of Tralles."
+      },
+      {
+        "name": "Anthemius of Tralles",
+        "aliases": ["Anthemius"],
+        "lifespan": "6th century",
+        "nationality": "Byzantine Greek",
+        "bio": "Greek mathematician and engineer from Tralles in Asia Minor, co-designer of Hagia Sophia for Emperor Justinian I."
+      }
+    ],
+    "location": { "city": "Istanbul", "country": "Turkey", "countryCode": "TR" },
+    "yearCompleted": 537,
+    "era": "BYZANTINE",
+    "style": "Byzantine",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hagia-Sophia-Grundriss.jpg/3840px-Hagia-Sophia-Grundriss.jpg",
+        "alt": "Plan of a huge rectangular church with a central square crowned by a circle and half-domes at each end",
+        "credit": "19th-century engraving · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hagia-Sophia-Grundriss.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Hagia-Sophia-Laengsschnitt.jpg/3840px-Hagia-Sophia-Laengsschnitt.jpg",
+        "alt": "Section through a vast church with a shallow central dome on a ring of windows",
+        "credit": "19th-century engraving · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hagia-Sophia-Laengsschnitt.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Ayasofya_2022-09-04_16.19.12_1791267189.JPG/1920px-Ayasofya_2022-09-04_16.19.12_1791267189.JPG",
+          "alt": "Vast interior under a golden dome ringed with windows, with large calligraphic roundels",
+          "credit": "Photo: Kemal KOZBAEV · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Ayasofya_2022-09-04_16.19.12_1791267189.JPG"
+        },
+        "caption": "A dome ringed by windows seems to float over the nave."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "For nearly a thousand years it enclosed the largest interior space in the world."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg/1920px-At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg",
+          "alt": "Domed building with minarets on a hill above a waterfront city",
+          "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built for Emperor Justinian I between 532 and 537 and designed by the geometers Isidore of Miletus and Anthemius of Tralles, Hagia Sophia was the cathedral of Constantinople. Its vast dome, one of the first carried on pendentives, rests on a ring of windows. It became a mosque in 1453, a museum in 1935, and a mosque again in 2020.",
+      "keyFeatures": [
+        "Central dome on pendentives",
+        "Ring of 40 windows at the base of the dome",
+        "Half-domes extending the central space",
+        "Minarets added after 1453"
+      ],
+      "funFacts": [
+        "It became the model for Ottoman mosques a thousand years later.",
+        "It was Turkey's most visited tourist attraction in 2019."
+      ]
+    }
+  },
+  {
+    "id": "florence-cathedral-dome",
+    "name": "Dome of Florence Cathedral",
+    "aliases": ["Florence Cathedral", "Santa Maria del Fiore", "Brunelleschi's Dome", "Il Duomo di Firenze", "Duomo"],
+    "architects": [
+      {
+        "name": "Filippo Brunelleschi",
+        "aliases": ["Brunelleschi", "Filippo di ser Brunellesco"],
+        "lifespan": "1377–1446",
+        "nationality": "Italian (Florentine)",
+        "bio": "Trained as a goldsmith, Brunelleschi is credited with rediscovering linear perspective and with founding Renaissance architecture through works such as the Foundling Hospital and San Lorenzo in Florence. His dome solved a problem that had defeated builders for decades."
+      }
+    ],
+    "location": { "city": "Florence", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1436,
+    "era": "RENAISSANCE",
+    "style": "Early Renaissance",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "Section of the dome (Cigoli, c. 1613)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cigoli%2C_Florence_Dome_cropped.jpg",
+        "alt": "Hand-drawn section of a tall pointed dome with an inner and outer shell, surrounded by notes",
+        "credit": "Lodovico Cardi (Cigoli), drawing, c. 1613 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cigoli,_Florence_Dome_cropped.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Santa_Maria_del_Fiore%2C_Florence_Cathedral%2C_interior%2C_223756.jpg/1920px-Santa_Maria_del_Fiore%2C_Florence_Cathedral%2C_interior%2C_223756.jpg",
+          "alt": "Gothic nave of tall pointed arches leading to a domed octagon",
+          "credit": "Photo: Zde · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Fiore,_Florence_Cathedral,_interior,_223756.jpg"
+        },
+        "caption": "The nave leads to a vast octagonal crossing."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its builder won a competition against the goldsmith Lorenzo Ghiberti."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Florence_Cathedral_-_Duomo_-_Cathedral_of_Santa_Maria_del_Fiore_%2851352275805%29.jpg/1920px-Florence_Cathedral_-_Duomo_-_Cathedral_of_Santa_Maria_del_Fiore_%2851352275805%29.jpg",
+          "alt": "Huge red-tiled ribbed dome with a lantern above a city of terracotta roofs",
+          "credit": "Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Florence_Cathedral_-_Duomo_-_Cathedral_of_Santa_Maria_del_Fiore_(51352275805).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "The cathedral of Florence was begun in 1296 to a design by Arnolfo di Cambio, but its huge octagonal crossing stood open for decades. Filippo Brunelleschi built the dome between 1420 and 1436 without the timber centring normally used, and it remains the largest masonry dome ever built.",
+      "keyFeatures": [
+        "Octagonal dome of two shells",
+        "Eight white marble ribs over red tile",
+        "Built without full timber centring",
+        "Lantern crowning the dome"
+      ],
+      "funFacts": [
+        "Pope Eugene IV consecrated the cathedral on 25 March 1436.",
+        "Guillaume Dufay's motet Nuper rosarum flores was written for the consecration.",
+        "Brunelleschi and Ghiberti were appointed jointly, a rivalry that lasted for years."
+      ]
+    }
+  },
+  {
+    "id": "tempietto",
+    "name": "Tempietto of San Pietro in Montorio",
+    "aliases": ["Tempietto", "Tempietto del Bramante", "San Pietro in Montorio"],
+    "architects": [
+      {
+        "name": "Donato Bramante",
+        "aliases": ["Bramante", "Donato di Pascuccio d'Antonio"],
+        "lifespan": "1444–1514",
+        "nationality": "Italian",
+        "bio": "Born near Urbino, Bramante worked in Milan before moving to Rome in 1499. The Tempietto launched the High Renaissance there, and in 1503 Pope Julius II charged him with rebuilding St Peter's Basilica."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1502,
+    "era": "RENAISSANCE",
+    "style": "High Renaissance",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan (Palladio, 1570)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/Tempietto_-_Houtsnede_door_Palladio_2.jpeg",
+        "alt": "Circular plan: a ring of columns around a round cella with niches",
+        "credit": "Andrea Palladio, woodcut, 1570 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tempietto_-_Houtsnede_door_Palladio_2.jpeg"
+      },
+      {
+        "type": "SITE_PLAN",
+        "label": "Planned courtyard (Serlio)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Tempietto_-_Plattegrond_Serlio.jpeg",
+        "crop": { "x": 0, "y": 0.2, "w": 1, "h": 0.8 },
+        "alt": "Plan of a small round temple at the centre of a colonnaded circular courtyard",
+        "credit": "Sebastiano Serlio, woodcut · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tempietto_-_Plattegrond_Serlio.jpeg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Bramante%27s_Tempietto_%2846150919355%29.jpg/1920px-Bramante%27s_Tempietto_%2846150919355%29.jpg",
+          "alt": "Small round domed temple with a Doric colonnade inside a courtyard, at dusk",
+          "credit": "Photo: Bradley  Weber · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Bramante%27s_Tempietto_(46150919355).jpg"
+        },
+        "caption": "A tiny round temple in a cloister."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It marks the spot where Saint Peter was traditionally believed to have been martyred."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tempietto_und_Glockenturm_von_San_Pietro_in_Montorio.jpg/1920px-Tempietto_und_Glockenturm_von_San_Pietro_in_Montorio.jpg",
+          "alt": "Round temple with a ring of columns and a dome, beside a bell tower",
+          "credit": "Photo: JTSH26 · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Tempietto_und_Glockenturm_von_San_Pietro_in_Montorio.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Commissioned around 1502 for the courtyard of San Pietro in Montorio on the Janiculum, Bramante's tiny round temple marks the traditional site of Saint Peter's martyrdom. Ringed by Doric columns and crowned by a dome, it applies ancient Roman proportions so rigorously that it is seen as the beginning of the High Renaissance in Rome.",
+      "keyFeatures": [
+        "Circular plan with a peristyle of Doric columns",
+        "Hemispherical dome on a drum",
+        "Balustrade above the colonnade",
+        "Strict classical proportions at small scale"
+      ],
+      "funFacts": [
+        "Serlio's engraving shows that Bramante planned to set it in a circular colonnaded courtyard, never built.",
+        "It was commissioned by Ferdinand of Aragon and Isabella of Castile, or possibly by Pope Julius II."
+      ]
+    }
+  },
+  {
+    "id": "fallingwater",
+    "name": "Fallingwater",
+    "aliases": ["Kaufmann Residence", "Edgar J. Kaufmann House", "Falling Water"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Mill Run, Pennsylvania", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1939,
+    "era": "MODERNISM",
+    "style": "Organic architecture",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Second floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Fallingwaterfloorplan.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.83 },
+        "alt": "House plan with terraces jutting out over a stream",
+        "credit": "Arsenalbubs · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fallingwaterfloorplan.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Fallingwater%2C_also_known_as_the_Edgar_J._Kaufmann%2C_Sr.%2C_residence%2C_Pennsylvania%2C_by_Carol_M._Highsmith.jpg/1920px-Fallingwater%2C_also_known_as_the_Edgar_J._Kaufmann%2C_Sr.%2C_residence%2C_Pennsylvania%2C_by_Carol_M._Highsmith.jpg",
+          "alt": "Cantilevered horizontal terraces among dense green woodland",
+          "credit": "Photo: Carol M. Highsmith · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Fallingwater,_also_known_as_the_Edgar_J._Kaufmann,_Sr.,_residence,_Pennsylvania,_by_Carol_M._Highsmith.jpg"
+        },
+        "caption": "Terraces jut out among the trees."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was a weekend house for the owner of a Pittsburgh department store and his wife."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Frank_Lloyd_Wright_-_Mill_Run%2C_PA_-_Fallingwater_%28A%29.jpg/1920px-Frank_Lloyd_Wright_-_Mill_Run%2C_PA_-_Fallingwater_%28A%29.jpg",
+          "alt": "House of stacked cantilevered terraces over a waterfall in a wood",
+          "credit": "Photo: Bmzuckerman · CC BY 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_Mill_Run,_PA_-_Fallingwater_(A).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Frank Lloyd Wright designed this weekend house in 1934 for Edgar and Liliane Kaufmann, who owned a Pittsburgh department store, and built it directly over a waterfall on Bear Run. Reinforced-concrete terraces cantilever out from a stone core above the falls; the family moved in in 1937, and a guest wing followed in 1939.",
+      "keyFeatures": [
+        "Cantilevered concrete terraces",
+        "Stone chimney core rising from the rock",
+        "Built over a waterfall",
+        "Bands of glass opening to the woods"
+      ],
+      "funFacts": [
+        "It has been open to visitors since 1963, run by the Western Pennsylvania Conservancy.",
+        "It is part of the UNESCO site 'The 20th-Century Architecture of Frank Lloyd Wright'."
+      ]
+    }
+  },
+  {
+    "id": "vanna-venturi-house",
+    "name": "Vanna Venturi House",
+    "aliases": ["Venturi House", "Mother's House"],
+    "architects": [
+      {
+        "name": "Robert Venturi",
+        "aliases": ["Venturi"],
+        "lifespan": "1925–2018",
+        "nationality": "American",
+        "bio": "Philadelphia architect whose 1966 book Complexity and Contradiction in Architecture challenged modernist purity. With his partner Denise Scott Brown he became a central figure of postmodernism, and he received the Pritzker Prize in 1991."
+      }
+    ],
+    "location": { "city": "Philadelphia, Pennsylvania", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1964,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/V_Venturi_H_4.JPG/1920px-V_Venturi_H_4.JPG",
+          "alt": "Back of a small house with a pitched roof and a chimney rising behind",
+          "credit": "Photo: Smallbones · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:V_Venturi_H_4.JPG"
+        },
+        "caption": "A pitched roof and an emphatic chimney."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "The architect designed it for his mother while writing a book attacking modernist orthodoxy."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Vanna_Venturi_House_in_Chestnut_Hill%2C_Philadelphia%2C_Pennsylvania_LCCN2011631329.tif/lossy-page1-1920px-Vanna_Venturi_House_in_Chestnut_Hill%2C_Philadelphia%2C_Pennsylvania_LCCN2011631329.tif.jpg",
+          "alt": "House front with a split gable and an applied arch over the door",
+          "credit": "Photo: Carol M. Highsmith · Public domain · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Vanna_Venturi_House_in_Chestnut_Hill,_Philadelphia,_Pennsylvania_LCCN2011631329.tif"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Robert Venturi built this house for his mother in Philadelphia's Chestnut Hill in 1962–64. With its broken gable, ornamental arch and big central chimney it deliberately reverses modernist rules, and it became one of the first landmarks of postmodern architecture.",
+      "keyFeatures": [
+        "Split pediment on the long front",
+        "Non-structural applied arch",
+        "Central chimney and stair dominating the plan",
+        "Pitched roof instead of a flat one"
+      ],
+      "funFacts": [
+        "Vanna Venturi lived there until 1973 and liked to lecture visiting architects.",
+        "Its ideas appear in Venturi's 1966 book Complexity and Contradiction in Architecture."
+      ]
+    }
+  },
+  {
+    "id": "leca-swimming-pools",
+    "name": "Leça Swimming Pools",
+    "aliases": ["Piscina das Marés", "Tidal Pools of Leça da Palmeira", "Piscinas de Marés de Leça da Palmeira"],
+    "architects": [
+      {
+        "name": "Álvaro Siza",
+        "aliases": ["Siza", "Álvaro Siza Vieira", "Alvaro Siza"],
+        "lifespan": "born 1933",
+        "nationality": "Portuguese",
+        "bio": "Born in Matosinhos, near Porto, Siza is known for restrained white and concrete buildings shaped closely to their sites. He received the Pritzker Prize in 1992."
+      }
+    ],
+    "location": { "city": "Leça da Palmeira, Matosinhos", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1973,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [
+      { "type": "SITE_PLAN", "label": "Site plan", "src": null, "alt": "Site plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Piscina_das_mar%C3%A8s_%2827437903916%29.jpg/1920px-Piscina_das_mar%C3%A8s_%2827437903916%29.jpg",
+          "alt": "Narrow passages between raw concrete walls open to the sky",
+          "credit": "Photo: Pedro Layant · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Piscina_das_mar%C3%A8s_(27437903916).jpg"
+        },
+        "caption": "Raw concrete walls lead down to the sea."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its two pools are filled with fresh sea water and set among rocks on an Atlantic beach."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Piscina_das_Mar%C3%A9s.jpg/1920px-Piscina_das_Mar%C3%A9s.jpg",
+          "alt": "Swimming pool set among rocks on the seashore",
+          "credit": "Photo: Ricardo Saraiva de Almeida · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Piscina_das_Mar%C3%A9s.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Designed and built between 1960 and 1973 by the young Álvaro Siza on the beach at Leça da Palmeira, near Porto, the pools use concrete walls to channel visitors from the road down to two sea-water pools set among the natural rocks.",
+      "keyFeatures": [
+        "Two sea-water pools set among rocks",
+        "Raw concrete walls guiding the route to the sea",
+        "Changing rooms tucked below the road",
+        "Minimal intervention in the shoreline"
+      ],
+      "funFacts": [
+        "It is one of Siza's earliest works, after the nearby Boa Nova tea house.",
+        "A restoration from 2019 to 2021 cost €1.3 million, with Siza involved."
+      ]
+    }
+  },
+  {
+    "id": "sydney-opera-house",
+    "name": "Sydney Opera House",
+    "aliases": ["Opera House", "Sydney Opera"],
+    "architects": [
+      {
+        "name": "Jørn Utzon",
+        "aliases": ["Utzon", "Jorn Utzon"],
+        "lifespan": "1918–2008",
+        "nationality": "Danish",
+        "bio": "Utzon won the 1957 competition for the Opera House with a design that made his name, but resigned in 1966 amid disputes over cost and design. He received the Pritzker Prize in 2003."
+      },
+      {
+        "name": "Peter Hall",
+        "aliases": ["Hall"],
+        "lifespan": "1931–1995",
+        "nationality": "Australian",
+        "bio": "Australian architect who led the team that completed the Opera House, including its interiors, after Utzon's resignation."
+      }
+    ],
+    "location": { "city": "Sydney", "country": "Australia", "countryCode": "AU" },
+    "yearCompleted": 1973,
+    "era": "MODERNISM",
+    "style": "Expressionist Modernism",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Podium plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Opera_from_close.jpg/1920px-Opera_from_close.jpg",
+          "alt": "Close-up of curved white shells covered in a fine chevron pattern of tiles",
+          "credit": "Photo: Glinted framora · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Opera_from_close.jpg"
+        },
+        "caption": "The shells are covered in over a million tiles."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its architect won an international competition of 233 entries in 1957, but left before it was finished."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/NZ7_2340_%2840056091673%29.jpg/1920px-NZ7_2340_%2840056091673%29.jpg",
+          "alt": "White sail-like shells on a podium by a harbour, with skyscrapers behind",
+          "credit": "Photo: Bengt Nyman · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:NZ7_2340_(40056091673).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Jørn Utzon won the 1955–57 competition with a design of white concrete 'shells' rising from a monumental podium on Bennelong Point. After disputes over cost and design he resigned in 1966, and an Australian team led by Peter Hall completed the building, which Queen Elizabeth II opened on 20 October 1973.",
+      "keyFeatures": [
+        "Roof 'shells' cut from a sphere of 75.2 m radius",
+        "1,056,006 glossy white and matte cream tiles",
+        "Monumental podium clad in pink granite",
+        "Glass walls closing the shells' open ends"
+      ],
+      "funFacts": [
+        "The shells are actually precast concrete panels on precast ribs, not shells in the structural sense.",
+        "It became a UNESCO World Heritage Site in 2007.",
+        "The competition drew 233 entries from 32 countries."
+      ]
+    }
+  }
+]

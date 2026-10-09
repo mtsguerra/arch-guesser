@@ -13,7 +13,9 @@ export const strings = {
     zoomIn: 'Zoom in',
     zoomOut: 'Zoom out',
     zoomHint: 'Move to explore · Esc to exit',
-    missingDrawing: 'Drawing not in the archive yet',
+    views: { EXTERIOR: 'Exterior', INTERIOR: 'Interior' },
+    photoTitles: { EXTERIOR: 'Photograph · Exterior', INTERIOR: 'Photograph · Interior' },
+    imagesUnavailable: 'The images for this building are out of reach right now.',
   },
 
   hints: {
@@ -22,9 +24,6 @@ export const strings = {
     show: (n, total) => `Show hint ${n} of ${total}`,
     allShown: 'All hints shown',
     label: (n) => `Hint ${n}`,
-    photo: 'Photo',
-    fact: 'Fact',
-    missingPhoto: 'Photo not in the archive yet',
   },
 
   guess: {

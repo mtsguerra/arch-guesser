@@ -51,21 +51,7 @@
   color: var(--accent);
 }
 
-.photo {
-  display: grid;
-  gap: var(--space-2);
-}
 
-.print {
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  background: var(--paper-shade);
-}
-
-.caption {
-  font-size: var(--text-sm);
-  color: var(--ink-soft);
-}
 
 .fact {
   font-size: var(--text-sm);

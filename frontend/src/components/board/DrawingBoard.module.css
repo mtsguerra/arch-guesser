@@ -29,3 +29,13 @@
     aspect-ratio: 0.8;
   }
 }
+
+.unavailable {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  padding: var(--space-6);
+  text-align: center;
+  font-size: var(--text-sm);
+  color: var(--ink-soft);
+}
