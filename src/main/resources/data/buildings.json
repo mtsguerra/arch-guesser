@@ -4021,5 +4021,653 @@
         "The tower's design was inspired by Tuscan campaniles."
       ]
     }
+  },
+  {
+    "id": "palacio-nacional-de-mafra",
+    "name": "Palácio Nacional de Mafra",
+    "aliases": ["Mafra National Palace", "Palace of Mafra", "Mafra Palace", "Royal Building of Mafra", "Convento de Mafra"],
+    "architects": [
+      {
+        "name": "João Frederico Ludovice",
+        "aliases": ["Johann Friedrich Ludwig", "Ludovice", "Ludwig"],
+        "lifespan": "1670–1752",
+        "nationality": "German (worked in Portugal)",
+        "bio": "A German-born goldsmith and architect who settled in Portugal and was appointed director of the royal works at Mafra."
+      }
+    ],
+    "location": { "city": "Mafra", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1755,
+    "era": "BAROQUE",
+    "style": "Baroque",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "General plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Planta_do_Pal%C3%A1cio_de_Mafra.jpg",
+        "alt": "Plan of a vast rectangular complex with a church at the centre of its main front and courtyards behind",
+        "credit": "Ana P Rodriguez · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Planta_do_Pal%C3%A1cio_de_Mafra.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Royal_Building_of_Mafra_%E2%80%93_Palace%2C_and_Basilica_1_%2842657129995%29.jpg/1920px-Royal_Building_of_Mafra_%E2%80%93_Palace%2C_and_Basilica_1_%2842657129995%29.jpg",
+        "alt": "Very long stone façade with a twin-towered church at its centre, seen across a paved square",
+        "credit": "Photo: Kyle Magnuson · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Royal_Building_of_Mafra_%E2%80%93_Palace,_and_Basilica_1_(42657129995).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Mafra_2021_%2815%29.jpg/1920px-Mafra_2021_%2815%29.jpg",
+        "alt": "Long vaulted library hall lined with gilded wooden bookcases and a chequered marble floor",
+        "caption": "The library.",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mafra_2021_(15).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It fulfilled a king's vow, made in 1711, to build a convent if the queen gave him an heir."
+      },
+      {
+        "order": 2,
+        "text": "It was paid for largely with gold and diamonds from a colony in South America."
+      },
+      {
+        "order": 3,
+        "text": "It combines a palace, a basilica and a friary, and its library holds about 30,000 rare books."
+      }
+    ],
+    "summary": {
+      "description": "King John V vowed in 1711 to build a convent if his wife gave him children; as gold and diamonds from Brazil poured in, the plan grew into a palace, basilica and friary for 330 friars. Designed by João Frederico Ludovice and built from 1717 to 1755 by up to 45,000 workers at a time, it is laid out symmetrically around the basilica at the centre of its main façade.",
+      "keyFeatures": [
+        "Basilica at the centre of a symmetrical main façade",
+        "Two great towers closing the ends of the front",
+        "Library of about 30,000 rare books",
+        "Six historic pipe organs"
+      ],
+      "funFacts": [
+        "Its two carillons hold 98 bells.",
+        "It became a UNESCO World Heritage Site in 2019, together with its garden and hunting park."
+      ]
+    }
+  },
+  {
+    "id": "panteao-nacional",
+    "name": "Panteão Nacional",
+    "aliases": [
+      "National Pantheon",
+      "Igreja de Santa Engrácia",
+      "Church of Santa Engrácia",
+      "Santa Engrácia",
+      "Santa Engracia"
+    ],
+    "architects": [
+      {
+        "name": "João Antunes",
+        "aliases": ["Antunes"],
+        "lifespan": "1643–1712",
+        "nationality": "Portuguese",
+        "bio": "Royal architect and one of the most important Baroque architects in Portugal."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1966,
+    "era": "BAROQUE",
+    "style": "Baroque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Panth%C3%A9on_national_Lisbonne_7.jpg/1920px-Panth%C3%A9on_national_Lisbonne_7.jpg",
+        "alt": "White stone church on a Greek-cross plan with corner towers and a large dome",
+        "credit": "Photo: Chabe01 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Panth%C3%A9on_national_Lisbonne_7.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Interior_of_Igreja_de_Santa_Engr%C3%A1cia_55.jpg/1920px-Interior_of_Igreja_de_Santa_Engr%C3%A1cia_55.jpg",
+        "alt": "Domed centre of a church with coloured marble floors and walls",
+        "caption": "Under the dome.",
+        "credit": "Photo: Kent Wang · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Igreja_de_Santa_Engr%C3%A1cia_55.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its name became a national saying for a construction project that never ends."
+      },
+      { "order": 2, "text": "Begun in 1682, it only received its dome and was reinaugurated in 1966." },
+      { "order": 3, "text": "Presidents, writers, a fado singer and a footballer are buried here." }
+    ],
+    "summary": {
+      "description": "João Antunes designed this church on a centralised Greek-cross plan, an idea never before attempted in Portugal. Works ran from 1682 until his death in 1712, then stalled for centuries, so that 'obras de Santa Engrácia' became a byword for endless works. Converted into the National Pantheon in 1916, it finally received its dome and was reinaugurated in 1966.",
+      "keyFeatures": [
+        "Greek-cross plan",
+        "Large central dome, added in the 20th century",
+        "Coloured marble floors and walls",
+        "Tombs of national figures"
+      ],
+      "funFacts": [
+        "Fado singer Amália Rodrigues and footballer Eusébio are both entombed here.",
+        "Writers Almeida Garrett and Eça de Queiroz also lie here."
+      ]
+    }
+  },
+  {
+    "id": "bom-jesus-do-monte",
+    "name": "Bom Jesus do Monte",
+    "aliases": ["Sanctuary of Bom Jesus do Monte", "Santuário do Bom Jesus do Monte", "Bom Jesus", "Bom Jesus de Braga"],
+    "architects": [
+      {
+        "name": "Carlos Amarante",
+        "aliases": ["Carlos Luís Ferreira da Cruz Amarante", "Amarante"],
+        "lifespan": "1748–1815",
+        "nationality": "Portuguese",
+        "bio": "A largely self-taught military engineer and architect who played a key role in the transition from Baroque and Rococo to Neoclassicism in Portugal."
+      }
+    ],
+    "location": { "city": "Braga", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1834,
+    "era": "BAROQUE",
+    "style": "Baroque staircase; Neoclassical church",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Enquadramento_%2814554466859%29.jpg/1920px-Enquadramento_%2814554466859%29.jpg",
+        "alt": "Zigzag granite staircase with statues and fountains climbing a wooded hill to a twin-towered church",
+        "credit": "Photo: Glória Moura Gonçalves · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Enquadramento_(14554466859).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Bas%C3%ADlica_do_Bom_Jesus_do_Monte_%28Braga%29.jpg/1920px-Bas%C3%ADlica_do_Bom_Jesus_do_Monte_%28Braga%29.jpg",
+        "alt": "Nave of a church with a stone barrel vault leading to a gilded high altar",
+        "caption": "The church.",
+        "credit": "Photo: José Luis Filpo Cabana · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_do_Bom_Jesus_do_Monte_(Braga).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a hilltop pilgrimage site, reached traditionally on foot or even on the knees."
+      },
+      {
+        "order": 2,
+        "text": "Its zigzag stairways are dedicated to the five senses and the three theological virtues."
+      },
+      {
+        "order": 3,
+        "text": "Since 1882 a water-powered funicular, the first in the Iberian Peninsula, has carried visitors up the hill."
+      }
+    ],
+    "summary": {
+      "description": "The present sanctuary was begun in 1722 under Archbishop Rodrigo de Moura Telles. Its monumental stairway of 583 steps leads pilgrims past scenes of the Passion and fountains of the Five Senses and the Three Virtues, contrasting the material world with the spirit. At the top, Carlos Amarante's church (1784–1834) was one of the first Neoclassical churches in Portugal.",
+      "keyFeatures": [
+        "Zigzag stairway of 583 steps",
+        "Stairs of the Five Senses and of the Three Virtues, each with fountains",
+        "Chapels with scenes of the Passion",
+        "Neoclassical church by Carlos Amarante"
+      ],
+      "funFacts": [
+        "Its 1882 funicular is counterbalanced by water and is still in use.",
+        "It became a UNESCO World Heritage Site in 2019."
+      ]
+    }
+  },
+  {
+    "id": "palacio-nacional-de-queluz",
+    "name": "Palácio Nacional de Queluz",
+    "aliases": ["Palace of Queluz", "Queluz National Palace", "Queluz Palace", "Queluz"],
+    "architects": [
+      {
+        "name": "Mateus Vicente de Oliveira",
+        "aliases": ["Mateus Vicente", "Oliveira"],
+        "lifespan": "1706–1786",
+        "nationality": "Portuguese",
+        "bio": "Trained under Ludovice and Robillon on the building site at Mafra, he worked chiefly in the late Baroque and Rococo styles and is best remembered for the Palace of Queluz."
+      },
+      {
+        "name": "Jean-Baptiste Robillon",
+        "aliases": ["Robillon"],
+        "nationality": "French (worked in Portugal)",
+        "bio": "French artist who had taught Oliveira at Mafra; at Queluz he was in charge of the gardens, many buildings, the Rococo interiors and the western wing that bears his name."
+      }
+    ],
+    "location": { "city": "Queluz, Sintra", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1786,
+    "era": "BAROQUE",
+    "style": "Rococo",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jardim_P%C3%AAnsil%2C_Pal%C3%A1cio_Nacional_de_Queluz_06.jpg/1920px-Jardim_P%C3%AAnsil%2C_Pal%C3%A1cio_Nacional_de_Queluz_06.jpg",
+        "alt": "Pink and white Rococo palace front with a pediment and tall windows, seen along a formal garden",
+        "credit": "Photo: Kent Wang · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Jardim_P%C3%AAnsil,_Pal%C3%A1cio_Nacional_de_Queluz_06.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Throne_Hall_%28Pal%C3%A1cio_Nacional_de_Queluz%29_9761.jpg/1920px-Throne_Hall_%28Pal%C3%A1cio_Nacional_de_Queluz%29_9761.jpg",
+        "alt": "Mirrored, gilded throne hall with crystal chandeliers and a painted ceiling",
+        "caption": "The Throne Room.",
+        "credit": "Photo: Kent Wang · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Throne_Hall_(Pal%C3%A1cio_Nacional_de_Queluz)_9761.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as a summer retreat for a king's brother, who later married his own niece, the queen."
+      },
+      { "order": 2, "text": "Despite being far smaller, it is often called its country's 'Versailles'." },
+      {
+        "order": 3,
+        "text": "One of its wings is used today as the official guest house for visiting heads of state."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1747 by Mateus Vicente de Oliveira as a summer retreat for Peter of Braganza, later King Peter III, Queluz is one of the last great Rococo buildings in Europe. Work was interrupted by the 1755 earthquake. Oliveira's former tutor Jean-Baptiste Robillon designed the gardens, the Rococo interiors and the great western wing.",
+      "keyFeatures": [
+        "Low, pastel-coloured Rococo façades",
+        "Robillon wing",
+        "Gilded throne room with mirrors and chandeliers",
+        "Formal gardens with statues and fountains"
+      ],
+      "funFacts": [
+        "It has been described as looking like 'a very expensive birthday cake'.",
+        "Queen Maria I lived there in seclusion after she became mentally ill."
+      ]
+    }
+  },
+  {
+    "id": "basilica-da-estrela",
+    "name": "Basílica da Estrela",
+    "aliases": [
+      "Estrela Basilica",
+      "Basilica of Estrela",
+      "Royal Basilica and Convent of the Most Sacred Heart of Jesus",
+      "Estrela"
+    ],
+    "architects": [
+      {
+        "name": "Mateus Vicente de Oliveira",
+        "aliases": ["Mateus Vicente", "Oliveira"],
+        "lifespan": "1706–1786",
+        "nationality": "Portuguese",
+        "bio": "Trained under Ludovice and Robillon on the building site at Mafra, he worked chiefly in the late Baroque and Rococo styles and is best remembered for the Palace of Queluz."
+      },
+      {
+        "name": "Reinaldo Manuel dos Santos",
+        "aliases": ["Reinaldo Manuel", "Santos"],
+        "lifespan": "1731–1791",
+        "nationality": "Portuguese",
+        "bio": "Architect and military engineer, an apprentice on the Mafra site and one of the leading figures of Pombaline architecture and town planning after the 1755 earthquake."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1790,
+    "era": "NEOCLASSICAL",
+    "style": "Late Baroque and Neoclassical",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Estrela_April_2014-8a.jpg/1920px-Estrela_April_2014-8a.jpg",
+        "alt": "White church front with two bell towers and statues, seen from the street",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Estrela_April_2014-8a.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bas%C3%ADlica_da_Estrela_2.jpg/1920px-Bas%C3%ADlica_da_Estrela_2.jpg",
+        "alt": "Upward view into a crossing of coloured marble vaults beneath a dome",
+        "caption": "The vaults and dome.",
+        "credit": "Photo: T meltzer · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_da_Estrela_2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A princess vowed to build it if she bore an heir; she could only fulfil the vow after becoming queen."
+      },
+      {
+        "order": 2,
+        "text": "It was the first church in the world dedicated to the Sacred Heart of Jesus."
+      },
+      { "order": 3, "text": "Its foundress is buried in its right transept." }
+    ],
+    "summary": {
+      "description": "Ordered by Queen Maria I to fulfil a vow for an heir, the basilica was begun in 1779 by Mateus Vicente de Oliveira and continued after his death by Reinaldo Manuel dos Santos. It was the first church in the world dedicated to the Sacred Heart of Jesus and the most important architectural work of her reign.",
+      "keyFeatures": [
+        "Twin bell towers flanking the front",
+        "Large dome over the crossing",
+        "Interior clad in coloured marble",
+        "Tomb of Queen Maria I"
+      ],
+      "funFacts": ["It houses a nativity scene by Joaquim Machado de Castro with more than 500 cork and terracotta figures."]
+    }
+  },
+  {
+    "id": "palacio-nacional-da-ajuda",
+    "name": "Palácio Nacional da Ajuda",
+    "aliases": ["Ajuda National Palace", "Palace of Ajuda", "Ajuda Palace", "Ajuda"],
+    "architects": [
+      {
+        "name": "José da Costa e Silva",
+        "aliases": ["Costa e Silva"],
+        "lifespan": "1747–1819",
+        "nationality": "Portuguese",
+        "bio": "Trained in Rome, he became royal architect and helped establish Neoclassical architecture in Portugal and colonial Brazil."
+      },
+      {
+        "name": "Francisco Xavier Fabri",
+        "aliases": ["Francesco Saverio Fabri", "Fabri"],
+        "lifespan": "1761–1817",
+        "nationality": "Italian (worked in Portugal)",
+        "bio": "Architect from Medicina, near Bologna, who settled in Portugal and took charge of the Ajuda project after the royal family fled to Brazil."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2020,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the original project",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ajudaplanta.jpg",
+        "crop": { "x": 0.1, "y": 0.06, "w": 0.78, "h": 0.66 },
+        "alt": "Plan of a huge palace around a large courtyard, with the executed part shown in solid black",
+        "credit": "Published in the journal of the Associação dos Architectos Civis Portuguezes · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ajudaplanta.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lisboa._Palacio_Real._Ajuda_LOC_ppmsca.52713.jpg/1920px-Lisboa._Palacio_Real._Ajuda_LOC_ppmsca.52713.jpg",
+        "crop": { "x": 0.03, "y": 0.035, "w": 0.94, "h": 0.87 },
+        "alt": "Long Neoclassical palace front with corner pavilions, seen across an open lawn",
+        "credit": "Photo: Unknown photographer, Library of Congress · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lisboa._Palacio_Real._Ajuda_LOC_ppmsca.52713.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Salones_Pal%C3%A1cio_Nacional_da_Ajuda_1_03.jpg/1920px-Salones_Pal%C3%A1cio_Nacional_da_Ajuda_1_03.jpg",
+        "alt": "Red-carpeted stone staircase rising between carved white walls",
+        "caption": "A staircase.",
+        "credit": "Photo: Pedro J Pacheco · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Salones_Pal%C3%A1cio_Nacional_da_Ajuda_1_03.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It stands on the site of a wooden royal residence built after the 1755 earthquake."
+      },
+      { "order": 2, "text": "Works slowed to a crawl when the royal family fled to Brazil in 1807." },
+      {
+        "order": 3,
+        "text": "Its unfinished west side was only completed in the 21st century, to house the crown jewels."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1796 on the site of the wooden 'Real Barraca', the palace was redesigned in the Neoclassical style by José da Costa e Silva and Francisco Xavier Fabri. After the court fled Napoleon's troops to Brazil in 1807 the works dragged on, and only part of the vast plan was built. It became a permanent royal residence under King Luís I and Queen Maria Pia.",
+      "keyFeatures": [
+        "Long Neoclassical façades with corner pavilions",
+        "Interiors designed for Queen Maria Pia",
+        "Plan far larger than what was built",
+        "New west wing for the Royal Treasure Museum"
+      ],
+      "funFacts": [
+        "Since 2022 it has housed the Royal Treasure Museum with the Portuguese crown jewels.",
+        "Possidónio da Silva turned one of its side façades into the main one."
+      ]
+    }
+  },
+  {
+    "id": "teatro-nacional-de-sao-carlos",
+    "name": "Teatro Nacional de São Carlos",
+    "aliases": [
+      "São Carlos National Theatre",
+      "São Carlos",
+      "Sao Carlos",
+      "Teatro de São Carlos",
+      "Real Teatro de São Carlos"
+    ],
+    "architects": [
+      {
+        "name": "José da Costa e Silva",
+        "aliases": ["Costa e Silva"],
+        "lifespan": "1747–1819",
+        "nationality": "Portuguese",
+        "bio": "Trained in Rome, he became royal architect and helped establish Neoclassical architecture in Portugal and colonial Brazil."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1793,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical with Rococo elements",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Teatro_Nacional_de_S%C3%A3o_Carlos2.jpg/1920px-Teatro_Nacional_de_S%C3%A3o_Carlos2.jpg",
+        "alt": "Yellow and white theatre front with a clock, balcony and three entrance arches on a paved square",
+        "credit": "Photo: Lrocha · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Teatro_Nacional_de_S%C3%A3o_Carlos2.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Interior_TNSC_Lisboa.jpg/1920px-Interior_TNSC_Lisboa.jpg",
+        "alt": "Horseshoe auditorium with tiers of gilded boxes and a crowned royal box",
+        "caption": "The auditorium.",
+        "credit": "Photo: Nonducorduco1971 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_TNSC_Lisboa.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It replaced an opera house destroyed in the 1755 earthquake." },
+      { "order": 2, "text": "It was built in only six months and opened in 1793." },
+      { "order": 3, "text": "Its design draws on great opera houses in Naples and Milan." }
+    ],
+    "summary": {
+      "description": "Opened by Queen Maria I on 30 June 1793 to replace the Tejo Opera House lost in the 1755 earthquake, the theatre was built in only six months to a design by José da Costa e Silva. Its interior is inspired by the San Carlo in Naples and La Scala in Milan, and its façade by La Scala.",
+      "keyFeatures": [
+        "Horseshoe auditorium with tiers of boxes",
+        "Royal box facing the stage",
+        "Arcaded entrance porch",
+        "Façade modelled on La Scala"
+      ],
+      "funFacts": [
+        "It was named for Princess Charlotte (Carlota) of Spain, wife of the future King John VI.",
+        "The first opera staged there was Cimarosa's 'La ballerina amante'."
+      ]
+    }
+  },
+  {
+    "id": "hospital-de-santo-antonio",
+    "name": "Hospital de Santo António",
+    "aliases": ["Santo António Hospital", "Hospital Geral de Santo António", "Hospital de Santo Antonio", "Santo António"],
+    "architects": [
+      {
+        "name": "John Carr",
+        "aliases": ["Carr", "John Carr of York"],
+        "lifespan": "1723–1807",
+        "nationality": "English",
+        "bio": "Considered in his day the leading architect in the north of England, he worked mostly in the Palladian style, notably at Harewood House and Buxton Crescent."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1824,
+    "era": "NEOCLASSICAL",
+    "style": "Palladian",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Hospital_Santo_Antonio_por_Rodrigo_Tetsuo_Argenton.jpg/1920px-Hospital_Santo_Antonio_por_Rodrigo_Tetsuo_Argenton.jpg",
+        "alt": "Long granite Neoclassical building with a columned central pavilion topped by statues",
+        "credit": "Photo: Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hospital_Santo_Antonio_por_Rodrigo_Tetsuo_Argenton.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Museu_do_Centro_Hospitalar_do_Porto_por_Rodrigo_Tetsuo_Argenton_%283%29.jpg/1920px-Museu_do_Centro_Hospitalar_do_Porto_por_Rodrigo_Tetsuo_Argenton_%283%29.jpg",
+        "alt": "Old pharmacy with carved wooden cabinets full of glass jars under a vaulted ceiling",
+        "caption": "The old pharmacy, now a museum.",
+        "credit": "Photo: Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Museu_do_Centro_Hospitalar_do_Porto_por_Rodrigo_Tetsuo_Argenton_(3).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its architect was English, best known for country houses in the Palladian style."
+      },
+      { "order": 2, "text": "It was begun in 1770 on open land at the edge of its city." },
+      { "order": 3, "text": "Only about two-thirds of the original plan was ever built." }
+    ],
+    "summary": {
+      "description": "Begun on 15 July 1770 on what was then the edge of Porto, the hospital was designed by the English architect John Carr and is described as the most Palladian building in Portugal. It was inaugurated in 1824 with only about two-thirds of the project executed, and it is still a working hospital.",
+      "keyFeatures": [
+        "Granite façades of Palladian proportions",
+        "Columned central pavilion with statues",
+        "Historic pharmacy, now part of the hospital museum"
+      ],
+      "funFacts": ["Its architect's best-known work is Harewood House in Yorkshire."]
+    }
+  },
+  {
+    "id": "palacio-nacional-da-pena",
+    "name": "Palácio Nacional da Pena",
+    "aliases": ["Pena Palace", "Pena National Palace", "Palace of Pena", "Palácio da Pena", "Pena"],
+    "architects": [
+      {
+        "name": "Wilhelm Ludwig von Eschwege",
+        "aliases": ["Eschwege", "Baron von Eschwege"],
+        "lifespan": "1777–1855",
+        "nationality": "German (worked in Portugal)",
+        "bio": "A geologist, mineralogist and mining engineer who served the Portuguese court in Portugal and Brazil, and worked as an amateur architect."
+      }
+    ],
+    "location": { "city": "Sintra", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1854,
+    "era": "HISTORICISM",
+    "style": "Romanticism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Palais_national_Pena_Sintra_111.jpg/1920px-Palais_national_Pena_Sintra_111.jpg",
+        "alt": "Yellow, red and grey castle-palace with domes and towers on a forested hilltop",
+        "credit": "Photo: Chabe01 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palais_national_Pena_Sintra_111.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Circular_Splendor_The_Stag_Room_at_Pena_National_Palace_%2854939071599%29.jpg/1920px-Circular_Splendor_The_Stag_Room_at_Pena_National_Palace_%2854939071599%29.jpg",
+        "alt": "Round room with a central column spreading into a palm-like vault, hung with antlers",
+        "caption": "The Stag Room.",
+        "credit": "Photo: Dale Cruse · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Circular_Splendor_The_Stag_Room_at_Pena_National_Palace_(54939071599).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built over the ruins of a monastery wrecked by lightning and then by the 1755 earthquake."
+      },
+      {
+        "order": 2,
+        "text": "A king consort born in Germany commissioned it as a summer residence for the royal family."
+      },
+      {
+        "order": 3,
+        "text": "It is one of the major expressions of 19th-century Romanticism and one of the Seven Wonders of Portugal."
+      }
+    ],
+    "summary": {
+      "description": "King consort Ferdinand II bought the ruined Hieronymite monastery on a Sintra hilltop in 1838 and had Baron von Eschwege rebuild it as a Romantic summer palace between 1842 and 1854. The king and Queen Maria II intervened decisively in its decoration and symbolism.",
+      "keyFeatures": [
+        "Brightly coloured towers, domes and battlements",
+        "Former monastery cloister",
+        "Stag Room with a palm-like central vault",
+        "Built over the remains of a Hieronymite monastery"
+      ],
+      "funFacts": [
+        "It later passed to Ferdinand's second wife, Elisa Hensler, Countess of Edla.",
+        "It is a UNESCO World Heritage Site."
+      ]
+    }
+  },
+  {
+    "id": "palacio-do-bucaco",
+    "name": "Palácio do Buçaco",
+    "aliases": ["Buçaco Palace", "Bussaco Palace", "Palace Hotel do Buçaco", "Palácio Hotel do Buçaco", "Bussaco", "Buçaco"],
+    "architects": [
+      {
+        "name": "Luigi Manini",
+        "aliases": ["Manini"],
+        "lifespan": "1848–1936",
+        "nationality": "Italian (worked in Portugal)",
+        "bio": "Born in Crema, he came to Lisbon in 1879 as a scenographer for the São Carlos opera house and went on to design Neo-Manueline fantasies such as the Quinta da Regaleira in Sintra."
+      }
+    ],
+    "location": { "city": "Luso, Mealhada", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1907,
+    "era": "HISTORICISM",
+    "style": "Neo-Manueline",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Palace_Hotel_do_Bussaco.JPG/1920px-Palace_Hotel_do_Bussaco.JPG",
+        "alt": "Ornate stone palace with a tall pinnacled tower and carved arcades, seen across a formal garden",
+        "credit": "Photo: Vitor Oliveira · CC BY 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palace_Hotel_do_Bussaco.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Post_Card_Showing_the_Interior_of_Sal%C3%A3o_Nobre_do_Palace_Hotel_%282bb95285-f06f-4ea4-99fd-e9a549ce3dca%29.tif/lossless-page1-1920px-Post_Card_Showing_the_Interior_of_Sal%C3%A3o_Nobre_do_Palace_Hotel_%282bb95285-f06f-4ea4-99fd-e9a549ce3dca%29.tif.png",
+        "crop": { "x": 0.06, "y": 0.07, "w": 0.88, "h": 0.8 },
+        "alt": "Old photograph of a grand hall with a carved fireplace, arches and painted walls",
+        "caption": "A hall, c. 1923.",
+        "credit": "Photo: Unknown photographer, postcard c. 1923 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Post_Card_Showing_the_Interior_of_Sal%C3%A3o_Nobre_do_Palace_Hotel_(2bb95285-f06f-4ea4-99fd-e9a549ce3dca).tif"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was planned as a royal residence for a queen but became a hotel instead."
+      },
+      {
+        "order": 2,
+        "text": "It stands in a forest garden created by monks next to their former convent."
+      },
+      { "order": 3, "text": "It imitates the 16th-century style of Jerónimos and the Tower of Belém." }
+    ],
+    "summary": {
+      "description": "Built between 1888 and 1907 beside a former convent in the Buçaco forest, the palace was first meant as a residence for Queen Maria Pia before becoming a hotel. Luigi Manini designed it as a Romantic, Neo-Manueline evocation of the Age of Discovery, and was succeeded by Nicola Bigaglia, José Alexandre Soares and Manuel Joaquim Norte Júnior.",
+      "keyFeatures": [
+        "Pinnacled tower",
+        "Carved Neo-Manueline arcades",
+        "Azulejo panels by Jorge Colaço on the Discoveries",
+        "Interiors with stucco imitating Manueline rib vaults"
+      ],
+      "funFacts": [
+        "It was completed shortly before the fall of the Portuguese monarchy in 1910.",
+        "It has been a National Monument since 2018."
+      ]
+    }
   }
 ]
