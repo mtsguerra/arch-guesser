@@ -102,6 +102,7 @@ describe('eraMatches', () => {
     ['POSTMODERNISM', 'CONTEMPORARY'],
     ['ART_NOUVEAU', 'HISTORICISM'],
     ['ART_DECO', 'MODERNISM'],
+    ['HISTORICISM', 'NEOCLASSICAL'],
   ])('treats %s as close enough to %s', (guess, answer) => {
     expect(eraMatches(guess, answer)).toBe(true)
   })

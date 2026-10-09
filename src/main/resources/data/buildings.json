@@ -2309,5 +2309,502 @@
         "The competition drew 233 entries from 32 countries."
       ]
     }
+  },
+  {
+    "id": "real-gabinete-portugues-de-leitura",
+    "name": "Real Gabinete Português de Leitura",
+    "aliases": ["Real Gabinete Português", "Royal Portuguese Cabinet of Reading", "Real Gabinete"],
+    "architects": [
+      {
+        "name": "Rafael da Silva e Castro",
+        "aliases": ["Silva e Castro"],
+        "nationality": "Portuguese",
+        "bio": "Portuguese architect who designed the Cabinet's headquarters in the Neo-Manueline style, evoking the architecture of Portugal's Age of Discovery."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1887,
+    "era": "HISTORICISM",
+    "style": "Neo-Manueline",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Real_Gabinete_Portugu%C3%AAs_de_Leitura_-_Rio_de_Janeiro_-_20220924104726.jpg/1920px-Real_Gabinete_Portugu%C3%AAs_de_Leitura_-_Rio_de_Janeiro_-_20220924104726.jpg",
+        "crop": { "x": 0, "y": 0.36, "w": 1, "h": 0.64 },
+        "alt": "Ornate pale stone façade with pointed arches and pinnacles, at the end of a cobbled street",
+        "credit": "Photo: Estela Neto · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Real_Gabinete_Portugu%C3%AAs_de_Leitura_-_Rio_de_Janeiro_-_20220924104726.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Real_Gabinete_Portugu%C3%AAs_de_Leitura_por_Rodrigo_Tetsuo_Argenton_%2803%29.jpg/1920px-Real_Gabinete_Portugu%C3%AAs_de_Leitura_por_Rodrigo_Tetsuo_Argenton_%2803%29.jpg",
+        "alt": "Tall reading room lined with tiers of wooden bookcases under a decorated skylight",
+        "caption": "The main reading room.",
+        "credit": "Photo: Rodrigo.Argenton · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Real_Gabinete_Portugu%C3%AAs_de_Leitura_por_Rodrigo_Tetsuo_Argenton_(03).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was founded in 1837 by Portuguese immigrants, many of them political refugees."
+      },
+      { "order": 2, "text": "Its style revives the ornate architecture of Portugal's Age of Discovery." },
+      { "order": 3, "text": "Its façade stone was carved in Lisbon and shipped across the Atlantic." }
+    ],
+    "summary": {
+      "description": "Founded in 1837 by Portuguese immigrants in the then capital of the Empire of Brazil, the Cabinet built its headquarters in 1880–87 to a design by Rafael da Silva e Castro. Its Neo-Manueline style recalls the late Gothic of Portugal's Age of Discovery, and its reading room is lined floor to ceiling with carved bookcases beneath a skylight.",
+      "keyFeatures": [
+        "Neo-Manueline façade inspired by the Jerónimos Monastery in Lisbon",
+        "Façade stone carved in Lisbon and shipped to Rio",
+        "Reading room with tiers of carved wooden bookcases",
+        "Decorated iron and glass skylight"
+      ],
+      "funFacts": [
+        "Emperor Pedro II laid the cornerstone on 10 June 1880.",
+        "Princess Isabel inaugurated the building on 10 September 1887.",
+        "Statues on the façade portray figures such as Pedro Álvares Cabral and Luís de Camões."
+      ]
+    }
+  },
+  {
+    "id": "teatro-amazonas",
+    "name": "Teatro Amazonas",
+    "aliases": ["Amazon Theatre", "Amazonas Theatre", "Teatro Amazonas de Manaus"],
+    "architects": [
+      {
+        "name": "Celestial Sacardim",
+        "aliases": ["Sacardim"],
+        "nationality": "Italian",
+        "bio": "Italian architect under whom construction of the Manaus opera house began in 1884."
+      }
+    ],
+    "location": { "city": "Manaus, Amazonas", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1896,
+    "era": "HISTORICISM",
+    "style": "Eclectic (Renaissance Revival)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TEATRO_AMAZONAS_01.png/1920px-TEATRO_AMAZONAS_01.png",
+        "alt": "Pink and white theatre with a columned portico under a colourful tiled dome, at dusk",
+        "credit": "Photo: Periclesd · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:TEATRO_AMAZONAS_01.png"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Interior_do_Teatro_Amazonas.jpg/1920px-Interior_do_Teatro_Amazonas.jpg",
+        "alt": "Horseshoe auditorium with tiers of gilded boxes facing a stage",
+        "caption": "The auditorium.",
+        "credit": "Photo: gabriel_srsmith · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_do_Teatro_Amazonas.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in the middle of a rainforest at the height of a rubber boom."
+      },
+      {
+        "order": 2,
+        "text": "Its roof tiles came from Alsace, its steel walls from Glasgow and its marble from Carrara."
+      },
+      {
+        "order": 3,
+        "text": "It opened on the last day of 1896; the first opera was performed a week later."
+      }
+    ],
+    "summary": {
+      "description": "Built during the Belle Époque, when the rubber trade made Manaus one of the richest cities in Brazil, this opera house was inaugurated on 31 December 1896. Almost everything was imported: roof tiles from Alsace, steel walls from Glasgow, Carrara marble from Italy. Its dome is covered in 36,000 ceramic tiles in the colours of the Brazilian flag.",
+      "keyFeatures": [
+        "Dome clad in 36,000 tiles in the national colours",
+        "Imported materials from across Europe",
+        "Ceiling panels painted by Domenico de Angelis",
+        "198 chandeliers, 32 of them in Murano glass"
+      ],
+      "funFacts": ["The first performance, on 7 January 1897, was Ponchielli's opera La Gioconda."]
+    }
+  },
+  {
+    "id": "theatro-da-paz",
+    "name": "Theatro da Paz",
+    "aliases": ["Teatro da Paz", "Theatre of Peace"],
+    "architects": [
+      {
+        "name": "José Tibúrcio Pereira de Magalhães",
+        "aliases": ["Tibúrcio de Magalhães", "José Tibúrcio"],
+        "lifespan": "1831–1886",
+        "nationality": "Brazilian",
+        "bio": "Engineer and architect from Recife who planned the theatre in Belém."
+      }
+    ],
+    "location": { "city": "Belém, Pará", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1874,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Teatro_da_Paz%282%29_%2814897946546%29.jpg/1920px-Teatro_da_Paz%282%29_%2814897946546%29.jpg",
+        "crop": { "x": 0, "y": 0.08, "w": 1, "h": 0.92 },
+        "alt": "Salmon-coloured façade with white columns, portrait medallions and arched openings",
+        "credit": "Photo: Celso  Abreu · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Teatro_da_Paz(2)_(14897946546).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Inside_Theatro_da_Paz_in_Bel%C3%A9m%2C_Par%C3%A1%2C_Brazil.jpg/1920px-Inside_Theatro_da_Paz_in_Bel%C3%A9m%2C_Par%C3%A1%2C_Brazil.jpg",
+        "alt": "Red and gold auditorium with tiers of boxes facing a stage curtain",
+        "caption": "The auditorium.",
+        "credit": "Photo: Pedro Matheus Ferreira Brito · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_Theatro_da_Paz_in_Bel%C3%A9m,_Par%C3%A1,_Brazil.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built during the golden age of rubber in the Amazon basin." },
+      {
+        "order": 2,
+        "text": "Its name was suggested by a bishop, who also laid its foundation stone in 1869."
+      },
+      {
+        "order": 3,
+        "text": "It stands on a square named after the Republic in a city at the mouth of the Amazon."
+      }
+    ],
+    "summary": {
+      "description": "Built between 1869 and 1874 during the Amazon rubber boom, Belém's theatre follows strict neoclassical lines, with colonnaded patios on each side opening onto the Praça da República. After an administrative investigation it finally opened in February 1878, and the world's great opera companies performed there until the boom ended.",
+      "keyFeatures": [
+        "Neoclassical colonnaded façade",
+        "Side patios with columns and staircases",
+        "Horseshoe auditorium with tiers of boxes",
+        "Fewer columns over the entrance than originally built"
+      ],
+      "funFacts": [
+        "Its first production, on 16 February 1878, was the drama The Two Orphans.",
+        "It was neglected after the rubber boom collapsed, and later restored."
+      ]
+    }
+  },
+  {
+    "id": "estacao-da-luz",
+    "name": "Estação da Luz",
+    "aliases": ["Luz Station", "Luz", "Estação da Luz de São Paulo"],
+    "architects": [
+      {
+        "name": "Charles Henry Driver",
+        "aliases": ["Charles Driver", "Henry Driver", "Driver"],
+        "lifespan": "1832–1900",
+        "nationality": "British",
+        "bio": "Victorian architect known for his pioneering use of ornamental ironwork, who designed the station for the London-based São Paulo Railway."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1901,
+    "era": "HISTORICISM",
+    "style": "Victorian eclectic",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Esta%C3%A7%C3%A3o_da_Luz%2C_S%C3%A3o_Paulo_%28SP%29.jpg/1920px-Esta%C3%A7%C3%A3o_da_Luz%2C_S%C3%A3o_Paulo_%28SP%29.jpg",
+        "crop": { "x": 0, "y": 0.05, "w": 1, "h": 0.55 },
+        "alt": "Long cream and red brick building with steep slate roofs and a clock tower",
+        "credit": "Photo: Marcos Elias de Oliveira Júnior · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_da_Luz,_S%C3%A3o_Paulo_(SP).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Esta%C3%A7%C3%A3o_da_Luz_no_Dia_a_Dia.jpg/1920px-Esta%C3%A7%C3%A3o_da_Luz_no_Dia_a_Dia.jpg",
+        "alt": "Train platforms under a long arched roof of iron and glass",
+        "caption": "The train shed.",
+        "credit": "Photo: LUIZ CARLOS FERNANDES MELO JUNIOR · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_da_Luz_no_Dia_a_Dia.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was designed in Britain for a railway company based in London." },
+      { "order": 2, "text": "Its clock tower once set the time for the whole city." },
+      { "order": 3, "text": "It now also houses a museum of a language." }
+    ],
+    "summary": {
+      "description": "Designed by the British architect Charles Henry Driver for the São Paulo Railway, which linked the port of Santos to the interior, the station was built in 1895–1901. Its iron and glass train shed and its brick and stone headquarters with a tall clock tower brought Victorian Britain to São Paulo.",
+      "keyFeatures": [
+        "Iron and glass train shed",
+        "Clock tower that once regulated city time",
+        "Brick and stone façade with steep slate roofs",
+        "Ornamental ironwork"
+      ],
+      "funFacts": [
+        "A fire in 1946 destroyed the tower, which was rebuilt five years later.",
+        "The Museum of the Portuguese Language opened inside it in 2006; a fire in 2015 badly damaged the building."
+      ]
+    }
+  },
+  {
+    "id": "ilha-fiscal",
+    "name": "Ilha Fiscal Palace",
+    "aliases": ["Ilha Fiscal", "Castelo da Ilha Fiscal", "Fiscal Island"],
+    "architects": [
+      {
+        "name": "Adolfo del Vecchio",
+        "aliases": ["Adolpho José Del Vecchio", "Del Vecchio"],
+        "nationality": "Brazilian",
+        "bio": "Engineer and director of works at Brazil's Ministry of Finance, who designed the customs post in a Gothic style inspired by Viollet-le-Duc."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1889,
+    "era": "HISTORICISM",
+    "style": "Neo-Gothic",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/IlhaFiscal_03.jpg/1920px-IlhaFiscal_03.jpg",
+        "alt": "Small green neo-Gothic castle with a pointed tower on an island in a bay",
+        "credit": "Photo: Clarissa Sá · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:IlhaFiscal_03.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Teto.JPG/1920px-Teto.JPG",
+        "alt": "Painted blue vault with ribs meeting at a lantern",
+        "caption": "A painted vault inside the tower.",
+        "credit": "Photo: Andrevruas · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Teto.JPG"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built as a customs post on a small island in a bay." },
+      {
+        "order": 2,
+        "text": "It hosted the last great ball of an empire, six days before the empire fell."
+      },
+      {
+        "order": 3,
+        "text": "Its style was inspired by the French restorer of Gothic cathedrals, Viollet-le-Duc."
+      }
+    ],
+    "summary": {
+      "description": "Built on a small island in Guanabara Bay for the customs service of the port of Rio de Janeiro, this little Neo-Gothic 'château' was inaugurated by Emperor Pedro II on 27 April 1889. On 9 November it hosted the Ilha Fiscal Ball, remembered as the last ball of the Empire: six days later the Republic was proclaimed.",
+      "keyFeatures": [
+        "Neo-Gothic silhouette of spires and battlements",
+        "Tower clock lit from inside for ships at night",
+        "Wings aligned east–west, pointing out the shipping channel",
+        "Painted ceilings and mosaic floors"
+      ],
+      "funFacts": [
+        "Legend says that after the ball, bodices, corsets and garters were found all over the island.",
+        "It now belongs to the Brazilian Navy and has been restored since 2001."
+      ]
+    }
+  },
+  {
+    "id": "catedral-da-se-sao-paulo",
+    "name": "Catedral da Sé de São Paulo",
+    "aliases": ["São Paulo Cathedral", "Catedral da Sé", "Catedral Metropolitana de São Paulo", "Sé Cathedral"],
+    "architects": [
+      {
+        "name": "Maximilian Emil Hehl",
+        "aliases": ["Hehl", "Maximiliano Hehl"],
+        "lifespan": "1861–1916",
+        "nationality": "German (active in Brazil)",
+        "bio": "German engineer and architect from Kassel who emigrated to Brazil in 1888, taught in São Paulo and designed the new cathedral in a Gothic Revival style."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1954,
+    "era": "HISTORICISM",
+    "style": "Gothic Revival",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Façade design (project)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Projecto_da_Nova_Cathedral_de_S._Paulo_-_Fachada_da_Frente_-_Escala_1-200_-_Cathedral_de_S._Paulo_-_Fachada_de_Frente_-_1%2C_Acervo_do_Museu_Paulista_da_USP_%28cropped%29.jpg",
+        "crop": { "x": 0.1, "y": 0, "w": 0.72, "h": 0.81 },
+        "alt": "Gothic Revival cathedral front with two tall spires, a rose window and a central gable",
+        "credit": "Maximilian Emil Hehl, project drawing · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Projecto_da_Nova_Cathedral_de_S._Paulo_-_Fachada_da_Frente_-_Escala_1-200_-_Cathedral_de_S._Paulo_-_Fachada_de_Frente_-_1,_Acervo_do_Museu_Paulista_da_USP_(cropped).jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/At_S%C3%A3o_Paulo%2C_Brazil_2019_042.jpg/1920px-At_S%C3%A3o_Paulo%2C_Brazil_2019_042.jpg",
+        "alt": "Grey stone Gothic Revival cathedral with tall towers, seen from below",
+        "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:At_S%C3%A3o_Paulo,_Brazil_2019_042.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Catedral_da_S%C3%A9_S%C3%A3o_Paulo_Interior_2019-5433.jpg/1920px-Catedral_da_S%C3%A9_S%C3%A3o_Paulo_Interior_2019-5433.jpg",
+        "alt": "Long Gothic nave with clustered columns and pointed vaults",
+        "caption": "The nave.",
+        "credit": "Photo: Paul R. Burley · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Catedral_da_S%C3%A9_S%C3%A3o_Paulo_Interior_2019-5433.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is a Gothic Revival cathedral crowned by a Renaissance-style dome." },
+      {
+        "order": 2,
+        "text": "It took four decades to build and was inaugurated for its city's fourth centenary."
+      },
+      { "order": 3, "text": "Its crypt holds the remains of an 18th-century pioneer of airships." }
+    ],
+    "summary": {
+      "description": "Begun in 1913 on the site of the demolished colonial cathedral, to designs by Maximilian Emil Hehl, the Sé is a five-aisled Gothic Revival church with a dome inspired by Florence. It was inaugurated in 1954 for São Paulo's fourth centenary, with its towers still unfinished; they were completed in 1967.",
+      "keyFeatures": [
+        "Two towers 92 metres tall",
+        "Renaissance-style dome 30 metres over the crossing",
+        "Five-aisled Latin-cross nave",
+        "Large crypt beneath the main altar"
+      ],
+      "funFacts": [
+        "It holds up to 8,000 people.",
+        "The remains of the airship pioneer Bartolomeu de Gusmão were moved to its crypt in 2004."
+      ]
+    }
+  },
+  {
+    "id": "museu-do-ipiranga",
+    "name": "Museu do Ipiranga",
+    "aliases": ["Museu Paulista", "Museu Paulista da USP", "Ipiranga Museum", "Edifício-Monumento"],
+    "architects": [
+      {
+        "name": "Tommaso Gaudenzio Bezzi",
+        "aliases": ["Bezzi", "Tommaso Bezzi"],
+        "lifespan": "1844–1915",
+        "nationality": "Italian (active in Brazil)",
+        "bio": "Turin-born engineer and architect who settled in Brazil in 1875 and worked for the imperial court; the Ipiranga monument-building is his best-known work."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1890,
+    "era": "HISTORICISM",
+    "style": "Eclectic (Italian Renaissance revival)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Museu_Paulista_SAM_0033.jpg/1920px-Museu_Paulista_SAM_0033.jpg",
+        "alt": "Long ochre palace with a columned central pavilion behind gardens and palm trees",
+        "credit": "Photo: Arimart · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Museu_Paulista_SAM_0033.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/11_02_2023_-_Visita_Guiada_ao_Museu_do_Ipiranga_%2852687102724%29.jpg/1920px-11_02_2023_-_Visita_Guiada_ao_Museu_do_Ipiranga_%2852687102724%29.jpg",
+        "alt": "Looking up through a gilded stair hall to a coffered skylight",
+        "caption": "The grand stair hall.",
+        "credit": "Photo: Ministério da Ciência, Tecnologia e Inovação · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:11_02_2023_-_Visita_Guiada_ao_Museu_do_Ipiranga_(52687102724).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as a monument on the spot where a country's independence was proclaimed."
+      },
+      { "order": 2, "text": "Its most famous painting shows a prince on horseback raising his sword." },
+      {
+        "order": 3,
+        "text": "It reopened in 2022 after nine years of restoration, for an independence bicentenary."
+      }
+    ],
+    "summary": {
+      "description": "Designed in 1884 by Tommaso Gaudenzio Bezzi as a monument to Brazilian independence, on the banks of the Ipiranga brook where Pedro I is said to have declared it in 1822, this palatial building opened as a museum in 1895. It houses Pedro Américo's painting Independence or Death and reopened in 2022 after a long restoration.",
+      "keyFeatures": [
+        "Palatial façade with a columned central pavilion",
+        "Formal gardens and fountains on the axis",
+        "Grand ceremonial stair hall",
+        "Built as a monument before becoming a museum"
+      ],
+      "funFacts": [
+        "It opened on 7 September 1895, Independence Day.",
+        "It is the oldest public museum in São Paulo and belongs to the University of São Paulo."
+      ]
+    }
+  },
+  {
+    "id": "palais-garnier",
+    "name": "Palais Garnier",
+    "aliases": ["Opéra Garnier", "Paris Opera", "Opéra de Paris", "Garnier Opera House"],
+    "architects": [
+      {
+        "name": "Charles Garnier",
+        "aliases": ["Garnier", "Jean-Louis Charles Garnier"],
+        "lifespan": "1825–1898",
+        "nationality": "French",
+        "bio": "A relatively unknown architect when he won the 1861 competition for the new Paris opera, Garnier went on to design the Opéra de Monte-Carlo. His opulent opera became the emblem of the Second Empire's style."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1875,
+    "era": "HISTORICISM",
+    "style": "Beaux-Arts (Napoleon III style)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan (1875)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Palais_Garnier_plan_d%27ensemble_-_Nuitter_1875_p196_-_Google_Books.jpg",
+        "alt": "Symmetrical plan of a huge theatre: a horseshoe auditorium, a deep stage, and grand foyers and stairs at the front",
+        "credit": "Charles Garnier · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palais_Garnier_plan_d%27ensemble_-_Nuitter_1875_p196_-_Google_Books.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section through the auditorium",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Nouvel_Op%C3%A9ra_-_salle_de_spectacle_-_coupe_longitudinale_-_Charles_Garnier_-_btv1b53069281p.jpg/3840px-Nouvel_Op%C3%A9ra_-_salle_de_spectacle_-_coupe_longitudinale_-_Charles_Garnier_-_btv1b53069281p.jpg",
+        "alt": "Coloured section through a horseshoe auditorium with tiers of red boxes under a painted dome",
+        "credit": "Charles Garnier · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Nouvel_Op%C3%A9ra_-_salle_de_spectacle_-_coupe_longitudinale_-_Charles_Garnier_-_btv1b53069281p.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Paris_July_2011-22a.jpg/1920px-Paris_July_2011-22a.jpg",
+        "alt": "Ornate domed theatre with a green copper dome and gilded statues, seen over Paris rooftops",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paris_July_2011-22a.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Opera_Garnier_Grand_Escalier.jpg/1920px-Opera_Garnier_Grand_Escalier.jpg",
+        "alt": "Grand marble staircase dividing into two flights beneath tiers of balconies",
+        "caption": "The Grand Staircase.",
+        "credit": "Photo: Benh LIEU SONG · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Opera_Garnier_Grand_Escalier.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was commissioned by an emperor and won in a competition by a little-known architect."
+      },
+      {
+        "order": 2,
+        "text": "A water tank beneath its stage inspired the lake in a famous novel and musical."
+      },
+      { "order": 3, "text": "Its auditorium ceiling was repainted in 1964 by Marc Chagall." }
+    ],
+    "summary": {
+      "description": "Built for the Paris Opera between 1861 and 1875 at the behest of Napoleon III, Charles Garnier's opera house blends Baroque, Palladian and Renaissance sources over an iron frame, leaving no surface undecorated. Its grand marble staircase, gilded foyer and horseshoe auditorium made it the emblem of Second Empire Paris.",
+      "keyFeatures": [
+        "Grand Staircase of white marble with red and green balustrades",
+        "Horseshoe auditorium of 1,979 seats",
+        "Iron framework beneath the decoration",
+        "Concrete cistern under the stage holding groundwater"
+      ],
+      "funFacts": [
+        "The underground water tank inspired the lake in Gaston Leroux's The Phantom of the Opera.",
+        "Garnier beat Viollet-le-Duc, the Empress's favourite, in the competition.",
+        "Marc Chagall's 1964 ceiling is mounted on a removable frame over the original."
+      ]
+    }
   }
 ]
