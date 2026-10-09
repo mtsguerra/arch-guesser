@@ -269,3 +269,12 @@
 .nowrap {
   white-space: nowrap;
 }
+
+.credit a {
+  color: inherit;
+  text-decoration-color: color-mix(in oklab, currentColor 40%, transparent);
+}
+
+.credit a:hover {
+  color: var(--ink);
+}

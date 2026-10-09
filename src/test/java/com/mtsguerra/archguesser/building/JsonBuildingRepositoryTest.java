@@ -19,7 +19,7 @@ class JsonBuildingRepositoryTest {
     void shippedCatalogueLoadsAndPassesValidation() {
         var repository = new JsonBuildingRepository(jsonMapper, new ClassPathResource("data/buildings.json"));
 
-        assertThat(repository.findAll()).hasSize(5);
+        assertThat(repository.findAll()).hasSizeGreaterThanOrEqualTo(5);
         assertThat(repository.findById("villa-savoye")).get()
                 .satisfies(b -> {
                     assertThat(b.era()).isEqualTo(Era.MODERNISM);

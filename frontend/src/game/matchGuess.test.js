@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { resolveCountryCode, suggestCountries } from './countries.js'
-import { evaluateGuess, matchesName } from './matchGuess.js'
+import { eraMatches, evaluateGuess, matchesName } from './matchGuess.js'
 import { normalize } from './text.js'
 import { salk, santIvo, villaSavoye } from './testBuildings.js'
 
@@ -86,5 +86,36 @@ describe('evaluateGuess', () => {
 
   it('treats whitespace as empty', () => {
     expect(evaluateGuess(salk, { name: '   ' }).name).toBeNull()
+  })
+})
+
+describe('eraMatches', () => {
+  it('accepts the exact era', () => {
+    expect(eraMatches('BAROQUE', 'BAROQUE')).toBe(true)
+  })
+
+  it.each([
+    ['BRUTALISM', 'MODERNISM'],
+    ['MODERNISM', 'BRUTALISM'],
+    ['MODERNISM', 'CONTEMPORARY'],
+    ['CONTEMPORARY', 'BRUTALISM'],
+    ['POSTMODERNISM', 'CONTEMPORARY'],
+    ['ART_NOUVEAU', 'HISTORICISM'],
+  ])('treats %s as close enough to %s', (guess, answer) => {
+    expect(eraMatches(guess, answer)).toBe(true)
+  })
+
+  it.each([
+    ['RENAISSANCE', 'BAROQUE'],
+    ['POSTMODERNISM', 'MODERNISM'],
+    ['ART_NOUVEAU', 'MODERNISM'],
+    ['CLASSICAL', 'CONTEMPORARY'],
+  ])('rejects %s for %s', (guess, answer) => {
+    expect(eraMatches(guess, answer)).toBe(false)
+  })
+
+  it('is used when judging a guess', () => {
+    expect(evaluateGuess(salk, { era: 'MODERNISM' }).era).toBe(true)
+    expect(evaluateGuess(santIvo, { era: 'RENAISSANCE' }).era).toBe(false)
   })
 })

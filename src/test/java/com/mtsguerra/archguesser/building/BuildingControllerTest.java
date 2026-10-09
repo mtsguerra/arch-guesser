@@ -17,10 +17,17 @@ import org.springframework.test.web.servlet.MockMvc;
 @AutoConfigureMockMvc
 class BuildingControllerTest {
 
-    private static final String ALL_BUT_SAVOYE = "villa-rotonda,sant-ivo-alla-sapienza,monticello,salk-institute";
-
     @Autowired
     MockMvc mvc;
+
+    @Autowired
+    BuildingRepository repository;
+
+    /** Every id except Villa Savoye, so a random pick has exactly one candidate. */
+    private String allButSavoye() {
+        return repository.findAll().stream().map(Building::id).filter(id -> !id.equals("villa-savoye"))
+                .collect(java.util.stream.Collectors.joining(","));
+    }
 
     @Test
     void returnsBuildingById() throws Exception {
@@ -42,14 +49,14 @@ class BuildingControllerTest {
 
     @Test
     void randomSkipsExcludedBuildings() throws Exception {
-        mvc.perform(get("/api/buildings/random").param("exclude", ALL_BUT_SAVOYE))
+        mvc.perform(get("/api/buildings/random").param("exclude", allButSavoye()))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.id").value("villa-savoye"));
     }
 
     @Test
     void randomIgnoresExclusionsOnceEverythingIsSeen() throws Exception {
-        mvc.perform(get("/api/buildings/random").param("exclude", ALL_BUT_SAVOYE + ",villa-savoye"))
+        mvc.perform(get("/api/buildings/random").param("exclude", allButSavoye() + ",villa-savoye"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.id").isNotEmpty());
     }

@@ -79,7 +79,6 @@
   max-width: 50%;
   font-size: var(--text-2xs);
   color: var(--ink-soft);
-  pointer-events: none;
 }
 
 /* Narrow board: a phone, or the reference column beside the summary */
@@ -91,4 +90,13 @@
   .credit {
     display: none;
   }
+}
+
+.credit a {
+  color: inherit;
+  text-decoration-color: color-mix(in oklab, currentColor 40%, transparent);
+}
+
+.credit a:hover {
+  color: var(--ink);
 }

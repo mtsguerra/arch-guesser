@@ -16,6 +16,8 @@ final class BuildingValidator {
 
     private static final Pattern ID = Pattern.compile("[a-z0-9]+(-[a-z0-9]+)*");
     private static final Pattern COUNTRY_CODE = Pattern.compile("[A-Z]{2}");
+    private static final String REMOTE_ASSETS = "https://upload.wikimedia.org/";
+    private static final String REMOTE_SOURCES = "https://commons.wikimedia.org/";
 
     private BuildingValidator() {
     }
@@ -82,8 +84,11 @@ final class BuildingValidator {
             Drawing d = b.drawings().get(i);
             String field = "drawings[" + i + "]";
             if (d.type() == null) e.add(field + ".type is required");
-            e.requireAsset(b.id(), d.src(), field + ".src");
+            // A null src is allowed: no free drawing exists, so the client shows a placeholder.
+            if (d.src() != null) e.requireAsset(b.id(), d.src(), field + ".src");
             e.requireText(d.alt(), field + ".alt");
+            e.optionalSource(d.source(), field + ".source");
+            validateCrop(d.crop(), field + ".crop", e);
         }
     }
 
@@ -105,11 +110,19 @@ final class BuildingValidator {
                     } else {
                         e.requireAsset(b.id(), h.image().src(), field + ".image.src");
                         e.requireText(h.image().alt(), field + ".image.alt");
+                        e.optionalSource(h.image().source(), field + ".image.source");
                     }
                 }
                 case FACT -> e.requireText(h.text(), field + ".text");
             }
         }
+    }
+
+    private static void validateCrop(Crop c, String field, Errors e) {
+        if (c == null) return;
+        boolean inside = c.x() >= 0 && c.y() >= 0 && c.w() > 0 && c.h() > 0
+                && c.x() + c.w() <= 1.0001 && c.y() + c.h() <= 1.0001;
+        if (!inside) e.add(field + " must be fractions within the image (x + w <= 1, y + h <= 1)");
     }
 
     private static void validateSummary(Summary s, Errors e) {
@@ -134,10 +147,19 @@ final class BuildingValidator {
             if (isBlank(value)) add(field + " is required");
         }
 
-        /** Assets must live in the building's own folder, which catches copy-paste mix-ups. */
+        /**
+         * Assets are either Wikimedia Commons uploads or files in the building's own
+         * local folder (which catches copy-paste mix-ups between buildings).
+         */
         void requireAsset(String buildingId, String src, String field) {
-            String prefix = "/buildings/" + buildingId + "/";
-            if (src == null || !src.startsWith(prefix)) add(field + " must start with '" + prefix + "'");
+            String local = "/buildings/" + buildingId + "/";
+            if (src == null || !(src.startsWith(local) || src.startsWith(REMOTE_ASSETS))) {
+                add(field + " must start with '" + local + "' or '" + REMOTE_ASSETS + "'");
+            }
+        }
+
+        void optionalSource(String source, String field) {
+            if (source != null && !source.startsWith(REMOTE_SOURCES)) add(field + " must start with '" + REMOTE_SOURCES + "'");
         }
     }
 }

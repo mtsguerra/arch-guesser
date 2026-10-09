@@ -6,6 +6,7 @@ import { eraRange } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
 import { strings } from '../../strings.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
+import { Credit } from '../ui/Credit.jsx'
 import { Button } from '../ui/Button.jsx'
 import styles from './BuildingSummary.module.css'
 
@@ -86,7 +87,11 @@ function Photo({ hint }) {
       </div>
       <figcaption>
         {hint.caption}
-        {loaded && hint.image.credit && <span className={styles.credit}>{hint.image.credit}</span>}
+        {loaded && hint.image.credit && (
+          <span className={styles.credit}>
+            <Credit text={hint.image.credit} source={hint.image.source} />
+          </span>
+        )}
       </figcaption>
     </figure>
   )

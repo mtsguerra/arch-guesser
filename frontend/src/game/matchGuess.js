@@ -14,6 +14,25 @@ const GENERIC_WORDS = new Set([
 const MIN_WORD = 4
 
 /**
+ * Eras that blur into each other, so a guess of either counts ("close enough").
+ * The locked field then shows the canonical era, so the player still learns it.
+ * Modernism, Brutalism and Contemporary overlap in practice: late Niemeyer or
+ * Paulista Brutalism after 1990 is tagged Contemporary.
+ */
+const CLOSE_ERAS = [
+  ['MODERNISM', 'BRUTALISM'],
+  ['MODERNISM', 'CONTEMPORARY'],
+  ['BRUTALISM', 'CONTEMPORARY'],
+  ['POSTMODERNISM', 'CONTEMPORARY'],
+  ['HISTORICISM', 'ART_NOUVEAU'],
+]
+
+export function eraMatches(guess, answer) {
+  if (guess === answer) return true
+  return CLOSE_ERAS.some(([a, b]) => (guess === a && answer === b) || (guess === b && answer === a))
+}
+
+/**
  * Words distinctive enough to count alone. For buildings, any non-generic word
  * ("savoye", "rotonda"); for people, only the surname ("borromini", "kahn"),
  * since a first name like "Louis" identifies no one.
@@ -50,6 +69,6 @@ export function evaluateGuess(building, values) {
       building.architects.some((a) => matchesName(v, [a.name, ...a.aliases], { person: true })),
     ),
     country: judge(values.country, (v) => resolveCountryCode(v) === building.location.countryCode),
-    era: judge(values.era, (v) => v === building.era),
+    era: judge(values.era, (v) => eraMatches(v, building.era)),
   }
 }

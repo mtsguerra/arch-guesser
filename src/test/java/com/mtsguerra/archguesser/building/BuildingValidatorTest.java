@@ -59,13 +59,45 @@ class BuildingValidatorTest {
     @Test
     void rejectsAssetsOutsideTheBuildingFolder() {
         Building b = building("a", hints(2));
-        Drawing foreign = new Drawing(DrawingType.FLOOR_PLAN, "Plan", "/buildings/other/plan.jpg", "alt", null);
+        Drawing foreign = drawing("/buildings/other/plan.jpg", null);
         Building withForeignDrawing = new Building(b.id(), b.name(), b.aliases(), b.architects(), b.location(),
                 b.yearCompleted(), b.era(), b.style(), List.of(foreign), b.hints(), b.summary());
 
         List<String> errors = BuildingValidator.validate(List.of(withForeignDrawing));
 
         assertThat(errors).singleElement().asString().contains("must start with '/buildings/a/'");
+    }
+
+    @Test
+    void acceptsWikimediaUrlsAndPlaceholderDrawings() {
+        Building b = withDrawings(building("a", hints(2)),
+                drawing("https://upload.wikimedia.org/wikipedia/commons/a/ab/Plan.jpg", new Crop(0.1, 0, 0.8, 1)),
+                drawing(null, null));
+
+        assertThat(BuildingValidator.validate(List.of(b))).isEmpty();
+    }
+
+    @Test
+    void rejectsOtherRemoteHosts() {
+        Building b = withDrawings(building("a", hints(2)), drawing("https://example.com/plan.jpg", null));
+
+        assertThat(BuildingValidator.validate(List.of(b))).singleElement().asString().contains("upload.wikimedia.org");
+    }
+
+    @Test
+    void rejectsCropsOutsideTheImage() {
+        Building b = withDrawings(building("a", hints(2)), drawing("/buildings/a/plan.jpg", new Crop(0.5, 0, 0.6, 1)));
+
+        assertThat(BuildingValidator.validate(List.of(b))).singleElement().asString().contains("crop must be fractions");
+    }
+
+    private static Building withDrawings(Building b, Drawing... drawings) {
+        return new Building(b.id(), b.name(), b.aliases(), b.architects(), b.location(),
+                b.yearCompleted(), b.era(), b.style(), List.of(drawings), b.hints(), b.summary());
+    }
+
+    private static Drawing drawing(String src, Crop crop) {
+        return new Drawing(DrawingType.FLOOR_PLAN, "Plan", src, crop, "alt", null, null);
     }
 
     @Test
@@ -87,7 +119,7 @@ class BuildingValidatorTest {
                 1950,
                 Era.MODERNISM,
                 "Style",
-                List.of(new Drawing(DrawingType.FLOOR_PLAN, "Plan", "/buildings/" + id + "/plan.jpg", "alt", null)),
+                List.of(drawing("/buildings/" + id + "/plan.jpg", null)),
                 hints,
                 new Summary("Description", null, null));
     }

@@ -4,6 +4,7 @@ import { Minus, Plus } from 'lucide-react'
 import { duration, easeOut } from '../../motion.js'
 import { strings } from '../../strings.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
+import { Credit } from '../ui/Credit.jsx'
 import styles from './ZoomableDrawing.module.css'
 
 const ZOOM = 2.5
@@ -89,6 +90,7 @@ export function ZoomableDrawing({ drawing, revealed }) {
             src={drawing.src}
             alt={drawing.alt}
             placeholderLabel={drawing.label}
+            crop={drawing.crop}
             onLoad={() => setLoaded(true)}
           />
         </motion.div>
@@ -122,7 +124,11 @@ export function ZoomableDrawing({ drawing, revealed }) {
 
       {/* Credits belong to real images (the placeholder labels itself), and appear only after
           the reveal: a drawing's author is often the architect, which would give the answer away. */}
-      {revealed && loaded && drawing.credit && <p className={styles.credit}>{drawing.credit}</p>}
+      {revealed && loaded && drawing.credit && (
+        <p className={styles.credit}>
+          <Credit text={drawing.credit} source={drawing.source} />
+        </p>
+      )}
     </div>
   )
 }
