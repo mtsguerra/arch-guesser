@@ -5274,5 +5274,651 @@
       ],
       "funFacts": ["Raul Rodrigues Lima and João Faria da Costa worked on the project in Pardal Monteiro's studio."]
     }
+  },
+  {
+    "id": "instituto-superior-tecnico",
+    "name": "Instituto Superior Técnico",
+    "aliases": ["IST", "Técnico", "Tecnico", "Instituto Superior Tecnico", "IST Alameda"],
+    "architects": [
+      {
+        "name": "Porfírio Pardal Monteiro",
+        "aliases": ["Pardal Monteiro"],
+        "lifespan": "1897–1957",
+        "nationality": "Portuguese",
+        "bio": "One of the most important Portuguese architects of the first half of the 20th century, a student of José Luís Monteiro and a teacher at the Instituto Superior Técnico."
+      },
+      {
+        "name": "Luís Benavente",
+        "aliases": ["Benavente"],
+        "lifespan": "1902–1993",
+        "nationality": "Portuguese",
+        "bio": "Lisbon architect who collaborated with Pardal Monteiro on the Alameda campus."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1935,
+    "era": "ART_DECO",
+    "style": "Modernism with Art Deco traits",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Instituto_Superior_T%C3%A9cnico_8867.jpg/1920px-Instituto_Superior_T%C3%A9cnico_8867.jpg",
+        "alt": "Long cream-rendered building with rows of tall green-framed windows divided by vertical ribs",
+        "credit": "Photo: João Carvalho · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Instituto_Superior_T%C3%A9cnico_8867.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Instituto-superior-tecnico-lisboa.2.jpg/1920px-Instituto-superior-tecnico-lisboa.2.jpg",
+        "alt": "Stone stair with a curved metal handrail turning beneath a skylight",
+        "caption": "A stairwell.",
+        "credit": "Photo: Garsd · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Instituto-superior-tecnico-lisboa.2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It belongs to Portugal's engineering school, founded in 1911, and was the first academic institution in the country to have its own campus."
+      },
+      {
+        "order": 2,
+        "text": "Its director in 1927 launched the project, and construction ran from 1928 to 1935."
+      },
+      { "order": 3, "text": "Seven buildings are laid out on a grid, alternating with formal gardens." }
+    ],
+    "summary": {
+      "description": "In 1927 the school's director Duarte Pacheco started the project for a new campus and commissioned Porfírio Pardal Monteiro, who worked with the architect Luís Benavente. Built from 1928 to 1935 and inaugurated the next year, it was the first Portuguese academic institution with its own campus. Its sober Art Deco-tinged modernism gets its grandeur from the volumes of the buildings rather than from decoration.",
+      "keyFeatures": [
+        "Seven buildings arranged on a grid",
+        "Formal gardens between the pavilions",
+        "Sober, restrained decoration of its era",
+        "Grandeur achieved through volumes, not ornament"
+      ],
+      "funFacts": [
+        "A statue of a woman holding a square and compass by Salvador Barata Feyo, made for a 1948 exhibition, now stands on the campus.",
+        "The Civil Engineering and Architecture Pavilion and the North and South towers were added in the 1950s."
+      ]
+    }
+  },
+  {
+    "id": "biblioteca-nacional-de-portugal",
+    "name": "Biblioteca Nacional de Portugal",
+    "aliases": ["National Library of Portugal", "BNP", "Biblioteca Nacional"],
+    "architects": [
+      {
+        "name": "Porfírio Pardal Monteiro",
+        "aliases": ["Pardal Monteiro"],
+        "lifespan": "1897–1957",
+        "nationality": "Portuguese",
+        "bio": "One of the most important Portuguese architects of the first half of the 20th century, a student of José Luís Monteiro and a teacher at the Instituto Superior Técnico."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1969,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Perpustakaan_Nasional_Portugal.jpg/1920px-Perpustakaan_Nasional_Portugal.jpg",
+        "crop": { "x": 0, "y": 0.15, "w": 1, "h": 0.5 },
+        "alt": "Broad low building with a recessed central entrance and pink-red panels between ranks of windows, seen across a lawn",
+        "credit": "Photo: Ilham Mufti Laksono · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Perpustakaan_Nasional_Portugal.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Reading_room_Biblioteca_Nacional_de_Portugal.jpg/1920px-Reading_room_Biblioteca_Nacional_de_Portugal.jpg",
+        "alt": "Large reading room under a timber coffered ceiling, with tall windows and a tapestry on the end wall",
+        "caption": "The reading room.",
+        "credit": "Photo: pru_mitchell · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Reading_room_Biblioteca_Nacional_de_Portugal.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built because the library's historic home, a convent, had become too small for its collections."
+      },
+      { "order": 2, "text": "Work began in 1958, and the books were moved in 1969." },
+      { "order": 3, "text": "It stands on the west side of a city park, Campo Grande." }
+    ],
+    "summary": {
+      "description": "The National Library outgrew its home in the Convento de São Francisco, so a purpose-designed building was planned. Work began in 1958 to a design by Porfírio Pardal Monteiro, and the collections were transferred to the new building in the Campo Grande area in 1969. It was very modern for its time.",
+      "keyFeatures": [
+        "Purpose-designed home for the national collections",
+        "Tower of deposits for book storage",
+        "Designed by Pardal Monteiro, very modern for its time",
+        "Site on the west side of the Campo Grande garden"
+      ],
+      "funFacts": [
+        "The storage tower was enlarged between 2008 and 2011, adding 6,300 m².",
+        "Its reading service for visually impaired readers has produced Braille and audio books since 1969."
+      ]
+    }
+  },
+  {
+    "id": "museu-calouste-gulbenkian",
+    "name": "Museu Calouste Gulbenkian",
+    "aliases": [
+      "Calouste Gulbenkian Museum",
+      "Gulbenkian Museum",
+      "Fundação Calouste Gulbenkian",
+      "Gulbenkian Foundation",
+      "Gulbenkian"
+    ],
+    "architects": [
+      {
+        "name": "Ruy Jervis d'Athouguia",
+        "aliases": ["Ruy Athouguia", "Athouguia", "Ruy d'Athouguia"],
+        "lifespan": "1917–2006",
+        "nationality": "Portuguese",
+        "bio": "Lisbon architect, one of the three members of the team that won the competition for the Gulbenkian Foundation headquarters."
+      },
+      {
+        "name": "Pedro Cid",
+        "aliases": ["Cid"],
+        "lifespan": "1925–1983",
+        "nationality": "Portuguese",
+        "bio": "Architect of the third generation of Portuguese modernists, who helped change mentalities in post-war architecture."
+      },
+      {
+        "name": "Alberto Pessoa",
+        "aliases": ["Alberto José Pessoa", "Pessoa"],
+        "lifespan": "1919–1985",
+        "nationality": "Portuguese",
+        "bio": "Architect and member of the team that won the competition for the Gulbenkian Foundation buildings."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1969,
+    "era": "MODERNISM",
+    "style": "Modernism with Brutalist concrete",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Gulbenkian_Park_%28Lisbon%29_%2835520799063%29.jpg/1920px-Gulbenkian_Park_%28Lisbon%29_%2835520799063%29.jpg",
+        "alt": "Long raised concrete building with planted terraces, overlooking a lawn dotted with café parasols",
+        "credit": "Photo: Kilian Evang · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gulbenkian_Park_(Lisbon)_(35520799063).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Interior_of_Edif%C3%ADcio-sede_da_Funda%C3%A7%C3%A3o_Calouste_Gulbenkian%2C_Lisbon%2C_Portugal_julesvernex2.jpg/1920px-Interior_of_Edif%C3%ADcio-sede_da_Funda%C3%A7%C3%A3o_Calouste_Gulbenkian%2C_Lisbon%2C_Portugal_julesvernex2.jpg",
+        "alt": "Timber-ceilinged room with a floor-to-ceiling window onto a garden, set with two red chairs",
+        "caption": "A room facing the garden.",
+        "credit": "Photo: Jules Verne Times Two · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Edif%C3%ADcio-sede_da_Funda%C3%A7%C3%A3o_Calouste_Gulbenkian,_Lisbon,_Portugal_julesvernex2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "The site was part of a park bought in 1957, and the buildings were designed by a team that won a competition."
+      },
+      { "order": 2, "text": "The landscape architects of its garden included Gonçalo Ribeiro Telles." },
+      {
+        "order": 3,
+        "text": "It was designed as a showcase for a single collector's collection, rather than adapted from an older building."
+      }
+    ],
+    "summary": {
+      "description": "A competition for the foundation's buildings and park was won by a team including Alberto Pessoa, Pedro Cid and Ruy Jervis d'Athouguia, with the landscape architects António Viana Barreto and Gonçalo Ribeiro Telles designing the surrounding park. The buildings and gardens were inaugurated on 2 October 1969, and the complex won the Valmor Prize in 1975.",
+      "keyFeatures": [
+        "Buildings and park designed together",
+        "Park by Viana Barreto and Ribeiro Telles",
+        "Museum designed as a showcase for its collection",
+        "Headquarters with two auditoriums"
+      ],
+      "funFacts": [
+        "The Centro de Arte Moderna opened in 1983 as Portugal's first museum of modern art.",
+        "A sculpture panel by Artur Rosa was installed in the headquarters in 1962."
+      ]
+    }
+  },
+  {
+    "id": "igreja-do-sagrado-coracao-de-jesus",
+    "name": "Igreja do Sagrado Coração de Jesus",
+    "aliases": [
+      "Igreja do Coração de Jesus",
+      "Church of the Sacred Heart of Jesus",
+      "Sacred Heart Church",
+      "Sagrado Coração de Jesus"
+    ],
+    "architects": [
+      {
+        "name": "Nuno Portas",
+        "aliases": ["Portas"],
+        "lifespan": "1934–2025",
+        "nationality": "Portuguese",
+        "bio": "Architect born in Vila Viçosa who worked with Nuno Teotónio Pereira on this church."
+      },
+      {
+        "name": "Nuno Teotónio Pereira",
+        "aliases": ["Teotónio Pereira", "Nuno Theotónio Pereira"],
+        "lifespan": "1922–2016",
+        "nationality": "Portuguese",
+        "bio": "Lisbon architect trained at the Lisbon School of Fine Arts and the author of several Valmor Prize buildings."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1967,
+    "era": "BRUTALISM",
+    "style": "Brutalism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Steps_leading_to_the_church_%2852079833609%29.jpg/1920px-Steps_leading_to_the_church_%2852079833609%29.jpg",
+        "alt": "Rough concrete stairway rising beside a stark modern building with a tall blue glass strip, framed by trees",
+        "credit": "Photo: Felipe Tofani · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Steps_leading_to_the_church_(52079833609).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sanctuary_view_Igreja_do_Sagrado_Cora%C3%A7%C3%A3o_de_Jesus.jpg/1920px-Sanctuary_view_Igreja_do_Sagrado_Cora%C3%A7%C3%A3o_de_Jesus.jpg",
+        "alt": "Nave of textured brick-like walls under a concrete roof grid, lit by narrow coloured glass",
+        "caption": "The nave.",
+        "credit": "Photo: PenrodCenturion · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sanctuary_view_Igreja_do_Sagrado_Cora%C3%A7%C3%A3o_de_Jesus.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It won the first prize in the competition held for its design." },
+      { "order": 2, "text": "It was built between 1962 and 1967 and inaugurated only in 1970." },
+      {
+        "order": 3,
+        "text": "It is a landmark of exposed concrete: its panels were prefabricated on site with the stone aggregate left visible."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Nuno Portas and Nuno Teotónio Pereira, who won the competition for it, the church was built from 1962 to 1967 and inaugurated on 25 June 1970. It was a deliberately 'experimental' work and a turning point for religious architecture, using exposed concrete and glass and playing with light. It won the Valmor Prize in 1975.",
+      "keyFeatures": [
+        "Prefabricated panels of white limestone aggregate in white cement",
+        "Exposed concrete and glass",
+        "Integration with the volumes of surrounding buildings",
+        "Spiritual play of light"
+      ],
+      "funFacts": [
+        "The architects argued that a 'constructive lie' was unacceptable in church architecture.",
+        "The aggregate of its panels is white limestone from Vila Viçosa."
+      ]
+    }
+  },
+  {
+    "id": "bloco-das-aguas-livres",
+    "name": "Bloco das Águas Livres",
+    "aliases": ["Edifício Águas Livres", "Águas Livres Block", "Edifício na Praça das Águas Livres", "Aguas Livres"],
+    "architects": [
+      {
+        "name": "Nuno Teotónio Pereira",
+        "aliases": ["Teotónio Pereira", "Nuno Theotónio Pereira"],
+        "lifespan": "1922–2016",
+        "nationality": "Portuguese",
+        "bio": "Lisbon architect trained at the Lisbon School of Fine Arts and the author of several Valmor Prize buildings."
+      },
+      {
+        "name": "Bartolomeu Costa Cabral",
+        "aliases": ["Costa Cabral", "Bartolomeu Cabral"],
+        "lifespan": "1929–2024",
+        "nationality": "Portuguese",
+        "bio": "Lisbon architect, considered one of the leading figures in the turn of the modern movement in Portuguese architecture; he joined this project as a beginner."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1956,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Bloco_das_Aguas_Livres_6344.jpg",
+        "alt": "Ten-storey pink and grey apartment block with rows of balconies above a ground-floor arcade",
+        "credit": "Photo: Manuelvbotelho · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bloco_das_Aguas_Livres_6344.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Bloco_das_%C3%81guas_Livres_01.jpg/1920px-Bloco_das_%C3%81guas_Livres_01.jpg",
+        "alt": "Entrance hall with a pastel column, a stair and a wall of mailboxes lit by low sun",
+        "caption": "The entrance hall.",
+        "credit": "Photo: DiogoBaptista · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bloco_das_%C3%81guas_Livres_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is an apartment block, planned as an income-producing building in a decade of such buildings."
+      },
+      { "order": 2, "text": "It was designed between 1953 and 1955 and built in 1956." },
+      { "order": 3, "text": "Its architect wanted to create 'a space for modern life'." }
+    ],
+    "summary": {
+      "description": "Designed by Nuno Teotónio Pereira with Bartolomeu Costa Cabral on the Praça das Águas Livres, in Lisbon's Rato area, this housing block was drawn up between 1953 and 1955 and built in 1956. Its programme would mark the architecture of its time and later years, and aimed to create a space for modern life.",
+      "keyFeatures": [
+        "Residential block with balconies",
+        "Arcaded ground floor",
+        "Entrance hall with a wall of mailboxes",
+        "Collaboration between Teotónio Pereira and the young Costa Cabral"
+      ],
+      "funFacts": ["The first plans were submitted for licensing on 30 August 1953, as 17 drawings and a written description."]
+    }
+  },
+  {
+    "id": "casa-de-cha-da-boa-nova",
+    "name": "Casa de Chá da Boa Nova",
+    "aliases": ["Boa Nova Tea House", "Casa de Chá", "Boa Nova", "Boa Nova Teahouse"],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Leça da Palmeira, Matosinhos", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1963,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Alvaro_Siza%27s_Boa_Vista_Tea_House_%2842814185272%29.jpg/1920px-Alvaro_Siza%27s_Boa_Vista_Tea_House_%2842814185272%29.jpg",
+        "alt": "Low timber-roofed building with a deep overhang above a concrete wall, set over rocks and the sea",
+        "credit": "Photo: Jeremy Weate · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Alvaro_Siza%27s_Boa_Vista_Tea_House_(42814185272).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Le%C3%A7a_da_Palmeira_IMG_2951_%286104615192%29.jpg/1920px-Le%C3%A7a_da_Palmeira_IMG_2951_%286104615192%29.jpg",
+        "alt": "Dark-wood staircase leading up to a lounge with a table lamp",
+        "caption": "The entrance stair.",
+        "credit": "Photo: 準建築人手札網站 Forgemind ArchiMedia · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Le%C3%A7a_da_Palmeira_IMG_2951_(6104615192).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was one of its architect's first works, passed to him by his teacher after the site was chosen."
+      },
+      { "order": 2, "text": "It was remodelled in 1991 after a strong storm hit the building." },
+      {
+        "order": 3,
+        "text": "It sits among rocks on the Atlantic coast and uses wood on its floors, walls and ceilings."
+      }
+    ],
+    "summary": {
+      "description": "Built between 1958 and 1963 on the rocks at Boa Nova, in Leça da Palmeira, this tea house and restaurant was one of Álvaro Siza's first works. His teacher Fernando Távora chose the site and handed him the project. Access is by a stepped path set into the rocks that alternately reveals and hides the sea.",
+      "keyFeatures": [
+        "Interpretation of the rocky landscape",
+        "Stepped pathway integrated into the rocks",
+        "Wood on floors, walls and ceilings",
+        "Admiration for Alvar Aalto"
+      ],
+      "funFacts": [
+        "After the 1991 storm, Siza supervised the renovation following his original drawings.",
+        "It is close to the tidal pools of Leça da Palmeira, designed by the same architect."
+      ]
+    }
+  },
+  {
+    "id": "pousada-de-santa-marinha",
+    "name": "Pousada de Santa Marinha",
+    "aliases": [
+      "Pousada de Guimarães",
+      "Pousada de Guimarães - Santa Marinha",
+      "Mosteiro de Santa Marinha da Costa",
+      "Santa Marinha da Costa Monastery",
+      "Santa Marinha"
+    ],
+    "architects": [
+      {
+        "name": "Fernando Távora",
+        "aliases": ["Távora", "Fernando Tavora"],
+        "lifespan": "1923–2005",
+        "nationality": "Portuguese",
+        "bio": "Architect and professor who became a key figure in the modernisation of the Porto School; two of his former students, Siza and Souto de Moura, later won the Pritzker Prize."
+      }
+    ],
+    "location": { "city": "Guimarães", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1985,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary conversion of a historic monastery",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pousada_de_Guimar%C3%A3es_-_Santa_Marinha_-_Portugal_%288024277134%29.jpg/1920px-Pousada_de_Guimar%C3%A3es_-_Santa_Marinha_-_Portugal_%288024277134%29.jpg",
+        "alt": "Twin-towered Baroque church front above a stairway, seen between trees",
+        "credit": "Photo: Vitor Oliveira · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pousada_de_Guimar%C3%A3es_-_Santa_Marinha_-_Portugal_(8024277134).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Guimar%C3%A3es_Santa_Marinha_da_Costa_473.jpg/1920px-Guimar%C3%A3es_Santa_Marinha_da_Costa_473.jpg",
+        "alt": "Arcaded cloister around a fountain and clipped box hedges",
+        "caption": "The cloister.",
+        "credit": "Photo: GFreihalter · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Guimar%C3%A3es_Santa_Marinha_da_Costa_473.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a former monastery whose site is believed to have been the palace of the early Portuguese counts."
+      },
+      { "order": 2, "text": "The State bought it in 1972 and began restoration five years later." },
+      {
+        "order": 3,
+        "text": "Its architect won the National Architecture Prize in 1987 for turning it into a hotel."
+      }
+    ],
+    "summary": {
+      "description": "The Hieronymite monastery of Santa Marinha da Costa, on a hillside above Guimarães, was bought by the State in 1972, and its restoration began five years later. Fernando Távora designed its reconstruction and adaptation as a pousada, a work that earned him the National Architecture Prize of 1987. A new lowered block painted in a contrasting maroon contains 27 of the rooms.",
+      "keyFeatures": [
+        "Historic church and monastery wings kept",
+        "New low block with spare modern rooms",
+        "Archaeological traces exposed in the walls",
+        "Cloister and monastery garden"
+      ],
+      "funFacts": [
+        "The hotel's entrance is the old refectory, where the granite frame of the reading pulpit survives.",
+        "It belongs to the Pousadas de Portugal network, as a 'Historic Pousada'."
+      ]
+    }
+  },
+  {
+    "id": "museu-de-serralves",
+    "name": "Museu de Serralves",
+    "aliases": [
+      "Serralves Museum",
+      "Museu de Arte Contemporânea de Serralves",
+      "Serralves Museum of Contemporary Art",
+      "Museum of Contemporary Art Serralves"
+    ],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1999,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Funda%C3%A7%C3%A3o_serralves_%2839740213603%29.jpg/1920px-Funda%C3%A7%C3%A3o_serralves_%2839740213603%29.jpg",
+        "alt": "White rendered boxy volumes with a recessed doorway and a single square window, on a lawn among trees",
+        "credit": "Photo: Gabriel de Andrade Fernandes · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Funda%C3%A7%C3%A3o_serralves_(39740213603).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Funda%C3%A7%C3%A3o_serralves_%2845789808975%29.jpg/1920px-Funda%C3%A7%C3%A3o_serralves_%2845789808975%29.jpg",
+        "alt": "Large gallery of white and brown walls with a skylight and a polished timber floor",
+        "caption": "A gallery.",
+        "credit": "Photo: Gabriel de Andrade Fernandes · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Funda%C3%A7%C3%A3o_serralves_(45789808975).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its architect signed the contract in March 1991, one year before winning the Pritzker Prize."
+      },
+      { "order": 2, "text": "It opened in June 1999 in the park of an Art Deco villa." },
+      { "order": 3, "text": "It is surrounded by a park where artworks stand beside native trees." }
+    ],
+    "summary": {
+      "description": "The Serralves Foundation signed a contract with Álvaro Siza on 6 March 1991 to design a museum of contemporary art in the park of Serralves, and it was inaugurated on 6 June 1999. It has become the second most visited museum in Portugal. In 2023 a new wing by Siza opened, partly to hold part of his archive and the legacy of Manoel de Oliveira.",
+      "keyFeatures": [
+        "Set in the park of the Serralves Foundation",
+        "Part of a group with the Art Deco villa and the park",
+        "Later extension, the Ala Álvaro Siza (2023)"
+      ],
+      "funFacts": ["It stands in the same park as the Casa de Serralves, an Art Deco villa."]
+    }
+  },
+  {
+    "id": "faup",
+    "name": "Faculdade de Arquitectura da Universidade do Porto",
+    "aliases": [
+      "FAUP",
+      "Faculty of Architecture of the University of Porto",
+      "Porto School of Architecture",
+      "Faculdade de Arquitetura da Universidade do Porto",
+      "Faculdade de Arquitectura do Porto",
+      "Faculdade de Arquitetura do Porto"
+    ],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1992,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Faculdade_de_Arquitectura_da_Universidade_do_Porto._%286085849987%29.jpg",
+        "alt": "Row of stark pale concrete tower blocks with narrow slot windows, seen from a street",
+        "credit": "Photo: Leon · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Faculdade_de_Arquitectura_da_Universidade_do_Porto._(6085849987).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Faculdade_de_Arquitectura_da_Universidade_do_Porto._%286085836449%29.jpg",
+        "alt": "Long library hall with timber tables and bookshelves under a sloping skylight",
+        "caption": "The library.",
+        "credit": "Photo: Leon · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Faculdade_de_Arquitectura_da_Universidade_do_Porto._(6085836449).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It houses a school created in 1979, the successor of an architecture course taught at the city's fine arts school."
+      },
+      {
+        "order": 2,
+        "text": "Construction began in 1985, on a site above a river and next to an old estate."
+      },
+      { "order": 3, "text": "Its architect was a former student and later professor of the school." }
+    ],
+    "summary": {
+      "description": "Created in 1979, the faculty got its new premises from Álvaro Siza, a former student and later professor, who first drew a renovation of the Quinta da Póvoa house and the Carlos Ramos pavilion in 1985–86. The complex opens towards the Douro in several fragmented volumes, with four towers linked by a half-buried transverse gallery. The premises were completed in 1992.",
+      "keyFeatures": [
+        "Four interconnected towers",
+        "Half-buried transverse gallery",
+        "Stone walls linking the building to the old estate garden",
+        "Library, museum and auditorium in a northern building"
+      ],
+      "funFacts": [
+        "The U-shaped Carlos Ramos pavilion was shaped by the trees and roots on the site.",
+        "The move into the new building took until 1996."
+      ]
+    }
+  },
+  {
+    "id": "cinema-batalha",
+    "name": "Cinema Batalha",
+    "aliases": ["Batalha Centro de Cinema", "Batalha Cinema", "Cine-Teatro Batalha", "Batalha"],
+    "architects": [
+      {
+        "name": "Artur Andrade",
+        "aliases": ["Artur Vieira de Andrade", "Andrade"],
+        "lifespan": "1913–2005",
+        "nationality": "Portuguese",
+        "bio": "Porto-born architect, one of the introducers of the Modern Movement in Portugal and a member of ODAM, the Organisation of Modern Architects."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1947,
+    "era": "ART_DECO",
+    "style": "Art Deco",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Cinema_Batalha_%28Porto%29.JPG",
+        "alt": "Curved white corner with tall glazed windows and a carved relief panel, on a city square",
+        "credit": "Photo: Manuel de Sousa · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cinema_Batalha_(Porto).JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Frescos_de_J%C3%BAlio_Pomar_no_Cinema_Batalha.jpg/1920px-Frescos_de_J%C3%BAlio_Pomar_no_Cinema_Batalha.jpg",
+        "alt": "Dark stairwell rising past a wall painted with swirling shapes",
+        "caption": "The stairwell.",
+        "credit": "Photo: Acfmagalhaes · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frescos_de_J%C3%BAlio_Pomar_no_Cinema_Batalha.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced an older cinema on the same site; the old building was demolished in 1944."
+      },
+      {
+        "order": 2,
+        "text": "It was inaugurated on 3 June 1947, and under the dictatorship its frescoes were ordered hidden in 1948."
+      },
+      { "order": 3, "text": "It reopened as a cultural venue in 2006." }
+    ],
+    "summary": {
+      "description": "Rebuilt by the architect Artur Andrade in the Art Deco style between 1944 and 1947, the Batalha is a four-storey trapezoidal structure with overhanging upper floors. Its decoration included frescoes by Júlio Pomar and a bas-relief by Américo Braga. In 1948 censors ordered the frescoes hidden and the relief altered to remove a sickle and a hammer.",
+      "keyFeatures": [
+        "Curved glazed corner",
+        "Overhanging upper floors",
+        "Foyers in varnished woods, glass, copper and metal",
+        "Floors of black polished marmorite with brass inlay"
+      ],
+      "funFacts": [
+        "One of Pomar's two frescoes was still unfinished at the inauguration because the artist was in prison for opposing the regime.",
+        "It re-opened in 2006 as a cultural and concert venue."
+      ]
+    }
   }
 ]
