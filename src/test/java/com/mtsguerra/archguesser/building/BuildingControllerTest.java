@@ -75,7 +75,7 @@ class BuildingControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$[0].id").value("CLASSICAL"))
                 .andExpect(jsonPath("$[0].startYear").value(-800))
-                .andExpect(jsonPath("$[*].id").value(Matchers.hasItems("ART_DECO", "OTTOMAN")))
+                .andExpect(jsonPath("$[*].id").value(Matchers.hasItems("ART_DECO", "OTTOMAN", "MANUELINE")))
                 .andExpect(jsonPath("$[?(@.id == 'CONTEMPORARY')].endYear").value(Matchers.contains(Matchers.nullValue())));
     }
 }

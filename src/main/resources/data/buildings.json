@@ -3356,5 +3356,670 @@
         "Neumann died in 1753, the year Tiepolo finished the staircase fresco."
       ]
     }
+  },
+  {
+    "id": "se-velha-de-coimbra",
+    "name": "Sé Velha de Coimbra",
+    "aliases": ["Old Cathedral of Coimbra", "Sé Velha", "Coimbra Old Cathedral"],
+    "architects": [
+      {
+        "name": "Mestre Roberto",
+        "aliases": ["Master Robert", "Roberto"],
+        "nationality": "Possibly French",
+        "bio": "A 12th-century master builder, probably from northern Europe, who was also directing the construction of Lisbon Cathedral and to whom the design of Coimbra's cathedral is attributed."
+      },
+      {
+        "name": "Mestre Bernardo",
+        "aliases": ["Master Bernard", "Bernardo"],
+        "nationality": "Possibly French",
+        "bio": "Master builder who supervised the works of Coimbra's cathedral, succeeded by Master Soeiro."
+      }
+    ],
+    "location": { "city": "Coimbra", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1220,
+    "era": "MEDIEVAL",
+    "style": "Romanesque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coimbra_BW_2018-10-06_14-33-51_stitch.jpg/1920px-Coimbra_BW_2018-10-06_14-33-51_stitch.jpg",
+        "alt": "Fortress-like stone church front with crenellated walls and a deep arched portal",
+        "credit": "Photo: Berthold Werner · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coimbra_BW_2018-10-06_14-33-51_stitch.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Coimbra%2C_Portugal_%2852959328603%29.jpg/1920px-Coimbra%2C_Portugal_%2852959328603%29.jpg",
+        "alt": "Romanesque nave with round arches leading to a gilded Gothic altarpiece",
+        "caption": "The nave.",
+        "credit": "Photo: thirdsphoto · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coimbra,_Portugal_(52959328603).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was begun after its city became the capital of a newly declared kingdom in the 12th century."
+      },
+      {
+        "order": 2,
+        "text": "From outside it looks like a small fortress, with crenellated walls and few, narrow windows."
+      },
+      {
+        "order": 3,
+        "text": "It is the only cathedral of its kind from the Reconquista to survive relatively intact in its country."
+      }
+    ],
+    "summary": {
+      "description": "Begun after King Afonso Henriques made Coimbra the capital of the new kingdom of Portugal, the cathedral was largely complete in the early 13th century. Its design is attributed to Master Robert and its works to Master Bernard. With its crenellated walls and narrow windows it looks like a fortress, and it is the only Portuguese Romanesque cathedral of the Reconquista to survive relatively intact.",
+      "keyFeatures": [
+        "Crenellated, fortress-like walls",
+        "Deep portal and window with Romanesque carving",
+        "Barrel-vaulted nave with galleries",
+        "Semicircular apse with radiating chapels"
+      ],
+      "funFacts": [
+        "Its cloister was begun only in 1218, under King Afonso II.",
+        "In 1772 the bishop's seat moved to the former Jesuit church, now the New Cathedral."
+      ]
+    }
+  },
+  {
+    "id": "mosteiro-da-batalha",
+    "name": "Mosteiro da Batalha",
+    "aliases": [
+      "Batalha Monastery",
+      "Monastery of Batalha",
+      "Mosteiro de Santa Maria da Vitória",
+      "Monastery of Saint Mary of the Victory"
+    ],
+    "architects": [
+      {
+        "name": "Afonso Domingues",
+        "aliases": ["Domingues"],
+        "lifespan": "1330–1401",
+        "nationality": "Portuguese",
+        "bio": "Lisbon-born master builder who drew the original design of the monastery and directed its works from 1388 until his death."
+      },
+      {
+        "name": "David Huguet",
+        "aliases": ["Huguet", "Mestre Huguet"],
+        "nationality": "Irish (worked in Portugal)",
+        "bio": "Master builder who succeeded Afonso Domingues in 1402 and directed the works until 1438, raising the nave and building the Founder's Chapel and the chapter house."
+      }
+    ],
+    "location": { "city": "Batalha", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1517,
+    "era": "MEDIEVAL",
+    "style": "Late Gothic (Flamboyant and Manueline)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "General plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/54_of_%27Monumentos_de_Portugal%2C_historicos%2C_artisticos_e_archeologicos._%28With_a_biographical_sketch_by_M._Pinheiro_Chagas.%29%27_%2811184740244%29.jpg",
+        "crop": { "x": 0.04, "y": 0.1, "w": 0.96, "h": 0.8 },
+        "alt": "Plan of a long church with an octagonal chapel at its head and large cloisters beside it",
+        "credit": "From 'Monumentos de Portugal' (1886) · No restrictions · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:54_of_%27Monumentos_de_Portugal,_historicos,_artisticos_e_archeologicos._(With_a_biographical_sketch_by_M._Pinheiro_Chagas.)%27_(11184740244).jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section of the church",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Batalha_Longitudinal_Section_of_the_Church%2C_Published_1793.jpg",
+        "crop": { "x": 0.06, "y": 0.08, "w": 0.88, "h": 0.72 },
+        "alt": "Section of a tall Gothic church with pointed windows, pinnacles and a spire",
+        "credit": "James Murphy, engraving, 1793 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Batalha_Longitudinal_Section_of_the_Church,_Published_1793.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Batalha_September_2021-39.jpg/1920px-Batalha_September_2021-39.jpg",
+        "alt": "Ornate Gothic church with pinnacles, flying buttresses and tall traceried windows",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Batalha_September_2021-39.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/20200204_BatalhaMonastery_6399_%2849657159153%29.jpg/1920px-20200204_BatalhaMonastery_6399_%2849657159153%29.jpg",
+        "alt": "Very tall, narrow Gothic nave with coloured light falling on its piers",
+        "caption": "The nave.",
+        "credit": "Photo: Ray Swi-hymn · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:20200204_BatalhaMonastery_6399_(49657159153).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built to give thanks for a victory over Castile in 1385." },
+      { "order": 2, "text": "It took more than a century to build, spanning the reigns of seven kings." },
+      { "order": 3, "text": "Its 'Unfinished Chapels' were never roofed." }
+    ],
+    "summary": {
+      "description": "Officially the Monastery of Saint Mary of the Victory, Batalha fulfilled King John I's vow after the Battle of Aljubarrota in 1385 and became the burial church of the Aviz dynasty. Begun in 1386 by Afonso Domingues and continued by Huguet and later Mateus Fernandes, it took over a century to build and blends English-influenced Flamboyant Gothic with early Manueline work.",
+      "keyFeatures": [
+        "Very tall Gothic nave",
+        "Founder's Chapel with the tombs of John I and Philippa of Lancaster",
+        "Octagonal Unfinished Chapels, open to the sky",
+        "Square chapter house with an unsupported vault"
+      ],
+      "funFacts": [
+        "It became a UNESCO World Heritage Site in 1983.",
+        "An equestrian statue of the general Nuno Álvares Pereira stands in the square in front."
+      ]
+    }
+  },
+  {
+    "id": "mosteiro-dos-jeronimos",
+    "name": "Mosteiro dos Jerónimos",
+    "aliases": ["Jerónimos Monastery", "Hieronymites Monastery", "Mosteiro de Santa Maria de Belém", "Jeronimos"],
+    "architects": [
+      {
+        "name": "Diogo de Boitaca",
+        "aliases": ["Boitaca", "Boytac", "Diogo Boitac"],
+        "lifespan": "c. 1460–1528?",
+        "nationality": "Portuguese (origin uncertain, possibly French)",
+        "bio": "An architect and engineer of unknown origin who pioneered the Manueline style at the Monastery of Jesus in Setúbal and drew the first plans of the Jerónimos Monastery in Lisbon."
+      },
+      {
+        "name": "João de Castilho",
+        "aliases": ["Juan de Castillo", "Castilho"],
+        "lifespan": "c. 1470–c. 1552",
+        "nationality": "Castilian (worked in Portugal)",
+        "bio": "Born in Cantabria, Castilho became one of the premier architects in the history of Portugal, moving from the Manueline towards the Plateresque and Renaissance at the Jerónimos and the Convent of Christ."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1601,
+    "era": "MANUELINE",
+    "style": "Manueline",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Jer%C3%B3nimos_Monastery_%2842108087364%29.jpg/1920px-Jer%C3%B3nimos_Monastery_%2842108087364%29.jpg",
+        "alt": "Richly carved white limestone church façade with a domed tower, seen from a lawn",
+        "credit": "Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Jer%C3%B3nimos_Monastery_(42108087364).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Mosteiro_Jer%C3%B3nimos_naves.jpg/1920px-Mosteiro_Jer%C3%B3nimos_naves.jpg",
+        "alt": "Hall church with slender carved columns spreading into a ribbed star vault",
+        "caption": "The church.",
+        "credit": "Photo: Schwarze engel · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mosteiro_Jer%C3%B3nimos_naves.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was paid for with a tax on the profits of trade with Africa and the East."
+      },
+      {
+        "order": 2,
+        "text": "It stands near the spot where a famous navigator set off for India in 1497."
+      },
+      {
+        "order": 3,
+        "text": "That navigator and the poet who celebrated his voyage are both buried in its church."
+      }
+    ],
+    "summary": {
+      "description": "Begun on 6 January 1501 near the launch point of Vasco da Gama's voyage to India and funded by a tax on the spice trade, the monastery took a century to complete. Diogo de Boitaca drew the plans; João de Castilho, who took over around 1517, moved its ornament towards the Plateresque. Its church's slender, richly carved columns support a single vaulted space.",
+      "keyFeatures": [
+        "Hall church with very slender carved columns",
+        "Wide ribbed vault over nave and aisles",
+        "Two-storey cloister of carved arcades",
+        "Lavish Manueline ornament of ropes, plants and armillary spheres"
+      ],
+      "funFacts": [
+        "Vasco da Gama and Luís de Camões were reburied in new tombs in its nave in 1880.",
+        "It became a UNESCO World Heritage Site in 1983, together with the nearby Tower of Belém."
+      ]
+    }
+  },
+  {
+    "id": "torre-de-belem",
+    "name": "Torre de Belém",
+    "aliases": ["Belém Tower", "Tower of Belém", "Torre de São Vicente", "Tower of Saint Vincent"],
+    "architects": [
+      {
+        "name": "Francisco de Arruda",
+        "aliases": ["Arruda"],
+        "lifespan": "d. 1547",
+        "nationality": "Portuguese",
+        "bio": "Architect and sculptor, younger brother of Diogo de Arruda; together they assimilated Flamboyant Gothic and developed the Manueline style. He was named master of the works of the Belém stronghold."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1519,
+    "era": "MANUELINE",
+    "style": "Manueline",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bel%C3%A9m_Tower_%2842777073422%29.jpg/1920px-Bel%C3%A9m_Tower_%2842777073422%29.jpg",
+        "alt": "Ornate white limestone fortress tower with a bastion, standing in a river",
+        "credit": "Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bel%C3%A9m_Tower_(42777073422).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Torre_de_Bel%C3%A9m_por_Rodrigo_Tetsuo_Argenton_%285%29.jpg/1920px-Torre_de_Bel%C3%A9m_por_Rodrigo_Tetsuo_Argenton_%285%29.jpg",
+        "alt": "Vaulted stone casemate with arches and old cannons",
+        "caption": "The bastion's vaulted gun hall.",
+        "credit": "Photo: Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Torre_de_Bel%C3%A9m_por_Rodrigo_Tetsuo_Argenton_(5).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as a fortress on a rock in a river to guard a capital's harbour."
+      },
+      {
+        "order": 2,
+        "text": "Among its carvings is one of the first European depictions of a rhinoceros."
+      },
+      {
+        "order": 3,
+        "text": "It was finished in 1519, two years before the death of the king who ordered it."
+      }
+    ],
+    "summary": {
+      "description": "Built on a basalt outcrop in the Tagus to defend the entrance to Lisbon's harbour, the tower was finished in 1519 to a design by Francisco de Arruda. Its four-storey tower and hexagonal bastion are carved with Manueline ornament, Moorish-inspired turrets and the cross of the Order of Christ, and it became a ceremonial gateway for returning fleets.",
+      "keyFeatures": [
+        "Hexagonal bastion with 17 cannon embrasures",
+        "Four-storey tower in lioz limestone",
+        "Domed turrets of Moorish inspiration",
+        "Loggia and balconies facing the river"
+      ],
+      "funFacts": [
+        "It was never in the middle of the river: it was built on a small island near the shore.",
+        "It became a UNESCO World Heritage Site in 1983, with the Jerónimos Monastery."
+      ]
+    }
+  },
+  {
+    "id": "convento-de-cristo",
+    "name": "Convento de Cristo",
+    "aliases": ["Convent of Christ", "Convento de Cristo de Tomar", "Castle and Convent of the Order of Christ"],
+    "architects": [
+      {
+        "name": "Diogo de Arruda",
+        "aliases": ["Arruda"],
+        "lifespan": "before 1490–1531",
+        "nationality": "Portuguese",
+        "bio": "Portuguese architect, brother of Francisco de Arruda, who rebuilt the convent's nave for King Manuel I and designed its famous chapter-house window."
+      },
+      {
+        "name": "João de Castilho",
+        "aliases": ["Juan de Castillo", "Castilho"],
+        "lifespan": "c. 1470–c. 1552",
+        "nationality": "Castilian (worked in Portugal)",
+        "bio": "Born in Cantabria, Castilho became one of the premier architects in the history of Portugal, moving from the Manueline towards the Plateresque and Renaissance at the Jerónimos and the Convent of Christ."
+      }
+    ],
+    "location": { "city": "Tomar", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1515,
+    "era": "MANUELINE",
+    "style": "Romanesque, Gothic, Manueline and Renaissance",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tomar-Convento_de_Cristo-Claustro_Santa_Barbara-Igreja-20140914.jpg/1920px-Tomar-Convento_de_Cristo-Claustro_Santa_Barbara-Igreja-20140914.jpg",
+        "alt": "Carved stone wall with a great window framed by ropes, corals and foliage, under a round window",
+        "caption": "The chapter-house window.",
+        "credit": "Photo: Daniel VILLAFRUELA. · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tomar-Convento_de_Cristo-Claustro_Santa_Barbara-Igreja-20140914.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Charola_do_Convento_de_Cristo_-_Tomar_-_Portugal_%2832439629132%29.jpg/1920px-Charola_do_Convento_de_Cristo_-_Tomar_-_Portugal_%2832439629132%29.jpg",
+        "alt": "Round Templar church with a central gilded and painted octagon",
+        "caption": "The Charola, the Templar round church.",
+        "credit": "Photo: Vitor Oliveira · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Charola_do_Convento_de_Cristo_-_Tomar_-_Portugal_(32439629132).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It began as a 12th-century stronghold of the Knights Templar." },
+      { "order": 2, "text": "Its round church was modelled on the Dome of the Rock in Jerusalem." },
+      {
+        "order": 3,
+        "text": "Its most famous window is carved with ropes, corals and the emblems of a king."
+      }
+    ],
+    "summary": {
+      "description": "Founded as a Templar castle in the 12th century, the convent passed to the Order of Christ, which backed Portugal's voyages of discovery. From 1510 King Manuel I had Diogo de Arruda and João de Castilho rebuild the nave beside the Templar round church in the new Manueline style; its chapter-house window, carved with ropes, corals and royal emblems, is the most famous Manueline window of all.",
+      "keyFeatures": [
+        "Templar round church (Charola)",
+        "Manueline nave with the chapter-house window",
+        "Several cloisters, Gothic to Renaissance",
+        "Castle walls of the Templar stronghold"
+      ],
+      "funFacts": [
+        "A human figure at the bottom of the window probably represents its designer, Diogo de Arruda.",
+        "It became a UNESCO World Heritage Site in 1983."
+      ]
+    }
+  },
+  {
+    "id": "igreja-de-jesus-setubal",
+    "name": "Igreja de Jesus (Setúbal)",
+    "aliases": ["Monastery of Jesus of Setúbal", "Convento de Jesus", "Igreja do Convento de Jesus", "Mosteiro de Jesus"],
+    "architects": [
+      {
+        "name": "Diogo de Boitaca",
+        "aliases": ["Boitaca", "Boytac", "Diogo Boitac"],
+        "lifespan": "c. 1460–1528?",
+        "nationality": "Portuguese (origin uncertain, possibly French)",
+        "bio": "An architect and engineer of unknown origin who pioneered the Manueline style at the Monastery of Jesus in Setúbal and drew the first plans of the Jerónimos Monastery in Lisbon."
+      }
+    ],
+    "location": { "city": "Setúbal", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1510,
+    "era": "MANUELINE",
+    "style": "Manueline",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "View of the church and convent (18th century)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Planta_da_Igreja_de_Jesus%2C_da_vila_de_Set%C3%BAbal_e_do_seu_convento_de_freiras.jpg",
+        "crop": { "x": 0, "y": 0.11, "w": 1, "h": 0.89 },
+        "alt": "Old drawing of a long church and convent with a crenellated roofline, a cross in the square in front",
+        "credit": "João Tomás Correia, drawing · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Planta_da_Igreja_de_Jesus,_da_vila_de_Set%C3%BAbal_e_do_seu_convento_de_freiras.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Convento_de_Jes%C3%BAs%2C_Set%C3%BAbal%2C_Portugal%2C_2021-09-09%2C_DD_72-74_HDR.jpg/1920px-Convento_de_Jes%C3%BAs%2C_Set%C3%BAbal%2C_Portugal%2C_2021-09-09%2C_DD_72-74_HDR.jpg",
+        "alt": "Long church with pinnacled buttresses and a decorated portal, beside a stone cross on a lawn",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Convento_de_Jes%C3%BAs,_Set%C3%BAbal,_Portugal,_2021-09-09,_DD_72-74_HDR.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Iglesia_del_convento_de_Jes%C3%BAs%2C_Set%C3%BAbal%2C_Portugal%2C_2021-09-10%2C_DD_01-03_HDR.jpg/1920px-Iglesia_del_convento_de_Jes%C3%BAs%2C_Set%C3%BAbal%2C_Portugal%2C_2021-09-10%2C_DD_01-03_HDR.jpg",
+        "alt": "Narrow hall church with twisted stone columns and a ribbed vault",
+        "caption": "The nave.",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Iglesia_del_convento_de_Jes%C3%BAs,_Set%C3%BAbal,_Portugal,_2021-09-10,_DD_01-03_HDR.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is one of the first buildings in its country's late-Gothic style of the age of discovery."
+      },
+      { "order": 2, "text": "Its nave is held up by twisted columns made of three intertwined shafts." },
+      {
+        "order": 3,
+        "text": "It was founded around 1490 by a noblewoman of the royal court, for a community of nuns."
+      }
+    ],
+    "summary": {
+      "description": "Founded around 1490 by Justa Rodrigues Pereira and sponsored by King John II, the convent church was built by Diogo de Boitaca and is the earliest known building to use Manueline decoration. Its narrow hall nave rests on spiralling columns of three twisted shafts, a motif later repeated across Portugal.",
+      "keyFeatures": [
+        "Twisted columns of three intertwined shafts",
+        "Hall nave with aisles of equal height",
+        "Ribbed vaults",
+        "Buttresses with gargoyles and twisted pinnacles"
+      ],
+      "funFacts": [
+        "Its hall-church plan prefigures the nave of the Jerónimos Monastery.",
+        "The nuns of the Order of Poor Clares were already living there in 1496."
+      ]
+    }
+  },
+  {
+    "id": "igreja-de-sao-roque",
+    "name": "Igreja de São Roque",
+    "aliases": ["Church of São Roque", "Church of Saint Roch", "São Roque"],
+    "architects": [
+      {
+        "name": "Afonso Álvares",
+        "aliases": ["Álvares"],
+        "lifespan": "?–1580",
+        "nationality": "Portuguese",
+        "bio": "Royal architect and military engineer who supervised the building of São Roque from 1566 to 1575; uncle of Baltasar Álvares."
+      },
+      {
+        "name": "Filippo Terzi",
+        "aliases": ["Terzi", "Filipe Terzi"],
+        "lifespan": "1520–1597",
+        "nationality": "Italian (worked in Portugal)",
+        "bio": "Bologna-born royal architect to Philip II of Spain (Philip I of Portugal), who completed São Roque, modifying its façade, roof, ceiling and interior finishings."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1590,
+    "era": "RENAISSANCE",
+    "style": "Mannerist",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/%C3%89glise_St_Roch_Lisbonne_1.jpg/1920px-%C3%89glise_St_Roch_Lisbonne_1.jpg",
+        "alt": "Plain classical church front with a triangular pediment and a round window",
+        "credit": "Photo: Chabe01 · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_St_Roch_Lisbonne_1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Interior_of_Igreja_de_S%C3%A3o_Roque_%28Largo_Trindade_Coelho_-_Lisbon%29_-_Apr_2007.jpg",
+        "alt": "Wide single nave under a painted ceiling, leading to a gilded altar",
+        "caption": "The nave.",
+        "credit": "Photo: Sergio Calleja · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Igreja_de_S%C3%A3o_Roque_(Largo_Trindade_Coelho_-_Lisbon)_-_Apr_2007.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was the earliest church of the Jesuits in its country's world." },
+      { "order": 2, "text": "Behind a plain façade lies a wide single nave designed for preaching." },
+      {
+        "order": 3,
+        "text": "One of its chapels was built in Rome from precious stones, then shipped and reassembled."
+      }
+    ],
+    "summary": {
+      "description": "Given to the Jesuits in 1553, São Roque was redesigned in 1565 as the first Jesuit 'auditorium church', a single wide nave for preaching, with royal architect Afonso Álvares supervising the works up to the cornice and Filippo Terzi completing them. It survived the 1755 earthquake almost unscathed, along with its painted wooden ceiling, and passed to the Lisbon Holy House of Mercy.",
+      "keyFeatures": [
+        "Single wide nave without aisles",
+        "Painted wooden ceiling of the 1580s",
+        "Gilded side chapels",
+        "Chapel of St John the Baptist, made in Rome"
+      ],
+      "funFacts": [
+        "The Chapel of St John the Baptist, by Nicola Salvi and Luigi Vanvitelli, was reportedly the most expensive chapel in Europe.",
+        "Its ceiling survived the 1755 earthquake thanks to flexible beams."
+      ]
+    }
+  },
+  {
+    "id": "sao-vicente-de-fora",
+    "name": "Mosteiro de São Vicente de Fora",
+    "aliases": ["Monastery of São Vicente de Fora", "São Vicente de Fora", "Igreja de São Vicente de Fora"],
+    "architects": [
+      {
+        "name": "Filippo Terzi",
+        "aliases": ["Terzi", "Filipe Terzi"],
+        "lifespan": "1520–1597",
+        "nationality": "Italian (worked in Portugal)",
+        "bio": "Bologna-born military and civil engineer who came to Lisbon in 1577, was captured at Alcácer Quibir, and spent the rest of his career in Portugal."
+      },
+      {
+        "name": "Juan de Herrera",
+        "aliases": ["Herrera"],
+        "lifespan": "1530–1597",
+        "nationality": "Spanish",
+        "bio": "Architect of El Escorial and the leading Spanish architect of his time; the church is thought to follow his design."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1629,
+    "era": "RENAISSANCE",
+    "style": "Mannerist",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Monast%C3%A8re_St_Vincent_Fora_Lisbonne_6.jpg/1920px-Monast%C3%A8re_St_Vincent_Fora_Lisbonne_6.jpg",
+        "alt": "Tall white church façade with two towers and three arched entrances",
+        "credit": "Photo: Chabe01 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Monast%C3%A8re_St_Vincent_Fora_Lisbonne_6.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/S%C3%A3o_Vicente_de_Fora_2.jpg/1920px-S%C3%A3o_Vicente_de_Fora_2.jpg",
+        "alt": "Looking up at a crossing with a coffered dome and barrel vaults",
+        "caption": "The crossing.",
+        "credit": "Photo: T meltzer · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Vicente_de_Fora_2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was rebuilt by order of a Spanish king who had also become king of this country in 1580."
+      },
+      { "order": 2, "text": "Its sober twin-towered façade is a key work of Mannerism in its country." },
+      { "order": 3, "text": "Its former refectory became the pantheon of a royal dynasty." }
+    ],
+    "summary": {
+      "description": "Rebuilt after Philip II of Spain became King of Portugal in 1580, the church went up between 1582 and 1629, built by Filippo Terzi to a design attributed to Juan de Herrera. Its severe twin-towered façade and vast vaulted interior made it one of the most important Mannerist buildings in Portugal; its cloisters are lined with azulejos.",
+      "keyFeatures": [
+        "Twin-towered Mannerist façade",
+        "Barrel-vaulted nave and dome over the crossing",
+        "Cloisters lined with azulejo panels",
+        "Royal pantheon of the Braganza dynasty"
+      ],
+      "funFacts": [
+        "King Ferdinand II turned the monks' refectory into a pantheon for the House of Braganza.",
+        "After 1834 the monastery became the palace of the archbishops of Lisbon."
+      ]
+    }
+  },
+  {
+    "id": "se-nova-de-coimbra",
+    "name": "Sé Nova de Coimbra",
+    "aliases": ["New Cathedral of Coimbra", "Sé Nova", "Igreja do Colégio de Jesus"],
+    "architects": [
+      {
+        "name": "Baltasar Álvares",
+        "aliases": ["Baltazar Álvares", "Álvares"],
+        "lifespan": "1560–1630",
+        "nationality": "Portuguese",
+        "bio": "Jesuit-trained architect, official architect of the Jesuits in Portugal, who learned Roman Mannerism from his uncle Afonso Álvares."
+      }
+    ],
+    "location": { "city": "Coimbra", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1640,
+    "era": "RENAISSANCE",
+    "style": "Mannerist and Baroque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Coimbra_December_2011-23.jpg/1920px-Coimbra_December_2011-23.jpg",
+        "alt": "Pale stone church façade with statues in niches, a curved Baroque top and bell towers behind",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coimbra_December_2011-23.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Interior_of_S%C3%A9_Nova_de_Coimbra.jpg/1920px-Interior_of_S%C3%A9_Nova_de_Coimbra.jpg",
+        "alt": "Bright barrel-vaulted nave leading to a gilded altarpiece under a dome",
+        "caption": "The nave.",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_S%C3%A9_Nova_de_Coimbra.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built as the church of a Jesuit university college." },
+      { "order": 2, "text": "After the Jesuits were expelled, it became its city's cathedral in 1772." },
+      { "order": 3, "text": "Its façade is Mannerist below and Baroque at the top." }
+    ],
+    "summary": {
+      "description": "Begun in 1598 to a design by Baltasar Álvares as the church of the Jesuit college of Coimbra, the building was taken over as the city's cathedral in 1772, after the Marquis of Pombal expelled the Jesuits. Its façade joins a rigid Mannerist lower part with a Baroque top, and the spacious nave ends under a dome.",
+      "keyFeatures": [
+        "Façade with statues of four Jesuit saints",
+        "Mannerist lower storey, Baroque crown",
+        "Barrel-vaulted nave with side chapels",
+        "Dome over the crossing"
+      ],
+      "funFacts": [
+        "The façade of the former Jesuit church of Salvador da Bahia, in Brazil, seems inspired by it.",
+        "Worship began in 1640; the church was only inaugurated in 1698."
+      ]
+    }
+  },
+  {
+    "id": "igreja-dos-clerigos",
+    "name": "Igreja e Torre dos Clérigos",
+    "aliases": ["Clérigos Church", "Torre dos Clérigos", "Igreja dos Clérigos", "Clérigos Tower"],
+    "architects": [
+      {
+        "name": "Nicolau Nasoni",
+        "aliases": ["Nasoni", "Niccolò Nasoni"],
+        "lifespan": "1691–1773",
+        "nationality": "Italian (worked in Portugal)",
+        "bio": "Tuscan painter and architect who settled in Porto and became one of the most influential figures of Portuguese Baroque, with a theatrical style of Baroque and Rococo."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1763,
+    "era": "BAROQUE",
+    "style": "Baroque",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Entrance-level plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/0_Igreja_e_Torre_dos_Cl%C3%A9rigos_Porto_Planta_piso_de_entrada.jpg",
+        "alt": "Plan of an elongated church with an oval nave, linked to a tower at its back",
+        "credit": "Manuelvbotelho, drawing · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:0_Igreja_e_Torre_dos_Cl%C3%A9rigos_Porto_Planta_piso_de_entrada.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Porto%2C_Torre_dos_Cl%C3%A9rigos_%286%29.jpg/1920px-Porto%2C_Torre_dos_Cl%C3%A9rigos_%286%29.jpg",
+        "alt": "Very tall, richly carved Baroque granite bell tower against the sky",
+        "credit": "Photo: Bengt Nyman · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Porto,_Torre_dos_Cl%C3%A9rigos_(6).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Porto_-i---i-_%2826121761527%29.jpg/1920px-Porto_-i---i-_%2826121761527%29.jpg",
+        "alt": "Oval nave of grey granite leading to a polychrome marble altar",
+        "caption": "The oval nave.",
+        "credit": "Photo: Scott Dexter · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Porto_-i---i-_(26121761527).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built for a brotherhood of clergymen." },
+      { "order": 2, "text": "Its 75-metre bell tower dominates the skyline of a northern port city." },
+      { "order": 3, "text": "Its architect asked to be buried in its crypt." }
+    ],
+    "summary": {
+      "description": "Built for the Brotherhood of the Clérigos by the Italian Nicolau Nasoni, the church (1732–50) was one of the first in Portugal with an elliptical nave. The tower behind it, finished in 1763 and 75.6 metres tall, became the symbol of Porto.",
+      "keyFeatures": [
+        "Elliptical nave",
+        "75.6-metre granite bell tower",
+        "Façade with garlands, shells and a broken pediment",
+        "Monumental divided stairway in front"
+      ],
+      "funFacts": [
+        "Nasoni was buried in its crypt at his own request; the exact spot is unknown.",
+        "The tower's design was inspired by Tuscan campaniles."
+      ]
+    }
   }
 ]

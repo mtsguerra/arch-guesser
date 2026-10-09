@@ -9,6 +9,7 @@ public enum Era {
     BYZANTINE("Byzantine", 330, 1453),
     MEDIEVAL("Romanesque & Gothic", 1000, 1500),
     OTTOMAN("Ottoman", 1300, 1922),
+    MANUELINE("Manueline", 1490, 1540),
     RENAISSANCE("Renaissance", 1400, 1600),
     BAROQUE("Baroque", 1600, 1750),
     NEOCLASSICAL("Neoclassical", 1750, 1850),

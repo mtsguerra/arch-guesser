@@ -27,6 +27,8 @@ const CLOSE_ERAS = [
   ['HISTORICISM', 'ART_NOUVEAU'],
   ['ART_DECO', 'MODERNISM'],
   ['NEOCLASSICAL', 'HISTORICISM'],
+  ['MANUELINE', 'MEDIEVAL'],
+  ['MANUELINE', 'RENAISSANCE'],
 ]
 
 export function eraMatches(guess, answer) {
