@@ -2806,5 +2806,555 @@
         "Marc Chagall's 1964 ceiling is mounted on a removable frame over the original."
       ]
     }
+  },
+  {
+    "id": "palau-de-la-musica-catalana",
+    "name": "Palau de la Música Catalana",
+    "aliases": ["Palau de la Música", "Palace of Catalan Music", "Palacio de la Música Catalana"],
+    "architects": [
+      {
+        "name": "Lluís Domènech i Montaner",
+        "aliases": ["Domènech i Montaner", "Domènech", "Lluis Domenech i Montaner"],
+        "lifespan": "1849–1923",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Barcelona architect and politician, one of the leading figures of Catalan Modernisme. His buildings, including the Palau and the Hospital de Sant Pau, combine exposed brick and iron with mosaic, ceramics and stained glass."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1908,
+    "era": "ART_NOUVEAU",
+    "style": "Catalan Modernisme",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Palau_de_la_M%C3%BAsica_Catalana%2C_general_view_1.jpg/1920px-Palau_de_la_M%C3%BAsica_Catalana%2C_general_view_1.jpg",
+        "alt": "Corner façade of red brick, mosaic and sculpted columns above arched entrances on a narrow street",
+        "credit": "Photo: Thomas Ledl · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_Catalana,_general_view_1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Palau_de_la_M%C3%BAsica_Catalana%2C_interior_4.jpg/1920px-Palau_de_la_M%C3%BAsica_Catalana%2C_interior_4.jpg",
+        "alt": "Concert hall under an inverted stained-glass dome, with tiers of seats and stained-glass walls",
+        "caption": "The concert hall and its inverted skylight.",
+        "credit": "Photo: Thomas Ledl · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_Catalana,_interior_4.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for a choral society that led a revival of its region's culture."
+      },
+      {
+        "order": 2,
+        "text": "Its concert hall is said to be the only one in Europe lit entirely by daylight."
+      },
+      {
+        "order": 3,
+        "text": "Its architect also designed a nearby hospital listed with it as a World Heritage Site."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1905–08 for the Orfeó Català choral society, Domènech i Montaner's concert hall wraps a light-filled auditorium of about 2,200 seats in exposed brick, iron, mosaic and stained glass. During the day it is lit entirely by natural light, through stained-glass walls and a skylight whose centrepiece is an inverted golden dome.",
+      "keyFeatures": [
+        "Inverted stained-glass dome by Antoni Rigalt",
+        "Walls of arched stained-glass panes",
+        "Sculpture themed on choral music",
+        "Exposed brick and iron with mosaic and tile"
+      ],
+      "funFacts": [
+        "It was inaugurated on 9 February 1908.",
+        "It became a UNESCO World Heritage Site in 1997, together with the Hospital de Sant Pau.",
+        "The large mosaic at the top of the façade is impossible to see clearly from the narrow street below."
+      ]
+    }
+  },
+  {
+    "id": "austrian-postal-savings-bank",
+    "name": "Austrian Postal Savings Bank",
+    "aliases": ["Österreichische Postsparkasse", "Postsparkasse", "Postal Savings Bank", "Postsparkassenamt"],
+    "architects": [
+      {
+        "name": "Otto Wagner",
+        "aliases": ["Wagner", "Otto Koloman Wagner"],
+        "lifespan": "1841–1918",
+        "nationality": "Austrian",
+        "bio": "Viennese architect, designer and urban planner, a leading member of the Vienna Secession. This bank is his best-known building."
+      }
+    ],
+    "location": { "city": "Vienna", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1906,
+    "era": "ART_NOUVEAU",
+    "style": "Vienna Secession / early Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Raised ground floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/02_Postsparkassen-Amtsgeb%C3%A4ude_Wien_-_Wagner_Band_5._6._und_7._Heft_-Grundriss_Hochparterre.jpg",
+        "crop": { "x": 0, "y": 0.22, "w": 1, "h": 0.62 },
+        "alt": "Plan of a trapezoid block around courtyards, with a large central hall",
+        "credit": "Otto Wagner · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:02_Postsparkassen-Amtsgeb%C3%A4ude_Wien_-_Wagner_Band_5._6._und_7._Heft_-Grundriss_Hochparterre.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section through the banking hall",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/03_Postsparkassen-Amtsgeb%C3%A4ude_Wien_-_Wagner_Band_5._6._und_7._Heft_-Schnitt_durch_den_Kassensaal_Heliogravure.jpg/3840px-03_Postsparkassen-Amtsgeb%C3%A4ude_Wien_-_Wagner_Band_5._6._und_7._Heft_-Schnitt_durch_den_Kassensaal_Heliogravure.jpg",
+        "crop": { "x": 0, "y": 0.12, "w": 1, "h": 0.53 },
+        "alt": "Section of a hall under a curved glass roof with thin columns and suspended rods",
+        "credit": "Otto Wagner · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:03_Postsparkassen-Amtsgeb%C3%A4ude_Wien_-_Wagner_Band_5._6._und_7._Heft_-Schnitt_durch_den_Kassensaal_Heliogravure.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Wien_Innere_Stadt_%C3%96sterreichische_Postsparkasse_469.jpg/1920px-Wien_Innere_Stadt_%C3%96sterreichische_Postsparkasse_469.jpg",
+        "crop": { "x": 0, "y": 0.17, "w": 1, "h": 0.83 },
+        "alt": "Façade of square marble panels studded with metal bolts, above a canopied entrance",
+        "credit": "Photo: GFreihalter · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Wien_Innere_Stadt_%C3%96sterreichische_Postsparkasse_469.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Wien_Innere_Stadt_%C3%96sterreichische_Postsparkasse_474.jpg/1920px-Wien_Innere_Stadt_%C3%96sterreichische_Postsparkasse_474.jpg",
+        "alt": "Banking hall under a curved glass roof on slender columns, with a glass floor",
+        "caption": "The banking hall (Kassenhalle).",
+        "credit": "Photo: GFreihalter · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Wien_Innere_Stadt_%C3%96sterreichische_Postsparkasse_474.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in 1904–06 with what was then a completely new material: reinforced concrete."
+      },
+      { "order": 2, "text": "The bolts on its marble façade became a famous feature of its design." },
+      {
+        "order": 3,
+        "text": "Its architect used aluminium for columns, statues and even the heating blowers."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1904–06 for the imperial postal savings bank, Otto Wagner's building faces its square with thin marble slabs fixed by aluminium-capped bolts. Inside, the banking hall sits under a curved glass roof on slender columns, with a glass floor that lights the rooms below and aluminium hot-air blowers standing like sculptures.",
+      "keyFeatures": [
+        "Marble cladding fixed with bolts",
+        "Glass-roofed banking hall with a glass floor",
+        "Aluminium columns, statues and heating blowers",
+        "Reinforced-concrete structure"
+      ],
+      "funFacts": [
+        "Its cast-aluminium rooftop statues by Othmar Schimkowitz were among the first of their kind.",
+        "For years the bolts were thought decorative; analysis showed they really hold the marble slabs.",
+        "It was extended in 1910–12."
+      ]
+    }
+  },
+  {
+    "id": "guggenheim-museum",
+    "name": "Solomon R. Guggenheim Museum",
+    "aliases": ["Guggenheim Museum", "The Guggenheim", "Guggenheim New York", "Guggenheim"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the Prairie houses of the 1900s to Fallingwater. The Guggenheim was his only museum, completed months after his death."
+      }
+    ],
+    "location": { "city": "New York City", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1959,
+    "era": "MODERNISM",
+    "style": "Organic Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28A%29.jpg/1920px-Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28A%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.76 },
+        "alt": "Curving white spiral building widening as it rises, on a city street corner",
+        "credit": "Photo: Bmzuckerman · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_New_York,_NY_-_Solomon_R._Guggenheim_Museum_(A).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28P%29.jpg/1920px-Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28P%29.jpg",
+        "alt": "Looking up a white spiral ramp around an atrium towards a glass skylight",
+        "caption": "The spiral atrium.",
+        "credit": "Photo: Bmzuckerman · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_New_York,_NY_-_Solomon_R._Guggenheim_Museum_(P).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It took 15 years to design and build, and opened in 1959." },
+      { "order": 2, "text": "Its galleries line a continuous six-storey ramp around a skylit atrium." },
+      { "order": 3, "text": "It is the only museum its architect ever designed." }
+    ],
+    "summary": {
+      "description": "Commissioned in 1943 for Solomon R. Guggenheim's art collection, Frank Lloyd Wright's museum on Fifth Avenue took 15 years to design and build. Instead of rooms, visitors follow a continuous spiral ramp that widens as it rises around a central atrium lit by a skylight.",
+      "keyFeatures": [
+        "Helical ramp gallery around an open atrium",
+        "Central glass skylight",
+        "Smooth, curving concrete exterior",
+        "Spiral that widens as it rises"
+      ],
+      "funFacts": [
+        "The collection's curator, Hilla Rebay, at first thought the 76-year-old Wright was dead.",
+        "Wright produced four different designs in 1943–44.",
+        "It is part of the UNESCO site 'The 20th-Century Architecture of Frank Lloyd Wright'."
+      ]
+    }
+  },
+  {
+    "id": "chrysler-building",
+    "name": "Chrysler Building",
+    "aliases": ["The Chrysler", "Chrysler Tower"],
+    "architects": [
+      {
+        "name": "William Van Alen",
+        "aliases": ["Van Alen"],
+        "lifespan": "1883–1954",
+        "nationality": "American",
+        "bio": "American architect best known for designing the Chrysler Building in 1928–30."
+      }
+    ],
+    "location": { "city": "New York City", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1930,
+    "era": "ART_DECO",
+    "style": "Art Deco",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Chrysler_Building_%281%29_09.jpg/1920px-Chrysler_Building_%281%29_09.jpg",
+        "alt": "Skyscraper with a tapering, terraced stainless-steel crown, seen from the street between towers",
+        "credit": "Photo: PortableNYCTours · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_(1)_09.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Chrysler_Building_Lobby_2.jpg/1920px-Chrysler_Building_Lobby_2.jpg",
+        "alt": "Lobby with marble walls, an inlaid ceiling and Art Deco lamps",
+        "caption": "The triangular lobby.",
+        "credit": "Photo: Tony Hisgett · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_Lobby_2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was briefly the tallest building in the world, for 11 months after its completion in 1930."
+      },
+      {
+        "order": 2,
+        "text": "Its corners carry steel ornaments shaped like car radiator caps and eagles."
+      },
+      {
+        "order": 3,
+        "text": "It was built for a car manufacturer, as an investment for his children rather than as company headquarters."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned by the car maker Walter Chrysler and designed by William Van Alen, this 319-metre Art Deco skyscraper won a race with 40 Wall Street to become the tallest building in the world in 1930, before the Empire State Building overtook it. Its terraced stainless-steel crown and its gargoyles of radiator caps and eagles made it an icon of New York.",
+      "keyFeatures": [
+        "Terraced crown with triangular windows and a spire",
+        "Steel ornaments of radiator caps and eagles",
+        "Triangular lobby of marble and inlaid wood",
+        "Tallest steel-framed brick building in the world"
+      ],
+      "funFacts": [
+        "It was the world's first supertall skyscraper.",
+        "It was never the headquarters of the Chrysler Corporation, which stayed in Detroit."
+      ]
+    }
+  },
+  {
+    "id": "suleymaniye-mosque",
+    "name": "Süleymaniye Mosque",
+    "aliases": ["Suleymaniye Mosque", "Süleymaniye Camii", "Suleiman Mosque", "Mosque of Suleiman the Magnificent"],
+    "architects": [
+      {
+        "name": "Mimar Sinan",
+        "aliases": ["Sinan", "Koca Mimar Sinan"],
+        "lifespan": "c. 1488/1490–1588",
+        "nationality": "Ottoman",
+        "bio": "Chief architect to the Ottoman sultans for some fifty years, Sinan was also an engineer and mathematician, and his mosques defined classical Ottoman architecture."
+      }
+    ],
+    "location": { "city": "Istanbul", "country": "Turkey", "countryCode": "TR" },
+    "yearCompleted": 1557,
+    "era": "OTTOMAN",
+    "style": "Classical Ottoman",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan at the level of the domes",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Suleymaniye_Mosque_cleaned_Gurlitt_1912.jpg",
+        "crop": { "x": 0.125, "y": 0.03, "w": 0.245, "h": 0.56 },
+        "alt": "Plan of a square prayer hall under a great central dome flanked by half-domes and smaller domes",
+        "credit": "Cornelius Gurlitt, drawing, 1912 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Suleymaniye_Mosque_cleaned_Gurlitt_1912.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/S%C3%BCleymaniye_Camii_2022.jpg/1920px-S%C3%BCleymaniye_Camii_2022.jpg",
+        "alt": "Courtyard arcade with small domes in front of a mosque with a great central dome",
+        "credit": "Photo: Dursun Sülük · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Camii_2022.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/S%C3%BCleymaniye_Mosque_-_Fatih%2C_Istanbul%2C_Turkey_-_October_11%2C_2025_03.jpg/1920px-S%C3%BCleymaniye_Mosque_-_Fatih%2C_Istanbul%2C_Turkey_-_October_11%2C_2025_03.jpg",
+        "alt": "Vast prayer hall under a central dome with rings of windows and hanging lamps",
+        "caption": "Under the central dome.",
+        "credit": "Photo: Giorgio Galeotti · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniye_Mosque_-_Fatih,_Istanbul,_Turkey_-_October_11,_2025_03.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built for a sultan known as 'the Magnificent'." },
+      {
+        "order": 2,
+        "text": "Its designer was the greatest architect of his empire, working for some fifty years."
+      },
+      {
+        "order": 3,
+        "text": "Its patron sought to rival a famous 6th-century domed church in the same city."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned by Suleiman the Magnificent and designed by the imperial architect Mimar Sinan, the mosque was founded in 1550 and inaugurated in 1557 on the Third Hill above the Golden Horn. Its great dome on half-domes answers the Hagia Sophia. Suleiman and his wife Hürrem are buried in tombs behind it.",
+      "keyFeatures": [
+        "Central dome carried on two half-domes",
+        "Rings of windows lighting the prayer hall",
+        "Arcaded courtyard with small domes",
+        "Tombs of Suleiman and Hürrem Sultan behind the qibla wall"
+      ],
+      "funFacts": [
+        "Part of the dome collapsed in the earthquake of 1766.",
+        "Recent cleaning showed Sinan experimented with blue before making red the dome's main colour."
+      ]
+    }
+  },
+  {
+    "id": "st-pauls-cathedral",
+    "name": "St Paul's Cathedral",
+    "aliases": ["St. Paul's Cathedral", "Saint Paul's Cathedral", "St Paul's"],
+    "architects": [
+      {
+        "name": "Christopher Wren",
+        "aliases": ["Wren", "Sir Christopher Wren"],
+        "lifespan": "1632–1723",
+        "nationality": "English",
+        "bio": "Astronomer and mathematician turned architect, Wren led the rebuilding of London's churches after the Great Fire of 1666. St Paul's is his masterpiece, and he is buried in its crypt."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1710,
+    "era": "BAROQUE",
+    "style": "English Baroque",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan (18th-century engraving)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Remi_Parr_-_Plan_of_the_Cathedral_of_St_Pauls_-_B1977.14.16224_-_Yale_Center_for_British_Art.jpg",
+        "crop": { "x": 0.05, "y": 0.07, "w": 0.9, "h": 0.685 },
+        "alt": "Cross-shaped cathedral plan with a large domed crossing and rounded transept ends",
+        "credit": "Remi Parr, engraving · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Remi_Parr_-_Plan_of_the_Cathedral_of_St_Pauls_-_B1977.14.16224_-_Yale_Center_for_British_Art.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/City_of_London_-_St_Paul%27s_Cathedral_-_2026-09-07_22-27-22_002.jpg/1920px-City_of_London_-_St_Paul%27s_Cathedral_-_2026-09-07_22-27-22_002.jpg",
+        "alt": "Great domed cathedral with a lantern on top, seen across a square",
+        "credit": "Photo: Jumk18 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:City_of_London_-_St_Paul%27s_Cathedral_-_2026-09-07_22-27-22_002.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/London-35-2_%2848189336286%29.jpg/1920px-London-35-2_%2848189336286%29.jpg",
+        "alt": "Looking up into a painted dome above the crossing, with gilded arches",
+        "caption": "The crossing beneath the inner dome.",
+        "credit": "Photo: Rachelle Haun · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:London-35-2_(48189336286).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It replaced a Gothic cathedral destroyed in a great fire in 1666." },
+      {
+        "order": 2,
+        "text": "Its dome is really three: an inner dome, a hidden brick cone, and an outer shell."
+      },
+      { "order": 3, "text": "A gallery inside its dome carries a whisper from one side to the other." }
+    ],
+    "summary": {
+      "description": "Begun in 1675 after the Great Fire of London gutted the old Gothic cathedral, Christopher Wren's English Baroque church was completed in 1710. Its dome, 111 metres high, made it the tallest building in London until 1963: a brick cone hidden between an inner dome and an outer shell carries the stone lantern.",
+      "keyFeatures": [
+        "Triple-shell dome with a hidden brick cone",
+        "Whispering Gallery around the base of the dome",
+        "Two-storey façade with paired columns",
+        "Crypt with the tombs of Wren, Nelson and Wellington"
+      ],
+      "funFacts": [
+        "Wren's epitaph reads: 'Reader, if you seek his monument, look around you.'",
+        "The date of its first stone is disputed: different accounts give 21, 25 and 28 June 1675."
+      ]
+    }
+  },
+  {
+    "id": "santandrea-al-quirinale",
+    "name": "Sant'Andrea al Quirinale",
+    "aliases": ["Sant Andrea al Quirinale", "Saint Andrew at the Quirinal", "Sant'Andrea"],
+    "architects": [
+      {
+        "name": "Gian Lorenzo Bernini",
+        "aliases": ["Bernini", "Gianlorenzo Bernini"],
+        "lifespan": "1598–1680",
+        "nationality": "Italian",
+        "bio": "The dominant artist of Baroque Rome, Bernini was sculptor, architect and painter at once, a universal artist in the Renaissance sense."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1670,
+    "era": "BAROQUE",
+    "style": "Roman Baroque",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Façade and plan (c. 1700)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Prospetto_della_facciata_di_Sant%27Andrea_del_Noviziato_e_pianta%2C_about_1700_-_Archivio_Accademia_delle_Scienze_Torino%2C_Millon_66_28_070.jpg",
+        "crop": { "x": 0, "y": 0.03, "w": 1, "h": 0.92 },
+        "alt": "Elevation of a church front with a pediment on two pilasters and a semicircular porch, with its plan below",
+        "credit": "Domenico de Rossi, engraving · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Prospetto_della_facciata_di_Sant%27Andrea_del_Noviziato_e_pianta,_about_1700_-_Archivio_Accademia_delle_Scienze_Torino,_Millon_66_28_070.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2023-10-22-Sant-Andrea-al-Quirinale.jpg/1920px-2023-10-22-Sant-Andrea-al-Quirinale.jpg",
+        "alt": "Church front with a tall pediment on pilasters and a curved porch on two columns, above wide steps",
+        "credit": "Photo: Gunnar Klack · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2023-10-22-Sant-Andrea-al-Quirinale.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Roma_-_Chiesa_di_Sant%27Andrea_al_Quirinale_-_2024-09-09_16-24-54_001.JPG/1920px-Roma_-_Chiesa_di_Sant%27Andrea_al_Quirinale_-_2024-09-09_16-24-54_001.JPG",
+        "alt": "Gilded coffered oval dome with a lantern and figures on the cornice",
+        "caption": "The oval dome above the nave.",
+        "credit": "Photo: Cm9462 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Roma_-_Chiesa_di_Sant%27Andrea_al_Quirinale_-_2024-09-09_16-24-54_001.JPG"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built for a seminary of the Jesuits." },
+      { "order": 2, "text": "Its main space is an oval entered across its shorter axis." },
+      {
+        "order": 3,
+        "text": "Its architect called it one of his most perfect works and liked to sit inside it in old age."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Gian Lorenzo Bernini for the Jesuit novitiate on the Quirinal Hill, the church was built in 1658–61 and decorated until 1670. Its oval nave is entered across the short side, so the eye goes straight to the altar, where the story of Saint Andrew's martyrdom rises from painting to a sculpted saint and on into the golden dome.",
+      "keyFeatures": [
+        "Oval plan entered on its short axis",
+        "Gilded coffered dome",
+        "Painting, sculpture and architecture combined",
+        "Curved porch on two columns"
+      ],
+      "funFacts": [
+        "It was commissioned by Cardinal Camillo Pamphili with the approval of Pope Alexander VII.",
+        "It holds the tomb of King Charles Emmanuel IV of Sardinia, who became a Jesuit."
+      ]
+    }
+  },
+  {
+    "id": "wurzburg-residence",
+    "name": "Würzburg Residence",
+    "aliases": ["Würzburger Residenz", "Residenz Würzburg", "Wurzburg Residence"],
+    "architects": [
+      {
+        "name": "Balthasar Neumann",
+        "aliases": ["Neumann", "Johann Balthasar Neumann"],
+        "lifespan": "1687–1753",
+        "nationality": "German",
+        "bio": "Military engineer and court architect to the prince-bishops of Würzburg, Neumann was one of the greatest designers of late Baroque Central Europe."
+      }
+    ],
+    "location": { "city": "Würzburg", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1744,
+    "era": "BAROQUE",
+    "style": "Baroque / Rococo",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/NeuResidenzPlan2.jpg/3840px-NeuResidenzPlan2.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.95 },
+        "alt": "Plan of a vast palace around several courtyards, with an oval hall projecting at the centre",
+        "credit": "Felix Mader, drawing · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:NeuResidenzPlan2.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section through the staircase and halls",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/WurzburgResidenzSidePlan.jpg/3840px-WurzburgResidenzSidePlan.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.94 },
+        "alt": "Section through a grand staircase under a wide vault, next to two halls",
+        "credit": "Felix Mader, drawing · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:WurzburgResidenzSidePlan.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2017_Residenz_W%C3%BCrzburg_02.jpg/1920px-2017_Residenz_W%C3%BCrzburg_02.jpg",
+        "alt": "Long palace with a central pavilion, seen across a formal garden",
+        "credit": "Photo: Derzno · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2017_Residenz_W%C3%BCrzburg_02.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/W%C3%BCrzburg_Residenz_4_Treppenhaus_%286066490001%29.jpg/1920px-W%C3%BCrzburg_Residenz_4_Treppenhaus_%286066490001%29.jpg",
+        "alt": "Grand staircase rising beneath a vast painted ceiling",
+        "caption": "The staircase and Tiepolo's ceiling.",
+        "credit": "Photo: Graham Fellows · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:W%C3%BCrzburg_Residenz_4_Treppenhaus_(6066490001).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for prince-bishops and is said to have been called 'the largest parsonage in Europe' by Napoleon."
+      },
+      {
+        "order": 2,
+        "text": "Its staircase is covered by the largest continuous ceiling fresco in the world, painted by a Venetian master."
+      },
+      {
+        "order": 3,
+        "text": "Its central halls survived a 1945 air raid that burned out the rest of the building."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1720 for the Schönborn prince-bishops of Würzburg and completed in 1744, Balthasar Neumann's palace is one of Germany's great Baroque residences. Its staircase rises under an unsupported vault painted in 1752–53 by Giovanni Battista Tiepolo with the four continents, the largest continuous ceiling fresco in the world.",
+      "keyFeatures": [
+        "Grand staircase under an unsupported vault",
+        "Tiepolo's fresco of the four continents",
+        "Imperial Hall and court chapel",
+        "Palace around several courtyards"
+      ],
+      "funFacts": [
+        "It has been a UNESCO World Heritage Site since 1981.",
+        "Neumann died in 1753, the year Tiepolo finished the staircase fresco."
+      ]
+    }
   }
 ]
