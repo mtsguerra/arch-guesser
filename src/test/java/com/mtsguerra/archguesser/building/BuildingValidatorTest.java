@@ -78,6 +78,15 @@ class BuildingValidatorTest {
     }
 
     @Test
+    void acceptsBuildingsStillUnderConstruction() {
+        Building b = building("a", hints(2));
+        Building ongoing = new Building(b.id(), b.name(), b.aliases(), b.architects(), b.location(),
+                null, b.era(), b.style(), b.drawings(), b.hints(), b.summary());
+
+        assertThat(BuildingValidator.validate(List.of(ongoing))).isEmpty();
+    }
+
+    @Test
     void rejectsOtherRemoteHosts() {
         Building b = withDrawings(building("a", hints(2)), drawing("https://example.com/plan.jpg", null));
 

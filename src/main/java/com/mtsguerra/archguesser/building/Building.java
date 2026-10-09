@@ -5,6 +5,8 @@ import java.util.List;
 /**
  * A famous building as served to the game. This record is both the storage
  * model and the API response, since the client needs every field for a round.
+ *
+ * @param yearCompleted null while the building is still under construction
  */
 public record Building(
         String id,

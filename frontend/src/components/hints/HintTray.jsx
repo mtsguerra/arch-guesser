@@ -23,6 +23,7 @@ function HintContent({ hint }) {
             src={hint.image.src}
             alt={hint.image.alt}
             fit="cover"
+            crop={hint.image.crop}
             placeholderTitle={strings.hints.missingPhoto}
           />
         </div>

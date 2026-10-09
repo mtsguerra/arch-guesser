@@ -1505,5 +1505,1006 @@
         "It was listed as a heritage building in 1982, part of the turn-of-the-century ensemble of the Luz district."
       ]
     }
+  },
+  {
+    "id": "sesc-pompeia",
+    "name": "SESC Pompéia",
+    "aliases": ["SESC Pompeia", "Sesc Pompéia", "Fábrica da Pompéia"],
+    "architects": [
+      {
+        "name": "Lina Bo Bardi",
+        "aliases": ["Bo Bardi", "Achillina Bo"],
+        "lifespan": "1914–1992",
+        "nationality": "Italian-born Brazilian",
+        "bio": "Born Achillina Bo in Rome, she moved to Brazil in 1946 with her husband, the critic and dealer Pietro Maria Bardi. Fascinated by Brazilian popular culture, she joined modernist rigour to a raw, humane architecture, from MASP to SESC Pompéia."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1986,
+    "era": "BRUTALISM",
+    "style": "Brutalism (industrial conversion)",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Site plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sesc_Pompeia.jpg/1920px-Sesc_Pompeia.jpg",
+          "alt": "Looking up at concrete walkways crossing between two towers",
+          "credit": "Photo: Clarissa Sá · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Sesc_Pompeia.jpg"
+        },
+        "caption": "Concrete walkways leap between the sports towers."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It began as a 1938 factory that made oil drums and, later, refrigerators."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sesc_Pomp%C3%A9ia_-_panoramio.jpg/1920px-Sesc_Pomp%C3%A9ia_-_panoramio.jpg",
+          "alt": "Concrete tower with irregular, rounded window openings, behind a fence",
+          "credit": "Photo: CORRETOR-CARVALHO · CC BY-SA 3.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Sesc_Pomp%C3%A9ia_-_panoramio.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Lina Bo Bardi turned a 1938 drum factory in São Paulo's working-class Pompéia district into a leisure centre for SESC, a social-services organisation. She kept the brick sheds for workshops, a library and a theatre, and added two concrete towers for sports, linked by eight walkways and pierced by irregular 'cave' windows.",
+      "keyFeatures": [
+        "Restored brick factory sheds",
+        "Two concrete sports towers",
+        "Eight walkways linking the towers",
+        "Irregular, cave-like window openings"
+      ],
+      "funFacts": [
+        "Bo Bardi first visited the site in 1976 and insisted on keeping the industrial buildings.",
+        "The first part opened on 22 January 1982; the sports towers followed in 1986."
+      ]
+    }
+  },
+  {
+    "id": "hospital-sarah-salvador",
+    "name": "Hospital Sarah Salvador",
+    "aliases": ["Sarah Salvador", "Hospital Sarah Kubitschek Salvador", "Rede Sarah Salvador"],
+    "architects": [
+      {
+        "name": "João Filgueiras Lima",
+        "aliases": ["Lelé", "Lele", "Filgueiras Lima"],
+        "lifespan": "1932–2014",
+        "nationality": "Brazilian",
+        "bio": "Lelé moved to Brasília in 1957, just after graduating, and learned on the new capital's building sites, which drew him to industrialised construction. He became Brazil's pioneer of prefabrication; as head of the Sarah hospital network's technology centre he designed its hospitals and built them from components made in its own factory."
+      }
+    ],
+    "location": { "city": "Salvador, Bahia", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1994,
+    "era": "CONTEMPORARY",
+    "style": "Industrialised construction",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "FACT",
+        "text": "It belongs to a national network of rehabilitation hospitals, most of them designed by the same architect."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its building components were prefabricated in a factory run by the hospital network itself."
+      },
+      {
+        "order": 3,
+        "type": "FACT",
+        "text": "It opened in 1994 in a city on the Bay of All Saints, in north-eastern Brazil."
+      }
+    ],
+    "summary": {
+      "description": "Lelé's hospital in Salvador belongs to the Sarah network of rehabilitation hospitals, which grew from Brasília to cities across Brazil. It was built from prefabricated components produced by the network's own technology centre, which Lelé directed, combining industrial methods with daylight, natural ventilation and gardens.",
+      "keyFeatures": [
+        "Prefabricated steel and ferrocement components",
+        "Roofs designed to bring in daylight and fresh air",
+        "Treatment spaces opening onto gardens",
+        "Low, spread-out layout"
+      ],
+      "funFacts": [
+        "Lelé learned on Brasília's building sites and later studied prefabrication in Eastern Europe.",
+        "The Sarah network specialises in rehabilitation for patients with locomotor problems."
+      ]
+    }
+  },
+  {
+    "id": "mube",
+    "name": "Museu Brasileiro da Escultura",
+    "aliases": ["MuBE", "Museu Brasileiro da Escultura e Ecologia", "Brazilian Museum of Sculpture"],
+    "architects": [
+      {
+        "name": "Paulo Mendes da Rocha",
+        "aliases": ["Mendes da Rocha"],
+        "lifespan": "1928–2021",
+        "nationality": "Brazilian",
+        "bio": "Born in Vitória and based in São Paulo, Mendes da Rocha was a leading figure of the Paulista School, known for bold, economical concrete structures. He received the Pritzker Prize in 2006 and the Venice Biennale's Golden Lion in 2016."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1995,
+    "era": "CONTEMPORARY",
+    "style": "Paulista Brutalism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Section through the site",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Paulo_mendes_da_rocha%2C_sao_paulo_april_2006_%28493990086%29.jpg/1920px-Paulo_mendes_da_rocha%2C_sao_paulo_april_2006_%28493990086%29.jpg",
+          "alt": "Edge of a thick concrete slab against the sky",
+          "credit": "Photo: seier+seier · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Paulo_mendes_da_rocha,_sao_paulo_april_2006_(493990086).jpg"
+        },
+        "caption": "A single massive concrete beam floats over the site."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Most of the museum lies below ground, following the natural slope of its site."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Museu_Brasileiro_da_Escultura_%28MuBE%29%2C_Paulo_Mendes_da_Rocha_%285878309120%29.jpg/1920px-Museu_Brasileiro_da_Escultura_%28MuBE%29%2C_Paulo_Mendes_da_Rocha_%285878309120%29.jpg",
+          "alt": "Broad open concrete plaza sheltered by a long, deep beam",
+          "credit": "Photo: Arte Fora do Museu · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_Brasileiro_da_Escultura_(MuBE),_Paulo_Mendes_da_Rocha_(5878309120).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Chosen through a closed competition and built over eight years from 1988, the museum hides its galleries below ground in a residential district of São Paulo. Above them, a huge concrete beam spans the site like an open-air shelter over a public plaza, beside a garden designed by Roberto Burle Marx.",
+      "keyFeatures": [
+        "Semi-underground galleries",
+        "Great concrete beam over an open plaza",
+        "Levels stepping with the slope",
+        "Garden designed by Roberto Burle Marx"
+      ],
+      "funFacts": [
+        "It opened in May 1995 with an exhibition of 140 works by Victor Brecheret.",
+        "A large sign once fixed to the beam was removed after criticism."
+      ]
+    }
+  },
+  {
+    "id": "mac-niteroi",
+    "name": "Museu de Arte Contemporânea de Niterói",
+    "aliases": ["MAC Niterói", "MAC", "Niterói Contemporary Art Museum"],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Niterói, Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1996,
+    "era": "CONTEMPORARY",
+    "style": "Late Modernism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Gallery floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i_-_Niter%C3%B3i_-_20250308133219.JPG/1920px-Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i_-_Niter%C3%B3i_-_20250308133219.JPG",
+          "alt": "Underside of a white saucer-shaped building with a band of windows, against blue sky and hills",
+          "credit": "Photo: Thaismay · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i_-_Niter%C3%B3i_-_20250308133219.JPG"
+        },
+        "caption": "A white saucer with a ribbon of windows."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It rises 16 metres from a reflecting pool on a clifftop, looking across a bay to a famous granite peak."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Rio_From_Above_27-06-2017-517.jpg/1920px-Rio_From_Above_27-06-2017-517.jpg",
+          "alt": "Aerial view of a white saucer-shaped building on a rocky point above a beach",
+          "credit": "Photo: Diego Baravelli · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Rio_From_Above_27-06-2017-517.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Perched on a rocky point above Boa Viagem beach, Niemeyer's museum rises from a single cylindrical base out of its reflecting pool. The saucer-shaped gallery, 50 metres across, looks over Guanabara Bay to Rio de Janeiro and Sugarloaf Mountain.",
+      "keyFeatures": [
+        "Saucer-shaped volume on a single cylindrical support",
+        "Reflecting pool of 817 m² around the base",
+        "Continuous band of windows with views across the bay",
+        "Sculptural access ramp"
+      ],
+      "funFacts": ["Niemeyer said it rises from its pool 'like a flower'.", "It has often been likened to a UFO."]
+    }
+  },
+  {
+    "id": "museu-oscar-niemeyer",
+    "name": "Museu Oscar Niemeyer",
+    "aliases": ["MON", "Museu do Olho", "Eye Museum", "Oscar Niemeyer Museum", "Novo Museu"],
+    "architects": [
+      {
+        "name": "Oscar Niemeyer",
+        "aliases": ["Niemeyer"],
+        "lifespan": "1907–2012",
+        "nationality": "Brazilian",
+        "bio": "Born in Rio de Janeiro, Niemeyer turned reinforced concrete into free, sensual curves, from the Pampulha ensemble of the 1940s to the palaces of Brasília. Working until his death at 104, he received the Pritzker Prize in 1988 and became the best-known architect Brazil has produced."
+      }
+    ],
+    "location": { "city": "Curitiba, Paraná", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 2002,
+    "era": "CONTEMPORARY",
+    "style": "Late Modernism",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Annex plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Museu_Oscar_Niemeyer%2C_Centro_C%C3%ADvico_de_Curitiba.jpg/1920px-Museu_Oscar_Niemeyer%2C_Centro_C%C3%ADvico_de_Curitiba.jpg",
+          "alt": "Close-up of a curved white volume with a dark glazed face, against blue sky",
+          "credit": "Photo: Cassia Naomi Nakai · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_Oscar_Niemeyer,_Centro_C%C3%ADvico_de_Curitiba.jpg"
+        },
+        "caption": "A curved, glazed volume raised on a single pillar."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its long main building was designed by the same architect in 1967 as an education institute and opened in 1978."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Museu_do_Olho_-_Oscar_Niemeyer_-_Curitiba_Brasil_%2810146239796%29.jpg/1920px-Museu_do_Olho_-_Oscar_Niemeyer_-_Curitiba_Brasil_%2810146239796%29.jpg",
+          "alt": "Eye-shaped building on a yellow pillar beside a long low block, with a curving ramp",
+          "credit": "Photo: Marinelson Almeida - Traveling through Brazil · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_do_Olho_-_Oscar_Niemeyer_-_Curitiba_Brasil_(10146239796).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "In 2002 Curitiba turned a 1967 Niemeyer building, designed as an education institute, into a museum. The next year the architect, then 95, added the annex that gave it its nickname: an eye-shaped gallery of glass and steel raised on a single yellow pillar, set in grounds landscaped by Roberto Burle Marx.",
+      "keyFeatures": [
+        "Eye-shaped annex on a single pillar",
+        "Glass and steel façades lighting the exhibition space",
+        "Sinuous access ramps",
+        "Long modernist main building"
+      ],
+      "funFacts": [
+        "It opened in 2002 as the Novo Museu and took its architect's name in 2003.",
+        "Inside the 'eye', a spiral stair links the levels."
+      ]
+    }
+  },
+  {
+    "id": "museu-do-amanha",
+    "name": "Museu do Amanhã",
+    "aliases": ["Museum of Tomorrow", "Museu do Amanha"],
+    "architects": [
+      {
+        "name": "Santiago Calatrava",
+        "aliases": ["Calatrava", "Santiago Calatrava Valls"],
+        "lifespan": "born 1951",
+        "nationality": "Spanish",
+        "bio": "Born near Valencia, Calatrava trained as both an architect and a structural engineer, studying in Valencia and at ETH Zurich. His white, skeletal and often moving structures range from bridges and railway stations to Valencia's City of Arts and Sciences."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 2015,
+    "era": "CONTEMPORARY",
+    "style": "Neo-futurism",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Museu_do_Amanh%C3%A3_-_Rio_de_Janeiro.jpg/1920px-Museu_do_Amanh%C3%A3_-_Rio_de_Janeiro.jpg",
+          "alt": "Black-and-white close-up of a white steel structure with long, rib-like fins",
+          "credit": "Photo: João Thiago da Silva · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_do_Amanh%C3%A3_-_Rio_de_Janeiro.jpg"
+        },
+        "caption": "Long steel fins line the roof."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It stands on a pier in the regenerated port of a large South American city."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Museu_do_Amanh%C3%A3_waterfront_building%2C_Rio_de_Janeiro%2C_Brazil.jpg/1920px-Museu_do_Amanh%C3%A3_waterfront_building%2C_Rio_de_Janeiro%2C_Brazil.jpg",
+          "alt": "Long white building with a projecting roof of fins, beside a reflecting pool",
+          "credit": "Photo: Wilfredor · CC0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Museu_do_Amanh%C3%A3_waterfront_building,_Rio_de_Janeiro,_Brazil.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Opened on 17 December 2015 on Pier Mauá, in the regenerated port of Rio de Janeiro, Calatrava's science museum stretches out over Guanabara Bay under a cantilevered roof of steel fins. Its exhibitions explore sustainability and how humanity might live in the coming decades.",
+      "keyFeatures": [
+        "Cantilevered roof of steel fins",
+        "Long, low volume on a pier",
+        "Reflecting pools around the building",
+        "Exhibitions on sustainability and the future"
+      ],
+      "funFacts": ["President Dilma Rousseff attended the opening.", "Some of the roof's fins carry solar panels."]
+    }
+  },
+  {
+    "id": "casa-vicens",
+    "name": "Casa Vicens",
+    "aliases": ["Vicens House"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1885,
+    "era": "ART_NOUVEAU",
+    "style": "Orientalist / Neo-Mudéjar (early Modernisme)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan (1883)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Vicens_Plano_planta_baja.JPG",
+        "crop": { "x": 0, "y": 0.105, "w": 1, "h": 0.78 },
+        "alt": "Hand-drawn ground floor plan of a compact house, with a round fountain in the garden",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vicens_Plano_planta_baja.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Vicens_2017_int_008.jpg/1920px-Casa_Vicens_2017_int_008.jpg",
+          "alt": "Room with carved ceilings, tiled walls, latticed screens and a small fountain",
+          "credit": "Photo: Pol Viladoms · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Casa_Vicens_2017_int_008.jpg"
+        },
+        "caption": "Inside: carved ceilings, tiles and a small fountain."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was its architect's first major commission: a summer house for a stock and currency broker."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Barcelona_-_Carrer_de_les_Carolines_-_View_WNW_on_Casa_Vicens_1883-89_Antoni_Gaud%C3%AD.jpg/1920px-Barcelona_-_Carrer_de_les_Carolines_-_View_WNW_on_Casa_Vicens_1883-89_Antoni_Gaud%C3%AD.jpg",
+          "alt": "House with chequered green and white tiles and a decorated corner tower",
+          "credit": "Photo: Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Carrer_de_les_Carolines_-_View_WNW_on_Casa_Vicens_1883-89_Antoni_Gaud%C3%AD.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Gaudí's first major house was built in 1883–85 as a summer residence for Manuel Vicens, a stock and currency broker, in what was then the town of Gràcia. Its brick and tile walls draw on Mudéjar, Persian and Japanese sources, in an orientalist style Gaudí made his own.",
+      "keyFeatures": [
+        "Green and white chequered ceramic tiles",
+        "Brick walls with Mudéjar-inspired decoration",
+        "Ornate ceilings and oriental-style rooms",
+        "Cast-iron railings with palm-leaf motifs"
+      ],
+      "funFacts": [
+        "Gaudí studied Owen Jones's drawings of the Alhambra while developing its oriental style.",
+        "It is part of the UNESCO World Heritage Site 'Works of Antoni Gaudí'."
+      ]
+    }
+  },
+  {
+    "id": "palau-guell",
+    "name": "Palau Güell",
+    "aliases": ["Güell Palace", "Palacio Güell"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1888,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Main floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Plaf%C3%B3_cuf%C3%AD_del_Palau_G%C3%BCell%2C_Barcelona%2C_Catalunya%2C_ES.jpg/1920px-Plaf%C3%B3_cuf%C3%AD_del_Palau_G%C3%BCell%2C_Barcelona%2C_Catalunya%2C_ES.jpg",
+          "alt": "Ornate coffered wooden ceiling seen from below",
+          "credit": "Photo: Clyde Charles Brown · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Plaf%C3%B3_cuf%C3%AD_del_Palau_G%C3%BCell,_Barcelona,_Catalunya,_ES.jpg"
+        },
+        "caption": "Carved, coffered ceilings fill the reception rooms."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Carriages drove in through gates shaped as parabolic arches, with ironwork resembling seaweed."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Barcelona_-_Palau_G%C3%BCell.jpg/1920px-Barcelona_-_Palau_G%C3%BCell.jpg",
+          "alt": "Rooftop corner with chimneys clad in coloured broken tiles",
+          "credit": "Photo: Fred Romero · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Palau_G%C3%BCell.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built in 1886–88 in Barcelona's old town for the industrialist Eusebi Güell, Gaudí's great patron, this town palace is organised around a tall central hall rising to a dome. Above, chimneys clad in broken-tile mosaic crown the roof.",
+      "keyFeatures": [
+        "Parabolic entrance arches with wrought-iron gates",
+        "Central hall rising to a perforated dome",
+        "Stables in the basement",
+        "Rooftop chimneys covered in trencadís"
+      ],
+      "funFacts": [
+        "Guests arrived in horse-drawn carriages, driving straight in through the front gates.",
+        "It is part of the UNESCO World Heritage Site 'Works of Antoni Gaudí'."
+      ]
+    }
+  },
+  {
+    "id": "park-guell",
+    "name": "Park Güell",
+    "aliases": ["Parc Güell", "Parque Güell"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1914,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme landscape",
+    "drawings": [
+      { "type": "SITE_PLAN", "label": "Site plan", "src": null, "alt": "Site plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Barcelona_-_Parc_G%C3%BCell_-_View_NE_on_outer_edge_of_the_main_square%27s_mosaic_benches.jpg/1920px-Barcelona_-_Parc_G%C3%BCell_-_View_NE_on_outer_edge_of_the_main_square%27s_mosaic_benches.jpg",
+          "alt": "Leaning colonnade of rough rubble stone under palm trees",
+          "credit": "Photo: Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Parc_G%C3%BCell_-_View_NE_on_outer_edge_of_the_main_square%27s_mosaic_benches.jpg"
+        },
+        "caption": "Leaning colonnades of rough stone carry the paths."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was planned as a garden city for wealthy families, but only two houses were built."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Barcelona_-_Parc_G%C3%BCell_-_Main_stairs_-_View_SSE_towards_smaller_entrance_building.jpg/1920px-Barcelona_-_Parc_G%C3%BCell_-_Main_stairs_-_View_SSE_towards_smaller_entrance_building.jpg",
+          "alt": "Fairy-tale gatehouse with a mosaic-covered roof and a tall tiled spire",
+          "credit": "Photo: Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Parc_G%C3%BCell_-_Main_stairs_-_View_SSE_towards_smaller_entrance_building.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Count Eusebi Güell commissioned Gaudí to lay out a hillside estate of houses in the spirit of the English garden city. Built between 1900 and 1914, the scheme failed as housing, and the grounds opened as a public park in 1926: viaducts of rough stone, gatehouses, a hall of columns beneath a great terrace, and a serpentine mosaic bench.",
+      "keyFeatures": [
+        "Viaducts and leaning colonnades of rubble stone",
+        "Two gatehouse pavilions at the entrance",
+        "Hall of columns under the main terrace",
+        "Serpentine bench covered in trencadís"
+      ],
+      "funFacts": [
+        "The serpentine bench was designed by Gaudí's collaborator Josep Maria Jujol.",
+        "Güell himself moved onto the estate in 1906 to promote it."
+      ]
+    }
+  },
+  {
+    "id": "casa-batllo",
+    "name": "Casa Batlló",
+    "aliases": ["Batlló House", "Casa dels Ossos", "House of Bones"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1906,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Façade and section (1904)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fachada_y_secci%C3%B3n_Casa_Batll%C3%B3_%281904%29.jpg",
+        "alt": "Hand-drawn elevation of a narrow house front with bulging windows, beside its section",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fachada_y_secci%C3%B3n_Casa_Batll%C3%B3_(1904).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Casa_Batll%C3%B3_%2850257834956%29.jpg/1920px-Casa_Batll%C3%B3_%2850257834956%29.jpg",
+          "alt": "Ridged, scaly roof in mosaic tiles beside a cluster of tiled chimneys",
+          "credit": "Photo: Jose Ramirez · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_(50257834956).jpg"
+        },
+        "caption": "A scaly, arched roof and a cluster of tiled chimneys."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was not a new building: its architect transformed an existing house from 1877."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Casa_Batllo%2C_Barcelona_%2840897276590%29.jpg/1920px-Casa_Batllo%2C_Barcelona_%2840897276590%29.jpg",
+          "alt": "Colourful mosaic façade with bone-like balconies shaped like masks",
+          "credit": "Photo: Mike McBey · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Casa_Batllo,_Barcelona_(40897276590).jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "In 1904 the textile industrialist Josep Batlló hired Gaudí to transform his 1877 house on the Passeig de Gràcia. Finished in 1906, it has a façade of broken-tile mosaic shading from gold to blue-green, mask-like balconies, bone-like columns and a roof that recalls the back of a dragon.",
+      "keyFeatures": [
+        "Trencadís mosaic façade",
+        "Mask-like balconies and bone-like columns",
+        "Arched, scaly roof",
+        "Few straight lines anywhere"
+      ],
+      "funFacts": [
+        "Barcelona's City Council shortlisted it for the 1906 best building award, which went to another architect.",
+        "Locals call it Casa dels Ossos, the House of Bones."
+      ]
+    }
+  },
+  {
+    "id": "casa-mila",
+    "name": "Casa Milà",
+    "aliases": ["La Pedrera", "Casa Mila"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1912,
+    "era": "ART_NOUVEAU",
+    "style": "Modernisme",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Typical floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gaudi-casaMila-planol.jpg",
+        "alt": "Floor plan of a block around two irregular courtyards, with curving room shapes",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gaudi-casaMila-planol.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section (1906)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Secci%C3%B3n_Pedrera_%281906%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.87 },
+        "alt": "Hand-drawn section through a multi-storey building with an arched attic",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Secci%C3%B3n_Pedrera_(1906).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Barcelona_1064_17.jpg/1920px-Barcelona_1064_17.jpg",
+          "alt": "Rooftop of swirling stone chimneys and stair towers seen through an arch",
+          "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_1064_17.jpg"
+        },
+        "caption": "A rooftop of sculpted chimneys and stair exits."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its stone façade carries no load: columns hold up the floors, so walls inside could go anywhere."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Barcelona_23_21_15_431000.jpeg/1920px-Barcelona_23_21_15_431000.jpeg",
+          "alt": "Corner apartment building with an undulating pale stone façade and twisting iron balconies",
+          "credit": "Photo: Robot8A · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona_23_21_15_431000.jpeg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Gaudí's last private house, built in 1906–12 for Pere Milà and Roser Segimon, wraps around two courtyards behind an undulating stone façade with twisting wrought-iron balconies. Columns carry the floors so that interior walls can go anywhere, and an underground garage and a sculpted roof terrace complete a building far ahead of its time.",
+      "keyFeatures": [
+        "Self-supporting, undulating stone façade",
+        "Free floor plans on a column structure",
+        "Two large inner courtyards",
+        "Roof terrace of sculpted chimneys and stair towers"
+      ],
+      "funFacts": [
+        "Barcelona mocked it as 'La Pedrera', the stone quarry, and the nickname stuck.",
+        "Its wrought-iron balconies were designed by Josep Maria Jujol.",
+        "Gaudí certified the building complete on 31 October 1912."
+      ]
+    }
+  },
+  {
+    "id": "sagrada-familia",
+    "name": "Sagrada Família",
+    "aliases": ["Basílica de la Sagrada Família", "Temple Expiatori de la Sagrada Família", "Sagrada Familia"],
+    "architects": [
+      {
+        "name": "Antoni Gaudí",
+        "aliases": ["Gaudí", "Gaudi", "Antoni Gaudi", "Antonio Gaudí"],
+        "lifespan": "1852–1926",
+        "nationality": "Spanish (Catalan)",
+        "bio": "Born in 1852 in the Reus area of Catalonia, Gaudí developed an architecture whose structure is drawn from nature, with catenary arches, branching columns and trencadís mosaic, and became the emblem of Catalan Modernisme. He gave his last years entirely to the Sagrada Família and died in 1926 after being struck by a tram. Seven of his works form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": null,
+    "era": "ART_NOUVEAU",
+    "style": "Catalan Modernisme (Gothic-inspired)",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Planta_de_la_Sagrada_Fam%C3%ADlia.jpg",
+        "alt": "Plan of a large cross-shaped church with a many-aisled nave, a rounded apse and broad stairs at the front",
+        "credit": "Antoni Gaudí · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Planta_de_la_Sagrada_Fam%C3%ADlia.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Apsis_Sagrada_Familia.jpg/1920px-Apsis_Sagrada_Familia.jpg",
+          "alt": "Tall branching columns like a forest, rising to a vault, with coloured light",
+          "credit": "Photo: Triptychon · CC0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Apsis_Sagrada_Familia.jpg"
+        },
+        "caption": "Columns branch like trees to hold up the vaults."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Begun in 1882, it is still being built, paid for entirely by donations."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Barcelona-Eixample%2C_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg/1920px-Barcelona-Eixample%2C_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg",
+          "alt": "Façade of angular sculpted figures beneath tall pointed spires",
+          "credit": "Photo: Michielverbeek · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Barcelona-Eixample,_deel_van_Temple_Expiatori_de_la_Sagrada_Fam%C3%ADlia_RI-51-0003813_ontworpen_door_Antoni_Gaud%C3%AD_RI-51-0003813_IMG_33762026-08-28_14.54.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1882 to a conventional Gothic Revival design, the expiatory church passed in 1883 to Gaudí, who reshaped it into a vast, forest-like basilica and worked on it until his death in 1926. Construction continues, funded by donations; in 2026 its central Tower of Jesus Christ reached 172.5 metres, making it the world's tallest church.",
+      "keyFeatures": [
+        "Branching, tree-like columns",
+        "Three façades: Nativity, Passion and Glory",
+        "Towers for the apostles, the evangelists, Mary and Jesus",
+        "Geometry of hyperboloids and helicoids"
+      ],
+      "funFacts": [
+        "Its first architect, Francisco de Paula del Villar, resigned in 1883.",
+        "Pope Benedict XVI consecrated it as a basilica on 7 November 2010.",
+        "The central tower was blessed on 10 June 2026, a hundred years after Gaudí's death."
+      ]
+    }
+  },
+  {
+    "id": "hotel-tassel",
+    "name": "Hôtel Tassel",
+    "aliases": ["Hotel Tassel", "Tassel House", "Maison Tassel"],
+    "architects": [
+      {
+        "name": "Victor Horta",
+        "aliases": ["Horta", "Baron Horta"],
+        "lifespan": "1861–1947",
+        "nationality": "Belgian",
+        "bio": "Born in Ghent, Horta designed a series of Brussels town houses in the 1890s that made him the pioneer of Art Nouveau architecture, with open plans, exposed iron and whiplash ornament. Four of them, including the Hôtel Tassel and his own house, form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Brussels", "country": "Belgium", "countryCode": "BE" },
+    "yearCompleted": 1893,
+    "era": "ART_NOUVEAU",
+    "style": "Art Nouveau",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Huis_Tassel_03.jpg/1920px-Huis_Tassel_03.jpg",
+          "alt": "Curved bay window with slender iron columns and flowing iron railings",
+          "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Huis_Tassel_03.jpg"
+        },
+        "caption": "A bow window framed in slender iron columns."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "It was built for a scientist and university professor, and is counted among the very first buildings of its style."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/HortaHotelTassel.jpg/1920px-HortaHotelTassel.jpg",
+          "alt": "Narrow stone town-house front with a projecting bow window of iron and glass",
+          "credit": "Photo: Kat_hly.1608 · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:HortaHotelTassel.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Designed by Victor Horta for the scientist and professor Émile Tassel and built in 1892–93, this Brussels town house is considered one of the first Art Nouveau buildings. Instead of the usual row of dark rooms, Horta arranged the house around a central stair hall, and let exposed iron and whiplash ornament flow through it.",
+      "keyFeatures": [
+        "Central stair hall linking the different levels",
+        "Exposed iron columns, inside and on the façade",
+        "Whiplash ornament in iron, mosaic and paint",
+        "Projecting bow window"
+      ],
+      "funFacts": [
+        "It strongly influenced the French Art Nouveau architect Hector Guimard.",
+        "With three other Horta town houses, it became a UNESCO World Heritage Site in 2000."
+      ]
+    }
+  },
+  {
+    "id": "glasgow-school-of-art",
+    "name": "Glasgow School of Art",
+    "aliases": ["Mackintosh Building", "GSA", "Glasgow School of Art Mackintosh Building"],
+    "architects": [
+      {
+        "name": "Charles Rennie Mackintosh",
+        "aliases": ["Mackintosh", "C. R. Mackintosh", "Charles Mackintosh"],
+        "lifespan": "1868–1928",
+        "nationality": "Scottish",
+        "bio": "Glasgow architect, designer and watercolourist and the leading figure of the Glasgow Style. Working with the firm Honeyman & Keppie, he won the 1896 competition for the School of Art; late in life he gave up architecture to paint watercolours in France."
+      },
+      {
+        "name": "Margaret Macdonald Mackintosh",
+        "aliases": ["Margaret Macdonald"],
+        "lifespan": "1864–1933",
+        "nationality": "Scottish (born in England)",
+        "bio": "Artist and designer, one of 'The Four' of the Glasgow Style, and Charles Rennie Mackintosh's wife and collaborator."
+      }
+    ],
+    "location": { "city": "Glasgow", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1909,
+    "era": "ART_NOUVEAU",
+    "style": "Glasgow Style",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground floor plan",
+        "src": null,
+        "alt": "Floor plan (not available)"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Glasgow_School_of_Art_-_15441468932.jpg/1920px-Glasgow_School_of_Art_-_15441468932.jpg",
+          "alt": "Tall sandstone wall with deep-set windows and a projecting stone bay",
+          "credit": "Photo: Chilanga Cement · CC BY 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Glasgow_School_of_Art_-_15441468932.jpg"
+        },
+        "caption": "The west front rises sheer above a steep street."
+      },
+      { "order": 2, "type": "FACT", "text": "It was built in two phases, finished in 1899 and 1909." },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Glasgow_School_of_Art_-_8931386483.jpg/1920px-Glasgow_School_of_Art_-_8931386483.jpg",
+          "alt": "Stone façade with large studio windows, an off-centre entrance and curving iron railings",
+          "credit": "Photo: Dave & Margie Hill / Kleerup · CC BY-SA 2.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:Glasgow_School_of_Art_-_8931386483.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Charles Rennie Mackintosh won the 1896 competition for the school's new building on Garnethill, which went up in two phases, completed in 1899 and 1909. Its huge north-facing studio windows, stark stone masses and inventive ironwork made it a landmark of early modern design. It was badly damaged by fire in 2014 and gutted by a second fire in 2018.",
+      "keyFeatures": [
+        "Large north-facing studio windows",
+        "Asymmetrical stone façade with an off-centre entrance",
+        "Decorative wrought-iron brackets and railings",
+        "Library of timber columns and beams, lost in the 2014 fire"
+      ],
+      "funFacts": [
+        "Its library, one of Mackintosh's finest interiors, was destroyed in the 2014 fire.",
+        "Six recent Turner Prize winners studied at the school."
+      ]
+    }
+  },
+  {
+    "id": "aeg-turbine-factory",
+    "name": "AEG Turbine Factory",
+    "aliases": ["AEG-Turbinenfabrik", "AEG Turbinenhalle", "Turbinenhalle", "AEG Turbine Hall"],
+    "architects": [
+      {
+        "name": "Peter Behrens",
+        "aliases": ["Behrens"],
+        "lifespan": "1868–1940",
+        "nationality": "German",
+        "bio": "A painter turned architect and designer, Behrens became AEG's artistic consultant in 1907 and shaped its buildings, products and graphics, an early corporate identity. Walter Gropius, Mies van der Rohe and Le Corbusier all worked in his office."
+      }
+    ],
+    "location": { "city": "Berlin", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1909,
+    "era": "MODERNISM",
+    "style": "Early Modernism (industrial)",
+    "drawings": [
+      { "type": "FLOOR_PLAN", "label": "Hall plan", "src": null, "alt": "Floor plan (not available)" }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "type": "FACT",
+        "text": "A steel-framed hall about 100 metres long, with glass walls 15 metres tall, it brought restrained modern design to industrial building."
+      },
+      {
+        "order": 2,
+        "type": "FACT",
+        "text": "Its architect was also the company's artistic consultant, designing its products and its logo."
+      },
+      {
+        "order": 3,
+        "type": "IMAGE",
+        "image": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/AEG-Turbinenfabrik.jpg/1920px-AEG-Turbinenfabrik.jpg",
+          "crop": { "x": 0, "y": 0.33, "w": 1, "h": 0.67 },
+          "alt": "Long industrial hall with tall glazed bays between steel columns, behind trees",
+          "credit": "Photo: Oana Popa · CC BY-SA 4.0 · Wikimedia Commons",
+          "source": "https://commons.wikimedia.org/wiki/File:AEG-Turbinenfabrik.jpg"
+        },
+        "caption": "Exterior"
+      }
+    ],
+    "summary": {
+      "description": "Built in 1909 in Berlin-Moabit for the electrical company AEG, Peter Behrens's turbine hall turned a factory shed into a 'temple of power'. Its steel frames are left exposed along the flanks, with huge glazed bays between them, while the massive gable recalls a classical pediment.",
+      "keyFeatures": [
+        "22 steel frames at 9-metre intervals",
+        "Huge windows angled slightly inwards",
+        "Exposed steel columns, bolts and joints",
+        "Polygonal gable echoing a temple front"
+      ],
+      "funFacts": [
+        "It was engineered by Karl Bernhard.",
+        "The hall was extended northwards in 1939 by Jacob Schallenberger and Paul Schmidt.",
+        "Walter Gropius, Mies van der Rohe and Le Corbusier all worked in Behrens's office."
+      ]
+    }
   }
 ]

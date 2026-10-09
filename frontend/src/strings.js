@@ -65,6 +65,7 @@ export const strings = {
       completed: 'Completed',
       era: 'Era',
       style: 'Style',
+      underConstruction: 'Still under construction',
     },
     recap: 'Your guess',
     recapGot: 'got it',

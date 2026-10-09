@@ -24,7 +24,7 @@ function FactStrip({ building, era }) {
   const { location } = building
   const items = [
     [strings.summary.facts.location, [location.city, location.country].filter(Boolean).join(', ')],
-    [strings.summary.facts.completed, building.yearCompleted],
+    [strings.summary.facts.completed, building.yearCompleted ?? strings.summary.facts.underConstruction],
     [
       strings.summary.facts.era,
       era ? (
@@ -81,6 +81,7 @@ function Photo({ hint }) {
           src={hint.image.src}
           alt={hint.image.alt}
           fit="cover"
+          crop={hint.image.crop}
           placeholderTitle={strings.hints.missingPhoto}
           onLoad={() => setLoaded(true)}
         />

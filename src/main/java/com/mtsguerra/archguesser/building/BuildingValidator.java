@@ -41,7 +41,6 @@ final class BuildingValidator {
                 e.add("duplicate id");
             }
             e.requireText(b.name(), "name");
-            if (b.yearCompleted() == null) e.add("yearCompleted is required");
             if (b.era() == null) e.add("era is required");
 
             validateArchitects(b.architects(), e);
@@ -111,6 +110,7 @@ final class BuildingValidator {
                         e.requireAsset(b.id(), h.image().src(), field + ".image.src");
                         e.requireText(h.image().alt(), field + ".image.alt");
                         e.optionalSource(h.image().source(), field + ".image.source");
+                        validateCrop(h.image().crop(), field + ".image.crop", e);
                     }
                 }
                 case FACT -> e.requireText(h.text(), field + ".text");
