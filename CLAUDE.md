@@ -15,7 +15,7 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 
 - Backend: Spring Boot 4 (Java 21 target, Jackson 3), Gradle 9 at the repo root (`src/`). Package `com.mtsguerra.archguesser`.
 - Frontend: React 19 + Vite in `frontend/`, plain JSX, CSS Modules, Motion (`motion/react`), lucide icons, Archivo variable font.
-- Data: `src/main/resources/data/buildings.json` (90 buildings: 50 world catalogue, 40 Portugal so far), loaded once at startup.
+- Data: `src/main/resources/data/buildings.json` (100 buildings: 50 world catalogue, 50 Portugal), loaded once at startup.
 - API: `GET /api/buildings/random?exclude=a,b`, `GET /api/buildings/{id}`, `GET /api/eras`. Errors are RFC 9457 problem+json.
 
 ## Data rules (enforced by `BuildingValidator`; the app refuses to start if any fail)

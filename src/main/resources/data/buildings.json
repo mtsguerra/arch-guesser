@@ -5920,5 +5920,571 @@
         "It re-opened in 2006 as a cultural and concert venue."
       ]
     }
+  },
+  {
+    "id": "pavilhao-de-portugal",
+    "name": "Pavilhão de Portugal",
+    "aliases": ["Portugal Pavilion", "Portuguese National Pavilion", "Pavilhão de Portugal Expo 98"],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1998,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/2025-03-26_09-48-19_PT_Lisbon_JHe_N9_%2855082059585%29.jpg/1920px-2025-03-26_09-48-19_PT_Lisbon_JHe_N9_%2855082059585%29.jpg",
+        "alt": "Thin concrete canopy sagging between two massive porticoed blocks, over an open square",
+        "credit": "Photo: Jan Helebrant · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2025-03-26_09-48-19_PT_Lisbon_JHe_N9_(55082059585).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Interior_of_Pavilh%C3%A3o_de_Portugal%2C_Parque_das_Na%C3%A7%C3%B5es%2C_Lisboa_01.jpg/1920px-Interior_of_Pavilh%C3%A3o_de_Portugal%2C_Parque_das_Na%C3%A7%C3%B5es%2C_Lisboa_01.jpg",
+        "alt": "White stairwell of sharp planes rising under a hidden skylight",
+        "caption": "A stairwell.",
+        "credit": "Photo: GualdimG · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Pavilh%C3%A3o_de_Portugal,_Parque_das_Na%C3%A7%C3%B5es,_Lisboa_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It housed its country's national representation at a world's fair in the late 1990s."
+      },
+      {
+        "order": 2,
+        "text": "Its entrance square is covered by a pre-stressed concrete canopy based on the idea of a sheet of paper resting on two bricks."
+      },
+      {
+        "order": 3,
+        "text": "After standing empty for years, it was handed over to a university in 2015."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Álvaro Siza for Expo '98, the pavilion housed Portugal's national representation at the world's fair. Its entrance square is covered by an imposing canopy of pre-stressed concrete, inspired by a sheet of paper laid on two bricks. Left empty after the exhibition, it was handed over to the University of Lisbon in 2015.",
+      "keyFeatures": [
+        "Pre-stressed concrete canopy",
+        "Covered entrance square open to the city",
+        "Canopy inspired by a sheet of paper laid on two bricks"
+      ],
+      "funFacts": [
+        "In 2015 it was nearly sold to settle part of the Expo company's debt to the State.",
+        "Proposals for its reuse ranged from a seat for the Council of Ministers to an architecture museum."
+      ]
+    }
+  },
+  {
+    "id": "estadio-municipal-de-braga",
+    "name": "Estádio Municipal de Braga",
+    "aliases": ["Braga Municipal Stadium", "A Pedreira", "The Quarry", "Estádio de Braga", "Braga Stadium"],
+    "architects": [
+      {
+        "name": "Eduardo Souto de Moura",
+        "aliases": ["Souto de Moura", "Souto Moura", "Eduardo Souto Moura"],
+        "lifespan": "b. 1952",
+        "nationality": "Portuguese",
+        "bio": "Porto School architect, alongside Távora and Siza, who received the Pritzker Architecture Prize in 2011 and the Wolf Prize in Arts in 2013."
+      }
+    ],
+    "location": { "city": "Braga", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2003,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Eduardo_Souto_de_Moura_-_Braga_Stadium_02_%286010593292%29.jpg/1920px-Eduardo_Souto_de_Moura_-_Braga_Stadium_02_%286010593292%29.jpg",
+        "alt": "Football stadium with two long stands set between a rock face and a hillside, seen from above",
+        "credit": "Photo: 準建築人手札網站 Forgemind ArchiMedia · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eduardo_Souto_de_Moura_-_Braga_Stadium_02_(6010593292).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Eduardo_Souto_de_Moura_-_Braga_Stadium_31_%286010053325%29.jpg",
+        "alt": "Shadowy concrete structure of stairs and beams beneath a stand, with light from a rock wall",
+        "caption": "Under the stands.",
+        "credit": "Photo: 準建築人手札網站 Forgemind ArchiMedia · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eduardo_Souto_de_Moura_-_Braga_Stadium_31_(6010053325).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built as a venue for a European football championship in 2004." },
+      { "order": 2, "text": "Its nickname comes from having been carved into the side of a hill." },
+      { "order": 3, "text": "Its architect was awarded the Pritzker Prize partly for this design." }
+    ],
+    "summary": {
+      "description": "Eduardo Souto de Moura designed the home of Sporting Clube de Braga for Euro 2004, carving it into the side of a hill, hence its nickname, The Quarry. Built from 2002 to 2003, it opened on 30 December 2003. The rock excavation pushed its cost far above the estimate, making it the most expensive of the ten new Euro 2004 stadiums.",
+      "keyFeatures": [
+        "Carved into the side of a hill at its south end",
+        "Massive rock excavation",
+        "Home of Sporting Clube de Braga"
+      ],
+      "funFacts": [
+        "Its final cost reached about €200 million, against an initial estimate of €29.9 million.",
+        "It hosted two Euro 2004 matches, including Netherlands v Latvia."
+      ]
+    }
+  },
+  {
+    "id": "casa-das-historias-paula-rego",
+    "name": "Casa das Histórias Paula Rego",
+    "aliases": ["Casa das Histórias", "Paula Rego Museum", "House of Stories", "Casa das Historias"],
+    "architects": [
+      {
+        "name": "Eduardo Souto de Moura",
+        "aliases": ["Souto de Moura", "Souto Moura", "Eduardo Souto Moura"],
+        "lifespan": "b. 1952",
+        "nationality": "Portuguese",
+        "bio": "Porto School architect, alongside Távora and Siza, who received the Pritzker Architecture Prize in 2011 and the Wolf Prize in Arts in 2013."
+      }
+    ],
+    "location": { "city": "Cascais", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2009,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Casa_das_Hist%C3%B3rias_IMG_0298_%286100981277%29.jpg/1920px-Casa_das_Hist%C3%B3rias_IMG_0298_%286100981277%29.jpg",
+        "alt": "Red concrete museum with two tall pyramid-shaped towers, set among trees on a lawn",
+        "credit": "Photo: 準建築人手札網站 Forgemind ArchiMedia · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_das_Hist%C3%B3rias_IMG_0298_(6100981277).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Casa_Das_Hist%C3%B3rias._%286086235507%29.jpg",
+        "alt": "Pale gallery room with an angled ceiling and small framed works on the walls",
+        "caption": "A gallery.",
+        "credit": "Photo: Leon · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_Das_Hist%C3%B3rias._(6086235507).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a museum dedicated to the work of a single woman artist, who attended its opening."
+      },
+      {
+        "order": 2,
+        "text": "It opened in September 2009, and its building won the Secil Architecture Prize in 2010."
+      },
+      { "order": 3, "text": "It is made of several bodies of red concrete surrounded by trees." }
+    ],
+    "summary": {
+      "description": "Opened in September 2009 in the presence of the artist, this museum in Cascais is devoted to the work of Paula Rego. Eduardo Souto de Moura's building is formed of several red concrete volumes surrounded by trees, and it won the Secil Architecture Prize in 2010.",
+      "keyFeatures": ["Several bodies of red concrete", "Setting surrounded by trees", "Secil Architecture Prize 2010"],
+      "funFacts": ["It holds a permanent exhibition of Paula Rego's work and two temporary exhibitions a year."]
+    }
+  },
+  {
+    "id": "casa-da-musica",
+    "name": "Casa da Música",
+    "aliases": ["House of Music", "Casa da Musica"],
+    "architects": [
+      {
+        "name": "Rem Koolhaas",
+        "aliases": ["Koolhaas", "OMA", "Office for Metropolitan Architecture"],
+        "lifespan": "b. 1944",
+        "nationality": "Dutch",
+        "bio": "Dutch architect, theorist and urbanist, founder of OMA, often cited as a representative of deconstructivism and author of 'Delirious New York'."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2005,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary (Deconstructivism)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Casa_da_M%C3%BAsica_2026_2.jpg/1920px-Casa_da_M%C3%BAsica_2026_2.jpg",
+        "alt": "Faceted white concrete block like a cut gem, with a large window and a stair to its entrance, on a paved plaza",
+        "credit": "Photo: Joseolgon · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_da_M%C3%BAsica_2026_2.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Casa_da_M%C3%BAsica_%2829869499631%29.jpg",
+        "alt": "Shoebox hall with gold-patterned wood walls and a wall of glass at the end",
+        "caption": "The main hall.",
+        "credit": "Photo: Dion Hinchcliffe · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_da_M%C3%BAsica_(29869499631).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was planned to mark the year its city was European Capital of Culture, 2001, but opened four years late."
+      },
+      { "order": 2, "text": "It stands on the site of an old tram terminus at a large roundabout." },
+      {
+        "order": 3,
+        "text": "It was the first building in its country designed from the start to be dedicated exclusively to music."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned for Porto's year as European Capital of Culture in 2001, the concert house was won in an international competition by Rem Koolhaas and OMA in 1999 and built on the old tram terminus at the Boavista roundabout. It was inaugurated on 15 April 2005. The building is a nine-storey asymmetrical polyhedron clad in white concrete, cut by large glass windows.",
+      "keyFeatures": [
+        "Asymmetrical polyhedron in white concrete",
+        "Large undulating glass windows",
+        "Main auditorium, the Sala Suggia",
+        "Interiors by Petra Blaisse (Inside Outside)"
+      ],
+      "funFacts": [
+        "The New York Times critic Nicolai Ouroussoff called it the most attractive project Koolhaas had ever built.",
+        "Lou Reed played on the day it opened to the public."
+      ]
+    }
+  },
+  {
+    "id": "gare-do-oriente",
+    "name": "Gare do Oriente",
+    "aliases": ["Lisbon Oriente Station", "Oriente Station", "Estação do Oriente", "Oriente"],
+    "architects": [
+      {
+        "name": "Santiago Calatrava",
+        "aliases": ["Calatrava", "Santiago Calatrava Valls"],
+        "lifespan": "b. 1951",
+        "nationality": "Spanish-Swiss",
+        "bio": "Architect, structural engineer, sculptor and painter known for bridges with leaning pylons and stations, stadiums and museums whose forms resemble living organisms."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1998,
+    "era": "CONTEMPORARY",
+    "style": "Structural Expressionism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Exterior_of_Gare_do_Oriente_2602.jpg/1920px-Exterior_of_Gare_do_Oriente_2602.jpg",
+        "alt": "Station entrance under a fan of white steel ribs and glass, glowing at dusk above a road",
+        "credit": "Photo: Kent Wang · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_Gare_do_Oriente_2602.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Train_platforms_at_Gare_do_Oriente_2594.jpg/1920px-Train_platforms_at_Gare_do_Oriente_2594.jpg",
+        "alt": "Platforms under a forest of white steel 'trees' branching into a glass roof, with a red train",
+        "caption": "The platforms.",
+        "credit": "Photo: Kent Wang · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Train_platforms_at_Gare_do_Oriente_2594.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It opened in May 1998 as part of the celebrations for a world's fair." },
+      {
+        "order": 2,
+        "text": "It was considered the largest intermodal station in its country when it opened."
+      },
+      {
+        "order": 3,
+        "text": "Its designer, also a structural engineer, is known for works whose forms resemble living organisms."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Santiago Calatrava in 1995 and inaugurated on 19 May 1998 for Expo '98, the station was designed to provide multiple connections between zones of the Lisbon metropolitan area. It won the Brunel Award in 1998.",
+      "keyFeatures": [
+        "Platform roof with some influence from Gothic architecture",
+        "Ample, functional space",
+        "Multiple connections between transport zones"
+      ],
+      "funFacts": ["It closely resembles Calatrava's earlier Allen Lambert Galleria in Toronto."]
+    }
+  },
+  {
+    "id": "pavilhao-do-conhecimento",
+    "name": "Pavilhão do Conhecimento",
+    "aliases": [
+      "Pavilion of Knowledge",
+      "Pavilhão do Conhecimento - Centro Ciência Viva",
+      "Pavilhão do Conhecimento dos Mares",
+      "Knowledge Pavilion"
+    ],
+    "architects": [
+      {
+        "name": "João Luís Carrilho da Graça",
+        "aliases": ["Carrilho da Graça", "João Carrilho da Graça"],
+        "lifespan": "b. 1952",
+        "nationality": "Portuguese",
+        "bio": "Architect and lecturer born in Portalegre, who received the Pessoa Prize in 2008."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1998,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Pavilh%C3%A3o_do_Conhecimento_%286086270989%29.jpg",
+        "alt": "White stone building raised over a deep horizontal opening onto a paved courtyard with fountains",
+        "credit": "Photo: Leon · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pavilh%C3%A3o_do_Conhecimento_(6086270989).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Corredor_Inicial_do_Pavilh%C3%A3o_do_Conhecimento_02.jpg/1920px-Corredor_Inicial_do_Pavilh%C3%A3o_do_Conhecimento_02.jpg",
+        "alt": "Black corridor with a distorted chequerboard floor and a white arrow-like shape on the wall",
+        "caption": "A corridor.",
+        "credit": "Photo: GualdimG · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Corredor_Inicial_do_Pavilh%C3%A3o_do_Conhecimento_02.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for a world's fair in 1998, when it showed the relationship between people and the ocean."
+      },
+      { "order": 2, "text": "It won the Valmor Prize in 1998." },
+      { "order": 3, "text": "Since 1999 it has been an interactive science centre." }
+    ],
+    "summary": {
+      "description": "Designed by João Luís Carrilho da Graça with the engineer António Adão da Fonseca, the pavilion opened at Expo '98 as the 'Pavilion of the Knowledge of the Seas' and won the Valmor Prize in 1998. Remodelled after the fair, it reopened in July 1999 as the largest interactive science centre of Portugal's Ciência Viva network.",
+      "keyFeatures": ["Designed with engineer António Adão da Fonseca", "Valmor Prize 1998", "About 4,000 m² of exhibitions"],
+      "funFacts": ["At Expo '98 it showed a full-size model of a submarine imagined by Leonardo da Vinci."]
+    }
+  },
+  {
+    "id": "centro-cultural-de-belem",
+    "name": "Centro Cultural de Belém",
+    "aliases": ["Belém Cultural Centre", "Belém Cultural Center", "CCB"],
+    "architects": [
+      {
+        "name": "Vittorio Gregotti",
+        "aliases": ["Gregotti"],
+        "lifespan": "1927–2020",
+        "nationality": "Italian",
+        "bio": "Architect born in Novara, seen as both a member of the Neo-Avant-Garde and a key figure in 1970s Postmodernism."
+      },
+      {
+        "name": "Manuel Salgado",
+        "aliases": ["Salgado", "Manuel Sande e Castro Salgado"],
+        "lifespan": "b. 1944",
+        "nationality": "Portuguese",
+        "bio": "Lisbon architect who later led urban planning on Lisbon's city council from 2007 to 2019."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1992,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Lisboa_April_2015-6c.jpg/1920px-Lisboa_April_2015-6c.jpg",
+        "crop": { "x": 0, "y": 0, "w": 0.5, "h": 1 },
+        "alt": "Long, nearly windowless walls of rough pinkish stone around a paved square",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lisboa_April_2015-6c.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Concert_Hall_%2817125187527%29.jpg/1920px-Concert_Hall_%2817125187527%29.jpg",
+        "alt": "Concert hall with wooden ceiling slats and stone walls, an orchestra on stage before a full audience",
+        "caption": "The large auditorium.",
+        "credit": "Photo: Paulo Valdivieso · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Concert_Hall_(17125187527).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built to host its country's first presidency of the European Council, in 1992."
+      },
+      { "order": 2, "text": "It was designed and built in a very short time, between 1989 and 1992." },
+      { "order": 3, "text": "It is the largest building with cultural facilities in its country." }
+    ],
+    "summary": {
+      "description": "Decided in January 1988 to host Portugal's Presidency of the European Council in 1992, the centre was built between 1989 and 1992 to designs by Vittorio Gregotti and Manuel Salgado, with interiors by Daciano Costa. Afterwards it became a permanent venue for conferences, exhibitions and the performing arts, with over 140,000 m² of usable space.",
+      "keyFeatures": [
+        "Massive stone-clad modules",
+        "Large auditorium",
+        "Exhibition and museum spaces",
+        "Interior design by Daciano Costa"
+      ],
+      "funFacts": ["By January 1992 three of its modules were ready for the EU presidency's institutions and security."]
+    }
+  },
+  {
+    "id": "museu-nacional-dos-coches",
+    "name": "Museu Nacional dos Coches",
+    "aliases": ["National Coach Museum", "Coach Museum", "Museu dos Coches"],
+    "architects": [
+      {
+        "name": "Paulo Mendes da Rocha",
+        "aliases": ["Mendes da Rocha"],
+        "lifespan": "1928–2021",
+        "nationality": "Brazilian",
+        "bio": "Brazilian architect whose buildings, many in concrete, are associated with 'Brazilian Brutalism'; he worked almost exclusively in Brazil."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2015,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary (Brutalist influence)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lisbon%2C_Portugal_%2843216360132%29.jpg/1920px-Lisbon%2C_Portugal_%2843216360132%29.jpg",
+        "crop": { "x": 0.28, "y": 0, "w": 0.72, "h": 1 },
+        "alt": "Long white box with a thin blue window strip, raised on round concrete columns over an open ground floor",
+        "credit": "Photo: Alejandro · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lisbon,_Portugal_(43216360132).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Global_perspective_of_the_National_Coach_Museum_%2823953333677%29.jpg/1920px-Global_perspective_of_the_National_Coach_Museum_%2823953333677%29.jpg",
+        "alt": "Long white hall with rows of historic carriages seen from above",
+        "caption": "The main hall.",
+        "credit": "Photo: Pedro Ribeiro Simões · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Global_perspective_of_the_National_Coach_Museum_(23953333677).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "The museum it houses was founded in 1905 by a queen, and was the first of its kind in the world."
+      },
+      {
+        "order": 2,
+        "text": "Its collection was first shown in an 18th-century royal riding school across the road."
+      },
+      {
+        "order": 3,
+        "text": "Its architect, from South America, designed it with a Lisbon studio; it opened in 2015."
+      }
+    ],
+    "summary": {
+      "description": "The National Coach Museum was created in 1905 by Queen Amélia in the old Royal Riding School of Belém. Its new building opposite, which houses most of the collection, is by the Brazilian architect Paulo Mendes da Rocha with the Ricardo Bak Gordon studio and the engineer Rui Furtado, and opened in 2015.",
+      "keyFeatures": [
+        "New building opposite the old Royal Riding School",
+        "Houses most of the collection",
+        "Collection of about 9,000 objects, including gala vehicles"
+      ],
+      "funFacts": ["A 1944 hall for the old museum was designed by Raul Lino."]
+    }
+  },
+  {
+    "id": "maat",
+    "name": "MAAT",
+    "aliases": ["Museu de Arte, Arquitetura e Tecnologia", "Museum of Art, Architecture and Technology", "maat"],
+    "architects": [
+      {
+        "name": "Amanda Levete",
+        "aliases": ["Levete", "AL_A"],
+        "lifespan": "b. 1955",
+        "nationality": "British",
+        "bio": "British architect and principal of AL_A; earlier, as a partner at Future Systems, she won the 1999 Stirling Prize."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2016,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Building_of_the_Museum_of_Art%2C_Architecture_and_Technology_in_Lisbon%2C_20250604_2006_9600.jpg/1920px-Building_of_the_Museum_of_Art%2C_Architecture_and_Technology_in_Lisbon%2C_20250604_2006_9600.jpg",
+        "alt": "Low, curving white building along a riverside promenade, seen from the water",
+        "credit": "Photo: Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Building_of_the_Museum_of_Art,_Architecture_and_Technology_in_Lisbon,_20250604_2006_9600.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Inside_MAAT_Lisbon_%E2%80%93_Photography_Exhibit_in_the_Oval_Gallery_%2854702984107%29.jpg/1920px-Inside_MAAT_Lisbon_%E2%80%93_Photography_Exhibit_in_the_Oval_Gallery_%2854702984107%29.jpg",
+        "alt": "Curving open gallery with a white floor under a dark ceiling grid",
+        "caption": "The oval gallery.",
+        "credit": "Photo: Dale Cruse · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_MAAT_Lisbon_%E2%80%93_Photography_Exhibit_in_the_Oval_Gallery_(54702984107).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It sits on a river to the west of its city centre, next to a former power station."
+      },
+      { "order": 2, "text": "It cost about €20 million and is run by an energy company's foundation." },
+      { "order": 3, "text": "Its programme opened in June 2016." }
+    ],
+    "summary": {
+      "description": "The museum of art, architecture and technology by Amanda Levete Architects stands on the Tagus west of Lisbon's centre. It connects to the Tejo Power Station, one of Portugal's most notable early 20th-century industrial buildings, and shows the EDP Foundation's collection. Its programme opened on 30 June 2016.",
+      "keyFeatures": [
+        "Riverside site on the Tagus",
+        "Connection to the Tejo Power Station",
+        "Shows the EDP Foundation's art collection"
+      ],
+      "funFacts": ["Its first four exhibitions were held in the renovated spaces of the old power station."]
+    }
+  },
+  {
+    "id": "terminal-de-cruzeiros-de-leixoes",
+    "name": "Terminal de Cruzeiros de Leixões",
+    "aliases": ["Porto Leixões Cruise Terminal", "Leixões Cruise Terminal", "Terminal de Cruzeiros do Porto de Leixões"],
+    "architects": [
+      {
+        "name": "Luís Pedro Silva",
+        "aliases": ["Luis Pedro Silva"],
+        "nationality": "Portuguese",
+        "bio": "Portuguese architect whose design for this terminal won the international AZ Award in 2016."
+      }
+    ],
+    "location": { "city": "Matosinhos", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2015,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Terminal_de_Cruzeiros_do_Porto_de_Leix%C3%B5es_%282%29.jpg/1920px-Terminal_de_Cruzeiros_do_Porto_de_Leix%C3%B5es_%282%29.jpg",
+        "alt": "Rounded white building wrapped in curving bands, with a dark glazed ground floor",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Terminal_de_Cruzeiros_do_Porto_de_Leix%C3%B5es_(2).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Terminal_de_Cruzeiros_do_Porto_de_Leix%C3%B5es_%283%29.jpg/1920px-Terminal_de_Cruzeiros_do_Porto_de_Leix%C3%B5es_%283%29.jpg",
+        "alt": "Spiral ramp under a round skylight, its walls clad in white tiles",
+        "caption": "The spiral ramp.",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Terminal_de_Cruzeiros_do_Porto_de_Leix%C3%B5es_(3).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was inaugurated in July 2015 to receive larger ships at a port near Porto."
+      },
+      {
+        "order": 2,
+        "text": "Its spiral structure is clad in about a million white tiles made by a Portuguese porcelain firm."
+      },
+      { "order": 3, "text": "It also houses a university marine research centre." }
+    ],
+    "summary": {
+      "description": "Designed by Luís Pedro Silva and inaugurated in July 2015, the Leixões cruise terminal expanded the port's capacity for larger cruise ships. Its spiral structure is clad in around one million white tiles made by Vista Alegre, and it houses the University of Porto's Interdisciplinary Centre for Marine and Environmental Research (CIIMAR).",
+      "keyFeatures": ["Spiral form", "About a million white Vista Alegre tiles", "Research laboratories for some 200 researchers"],
+      "funFacts": [
+        "It won the international AZ Award in 2016.",
+        "It was named one of the three best cruise ports in the world at the 2015 Seatrade Awards."
+      ]
+    }
   }
 ]
