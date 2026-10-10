@@ -9298,5 +9298,697 @@
       ],
       "funFacts": ["It became part of a UNESCO listing of Aalto works in 2026."]
     }
+  },
+  {
+    "id": "habitat-67",
+    "name": "Habitat 67",
+    "aliases": ["Habitat", "Habitat '67"],
+    "architects": [
+      {
+        "name": "Moshe Safdie",
+        "aliases": ["Safdie"],
+        "nationality": "Israeli-Canadian-American",
+        "bio": "Architect who developed the design from his master's thesis at McGill University and was given the project despite his youth and inexperience."
+      }
+    ],
+    "location": { "city": "Montreal", "country": "Canada", "countryCode": "CA" },
+    "yearCompleted": 1967,
+    "era": "BRUTALISM",
+    "style": "Brutalism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Habitat_67_2019_dllu_01.jpg/1920px-Habitat_67_2019_dllu_01.jpg",
+        "alt": "Stacked concrete boxes forming a hill of apartments with terraces",
+        "credit": "Photo: Dllu · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Habitat_67_2019_dllu_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Habitat_%2767_interior_-_Flickr_-_deeelem.jpg",
+        "alt": "Apartment room with a concrete wall and a large window",
+        "caption": "An apartment.",
+        "credit": "Photo: dee em · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Habitat_%2767_interior_-_Flickr_-_deeelem.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as its architect's master's thesis at a university in the same city."
+      },
+      {
+        "order": 2,
+        "text": "An amended version was built for a world's fair held from April to October 1967."
+      },
+      {
+        "order": 3,
+        "text": "The original plan called for 1,200 homes, but funding allowed only a much smaller construction."
+      }
+    ],
+    "summary": {
+      "description": "Moshe Safdie's housing complex on the Saint Lawrence River grew out of his master's thesis at McGill University and was built in amended form for Expo 67. It is made of 354 identical prefabricated concrete units arranged in three pyramids, forming 146 residences, each with a garden terrace on the roof of the level below.",
+      "keyFeatures": [
+        "354 identical prefabricated concrete units",
+        "Private garden terraces on the roofs below",
+        "Riverside site at Cité du Havre",
+        "Built for Expo 67"
+      ],
+      "funFacts": [
+        "Safdie later called getting the commission 'an amazing fairy tale'.",
+        "The thesis failed to win Canada's prize for the best architecture thesis."
+      ]
+    }
+  },
+  {
+    "id": "barbican-estate",
+    "name": "Barbican Estate",
+    "aliases": ["Barbican", "Barbican Centre", "The Barbican"],
+    "architects": [
+      {
+        "name": "Chamberlin, Powell and Bon",
+        "aliases": ["Chamberlin Powell and Bon", "Peter Chamberlin", "Geoffry Powell", "Christoph Bon"],
+        "nationality": "British",
+        "bio": "Architectural partnership whose first work was the Golden Lane Estate, immediately north of the Barbican."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1976,
+    "era": "BRUTALISM",
+    "style": "Brutalism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Barbican_Estate_2018-09-22.jpg/1920px-Barbican_Estate_2018-09-22.jpg",
+        "alt": "Concrete residential towers rising above lower blocks",
+        "credit": "Photo: Colin · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barbican_Estate_2018-09-22.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Barbican_Conservatory_-_1.jpg/1920px-Barbican_Conservatory_-_1.jpg",
+        "alt": "Glass-roofed conservatory full of tropical plants between concrete balconies",
+        "caption": "The conservatory.",
+        "credit": "Photo: Atreides83 · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Barbican_Conservatory_-_1.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built between 1965 and 1976 on a site in the City of London." },
+      {
+        "order": 2,
+        "text": "A stretch of an underground railway line was realigned to make room for it."
+      },
+      { "order": 3, "text": "Its three residential towers were once the tallest in London." }
+    ],
+    "summary": {
+      "description": "Designed by Chamberlin, Powell and Bon and built from 1965 to 1976, the estate combines four tower blocks, terrace blocks grouped around a lake and green squares, and an arts centre. Industrial disputes delayed the last tower, Shakespeare Tower, until 1976.",
+      "keyFeatures": [
+        "Four residential towers",
+        "Terrace blocks around a lake and green squares",
+        "Concrete ziggurat arts centre, opened in 1982",
+        "Conservatory in the arts centre"
+      ],
+      "funFacts": [
+        "Its towers are named after Cromwell, Lauderdale, Shakespeare and Blake.",
+        "Its first building, Speed House, opened in 1969."
+      ]
+    }
+  },
+  {
+    "id": "boston-city-hall",
+    "name": "Boston City Hall",
+    "aliases": ["City Hall Boston", "Boston City Hall Plaza"],
+    "architects": [
+      {
+        "name": "Kallmann McKinnell & Knowles",
+        "aliases": ["Kallmann McKinnell and Knowles", "KMK", "Gerhard Kallmann", "Michael McKinnell"],
+        "nationality": "American",
+        "bio": "Firm that won the two-phase design competition for the building in 1962."
+      }
+    ],
+    "location": { "city": "Boston", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1968,
+    "era": "BRUTALISM",
+    "style": "Brutalism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Boston_City_Hall_-_Boston%2C_MA_-_DSC04696.JPG/1920px-Boston_City_Hall_-_Boston%2C_MA_-_DSC04696.JPG",
+        "alt": "Massive concrete building with a projecting upper storey above a brick plaza",
+        "credit": "Photo: Daderot · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Boston_City_Hall_-_Boston,_MA_-_DSC04696.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/City_Hall_plaza_3.jpg/1920px-City_Hall_plaza_3.jpg",
+        "crop": { "x": 0, "y": 0.3, "w": 1, "h": 0.7 },
+        "alt": "Brick-floored hall with stairs under a concrete coffered ceiling",
+        "caption": "The lobby.",
+        "credit": "Photo: LEvalyn · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:City_Hall_plaza_3.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was proposed in 1956 as part of an urban renewal project called Government Center."
+      },
+      { "order": 2, "text": "Its design was chosen in a two-phase competition in 1962." },
+      {
+        "order": 3,
+        "text": "It stands on a sloping, brick-paved plaza shaped like a curving trapezoid."
+      }
+    ],
+    "summary": {
+      "description": "Proposed in 1956 for the Government Center urban renewal project, the city hall was designed by Kallmann McKinnell & Knowles, winners of a 1962 competition, with Campbell, Aldrich & Nulty. It houses the mayor's office and city council and influenced Brutalist architecture across the United States.",
+      "keyFeatures": [
+        "Brick below and concrete above, with protruding upper storeys",
+        "Council chamber and mayor's suite on the fifth storey",
+        "Brick-paved plaza",
+        "Brick terraces radiating into the plaza"
+      ],
+      "funFacts": ["LeMessurier Consultants were its engineers."]
+    }
+  },
+  {
+    "id": "national-theatre-london",
+    "name": "National Theatre",
+    "aliases": ["Royal National Theatre", "National Theatre London", "NT"],
+    "architects": [
+      {
+        "name": "Denys Lasdun",
+        "aliases": ["Sir Denys Lasdun", "Lasdun"],
+        "nationality": "British",
+        "bio": "Architect who designed the permanent theatre, with three stages, together with Peter Softley."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1977,
+    "era": "BRUTALISM",
+    "style": "Brutalism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/National_Theatre_2025-05-17.jpg/1920px-National_Theatre_2025-05-17.jpg",
+        "alt": "Layered concrete terraces and fly towers beside a riverside walk",
+        "credit": "Photo: Bex Walton · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:National_Theatre_2025-05-17.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Earthquakes_in_London_%284875687955%29.jpg/1920px-Earthquakes_in_London_%284875687955%29.jpg",
+        "alt": "Auditorium seating in red and orange around a thrust stage",
+        "caption": "An auditorium.",
+        "credit": "Photo: Tony Hisgett · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Earthquakes_in_London_(4875687955).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its company was founded in 1963 by a famous actor, who became its first artistic director."
+      },
+      {
+        "order": 2,
+        "text": "Its company played at the Old Vic until its own building was ready in 1976."
+      },
+      { "order": 3, "text": "It stands beside the Thames on the South Bank and holds three stages." }
+    ],
+    "summary": {
+      "description": "The company founded by Laurence Olivier in 1963 moved from the Old Vic into Denys Lasdun and Peter Softley's building on the South Bank, whose three stages opened between 1976 and 1977. The main auditorium is named after Olivier; the proscenium Lyttelton seats 890.",
+      "keyFeatures": [
+        "Pale concrete bearing the imprint of rough wooden formwork",
+        "Olivier Theatre",
+        "Lyttelton Theatre with a proscenium arch",
+        "Riverside site on the South Bank"
+      ],
+      "funFacts": ["The company opened in 1963 with Hamlet, starring Peter O'Toole."]
+    }
+  },
+  {
+    "id": "groninger-museum",
+    "name": "Groninger Museum",
+    "aliases": ["Groningen Museum", "Groninger"],
+    "architects": [
+      {
+        "name": "Alessandro Mendini",
+        "aliases": ["Mendini"],
+        "nationality": "Italian",
+        "bio": "Designer noted for furniture and industrial design, asked by the museum's director in 1990 to design the new museum; he designed its yellow tower."
+      },
+      {
+        "name": "Philippe Starck",
+        "aliases": ["Starck"],
+        "nationality": "French",
+        "bio": "Designer of the museum's silver cylindrical pavilion."
+      },
+      {
+        "name": "Coop Himmelb(l)au",
+        "aliases": ["Coop Himmelblau"],
+        "nationality": "Austrian",
+        "bio": "Firm that designed the pale blue deconstructivist pavilion, replacing Frank Stella."
+      }
+    ],
+    "location": { "city": "Groningen", "country": "Netherlands", "countryCode": "NL" },
+    "yearCompleted": 1994,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Groningen_Museum.jpg/1920px-Groningen_Museum.jpg",
+        "alt": "Cluster of colourful pavilions, including a yellow tower, standing in a canal",
+        "credit": "Photo: Roger Veringmeier · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Groningen_Museum.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Groninger_Museum_-_trap_naar_paviljoen_Philippe_Starck.jpg/1920px-Groninger_Museum_-_trap_naar_paviljoen_Philippe_Starck.jpg",
+        "alt": "Stairwell lined with blue and yellow tiles and wall lights",
+        "caption": "A stairwell.",
+        "credit": "Photo: hardscarf · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Groninger_Museum_-_trap_naar_paviljoen_Philippe_Starck.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It stands in a canal opposite its city's railway station." },
+      {
+        "order": 2,
+        "text": "It consists of pavilions by several different designers, including a yellow tower and a silver cylinder."
+      },
+      {
+        "order": 3,
+        "text": "An American painter was first approached to design one pavilion, but an Austrian firm replaced him."
+      }
+    ],
+    "summary": {
+      "description": "Founded in 1874, the museum got its present building in 1994. Its director Frans Haks asked Alessandro Mendini in 1990 to design it; the result is a cluster of pavilions in a canal: Mendini's yellow tower, Philippe Starck's silver cylinder and a pale blue deconstructivist space by Coop Himmelb(l)au.",
+      "keyFeatures": [
+        "Yellow tower by Mendini",
+        "Silver cylindrical pavilion by Starck",
+        "Deconstructivist pavilion by Coop Himmelb(l)au",
+        "Site in a canal"
+      ],
+      "funFacts": ["Frank Stella was originally approached to design one of the pavilions."]
+    }
+  },
+  {
+    "id": "neue-staatsgalerie",
+    "name": "Neue Staatsgalerie",
+    "aliases": ["New State Gallery", "Staatsgalerie Stuttgart", "Neue Staatsgalerie Stuttgart"],
+    "architects": [
+      {
+        "name": "James Stirling",
+        "aliases": ["Sir James Stirling", "Stirling"],
+        "nationality": "British",
+        "bio": "Architect of James Stirling, Michael Wilford and Associates, to whom the building is largely credited."
+      },
+      {
+        "name": "Michael Wilford",
+        "aliases": ["Wilford"],
+        "nationality": "British",
+        "bio": "Stirling's partner, with whom he won the 1977 competition."
+      }
+    ],
+    "location": { "city": "Stuttgart", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1984,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Stuttgart_-_Neue_Staatsgalerie_%2835736943242%29.jpg/1920px-Stuttgart_-_Neue_Staatsgalerie_%2835736943242%29.jpg",
+        "alt": "Sandstone and travertine walls with green steel canopies and bright handrails",
+        "credit": "Photo: Fred Romero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Stuttgart_-_Neue_Staatsgalerie_(35736943242).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Rotunde_Neue_Staatsgalerie_Stuttgart.jpg/1920px-Rotunde_Neue_Staatsgalerie_Stuttgart.jpg",
+        "alt": "Circular open court of stone walls with greenery and a statue",
+        "caption": "The open rotunda.",
+        "credit": "Photo: Walt.cleanhard · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rotunde_Neue_Staatsgalerie_Stuttgart.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built in 1979–1984 next to an older neoclassical gallery." },
+      { "order": 2, "text": "Its centre is an open-top rotunda, crossed by a public footpath and ramp." },
+      {
+        "order": 3,
+        "text": "Travertine and sandstone contrast with green steel frames and bright pink and blue handrails."
+      }
+    ],
+    "summary": {
+      "description": "Designed by James Stirling and Michael Wilford after a 1977 competition and built from 1979 to 1984, the gallery echoes the neoclassical old gallery next door and alludes to the Altes Museum, the Guggenheim and the Pantheon. Its open-top rotunda is circled by a public footpath.",
+      "keyFeatures": [
+        "Open-top central rotunda",
+        "Public ramp through the site",
+        "Travertine and sandstone",
+        "Green steel frames and pink and blue handrails"
+      ],
+      "funFacts": ["It alludes to Stirling's earlier, unbuilt designs."]
+    }
+  },
+  {
+    "id": "sainsbury-wing",
+    "name": "Sainsbury Wing",
+    "aliases": ["Sainsbury Wing of the National Gallery", "National Gallery Sainsbury Wing"],
+    "architects": [
+      {
+        "name": "Robert Venturi",
+        "aliases": ["Venturi"],
+        "nationality": "American",
+        "bio": "Architect and author of 'Complexity and Contradiction in Architecture' (1966), an anti-Modernist polemic; partner of Denise Scott Brown."
+      },
+      {
+        "name": "Denise Scott Brown",
+        "aliases": ["Scott Brown"],
+        "nationality": "American",
+        "bio": "Architect and planner, Venturi's partner."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1991,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sainsbury_Wing%2C_National_Gallery%2C_London%2C_March_2015_%2801%29.JPG/1920px-Sainsbury_Wing%2C_National_Gallery%2C_London%2C_March_2015_%2801%29.JPG",
+        "alt": "Stone gallery extension with pilasters, beside a classical museum building",
+        "credit": "Photo: Ardfern · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sainsbury_Wing,_National_Gallery,_London,_March_2015_(01).JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/London_1002_17.jpg/1920px-London_1002_17.jpg",
+        "alt": "Gallery rooms with stone arches and Renaissance altarpieces",
+        "caption": "A gallery.",
+        "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:London_1002_17.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a 1991 extension to the west of a national art museum on a famous square."
+      },
+      { "order": 2, "text": "It was designed by an American husband-and-wife partnership." },
+      { "order": 3, "text": "It is a significant example of Postmodernist architecture in Britain." }
+    ],
+    "summary": {
+      "description": "Robert Venturi and Denise Scott Brown's extension to the west of the National Gallery opened in 1991. It was made possible by a donation in 1985 from Lord Sainsbury and his brothers, and it is a significant example of Postmodernism in Britain.",
+      "keyFeatures": ["Extension to the west of the main building", "Postmodern design", "Funded by the Sainsbury brothers"],
+      "funFacts": ["The main National Gallery building was designed by William Wilkins."]
+    }
+  },
+  {
+    "id": "550-madison-avenue",
+    "name": "550 Madison Avenue",
+    "aliases": ["AT&T Building", "Sony Tower", "Sony Building", "550 Madison"],
+    "architects": [
+      {
+        "name": "Philip Johnson",
+        "aliases": ["Johnson"],
+        "nationality": "American",
+        "bio": "American architect who, with John Burgee, designed the tower in the postmodern style."
+      },
+      {
+        "name": "John Burgee",
+        "aliases": ["Burgee"],
+        "nationality": "American",
+        "bio": "Johnson's partner on the design."
+      }
+    ],
+    "location": { "city": "New York City", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1984,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/56th_St_Madison_Av_td_%282018-08-16%29_03_-_550_Madison_Avenue.jpg/1920px-56th_St_Madison_Av_td_%282018-08-16%29_03_-_550_Madison_Avenue.jpg",
+        "alt": "Granite skyscraper seen from below, with a tall arched entrance",
+        "credit": "Photo: Tdorante10 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:56th_St_Madison_Av_td_(2018-08-16)_03_-_550_Madison_Avenue.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sony_Building_by_Matthew_Bisanz.jpg/1920px-Sony_Building_by_Matthew_Bisanz.jpg",
+        "alt": "Grid of a tall glazed arch with a round window above, seen from below",
+        "caption": "The entrance arch.",
+        "credit": "Photo: MBisanz · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sony_Building_by_Matthew_Bisanz.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was completed in 1984 as a telephone company's headquarters, and later housed an electronics company."
+      },
+      { "order": 2, "text": "Its 37 storeys are faced in pink granite." },
+      { "order": 3, "text": "It is crowned by a broken pediment with a circular opening." }
+    ],
+    "summary": {
+      "description": "Designed by Philip Johnson and John Burgee and completed in 1984 as AT&T's headquarters, the 197-metre tower is faced in pink granite. A large entrance arch flanked by arcades faces Madison Avenue, and a broken pediment with a circular opening crowns the top. It later became Sony's American headquarters.",
+      "keyFeatures": [
+        "Broken pediment crown",
+        "Large entrance arch with arcades",
+        "Pink granite facade",
+        "Sky lobby above the base"
+      ],
+      "funFacts": ["Its ground-level lobby was originally a public arcade."]
+    }
+  },
+  {
+    "id": "guggenheim-bilbao",
+    "name": "Guggenheim Museum Bilbao",
+    "aliases": ["Guggenheim Bilbao", "Bilbao Guggenheim", "Museo Guggenheim Bilbao"],
+    "architects": [
+      {
+        "name": "Frank Gehry",
+        "aliases": ["Gehry", "Frank O. Gehry"],
+        "nationality": "Canadian-American",
+        "bio": "Los Angeles architect whose sculptural, metal-clad buildings are often associated with Deconstructivism, a label he does not accept."
+      }
+    ],
+    "location": { "city": "Bilbao", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1997,
+    "era": "CONTEMPORARY",
+    "style": "Deconstructivism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bilbao_-_Gug.jpg/1920px-Bilbao_-_Gug.jpg",
+        "alt": "Curving titanium-clad museum beside a river and a bridge",
+        "credit": "Photo: PA · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Gug.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Guggenheim_museum_interior%2C_Bilbao_02.jpg/1920px-Guggenheim_museum_interior%2C_Bilbao_02.jpg",
+        "alt": "Soaring atrium of curved walls and glazed steel frames",
+        "caption": "The atrium.",
+        "credit": "Photo: GattoCeliaco · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Guggenheim_museum_interior,_Bilbao_02.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was opened by a king on 18 October 1997." },
+      { "order": 2, "text": "Philip Johnson called it 'the greatest building of our time'." },
+      {
+        "order": 3,
+        "text": "Its curving forms of stone, glass and titanium unfold along a river in an old industrial city."
+      }
+    ],
+    "summary": {
+      "description": "Frank Gehry's museum on the Nervión river opened on 18 October 1997 and was immediately hailed as a masterpiece of the 20th century. Its titanium-clad curving volumes are organised around a light-filled atrium, nicknamed The Flower, with views of the estuary and hills.",
+      "keyFeatures": [
+        "Titanium cladding",
+        "Atrium nicknamed The Flower",
+        "Interconnecting shapes of stone, glass and titanium",
+        "Riverside site"
+      ],
+      "funFacts": ["A New Yorker critic called it 'a fantastic dream ship of undulating form in a cloak of titanium'."]
+    }
+  },
+  {
+    "id": "jewish-museum-berlin",
+    "name": "Jewish Museum Berlin",
+    "aliases": ["Jüdisches Museum Berlin", "Libeskind Building"],
+    "architects": [
+      {
+        "name": "Daniel Libeskind",
+        "aliases": ["Libeskind"],
+        "nationality": "American",
+        "bio": "Architect whose radical zigzag design was chosen from 189 entries."
+      }
+    ],
+    "location": { "city": "Berlin", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1999,
+    "era": "CONTEMPORARY",
+    "style": "Deconstructivism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/GLAM_on_Tour_J%C3%BCdisches_Museum_Berlin_2026_01.jpg/1920px-GLAM_on_Tour_J%C3%BCdisches_Museum_Berlin_2026_01.jpg",
+        "alt": "Zigzag zinc-clad building with slashed windows beside a Baroque palace",
+        "credit": "Photo: Moleskine · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:GLAM_on_Tour_J%C3%BCdisches_Museum_Berlin_2026_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Treppenhaus_des_J%C3%BCdischen_Museums.tif/lossy-page1-1920px-Treppenhaus_des_J%C3%BCdischen_Museums.tif.jpg",
+        "alt": "Narrow stairwell crossed by diagonal concrete beams",
+        "caption": "The stairwell.",
+        "credit": "Photo: Suhaknoke · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Treppenhaus_des_J%C3%BCdischen_Museums.tif"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its design was chosen from 189 entries and nicknamed 'Lightning' for its zigzag plan."
+      },
+      {
+        "order": 2,
+        "text": "Before any exhibits were installed, more than 350,000 people visited the empty building."
+      },
+      {
+        "order": 3,
+        "text": "It can be entered only through an underground passage from a Baroque building next door."
+      }
+    ],
+    "summary": {
+      "description": "Daniel Libeskind's zigzag building, chosen from 189 entries, was completed empty in 1999 and opened as a museum in 2001. Reached only underground from the Baroque Kollegienhaus, it is the largest Jewish museum in Europe and one of Germany's most visited.",
+      "keyFeatures": [
+        "Zigzag plan",
+        "Underground entrance from the old building",
+        "Empty concrete voids",
+        "Three axes leading to the Garden of Exile and the Holocaust Tower"
+      ],
+      "funFacts": ["It had over eleven million visitors from 2001 to 2017."]
+    }
+  },
+  {
+    "id": "elbphilharmonie",
+    "name": "Elbphilharmonie",
+    "aliases": ["Elbphilharmonie Hamburg", "Elphi"],
+    "architects": [
+      {
+        "name": "Herzog & de Meuron",
+        "aliases": ["Herzog and de Meuron", "Jacques Herzog", "Pierre de Meuron"],
+        "nationality": "Swiss",
+        "bio": "Swiss architecture firm of Jacques Herzog and Pierre de Meuron."
+      }
+    ],
+    "location": { "city": "Hamburg", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 2016,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Cloudy_day_in_Hamburg_2025.jpg/1920px-Cloudy_day_in_Hamburg_2025.jpg",
+        "alt": "Glass building with a wavy roof on a brick warehouse at the harbour",
+        "credit": "Photo: Karlheinz Klingbeil · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cloudy_day_in_Hamburg_2025.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Interior_of_the_Elbphilharmonie_05.jpg/1920px-Interior_of_the_Elbphilharmonie_05.jpg",
+        "alt": "Pale curving concert hall walls with rows of steps",
+        "caption": "Inside the concert hall.",
+        "credit": "Photo: Arths-at · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Elbphilharmonie_05.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its glass structure sits on top of an old brick warehouse built in 1963." },
+      {
+        "order": 2,
+        "text": "Planned to cost €241 million and finish by 2010, it was completed in 2016 for €866 million."
+      },
+      { "order": 3, "text": "At 108 metres it is the tallest inhabited building in its city." }
+    ],
+    "summary": {
+      "description": "Resembling a hoisted sail, a wave or a crystal resting on the Kaispeicher A warehouse, the concert hall is the key project of the HafenCity district. Construction ended on 31 October 2016 at €866 million, far above its estimate, and it was inaugurated on 11 January 2017.",
+      "keyFeatures": [
+        "Glassy superstructure on a brick warehouse",
+        "Wavy roofline and about a thousand curved windows",
+        "Public Plaza at the top of the warehouse",
+        "Vineyard-style hall for 2,100"
+      ],
+      "funFacts": ["The first public test concert was held on 25 November 2016."]
+    }
+  },
+  {
+    "id": "walt-disney-concert-hall",
+    "name": "Walt Disney Concert Hall",
+    "aliases": ["Disney Concert Hall", "Disney Hall"],
+    "architects": [
+      {
+        "name": "Frank Gehry",
+        "aliases": ["Gehry", "Frank O. Gehry"],
+        "nationality": "Canadian-American",
+        "bio": "Los Angeles architect whose sculptural, metal-clad buildings are often associated with Deconstructivism, a label he does not accept."
+      }
+    ],
+    "location": { "city": "Los Angeles", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 2003,
+    "era": "CONTEMPORARY",
+    "style": "Deconstructivism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Modernist_architect_Frank_Gehry%27s_Walt_Disney_Concert_Hall%2C_Los_Angeles%2C_California_LCCN2011634987.tif/lossy-page1-1920px-Modernist_architect_Frank_Gehry%27s_Walt_Disney_Concert_Hall%2C_Los_Angeles%2C_California_LCCN2011634987.tif.jpg",
+        "alt": "Billowing stainless-steel curves of a concert hall",
+        "credit": "Photo: Carol M. Highsmith · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Modernist_architect_Frank_Gehry%27s_Walt_Disney_Concert_Hall,_Los_Angeles,_California_LCCN2011634987.tif"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walt_Disney_Concert_Hall_auditorium.jpg/1920px-Walt_Disney_Concert_Hall_auditorium.jpg",
+        "alt": "Concert hall with wood-clad seating terraces around the stage and an organ",
+        "caption": "The main hall.",
+        "credit": "Photo: Codera23 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_Concert_Hall_auditorium.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began with a $50 million gift in 1987 from the widow of a famous film producer."
+      },
+      { "order": 2, "text": "It opened on 23 October 2003 and seats 2,265 people." },
+      {
+        "order": 3,
+        "text": "It is home to its city's philharmonic orchestra, and its acoustics by Minoru Nagata were widely praised."
+      }
+    ],
+    "summary": {
+      "description": "Funded by an initial $50 million gift from Lillian Disney in 1987, Frank Gehry's hall opened on 23 October 2003 as the fourth hall of the Los Angeles Music Center. Home to the Los Angeles Philharmonic, it seats 2,265, and its acoustics by Minoru Nagata and Yasuhisa Toyota were praised.",
+      "keyFeatures": [
+        "Stainless-steel skin, replacing a planned stone exterior",
+        "Main hall with 2,265 seats",
+        "Acoustics by Minoru Nagata and Yasuhisa Toyota",
+        "Downtown site on Grand Avenue"
+      ],
+      "funFacts": ["Gehry said being chosen was 'the least likely thing that I thought would ever happen to me in my life'."]
+    }
   }
 ]
