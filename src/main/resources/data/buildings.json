@@ -8592,5 +8592,711 @@
       ],
       "funFacts": ["It received Grade I listing just 10 days before demolition was due to begin."]
     }
+  },
+  {
+    "id": "horta-house",
+    "name": "Horta House",
+    "aliases": ["Horta Museum", "Maison et Atelier Horta", "Musée Horta", "House and Atelier Horta"],
+    "architects": [
+      {
+        "name": "Victor Horta",
+        "aliases": ["Horta"],
+        "nationality": "Belgian",
+        "bio": "Brussels architect known for his significant role in defining the Art Nouveau style, especially in his town houses."
+      }
+    ],
+    "location": { "city": "Brussels", "country": "Belgium", "countryCode": "BE" },
+    "yearCompleted": 1901,
+    "era": "ART_NOUVEAU",
+    "style": "Art Nouveau",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hortamuseum_Elsene_02.jpg/1920px-Hortamuseum_Elsene_02.jpg",
+        "alt": "Narrow Art Nouveau town house front with iron balconies and bay windows",
+        "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hortamuseum_Elsene_02.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Staircase_of_the_Victor_Horta_own_house_%2825%2C_rue_Am%C3%A9ricaine%2C_1060%2C_Brussels%29.jpg/1920px-Staircase_of_the_Victor_Horta_own_house_%2825%2C_rue_Am%C3%A9ricaine%2C_1060%2C_Brussels%29.jpg",
+        "alt": "Staircase rising under a curving skylight of iron and glass",
+        "caption": "The staircase.",
+        "credit": "Photo: Unknown photographer · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_Victor_Horta_own_house_(25,_rue_Am%C3%A9ricaine,_1060,_Brussels).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built between 1898 and 1901 as its architect's own home and workshop."
+      },
+      {
+        "order": 2,
+        "text": "Its façade is an asymmetric arrangement of delicate ironwork around protruding and recessed spaces."
+      },
+      {
+        "order": 3,
+        "text": "With three other town houses by the same architect, it became a UNESCO World Heritage Site in 2000."
+      }
+    ],
+    "summary": {
+      "description": "Victor Horta built this town house and workshop in Saint-Gilles between 1898 and 1901 as his own home. Its tight sequence of spaces, delicate ironwork and asymmetric façade make it a key work of the Art Nouveau that Horta helped define. It is now a museum of his life and work.",
+      "keyFeatures": [
+        "Asymmetric façade with delicate ironwork",
+        "Tight sequence of interior spaces",
+        "House and studio side by side",
+        "Integrated Art Nouveau decoration"
+      ],
+      "funFacts": ["It is part of a UNESCO listing of Horta's major town houses."]
+    }
+  },
+  {
+    "id": "secession-building",
+    "name": "Secession Building",
+    "aliases": ["Wiener Secession", "Secession Hall", "Secessionsgebäude", "Vienna Secession"],
+    "architects": [
+      {
+        "name": "Joseph Maria Olbrich",
+        "aliases": ["Olbrich"],
+        "nationality": "Austrian",
+        "bio": "Architect who designed the building in 1898 as a manifesto for the Vienna Secession group of rebel artists."
+      }
+    ],
+    "location": { "city": "Vienna", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1898,
+    "era": "ART_NOUVEAU",
+    "style": "Vienna Secession",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Secession_Wien.jpg/1920px-Secession_Wien.jpg",
+        "alt": "White cubic pavilion crowned by a gilded openwork dome, behind trees",
+        "credit": "Photo: Thomas Ledl · CC BY-SA 3.0 at · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Secession_Wien.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Wiener_Secessionsgeb%C3%A4ude._Innenr%C3%A4ume._2017-10-01_11-16-04_%28stereo%2C_side-by-side%29.jpg/1920px-Wiener_Secessionsgeb%C3%A4ude._Innenr%C3%A4ume._2017-10-01_11-16-04_%28stereo%2C_side-by-side%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 0.5, "h": 1 },
+        "alt": "Bright white exhibition hall under a glass ceiling",
+        "caption": "An exhibition hall.",
+        "credit": "Photo: Shesmax · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Wiener_Secessionsgeb%C3%A4ude._Innenr%C3%A4ume._2017-10-01_11-16-04_(stereo,_side-by-side).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in 1898 as the manifesto of a group of artists who broke away from the established academy."
+      },
+      {
+        "order": 2,
+        "text": "Above its entrance is the motto 'To every age its art, to every art its freedom'."
+      },
+      {
+        "order": 3,
+        "text": "It houses a famous frieze dedicated to a composer, painted by Gustav Klimt."
+      }
+    ],
+    "summary": {
+      "description": "Joseph Maria Olbrich completed the exhibition building in 1898 as an architectural manifesto for the Vienna Secession, the artists who left the established institution. Above the entrance runs the movement's motto, 'Der Zeit ihre Kunst, der Kunst ihre Freiheit', and inside is Gustav Klimt's Beethoven Frieze.",
+      "keyFeatures": [
+        "Movement's motto over the entrance",
+        "Beethoven Frieze by Klimt",
+        "Exhibition pavilion for the Secession artists"
+      ],
+      "funFacts": ["Klimt's Beethoven Frieze is one of the best-known works of the Secession style."]
+    }
+  },
+  {
+    "id": "hospital-de-sant-pau",
+    "name": "Hospital de Sant Pau",
+    "aliases": [
+      "Hospital de la Santa Creu i Sant Pau",
+      "Sant Pau",
+      "Hospital of the Holy Cross and Saint Paul",
+      "Recinte Modernista de Sant Pau"
+    ],
+    "architects": [
+      {
+        "name": "Lluís Domènech i Montaner",
+        "aliases": ["Domènech i Montaner", "Domènech"],
+        "nationality": "Catalan (Spanish)",
+        "bio": "Catalan modernisme architect, also the author of the Palau de la Música Catalana."
+      }
+    ],
+    "location": { "city": "Barcelona", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1930,
+    "era": "ART_NOUVEAU",
+    "style": "Catalan Modernisme",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Vista_exterior_Pavell%C3%B3_de_Nostra_Senyora_de_la_Merc%C3%A8._Seu_de_GWOPA_i_l%E2%80%99OMS.JPG/1920px-Vista_exterior_Pavell%C3%B3_de_Nostra_Senyora_de_la_Merc%C3%A8._Seu_de_GWOPA_i_l%E2%80%99OMS.JPG",
+        "alt": "Red-brick pavilion with tiled domes and a corner tower, set in gardens",
+        "credit": "Photo: Teresa Grau Ros · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vista_exterior_Pavell%C3%B3_de_Nostra_Senyora_de_la_Merc%C3%A8._Seu_de_GWOPA_i_l%E2%80%99OMS.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Interior_of_dome%2C_Pavell%C3%B3_de_Sant_Salvador%2C_Hospital_de_la_Santa_Creu_i_Sant_Pau_01.jpg/1920px-Interior_of_dome%2C_Pavell%C3%B3_de_Sant_Salvador%2C_Hospital_de_la_Santa_Creu_i_Sant_Pau_01.jpg",
+        "alt": "Ceiling vault covered in blue and gold ceramic tiles",
+        "caption": "A tiled vault.",
+        "credit": "Photo: Joe Mabel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_dome,_Pavell%C3%B3_de_Sant_Salvador,_Hospital_de_la_Santa_Creu_i_Sant_Pau_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "The institution it housed was founded in 1401 by merging six medieval hospitals."
+      },
+      { "order": 2, "text": "Its twelve pavilions are connected by long underground galleries." },
+      {
+        "order": 3,
+        "text": "It was paid for by a banker whose name was added to the hospital's, and worked as a hospital until 2009."
+      }
+    ],
+    "summary": {
+      "description": "Lluís Domènech i Montaner's new hospital was begun in 1902 and built until 1930, funded by the banker Pau Gil. Its twelve pavilions in a large green space, linked by underground galleries, make it the largest complex built in Art Nouveau. It was a working hospital until 2009 and became a UNESCO site in 1997.",
+      "keyFeatures": [
+        "Twelve pavilions in gardens",
+        "Underground galleries linking them",
+        "Largest complex built in Art Nouveau",
+        "Large green space around the pavilions"
+      ],
+      "funFacts": ["It shares its UNESCO listing with the Palau de la Música Catalana."]
+    }
+  },
+  {
+    "id": "municipal-house-prague",
+    "name": "Municipal House",
+    "aliases": ["Obecní dům", "Obecni dum", "Municipal House (Prague)"],
+    "architects": [
+      {
+        "name": "Osvald Polívka",
+        "aliases": ["Polívka"],
+        "nationality": "Czech",
+        "bio": "Co-designer of the building, begun in 1905 and opened in 1912."
+      },
+      {
+        "name": "Antonín Balšánek",
+        "aliases": ["Balšánek"],
+        "nationality": "Czech",
+        "bio": "Co-designer of the building with Osvald Polívka."
+      }
+    ],
+    "location": { "city": "Prague", "country": "Czech Republic", "countryCode": "CZ" },
+    "yearCompleted": 1912,
+    "era": "ART_NOUVEAU",
+    "style": "Art Nouveau",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Jugendstil_Prag_Gemeindehaus_1.jpg/1920px-Jugendstil_Prag_Gemeindehaus_1.jpg",
+        "alt": "Ornate yellow building with a domed corner entrance and a mosaic in its arch, on a square",
+        "credit": "Photo: Thomas Ledl · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Jugendstil_Prag_Gemeindehaus_1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Municipal_House_%2852445221417%29.jpg/1920px-Municipal_House_%2852445221417%29.jpg",
+        "alt": "Hall with a blue painted arch and gilded decoration over a stage",
+        "caption": "A hall.",
+        "credit": "Photo: Kent Wang · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Municipal_House_(52445221417).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a civic building whose main hall is named after a national composer."
+      },
+      { "order": 2, "text": "It was begun in 1905 and opened in 1912." },
+      { "order": 3, "text": "A new country's declaration of independence was made here in 1918." }
+    ],
+    "summary": {
+      "description": "Designed by Osvald Polívka and Antonín Balšánek and opened in 1912, the Municipal House is a civic building holding Smetana Hall, a celebrated concert hall and ballroom. Its decoration includes work by Alfons Mucha, Jan Preisler and Max Švabinský, and Czechoslovak independence was declared there in 1918.",
+      "keyFeatures": [
+        "Smetana Hall",
+        "Artwork by Mucha, Preisler and Švabinský",
+        "Café and restaurant flanking the lobby",
+        "Concert hall and ballroom"
+      ],
+      "funFacts": ["It is still used for concerts, balls and civic events."]
+    }
+  },
+  {
+    "id": "empire-state-building",
+    "name": "Empire State Building",
+    "aliases": ["Empire State", "ESB"],
+    "architects": [
+      {
+        "name": "Shreve, Lamb & Harmon",
+        "aliases": ["Shreve, Lamb and Harmon", "William F. Lamb", "Lamb"],
+        "nationality": "American",
+        "bio": "New York architectural firm that designed the tower in the Art Deco style, changing the design fifteen times to ensure it was the tallest."
+      }
+    ],
+    "location": { "city": "New York City", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1931,
+    "era": "ART_DECO",
+    "style": "Art Deco",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Empire_State_Building_%28New_York%29_%2845240606631%29.jpg/1920px-Empire_State_Building_%28New_York%29_%2845240606631%29.jpg",
+        "alt": "Slender limestone skyscraper with setbacks and a mast against a blue sky",
+        "credit": "Photo: VillageHero · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_(New_York)_(45240606631).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Empire_Statre_Building_Entry_Hall_%28New_York%29_%2845240053281%29.jpg/1920px-Empire_Statre_Building_Entry_Hall_%28New_York%29_%2845240053281%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.68 },
+        "alt": "Gilded metal relief of a skyscraper in a marble lobby",
+        "caption": "The lobby.",
+        "credit": "Photo: VillageHero · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Empire_Statre_Building_Entry_Hall_(New_York)_(45240053281).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built in about thirteen and a half months, opening on 1 May 1931." },
+      { "order": 2, "text": "It has 102 storeys and was the world's tallest building until 1970." },
+      {
+        "order": 3,
+        "text": "It has appeared in more than 250 films and series since a 1933 film about a giant ape."
+      }
+    ],
+    "summary": {
+      "description": "Designed in the Art Deco style by Shreve, Lamb & Harmon, the 102-storey skyscraper was built in thirteen and a half months from March 1930 and opened on 1 May 1931. It was the world's tallest building until 1970, and about four million people a year visit its observatories.",
+      "keyFeatures": [
+        "102 storeys",
+        "Art Deco design",
+        "Observatories on the 86th and 102nd floors",
+        "Indoor observatory on the 80th floor (2019)"
+      ],
+      "funFacts": ["Its design was changed fifteen times to make sure it would be the tallest."]
+    }
+  },
+  {
+    "id": "fisher-building",
+    "name": "Fisher Building",
+    "aliases": ["The Fisher Building", "Fisher Building Detroit"],
+    "architects": [
+      {
+        "name": "Albert Kahn",
+        "aliases": ["Kahn"],
+        "nationality": "American",
+        "bio": "Detroit architect whose firm, Albert Kahn Associates, designed the building; it is one of his major works."
+      },
+      {
+        "name": "Joseph Nathaniel French",
+        "aliases": ["French"],
+        "nationality": "American",
+        "bio": "Chief architect of the building at Albert Kahn Associates."
+      }
+    ],
+    "location": { "city": "Detroit", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1928,
+    "era": "ART_DECO",
+    "style": "Art Deco",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fisher_Building_as_seen_from_West_Grand_Boulevard_in_front_of_Cadillac_Place%2C_New_Center%2C_Detroit_-_20201215.jpg/1920px-Fisher_Building_as_seen_from_West_Grand_Boulevard_in_front_of_Cadillac_Place%2C_New_Center%2C_Detroit_-_20201215.jpg",
+        "alt": "Tall stone Art Deco tower with setbacks and a pitched roof, above a street",
+        "credit": "Photo: Andre Carrotflower · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fisher_Building_as_seen_from_West_Grand_Boulevard_in_front_of_Cadillac_Place,_New_Center,_Detroit_-_20201215.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Interior_of_Fisher_Building%2C_Detroit.JPG/1920px-Interior_of_Fisher_Building%2C_Detroit.JPG",
+        "alt": "Vaulted arcade ceiling painted with bright geometric patterns",
+        "caption": "The arcade.",
+        "credit": "Photo: Király-Seth · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Fisher_Building,_Detroit.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built by a family of brothers across from the headquarters of the car company that had bought their body business."
+      },
+      {
+        "order": 2,
+        "text": "Its 30 storeys are faced with limestone, granite and several types of marble."
+      },
+      {
+        "order": 3,
+        "text": "Its roof was covered in gold-leaf tiles, which were asphalted over in the Second World War for fear of attracting bombers."
+      }
+    ],
+    "summary": {
+      "description": "Completed in 1928 for the Fisher brothers, the 30-storey tower is one of the major works of Albert Kahn, with Joseph Nathaniel French as chief architect. Faced in limestone, granite and marble, it contains the 2,089-seat Fisher Theatre. The original plan called for two 30-storey towers flanking a 60-storey tower.",
+      "keyFeatures": [
+        "Hipped roof, once gold-tiled",
+        "Limestone, granite and marble facing",
+        "Elaborately decorated arcade",
+        "Fisher Theatre"
+      ],
+      "funFacts": ["Its green roof tiles are lit at night to look gold.", "It became a National Historic Landmark in 1989."]
+    }
+  },
+  {
+    "id": "guardian-building",
+    "name": "Guardian Building",
+    "aliases": ["Union Trust Building", "Cathedral of Finance"],
+    "architects": [
+      {
+        "name": "Wirt Rowland",
+        "aliases": ["Rowland"],
+        "nationality": "American",
+        "bio": "Designer who used coloured brick, stone and terra cotta in geometric patterns instead of traditional ornament, and introduced Monel metal for exposed metalwork."
+      }
+    ],
+    "location": { "city": "Detroit", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1929,
+    "era": "ART_DECO",
+    "style": "Art Deco",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Guardian_Building_in_Titan%27s_Eyes.jpg/1920px-Guardian_Building_in_Titan%27s_Eyes.jpg",
+        "alt": "Orange-brick Art Deco skyscraper with a stepped crown, seen from below",
+        "credit": "Photo: Richard Hedrick · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Guardian_Building_in_Titan%27s_Eyes.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Detroit_December_2015_26_%28Guardian_Building%29.jpg/1920px-Detroit_December_2015_26_%28Guardian_Building%29.jpg",
+        "alt": "Vaulted lobby covered in colourful tiles with a stained-glass window",
+        "caption": "The lobby.",
+        "credit": "Photo: Michael Barera · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Detroit_December_2015_26_(Guardian_Building).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built in 1928–1929 for a bank, and was first named after it." },
+      {
+        "order": 2,
+        "text": "Its nickname compares it to a cathedral, with a tower over the entrance and an apse at the far end."
+      },
+      {
+        "order": 3,
+        "text": "Its vaulted three-storey lobby is lavishly covered in Pewabic and Rookwood tile."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1928–1929 as the Union Trust Building, Wirt Rowland's tower is a bold example of Art Deco. Its nickname, the Cathedral of Finance, refers to its tower and apse-like end. Coloured brick, stone and terra cotta form geometric patterns inside and out, and the vaulted lobby is clad in Pewabic and Rookwood tile.",
+      "keyFeatures": [
+        "Orange 'Guardian brick' exterior",
+        "Vaulted three-storey lobby with tile",
+        "Pewabic pottery in the domes",
+        "Monel metalwork"
+      ],
+      "funFacts": ["Its use of Monel metal was widely copied, notably on the Chrysler Building."]
+    }
+  },
+  {
+    "id": "eltham-palace",
+    "name": "Eltham Palace",
+    "aliases": ["Eltham", "Eltham Palace and Gardens"],
+    "architects": [
+      {
+        "name": "Seely & Paget",
+        "aliases": ["Seely and Paget", "John Seely", "Paul Paget"],
+        "nationality": "British",
+        "bio": "Architects commissioned in 1933 to restore the medieval hall and build a modern home attached to it."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1936,
+    "era": "ART_DECO",
+    "style": "Art Deco interiors with a medieval great hall",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1212906_II_Star_ELTHAM_COURT_%28ELTHAM_PALACE%29%2C_COURT_YARD%2C_from_S_Greenwich_London_20250610_0009.jpg/1920px-1212906_II_Star_ELTHAM_COURT_%28ELTHAM_PALACE%29%2C_COURT_YARD%2C_from_S_Greenwich_London_20250610_0009.jpg",
+        "alt": "Long brick-and-stone house beside a medieval great hall, behind a lawn",
+        "credit": "Photo: Tilman2007 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:1212906_II_Star_ELTHAM_COURT_(ELTHAM_PALACE),_COURT_YARD,_from_S_Greenwich_London_20250610_0009.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Eltham_Palace_%2836576626483%29.jpg/1920px-Eltham_Palace_%2836576626483%29.jpg",
+        "alt": "Circular hall with wood-panelled walls under a glazed dome of small lights",
+        "caption": "The entrance hall.",
+        "credit": "Photo: stuart Burns · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eltham_Palace_(36576626483).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It joins the medieval great hall of a royal residence to a house built in the 1930s."
+      },
+      { "order": 2, "text": "A future king grew up there and met Erasmus there in 1499." },
+      {
+        "order": 3,
+        "text": "Its circular entrance hall, lit by a glazed dome, has blackbean veneer and marquetry."
+      }
+    ],
+    "summary": {
+      "description": "In 1933 Stephen and Virginia Courtauld leased the ruins of Eltham Palace and commissioned Seely & Paget to restore Edward IV's great hall of the 1470s and attach a modern home. The house was decorated in the Art Deco style; Rolf Engströmer designed its domed entrance hall.",
+      "keyFeatures": [
+        "Medieval great hall with hammerbeam roof",
+        "Domed Art Deco entrance hall",
+        "Blackbean veneer and marquetry",
+        "Exterior inspired by Wren"
+      ],
+      "funFacts": ["Its hammerbeam roof is the third-largest of its type in England."]
+    }
+  },
+  {
+    "id": "farnsworth-house",
+    "name": "Farnsworth House",
+    "aliases": ["Edith Farnsworth House", "Farnsworth"],
+    "architects": [
+      {
+        "name": "Ludwig Mies van der Rohe",
+        "aliases": ["Mies van der Rohe", "Mies"],
+        "nationality": "German-American",
+        "bio": "Modernist architect of the International Style whose American works include a glass weekend house and a bronze-clad Park Avenue tower."
+      }
+    ],
+    "location": { "city": "Plano, Illinois", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1951,
+    "era": "MODERNISM",
+    "style": "International Style",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Farnsworth_House_Plano-0003.jpg/1920px-Farnsworth_House_Plano-0003.jpg",
+        "alt": "White steel-framed glass box raised above a lawn among trees",
+        "credit": "Photo: Paul R. Burley · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Farnsworth_House_Plano-0003.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Farnsworth_House_Interior.jpg/1920px-Farnsworth_House_Interior.jpg",
+        "alt": "Glass-walled room with a wooden core and Barcelona chairs",
+        "caption": "The living space.",
+        "credit": "Photo: Lessismore2020 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Farnsworth_House_Interior.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as a weekend retreat for a doctor beside a river that floods."
+      },
+      {
+        "order": 2,
+        "text": "It is raised about 1.6 metres above the floodplain, with a minimalist exterior and an open plan."
+      },
+      { "order": 3, "text": "Architect and client sued each other in 1951 over its rising cost." }
+    ],
+    "summary": {
+      "description": "Completed in 1951, this weekend house for the physician Edith Farnsworth by Ludwig Mies van der Rohe stands near the Fox River. Raised above the floodplain, it is a minimalist glass box with a mostly open plan. Disputes over its cost led architect and client to sue each other.",
+      "keyFeatures": ["Minimalist exterior", "Floor raised 1.6 m above the floodplain", "Mostly open plan", "Riverside site"],
+      "funFacts": ["It was restored after floods in the late 1990s and in 2008."]
+    }
+  },
+  {
+    "id": "villa-tugendhat",
+    "name": "Villa Tugendhat",
+    "aliases": ["Vila Tugendhat", "Tugendhat House", "Tugendhat Villa"],
+    "architects": [
+      {
+        "name": "Ludwig Mies van der Rohe",
+        "aliases": ["Mies van der Rohe", "Mies"],
+        "nationality": "German-American",
+        "bio": "Modernist architect of the International Style whose American works include a glass weekend house and a bronze-clad Park Avenue tower."
+      },
+      {
+        "name": "Lilly Reich",
+        "aliases": ["Reich"],
+        "nationality": "German",
+        "bio": "Interior designer who designed the villa with Mies and collaborated on all its furnishings."
+      }
+    ],
+    "location": { "city": "Brno", "country": "Czech Republic", "countryCode": "CZ" },
+    "yearCompleted": 1930,
+    "era": "MODERNISM",
+    "style": "Functionalism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Vila_Tugendhat_exterior_Dvorak2.JPG/1920px-Vila_Tugendhat_exterior_Dvorak2.JPG",
+        "alt": "White modernist house with long horizontal windows on a sloping lawn",
+        "credit": "Photo: Petr1987 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vila_Tugendhat_exterior_Dvorak2.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Villa_Tugendhat_Haus_house_Brno_Br%C3%BCnn_Bauhaus_classic_living_room_MD284.jpg/1920px-Villa_Tugendhat_Haus_house_Brno_Br%C3%BCnn_Bauhaus_classic_living_room_MD284.jpg",
+        "alt": "Open living room with an onyx wall and large windows over a city view",
+        "caption": "The living area.",
+        "credit": "Photo: Mike Duchstein · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Tugendhat_Haus_house_Brno_Br%C3%BCnn_Bauhaus_classic_living_room_MD284.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built in 1928–1930 for a wealthy Jewish couple, Fritz and Greta." },
+      {
+        "order": 2,
+        "text": "Two of the huge windows of its living area can be lowered completely into the floor."
+      },
+      {
+        "order": 3,
+        "text": "Its interior has no paintings, but features an onyx wall and rare tropical woods."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Ludwig Mies van der Rohe and Lilly Reich and built in 1928–1930 for Fritz and Greta Tugendhat, the villa is a pioneering prototype of modern architecture. An iron frame freed the plan from load-bearing walls; the living area opens through a curtain wall of large windows onto Špilberk Castle. It became a UNESCO site in 2001.",
+      "keyFeatures": [
+        "Iron frame with free plan",
+        "Curtain wall with windows that sink into the floor",
+        "Onyx wall",
+        "Furniture designed for the house"
+      ],
+      "funFacts": ["The Tugendhat and Brno chairs designed for it are still in production."]
+    }
+  },
+  {
+    "id": "paimio-sanatorium",
+    "name": "Paimio Sanatorium",
+    "aliases": ["Paimion parantola", "Paimio Hospital", "Paimio"],
+    "architects": [
+      {
+        "name": "Alvar Aalto",
+        "aliases": ["Aalto", "Hugo Alvar Henrik Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish modernist architect who worked in partnership with his wife Aino; their studio designed buildings, furniture and lighting as integrated wholes."
+      },
+      {
+        "name": "Aino Aalto",
+        "aliases": ["Aino Marsio-Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish architect and designer, partner in the Aalto studio, who led much of its interior and furniture design."
+      }
+    ],
+    "location": { "city": "Paimio", "country": "Finland", "countryCode": "FI" },
+    "yearCompleted": 1933,
+    "era": "MODERNISM",
+    "style": "Functionalism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Unesco_2026_Paimion_parantola_Alvar_Aalto.jpg/1920px-Unesco_2026_Paimion_parantola_Alvar_Aalto.jpg",
+        "alt": "Long white modernist hospital wings among pine forest, seen from above",
+        "credit": "Photo: Aurorakiitäjä · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Unesco_2026_Paimion_parantola_Alvar_Aalto.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Paimion_parantola_aula.jpg/1920px-Paimion_parantola_aula.jpg",
+        "alt": "Bright lounge with a curved glass wall, round skylights and armchairs",
+        "caption": "A lounge.",
+        "credit": "Photo: Mikkoau · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paimion_parantola_aula.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for patients with tuberculosis, after a competition won in 1929."
+      },
+      {
+        "order": 2,
+        "text": "Its designers treated light, colour, acoustics, ventilation and furniture as parts of the patients' cure."
+      },
+      { "order": 3, "text": "An armchair designed for it went into commercial production." }
+    ],
+    "summary": {
+      "description": "Alvar and Aino Aalto won the competition in 1929 and completed the sanatorium in 1933. It was designed as an integrated environment for tuberculosis patients, with sunlight, colour, acoustics, ventilation, furniture and lighting all considered. It became part of a UNESCO listing of Aalto works in 2026.",
+      "keyFeatures": [
+        "Building designed around access to sunlight and nature",
+        "Integrated furniture and lighting",
+        "Paimio chair",
+        "Attention to acoustics, colour and ventilation"
+      ],
+      "funFacts": ["Plans announced in 2026 would turn it into a hotel and cultural venue."]
+    }
+  },
+  {
+    "id": "villa-mairea",
+    "name": "Villa Mairea",
+    "aliases": ["Mairea"],
+    "architects": [
+      {
+        "name": "Alvar Aalto",
+        "aliases": ["Aalto", "Hugo Alvar Henrik Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish modernist architect who worked in partnership with his wife Aino; their studio designed buildings, furniture and lighting as integrated wholes."
+      },
+      {
+        "name": "Aino Aalto",
+        "aliases": ["Aino Marsio-Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish architect and designer, partner in the Aalto studio, who led much of its interior and furniture design."
+      }
+    ],
+    "location": { "city": "Noormarkku, Pori", "country": "Finland", "countryCode": "FI" },
+    "yearCompleted": 1939,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Villa_Mairea3.jpg/1920px-Villa_Mairea3.jpg",
+        "alt": "White villa with timber-clad upper volume among pine trees",
+        "credit": "Photo: Mikkoau · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Mairea3.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Mairea_bookshelves.jpg/1920px-Mairea_bookshelves.jpg",
+        "alt": "Library corner with wooden shelves and a dark wood ceiling",
+        "caption": "The library.",
+        "credit": "Photo: Frans Drewniak · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mairea_bookshelves.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in 1938–1939 for a wealthy industrial couple, after whose wife it is named."
+      },
+      { "order": 2, "text": "The clients told the architects to treat it as 'an experimental house'." },
+      {
+        "order": 3,
+        "text": "Its plan is a modified L-shape, and its interiors are rich in wood, stone and brick."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Aino and Alvar Aalto for Harry and Maire Gullichsen and built in 1938–1939, the villa was meant as an experimental house. Its modified L-shaped plan and interiors led by Aino Aalto, rich in wood, stone and brick with custom cabinetry and lighting, make it one of the studio's most important buildings.",
+      "keyFeatures": [
+        "Modified L-shaped plan",
+        "Interiors in wood, stone and brick",
+        "Custom built-in cabinetry and lighting",
+        "Textiles designed for the house"
+      ],
+      "funFacts": ["It became part of a UNESCO listing of Aalto works in 2026."]
+    }
   }
 ]
