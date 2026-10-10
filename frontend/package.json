@@ -1,11 +1,15 @@
 {
   "name": "frontend",
   "private": true,
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:static": "node scripts/build-static-api.mjs && VITE_STATIC_API=true vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run"

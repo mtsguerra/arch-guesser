@@ -25,6 +25,23 @@ export function AppShell({ actions, children }) {
         <div className={styles.actions}>{actions}</div>
       </header>
       <main className={styles.main}>{children}</main>
+      <footer className={styles.footer}>
+        <p>
+          {strings.credits.images}{' '}
+          <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">
+            {strings.credits.commons}
+          </a>
+          {strings.credits.facts}{' '}
+          <a href="https://www.wikipedia.org/" target="_blank" rel="noreferrer">
+            {strings.credits.wikipedia}
+          </a>{' '}
+          (
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">
+            {strings.credits.licence}
+          </a>
+          ).
+        </p>
+      </footer>
     </div>
   )
 }

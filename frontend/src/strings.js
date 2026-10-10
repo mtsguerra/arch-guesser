@@ -3,6 +3,14 @@ export const strings = {
   appName: 'Arch Guesser',
   nextBuilding: 'Another building',
 
+  credits: {
+    images: 'Images from',
+    commons: 'Wikimedia Commons',
+    facts: ', credited on each reveal. Facts adapted from',
+    wikipedia: 'Wikipedia',
+    licence: 'CC BY-SA 4.0',
+  },
+
   board: {
     label: 'Drawings',
     tabsLabel: 'Drawing sheets',

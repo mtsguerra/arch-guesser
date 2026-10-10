@@ -53,3 +53,6 @@ frontend/yarn-debug.log*
 frontend/yarn-error.log*
 ### Impeccable review captures ###
 .impeccable/review/
+
+# JetBrains IDE settings (machine-specific)
+.idea/
