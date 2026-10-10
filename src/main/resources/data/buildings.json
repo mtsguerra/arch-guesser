@@ -6486,5 +6486,712 @@
         "It was named one of the three best cruise ports in the world at the 2015 Seatrade Awards."
       ]
     }
+  },
+  {
+    "id": "pantheon-rome",
+    "name": "Pantheon",
+    "aliases": [
+      "Pantheon, Rome",
+      "Pantheon of Rome",
+      "Santa Maria ad Martyres",
+      "Basilica of St. Mary and the Martyrs",
+      "Pantheum"
+    ],
+    "architects": [
+      {
+        "name": "Apollodorus of Damascus",
+        "aliases": ["Apollodorus"],
+        "nationality": "Syrian-Greek (worked in Rome)",
+        "bio": "Trajan's architect; on stylistic grounds some scholars see him as the designer of Hadrian's rebuilt temple, though the attribution is uncertain."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 126,
+    "era": "CLASSICAL",
+    "style": "Ancient Roman",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/L06_731e_Pantheon.jpg/1920px-L06_731e_Pantheon.jpg",
+        "alt": "Round brick building with a deep portico of granite columns under a pediment, on a crowded square",
+        "credit": "Photo: Falk2 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:L06_731e_Pantheon.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Pante%C3%B3n_de_Agripa%2C_Roma%2C_Italia%2C_2022-09-15%2C_DD_21-23_HDR.jpg/1920px-Pante%C3%B3n_de_Agripa%2C_Roma%2C_Italia%2C_2022-09-15%2C_DD_21-23_HDR.jpg",
+        "alt": "Coffered concrete dome seen from below, with a round opening to the sky at its centre",
+        "caption": "The dome and oculus.",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pante%C3%B3n_de_Agripa,_Roma,_Italia,_2022-09-15,_DD_21-23_HDR.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced an earlier temple built under Augustus; the emperor who rebuilt it kept the original founder's inscription."
+      },
+      { "order": 2, "text": "Since 609 it has been a Catholic church." },
+      {
+        "order": 3,
+        "text": "Its height to the opening in the roof equals the diameter of its interior circle: 43 metres."
+      }
+    ],
+    "summary": {
+      "description": "Rebuilt by the emperor Hadrian on the site of Agrippa's temple and probably dedicated around AD 126, the Pantheon joins a portico of granite Corinthian columns to a round cella under a coffered dome of Roman concrete. Almost two thousand years later its dome is still the largest unreinforced concrete dome in the world.",
+      "keyFeatures": [
+        "Portico with large granite Corinthian columns",
+        "Rotunda under a coffered concrete dome",
+        "Central oculus open to the sky",
+        "Equal height and interior diameter of 43 m"
+      ],
+      "funFacts": [
+        "The painter Raphael is buried inside.",
+        "Brunelleschi, among other architects, looked to it for inspiration."
+      ]
+    }
+  },
+  {
+    "id": "maison-carree",
+    "name": "Maison Carrée",
+    "aliases": ["Maison carrée", "Square House", "Maison Carree"],
+    "architects": [
+      {
+        "name": "Unknown Roman architect",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The designer of this Augustan provincial temple is not recorded; its form follows the Tuscan-style temple described by Vitruvius, but with the Corinthian order."
+      }
+    ],
+    "location": { "city": "Nîmes", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 4,
+    "era": "CLASSICAL",
+    "style": "Ancient Roman (Corinthian)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/France-002416_-_Square_House_%2815248027353%29.jpg/1920px-France-002416_-_Square_House_%2815248027353%29.jpg",
+        "alt": "Small Roman temple with Corinthian columns on a high podium with steps, lit at night",
+        "credit": "Photo: Dennis G. Jarvis · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:France-002416_-_Square_House_(15248027353).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Maison_Carr%C3%A9e_detail_01.JPG/1920px-Maison_Carr%C3%A9e_detail_01.JPG",
+        "alt": "Coffered stone ceiling of the temple's porch, seen from below between columns",
+        "caption": "The porch ceiling.",
+        "credit": "Photo: Chatsam · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Maison_Carr%C3%A9e_detail_01.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was dedicated or rededicated around AD 4–7 to two grandsons and heirs of Augustus who both died young."
+      },
+      {
+        "order": 2,
+        "text": "Thomas Jefferson had a model of it made, and based the Virginia State Capitol on it."
+      },
+      { "order": 3, "text": "It became a UNESCO World Heritage Site in 2023." }
+    ],
+    "summary": {
+      "description": "One of the best-preserved Roman temples anywhere, this mid-sized Augustan temple of the imperial cult stood over the forum of Roman Nîmes on a 2.85-metre podium. It was dedicated to Gaius and Lucius Caesar around AD 4–7. It later inspired the Église de la Madeleine in Paris and Jefferson's Virginia State Capitol.",
+      "keyFeatures": [
+        "High podium with a frontal stair",
+        "Corinthian order",
+        "Rectangle almost twice as long as wide",
+        "Deep porch"
+      ],
+      "funFacts": [
+        "Its dedicatory inscription was removed in the Middle Ages; its text is known from a reconstruction by Séguier.",
+        "The present door dates from 1824."
+      ]
+    }
+  },
+  {
+    "id": "temple-of-hephaestus",
+    "name": "Temple of Hephaestus",
+    "aliases": ["Hephaisteion", "Hephaesteum", "Theseion", "Theseum", "Temple of Theseus"],
+    "architects": [
+      {
+        "name": "The Hephaisteion Master",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "Many architects have been suggested, but without firm evidence the designer is simply called the Hephaisteion Master."
+      }
+    ],
+    "location": { "city": "Athens", "country": "Greece", "countryCode": "GR" },
+    "yearCompleted": -415,
+    "era": "CLASSICAL",
+    "style": "Ancient Greek (Doric)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/The_Temple_of_Hephaistos_on_13_April_2018.jpg/1920px-The_Temple_of_Hephaistos_on_13_April_2018.jpg",
+        "alt": "Complete Doric marble temple with a ring of columns, seen among shrubs",
+        "credit": "Photo: George E. Koronaios · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Temple_of_Hephaistos_on_13_April_2018.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tempio_di_Efesto_%28Atene%29_16-3-2005_02.jpg",
+        "alt": "View up between Doric columns and a sculpted frieze inside the colonnade",
+        "caption": "Inside the colonnade.",
+        "credit": "Photo: Marcok · CC BY-SA 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tempio_di_Efesto_(Atene)_16-3-2005_02.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It stands on a hill at the north-west of an ancient city's agora." },
+      {
+        "order": 2,
+        "text": "For centuries it was wrongly believed to hold the remains of a hero, and named after him."
+      },
+      {
+        "order": 3,
+        "text": "Begun in 449 BC, it was only roofed decades later, as funds went to a more famous temple nearby."
+      }
+    ],
+    "summary": {
+      "description": "This Doric peripteral temple to Hephaestus overlooks the Agora of Athens. Construction started in 449 BC, but workers and funds were diverted to the Parthenon, and its roof and cult statues were completed only around 421–415 BC. Used as the church of Saint George from the 7th century until 1834, it is one of the best-preserved Greek temples.",
+      "keyFeatures": [
+        "Doric peristyle",
+        "Sculpted friezes in Pentelic and Parian marble",
+        "Pronaos aligned with the third flank columns",
+        "Almost intact roofline"
+      ],
+      "funFacts": [
+        "In the 3rd century BC a garden of pomegranate, myrtle and laurel was planted around it.",
+        "It was long called the Theseion after Theseus."
+      ]
+    }
+  },
+  {
+    "id": "baths-of-caracalla",
+    "name": "Baths of Caracalla",
+    "aliases": ["Terme di Caracalla", "Thermae Antoninianae", "Caracalla Baths"],
+    "architects": [
+      {
+        "name": "Unknown Roman architects",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The builders of this imperial bath complex, erected under Septimius Severus and Caracalla, are not recorded."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 216,
+    "era": "CLASSICAL",
+    "style": "Ancient Roman",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Baths_o.f_Caracalla_01.jpg/1920px-Baths_o.f_Caracalla_01.jpg",
+        "alt": "Towering ruined brick walls and piers of a vast ancient building, on open grass",
+        "credit": "Photo: MatthiasKabel · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Baths_o.f_Caracalla_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Interior_of_Baths_of_Caracalla_in_Rome%2C_2016_%2828870538652%29.jpg/1920px-Interior_of_Baths_of_Caracalla_in_Rome%2C_2016_%2828870538652%29.jpg",
+        "alt": "Ruined vaulted brick hall with a black-and-white mosaic floor",
+        "caption": "A hall with mosaic floor.",
+        "credit": "Photo: Sarahhoa · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Baths_of_Caracalla_in_Rome,_2016_(28870538652).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was the second-largest public bath complex of its city, built in about AD 212–216."
+      },
+      {
+        "order": 2,
+        "text": "Its central cold hall was copied for the main halls of Penn Station in New York and Chicago Union Station."
+      },
+      { "order": 3, "text": "From 1937 to 1993 its hot room was the summer home of an opera company." }
+    ],
+    "summary": {
+      "description": "Built between about AD 212 and 216 under Septimius Severus and Caracalla, the baths covered a central block of 214 by 110 metres and could hold some 1,600 bathers at once. A vaulted frigidarium, a tepidarium, a domed caldarium almost as wide as the Pantheon's dome and an open-air swimming pool lined the main axis. They worked until the 530s.",
+      "keyFeatures": [
+        "Frigidarium under three groin vaults 32.9 m high",
+        "Domed caldarium almost 36 m across",
+        "Olympic-sized natatio",
+        "Two palaestras for exercise"
+      ],
+      "funFacts": [
+        "The Farnese Bull and Farnese Hercules were found in its ruins.",
+        "Two of its granite tubs became fountains in Piazza Farnese."
+      ]
+    }
+  },
+  {
+    "id": "san-vitale",
+    "name": "Basilica of San Vitale",
+    "aliases": ["San Vitale", "Basilica di San Vitale", "San Vitale Ravenna"],
+    "architects": [
+      {
+        "name": "Julius Argentarius",
+        "aliases": ["Argentarius", "Giuliano Argentario"],
+        "nationality": "Byzantine (worked in Ravenna)",
+        "bio": "A local banker and architect who sponsored the construction of the church, and also the nearby Sant'Apollinare in Classe."
+      }
+    ],
+    "location": { "city": "Ravenna", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 547,
+    "era": "BYZANTINE",
+    "style": "Byzantine",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Basilica_of_San_Vitale.jpg/1920px-Basilica_of_San_Vitale.jpg",
+        "alt": "Brick octagonal church with stepped roofs and arched windows, set in a garden",
+        "credit": "Photo: Commonists · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilica_of_San_Vitale.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ravenna%2C_basilica_di_San_Vitale_%28027%29.jpg/1920px-Ravenna%2C_basilica_di_San_Vitale_%28027%29.jpg",
+        "alt": "Lofty octagonal interior with arcades and gold mosaics in the apse",
+        "caption": "The octagon.",
+        "credit": "Photo: Gianni Careddu · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ravenna,_basilica_di_San_Vitale_(027).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was begun in 526 by a local bishop and completed in 547, after the emperor Justinian conquered Italy."
+      },
+      { "order": 2, "text": "Its plan is an octagon." },
+      {
+        "order": 3,
+        "text": "Its mosaics include famous portraits of an emperor and empress with their courts."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 526 under Bishop Ecclesius and completed by Bishop Maximian in 547, San Vitale is the only major church from Justinian's reign to survive virtually intact. Its octagonal plan holds the largest and best-preserved Byzantine mosaics outside Istanbul, including the panels of Justinian and Theodora.",
+      "keyFeatures": [
+        "Octagonal plan",
+        "Mosaics of Justinian and Theodora",
+        "Old Testament scenes in the lunettes",
+        "Apse mosaics"
+      ],
+      "funFacts": ["Julius Argentarius may appear among the courtiers in the Justinian mosaic."]
+    }
+  },
+  {
+    "id": "chora-church",
+    "name": "Chora Church",
+    "aliases": ["Kariye Mosque", "Kariye Camii", "Church of the Holy Saviour in Chora", "Chora"],
+    "architects": [
+      {
+        "name": "Unknown Byzantine builders",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The current fabric dates from 1077–1081, when Maria Doukaina rebuilt the church; the statesman Theodore Metochites added its mosaics, narthexes and funerary chapel in the 14th century."
+      }
+    ],
+    "location": { "city": "Istanbul", "country": "Turkey", "countryCode": "TR" },
+    "yearCompleted": 1321,
+    "era": "BYZANTINE",
+    "style": "Middle and Late Byzantine",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Kariye_Mosque_from_garden_in_2024_5382.jpg/1920px-Kariye_Mosque_from_garden_in_2024_5382.jpg",
+        "alt": "Small brick-and-stone church with a dome and layered roofs, beside a lawn",
+        "credit": "Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kariye_Mosque_from_garden_in_2024_5382.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Chora%27s_covered_mosaics_with_curtains_01.jpg/1920px-Chora%27s_covered_mosaics_with_curtains_01.jpg",
+        "alt": "Marble-clad nave under a dome, with windows in its drum",
+        "caption": "The nave.",
+        "credit": "Photo: Bjelica · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chora%27s_covered_mosaics_with_curtains_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was first built outside its city's walls, and later found itself inside new walls built in 413–414."
+      },
+      {
+        "order": 2,
+        "text": "A statesman and scholar endowed its famous mosaics and frescoes around 1310–1321."
+      },
+      {
+        "order": 3,
+        "text": "It has been a church, a mosque, a museum from 1945, and a mosque again since 2020."
+      }
+    ],
+    "summary": {
+      "description": "Rebuilt as an inscribed-cross church by Maria Doukaina in 1077–1081, the Chora was enriched between about 1310 and 1321 by Theodore Metochites, who added narthexes and a funerary chapel and paid for some of the finest surviving Late Byzantine mosaics and frescoes. They were left visible during most of its Ottoman use as a mosque.",
+      "keyFeatures": [
+        "Inscribed-cross (quincunx) plan",
+        "Late Byzantine mosaics and frescoes",
+        "Inner and outer narthexes",
+        "Funerary chapel (parekklesion)"
+      ],
+      "funFacts": [
+        "Theodore Metochites donated his personal library to the monastery.",
+        "He was exiled in 1328 by Andronicus III."
+      ]
+    }
+  },
+  {
+    "id": "st-marks-basilica",
+    "name": "St Mark's Basilica",
+    "aliases": ["Basilica di San Marco", "San Marco", "Saint Mark's Basilica", "St. Mark's Basilica"],
+    "architects": [
+      {
+        "name": "Unknown chief architect",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The name of the chief architect of the 11th-century church is not recorded; it was rebuilt under Doge Domenico I Contarini, modelled on the Church of the Holy Apostles in Constantinople."
+      }
+    ],
+    "location": { "city": "Venice", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1094,
+    "era": "BYZANTINE",
+    "style": "Italo-Byzantine",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/St_Mark%27s_Basilica%2C_Venice_%2840966589260%29.jpg/1920px-St_Mark%27s_Basilica%2C_Venice_%2840966589260%29.jpg",
+        "alt": "Ornate church front with five arched portals, gilded mosaics and domes, across a paved square",
+        "credit": "Photo: Ekaterina Kuzmina · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:St_Mark%27s_Basilica,_Venice_(40966589260).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/St_Mark%27s_Basilica_%2851351105718%29.jpg/1920px-St_Mark%27s_Basilica_%2851351105718%29.jpg",
+        "alt": "Interior under gold-ground mosaic domes and vaults, with galleries and a marble floor",
+        "caption": "The domes and mosaics.",
+        "credit": "Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:St_Mark%27s_Basilica_(51351105718).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was rebuilt from about 1063, on the model of a 6th-century church in Constantinople."
+      },
+      { "order": 2, "text": "It was the private chapel of its republic's head of state until 1797." },
+      {
+        "order": 3,
+        "text": "Four ancient bronze horses, looted in the Fourth Crusade, stood over its entrance."
+      }
+    ],
+    "summary": {
+      "description": "The present church, begun probably in 1063 under Doge Domenico I Contarini and dedicated in 1094, took as its model the Church of the Holy Apostles in Constantinople, with a central plan crowned by domes. Over eight centuries its brick walls were clad in marble and its domes and vaults in gold-ground mosaics.",
+      "keyFeatures": [
+        "Centrally planned Byzantine model",
+        "Gold-ground mosaics",
+        "Spoils from Constantinople",
+        "Pala d'Oro altarpiece"
+      ],
+      "funFacts": [
+        "It has been the cathedral of Venice only since 1807.",
+        "The Pala d'Oro was ordered from Constantinople in 1102."
+      ]
+    }
+  },
+  {
+    "id": "hosios-loukas",
+    "name": "Hosios Loukas",
+    "aliases": ["Monastery of Hosios Loukas", "Osios Loukas", "Hosios Lukas"],
+    "architects": [
+      {
+        "name": "Unknown Byzantine builders",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The builders of the monastery's two churches are not known; it grew around the tomb of the hermit Luke of Steiris."
+      }
+    ],
+    "location": { "city": "Distomo", "country": "Greece", "countryCode": "GR" },
+    "yearCompleted": 1012,
+    "era": "BYZANTINE",
+    "style": "Middle Byzantine",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Hosios_Loukas_%282013%29.jpg/1920px-Hosios_Loukas_%282013%29.jpg",
+        "alt": "Stone monastery churches with domes and a bell tower, in a valley below mountains",
+        "credit": "Photo: bradhostetler · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hosios_Loukas_(2013).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Hosios_Loukas-_Panagia_-_9414976369.jpg/1920px-Hosios_Loukas-_Panagia_-_9414976369.jpg",
+        "alt": "Stone church interior with arches and a marble column under a vault",
+        "caption": "The church.",
+        "credit": "Photo: bradhostetler · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hosios_Loukas-_Panagia_-_9414976369.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It grew around the relics of a hermit who died in 953." },
+      {
+        "order": 2,
+        "text": "Its main church, tentatively dated to 1011–12, is the earliest surviving domed-octagon church."
+      },
+      {
+        "order": 3,
+        "text": "It shares a UNESCO listing with two other Greek monasteries, Nea Moni and Daphni."
+      }
+    ],
+    "summary": {
+      "description": "Founded in the 10th century by the hermit Luke of Steiris near Distomo, the monastery has two joined churches: the Theotokos, the only church in mainland Greece known for certain to date from the 10th century, and the larger Katholikon of about 1011–12, the earliest domed-octagon church, with the best preserved mosaics of the Macedonian Renaissance.",
+      "keyFeatures": [
+        "Domed-octagon Katholikon",
+        "Dome on four squinches without a drum",
+        "Two adjoining churches",
+        "Macedonian Renaissance mosaics"
+      ],
+      "funFacts": ["The saint's relics were said to exude a healing perfumed oil."]
+    }
+  },
+  {
+    "id": "chartres-cathedral",
+    "name": "Chartres Cathedral",
+    "aliases": ["Cathédrale Notre-Dame de Chartres", "Notre-Dame de Chartres", "Cathedral of Our Lady of Chartres"],
+    "architects": [
+      {
+        "name": "Unknown master masons",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The architects of the 1194–1220 rebuilding are unknown; Jean Texier later added the Flamboyant north spire in 1507–1513."
+      }
+    ],
+    "location": { "city": "Chartres", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1220,
+    "era": "MEDIEVAL",
+    "style": "High Gothic",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Chartres%2C_Kathedrale%2C_Chor%2C_Nachtaufnahme.jpg/1920px-Chartres%2C_Kathedrale%2C_Chor%2C_Nachtaufnahme.jpg",
+        "alt": "Gothic cathedral with flying buttresses and a spire, floodlit at night",
+        "credit": "Photo: Rolf Kranz · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chartres,_Kathedrale,_Chor,_Nachtaufnahme.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Chartres_Notre-Dame_Interior_018_2904.jpg/1920px-Chartres_Notre-Dame_Interior_018_2904.jpg",
+        "alt": "Tall Gothic nave looking towards a rose window above lancets",
+        "caption": "The nave and west rose.",
+        "credit": "Photo: Ludvig14 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chartres_Notre-Dame_Interior_018_2904.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was mostly built between 1194 and 1220, on the site of at least five earlier cathedrals."
+      },
+      {
+        "order": 2,
+        "text": "Its two western spires are strikingly different: one plain, one Flamboyant."
+      },
+      {
+        "order": 3,
+        "text": "Most of its original stained glass survives, and it guards a tunic said to have been worn by the Virgin Mary."
+      }
+    ],
+    "summary": {
+      "description": "Rebuilt mostly between 1194 and 1220 above earlier Romanesque basements, the cathedral is one of the most influential examples of High Gothic. Its experimental flying buttresses let the builders drop the gallery, narrow the triforium and enlarge the windows, most of which keep their original glass. UNESCO called it the high point of French Gothic art.",
+      "keyFeatures": [
+        "Flying buttresses",
+        "Three-storey elevation without a gallery",
+        "Original stained glass",
+        "Contrasting plain and Flamboyant spires"
+      ],
+      "funFacts": [
+        "During the Revolution a local committee planned to blow it up.",
+        "Its relic, the Sancta Camisa, still draws pilgrims."
+      ]
+    }
+  },
+  {
+    "id": "sainte-chapelle",
+    "name": "Sainte-Chapelle",
+    "aliases": ["Sainte Chapelle", "Holy Chapel", "La Sainte-Chapelle"],
+    "architects": [
+      {
+        "name": "Unknown master mason",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The design was once credited to Pierre de Montreuil; modern scholarship favours Jean de Chelles or Thomas de Cormont, or an unidentified master from Amiens."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1248,
+    "era": "MEDIEVAL",
+    "style": "Rayonnant Gothic",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Paris_City_-_July_2022_27.jpg/1920px-Paris_City_-_July_2022_27.jpg",
+        "alt": "Slender Gothic chapel with a spire and gables, rising behind palace buildings round a courtyard",
+        "credit": "Photo: Luisfff2812 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paris_City_-_July_2022_27.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Interior_of_Sainte-Chapelle%2C_Paris_28_April_2018.jpg/1920px-Interior_of_Sainte-Chapelle%2C_Paris_28_April_2018.jpg",
+        "alt": "Upper chapel walled almost entirely with tall stained-glass windows under a blue starry vault",
+        "caption": "The upper chapel.",
+        "credit": "Photo: Pedro Szekely · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Sainte-Chapelle,_Paris_28_April_2018.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A king built it to house relics including what was claimed to be Christ's Crown of Thorns."
+      },
+      { "order": 2, "text": "It was consecrated on 26 April 1248 and has two superimposed chapels." },
+      {
+        "order": 3,
+        "text": "Its fifteen great windows form one of the largest collections of 13th-century stained glass."
+      }
+    ],
+    "summary": {
+      "description": "Built for Louis IX in the courtyard of the royal palace on the Île de la Cité and consecrated in 1248, the chapel housed his Passion relics. Its upper chapel is almost all glass: slender clustered supports and hidden iron chains carry fifteen great windows of the mid-13th century. It is a high point of Rayonnant Gothic.",
+      "keyFeatures": [
+        "Upper and lower chapels",
+        "Fifteen great stained-glass windows",
+        "Hidden iron chains bracing the walls",
+        "Rose window added in the 15th century"
+      ],
+      "funFacts": ["The relics were later moved to Notre-Dame.", "The present cedar spire was built from 1852."]
+    }
+  },
+  {
+    "id": "durham-cathedral",
+    "name": "Durham Cathedral",
+    "aliases": ["Cathedral Church of Christ, Blessed Mary the Virgin and St Cuthbert of Durham", "Durham"],
+    "architects": [
+      {
+        "name": "William de St-Calais",
+        "aliases": ["William of St. Carilef", "St-Calais", "Carilef"],
+        "lifespan": "d. 1096",
+        "nationality": "Norman",
+        "bio": "Bishop of Durham who demolished the old Saxon church and laid the foundation stone of the new cathedral on 11 August 1093; the cathedral was designed and built under him."
+      }
+    ],
+    "location": { "city": "Durham", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1133,
+    "era": "MEDIEVAL",
+    "style": "Romanesque (Norman)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Durham_-_Cathedral_-_Exterior_-_11.jpg/1920px-Durham_-_Cathedral_-_Exterior_-_11.jpg",
+        "alt": "Massive Romanesque cathedral with square towers above wooded riverbanks",
+        "credit": "Photo: Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Durham_-_Cathedral_-_Exterior_-_11.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Durham_-_Cathedral_-_Interior_-_15.jpg/1920px-Durham_-_Cathedral_-_Interior_-_15.jpg",
+        "alt": "Nave vault of pointed stone ribs seen from below",
+        "caption": "The nave vault.",
+        "credit": "Photo: Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Durham_-_Cathedral_-_Interior_-_15.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It holds the shrines of the saints Cuthbert and Bede." },
+      { "order": 2, "text": "Most of the present building was completed between 1093 and 1133." },
+      {
+        "order": 3,
+        "text": "Its nave ceiling is the earliest surviving example of a pointed rib vault."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1093 under Bishop William de St-Calais and largely complete by 1133, the cathedral is the largest and most perfect Norman building in England, according to UNESCO. Its nave holds the earliest surviving pointed rib vault, a turning point that anticipated the Gothic of northern France.",
+      "keyFeatures": [
+        "Pointed rib vault over the nave",
+        "Massive Romanesque piers",
+        "Galilee chapel of the 1170s",
+        "Site above the River Wear"
+      ],
+      "funFacts": [
+        "During the Wars of the Three Kingdoms it held 3,000 Scottish prisoners, 1,700 of whom died there.",
+        "It has stood in for fantasy locations in films."
+      ]
+    }
+  },
+  {
+    "id": "pisa-cathedral",
+    "name": "Pisa Cathedral",
+    "aliases": ["Duomo di Pisa", "Cattedrale di Santa Maria Assunta", "Santa Maria Assunta"],
+    "architects": [
+      {
+        "name": "Buscheto",
+        "aliases": ["Busketus"],
+        "nationality": "Pisan",
+        "bio": "Architect who began the cathedral in 1064 and welcomed Islamic and Armenian influence; his tomb is beside the north door of the façade."
+      },
+      {
+        "name": "Rainaldo",
+        "aliases": ["Master Rainaldo"],
+        "nationality": "Pisan",
+        "bio": "Architect who lengthened the nave, enlarged the transept and designed the marble façade in the 12th century."
+      }
+    ],
+    "location": { "city": "Pisa", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1118,
+    "era": "MEDIEVAL",
+    "style": "Pisan Romanesque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Piazza_del_Duomo_Pisa_5.jpg/1920px-Piazza_del_Duomo_Pisa_5.jpg",
+        "alt": "Marble Romanesque cathedral with tiers of arcades and a dome, beside a lawn",
+        "credit": "Photo: kallerna · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo_Pisa_5.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Pisa_Cathedral_Interior.jpg/1920px-Pisa_Cathedral_Interior.jpg",
+        "alt": "Nave of striped marble columns and arches under a gilded coffered ceiling",
+        "caption": "The nave.",
+        "credit": "Photo: Eric Kilby · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pisa_Cathedral_Interior.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was paid for with spoils from fighting in Sicily in 1064." },
+      {
+        "order": 2,
+        "text": "It is the oldest of three famous buildings on its square, one of which leans."
+      },
+      {
+        "order": 3,
+        "text": "Its black-and-white marble, raised arches and elliptical dome recall the great mosques."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1064 by Buscheto and consecrated in 1118, the cathedral defines Pisan Romanesque. Rainaldo lengthened it and built the façade of grey and white marble with four tiers of loggias. Inside, striped marble, raised lancet arches and an elliptical dome create an effect compared to the great mosques.",
+      "keyFeatures": [
+        "Façade with four tiers of loggias",
+        "Alternating black and white marble",
+        "Elliptical dome",
+        "Coloured marble and mosaic decoration"
+      ],
+      "funFacts": [
+        "Its roof was replaced after a fire in 1595.",
+        "Its bronze spoils of war included the Pisa Griffin; a copy is there now."
+      ]
+    }
   }
 ]

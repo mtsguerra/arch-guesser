@@ -16,8 +16,12 @@ export function useEras() {
   return eras
 }
 
+/** 1920 → "1920"; -415 → "415 BCE". */
+export function formatYear(y) {
+  return y < 0 ? `${-y} BCE` : String(y)
+}
+
 /** "Modernism · 1920–1970", "Classical Antiquity · 800 BCE–476", "Contemporary · 1990–now". */
 export function eraRange({ startYear, endYear }) {
-  const year = (y) => (y < 0 ? `${-y} BCE` : String(y))
-  return `${year(startYear)}–${endYear == null ? 'now' : year(endYear)}`
+  return `${formatYear(startYear)}–${endYear == null ? 'now' : formatYear(endYear)}`
 }

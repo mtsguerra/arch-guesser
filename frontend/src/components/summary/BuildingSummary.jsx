@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { ArrowRight, Check, Eye } from 'lucide-react'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
-import { eraRange } from '../../game/useEras.js'
+import { eraRange, formatYear } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
 import { strings } from '../../strings.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
@@ -24,7 +24,7 @@ function FactStrip({ building, era }) {
   const { location } = building
   const items = [
     [strings.summary.facts.location, [location.city, location.country].filter(Boolean).join(', ')],
-    [strings.summary.facts.completed, building.yearCompleted ?? strings.summary.facts.underConstruction],
+    [strings.summary.facts.completed, building.yearCompleted == null ? strings.summary.facts.underConstruction : formatYear(building.yearCompleted)],
     [
       strings.summary.facts.era,
       era ? (
