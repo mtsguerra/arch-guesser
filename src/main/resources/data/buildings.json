@@ -662,7 +662,7 @@
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/MASP_S%C3%A3o_Paulo_2018_07.jpg/1920px-MASP_S%C3%A3o_Paulo_2018_07.jpg",
         "alt": "Long open gallery where paintings stand on transparent easels in rows",
         "caption": "Paintings shown on transparent easels.",
-        "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0 · Wikimedia Commons",
+        "credit": "Photo: Photograph by Mike Peel · CC BY-SA 4.0 · Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:MASP_S%C3%A3o_Paulo_2018_07.jpg"
       }
     ],
@@ -1999,7 +1999,7 @@
         "view": "EXTERIOR",
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg/1920px-At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg",
         "alt": "Domed building with minarets on a hill above a waterfront city",
-        "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0 · Wikimedia Commons",
+        "credit": "Photo: Photograph by Mike Peel · CC BY-SA 4.0 · Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:At_Istanbul_-_Wikimedia_hackathon_boat_tour_2025_277.jpg"
       },
       {
@@ -2635,7 +2635,7 @@
         "view": "EXTERIOR",
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/At_S%C3%A3o_Paulo%2C_Brazil_2019_042.jpg/1920px-At_S%C3%A3o_Paulo%2C_Brazil_2019_042.jpg",
         "alt": "Grey stone Gothic Revival cathedral with tall towers, seen from below",
-        "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0 · Wikimedia Commons",
+        "credit": "Photo: Photograph by Mike Peel · CC BY-SA 4.0 · Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:At_S%C3%A3o_Paulo,_Brazil_2019_042.jpg"
       },
       {
@@ -7885,6 +7885,712 @@
         "Mark Rothko said the vestibule influenced his Seagram murals.",
         "Its core collection is about 3,000 manuscripts."
       ]
+    }
+  },
+  {
+    "id": "palace-of-versailles",
+    "name": "Palace of Versailles",
+    "aliases": ["Versailles", "Château de Versailles", "Chateau de Versailles"],
+    "architects": [
+      {
+        "name": "Louis Le Vau",
+        "aliases": ["Le Vau"],
+        "nationality": "French",
+        "bio": "Court architect from 1654, whose work at Vaux-le-Vicomte impressed Louis XIV; he wrapped Louis XIII's château in the 'enveloppe' from 1668."
+      },
+      {
+        "name": "Jules Hardouin-Mansart",
+        "aliases": ["Hardouin-Mansart", "Mansart"],
+        "nationality": "French",
+        "bio": "First Architect to Louis XIV from 1678, who added the Hall of Mirrors, the great wings and the palace chapel."
+      }
+    ],
+    "location": { "city": "Versailles", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1710,
+    "era": "BAROQUE",
+    "style": "French Baroque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Palacio_de_Versalles%2C_Par%C3%ADs%2C_Francia%2C_2026-04-04%2C_DD_58.jpg/1920px-Palacio_de_Versalles%2C_Par%C3%ADs%2C_Francia%2C_2026-04-04%2C_DD_58.jpg",
+        "alt": "Very long palace façade seen from the end of a formal garden terrace",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_Versalles,_Par%C3%ADs,_Francia,_2026-04-04,_DD_58.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Hall_of_Mirrors%2C_Palace_of_Versailles%2C_1981.jpg/1920px-Hall_of_Mirrors%2C_Palace_of_Versailles%2C_1981.jpg",
+        "alt": "Long gallery lined with mirrors and windows under crystal chandeliers, crowded with visitors",
+        "caption": "The Hall of Mirrors.",
+        "credit": "Photo: dave one · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hall_of_Mirrors,_Palace_of_Versailles,_1981.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It began as a king's modest brick-and-stone hunting lodge built in 1623." },
+      {
+        "order": 2,
+        "text": "The court and the royal government lived there permanently from 1682 until October 1789."
+      },
+      { "order": 3, "text": "The German Empire was proclaimed in its most famous gallery in 1871." }
+    ],
+    "summary": {
+      "description": "Louis XIV turned his father's hunting lodge into the seat of the French court. From 1668 Louis Le Vau encased the old château, while André Le Nôtre laid out the gardens; from 1678 Jules Hardouin-Mansart added the Hall of Mirrors, vast wings and finally the chapel (1699–1710). It holds roughly 2,300 rooms.",
+      "keyFeatures": [
+        "Hall of Mirrors (1678–1681)",
+        "Le Vau's 'enveloppe' around the old château",
+        "Gardens by André Le Nôtre",
+        "Palace chapel (1699–1710)"
+      ],
+      "funFacts": [
+        "The Hall of Mirrors became a military hospital at one point.",
+        "About 1,000 of its rooms belong to a national history museum."
+      ]
+    }
+  },
+  {
+    "id": "san-carlo-alle-quattro-fontane",
+    "name": "San Carlo alle Quattro Fontane",
+    "aliases": ["San Carlino", "San Carlo alle Quattro Fontane (Rome)", "Saint Charles at the Four Fountains"],
+    "architects": [
+      {
+        "name": "Francesco Borromini",
+        "aliases": ["Borromini"],
+        "nationality": "Italian (worked in Rome)",
+        "bio": "Baroque architect whose first independent commission this was; he offered to do it free of charge to start his solo career."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1682,
+    "era": "BAROQUE",
+    "style": "Roman Baroque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/%C3%89glise_San_Carlo_Quattro_Fontane_-_Rome_%28IT62%29_-_2021-08-30_-_1.jpg/1920px-%C3%89glise_San_Carlo_Quattro_Fontane_-_Rome_%28IT62%29_-_2021-08-30_-_1.jpg",
+        "alt": "Narrow church front of undulating concave and convex bays with columns, niches and statues",
+        "credit": "Photo: Chabe01 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_San_Carlo_Quattro_Fontane_-_Rome_(IT62)_-_2021-08-30_-_1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/San_Carlo_alle_Quattro_Fontaine_%2829979357327%29.jpg/1920px-San_Carlo_alle_Quattro_Fontaine_%2829979357327%29.jpg",
+        "alt": "Oval dome with deep coffers of crosses, octagons and hexagons, lit from a lantern",
+        "caption": "The dome.",
+        "credit": "Photo: Bradley Weber · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Carlo_alle_Quattro_Fontaine_(29979357327).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built for a religious order dedicated to freeing Christian slaves." },
+      {
+        "order": 2,
+        "text": "It was its architect's first independent commission; he offered to do it for free."
+      },
+      {
+        "order": 3,
+        "text": "Its upper façade, with serpentine curves, was completed only after the architect's death."
+      }
+    ],
+    "summary": {
+      "description": "Built for the Spanish Trinitarians on the Quirinal Hill, the church was Francesco Borromini's first independent commission. The church was built in 1638–1641 and dedicated in 1646 to Saint Charles Borromeo; its serpentine façade was finished by his nephew Bernardo, with work continuing until 1682. It is an iconic masterpiece of Baroque architecture.",
+      "keyFeatures": [
+        "Undulating serpentine façade",
+        "Oval dome with geometric coffering",
+        "Monastic complex on the Quirinal Hill",
+        "Living quarters and library designed first, from 1634"
+      ],
+      "funFacts": ["Bernini's oval church of Sant'Andrea al Quirinale stands further along the same street."]
+    }
+  },
+  {
+    "id": "karlskirche",
+    "name": "Karlskirche",
+    "aliases": ["St. Charles's Church", "Karlskirche Vienna", "St Charles Church Vienna"],
+    "architects": [
+      {
+        "name": "Johann Bernhard Fischer von Erlach",
+        "aliases": ["Fischer von Erlach", "Fischer"],
+        "lifespan": "d. 1723",
+        "nationality": "Austrian",
+        "bio": "Won the competition for the church against Galli-Bibiena and Hildebrandt; after his death his son Joseph Emanuel completed it."
+      }
+    ],
+    "location": { "city": "Vienna", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1737,
+    "era": "BAROQUE",
+    "style": "Baroque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Karlskirche_%2836848706164%29.jpg/1920px-Karlskirche_%2836848706164%29.jpg",
+        "alt": "Domed church with a temple portico flanked by two great carved columns",
+        "credit": "Photo: Nick Savchenko · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Karlskirche_(36848706164).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Iglesia_de_San_Carlos_Borromeo%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_73-75_HDR.jpg/1920px-Iglesia_de_San_Carlos_Borromeo%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_73-75_HDR.jpg",
+        "alt": "Frescoed oval dome seen from inside its drum",
+        "caption": "The dome.",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Carlos_Borromeo,_Viena,_Austria,_2020-01-31,_DD_73-75_HDR.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "An emperor vowed to build it in 1713, a year after his city's last great plague."
+      },
+      {
+        "order": 2,
+        "text": "It is dedicated to a saint revered as a healer of plague sufferers, the emperor's namesake."
+      },
+      { "order": 3, "text": "Two columns inspired by Trajan's Column flank its entrance." }
+    ],
+    "summary": {
+      "description": "Charles VI pledged the church in 1713, after Vienna's last major plague, to his patron saint Charles Borromeo. Johann Bernhard Fischer von Erlach won the competition; building began in 1716 and his son Joseph Emanuel completed it in 1737. It unites a temple portico, two columns modelled on Trajan's Column and a dome on a high drum.",
+      "keyFeatures": [
+        "Temple portico",
+        "Two spiral-relief columns by Lorenzo Mattielli",
+        "Dome on a high drum",
+        "Fresco-covered interior"
+      ],
+      "funFacts": ["Its iconographic programme was devised by the imperial official Carl Gustav Heraeus."]
+    }
+  },
+  {
+    "id": "melk-abbey",
+    "name": "Melk Abbey",
+    "aliases": ["Stift Melk", "Melk"],
+    "architects": [
+      {
+        "name": "Jakob Prandtauer",
+        "aliases": ["Prandtauer"],
+        "nationality": "Austrian",
+        "bio": "Architect to whose designs today's Baroque abbey was built between 1702 and 1736."
+      }
+    ],
+    "location": { "city": "Melk", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1736,
+    "era": "BAROQUE",
+    "style": "Austrian Baroque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Melk_Abbey_%284%29.jpg/1920px-Melk_Abbey_%284%29.jpg",
+        "alt": "Long yellow abbey with a domed church and twin towers on a rocky height",
+        "credit": "Photo: Tournasol7 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Melk_Abbey_(4).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Melk_Bibliothek.jpg/1920px-Melk_Bibliothek.jpg",
+        "alt": "Library with gilded bookcases, marquetry floor and a painted ceiling",
+        "caption": "The library.",
+        "credit": "Photo: Rollroboter · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Melk_Bibliothek.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It stands on a rocky outcrop above a great river, at the start of the Wachau valley."
+      },
+      {
+        "order": 2,
+        "text": "Its community was founded in 1089, when a margrave gave one of his castles to monks."
+      },
+      {
+        "order": 3,
+        "text": "Its present building dates from 1702–1736, and its library has been famed since the Middle Ages."
+      }
+    ],
+    "summary": {
+      "description": "Founded in 1089 when Margrave Leopold II gave a castle to Benedictine monks, the abbey overlooks the Danube from a rocky outcrop. Today's Baroque abbey was built between 1702 and 1736 to designs by Jakob Prandtauer; its church holds frescoes by Johann Michael Rottmayr and Paul Troger.",
+      "keyFeatures": [
+        "Domed abbey church with twin towers",
+        "Frescoes by Rottmayr and Troger",
+        "Famous library",
+        "Site on a rock above the Danube"
+      ],
+      "funFacts": ["Its fame let it escape the dissolutions under Emperor Joseph II."]
+    }
+  },
+  {
+    "id": "pantheon-paris",
+    "name": "Panthéon",
+    "aliases": ["Panthéon de Paris", "Pantheon Paris", "Church of Sainte-Geneviève", "Sainte-Geneviève"],
+    "architects": [
+      {
+        "name": "Jacques-Germain Soufflot",
+        "aliases": ["Soufflot"],
+        "nationality": "French",
+        "bio": "Architect of the building for Louis XV; he did not live to see it completed, but his remains were moved inside in 1829."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1790,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pante%C3%B3n%2C_Par%C3%ADs%2C_Francia%2C_2026-04-05%2C_DD_65.jpg/1920px-Pante%C3%B3n%2C_Par%C3%ADs%2C_Francia%2C_2026-04-05%2C_DD_65.jpg",
+        "alt": "Domed Neoclassical building with a Corinthian portico, across a square",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pante%C3%B3n,_Par%C3%ADs,_Francia,_2026-04-05,_DD_65.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pante%C3%B3n%2C_Par%C3%ADs%2C_Francia%2C_2022-10-29%2C_DD_28-30_HDR.jpg/1920px-Pante%C3%B3n%2C_Par%C3%ADs%2C_Francia%2C_2022-10-29%2C_DD_28-30_HDR.jpg",
+        "alt": "Coffered vaults and a painted apse mosaic seen between Corinthian columns",
+        "caption": "The interior.",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pante%C3%B3n,_Par%C3%ADs,_Francia,_2022-10-29,_DD_28-30_HDR.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for a king who vowed in 1744 to replace a church if he recovered from illness."
+      },
+      {
+        "order": 2,
+        "text": "During the Revolution it was turned into a mausoleum for distinguished citizens."
+      },
+      {
+        "order": 3,
+        "text": "In 1851 a physicist hung a pendulum from its dome to demonstrate the Earth's rotation."
+      }
+    ],
+    "summary": {
+      "description": "Built between 1758 and 1790 to designs by Jacques-Germain Soufflot, the church of Saint Genevieve was transformed in 1791 into a mausoleum for great French citizens, modelled on the Pantheon in Rome. It was twice returned to church use before becoming exclusively a mausoleum in 1881.",
+      "keyFeatures": [
+        "Corinthian portico",
+        "Central dome",
+        "Mausoleum modelled on the Pantheon in Rome",
+        "Crypt for national figures"
+      ],
+      "funFacts": [
+        "A copy of Foucault's pendulum still hangs there.",
+        "Neither Soufflot nor Louis XV lived to see it finished."
+      ]
+    }
+  },
+  {
+    "id": "altes-museum",
+    "name": "Altes Museum",
+    "aliases": ["Old Museum", "Königliches Museum", "Altes Museum Berlin"],
+    "architects": [
+      {
+        "name": "Karl Friedrich Schinkel",
+        "aliases": ["Schinkel"],
+        "nationality": "Prussian",
+        "bio": "Architect charged by Frederick William III with planning a public museum for the royal art collection, as part of an ensemble around the Lustgarten."
+      }
+    ],
+    "location": { "city": "Berlin", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1830,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2017_10_14_Altes_Museum_Eingang.jpg/1920px-2017_10_14_Altes_Museum_Eingang.jpg",
+        "alt": "Long colonnade of Ionic columns along a wall painted with red panels",
+        "caption": "The colonnade.",
+        "credit": "Photo: Dr. Zeltsam · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2017_10_14_Altes_Museum_Eingang.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/2017-10-14_Rotunde_Panorama-5.jpg/1920px-2017-10-14_Rotunde_Panorama-5.jpg",
+        "alt": "Domed rotunda ringed by columns and statues, with a patterned floor",
+        "caption": "The rotunda.",
+        "credit": "Photo: Dr. Zeltsam · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2017-10-14_Rotunde_Panorama-5.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as a public museum for a royal art collection, reflecting the Humboldtian ideal of education."
+      },
+      { "order": 2, "text": "Its front of eighteen Ionic columns faces a pleasure garden." },
+      { "order": 3, "text": "It was inaugurated on 3 August 1830." }
+    ],
+    "summary": {
+      "description": "Built between 1825 and 1830 for King Frederick William III to plans by Karl Friedrich Schinkel, the museum is a major work of German Neoclassicism. A long hall of eighteen Ionic columns faces the Lustgarten, and inside a domed rotunda recalls Classical antiquity.",
+      "keyFeatures": [
+        "Colonnade of eighteen Ionic columns",
+        "Central domed rotunda",
+        "Site on the Lustgarten",
+        "Classical sculpture galleries"
+      ],
+      "funFacts": ["The crown prince sent Schinkel a pencil sketch of a hall with a classical portico."]
+    }
+  },
+  {
+    "id": "british-museum",
+    "name": "British Museum",
+    "aliases": ["The British Museum", "BM"],
+    "architects": [
+      {
+        "name": "Robert Smirke",
+        "aliases": ["Sir Robert Smirke", "Smirke"],
+        "nationality": "British",
+        "bio": "Neoclassical architect asked to plan an eastern extension; his building replaced Montagu House over the following decades."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1852,
+    "era": "NEOCLASSICAL",
+    "style": "Greek Revival",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/British_Museum_%2853485901775%29.jpg/1920px-British_Museum_%2853485901775%29.jpg",
+        "alt": "Row of tall Ionic columns of a Greek Revival portico above wet steps",
+        "credit": "Photo: Dale Cruse · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:British_Museum_(53485901775).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/British_Museum_%2853518798647%29.jpg/1920px-British_Museum_%2853518798647%29.jpg",
+        "alt": "Long gallery with tall bookcases and display cases under a decorated ceiling",
+        "caption": "The King's Library gallery.",
+        "credit": "Photo: Dale Cruse · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:British_Museum_(53518798647).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It opened to the public in 1759 in a converted 17th-century mansion on the same site."
+      },
+      {
+        "order": 2,
+        "text": "Work on its present building began in 1823 with a gallery for a king's library."
+      },
+      { "order": 3, "text": "Its central courtyard was roofed over in glass in 2000." }
+    ],
+    "summary": {
+      "description": "Founded in 1753 and opened in Montagu House in 1759, the museum was rebuilt to Robert Smirke's Greek Revival plan from 1823, beginning with the King's Library Gallery; the opening of the forecourt in 1852 completed the plan. In 2000 the central quadrangle became the glass-roofed Great Court, the largest covered square in Europe.",
+      "keyFeatures": ["Greek Revival colonnade", "King's Library Gallery", "Round Reading Room", "Great Court roof (2000)"],
+      "funFacts": ["From 1825 to 1850 it was the largest building site in Europe."]
+    }
+  },
+  {
+    "id": "la-madeleine",
+    "name": "La Madeleine",
+    "aliases": ["Église de la Madeleine", "Madeleine", "Church of St Mary Magdalene, Paris"],
+    "architects": [
+      {
+        "name": "Pierre-Alexandre Vignon",
+        "aliases": ["Vignon"],
+        "nationality": "French",
+        "bio": "Architect personally chosen by Napoleon over the Academy's candidate, with a design modelled on an ancient temple."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1842,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Eglise_de_la_Madeleine_%40_Paris_%2830639984683%29.jpg/1920px-Eglise_de_la_Madeleine_%40_Paris_%2830639984683%29.jpg",
+        "alt": "Corner of a temple-like building with a pediment over rows of Corinthian columns",
+        "credit": "Photo: Guilhem Vellut · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eglise_de_la_Madeleine_@_Paris_(30639984683).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ma%C3%AEtre-autel_de_l%27%C3%A9glise_de_la_Madeleine_%28vue_de_c%C3%B4t%C3%A9%29.jpg/1920px-Ma%C3%AEtre-autel_de_l%27%C3%A9glise_de_la_Madeleine_%28vue_de_c%C3%B4t%C3%A9%29.jpg",
+        "alt": "Marble high altar with a sculpted group of angels and gilded candlesticks",
+        "caption": "The high altar.",
+        "credit": "Photo: Manley75 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ma%C3%AEtre-autel_de_l%27%C3%A9glise_de_la_Madeleine_(vue_de_c%C3%B4t%C3%A9).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its first stone was dedicated in 1764 by a king, but the Revolution halted the work."
+      },
+      {
+        "order": 2,
+        "text": "An emperor declared in 1806 that it would become a temple to the glory of his army."
+      },
+      {
+        "order": 3,
+        "text": "It is surrounded on all four sides by Corinthian columns and was completed as a church in 1842."
+      }
+    ],
+    "summary": {
+      "description": "Begun under Louis XV, the church was redesigned for Napoleon in 1806 by Pierre-Alexandre Vignon as a temple to the glory of the Grande Armée, modelled on ancient temples. After Napoleon's fall it became a church again, completed in 1842. Corinthian columns surround it on all four sides.",
+      "keyFeatures": [
+        "Corinthian columns on all four sides",
+        "Design modelled on an ancient Greek or Roman temple",
+        "Grand classical portico",
+        "High altar with sculpture"
+      ],
+      "funFacts": ["It was once proposed as a railway station."]
+    }
+  },
+  {
+    "id": "palace-of-westminster",
+    "name": "Palace of Westminster",
+    "aliases": ["Houses of Parliament", "Westminster Palace", "Parliament"],
+    "architects": [
+      {
+        "name": "Charles Barry",
+        "aliases": ["Sir Charles Barry", "Barry"],
+        "nationality": "British",
+        "bio": "Won the competition to design the new palace after the fire of 1834, choosing the Gothic Revival style."
+      },
+      {
+        "name": "Augustus Pugin",
+        "aliases": ["A. W. N. Pugin", "Pugin"],
+        "nationality": "British",
+        "bio": "Barry's assistant on the new Gothic Revival palace; both men died before it was finished."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1870,
+    "era": "HISTORICISM",
+    "style": "Gothic Revival",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/At_London_2025_557.jpg/1920px-At_London_2025_557.jpg",
+        "alt": "Long Gothic Revival palace with towers along a river, seen from the water",
+        "credit": "Photo: Mike Peel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:At_London_2025_557.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/London_-_The_Parliament_-_2773.jpg/1920px-London_-_The_Parliament_-_2773.jpg",
+        "alt": "Octagonal Gothic hall with tiled floor, statues, tall windows and a great chandelier",
+        "caption": "The Central Lobby.",
+        "credit": "Photo: Jorge Royan · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:London_-_The_Parliament_-_2773.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A fire in 1834, started by an overheated stove burning tally sticks, destroyed most of its predecessor."
+      },
+      { "order": 2, "text": "Construction started in 1840 and lasted about 30 years." },
+      { "order": 3, "text": "Its clock tower houses a bell with a famous nickname." }
+    ],
+    "summary": {
+      "description": "After the fire of 1834, Charles Barry won the competition for a new palace in the Gothic Revival style, incorporating the surviving 11th-century Westminster Hall. Built from 1840 over about 30 years, with Augustus Pugin as Barry's assistant, it spread the Gothic Revival far beyond Britain.",
+      "keyFeatures": [
+        "Gothic Revival river front",
+        "Elizabeth Tower",
+        "Westminster Hall (11th century)",
+        "Ornate Gothic Revival decoration"
+      ],
+      "funFacts": [
+        "Both Barry and Pugin died before it was finished.",
+        "It has been part of a UNESCO World Heritage Site since 1987."
+      ]
+    }
+  },
+  {
+    "id": "neuschwanstein-castle",
+    "name": "Neuschwanstein Castle",
+    "aliases": ["Neuschwanstein", "Schloss Neuschwanstein", "New Hohenschwangau Castle"],
+    "architects": [
+      {
+        "name": "Eduard Riedel",
+        "aliases": ["Riedel"],
+        "nationality": "Bavarian",
+        "bio": "Architect who realised the castle on the basis of drafts by the stage designer Christian Jank."
+      },
+      {
+        "name": "Christian Jank",
+        "aliases": ["Jank"],
+        "nationality": "Bavarian",
+        "bio": "Stage designer and scenic painter who drafted the castle's design, drawing on theatre scenery."
+      }
+    ],
+    "location": { "city": "Schwangau", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1892,
+    "era": "HISTORICISM",
+    "style": "Romanesque Revival",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Neuschwanstein_Castle_2025.jpg/1920px-Neuschwanstein_Castle_2025.jpg",
+        "alt": "White castle with turrets on a forested crag, above a wide plain",
+        "credit": "Photo: Sergiy Galyonkin · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_2025.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Schwangau-Schloss_Neuschwanstein-ZI-1050-07-00-217231-1.jpg/1920px-Schwangau-Schloss_Neuschwanstein-ZI-1050-07-00-217231-1.jpg",
+        "alt": "Old photograph of an ornate room with carved wood and painted walls",
+        "caption": "A room, historical photograph.",
+        "credit": "Photo: Unknown photographer · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Schwangau-Schloss_Neuschwanstein-ZI-1050-07-00-217231-1.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built from 1869 for a king, paid from his personal fortune and borrowing rather than public funds."
+      },
+      {
+        "order": 2,
+        "text": "Its design drew on stage scenery and evokes operas such as Tannhäuser and Lohengrin."
+      },
+      {
+        "order": 3,
+        "text": "The king died in 1886 and it opened to the public shortly afterwards, still unfinished."
+      }
+    ],
+    "summary": {
+      "description": "Ludwig II of Bavaria had the three-winged castle built from 1869 in a Neo-Romanesque style, to plans realised by Eduard Riedel from drafts by the stage designer Christian Jank. Theatre themes run through it, recalling operas such as Tannhäuser and Lohengrin. The king moved into the unfinished palace in 1884 and died in 1886.",
+      "keyFeatures": [
+        "Neo-Romanesque forms mixed with Gothic and Byzantine decoration",
+        "Throne Hall with a steel framework",
+        "Singers' Hall",
+        "Site on a crag above Hohenschwangau"
+      ],
+      "funFacts": [
+        "It was called New Hohenschwangau Castle until after Ludwig's death.",
+        "It became part of a UNESCO World Heritage Site in 2025."
+      ]
+    }
+  },
+  {
+    "id": "rijksmuseum",
+    "name": "Rijksmuseum",
+    "aliases": ["Rijksmuseum Amsterdam", "Rijks Museum", "National Museum of the Netherlands"],
+    "architects": [
+      {
+        "name": "Pierre Cuypers",
+        "aliases": ["Cuypers", "Petrus Cuypers"],
+        "nationality": "Dutch",
+        "bio": "Architect who won the second competition, in 1876, for the museum's new building."
+      }
+    ],
+    "location": { "city": "Amsterdam", "country": "Netherlands", "countryCode": "NL" },
+    "yearCompleted": 1885,
+    "era": "HISTORICISM",
+    "style": "Gothic and Renaissance Revival",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/The_Rijksmuseum%2C_Amsterdam_%2853750007092%29.jpg/1920px-The_Rijksmuseum%2C_Amsterdam_%2853750007092%29.jpg",
+        "alt": "Large red-brick museum with steep-roofed towers and an arched passage, behind flower boxes",
+        "credit": "Photo: Mustang Joe · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Rijksmuseum,_Amsterdam_(53750007092).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Rijksmuseum_Eregalerij_met_Nachtwacht_01.jpg/1920px-Rijksmuseum_Eregalerij_met_Nachtwacht_01.jpg",
+        "crop": { "x": 0, "y": 0.25, "w": 1, "h": 0.75 },
+        "alt": "Gallery with patterned walls and arches, crowded with visitors before a large dark painting",
+        "caption": "A main gallery.",
+        "credit": "Photo: Hnapel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rijksmuseum_Eregalerij_met_Nachtwacht_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "The national museum it houses was founded in The Hague in 1798 and moved in 1808."
+      },
+      {
+        "order": 2,
+        "text": "Its architect won a second competition in 1876, having come second in the first."
+      },
+      { "order": 3, "text": "Its new building opened on 13 July 1885." }
+    ],
+    "summary": {
+      "description": "After a first competition failed, Pierre Cuypers won the 1876 contest for the national museum's new building. Construction began on 1 October 1876 and the museum opened on 13 July 1885, bringing together collections that include Rembrandt's Night Watch.",
+      "keyFeatures": [
+        "Red-brick building with towers",
+        "Passage through the building",
+        "Gallery of Honour",
+        "Collections including Rembrandt's Night Watch"
+      ],
+      "funFacts": ["King Louis Bonaparte, Napoleon's brother, moved the museum to Amsterdam in 1808."]
+    }
+  },
+  {
+    "id": "st-pancras-station",
+    "name": "St Pancras railway station",
+    "aliases": ["St Pancras", "London St Pancras", "St Pancras International"],
+    "architects": [
+      {
+        "name": "William Henry Barlow",
+        "aliases": ["Barlow"],
+        "nationality": "British",
+        "bio": "Engineer who designed the passenger station, with wrought-iron pillars supporting a single-span roof."
+      },
+      {
+        "name": "George Gilbert Scott",
+        "aliases": ["Scott", "Sir George Gilbert Scott"],
+        "nationality": "British",
+        "bio": "Won the competition for the Midland Grand Hotel on the station's front, with an ornate Gothic red-brick scheme."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1868,
+    "era": "HISTORICISM",
+    "style": "Gothic Revival",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2018-04-25_St_Pancras_railway_station.jpg/1920px-2018-04-25_St_Pancras_railway_station.jpg",
+        "alt": "Ornate red-brick Gothic hotel front with towers and pointed windows",
+        "credit": "Photo: Wei-Te Wong · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2018-04-25_St_Pancras_railway_station.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/St_Pancras_railway_station_trainshed_2014-09-14.jpg/1920px-St_Pancras_railway_station_trainshed_2014-09-14.jpg",
+        "alt": "Vast arched iron-and-glass train shed with a long platform",
+        "caption": "The train shed.",
+        "credit": "Photo: Colin · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:St_Pancras_railway_station_trainshed_2014-09-14.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It opened on 1 October 1868 on the site of a slum called Agar Town." },
+      { "order": 2, "text": "A poet laureate led the campaign that saved it from demolition." },
+      {
+        "order": 3,
+        "text": "Since 2007 it has been the terminus for international trains through the Channel Tunnel."
+      }
+    ],
+    "summary": {
+      "description": "The station, designed by William Henry Barlow, opened in 1868 with a single-span roof on wrought-iron pillars, raised 5 metres above the street. George Gilbert Scott's Midland Grand Hotel forms its ornate Gothic front. Saved by a campaign led by John Betjeman, it was refurbished for High Speed 1 and reopened in 2007.",
+      "keyFeatures": [
+        "Single-span iron-and-glass train shed",
+        "Gothic red-brick hotel front",
+        "Undercroft below the platforms",
+        "Eurostar terminal"
+      ],
+      "funFacts": ["It received Grade I listing just 10 days before demolition was due to begin."]
     }
   }
 ]
