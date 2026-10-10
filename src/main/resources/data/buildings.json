@@ -9990,5 +9990,603 @@
       ],
       "funFacts": ["Gehry said being chosen was 'the least likely thing that I thought would ever happen to me in my life'."]
     }
+  },
+  {
+    "id": "parthenon",
+    "name": "Parthenon",
+    "aliases": ["The Parthenon", "Parthenonas", "Temple of Athena Parthenos", "Hekatompedos"],
+    "architects": [
+      {
+        "name": "Ictinus",
+        "aliases": ["Iktinos", "Ictinos"],
+        "nationality": "Ancient Greek",
+        "bio": "Architect who began the work in 447 BC with Callicrates."
+      },
+      {
+        "name": "Callicrates",
+        "aliases": ["Kallikrates"],
+        "nationality": "Ancient Greek",
+        "bio": "Architect who worked with Ictinus; together they wrote a lost treatise on the building."
+      }
+    ],
+    "location": { "city": "Athens", "country": "Greece", "countryCode": "GR" },
+    "yearCompleted": -432,
+    "era": "CLASSICAL",
+    "style": "Ancient Greek (Doric)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1026_Parthenon_of_the_Acropolis_of_Athens_Photo_by_Giles_Laurent.jpg/1920px-1026_Parthenon_of_the_Acropolis_of_Athens_Photo_by_Giles_Laurent.jpg",
+        "alt": "Ruined Doric marble temple with a full colonnade on a rocky hilltop",
+        "credit": "Photo: Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:1026_Parthenon_of_the_Acropolis_of_Athens_Photo_by_Giles_Laurent.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Historic_monuments%2C_Athens_-_UNESCO_-_PHOTO0000002421_0001.tiff/lossy-page1-1920px-Historic_monuments%2C_Athens_-_UNESCO_-_PHOTO0000002421_0001.tiff.jpg",
+        "alt": "Black-and-white view along the inside of a row of massive fluted columns",
+        "caption": "Inside the colonnade.",
+        "credit": "Photo: H. de Jong · CC BY-SA 3.0 igo · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Historic_monuments,_Athens_-_UNESCO_-_PHOTO0000002421_0001.tiff"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Construction started in 447 BC, when an alliance of Greek city-states was at the peak of its power."
+      },
+      {
+        "order": 2,
+        "text": "A Venetian bomb hit it in 1687, when the Ottomans were using it as a munitions store."
+      },
+      {
+        "order": 3,
+        "text": "Many of its sculptures were removed to England between 1800 and 1803 and are named after an earl."
+      }
+    ],
+    "summary": {
+      "description": "Built on the Acropolis for the goddess Athena, the temple was begun in 447 BC by the architects Ictinus and Callicrates under the general supervision of Phidias, who also directed its sculpture. It was completed in 438 BC, with decoration continuing to 432 BC. A peripteral post-and-lintel temple, it was wrecked by an explosion in 1687.",
+      "keyFeatures": [
+        "Peripteral colonnade carrying an entablature",
+        "Sculptural programme directed by Phidias",
+        "Cella for the colossal statue of Athena",
+        "Site on the Acropolis"
+      ],
+      "funFacts": [
+        "Its architects seem to have called it the 'hundred-footer'.",
+        "The colossal statue of Athena inside was by Phidias."
+      ]
+    }
+  },
+  {
+    "id": "colosseum",
+    "name": "Colosseum",
+    "aliases": ["Colosseo", "Flavian Amphitheatre", "Amphitheatrum Flavium", "Coliseum"],
+    "architects": [
+      {
+        "name": "Unknown Roman architects",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The amphitheatre was built under the emperors Vespasian and Titus of the Flavian dynasty; its architects are not recorded."
+      }
+    ],
+    "location": { "city": "Rome", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 80,
+    "era": "CLASSICAL",
+    "style": "Ancient Roman",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Colosseum_%288473464161%29.jpg/1920px-Colosseum_%288473464161%29.jpg",
+        "alt": "Huge elliptical ruined amphitheatre with tiers of arches",
+        "credit": "Photo: Edgar Jiménez · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Colosseum_(8473464161).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Rome_Colosseum_interior_panorama_3.jpg/1920px-Rome_Colosseum_interior_panorama_3.jpg",
+        "alt": "Ruined arena floor with exposed underground walls, ringed by tiers of arches",
+        "caption": "The arena.",
+        "credit": "Photo: Nicholas Hartmann · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rome_Colosseum_interior_panorama_3.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was begun in AD 72 under one emperor and completed in 80 under his son."
+      },
+      { "order": 2, "text": "It is the largest ancient amphitheatre ever built." },
+      {
+        "order": 3,
+        "text": "It could hold some 50,000 to 80,000 spectators for gladiatorial contests and animal hunts."
+      }
+    ],
+    "summary": {
+      "description": "Begun under Vespasian in AD 72 and completed under Titus in 80, the elliptical amphitheatre east of the Roman Forum is the largest ever built. Of travertine, Roman concrete and tuff, it held an average audience of about 65,000 for gladiatorial games, hunts, executions and even mock sea battles.",
+      "keyFeatures": [
+        "Elliptical plan",
+        "Travertine outer wall",
+        "Roman concrete foundations, corridors and vaults",
+        "Tuff and brick secondary walls"
+      ],
+      "funFacts": [
+        "The name 'Flavian Amphitheatre' was given by later scholars; in antiquity it was simply 'the amphitheatre'."
+      ]
+    }
+  },
+  {
+    "id": "basilica-of-saint-denis",
+    "name": "Basilica of Saint-Denis",
+    "aliases": ["Saint-Denis", "Abbey Church of Saint-Denis", "Basilique de Saint-Denis", "Saint-Denis Cathedral"],
+    "architects": [
+      {
+        "name": "Abbot Suger",
+        "aliases": ["Suger"],
+        "nationality": "French",
+        "bio": "Abbot who rebuilt parts of the church in the 12th century with innovative structural and decorative features, creating what is called the first truly Gothic building."
+      },
+      {
+        "name": "Pierre de Montreuil",
+        "aliases": ["Montreuil"],
+        "nationality": "French",
+        "bio": "Master builder who rebuilt the nave and transepts in the Rayonnant style in the 13th century."
+      }
+    ],
+    "location": { "city": "Saint-Denis", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1144,
+    "era": "MEDIEVAL",
+    "style": "Early Gothic",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Saint-Denis_Portail_Nord.jpg/1920px-Saint-Denis_Portail_Nord.jpg",
+        "alt": "Gothic church transept with a rose window, seen from a garden",
+        "credit": "Photo: Thomon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Saint-Denis_Portail_Nord.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Basilique_Saint-Denis_-_Crois%C3%A9e_du_transept_-_Octobre_2024.jpg/1920px-Basilique_Saint-Denis_-_Crois%C3%A9e_du_transept_-_Octobre_2024.jpg",
+        "alt": "Gothic rib vault radiating over a crossing, lit by stained glass",
+        "caption": "The vaults.",
+        "credit": "Photo: ZeusUpsistos · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilique_Saint-Denis_-_Crois%C3%A9e_du_transept_-_Octobre_2024.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its choir, completed in 1144, is widely considered the first structure to use all the elements of Gothic architecture."
+      },
+      {
+        "order": 2,
+        "text": "Nearly every king of its country from the 10th century to the 19th was buried there."
+      },
+      {
+        "order": 3,
+        "text": "It stands where the first bishop of a great city is believed to have been buried."
+      }
+    ],
+    "summary": {
+      "description": "Built over the burial place of Saint Denis, the abbey church was rebuilt by Abbot Suger, whose choir, completed in 1144, is considered the first fully Gothic structure. In the 13th century Pierre de Montreuil rebuilt the nave and transepts. It became the necropolis of the kings of France.",
+      "keyFeatures": ["Choir of 1144, the first fully Gothic structure", "Rayonnant nave and transepts", "Royal tombs", "Crypts"],
+      "funFacts": ["French queens were crowned there.", "An earlier church was consecrated in 775 in Charlemagne's presence."]
+    }
+  },
+  {
+    "id": "notre-dame-de-paris",
+    "name": "Notre-Dame de Paris",
+    "aliases": ["Notre-Dame", "Notre Dame Cathedral", "Cathedral of Notre-Dame de Paris", "Notre Dame de Paris"],
+    "architects": [
+      {
+        "name": "Maurice de Sully",
+        "aliases": ["Sully"],
+        "nationality": "French",
+        "bio": "Bishop of Paris who began construction of the new cathedral in 1163."
+      },
+      {
+        "name": "Eugène Viollet-le-Duc",
+        "aliases": ["Viollet-le-Duc"],
+        "nationality": "French",
+        "bio": "Architect who supervised its restoration between 1844 and 1864."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1260,
+    "era": "MEDIEVAL",
+    "style": "French Gothic",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cath%C3%A9drale_Notre-Dame_de_Paris_%28Ank_Kumar%2CInfosys%29_01.jpg/1920px-Cath%C3%A9drale_Notre-Dame_de_Paris_%28Ank_Kumar%2CInfosys%29_01.jpg",
+        "alt": "Twin-towered Gothic cathedral front with three portals and a rose window",
+        "credit": "Photo: Ank Kumar · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_de_Paris_(Ank_Kumar,Infosys)_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Catedral_de_Notre_Dame%2C_Par%C3%ADs%2C_Francia%2C_2026-04-05%2C_DD_54-56_HDR.jpg/1920px-Catedral_de_Notre_Dame%2C_Par%C3%ADs%2C_Francia%2C_2026-04-05%2C_DD_54-56_HDR.jpg",
+        "alt": "Tall Gothic nave with chandeliers leading to the choir",
+        "caption": "The nave.",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_Notre_Dame,_Par%C3%ADs,_Francia,_2026-04-05,_DD_54-56_HDR.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Begun in 1163, it was largely completed by 1260." },
+      { "order": 2, "text": "A novel published in 1831 inspired its 19th-century restoration." },
+      { "order": 3, "text": "A fire in April 2019 closed it until December 2024." }
+    ],
+    "summary": {
+      "description": "Begun in 1163 under Bishop Maurice de Sully and largely completed by 1260, the cathedral pioneered the rib vault and flying buttress and has enormous rose windows. Victor Hugo's novel inspired its restoration by Viollet-le-Duc in 1844–1864. After the fire of 2019 it reopened in December 2024.",
+      "keyFeatures": ["Flying buttresses", "Rib vaults", "Large rose windows", "Abundant naturalistic sculpture"],
+      "funFacts": ["Its west rose window was completed in 1220."]
+    }
+  },
+  {
+    "id": "mosque-cathedral-of-cordoba",
+    "name": "Mosque–Cathedral of Córdoba",
+    "aliases": [
+      "Mezquita",
+      "Great Mosque of Córdoba",
+      "Mezquita-Catedral de Córdoba",
+      "Mosque of Cordoba",
+      "Cordoba Mosque"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Umayyad builders",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The mosque was built from 785 for Abd al-Rahman I and enlarged by his successors until the late 10th century; the builders are not recorded."
+      }
+    ],
+    "location": { "city": "Córdoba", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 987,
+    "era": "MEDIEVAL",
+    "style": "Moorish (Umayyad)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/C%C3%B3rdoba_Spain_-_Mezquita_de_C%C3%B3rdoba_-_Cathedral_of_Our_Lady_of_the_Assumption_-_Exterior_Detail.3_%2818558101592%29.jpg/1920px-C%C3%B3rdoba_Spain_-_Mezquita_de_C%C3%B3rdoba_-_Cathedral_of_Our_Lady_of_the_Assumption_-_Exterior_Detail.3_%2818558101592%29.jpg",
+        "alt": "Horseshoe-arched doorway with carved panels in a stone wall",
+        "credit": "Photo: Julia Kostecka · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_Spain_-_Mezquita_de_C%C3%B3rdoba_-_Cathedral_of_Our_Lady_of_the_Assumption_-_Exterior_Detail.3_(18558101592).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/C%C3%B3rdoba_-_Mezquita-Catedral_-_Interior_-_04.jpg/1920px-C%C3%B3rdoba_-_Mezquita-Catedral_-_Interior_-_04.jpg",
+        "alt": "Forest of columns with red-and-white striped double arches",
+        "caption": "The prayer hall.",
+        "credit": "Photo: Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_-_Mezquita-Catedral_-_Interior_-_04.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was begun in 785 on the orders of the founder of an Islamic emirate." },
+      {
+        "order": 2,
+        "text": "Its most famous innovation is rows of two-tiered arches over its prayer hall."
+      },
+      {
+        "order": 3,
+        "text": "Since 1236 it has been a cathedral, with a Renaissance nave inserted in its centre in the 16th century."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 785 for Abd al-Rahman I and enlarged until the late 10th century, the mosque's hypostyle hall repeats its signature two-tiered arches across many bays. Al-Hakam II added a richly decorated mihrab in 971. Converted to a cathedral in 1236, it received a Renaissance nave in the 16th century.",
+      "keyFeatures": [
+        "Two-tiered arches in the hypostyle hall",
+        "Reused Roman and Visigothic columns",
+        "Mihrab and maqsura with interlacing multifoil arches",
+        "Renaissance cathedral nave inserted in the centre"
+      ],
+      "funFacts": ["Abd al-Rahman III added a minaret, finished in 958."]
+    }
+  },
+  {
+    "id": "alhambra",
+    "name": "Alhambra",
+    "aliases": ["The Alhambra", "Alhambra Palace", "al-Hamra"],
+    "architects": [
+      {
+        "name": "Unknown Nasrid builders",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "Begun in 1238 by Muhammad I, the complex was modified by later Nasrid rulers, above all Yusuf I and Muhammad V in the 14th century; its builders are not recorded."
+      }
+    ],
+    "location": { "city": "Granada", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1391,
+    "era": "MEDIEVAL",
+    "style": "Nasrid (Moorish)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Alcazaba_of_the_Alhambra._Granada._Spain.jpg/1920px-Alcazaba_of_the_Alhambra._Granada._Spain.jpg",
+        "alt": "Fortified palace complex on a wooded hill below snowy mountains",
+        "credit": "Photo: Ввласенко · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Alcazaba_of_the_Alhambra._Granada._Spain.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/AlhambraAken.jpg/1920px-AlhambraAken.jpg",
+        "alt": "Window with carved stucco arches framing a view of trees",
+        "caption": "A palace window.",
+        "credit": "Photo: Abrget47j · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:AlhambraAken.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is the only well-preserved palace from the medieval Islamic world." },
+      {
+        "order": 2,
+        "text": "Its building was begun in 1238 by the founder of the last Muslim state on the Iberian Peninsula."
+      },
+      {
+        "order": 3,
+        "text": "After 1492 it became the court of Ferdinand and Isabella, and later an emperor built a Renaissance palace beside it."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1238 by Muhammad I on the Sabika hill, the palace and fortress complex received its defining royal palaces under Yusuf I and Muhammad V in the 14th century. After the conquest of 1492 it became the court of Ferdinand and Isabella, and in 1526 Charles V commissioned a Renaissance palace beside the Nasrid palaces.",
+      "keyFeatures": [
+        "Nasrid royal palaces",
+        "Fortress on the Sabika hill",
+        "Royal palaces shaped by Yusuf I and Muhammad V",
+        "Renaissance Palace of Charles V"
+      ],
+      "funFacts": ["Columbus received royal endorsement for his voyage there."]
+    }
+  },
+  {
+    "id": "pazzi-chapel",
+    "name": "Pazzi Chapel",
+    "aliases": ["Cappella dei Pazzi", "Cappella Pazzi"],
+    "architects": [
+      {
+        "name": "Filippo Brunelleschi",
+        "aliases": ["Brunelleschi"],
+        "nationality": "Italian",
+        "bio": "Florentine architect commonly credited with the chapel, though scholars now also suggest Giuliano da Maiano or Michelozzo."
+      }
+    ],
+    "location": { "city": "Florence", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1478,
+    "era": "RENAISSANCE",
+    "style": "Early Renaissance",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Firenze_Basilica_di_Santa_Croce_Chiostro_Cappella_dei_Pazzi_Esterno_Facciata_1.jpg/1920px-Firenze_Basilica_di_Santa_Croce_Chiostro_Cappella_dei_Pazzi_Esterno_Facciata_1.jpg",
+        "alt": "Chapel with a columned porch and a small dome at the end of a cloister",
+        "credit": "Photo: Zairon · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Firenze_Basilica_di_Santa_Croce_Chiostro_Cappella_dei_Pazzi_Esterno_Facciata_1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Firenze_-_cappella_Pazzi_-_2025-10-07.jpg/1920px-Firenze_-_cappella_Pazzi_-_2025-10-07.jpg",
+        "alt": "White chapel interior with grey stone pilasters, arches and a domed ceiling",
+        "caption": "The chapel.",
+        "credit": "Photo: C_messier · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Firenze_-_cappella_Pazzi_-_2025-10-07.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It stands in a cloister beside a great Franciscan basilica." },
+      {
+        "order": 2,
+        "text": "It was paid for by a banking family whose wealth was second only to the Medici."
+      },
+      {
+        "order": 3,
+        "text": "It closely resembles an earlier sacristy at San Lorenzo, which is why it is usually credited to that sacristy's architect."
+      }
+    ],
+    "summary": {
+      "description": "Funded from 1429 by Andrea Pazzi, the chapel in the first cloister of Santa Croce was begun about 1442 and completed in 1478. Commonly credited to Filippo Brunelleschi for its likeness to his Old Sacristy, it is an Early Renaissance masterpiece, though Giuliano da Maiano or Michelozzo have also been proposed.",
+      "keyFeatures": [
+        "Early Renaissance design",
+        "Façade partly obscured by an added porch",
+        "Site in the first cloister of Santa Croce",
+        "Likeness to the Old Sacristy of San Lorenzo"
+      ],
+      "funFacts": ["Brunelleschi was first named as its architect by an anonymous writer in the 1490s."]
+    }
+  },
+  {
+    "id": "st-peters-basilica",
+    "name": "St. Peter's Basilica",
+    "aliases": ["Basilica di San Pietro", "Saint Peter's Basilica", "St Peter's", "San Pietro in Vaticano"],
+    "architects": [
+      {
+        "name": "Donato Bramante",
+        "aliases": ["Bramante"],
+        "nationality": "Italian",
+        "bio": "Principal designer of the new basilica begun in 1506."
+      },
+      {
+        "name": "Michelangelo",
+        "aliases": ["Michelangelo Buonarroti", "Buonarroti"],
+        "lifespan": "1475–1564",
+        "nationality": "Italian",
+        "bio": "Sculptor, painter and architect, a principal designer of the basilica and its dome."
+      },
+      {
+        "name": "Carlo Maderno",
+        "aliases": ["Maderno"],
+        "nationality": "Italian",
+        "bio": "One of the three principal designers of the basilica, with Bramante and Michelangelo."
+      }
+    ],
+    "location": { "city": "Vatican City", "country": "Vatican City", "countryCode": "VA" },
+    "yearCompleted": 1626,
+    "era": "RENAISSANCE",
+    "style": "Renaissance and Baroque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/St._Peter%27s_Basilica_Vaticano.jpg/1920px-St._Peter%27s_Basilica_Vaticano.jpg",
+        "alt": "Great ribbed dome rising above trees in a garden",
+        "credit": "Photo: Felix Kristallovich · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Basilica_Vaticano.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/St_Peter%27s_Basilica_%2851364920987%29.jpg/1920px-St_Peter%27s_Basilica_%2851364920987%29.jpg",
+        "alt": "Inside of a vast coffered dome with mosaics, seen from below",
+        "caption": "The dome.",
+        "credit": "Photo: Nan Palmero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:St_Peter%27s_Basilica_(51364920987).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Construction began on 18 April 1506 and ended on 18 November 1626." },
+      { "order": 2, "text": "It is the largest church in the world by interior measure." },
+      {
+        "order": 3,
+        "text": "Its piazza and many fittings are by a Baroque sculptor-architect, and inside stands a famous Pietà."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1506 and completed in 1626, the basilica was designed principally by Bramante, Michelangelo and Carlo Maderno, with piazza and fittings by Bernini. One of the largest domes in the world rises over its central space, and its barrel-vaulted nave is the highest of any church.",
+      "keyFeatures": [
+        "Great dome over the central space",
+        "Barrel-vaulted nave, the highest of any church",
+        "Four giant piers with colossal statues",
+        "Piazza by Bernini"
+      ],
+      "funFacts": ["Michelangelo's Pietà stands in one of its chapels."]
+    }
+  },
+  {
+    "id": "crystal-palace",
+    "name": "The Crystal Palace",
+    "aliases": ["Crystal Palace", "Great Exhibition Building"],
+    "architects": [
+      {
+        "name": "Joseph Paxton",
+        "aliases": ["Sir Joseph Paxton", "Paxton"],
+        "nationality": "British",
+        "bio": "Designer of the Great Exhibition building, a cast-iron and plate-glass structure completed in thirty-nine weeks."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1851,
+    "era": "HISTORICISM",
+    "style": "Iron and glass prefabrication",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Great_Exhibition%2C_NW_corner_of_building%2C_HF_Talbot%2C_1851.jpg/1920px-Great_Exhibition%2C_NW_corner_of_building%2C_HF_Talbot%2C_1851.jpg",
+        "crop": { "x": 0.1, "y": 0.12, "w": 0.8, "h": 0.6 },
+        "alt": "Old photograph of a long glass-and-iron exhibition hall with a vaulted centre",
+        "credit": "Photo: William Henry Fox Talbot · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Exhibition,_NW_corner_of_building,_HF_Talbot,_1851.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/The_Great_Industrial_Exhibition_of_1851_LCCN2003673028.jpg/1920px-The_Great_Industrial_Exhibition_of_1851_LCCN2003673028.jpg",
+        "crop": { "x": 0.06, "y": 0.06, "w": 0.88, "h": 0.76 },
+        "alt": "Historic print of a vast glass-roofed hall crowded with visitors and exhibits",
+        "caption": "The interior, 1851 print.",
+        "credit": "Photo: Unknown artist, Library of Congress · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Great_Industrial_Exhibition_of_1851_LCCN2003673028.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in a park to house a great international exhibition held from May to October 1851."
+      },
+      {
+        "order": 2,
+        "text": "It was made of cast iron and 293,000 panes of glass, and was built in thirty-nine weeks."
+      },
+      {
+        "order": 3,
+        "text": "Rebuilt in a south London suburb, it was destroyed by fire in November 1936."
+      }
+    ],
+    "summary": {
+      "description": "Joseph Paxton's cast-iron and plate-glass building in Hyde Park housed the Great Exhibition of 1851. 564 metres long and 39 metres high inside, it was three times the size of St Paul's Cathedral and had the greatest area of glass ever seen in a building. Rebuilt at Sydenham, it stood until a fire in 1936.",
+      "keyFeatures": [
+        "Prefabricated cast-iron frame",
+        "293,000 panes of glass",
+        "Interior height of 39 m",
+        "990,000 sq ft of exhibition space"
+      ],
+      "funFacts": ["Its name may come from a Punch article about a 'palace of very crystal'."]
+    }
+  },
+  {
+    "id": "chiswick-house",
+    "name": "Chiswick House",
+    "aliases": ["Chiswick Villa", "Chiswick House and Gardens"],
+    "architects": [
+      {
+        "name": "Lord Burlington",
+        "aliases": ["Richard Boyle", "3rd Earl of Burlington", "Burlington"],
+        "lifespan": "1694–1753",
+        "nationality": "British",
+        "bio": "Aristocrat-architect who acquired a passion for Palladian architecture in Italy in 1719 and designed the villa himself."
+      },
+      {
+        "name": "William Kent",
+        "aliases": ["Kent"],
+        "nationality": "British",
+        "bio": "Architect and landscape designer who created most of the garden, an early English landscape garden."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1729,
+    "era": "NEOCLASSICAL",
+    "style": "Neo-Palladian",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Chiswick_House_view_from_forecourt.jpg/1920px-Chiswick_House_view_from_forecourt.jpg",
+        "alt": "Pale Palladian villa with a temple portico, twin stairs and a low dome, in snow",
+        "credit": "Photo: Chivalrick1 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chiswick_House_view_from_forecourt.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Blue_Velvet_Room_ceiling%2C_Chiswick_House_-_geograph.org.uk_-_3492703.jpg/1920px-Blue_Velvet_Room_ceiling%2C_Chiswick_House_-_geograph.org.uk_-_3492703.jpg",
+        "alt": "Richly painted and gilded ceiling with a central allegorical painting",
+        "caption": "A ceiling.",
+        "credit": "Photo: Mark Percy · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Blue_Velvet_Room_ceiling,_Chiswick_House_-_geograph.org.uk_-_3492703.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built after a fire in 1725 damaged an older Jacobean house on the estate."
+      },
+      {
+        "order": 2,
+        "text": "Its designer was an earl who fell in love with an Italian architect's work during a trip in 1719."
+      },
+      { "order": 3, "text": "Its garden is one of the earliest English landscape gardens." }
+    ],
+    "summary": {
+      "description": "Designed by Richard Boyle, 3rd Earl of Burlington, and completed in 1729, the villa is a glorious example of Neo-Palladian architecture, inspired by Palladio and Scamozzi. William Kent created most of its garden, one of the earliest English landscape gardens.",
+      "keyFeatures": [
+        "Neo-Palladian villa",
+        "Plan inspired by Palladio",
+        "Landscape garden by William Kent",
+        "26-hectare grounds"
+      ],
+      "funFacts": ["Burlington relied on Palladio and Scamozzi rather than on drawings of Roman ruins."]
+    }
   }
 ]
