@@ -7193,5 +7193,698 @@
         "Its bronze spoils of war included the Pisa Griffin; a copy is there now."
       ]
     }
+  },
+  {
+    "id": "sultan-ahmed-mosque",
+    "name": "Sultan Ahmed Mosque",
+    "aliases": ["Blue Mosque", "Sultanahmet Camii", "Sultan Ahmed I Mosque", "Sultanahmet Mosque"],
+    "architects": [
+      {
+        "name": "Sedefkar Mehmed Agha",
+        "aliases": ["Mehmed Agha", "Sedefkâr Mehmed Ağa"],
+        "nationality": "Ottoman (from Elbasan)",
+        "bio": "A pupil of Sinan from Elbasan who synthesised his master's ideas, aiming for overwhelming size, majesty and splendour; his biographer called the mosque the culmination of his career."
+      }
+    ],
+    "location": { "city": "Istanbul", "country": "Turkey", "countryCode": "TR" },
+    "yearCompleted": 1617,
+    "era": "OTTOMAN",
+    "style": "Classical Ottoman",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sultan_Ahmed_Mosque_2022_3.jpg/1920px-Sultan_Ahmed_Mosque_2022_3.jpg",
+        "alt": "Mosque with a cascade of domes and six slender minarets, seen across a park with palm trees",
+        "credit": "Photo: kallerna · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_Mosque_2022_3.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sultan_Ahmed_Mosque_Interior%2C_Side%2C_2024.jpg/1920px-Sultan_Ahmed_Mosque_Interior%2C_Side%2C_2024.jpg",
+        "alt": "Prayer hall under great domes on massive piers, lit by hanging rings of lamps",
+        "caption": "The prayer hall.",
+        "credit": "Photo: Julian Lupyan · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_Mosque_Interior,_Side,_2024.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built between 1609 and 1617, on the side of an old Byzantine hippodrome."
+      },
+      { "order": 2, "text": "It is flanked by six minarets." },
+      {
+        "order": 3,
+        "text": "Thousands of tiles and painted floral motifs in mostly blue colours give it its popular name."
+      }
+    ],
+    "summary": {
+      "description": "Built for Sultan Ahmed I between 1609 and 1617 next to the old Hippodrome and facing the Hagia Sophia, the mosque was probably meant to rival that great church. Its architect Sedefkar Mehmed Agha based the design on Sinan's Şehzade Mosque. A large courtyard precedes the prayer hall, whose thousands of Iznik tiles give the building its popular name.",
+      "keyFeatures": [
+        "Six minarets",
+        "Cascade of domes and semi-domes",
+        "Large courtyard before the prayer hall",
+        "Thousands of Iznik tiles"
+      ],
+      "funFacts": ["Some of its inscriptions give the year 1616, although the opening ceremony was in 1617."]
+    }
+  },
+  {
+    "id": "selimiye-mosque",
+    "name": "Selimiye Mosque",
+    "aliases": ["Selimiye Camii", "Selimiye Mosque, Edirne", "Selimiye"],
+    "architects": [
+      {
+        "name": "Mimar Sinan",
+        "aliases": ["Sinan", "Koca Mimar Sinan"],
+        "lifespan": "c. 1488/1490–1588",
+        "nationality": "Ottoman",
+        "bio": "Chief architect to the Ottoman sultans for some fifty years, Sinan was also an engineer and mathematician, and his mosques defined classical Ottoman architecture."
+      }
+    ],
+    "location": { "city": "Edirne", "country": "Turkey", "countryCode": "TR" },
+    "yearCompleted": 1575,
+    "era": "OTTOMAN",
+    "style": "Classical Ottoman",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Edirne_Selimiye_Mosque_Exterior_South_side_037.jpg/1920px-Edirne_Selimiye_Mosque_Exterior_South_side_037.jpg",
+        "alt": "Great domed mosque framed by tall minarets, seen past a stone wall",
+        "credit": "Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Edirne_Selimiye_Mosque_Exterior_South_side_037.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Selimiye_Mosque_2.JPG/1920px-Selimiye_Mosque_2.JPG",
+        "alt": "Vast domed prayer hall ringed by arcades and galleries, with a ring of lamps",
+        "caption": "The prayer hall.",
+        "credit": "Photo: İhsan Deniz Kılıçoğlu · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Selimiye_Mosque_2.JPG"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was commissioned by Sultan Selim II and built between 1568 and 1575." },
+      { "order": 2, "text": "Its architect considered it his masterpiece." },
+      {
+        "order": 3,
+        "text": "Its courtyard, ringed by porticos of arches and domes, frames the view of one huge central dome."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned by Selim II and built by Mimar Sinan between 1568 and 1575, the mosque is regarded as Sinan's crowning masterpiece and one of the highest achievements of Islamic architecture. Its courtyard, surrounded by porticos of arches and domes, frames the approach to the huge central dome.",
+      "keyFeatures": [
+        "Single great central dome",
+        "Courtyard with porticos of arches and domes",
+        "Muqarnas entrance portal",
+        "Fluted dome before the prayer-hall entrance"
+      ],
+      "funFacts": [
+        "Sinan himself repaired it in 1584 after lightning damage.",
+        "Its dome was damaged by artillery during the siege of 1913."
+      ]
+    }
+  },
+  {
+    "id": "rustem-pasha-mosque",
+    "name": "Rüstem Pasha Mosque",
+    "aliases": ["Rüstem Paşa Camii", "Rustem Pasha Mosque", "Rüstem Pasha"],
+    "architects": [
+      {
+        "name": "Mimar Sinan",
+        "aliases": ["Sinan", "Koca Mimar Sinan"],
+        "lifespan": "c. 1488/1490–1588",
+        "nationality": "Ottoman",
+        "bio": "Chief architect to the Ottoman sultans for some fifty years, Sinan was also an engineer and mathematician, and his mosques defined classical Ottoman architecture."
+      }
+    ],
+    "location": { "city": "Istanbul", "country": "Turkey", "countryCode": "TR" },
+    "yearCompleted": 1563,
+    "era": "OTTOMAN",
+    "style": "Classical Ottoman",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/R%C3%BCstem_Pasha_Mosque_behind_Papazo%C4%9Flu_Han%C4%B1_and_B%C3%BCy%C3%BCk_%C3%87ukur_Han_in_2024_6362.jpg/1920px-R%C3%BCstem_Pasha_Mosque_behind_Papazo%C4%9Flu_Han%C4%B1_and_B%C3%BCy%C3%BCk_%C3%87ukur_Han_in_2024_6362.jpg",
+        "alt": "Lead-covered dome and semi-domes of a stone mosque with a minaret, against a blue sky",
+        "credit": "Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:R%C3%BCstem_Pasha_Mosque_behind_Papazo%C4%9Flu_Han%C4%B1_and_B%C3%BCy%C3%BCk_%C3%87ukur_Han_in_2024_6362.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/R%C3%BCstem_Pasha_Mosque_Interior_General_view_in_2024_0225.jpg/1920px-R%C3%BCstem_Pasha_Mosque_Interior_General_view_in_2024_0225.jpg",
+        "alt": "Prayer hall with walls covered in blue and red floral tiles",
+        "caption": "The prayer hall.",
+        "credit": "Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:R%C3%BCstem_Pasha_Mosque_Interior_General_view_in_2024_0225.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is named after a grand vizier who was married to the sultan's daughter."
+      },
+      { "order": 2, "text": "It stands in a market district, near a famous spice bazaar." },
+      {
+        "order": 3,
+        "text": "Almost every vertical surface inside, and under the porch, is covered in many designs of Iznik tiles."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Mimar Sinan for the Grand Vizier Rüstem Pasha, husband of Suleiman's daughter Mihrimah Sultan, the mosque was probably built between 1561 and 1563 in the Tahtakale market district. It is unique among Sinan's mosques for its lavishly tiled interior, covered in many different Iznik designs.",
+      "keyFeatures": [
+        "Iznik tiles on almost every vertical surface",
+        "Tiled entrance porch",
+        "Central dome",
+        "Site in a market district"
+      ],
+      "funFacts": ["Rüstem Pasha may have ordered the tiles to support the court designer Kara Memi."]
+    }
+  },
+  {
+    "id": "topkapi-palace",
+    "name": "Topkapı Palace",
+    "aliases": ["Topkapi Palace", "Topkapı Sarayı", "The Seraglio", "New Palace"],
+    "architects": [
+      {
+        "name": "Acem Ali",
+        "aliases": ["Alaüddin", "Acem Alisi"],
+        "nationality": "Persian (worked for the Ottomans)",
+        "bio": "The chief architect of the palace in its early period."
+      },
+      {
+        "name": "Mimar Sinan",
+        "aliases": ["Sinan", "Koca Mimar Sinan"],
+        "lifespan": "c. 1488/1490–1588",
+        "nationality": "Ottoman",
+        "bio": "Chief architect to the Ottoman sultans for some fifty years, Sinan was also an engineer and mathematician, and his mosques defined classical Ottoman architecture."
+      }
+    ],
+    "location": { "city": "Istanbul", "country": "Turkey", "countryCode": "TR" },
+    "yearCompleted": 1465,
+    "era": "OTTOMAN",
+    "style": "Ottoman",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Topkap%C4%B1_Palace_008.jpg/1920px-Topkap%C4%B1_Palace_008.jpg",
+        "alt": "Long arcaded pavilion with a deep roof overhang, beside a garden courtyard",
+        "credit": "Photo: Joseolgon · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Topkap%C4%B1_Palace_008.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Imperial_Harem%2C_Topkap%C4%B1_Palace%2C_Istanbul.jpg/1920px-Imperial_Harem%2C_Topkap%C4%B1_Palace%2C_Istanbul.jpg",
+        "alt": "Tiled passage with arches, hanging lamps and a gilded gate",
+        "caption": "Inside the palace.",
+        "credit": "Photo: Julian Lupyan · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Imperial_Harem,_Topkap%C4%B1_Palace,_Istanbul.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its construction began in 1459, six years after the conquest of its city." },
+      {
+        "order": 2,
+        "text": "It was the main residence of its empire's rulers until the move to a newer palace on the Bosphorus."
+      },
+      { "order": 3, "text": "It is organised around four main courtyards and became a museum in 1924." }
+    ],
+    "summary": {
+      "description": "Ordered by Mehmed the Conqueror and built from 1459, the palace was the administrative centre of the Ottoman Empire and the sultans' main residence until the court moved to Dolmabahçe in 1856. Four main courtyards and many smaller buildings include the Harem and the Imperial Council. Mimar Sinan rebuilt parts after a fire in 1574.",
+      "keyFeatures": [
+        "Four main courtyards",
+        "Imperial Harem",
+        "Kitchens with two rows of 20 chimneys by Sinan",
+        "Pavilions and kiosks of later centuries"
+      ],
+      "funFacts": [
+        "Its name means Cannon Gate and was given in the 19th century.",
+        "Its treasury displays the Spoonmaker's Diamond and the Topkapı Dagger."
+      ]
+    }
+  },
+  {
+    "id": "mosteiro-de-santa-cruz",
+    "name": "Mosteiro de Santa Cruz",
+    "aliases": ["Monastery of the Holy Cross", "Igreja de Santa Cruz", "Santa Cruz Monastery", "Church of the Holy Cross"],
+    "architects": [
+      {
+        "name": "Diogo de Boitaca",
+        "aliases": ["Boitaca", "Boytac", "Diogo Boitac"],
+        "lifespan": "c. 1460–1528?",
+        "nationality": "Portuguese (origin uncertain, possibly French)",
+        "bio": "An architect and engineer of unknown origin who pioneered the Manueline style at the Monastery of Jesus in Setúbal and drew the first plans of the Jerónimos Monastery in Lisbon."
+      },
+      {
+        "name": "Nicolau Chanterene",
+        "aliases": ["Chanterene", "Nicolas Chanterène"],
+        "nationality": "French (worked in Portugal)",
+        "bio": "Sculptor and architect who built the main portal in 1522–1525 and carved the royal tombs placed in the chancel in 1530."
+      }
+    ],
+    "location": { "city": "Coimbra", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1530,
+    "era": "MANUELINE",
+    "style": "Manueline with Renaissance elements",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Coimbra_Igreja_de_Santa_Cruz_BW_2018-10-06_14-18-04_stitch.jpg/1920px-Coimbra_Igreja_de_Santa_Cruz_BW_2018-10-06_14-18-04_stitch.jpg",
+        "alt": "Ornate pale stone church front with pinnacles and a carved portal, above a square with a fountain",
+        "credit": "Photo: Berthold Werner · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coimbra_Igreja_de_Santa_Cruz_BW_2018-10-06_14-18-04_stitch.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Inside_of_the_Santa_Cruz_Monastery_in_Coimbra_2026.jpg/1920px-Inside_of_the_Santa_Cruz_Monastery_in_Coimbra_2026.jpg",
+        "alt": "Nave under a ribbed vault, with blue tile panels, a gilded pulpit and a gilded altarpiece",
+        "caption": "The church.",
+        "credit": "Photo: ほっきー · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_of_the_Santa_Cruz_Monastery_in_Coimbra_2026.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was founded in 1131 and was the most important monastery of the early kingdom."
+      },
+      { "order": 2, "text": "The first two kings of its country are buried in its chancel." },
+      {
+        "order": 3,
+        "text": "It was completely renovated in the early 16th century by order of King Manuel I."
+      }
+    ],
+    "summary": {
+      "description": "Founded in 1131 outside the walls of Coimbra, the monastery holds the tombs of Afonso Henriques and Sancho I, and so was granted the status of National Pantheon. King Manuel I had it renovated in the early 16th century: Diogo de Boitaca laid out the Manueline church and chapter house, and Nicolau Chanterene built the portal and the royal tombs.",
+      "keyFeatures": [
+        "Main portal of 1522–1525",
+        "Tombs of the first two kings, rearranged in 1530",
+        "Chapter house with ribbed ceilings",
+        "Manueline church"
+      ],
+      "funFacts": ["Its scriptorium helped Afonso Henriques consolidate royal power."]
+    }
+  },
+  {
+    "id": "palacio-nacional-de-sintra",
+    "name": "Palácio Nacional de Sintra",
+    "aliases": ["Sintra National Palace", "Palace of Sintra", "Palácio da Vila", "Town Palace"],
+    "architects": [
+      {
+        "name": "Unknown royal builders",
+        "aliases": ["Unknown", "Anonymous"],
+        "bio": "The palace grew in campaigns sponsored by King John I from around 1415 and by King Manuel I between 1497 and 1530; its master builders are not recorded."
+      }
+    ],
+    "location": { "city": "Sintra", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1530,
+    "era": "MANUELINE",
+    "style": "Gothic, Manueline and Mudéjar",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pal%C3%A1cio_Nacional_de_Sintra_-_Portugal_%283789239123%29.jpg/1920px-Pal%C3%A1cio_Nacional_de_Sintra_-_Portugal_%283789239123%29.jpg",
+        "alt": "Two huge white conical chimneys rising above a palace wing with Moorish-style windows",
+        "credit": "Photo: Vitor Oliveira · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Nacional_de_Sintra_-_Portugal_(3789239123).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pal%C3%A1cio_Nacional_de_Sintra_-_Portugal_%284967810125%29.jpg/1920px-Pal%C3%A1cio_Nacional_de_Sintra_-_Portugal_%284967810125%29.jpg",
+        "alt": "Palace room with a wooden ceiling, a chandelier, red doors and a lacquered screen",
+        "caption": "A palace room.",
+        "credit": "Photo: Vitor Oliveira · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Nacional_de_Sintra_-_Portugal_(4967810125).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is the best-preserved medieval royal residence in its country, lived in from the early 15th century to the late 19th."
+      },
+      { "order": 2, "text": "Two enormous conical chimneys rise above its kitchens." },
+      {
+        "order": 3,
+        "text": "One room is painted with magpies holding the motto 'por bem', after a king was caught kissing a lady-in-waiting."
+      }
+    ],
+    "summary": {
+      "description": "Much of the palace dates from John I's campaign from around 1415; Manuel I added a wing with Manueline windows between 1497 and 1530 and redecorated rooms with azulejos made for him in Seville. Its blend of Gothic, Manueline, Moorish and Mudéjar styles includes the Coat of Arms Room, one of Europe's most important heraldic rooms.",
+      "keyFeatures": [
+        "Pair of giant conical kitchen chimneys",
+        "Manuel's Wing with Manueline windows",
+        "Coat of Arms Room",
+        "Mudéjar azulejo panels"
+      ],
+      "funFacts": ["King John II was acclaimed king here.", "The Swan Room is named after the swans painted on its ceiling."]
+    }
+  },
+  {
+    "id": "se-do-funchal",
+    "name": "Sé do Funchal",
+    "aliases": ["Funchal Cathedral", "Cathedral of Our Lady of the Assumption", "Sé Catedral do Funchal"],
+    "architects": [
+      {
+        "name": "Pêro Anes",
+        "aliases": ["Gil Enes", "Pero Anes"],
+        "nationality": "Portuguese",
+        "bio": "A royal carpenter who replaced the first master builder, João Gonçalves, introducing advanced methods from the mainland."
+      }
+    ],
+    "location": { "city": "Funchal", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1514,
+    "era": "MANUELINE",
+    "style": "Gothic and Manueline",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Catedral%2C_Funchal%2C_Madeira%2C_Portugal%2C_2019-05-29%2C_DD_34.jpg/1920px-Catedral%2C_Funchal%2C_Madeira%2C_Portugal%2C_2019-05-29%2C_DD_34.jpg",
+        "alt": "White church with dark stone edges, a rose window and a pointed portal, beside a square bell tower",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Catedral,_Funchal,_Madeira,_Portugal,_2019-05-29,_DD_34.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Die_prachtvoll_ausgestattete_Kathedrale_von_Funchal%2C_Madeira._01.jpg/1920px-Die_prachtvoll_ausgestattete_Kathedrale_von_Funchal%2C_Madeira._01.jpg",
+        "alt": "Gilded chancel under a carved and painted wooden ceiling",
+        "caption": "The chancel.",
+        "credit": "Photo: Holger Uwe Schmitt · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Die_prachtvoll_ausgestattete_Kathedrale_von_Funchal,_Madeira._01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It stands on an Atlantic island and was begun in 1486 under the duke who later became King Manuel I."
+      },
+      { "order": 2, "text": "It was raised to cathedral status by a papal bull in 1514." },
+      { "order": 3, "text": "Its roof is a Mudéjar-inspired design in cedar wood." }
+    ],
+    "summary": {
+      "description": "Begun in 1486 under the future Manuel I and structurally complete in 1514, the cathedral of Funchal is one of the few buildings that survives virtually intact from the early colonisation of Madeira. Its Gothic and Manueline design is crowned inside by a Mudéjar-inspired cedar roof, and its main altar was consecrated by 1517.",
+      "keyFeatures": ["Mudéjar-inspired cedar ceiling", "Gothic and Manueline design", "Gilded woodwork", "Bell tower"],
+      "funFacts": ["Manuel I gave it a silver processional cross, a masterpiece of Manueline silverwork."]
+    }
+  },
+  {
+    "id": "igreja-matriz-da-golega",
+    "name": "Igreja Matriz da Golegã",
+    "aliases": ["Igreja de Nossa Senhora da Conceição (Golegã)", "Golegã Parish Church", "Igreja da Golegã"],
+    "architects": [
+      {
+        "name": "Diogo de Boitaca",
+        "aliases": ["Boitaca", "Boytac", "Diogo Boitac"],
+        "lifespan": "c. 1460–1528?",
+        "nationality": "Portuguese (origin uncertain, possibly French)",
+        "bio": "An architect and engineer of unknown origin who pioneered the Manueline style at the Monastery of Jesus in Setúbal and drew the first plans of the Jerónimos Monastery in Lisbon."
+      }
+    ],
+    "location": { "city": "Golegã", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1530,
+    "era": "MANUELINE",
+    "style": "Manueline",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Igreja_Matriz_da_Goleg%C3%A3_-_Portugal_%284531925902%29.jpg/1920px-Igreja_Matriz_da_Goleg%C3%A3_-_Portugal_%284531925902%29.jpg",
+        "alt": "White church with an elaborately carved stone portal and a tall tower with a pointed spire",
+        "credit": "Photo: Vitor Oliveira · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Igreja_Matriz_da_Goleg%C3%A3_-_Portugal_(4531925902).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vista_afastada_para_altar_da_Igreja_matriz_da_Goleg%C3%A3.jpg/1920px-Vista_afastada_para_altar_da_Igreja_matriz_da_Goleg%C3%A3.jpg",
+        "alt": "Nave with timber roof leading to a ribbed Gothic chancel arch and tiled chapel",
+        "caption": "The nave.",
+        "credit": "Photo: Threeohsix · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vista_afastada_para_altar_da_Igreja_matriz_da_Goleg%C3%A3.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in the first half of the 16th century, replacing a small Gothic parish church."
+      },
+      { "order": 2, "text": "A king's frequent stays in a nearby town favoured its construction." },
+      { "order": 3, "text": "Its carved portal is one of the most emblematic examples of its style." }
+    ],
+    "summary": {
+      "description": "Built in the first half of the 16th century to replace a small Gothic church, the parish church of Golegã is one of the best-preserved examples of the Manueline style, with a magnificent portal. The royal architect Diogo Boitaca probably intervened in its construction; by 1530 its chancel was already used for burials. Restorations in the 1930s and 1940s recovered its Manueline appearance.",
+      "keyFeatures": [
+        "Carved Manueline portal",
+        "Bell tower with a tall prismatic spire",
+        "Gothic inscription held by angels at the portal",
+        "Tiled chancel"
+      ],
+      "funFacts": ["In the 18th century a storey and a dome were added to its tower."]
+    }
+  },
+  {
+    "id": "sant-andrea-mantua",
+    "name": "Basilica of Sant'Andrea",
+    "aliases": ["Sant'Andrea", "Sant'Andrea, Mantua", "Basilica di Sant'Andrea", "Sant Andrea Mantova"],
+    "architects": [
+      {
+        "name": "Leon Battista Alberti",
+        "aliases": ["Alberti"],
+        "lifespan": "1404–1472",
+        "nationality": "Italian",
+        "bio": "Humanist author and architect of the early Renaissance, a theorist of architecture whose churches elaborated the triumphal-arch motif."
+      }
+    ],
+    "location": { "city": "Mantua", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1782,
+    "era": "RENAISSANCE",
+    "style": "Renaissance",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mantova%2C_sant%27andrea%2C_esterno_02%2C0.jpg/1920px-Mantova%2C_sant%27andrea%2C_esterno_02%2C0.jpg",
+        "alt": "Church front shaped like a triumphal arch with pilasters and a pediment, beside a Gothic bell tower",
+        "credit": "Photo: Sailko · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mantova,_sant%27andrea,_esterno_02,0.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Mantova_-_Basilica_di_Sant%27Andrea_-_2023-09-08_14-25-43_002.jpg/1920px-Mantova_-_Basilica_di_Sant%27Andrea_-_2023-09-08_14-25-43_002.jpg",
+        "alt": "Single great nave under a painted barrel vault, with side chapels and a domed crossing",
+        "caption": "The nave.",
+        "credit": "Photo: PierangeloGatto · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mantova_-_Basilica_di_Sant%27Andrea_-_2023-09-08_14-25-43_002.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was begun in 1472, the year its architect died, for a ruling marquess." },
+      { "order": 2, "text": "Its façade and interior both elaborate the motif of a triumphal arch." },
+      {
+        "order": 3,
+        "text": "It was built to receive pilgrims who come to see a vial said to contain the Blood of Christ."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned by Ludovico III Gonzaga, the church was begun in 1472 to designs by Leon Battista Alberti. He broke with the basilican tradition by opening chapels off a single nave instead of aisles, and made the façade and interior echo the triumphal arch. Its dome, by Filippo Juvarra, was added only in 1732–1782.",
+      "keyFeatures": [
+        "Triumphal-arch façade",
+        "Single nave with side chapels",
+        "Barrel vault with painted coffers",
+        "Dome by Filippo Juvarra"
+      ],
+      "funFacts": [
+        "The painter Andrea Mantegna is buried in one of its chapels.",
+        "Its bell tower (1414) survives from an earlier monastery."
+      ]
+    }
+  },
+  {
+    "id": "chateau-de-chambord",
+    "name": "Château de Chambord",
+    "aliases": ["Chambord", "Chateau de Chambord", "Chambord Castle"],
+    "architects": [
+      {
+        "name": "Domenico da Cortona",
+        "aliases": ["Cortona", "Boccador"],
+        "nationality": "Tuscan (worked in France)",
+        "bio": "The Tuscan architect to whom the original design is attributed, with doubts; his wooden model survived long enough to be drawn in the 17th century."
+      }
+    ],
+    "location": { "city": "Chambord", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1547,
+    "era": "RENAISSANCE",
+    "style": "French Renaissance",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ch%C3%A2teau_de_Chambord_-_19-08-2015_-_Arnaud_Scherer.jpg/1920px-Ch%C3%A2teau_de_Chambord_-_19-08-2015_-_Arnaud_Scherer.jpg",
+        "alt": "Huge white château with round towers and a crowded roofscape, reflected in still water",
+        "credit": "Photo: Arnaud Scherer · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chambord_-_19-08-2015_-_Arnaud_Scherer.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Chateau_de_Chambord_-_Spiral_Steps.jpg/1920px-Chateau_de_Chambord_-_Spiral_Steps.jpg",
+        "alt": "Twisting stone staircase with an open central core seen through arched openings",
+        "caption": "The double-spiral staircase.",
+        "credit": "Photo: Eric Kilby · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chateau_de_Chambord_-_Spiral_Steps.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built between 1519 and 1547 as a hunting lodge for a king, who stayed there barely seven weeks."
+      },
+      { "order": 2, "text": "It has 440 rooms, 282 fireplaces and 84 staircases." },
+      {
+        "order": 3,
+        "text": "Its central double-spiral staircase is sometimes credited to Leonardo da Vinci, though this is unconfirmed."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned by Francis I and built between 1519 and 1547, Chambord is the largest château of the Loire Valley. Its design is attributed to Domenico da Cortona, with possible influence from Leonardo da Vinci. Rooms are grouped into self-contained suites around a central open double-spiral staircase, and its roofscape of towers and chimneys looks like the skyline of a town.",
+      "keyFeatures": [
+        "Open double-spiral staircase",
+        "Roofscape of towers, lanterns and chimneys",
+        "Self-contained suites of rooms",
+        "Centralised plan"
+      ],
+      "funFacts": [
+        "Henry James said its roof looked more like the spires of a city than a single building.",
+        "Its furnishings were sold off in 1792."
+      ]
+    }
+  },
+  {
+    "id": "el-escorial",
+    "name": "El Escorial",
+    "aliases": ["Monastery of San Lorenzo de El Escorial", "Real Sitio de San Lorenzo de El Escorial", "Escorial"],
+    "architects": [
+      {
+        "name": "Juan Bautista de Toledo",
+        "aliases": ["Toledo"],
+        "lifespan": "d. 1567",
+        "nationality": "Spanish",
+        "bio": "Architect-royal from 1559 who designed the complex with Philip II and oversaw it until his death."
+      },
+      {
+        "name": "Juan de Herrera",
+        "aliases": ["Herrera"],
+        "lifespan": "1530–1597",
+        "nationality": "Spanish",
+        "bio": "Toledo's apprentice, generally regarded as the architect of the Escorial, who completed it in 1584."
+      }
+    ],
+    "location": { "city": "San Lorenzo de El Escorial", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1584,
+    "era": "RENAISSANCE",
+    "style": "Spanish Renaissance (Herrerian)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/El_Escorial_116.jpg/1920px-El_Escorial_116.jpg",
+        "alt": "Vast austere granite building with a corner tower and spire under a blue sky",
+        "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:El_Escorial_116.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Real_Monasterio_de_San_Lorenzo_de_El_Escorial%2C_Madrid%2C_Espa%C3%B1a%2C_2025-12-30%2C_DD_10-12_HDR.jpg/1920px-Real_Monasterio_de_San_Lorenzo_de_El_Escorial%2C_Madrid%2C_Espa%C3%B1a%2C_2025-12-30%2C_DD_10-12_HDR.jpg",
+        "alt": "Long library hall with carved bookcases, a marble floor and a frescoed barrel vault",
+        "caption": "The library.",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Real_Monasterio_de_San_Lorenzo_de_El_Escorial,_Madrid,_Espa%C3%B1a,_2025-12-30,_DD_10-12_HDR.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built between 1563 and 1584 by order of a king, and is the largest Renaissance building in the world."
+      },
+      { "order": 2, "text": "It combines a monastery, basilica, royal palace, pantheon and library." },
+      { "order": 3, "text": "Its library was the first in Europe to set bookcases along the walls." }
+    ],
+    "summary": {
+      "description": "Built for Philip II between 1563 and 1584, El Escorial was designed by Juan Bautista de Toledo and completed by Juan de Herrera. Philip asked for 'simplicity in the construction, severity in the whole'. The grid-like complex holds a monastery, a Greek-cross basilica, the king's palace, the royal pantheon and a library of more than 40,000 volumes.",
+      "keyFeatures": [
+        "Grid-like plan with corner towers",
+        "Greek-cross basilica with a great dome",
+        "Royal Pantheon of the Kings",
+        "Library hall 54 m long with frescoed vault"
+      ],
+      "funFacts": [
+        "Domenico Fontana drew on its library for the Vatican Library.",
+        "A fire in 1671 destroyed about 5,280 manuscripts."
+      ]
+    }
+  },
+  {
+    "id": "laurentian-library",
+    "name": "Laurentian Library",
+    "aliases": ["Biblioteca Medicea Laurenziana", "Biblioteca Laurenziana", "Medici Library"],
+    "architects": [
+      {
+        "name": "Michelangelo",
+        "aliases": ["Michelangelo Buonarroti", "Buonarroti"],
+        "lifespan": "1475–1564",
+        "nationality": "Italian",
+        "bio": "Florentine sculptor, painter and architect; his library design here is one of his most important architectural achievements and an example of Mannerism."
+      }
+    ],
+    "location": { "city": "Florence", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1571,
+    "era": "RENAISSANCE",
+    "style": "Mannerism",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sagrestia_vecchia_di_san_lorenzo%2C_veduta_del_retro_01.JPG/1920px-Sagrestia_vecchia_di_san_lorenzo%2C_veduta_del_retro_01.JPG",
+        "alt": "Plain stone building with a small dome, rising behind a cloister wall on a narrow street",
+        "credit": "Photo: sailko · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sagrestia_vecchia_di_san_lorenzo,_veduta_del_retro_01.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Biblioteca_Medicea_Laurenziana_-_panoramio.jpg/1920px-Biblioteca_Medicea_Laurenziana_-_panoramio.jpg",
+        "alt": "Long reading room with rows of carved wooden desks under a coffered timber ceiling",
+        "caption": "The reading room.",
+        "credit": "Photo: Angela Stefanoni · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_Medicea_Laurenziana_-_panoramio.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built in a church cloister under the patronage of a Medici pope." },
+      {
+        "order": 2,
+        "text": "Its vestibule is filled by a staircase that seems to pour down from the upper level."
+      },
+      {
+        "order": 3,
+        "text": "Its architect left the city in 1534, and others finished it from his instructions; it opened by 1571."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned in 1523 by the Medici pope Clement VII and built in a cloister of San Lorenzo, the library was designed by Michelangelo. When he left Florence in 1534 only the reading-room walls were done; Tribolo, Vasari and Ammannati completed it from his plans. Its tall vestibule with a flowing staircase is a key work of Mannerism.",
+      "keyFeatures": [
+        "Tall vestibule with recessed columns",
+        "Staircase executed by Ammannati in 1559",
+        "Long, evenly lit reading room",
+        "Carved desks (plutei)"
+      ],
+      "funFacts": [
+        "Mark Rothko said the vestibule influenced his Seagram murals.",
+        "Its core collection is about 3,000 manuscripts."
+      ]
+    }
   }
 ]
