@@ -19,6 +19,7 @@ export default {
     EAST_ASIAN: 'East Asian Traditional',
     ISLAMIC: 'Islamic, Moorish & Mughal',
     MEDIEVAL: 'Romanesque & Gothic',
+    RUSSIAN: 'Russian Orthodox',
     OTTOMAN: 'Ottoman',
     MANUELINE: 'Manueline',
     RENAISSANCE: 'Renaissance',

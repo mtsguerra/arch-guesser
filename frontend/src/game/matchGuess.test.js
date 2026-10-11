@@ -110,6 +110,7 @@ describe('eraMatches', () => {
     ['BAROQUE', 'MANNERISM'],
     ['ISLAMIC', 'MEDIEVAL'],
     ['INDUSTRIAL', 'HISTORICISM'],
+    ['RUSSIAN', 'BYZANTINE'],
   ])('treats %s as close enough to %s', (guess, answer) => {
     expect(eraMatches(guess, answer)).toBe(true)
   })

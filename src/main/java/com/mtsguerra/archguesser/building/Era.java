@@ -13,6 +13,7 @@ public enum Era {
     EAST_ASIAN("East Asian Traditional", 600, 1900),
     ISLAMIC("Islamic, Moorish & Mughal", 650, 1800),
     MEDIEVAL("Romanesque & Gothic", 1000, 1500),
+    RUSSIAN("Russian Orthodox", 1000, 1700),
     OTTOMAN("Ottoman", 1300, 1922),
     MANUELINE("Manueline", 1490, 1540),
     RENAISSANCE("Renaissance", 1400, 1600),

@@ -19,6 +19,7 @@ export default {
     EAST_ASIAN: 'Tradicional do Leste Asiático',
     ISLAMIC: 'Islâmico, Mourisco e Mogol',
     MEDIEVAL: 'Românico e Gótico',
+    RUSSIAN: 'Ortodoxo Russo',
     OTTOMAN: 'Otomano',
     MANUELINE: 'Manuelino',
     RENAISSANCE: 'Renascimento',

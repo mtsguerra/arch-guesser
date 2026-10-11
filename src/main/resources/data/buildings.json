@@ -11980,5 +11980,659 @@
         "Their structural design uses a tube-in-tube system invented by Fazlur Rahman Khan."
       ]
     }
+  },
+  {
+    "id": "tower-of-london",
+    "name": "Tower of London (White Tower)",
+    "aliases": [
+      "Tower of London",
+      "White Tower",
+      "The Tower",
+      "HM Tower of London",
+      "Her Majesty’s Royal Palace and Fortress of the Tower of London"
+    ],
+    "architects": [
+      {
+        "name": "Gundulf of Rochester",
+        "aliases": ["Gundulf", "Bishop Gundulf"],
+        "lifespan": "c. 1024–1108",
+        "nationality": "Norman",
+        "bio": "Bishop of Rochester and a skilled builder, Gundulf was placed in charge of constructing the White Tower for William the Conqueror."
+      },
+      {
+        "name": "William the Conqueror",
+        "aliases": ["William I", "King William I"],
+        "lifespan": "c. 1028–1087",
+        "nationality": "Norman",
+        "bio": "The Norman duke who conquered England in 1066 and had the keep begun around 1078 as a symbol of his power over London."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1100,
+    "era": "MEDIEVAL",
+    "style": "Norman keep (Romanesque)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tower_of_London",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the keep",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Plan_of_White_Tower_-_Memorials_of_the_Tower_of_London.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.935 },
+        "alt": "Old engraved plan of a thick-walled rectangular keep, with a large hall, a rounded chapel apse and spiral stairs in the corners",
+        "credit": "Plan from Memorials of the Tower of London, 1866 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Plan_of_White_Tower_-_Memorials_of_the_Tower_of_London.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/White_Tower%2C_City_of_London.jpg/1920px-White_Tower%2C_City_of_London.jpg",
+        "alt": "Square stone keep with a turret at each corner, standing above green lawn",
+        "credit": "Photo: Tristan Surtel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:White_Tower,_City_of_London.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/St_John%27s_Chapel%2C_Tower_of_London.jpg/1920px-St_John%27s_Chapel%2C_Tower_of_London.jpg",
+        "alt": "Plain stone chapel with heavy round columns, a gallery of arches and a simple altar",
+        "caption": "A Norman chapel fills the south-east corner of the keep.",
+        "credit": "Photo: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:St_John%27s_Chapel,_Tower_of_London.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as a symbol of conquest, built by a king who had just taken a country by force."
+      },
+      {
+        "order": 2,
+        "text": "Over the centuries it has been a palace, a prison, an armoury, a zoo and a mint, and it still guards a famous set of royal jewels."
+      },
+      { "order": 3, "text": "Folklore says that if its resident black birds ever leave, the kingdom will fall." }
+    ],
+    "summary": {
+      "description": "Begun around 1078 by William the Conqueror after the Norman conquest, the White Tower is a great keep of pale stone that gives the whole fortress its name. It was supervised by Gundulf, Bishop of Rochester, and stands at the heart of a complex of buildings set within two rings of walls and a moat. Over the centuries the Tower has served as a royal residence, armoury, treasury, menagerie and prison, and it holds the Crown Jewels.",
+      "keyFeatures": [
+        "Thick-walled Norman keep with corner turrets",
+        "Chapel of St John in the south-east corner",
+        "Two concentric rings of defensive walls",
+        "Home of the Crown Jewels"
+      ],
+      "funFacts": [
+        "It was begun in 1078 and was at first a resented symbol of oppression.",
+        "Kings Richard I, Henry III and Edward I expanded it in the 12th and 13th centuries."
+      ]
+    }
+  },
+  {
+    "id": "westminster-abbey",
+    "name": "Westminster Abbey",
+    "aliases": ["Collegiate Church of Saint Peter at Westminster", "Abbey of Westminster", "Westminster Abbey London"],
+    "architects": [
+      {
+        "name": "Henry of Reynes",
+        "aliases": ["Henry de Reyns", "Henry de Reynes"],
+        "lifespan": "fl. 1243–1253",
+        "nationality": "English",
+        "bio": "Master mason of Henry III, who began the present Gothic church in 1245 on the model of 13th-century French cathedrals."
+      },
+      {
+        "name": "Henry III",
+        "aliases": ["King Henry III"],
+        "lifespan": "1207–1272",
+        "nationality": "English",
+        "bio": "King of England who ordered the church rebuilt from 1245 as a coronation church and a shrine for Edward the Confessor."
+      },
+      {
+        "name": "Nicholas Hawksmoor",
+        "aliases": ["Hawksmoor"],
+        "lifespan": "1661–1736",
+        "nationality": "English",
+        "bio": "Baroque architect who, with John James, designed the Gothic-style western towers that were completed in the 1740s."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1745,
+    "era": "MEDIEVAL",
+    "style": "English Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Westminster_Abbey",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground plan with building dates",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Westminster_Abbey_Ground_Plan_and_Longitudinal_Section.jpg/1920px-Westminster_Abbey_Ground_Plan_and_Longitudinal_Section.jpg",
+        "crop": { "x": 0.02, "y": 0.108, "w": 0.96, "h": 0.34 },
+        "alt": "Old plan of a long cross-shaped church with a cloister and a chapel at the east end, shaded by building period",
+        "credit": "J. T. Micklethwaite, 1893 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Westminster_Abbey_Ground_Plan_and_Longitudinal_Section.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Westminster_Abbey_Ground_Plan_and_Longitudinal_Section.jpg/1920px-Westminster_Abbey_Ground_Plan_and_Longitudinal_Section.jpg",
+        "crop": { "x": 0.02, "y": 0.675, "w": 0.96, "h": 0.31 },
+        "alt": "Section along a very tall Gothic nave showing arcades, galleries and a clerestory, with a lower chapel at the right",
+        "credit": "J. T. Micklethwaite, 1893 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Westminster_Abbey_Ground_Plan_and_Longitudinal_Section.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/North_facade_of_Westminster_Abbey.jpg/1920px-North_facade_of_Westminster_Abbey.jpg",
+        "alt": "Gothic church front with a great rose window, pinnacles and buttresses above a lawn",
+        "credit": "Photo: Radosław Botev · CC BY 3.0 pl · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:North_facade_of_Westminster_Abbey.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/London_UK_Interior-of-Westminster-Abbey-02.jpg/1920px-London_UK_Interior-of-Westminster-Abbey-02.jpg",
+        "alt": "Soaring Gothic nave and vault with chandeliers, looking towards a carved screen",
+        "credit": "Photo: CEphoto, Uwe Aranas · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:London_UK_Interior-of-Westminster-Abbey-02.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ceiling_of_Henry_VII_Chapel.jpg/1920px-Ceiling_of_Henry_VII_Chapel.jpg",
+        "alt": "Intricate fan-vaulted ceiling with hanging stone pendants",
+        "caption": "A fan-vaulted ceiling covers the Lady Chapel.",
+        "credit": "Photo: JRennocks · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ceiling_of_Henry_VII_Chapel.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Forty monarchs have been crowned here since 1066." },
+      {
+        "order": 2,
+        "text": "Its present church was begun in 1245 by a king who wanted a worthy shrine for a royal saint, and who took French cathedrals as his model."
+      },
+      {
+        "order": 3,
+        "text": "Its two western towers were added only in the 1740s, in a Gothic style, by Baroque-trained designers."
+      }
+    ],
+    "summary": {
+      "description": "The present church was begun in 1245 on the orders of Henry III, who wanted a coronation church and a shrine for Edward the Confessor. Its Gothic architecture draws chiefly on 13th-century French and English styles, The Lady Chapel was added by Henry VII, and the western towers were built in the 1740s by Nicholas Hawksmoor and John James. It has been the site of the coronations of 40 monarchs since 1066.",
+      "keyFeatures": [
+        "Tall French-inspired Gothic nave",
+        "Fan-vaulted Henry VII Chapel",
+        "Cosmati pavement before the high altar",
+        "Western towers by Hawksmoor and James"
+      ],
+      "funFacts": [
+        "At least 16 royal weddings have taken place here since 1100.",
+        "The abbey is a \"royal peculiar\", answerable to the sovereign rather than to a bishop."
+      ]
+    }
+  },
+  {
+    "id": "cologne-cathedral",
+    "name": "Cologne Cathedral",
+    "aliases": ["Kölner Dom", "Koelner Dom", "Dom of Cologne", "Hohe Domkirche St. Peter und Maria"],
+    "architects": [
+      {
+        "name": "Master Gerhard",
+        "aliases": ["Gerhard of Rile", "Gerhard von Rile", "Meister Gerhard"],
+        "lifespan": "fl. 1248–1271",
+        "nationality": "German",
+        "bio": "First master builder of the cathedral, who drew up the French-inspired Gothic plan and directed the work from 1248."
+      },
+      {
+        "name": "Ernst Friedrich Zwirner",
+        "aliases": ["Zwirner"],
+        "lifespan": "1802–1861",
+        "nationality": "German",
+        "bio": "Prussian architect who led the 19th-century completion of the cathedral until his death, using modern iron roof girders."
+      }
+    ],
+    "location": { "city": "Cologne", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1880,
+    "era": "MEDIEVAL",
+    "style": "German High Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cologne_Cathedral",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Medieval façade drawing (Plan F)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fassadenplan_F_vom_K%C3%B6lner_Dom.jpg/1920px-Fassadenplan_F_vom_K%C3%B6lner_Dom.jpg",
+        "alt": "Very tall parchment drawing of a church front with two huge spired towers side by side",
+        "credit": "Medieval façade plan (Plan F) · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fassadenplan_F_vom_K%C3%B6lner_Dom.jpg"
+      },
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Plan.cathedrale.Cologne.png",
+        "alt": "Plan of a cross-shaped church with a five-aisled nave, double aisles and a chevet of radiating chapels",
+        "credit": "Unknown author · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Plan.cathedrale.Cologne.png"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg/1920px-K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg",
+        "alt": "Dark Gothic church with two very tall openwork spires against a deep blue sky",
+        "credit": "Photo: Raimond Spekking · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Cologne_Cathedral_interior_b.jpg",
+        "alt": "Tall Gothic apse with slender windows of coloured glass and rows of clustered columns",
+        "credit": "Photo: File:Cologne Cathedral interior.JPG: Pascal Reusch derivativ · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cologne_Cathedral_interior_b.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Work began in 1248, stopped for about three centuries, and was finally completed in 1880."
+      },
+      {
+        "order": 2,
+        "text": "It is the tallest twin-spired church in the world, and its façade is the largest of any church."
+      },
+      {
+        "order": 3,
+        "text": "It was finished in the 19th century according to its original medieval drawings, and it stood remarkably intact among the ruins of a bombed city in 1945."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1248 under Master Gerhard, Cologne Cathedral was left unfinished for about 300 years from around 1560. Construction resumed in the 19th century to the original medieval plan, with modern iron roof girders, and was completed in 1880. At 157 metres it is the tallest twin-spired church in the world, and its two towers give it the largest façade of any church. It shelters the reliquary of the Three Kings.",
+      "keyFeatures": [
+        "157-metre twin spires",
+        "Largest façade of any church",
+        "French High Gothic plan",
+        "Reliquary of the Three Kings"
+      ],
+      "funFacts": [
+        "Its medieval façade drawings survived and made the 19th-century completion possible.",
+        "It was declared a World Heritage Site in 1996."
+      ]
+    }
+  },
+  {
+    "id": "milan-cathedral",
+    "name": "Milan Cathedral",
+    "aliases": [
+      "Duomo di Milano",
+      "Duomo of Milan",
+      "Il Duomo",
+      "Duomo Milano",
+      "Metropolitan Cathedral-Basilica of the Nativity of Saint Mary"
+    ],
+    "architects": [
+      {
+        "name": "Simone da Orsenigo",
+        "aliases": ["Orsenigo"],
+        "lifespan": "fl. 1386",
+        "nationality": "Italian",
+        "bio": "First chief engineer of the cathedral works, who planned to build in brick in the Lombard Gothic style."
+      },
+      {
+        "name": "Nicolas de Bonaventure",
+        "aliases": ["Nicolas Bonaventure", "Nicolò Bonaventure"],
+        "lifespan": "fl. 1389",
+        "nationality": "French",
+        "bio": "French master appointed chief engineer in 1389, who brought the Rayonnant Gothic of northern Europe to Milan."
+      }
+    ],
+    "location": { "city": "Milan", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1965,
+    "era": "MEDIEVAL",
+    "style": "Gothic (Lombard and Rayonnant)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Milan_Cathedral",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the cathedral",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Plan-of-the-Milan-Cathedral.png",
+        "alt": "Engraved plan of a vast five-aisled church with a grid of piers, transepts and a polygonal apse",
+        "credit": "Unknown author · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Plan-of-the-Milan-Cathedral.png"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Milan_Cathedral%2C_Fa%C3%A7ade%2C_2025.jpg/1920px-Milan_Cathedral%2C_Fa%C3%A7ade%2C_2025.jpg",
+        "alt": "Pale marble Gothic façade crowded with pinnacles, statues and tall spires",
+        "credit": "Photo: Julian Lupyan · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Milan_Cathedral,_Fa%C3%A7ade,_2025.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Spires_of_Milan_Cathedral.jpg/1920px-Spires_of_Milan_Cathedral.jpg",
+        "alt": "A dense forest of marble spires topped with statues against a pale sky",
+        "credit": "Photo: Julian Lupyan · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Spires_of_Milan_Cathedral.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Nave_of_Milan_Cathedral.jpg/1920px-Nave_of_Milan_Cathedral.jpg",
+        "alt": "Giant clustered columns lining a dim, vaulted nave, with light coming from the far end",
+        "credit": "Photo: Julian Lupyan · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Nave_of_Milan_Cathedral.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It took nearly six centuries to complete, and its last details were finished in 1965." },
+      {
+        "order": 2,
+        "text": "It was begun in brick in a local style, but its patron wanted the newest northern Gothic, and a French master was called in."
+      },
+      { "order": 3, "text": "Its roof is a forest of spires and statues, crowned by a gilded figure of the Virgin." }
+    ],
+    "summary": {
+      "description": "Begun in 1386, Milan Cathedral took almost six centuries to finish, with the last details completed in 1965. Under its first chief engineer, Simone da Orsenigo, it was planned in brick in Lombard Gothic style, but its patrons soon adopted the northern Rayonnant Gothic brought by Nicolas de Bonaventure in 1389. It is the largest church in Italy, and its roof is covered with a forest of spires and statues. In 1805 Napoleon ordered the façade to be completed.",
+      "keyFeatures": [
+        "Largest church in Italy",
+        "Rayonnant Gothic influenced by France",
+        "Forest of spires and thousands of statues",
+        "Five-aisled nave with giant clustered columns"
+      ],
+      "funFacts": [
+        "Napoleon ordered the façade completed before his coronation as King of Italy in 1805.",
+        "The gilded Madonnina on the highest spire became a symbol of the city."
+      ]
+    }
+  },
+  {
+    "id": "leaning-tower-of-pisa",
+    "name": "Leaning Tower of Pisa",
+    "aliases": [
+      "Tower of Pisa",
+      "Torre di Pisa",
+      "Torre pendente di Pisa",
+      "Pisa Tower",
+      "Pisa Bell Tower",
+      "Campanile of Pisa Cathedral"
+    ],
+    "architects": [
+      {
+        "name": "Bonanno Pisano",
+        "aliases": ["Bonanno", "Bonanno of Pisa"],
+        "lifespan": "fl. 12th century",
+        "nationality": "Italian",
+        "bio": "Sculptor and bronze caster of Pisa, long credited with the design of the tower, although the attribution is now disputed."
+      },
+      {
+        "name": "Diotisalvi",
+        "aliases": ["Deotisalvi"],
+        "lifespan": "fl. 1153–1180",
+        "nationality": "Italian",
+        "bio": "Pisan architect of the Baptistery and the bell tower of San Nicola, proposed by a 2001 study as the original architect of the tower."
+      }
+    ],
+    "location": { "city": "Pisa", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1372,
+    "era": "MEDIEVAL",
+    "style": "Pisan Romanesque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/1920px-Italy_-_Pisa_-_Leaning_Tower.jpg",
+        "alt": "Round white marble bell tower with tiers of arcades, tilting noticeably to one side above a green lawn",
+        "credit": "Photo: Arne Müseler · CC BY-SA 3.0 de · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Cos_de_campanes_de_la_torre_de_Pisa.JPG/1920px-Cos_de_campanes_de_la_torre_de_Pisa.JPG",
+        "alt": "Looking down into a round stone bell chamber with a large bronze bell and a glass-covered opening in the floor",
+        "caption": "The bell chamber sits at the top of the tower.",
+        "credit": "Photo: Joanbanjo · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cos_de_campanes_de_la_torre_de_Pisa.JPG"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It began to lean while it was still being built, because it stands on soft ground." },
+      {
+        "order": 2,
+        "text": "It is the bell tower of a cathedral, and it stands in a famous green square beside a baptistery."
+      },
+      {
+        "order": 3,
+        "text": "A rescue in the 1990s reduced its tilt by about a degree and a half so that it would not topple."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1173 as the bell tower of Pisa's cathedral, the tower started to lean during construction because of the soft ground, and the work stretched over almost two centuries. Its eight tiers of arcades are built of white marble. It is 55.86 metres high on the low side, with 294 or 296 steps. After remedial work between 1993 and 2001 its tilt was reduced from 5.5 to 3.97 degrees.",
+      "keyFeatures": [
+        "Eight tiers of marble arcades",
+        "Cylindrical tower with a bell chamber at the top",
+        "Tilt reduced to 3.97 degrees",
+        "Part of the Piazza dei Miracoli with the cathedral and baptistery"
+      ],
+      "funFacts": [
+        "The identity of its architect is still disputed.",
+        "The remedial work between 1993 and 2001 reduced its tilt from 5.5 to 3.97 degrees."
+      ]
+    }
+  },
+  {
+    "id": "doges-palace",
+    "name": "Doge’s Palace",
+    "aliases": ["Palazzo Ducale", "Palazzo Ducale Venice", "Doge Palace", "Doges Palace Venice"],
+    "architects": [
+      {
+        "name": "Antonio Rizzo",
+        "aliases": ["Rizzo"],
+        "lifespan": "c. 1430–c. 1499",
+        "nationality": "Italian (Venetian)",
+        "bio": "Veronese sculptor and architect who rebuilt the east wing of the palace after the fire of 1483 and brought the Renaissance language into it."
+      },
+      {
+        "name": "Francesco Foscari",
+        "aliases": ["Doge Foscari"],
+        "lifespan": "1373–1457",
+        "nationality": "Italian (Venetian)",
+        "bio": "Doge of Venice who decided in 1424 to extend the Gothic rebuilding to the wing overlooking the Piazzetta."
+      }
+    ],
+    "location": { "city": "Venice", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": 1424,
+    "era": "MEDIEVAL",
+    "style": "Venetian Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Doge's_Palace",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%28Venice%29_Doge%27s_Palace_and_campanile_of_St._Mark%27s_Basilica_facing_the_sea.jpg/1920px-%28Venice%29_Doge%27s_Palace_and_campanile_of_St._Mark%27s_Basilica_facing_the_sea.jpg",
+        "alt": "Pale pink and white palace with an open arcade, beside a tall brick campanile, seen from the water",
+        "credit": "Photo: Didier Descouens · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:(Venice)_Doge%27s_Palace_and_campanile_of_St._Mark%27s_Basilica_facing_the_sea.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Interno_della_Sala_del_Maggior_Consiglio_-_Palazzo_Ducale%2C_Venezia.JPG/1920px-Interno_della_Sala_del_Maggior_Consiglio_-_Palazzo_Ducale%2C_Venezia.JPG",
+        "alt": "Vast hall with a gilded coffered ceiling, huge paintings on the walls and a polished floor",
+        "caption": "The Great Council met in a hall hung with huge paintings.",
+        "credit": "Photo: Riccardo Lelli · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interno_della_Sala_del_Maggior_Consiglio_-_Palazzo_Ducale,_Venezia.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was the home of the elected ruler of a maritime republic, and also held its government offices and a prison."
+      },
+      {
+        "order": 2,
+        "text": "Its upper floors are heavy and patterned, and rest on lighter open arcades, the opposite of what you would expect."
+      },
+      { "order": 3, "text": "It is linked by a famous covered bridge to the prisons across a canal." }
+    ],
+    "summary": {
+      "description": "The palace of the Doge, the elected ruler of the Republic of Venice, was rebuilt in the Venetian Gothic style from about 1340. In 1424 Doge Francesco Foscari ordered the works extended to the wing facing the Piazzetta, and after a fire in 1483 Antonio Rizzo brought the new Renaissance language into the reconstruction. It held the government offices, law courts and a prison. It became a museum in 1923.",
+      "keyFeatures": [
+        "Venetian Gothic arcades and loggia",
+        "Pink and white patterned masonry on the upper floors",
+        "Renaissance courtyard façade by Rizzo",
+        "Great Council hall with huge paintings"
+      ],
+      "funFacts": [
+        "A fire in 1483 forced a major reconstruction of the canal-side wing.",
+        "It has been a museum since 1923."
+      ]
+    }
+  },
+  {
+    "id": "mont-saint-michel",
+    "name": "Mont-Saint-Michel",
+    "aliases": [
+      "Mont Saint Michel",
+      "Mont-Saint-Michel Abbey",
+      "Abbey of Mont-Saint-Michel",
+      "Saint Michael’s Mount Normandy",
+      "La Merveille"
+    ],
+    "architects": [
+      {
+        "name": "William of Volpiano",
+        "aliases": ["Guillaume de Volpiano", "Guglielmo da Volpiano"],
+        "lifespan": "962–1031",
+        "nationality": "Italian",
+        "bio": "Italian-born Benedictine abbot and architect, builder of Fécamp Abbey, who was chosen by Richard II of Normandy to design the Romanesque abbey church, placing its crossing at the very top of the mount."
+      }
+    ],
+    "location": { "city": "Mont-Saint-Michel", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1228,
+    "era": "MEDIEVAL",
+    "style": "Norman Romanesque and Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mont-Saint-Michel",
+    "drawings": [
+      {
+        "type": "SITE_PLAN",
+        "label": "Plan of the abbey on the rock",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Plan.mont.Saint.Michel.png/1920px-Plan.mont.Saint.Michel.png",
+        "alt": "Old plan of a rocky island with a walled village around the base and a long church at the summit",
+        "credit": "Eugène Viollet-le-Duc · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Plan.mont.Saint.Michel.png"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mont_Saint_Michel_Normandy.jpg/1920px-Mont_Saint_Michel_Normandy.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.95 },
+        "alt": "Rocky tidal island crowned by a golden-lit abbey spire, seen across the sand flats",
+        "credit": "Photo: Yogab · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mont_Saint_Michel_Normandy.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Le_Mont-Saint-Michel_Abbaye_de_Mont-Saint-Michel_Abbatiale_Innen_Langhaus_West_4.jpg/1920px-Le_Mont-Saint-Michel_Abbaye_de_Mont-Saint-Michel_Abbatiale_Innen_Langhaus_West_4.jpg",
+        "alt": "Bare Romanesque nave with round arches and a small window above a bright doorway",
+        "credit": "Photo: Zairon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Le_Mont-Saint-Michel_Abbaye_de_Mont-Saint-Michel_Abbatiale_Innen_Langhaus_West_4.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is an island only at high tide, and the sea here can rise and fall by about 14 metres."
+      },
+      {
+        "order": 2,
+        "text": "A Benedictine abbey crowns its summit, with the church built right on the top of the rock."
+      },
+      { "order": 3, "text": "It was never captured during the Hundred Years’ War, and it later served as a prison." }
+    ],
+    "summary": {
+      "description": "On a rocky tidal island in Normandy, the abbey of Mont-Saint-Michel was begun in the 11th century, when William of Volpiano designed the Romanesque church at the very top of the mount, supported by crypts and chapels built beneath it. In the early 13th century the Gothic Merveille was added on the north side. The island was never conquered during the Hundred Years' War, and later served as a prison. It is today seen as a building of Romanesque architecture.",
+      "keyFeatures": [
+        "Romanesque abbey church at the summit",
+        "Gothic Merveille buildings",
+        "Fortifications and a walled village",
+        "Tidal island with a 14-metre range"
+      ],
+      "funFacts": [
+        "The island was linked to the mainland by a raised causeway in 1879.",
+        "A small garrison beat off an English attack in 1433."
+      ]
+    }
+  },
+  {
+    "id": "saint-basils-cathedral",
+    "name": "Saint Basil’s Cathedral",
+    "aliases": [
+      "St Basil’s Cathedral",
+      "St. Basil's Cathedral",
+      "Saint Basil Cathedral",
+      "Cathedral of Vasily the Blessed",
+      "Pokrovsky Cathedral",
+      "Intercession Cathedral",
+      "Cathedral of the Intercession of the Most Holy Theotokos on the Moat"
+    ],
+    "architects": [
+      {
+        "name": "Postnik Yakovlev",
+        "aliases": ["Barma", "Ivan Yakovlevich Barma", "Barma and Postnik"],
+        "lifespan": "fl. 1555–1561",
+        "nationality": "Russian",
+        "bio": "Russian master builder traditionally credited, with the builder named in chronicles as Barma, with the cathedral. The identity of the architect is uncertain."
+      }
+    ],
+    "location": { "city": "Moscow", "country": "Russia", "countryCode": "RU" },
+    "yearCompleted": 1561,
+    "era": "RUSSIAN",
+    "style": "Russian (Muscovite) church architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Plan and elevation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/St_Basil%27s_Cathedral_Line_Drawing.png",
+        "alt": "Line drawing of a church with many differently shaped onion domes around a tall central tent roof, with a small plan above",
+        "credit": "Alexei Kouzaev · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:St_Basil%27s_Cathedral_Line_Drawing.png"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Saint_Basil%27s_Cathedral_in_Moscow.jpg/1920px-Saint_Basil%27s_Cathedral_in_Moscow.jpg",
+        "alt": "Group of brightly patterned onion domes and a tall spire above a paved square",
+        "credit": "Photo: Tsy1980 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Saint_Basil%27s_Cathedral_in_Moscow.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Saint_Basil_inside_hdr_mantiuk.jpg/1920px-Saint_Basil_inside_hdr_mantiuk.jpg",
+        "alt": "Narrow vaulted passage with walls and ceiling painted in dense floral patterns",
+        "credit": "Photo: Alessio Damato · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Saint_Basil_inside_hdr_mantiuk.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It commemorates the capture of two cities by a feared tsar." },
+      {
+        "order": 2,
+        "text": "It is a cluster of separate chapels around a central tower, each topped by a differently patterned dome."
+      },
+      {
+        "order": 3,
+        "text": "Legend says the tsar had its architect blinded so that he could never build anything like it again."
+      }
+    ],
+    "summary": {
+      "description": "Built from 1555 to 1561 on the orders of Ivan the Terrible, the cathedral commemorates the capture of Kazan and Astrakhan. It consists of a cluster of chapels around a central tent-roofed church, each crowned with a differently patterned dome; the bright colours were completed only in 1683. It has been called a prime example of Russian Renaissance architecture, and historians note that nothing similar exists in Russian building.",
+      "keyFeatures": [
+        "Cluster of chapels around a central tent-roofed church",
+        "Onion domes in different patterns and colours",
+        "Brick walls with decorative detail",
+        "Stands on Red Square beside the Kremlin walls"
+      ],
+      "funFacts": [
+        "The colourful painting of the domes was completed only in 1683.",
+        "The architect’s identity is unknown; tradition names Postnik Yakovlev and Barma."
+      ]
+    }
   }
 ]

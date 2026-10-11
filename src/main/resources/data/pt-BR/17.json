@@ -1,0 +1,433 @@
+{
+  "tower-of-london": {
+    "name": "Torre de Londres (Torre Branca)",
+    "aliases": ["Torre de Londres", "Torre Branca", "White Tower"],
+    "architects": [
+      {
+        "aliases": ["Gundulfo", "Bispo Gundulfo"],
+        "nationality": "Normando",
+        "lifespan": "c. 1024–1108",
+        "bio": "Bispo de Rochester e hábil construtor, Gundulfo foi posto à frente da construção da Torre Branca para Guilherme, o Conquistador."
+      },
+      {
+        "aliases": ["Guilherme I", "Rei Guilherme I"],
+        "nationality": "Normando",
+        "lifespan": "c. 1028–1087",
+        "bio": "O duque normando que conquistou a Inglaterra em 1066 e mandou iniciar a torre de menagem por volta de 1078, como símbolo de seu poder sobre Londres."
+      }
+    ],
+    "city": "Londres",
+    "style": "Torre de menagem normanda (românica)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Torre_de_Londres",
+    "drawings": [
+      {
+        "label": "Planta da torre de menagem",
+        "alt": "Antiga planta gravada de uma torre de menagem de paredes grossas, com um grande salão, uma capela de abside arredondada e escadas em espiral nos cantos"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Torre de menagem quadrada, de pedra, com uma torreta em cada canto, acima de um gramado verde",
+        "caption": null
+      },
+      {
+        "alt": "Capela de pedra simples, com pesadas colunas redondas, uma galeria de arcos e um altar singelo",
+        "caption": "Uma capela normanda ocupa o canto sudeste da torre de menagem."
+      }
+    ],
+    "hints": [
+      "Começou como símbolo de conquista, erguida por um rei que acabara de tomar um país à força.",
+      "Ao longo dos séculos foi palácio, prisão, arsenal, zoológico e casa da moeda, e ainda guarda um célebre conjunto de joias reais.",
+      "O folclore diz que, se as aves negras que vivem ali algum dia forem embora, o reino cairá."
+    ],
+    "summary": {
+      "description": "Iniciada por volta de 1078 por Guilherme, o Conquistador, depois da conquista normanda, a Torre Branca é uma grande torre de menagem de pedra clara que dá nome a toda a fortaleza. Teve a construção supervisionada por Gundulfo, bispo de Rochester, e fica no coração de um complexo de edifícios cercado por duas linhas de muralhas e um fosso. Ao longo dos séculos a Torre serviu de residência real, arsenal, tesouro, jardim zoológico e prisão, e guarda as Joias da Coroa.",
+      "keyFeatures": [
+        "Torre de menagem normanda de paredes grossas, com torretas nos cantos",
+        "Capela de São João no canto sudeste",
+        "Dois anéis concêntricos de muralhas defensivas",
+        "Abrigo das Joias da Coroa"
+      ],
+      "funFacts": [
+        "Foi iniciada em 1078 e, no começo, era um símbolo de opressão detestado.",
+        "Os reis Ricardo I, Henrique III e Eduardo I a ampliaram nos séculos XII e XIII."
+      ]
+    }
+  },
+  "westminster-abbey": {
+    "name": "Abadia de Westminster",
+    "aliases": ["Westminster Abbey", "Abadia de Westminster Londres", "Igreja Colegiada de São Pedro em Westminster"],
+    "architects": [
+      {
+        "aliases": ["Henrique de Reyns", "Henry de Reyns"],
+        "nationality": "Inglês",
+        "lifespan": "atuante 1243–1253",
+        "bio": "Mestre pedreiro de Henrique III, que iniciou a atual igreja gótica em 1245, nos moldes de catedrais francesas do século XIII."
+      },
+      {
+        "aliases": ["Rei Henrique III"],
+        "nationality": "Inglês",
+        "lifespan": "1207–1272",
+        "bio": "Rei da Inglaterra que mandou reconstruir a igreja a partir de 1245 como igreja de coroação e santuário de Eduardo, o Confessor."
+      },
+      {
+        "aliases": ["Hawksmoor"],
+        "nationality": "Inglês",
+        "lifespan": "1661–1736",
+        "bio": "Arquiteto barroco que, com John James, projetou as torres ocidentais em estilo gótico, concluídas na década de 1740."
+      }
+    ],
+    "city": "Londres",
+    "style": "Gótico inglês",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Abadia_de_Westminster",
+    "drawings": [
+      {
+        "label": "Planta baixa com datas de construção",
+        "alt": "Antiga planta de uma longa igreja em forma de cruz, com claustro e uma capela na extremidade leste, sombreada por período de construção"
+      },
+      {
+        "label": "Corte longitudinal",
+        "alt": "Corte ao longo de uma nave gótica muito alta, mostrando arcadas, galerias e clerestório, com uma capela mais baixa à direita"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Fachada de igreja gótica com uma grande rosácea, pináculos e contrafortes acima de um gramado",
+        "caption": null
+      },
+      {
+        "alt": "Nave e abóbada góticas altíssimas, com lustres, olhando em direção a uma tela esculpida",
+        "caption": null
+      },
+      {
+        "alt": "Intrincado teto de abóbada em leque com pendentes de pedra suspensos",
+        "caption": "Um teto de abóbada em leque cobre a Capela da Virgem."
+      }
+    ],
+    "hints": [
+      "Quarenta monarcas foram coroados aqui desde 1066.",
+      "Sua atual igreja foi iniciada em 1245 por um rei que queria um santuário digno de um santo real e tomou catedrais francesas como modelo.",
+      "Suas duas torres ocidentais só foram acrescentadas na década de 1740, em estilo gótico, por projetistas de formação barroca."
+    ],
+    "summary": {
+      "description": "A atual igreja foi iniciada em 1245 por ordem de Henrique III, que queria uma igreja de coroação e um santuário para Eduardo, o Confessor. Sua arquitetura gótica se inspira principalmente em estilos franceses e ingleses do século XIII, A Capela da Virgem foi acrescentada por Henrique VII, e as torres ocidentais foram construídas na década de 1740 por Nicholas Hawksmoor e John James. Foi cenário da coroação de 40 monarcas desde 1066.",
+      "keyFeatures": [
+        "Nave gótica altíssima de inspiração francesa",
+        "Capela de Henrique VII com abóbada em leque",
+        "Pavimento cosmatesco diante do altar-mor",
+        "Torres ocidentais de Hawksmoor e James"
+      ],
+      "funFacts": [
+        "Pelo menos 16 casamentos reais aconteceram aqui desde 1100.",
+        "A abadia é uma «peculiar real», que responde ao soberano e não a um bispo."
+      ]
+    }
+  },
+  "cologne-cathedral": {
+    "name": "Catedral de Colônia",
+    "aliases": ["Kölner Dom", "Dom de Colônia", "Catedral de Colónia"],
+    "architects": [
+      {
+        "aliases": ["Gerhard de Rile", "Meister Gerhard"],
+        "nationality": "Alemão",
+        "lifespan": "atuante 1248–1271",
+        "bio": "Primeiro mestre de obras da catedral, que traçou o plano gótico de inspiração francesa e dirigiu a obra a partir de 1248."
+      },
+      {
+        "aliases": ["Zwirner"],
+        "nationality": "Alemão",
+        "lifespan": "1802–1861",
+        "bio": "Arquiteto prussiano que liderou a conclusão da catedral no século XIX até a morte, usando modernas vigas de ferro no telhado."
+      }
+    ],
+    "city": "Colônia",
+    "style": "Gótico alemão pleno",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_de_Col%C3%B4nia",
+    "drawings": [
+      {
+        "label": "Desenho medieval da fachada (Plano F)",
+        "alt": "Desenho em pergaminho, muito alto, de uma fachada de igreja com duas enormes torres com flechas lado a lado"
+      },
+      {
+        "label": "Planta baixa",
+        "alt": "Planta de uma igreja em forma de cruz, com nave de cinco corredores, corredores duplos e uma cabeceira de capelas radiais"
+      }
+    ],
+    "photos": [
+      { "alt": "Igreja gótica escura com duas flechas vazadas altíssimas contra um céu azul intenso", "caption": null },
+      {
+        "alt": "Alta abside gótica com janelas esbeltas de vidro colorido e fileiras de colunas agrupadas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "A obra começou em 1248, parou por cerca de três séculos e só foi concluída em 1880.",
+      "É a igreja de duas torres mais alta do mundo, e sua fachada é a maior de qualquer igreja.",
+      "Foi terminada no século XIX segundo seus desenhos medievais originais e permaneceu notavelmente intacta entre as ruínas de uma cidade bombardeada em 1945."
+    ],
+    "summary": {
+      "description": "Iniciada em 1248 sob o mestre Gerhard, a Catedral de Colônia ficou inacabada por cerca de 300 anos a partir de 1560. A construção foi retomada no século XIX segundo o plano medieval original, com modernas vigas de ferro no telhado, e concluída em 1880. Com 157 metros, é a igreja de duas flechas mais alta do mundo, e suas duas torres lhe dão a maior fachada de qualquer igreja. Abriga o relicário dos Reis Magos.",
+      "keyFeatures": [
+        "Flechas gêmeas de 157 metros",
+        "Maior fachada de qualquer igreja",
+        "Planta gótica plena de inspiração francesa",
+        "Relicário dos Reis Magos"
+      ],
+      "funFacts": [
+        "Seus desenhos medievais da fachada sobreviveram e tornaram possível a conclusão no século XIX.",
+        "Foi declarada Patrimônio Mundial em 1996."
+      ]
+    }
+  },
+  "milan-cathedral": {
+    "name": "Catedral de Milão",
+    "aliases": ["Duomo di Milano", "Duomo de Milão", "Duomo Milão", "Il Duomo"],
+    "architects": [
+      {
+        "aliases": ["Orsenigo"],
+        "nationality": "Italiano",
+        "lifespan": "atuante 1386",
+        "bio": "Primeiro engenheiro-chefe das obras da catedral, que planejou construir em tijolo, no estilo gótico lombardo."
+      },
+      {
+        "aliases": ["Nicolas Bonaventure", "Nicolò Bonaventure"],
+        "nationality": "Francês",
+        "lifespan": "atuante 1389",
+        "bio": "Mestre francês nomeado engenheiro-chefe em 1389, que trouxe a Milão o gótico radiante do norte da Europa."
+      }
+    ],
+    "city": "Milão",
+    "style": "Gótico (lombardo e radiante)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_de_Mil%C3%A3o",
+    "drawings": [
+      {
+        "label": "Planta da catedral",
+        "alt": "Planta gravada de uma vasta igreja de cinco naves, com uma malha de pilares, transeptos e uma abside poligonal"
+      }
+    ],
+    "photos": [
+      { "alt": "Fachada gótica de mármore claro, repleta de pináculos, estátuas e flechas altas", "caption": null },
+      { "alt": "Floresta densa de flechas de mármore coroadas por estátuas contra um céu pálido", "caption": null },
+      {
+        "alt": "Colunas gigantes agrupadas ladeando uma nave abobadada na penumbra, com luz vinda do fundo",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Levou quase seis séculos para ficar pronta, e seus últimos detalhes foram concluídos em 1965.",
+      "Foi iniciada em tijolo, num estilo local, mas seu patrono queria o gótico mais novo do norte, e um mestre francês foi chamado.",
+      "Seu telhado é uma floresta de flechas e estátuas, coroada por uma figura dourada da Virgem."
+    ],
+    "summary": {
+      "description": "Iniciada em 1386, a Catedral de Milão levou quase seis séculos para ser concluída, com os últimos detalhes terminados em 1965. Sob seu primeiro engenheiro-chefe, Simone da Orsenigo, foi planejada em tijolo no estilo gótico lombardo, mas seus patronos logo adotaram o gótico radiante do norte trazido por Nicolas de Bonaventure em 1389. É a maior igreja da Itália, e seu telhado é coberto por uma floresta de flechas e estátuas. Em 1805 Napoleão mandou concluir a fachada.",
+      "keyFeatures": [
+        "Maior igreja da Itália",
+        "Gótico radiante de influência francesa",
+        "Floresta de flechas e milhares de estátuas",
+        "Nave de cinco corredores com colunas gigantes agrupadas"
+      ],
+      "funFacts": [
+        "Napoleão mandou concluir a fachada antes de ser coroado rei da Itália, em 1805.",
+        "A Madonnina dourada na flecha mais alta virou símbolo da cidade."
+      ]
+    }
+  },
+  "leaning-tower-of-pisa": {
+    "name": "Torre de Pisa",
+    "aliases": ["Torre Inclinada de Pisa", "Torre Pendente de Pisa", "Torre di Pisa", "Campanário de Pisa"],
+    "architects": [
+      {
+        "aliases": ["Bonanno"],
+        "nationality": "Italiano",
+        "lifespan": "atuante no século XII",
+        "bio": "Escultor e fundidor de bronze de Pisa, há muito creditado com o projeto da torre, embora a atribuição seja hoje contestada."
+      },
+      {
+        "aliases": ["Deotisalvi"],
+        "nationality": "Italiano",
+        "lifespan": "atuante 1153–1180",
+        "bio": "Arquiteto pisano do Batistério e do campanário de San Nicola, apontado por um estudo de 2001 como o arquiteto original da torre."
+      }
+    ],
+    "city": "Pisa",
+    "style": "Românico pisano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Torre_de_Pisa",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Campanário redondo de mármore branco, com andares de arcadas, claramente inclinado para um lado sobre um gramado verde",
+        "caption": null
+      },
+      {
+        "alt": "Vista para baixo de uma câmara de sinos redonda, de pedra, com um grande sino de bronze e uma abertura coberta de vidro no piso",
+        "caption": "A câmara dos sinos fica no alto da torre."
+      }
+    ],
+    "hints": [
+      "Começou a se inclinar quando ainda estava sendo construída, porque se apoia em solo mole.",
+      "É o campanário de uma catedral e fica numa célebre praça verde, ao lado de um batistério.",
+      "Um resgate nos anos 1990 reduziu sua inclinação em cerca de um grau e meio para que não tombasse."
+    ],
+    "summary": {
+      "description": "Iniciada em 1173 como campanário da catedral de Pisa, a torre começou a se inclinar durante a construção por causa do solo mole, e a obra se arrastou por quase dois séculos. Seus oito andares de arcadas são de mármore branco. Mede 55,86 metros no lado mais baixo, com 294 ou 296 degraus. Após obras de recuperação entre 1993 e 2001, a inclinação foi reduzida de 5,5 para 3,97 graus.",
+      "keyFeatures": [
+        "Oito andares de arcadas de mármore",
+        "Torre cilíndrica com câmara de sinos no alto",
+        "Inclinação reduzida a 3,97 graus",
+        "Parte da Piazza dei Miracoli, com catedral e batistério"
+      ],
+      "funFacts": [
+        "A identidade de seu arquiteto ainda é contestada.",
+        "As obras entre 1993 e 2001 reduziram a inclinação de 5,5 para 3,97 graus."
+      ]
+    }
+  },
+  "doges-palace": {
+    "name": "Palácio Ducal",
+    "aliases": ["Palácio dos Doges", "Palazzo Ducale", "Palácio Ducal de Veneza", "Palácio do Doge"],
+    "architects": [
+      {
+        "aliases": ["Rizzo"],
+        "nationality": "Italiano (veneziano)",
+        "lifespan": "c. 1430–c. 1499",
+        "bio": "Escultor e arquiteto veronês que reconstruiu a ala leste do palácio depois do incêndio de 1483 e trouxe para ela a linguagem renascentista."
+      },
+      {
+        "aliases": ["Doge Foscari"],
+        "nationality": "Italiano (veneziano)",
+        "lifespan": "1373–1457",
+        "bio": "Doge de Veneza que decidiu em 1424 estender a reconstrução gótica à ala voltada para a Piazzetta."
+      }
+    ],
+    "city": "Veneza",
+    "style": "Gótico veneziano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Ducal_(Veneza)",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Palácio rosa e branco com arcada aberta, ao lado de um alto campanário de tijolo, visto da água",
+        "caption": null
+      },
+      {
+        "alt": "Vasto salão com teto dourado em caixotões, enormes pinturas nas paredes e piso polido",
+        "caption": "O Grande Conselho se reunia num salão coberto de enormes pinturas."
+      }
+    ],
+    "hints": [
+      "Era a casa do governante eleito de uma república marítima, e também abrigava seus escritórios de governo e uma prisão.",
+      "Seus andares superiores são pesados e estampados, e se apoiam em arcadas abertas mais leves, o oposto do que se esperaria.",
+      "Está ligado por uma célebre ponte coberta às prisões do outro lado de um canal."
+    ],
+    "summary": {
+      "description": "O palácio do Doge, o governante eleito da República de Veneza, foi reconstruído em estilo gótico veneziano a partir de cerca de 1340. Em 1424 o doge Francesco Foscari mandou estender as obras à ala voltada para a Piazzetta, e depois de um incêndio em 1483 Antonio Rizzo trouxe a nova linguagem renascentista para a reconstrução. Abrigava os escritórios do governo, os tribunais e uma prisão. Virou museu em 1923.",
+      "keyFeatures": [
+        "Arcadas e loggia góticas venezianas",
+        "Alvenaria estampada em rosa e branco nos andares superiores",
+        "Fachada renascentista do pátio, de Rizzo",
+        "Salão do Grande Conselho com enormes pinturas"
+      ],
+      "funFacts": ["Um incêndio em 1483 obrigou a uma grande reconstrução da ala do canal.", "É museu desde 1923."]
+    }
+  },
+  "mont-saint-michel": {
+    "name": "Mont-Saint-Michel",
+    "aliases": ["Monte Saint-Michel", "Mont Saint Michel", "Abadia de Mont-Saint-Michel", "La Merveille"],
+    "architects": [
+      {
+        "aliases": ["Guilherme de Volpiano", "Guillaume de Volpiano"],
+        "nationality": "Italiano",
+        "lifespan": "962–1031",
+        "bio": "Abade beneditino e arquiteto nascido na Itália, construtor da Abadia de Fécamp, escolhido por Ricardo II da Normandia para projetar a igreja abacial românica, colocando seu cruzeiro no próprio topo do monte."
+      }
+    ],
+    "city": "Mont-Saint-Michel",
+    "style": "Românico normando e gótico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Monte_Saint-Michel",
+    "drawings": [
+      {
+        "label": "Planta da abadia sobre o rochedo",
+        "alt": "Antiga planta de uma ilha rochosa, com uma aldeia murada em volta da base e uma longa igreja no alto"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Ilha rochosa de maré, coroada por uma flecha de abadia iluminada em dourado, vista do outro lado das planícies de areia",
+        "caption": null
+      },
+      {
+        "alt": "Nave românica nua, com arcos redondos e uma pequena janela acima de uma porta iluminada",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Só é uma ilha na maré alta, e o mar aqui pode subir e descer cerca de 14 metros.",
+      "Uma abadia beneditina coroa seu cume, com a igreja construída bem no alto da rocha.",
+      "Nunca foi tomada durante a Guerra dos Cem Anos e depois serviu de prisão."
+    ],
+    "summary": {
+      "description": "Numa ilha rochosa de maré da Normandia, a abadia de Mont-Saint-Michel foi iniciada no século XI, quando Guilherme de Volpiano projetou a igreja românica no próprio topo do monte, sustentada por criptas e capelas construídas por baixo. No início do século XIII foi acrescentada, no lado norte, a Merveille gótica. A ilha nunca foi conquistada durante a Guerra dos Cem Anos e depois serviu de prisão. Hoje é vista como um edifício da arquitetura românica.",
+      "keyFeatures": [
+        "Igreja abacial românica no cume",
+        "Edifícios góticos da Merveille",
+        "Fortificações e uma aldeia murada",
+        "Ilha de maré com amplitude de 14 metros"
+      ],
+      "funFacts": [
+        "A ilha foi ligada ao continente por uma calçada elevada em 1879.",
+        "Uma pequena guarnição repeliu um ataque inglês em 1433."
+      ]
+    }
+  },
+  "saint-basils-cathedral": {
+    "name": "Catedral de São Basílio",
+    "aliases": [
+      "Catedral de São Basílio, o Bem-Aventurado",
+      "Catedral de Vasily, o Bem-Aventurado",
+      "Catedral da Intercessão",
+      "Catedral Pokrovsky",
+      "Catedral de São Basílio Moscou"
+    ],
+    "architects": [
+      {
+        "aliases": ["Barma"],
+        "nationality": "Russo",
+        "lifespan": "atuante 1555–1561",
+        "bio": "Mestre de obras russo tradicionalmente creditado, junto com o construtor chamado Barma nas crônicas, pela catedral. A identidade do arquiteto é incerta."
+      }
+    ],
+    "city": "Moscou",
+    "style": "Arquitetura de igrejas russa (moscovita)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_de_S%C3%A3o_Bas%C3%ADlio",
+    "drawings": [
+      {
+        "label": "Planta e elevação",
+        "alt": "Desenho a traço de uma igreja com muitas cúpulas bulbosas de formatos diferentes em volta de um alto telhado central em tenda, com uma pequena planta acima"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Grupo de cúpulas bulbosas de padrões vivos e uma torre alta acima de uma praça pavimentada",
+        "caption": null
+      },
+      { "alt": "Estreita passagem abobadada, com paredes e teto pintados com densos padrões florais", "caption": null }
+    ],
+    "hints": [
+      "Comemora a tomada de duas cidades por um temido tsar.",
+      "É um conjunto de capelas separadas em torno de uma torre central, cada uma coroada por uma cúpula de padrão diferente.",
+      "A lenda diz que o tsar mandou cegar seu arquiteto para que ele nunca mais construísse algo igual."
+    ],
+    "summary": {
+      "description": "Construída de 1555 a 1561 por ordem de Ivan, o Terrível, a catedral comemora a tomada de Cazã e Astracã. É formada por um conjunto de capelas em torno de uma igreja central de teto em tenda, cada uma coroada por uma cúpula de padrão diferente; as cores vivas só ficaram prontas em 1683. Já foi chamada de exemplo máximo da arquitetura renascentista russa, e os historiadores notam que nada semelhante existe na construção russa.",
+      "keyFeatures": [
+        "Conjunto de capelas em torno de uma igreja central de teto em tenda",
+        "Cúpulas bulbosas de padrões e cores diferentes",
+        "Paredes de tijolo com detalhes decorativos",
+        "Fica na Praça Vermelha, junto às muralhas do Kremlin"
+      ],
+      "funFacts": [
+        "A pintura colorida das cúpulas só foi concluída em 1683.",
+        "A identidade do arquiteto é desconhecida; a tradição cita Postnik Yakovlev e Barma."
+      ]
+    }
+  }
+}
