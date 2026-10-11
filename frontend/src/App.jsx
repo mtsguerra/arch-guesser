@@ -35,7 +35,14 @@ export default function App() {
   return (
     <AppShell
       actions={
-        <Button variant="rail" icon={Shuffle} onClick={round.loadNext} disabled={loading}>
+        <Button
+          variant="rail"
+          icon={Shuffle}
+          compact
+          aria-label={strings.nextBuilding}
+          onClick={round.loadNext}
+          disabled={loading}
+        >
           {strings.nextBuilding}
         </Button>
       }

@@ -2,6 +2,7 @@
 .monograph {
   container: monograph / inline-size;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--space-6);
   --inset: clamp(var(--space-5), 4vw, var(--space-7));
   padding: var(--inset) var(--inset) var(--space-7);
@@ -22,6 +23,7 @@
   font-stretch: var(--stretch-semi);
   line-height: 1.05;
   letter-spacing: -0.01em;
+  overflow-wrap: break-word;
   outline: none;
 }
 
@@ -34,7 +36,7 @@
 /* Fact strip: set like a title block */
 .strip {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
   border: 1.5px solid var(--paper-rule);
 }
 
@@ -135,7 +137,7 @@
 
 .columns {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
   gap: var(--space-6);
 }
 
@@ -181,7 +183,7 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
   gap: var(--space-5);
 }
 
@@ -223,7 +225,7 @@
 
 .architects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
   gap: var(--space-6);
 }
 
