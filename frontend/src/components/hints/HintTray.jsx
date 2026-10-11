@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { Lightbulb } from 'lucide-react'
 import { duration, easeOut } from '../../motion.js'
-import { strings } from '../../strings.js'
+import { useStrings } from '../../i18n.js'
 import { Button } from '../ui/Button.jsx'
 import styles from './HintTray.module.css'
 
@@ -14,6 +14,7 @@ const hintMotion = {
 
 /** Progressive text-only tips; every image is already on the board. */
 export function HintTray({ hints, hintLevel, canReveal, onReveal }) {
+  const strings = useStrings()
   const shown = hints.slice(0, hintLevel)
   const remaining = hints.length - hintLevel
   const newest = useRef(null)

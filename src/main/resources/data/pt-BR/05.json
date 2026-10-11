@@ -1,0 +1,476 @@
+{
+  "santandrea-al-quirinale": {
+    "name": "Sant'Andrea al Quirinale",
+    "aliases": ["Santo André do Quirinal", "Sant'Andrea"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "bio": "O artista dominante da Roma barroca, Bernini foi ao mesmo tempo escultor, arquiteto e pintor, um artista universal no sentido renascentista."
+      }
+    ],
+    "city": "Roma",
+    "style": "Barroco romano",
+    "drawings": [
+      { "label": "Fachada e planta (c. 1700)", "alt": "Elevação da frente de uma igreja com frontão sobre duas pilastras e um pórtico semicircular, com a planta abaixo" }
+    ],
+    "photos": [
+      { "alt": "Frente de igreja com um alto frontão sobre pilastras e um pórtico curvo sobre duas colunas, acima de uma ampla escadaria", "caption": null },
+      { "alt": "Cúpula oval dourada de caixotões com uma lanterna e figuras na cornija", "caption": "A cúpula oval sobre a nave." }
+    ],
+    "hints": [
+      "Foi construída para um seminário dos jesuítas.",
+      "Seu espaço principal é um oval, em que se entra pelo eixo menor.",
+      "Seu arquiteto a chamou de uma de suas obras mais perfeitas e gostava de sentar-se dentro dela na velhice."
+    ],
+    "summary": {
+      "description": "Projetada por Gian Lorenzo Bernini para o noviciado jesuíta na colina do Quirinal, a igreja foi construída em 1658–61 e decorada até 1670. Sua nave oval é acessada pelo lado menor, de modo que o olhar vai direto ao altar, onde a história do martírio de Santo André sobe da pintura a um santo esculpido e segue até a cúpula dourada.",
+      "keyFeatures": [
+        "Planta oval com entrada pelo eixo menor",
+        "Cúpula dourada de caixotões",
+        "Pintura, escultura e arquitetura combinadas",
+        "Pórtico curvo sobre duas colunas"
+      ],
+      "funFacts": [
+        "Foi encomendada pelo cardeal Camillo Pamphili com a aprovação do papa Alexandre VII.",
+        "Guarda o túmulo do rei Carlos Emanuel IV da Sardenha, que se tornou jesuíta."
+      ]
+    }
+  },
+  "wurzburg-residence": {
+    "name": "Residência de Würzburg",
+    "aliases": ["Würzburg Residence", "Residenz de Würzburg", "Würzburger Residenz", "Residenz Würzburg", "Wurzburg Residence", "Palácio de Würzburg"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão",
+        "bio": "Engenheiro militar e arquiteto da corte dos príncipes-bispos de Würzburg, Neumann foi um dos maiores projetistas do barroco tardio da Europa Central."
+      }
+    ],
+    "city": "Würzburg",
+    "style": "Barroco / Rococó",
+    "drawings": [
+      { "label": "Planta do pavimento principal", "alt": "Planta de um vasto palácio em torno de vários pátios, com um salão oval projetado no centro" },
+      { "label": "Corte pela escadaria e pelos salões", "alt": "Corte de uma grande escadaria sob uma ampla abóbada, ao lado de dois salões" }
+    ],
+    "photos": [
+      { "alt": "Longo palácio com um pavilhão central, visto do outro lado de um jardim formal", "caption": null },
+      { "alt": "Grande escadaria que sobe sob um vasto teto pintado", "caption": "A escadaria e o teto de Tiepolo." }
+    ],
+    "hints": [
+      "Foi construída para príncipes-bispos e, segundo se diz, Napoleão a chamou de «a maior casa paroquial da Europa».",
+      "Sua escadaria é coberta pelo maior afresco de teto contínuo do mundo, pintado por um mestre veneziano.",
+      "Seus salões centrais sobreviveram a um bombardeio aéreo de 1945 que queimou o resto do edifício."
+    ],
+    "summary": {
+      "description": "Iniciado em 1720 para os príncipes-bispos Schönborn de Würzburg e concluído em 1744, o palácio de Balthasar Neumann é uma das grandes residências barrocas da Alemanha. Sua escadaria sobe sob uma abóbada sem apoios, pintada em 1752–53 por Giovanni Battista Tiepolo com os quatro continentes, o maior afresco de teto contínuo do mundo.",
+      "keyFeatures": [
+        "Grande escadaria sob uma abóbada sem apoios",
+        "Afresco de Tiepolo dos quatro continentes",
+        "Salão Imperial e capela da corte",
+        "Palácio em torno de vários pátios"
+      ],
+      "funFacts": [
+        "É Patrimônio Mundial da UNESCO desde 1981.",
+        "Neumann morreu em 1753, o ano em que Tiepolo terminou o afresco da escadaria."
+      ]
+    }
+  },
+  "se-velha-de-coimbra": {
+    "name": "Sé Velha de Coimbra",
+    "aliases": ["Sé Velha", "Catedral Velha de Coimbra"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Possivelmente francês",
+        "bio": "Mestre de obras do século XII, provavelmente do norte da Europa, que dirigia também a construção da Sé de Lisboa e a quem se atribui o projeto da catedral de Coimbra."
+      },
+      {
+        "aliases": [],
+        "nationality": "Possivelmente francês",
+        "bio": "Mestre de obras que supervisionou os trabalhos da catedral de Coimbra, sucedido pelo mestre Soeiro."
+      }
+    ],
+    "city": "Coimbra",
+    "style": "Românico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de igreja de pedra, com ar de fortaleza, com muralhas ameadas e um profundo portal em arco", "caption": null },
+      { "alt": "Nave românica de arcos redondos que leva a um retábulo gótico dourado", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi iniciada depois que sua cidade se tornou capital de um reino recém-proclamado, no século XII.",
+      "Vista de fora, parece uma pequena fortaleza, com muralhas ameadas e janelas poucas e estreitas.",
+      "É a única catedral desse tipo, do tempo da Reconquista, que sobreviveu relativamente intacta em seu país."
+    ],
+    "summary": {
+      "description": "Iniciada depois que o rei Afonso Henriques fez de Coimbra a capital do novo reino de Portugal, a catedral estava em grande parte pronta no início do século XIII. Seu projeto é atribuído a mestre Roberto e as obras a mestre Bernardo. Com suas muralhas ameadas e janelas estreitas, parece uma fortaleza, e é a única catedral românica portuguesa do tempo da Reconquista que sobreviveu relativamente intacta.",
+      "keyFeatures": [
+        "Muralhas ameadas, com ar de fortaleza",
+        "Portal profundo e janela com entalhes românicos",
+        "Nave com abóbada de berço e galerias",
+        "Abside semicircular com capelas radiais"
+      ],
+      "funFacts": [
+        "Seu claustro só foi iniciado em 1218, no reinado de Afonso II.",
+        "Em 1772 a sede do bispo mudou-se para a antiga igreja jesuíta, hoje a Sé Nova."
+      ]
+    }
+  },
+  "mosteiro-da-batalha": {
+    "name": "Mosteiro da Batalha",
+    "aliases": ["Mosteiro de Santa Maria da Vitória", "Batalha"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Mestre de obras nascido em Lisboa que traçou o projeto original do mosteiro e dirigiu as obras de 1388 até sua morte."
+      },
+      {
+        "aliases": [],
+        "nationality": "Irlandês (atuante em Portugal)",
+        "bio": "Mestre de obras que sucedeu a Afonso Domingues em 1402 e dirigiu os trabalhos até 1438, erguendo a nave e construindo a Capela do Fundador e a sala do capítulo."
+      }
+    ],
+    "city": "Batalha",
+    "style": "Gótico tardio (flamejante e manuelino)",
+    "drawings": [
+      { "label": "Planta geral", "alt": "Planta de uma longa igreja com uma capela octogonal na cabeceira e grandes claustros ao lado" },
+      { "label": "Corte longitudinal da igreja", "alt": "Corte de uma alta igreja gótica com janelas ogivais, pináculos e uma flecha" }
+    ],
+    "photos": [
+      { "alt": "Igreja gótica ornamentada, com pináculos, arcobotantes e altas janelas com tracejados", "caption": null },
+      { "alt": "Nave gótica muito alta e estreita, com luz colorida caindo sobre os pilares", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi construído para agradecer uma vitória sobre Castela em 1385.",
+      "Levou mais de um século para ser construído, atravessando os reinados de sete reis.",
+      "Suas «Capelas Imperfeitas» nunca foram cobertas."
+    ],
+    "summary": {
+      "description": "Oficialmente Mosteiro de Santa Maria da Vitória, a Batalha cumpriu o voto do rei D. João I depois da Batalha de Aljubarrota, em 1385, e tornou-se a igreja funerária da dinastia de Avis. Iniciado em 1386 por Afonso Domingues e continuado por Huguet e, depois, por Mateus Fernandes, levou mais de um século para ser construído e mistura o gótico flamejante de influência inglesa com as primeiras obras manuelinas.",
+      "keyFeatures": [
+        "Nave gótica muito alta",
+        "Capela do Fundador, com os túmulos de D. João I e de Filipa de Lencastre",
+        "Capelas Imperfeitas octogonais, abertas para o céu",
+        "Sala do capítulo quadrada com abóbada sem apoios"
+      ],
+      "funFacts": [
+        "Tornou-se Patrimônio Mundial da UNESCO em 1983.",
+        "Uma estátua equestre do general Nuno Álvares Pereira fica na praça à frente."
+      ]
+    }
+  },
+  "mosteiro-dos-jeronimos": {
+    "name": "Mosteiro dos Jerónimos",
+    "aliases": ["Mosteiro dos Jerônimos", "Jerónimos", "Jerônimos", "Mosteiro de Santa Maria de Belém"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português (origem incerta, possivelmente francês)",
+        "bio": "Arquiteto e engenheiro de origem desconhecida que foi pioneiro do estilo manuelino no Mosteiro de Jesus, em Setúbal, e traçou os primeiros planos do Mosteiro dos Jerónimos, em Lisboa."
+      },
+      {
+        "aliases": [],
+        "nationality": "Castelhano (atuante em Portugal)",
+        "bio": "Nascido na Cantábria, Castilho tornou-se um dos principais arquitetos da história de Portugal, passando do manuelino ao plateresco e ao renascimento nos Jerónimos e no Convento de Cristo."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Manuelino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada de igreja em calcário branco ricamente entalhado, com uma torre de cúpula, vista de um gramado", "caption": null },
+      { "alt": "Igreja-salão com esbeltas colunas entalhadas que se abrem em uma abóbada de nervuras em estrela", "caption": "A igreja." }
+    ],
+    "hints": [
+      "Foi pago com um imposto sobre os lucros do comércio com a África e o Oriente.",
+      "Fica perto do local de onde um famoso navegador partiu para a Índia, em 1497.",
+      "Esse navegador e o poeta que celebrou sua viagem estão ambos enterrados em sua igreja."
+    ],
+    "summary": {
+      "description": "Iniciado em 6 de janeiro de 1501, perto do ponto de partida da viagem de Vasco da Gama à Índia e financiado por um imposto sobre o comércio de especiarias, o mosteiro levou um século para ser concluído. Diogo de Boitaca traçou os planos; João de Castilho, que assumiu por volta de 1517, levou seu ornamento para o plateresco. As colunas esbeltas e ricamente entalhadas de sua igreja sustentam um único espaço abobadado.",
+      "keyFeatures": [
+        "Igreja-salão com colunas entalhadas muito esbeltas",
+        "Ampla abóbada nervurada sobre a nave e as naves laterais",
+        "Claustro de dois andares com arcadas entalhadas",
+        "Ornamento manuelino lavrado, com cordas, plantas e esferas armilares"
+      ],
+      "funFacts": [
+        "Vasco da Gama e Luís de Camões foram sepultados de novo, em novos túmulos na nave, em 1880.",
+        "Tornou-se Patrimônio Mundial da UNESCO em 1983, junto com a vizinha Torre de Belém."
+      ]
+    }
+  },
+  "torre-de-belem": {
+    "name": "Torre de Belém",
+    "aliases": ["Torre de São Vicente", "Torre de Belém de Lisboa"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e escultor, irmão mais novo de Diogo de Arruda; juntos assimilaram o gótico flamejante e desenvolveram o estilo manuelino. Foi nomeado mestre das obras da fortaleza de Belém."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Manuelino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Torre de fortaleza em calcário branco ornamentado, com um baluarte, erguida em um rio", "caption": null },
+      { "alt": "Casamata abobadada de pedra, com arcos e canhões antigos", "caption": "O salão de artilharia abobadado do baluarte." }
+    ],
+    "hints": [
+      "Foi construída como fortaleza sobre uma rocha em um rio, para guardar o porto de uma capital.",
+      "Entre seus entalhes está uma das primeiras representações europeias de um rinoceronte.",
+      "Foi concluída em 1519, dois anos antes da morte do rei que a mandou construir."
+    ],
+    "summary": {
+      "description": "Construída sobre um afloramento de basalto no Tejo para defender a entrada do porto de Lisboa, a torre foi concluída em 1519 segundo projeto de Francisco de Arruda. Sua torre de quatro andares e seu baluarte hexagonal são entalhados com ornamento manuelino, guaritas de inspiração mourisca e a cruz da Ordem de Cristo, e ela se tornou um portal cerimonial para as frotas que regressavam.",
+      "keyFeatures": [
+        "Baluarte hexagonal com 17 canhoneiras",
+        "Torre de quatro andares em calcário lioz",
+        "Guaritas com cúpula, de inspiração mourisca",
+        "Loggia e varandas voltadas para o rio"
+      ],
+      "funFacts": [
+        "Nunca esteve no meio do rio: foi construída em uma pequena ilha perto da margem.",
+        "Tornou-se Patrimônio Mundial da UNESCO em 1983, com o Mosteiro dos Jerónimos."
+      ]
+    }
+  },
+  "convento-de-cristo": {
+    "name": "Convento de Cristo",
+    "aliases": ["Convento de Cristo de Tomar", "Castelo e Convento da Ordem de Cristo"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto português, irmão de Francisco de Arruda, que reconstruiu a nave do convento para o rei D. Manuel I e projetou sua famosa janela da sala do capítulo."
+      },
+      {
+        "aliases": [],
+        "nationality": "Castelhano (atuante em Portugal)",
+        "bio": "Nascido na Cantábria, Castilho tornou-se um dos principais arquitetos da história de Portugal, passando do manuelino ao plateresco e ao renascimento nos Jerónimos e no Convento de Cristo."
+      }
+    ],
+    "city": "Tomar",
+    "style": "Românico, gótico, manuelino e renascentista",
+    "drawings": [],
+    "photos": [
+      { "alt": "Parede de pedra entalhada com uma grande janela emoldurada por cordas, corais e folhagens, sob uma janela redonda", "caption": "A janela da sala do capítulo." },
+      { "alt": "Igreja templária redonda com um octógono central dourado e pintado", "caption": "A Charola, a igreja redonda dos Templários." }
+    ],
+    "hints": [
+      "Começou como uma fortaleza dos Cavaleiros Templários no século XII.",
+      "Sua igreja redonda foi inspirada no Domo da Rocha, em Jerusalém.",
+      "Sua janela mais famosa é entalhada com cordas, corais e os emblemas de um rei."
+    ],
+    "summary": {
+      "description": "Fundado como castelo templário no século XII, o convento passou para a Ordem de Cristo, que financiou as viagens dos descobrimentos de Portugal. A partir de 1510, o rei D. Manuel I mandou Diogo de Arruda e João de Castilho reconstruírem a nave ao lado da igreja redonda dos Templários no novo estilo manuelino; a janela de sua sala do capítulo, entalhada com cordas, corais e emblemas reais, é a mais famosa janela manuelina de todas.",
+      "keyFeatures": [
+        "Igreja redonda templária (Charola)",
+        "Nave manuelina com a janela da sala do capítulo",
+        "Vários claustros, do gótico ao renascimento",
+        "Muralhas do castelo da fortaleza templária"
+      ],
+      "funFacts": [
+        "Uma figura humana na base da janela provavelmente representa seu projetista, Diogo de Arruda.",
+        "Tornou-se Patrimônio Mundial da UNESCO em 1983."
+      ]
+    }
+  },
+  "igreja-de-jesus-setubal": {
+    "name": "Igreja de Jesus (Setúbal)",
+    "aliases": ["Mosteiro de Jesus de Setúbal", "Convento de Jesus", "Igreja do Convento de Jesus", "Mosteiro de Jesus"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português (origem incerta, possivelmente francês)",
+        "bio": "Arquiteto e engenheiro de origem desconhecida que foi pioneiro do estilo manuelino no Mosteiro de Jesus, em Setúbal, e traçou os primeiros planos do Mosteiro dos Jerónimos, em Lisboa."
+      }
+    ],
+    "city": "Setúbal",
+    "style": "Manuelino",
+    "drawings": [
+      { "label": "Vista da igreja e do convento (século XVIII)", "alt": "Desenho antigo de uma longa igreja e convento com um beiral ameado, e uma cruz na praça à frente" }
+    ],
+    "photos": [
+      { "alt": "Longa igreja com contrafortes de pináculos e um portal decorado, ao lado de uma cruz de pedra em um gramado", "caption": null },
+      { "alt": "Estreita igreja-salão com colunas de pedra torcidas e uma abóbada nervurada", "caption": "A nave." }
+    ],
+    "hints": [
+      "É um dos primeiros edifícios do estilo gótico tardio da era dos descobrimentos de seu país.",
+      "Sua nave é sustentada por colunas torcidas, feitas de três fustes entrelaçados.",
+      "Foi fundada por volta de 1490 por uma dama da corte real, para uma comunidade de freiras."
+    ],
+    "summary": {
+      "description": "Fundada por volta de 1490 por Justa Rodrigues Pereira e patrocinada pelo rei D. João II, a igreja do convento foi construída por Diogo de Boitaca e é o edifício mais antigo conhecido a usar decoração manuelina. Sua estreita nave-salão repousa sobre colunas em espiral de três fustes torcidos, motivo repetido depois por todo Portugal.",
+      "keyFeatures": [
+        "Colunas torcidas de três fustes entrelaçados",
+        "Nave-salão com naves laterais de mesma altura",
+        "Abóbadas nervuradas",
+        "Contrafortes com gárgulas e pináculos torcidos"
+      ],
+      "funFacts": [
+        "Sua planta de igreja-salão prefigura a nave do Mosteiro dos Jerónimos.",
+        "As freiras da Ordem das Clarissas já viviam ali em 1496."
+      ]
+    }
+  },
+  "igreja-de-sao-roque": {
+    "name": "Igreja de São Roque",
+    "aliases": ["São Roque", "Igreja de São Roque de Lisboa"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto real e engenheiro militar que supervisionou a construção de São Roque de 1566 a 1575; tio de Baltasar Álvares."
+      },
+      {
+        "aliases": [],
+        "nationality": "Italiano (atuante em Portugal)",
+        "bio": "Arquiteto real nascido em Bolonha a serviço de Filipe II de Espanha (Filipe I de Portugal), que concluiu São Roque, modificando sua fachada, telhado, teto e acabamentos interiores."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Maneirista",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de igreja clássica simples, com um frontão triangular e uma janela redonda", "caption": null },
+      { "alt": "Ampla nave única sob um teto pintado, que leva a um altar dourado", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi a primeira igreja dos jesuítas no mundo de seu país.",
+      "Atrás de uma fachada simples está uma ampla nave única, pensada para a pregação.",
+      "Uma de suas capelas foi construída em Roma com pedras preciosas, depois enviada e remontada."
+    ],
+    "summary": {
+      "description": "Entregue aos jesuítas em 1553, São Roque foi redesenhada em 1565 como a primeira «igreja-auditório» jesuíta, uma única nave ampla para a pregação, com o arquiteto real Afonso Álvares supervisionando as obras até a cornija e Filippo Terzi concluindo-as. Sobreviveu quase ilesa ao terremoto de 1755, assim como seu teto de madeira pintado, e passou para a Santa Casa da Misericórdia de Lisboa.",
+      "keyFeatures": [
+        "Nave única e ampla, sem naves laterais",
+        "Teto de madeira pintado da década de 1580",
+        "Capelas laterais douradas",
+        "Capela de São João Batista, feita em Roma"
+      ],
+      "funFacts": [
+        "A Capela de São João Batista, de Nicola Salvi e Luigi Vanvitelli, teria sido a capela mais cara da Europa.",
+        "Seu teto sobreviveu ao terremoto de 1755 graças às vigas flexíveis."
+      ]
+    }
+  },
+  "sao-vicente-de-fora": {
+    "name": "Mosteiro de São Vicente de Fora",
+    "aliases": ["São Vicente de Fora", "Igreja de São Vicente de Fora"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano (atuante em Portugal)",
+        "bio": "Engenheiro militar e civil nascido em Bolonha que chegou a Lisboa em 1577, foi capturado em Alcácer-Quibir e passou o resto da carreira em Portugal."
+      },
+      {
+        "aliases": [],
+        "nationality": "Espanhol",
+        "bio": "Arquiteto do Escorial e principal arquiteto espanhol de seu tempo; acredita-se que a igreja siga seu projeto."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Maneirista",
+    "drawings": [],
+    "photos": [
+      { "alt": "Alta fachada de igreja branca, com duas torres e três entradas em arco", "caption": null },
+      { "alt": "Vista para cima de um cruzeiro com uma cúpula de caixotões e abóbadas de berço", "caption": "O cruzeiro." }
+    ],
+    "hints": [
+      "Foi reconstruída por ordem de um rei espanhol que, em 1580, passou a ser também rei deste país.",
+      "Sua fachada sóbria, de duas torres, é uma obra-chave do maneirismo em seu país.",
+      "Seu antigo refeitório tornou-se o panteão de uma dinastia real."
+    ],
+    "summary": {
+      "description": "Reconstruída depois que Filipe II de Espanha se tornou rei de Portugal, em 1580, a igreja foi erguida entre 1582 e 1629, construída por Filippo Terzi segundo um projeto atribuído a Juan de Herrera. Sua fachada severa de duas torres e seu vasto interior abobadado fazem dela um dos edifícios maneiristas mais importantes de Portugal; seus claustros são revestidos de azulejos.",
+      "keyFeatures": [
+        "Fachada maneirista de duas torres",
+        "Nave com abóbada de berço e cúpula sobre o cruzeiro",
+        "Claustros revestidos de painéis de azulejos",
+        "Panteão real da dinastia de Bragança"
+      ],
+      "funFacts": [
+        "D. Fernando II transformou o refeitório dos monges em panteão da Casa de Bragança.",
+        "Depois de 1834 o mosteiro tornou-se o palácio dos patriarcas de Lisboa."
+      ]
+    }
+  },
+  "se-nova-de-coimbra": {
+    "name": "Sé Nova de Coimbra",
+    "aliases": ["Sé Nova", "Igreja do Colégio de Jesus", "Catedral Nova de Coimbra"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto formado pelos jesuítas, arquiteto oficial dos jesuítas em Portugal, que aprendeu o maneirismo romano com seu tio Afonso Álvares."
+      }
+    ],
+    "city": "Coimbra",
+    "style": "Maneirista e barroco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada de igreja de pedra clara, com estátuas em nichos, um topo barroco curvo e torres sineiras atrás", "caption": null },
+      { "alt": "Nave clara com abóbada de berço que leva a um retábulo dourado sob uma cúpula", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi construída como igreja de um colégio universitário dos jesuítas.",
+      "Depois da expulsão dos jesuítas, tornou-se a catedral da cidade em 1772.",
+      "Sua fachada é maneirista embaixo e barroca no alto."
+    ],
+    "summary": {
+      "description": "Iniciado em 1598 segundo projeto de Baltasar Álvares como igreja do colégio jesuíta de Coimbra, o edifício foi transformado em catedral da cidade em 1772, depois que o Marquês de Pombal expulsou os jesuítas. Sua fachada une uma parte inferior maneirista rígida a um topo barroco, e a espaçosa nave termina sob uma cúpula.",
+      "keyFeatures": [
+        "Fachada com estátuas de quatro santos jesuítas",
+        "Piso inferior maneirista, coroamento barroco",
+        "Nave com abóbada de berço e capelas laterais",
+        "Cúpula sobre o cruzeiro"
+      ],
+      "funFacts": [
+        "A fachada da antiga igreja jesuíta de Salvador da Bahia, no Brasil, parece inspirada nela.",
+        "O culto começou em 1640; a igreja só foi inaugurada em 1698."
+      ]
+    }
+  },
+  "igreja-dos-clerigos": {
+    "name": "Igreja e Torre dos Clérigos",
+    "aliases": ["Torre dos Clérigos", "Igreja dos Clérigos", "Clérigos"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano (atuante em Portugal)",
+        "bio": "Pintor e arquiteto toscano que se estabeleceu no Porto e tornou-se uma das figuras mais influentes do barroco português, com um estilo teatral de barroco e rococó."
+      }
+    ],
+    "city": "Porto",
+    "style": "Barroco",
+    "drawings": [
+      { "label": "Planta ao nível da entrada", "alt": "Planta de uma igreja alongada com nave oval, ligada a uma torre nos fundos" }
+    ],
+    "photos": [
+      { "alt": "Torre sineira barroca de granito, muito alta e ricamente entalhada, contra o céu", "caption": null },
+      { "alt": "Nave oval de granito cinzento que leva a um altar de mármore policromo", "caption": "A nave oval." }
+    ],
+    "hints": [
+      "Foi construída para uma irmandade de clérigos.",
+      "Sua torre sineira de 75 metros domina o horizonte de uma cidade portuária do norte.",
+      "Seu arquiteto pediu para ser enterrado em sua cripta."
+    ],
+    "summary": {
+      "description": "Construída para a Irmandade dos Clérigos pelo italiano Nicolau Nasoni, a igreja (1732–50) foi uma das primeiras de Portugal com nave elíptica. A torre atrás dela, concluída em 1763 e com 75,6 metros de altura, tornou-se o símbolo do Porto.",
+      "keyFeatures": [
+        "Nave elíptica",
+        "Torre sineira de granito de 75,6 metros",
+        "Fachada com guirlandas, conchas e frontão interrompido",
+        "Monumental escadaria dividida à frente"
+      ],
+      "funFacts": [
+        "Nasoni foi enterrado em sua cripta a pedido seu; o local exato é desconhecido.",
+        "O projeto da torre foi inspirado nos campanários toscanos."
+      ]
+    }
+  }
+}

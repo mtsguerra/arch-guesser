@@ -1,0 +1,454 @@
+{
+  "estacao-de-sao-bento": {
+    "name": "Estação de São Bento",
+    "aliases": ["São Bento", "Estação de São Bento do Porto"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Formado na École des Beaux-Arts de Paris com Victor Laloux, combinou a tradição Beaux-Arts com um planejamento moderno e prático, e dirigiu por muito tempo a Escola de Belas-Artes do Porto."
+      }
+    ],
+    "city": "Porto",
+    "style": "Beaux-Arts",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício Beaux-Arts de granito com um relógio em um frontão curvo e telhado mansarda, em uma esquina", "caption": null },
+      { "alt": "Saguão de entrada revestido de grandes painéis de azulejos azuis e brancos sob altas janelas em arco e um relógio", "caption": "O vestíbulo." }
+    ],
+    "hints": [
+      "Fica no local de um convento beneditino fundado pelo rei D. Manuel I em 1518.",
+      "Seu vestíbulo é revestido com cerca de 20.000 azulejos pintados, que mostram cenas da história da nação.",
+      "Os trens chegam a ela por um túnel escavado na colina atrás."
+    ],
+    "summary": {
+      "description": "Construída no local do convento beneditino de São Bento da Ave-Maria, a estação central do Porto foi projetada por José Marques da Silva à maneira francesa Beaux-Arts. As obras começaram em 1904, e o edifício definitivo foi aberto em 5 de outubro de 1916. Seu vestíbulo guarda cerca de 20.000 azulejos de Jorge Colaço.",
+      "keyFeatures": [
+        "Planta em U voltada para a Praça Almeida Garrett",
+        "Átrio central ladeado por dois volumes",
+        "Painéis de azulejos de Jorge Colaço, com cerca de 551 m²",
+        "Túnel pela escarpa da Batalha"
+      ],
+      "funFacts": [
+        "Uma estação provisória tinha sido aberta no local em 1896.",
+        "A câmara municipal afastou Marques da Silva do projeto em 1909."
+      ]
+    }
+  },
+  "estacao-do-rossio": {
+    "name": "Estação do Rossio",
+    "aliases": ["Estação Central", "Rossio", "Estação Central de Lisboa"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Um dos arquitetos portugueses mais influentes do fim do século XIX, e professor de Porfírio Pardal Monteiro na Escola de Belas-Artes de Lisboa."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Neomanuelino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada ornamentada de pedra branca, com uma torreta de relógio, pináculos e fileiras de janelas em arco entalhadas", "caption": null },
+      { "alt": "Saguão com estrutura de ferro no teto, claraboias e aberturas em arco ogival", "caption": "O saguão." }
+    ],
+    "hints": [
+      "Originalmente chamava-se «Estação Central», nome que ainda está gravado em sua fachada.",
+      "Os trens chegam a ela por um túnel de quase 3 km sob a cidade.",
+      "Sua entrada tem dois portais em ferradura entrelaçados."
+    ],
+    "summary": {
+      "description": "Encomendada pela Companhia Real dos Caminhos de Ferro Portugueses e projetada em 1886–87 por José Luís Monteiro, a estação foi concluída em 1890 no fim de um túnel de mais de 2,9 km. Sua fachada neomanuelina é uma recriação romântica do estilo exuberante do início do século XVI em Portugal.",
+      "keyFeatures": [
+        "Fachada neomanuelina",
+        "Dois portais em ferradura entrelaçados",
+        "Relógio em uma pequena torreta",
+        "Túnel de mais de 2,9 km"
+      ],
+      "funFacts": [
+        "A estação ficou fechada para trens de 2004 a 2008, enquanto o túnel era renovado."
+      ]
+    }
+  },
+  "livraria-lello": {
+    "name": "Livraria Lello",
+    "aliases": ["Livraria Lello & Irmão", "Livraria Chardron", "Lello"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Engenheiro, professor e político, considerado o homem que introduziu o concreto armado na construção civil em Portugal."
+      }
+    ],
+    "city": "Porto",
+    "style": "Neogótico e Art Nouveau",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada de loja estreita com um empena de estilo gótico, figuras pintadas e altas janelas", "caption": null },
+      { "alt": "Escadaria de madeira bifurcada subindo até uma galeria sob um teto de vitral, entre paredes de livros", "caption": "A escadaria." }
+    ],
+    "hints": [
+      "É uma loja, fundada por um francês em 1869 e depois dirigida por dois irmãos.",
+      "Seu edifício atual foi inaugurado em 1906.",
+      "Por dentro, uma escadaria bifurcada sobe até uma galeria sob um grande vitral com o lema «Decus in Labore»."
+    ],
+    "summary": {
+      "description": "A livraria fundada por Ernesto Chardron passou para os irmãos José e António Lello, que contrataram o engenheiro Francisco Xavier Esteves para construir novas instalações na Rua das Carmelitas, inauguradas em 1906. A fachada mistura neogótico e Art Nouveau; por dentro, uma escadaria bifurcada sobe até uma galeria sob um vitral de 8 por 3,5 metros.",
+      "keyFeatures": [
+        "Empena neogótica com figuras pintadas da Arte e da Ciência",
+        "Escadaria bifurcada até uma galeria no primeiro andar",
+        "Balaústres de madeira entalhada",
+        "Grande claraboia de vitral com o monograma dos proprietários"
+      ],
+      "funFacts": [
+        "Chamou-se Livraria Chardron até 1919."
+      ]
+    }
+  },
+  "teatro-nacional-sao-joao": {
+    "name": "Teatro Nacional São João",
+    "aliases": ["Teatro São João", "Teatro de São João", "Real Teatro de São João", "São João"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Formado na École des Beaux-Arts de Paris com Victor Laloux, combinou a tradição Beaux-Arts com um planejamento moderno e prático, e dirigiu por muito tempo a Escola de Belas-Artes do Porto."
+      }
+    ],
+    "city": "Porto",
+    "style": "Eclético",
+    "drawings": [],
+    "photos": [
+      { "alt": "Grande teatro de pedra com colunas jônicas, janelas em arco e relevos esculpidos, em uma praça", "caption": null },
+      { "alt": "Foyer com colunas vermelhas marmorizadas, capitéis dourados e um teto de caixotões pendurado de lâmpadas", "caption": "O foyer." }
+    ],
+    "hints": [
+      "Substituiu um teatro real do século XVIII destruído por um incêndio em 1908.",
+      "Seu arquiteto venceu o concurso para o novo edifício, e as obras começaram em 1911.",
+      "Foi inaugurado em 1920 com uma apresentação de Aida, de Verdi."
+    ],
+    "summary": {
+      "description": "O Real Teatro de São João original, aberto em 1798, foi destruído por um incêndio em 11 de abril de 1908. José Marques da Silva venceu o concurso para um novo teatro no mesmo local, e a construção começou em 1911. Ficou pronto em 1918 e foi inaugurado em 7 de março de 1920 com Aida, de Verdi.",
+      "keyFeatures": [
+        "Fachada com quatro colunas jônicas",
+        "Relevos da Bondade, da Dor, do Ódio e do Amor, de Diogo de Macedo e Sousa Caldas",
+        "Plateia em ferradura com teto pintado",
+        "Hall de entrada esculpido"
+      ],
+      "funFacts": [
+        "A partir de 1932 funcionou também como cinema, o São João Cine."
+      ]
+    }
+  },
+  "casa-dos-patudos": {
+    "name": "Casa dos Patudos",
+    "aliases": ["Casa-Museu dos Patudos", "Casa de José Relvas", "Patudos"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto, designer e teórico da «Casa Portuguesa», um conceito idealizado de arquitetura residencial portuguesa; muitas de suas casas ficam em Cascais e Sintra."
+      }
+    ],
+    "city": "Alpiarça",
+    "style": "Casa Portuguesa",
+    "drawings": [],
+    "photos": [
+      { "alt": "Casa de campo branca com uma longa galeria superior em arcadas e telhados de telhas, ao lado de um pátio aberto", "caption": null },
+      { "alt": "Grande escadaria com balaustrada de madeira entalhada e estátuas, diante de um painel de azulejos azuis e brancos", "caption": "A grande escadaria." }
+    ],
+    "hints": [
+      "Foi construída para um político republicano que proclamou a República da varanda de uma câmara municipal em 1910.",
+      "Seu dono a deixou em testamento para a sua cidade, pedindo que fosse mantida como museu.",
+      "Seu arquiteto foi o principal teórico da «casa portuguesa»."
+    ],
+    "summary": {
+      "description": "Raul Lino projetou esta casa, construída entre 1905 e 1909, para José Relvas, o republicano que proclamou a República em Lisboa em 5 de outubro de 1910 e depois chefiou brevemente o governo. Relvas deixou a casa e suas coleções ao município de Alpiarça, e ela foi aberta como museu em 15 de maio de 1960.",
+      "keyFeatures": [
+        "Galeria em arcadas",
+        "Paredes brancas e telhados de telhas inspirados nas casas tradicionais portuguesas",
+        "Grande escadaria e mezanino",
+        "Salas mantidas com as coleções de arte do proprietário"
+      ],
+      "funFacts": [
+        "José Relvas morreu na casa em 1929."
+      ]
+    }
+  },
+  "casa-de-serralves": {
+    "name": "Casa de Serralves",
+    "aliases": ["Villa Serralves", "Serralves"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Arquiteto e decorador parisiense, autor de vários projetos para teatros de Paris."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Formado na École des Beaux-Arts de Paris com Victor Laloux, combinou a tradição Beaux-Arts com um planejamento moderno e prático, e dirigiu por muito tempo a Escola de Belas-Artes do Porto."
+      }
+    ],
+    "city": "Porto",
+    "style": "Art Déco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Vila Art Déco rosa, com uma baía arredondada, faixas verticais de janelas e um terraço de degraus", "caption": null },
+      { "alt": "Porta com uma grade dourada de ferro forjado entre colunas claras, abrindo-se para uma sequência de salas", "caption": "A porta do salão." }
+    ],
+    "hints": [
+      "Foi encomendada por um aristocrata da indústria têxtil que herdou a propriedade em 1923.",
+      "Um arquiteto francês desenhou o projeto; um arquiteto português o executou e não parou de modificá-lo.",
+      "Fica em um parque cujos terrenos abrigam hoje também um museu de arte contemporânea."
+    ],
+    "summary": {
+      "description": "O 2.º conde de Vizela mandou o arquiteto francês Charles Siclis projetar a casa; sua execução coube a José Marques da Silva, cujas sucessivas alterações atrasaram as obras até 1940. Considerada um exemplo único de Art Déco em Portugal, foi comprada pelo Estado em 1986 e tornou-se o núcleo da Fundação de Serralves.",
+      "keyFeatures": [
+        "Volumes Art Déco rosa rebocados",
+        "Jardins de Jacques Gréber, projetados em 1932",
+        "Jardim de água axial",
+        "Salas hoje usadas para exposições"
+      ],
+      "funFacts": [
+        "O conde só se mudou em 1944 e a vendeu cerca de dez anos depois.",
+        "Os edifícios de Serralves foram classificados como Monumento Nacional em 2012."
+      ]
+    }
+  },
+  "coliseu-do-porto": {
+    "name": "Coliseu do Porto",
+    "aliases": ["Coliseu"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Um dos mais importantes arquitetos portugueses da primeira metade do século XX, conhecido também pelo Hotel Vitória e pelo parque Portugal dos Pequenitos."
+      }
+    ],
+    "city": "Porto",
+    "style": "Streamline Moderne e Art Déco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício cor de creme com faixas horizontais de janelas, aberturas redondas como vigias e uma base de pedra escura", "caption": null },
+      { "alt": "Plateia com fileiras de camarotes, um relevo dourado acima do palco e um anel no teto iluminado em azul", "caption": "A plateia." }
+    ],
+    "hints": [
+      "Substituiu um salão-jardim que fora ponto de encontro da sociedade da cidade.",
+      "Foi inaugurado em dezembro de 1941 e é uma das principais casas de espetáculos da cidade.",
+      "Em 1995, sua venda a uma igreja brasileira causou uma revolta popular, e a câmara municipal o comprou em vez disso."
+    ],
+    "summary": {
+      "description": "Construído no local do salão-jardim Passos Manuel, o Coliseu foi projetado por Cassiano Branco com Júlio de Brito, tendo sido também convidado para o projeto o arquiteto de teatros parisiense Charles Siclis. Foi inaugurado em 19 de dezembro de 1941 e é um exemplo de Streamline Moderne e Art Déco no Porto.",
+      "keyFeatures": [
+        "Faixas horizontais de janelas e aberturas redondas como vigias",
+        "Alta torre de esquina",
+        "Grande plateia com fileiras de camarotes",
+        "Teto iluminado a partir de um anel central"
+      ],
+      "funFacts": [
+        "Depois dos protestos de 1995, a câmara municipal o comprou em 1996.",
+        "Um incêndio em 1996 destruiu o palco e o salão principal; reabriu em 17 de dezembro daquele ano."
+      ]
+    }
+  },
+  "igreja-de-nossa-senhora-de-fatima": {
+    "name": "Igreja de Nossa Senhora de Fátima",
+    "aliases": ["Igreja de Nossa Senhora do Rosário de Fátima", "Igreja de Fátima"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Um dos mais importantes arquitetos portugueses da primeira metade do século XX, aluno de José Luís Monteiro e autor do campus do Instituto Superior Técnico, em Lisboa."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Modernismo com traços Art Déco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Igreja de pedra branca com uma alta e esbelta torre sineira terminando em uma flecha pontiaguda, em uma esquina", "caption": null },
+      { "alt": "Nave com arcos pontiagudos de concreto que leva a uma abside preenchida de vitrais azuis", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi encomendada em 1933 e consagrada em outubro de 1938.",
+      "Ganhou o Prêmio Valmor de arquitetura no ano em que foi consagrada.",
+      "É considerada um marco do modernismo de seu país, com telhado plano e composição assimétrica."
+    ],
+    "summary": {
+      "description": "Encomendada a Porfírio Pardal Monteiro em 1933, a igreja foi consagrada em outubro de 1938 e ganhou o Prêmio Valmor daquele ano. Mantém traços Art Déco em seus volumes fragmentados e ornamentados, mas sua modernidade está na assimetria, no telhado plano e na expressão da estrutura. Sua nave é iluminada por altos vitrais entre grandes arcos de concreto.",
+      "keyFeatures": [
+        "Alta torre sineira",
+        "Batistério circular com cúpula escalonada de concreto",
+        "Grandes arcos de concreto que sustentam o teto da nave",
+        "Paredes da abside preenchidas de vitrais"
+      ],
+      "funFacts": [
+        "Raul Rodrigues Lima e João Faria da Costa trabalharam no projeto no ateliê de Pardal Monteiro."
+      ]
+    }
+  },
+  "instituto-superior-tecnico": {
+    "name": "Instituto Superior Técnico",
+    "aliases": ["IST", "Técnico", "IST Alameda"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Um dos mais importantes arquitetos portugueses da primeira metade do século XX, aluno de José Luís Monteiro e professor do Instituto Superior Técnico."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto lisboeta que colaborou com Pardal Monteiro no campus da Alameda."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Modernismo com traços Art Déco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longo edifício rebocado em creme, com fileiras de altas janelas de caixilho verde divididas por nervuras verticais", "caption": null },
+      { "alt": "Escada de pedra com corrimão curvo de metal, que gira sob uma claraboia", "caption": "Uma caixa de escada." }
+    ],
+    "hints": [
+      "Pertence à escola de engenharia de Portugal, fundada em 1911, e foi a primeira instituição acadêmica do país a ter campus próprio.",
+      "Seu diretor, em 1927, lançou o projeto, e a construção correu de 1928 a 1935.",
+      "Sete edifícios estão dispostos em uma malha, alternando-se com jardins formais."
+    ],
+    "summary": {
+      "description": "Em 1927, o diretor da escola, Duarte Pacheco, iniciou o projeto de um novo campus e encomendou-o a Porfírio Pardal Monteiro, que trabalhou com o arquiteto Luís Benavente. Construído de 1928 a 1935 e inaugurado no ano seguinte, foi a primeira instituição acadêmica portuguesa com campus próprio. Seu modernismo sóbrio, com toques Art Déco, tira sua grandeza dos volumes dos edifícios e não da decoração.",
+      "keyFeatures": [
+        "Sete edifícios dispostos em uma malha",
+        "Jardins formais entre os pavilhões",
+        "Decoração sóbria e contida para sua época",
+        "Grandeza obtida pelos volumes, não pelo ornamento"
+      ],
+      "funFacts": [
+        "Uma estátua de mulher com esquadro e compasso, de Salvador Barata Feyo, feita para uma exposição de 1948, está hoje no campus.",
+        "O Pavilhão de Engenharia Civil e Arquitetura e as torres Norte e Sul foram acrescentados na década de 1950."
+      ]
+    }
+  },
+  "biblioteca-nacional-de-portugal": {
+    "name": "Biblioteca Nacional de Portugal",
+    "aliases": ["BNP", "Biblioteca Nacional"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Um dos mais importantes arquitetos portugueses da primeira metade do século XX, aluno de José Luís Monteiro e professor do Instituto Superior Técnico."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício largo e baixo com entrada central recuada e painéis rosa-avermelhados entre fileiras de janelas, visto do outro lado de um gramado", "caption": null },
+      { "alt": "Grande sala de leitura sob um teto de caixotões de madeira, com altas janelas e uma tapeçaria na parede do fundo", "caption": "A sala de leitura." }
+    ],
+    "hints": [
+      "Foi construída porque a sede histórica da biblioteca, um convento, havia ficado pequena para seu acervo.",
+      "As obras começaram em 1958, e os livros foram transferidos em 1969.",
+      "Fica no lado oeste de um parque da cidade, o Campo Grande."
+    ],
+    "summary": {
+      "description": "A Biblioteca Nacional ficou pequena para sua sede no Convento de São Francisco, e planejou-se então um edifício projetado para esse fim. As obras começaram em 1958, segundo projeto de Porfírio Pardal Monteiro, e os acervos foram transferidos para o novo edifício, na zona do Campo Grande, em 1969. Era muito moderno para a época.",
+      "keyFeatures": [
+        "Sede projetada especialmente para os acervos nacionais",
+        "Torre de depósitos para guardar os livros",
+        "Projeto de Pardal Monteiro, muito moderno para a época",
+        "Terreno no lado oeste do jardim do Campo Grande"
+      ],
+      "funFacts": [
+        "A torre de depósitos foi ampliada entre 2008 e 2011, ganhando 6.300 m².",
+        "Seu serviço de leitura para pessoas com deficiência visual produz livros em braile e em áudio desde 1969."
+      ]
+    }
+  },
+  "museu-calouste-gulbenkian": {
+    "name": "Museu Calouste Gulbenkian",
+    "aliases": ["Fundação Calouste Gulbenkian", "Museu Gulbenkian", "Gulbenkian"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto lisboeta, um dos três integrantes da equipe que venceu o concurso para a sede da Fundação Gulbenkian."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto da terceira geração dos modernistas portugueses, que ajudou a mudar mentalidades na arquitetura do pós-guerra."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e integrante da equipe que venceu o concurso para os edifícios da Fundação Gulbenkian."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Modernismo com concreto brutalista",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longo edifício de concreto elevado, com terraços plantados, com vista para um gramado pontilhado de guarda-sóis de café", "caption": null },
+      { "alt": "Sala de teto de madeira com uma janela do chão ao teto para um jardim, com duas cadeiras vermelhas", "caption": "Uma sala voltada para o jardim." }
+    ],
+    "hints": [
+      "O terreno fazia parte de um parque comprado em 1957, e os edifícios foram projetados por uma equipe que venceu um concurso.",
+      "Entre os arquitetos paisagistas de seu jardim estava Gonçalo Ribeiro Telles.",
+      "Foi projetado como vitrine para a coleção de um único colecionador, em vez de adaptado de um edifício mais antigo."
+    ],
+    "summary": {
+      "description": "Um concurso para os edifícios e o parque da fundação foi vencido por uma equipe que incluía Alberto Pessoa, Pedro Cid e Ruy Jervis d'Athouguia, com os arquitetos paisagistas António Viana Barreto e Gonçalo Ribeiro Telles projetando o parque ao redor. Os edifícios e jardins foram inaugurados em 2 de outubro de 1969, e o conjunto ganhou o Prêmio Valmor em 1975.",
+      "keyFeatures": [
+        "Edifícios e parque projetados em conjunto",
+        "Parque de Viana Barreto e Ribeiro Telles",
+        "Museu projetado como vitrine de sua coleção",
+        "Sede com dois auditórios"
+      ],
+      "funFacts": [
+        "O Centro de Arte Moderna foi aberto em 1983 como o primeiro museu de arte moderna de Portugal.",
+        "Um painel escultórico de Artur Rosa foi instalado na sede em 1962."
+      ]
+    }
+  },
+  "igreja-do-sagrado-coracao-de-jesus": {
+    "name": "Igreja do Sagrado Coração de Jesus",
+    "aliases": ["Igreja do Coração de Jesus", "Sagrado Coração de Jesus"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto nascido em Vila Viçosa que trabalhou com Nuno Teotónio Pereira nesta igreja."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto lisboeta formado na Escola de Belas-Artes de Lisboa e autor de vários edifícios premiados com o Prêmio Valmor."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Brutalismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Escadaria de concreto bruto subindo ao lado de um edifício moderno austero com uma alta faixa de vidro azul, emoldurada por árvores", "caption": null },
+      { "alt": "Nave de paredes texturizadas como tijolo sob uma grelha de concreto no teto, iluminada por vidros coloridos estreitos", "caption": "A nave." }
+    ],
+    "hints": [
+      "Ganhou o primeiro prêmio no concurso realizado para seu projeto.",
+      "Foi construída entre 1962 e 1967 e inaugurada só em 1970.",
+      "É um marco do concreto aparente: seus painéis foram pré-fabricados no local, com o agregado de pedra à vista."
+    ],
+    "summary": {
+      "description": "Projetada por Nuno Portas e Nuno Teotónio Pereira, que venceram o concurso, a igreja foi construída de 1962 a 1967 e inaugurada em 25 de junho de 1970. Foi uma obra deliberadamente «experimental» e um ponto de virada para a arquitetura religiosa, com uso de concreto aparente e vidro e um jogo de luz. Ganhou o Prêmio Valmor em 1975.",
+      "keyFeatures": [
+        "Painéis pré-fabricados de agregado de calcário branco em cimento branco",
+        "Concreto aparente e vidro",
+        "Integração com os volumes dos edifícios vizinhos",
+        "Jogo espiritual de luz"
+      ],
+      "funFacts": [
+        "Os arquitetos defendiam que uma «mentira construtiva» era inaceitável na arquitetura de igrejas.",
+        "O agregado de seus painéis é calcário branco de Vila Viçosa."
+      ]
+    }
+  }
+}

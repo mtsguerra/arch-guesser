@@ -1,5 +1,5 @@
 import { RotateCcw } from 'lucide-react'
-import { strings } from '../../strings.js'
+import { useStrings } from '../../i18n.js'
 import { Button } from '../ui/Button.jsx'
 import { Sheet } from './Sheet.jsx'
 import { TitleBlock } from './TitleBlock.jsx'
@@ -7,12 +7,11 @@ import boardStyles from './DrawingBoard.module.css'
 import tabStyles from './SheetTabs.module.css'
 import styles from './BoardStatus.module.css'
 
-const { unknown } = strings.titleBlock
-const blankTitle = [
-  { key: 'project', label: strings.titleBlock.project, value: unknown, muted: true, wide: true },
-  { key: 'architect', label: strings.titleBlock.architect, value: unknown, muted: true },
-  { key: 'drawing', label: strings.titleBlock.drawing, value: unknown, muted: true },
-  { key: 'sheet', label: strings.titleBlock.sheet, value: unknown, muted: true },
+const blankTitle = ({ titleBlock }) => [
+  { key: 'project', label: titleBlock.project, value: titleBlock.unknown, muted: true, wide: true },
+  { key: 'architect', label: titleBlock.architect, value: titleBlock.unknown, muted: true },
+  { key: 'drawing', label: titleBlock.drawing, value: titleBlock.unknown, muted: true },
+  { key: 'sheet', label: titleBlock.sheet, value: titleBlock.unknown, muted: true },
 ]
 
 /**
@@ -20,6 +19,7 @@ const blankTitle = [
  * first building arrives or when the API fails.
  */
 export function BoardStatus({ status, onRetry }) {
+  const strings = useStrings()
   const loading = status === 'loading'
 
   return (
@@ -31,7 +31,7 @@ export function BoardStatus({ status, onRetry }) {
         </span>
       </div>
       <div className={boardStyles.stage}>
-        <Sheet className={boardStyles.page} titleBlock={<TitleBlock fields={blankTitle} />}>
+        <Sheet className={boardStyles.page} titleBlock={<TitleBlock fields={blankTitle(strings)} />}>
           <div className={styles.body} role={loading ? 'status' : 'alert'}>
             {loading ? (
               <>

@@ -1,5 +1,8 @@
 import { describe, expect, it } from 'vitest'
-import { buildSheets } from './sheets.js'
+import en from '../../strings/en.js'
+import { buildSheets as build } from './sheets.js'
+
+const buildSheets = (building) => build(building, en)
 
 const drawing = (type, label) => ({ type, label, src: `/buildings/x/${label}.jpg`, alt: label })
 const photo = (view, name) => ({ view, src: `/buildings/x/${name}.jpg`, alt: name })

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { AnimatePresence, LayoutGroup, motion } from 'motion/react'
 import { Map as MapIcon } from 'lucide-react'
 import { duration, easeOut } from '../../motion.js'
-import { strings } from '../../strings.js'
+import { useStrings } from '../../i18n.js'
 import { DrawingBoard } from '../board/DrawingBoard.jsx'
 import { GuessForm } from '../guess/GuessForm.jsx'
 import { HintTray } from '../hints/HintTray.jsx'
@@ -23,6 +23,7 @@ const fade = {
  * swap back to the full drawings at any time. Remount per building.
  */
 export function Round({ round, eras }) {
+  const strings = useStrings()
   const { building, phase } = round
   const revealed = phase === 'revealed'
   const [view, setView] = useState('summary')

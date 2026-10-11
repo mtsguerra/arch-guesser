@@ -2,9 +2,10 @@ import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
 import { ArrowRight, BookOpen, Check, ChevronDown, Eye, X } from 'lucide-react'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
-import { eraRange } from '../../game/useEras.js'
+import { eraName, eraRange } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
-import { strings } from '../../strings.js'
+import { useLanguage, useStrings } from '../../i18n.js'
+import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
 import { CountryCombobox } from './CountryCombobox.jsx'
 import styles from './GuessForm.module.css'
@@ -12,17 +13,17 @@ import styles from './GuessForm.module.css'
 const emptyValues = Object.fromEntries(GUESS_FIELDS.map((f) => [f, '']))
 const shake = { x: [0, -7, 7, -4, 4, 0], transition: { duration: 0.4, ease: 'easeOut' } }
 
-function answerFor(field, building, eras) {
+function answerFor(field, building, eras, { strings, lang }) {
   switch (field) {
     case 'name':
       return building.name
     case 'architect':
       return building.architects.map((a) => a.name).join(' & ')
     case 'country':
-      return building.location.country
+      return countryName(building.location.countryCode, lang) ?? building.location.country
     case 'era': {
       const era = eras?.find((e) => e.id === building.era)
-      return era ? `${era.label} · ${eraRange(era)}` : building.era
+      return era ? `${eraName(era, strings)} · ${eraRange(era, strings.years)}` : building.era
     }
   }
 }
@@ -33,6 +34,7 @@ function answerFor(field, building, eras) {
  * to "Villa Savoye" the moment it locks.
  */
 function Field({ id, field, status, attempts, revealed, answer, children }) {
+  const strings = useStrings()
   const controls = useAnimationControls()
   const messageId = `${id}-message`
 
@@ -93,6 +95,8 @@ function Field({ id, field, status, attempts, revealed, answer, children }) {
  * The guess sheet. Remount per building (`key={building.id}`) to clear the inputs.
  */
 export function GuessForm({ building, eras, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp, onNext, onShowSummary }) {
+  const strings = useStrings()
+  const { lang } = useLanguage()
   const idPrefix = useId()
   const [values, setValues] = useState(emptyValues)
   const [nothingToCheck, setNothingToCheck] = useState(false)
@@ -130,7 +134,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
     status: fields[field],
     attempts,
     revealed,
-    answer: revealed || fields[field] === 'correct' ? answerFor(field, building, eras) : null,
+    answer: revealed || fields[field] === 'correct' ? answerFor(field, building, eras, { strings, lang }) : null,
   })
 
   return (
@@ -195,7 +199,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
                 <option value="">{eras?.length === 0 ? strings.guess.erasUnavailable : strings.guess.placeholders.era}</option>
                 {eras?.map((era) => (
                   <option key={era.id} value={era.id}>
-                    {era.label} · {eraRange(era)}
+                    {eraName(era, strings)} · {eraRange(era, strings.years)}
                   </option>
                 ))}
               </select>

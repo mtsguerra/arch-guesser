@@ -1,0 +1,431 @@
+{
+  "centro-cultural-de-belem": {
+    "name": "Centro Cultural de Belém",
+    "aliases": ["CCB"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "bio": "Arquiteto nascido em Novara, visto ao mesmo tempo como membro da Neovanguarda e figura central do pós-modernismo dos anos 1970."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto lisboeta que depois chefiou o urbanismo da câmara municipal de Lisboa de 2007 a 2019."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Pós-modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Paredes longas e quase sem janelas de pedra rústica rosada em volta de uma praça pavimentada", "caption": null },
+      { "alt": "Sala de concertos com ripas de madeira no teto e paredes de pedra, uma orquestra no palco diante de uma plateia cheia", "caption": "O grande auditório." }
+    ],
+    "hints": [
+      "Foi construído para sediar a primeira presidência do Conselho Europeu de seu país, em 1992.",
+      "Foi projetado e construído em muito pouco tempo, entre 1989 e 1992.",
+      "É o maior edifício com equipamentos culturais de seu país."
+    ],
+    "summary": {
+      "description": "Decidido em janeiro de 1988 para sediar a Presidência de Portugal no Conselho Europeu em 1992, o centro foi construído entre 1989 e 1992 segundo projeto de Vittorio Gregotti e Manuel Salgado, com interiores de Daciano Costa. Depois tornou-se um espaço permanente para conferências, exposições e artes cênicas, com mais de 140.000 m² de área útil.",
+      "keyFeatures": [
+        "Módulos maciços revestidos de pedra",
+        "Grande auditório",
+        "Espaços de exposição e de museu",
+        "Design de interiores de Daciano Costa"
+      ],
+      "funFacts": [
+        "Em janeiro de 1992, três de seus módulos estavam prontos para as instituições e a segurança da presidência da UE."
+      ]
+    }
+  },
+  "museu-nacional-dos-coches": {
+    "name": "Museu Nacional dos Coches",
+    "aliases": ["Museu dos Coches"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Arquiteto brasileiro cujos edifícios, muitos em concreto, são associados ao «brutalismo brasileiro»; trabalhou quase exclusivamente no Brasil."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Contemporâneo (influência brutalista)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longa caixa branca com uma fina faixa azul de janelas, elevada sobre colunas redondas de concreto sobre um térreo aberto", "caption": null },
+      { "alt": "Longo salão branco com fileiras de carruagens históricas, visto de cima", "caption": "O salão principal." }
+    ],
+    "hints": [
+      "O museu que abriga foi fundado em 1905 por uma rainha e foi o primeiro de seu tipo no mundo.",
+      "Seu acervo foi mostrado primeiro em uma escola de equitação real do século XVIII, do outro lado da rua.",
+      "Seu arquiteto, da América do Sul, o projetou com um escritório de Lisboa; foi aberto em 2015."
+    ],
+    "summary": {
+      "description": "O Museu Nacional dos Coches foi criado em 1905 pela rainha D. Amélia no antigo Picadeiro Real de Belém. Seu novo edifício, em frente, que abriga a maior parte do acervo, é do arquiteto brasileiro Paulo Mendes da Rocha com o escritório de Ricardo Bak Gordon e o engenheiro Rui Furtado, e foi aberto em 2015.",
+      "keyFeatures": [
+        "Novo edifício em frente ao antigo Picadeiro Real",
+        "Abriga a maior parte do acervo",
+        "Acervo de cerca de 9.000 objetos, incluindo veículos de gala"
+      ],
+      "funFacts": [
+        "Um salão de 1944 para o antigo museu foi projetado por Raul Lino."
+      ]
+    }
+  },
+  "maat": {
+    "name": "MAAT",
+    "aliases": ["Museu de Arte, Arquitetura e Tecnologia", "maat"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Britânica",
+        "bio": "Arquiteta britânica e sócia principal da AL_A; antes, como sócia da Future Systems, ganhou o Prêmio Stirling de 1999."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Contemporâneo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício branco, baixo e curvo, ao longo de um calçadão à beira-rio, visto da água", "caption": null },
+      { "alt": "Galeria aberta e curva com piso branco sob uma grade escura no teto", "caption": "A galeria oval." }
+    ],
+    "hints": [
+      "Fica às margens de um rio, a oeste do centro da cidade, ao lado de uma antiga central elétrica.",
+      "Custou cerca de 20 milhões de euros e é gerido pela fundação de uma empresa de energia.",
+      "Sua programação foi inaugurada em junho de 2016."
+    ],
+    "summary": {
+      "description": "O museu de arte, arquitetura e tecnologia da Amanda Levete Architects fica no Tejo, a oeste do centro de Lisboa. Liga-se à Central Tejo, um dos edifícios industriais mais notáveis do início do século XX em Portugal, e mostra o acervo da Fundação EDP. Sua programação foi inaugurada em 30 de junho de 2016.",
+      "keyFeatures": [
+        "Terreno à beira-rio, no Tejo",
+        "Ligação com a Central Tejo",
+        "Mostra o acervo de arte da Fundação EDP"
+      ],
+      "funFacts": [
+        "Suas quatro primeiras exposições foram realizadas nos espaços renovados da antiga central."
+      ]
+    }
+  },
+  "terminal-de-cruzeiros-de-leixoes": {
+    "name": "Terminal de Cruzeiros de Leixões",
+    "aliases": ["Terminal de Cruzeiros do Porto de Leixões", "Terminal de Cruzeiros do Porto"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto português cujo projeto para este terminal ganhou o prêmio internacional AZ Award em 2016."
+      }
+    ],
+    "city": "Matosinhos",
+    "style": "Contemporâneo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício branco arredondado, envolvido por faixas curvas, com um térreo envidraçado escuro", "caption": null },
+      { "alt": "Rampa em espiral sob uma claraboia redonda, com paredes revestidas de azulejos brancos", "caption": "A rampa em espiral." }
+    ],
+    "hints": [
+      "Foi inaugurado em julho de 2015 para receber navios maiores em um porto perto do Porto.",
+      "Sua estrutura em espiral é revestida de cerca de um milhão de azulejos brancos fabricados por uma empresa portuguesa de porcelana.",
+      "Abriga também um centro universitário de pesquisa marinha."
+    ],
+    "summary": {
+      "description": "Projetado por Luís Pedro Silva e inaugurado em julho de 2015, o terminal de cruzeiros de Leixões ampliou a capacidade do porto para navios de cruzeiro maiores. Sua estrutura em espiral é revestida de cerca de um milhão de azulejos brancos fabricados pela Vista Alegre, e abriga o Centro Interdisciplinar de Investigação Marinha e Ambiental (CIIMAR) da Universidade do Porto.",
+      "keyFeatures": [
+        "Forma em espiral",
+        "Cerca de um milhão de azulejos brancos da Vista Alegre",
+        "Laboratórios de pesquisa para cerca de 200 pesquisadores"
+      ],
+      "funFacts": [
+        "Ganhou o prêmio internacional AZ Award em 2016.",
+        "Foi apontado como um dos três melhores portos de cruzeiros do mundo no Seatrade Awards de 2015."
+      ]
+    }
+  },
+  "pantheon-rome": {
+    "name": "Panteão de Roma",
+    "aliases": ["Pantheon", "Panteão", "Pantheon de Roma", "Santa Maria ad Martyres", "Basílica de Santa Maria e dos Mártires", "Pantheum"],
+    "architects": [
+      {
+        "aliases": ["Apolodoro de Damasco"],
+        "nationality": "Sírio-grego (atuante em Roma)",
+        "bio": "Arquiteto de Trajano; por razões de estilo, alguns estudiosos o veem como projetista do templo reconstruído por Adriano, embora a atribuição seja incerta."
+      }
+    ],
+    "city": "Roma",
+    "style": "Romano antigo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício redondo de tijolo com um profundo pórtico de colunas de granito sob um frontão, em uma praça movimentada", "caption": null },
+      { "alt": "Cúpula de concreto com caixotões vista de baixo, com uma abertura redonda para o céu no centro", "caption": "A cúpula e o óculo." }
+    ],
+    "hints": [
+      "Substituiu um templo anterior construído sob Augusto; o imperador que o reconstruiu manteve a inscrição do fundador original.",
+      "Desde 609 é uma igreja católica.",
+      "Sua altura até a abertura no teto é igual ao diâmetro de seu círculo interior: 43 metros."
+    ],
+    "summary": {
+      "description": "Reconstruído pelo imperador Adriano no local do templo de Agripa e provavelmente dedicado por volta de 126 d.C., o Panteão une um pórtico de colunas coríntias de granito a uma cela circular sob uma cúpula de concreto romano com caixotões. Quase dois mil anos depois, sua cúpula ainda é a maior cúpula de concreto não armado do mundo.",
+      "keyFeatures": [
+        "Pórtico com grandes colunas coríntias de granito",
+        "Rotunda sob uma cúpula de concreto com caixotões",
+        "Óculo central aberto para o céu",
+        "Altura e diâmetro interno iguais, de 43 m"
+      ],
+      "funFacts": [
+        "O pintor Rafael está enterrado lá dentro.",
+        "Brunelleschi, entre outros arquitetos, buscou nele inspiração."
+      ]
+    }
+  },
+  "maison-carree": {
+    "name": "Maison Carrée",
+    "aliases": ["Casa Quadrada", "Maison carrée", "Maison Carree"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "O projetista deste templo provincial da época de Augusto não está registrado; sua forma segue o templo de estilo toscano descrito por Vitrúvio, mas com a ordem coríntia."
+      }
+    ],
+    "city": "Nîmes",
+    "style": "Romano antigo (coríntio)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Pequeno templo romano com colunas coríntias sobre um alto pódio com degraus, iluminado à noite", "caption": null },
+      { "alt": "Teto de pedra com caixotões do pórtico do templo, visto de baixo entre colunas", "caption": "O teto do pórtico." }
+    ],
+    "hints": [
+      "Foi dedicado ou rededicado por volta de 4–7 d.C. a dois netos e herdeiros de Augusto que morreram jovens.",
+      "Thomas Jefferson mandou fazer um modelo dele e nele baseou o Capitólio do Estado da Virgínia.",
+      "Tornou-se Patrimônio Mundial da UNESCO em 2023."
+    ],
+    "summary": {
+      "description": "Um dos templos romanos mais bem preservados do mundo, este templo de porte médio da época de Augusto, dedicado ao culto imperial, dominava o fórum da Nîmes romana sobre um pódio de 2,85 metros. Foi dedicado a Caio e Lúcio César por volta de 4–7 d.C. Mais tarde inspirou a Église de la Madeleine, em Paris, e o Capitólio da Virgínia, de Jefferson.",
+      "keyFeatures": [
+        "Alto pódio com escada frontal",
+        "Ordem coríntia",
+        "Retângulo quase duas vezes mais longo que largo",
+        "Pórtico profundo"
+      ],
+      "funFacts": [
+        "Sua inscrição dedicatória foi removida na Idade Média; seu texto é conhecido por uma reconstrução de Séguier.",
+        "A porta atual data de 1824."
+      ]
+    }
+  },
+  "temple-of-hephaestus": {
+    "name": "Templo de Hefesto",
+    "aliases": ["Temple of Hephaestus", "Hefaisteion", "Hefestião", "Teseion", "Teseu", "Templo de Teseu"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "Muitos arquitetos já foram sugeridos, mas, sem provas firmes, o projetista é chamado simplesmente de Mestre do Hefaisteion."
+      }
+    ],
+    "city": "Atenas",
+    "style": "Grego antigo (dórico)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Templo dórico de mármore completo, com um anel de colunas, visto entre arbustos", "caption": null },
+      { "alt": "Vista para cima entre colunas dóricas e um friso esculpido dentro da colunata", "caption": "Dentro da colunata." }
+    ],
+    "hints": [
+      "Fica em uma colina a noroeste da ágora de uma cidade antiga.",
+      "Por séculos acreditou-se erradamente que guardava os restos de um herói e foi batizado com o nome dele.",
+      "Iniciado em 449 a.C., só foi coberto décadas depois, pois os recursos foram para um templo mais famoso nas proximidades."
+    ],
+    "summary": {
+      "description": "Este templo dórico períptero a Hefesto domina a Ágora de Atenas. A construção começou em 449 a.C., mas operários e recursos foram desviados para o Partenon, e seu telhado e suas estátuas de culto só foram concluídos por volta de 421–415 a.C. Usado como igreja de São Jorge do século VII até 1834, é um dos templos gregos mais bem preservados.",
+      "keyFeatures": [
+        "Peristilo dórico",
+        "Frisos esculpidos em mármore pentélico e pário",
+        "Prônao alinhado com as terceiras colunas dos flancos",
+        "Linha de telhado quase intacta"
+      ],
+      "funFacts": [
+        "No século III a.C. foi plantado em volta dele um jardim de romãzeiras, murtas e loureiros.",
+        "Foi muito tempo chamado de Teseion, por causa de Teseu."
+      ]
+    }
+  },
+  "baths-of-caracalla": {
+    "name": "Termas de Caracala",
+    "aliases": ["Baths of Caracalla", "Terme di Caracalla", "Thermae Antoninianae", "Banhos de Caracala"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "Os construtores deste complexo de banhos imperiais, erguido sob Sétimo Severo e Caracala, não estão registrados."
+      }
+    ],
+    "city": "Roma",
+    "style": "Romano antigo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Imponentes paredes e pilares de tijolo em ruínas de um vasto edifício antigo, em um gramado aberto", "caption": null },
+      { "alt": "Salão abobadado de tijolo em ruínas, com piso de mosaico em preto e branco", "caption": "Um salão com piso de mosaico." }
+    ],
+    "hints": [
+      "Era o segundo maior complexo de banhos públicos de sua cidade, construído por volta de 212–216 d.C.",
+      "Seu salão frio central foi copiado para os salões principais da Penn Station, em Nova York, e da Union Station de Chicago.",
+      "De 1937 a 1993, seu salão quente foi a sede de verão de uma companhia de ópera."
+    ],
+    "summary": {
+      "description": "Construídas entre cerca de 212 e 216 d.C. sob Sétimo Severo e Caracala, as termas cobriam um bloco central de 214 por 110 metros e podiam receber cerca de 1.600 banhistas ao mesmo tempo. Um frigidário abobadado, um tepidário, um caldário com cúpula quase tão larga quanto a do Panteão e uma piscina ao ar livre se alinhavam no eixo principal. Funcionaram até a década de 530.",
+      "keyFeatures": [
+        "Frigidário sob três abóbadas de aresta de 32,9 m de altura",
+        "Caldário com cúpula de quase 36 m de largura",
+        "Natatio de tamanho olímpico",
+        "Duas palestras para exercícios"
+      ],
+      "funFacts": [
+        "O Touro Farnese e o Hércules Farnese foram encontrados em suas ruínas.",
+        "Duas de suas banheiras de granito viraram fontes na Piazza Farnese."
+      ]
+    }
+  },
+  "san-vitale": {
+    "name": "Basílica de San Vitale",
+    "aliases": ["San Vitale", "Basilica di San Vitale", "San Vitale de Ravena", "Basílica de São Vital", "São Vital de Ravena"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Bizantino (atuante em Ravena)",
+        "bio": "Banqueiro e arquiteto local que patrocinou a construção da igreja e também a vizinha Sant'Apollinare in Classe."
+      }
+    ],
+    "city": "Ravena",
+    "style": "Bizantino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Igreja octogonal de tijolos, com telhados escalonados e janelas em arco, em um jardim", "caption": null },
+      { "alt": "Interior octogonal elevado, com arcadas e mosaicos dourados na abside", "caption": "O octógono." }
+    ],
+    "hints": [
+      "Foi iniciada em 526 por um bispo local e concluída em 547, depois que o imperador Justiniano conquistou a Itália.",
+      "Sua planta é um octógono.",
+      "Seus mosaicos incluem famosos retratos de um imperador e uma imperatriz com suas cortes."
+    ],
+    "summary": {
+      "description": "Iniciada em 526 sob o bispo Eclésio e concluída pelo bispo Maximiano em 547, San Vitale é a única igreja importante do reinado de Justiniano que sobreviveu quase intacta. Sua planta octogonal guarda os maiores e mais bem preservados mosaicos bizantinos fora de Istambul, incluindo os painéis de Justiniano e Teodora.",
+      "keyFeatures": [
+        "Planta octogonal",
+        "Mosaicos de Justiniano e Teodora",
+        "Cenas do Antigo Testamento nas lunetas",
+        "Mosaicos da abside"
+      ],
+      "funFacts": [
+        "Julius Argentarius pode aparecer entre os cortesãos no mosaico de Justiniano."
+      ]
+    }
+  },
+  "chora-church": {
+    "name": "Igreja de Chora",
+    "aliases": ["Chora Church", "Mesquita Kariye", "Kariye Camii", "Kariye Mosque", "Igreja do Santo Salvador em Chora", "Chora", "Igreja de Cora"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "A estrutura atual data de 1077–1081, quando Maria Doukaina reconstruiu a igreja; o estadista Teodoro Metoquita acrescentou no século XIV seus mosaicos, nártex e capela funerária."
+      }
+    ],
+    "city": "Istambul",
+    "style": "Bizantino médio e tardio",
+    "drawings": [],
+    "photos": [
+      { "alt": "Pequena igreja de tijolo e pedra com uma cúpula e telhados em camadas, ao lado de um gramado", "caption": null },
+      { "alt": "Nave revestida de mármore sob uma cúpula, com janelas no tambor", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi construída primeiro fora das muralhas de sua cidade e depois se viu dentro de novas muralhas, erguidas em 413–414.",
+      "Um estadista e erudito financiou seus famosos mosaicos e afrescos por volta de 1310–1321.",
+      "Foi igreja, mesquita, museu a partir de 1945 e, desde 2020, de novo mesquita."
+    ],
+    "summary": {
+      "description": "Reconstruída como igreja de cruz inscrita por Maria Doukaina em 1077–1081, Chora foi enriquecida entre cerca de 1310 e 1321 por Teodoro Metoquita, que acrescentou nártex e uma capela funerária e pagou alguns dos melhores mosaicos e afrescos bizantinos tardios que sobreviveram. Eles foram mantidos à vista durante a maior parte de seu uso otomano como mesquita.",
+      "keyFeatures": [
+        "Planta de cruz inscrita (quincunce)",
+        "Mosaicos e afrescos bizantinos tardios",
+        "Nártex interno e externo",
+        "Capela funerária (parekklesion)"
+      ],
+      "funFacts": [
+        "Teodoro Metoquita doou sua biblioteca pessoal ao mosteiro.",
+        "Foi exilado em 1328 por Andrônico III."
+      ]
+    }
+  },
+  "st-marks-basilica": {
+    "name": "Basílica de São Marcos",
+    "aliases": ["St Mark's Basilica", "Basilica di San Marco", "San Marco", "Basílica de San Marco", "Basílica de Saint Mark"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "O nome do arquiteto-chefe da igreja do século XI não está registrado; ela foi reconstruída sob o doge Domenico I Contarini, tendo como modelo a Igreja dos Santos Apóstolos de Constantinopla."
+      }
+    ],
+    "city": "Veneza",
+    "style": "Ítalo-bizantino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de igreja ornamentada, com cinco portais em arco, mosaicos dourados e cúpulas, do outro lado de uma praça pavimentada", "caption": null },
+      { "alt": "Interior sob cúpulas e abóbadas de mosaicos em fundo dourado, com galerias e piso de mármore", "caption": "As cúpulas e os mosaicos." }
+    ],
+    "hints": [
+      "Foi reconstruída a partir de 1063, segundo o modelo de uma igreja do século VI em Constantinopla.",
+      "Foi a capela particular do chefe de Estado de sua república até 1797.",
+      "Quatro antigos cavalos de bronze, saqueados na Quarta Cruzada, ficavam sobre sua entrada."
+    ],
+    "summary": {
+      "description": "A igreja atual, iniciada provavelmente em 1063 sob o doge Domenico I Contarini e consagrada em 1094, tomou como modelo a Igreja dos Santos Apóstolos de Constantinopla, com planta centralizada coroada por cúpulas. Ao longo de oito séculos, suas paredes de tijolo foram revestidas de mármore e suas cúpulas e abóbadas de mosaicos em fundo dourado.",
+      "keyFeatures": [
+        "Modelo bizantino de planta centralizada",
+        "Mosaicos em fundo dourado",
+        "Despojos de Constantinopla",
+        "Retábulo da Pala d'Oro"
+      ],
+      "funFacts": [
+        "É a catedral de Veneza apenas desde 1807.",
+        "A Pala d'Oro foi encomendada a Constantinopla em 1102."
+      ]
+    }
+  },
+  "hosios-loukas": {
+    "name": "Hosios Loukas",
+    "aliases": ["Mosteiro de Hosios Loukas", "Osios Loukas", "Hosios Lukas", "Mosteiro de São Lucas"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "Os construtores das duas igrejas do mosteiro não são conhecidos; ele cresceu em torno do túmulo do eremita Lucas de Steiris."
+      }
+    ],
+    "city": "Distomo",
+    "style": "Bizantino médio",
+    "drawings": [],
+    "photos": [
+      { "alt": "Igrejas de pedra de um mosteiro, com cúpulas e um campanário, em um vale sob montanhas", "caption": null },
+      { "alt": "Interior de igreja de pedra com arcos e uma coluna de mármore sob uma abóbada", "caption": "A igreja." }
+    ],
+    "hints": [
+      "Cresceu em torno das relíquias de um eremita que morreu em 953.",
+      "Sua igreja principal, datada provisoriamente de 1011–12, é a mais antiga igreja de octógono com cúpula que sobreviveu.",
+      "Compartilha uma inscrição da UNESCO com outros dois mosteiros gregos, Nea Moni e Dafni."
+    ],
+    "summary": {
+      "description": "Fundado no século X pelo eremita Lucas de Steiris perto de Distomo, o mosteiro tem duas igrejas unidas: a Theotokos, a única igreja da Grécia continental que se sabe com certeza datar do século X, e o maior Katholikon, de cerca de 1011–12, a mais antiga igreja de octógono com cúpula, com os mosaicos mais bem preservados do Renascimento Macedônio.",
+      "keyFeatures": [
+        "Katholikon de octógono com cúpula",
+        "Cúpula sobre quatro trompas, sem tambor",
+        "Duas igrejas contíguas",
+        "Mosaicos do Renascimento Macedônio"
+      ],
+      "funFacts": [
+        "Dizia-se que as relíquias do santo exsudavam um óleo perfumado e curativo."
+      ]
+    }
+  }
+}

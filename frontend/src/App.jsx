@@ -3,7 +3,7 @@ import { Shuffle } from 'lucide-react'
 import { useEras } from './game/useEras.js'
 import { useGameRound } from './game/useGameRound.js'
 import { duration, easeOut } from './motion.js'
-import { strings } from './strings.js'
+import { useStrings } from './i18n.js'
 import { AppShell } from './components/layout/AppShell.jsx'
 import { BoardStatus } from './components/board/BoardStatus.jsx'
 import { Round } from './components/layout/Round.jsx'
@@ -17,6 +17,7 @@ const roundMotion = {
 }
 
 export default function App() {
+  const strings = useStrings()
   const round = useGameRound()
   const eras = useEras()
   const { phase, building } = round

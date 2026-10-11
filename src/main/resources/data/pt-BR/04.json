@@ -1,0 +1,450 @@
+{
+  "theatro-da-paz": {
+    "name": "Theatro da Paz",
+    "aliases": ["Teatro da Paz", "Teatro da Paz de Belém"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Engenheiro e arquiteto de Recife que planejou o teatro em Belém."
+      }
+    ],
+    "city": "Belém, Pará",
+    "style": "Neoclássico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada cor de salmão com colunas brancas, medalhões com retratos e aberturas em arco", "caption": null },
+      { "alt": "Plateia vermelha e dourada com fileiras de camarotes voltadas para uma cortina de palco", "caption": "A plateia." }
+    ],
+    "hints": [
+      "Foi construído durante a era de ouro da borracha na bacia amazônica.",
+      "Seu nome foi sugerido por um bispo, que também lançou sua pedra fundamental em 1869.",
+      "Fica em uma praça com o nome da República, em uma cidade na foz do Amazonas."
+    ],
+    "summary": {
+      "description": "Construído entre 1869 e 1874, durante o ciclo da borracha na Amazônia, o teatro de Belém segue linhas neoclássicas rigorosas, com pátios de colunatas em cada lado abertos para a Praça da República. Depois de uma sindicância administrativa, foi finalmente inaugurado em fevereiro de 1878, e as grandes companhias de ópera do mundo se apresentaram ali até o fim do ciclo.",
+      "keyFeatures": [
+        "Fachada neoclássica com colunata",
+        "Pátios laterais com colunas e escadarias",
+        "Plateia em ferradura com fileiras de camarotes",
+        "Menos colunas sobre a entrada do que as originalmente construídas"
+      ],
+      "funFacts": [
+        "Sua primeira montagem, em 16 de fevereiro de 1878, foi o drama As Duas Órfãs.",
+        "Foi negligenciado depois do colapso da borracha e restaurado mais tarde."
+      ]
+    }
+  },
+  "estacao-da-luz": {
+    "name": "Estação da Luz",
+    "aliases": ["Estação da Luz de São Paulo", "Luz"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Britânico",
+        "bio": "Arquiteto vitoriano conhecido pelo uso pioneiro de ferragens ornamentais, que projetou a estação para a São Paulo Railway, sediada em Londres."
+      }
+    ],
+    "city": "São Paulo",
+    "style": "Ecletismo vitoriano",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longo edifício de tijolos creme e vermelhos, com telhados íngremes de ardósia e uma torre de relógio", "caption": null },
+      { "alt": "Plataformas de trem sob uma longa cobertura em arco de ferro e vidro", "caption": "A cobertura das plataformas." }
+    ],
+    "hints": [
+      "Foi projetada na Grã-Bretanha para uma companhia ferroviária sediada em Londres.",
+      "Sua torre de relógio já regulou a hora de toda a cidade.",
+      "Hoje abriga também o museu de uma língua."
+    ],
+    "summary": {
+      "description": "Projetada pelo arquiteto britânico Charles Henry Driver para a São Paulo Railway, que ligava o porto de Santos ao interior, a estação foi construída em 1895–1901. Sua cobertura de plataformas em ferro e vidro e sua sede de tijolo e pedra com uma alta torre de relógio trouxeram a Grã-Bretanha vitoriana a São Paulo.",
+      "keyFeatures": [
+        "Cobertura das plataformas em ferro e vidro",
+        "Torre de relógio que já regulou a hora da cidade",
+        "Fachada de tijolo e pedra com telhados íngremes de ardósia",
+        "Ferragens ornamentais"
+      ],
+      "funFacts": [
+        "Um incêndio em 1946 destruiu a torre, reconstruída cinco anos depois.",
+        "O Museu da Língua Portuguesa foi aberto dentro dela em 2006; um incêndio em 2015 danificou gravemente o edifício."
+      ]
+    }
+  },
+  "ilha-fiscal": {
+    "name": "Palácio da Ilha Fiscal",
+    "aliases": ["Ilha Fiscal", "Castelo da Ilha Fiscal"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Engenheiro e diretor de obras do Ministério da Fazenda do Brasil, que projetou o posto alfandegário em estilo gótico inspirado em Viollet-le-Duc."
+      }
+    ],
+    "city": "Rio de Janeiro",
+    "style": "Neogótico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Pequeno castelo neogótico verde, com uma torre pontiaguda, em uma ilha na baía", "caption": null },
+      { "alt": "Abóbada pintada de azul, com nervuras que se encontram em uma lanterna", "caption": "Uma abóbada pintada dentro da torre." }
+    ],
+    "hints": [
+      "Foi construído como posto alfandegário em uma pequena ilha na baía.",
+      "Sediou o último grande baile de um império, seis dias antes de o império cair.",
+      "Seu estilo foi inspirado no restaurador francês de catedrais góticas, Viollet-le-Duc."
+    ],
+    "summary": {
+      "description": "Construído em uma pequena ilha na Baía de Guanabara para a alfândega do porto do Rio de Janeiro, este pequeno «castelo» neogótico foi inaugurado pelo imperador Pedro II em 27 de abril de 1889. Em 9 de novembro sediou o Baile da Ilha Fiscal, lembrado como o último baile do Império: seis dias depois, a República foi proclamada.",
+      "keyFeatures": [
+        "Silhueta neogótica de torres e ameias",
+        "Relógio da torre iluminado por dentro para os navios à noite",
+        "Alas alinhadas leste–oeste, apontando o canal de navegação",
+        "Tetos pintados e pisos de mosaico"
+      ],
+      "funFacts": [
+        "Diz a lenda que, depois do baile, espartilhos, corpetes e ligas foram encontrados por toda a ilha.",
+        "Hoje pertence à Marinha do Brasil e é restaurado desde 2001."
+      ]
+    }
+  },
+  "catedral-da-se-sao-paulo": {
+    "name": "Catedral da Sé de São Paulo",
+    "aliases": ["Catedral da Sé", "Catedral Metropolitana de São Paulo", "Sé de São Paulo"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (atuante no Brasil)",
+        "bio": "Engenheiro e arquiteto alemão de Kassel que emigrou para o Brasil em 1888, lecionou em São Paulo e projetou a nova catedral em estilo neogótico."
+      }
+    ],
+    "city": "São Paulo",
+    "style": "Neogótico",
+    "drawings": [
+      { "label": "Projeto da fachada", "alt": "Frente de catedral neogótica com duas altas torres, um rosetão e um frontão central" }
+    ],
+    "photos": [
+      { "alt": "Catedral neogótica de pedra cinzenta com altas torres, vista de baixo", "caption": null },
+      { "alt": "Longa nave gótica com colunas agrupadas e abóbadas ogivais", "caption": "A nave." }
+    ],
+    "hints": [
+      "É uma catedral neogótica coroada por uma cúpula de estilo renascentista.",
+      "Levou quatro décadas para ser construída e foi inaugurada para o quarto centenário da cidade.",
+      "Sua cripta guarda os restos de um pioneiro dos dirigíveis do século XVIII."
+    ],
+    "summary": {
+      "description": "Iniciada em 1913 no local da demolida catedral colonial, segundo projeto de Maximilian Emil Hehl, a Sé é uma igreja neogótica de cinco naves, com uma cúpula inspirada na de Florença. Foi inaugurada em 1954, para o quarto centenário de São Paulo, com as torres ainda inacabadas; elas foram concluídas em 1967.",
+      "keyFeatures": [
+        "Duas torres de 92 metros de altura",
+        "Cúpula de estilo renascentista, a 30 metros acima do cruzeiro",
+        "Nave de cinco naves em cruz latina",
+        "Grande cripta sob o altar-mor"
+      ],
+      "funFacts": [
+        "Comporta até 8.000 pessoas.",
+        "Os restos do pioneiro dos dirigíveis Bartolomeu de Gusmão foram transferidos para sua cripta em 2004."
+      ]
+    }
+  },
+  "museu-do-ipiranga": {
+    "name": "Museu do Ipiranga",
+    "aliases": ["Museu Paulista", "Museu Paulista da USP", "Edifício-Monumento"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano (atuante no Brasil)",
+        "bio": "Engenheiro e arquiteto nascido em Turim que se estabeleceu no Brasil em 1875 e trabalhou para a corte imperial; o Edifício-Monumento do Ipiranga é sua obra mais conhecida."
+      }
+    ],
+    "city": "São Paulo",
+    "style": "Eclético (revivalismo renascentista italiano)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longo palácio ocre com um pavilhão central de colunas, atrás de jardins e palmeiras", "caption": null },
+      { "alt": "Olhando para cima, através de um hall de escada dourado, até uma claraboia de caixotões", "caption": "O grande hall de escada." }
+    ],
+    "hints": [
+      "Foi construído como monumento no local onde a independência de um país foi proclamada.",
+      "Sua pintura mais famosa mostra um príncipe a cavalo erguendo a espada.",
+      "Reabriu em 2022, depois de nove anos de restauração, para o bicentenário da independência."
+    ],
+    "summary": {
+      "description": "Projetado em 1884 por Tommaso Gaudenzio Bezzi como monumento à independência do Brasil, às margens do riacho do Ipiranga, onde Pedro I teria declarado a independência em 1822, este edifício palaciano foi aberto como museu em 1895. Abriga o quadro Independência ou Morte, de Pedro Américo, e reabriu em 2022 depois de uma longa restauração.",
+      "keyFeatures": [
+        "Fachada palaciana com um pavilhão central de colunas",
+        "Jardins formais e fontes no eixo",
+        "Grande hall de escada cerimonial",
+        "Construído como monumento antes de se tornar museu"
+      ],
+      "funFacts": [
+        "Foi inaugurado em 7 de setembro de 1895, Dia da Independência.",
+        "É o museu público mais antigo de São Paulo e pertence à Universidade de São Paulo."
+      ]
+    }
+  },
+  "palais-garnier": {
+    "name": "Palais Garnier",
+    "aliases": ["Ópera Garnier", "Opéra Garnier", "Ópera de Paris", "Palácio Garnier"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Arquiteto relativamente desconhecido quando venceu, em 1861, o concurso para a nova ópera de Paris, Garnier projetou depois a Ópera de Monte Carlo. Sua opulenta ópera tornou-se o emblema do estilo do Segundo Império."
+      }
+    ],
+    "city": "Paris",
+    "style": "Beaux-Arts (estilo Napoleão III)",
+    "drawings": [
+      { "label": "Planta do pavimento principal (1875)", "alt": "Planta simétrica de um enorme teatro: plateia em ferradura, palco profundo e grandes foyers e escadarias na frente" },
+      { "label": "Corte pela plateia", "alt": "Corte colorido de uma plateia em ferradura com fileiras de camarotes vermelhos sob uma cúpula pintada" }
+    ],
+    "photos": [
+      { "alt": "Teatro ornamentado com cúpula de cobre verde e estátuas douradas, visto sobre os telhados de Paris", "caption": null },
+      { "alt": "Grande escadaria de mármore que se divide em dois lances sob fileiras de balcões", "caption": "A Grande Escadaria." }
+    ],
+    "hints": [
+      "Foi encomendado por um imperador e vencido em concurso por um arquiteto pouco conhecido.",
+      "Um tanque de água sob seu palco inspirou o lago de um famoso romance e musical.",
+      "O teto de sua plateia foi repintado em 1964 por Marc Chagall."
+    ],
+    "summary": {
+      "description": "Construída para a Ópera de Paris entre 1861 e 1875 por determinação de Napoleão III, a casa de ópera de Charles Garnier mistura fontes barrocas, palladianas e renascentistas sobre uma estrutura de ferro, sem deixar nenhuma superfície sem decoração. Sua grande escadaria de mármore, seu foyer dourado e sua plateia em ferradura fizeram dela o emblema da Paris do Segundo Império.",
+      "keyFeatures": [
+        "Grande Escadaria de mármore branco com balaústres vermelhos e verdes",
+        "Plateia em ferradura com 1.979 lugares",
+        "Estrutura de ferro sob a decoração",
+        "Cisterna de concreto sob o palco, com água do lençol freático"
+      ],
+      "funFacts": [
+        "O tanque de água subterrâneo inspirou o lago de O Fantasma da Ópera, de Gaston Leroux.",
+        "Garnier venceu no concurso Viollet-le-Duc, o favorito da imperatriz.",
+        "O teto de Marc Chagall, de 1964, é montado em uma estrutura removível sobre o original."
+      ]
+    }
+  },
+  "palau-de-la-musica-catalana": {
+    "name": "Palau de la Música Catalana",
+    "aliases": ["Palau de la Música", "Palácio da Música Catalã", "Palacio de la Música Catalana"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol (catalão)",
+        "bio": "Arquiteto e político de Barcelona, uma das figuras principais do Modernisme catalão. Seus edifícios, entre eles o Palau e o Hospital de Sant Pau, combinam tijolo e ferro aparentes com mosaico, cerâmica e vitrais."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Modernisme catalão",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada de esquina de tijolo vermelho, mosaico e colunas esculpidas acima de entradas em arco, em uma rua estreita", "caption": null },
+      { "alt": "Sala de concertos sob uma cúpula invertida de vitral, com fileiras de assentos e paredes de vitral", "caption": "A sala de concertos e sua claraboia invertida." }
+    ],
+    "hints": [
+      "Foi construído para uma sociedade coral que liderou um renascimento da cultura de sua região.",
+      "Diz-se que sua sala de concertos é a única da Europa iluminada inteiramente pela luz do dia.",
+      "Seu arquiteto projetou também um hospital próximo, listado com ele como Patrimônio Mundial."
+    ],
+    "summary": {
+      "description": "Construída em 1905–08 para a sociedade coral Orfeó Català, a sala de concertos de Domènech i Montaner envolve uma plateia cheia de luz, com cerca de 2.200 lugares, em tijolo e ferro aparentes, mosaico e vitrais. Durante o dia é iluminada inteiramente por luz natural, por paredes de vitral e uma claraboia cujo ponto central é uma cúpula dourada invertida.",
+      "keyFeatures": [
+        "Cúpula invertida de vitral, de Antoni Rigalt",
+        "Paredes de vidros coloridos em arco",
+        "Esculturas com tema de música coral",
+        "Tijolo e ferro aparentes com mosaico e azulejos"
+      ],
+      "funFacts": [
+        "Foi inaugurado em 9 de fevereiro de 1908.",
+        "Tornou-se Patrimônio Mundial da UNESCO em 1997, junto com o Hospital de Sant Pau.",
+        "O grande mosaico no alto da fachada é impossível de ver com clareza da rua estreita lá embaixo."
+      ]
+    }
+  },
+  "austrian-postal-savings-bank": {
+    "name": "Caixa Postal de Poupança da Áustria",
+    "aliases": ["Austrian Postal Savings Bank", "Österreichische Postsparkasse", "Postsparkasse", "Caixa Econômica Postal da Áustria", "Banco Postal de Poupança Austríaco"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Austríaco",
+        "bio": "Arquiteto, designer e urbanista vienense, membro de destaque da Secessão de Viena. Este banco é seu edifício mais conhecido."
+      }
+    ],
+    "city": "Viena",
+    "style": "Secessão de Viena / Modernismo inicial",
+    "drawings": [
+      { "label": "Planta do pavimento térreo elevado", "alt": "Planta de um bloco trapezoidal em torno de pátios, com um grande salão central" },
+      { "label": "Corte pelo salão de atendimento", "alt": "Corte de um salão sob uma cobertura curva de vidro, com colunas finas e tirantes suspensos" }
+    ],
+    "photos": [
+      { "alt": "Fachada de placas quadradas de mármore pontilhadas de parafusos metálicos, acima de uma entrada com marquise", "caption": null },
+      { "alt": "Salão de atendimento sob uma cobertura curva de vidro sobre colunas esbeltas, com piso de vidro", "caption": "O salão de atendimento (Kassenhalle)." }
+    ],
+    "hints": [
+      "Foi construído em 1904–06 com um material então completamente novo: o concreto armado.",
+      "Os parafusos de sua fachada de mármore tornaram-se uma característica famosa de seu projeto.",
+      "Seu arquiteto usou alumínio em colunas, estátuas e até nos ventiladores de aquecimento."
+    ],
+    "summary": {
+      "description": "Construído em 1904–06 para a caixa postal de poupança imperial, o edifício de Otto Wagner reveste a fachada voltada para a praça com finas placas de mármore fixadas por parafusos com cabeça de alumínio. Por dentro, o salão de atendimento fica sob uma cobertura curva de vidro sobre colunas esbeltas, com um piso de vidro que ilumina os cômodos abaixo e ventiladores de ar quente de alumínio que parecem esculturas.",
+      "keyFeatures": [
+        "Revestimento de mármore fixado com parafusos",
+        "Salão de atendimento com cobertura e piso de vidro",
+        "Colunas, estátuas e ventiladores de aquecimento de alumínio",
+        "Estrutura de concreto armado"
+      ],
+      "funFacts": [
+        "Suas estátuas de alumínio fundido no telhado, de Othmar Schimkowitz, estavam entre as primeiras do tipo.",
+        "Por anos os parafusos foram tidos por decorativos; análises mostraram que de fato seguram as placas de mármore.",
+        "Foi ampliado em 1910–12."
+      ]
+    }
+  },
+  "guggenheim-museum": {
+    "name": "Museu Solomon R. Guggenheim",
+    "aliases": ["Guggenheim Museum", "Guggenheim de Nova York", "Museu Guggenheim", "Guggenheim"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Ao longo de uma carreira de cerca de setenta anos, Wright desenvolveu uma «arquitetura orgânica» enraizada na paisagem, das casas da Prairie School dos anos 1900 à Casa da Cascata. O Guggenheim foi seu único museu, concluído meses depois de sua morte."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Modernismo orgânico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício branco em espiral curva, que se alarga ao subir, na esquina de uma rua da cidade", "caption": null },
+      { "alt": "Olhando para cima por uma rampa espiral branca em volta de um átrio, em direção a uma claraboia de vidro", "caption": "O átrio em espiral." }
+    ],
+    "hints": [
+      "Levou 15 anos para ser projetado e construído, e abriu em 1959.",
+      "Suas galerias acompanham uma rampa contínua de seis andares em volta de um átrio com claraboia.",
+      "É o único museu que seu arquiteto projetou."
+    ],
+    "summary": {
+      "description": "Encomendado em 1943 para a coleção de arte de Solomon R. Guggenheim, o museu de Frank Lloyd Wright na Quinta Avenida levou 15 anos para ser projetado e construído. Em vez de salas, os visitantes seguem uma rampa espiral contínua que se alarga ao subir em volta de um átrio central iluminado por uma claraboia.",
+      "keyFeatures": [
+        "Galeria em rampa helicoidal em volta de um átrio aberto",
+        "Claraboia central de vidro",
+        "Exterior de concreto liso e curvo",
+        "Espiral que se alarga ao subir"
+      ],
+      "funFacts": [
+        "A curadora da coleção, Hilla Rebay, a princípio achou que Wright, com 76 anos, já estivesse morto.",
+        "Wright produziu quatro projetos diferentes em 1943–44.",
+        "Faz parte do sítio da UNESCO «A Arquitetura do Século XX de Frank Lloyd Wright»."
+      ]
+    }
+  },
+  "chrysler-building": {
+    "name": "Edifício Chrysler",
+    "aliases": ["Chrysler Building", "O Chrysler", "Torre Chrysler"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto americano mais conhecido por projetar o Edifício Chrysler em 1928–30."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Art Déco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Arranha-céu com uma coroa de aço inoxidável afunilada e em degraus, visto da rua entre torres", "caption": null },
+      { "alt": "Saguão com paredes de mármore, teto com embutidos e luminárias Art Déco", "caption": "O saguão triangular." }
+    ],
+    "hints": [
+      "Foi brevemente o edifício mais alto do mundo, por 11 meses depois de concluído, em 1930.",
+      "Seus cantos trazem ornamentos de aço em forma de tampas de radiador de carro e de águias.",
+      "Foi construído para um fabricante de automóveis, como investimento para seus filhos e não como sede da empresa."
+    ],
+    "summary": {
+      "description": "Encomendado pelo fabricante de automóveis Walter Chrysler e projetado por William Van Alen, este arranha-céu Art Déco de 319 metros venceu uma corrida com o 40 Wall Street e tornou-se o edifício mais alto do mundo em 1930, antes de ser superado pelo Empire State Building. Sua coroa de aço inoxidável em degraus e suas gárgulas de tampas de radiador e águias fizeram dele um ícone de Nova York.",
+      "keyFeatures": [
+        "Coroa em degraus com janelas triangulares e uma agulha",
+        "Ornamentos de aço em forma de tampas de radiador e águias",
+        "Saguão triangular de mármore e madeira com embutidos",
+        "Maior edifício de tijolos com estrutura de aço do mundo"
+      ],
+      "funFacts": [
+        "Foi o primeiro arranha-céu «supertall» do mundo.",
+        "Nunca foi a sede da Chrysler Corporation, que permaneceu em Detroit."
+      ]
+    }
+  },
+  "suleymaniye-mosque": {
+    "name": "Mesquita de Solimão",
+    "aliases": ["Mesquita Süleymaniye", "Süleymaniye Mosque", "Suleymaniye Mosque", "Süleymaniye Camii", "Mesquita de Solimão, o Magnífico", "Mesquita Suleimaniye"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Otomano",
+        "bio": "Arquiteto-chefe dos sultões otomanos por cerca de cinquenta anos, Sinan foi também engenheiro e matemático, e suas mesquitas definiram a arquitetura otomana clássica."
+      }
+    ],
+    "city": "Istambul",
+    "style": "Otomano clássico",
+    "drawings": [
+      { "label": "Planta no nível das cúpulas", "alt": "Planta de um salão de oração quadrado sob uma grande cúpula central ladeada por semicúpulas e cúpulas menores" }
+    ],
+    "photos": [
+      { "alt": "Arcada de pátio com pequenas cúpulas diante de uma mesquita com uma grande cúpula central", "caption": null },
+      { "alt": "Vasto salão de oração sob uma cúpula central com anéis de janelas e lâmpadas penduradas", "caption": "Sob a cúpula central." }
+    ],
+    "hints": [
+      "Foi construída para um sultão conhecido como «o Magnífico».",
+      "Seu projetista foi o maior arquiteto de seu império, que trabalhou por cerca de cinquenta anos.",
+      "Seu patrono quis rivalizar com uma famosa igreja com cúpula do século VI na mesma cidade."
+    ],
+    "summary": {
+      "description": "Encomendada por Solimão, o Magnífico, e projetada pelo arquiteto imperial Mimar Sinan, a mesquita foi fundada em 1550 e inaugurada em 1557 na Terceira Colina, acima do Chifre de Ouro. Sua grande cúpula sobre semicúpulas responde à Santa Sofia. Solimão e sua esposa Hürrem estão enterrados em túmulos atrás dela.",
+      "keyFeatures": [
+        "Cúpula central apoiada em duas semicúpulas",
+        "Anéis de janelas que iluminam o salão de oração",
+        "Pátio com arcadas e pequenas cúpulas",
+        "Túmulos de Solimão e de Hürrem Sultan atrás da parede da qibla"
+      ],
+      "funFacts": [
+        "Parte da cúpula desabou no terremoto de 1766.",
+        "Uma limpeza recente mostrou que Sinan experimentou o azul antes de fazer do vermelho a cor principal da cúpula."
+      ]
+    }
+  },
+  "st-pauls-cathedral": {
+    "name": "Catedral de São Paulo (Londres)",
+    "aliases": ["St Paul's Cathedral", "St. Paul's Cathedral", "Catedral de St Paul", "Catedral de Saint Paul", "St Paul's", "Catedral de São Paulo de Londres"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Inglês",
+        "bio": "Astrônomo e matemático que se tornou arquiteto, Wren liderou a reconstrução das igrejas de Londres depois do Grande Incêndio de 1666. A St Paul's é sua obra-prima, e ele está enterrado em sua cripta."
+      }
+    ],
+    "city": "Londres",
+    "style": "Barroco inglês",
+    "drawings": [
+      { "label": "Planta (gravura do século XVIII)", "alt": "Planta de catedral em forma de cruz, com um grande cruzeiro coberto por cúpula e extremidades arredondadas do transepto" }
+    ],
+    "photos": [
+      { "alt": "Grande catedral com cúpula e uma lanterna no topo, vista do outro lado de uma praça", "caption": null },
+      { "alt": "Vista para cima de uma cúpula pintada acima do cruzeiro, com arcos dourados", "caption": "O cruzeiro sob a cúpula interna." }
+    ],
+    "hints": [
+      "Substituiu uma catedral gótica destruída em um grande incêndio em 1666.",
+      "Sua cúpula são, na verdade, três: uma cúpula interna, um cone de tijolos escondido e uma casca externa.",
+      "Uma galeria dentro de sua cúpula leva um sussurro de um lado ao outro."
+    ],
+    "summary": {
+      "description": "Iniciada em 1675, depois que o Grande Incêndio de Londres destruiu a antiga catedral gótica, a igreja barroca inglesa de Christopher Wren foi concluída em 1710. Sua cúpula, de 111 metros de altura, a fez o edifício mais alto de Londres até 1963: um cone de tijolos escondido entre uma cúpula interna e uma casca externa sustenta a lanterna de pedra.",
+      "keyFeatures": [
+        "Cúpula de três cascas com um cone de tijolos escondido",
+        "Galeria dos Sussurros em volta da base da cúpula",
+        "Fachada de dois andares com colunas geminadas",
+        "Cripta com os túmulos de Wren, Nelson e Wellington"
+      ],
+      "funFacts": [
+        "O epitáfio de Wren diz: «Leitor, se procuras seu monumento, olha ao redor.»",
+        "A data de sua primeira pedra é disputada: diferentes relatos indicam 21, 25 e 28 de junho de 1675."
+      ]
+    }
+  }
+}

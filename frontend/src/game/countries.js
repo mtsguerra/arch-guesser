@@ -25,7 +25,7 @@ const ALIASES = {
   vatican: 'VA',
 }
 
-const DISPLAY_LOCALE = 'en'
+const LOCALES = ['en', 'pt-BR']
 
 // Drops deprecated codes that alias a current one (FX → FR, BU → MM, YU → RS).
 function isCanonical(code) {
@@ -49,32 +49,42 @@ function regionNames(locale) {
 let cache
 function index() {
   if (cache) return cache
-  const countries = regionNames(DISPLAY_LOCALE).sort((x, y) => x.name.localeCompare(y.name, DISPLAY_LOCALE))
-  const byName = new Map(countries.map((c) => [normalize(c.name), c.code]))
-
-  // Also accept names in the player's own language ("Estados Unidos", "Itália").
+  // Sorted lists per display language; names in every supported language (and the player's own
+  // browser language) resolve to a code whichever language the UI is in.
+  const lists = Object.fromEntries(
+    LOCALES.map((locale) => [locale, regionNames(locale).sort((x, y) => x.name.localeCompare(y.name, locale))]),
+  )
+  const byName = new Map()
   const userLocale = typeof navigator !== 'undefined' ? navigator.language : undefined
-  if (userLocale && !userLocale.startsWith(DISPLAY_LOCALE)) {
-    for (const { code, name } of regionNames(userLocale)) byName.set(normalize(name), code)
+  const known = [...LOCALES, ...(userLocale && !LOCALES.includes(userLocale) ? [userLocale] : [])]
+  for (const locale of known) {
+    for (const { code, name } of lists[locale] ?? regionNames(locale)) byName.set(normalize(name), code)
   }
   for (const [alias, code] of Object.entries(ALIASES)) byName.set(alias, code)
 
-  cache = { countries, byName, codes: new Set(countries.map((c) => c.code)) }
+  cache = { lists, byName, codes: new Set(lists.en.map((c) => c.code)) }
   return cache
 }
 
-/** All countries as { code, name }, sorted by English name. */
-export function allCountries() {
-  return index().countries
+const listFor = (lang) => index().lists[lang] ?? index().lists.en
+
+/** All countries as { code, name }, sorted by name in `lang`. */
+export function allCountries(lang = 'en') {
+  return listFor(lang)
+}
+
+/** A country's name in `lang` from its ISO code, or null if unknown. */
+export function countryName(code, lang = 'en') {
+  return listFor(lang).find((c) => c.code === code)?.name ?? null
 }
 
 /** Up to `limit` suggestions: prefix matches first, then names containing the query. */
-export function suggestCountries(query, limit = 8) {
+export function suggestCountries(query, lang = 'en', limit = 8) {
   const q = normalize(query)
   if (!q) return []
   const prefix = []
   const contains = []
-  for (const country of index().countries) {
+  for (const country of listFor(lang)) {
     const name = normalize(country.name)
     if (name.startsWith(q)) prefix.push(country)
     else if (name.includes(` ${q}`)) contains.push(country)

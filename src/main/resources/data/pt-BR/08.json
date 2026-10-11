@@ -1,0 +1,428 @@
+{
+  "bloco-das-aguas-livres": {
+    "name": "Bloco das Águas Livres",
+    "aliases": ["Edifício Águas Livres", "Edifício na Praça das Águas Livres"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto lisboeta formado na Escola de Belas-Artes de Lisboa e autor de vários edifícios premiados com o Prêmio Valmor."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto lisboeta, considerado uma das figuras centrais da virada do movimento moderno na arquitetura portuguesa; entrou neste projeto ainda como iniciante."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Bloco de apartamentos rosa e cinza de dez andares, com fileiras de sacadas acima de uma arcada no térreo", "caption": null },
+      { "alt": "Hall de entrada com uma coluna em tom pastel, uma escada e uma parede de caixas de correio iluminada pelo sol baixo", "caption": "O hall de entrada." }
+    ],
+    "hints": [
+      "É um bloco de apartamentos, planejado como edifício de renda numa década cheia de edifícios assim.",
+      "Foi projetado entre 1953 e 1955 e construído em 1956.",
+      "Seu arquiteto queria criar «um espaço para a vida moderna»."
+    ],
+    "summary": {
+      "description": "Projetado por Nuno Teotónio Pereira com Bartolomeu Costa Cabral na Praça das Águas Livres, na zona do Rato, em Lisboa, este bloco de habitação foi traçado entre 1953 e 1955 e construído em 1956. Seu programa marcaria a arquitetura de sua época e dos anos seguintes, e buscava criar um espaço para a vida moderna.",
+      "keyFeatures": [
+        "Bloco residencial com sacadas",
+        "Térreo com arcada",
+        "Hall de entrada com parede de caixas de correio",
+        "Colaboração entre Teotónio Pereira e o jovem Costa Cabral"
+      ],
+      "funFacts": [
+        "Os primeiros planos foram apresentados para licenciamento em 30 de agosto de 1953, em 17 desenhos e uma memória descritiva."
+      ]
+    }
+  },
+  "casa-de-cha-da-boa-nova": {
+    "name": "Casa de Chá da Boa Nova",
+    "aliases": ["Casa de Chá", "Boa Nova", "Casa de Chá Boa Nova"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Leça da Palmeira, Matosinhos",
+    "style": "Modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício baixo de telhado de madeira com um beiral profundo sobre uma parede de concreto, sobre as rochas e o mar", "caption": null },
+      { "alt": "Escada de madeira escura que leva a um salão com um abajur de mesa", "caption": "A escada de entrada." }
+    ],
+    "hints": [
+      "Foi uma das primeiras obras de seu arquiteto, passada a ele por seu professor depois de escolhido o local.",
+      "Foi remodelada em 1991, depois que uma forte tempestade atingiu o edifício.",
+      "Fica entre rochas na costa atlântica e usa madeira nos pisos, paredes e tetos."
+    ],
+    "summary": {
+      "description": "Construída entre 1958 e 1963 nas rochas da Boa Nova, em Leça da Palmeira, esta casa de chá e restaurante foi uma das primeiras obras de Álvaro Siza. Seu professor Fernando Távora escolheu o local e lhe passou o projeto. O acesso é por um caminho em degraus embutido nas rochas, que alternadamente revela e esconde o mar.",
+      "keyFeatures": [
+        "Interpretação da paisagem rochosa",
+        "Caminho em degraus integrado às rochas",
+        "Madeira nos pisos, paredes e tetos",
+        "Admiração por Alvar Aalto"
+      ],
+      "funFacts": [
+        "Depois da tempestade de 1991, Siza supervisionou a reforma seguindo seus desenhos originais.",
+        "Fica perto das piscinas de maré de Leça da Palmeira, projetadas pelo mesmo arquiteto."
+      ]
+    }
+  },
+  "pousada-de-santa-marinha": {
+    "name": "Pousada de Santa Marinha",
+    "aliases": ["Pousada de Guimarães", "Mosteiro de Santa Marinha da Costa", "Pousada Mosteiro de Guimarães", "Santa Marinha"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor que se tornou figura central na modernização da Escola do Porto; dois de seus ex-alunos, Siza e Souto de Moura, ganharam depois o Prêmio Pritzker."
+      }
+    ],
+    "city": "Guimarães",
+    "style": "Adaptação contemporânea de um mosteiro histórico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de igreja barroca de duas torres acima de uma escadaria, vista entre árvores", "caption": null },
+      { "alt": "Claustro com arcadas em volta de uma fonte e de sebes de buxo aparadas", "caption": "O claustro." }
+    ],
+    "hints": [
+      "É um antigo mosteiro cujo terreno se acredita ter sido o paço dos primeiros condes portugueses.",
+      "O Estado o comprou em 1972 e iniciou o restauro cinco anos depois.",
+      "Seu arquiteto ganhou o Prêmio Nacional de Arquitetura em 1987 por transformá-lo em hotel."
+    ],
+    "summary": {
+      "description": "O mosteiro jeronimita de Santa Marinha da Costa, em uma encosta acima de Guimarães, foi comprado pelo Estado em 1972, e seu restauro começou cinco anos depois. Fernando Távora projetou sua reconstrução e adaptação como pousada, obra que lhe valeu o Prêmio Nacional de Arquitetura de 1987. Um novo bloco baixo, pintado de um marrom-avermelhado contrastante, abriga 27 dos quartos.",
+      "keyFeatures": [
+        "Igreja histórica e alas do mosteiro preservadas",
+        "Novo bloco baixo com quartos modernos e enxutos",
+        "Vestígios arqueológicos expostos nas paredes",
+        "Claustro e jardim do mosteiro"
+      ],
+      "funFacts": [
+        "A entrada do hotel é o antigo refeitório, onde sobrevive a moldura de granito do púlpito de leitura.",
+        "Pertence à rede Pousadas de Portugal, como «Pousada Histórica»."
+      ]
+    }
+  },
+  "museu-de-serralves": {
+    "name": "Museu de Serralves",
+    "aliases": ["Museu de Arte Contemporânea de Serralves", "Serralves Museum"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Porto",
+    "style": "Modernismo contemporâneo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Volumes brancos e rebocados em forma de caixa, com uma porta recuada e uma única janela quadrada, em um gramado entre árvores", "caption": null },
+      { "alt": "Grande galeria de paredes brancas e marrons, com claraboia e piso de madeira polida", "caption": "Uma galeria." }
+    ],
+    "hints": [
+      "Seu arquiteto assinou o contrato em março de 1991, um ano antes de ganhar o Prêmio Pritzker.",
+      "Foi inaugurado em junho de 1999 no parque de uma vila Art Déco.",
+      "É cercado por um parque onde obras de arte ficam ao lado de árvores nativas."
+    ],
+    "summary": {
+      "description": "A Fundação de Serralves assinou contrato com Álvaro Siza em 6 de março de 1991 para projetar um museu de arte contemporânea no parque de Serralves, e ele foi inaugurado em 6 de junho de 1999. Tornou-se o segundo museu mais visitado de Portugal. Em 2023 foi aberta uma nova ala de Siza, em parte para abrigar parte de seu arquivo e o legado de Manoel de Oliveira.",
+      "keyFeatures": [
+        "Situado no parque da Fundação de Serralves",
+        "Parte de um conjunto com a vila Art Déco e o parque",
+        "Ampliação posterior, a Ala Álvaro Siza (2023)"
+      ],
+      "funFacts": [
+        "Fica no mesmo parque da Casa de Serralves, uma vila Art Déco."
+      ]
+    }
+  },
+  "faup": {
+    "name": "Faculdade de Arquitectura da Universidade do Porto",
+    "aliases": ["FAUP", "Faculdade de Arquitetura da Universidade do Porto", "Faculdade de Arquitectura do Porto", "Faculdade de Arquitetura do Porto", "Escola de Arquitetura do Porto"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Porto",
+    "style": "Modernismo contemporâneo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fileira de torres de concreto claro e austero, com janelas estreitas em fenda, vista de uma rua", "caption": null },
+      { "alt": "Longo salão de biblioteca com mesas de madeira e estantes sob uma claraboia inclinada", "caption": "A biblioteca." }
+    ],
+    "hints": [
+      "Abriga uma escola criada em 1979, sucessora de um curso de arquitetura ministrado na escola de belas-artes da cidade.",
+      "A construção começou em 1985, em um terreno acima de um rio e ao lado de uma antiga quinta.",
+      "Seu arquiteto foi ex-aluno e depois professor da escola."
+    ],
+    "summary": {
+      "description": "Criada em 1979, a faculdade recebeu suas novas instalações de Álvaro Siza, ex-aluno e depois professor, que primeiro desenhou, em 1985–86, a reforma da casa da Quinta da Póvoa e do pavilhão Carlos Ramos. O conjunto abre-se para o Douro em vários volumes fragmentados, com quatro torres ligadas por uma galeria transversal semienterrada. As instalações foram concluídas em 1992.",
+      "keyFeatures": [
+        "Quatro torres interligadas",
+        "Galeria transversal semienterrada",
+        "Muros de pedra que ligam o edifício ao jardim da antiga quinta",
+        "Biblioteca, museu e auditório em um edifício ao norte"
+      ],
+      "funFacts": [
+        "O pavilhão Carlos Ramos, em forma de U, foi moldado pelas árvores e raízes do terreno.",
+        "A mudança para o novo edifício só terminou em 1996."
+      ]
+    }
+  },
+  "cinema-batalha": {
+    "name": "Cinema Batalha",
+    "aliases": ["Batalha Centro de Cinema", "Cine-Teatro Batalha", "Batalha"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto nascido no Porto, um dos introdutores do Movimento Moderno em Portugal e membro da ODAM, a Organização dos Arquitectos Modernos."
+      }
+    ],
+    "city": "Porto",
+    "style": "Art Déco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Esquina branca curva com altas janelas de vidro e um painel em relevo entalhado, em uma praça da cidade", "caption": null },
+      { "alt": "Caixa de escada escura que sobe ao lado de uma parede pintada com formas em espiral", "caption": "A caixa de escada." }
+    ],
+    "hints": [
+      "Substituiu um cinema mais antigo no mesmo local; o velho edifício foi demolido em 1944.",
+      "Foi inaugurado em 3 de junho de 1947, e, sob a ditadura, seus afrescos foram mandados esconder em 1948.",
+      "Reabriu como espaço cultural em 2006."
+    ],
+    "summary": {
+      "description": "Reconstruída pelo arquiteto Artur Andrade em estilo Art Déco entre 1944 e 1947, a Batalha é uma estrutura trapezoidal de quatro andares, com pavimentos superiores em balanço. Sua decoração incluía afrescos de Júlio Pomar e um baixo-relevo de Américo Braga. Em 1948, os censores mandaram esconder os afrescos e alterar o relevo para remover uma foice e um martelo.",
+      "keyFeatures": [
+        "Esquina curva envidraçada",
+        "Pavimentos superiores em balanço",
+        "Foyers em madeiras envernizadas, vidro, cobre e metal",
+        "Pisos de marmorite preta polida com incrustações de latão"
+      ],
+      "funFacts": [
+        "Um dos dois afrescos de Pomar ainda estava inacabado na inauguração porque o artista estava preso por se opor ao regime.",
+        "Reabriu em 2006 como espaço cultural e de concertos."
+      ]
+    }
+  },
+  "pavilhao-de-portugal": {
+    "name": "Pavilhão de Portugal",
+    "aliases": ["Pavilhão de Portugal Expo 98", "Pavilhão Português"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Modernismo contemporâneo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fina cobertura de concreto cedendo entre dois blocos maciços com pórticos, sobre uma praça aberta", "caption": null },
+      { "alt": "Caixa de escada branca de planos afiados, subindo sob uma claraboia escondida", "caption": "Uma caixa de escada." }
+    ],
+    "hints": [
+      "Abrigou a representação nacional de seu país em uma feira mundial no fim dos anos 1990.",
+      "Sua praça de entrada é coberta por uma marquise de concreto protendido baseada na ideia de uma folha de papel apoiada em dois tijolos.",
+      "Depois de anos vazio, foi entregue a uma universidade em 2015."
+    ],
+    "summary": {
+      "description": "Projetado por Álvaro Siza para a Expo '98, o pavilhão abrigou a representação nacional de Portugal na feira mundial. Sua praça de entrada é coberta por uma imponente marquise de concreto protendido, inspirada em uma folha de papel posta sobre dois tijolos. Deixado vazio depois da exposição, foi entregue à Universidade de Lisboa em 2015.",
+      "keyFeatures": [
+        "Marquise de concreto protendido",
+        "Praça de entrada coberta, aberta para a cidade",
+        "Marquise inspirada em uma folha de papel posta sobre dois tijolos"
+      ],
+      "funFacts": [
+        "Em 2015 esteve perto de ser vendido para quitar parte da dívida da empresa da Expo com o Estado.",
+        "As propostas para sua reutilização iam de sede do Conselho de Ministros a museu de arquitetura."
+      ]
+    }
+  },
+  "estadio-municipal-de-braga": {
+    "name": "Estádio Municipal de Braga",
+    "aliases": ["A Pedreira", "Estádio de Braga", "Estádio AXA", "Estádio 1.º de Maio"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto da Escola do Porto, ao lado de Távora e Siza, que recebeu o Prêmio Pritzker de Arquitetura em 2011 e o Prêmio Wolf de Artes em 2013."
+      }
+    ],
+    "city": "Braga",
+    "style": "Contemporâneo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Estádio de futebol com duas longas arquibancadas entre uma parede de rocha e uma encosta, visto de cima", "caption": null },
+      { "alt": "Estrutura sombria de concreto, de escadas e vigas, sob uma arquibancada, com luz vinda de uma parede de rocha", "caption": "Sob as arquibancadas." }
+    ],
+    "hints": [
+      "Foi construído como sede de um campeonato europeu de futebol em 2004.",
+      "Seu apelido vem de ter sido escavado na encosta de um morro.",
+      "Seu arquiteto recebeu o Prêmio Pritzker em parte por este projeto."
+    ],
+    "summary": {
+      "description": "Eduardo Souto de Moura projetou a casa do Sporting Clube de Braga para o Euro 2004, escavando-a na encosta de um morro, daí seu apelido, A Pedreira. Construído de 2002 a 2003, foi inaugurado em 30 de dezembro de 2003. A escavação da rocha elevou seu custo muito acima do orçamento, tornando-o o mais caro dos dez novos estádios do Euro 2004.",
+      "keyFeatures": [
+        "Escavado na encosta de um morro, em sua extremidade sul",
+        "Maciça escavação de rocha",
+        "Casa do Sporting Clube de Braga"
+      ],
+      "funFacts": [
+        "Seu custo final chegou a cerca de 200 milhões de euros, contra uma estimativa inicial de 29,9 milhões.",
+        "Sediou duas partidas do Euro 2004, entre elas Holanda x Letônia."
+      ]
+    }
+  },
+  "casa-das-historias-paula-rego": {
+    "name": "Casa das Histórias Paula Rego",
+    "aliases": ["Casa das Histórias", "Museu Paula Rego"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto da Escola do Porto, ao lado de Távora e Siza, que recebeu o Prêmio Pritzker de Arquitetura em 2011 e o Prêmio Wolf de Artes em 2013."
+      }
+    ],
+    "city": "Cascais",
+    "style": "Contemporâneo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Museu de concreto vermelho com duas altas torres em forma de pirâmide, entre árvores em um gramado", "caption": null },
+      { "alt": "Sala de galeria clara com teto inclinado e pequenas obras emolduradas nas paredes", "caption": "Uma galeria." }
+    ],
+    "hints": [
+      "É um museu dedicado à obra de uma única artista, que esteve presente na inauguração.",
+      "Foi inaugurado em setembro de 2009, e seu edifício ganhou o Prêmio Secil de Arquitetura em 2010.",
+      "É feito de vários corpos de concreto vermelho cercados por árvores."
+    ],
+    "summary": {
+      "description": "Inaugurado em setembro de 2009 na presença da artista, este museu em Cascais é dedicado à obra de Paula Rego. O edifício de Eduardo Souto de Moura é formado por vários volumes de concreto vermelho cercados por árvores e ganhou o Prêmio Secil de Arquitetura em 2010.",
+      "keyFeatures": [
+        "Vários corpos de concreto vermelho",
+        "Entorno cercado de árvores",
+        "Prêmio Secil de Arquitetura 2010"
+      ],
+      "funFacts": [
+        "Abriga uma exposição permanente da obra de Paula Rego e duas exposições temporárias por ano."
+      ]
+    }
+  },
+  "casa-da-musica": {
+    "name": "Casa da Música",
+    "aliases": ["Casa da Musica"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Holandês",
+        "bio": "Arquiteto, teórico e urbanista holandês, fundador do OMA, frequentemente citado como representante do desconstrutivismo e autor de «Nova York Delirante»."
+      }
+    ],
+    "city": "Porto",
+    "style": "Contemporâneo (desconstrutivismo)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Bloco facetado de concreto branco como uma gema lapidada, com uma grande janela e uma escada até a entrada, em uma praça pavimentada", "caption": null },
+      { "alt": "Sala em caixa de sapatos, com paredes de madeira de padrão dourado e uma parede de vidro ao fundo", "caption": "A sala principal." }
+    ],
+    "hints": [
+      "Foi planejada para marcar o ano em que sua cidade foi Capital Europeia da Cultura, 2001, mas abriu com quatro anos de atraso.",
+      "Fica no local de um antigo terminal de bondes, em uma grande rotatória.",
+      "Foi o primeiro edifício de seu país projetado desde o início para se dedicar exclusivamente à música."
+    ],
+    "summary": {
+      "description": "Encomendada para o ano em que o Porto foi Capital Europeia da Cultura, 2001, a casa de concertos foi vencida em concurso internacional por Rem Koolhaas e o OMA em 1999 e construída no antigo terminal de bondes na rotunda da Boavista. Foi inaugurada em 15 de abril de 2005. O edifício é um poliedro assimétrico de nove andares revestido de concreto branco, cortado por grandes janelas de vidro.",
+      "keyFeatures": [
+        "Poliedro assimétrico em concreto branco",
+        "Grandes janelas de vidro ondulantes",
+        "Auditório principal, a Sala Suggia",
+        "Interiores de Petra Blaisse (Inside Outside)"
+      ],
+      "funFacts": [
+        "O crítico do New York Times Nicolai Ouroussoff o chamou de o projeto mais atraente que Koolhaas já construíra.",
+        "Lou Reed tocou no dia em que abriu ao público."
+      ]
+    }
+  },
+  "gare-do-oriente": {
+    "name": "Gare do Oriente",
+    "aliases": ["Estação do Oriente", "Oriente", "Estação de Lisboa Oriente"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol-suíço",
+        "bio": "Arquiteto, engenheiro estrutural, escultor e pintor conhecido por pontes com pilares inclinados e por estações, estádios e museus cujas formas lembram organismos vivos."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Expressionismo estrutural",
+    "drawings": [],
+    "photos": [
+      { "alt": "Entrada da estação sob um leque de nervuras de aço branco e vidro, brilhando ao entardecer sobre uma via", "caption": null },
+      { "alt": "Plataformas sob uma floresta de «árvores» de aço branco que se ramificam em uma cobertura de vidro, com um trem vermelho", "caption": "As plataformas." }
+    ],
+    "hints": [
+      "Foi inaugurada em maio de 1998 como parte das celebrações de uma feira mundial.",
+      "Foi considerada a maior estação intermodal de seu país quando abriu.",
+      "Seu projetista, também engenheiro estrutural, é conhecido por obras cujas formas lembram organismos vivos."
+    ],
+    "summary": {
+      "description": "Projetada por Santiago Calatrava em 1995 e inaugurada em 19 de maio de 1998 para a Expo '98, a estação foi pensada para oferecer múltiplas conexões entre zonas da área metropolitana de Lisboa. Ganhou o Prêmio Brunel em 1998.",
+      "keyFeatures": [
+        "Cobertura das plataformas com alguma influência da arquitetura gótica",
+        "Espaço amplo e funcional",
+        "Múltiplas conexões entre zonas de transporte"
+      ],
+      "funFacts": [
+        "Assemelha-se muito à Allen Lambert Galleria, anterior obra de Calatrava em Toronto."
+      ]
+    }
+  },
+  "pavilhao-do-conhecimento": {
+    "name": "Pavilhão do Conhecimento",
+    "aliases": ["Pavilhão do Conhecimento - Centro Ciência Viva", "Pavilhão do Conhecimento dos Mares"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor nascido em Portalegre, que recebeu o Prêmio Pessoa em 2008."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Modernismo contemporâneo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício de pedra branca erguido sobre uma profunda abertura horizontal para um pátio pavimentado com fontes", "caption": null },
+      { "alt": "Corredor preto com piso xadrez distorcido e uma forma branca em seta na parede", "caption": "Um corredor." }
+    ],
+    "hints": [
+      "Foi construído para uma feira mundial em 1998, quando mostrava a relação entre as pessoas e o oceano.",
+      "Ganhou o Prêmio Valmor em 1998.",
+      "Desde 1999 é um centro de ciência interativo."
+    ],
+    "summary": {
+      "description": "Projetado por João Luís Carrilho da Graça com o engenheiro António Adão da Fonseca, o pavilhão foi aberto na Expo '98 como «Pavilhão do Conhecimento dos Mares» e ganhou o Prêmio Valmor em 1998. Remodelado depois da feira, reabriu em julho de 1999 como o maior centro de ciência interativo da rede Ciência Viva de Portugal.",
+      "keyFeatures": [
+        "Projetado com o engenheiro António Adão da Fonseca",
+        "Prêmio Valmor 1998",
+        "Cerca de 4.000 m² de exposições"
+      ],
+      "funFacts": [
+        "Na Expo '98 mostrou um modelo em tamanho real de um submarino imaginado por Leonardo da Vinci."
+      ]
+    }
+  }
+}

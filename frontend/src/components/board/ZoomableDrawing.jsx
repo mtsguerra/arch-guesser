@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion, useMotionValue, useSpring } from 'motion/react'
 import { Minus, Plus } from 'lucide-react'
 import { duration, easeOut } from '../../motion.js'
-import { strings } from '../../strings.js'
+import { useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
 import { Credit } from '../ui/Credit.jsx'
 import styles from './ZoomableDrawing.module.css'
@@ -19,6 +19,7 @@ const clamp = (n) => Math.min(1, Math.max(0, n))
  * drag handles. Arrow keys pan from the zoom button; Esc exits.
  */
 export function ZoomableDrawing({ sheet, revealed, onError }) {
+  const strings = useStrings()
   const image = sheet.image
   const [zoomed, setZoomed] = useState(false)
   const [loaded, setLoaded] = useState(false)

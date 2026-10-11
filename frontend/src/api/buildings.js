@@ -31,14 +31,27 @@ export function pickBuildingId(ids, exclude, random = Math.random) {
   return pool[Math.floor(random() * pool.length)]
 }
 
-/** A random building, preferring ids not in `exclude`. */
-export async function fetchRandomBuilding(exclude, signal) {
+// English is the source text; other languages ask for a translated copy of the same building.
+const staticBuildingPath = (id, lang) => `/api/${lang && lang !== 'en' ? `${lang}/` : ''}buildings/${id}.json`
+
+/** A random building, preferring ids not in `exclude`, in `lang` (default English). */
+export async function fetchRandomBuilding(exclude, signal, lang = 'en') {
   if (staticApi) {
     const ids = await getJson('/api/buildings/index.json', signal)
-    return getJson(`/api/buildings/${pickBuildingId(ids, exclude)}.json`, signal)
+    return getJson(staticBuildingPath(pickBuildingId(ids, exclude), lang), signal)
   }
-  const query = exclude.length ? `?${new URLSearchParams({ exclude: exclude.join(',') })}` : ''
+  const params = new URLSearchParams()
+  if (exclude.length) params.set('exclude', exclude.join(','))
+  if (lang !== 'en') params.set('lang', lang)
+  const query = params.size ? `?${params}` : ''
   return getJson(`/api/buildings/random${query}`, signal)
+}
+
+/** One building by id, in `lang`; used to swap the text when the language changes mid-round. */
+export function fetchBuilding(id, signal, lang = 'en') {
+  if (staticApi) return getJson(staticBuildingPath(id, lang), signal)
+  const query = lang !== 'en' ? `?${new URLSearchParams({ lang })}` : ''
+  return getJson(`/api/buildings/${encodeURIComponent(id)}${query}`, signal)
 }
 
 export function fetchEras(signal) {

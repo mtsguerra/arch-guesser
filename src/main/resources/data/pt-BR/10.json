@@ -1,0 +1,444 @@
+{
+  "chartres-cathedral": {
+    "name": "Catedral de Chartres",
+    "aliases": ["Chartres Cathedral", "Cathédrale Notre-Dame de Chartres", "Notre-Dame de Chartres", "Catedral de Notre-Dame de Chartres", "Chartres"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "Os arquitetos da reconstrução de 1194–1220 são desconhecidos; Jean Texier acrescentou depois a flecha norte, em estilo flamejante, em 1507–1513."
+      }
+    ],
+    "city": "Chartres",
+    "style": "Gótico pleno",
+    "drawings": [],
+    "photos": [
+      { "alt": "Catedral gótica com arcobotantes e uma flecha, iluminada por refletores à noite", "caption": null },
+      { "alt": "Alta nave gótica voltada para um rosetão acima de janelas em lanceta", "caption": "A nave e o rosetão oeste." }
+    ],
+    "hints": [
+      "Foi construída em sua maior parte entre 1194 e 1220, no local de pelo menos cinco catedrais anteriores.",
+      "Suas duas flechas ocidentais são impressionantemente diferentes: uma simples, outra flamejante.",
+      "Boa parte de seus vitrais originais sobrevive, e ela guarda uma túnica que se diz ter sido usada pela Virgem Maria."
+    ],
+    "summary": {
+      "description": "Reconstruída em sua maior parte entre 1194 e 1220 sobre subsolos românicos anteriores, a catedral é um dos exemplos mais influentes do gótico pleno. Seus arcobotantes experimentais permitiram aos construtores abolir a galeria, estreitar o trifório e ampliar as janelas, a maioria das quais conserva os vitrais originais. A UNESCO a chamou de ápice da arte gótica francesa.",
+      "keyFeatures": [
+        "Arcobotantes",
+        "Elevação de três andares sem galeria",
+        "Vitrais originais",
+        "Flechas contrastantes, uma simples e outra flamejante"
+      ],
+      "funFacts": [
+        "Durante a Revolução, um comitê local planejou explodi-la.",
+        "Sua relíquia, a Sancta Camisa, ainda atrai peregrinos."
+      ]
+    }
+  },
+  "sainte-chapelle": {
+    "name": "Sainte-Chapelle",
+    "aliases": ["Sainte Chapelle", "Santa Capela", "La Sainte-Chapelle", "Santa Capela de Paris"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "O projeto já foi atribuído a Pierre de Montreuil; os estudos modernos preferem Jean de Chelles ou Thomas de Cormont, ou um mestre não identificado de Amiens."
+      }
+    ],
+    "city": "Paris",
+    "style": "Gótico radiante",
+    "drawings": [],
+    "photos": [
+      { "alt": "Esbelta capela gótica com flecha e empenas, erguendo-se atrás de edifícios de um palácio em volta de um pátio", "caption": null },
+      { "alt": "Capela superior fechada quase toda por altas janelas de vitral sob uma abóbada azul estrelada", "caption": "A capela superior." }
+    ],
+    "hints": [
+      "Um rei a construiu para abrigar relíquias, entre elas o que se afirmava ser a Coroa de Espinhos de Cristo.",
+      "Foi consagrada em 26 de abril de 1248 e tem duas capelas sobrepostas.",
+      "Suas quinze grandes janelas formam uma das maiores coleções de vitrais do século XIII."
+    ],
+    "summary": {
+      "description": "Construída para Luís IX no pátio do palácio real na Île de la Cité e consagrada em 1248, a capela abrigava suas relíquias da Paixão. Sua capela superior é quase toda de vidro: esbeltos suportes agrupados e correntes de ferro escondidas sustentam quinze grandes janelas de meados do século XIII. É um ápice do gótico radiante.",
+      "keyFeatures": [
+        "Capelas superior e inferior",
+        "Quinze grandes janelas de vitral",
+        "Correntes de ferro escondidas que travam as paredes",
+        "Rosetão acrescentado no século XV"
+      ],
+      "funFacts": [
+        "As relíquias foram depois transferidas para Notre-Dame.",
+        "A atual flecha de cedro foi construída a partir de 1852."
+      ]
+    }
+  },
+  "durham-cathedral": {
+    "name": "Catedral de Durham",
+    "aliases": ["Durham Cathedral", "Durham"],
+    "architects": [
+      {
+        "aliases": ["Guilherme de St-Calais"],
+        "nationality": "Normando",
+        "bio": "Bispo de Durham que demoliu a antiga igreja saxã e lançou a pedra fundamental da nova catedral em 11 de agosto de 1093; a catedral foi projetada e construída sob sua direção."
+      }
+    ],
+    "city": "Durham",
+    "style": "Românico (normando)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Maciça catedral românica com torres quadradas acima de margens arborizadas de um rio", "caption": null },
+      { "alt": "Abóbada da nave, de nervuras de pedra ogivais, vista de baixo", "caption": "A abóbada da nave." }
+    ],
+    "hints": [
+      "Abriga os santuários dos santos Cuthbert e Beda.",
+      "A maior parte do edifício atual foi concluída entre 1093 e 1133.",
+      "O teto de sua nave é o mais antigo exemplo sobrevivente de abóbada de nervuras ogivais."
+    ],
+    "summary": {
+      "description": "Iniciada em 1093 sob o bispo Guilherme de St-Calais e em grande parte concluída em 1133, a catedral é, segundo a UNESCO, o maior e mais perfeito edifício normando da Inglaterra. Sua nave guarda a mais antiga abóbada de nervuras ogivais que sobreviveu, um ponto de virada que antecipou o gótico do norte da França.",
+      "keyFeatures": [
+        "Abóbada de nervuras ogivais sobre a nave",
+        "Maciços pilares românicos",
+        "Capela Galileia da década de 1170",
+        "Sítio acima do rio Wear"
+      ],
+      "funFacts": [
+        "Durante as Guerras dos Três Reinos, abrigou 3.000 prisioneiros escoceses, 1.700 dos quais morreram ali.",
+        "Já serviu de cenário para locais de fantasia no cinema."
+      ]
+    }
+  },
+  "pisa-cathedral": {
+    "name": "Catedral de Pisa",
+    "aliases": ["Pisa Cathedral", "Duomo di Pisa", "Duomo de Pisa", "Cattedrale di Santa Maria Assunta", "Santa Maria Assunta"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Pisano",
+        "bio": "Arquiteto que iniciou a catedral em 1064 e acolheu a influência islâmica e armênia; seu túmulo fica ao lado da porta norte da fachada."
+      },
+      {
+        "aliases": [],
+        "nationality": "Pisano",
+        "bio": "Arquiteto que alongou a nave, ampliou o transepto e projetou a fachada de mármore no século XII."
+      }
+    ],
+    "city": "Pisa",
+    "style": "Românico pisano",
+    "drawings": [],
+    "photos": [
+      { "alt": "Catedral românica de mármore com fileiras de arcadas e uma cúpula, ao lado de um gramado", "caption": null },
+      { "alt": "Nave de colunas e arcos de mármore listrado sob um teto dourado de caixotões", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi paga com os despojos de uma luta na Sicília em 1064.",
+      "É o mais antigo de três famosos edifícios de sua praça, um dos quais é inclinado.",
+      "Seu mármore preto e branco, seus arcos elevados e sua cúpula elíptica lembram as grandes mesquitas."
+    ],
+    "summary": {
+      "description": "Iniciada em 1064 por Buscheto e consagrada em 1118, a catedral define o românico pisano. Rainaldo a alongou e construiu a fachada de mármore cinza e branco, com quatro andares de loggias. Por dentro, mármore listrado, arcos em lanceta elevados e uma cúpula elíptica criam um efeito comparado ao das grandes mesquitas.",
+      "keyFeatures": [
+        "Fachada com quatro andares de loggias",
+        "Mármore preto e branco alternado",
+        "Cúpula elíptica",
+        "Decoração de mármore colorido e mosaico"
+      ],
+      "funFacts": [
+        "Seu telhado foi substituído depois de um incêndio em 1595.",
+        "Seus despojos de guerra de bronze incluíam o Grifo de Pisa; hoje há uma cópia no local."
+      ]
+    }
+  },
+  "sultan-ahmed-mosque": {
+    "name": "Mesquita Azul",
+    "aliases": ["Mesquita do Sultão Ahmed", "Sultan Ahmed Mosque", "Blue Mosque", "Sultanahmet Camii", "Mesquita de Sultanahmet", "Mesquita Sultão Ahmed I"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Otomano (de Elbasan)",
+        "bio": "Discípulo de Sinan, nascido em Elbasan, que sintetizou as ideias de seu mestre, buscando tamanho, majestade e esplendor avassaladores; seu biógrafo chamou a mesquita de o ápice de sua carreira."
+      }
+    ],
+    "city": "Istambul",
+    "style": "Otomano clássico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Mesquita com uma cascata de cúpulas e seis esbeltos minaretes, vista do outro lado de um parque com palmeiras", "caption": null },
+      { "alt": "Salão de oração sob grandes cúpulas sobre pilares maciços, iluminado por anéis de lâmpadas pendentes", "caption": "O salão de oração." }
+    ],
+    "hints": [
+      "Foi construída entre 1609 e 1617, ao lado de um antigo hipódromo bizantino.",
+      "É ladeada por seis minaretes.",
+      "Milhares de azulejos e motivos florais pintados, em tons principalmente azuis, lhe dão o nome popular."
+    ],
+    "summary": {
+      "description": "Construída para o sultão Ahmed I entre 1609 e 1617, ao lado do antigo Hipódromo e de frente para a Santa Sofia, a mesquita provavelmente pretendia rivalizar com aquela grande igreja. Seu arquiteto, Sedefkar Mehmed Agha, baseou o projeto na Mesquita Şehzade, de Sinan. Um grande pátio precede o salão de oração, cujos milhares de azulejos de Iznik dão ao edifício seu nome popular.",
+      "keyFeatures": [
+        "Seis minaretes",
+        "Cascata de cúpulas e semicúpulas",
+        "Grande pátio diante do salão de oração",
+        "Milhares de azulejos de Iznik"
+      ],
+      "funFacts": [
+        "Algumas de suas inscrições trazem o ano de 1616, embora a cerimônia de abertura tenha sido em 1617."
+      ]
+    }
+  },
+  "selimiye-mosque": {
+    "name": "Mesquita Selimiye",
+    "aliases": ["Selimiye Mosque", "Selimiye Camii", "Selimiye", "Mesquita Selimiye de Edirne"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Otomano",
+        "bio": "Arquiteto-chefe dos sultões otomanos por cerca de cinquenta anos, Sinan foi também engenheiro e matemático, e suas mesquitas definiram a arquitetura otomana clássica."
+      }
+    ],
+    "city": "Edirne",
+    "style": "Otomano clássico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Grande mesquita com cúpula, emoldurada por altos minaretes, vista além de um muro de pedra", "caption": null },
+      { "alt": "Vasto salão de oração com cúpula, cercado por arcadas e galerias, com um anel de lâmpadas", "caption": "O salão de oração." }
+    ],
+    "hints": [
+      "Foi encomendada pelo sultão Selim II e construída entre 1568 e 1575.",
+      "Seu arquiteto a considerava sua obra-prima.",
+      "Seu pátio, cercado por pórticos de arcos e cúpulas, emoldura a vista de uma enorme cúpula central."
+    ],
+    "summary": {
+      "description": "Encomendada por Selim II e construída por Mimar Sinan entre 1568 e 1575, a mesquita é considerada a obra-prima suprema de Sinan e uma das maiores realizações da arquitetura islâmica. Seu pátio, cercado por pórticos de arcos e cúpulas, emoldura a aproximação à enorme cúpula central.",
+      "keyFeatures": [
+        "Única grande cúpula central",
+        "Pátio com pórticos de arcos e cúpulas",
+        "Portal de entrada com muqarnas",
+        "Cúpula canelada diante da entrada do salão de oração"
+      ],
+      "funFacts": [
+        "O próprio Sinan a reparou em 1584, depois de danos causados por um raio.",
+        "Sua cúpula foi danificada pela artilharia durante o cerco de 1913."
+      ]
+    }
+  },
+  "rustem-pasha-mosque": {
+    "name": "Mesquita de Rüstem Paxá",
+    "aliases": ["Rüstem Pasha Mosque", "Rustem Pasha Mosque", "Rüstem Paşa Camii", "Mesquita Rüstem Pasha", "Rüstem Paxá"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Otomano",
+        "bio": "Arquiteto-chefe dos sultões otomanos por cerca de cinquenta anos, Sinan foi também engenheiro e matemático, e suas mesquitas definiram a arquitetura otomana clássica."
+      }
+    ],
+    "city": "Istambul",
+    "style": "Otomano clássico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Cúpula e semicúpulas cobertas de chumbo de uma mesquita de pedra com um minarete, contra um céu azul", "caption": null },
+      { "alt": "Salão de oração com paredes cobertas de azulejos florais azuis e vermelhos", "caption": "O salão de oração." }
+    ],
+    "hints": [
+      "Tem o nome de um grão-vizir que era casado com a filha do sultão.",
+      "Fica em um bairro de mercados, perto de um famoso bazar de especiarias.",
+      "Quase todas as superfícies verticais por dentro, e sob o pórtico, são cobertas de muitos desenhos de azulejos de Iznik."
+    ],
+    "summary": {
+      "description": "Projetada por Mimar Sinan para o grão-vizir Rüstem Paxá, marido da filha de Solimão, Mihrimah Sultan, a mesquita foi provavelmente construída entre 1561 e 1563 no bairro de mercados de Tahtakale. É única entre as mesquitas de Sinan por seu interior luxuosamente revestido de azulejos, cobertos de muitos desenhos diferentes de Iznik.",
+      "keyFeatures": [
+        "Azulejos de Iznik em quase todas as superfícies verticais",
+        "Pórtico de entrada revestido de azulejos",
+        "Cúpula central",
+        "Local em um bairro de mercados"
+      ],
+      "funFacts": [
+        "Rüstem Paxá pode ter encomendado os azulejos para apoiar o desenhista da corte Kara Memi."
+      ]
+    }
+  },
+  "topkapi-palace": {
+    "name": "Palácio de Topkapı",
+    "aliases": ["Topkapi Palace", "Topkapı Palace", "Palácio Topkapi", "Topkapı Sarayı", "O Serralho", "Palácio Novo"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Persa (a serviço dos otomanos)",
+        "bio": "Arquiteto-chefe do palácio em seu período inicial."
+      },
+      {
+        "aliases": [],
+        "nationality": "Otomano",
+        "bio": "Arquiteto-chefe dos sultões otomanos por cerca de cinquenta anos, Sinan foi também engenheiro e matemático, e suas mesquitas definiram a arquitetura otomana clássica."
+      }
+    ],
+    "city": "Istambul",
+    "style": "Otomano",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longo pavilhão com arcadas e um beiral profundo, ao lado de um pátio ajardinado", "caption": null },
+      { "alt": "Passagem revestida de azulejos, com arcos, lâmpadas pendentes e um portão dourado", "caption": "Dentro do palácio." }
+    ],
+    "hints": [
+      "Sua construção começou em 1459, seis anos depois da conquista da cidade.",
+      "Foi a principal residência dos governantes de seu império até a mudança para um palácio mais novo no Bósforo.",
+      "Organiza-se em torno de quatro grandes pátios e virou museu em 1924."
+    ],
+    "summary": {
+      "description": "Ordenado por Maomé, o Conquistador, e construído a partir de 1459, o palácio foi o centro administrativo do Império Otomano e a principal residência dos sultões até a corte se mudar para Dolmabahçe, em 1856. Quatro grandes pátios e muitos edifícios menores incluem o Harém e o Conselho Imperial. Mimar Sinan reconstruiu partes depois de um incêndio em 1574.",
+      "keyFeatures": [
+        "Quatro grandes pátios",
+        "Harém Imperial",
+        "Cozinhas com duas fileiras de 20 chaminés, de Sinan",
+        "Pavilhões e quiosques de séculos posteriores"
+      ],
+      "funFacts": [
+        "Seu nome significa Portão do Canhão e foi dado no século XIX.",
+        "Seu tesouro exibe o Diamante do Fabricante de Colheres e a Adaga de Topkapı."
+      ]
+    }
+  },
+  "mosteiro-de-santa-cruz": {
+    "name": "Mosteiro de Santa Cruz",
+    "aliases": ["Igreja de Santa Cruz", "Mosteiro de Santa Cruz de Coimbra", "Santa Cruz"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português (origem incerta, possivelmente francês)",
+        "bio": "Arquiteto e engenheiro de origem desconhecida que foi pioneiro do estilo manuelino no Mosteiro de Jesus, em Setúbal, e traçou os primeiros planos do Mosteiro dos Jerónimos, em Lisboa."
+      },
+      {
+        "aliases": ["Nicolas Chanterène"],
+        "nationality": "Francês (atuante em Portugal)",
+        "bio": "Escultor e arquiteto que construiu o portal principal em 1522–1525 e esculpiu os túmulos reais colocados na capela-mor em 1530."
+      }
+    ],
+    "city": "Coimbra",
+    "style": "Manuelino com elementos renascentistas",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de igreja de pedra clara ornamentada, com pináculos e um portal entalhado, acima de uma praça com uma fonte", "caption": null },
+      { "alt": "Nave sob uma abóbada nervurada, com painéis de azulejos azuis, um púlpito dourado e um retábulo dourado", "caption": "A igreja." }
+    ],
+    "hints": [
+      "Foi fundado em 1131 e foi o mosteiro mais importante do reino nascente.",
+      "Os dois primeiros reis de seu país estão enterrados em sua capela-mor.",
+      "Foi completamente reformado no início do século XVI por ordem do rei D. Manuel I."
+    ],
+    "summary": {
+      "description": "Fundado em 1131 fora das muralhas de Coimbra, o mosteiro guarda os túmulos de Afonso Henriques e Sancho I, e por isso recebeu o estatuto de Panteão Nacional. O rei D. Manuel I o mandou reformar no início do século XVI: Diogo de Boitaca traçou a igreja e a sala do capítulo manuelinas, e Nicolau Chanterene fez o portal e os túmulos reais.",
+      "keyFeatures": [
+        "Portal principal de 1522–1525",
+        "Túmulos dos dois primeiros reis, reorganizados em 1530",
+        "Sala do capítulo com tetos nervurados",
+        "Igreja manuelina"
+      ],
+      "funFacts": [
+        "Seu scriptorium ajudou Afonso Henriques a consolidar o poder real."
+      ]
+    }
+  },
+  "palacio-nacional-de-sintra": {
+    "name": "Palácio Nacional de Sintra",
+    "aliases": ["Palácio da Vila", "Palácio de Sintra", "Paço de Sintra"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "O palácio cresceu em campanhas patrocinadas pelo rei D. João I a partir de cerca de 1415 e pelo rei D. Manuel I entre 1497 e 1530; seus mestres de obras não estão registrados."
+      }
+    ],
+    "city": "Sintra",
+    "style": "Gótico, manuelino e mudéjar",
+    "drawings": [],
+    "photos": [
+      { "alt": "Duas enormes chaminés cônicas brancas acima de uma ala do palácio com janelas de estilo mourisco", "caption": null },
+      { "alt": "Sala de palácio com teto de madeira, um lustre, portas vermelhas e um biombo laqueado", "caption": "Uma sala do palácio." }
+    ],
+    "hints": [
+      "É a residência real medieval mais bem preservada de seu país, habitada do início do século XV ao fim do XIX.",
+      "Duas enormes chaminés cônicas se erguem acima de suas cozinhas.",
+      "Uma sala é pintada com pegas segurando o lema «por bem», depois que um rei foi flagrado beijando uma dama de companhia."
+    ],
+    "summary": {
+      "description": "Grande parte do palácio data da campanha de D. João I, a partir de cerca de 1415; D. Manuel I acrescentou uma ala com janelas manuelinas entre 1497 e 1530 e redecorou salas com azulejos feitos para ele em Sevilha. Sua mistura de estilos gótico, manuelino, mouro e mudéjar inclui a Sala dos Brasões, uma das mais importantes salas heráldicas da Europa.",
+      "keyFeatures": [
+        "Par de chaminés cônicas gigantes da cozinha",
+        "Ala Manuelina com janelas manuelinas",
+        "Sala dos Brasões",
+        "Painéis de azulejos mudéjares"
+      ],
+      "funFacts": [
+        "O rei D. João II foi aclamado rei aqui.",
+        "A Sala dos Cisnes tem o nome dos cisnes pintados em seu teto."
+      ]
+    }
+  },
+  "se-do-funchal": {
+    "name": "Sé do Funchal",
+    "aliases": ["Catedral do Funchal", "Sé Catedral do Funchal", "Catedral de Nossa Senhora da Assunção"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Carpinteiro real que substituiu o primeiro mestre de obras, João Gonçalves, introduzindo métodos avançados vindos do continente."
+      }
+    ],
+    "city": "Funchal",
+    "style": "Gótico e manuelino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Igreja branca com bordas de pedra escura, um rosetão e um portal ogival, ao lado de uma torre sineira quadrada", "caption": null },
+      { "alt": "Capela-mor dourada sob um teto de madeira entalhada e pintada", "caption": "A capela-mor." }
+    ],
+    "hints": [
+      "Fica em uma ilha atlântica e foi iniciada em 1486 sob o duque que depois se tornou o rei D. Manuel I.",
+      "Foi elevada a catedral por uma bula papal em 1514.",
+      "Seu teto é um desenho de inspiração mudéjar em madeira de cedro."
+    ],
+    "summary": {
+      "description": "Iniciada em 1486 sob o futuro D. Manuel I e estruturalmente concluída em 1514, a catedral do Funchal é um dos poucos edifícios que sobrevive quase intacto desde os primórdios da colonização da Madeira. Seu projeto gótico e manuelino é coroado, por dentro, por um teto de cedro de inspiração mudéjar, e seu altar-mor foi consagrado em 1517.",
+      "keyFeatures": [
+        "Teto de cedro de inspiração mudéjar",
+        "Projeto gótico e manuelino",
+        "Talha dourada",
+        "Torre sineira"
+      ],
+      "funFacts": [
+        "D. Manuel I lhe deu uma cruz processional de prata, obra-prima da ourivesaria manuelina."
+      ]
+    }
+  },
+  "igreja-matriz-da-golega": {
+    "name": "Igreja Matriz da Golegã",
+    "aliases": ["Igreja de Nossa Senhora da Conceição (Golegã)", "Igreja da Golegã", "Matriz da Golegã"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português (origem incerta, possivelmente francês)",
+        "bio": "Arquiteto e engenheiro de origem desconhecida que foi pioneiro do estilo manuelino no Mosteiro de Jesus, em Setúbal, e traçou os primeiros planos do Mosteiro dos Jerónimos, em Lisboa."
+      }
+    ],
+    "city": "Golegã",
+    "style": "Manuelino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Igreja branca com um portal de pedra elaboradamente entalhado e uma alta torre com flecha pontiaguda", "caption": null },
+      { "alt": "Nave com teto de madeira que leva a um arco triunfal gótico nervurado e uma capela azulejada", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi construída na primeira metade do século XVI, substituindo uma pequena igreja paroquial gótica.",
+      "As frequentes estadas de um rei em uma vila próxima favoreceram sua construção.",
+      "Seu portal entalhado é um dos exemplos mais emblemáticos de seu estilo."
+    ],
+    "summary": {
+      "description": "Construída na primeira metade do século XVI para substituir uma pequena igreja gótica, a igreja paroquial da Golegã é um dos exemplos mais bem preservados do estilo manuelino, com um magnífico portal. O arquiteto real Diogo Boitaca provavelmente interveio em sua construção; por volta de 1530 sua capela-mor já era usada para sepultamentos. Restauros nas décadas de 1930 e 1940 recuperaram sua aparência manuelina.",
+      "keyFeatures": [
+        "Portal manuelino entalhado",
+        "Torre sineira com alta flecha prismática",
+        "Inscrição gótica sustentada por anjos no portal",
+        "Capela-mor azulejada"
+      ],
+      "funFacts": [
+        "No século XVIII foram acrescentados um andar e uma cúpula à sua torre."
+      ]
+    }
+  }
+}

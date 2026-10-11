@@ -1,0 +1,438 @@
+{
+  "sant-andrea-mantua": {
+    "name": "Basílica de Sant'Andrea",
+    "aliases": ["Sant'Andrea", "Sant'Andrea de Mântua", "Basilica di Sant'Andrea", "Basílica de Santo André de Mântua"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "bio": "Autor humanista e arquiteto do início do Renascimento, teórico da arquitetura cujas igrejas elaboraram o motivo do arco do triunfo."
+      }
+    ],
+    "city": "Mântua",
+    "style": "Renascimento",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de igreja em forma de arco do triunfo, com pilastras e um frontão, ao lado de um campanário gótico", "caption": null },
+      { "alt": "Grande nave única sob uma abóbada de berço pintada, com capelas laterais e um cruzeiro com cúpula", "caption": "A nave." }
+    ],
+    "hints": [
+      "Foi iniciada em 1472, o ano da morte de seu arquiteto, para um marquês governante.",
+      "Sua fachada e seu interior elaboram o motivo de um arco do triunfo.",
+      "Foi construída para receber peregrinos que vêm ver uma ampola que se diz conter o Sangue de Cristo."
+    ],
+    "summary": {
+      "description": "Encomendada por Ludovico III Gonzaga, a igreja foi iniciada em 1472 segundo projeto de Leon Battista Alberti. Ele rompeu com a tradição basilical ao abrir capelas a partir de uma nave única, em vez de naves laterais, e fez a fachada e o interior ecoarem o arco do triunfo. Sua cúpula, de Filippo Juvarra, só foi acrescentada em 1732–1782.",
+      "keyFeatures": [
+        "Fachada em arco do triunfo",
+        "Nave única com capelas laterais",
+        "Abóbada de berço com caixotões pintados",
+        "Cúpula de Filippo Juvarra"
+      ],
+      "funFacts": [
+        "O pintor Andrea Mantegna está enterrado em uma de suas capelas.",
+        "Seu campanário (1414) sobrevive de um mosteiro anterior."
+      ]
+    }
+  },
+  "chateau-de-chambord": {
+    "name": "Castelo de Chambord",
+    "aliases": ["Château de Chambord", "Chambord", "Chateau de Chambord"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Toscano (atuante na França)",
+        "bio": "O arquiteto toscano a quem, com dúvidas, se atribui o projeto original; seu modelo de madeira sobreviveu por tempo suficiente para ser desenhado no século XVII."
+      }
+    ],
+    "city": "Chambord",
+    "style": "Renascimento francês",
+    "drawings": [],
+    "photos": [
+      { "alt": "Enorme castelo branco com torres redondas e uma silhueta de telhados apinhados, refletido em águas paradas", "caption": null },
+      { "alt": "Escada de pedra em espiral, com um núcleo central aberto visto por aberturas em arco", "caption": "A escada de dupla espiral." }
+    ],
+    "hints": [
+      "Foi construído entre 1519 e 1547 como pavilhão de caça para um rei, que ficou ali apenas sete semanas.",
+      "Tem 440 cômodos, 282 lareiras e 84 escadas.",
+      "Sua escada central de dupla espiral é às vezes atribuída a Leonardo da Vinci, embora isso não seja confirmado."
+    ],
+    "summary": {
+      "description": "Encomendado por Francisco I e construído entre 1519 e 1547, Chambord é o maior castelo do Vale do Loire. Seu projeto é atribuído a Domenico da Cortona, com possível influência de Leonardo da Vinci. Os cômodos se agrupam em suítes independentes em torno de uma escada central aberta de dupla espiral, e sua silhueta de torres e chaminés parece o horizonte de uma cidade.",
+      "keyFeatures": [
+        "Escada aberta de dupla espiral",
+        "Silhueta de torres, lanternins e chaminés",
+        "Suítes de cômodos independentes",
+        "Planta centralizada"
+      ],
+      "funFacts": [
+        "Henry James disse que seu telhado parecia mais as flechas de uma cidade do que um único edifício.",
+        "Seu mobiliário foi vendido em 1792."
+      ]
+    }
+  },
+  "el-escorial": {
+    "name": "Mosteiro do Escorial",
+    "aliases": ["El Escorial", "Escorial", "Real Mosteiro de San Lorenzo de El Escorial", "Mosteiro de São Lourenço do Escorial", "Real Sitio de San Lorenzo de El Escorial"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol",
+        "bio": "Arquiteto real a partir de 1559, que projetou o complexo com Filipe II e o supervisionou até sua morte."
+      },
+      {
+        "aliases": [],
+        "nationality": "Espanhol",
+        "bio": "Aprendiz de Toledo, geralmente considerado o arquiteto do Escorial, que o concluiu em 1584."
+      }
+    ],
+    "city": "San Lorenzo de El Escorial",
+    "style": "Renascimento espanhol (herreriano)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Vasto edifício austero de granito, com uma torre de canto e flecha, sob um céu azul", "caption": null },
+      { "alt": "Longo salão de biblioteca com estantes entalhadas, piso de mármore e abóbada de berço com afrescos", "caption": "A biblioteca." }
+    ],
+    "hints": [
+      "Foi construído entre 1563 e 1584 por ordem de um rei e é o maior edifício renascentista do mundo.",
+      "Combina mosteiro, basílica, palácio real, panteão e biblioteca.",
+      "Sua biblioteca foi a primeira da Europa a dispor estantes ao longo das paredes."
+    ],
+    "summary": {
+      "description": "Construído para Filipe II entre 1563 e 1584, o Escorial foi projetado por Juan Bautista de Toledo e concluído por Juan de Herrera. Filipe pediu «simplicidade na construção, severidade no conjunto». O complexo em forma de grade abriga um mosteiro, uma basílica de cruz grega, o palácio do rei, o panteão real e uma biblioteca com mais de 40.000 volumes.",
+      "keyFeatures": [
+        "Planta em grade com torres nos cantos",
+        "Basílica de cruz grega com grande cúpula",
+        "Panteão Real dos Reis",
+        "Salão da biblioteca de 54 m de comprimento, com abóbada afrescada"
+      ],
+      "funFacts": [
+        "Domenico Fontana se inspirou em sua biblioteca para a Biblioteca do Vaticano.",
+        "Um incêndio em 1671 destruiu cerca de 5.280 manuscritos."
+      ]
+    }
+  },
+  "laurentian-library": {
+    "name": "Biblioteca Laurenciana",
+    "aliases": ["Laurentian Library", "Biblioteca Medicea Laurenziana", "Biblioteca Laurenziana", "Biblioteca Medicea Laurenciana", "Biblioteca dos Médici"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "bio": "Escultor, pintor e arquiteto florentino; seu projeto para esta biblioteca é uma de suas mais importantes realizações arquitetônicas e um exemplo de maneirismo."
+      }
+    ],
+    "city": "Florença",
+    "style": "Maneirismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício de pedra simples com uma pequena cúpula, erguendo-se atrás de um muro de claustro em uma rua estreita", "caption": null },
+      { "alt": "Longa sala de leitura com fileiras de carteiras de madeira entalhada sob um teto de madeira com caixotões", "caption": "A sala de leitura." }
+    ],
+    "hints": [
+      "Foi construída no claustro de uma igreja, sob o patrocínio de um papa Médici.",
+      "Seu vestíbulo é ocupado por uma escada que parece escorrer do andar superior.",
+      "Seu arquiteto deixou a cidade em 1534, e outros a concluíram a partir de suas instruções; estava aberta em 1571."
+    ],
+    "summary": {
+      "description": "Encomendada em 1523 pelo papa Clemente VII, dos Médici, e construída em um claustro de San Lorenzo, a biblioteca foi projetada por Michelangelo. Quando ele deixou Florença, em 1534, só as paredes da sala de leitura estavam prontas; Tribolo, Vasari e Ammannati a concluíram a partir de seus planos. Seu alto vestíbulo com escada fluida é uma obra-chave do maneirismo.",
+      "keyFeatures": [
+        "Alto vestíbulo com colunas embutidas",
+        "Escada executada por Ammannati em 1559",
+        "Sala de leitura longa e uniformemente iluminada",
+        "Carteiras entalhadas (plutei)"
+      ],
+      "funFacts": [
+        "Mark Rothko disse que o vestíbulo influenciou seus murais do Seagram.",
+        "Seu acervo principal é de cerca de 3.000 manuscritos."
+      ]
+    }
+  },
+  "palace-of-versailles": {
+    "name": "Palácio de Versalhes",
+    "aliases": ["Versalhes", "Château de Versailles", "Chateau de Versailles", "Palace of Versailles", "Castelo de Versalhes"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Arquiteto da corte a partir de 1654, cujo trabalho em Vaux-le-Vicomte impressionou Luís XIV; envolveu o castelo de Luís XIII no «envelope» a partir de 1668."
+      },
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Primeiro Arquiteto de Luís XIV a partir de 1678, que acrescentou o Salão dos Espelhos, as grandes alas e a capela do palácio."
+      }
+    ],
+    "city": "Versalhes",
+    "style": "Barroco francês",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada de palácio muito longa, vista da extremidade de um terraço de jardim formal", "caption": null },
+      { "alt": "Longa galeria forrada de espelhos e janelas sob lustres de cristal, cheia de visitantes", "caption": "O Salão dos Espelhos." }
+    ],
+    "hints": [
+      "Começou como um modesto pavilhão de caça de tijolo e pedra de um rei, construído em 1623.",
+      "A corte e o governo real moraram ali permanentemente de 1682 a outubro de 1789.",
+      "O Império Alemão foi proclamado em sua galeria mais famosa em 1871."
+    ],
+    "summary": {
+      "description": "Luís XIV transformou o pavilhão de caça de seu pai na sede da corte francesa. A partir de 1668, Louis Le Vau envolveu o antigo castelo, enquanto André Le Nôtre traçava os jardins; a partir de 1678, Jules Hardouin-Mansart acrescentou o Salão dos Espelhos, vastas alas e, por fim, a capela (1699–1710). Tem cerca de 2.300 cômodos.",
+      "keyFeatures": [
+        "Salão dos Espelhos (1678–1681)",
+        "«Envelope» de Le Vau em volta do antigo castelo",
+        "Jardins de André Le Nôtre",
+        "Capela do palácio (1699–1710)"
+      ],
+      "funFacts": [
+        "O Salão dos Espelhos chegou a servir de hospital militar.",
+        "Cerca de 1.000 de seus cômodos pertencem a um museu nacional de história."
+      ]
+    }
+  },
+  "san-carlo-alle-quattro-fontane": {
+    "name": "San Carlo alle Quattro Fontane",
+    "aliases": ["San Carlino", "São Carlos das Quatro Fontes", "San Carlo alle Quattro Fontane (Roma)"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano (atuante em Roma)",
+        "bio": "Arquiteto barroco, para quem esta foi a primeira encomenda independente; ofereceu-se para fazê-la de graça para iniciar sua carreira solo."
+      }
+    ],
+    "city": "Roma",
+    "style": "Barroco romano",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de igreja estreita, de vãos côncavos e convexos ondulantes, com colunas, nichos e estátuas", "caption": null },
+      { "alt": "Cúpula oval com caixotões profundos de cruzes, octógonos e hexágonos, iluminada por uma lanterna", "caption": "A cúpula." }
+    ],
+    "hints": [
+      "Foi construída para uma ordem religiosa dedicada a libertar escravos cristãos.",
+      "Foi a primeira encomenda independente de seu arquiteto; ele se ofereceu para fazê-la de graça.",
+      "Sua fachada superior, de curvas serpenteantes, só foi concluída depois da morte do arquiteto."
+    ],
+    "summary": {
+      "description": "Construída para os trinitários espanhóis na colina do Quirinal, a igreja foi a primeira encomenda independente de Francesco Borromini. Foi erguida em 1638–1641 e dedicada em 1646 a São Carlos Borromeu; sua fachada serpenteante foi concluída por seu sobrinho Bernardo, com obras que continuaram até 1682. É uma obra-prima icônica da arquitetura barroca.",
+      "keyFeatures": [
+        "Fachada ondulante e serpenteante",
+        "Cúpula oval com caixotões geométricos",
+        "Complexo monástico na colina do Quirinal",
+        "Alojamentos e biblioteca projetados primeiro, a partir de 1634"
+      ],
+      "funFacts": [
+        "A igreja oval de Sant'Andrea al Quirinale, de Bernini, fica mais adiante na mesma rua."
+      ]
+    }
+  },
+  "karlskirche": {
+    "name": "Karlskirche",
+    "aliases": ["Igreja de São Carlos", "Igreja de São Carlos Borromeu", "Karlskirche de Viena"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Austríaco",
+        "bio": "Venceu o concurso para a igreja contra Galli-Bibiena e Hildebrandt; depois de sua morte, seu filho Joseph Emanuel a concluiu."
+      }
+    ],
+    "city": "Viena",
+    "style": "Barroco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Igreja com cúpula e um pórtico de templo ladeado por duas grandes colunas entalhadas", "caption": null },
+      { "alt": "Cúpula oval afrescada vista do interior de seu tambor", "caption": "A cúpula." }
+    ],
+    "hints": [
+      "Um imperador prometeu construí-la em 1713, um ano depois da última grande peste de sua cidade.",
+      "É dedicada a um santo venerado como protetor dos doentes de peste, xará do imperador.",
+      "Duas colunas inspiradas na Coluna de Trajano ladeiam sua entrada."
+    ],
+    "summary": {
+      "description": "Carlos VI fez o voto da igreja em 1713, depois da última grande peste de Viena, a seu santo padroeiro, Carlos Borromeu. Johann Bernhard Fischer von Erlach venceu o concurso; a construção começou em 1716, e seu filho Joseph Emanuel a concluiu em 1737. Une um pórtico de templo, duas colunas inspiradas na Coluna de Trajano e uma cúpula sobre um alto tambor.",
+      "keyFeatures": [
+        "Pórtico de templo",
+        "Duas colunas com relevo em espiral, de Lorenzo Mattielli",
+        "Cúpula sobre um alto tambor",
+        "Interior coberto de afrescos"
+      ],
+      "funFacts": [
+        "Seu programa iconográfico foi concebido pelo funcionário imperial Carl Gustav Heraeus."
+      ]
+    }
+  },
+  "melk-abbey": {
+    "name": "Abadia de Melk",
+    "aliases": ["Melk Abbey", "Stift Melk", "Melk", "Mosteiro de Melk"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Austríaco",
+        "bio": "Arquiteto segundo cujos projetos foi construída, entre 1702 e 1736, a atual abadia barroca."
+      }
+    ],
+    "city": "Melk",
+    "style": "Barroco austríaco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longa abadia amarela com uma igreja de cúpula e duas torres, em uma elevação rochosa", "caption": null },
+      { "alt": "Biblioteca com estantes douradas, piso de marchetaria e teto pintado", "caption": "A biblioteca." }
+    ],
+    "hints": [
+      "Fica em um afloramento rochoso acima de um grande rio, no início do vale de Wachau.",
+      "Sua comunidade foi fundada em 1089, quando um marquês deu um de seus castelos aos monges.",
+      "Seu edifício atual data de 1702–1736, e sua biblioteca é famosa desde a Idade Média."
+    ],
+    "summary": {
+      "description": "Fundada em 1089, quando o marquês Leopoldo II deu um castelo a monges beneditinos, a abadia domina o Danúbio de um afloramento rochoso. A atual abadia barroca foi construída entre 1702 e 1736 segundo projeto de Jakob Prandtauer; sua igreja guarda afrescos de Johann Michael Rottmayr e Paul Troger.",
+      "keyFeatures": [
+        "Igreja abacial com cúpula e duas torres",
+        "Afrescos de Rottmayr e Troger",
+        "Famosa biblioteca",
+        "Local sobre uma rocha acima do Danúbio"
+      ],
+      "funFacts": [
+        "Sua fama permitiu que escapasse das dissoluções sob o imperador José II."
+      ]
+    }
+  },
+  "pantheon-paris": {
+    "name": "Panteão de Paris",
+    "aliases": ["Panthéon", "Panthéon de Paris", "Pantheon Paris", "Igreja de Sainte-Geneviève", "Sainte-Geneviève", "Panteão"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Arquiteto do edifício para Luís XV; não viveu para vê-lo concluído, mas seus restos foram transferidos para dentro dele em 1829."
+      }
+    ],
+    "city": "Paris",
+    "style": "Neoclássico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício neoclássico com cúpula e pórtico coríntio, do outro lado de uma praça", "caption": null },
+      { "alt": "Abóbadas de caixotões e um mosaico pintado na abside, vistos entre colunas coríntias", "caption": "O interior." }
+    ],
+    "hints": [
+      "Foi construído para um rei que prometeu, em 1744, substituir uma igreja se se recuperasse de uma doença.",
+      "Durante a Revolução, foi transformado em mausoléu para cidadãos ilustres.",
+      "Em 1851, um físico pendurou um pêndulo em sua cúpula para demonstrar a rotação da Terra."
+    ],
+    "summary": {
+      "description": "Construída entre 1758 e 1790 segundo projeto de Jacques-Germain Soufflot, a igreja de Santa Genoveva foi transformada em 1791 em mausoléu dos grandes cidadãos franceses, tendo como modelo o Panteão de Roma. Voltou duas vezes ao uso como igreja antes de se tornar exclusivamente mausoléu em 1881.",
+      "keyFeatures": [
+        "Pórtico coríntio",
+        "Cúpula central",
+        "Mausoléu inspirado no Panteão de Roma",
+        "Cripta para figuras nacionais"
+      ],
+      "funFacts": [
+        "Uma cópia do pêndulo de Foucault ainda está pendurada ali.",
+        "Nem Soufflot nem Luís XV viveram para vê-lo terminado."
+      ]
+    }
+  },
+  "altes-museum": {
+    "name": "Altes Museum",
+    "aliases": ["Museu Antigo", "Museu Velho de Berlim", "Königliches Museum", "Altes Museum Berlin"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Prussiano",
+        "bio": "Arquiteto encarregado por Frederico Guilherme III de planejar um museu público para a coleção de arte real, como parte de um conjunto em torno do Lustgarten."
+      }
+    ],
+    "city": "Berlim",
+    "style": "Neoclássico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longa colunata de colunas jônicas ao longo de uma parede pintada com painéis vermelhos", "caption": "A colunata." },
+      { "alt": "Rotunda com cúpula, cercada de colunas e estátuas, com piso estampado", "caption": "A rotunda." }
+    ],
+    "hints": [
+      "Foi construído como museu público para uma coleção de arte real, refletindo o ideal humboldtiano de educação.",
+      "Sua frente de dezoito colunas jônicas dá para um jardim de lazer.",
+      "Foi inaugurado em 3 de agosto de 1830."
+    ],
+    "summary": {
+      "description": "Construído entre 1825 e 1830 para o rei Frederico Guilherme III, segundo planos de Karl Friedrich Schinkel, o museu é uma grande obra do neoclassicismo alemão. Um longo pórtico de dezoito colunas jônicas dá para o Lustgarten, e por dentro uma rotunda com cúpula evoca a Antiguidade clássica.",
+      "keyFeatures": [
+        "Colunata de dezoito colunas jônicas",
+        "Rotunda central com cúpula",
+        "Terreno no Lustgarten",
+        "Galerias de escultura clássica"
+      ],
+      "funFacts": [
+        "O príncipe herdeiro enviou a Schinkel um esboço a lápis de um salão com pórtico clássico."
+      ]
+    }
+  },
+  "british-museum": {
+    "name": "Museu Britânico",
+    "aliases": ["British Museum", "The British Museum"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Britânico",
+        "bio": "Arquiteto neoclássico a quem se pediu o plano de uma ampliação a leste; seu edifício substituiu a Montagu House ao longo das décadas seguintes."
+      }
+    ],
+    "city": "Londres",
+    "style": "Neoclassicismo grego (Greek Revival)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fileira de altas colunas jônicas de um pórtico neoclássico grego acima de degraus molhados", "caption": null },
+      { "alt": "Longa galeria com altas estantes e vitrines sob um teto decorado", "caption": "A galeria da Biblioteca do Rei." }
+    ],
+    "hints": [
+      "Abriu ao público em 1759 em uma mansão do século XVII, convertida, no mesmo local.",
+      "As obras de seu edifício atual começaram em 1823, com uma galeria para a biblioteca de um rei.",
+      "Seu pátio central foi coberto de vidro em 2000."
+    ],
+    "summary": {
+      "description": "Fundado em 1753 e aberto na Montagu House em 1759, o museu foi reconstruído segundo o plano neoclássico grego de Robert Smirke a partir de 1823, começando pela Galeria da Biblioteca do Rei; a abertura do pátio frontal, em 1852, completou o plano. Em 2000, o pátio central tornou-se o Great Court, de cobertura de vidro, a maior praça coberta da Europa.",
+      "keyFeatures": [
+        "Colunata neoclássica grega",
+        "Galeria da Biblioteca do Rei",
+        "Sala de Leitura circular",
+        "Cobertura do Great Court (2000)"
+      ],
+      "funFacts": [
+        "De 1825 a 1850, foi o maior canteiro de obras da Europa."
+      ]
+    }
+  },
+  "la-madeleine": {
+    "name": "Igreja da Madalena",
+    "aliases": ["La Madeleine", "Église de la Madeleine", "Madeleine", "Igreja de La Madeleine", "Igreja de Santa Maria Madalena de Paris"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Arquiteto escolhido pessoalmente por Napoleão em lugar do candidato da Academia, com um projeto inspirado em um templo antigo."
+      }
+    ],
+    "city": "Paris",
+    "style": "Neoclássico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Canto de um edifício em forma de templo, com um frontão sobre fileiras de colunas coríntias", "caption": null },
+      { "alt": "Altar-mor de mármore com um grupo escultórico de anjos e castiçais dourados", "caption": "O altar-mor." }
+    ],
+    "hints": [
+      "Sua primeira pedra foi lançada em 1764 por um rei, mas a Revolução interrompeu a obra.",
+      "Um imperador declarou em 1806 que ela se tornaria um templo à glória de seu exército.",
+      "É cercada nos quatro lados por colunas coríntias e foi concluída como igreja em 1842."
+    ],
+    "summary": {
+      "description": "Iniciada sob Luís XV, a igreja foi redesenhada para Napoleão em 1806 por Pierre-Alexandre Vignon como templo à glória do Grande Exército, tendo templos antigos como modelo. Depois da queda de Napoleão voltou a ser igreja, concluída em 1842. Colunas coríntias a cercam nos quatro lados.",
+      "keyFeatures": [
+        "Colunas coríntias nos quatro lados",
+        "Projeto inspirado em um templo grego ou romano antigo",
+        "Grande pórtico clássico",
+        "Altar-mor com escultura"
+      ],
+      "funFacts": [
+        "Já se propôs transformá-la em estação ferroviária."
+      ]
+    }
+  }
+}

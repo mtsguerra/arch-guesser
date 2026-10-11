@@ -16,12 +16,19 @@ export function useEras() {
   return eras
 }
 
-/** 1920 → "1920"; -415 → "415 BCE". */
-export function formatYear(y) {
-  return y < 0 ? `${-y} BCE` : String(y)
+const ENGLISH_YEARS = { bce: 'BCE', now: 'now' }
+
+/** 1920 → "1920"; -415 → "415 BCE" ("415 a.C." in Portuguese). */
+export function formatYear(y, years = ENGLISH_YEARS) {
+  return y < 0 ? `${-y} ${years.bce}` : String(y)
 }
 
-/** "Modernism · 1920–1970", "Classical Antiquity · 800 BCE–476", "Contemporary · 1990–now". */
-export function eraRange({ startYear, endYear }) {
-  return `${formatYear(startYear)}–${endYear == null ? 'now' : formatYear(endYear)}`
+/** "1920–1970", "800 BCE–476", "1990–now". */
+export function eraRange({ startYear, endYear }, years = ENGLISH_YEARS) {
+  return `${formatYear(startYear, years)}–${endYear == null ? years.now : formatYear(endYear, years)}`
+}
+
+/** The era's name in the current language; falls back to the API's English label. */
+export function eraName(era, strings) {
+  return strings.eras?.[era.id] ?? era.label
 }

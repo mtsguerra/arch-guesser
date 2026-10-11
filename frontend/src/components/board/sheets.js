@@ -1,5 +1,3 @@
-import { strings } from '../../strings.js'
-
 // US National CAD Standard series for cuts: 0 general/site, 1 plans, 2 elevations, 3 sections.
 const SERIES = { SITE_PLAN: 0, FLOOR_PLAN: 1, ELEVATION: 2, SECTION: 3 }
 const VIEW_ORDER = { EXTERIOR: 0, INTERIOR: 1 }
@@ -8,7 +6,7 @@ const VIEW_ORDER = { EXTERIOR: 0, INTERIOR: 1 }
  * Every image of a building as a board sheet: cuts first, in data order, numbered
  * like a drawing set (A-101, A-301…), then photos, exteriors before interiors (P-1, P-2…).
  */
-export function buildSheets(building) {
+export function buildSheets(building, strings) {
   const counts = {}
   const cuts = building.drawings.map((d, i) => {
     const series = SERIES[d.type] ?? 9

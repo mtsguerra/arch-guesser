@@ -36,6 +36,11 @@ export function gameReducer(state, action) {
     case 'load/success':
       return { ...initialState, phase: 'playing', building: action.building }
 
+    case 'building/translate':
+      // Same building in another language: only the text changes.
+      if (state.building?.id !== action.building.id) return state
+      return { ...state, building: action.building }
+
     case 'load/failure':
       return { ...state, phase: 'error', error: action.error }
 

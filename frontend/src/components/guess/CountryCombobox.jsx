@@ -1,6 +1,6 @@
 import { useId, useMemo, useState } from 'react'
 import { suggestCountries } from '../../game/countries.js'
-import { strings } from '../../strings.js'
+import { useLanguage, useStrings } from '../../i18n.js'
 import styles from './GuessForm.module.css'
 
 /**
@@ -8,10 +8,12 @@ import styles from './GuessForm.module.css'
  * Any text is accepted; matching to a country happens when the guess is checked.
  */
 export function CountryCombobox({ id, value, onChange, className, ...inputProps }) {
+  const strings = useStrings()
+  const { lang } = useLanguage()
   const listId = useId()
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState(-1)
-  const options = useMemo(() => (open ? suggestCountries(value) : []), [open, value])
+  const options = useMemo(() => (open ? suggestCountries(value, lang) : []), [open, value, lang])
   const expanded = open && options.length > 0
 
   function choose(country) {

@@ -1,4 +1,6 @@
-import { strings } from '../../strings.js'
+import { Languages } from 'lucide-react'
+import { useLanguage } from '../../i18n.js'
+import { Button } from '../ui/Button.jsx'
 import styles from './AppShell.module.css'
 
 function PlanMark() {
@@ -15,6 +17,7 @@ function PlanMark() {
 }
 
 export function AppShell({ actions, children }) {
+  const { lang, setLang, strings } = useLanguage()
   return (
     <div className={styles.shell}>
       <header className={styles.rail}>
@@ -22,7 +25,18 @@ export function AppShell({ actions, children }) {
           <PlanMark />
           <span className={styles.wordmark}>{strings.appName}</span>
         </a>
-        <div className={styles.actions}>{actions}</div>
+        <div className={styles.actions}>
+          {actions}
+          <Button
+            variant="rail"
+            icon={Languages}
+            lang={lang === 'en' ? 'pt-BR' : 'en'}
+            aria-label={`${strings.language.label}: ${strings.language.switchTo}`}
+            onClick={() => setLang(lang === 'en' ? 'pt-BR' : 'en')}
+          >
+            {strings.language.short}
+          </Button>
+        </div>
       </header>
       <main className={styles.main}>{children}</main>
       <footer className={styles.footer}>

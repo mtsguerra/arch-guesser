@@ -19,15 +19,18 @@ class BuildingController {
         this.service = service;
     }
 
-    /** {@code exclude} is a comma-separated list of ids already seen this session. */
+    /**
+     * {@code exclude} is a comma-separated list of ids already seen this session; {@code lang} is an
+     * optional language tag ({@code pt-BR}), and anything unsupported serves the English source.
+     */
     @GetMapping("/buildings/random")
-    Building random(@RequestParam(defaultValue = "") Set<String> exclude) {
-        return service.random(exclude);
+    Building random(@RequestParam(defaultValue = "") Set<String> exclude, @RequestParam(required = false) String lang) {
+        return service.random(exclude, lang);
     }
 
     @GetMapping("/buildings/{id}")
-    Building byId(@PathVariable String id) {
-        return service.findById(id);
+    Building byId(@PathVariable String id, @RequestParam(required = false) String lang) {
+        return service.findById(id, lang);
     }
 
     @GetMapping("/eras")

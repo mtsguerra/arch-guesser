@@ -1,0 +1,498 @@
+{
+  "farnsworth-house": {
+    "name": "Casa Farnsworth",
+    "aliases": ["Farnsworth House", "Edith Farnsworth House", "Casa Edith Farnsworth", "Farnsworth"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão-americano",
+        "bio": "Arquiteto modernista do Estilo Internacional cujas obras americanas incluem uma casa de fim de semana de vidro e uma torre revestida de bronze na Park Avenue."
+      }
+    ],
+    "city": "Plano, Illinois",
+    "style": "Estilo Internacional",
+    "drawings": [],
+    "photos": [
+      { "alt": "Caixa de vidro com estrutura de aço branco elevada acima de um gramado entre árvores", "caption": null },
+      { "alt": "Sala de paredes de vidro com um núcleo de madeira e cadeiras Barcelona", "caption": "A área de estar." }
+    ],
+    "hints": [
+      "Foi construída como refúgio de fim de semana para uma médica, ao lado de um rio que transborda.",
+      "É elevada cerca de 1,6 metro acima da planície de inundação, com exterior minimalista e planta aberta.",
+      "Arquiteto e cliente processaram um ao outro em 1951 por causa do aumento do custo."
+    ],
+    "summary": {
+      "description": "Concluída em 1951, esta casa de fim de semana para a médica Edith Farnsworth, de Ludwig Mies van der Rohe, fica perto do rio Fox. Elevada acima da planície de inundação, é uma caixa de vidro minimalista de planta quase toda aberta. Disputas sobre o custo levaram arquiteto e cliente a se processarem.",
+      "keyFeatures": [
+        "Exterior minimalista",
+        "Piso elevado 1,6 m acima da planície de inundação",
+        "Planta quase toda aberta",
+        "Local à beira de um rio"
+      ],
+      "funFacts": [
+        "Foi restaurada depois das enchentes do fim dos anos 1990 e de 2008."
+      ]
+    }
+  },
+  "villa-tugendhat": {
+    "name": "Villa Tugendhat",
+    "aliases": ["Vila Tugendhat", "Casa Tugendhat", "Tugendhat House", "Tugendhat Villa"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão-americano",
+        "bio": "Arquiteto modernista do Estilo Internacional cujas obras americanas incluem uma casa de fim de semana de vidro e uma torre revestida de bronze na Park Avenue."
+      },
+      {
+        "aliases": [],
+        "nationality": "Alemã",
+        "bio": "Designer de interiores que projetou a vila com Mies e colaborou em todo o seu mobiliário."
+      }
+    ],
+    "city": "Brno",
+    "style": "Funcionalismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Casa modernista branca com longas janelas horizontais em um gramado inclinado", "caption": null },
+      { "alt": "Sala de estar aberta com uma parede de ônix e grandes janelas com vista para a cidade", "caption": "A área de estar." }
+    ],
+    "hints": [
+      "Foi construída em 1928–1930 para um casal judeu rico, Fritz e Greta.",
+      "Duas das enormes janelas de sua sala de estar podem ser abaixadas por completo para dentro do piso.",
+      "Seu interior não tem quadros, mas conta com uma parede de ônix e madeiras tropicais raras."
+    ],
+    "summary": {
+      "description": "Projetada por Ludwig Mies van der Rohe e Lilly Reich e construída em 1928–1930 para Fritz e Greta Tugendhat, a vila é um protótipo pioneiro da arquitetura moderna. Uma estrutura de ferro liberou a planta das paredes portantes; a sala de estar se abre, por uma parede-cortina de grandes janelas, para o Castelo de Špilberk. Tornou-se sítio da UNESCO em 2001.",
+      "keyFeatures": [
+        "Estrutura de ferro com planta livre",
+        "Parede-cortina com janelas que descem para dentro do piso",
+        "Parede de ônix",
+        "Mobiliário desenhado para a casa"
+      ],
+      "funFacts": [
+        "As cadeiras Tugendhat e Brno, desenhadas para ela, ainda são fabricadas."
+      ]
+    }
+  },
+  "paimio-sanatorium": {
+    "name": "Sanatório de Paimio",
+    "aliases": ["Paimio Sanatorium", "Paimion parantola", "Hospital de Paimio", "Paimio"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "bio": "Arquiteto modernista finlandês que trabalhou em parceria com a esposa, Aino; seu ateliê projetava edifícios, móveis e iluminação como conjuntos integrados."
+      },
+      {
+        "aliases": [],
+        "nationality": "Finlandesa",
+        "bio": "Arquiteta e designer finlandesa, sócia do ateliê Aalto, que liderou grande parte de seu design de interiores e de móveis."
+      }
+    ],
+    "city": "Paimio",
+    "style": "Funcionalismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longas alas de hospital modernista branco em meio a uma floresta de pinheiros, vistas de cima", "caption": null },
+      { "alt": "Sala de estar luminosa com uma parede de vidro curva, claraboias redondas e poltronas", "caption": "Uma sala de estar." }
+    ],
+    "hints": [
+      "Foi construído para pacientes com tuberculose, depois de um concurso vencido em 1929.",
+      "Seus projetistas trataram luz, cor, acústica, ventilação e móveis como parte da cura dos pacientes.",
+      "Uma poltrona projetada para ele entrou em produção comercial."
+    ],
+    "summary": {
+      "description": "Alvar e Aino Aalto venceram o concurso em 1929 e concluíram o sanatório em 1933. Foi projetado como um ambiente integrado para pacientes com tuberculose, levando em conta luz solar, cor, acústica, ventilação, móveis e iluminação. Passou a fazer parte de uma inscrição da UNESCO de obras de Aalto em 2026.",
+      "keyFeatures": [
+        "Edifício pensado em torno do acesso à luz do sol e à natureza",
+        "Móveis e iluminação integrados",
+        "Poltrona Paimio",
+        "Atenção à acústica, à cor e à ventilação"
+      ],
+      "funFacts": [
+        "Planos anunciados em 2026 o transformariam em hotel e espaço cultural."
+      ]
+    }
+  },
+  "villa-mairea": {
+    "name": "Villa Mairea",
+    "aliases": ["Mairea", "Vila Mairea"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "bio": "Arquiteto modernista finlandês que trabalhou em parceria com a esposa, Aino; seu ateliê projetava edifícios, móveis e iluminação como conjuntos integrados."
+      },
+      {
+        "aliases": [],
+        "nationality": "Finlandesa",
+        "bio": "Arquiteta e designer finlandesa, sócia do ateliê Aalto, que liderou grande parte de seu design de interiores e de móveis."
+      }
+    ],
+    "city": "Noormarkku, Pori",
+    "style": "Modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Vila branca com um volume superior revestido de madeira entre pinheiros", "caption": null },
+      { "alt": "Canto de biblioteca com estantes de madeira e um teto de madeira escura", "caption": "A biblioteca." }
+    ],
+    "hints": [
+      "Foi construída em 1938–1939 para um casal de industriais ricos, cuja esposa lhe dá o nome.",
+      "Os clientes disseram aos arquitetos que a tratassem como «uma casa experimental».",
+      "Sua planta é um L modificado, e seus interiores são ricos em madeira, pedra e tijolo."
+    ],
+    "summary": {
+      "description": "Projetada por Aino e Alvar Aalto para Harry e Maire Gullichsen e construída em 1938–1939, a vila foi pensada como casa experimental. Sua planta em L modificado e os interiores liderados por Aino Aalto, ricos em madeira, pedra e tijolo, com marcenaria e iluminação sob medida, fazem dela um dos edifícios mais importantes do ateliê.",
+      "keyFeatures": [
+        "Planta em L modificado",
+        "Interiores em madeira, pedra e tijolo",
+        "Marcenaria embutida e iluminação sob medida",
+        "Têxteis desenhados para a casa"
+      ],
+      "funFacts": [
+        "Passou a fazer parte de uma inscrição da UNESCO de obras de Aalto em 2026."
+      ]
+    }
+  },
+  "habitat-67": {
+    "name": "Habitat 67",
+    "aliases": ["Habitat", "Habitat '67"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Israelense-canadense-americano",
+        "bio": "Arquiteto que desenvolveu o projeto a partir de sua tese de mestrado na Universidade McGill e recebeu a obra apesar de sua juventude e inexperiência."
+      }
+    ],
+    "city": "Montreal",
+    "style": "Brutalismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Caixas de concreto empilhadas formando uma colina de apartamentos com terraços", "caption": null },
+      { "alt": "Sala de apartamento com uma parede de concreto e uma grande janela", "caption": "Um apartamento." }
+    ],
+    "hints": [
+      "Começou como tese de mestrado de seu arquiteto, em uma universidade da mesma cidade.",
+      "Uma versão modificada foi construída para uma feira mundial realizada de abril a outubro de 1967.",
+      "O plano original previa 1.200 moradias, mas o financiamento permitiu apenas uma construção bem menor."
+    ],
+    "summary": {
+      "description": "O conjunto habitacional de Moshe Safdie às margens do rio São Lourenço nasceu de sua tese de mestrado na Universidade McGill e foi construído em forma modificada para a Expo 67. É feito de 354 unidades idênticas de concreto pré-fabricado dispostas em três pirâmides, formando 146 residências, cada uma com um terraço-jardim no telhado do nível de baixo.",
+      "keyFeatures": [
+        "354 unidades idênticas de concreto pré-fabricado",
+        "Terraços-jardim privativos sobre os telhados de baixo",
+        "Local à beira do rio, na Cité du Havre",
+        "Construído para a Expo 67"
+      ],
+      "funFacts": [
+        "Safdie chamou depois a obtenção da encomenda de «um conto de fadas incrível».",
+        "A tese não conseguiu ganhar o prêmio canadense de melhor tese de arquitetura."
+      ]
+    }
+  },
+  "barbican-estate": {
+    "name": "Barbican Estate",
+    "aliases": ["Conjunto Barbican", "Barbican", "Barbican Centre", "The Barbican"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Britânico",
+        "bio": "Parceria de arquitetura cuja primeira obra foi o Golden Lane Estate, imediatamente ao norte do Barbican."
+      }
+    ],
+    "city": "Londres",
+    "style": "Brutalismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Torres residenciais de concreto subindo acima de blocos mais baixos", "caption": null },
+      { "alt": "Estufa de teto de vidro cheia de plantas tropicais entre sacadas de concreto", "caption": "A estufa." }
+    ],
+    "hints": [
+      "Foi construído entre 1965 e 1976 em um terreno na City de Londres.",
+      "Um trecho de uma linha de trem subterrânea foi realinhado para abrir espaço para ele.",
+      "Suas três torres residenciais já foram as mais altas de Londres."
+    ],
+    "summary": {
+      "description": "Projetado por Chamberlin, Powell and Bon e construído de 1965 a 1976, o conjunto combina quatro torres, blocos em fileira agrupados em torno de um lago e de praças verdes, e um centro de artes. Disputas trabalhistas atrasaram a última torre, a Shakespeare Tower, até 1976.",
+      "keyFeatures": [
+        "Quatro torres residenciais",
+        "Blocos em fileira em torno de um lago e de praças verdes",
+        "Centro de artes em ziguezague de concreto, inaugurado em 1982",
+        "Estufa no centro de artes"
+      ],
+      "funFacts": [
+        "Suas torres têm os nomes de Cromwell, Lauderdale, Shakespeare e Blake.",
+        "Seu primeiro edifício, Speed House, foi aberto em 1969."
+      ]
+    }
+  },
+  "boston-city-hall": {
+    "name": "Prefeitura de Boston",
+    "aliases": ["Boston City Hall", "City Hall de Boston", "City Hall Boston", "Boston City Hall Plaza"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Escritório que venceu o concurso de projeto em duas fases para o edifício em 1962."
+      }
+    ],
+    "city": "Boston",
+    "style": "Brutalismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Maciço edifício de concreto com um andar superior projetado acima de uma praça de tijolos", "caption": null },
+      { "alt": "Saguão com piso de tijolo e escadas sob um teto de concreto com caixotões", "caption": "O saguão." }
+    ],
+    "hints": [
+      "Foi proposta em 1956 como parte de um projeto de renovação urbana chamado Government Center.",
+      "Seu projeto foi escolhido em um concurso de duas fases em 1962.",
+      "Fica em uma praça inclinada, pavimentada de tijolos, em forma de trapézio curvo."
+    ],
+    "summary": {
+      "description": "Proposta em 1956 para o projeto de renovação urbana Government Center, a prefeitura foi projetada por Kallmann McKinnell & Knowles, vencedores de um concurso de 1962, com Campbell, Aldrich & Nulty. Abriga o gabinete do prefeito e a câmara municipal e influenciou a arquitetura brutalista nos Estados Unidos.",
+      "keyFeatures": [
+        "Tijolo embaixo e concreto em cima, com pavimentos superiores salientes",
+        "Câmara municipal e gabinete do prefeito no quinto andar",
+        "Praça pavimentada de tijolos",
+        "Terraços de tijolo que se irradiam para a praça"
+      ],
+      "funFacts": [
+        "A LeMessurier Consultants foi a responsável pela engenharia."
+      ]
+    }
+  },
+  "national-theatre-london": {
+    "name": "Teatro Nacional de Londres",
+    "aliases": ["National Theatre", "Royal National Theatre", "National Theatre London", "NT", "Teatro Nacional Britânico"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Britânico",
+        "bio": "Arquiteto que projetou o teatro permanente, de três palcos, junto com Peter Softley."
+      }
+    ],
+    "city": "Londres",
+    "style": "Brutalismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Terraços de concreto em camadas e torres de cenário ao lado de um calçadão à beira-rio", "caption": null },
+      { "alt": "Assentos da plateia em vermelho e laranja em volta de um palco avançado", "caption": "Uma plateia." }
+    ],
+    "hints": [
+      "Sua companhia foi fundada em 1963 por um famoso ator, que se tornou seu primeiro diretor artístico.",
+      "Sua companhia atuou no Old Vic até seu próprio edifício ficar pronto, em 1976.",
+      "Fica ao lado do Tâmisa, na South Bank, e abriga três palcos."
+    ],
+    "summary": {
+      "description": "A companhia fundada por Laurence Olivier em 1963 mudou-se do Old Vic para o edifício de Denys Lasdun e Peter Softley na South Bank, cujos três palcos abriram entre 1976 e 1977. O auditório principal tem o nome de Olivier; o Lyttelton, com proscênio, tem 890 lugares.",
+      "keyFeatures": [
+        "Concreto claro com a marca da forma de madeira bruta",
+        "Teatro Olivier",
+        "Teatro Lyttelton com arco de proscênio",
+        "Local à beira-rio, na South Bank"
+      ],
+      "funFacts": [
+        "A companhia estreou em 1963 com Hamlet, estrelado por Peter O'Toole."
+      ]
+    }
+  },
+  "groninger-museum": {
+    "name": "Museu de Groningen",
+    "aliases": ["Groninger Museum", "Groningen Museum", "Groninger"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "bio": "Designer conhecido por móveis e design industrial, convidado em 1990 pelo diretor do museu para projetar o novo museu; projetou sua torre amarela."
+      },
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Projetista do pavilhão cilíndrico prateado do museu."
+      },
+      {
+        "aliases": [],
+        "nationality": "Austríaco",
+        "bio": "Escritório que projetou o pavilhão desconstrutivista azul-claro, substituindo Frank Stella."
+      }
+    ],
+    "city": "Groningen",
+    "style": "Pós-modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Aglomerado de pavilhões coloridos, incluindo uma torre amarela, erguido em um canal", "caption": null },
+      { "alt": "Caixa de escada revestida de azulejos azuis e amarelos, com luminárias de parede", "caption": "Uma caixa de escada." }
+    ],
+    "hints": [
+      "Fica em um canal em frente à estação ferroviária da cidade.",
+      "É formado por pavilhões de vários projetistas diferentes, incluindo uma torre amarela e um cilindro prateado.",
+      "Um pintor americano foi procurado primeiro para projetar um pavilhão, mas um escritório austríaco o substituiu."
+    ],
+    "summary": {
+      "description": "Fundado em 1874, o museu ganhou seu edifício atual em 1994. Seu diretor, Frans Haks, pediu a Alessandro Mendini em 1990 que o projetasse; o resultado é um aglomerado de pavilhões em um canal: a torre amarela de Mendini, o cilindro prateado de Philippe Starck e um espaço desconstrutivista azul-claro da Coop Himmelb(l)au.",
+      "keyFeatures": [
+        "Torre amarela de Mendini",
+        "Pavilhão cilíndrico prateado de Starck",
+        "Pavilhão desconstrutivista da Coop Himmelb(l)au",
+        "Local em um canal"
+      ],
+      "funFacts": [
+        "Frank Stella foi originalmente procurado para projetar um dos pavilhões."
+      ]
+    }
+  },
+  "neue-staatsgalerie": {
+    "name": "Neue Staatsgalerie",
+    "aliases": ["Nova Galeria Estatal", "New State Gallery", "Staatsgalerie Stuttgart", "Neue Staatsgalerie Stuttgart", "Nova Galeria Estadual de Stuttgart"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Britânico",
+        "bio": "Arquiteto da James Stirling, Michael Wilford and Associates, a quem o edifício é em grande parte creditado."
+      },
+      {
+        "aliases": [],
+        "nationality": "Britânico",
+        "bio": "Sócio de Stirling, com quem venceu o concurso de 1977."
+      }
+    ],
+    "city": "Stuttgart",
+    "style": "Pós-modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Paredes de arenito e travertino com marquises de aço verdes e corrimãos vivos", "caption": null },
+      { "alt": "Pátio circular aberto de paredes de pedra, com vegetação e uma estátua", "caption": "A rotunda aberta." }
+    ],
+    "hints": [
+      "Foi construída em 1979–1984 ao lado de uma galeria neoclássica mais antiga.",
+      "Seu centro é uma rotunda a céu aberto, cruzada por um caminho público e uma rampa.",
+      "Travertino e arenito contrastam com estruturas de aço verdes e corrimãos rosa e azul vivos."
+    ],
+    "summary": {
+      "description": "Projetada por James Stirling e Michael Wilford depois de um concurso de 1977 e construída de 1979 a 1984, a galeria ecoa a velha galeria neoclássica ao lado e alude ao Altes Museum, ao Guggenheim e ao Panteão. Sua rotunda a céu aberto é circundada por um caminho público.",
+      "keyFeatures": [
+        "Rotunda central a céu aberto",
+        "Rampa pública atravessando o terreno",
+        "Travertino e arenito",
+        "Estruturas de aço verdes e corrimãos rosa e azul"
+      ],
+      "funFacts": [
+        "Alude a projetos anteriores, não construídos, de Stirling."
+      ]
+    }
+  },
+  "sainsbury-wing": {
+    "name": "Ala Sainsbury",
+    "aliases": ["Sainsbury Wing", "Sainsbury Wing da National Gallery", "Ala Sainsbury da National Gallery", "National Gallery Sainsbury Wing"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto e autor de «Complexidade e Contradição em Arquitetura» (1966), uma polêmica antimodernista; sócio de Denise Scott Brown."
+      },
+      {
+        "aliases": [],
+        "nationality": "Americana",
+        "bio": "Arquiteta e urbanista, sócia de Venturi."
+      }
+    ],
+    "city": "Londres",
+    "style": "Pós-modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Ampliação de galeria em pedra, com pilastras, ao lado de um museu de construção clássica", "caption": null },
+      { "alt": "Salas de galeria com arcos de pedra e retábulos renascentistas", "caption": "Uma galeria." }
+    ],
+    "hints": [
+      "É uma ampliação de 1991, a oeste de um museu nacional de arte em uma famosa praça.",
+      "Foi projetada por uma parceria americana de marido e mulher.",
+      "É um exemplo significativo da arquitetura pós-modernista na Grã-Bretanha."
+    ],
+    "summary": {
+      "description": "A ampliação de Robert Venturi e Denise Scott Brown a oeste da National Gallery foi inaugurada em 1991. Foi possível graças a uma doação, em 1985, de Lord Sainsbury e seus irmãos, e é um exemplo significativo de pós-modernismo na Grã-Bretanha.",
+      "keyFeatures": [
+        "Ampliação a oeste do edifício principal",
+        "Projeto pós-moderno",
+        "Financiada pelos irmãos Sainsbury"
+      ],
+      "funFacts": [
+        "O edifício principal da National Gallery foi projetado por William Wilkins."
+      ]
+    }
+  },
+  "550-madison-avenue": {
+    "name": "550 Madison Avenue",
+    "aliases": ["Edifício AT&T", "AT&T Building", "Sony Tower", "Sony Building", "Torre Sony", "550 Madison"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto americano que, com John Burgee, projetou a torre em estilo pós-moderno."
+      },
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Sócio de Johnson no projeto."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Pós-modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Arranha-céu de granito visto de baixo, com uma alta entrada em arco", "caption": null },
+      { "alt": "Retícula de um alto arco envidraçado com uma janela redonda acima, vista de baixo", "caption": "O arco de entrada." }
+    ],
+    "hints": [
+      "Foi concluído em 1984 como sede de uma companhia telefônica e depois abrigou uma empresa de eletrônicos.",
+      "Seus 37 andares são revestidos de granito rosa.",
+      "É coroado por um frontão interrompido com uma abertura circular."
+    ],
+    "summary": {
+      "description": "Projetada por Philip Johnson e John Burgee e concluída em 1984 como sede da AT&T, a torre de 197 metros é revestida de granito rosa. Um grande arco de entrada ladeado por arcadas dá para a Madison Avenue, e um frontão interrompido com uma abertura circular a coroa. Tornou-se depois a sede americana da Sony.",
+      "keyFeatures": [
+        "Coroa de frontão interrompido",
+        "Grande arco de entrada com arcadas",
+        "Fachada de granito rosa",
+        "Sky lobby acima da base"
+      ],
+      "funFacts": [
+        "Seu saguão no nível da rua era originalmente uma arcada pública."
+      ]
+    }
+  },
+  "guggenheim-bilbao": {
+    "name": "Museu Guggenheim Bilbao",
+    "aliases": ["Guggenheim Museum Bilbao", "Guggenheim Bilbao", "Guggenheim de Bilbao", "Museo Guggenheim Bilbao", "Bilbao Guggenheim"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Canadense-americano",
+        "bio": "Arquiteto de Los Angeles cujos edifícios escultóricos, revestidos de metal, são frequentemente associados ao desconstrutivismo, rótulo que ele não aceita."
+      }
+    ],
+    "city": "Bilbao",
+    "style": "Desconstrutivismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Museu curvo revestido de titânio, ao lado de um rio e uma ponte", "caption": null },
+      { "alt": "Átrio elevado de paredes curvas e estruturas de aço envidraçadas", "caption": "O átrio." }
+    ],
+    "hints": [
+      "Foi inaugurado por um rei em 18 de outubro de 1997.",
+      "Philip Johnson o chamou de «o maior edifício de nosso tempo».",
+      "Suas formas curvas de pedra, vidro e titânio se desdobram ao longo de um rio, em uma antiga cidade industrial."
+    ],
+    "summary": {
+      "description": "O museu de Frank Gehry às margens do rio Nervión foi inaugurado em 18 de outubro de 1997 e imediatamente aclamado como obra-prima do século XX. Seus volumes curvos revestidos de titânio se organizam em torno de um átrio cheio de luz, apelidado de A Flor, com vista para o estuário e as colinas.",
+      "keyFeatures": [
+        "Revestimento de titânio",
+        "Átrio apelidado de A Flor",
+        "Formas interligadas de pedra, vidro e titânio",
+        "Local à beira-rio"
+      ],
+      "funFacts": [
+        "Um crítico do The New Yorker o chamou de «um fantástico navio de sonho de forma ondulante, em um manto de titânio»."
+      ]
+    }
+  }
+}

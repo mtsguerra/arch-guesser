@@ -1,7 +1,7 @@
 import { useEffect, useId, useMemo, useState } from 'react'
 import { AnimatePresence, LayoutGroup, motion } from 'motion/react'
 import { duration, easeOut } from '../../motion.js'
-import { strings } from '../../strings.js'
+import { useStrings } from '../../i18n.js'
 import { Sheet } from './Sheet.jsx'
 import { SheetTabs } from './SheetTabs.jsx'
 import { TitleBlock } from './TitleBlock.jsx'
@@ -23,10 +23,11 @@ const sheetMotion = {
  * Remount per building (`key={building.id}`) so the selected sheet resets.
  */
 export function DrawingBoard({ building, revealed, fields }) {
+  const strings = useStrings()
   const idPrefix = useId()
   const [[requested, direction], setPage] = useState([0, 1])
   const [failed, setFailed] = useState(() => new Set())
-  const allSheets = useMemo(() => buildSheets(building), [building])
+  const allSheets = useMemo(() => buildSheets(building, strings), [building, strings])
   const sheets = allSheets.filter((s) => !failed.has(s.key))
   const index = Math.min(requested, Math.max(sheets.length - 1, 0))
   const sheet = sheets[index]

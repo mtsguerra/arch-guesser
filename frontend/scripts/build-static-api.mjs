@@ -2,15 +2,17 @@
 //   public/api/eras.json                 -> GET /api/eras
 //   public/api/buildings/index.json      -> every building id (the browser picks the random one)
 //   public/api/buildings/{id}.json       -> GET /api/buildings/{id}
+//   public/api/pt-BR/buildings/{id}.json -> GET /api/buildings/{id}?lang=pt-BR (translated text)
 // The Java side stays the source of truth: BuildingValidator checks buildings.json at startup and
 // in `./gradlew test`, and Era.java defines the eras, so run those before shipping data changes.
-import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', '..')
 const buildingsFile = join(root, 'src/main/resources/data/buildings.json')
 const eraFile = join(root, 'src/main/java/com/mtsguerra/archguesser/building/Era.java')
+const translationsDir = join(root, 'src/main/resources/data/pt-BR')
 const out = join(root, 'frontend/public/api')
 
 const write = (path, value) => writeFileSync(path, JSON.stringify(value))
@@ -76,9 +78,63 @@ if (eras.length === 0) throw new Error(`No eras found in ${eraFile}`)
 const unknownEra = buildings.find((b) => !eras.some((e) => e.id === b.era))
 if (unknownEra) throw new Error(`${unknownEra.id} uses an era missing from Era.java: ${unknownEra.era}`)
 
+// Mirrors BuildingTranslator.java: lays the pt-BR text over a building; list sizes must match.
+const orElse = (translated, source) => (translated == null || String(translated).trim() === '' ? source : translated)
+function zip(b, what, source, translated, merge) {
+  if (translated == null) return source
+  if (translated.length !== source.length) {
+    throw new Error(`Translation of ${b.id}: ${what} has ${translated.length} entries, the source has ${source.length}`)
+  }
+  return source.map((item, i) => (translated[i] == null ? item : merge(item, translated[i])))
+}
+function translate(b, t) {
+  const name = orElse(t.name, b.name)
+  const aliases = new Set(b.aliases)
+  if (name !== b.name) aliases.add(b.name)
+  for (const a of t.aliases ?? []) aliases.add(a)
+  aliases.delete(name)
+  const s = t.summary
+  return {
+    ...b,
+    name,
+    aliases: [...aliases],
+    architects: zip(b, 'architects', b.architects, t.architects, (a, x) => ({
+      ...a,
+      aliases: [...new Set([...a.aliases, ...(x.aliases ?? [])])],
+      nationality: orElse(x.nationality, a.nationality),
+      bio: orElse(x.bio, a.bio),
+    })),
+    location: { ...b.location, city: orElse(t.city, b.location.city) },
+    style: orElse(t.style, b.style),
+    drawings: zip(b, 'drawings', b.drawings, t.drawings, (d, x) => ({ ...d, label: orElse(x.label, d.label), alt: orElse(x.alt, d.alt) })),
+    photos: zip(b, 'photos', b.photos, t.photos, (p, x) => ({ ...p, alt: orElse(x.alt, p.alt), caption: orElse(x.caption, p.caption) })),
+    hints: zip(b, 'hints', b.hints, t.hints, (h, text) => ({ ...h, text: orElse(text, h.text) })),
+    summary: s
+      ? {
+          ...b.summary,
+          description: orElse(s.description, b.summary.description),
+          keyFeatures: zip(b, 'summary.keyFeatures', b.summary.keyFeatures, s.keyFeatures, (_, x) => x),
+          funFacts: zip(b, 'summary.funFacts', b.summary.funFacts, s.funFacts, (_, x) => x),
+        }
+      : b.summary,
+  }
+}
+const translations = {}
+for (const file of readdirSync(translationsDir).filter((f) => f.endsWith('.json')).sort()) {
+  for (const [id, t] of Object.entries(JSON.parse(readFileSync(join(translationsDir, file), 'utf8')))) {
+    if (translations[id]) throw new Error(`Building '${id}' is translated twice (see ${file})`)
+    if (!buildings.some((b) => b.id === id)) throw new Error(`${file} translates unknown building '${id}'`)
+    translations[id] = t
+  }
+}
+
 rmSync(out, { recursive: true, force: true })
 mkdirSync(join(out, 'buildings'), { recursive: true })
 write(join(out, 'eras.json'), eras)
 write(join(out, 'buildings', 'index.json'), buildings.map((b) => b.id))
-for (const b of buildings) write(join(out, 'buildings', `${b.id}.json`), b)
+mkdirSync(join(out, 'pt-BR', 'buildings'), { recursive: true })
+for (const b of buildings) {
+  write(join(out, 'buildings', `${b.id}.json`), b)
+  write(join(out, 'pt-BR', 'buildings', `${b.id}.json`), translations[b.id] ? translate(b, translations[b.id]) : b)
+}
 console.log(`Static API: ${buildings.length} buildings, ${eras.length} eras -> ${out}`)

@@ -1,0 +1,485 @@
+{
+  "villa-rotonda": {
+    "name": "Villa La Rotonda",
+    "aliases": ["Villa Rotonda", "Villa Capra", "A Rotonda"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano (República de Veneza)",
+        "bio": "Nascido em Pádua e formado como pedreiro, Palladio tornou-se o arquiteto mais influente do Renascimento. Seu tratado Os Quatro Livros da Arquitetura (1570) espalhou suas vilas simétricas, com fachadas de templo, pela Europa e pelas Américas, dando origem ao palladianismo."
+      },
+      {
+        "aliases": [],
+        "nationality": "Italiano (República de Veneza)",
+        "bio": "Nascido em Vicenza, Scamozzi herdou vários projetos inacabados de Palladio após a morte do mestre, em 1580, entre eles o Teatro Olímpico e La Rotonda, onde desenhou a cúpula baixa, semelhante à do Panteão. Seu tratado L'idea della architettura universale (1615) e seu único discípulo, Baldassarre Longhena, levaram as ideias palladianas ao barroco veneziano."
+      }
+    ],
+    "city": "Vicenza",
+    "style": "Palladiano",
+    "drawings": [
+      { "label": "Planta do pavimento principal", "alt": "Planta quadrada com um pórtico idêntico em cada um dos quatro lados e um salão circular no centro" },
+      { "label": "Corte transversal", "alt": "Corte de uma vila elevada mostrando um salão central com cúpula que se ergue acima dos cômodos ao redor" }
+    ],
+    "photos": [
+      { "alt": "Vila cor de creme em um gramado, com pórticos de templo em dois lados visíveis e uma cúpula baixa de telhas", "caption": null },
+      { "alt": "Vista para cima de uma cúpula com afrescos e um óculo no centro", "caption": "A casa inteira gira em torno de um único salão circular com cúpula." }
+    ],
+    "hints": [
+      "Foi construída no alto de uma colina como refúgio para um clérigo aposentado.",
+      "Quatro frontões de templo idênticos olham para as quatro direções, de modo que esta casa de colina não tem fundos.",
+      "Seu arquiteto morreu antes de ela ficar pronta; um colega mais jovem a concluiu com uma cúpula mais baixa."
+    ],
+    "summary": {
+      "description": "Iniciada em 1567 no alto de uma colina nos arredores de Vicenza para o clérigo aposentado Paolo Almerico, La Rotonda é um bloco quadrado perfeitamente simétrico, com um pórtico em cada lado e um salão com cúpula em seu coração. Palladio tratou uma casa particular como um templo antigo, e o resultado tornou-se uma das construções mais copiadas da arquitetura ocidental.",
+      "keyFeatures": [
+        "Planta quadrada com quatro pórticos jônicos idênticos",
+        "Salão circular central sob uma cúpula",
+        "Simetria nos dois eixos",
+        "Elevada sobre uma colina para dominar a vista em todas as direções"
+      ],
+      "funFacts": [
+        "Palladio morreu em 1580; Vincenzo Scamozzi concluiu a vila e substituiu a cúpula alta prevista por uma mais baixa, aberta ao céu por um óculo, como o Panteão de Roma.",
+        "Ela inspirou construções que vão da Chiswick House, em Londres, a casas de campo por toda a Grã-Bretanha e os Estados Unidos.",
+        "Faz parte do Patrimônio Mundial da UNESCO «Cidade de Vicenza e as Vilas Palladianas do Vêneto»."
+      ]
+    }
+  },
+  "sant-ivo-alla-sapienza": {
+    "name": "Sant'Ivo alla Sapienza",
+    "aliases": ["Santo Ivo", "Santo Ivo da Sapiência"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Suíço-italiano (nascido no Ticino)",
+        "bio": "Filho de um pedreiro de Bissone, no Lago de Lugano, Borromini passou a carreira em Roma, onde sua geometria inquieta e suas paredes ondulantes fizeram dele o grande rival de Gian Lorenzo Bernini. Construiu poucas igrejas, quase todas pequenas, mas seu uso inventivo da geometria moldou a arquitetura barroca em toda a Europa."
+      }
+    ],
+    "city": "Roma",
+    "style": "Barroco romano",
+    "drawings": [
+      { "label": "Planta da igreja e do pátio", "alt": "Planta em forma de estrela de seis pontas, formada por dois triângulos sobrepostos, com reentrâncias arredondadas e angulares nas pontas" },
+      { "label": "Corte pela cúpula", "alt": "Corte de uma igreja alta de planta centralizada: as paredes sobem até uma cúpula nervurada coroada por uma esbelta lanterna" }
+    ],
+    "photos": [
+      { "alt": "Fachada côncava de igreja no fim de um pátio com arcadas, coroada por uma lanterna em espiral", "caption": "Uma lanterna em espiral coroa a cúpula." },
+      { "alt": "Olhando para cima: paredes brancas que fluem sem interrupção até uma cúpula em forma de estrela", "caption": "As paredes sobem em direção à cúpula sem nenhuma interrupção." }
+    ],
+    "hints": [
+      "Sua planta nasce de dois triângulos equiláteros entrelaçados.",
+      "A igreja fecha o fundo de um pátio que pertencia à antiga universidade da cidade.",
+      "Sua lanterna termina em uma espiral como um saca-rolhas, única na cidade."
+    ],
+    "summary": {
+      "description": "Borromini construiu esta igreja universitária dentro do pátio já existente do Palazzo della Sapienza, em Roma. Sua planta nasce de dois triângulos equiláteros entrelaçados, e as paredes em forma de estrela continuam direto até a cúpula, fazendo todo o interior parecer um único espaço esculpido.",
+      "keyFeatures": [
+        "Planta em estrela formada por dois triângulos entrelaçados",
+        "Paredes e cúpula formam uma superfície contínua",
+        "Interior branco, quase sem cor, que coloca a forma em primeiro lugar",
+        "Lanterna em espiral sobre uma cúpula escalonada"
+      ],
+      "funFacts": [
+        "Costuma-se dizer que a planta evoca uma abelha, emblema heráldico da família Barberini, do papa Urbano VIII.",
+        "Borromini foi nomeado arquiteto da Sapienza em 1632, ao que se diz por recomendação de Bernini.",
+        "A construção atravessou os pontificados de três papas, e cada um deixou seus emblemas no edifício."
+      ]
+    }
+  },
+  "monticello": {
+    "name": "Monticello",
+    "aliases": [],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Terceiro presidente dos Estados Unidos e principal autor da Declaração de Independência, Jefferson foi também um arquiteto autodidata. Aprendendo sobretudo com os livros de Palladio, defendeu a arquitetura clássica como modelo para a nova república e projetou o Capitólio do Estado da Virgínia e a Universidade da Virgínia."
+      }
+    ],
+    "city": "Charlottesville, Virgínia",
+    "style": "Neoclássico (palladiano)",
+    "drawings": [
+      { "label": "Planta do primeiro pavimento", "alt": "Planta simétrica de uma casa com pórticos na frente e nos fundos, um salão central, uma sala de estar e cômodos octogonais nos cantos" },
+      { "label": "Elevação sul", "alt": "Elevação lateral de uma casa com três janelas altas em arco sob um telhado com balaustrada e uma cúpula baixa" }
+    ],
+    "photos": [
+      { "alt": "Casa de tijolos vermelhos com pórtico branco de colunas e uma cúpula octogonal baixa, vista do outro lado de um gramado", "caption": "Esta fachada aparece em uma moeda dos Estados Unidos." },
+      { "alt": "Parede de um salão decorada com chifres, mapas e uma escada de biblioteca acima de um busto de mármore", "caption": "O vestíbulo de entrada funcionava também como museu de fósseis, mapas e achados de expedições." }
+    ],
+    "hints": [
+      "Seu dono aprendeu arquitetura sozinho, em grande parte nos livros de um mestre do Renascimento.",
+      "Seu dono passou quatro décadas projetando, demolindo e reconstruindo a casa.",
+      "Sua fachada oeste aparece no verso de uma moeda."
+    ],
+    "summary": {
+      "description": "Jefferson começou sua casa de plantação no alto da colina em 1768 e passou quarenta anos remodelando-a, acrescentando uma cúpula octogonal depois de ver em Paris as construções neoclássicas mais recentes. Construída e mantida em grande parte por pessoas escravizadas, é hoje apresentada tanto como marco arquitetônico quanto como um lugar para encarar a história da escravidão nos Estados Unidos.",
+      "keyFeatures": [
+        "Cúpula octogonal baixa sobre a fachada oeste",
+        "Pórticos semelhantes a templos, à maneira de Palladio",
+        "Projetada para parecer de um só pavimento, escondendo os andares superiores",
+        "Alas de serviço escondidas sob terraços na encosta"
+      ],
+      "funFacts": [
+        "A fachada oeste está estampada no verso da moeda de cinco centavos dos Estados Unidos.",
+        "É Patrimônio Mundial da UNESCO junto com a Universidade da Virgínia, que Jefferson também projetou.",
+        "Jefferson aprendeu arquitetura sobretudo com Os Quatro Livros de Palladio, e os pórticos e as proporções mostram isso."
+      ]
+    }
+  },
+  "sao-francisco-de-assis-ouro-preto": {
+    "name": "Igreja de São Francisco de Assis (Ouro Preto)",
+    "aliases": ["Igreja de São Francisco de Ouro Preto", "São Francisco de Ouro Preto"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro (Brasil colonial)",
+        "bio": "Filho de um arquiteto português e de uma mulher africana escravizada, Aleijadinho tornou-se o maior artista do Brasil colonial, esculpindo pedra-sabão e madeira nas cidades mineradoras de Minas Gerais. Uma doença degenerativa o deixou com deficiências, mas ele continuou trabalhando; seus doze profetas em pedra-sabão em Congonhas são suas esculturas mais conhecidas."
+      }
+    ],
+    "city": "Ouro Preto, Minas Gerais",
+    "style": "Rococó (Barroco Mineiro)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Igreja branca com torres sineiras redondas e entalhes de pedra ornamentados em volta de uma porta verde", "caption": null },
+      { "alt": "Teto pintado da nave de uma igreja: um céu cheio de figuras emoldurado por arquitetura pintada", "caption": "O teto da nave, pintado por Manuel da Costa Ataíde." }
+    ],
+    "hints": [
+      "Fica em uma cidade mineradora de ouro do século XVIII.",
+      "Suas torres sineiras circulares eram uma novidade entre as igrejas da região, e seu frontispício é entalhado em pedra-sabão local.",
+      "Seu projetista foi também o maior escultor da colônia, conhecido por um apelido."
+    ],
+    "summary": {
+      "description": "Construída para a Ordem Terceira de São Francisco em Ouro Preto, capital da corrida do ouro em Minas Gerais, esta igreja é a obra-prima de Aleijadinho, que projetou o edifício e grande parte de seus entalhes. Sua fachada curva, suas torres redondas e seus relevos em pedra-sabão fazem dela a obra definidora do Barroco Mineiro, o barroco tardio, com toques de rococó, das cidades mineradoras do Brasil.",
+      "keyFeatures": [
+        "Torres sineiras circulares recuadas em relação à fachada",
+        "Frontispício em pedra-sabão com relevo de São Francisco recebendo os estigmas",
+        "Óculo preenchido por um relevo entalhado em vez de uma janela",
+        "Teto da nave pintado por Manuel da Costa Ataíde"
+      ],
+      "funFacts": [
+        "A Ordem Terceira pediu licença a Lisboa para construir em 1752; a aprovação só veio em 1771, anos depois de as obras terem começado com uma licença provisória.",
+        "O centro histórico de Ouro Preto é Patrimônio Mundial da UNESCO."
+      ]
+    }
+  },
+  "mosteiro-de-sao-bento-rio": {
+    "name": "Mosteiro de São Bento",
+    "aliases": ["Mosteiro de São Bento do Rio de Janeiro"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Engenheiro militar português enviado ao Brasil colonial, Frias de Mesquita projetou fortificações e edifícios ao longo da costa. Em 1617 traçou os planos de São Bento na maneira maneirista sóbria então corrente em Portugal."
+      },
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "Frade beneditino e arquiteto atuante no Rio de Janeiro colonial, foi uma das principais figuras por trás da construção do mosteiro. Alterou o plano original durante a obra, transformando a igreja de nave única em uma de três naves."
+      }
+    ],
+    "city": "Rio de Janeiro",
+    "style": "Exterior maneirista, interior barroco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada de igreja branca e simples, com duas torres pontiagudas e três entradas em arco", "caption": null },
+      { "alt": "Nave de igreja revestida quase por completo de talha dourada", "caption": "Por dentro, quase todas as superfícies são cobertas de entalhes dourados." }
+    ],
+    "hints": [
+      "Atrás de uma fachada simples e sóbria, quase todas as superfícies internas são cobertas de entalhes dourados.",
+      "Foi paga com a renda de engenhos de açúcar doados aos monges e construída por trabalhadores escravizados.",
+      "Pertence a uma ordem fundada por São Bento, numa colina sobre um porto sul-americano."
+    ],
+    "summary": {
+      "description": "Planejado em 1617 e iniciado em 1633 numa colina com vista para o porto do Rio de Janeiro, o mosteiro beneditino esconde um dos interiores barrocos mais ricos do Brasil atrás de uma sóbria fachada maneirista. A igreja foi ampliada para três naves durante a construção e, a partir do fim do século XVII, suas paredes e abóbadas foram cobertas de talha dourada.",
+      "keyFeatures": [
+        "Fachada maneirista com três arcos de entrada e frontão triangular",
+        "Nave e capelas revestidas de talha dourada",
+        "Entalhes que vão do barroco tardio ao rococó",
+        "Claustro concluído em 1755"
+      ],
+      "funFacts": [
+        "Boa parte da talha da nave e da capela-mor foi desenhada pelo beneditino Frei Domingos da Conceição (1643–1718).",
+        "O claustro foi projetado pelo engenheiro militar José Fernandes Pinto Alpoim e terminado em 1755."
+      ]
+    }
+  },
+  "theatro-municipal-rio": {
+    "name": "Theatro Municipal do Rio de Janeiro",
+    "aliases": ["Teatro Municipal do Rio de Janeiro"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Engenheiro e depois político, filho do prefeito reformador do Rio, Francisco Pereira Passos. Sob o pseudônimo «Áquila», venceu o concurso da cidade para um novo teatro municipal."
+      },
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Arquiteto francês que trabalhou com Oliveira Passos no projeto do teatro, que toma como modelo a Ópera de Paris, de Charles Garnier."
+      }
+    ],
+    "city": "Rio de Janeiro",
+    "style": "Eclético (Beaux-Arts)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Rua em preto e branco, de paralelepípedos molhados, que leva a um edifício ornamentado com cúpula", "caption": null },
+      { "alt": "Grande escadaria de mármore subindo entre balaustradas douradas sob lustres", "caption": "A grande escadaria." }
+    ],
+    "hints": [
+      "Seu projeto toma como modelo uma famosa casa de ópera parisiense do século XIX.",
+      "Foi construído em quatro anos e meio, de 1905 a 1909, sobre uma fundação de 1.180 estacas de madeira cravadas em solo encharcado.",
+      "Fica diante de uma praça apelidada por causa de seus cinemas, no centro de uma antiga capital nacional."
+    ],
+    "summary": {
+      "description": "A casa de ópera do Rio foi a vitrine da reforma de inspiração parisiense da cidade no início do século XX, quando a nova Avenida Central foi aberta no antigo centro. Seu projeto eclético e ricamente esculpido segue a Ópera de Paris, de Charles Garnier, e foi inaugurado em julho de 1909 com 1.739 lugares.",
+      "keyFeatures": [
+        "Fachada eclética inspirada na Ópera de Paris",
+        "Cúpulas verdes e douradas coroadas por águias",
+        "Nomes de artistas europeus e brasileiros inscritos nas paredes externas",
+        "Fundação de 1.180 estacas de madeira"
+      ],
+      "funFacts": [
+        "O projeto vencedor foi inscrito sob o pseudônimo «Áquila».",
+        "O presidente Nilo Peçanha o inaugurou em 14 de julho de 1909.",
+        "Fica diante da Cinelândia, perto da Biblioteca Nacional e do Museu Nacional de Belas Artes."
+      ]
+    }
+  },
+  "igreja-sao-francisco-pampulha": {
+    "name": "Igreja de São Francisco de Assis da Pampulha",
+    "aliases": ["Igrejinha da Pampulha", "Igreja da Pampulha"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Nascido no Rio de Janeiro, Niemeyer transformou o concreto armado em curvas livres e sensuais, do conjunto da Pampulha, nos anos 1940, aos palácios de Brasília. Trabalhando até a morte, aos 104 anos, recebeu o Prêmio Pritzker em 1988 e tornou-se o arquiteto mais conhecido que o Brasil já produziu."
+      }
+    ],
+    "city": "Belo Horizonte, Minas Gerais",
+    "style": "Modernismo brasileiro",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fileira de abóbadas parabólicas brancas com um mural de azulejos azuis e brancos, ao lado de uma torre em treliça", "caption": null },
+      { "alt": "Nave de uma pequena igreja, com bancos de madeira voltados para um grande mural pintado atrás do altar", "caption": "A nave, voltada para o mural pintado atrás do altar." }
+    ],
+    "hints": [
+      "Seu telhado é uma fileira de abóbadas parabólicas de concreto, forma então usada em hangares de aviões.",
+      "As autoridades da Igreja se recusaram por anos a consagrá-la, por objeção à sua forma e a um mural que mostrava um cachorro ao lado de São Francisco.",
+      "Faz parte de um conjunto à beira de um lago construído nos anos 1940 para um prefeito que depois se tornou presidente."
+    ],
+    "summary": {
+      "description": "Último edifício do conjunto da Pampulha que Niemeyer projetou para Juscelino Kubitschek, então prefeito de Belo Horizonte, esta pequena capela abandona a fórmula da laje sobre pilotis por uma fileira de abóbadas parabólicas de concreto que são, ao mesmo tempo, estrutura e vedação. Suas curvas livres anunciaram um modernismo claramente brasileiro.",
+      "keyFeatures": [
+        "Abóbadas parabólicas de concreto armado, forma então usada em hangares",
+        "Abóbadas que funcionam como estrutura e como paredes",
+        "Campanário independente em treliça",
+        "Murais de azulejos de Cândido Portinari e Paulo Werneck"
+      ],
+      "funFacts": [
+        "Lá dentro, as catorze Estações da Via Sacra de Portinari estão entre suas obras mais importantes.",
+        "A estrutura foi calculada pelo engenheiro Joaquim Cardozo, colaborador de longa data de Niemeyer.",
+        "O Conjunto Moderno da Pampulha tornou-se Patrimônio Mundial da UNESCO em 2016."
+      ]
+    }
+  },
+  "palacio-da-alvorada": {
+    "name": "Palácio da Alvorada",
+    "aliases": ["Palácio da Alvorada de Brasília"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Nascido no Rio de Janeiro, Niemeyer transformou o concreto armado em curvas livres e sensuais, do conjunto da Pampulha, nos anos 1940, aos palácios de Brasília. Trabalhando até a morte, aos 104 anos, recebeu o Prêmio Pritzker em 1988 e tornou-se o arquiteto mais conhecido que o Brasil já produziu."
+      }
+    ],
+    "city": "Brasília",
+    "style": "Modernismo brasileiro",
+    "drawings": [],
+    "photos": [
+      { "alt": "Palácio de vidro, longo e baixo, atrás de uma colunata de colunas brancas curvas, refletido em um espelho d'água ao entardecer", "caption": null },
+      { "alt": "Salão envidraçado com vista, entre colunas brancas curvas, para um lago", "caption": "Por dentro, a colunata emoldura o lago." }
+    ],
+    "hints": [
+      "Foi construído em cerca de catorze meses, um dos primeiros edifícios de uma capital totalmente nova.",
+      "É a residência oficial de um chefe de Estado.",
+      "Seu nome vem de uma pergunta feita por seu cliente: o que é a nova capital, senão a alvorada de um novo dia para o Brasil?"
+    ],
+    "summary": {
+      "description": "Construída em cerca de catorze meses, de abril de 1957 a junho de 1958, a residência oficial do presidente do Brasil foi um dos primeiros edifícios da nova capital. Uma longa caixa de vidro fica atrás de um pórtico de colunas brancas escultóricas, cujas curvas se tornaram um símbolo de Brasília.",
+      "keyFeatures": [
+        "Caixa de vidro recuada atrás de uma colunata",
+        "Colunas curvas que afinam até pontas delicadas",
+        "Espelho d'água na frente",
+        "Proporções longas e baixas, perto da margem do Lago Paranoá"
+      ],
+      "funFacts": [
+        "Todos os presidentes brasileiros desde Juscelino Kubitschek moraram ali.",
+        "Uma parede dourada no interior traz uma citação de Kubitschek, de 1956, sobre a nova capital."
+      ]
+    }
+  },
+  "congresso-nacional-brasilia": {
+    "name": "Palácio do Congresso Nacional",
+    "aliases": ["Congresso Nacional", "Congresso Nacional do Brasil"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Nascido no Rio de Janeiro, Niemeyer transformou o concreto armado em curvas livres e sensuais, do conjunto da Pampulha, nos anos 1940, aos palácios de Brasília. Trabalhando até a morte, aos 104 anos, recebeu o Prêmio Pritzker em 1988 e tornou-se o arquiteto mais conhecido que o Brasil já produziu."
+      }
+    ],
+    "city": "Brasília",
+    "style": "Modernismo brasileiro",
+    "drawings": [],
+    "photos": [
+      { "alt": "Torres de escritórios gêmeas entre uma cúpula e uma tigela emborcada sobre uma longa plataforma, ao lado de um espelho d'água", "caption": null },
+      { "alt": "Vasto plenário circular com fileiras de mesas sob um teto de luz colorida", "caption": "O plenário sob a tigela emborcada." }
+    ],
+    "hints": [
+      "Foi inaugurado em 1960, o ano em que sua cidade se tornou capital nacional.",
+      "A cúpula baixa abriga uma casa do Legislativo; a tigela emborcada, a outra.",
+      "Suas duas torres de escritórios são ligadas de modo a formar um H."
+    ],
+    "summary": {
+      "description": "Inaugurado com a nova capital em 1960, o parlamento do Brasil fecha a Esplanada dos Ministérios na Praça dos Três Poderes. Niemeyer pôs as duas casas sobre uma longa plataforma horizontal, o Senado sob uma cúpula e a Câmara dos Deputados em uma tigela emborcada, com duas torres gêmeas de 28 andares subindo entre elas.",
+      "keyFeatures": [
+        "Plataforma horizontal cujo teto é uma praça elevada",
+        "Cúpula sobre o Senado Federal",
+        "Tigela emborcada sobre a Câmara dos Deputados",
+        "Torres de escritórios gêmeas ligadas de modo a formar um H"
+      ],
+      "funFacts": [
+        "No Rio de Janeiro, as duas casas funcionavam em prédios separados; Brasília as reuniu em um só palácio.",
+        "A estrutura foi projetada pelo engenheiro Joaquim Cardozo.",
+        "Brasília é Patrimônio Mundial da UNESCO."
+      ]
+    }
+  },
+  "masp": {
+    "name": "Museu de Arte de São Paulo",
+    "aliases": ["Museu de Arte de São Paulo Assis Chateaubriand"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileira, nascida na Itália",
+        "bio": "Nascida Achillina Bo em Roma, mudou-se para o Brasil em 1946 com o marido, o crítico e marchand Pietro Maria Bardi. Fascinada pela cultura popular brasileira, uniu o rigor modernista a uma arquitetura crua e humana, do MASP ao SESC Pompeia."
+      }
+    ],
+    "city": "São Paulo",
+    "style": "Brutalismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Caixa de galeria com paredes de vidro suspensa entre dois pórticos de concreto pintados de vermelho", "caption": null },
+      { "alt": "Longa galeria aberta onde os quadros ficam em cavaletes transparentes, enfileirados", "caption": "Quadros expostos em cavaletes transparentes." }
+    ],
+    "hints": [
+      "Suas galerias foram erguidas em uma caixa de vidro pendurada entre dois grandes pórticos, deixando uma praça pública embaixo.",
+      "Sua arquiteta expôs os quadros em cavaletes de vidro, de modo que parecessem flutuar na galeria.",
+      "Seu acervo de arte europeia é considerado um dos melhores do Hemisfério Sul."
+    ],
+    "summary": {
+      "description": "No terreno do antigo belvedere Trianon, na Avenida Paulista, Lina Bo Bardi ergueu as galerias do museu em uma caixa de vidro e concreto suspensa entre dois grandes pórticos. Embaixo, uma praça pública coberta, com cerca de 74 metros de comprimento, fica aberta para a cidade.",
+      "keyFeatures": [
+        "Caixa de galerias vencendo cerca de 74 metros entre dois pares de pilares",
+        "Praça pública livre embaixo (o vão livre)",
+        "Concreto aparente e vidro",
+        "Quadros expostos em cavaletes transparentes"
+      ],
+      "funFacts": [
+        "Bo Bardi expôs os quadros em cavaletes de vidro e concreto, de modo que parecessem flutuar na galeria; o museu os trouxe de volta em 2015.",
+        "O museu foi inaugurado em 1947 em um prédio no centro e mudou-se para cá em 1968.",
+        "A rainha Elizabeth II esteve presente na inauguração, em 1968."
+      ]
+    }
+  },
+  "catedral-de-brasilia": {
+    "name": "Catedral Metropolitana de Brasília",
+    "aliases": ["Catedral de Brasília", "Catedral Metropolitana Nossa Senhora Aparecida"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Nascido no Rio de Janeiro, Niemeyer transformou o concreto armado em curvas livres e sensuais, do conjunto da Pampulha, nos anos 1940, aos palácios de Brasília. Trabalhando até a morte, aos 104 anos, recebeu o Prêmio Pritzker em 1988 e tornou-se o arquiteto mais conhecido que o Brasil já produziu."
+      }
+    ],
+    "city": "Brasília",
+    "style": "Modernismo brasileiro",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício circular de dezesseis nervuras de concreto branco curvas reunidas no alto, com vidro entre elas", "caption": null },
+      { "alt": "Altar sob um dossel de vitrais azuis, verdes e brancos entre nervuras curvas", "caption": "A nave sob seu dossel de vitrais." }
+    ],
+    "hints": [
+      "Sua estrutura é um hiperboloide de dezesseis colunas curvas de concreto.",
+      "Os visitantes entram por uma passagem baixa e escura e saem em uma luz colorida.",
+      "Foi consagrada em 1970 em uma capital fundada apenas dez anos antes."
+    ],
+    "summary": {
+      "description": "Um hiperboloide de dezesseis colunas curvas de concreto, cada uma pesando cerca de 90 toneladas, ergue-se de uma base circular como mãos estendidas para o céu. Os visitantes entram por uma passagem escura e baixa e emergem em uma nave cheia de luz colorida.",
+      "keyFeatures": [
+        "Hiperboloide de 16 colunas de concreto",
+        "Vidro entre as nervuras, com vitrais de Marianne Peretti (1990)",
+        "Entrada por uma passagem baixa e escura",
+        "Espelho d'água em volta do edifício"
+      ],
+      "funFacts": [
+        "Três anjos de Alfredo Ceschiatti pendem de cabos de aço sobre a nave.",
+        "Teve cálculo estrutural de Joaquim Cardozo e foi consagrada em 31 de maio de 1970."
+      ]
+    }
+  },
+  "pinacoteca-sao-paulo": {
+    "name": "Pinacoteca do Estado de São Paulo",
+    "aliases": ["Pinacoteca de São Paulo", "Pinacoteca Luz"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "O arquiteto mais prolífico da São Paulo da virada do século, Ramos de Azevedo chefiava o escritório por trás de muitos dos edifícios públicos da cidade e dirigiu o Liceu de Artes e Ofícios, para o qual este edifício foi projetado."
+      },
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "bio": "Principal colaborador de Ramos de Azevedo, com quem projetou o edifício do Liceu na maneira eclética italiana."
+      },
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Nascido em Vitória e radicado em São Paulo, Mendes da Rocha foi uma figura central da Escola Paulista, conhecida por estruturas de concreto ousadas e econômicas. Recebeu o Prêmio Pritzker em 2006 e o Leão de Ouro da Bienal de Veneza em 2016."
+      },
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Arquiteto paulistano que liderou a reforma de 1993–98 com Paulo Mendes da Rocha e Weliton Ricoy Torres."
+      },
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Arquiteto paulistano, coautor da reforma de 1993–98 com Paulo Mendes da Rocha e Eduardo Colonelli."
+      }
+    ],
+    "city": "São Paulo",
+    "style": "Ecletismo italiano (reformada em 1993–98)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longo edifício de tijolos com loggias de colunas atrás de uma fonte no jardim", "caption": null },
+      { "alt": "Paredes de tijolo aparente de um pátio subindo até uma cobertura de vidro", "caption": "Um pátio coberto de vidro na reforma dos anos 1990." }
+    ],
+    "hints": [
+      "Suas paredes de tijolo nunca receberam o reboco que estava planejado.",
+      "Foi construída para uma escola de artes e ofícios e inaugurada, ainda inacabada, em 1900.",
+      "Abriga o museu de arte mais antigo da maior cidade do país."
+    ],
+    "summary": {
+      "description": "Projetado por Ramos de Azevedo e Domiziano Rossi para o Liceu de Artes e Ofícios, este edifício eclético de tijolos, ao lado do Jardim da Luz, foi inaugurado inacabado em 1900 e tornou-se a sede do museu de arte mais antigo de São Paulo, fundado em 1905. Entre 1993 e 1998, Paulo Mendes da Rocha, com Eduardo Colonelli e Weliton Ricoy Torres, o transformou: os pátios foram cobertos de vidro e atravessados por passarelas metálicas, e o tijolo aparente foi deixado à mostra.",
+      "keyFeatures": [
+        "Paredes de tijolo aparente, nunca rebocadas",
+        "Dois pátios internos cobertos de vidro na reforma",
+        "Passarelas metálicas que cruzam os pátios",
+        "Loggias laterais e janelas voltadas para o Jardim da Luz"
+      ],
+      "funFacts": [
+        "A reforma ganhou o Prêmio Mies van der Rohe para a América Latina.",
+        "Foi tombada em 1982, como parte do conjunto da virada do século do bairro da Luz."
+      ]
+    }
+  }
+}

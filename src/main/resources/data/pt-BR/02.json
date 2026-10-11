@@ -1,0 +1,456 @@
+{
+  "mac-niteroi": {
+    "name": "Museu de Arte Contemporânea de Niterói",
+    "aliases": ["MAC Niterói", "MAC"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Nascido no Rio de Janeiro, Niemeyer transformou o concreto armado em curvas livres e sensuais, do conjunto da Pampulha, nos anos 1940, aos palácios de Brasília. Trabalhando até a morte, aos 104 anos, recebeu o Prêmio Pritzker em 1988 e tornou-se o arquiteto mais conhecido que o Brasil já produziu."
+      }
+    ],
+    "city": "Niterói, Rio de Janeiro",
+    "style": "Modernismo tardio",
+    "drawings": [],
+    "photos": [
+      { "alt": "Vista aérea de um edifício branco em forma de disco, sobre uma ponta rochosa acima de uma praia", "caption": null },
+      { "alt": "Galeria redonda com obras de arte nas paredes sob um teto circular", "caption": "A galeria redonda dentro do disco." }
+    ],
+    "hints": [
+      "Sua galeria é um único volume em forma de disco apoiado em um só suporte cilíndrico.",
+      "Seu arquiteto disse que ele brota do espelho d'água «como uma flor».",
+      "Ergue-se 16 metros acima de um espelho d'água, no alto de um penhasco, com vista para uma baía e um famoso pico de granito."
+    ],
+    "summary": {
+      "description": "Pousado em uma ponta rochosa acima da praia da Boa Viagem, o museu de Niemeyer brota de uma única base cilíndrica, saindo de seu espelho d'água. A galeria em forma de disco, com 50 metros de diâmetro, avista a Baía de Guanabara, o Rio de Janeiro e o Pão de Açúcar.",
+      "keyFeatures": [
+        "Volume em forma de disco sobre um único suporte cilíndrico",
+        "Espelho d'água de 817 m² em volta da base",
+        "Faixa contínua de janelas com vista para a baía",
+        "Rampa de acesso escultórica"
+      ],
+      "funFacts": [
+        "Niemeyer disse que ele brota do espelho d'água «como uma flor».",
+        "Costuma ser comparado a um disco voador."
+      ]
+    }
+  },
+  "museu-oscar-niemeyer": {
+    "name": "Museu Oscar Niemeyer",
+    "aliases": ["MON", "Museu do Olho", "Novo Museu"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileiro",
+        "bio": "Nascido no Rio de Janeiro, Niemeyer transformou o concreto armado em curvas livres e sensuais, do conjunto da Pampulha, nos anos 1940, aos palácios de Brasília. Trabalhando até a morte, aos 104 anos, recebeu o Prêmio Pritzker em 1988 e tornou-se o arquiteto mais conhecido que o Brasil já produziu."
+      }
+    ],
+    "city": "Curitiba, Paraná",
+    "style": "Modernismo tardio",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício em forma de olho sobre um pilar amarelo, ao lado de um longo bloco baixo, com uma rampa curva", "caption": null },
+      { "alt": "Esculturas sobre divisórias brancas sob uma abóbada de vidro curva", "caption": "Dentro do «olho»." }
+    ],
+    "hints": [
+      "Sua parte mais conhecida é uma galeria em forma de olho erguida sobre um único pilar amarelo.",
+      "Seu longo edifício principal foi projetado pelo mesmo arquiteto em 1967 como instituto de educação e inaugurado em 1978.",
+      "Foi concluído quando seu arquiteto tinha 95 anos, e hoje leva o nome dele."
+    ],
+    "summary": {
+      "description": "Em 2002, Curitiba transformou em museu um edifício de Niemeyer de 1967, projetado como instituto de educação. No ano seguinte, o arquiteto, então com 95 anos, acrescentou o anexo que lhe deu o apelido: uma galeria em forma de olho, de vidro e aço, erguida sobre um único pilar amarelo, em jardins paisagísticos de Roberto Burle Marx.",
+      "keyFeatures": [
+        "Anexo em forma de olho sobre um único pilar",
+        "Fachadas de vidro e aço que iluminam o espaço expositivo",
+        "Rampas de acesso sinuosas",
+        "Longo edifício principal modernista"
+      ],
+      "funFacts": [
+        "Foi inaugurado em 2002 como Novo Museu e passou a levar o nome de seu arquiteto em 2003.",
+        "Dentro do «olho», uma escada em espiral liga os pavimentos."
+      ]
+    }
+  },
+  "casa-vicens": {
+    "name": "Casa Vicens",
+    "aliases": [],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol (catalão)",
+        "bio": "Nascido em 1852 na região de Reus, na Catalunha, Gaudí desenvolveu uma arquitetura cuja estrutura vem da natureza, com arcos catenários, colunas ramificadas e mosaicos de trencadís, e tornou-se o emblema do Modernisme catalão. Dedicou seus últimos anos inteiramente à Sagrada Família e morreu em 1926, atropelado por um bonde. Sete de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Orientalista / neomudéjar (início do Modernisme)",
+    "drawings": [
+      { "label": "Planta do térreo (1883)", "alt": "Planta do térreo desenhada à mão, de uma casa compacta, com uma fonte redonda no jardim" }
+    ],
+    "photos": [
+      { "alt": "Casa com azulejos xadrez verdes e brancos e uma torre de esquina decorada", "caption": null },
+      { "alt": "Sala com tetos entalhados, paredes de azulejos, treliças e uma pequena fonte", "caption": "Por dentro: tetos entalhados, azulejos e uma pequena fonte." }
+    ],
+    "hints": [
+      "Suas paredes são xadrez de azulejos verdes e brancos, inspirados na arte islâmica e japonesa.",
+      "Foi a primeira grande encomenda de seu arquiteto: uma casa de veraneio para um corretor de ações e câmbio.",
+      "Fica em uma antiga vila hoje absorvida por uma grande cidade portuária do Mediterrâneo."
+    ],
+    "summary": {
+      "description": "A primeira grande casa de Gaudí foi construída em 1883–85 como residência de verão de Manuel Vicens, corretor de ações e câmbio, na então vila de Gràcia. Suas paredes de tijolo e azulejo bebem em fontes mudéjares, persas e japonesas, em um estilo orientalista que Gaudí tornou seu.",
+      "keyFeatures": [
+        "Azulejos de cerâmica xadrez verdes e brancos",
+        "Paredes de tijolo com decoração de inspiração mudéjar",
+        "Tetos ornamentados e cômodos de estilo oriental",
+        "Grades de ferro fundido com motivos de folhas de palmeira"
+      ],
+      "funFacts": [
+        "Gaudí estudou os desenhos da Alhambra feitos por Owen Jones ao desenvolver seu estilo oriental.",
+        "Faz parte do sítio do Patrimônio Mundial da UNESCO «Obras de Antoni Gaudí»."
+      ]
+    }
+  },
+  "palau-guell": {
+    "name": "Palau Güell",
+    "aliases": ["Palácio Güell"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol (catalão)",
+        "bio": "Nascido em 1852 na região de Reus, na Catalunha, Gaudí desenvolveu uma arquitetura cuja estrutura vem da natureza, com arcos catenários, colunas ramificadas e mosaicos de trencadís, e tornou-se o emblema do Modernisme catalão. Dedicou seus últimos anos inteiramente à Sagrada Família e morreu em 1926, atropelado por um bonde. Sete de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Modernisme",
+    "drawings": [],
+    "photos": [
+      { "alt": "Canto de um terraço com chaminés revestidas de cacos de cerâmica coloridos", "caption": null },
+      { "alt": "Ornamentado teto de madeira em caixotões, visto de baixo", "caption": "Tetos entalhados em caixotões enchem as salas de recepção." }
+    ],
+    "hints": [
+      "É uma mansão urbana construída para um industrial que foi o maior mecenas de seu arquiteto.",
+      "As carruagens entravam por portões em forma de arcos parabólicos, com ferragens que lembram algas marinhas.",
+      "Seu telhado é eriçado de chaminés revestidas de mosaico de cacos de cerâmica."
+    ],
+    "summary": {
+      "description": "Construído em 1886–88 na cidade velha de Barcelona para o industrial Eusebi Güell, o grande mecenas de Gaudí, este palácio urbano se organiza em torno de um alto salão central que sobe até uma cúpula. No alto, chaminés revestidas de mosaico de cacos de cerâmica coroam o telhado.",
+      "keyFeatures": [
+        "Arcos de entrada parabólicos com portões de ferro forjado",
+        "Salão central que sobe até uma cúpula perfurada",
+        "Estábulos no subsolo",
+        "Chaminés no terraço cobertas de trencadís"
+      ],
+      "funFacts": [
+        "Os convidados chegavam em carruagens puxadas por cavalos, entrando direto pelos portões da frente.",
+        "Faz parte do sítio do Patrimônio Mundial da UNESCO «Obras de Antoni Gaudí»."
+      ]
+    }
+  },
+  "park-guell": {
+    "name": "Park Güell",
+    "aliases": ["Parc Güell", "Parque Güell"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol (catalão)",
+        "bio": "Nascido em 1852 na região de Reus, na Catalunha, Gaudí desenvolveu uma arquitetura cuja estrutura vem da natureza, com arcos catenários, colunas ramificadas e mosaicos de trencadís, e tornou-se o emblema do Modernisme catalão. Dedicou seus últimos anos inteiramente à Sagrada Família e morreu em 1926, atropelado por um bonde. Sete de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Paisagismo modernista (Modernisme)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Guarita de conto de fadas com telhado coberto de mosaico e uma alta torre revestida de azulejos", "caption": null },
+      { "alt": "Teto de mosaico branco de cacos de cerâmica com um grande medalhão redondo multicolorido", "caption": "Medalhões de mosaico no teto da sala das colunas." }
+    ],
+    "hints": [
+      "Seus caminhos são sustentados por colunatas inclinadas de pedra bruta.",
+      "Foi planejado como cidade-jardim para famílias ricas, mas só duas casas foram construídas.",
+      "Seu terraço é contornado por um longo banco serpenteante coberto de mosaico de cacos de cerâmica."
+    ],
+    "summary": {
+      "description": "O conde Eusebi Güell encomendou a Gaudí o traçado de uma propriedade em encosta, com casas, no espírito da cidade-jardim inglesa. Construído entre 1900 e 1914, o projeto fracassou como conjunto habitacional, e os terrenos foram abertos como parque público em 1926: viadutos de pedra bruta, guaritas, uma sala de colunas sob um grande terraço e um banco de mosaico serpenteante.",
+      "keyFeatures": [
+        "Viadutos e colunatas inclinadas de pedra bruta",
+        "Dois pavilhões de guarita na entrada",
+        "Sala de colunas sob o terraço principal",
+        "Banco serpenteante coberto de trencadís"
+      ],
+      "funFacts": [
+        "O banco serpenteante foi desenhado por Josep Maria Jujol, colaborador de Gaudí.",
+        "O próprio Güell se mudou para a propriedade em 1906 para promovê-la."
+      ]
+    }
+  },
+  "casa-batllo": {
+    "name": "Casa Batlló",
+    "aliases": ["Casa dels Ossos", "Casa dos Ossos"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol (catalão)",
+        "bio": "Nascido em 1852 na região de Reus, na Catalunha, Gaudí desenvolveu uma arquitetura cuja estrutura vem da natureza, com arcos catenários, colunas ramificadas e mosaicos de trencadís, e tornou-se o emblema do Modernisme catalão. Dedicou seus últimos anos inteiramente à Sagrada Família e morreu em 1926, atropelado por um bonde. Sete de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Modernisme",
+    "drawings": [
+      { "label": "Fachada e corte (1904)", "alt": "Elevação desenhada à mão da frente estreita de uma casa com janelas abauladas, ao lado do seu corte" }
+    ],
+    "photos": [
+      { "alt": "Fachada de mosaico colorido com sacadas que parecem ossos, em forma de máscaras", "caption": null },
+      { "alt": "Parede curva de gesso perfurada por duas janelas arredondadas de vitral com chumbo", "caption": "Janelas arredondadas ao longo da caixa de escada." }
+    ],
+    "hints": [
+      "Não era um edifício novo: seu arquiteto transformou uma casa existente de 1877.",
+      "Os moradores a chamam de Casa dos Ossos, por causa de suas colunas parecidas com ossos e de suas sacadas em forma de máscara.",
+      "Seu telhado, coberto de telhas que lembram escamas, costuma ser comparado ao dorso de um dragão."
+    ],
+    "summary": {
+      "description": "Em 1904, o industrial têxtil Josep Batlló contratou Gaudí para transformar sua casa de 1877 no Passeig de Gràcia. Concluída em 1906, tem fachada de mosaico de cacos de cerâmica que vai do dourado ao azul-esverdeado, sacadas em forma de máscara, colunas que parecem ossos e um telhado que lembra o dorso de um dragão.",
+      "keyFeatures": [
+        "Fachada de mosaico de trencadís",
+        "Sacadas em forma de máscara e colunas que parecem ossos",
+        "Telhado arqueado e escamoso",
+        "Quase nenhuma linha reta em lugar algum"
+      ],
+      "funFacts": [
+        "A Câmara Municipal de Barcelona a indicou ao prêmio de melhor edifício de 1906, que foi para outro arquiteto.",
+        "Os moradores a chamam de Casa dels Ossos, a Casa dos Ossos."
+      ]
+    }
+  },
+  "casa-mila": {
+    "name": "Casa Milà",
+    "aliases": ["La Pedrera", "A Pedreira"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol (catalão)",
+        "bio": "Nascido em 1852 na região de Reus, na Catalunha, Gaudí desenvolveu uma arquitetura cuja estrutura vem da natureza, com arcos catenários, colunas ramificadas e mosaicos de trencadís, e tornou-se o emblema do Modernisme catalão. Dedicou seus últimos anos inteiramente à Sagrada Família e morreu em 1926, atropelado por um bonde. Sete de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Modernisme",
+    "drawings": [
+      { "label": "Planta-tipo", "alt": "Planta de um quarteirão em torno de dois pátios irregulares, com cômodos de formas curvas" },
+      { "label": "Corte (1906)", "alt": "Corte desenhado à mão de um edifício de vários andares com um sótão em arco" }
+    ],
+    "photos": [
+      { "alt": "Prédio de apartamentos de esquina com fachada ondulada de pedra clara e sacadas de ferro retorcido", "caption": null },
+      { "alt": "Escada de entrada com paredes pintadas, como uma caverna, e uma porta de madeira entalhada", "caption": "Um vestíbulo de entrada pintado." }
+    ],
+    "hints": [
+      "Sua fachada de pedra não carrega peso: colunas sustentam os pisos, então as paredes internas podiam ir a qualquer lugar.",
+      "Sua cidade zombou dela com um apelido que significa «a pedreira», e o nome pegou.",
+      "Foi a última casa particular de seu arquiteto, concluída em 1912."
+    ],
+    "summary": {
+      "description": "A última casa particular de Gaudí, construída em 1906–12 para Pere Milà e Roser Segimon, envolve dois pátios atrás de uma fachada ondulada de pedra com sacadas de ferro forjado retorcido. Colunas sustentam os pisos para que as paredes internas possam ficar em qualquer lugar, e uma garagem subterrânea e um terraço escultórico completam um edifício muito à frente de seu tempo.",
+      "keyFeatures": [
+        "Fachada ondulada de pedra, autoportante",
+        "Plantas livres sobre uma estrutura de colunas",
+        "Dois grandes pátios internos",
+        "Terraço com chaminés e torres de escada esculpidas"
+      ],
+      "funFacts": [
+        "Barcelona zombou dela chamando-a de «La Pedrera», a pedreira, e o apelido pegou.",
+        "Suas sacadas de ferro forjado foram desenhadas por Josep Maria Jujol.",
+        "Gaudí atestou a conclusão do edifício em 31 de outubro de 1912."
+      ]
+    }
+  },
+  "sagrada-familia": {
+    "name": "Sagrada Família",
+    "aliases": ["Basílica da Sagrada Família", "Templo Expiatório da Sagrada Família", "Basílica de la Sagrada Família"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol (catalão)",
+        "bio": "Nascido em 1852 na região de Reus, na Catalunha, Gaudí desenvolveu uma arquitetura cuja estrutura vem da natureza, com arcos catenários, colunas ramificadas e mosaicos de trencadís, e tornou-se o emblema do Modernisme catalão. Dedicou seus últimos anos inteiramente à Sagrada Família e morreu em 1926, atropelado por um bonde. Sete de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Modernisme catalão (de inspiração gótica)",
+    "drawings": [
+      { "label": "Planta", "alt": "Planta de uma grande igreja em forma de cruz, com nave de várias naves laterais, abside arredondada e amplas escadarias na frente" }
+    ],
+    "photos": [
+      { "alt": "Fachada de figuras esculpidas e angulosas sob altas torres pontiagudas", "caption": null },
+      { "alt": "Colunas altas e ramificadas como uma floresta, subindo até uma abóbada, com luz colorida", "caption": "As colunas se ramificam como árvores para sustentar as abóbadas." }
+    ],
+    "hints": [
+      "Iniciada em 1882, continua em construção, paga inteiramente por doações.",
+      "Suas colunas se ramificam como árvores para sustentar as abóbadas.",
+      "Seu arquiteto dedicou a ela seus últimos anos e está enterrado em sua cripta."
+    ],
+    "summary": {
+      "description": "Iniciada em 1882 segundo um projeto neogótico convencional, a igreja expiatória passou em 1883 para Gaudí, que a transformou em uma vasta basílica semelhante a uma floresta e trabalhou nela até sua morte, em 1926. A construção continua, financiada por doações; em 2026, sua torre central de Jesus Cristo chegou a 172,5 metros, tornando-a a igreja mais alta do mundo.",
+      "keyFeatures": [
+        "Colunas ramificadas, como árvores",
+        "Três fachadas: Natividade, Paixão e Glória",
+        "Torres para os apóstolos, os evangelistas, Maria e Jesus",
+        "Geometria de hiperboloides e helicoides"
+      ],
+      "funFacts": [
+        "Seu primeiro arquiteto, Francisco de Paula del Villar, renunciou em 1883.",
+        "O papa Bento XVI a consagrou como basílica em 7 de novembro de 2010.",
+        "A torre central foi abençoada em 10 de junho de 2026, cem anos após a morte de Gaudí."
+      ]
+    }
+  },
+  "hotel-tassel": {
+    "name": "Hôtel Tassel",
+    "aliases": ["Hotel Tassel", "Casa Tassel", "Maison Tassel"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Belga",
+        "bio": "Nascido em Gante, Horta projetou nos anos 1890 uma série de casas urbanas em Bruxelas que fizeram dele o pioneiro da arquitetura Art Nouveau, com plantas abertas, ferro aparente e ornamentos em forma de chicote. Quatro delas, incluindo o Hôtel Tassel e sua própria casa, formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Bruxelas",
+    "style": "Art Nouveau",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente estreita de casa urbana de pedra, com uma janela saliente de ferro e vidro", "caption": null },
+      { "alt": "Escada curva com ferragens em forma de chicote, esbelta coluna de ferro e paredes pintadas com volutas", "caption": "A caixa de escada no coração da casa." }
+    ],
+    "hints": [
+      "Foi construída para um cientista e professor universitário e é contada entre os primeiros edifícios de seu estilo.",
+      "Em vez de uma fileira de cômodos escuros, seus cômodos se organizam em torno de uma caixa de escada central.",
+      "Fica em uma capital europeia conhecida por suas histórias em quadrinhos e pelo parlamento da União."
+    ],
+    "summary": {
+      "description": "Projetada por Victor Horta para o cientista e professor Émile Tassel e construída em 1892–93, esta casa urbana de Bruxelas é considerada um dos primeiros edifícios Art Nouveau. Em vez da habitual fileira de cômodos escuros, Horta organizou a casa em torno de uma caixa de escada central e deixou o ferro aparente e os ornamentos em forma de chicote fluírem por ela.",
+      "keyFeatures": [
+        "Caixa de escada central que liga os diferentes níveis",
+        "Colunas de ferro aparentes, por dentro e na fachada",
+        "Ornamentos em forma de chicote em ferro, mosaico e pintura",
+        "Janela saliente"
+      ],
+      "funFacts": [
+        "Influenciou fortemente o arquiteto Art Nouveau francês Hector Guimard.",
+        "Com outras três casas de Horta, tornou-se Patrimônio Mundial da UNESCO em 2000."
+      ]
+    }
+  },
+  "glasgow-school-of-art": {
+    "name": "Escola de Arte de Glasgow",
+    "aliases": ["Glasgow School of Art", "Edifício Mackintosh", "Mackintosh Building", "GSA"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Escocês",
+        "bio": "Arquiteto, designer e aquarelista de Glasgow, figura principal do Glasgow Style. Trabalhando no escritório Honeyman & Keppie, venceu em 1896 o concurso para a Escola de Arte; no fim da vida abandonou a arquitetura para pintar aquarelas na França."
+      },
+      {
+        "aliases": [],
+        "nationality": "Escocesa (nascida na Inglaterra)",
+        "bio": "Artista e designer, uma dos «Four» do Glasgow Style, e esposa e colaboradora de Charles Rennie Mackintosh."
+      }
+    ],
+    "city": "Glasgow",
+    "style": "Glasgow Style",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada de pedra com grandes janelas de ateliê, uma entrada descentralizada e grades de ferro curvas", "caption": null },
+      { "alt": "Sala em preto e branco com cadeiras escuras de encosto alto em volta de uma longa mesa", "caption": "A Sala do Conselho, fotografada em 1964." }
+    ],
+    "hints": [
+      "Foi construída em duas fases, concluídas em 1899 e 1909.",
+      "Suas enormes janelas voltadas para o norte iluminam ateliês de pintura.",
+      "Foi devastada por incêndios duas vezes, em 2014 e 2018."
+    ],
+    "summary": {
+      "description": "Charles Rennie Mackintosh venceu em 1896 o concurso para o novo edifício da escola em Garnethill, construído em duas fases, concluídas em 1899 e 1909. Suas enormes janelas de ateliê voltadas para o norte, suas massas de pedra austeras e suas ferragens inventivas fizeram dele um marco do design moderno inicial. Foi gravemente danificado por um incêndio em 2014 e destruído por dentro por um segundo incêndio em 2018.",
+      "keyFeatures": [
+        "Grandes janelas de ateliê voltadas para o norte",
+        "Fachada de pedra assimétrica com entrada descentralizada",
+        "Suportes e grades decorativos de ferro forjado",
+        "Biblioteca de colunas e vigas de madeira, perdida no incêndio de 2014"
+      ],
+      "funFacts": [
+        "Sua biblioteca, um dos melhores interiores de Mackintosh, foi destruída no incêndio de 2014.",
+        "Seis ganhadores recentes do Turner Prize estudaram na escola."
+      ]
+    }
+  },
+  "robie-house": {
+    "name": "Casa Robie",
+    "aliases": ["Robie House", "Frederick C. Robie House", "Casa de Frederick Robie"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Ao longo de uma carreira de cerca de setenta anos, Wright desenvolveu uma «arquitetura orgânica» enraizada na paisagem, das casas baixas e horizontais da Prairie School dos anos 1900 à Casa da Cascata e ao Museu Guggenheim. Oito de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Chicago, Illinois",
+    "style": "Prairie School",
+    "drawings": [
+      { "label": "Corte longitudinal e elevação sul", "alt": "Casa longa e baixa em corte e elevação, com amplos telhados em balanço" }
+    ],
+    "photos": [
+      { "alt": "Casa de tijolos longa e baixa, com telhados profundamente em balanço e faixas de janelas", "caption": null },
+      { "alt": "Quarto com móveis de madeira e uma fileira de janelas de vitral com chumbo", "caption": "Um quarto iluminado por janelas de vitral." }
+    ],
+    "hints": [
+      "Seus telhados avançam em balanço muito além das paredes, e suas longas linhas horizontais ecoam a planície do Meio-Oeste.",
+      "Foi construída para um executivo da indústria e hoje pertence a uma universidade.",
+      "Ajudou a popularizar as janelas panorâmicas, os beirais profundos e as garagens anexas."
+    ],
+    "summary": {
+      "description": "Concluída em 1910 para o executivo industrial Frederick C. Robie, no bairro de Hyde Park, em Chicago, é frequentemente chamada de a melhor das casas da Prairie School de Frank Lloyd Wright. Suas paredes baixas de tijolo, as faixas de janelas de vitral e os telhados projetados muito além das paredes estendem a casa ao longo do terreno de esquina.",
+      "keyFeatures": [
+        "Linhas horizontais longas e baixas",
+        "Telhados em balanço muito além das paredes",
+        "Faixas de janelas de vitral",
+        "Terraços em vários níveis"
+      ],
+      "funFacts": [
+        "Ajudou a popularizar as janelas panorâmicas, os beirais profundos e as garagens anexas nas casas americanas.",
+        "Hoje pertence à Universidade de Chicago e faz parte do sítio da UNESCO «A Arquitetura do Século XX de Frank Lloyd Wright».",
+        "Foi um dos últimos edifícios que Wright projetou em seu ateliê de Oak Park."
+      ]
+    }
+  },
+  "looshaus": {
+    "name": "Looshaus",
+    "aliases": ["Casa Loos", "Edifício Goldman & Salatsch", "Haus am Michaelerplatz"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Austríaco (nascido em Brno)",
+        "bio": "Arquiteto e polemista vienense cujo ensaio «Ornamento e Crime» atacou a decoração como desperdício. Seus edifícios combinam exteriores simples com materiais ricos no interior, e seu Raumplan dispunha os cômodos em alturas diferentes."
+      }
+    ],
+    "city": "Viena",
+    "style": "Modernismo inicial",
+    "drawings": [
+      { "label": "Planta do térreo", "alt": "Planta irregular de terreno de esquina, com loja, colunas e escadas" },
+      { "label": "Corte", "alt": "Corte de um edifício de vários andares: uma loja embaixo e pavimentos de apartamentos lisos em cima" }
+    ],
+    "photos": [
+      { "alt": "Edifício de esquina com base revestida de mármore verde e andares superiores brancos e lisos, com floreiras nas janelas", "caption": null },
+      { "alt": "Passagem de entrada revestida de mármore, com portas de vidro", "caption": "Mármore rico reveste a entrada do térreo." }
+    ],
+    "hints": [
+      "Seus andares superiores lisos causaram tamanho escândalo que o arquiteto teve de acrescentar floreiras às janelas.",
+      "Foi construído para uma alfaiataria masculina, em frente a um palácio imperial.",
+      "Seu arquiteto escreveu um famoso ensaio atacando o ornamento."
+    ],
+    "summary": {
+      "description": "Construído para os alfaiates Goldman & Salatsch na Michaelerplatz, em Viena, em frente ao palácio imperial Hofburg, o edifício contrasta uma base de mármore Cipollino verde com andares superiores completamente lisos. Em 1910, a fachada nua causou um escândalo público; a obra só foi retomada depois que Loos concordou em acrescentar floreiras com flores.",
+      "keyFeatures": [
+        "Térreo e mezanino revestidos de mármore verde",
+        "Andares superiores brancos, sem ornamentos",
+        "Colunas clássicas na entrada da loja",
+        "Floreiras acrescentadas para aplacar os críticos"
+      ],
+      "funFacts": [
+        "Segundo se diz, o imperador Francisco José mantinha as cortinas do Hofburg fechadas para não ter de vê-lo.",
+        "Um jornal o chamou de «monte de esterco» antes de as floreiras serem acrescentadas."
+      ]
+    }
+  }
+}

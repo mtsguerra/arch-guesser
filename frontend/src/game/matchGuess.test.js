@@ -64,6 +64,7 @@ describe('countries', () => {
   it('suggests prefix matches first', () => {
     const names = suggestCountries('ital').map((c) => c.name)
     expect(names[0]).toBe('Italy')
+    expect(suggestCountries('ital', 'pt-BR').map((c) => c.name)).toContain('Itália')
     expect(suggestCountries('united').map((c) => c.code)).toEqual(expect.arrayContaining(['US', 'GB', 'AE']))
   })
 })

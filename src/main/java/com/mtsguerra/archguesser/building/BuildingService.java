@@ -19,7 +19,11 @@ public class BuildingService {
     }
 
     public Building findById(String id) {
-        return repository.findById(id)
+        return findById(id, null);
+    }
+
+    public Building findById(String id, String lang) {
+        return repository.findById(id, lang)
                 .orElseThrow(() -> new NotFoundException("No building with id '" + id + "'"));
     }
 
@@ -28,7 +32,11 @@ public class BuildingService {
      * been excluded, the exclusions are ignored so play never dead-ends.
      */
     public Building random(Set<String> exclude) {
-        List<Building> all = repository.findAll();
+        return random(exclude, null);
+    }
+
+    public Building random(Set<String> exclude, String lang) {
+        List<Building> all = repository.findAll(lang);
         List<Building> unseen = all.stream().filter(b -> !exclude.contains(b.id())).toList();
         if (all.isEmpty()) throw new NotFoundException("The building catalogue is empty");
         List<Building> pool = unseen.isEmpty() ? all : unseen;

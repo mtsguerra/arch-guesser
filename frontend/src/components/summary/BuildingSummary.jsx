@@ -2,11 +2,12 @@ import { useEffect, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { ArrowRight, Check, Eye } from 'lucide-react'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
-import { eraRange, formatYear } from '../../game/useEras.js'
+import { eraName, eraRange, formatYear } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
-import { strings } from '../../strings.js'
+import { useLanguage, useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
 import { Credit } from '../ui/Credit.jsx'
+import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
 import styles from './BuildingSummary.module.css'
 
@@ -21,16 +22,18 @@ const section = {
 }
 
 function FactStrip({ building, era }) {
+  const strings = useStrings()
+  const { lang } = useLanguage()
   const { location } = building
   const items = [
-    [strings.summary.facts.location, [location.city, location.country].filter(Boolean).join(', ')],
-    [strings.summary.facts.completed, building.yearCompleted == null ? strings.summary.facts.underConstruction : formatYear(building.yearCompleted)],
+    [strings.summary.facts.location, [location.city, countryName(location.countryCode, lang) ?? location.country].filter(Boolean).join(', ')],
+    [strings.summary.facts.completed, building.yearCompleted == null ? strings.summary.facts.underConstruction : formatYear(building.yearCompleted, strings.years)],
     [
       strings.summary.facts.era,
       era ? (
         <>
           {/* Break only between "Modernism ·" and the range, never before the dot or inside the range */}
-          {era.label}&nbsp;· <span className={styles.nowrap}>{eraRange(era)}</span>
+          {eraName(era, strings)}&nbsp;· <span className={styles.nowrap}>{eraRange(era, strings.years)}</span>
         </>
       ) : (
         building.era
@@ -52,6 +55,7 @@ function FactStrip({ building, era }) {
 }
 
 function Recap({ fields, outcome }) {
+  const strings = useStrings()
   return (
     <div className={styles.recap}>
       <p className={styles.outcome}>{outcome === 'solved' ? strings.guess.solved : strings.guess.gaveUp}</p>
@@ -74,6 +78,7 @@ function Recap({ fields, outcome }) {
 
 /** A print in the gallery. If its file fails to load, the whole print disappears. */
 function Photo({ photo }) {
+  const strings = useStrings()
   const [status, setStatus] = useState('loading')
   if (status === 'error') return null
   return (
@@ -101,6 +106,7 @@ function Photo({ photo }) {
 }
 
 export function BuildingSummary({ building, eras, fields, outcome, onNext }) {
+  const strings = useStrings()
   const heading = useRef(null)
   const era = eras?.find((e) => e.id === building.era)
   const photos = building.photos ?? []

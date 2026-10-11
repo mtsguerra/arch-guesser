@@ -1,0 +1,469 @@
+{
+  "fagus-factory": {
+    "name": "Fábrica Fagus",
+    "aliases": ["Fagus Factory", "Fagus-Werk", "Fagus Werk", "Faguswerk"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (depois americano)",
+        "bio": "Depois de trabalhar para Peter Behrens, Gropius fundou a Bauhaus em Weimar, em 1919, e a transferiu para Dessau em 1925. Emigrou nos anos 1930 e lecionou em Harvard, difundindo o ensino modernista nos Estados Unidos."
+      },
+      {
+        "aliases": [],
+        "nationality": "Alemão",
+        "bio": "Sócio de Gropius no início de sua carreira e coautor da Fábrica Fagus; mais tarde lecionou na Bauhaus e tornou-se diretor municipal de obras de Frankfurt."
+      }
+    ],
+    "city": "Alfeld, Baixa Saxônia",
+    "style": "Modernismo inicial",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifício de três andares cujas paredes de vidro dobram a esquina sem nenhum pilar de apoio", "caption": null },
+      { "alt": "Hall de escada com paredes de faixas pretas e uma escada que sobe ao lado de uma esquina envidraçada", "caption": "A escada principal, ao lado da esquina de vidro." }
+    ],
+    "hints": [
+      "Suas paredes de vidro dobram a esquina sem nenhum pilar de apoio.",
+      "Seu dono fabricava fôrmas de sapatos e queria um edifício que rompesse com o passado.",
+      "Seus dois arquitetos tinham trabalhado para o projetista de um famoso galpão de turbinas de Berlim."
+    ],
+    "summary": {
+      "description": "Construído em 1911–13 para a fábrica de fôrmas de sapatos de Carl Benscheidt, o bloco principal da fábrica dobra paredes de vidro em volta de suas esquinas sem nenhum pilar de apoio, transformando a parede em uma tela fina suspensa entre pilares de tijolo recuados. Inverteu os cantos pesados do galpão de turbinas da AEG, de Behrens, onde seus dois arquitetos tinham trabalhado.",
+      "keyFeatures": [
+        "Paredes-cortina de vidro por toda a altura",
+        "Esquinas livres de apoios",
+        "Pilares de tijolo recuados atrás do vidro",
+        "Ampliações e interiores concluídos em 1925"
+      ],
+      "funFacts": [
+        "Gropius descreveu as paredes como «meras telas estendidas entre os pilares verticais da estrutura».",
+        "É Patrimônio Mundial da UNESCO desde 2011.",
+        "A fábrica ainda produz fôrmas de sapatos."
+      ]
+    }
+  },
+  "einstein-tower": {
+    "name": "Torre Einstein",
+    "aliases": ["Einstein Tower", "Einsteinturm", "Einstein Turm"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (depois britânico e americano)",
+        "bio": "Mendelsohn esboçou edifícios fluidos e dinâmicos enquanto servia na Primeira Guerra Mundial; a Torre Einstein fez seu nome, seguida de lojas de departamentos na Alemanha. Deixou o país em 1933 e trabalhou na Grã-Bretanha, na Palestina e nos Estados Unidos."
+      }
+    ],
+    "city": "Potsdam",
+    "style": "Expressionismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Torre branca, lisa e curva, coroada por uma pequena cúpula, entre árvores", "caption": null },
+      { "alt": "Grande espelho de telescópio montado em uma câmara branca de instrumentos", "caption": "Por dentro, espelhos enviam a luz do Sol por um poço até o laboratório." }
+    ],
+    "hints": [
+      "Foi construída para testar, observando o Sol, a teoria da relatividade de um famoso cientista.",
+      "Sua forma fluida foi imaginada em concreto, mas boa parte é de tijolo coberto de reboco.",
+      "Ainda é um observatório solar em funcionamento."
+    ],
+    "summary": {
+      "description": "Projetado por Erich Mendelsohn e construído em 1919–21 no Telegraphenberg, em Potsdam, este observatório solar abriga um telescópio feito para testar a teoria da relatividade de Albert Einstein. Sua forma fluida e escultórica foi imaginada em concreto, mas a escassez do pós-guerra fez com que boa parte fosse construída em tijolo coberto de reboco.",
+      "keyFeatures": [
+        "Forma expressionista fluida e escultórica",
+        "Cúpula no topo abrigando o celóstato",
+        "Poço que leva a luz até um laboratório no subsolo",
+        "Tijolo e reboco modelados para parecer concreto moldado"
+      ],
+      "funFacts": [
+        "Einstein nunca trabalhou ali, mas apoiou sua construção.",
+        "Ainda é um observatório solar em funcionamento.",
+        "O jovem Richard Neutra fazia parte da equipe de Mendelsohn durante o projeto."
+      ]
+    }
+  },
+  "rietveld-schroder-house": {
+    "name": "Casa Rietveld Schröder",
+    "aliases": ["Rietveld Schröder House", "Casa Schröder", "Schröder House", "Rietveld Schröderhuis", "Schröderhuis"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Holandês",
+        "bio": "Marceneiro que se tornou arquiteto, Rietveld aderiu ao movimento De Stijl e projetou a Cadeira Vermelha e Azul antes de construir esta casa com Truus Schröder. Teve depois uma longa carreira em Utrecht."
+      }
+    ],
+    "city": "Utrecht",
+    "style": "De Stijl",
+    "drawings": [],
+    "photos": [
+      { "alt": "Pequena casa de planos brancos e cinzas sobrepostos, no fim de uma fileira de casas de tijolo", "caption": null },
+      { "alt": "Mesa simples e cadeira vermelha em uma sala com janelas em dois lados", "caption": "O andar superior, com suas janelas de esquina." }
+    ],
+    "hints": [
+      "Seu andar superior pode ser um único espaço aberto ou ser dividido em cômodos com painéis deslizantes e giratórios.",
+      "Fica no fim de uma fileira de casas de tijolo, mas as ignora por completo.",
+      "Seu projetista, formado como marceneiro, é famoso também por uma cadeira vermelha e azul."
+    ],
+    "summary": {
+      "description": "Construída em 1924 para Truus Schröder-Schräder e seus três filhos, no fim de uma fileira de casas de tijolo em Utrecht, a casa é a expressão construída mais pura do De Stijl: planos, linhas e cores primárias flutuando livremente. Seu andar superior pode ser aberto em um só espaço ou dividido em cômodos com painéis deslizantes e giratórios.",
+      "keyFeatures": [
+        "Composição de planos e linhas independentes",
+        "Cores primárias com branco, cinza e preto",
+        "Andar superior flexível, com divisórias deslizantes",
+        "Janelas de esquina que se abrem eliminando a quina por completo"
+      ],
+      "funFacts": [
+        "Incluía uma garagem, embora Truus Schröder não tivesse carro.",
+        "Tornou-se Patrimônio Mundial da UNESCO em 2000."
+      ]
+    }
+  },
+  "bauhaus-dessau": {
+    "name": "Edifício da Bauhaus, Dessau",
+    "aliases": ["Bauhaus Dessau", "Bauhaus Building, Dessau", "Bauhausgebäude", "Edifício da Bauhaus"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (depois americano)",
+        "bio": "Depois de trabalhar para Peter Behrens, Gropius fundou a Bauhaus em Weimar, em 1919, e a transferiu para Dessau em 1925. Emigrou nos anos 1930 e lecionou em Harvard, difundindo o ensino modernista nos Estados Unidos."
+      }
+    ],
+    "city": "Dessau",
+    "style": "Modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Ala de oficinas com uma contínua parede-cortina de vidro, ao lado de uma ala branca mais baixa", "caption": null },
+      { "alt": "Salão de reuniões com fileiras de luminárias tubulares penduradas em um teto nervurado", "caption": "O salão de reuniões." }
+    ],
+    "hints": [
+      "Suas alas de oficinas, salas de aula e ateliês de estudantes são ligadas por uma ponte de dois andares sobre uma rua.",
+      "Sua ala de oficinas é envolvida por uma contínua parede-cortina de vidro.",
+      "Foi construída quando uma famosa escola de arte e design se mudou para cá, vinda de Weimar, em 1925."
+    ],
+    "summary": {
+      "description": "Construído em 1925–26, quando a escola Bauhaus se mudou de Weimar para Dessau, o edifício de Gropius dá a cada função sua própria ala: um bloco de oficinas atrás de uma parede-cortina de vidro, uma escola técnica e uma casa de ateliês de cinco andares para os estudantes, unidos por uma ponte sobre a rua e por uma ala baixa com o salão e o refeitório.",
+      "keyFeatures": [
+        "Parede-cortina de vidro da ala de oficinas",
+        "Planta em catavento, de alas separadas",
+        "Ponte de dois andares atravessando uma rua",
+        "Casa de ateliês com pequenas sacadas"
+      ],
+      "funFacts": [
+        "Os 28 ateliês do Prellerhaus, de cinco andares, eram moradia e espaço de trabalho para estudantes e jovens mestres.",
+        "As cortinas necessárias para proteção solar estragaram a transparência pretendida da parede de vidro.",
+        "Faz parte de um sítio do Patrimônio Mundial da UNESCO desde 1996."
+      ]
+    }
+  },
+  "barcelona-pavilion": {
+    "name": "Pavilhão de Barcelona",
+    "aliases": ["Barcelona Pavilion", "Pavilhão Alemão", "Pavelló alemany", "Pavilhão Mies van der Rohe"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (depois americano)",
+        "bio": "Ex-assistente de Peter Behrens, Mies reduziu a arquitetura a aço, vidro e materiais nobres («menos é mais»). Último diretor da Bauhaus, emigrou para Chicago, onde construiu o campus do Illinois Institute of Technology e depois o Seagram Building, em Nova York."
+      },
+      {
+        "aliases": [],
+        "nationality": "Alemã",
+        "bio": "Designer e colaboradora próxima de Mies no fim dos anos 1920 e nos anos 1930, coautora do pavilhão e de seus móveis, e chefe das oficinas de tecelagem e de interiores da Bauhaus."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Modernismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Pavilhão baixo de paredes de pedra e vidro sob uma laje plana, ao lado de um espelho d'água", "caption": null },
+      { "alt": "Interior aberto com uma parede de ônix polido e divisórias de vidro voltadas para um espelho d'água", "caption": "Paredes independentes de ônix e vidro." }
+    ],
+    "hints": [
+      "Foi construído para uma exposição internacional e não continha objetos expostos, apenas o próprio edifício.",
+      "Foi demolido menos de um ano depois de aberto e reconstruído no mesmo local em 1986.",
+      "Uma famosa cadeira de aço e couro foi desenhada para ele."
+    ],
+    "summary": {
+      "description": "Construído como pavilhão da Alemanha para a Exposição Internacional de 1929, em Barcelona, não continha objetos expostos: apenas o próprio edifício, uma escultura de Georg Kolbe e os móveis desenhados para ele. Paredes independentes de mármore, ônix e vidro fumê dividem um espaço fluido sob uma fina laje plana apoiada em colunas esbeltas de aço.",
+      "keyFeatures": [
+        "Fina laje plana sobre colunas cruciformes de aço",
+        "Paredes independentes de mármore, ônix e vidro",
+        "Pódio de travertino e espelhos d'água",
+        "Planta aberta e fluida"
+      ],
+      "funFacts": [
+        "A cadeira Barcelona foi desenhada para ele e ainda é fabricada hoje.",
+        "Foi derrubado no início de 1930 e reconstruído em 1986."
+      ]
+    }
+  },
+  "hagia-sophia": {
+    "name": "Santa Sofia",
+    "aliases": ["Hagia Sophia", "Ayasofya", "Aya Sofya", "Basílica de Santa Sofia", "Santa Sofia de Istambul", "Sagrada Sabedoria"],
+    "architects": [
+      {
+        "aliases": ["Isidoro de Mileto"],
+        "nationality": "Grego bizantino",
+        "bio": "Geômetra e engenheiro grego de Mileto, encarregado pelo imperador Justiniano I de projetar a nova catedral de Constantinopla com Antêmio de Trales."
+      },
+      {
+        "aliases": ["Antêmio de Trales"],
+        "nationality": "Grego bizantino",
+        "bio": "Matemático e engenheiro grego de Trales, na Ásia Menor, coautor da Santa Sofia para o imperador Justiniano I."
+      }
+    ],
+    "city": "Istambul",
+    "style": "Bizantino",
+    "drawings": [
+      { "label": "Planta baixa", "alt": "Planta de uma enorme igreja retangular com um quadrado central coroado por um círculo e semicúpulas em cada extremidade" },
+      { "label": "Corte longitudinal", "alt": "Corte de uma vasta igreja com uma cúpula central rasa sobre um anel de janelas" }
+    ],
+    "photos": [
+      { "alt": "Edifício com cúpula e minaretes em uma colina acima de uma cidade à beira-mar", "caption": null },
+      { "alt": "Vasto interior sob uma cúpula dourada cercada de janelas, com grandes medalhões caligráficos", "caption": "Uma cúpula cercada de janelas parece flutuar sobre a nave." }
+    ],
+    "hints": [
+      "Por quase mil anos, guardou o maior espaço interior do mundo.",
+      "Foi catedral, mesquita, museu e, de novo, mesquita.",
+      "Sua cúpula repousa sobre um anel de quarenta janelas, por isso parece flutuar."
+    ],
+    "summary": {
+      "description": "Construída para o imperador Justiniano I entre 532 e 537 e projetada pelos geômetras Isidoro de Mileto e Antêmio de Trales, a Santa Sofia era a catedral de Constantinopla. Sua vasta cúpula, uma das primeiras sustentadas por pendentes, repousa sobre um anel de janelas. Tornou-se mesquita em 1453, museu em 1935 e, de novo, mesquita em 2020.",
+      "keyFeatures": [
+        "Cúpula central sobre pendentes",
+        "Anel de 40 janelas na base da cúpula",
+        "Semicúpulas que ampliam o espaço central",
+        "Minaretes acrescentados depois de 1453"
+      ],
+      "funFacts": [
+        "Tornou-se o modelo das mesquitas otomanas mil anos depois.",
+        "Foi a atração turística mais visitada da Turquia em 2019."
+      ]
+    }
+  },
+  "florence-cathedral-dome": {
+    "name": "Cúpula da Catedral de Florença",
+    "aliases": ["Catedral de Florença", "Santa Maria del Fiore", "Cúpula de Brunelleschi", "Il Duomo di Firenze", "Duomo de Florença", "Duomo"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano (florentino)",
+        "bio": "Formado como ourives, Brunelleschi é creditado pela redescoberta da perspectiva linear e pela fundação da arquitetura renascentista, com obras como o Hospital dos Inocentes e San Lorenzo, em Florença. Sua cúpula resolveu um problema que derrotara os construtores por décadas."
+      }
+    ],
+    "city": "Florença",
+    "style": "Primeiro Renascimento",
+    "drawings": [
+      { "label": "Corte da cúpula (Cigoli, c. 1613)", "alt": "Corte desenhado à mão de uma alta cúpula pontiaguda com casca interna e externa, cercado de anotações" }
+    ],
+    "photos": [
+      { "alt": "Enorme cúpula nervurada de telhas vermelhas, com lanterna, acima de uma cidade de telhados de terracota", "caption": null },
+      { "alt": "Nave gótica de altos arcos ogivais que leva a um octógono com cúpula", "caption": "A nave leva a um vasto cruzeiro octogonal." }
+    ],
+    "hints": [
+      "Seu construtor venceu um concurso contra o ourives Lorenzo Ghiberti.",
+      "Foi construída sem o cimbramento completo de madeira normalmente usado para sustentar uma cúpula durante a obra.",
+      "Ainda é a maior cúpula de alvenaria já construída."
+    ],
+    "summary": {
+      "description": "A catedral de Florença foi iniciada em 1296 segundo um projeto de Arnolfo di Cambio, mas seu enorme cruzeiro octogonal ficou aberto por décadas. Filippo Brunelleschi construiu a cúpula entre 1420 e 1436 sem o cimbramento de madeira normalmente usado, e ela continua sendo a maior cúpula de alvenaria já construída.",
+      "keyFeatures": [
+        "Cúpula octogonal de duas cascas",
+        "Oito nervuras de mármore branco sobre telhas vermelhas",
+        "Construída sem cimbramento completo de madeira",
+        "Lanterna coroando a cúpula"
+      ],
+      "funFacts": [
+        "O papa Eugênio IV consagrou a catedral em 25 de março de 1436.",
+        "O moteto Nuper rosarum flores, de Guillaume Dufay, foi escrito para a consagração.",
+        "Brunelleschi e Ghiberti foram nomeados em conjunto, uma rivalidade que durou anos."
+      ]
+    }
+  },
+  "tempietto": {
+    "name": "Tempietto de San Pietro in Montorio",
+    "aliases": ["Tempietto", "Tempietto de Bramante", "San Pietro in Montorio", "Templete de Bramante"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "bio": "Nascido perto de Urbino, Bramante trabalhou em Milão antes de se mudar para Roma em 1499. O Tempietto lançou ali o Alto Renascimento, e em 1503 o papa Júlio II o encarregou de reconstruir a Basílica de São Pedro."
+      }
+    ],
+    "city": "Roma",
+    "style": "Alto Renascimento",
+    "drawings": [
+      { "label": "Planta (Palladio, 1570)", "alt": "Planta circular: um anel de colunas em volta de uma cela redonda com nichos" },
+      { "label": "Pátio projetado (Serlio)", "alt": "Planta de um pequeno templo redondo no centro de um pátio circular cercado por colunata" }
+    ],
+    "photos": [
+      { "alt": "Templo redondo com um anel de colunas e uma cúpula, ao lado de um campanário", "caption": null },
+      { "alt": "Vista para cima de uma pequena cúpula de pedra cercada por estátuas em nichos em forma de concha", "caption": "Dentro da minúscula cúpula." }
+    ],
+    "hints": [
+      "Marca o local onde, segundo a tradição, São Pedro teria sido martirizado.",
+      "Apesar do tamanho minúsculo, segue as proporções da Roma antiga com tanto rigor que lançou um novo estilo na cidade.",
+      "Seu arquiteto iniciou depois a reconstrução da Basílica de São Pedro."
+    ],
+    "summary": {
+      "description": "Encomendado por volta de 1502 para o pátio de San Pietro in Montorio, no Janículo, o minúsculo templo redondo de Bramante marca o local tradicional do martírio de São Pedro. Cercado de colunas dóricas e coroado por uma cúpula, aplica proporções da Roma antiga com tanto rigor que é visto como o início do Alto Renascimento em Roma.",
+      "keyFeatures": [
+        "Planta circular com peristilo de colunas dóricas",
+        "Cúpula hemisférica sobre um tambor",
+        "Balaustrada acima da colunata",
+        "Proporções clássicas rigorosas em pequena escala"
+      ],
+      "funFacts": [
+        "A gravura de Serlio mostra que Bramante planejava situá-lo em um pátio circular com colunata, nunca construído.",
+        "Foi encomendado por Fernando de Aragão e Isabel de Castela, ou possivelmente pelo papa Júlio II."
+      ]
+    }
+  },
+  "fallingwater": {
+    "name": "Casa da Cascata",
+    "aliases": ["Fallingwater", "Casa Kaufmann", "Residência Kaufmann", "Kaufmann Residence", "Falling Water"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Ao longo de uma carreira de cerca de setenta anos, Wright desenvolveu uma «arquitetura orgânica» enraizada na paisagem, das casas baixas e horizontais da Prairie School dos anos 1900 à Casa da Cascata e ao Museu Guggenheim. Oito de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Mill Run, Pensilvânia",
+    "style": "Arquitetura orgânica",
+    "drawings": [
+      { "label": "Planta do segundo pavimento", "alt": "Planta de casa com terraços projetados sobre um riacho" }
+    ],
+    "photos": [
+      { "alt": "Casa de terraços sobrepostos em balanço sobre uma cachoeira, em um bosque", "caption": null },
+      { "alt": "Sala de estar com piso de pedra, sofás embutidos e uma parede de lareira de pedra", "caption": "A sala de estar, construída em torno do rochedo da lareira." }
+    ],
+    "hints": [
+      "Era uma casa de fim de semana para o dono de uma loja de departamentos de Pittsburgh e sua esposa.",
+      "Seus terraços avançam em balanço sobre uma cachoeira.",
+      "Seu arquiteto projetou também um museu em espiral em Nova York."
+    ],
+    "summary": {
+      "description": "Frank Lloyd Wright projetou esta casa de fim de semana em 1934 para Edgar e Liliane Kaufmann, donos de uma loja de departamentos de Pittsburgh, e a construiu diretamente sobre uma cachoeira no riacho Bear Run. Terraços de concreto armado avançam em balanço de um núcleo de pedra acima da queda; a família se mudou em 1937, e uma ala de hóspedes foi acrescentada em 1939.",
+      "keyFeatures": [
+        "Terraços de concreto em balanço",
+        "Núcleo de chaminé em pedra que brota da rocha",
+        "Construída sobre uma cachoeira",
+        "Faixas de vidro abertas para o bosque"
+      ],
+      "funFacts": [
+        "Está aberta a visitantes desde 1963, administrada pela Western Pennsylvania Conservancy.",
+        "Faz parte do sítio da UNESCO «A Arquitetura do Século XX de Frank Lloyd Wright»."
+      ]
+    }
+  },
+  "sydney-opera-house": {
+    "name": "Ópera de Sydney",
+    "aliases": ["Sydney Opera House", "Opera House de Sydney", "Casa de Ópera de Sydney", "Teatro de Ópera de Sydney"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Dinamarquês",
+        "bio": "Utzon venceu em 1957 o concurso para a Ópera com um projeto que fez seu nome, mas renunciou em 1966, em meio a disputas sobre custos e projeto. Recebeu o Prêmio Pritzker em 2003."
+      },
+      {
+        "aliases": [],
+        "nationality": "Australiano",
+        "bio": "Arquiteto australiano que liderou a equipe que concluiu a Ópera, inclusive seus interiores, depois da renúncia de Utzon."
+      }
+    ],
+    "city": "Sydney",
+    "style": "Modernismo expressionista",
+    "drawings": [],
+    "photos": [
+      { "alt": "Cascas brancas em forma de velas sobre um pódio junto a um porto, com arranha-céus ao fundo", "caption": null },
+      { "alt": "Grande sala de concertos com painéis de madeira no teto, fileiras de assentos e um palco", "caption": "A sala de concertos." }
+    ],
+    "hints": [
+      "Seu arquiteto venceu em 1957 um concurso internacional com 233 projetos, mas saiu antes de a obra terminar.",
+      "As cascas de seu telhado são cobertas por mais de um milhão de azulejos.",
+      "Fica em uma ponta que avança sobre um porto."
+    ],
+    "summary": {
+      "description": "Jørn Utzon venceu o concurso de 1955–57 com um projeto de «cascas» brancas de concreto que sobem de um pódio monumental em Bennelong Point. Após disputas sobre custos e projeto, ele renunciou em 1966, e uma equipe australiana liderada por Peter Hall concluiu o edifício, que a rainha Elizabeth II inaugurou em 20 de outubro de 1973.",
+      "keyFeatures": [
+        "«Cascas» do telhado recortadas de uma esfera de 75,2 m de raio",
+        "1.056.006 azulejos, brancos brilhantes e creme foscos",
+        "Pódio monumental revestido de granito rosa",
+        "Paredes de vidro fechando as extremidades abertas das cascas"
+      ],
+      "funFacts": [
+        "As cascas são, na verdade, painéis de concreto pré-moldado sobre nervuras pré-moldadas, e não cascas no sentido estrutural.",
+        "Tornou-se Patrimônio Mundial da UNESCO em 2007.",
+        "O concurso recebeu 233 projetos de 32 países."
+      ]
+    }
+  },
+  "real-gabinete-portugues-de-leitura": {
+    "name": "Real Gabinete Português de Leitura",
+    "aliases": ["Real Gabinete Português", "Real Gabinete"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto português que projetou a sede do Gabinete no estilo neomanuelino, evocando a arquitetura da Era dos Descobrimentos de Portugal."
+      }
+    ],
+    "city": "Rio de Janeiro",
+    "style": "Neomanuelino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Fachada ornamentada de pedra clara, com arcos ogivais e pináculos, no fim de uma rua de paralelepípedos", "caption": null },
+      { "alt": "Alto salão de leitura forrado de estantes de madeira em vários níveis, sob uma claraboia decorada", "caption": "O salão principal de leitura." }
+    ],
+    "hints": [
+      "Foi fundado em 1837 por imigrantes portugueses, muitos deles refugiados políticos.",
+      "Seu estilo ressuscita a arquitetura ornamentada da Era dos Descobrimentos de Portugal.",
+      "A pedra de sua fachada foi esculpida em Lisboa e enviada através do Atlântico."
+    ],
+    "summary": {
+      "description": "Fundado em 1837 por imigrantes portugueses na então capital do Império do Brasil, o Gabinete construiu sua sede em 1880–87, segundo projeto de Rafael da Silva e Castro. Seu estilo neomanuelino lembra o gótico tardio da Era dos Descobrimentos de Portugal, e seu salão de leitura é forrado do chão ao teto de estantes entalhadas sob uma claraboia.",
+      "keyFeatures": [
+        "Fachada neomanuelina inspirada no Mosteiro dos Jerónimos, em Lisboa",
+        "Pedra da fachada esculpida em Lisboa e enviada ao Rio",
+        "Salão de leitura com estantes de madeira entalhada em vários níveis",
+        "Claraboia decorada de ferro e vidro"
+      ],
+      "funFacts": [
+        "O imperador Pedro II lançou a pedra fundamental em 10 de junho de 1880.",
+        "A princesa Isabel inaugurou o edifício em 10 de setembro de 1887.",
+        "Estátuas na fachada retratam figuras como Pedro Álvares Cabral e Luís de Camões."
+      ]
+    }
+  },
+  "teatro-amazonas": {
+    "name": "Teatro Amazonas",
+    "aliases": ["Teatro Amazonas de Manaus"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "bio": "Arquiteto italiano sob cuja direção a construção do teatro de ópera de Manaus começou, em 1884."
+      }
+    ],
+    "city": "Manaus, Amazonas",
+    "style": "Eclético (Renascimento revisitado)",
+    "drawings": [],
+    "photos": [
+      { "alt": "Teatro rosa e branco com pórtico de colunas sob uma colorida cúpula de azulejos, ao entardecer", "caption": null },
+      { "alt": "Plateia em ferradura com fileiras de camarotes dourados voltados para um palco", "caption": "A plateia." }
+    ],
+    "hints": [
+      "Foi construído em plena floresta tropical, no auge de um ciclo da borracha.",
+      "Suas telhas vieram da Alsácia, suas paredes de aço, de Glasgow, e seu mármore, de Carrara.",
+      "Foi inaugurado no último dia de 1896; a primeira ópera foi encenada uma semana depois."
+    ],
+    "summary": {
+      "description": "Construído durante a Belle Époque, quando o comércio da borracha fez de Manaus uma das cidades mais ricas do Brasil, este teatro de ópera foi inaugurado em 31 de dezembro de 1896. Quase tudo foi importado: telhas da Alsácia, paredes de aço de Glasgow, mármore de Carrara, da Itália. Sua cúpula é coberta por 36.000 azulejos cerâmicos nas cores da bandeira brasileira.",
+      "keyFeatures": [
+        "Cúpula revestida de 36.000 azulejos nas cores nacionais",
+        "Materiais importados de toda a Europa",
+        "Painéis do teto pintados por Domenico de Angelis",
+        "198 lustres, 32 deles de vidro de Murano"
+      ],
+      "funFacts": [
+        "O primeiro espetáculo, em 7 de janeiro de 1897, foi a ópera La Gioconda, de Ponchielli."
+      ]
+    }
+  }
+}

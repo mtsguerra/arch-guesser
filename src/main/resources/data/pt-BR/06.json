@@ -1,0 +1,455 @@
+{
+  "palacio-nacional-de-mafra": {
+    "name": "Palácio Nacional de Mafra",
+    "aliases": ["Convento de Mafra", "Palácio de Mafra", "Real Edifício de Mafra"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (atuante em Portugal)",
+        "bio": "Ourives e arquiteto nascido na Alemanha que se estabeleceu em Portugal e foi nomeado diretor das obras reais de Mafra."
+      }
+    ],
+    "city": "Mafra",
+    "style": "Barroco",
+    "drawings": [
+      { "label": "Planta geral", "alt": "Planta de um vasto complexo retangular com uma igreja no centro da fachada principal e pátios atrás" }
+    ],
+    "photos": [
+      { "alt": "Fachada de pedra muito longa, com uma igreja de duas torres no centro, vista do outro lado de uma praça pavimentada", "caption": null },
+      { "alt": "Longo salão de biblioteca abobadado, forrado de estantes de madeira dourada e piso de mármore xadrez", "caption": "A biblioteca." }
+    ],
+    "hints": [
+      "Cumpriu o voto de um rei, feito em 1711, de construir um convento se a rainha lhe desse um herdeiro.",
+      "Foi paga em grande parte com ouro e diamantes de uma colônia na América do Sul.",
+      "Combina palácio, basílica e convento, e sua biblioteca guarda cerca de 30.000 livros raros."
+    ],
+    "summary": {
+      "description": "O rei D. João V prometeu em 1711 construir um convento se sua esposa lhe desse filhos; à medida que o ouro e os diamantes do Brasil chegavam, o plano cresceu até se tornar palácio, basílica e convento para 330 frades. Projetado por João Frederico Ludovice e construído de 1717 a 1755, com até 45.000 operários ao mesmo tempo, organiza-se simetricamente em torno da basílica no centro da fachada principal.",
+      "keyFeatures": [
+        "Basílica no centro de uma fachada principal simétrica",
+        "Duas grandes torres fechando as extremidades da frente",
+        "Biblioteca com cerca de 30.000 livros raros",
+        "Seis órgãos de tubos históricos"
+      ],
+      "funFacts": [
+        "Seus dois carrilhões têm 98 sinos.",
+        "Tornou-se Patrimônio Mundial da UNESCO em 2019, junto com seu jardim e parque de caça."
+      ]
+    }
+  },
+  "panteao-nacional": {
+    "name": "Panteão Nacional",
+    "aliases": ["Igreja de Santa Engrácia", "Santa Engrácia"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto real e um dos mais importantes arquitetos barrocos de Portugal."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Barroco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Igreja de pedra branca em planta de cruz grega, com torres nos cantos e uma grande cúpula", "caption": null },
+      { "alt": "Centro com cúpula de uma igreja, com pisos e paredes de mármore colorido", "caption": "Sob a cúpula." }
+    ],
+    "hints": [
+      "Seu nome virou um ditado nacional para uma obra que nunca termina.",
+      "Iniciada em 1682, só recebeu sua cúpula e foi reinaugurada em 1966.",
+      "Presidentes, escritores, uma cantora de fado e um futebolista estão enterrados aqui."
+    ],
+    "summary": {
+      "description": "João Antunes projetou esta igreja em planta centralizada de cruz grega, ideia nunca antes tentada em Portugal. As obras correram de 1682 até sua morte, em 1712, e depois ficaram paradas por séculos, de modo que «obras de Santa Engrácia» virou sinônimo de obra sem fim. Transformada em Panteão Nacional em 1916, recebeu finalmente sua cúpula e foi reinaugurada em 1966.",
+      "keyFeatures": [
+        "Planta em cruz grega",
+        "Grande cúpula central, acrescentada no século XX",
+        "Pisos e paredes de mármore colorido",
+        "Túmulos de figuras nacionais"
+      ],
+      "funFacts": [
+        "A cantora de fado Amália Rodrigues e o futebolista Eusébio estão ambos sepultados aqui.",
+        "Os escritores Almeida Garrett e Eça de Queiroz também jazem aqui."
+      ]
+    }
+  },
+  "bom-jesus-do-monte": {
+    "name": "Bom Jesus do Monte",
+    "aliases": ["Santuário do Bom Jesus do Monte", "Bom Jesus", "Bom Jesus de Braga"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Engenheiro militar e arquiteto em grande parte autodidata, que teve papel central na transição do barroco e do rococó para o neoclassicismo em Portugal."
+      }
+    ],
+    "city": "Braga",
+    "style": "Escadaria barroca; igreja neoclássica",
+    "drawings": [],
+    "photos": [
+      { "alt": "Escadaria de granito em zigue-zague, com estátuas e fontes, subindo uma colina arborizada até uma igreja de duas torres", "caption": null },
+      { "alt": "Nave de igreja com abóbada de berço de pedra que leva a um altar-mor dourado", "caption": "A igreja." }
+    ],
+    "hints": [
+      "É um local de peregrinação no alto de um monte, tradicionalmente alcançado a pé ou até de joelhos.",
+      "Suas escadarias em zigue-zague são dedicadas aos cinco sentidos e às três virtudes teologais.",
+      "Desde 1882, um funicular movido a água, o primeiro da Península Ibérica, leva os visitantes colina acima."
+    ],
+    "summary": {
+      "description": "O atual santuário foi iniciado em 1722, sob o arcebispo Rodrigo de Moura Telles. Sua escadaria monumental de 583 degraus conduz os peregrinos por cenas da Paixão e por fontes dos Cinco Sentidos e das Três Virtudes, contrapondo o mundo material ao espírito. No alto, a igreja de Carlos Amarante (1784–1834) foi uma das primeiras igrejas neoclássicas de Portugal.",
+      "keyFeatures": [
+        "Escadaria em zigue-zague de 583 degraus",
+        "Escadas dos Cinco Sentidos e das Três Virtudes, cada uma com fontes",
+        "Capelas com cenas da Paixão",
+        "Igreja neoclássica de Carlos Amarante"
+      ],
+      "funFacts": [
+        "Seu funicular de 1882 é contrabalançado por água e continua em uso.",
+        "Tornou-se Patrimônio Mundial da UNESCO em 2019."
+      ]
+    }
+  },
+  "palacio-nacional-de-queluz": {
+    "name": "Palácio Nacional de Queluz",
+    "aliases": ["Palácio de Queluz", "Queluz"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Formado com Ludovice e Robillon no canteiro de Mafra, trabalhou principalmente nos estilos barroco tardio e rococó, e é lembrado sobretudo pelo Palácio de Queluz."
+      },
+      {
+        "aliases": [],
+        "nationality": "Francês (atuante em Portugal)",
+        "bio": "Artista francês que ensinara Oliveira em Mafra; em Queluz foi responsável pelos jardins, por vários edifícios, pelos interiores rococó e pela ala oeste que leva seu nome."
+      }
+    ],
+    "city": "Queluz, Sintra",
+    "style": "Rococó",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de palácio rococó rosa e branco, com frontão e altas janelas, vista ao longo de um jardim formal", "caption": null },
+      { "alt": "Sala do trono espelhada e dourada, com lustres de cristal e um teto pintado", "caption": "A Sala do Trono." }
+    ],
+    "hints": [
+      "Foi construído como refúgio de verão para o irmão de um rei, que depois se casou com a própria sobrinha, a rainha.",
+      "Embora muito menor, costuma ser chamado de «Versalhes» de seu país.",
+      "Uma de suas alas é usada hoje como casa oficial de hóspedes para chefes de Estado em visita."
+    ],
+    "summary": {
+      "description": "Iniciado em 1747 por Mateus Vicente de Oliveira como refúgio de verão para D. Pedro de Bragança, depois rei D. Pedro III, Queluz é um dos últimos grandes edifícios rococó da Europa. A obra foi interrompida pelo terremoto de 1755. O antigo mestre de Oliveira, Jean-Baptiste Robillon, projetou os jardins, os interiores rococó e a grande ala oeste.",
+      "keyFeatures": [
+        "Fachadas rococó baixas, em cores pastel",
+        "Ala Robillon",
+        "Sala do trono dourada, com espelhos e lustres",
+        "Jardins formais com estátuas e fontes"
+      ],
+      "funFacts": [
+        "Já foi descrito como «um bolo de aniversário muito caro».",
+        "A rainha D. Maria I viveu ali reclusa depois de adoecer mentalmente."
+      ]
+    }
+  },
+  "basilica-da-estrela": {
+    "name": "Basílica da Estrela",
+    "aliases": ["Estrela", "Real Basílica e Convento do Santíssimo Coração de Jesus"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Formado com Ludovice e Robillon no canteiro de Mafra, trabalhou principalmente nos estilos barroco tardio e rococó, e é lembrado sobretudo pelo Palácio de Queluz."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e engenheiro militar, aprendiz no canteiro de Mafra e uma das figuras centrais da arquitetura e do urbanismo pombalinos depois do terremoto de 1755."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Barroco tardio e neoclássico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de igreja branca com duas torres sineiras e estátuas, vista da rua", "caption": null },
+      { "alt": "Vista para cima de um cruzeiro de abóbadas de mármore colorido sob uma cúpula", "caption": "As abóbadas e a cúpula." }
+    ],
+    "hints": [
+      "Uma princesa prometeu construí-la se tivesse um herdeiro; só pôde cumprir o voto depois de se tornar rainha.",
+      "Foi a primeira igreja do mundo dedicada ao Sagrado Coração de Jesus.",
+      "Sua fundadora está enterrada em seu transepto direito."
+    ],
+    "summary": {
+      "description": "Ordenada pela rainha D. Maria I para cumprir um voto por um herdeiro, a basílica foi iniciada em 1779 por Mateus Vicente de Oliveira e continuada, depois de sua morte, por Reinaldo Manuel dos Santos. Foi a primeira igreja do mundo dedicada ao Sagrado Coração de Jesus e a mais importante obra arquitetônica de seu reinado.",
+      "keyFeatures": [
+        "Duas torres sineiras flanqueando a frente",
+        "Grande cúpula sobre o cruzeiro",
+        "Interior revestido de mármore colorido",
+        "Túmulo da rainha D. Maria I"
+      ],
+      "funFacts": [
+        "Abriga um presépio de Joaquim Machado de Castro com mais de 500 figuras de cortiça e terracota."
+      ]
+    }
+  },
+  "palacio-nacional-da-ajuda": {
+    "name": "Palácio Nacional da Ajuda",
+    "aliases": ["Palácio da Ajuda", "Ajuda"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Formado em Roma, tornou-se arquiteto real e ajudou a firmar a arquitetura neoclássica em Portugal e no Brasil colonial."
+      },
+      {
+        "aliases": [],
+        "nationality": "Italiano (atuante em Portugal)",
+        "bio": "Arquiteto de Medicina, perto de Bolonha, que se estabeleceu em Portugal e assumiu o projeto da Ajuda depois que a família real fugiu para o Brasil."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Neoclássico",
+    "drawings": [
+      { "label": "Planta do projeto original", "alt": "Planta de um enorme palácio em torno de um grande pátio, com a parte executada em preto sólido" }
+    ],
+    "photos": [
+      { "alt": "Longa frente de palácio neoclássico com pavilhões nos cantos, vista do outro lado de um gramado aberto", "caption": null },
+      { "alt": "Escadaria de pedra com tapete vermelho subindo entre paredes brancas entalhadas", "caption": "Uma escadaria." }
+    ],
+    "hints": [
+      "Fica no local de uma residência real de madeira construída depois do terremoto de 1755.",
+      "As obras quase pararam quando a família real fugiu para o Brasil em 1807.",
+      "Seu lado oeste inacabado só foi concluído no século XXI, para abrigar as joias da coroa."
+    ],
+    "summary": {
+      "description": "Iniciado em 1796 no local da «Real Barraca» de madeira, o palácio foi redesenhado em estilo neoclássico por José da Costa e Silva e Francisco Xavier Fabri. Depois que a corte fugiu das tropas de Napoleão para o Brasil, em 1807, as obras se arrastaram, e apenas parte do vasto plano foi construída. Tornou-se residência real permanente sob o rei D. Luís I e a rainha D. Maria Pia.",
+      "keyFeatures": [
+        "Longas fachadas neoclássicas com pavilhões nos cantos",
+        "Interiores projetados para a rainha D. Maria Pia",
+        "Plano muito maior do que o que foi construído",
+        "Nova ala oeste para o Museu do Tesouro Real"
+      ],
+      "funFacts": [
+        "Desde 2022 abriga o Museu do Tesouro Real, com as joias da coroa portuguesa.",
+        "Possidónio da Silva transformou uma de suas fachadas laterais na principal."
+      ]
+    }
+  },
+  "teatro-nacional-de-sao-carlos": {
+    "name": "Teatro Nacional de São Carlos",
+    "aliases": ["São Carlos", "Teatro de São Carlos", "Real Teatro de São Carlos"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Formado em Roma, tornou-se arquiteto real e ajudou a firmar a arquitetura neoclássica em Portugal e no Brasil colonial."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Neoclássico com elementos rococó",
+    "drawings": [],
+    "photos": [
+      { "alt": "Frente de teatro amarela e branca, com relógio, sacada e três arcos de entrada, em uma praça pavimentada", "caption": null },
+      { "alt": "Plateia em ferradura com fileiras de camarotes dourados e um camarote real coroado", "caption": "A plateia." }
+    ],
+    "hints": [
+      "Substituiu uma casa de ópera destruída no terremoto de 1755.",
+      "Foi construído em apenas seis meses e inaugurado em 1793.",
+      "Seu projeto se inspira nas grandes casas de ópera de Nápoles e Milão."
+    ],
+    "summary": {
+      "description": "Inaugurado pela rainha D. Maria I em 30 de junho de 1793 para substituir a Ópera do Tejo, perdida no terremoto de 1755, o teatro foi construído em apenas seis meses, segundo projeto de José da Costa e Silva. Seu interior se inspira no San Carlo de Nápoles e no La Scala de Milão, e sua fachada, no La Scala.",
+      "keyFeatures": [
+        "Plateia em ferradura com fileiras de camarotes",
+        "Camarote real diante do palco",
+        "Pórtico de entrada com arcadas",
+        "Fachada inspirada no La Scala"
+      ],
+      "funFacts": [
+        "Recebeu o nome da princesa Carlota Joaquina de Espanha, esposa do futuro rei D. João VI.",
+        "A primeira ópera ali encenada foi La ballerina amante, de Cimarosa."
+      ]
+    }
+  },
+  "hospital-de-santo-antonio": {
+    "name": "Hospital de Santo António",
+    "aliases": ["Hospital Geral de Santo António", "Hospital de Santo Antônio", "Santo António"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Inglês",
+        "bio": "Considerado em sua época o principal arquiteto do norte da Inglaterra, trabalhou sobretudo no estilo palladiano, em especial em Harewood House e Buxton Crescent."
+      }
+    ],
+    "city": "Porto",
+    "style": "Palladiano",
+    "drawings": [],
+    "photos": [
+      { "alt": "Longo edifício neoclássico de granito, com um pavilhão central de colunas coroado por estátuas", "caption": null },
+      { "alt": "Antiga farmácia com armários de madeira entalhada cheios de potes de vidro sob um teto abobadado", "caption": "A antiga farmácia, hoje museu." }
+    ],
+    "hints": [
+      "Seu arquiteto era inglês, mais conhecido por casas de campo em estilo palladiano.",
+      "Foi iniciado em 1770 em terreno aberto, na periferia da cidade.",
+      "Apenas cerca de dois terços do plano original chegaram a ser construídos."
+    ],
+    "summary": {
+      "description": "Iniciado em 15 de julho de 1770 no que era então a periferia do Porto, o hospital foi projetado pelo arquiteto inglês John Carr e é descrito como o edifício mais palladiano de Portugal. Foi inaugurado em 1824 com apenas cerca de dois terços do projeto executados, e continua sendo um hospital em funcionamento.",
+      "keyFeatures": [
+        "Fachadas de granito com proporções palladianas",
+        "Pavilhão central de colunas com estátuas",
+        "Farmácia histórica, hoje parte do museu do hospital"
+      ],
+      "funFacts": [
+        "A obra mais conhecida de seu arquiteto é Harewood House, em Yorkshire."
+      ]
+    }
+  },
+  "palacio-nacional-da-pena": {
+    "name": "Palácio Nacional da Pena",
+    "aliases": ["Palácio da Pena", "Pena"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (atuante em Portugal)",
+        "bio": "Geólogo, mineralogista e engenheiro de minas que serviu à corte portuguesa em Portugal e no Brasil, e atuou como arquiteto amador."
+      }
+    ],
+    "city": "Sintra",
+    "style": "Romantismo",
+    "drawings": [],
+    "photos": [
+      { "alt": "Castelo-palácio amarelo, vermelho e cinza, com cúpulas e torres, no alto de uma colina arborizada", "caption": null },
+      { "alt": "Sala redonda com uma coluna central que se abre em abóbada como uma palmeira, decorada com chifres", "caption": "A Sala dos Veados." }
+    ],
+    "hints": [
+      "Foi construído sobre as ruínas de um mosteiro destruído por um raio e depois pelo terremoto de 1755.",
+      "Um rei consorte nascido na Alemanha o encomendou como residência de verão da família real.",
+      "É uma das grandes expressões do romantismo do século XIX e uma das Sete Maravilhas de Portugal."
+    ],
+    "summary": {
+      "description": "O rei consorte D. Fernando II comprou em 1838 o mosteiro jeronimita em ruínas, no alto de uma colina de Sintra, e mandou o barão von Eschwege reconstruí-lo como palácio romântico de verão entre 1842 e 1854. O rei e a rainha D. Maria II intervieram de modo decisivo na decoração e no simbolismo.",
+      "keyFeatures": [
+        "Torres, cúpulas e ameias de cores vivas",
+        "Antigo claustro do mosteiro",
+        "Sala dos Veados com abóbada central em forma de palmeira",
+        "Construído sobre os restos de um mosteiro jeronimita"
+      ],
+      "funFacts": [
+        "Passou depois à segunda esposa de D. Fernando, Elise Hensler, condessa d'Edla.",
+        "É Patrimônio Mundial da UNESCO."
+      ]
+    }
+  },
+  "palacio-do-bucaco": {
+    "name": "Palácio do Buçaco",
+    "aliases": ["Palace Hotel do Buçaco", "Palácio Hotel do Buçaco", "Bussaco", "Buçaco"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano (atuante em Portugal)",
+        "bio": "Nascido em Crema, chegou a Lisboa em 1879 como cenógrafo do teatro de ópera de São Carlos e passou a projetar fantasias neomanuelinas, como a Quinta da Regaleira, em Sintra."
+      }
+    ],
+    "city": "Luso, Mealhada",
+    "style": "Neomanuelino",
+    "drawings": [],
+    "photos": [
+      { "alt": "Palácio de pedra ornamentado, com uma alta torre de pináculos e arcadas entalhadas, visto do outro lado de um jardim formal", "caption": null },
+      { "alt": "Fotografia antiga de um grande salão com lareira entalhada, arcos e paredes pintadas", "caption": "Um salão, c. 1923." }
+    ],
+    "hints": [
+      "Foi planejado como residência real para uma rainha, mas acabou virando hotel.",
+      "Fica em uma mata-jardim criada por monges ao lado de seu antigo convento.",
+      "Imita o estilo do século XVI dos Jerónimos e da Torre de Belém."
+    ],
+    "summary": {
+      "description": "Construído entre 1888 e 1907 ao lado de um antigo convento na mata do Buçaco, o palácio foi pensado primeiro como residência da rainha D. Maria Pia antes de se tornar hotel. Luigi Manini o projetou como evocação romântica e neomanuelina da Era dos Descobrimentos, sendo sucedido por Nicola Bigaglia, José Alexandre Soares e Manuel Joaquim Norte Júnior.",
+      "keyFeatures": [
+        "Torre de pináculos",
+        "Arcadas neomanuelinas entalhadas",
+        "Painéis de azulejos de Jorge Colaço sobre os Descobrimentos",
+        "Interiores com estuque que imita abóbadas nervuradas manuelinas"
+      ],
+      "funFacts": [
+        "Foi concluído pouco antes da queda da monarquia portuguesa, em 1910.",
+        "É Monumento Nacional desde 2018."
+      ]
+    }
+  },
+  "palacio-da-bolsa": {
+    "name": "Palácio da Bolsa",
+    "aliases": ["Bolsa do Porto", "Palácio da Bolsa do Porto"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto do Porto que liderou o projeto de 1840 a 1860 e lhe deu o desenho geral neopalladiano."
+      },
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto que projetou depois a grande escadaria do palácio e seu Salão Árabe."
+      }
+    ],
+    "city": "Porto",
+    "style": "Neoclássico (neopalladiano), com salão neomourisco",
+    "drawings": [],
+    "photos": [
+      { "alt": "Grande palácio neoclássico com frente de frontão, visto entre os telhados de uma cidade em encosta junto a um rio", "caption": null },
+      { "alt": "Salão octogonal coberto de arabescos dourados de estuque em estilo mourisco, com arcos em ferradura e teto estampado", "caption": "O Salão Árabe." }
+    ],
+    "hints": [
+      "Foi construído pelos comerciantes da cidade como sede de sua associação comercial.",
+      "Fica sobre as ruínas dos claustros de um convento, queimado durante as Guerras Liberais, em 1832.",
+      "Sua sala mais famosa imita a Alhambra, embora o resto do edifício seja neoclássico."
+    ],
+    "summary": {
+      "description": "Depois que a rainha D. Maria II doou as ruínas do convento de São Francisco aos comerciantes do Porto, em 1841, a Associação Comercial construiu ali sua sede, segundo planos de Joaquim da Costa Lima Júnior: um palácio neoclássico de influência palladiana. A estrutura ficou pronta por volta de 1850, mas os suntuosos interiores levaram até 1910; Gustavo Adolfo Gonçalves e Sousa acrescentou a escadaria e o Salão Árabe.",
+      "keyFeatures": [
+        "Fachadas neopalladianas",
+        "Pátio coberto por uma cúpula de metal e vidro, de Tomás Soler",
+        "Grande escadaria",
+        "Salão Árabe em estilo neomourisco"
+      ],
+      "funFacts": [
+        "É Monumento Nacional desde 1982.",
+        "Fica ao lado da igreja de São Francisco, a parte sobrevivente do antigo convento."
+      ]
+    }
+  },
+  "quinta-da-regaleira": {
+    "name": "Quinta da Regaleira",
+    "aliases": ["Regaleira", "Palácio do Monteiro dos Milhões", "Palácio da Regaleira"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano (atuante em Portugal)",
+        "bio": "Nascido em Crema, chegou a Lisboa em 1879 como cenógrafo do teatro de ópera de São Carlos e passou a projetar fantasias neomanuelinas, como o Palácio do Buçaco."
+      }
+    ],
+    "city": "Sintra",
+    "style": "Neomanuelino e neogótico românticos",
+    "drawings": [],
+    "photos": [
+      { "alt": "Mansão de pedra cinzenta rendilhada, com pináculos e uma torre, erguida acima de um jardim", "caption": null },
+      { "alt": "Sala revestida de madeira escura entalhada, com um friso pintado acima de uma porta monumental", "caption": "Uma sala revestida de madeira." }
+    ],
+    "hints": [
+      "Seu dono, apelidado «o Milionário», comprou a propriedade em 1892.",
+      "Seu parque esconde grutas, túneis e dois «poços iniciáticos» que nunca foram feitos para guardar água.",
+      "Seus símbolos aludem à alquimia, à maçonaria, aos Cavaleiros Templários e aos Rosa-Cruzes."
+    ],
+    "summary": {
+      "description": "António Augusto Carvalho Monteiro comprou a propriedade em 1892 e, com Luigi Manini, construiu entre 1904 e 1910 um palácio romântico, uma capela e um parque. A arquitetura de Manini evoca os estilos romano, gótico, renascentista e manuelino, e o parque é cheio de edifícios e passagens carregados de simbolismo esotérico.",
+      "keyFeatures": [
+        "Palácio neomanuelino com pináculos e uma torre",
+        "Capela",
+        "Poço Iniciático com escada em espiral de 27 metros",
+        "Grutas, lagos e túneis no parque"
+      ],
+      "funFacts": [
+        "Os nove lances de escada do Poço Iniciático podem aludir aos nove fundadores dos Cavaleiros Templários.",
+        "Antes de Carvalho Monteiro, pertencia à viscondessa da Regaleira."
+      ]
+    }
+  }
+}

@@ -87,3 +87,21 @@ describe('giving up', () => {
 it('throws on unknown actions', () => {
   expect(() => gameReducer(initialState, { type: 'nope' })).toThrow('Unknown action')
 })
+
+describe('building/translate', () => {
+  const building = { id: 'a', name: 'A', hints: [{ order: 1, text: 'x' }, { order: 2, text: 'y' }] }
+
+  it('swaps the building text and keeps the round state', () => {
+    let state = gameReducer(initialState, { type: 'load/success', building })
+    state = gameReducer(state, { type: 'hint/reveal' })
+    const next = gameReducer(state, { type: 'building/translate', building: { ...building, name: 'Á' } })
+    expect(next.building.name).toBe('Á')
+    expect(next.hintLevel).toBe(1)
+    expect(next.phase).toBe('playing')
+  })
+
+  it('ignores a different building', () => {
+    const state = gameReducer(initialState, { type: 'load/success', building })
+    expect(gameReducer(state, { type: 'building/translate', building: { ...building, id: 'b' } })).toBe(state)
+  })
+})

@@ -13,4 +13,10 @@ describe('eraRange', () => {
     expect(eraRange({ startYear: -800, endYear: 476 })).toBe('800 BCE–476')
     expect(eraRange({ startYear: 1990, endYear: null })).toBe('1990–now')
   })
+
+  it('uses the given language for BCE and open-ended ranges', () => {
+    const pt = { bce: 'a.C.', now: 'hoje' }
+    expect(eraRange({ startYear: -800, endYear: 476 }, pt)).toBe('800 a.C.–476')
+    expect(eraRange({ startYear: 1990, endYear: null }, pt)).toBe('1990–hoje')
+  })
 })

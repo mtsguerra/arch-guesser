@@ -24,6 +24,28 @@ class JsonBuildingRepositoryTest {
     }
 
     @Test
+    void shippedPortugueseTranslationsCoverEveryBuildingAndMatchTheSource() throws Exception {
+        var resolver = new org.springframework.core.io.support.PathMatchingResourcePatternResolver();
+        var files = resolver.getResources("classpath*:data/pt-BR/*.json");
+        var repository = new JsonBuildingRepository(jsonMapper, new ClassPathResource("data/buildings.json"), files);
+
+        // Loading throws if a translation's lists don't line up with the source building.
+        var ids = new java.util.HashSet<String>();
+        for (var file : files) {
+            try (var in = file.getInputStream()) {
+                ids.addAll(jsonMapper.readTree(in).propertyNames());
+            }
+        }
+        assertThat(ids).containsExactlyInAnyOrderElementsOf(
+                repository.findAll().stream().map(Building::id).toList());
+        assertThat(repository.findById("villa-rotonda", "pt-BR")).get()
+                .satisfies(b -> assertThat(b.aliases()).contains("Villa Rotonda"))
+                .satisfies(b -> assertThat(b.hints()).hasSize(3));
+        assertThat(repository.findById("villa-rotonda", "en").get().style()).isEqualTo("Palladian");
+        assertThat(repository.findById("villa-rotonda", "pt-BR").get().style()).isEqualTo("Palladiano");
+    }
+
+    @Test
     void testCatalogueLoads() {
         var repository = new JsonBuildingRepository(jsonMapper, new ClassPathResource("data/test-buildings.json"));
 

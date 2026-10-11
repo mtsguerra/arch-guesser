@@ -1,11 +1,12 @@
 import { useRef } from 'react'
 import { motion } from 'motion/react'
 import { springSoft } from '../../motion.js'
-import { strings } from '../../strings.js'
+import { useStrings } from '../../i18n.js'
 import styles from './SheetTabs.module.css'
 
 /** Index tabs for the drawing set. Roving tabindex with arrow / Home / End keys. */
 export function SheetTabs({ sheets, activeIndex, onSelect, idPrefix }) {
+  const strings = useStrings()
   const tabRefs = useRef([])
 
   function handleKeyDown(event) {

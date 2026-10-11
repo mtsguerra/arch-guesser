@@ -1,7 +1,33 @@
-// All user-facing copy lives here so the UI can be translated later.
-export const strings = {
+// English copy. Every other language mirrors this shape (see pt-BR.js).
+export default {
   appName: 'Arch Guesser',
   nextBuilding: 'Another building',
+
+  language: {
+    label: 'Language',
+    switchTo: 'Português (Brasil)',
+    short: 'PT',
+  },
+
+  years: { bce: 'BCE', now: 'now' },
+
+  eras: {
+    CLASSICAL: 'Classical Antiquity',
+    BYZANTINE: 'Byzantine',
+    MEDIEVAL: 'Romanesque & Gothic',
+    OTTOMAN: 'Ottoman',
+    MANUELINE: 'Manueline',
+    RENAISSANCE: 'Renaissance',
+    BAROQUE: 'Baroque',
+    NEOCLASSICAL: 'Neoclassical',
+    HISTORICISM: 'Historicism & Gothic Revival',
+    ART_NOUVEAU: 'Art Nouveau',
+    ART_DECO: 'Art Deco',
+    MODERNISM: 'Modernism',
+    BRUTALISM: 'Brutalism',
+    POSTMODERNISM: 'Postmodernism',
+    CONTEMPORARY: 'Contemporary',
+  },
 
   credits: {
     images: 'Images from',
