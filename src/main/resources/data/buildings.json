@@ -12634,5 +12634,671 @@
         "The architect’s identity is unknown; tradition names Postnik Yakovlev and Barma."
       ]
     }
+  },
+  {
+    "id": "louvre-palace",
+    "name": "Louvre Palace (Louvre Museum)",
+    "aliases": ["Louvre", "The Louvre", "Palais du Louvre", "Musée du Louvre", "Louvre Museum", "Louvre Palace"],
+    "architects": [
+      {
+        "name": "Pierre Lescot",
+        "aliases": ["Lescot"],
+        "lifespan": "c. 1515–1578",
+        "nationality": "French",
+        "bio": "French Renaissance architect who designed the Lescot Wing from the late 1540s, the oldest standing part of the palace, on the orders of Francis I."
+      },
+      {
+        "name": "Claude Perrault",
+        "aliases": ["Perrault"],
+        "lifespan": "1613–1688",
+        "nationality": "French",
+        "bio": "Physician and architect credited, with Louis Le Vau and Charles Le Brun, with the classical east façade of the Cour Carrée, with its great colonnade."
+      },
+      {
+        "name": "I. M. Pei",
+        "aliases": ["Ieoh Ming Pei", "Pei"],
+        "lifespan": "1917–2019",
+        "nationality": "Chinese-American",
+        "bio": "Architect of the glass pyramid added to the Cour Napoléon in 1989 as the main entrance to the museum."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1857,
+    "era": "RENAISSANCE",
+    "style": "French Renaissance and Classicism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louvre_Palace",
+    "drawings": [
+      {
+        "type": "SITE_PLAN",
+        "label": "Plan of the palace",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Blank_plan_of_the_Louvre_01.svg/1920px-Blank_plan_of_the_Louvre_01.svg.png",
+        "alt": "Grey plan of a palace of long wings around courtyards, with garden spaces and a compass arrow",
+        "credit": "Paris 16 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Blank_plan_of_the_Louvre_01.svg"
+      },
+      {
+        "type": "ELEVATION",
+        "label": "East façade of the Cour Carrée",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Claude_Perrault%2C_elevation_of_the_east_facade_of_the_Cour_Carr%C3%A9e_of_the_Louvre_%E2%80%93_Berger_1993%2C_figure_113.jpg/1920px-Claude_Perrault%2C_elevation_of_the_east_facade_of_the_Cour_Carr%C3%A9e_of_the_Louvre_%E2%80%93_Berger_1993%2C_figure_113.jpg",
+        "alt": "Engraved elevation of a long classical front with paired columns above a rusticated base and domed pavilions at each end",
+        "credit": "Claude Perrault, 17th century · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Claude_Perrault,_elevation_of_the_east_facade_of_the_Cour_Carr%C3%A9e_of_the_Louvre_%E2%80%93_Berger_1993,_figure_113.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cour_Carr%C3%A9e%2C_Louvre_Palace_2013.jpg/1920px-Cour_Carr%C3%A9e%2C_Louvre_Palace_2013.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.94 },
+        "alt": "Square courtyard with richly sculpted Renaissance façades and a central pavilion with a mansard roof",
+        "credit": "Photo: Guillaume Speurt from Tallinn, Estonia · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cour_Carr%C3%A9e,_Louvre_Palace_2013.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Daru_staircase_Louvre_2007_05_13.jpg/1920px-Daru_staircase_Louvre_2007_05_13.jpg",
+        "alt": "Grand stone staircase rising between arches towards a winged marble statue under a skylight",
+        "credit": "Photo: Unknown author · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Daru_staircase_Louvre_2007_05_13.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Galerie_Daru_-_Mus%C3%A9e_du_Louvre.jpg/1920px-Galerie_Daru_-_Mus%C3%A9e_du_Louvre.jpg",
+        "alt": "Long vaulted gallery with sculptures and ancient reliefs along both sides",
+        "credit": "Photo: Shonagon · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Galerie_Daru_-_Mus%C3%A9e_du_Louvre.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as a medieval fortress, became a royal palace, and is now one of the most visited museums in the world."
+      },
+      {
+        "order": 2,
+        "text": "Its oldest standing wing, from the 1540s, brought the French Renaissance to a royal court."
+      },
+      {
+        "order": 3,
+        "text": "A glass pyramid, added in 1989, now marks its main entrance in the middle of a courtyard."
+      }
+    ],
+    "summary": {
+      "description": "Built as a fortress in the late 12th century under Philip II, the Louvre was converted by Francis I in 1546 into a royal residence and redesigned and extended many times. Pierre Lescot's wing from the late 1540s is its oldest section above ground, while Claude Perrault's colonnade closes the east front of the Cour Carrée. Louis XIV moved to Versailles in 1682, leaving the palace to display the royal collections, and it became the national museum. I. M. Pei's glass pyramid was added in 1989.",
+      "keyFeatures": [
+        "Lescot Wing of the French Renaissance",
+        "Classical east colonnade by Perrault",
+        "Cour Carrée and Cour Napoléon",
+        "Glass pyramid entrance by I. M. Pei"
+      ],
+      "funFacts": [
+        "Remains of the medieval fortress are visible in the basement.",
+        "Louis XIV chose Versailles over the Louvre in 1682."
+      ]
+    }
+  },
+  {
+    "id": "arc-de-triomphe",
+    "name": "Arc de Triomphe",
+    "aliases": [
+      "Arc de Triomphe de l’Étoile",
+      "Arc de Triomphe de l'Etoile",
+      "Triumphal Arch Paris",
+      "Arch of Triumph Paris"
+    ],
+    "architects": [
+      {
+        "name": "Jean-François Chalgrin",
+        "aliases": ["Chalgrin"],
+        "lifespan": "1739–1811",
+        "nationality": "French",
+        "bio": "French Neoclassical architect who designed the arch in 1806 and led the work until his death in 1811. It was inspired by the Arch of Titus in Rome."
+      },
+      {
+        "name": "Louis-Robert Goust",
+        "aliases": ["Goust"],
+        "lifespan": null,
+        "nationality": "French",
+        "bio": "Architect who took over the work after Chalgrin’s death, and who built the arch up to its completion under the Bourbon Restoration and the July Monarchy."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1836,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical (triumphal arch)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plans at three levels",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Arc_de_Triomphe_Grundrisse_ABZ_Wien_1838_Plan_181.jpg/1920px-Arc_de_Triomphe_Grundrisse_ABZ_Wien_1838_Plan_181.jpg",
+        "crop": { "x": 0, "y": 0.06, "w": 1, "h": 0.94 },
+        "alt": "Engraved sheet with three plans of a rectangular arch with large piers, vaults and a central opening",
+        "credit": "Allgemeine Bauzeitung, Vienna, 1838 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_Grundrisse_ABZ_Wien_1838_Plan_181.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Cross section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Arc_de_Triomphe_Querschnitt_ABZ_Wien_1838_Plan_182.jpg/1920px-Arc_de_Triomphe_Querschnitt_ABZ_Wien_1838_Plan_182.jpg",
+        "crop": { "x": 0, "y": 0.07, "w": 1, "h": 0.93 },
+        "alt": "Engraved section through a triumphal arch showing a large vault, a coffered ceiling and an upper room",
+        "credit": "Allgemeine Bauzeitung, Vienna, 1838 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_Querschnitt_ABZ_Wien_1838_Plan_182.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Arc_de_Triomphe_de_l%C3%89toile%2C_Paris_7_June_2012.jpg/1920px-Arc_de_Triomphe_de_l%C3%89toile%2C_Paris_7_June_2012.jpg",
+        "alt": "Huge stone triumphal arch with sculpted reliefs, framed by trees and a busy roundabout",
+        "credit": "Photo: Guillaume Baviere from Helsingborg, Sweden · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_de_l%C3%89toile,_Paris_7_June_2012.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Interior_of_the_Arc_de_Triomphe_%2822265695019%29.jpg/1920px-Interior_of_the_Arc_de_Triomphe_%2822265695019%29.jpg",
+        "alt": "Vaulted stone room inside the arch with display cases and a long engraved inscription",
+        "credit": "Photo: Jorge Láscar from Melbourne, Australia · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Arc_de_Triomphe_(22265695019).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was commissioned by an emperor after his greatest victory, but he did not live to see it finished."
+      },
+      { "order": 2, "text": "The names of victories and generals are engraved on its inner and outer surfaces." },
+      { "order": 3, "text": "Twelve avenues meet at its feet, and an eternal flame burns beneath its vault." }
+    ],
+    "summary": {
+      "description": "Commissioned in 1806 by Napoleon I after his victory at Austerlitz, the Arc de Triomphe was designed by Jean-François Chalgrin and inspired by the Arch of Titus in Rome. Work continued under Louis-Robert Goust after Chalgrin's death in 1811 and was completed only in 1836. It stands 49.54 metres high at the centre of the star-shaped Place Charles de Gaulle, at the western end of the Champs-Élysées. Beneath its vault lies the Tomb of the Unknown Soldier.",
+      "keyFeatures": [
+        "Single huge opening between two massive piers",
+        "Sculpted groups and relief friezes",
+        "Names of victories and generals on its walls",
+        "Tomb of the Unknown Soldier beneath the vault"
+      ],
+      "funFacts": [
+        "A wooden mock-up of the arch was built to welcome Napoleon’s new bride in 1810.",
+        "It is at the centre of a star of twelve radiating avenues."
+      ]
+    }
+  },
+  {
+    "id": "eiffel-tower",
+    "name": "Eiffel Tower",
+    "aliases": ["Tour Eiffel", "La Tour Eiffel", "La Dame de Fer", "Iron Lady"],
+    "architects": [
+      {
+        "name": "Gustave Eiffel",
+        "aliases": ["Eiffel", "Alexandre Gustave Eiffel"],
+        "lifespan": "1832–1923",
+        "nationality": "French",
+        "bio": "Engineer whose company designed and built the tower from 1887 to 1889 as the centrepiece of the Exposition Universelle, and who gave it his name."
+      },
+      {
+        "name": "Maurice Koechlin",
+        "aliases": ["Koechlin"],
+        "lifespan": "1856–1946",
+        "nationality": "Swiss-French",
+        "bio": "Senior engineer at Eiffel’s company who made the first sketch of a great pylon of four lattice girders in 1884; the design is attributed to him and Émile Nouguier."
+      },
+      {
+        "name": "Stephen Sauvestre",
+        "aliases": ["Sauvestre"],
+        "lifespan": "1847–1919",
+        "nationality": "French",
+        "bio": "Head of the architectural department of Eiffel’s company, who added decorative arches at the base, a glass pavilion on the first level and other embellishments."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1889,
+    "era": "INDUSTRIAL",
+    "style": "Wrought-iron lattice tower",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Upper stages and details",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Eiffel_Tower_plans_21.jpg/1920px-Eiffel_Tower_plans_21.jpg",
+        "alt": "Large engineering drawing sheet with elevations of the upper platforms, plans of the floors and sketches of the iron joints",
+        "credit": "Gustave Eiffel’s design office, 1880s · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_plans_21.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1920px-Tour_Eiffel_Wikimedia_Commons.jpg",
+        "alt": "Tall iron lattice tower tapering from a broad four-legged base to a slender top, against a blue sky",
+        "credit": "Photo: Benh LIEU SONG · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sous_la_Tour_Eiffel_1.jpg/1920px-Sous_la_Tour_Eiffel_1.jpg",
+        "alt": "Looking straight up between four iron legs at the lattice and the sky above",
+        "credit": "Photo: Jebulon · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sous_la_Tour_Eiffel_1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Gustaves_Apartment_-_Eiffel_%283384390462%29.jpg/1920px-Gustaves_Apartment_-_Eiffel_%283384390462%29.jpg",
+        "alt": "Small wood-panelled apartment with a desk and two figures seated in conversation",
+        "caption": "The designer kept a private apartment near the top.",
+        "credit": "Photo: Serge Melki from Indianapolis, USA · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gustaves_Apartment_-_Eiffel_(3384390462).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as the entrance arch of a world’s fair that celebrated a revolution’s centennial."
+      },
+      {
+        "order": 2,
+        "text": "For 41 years it was the tallest human-made structure in the world, until an American skyscraper passed it in 1930."
+      },
+      {
+        "order": 3,
+        "text": "Its wrought-iron lattice was shaped by wind-resistance calculations, and decorative arches were added at the base."
+      }
+    ],
+    "summary": {
+      "description": "Built from 1887 to 1889 by the company of the engineer Gustave Eiffel as the centrepiece of the 1889 World's Fair and the centennial of the French Revolution, the tower is a 330-metre lattice of wrought iron. Its design is attributed to the engineers Maurice Koechlin and Émile Nouguier, to which Stephen Sauvestre added the decorative arches and the glass pavilion. Initially criticised by many artists, it became the global symbol of France and the most visited paid monument in the world.",
+      "keyFeatures": [
+        "330-metre wrought-iron lattice",
+        "Four curved legs joined by arches",
+        "Decorative arches and a glass pavilion by Sauvestre",
+        "Three public levels"
+      ],
+      "funFacts": [
+        "It was the tallest structure in the world for 41 years, until the Chrysler Building in 1930.",
+        "Many of France’s leading artists and intellectuals protested against it before it was built."
+      ]
+    }
+  },
+  {
+    "id": "sacre-coeur",
+    "name": "Sacré-Cœur Basilica",
+    "aliases": [
+      "Sacré-Cœur",
+      "Sacre Coeur",
+      "Basilica of the Sacred Heart of Montmartre",
+      "Basilique du Sacré-Cœur",
+      "Sacré-Cœur de Montmartre",
+      "Sacre-Coeur Paris"
+    ],
+    "architects": [
+      {
+        "name": "Paul Abadie",
+        "aliases": ["Abadie"],
+        "lifespan": "1812–1884",
+        "nationality": "French",
+        "bio": "Architect and restorer of historic buildings, whose neo-Byzantine-Romanesque design was chosen from 77 proposals. After his death in 1884 the work was carried on by four other architects."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1914,
+    "era": "HISTORICISM",
+    "style": "Romano-Byzantine Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Basilique_Sacr%C3%A9_C%C5%93ur_Montmartre_fa%C3%A7ade_sud_Paris_11.jpg/1920px-Basilique_Sacr%C3%A9_C%C5%93ur_Montmartre_fa%C3%A7ade_sud_Paris_11.jpg",
+        "alt": "White domed basilica with a tall bell tower and three arched porches, above a stepped hillside",
+        "credit": "Photo: Chabe01 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Basilique_Sacr%C3%A9_C%C5%93ur_Montmartre_fa%C3%A7ade_sud_Paris_11.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Paris%2C_Sacr%C3%A9-Coeur%2C_Nef_et_choeur.jpg/1920px-Paris%2C_Sacr%C3%A9-Coeur%2C_Nef_et_choeur.jpg",
+        "alt": "Long nave and choir with round arches, a gilded apse mosaic and an altar at the far end",
+        "credit": "Photo: Marius Beckmann · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Paris,_Sacr%C3%A9-Coeur,_Nef_et_choeur.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It crowns the highest hill of its city, and its white domes can be seen from far away." },
+      { "order": 2, "text": "It was proposed as an act of penance after a military defeat and a civil uprising." },
+      {
+        "order": 3,
+        "text": "It took forty years and five architects to build, and it was consecrated only after a world war."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1875 on the summit of Montmartre, the basilica was proposed after France's defeat in the Franco-Prussian War and the Paris Commune. Paul Abadie's neo-Byzantine-Romanesque plan was chosen from 77 proposals, and work went on for forty years under five architects. It was completed in 1914 and consecrated in 1919, after the First World War. Its white stone domes and bell tower make it one of the most recognisable silhouettes in Paris.",
+      "keyFeatures": [
+        "Romano-Byzantine domes on a stone hill",
+        "Tall campanile",
+        "Three arched porches on the façade",
+        "Great apse mosaic"
+      ],
+      "funFacts": [
+        "It is the second most popular tourist destination in Paris, after the Eiffel Tower.",
+        "Its hilltop site overlooks where the 1871 uprising began."
+      ]
+    }
+  },
+  {
+    "id": "hungarian-parliament-building",
+    "name": "Hungarian Parliament Building",
+    "aliases": [
+      "Hungarian Parliament",
+      "Parliament of Hungary",
+      "Országház",
+      "Budapest Parliament",
+      "Parliament Building Budapest"
+    ],
+    "architects": [
+      {
+        "name": "Imre Steindl",
+        "aliases": ["Steindl"],
+        "lifespan": "1839–1902",
+        "nationality": "Hungarian",
+        "bio": "Architect who won the international competition for the new parliament in 1883 with a neo-Gothic design that resembled the Palace of Westminster. He went blind before it opened and died in 1902."
+      }
+    ],
+    "location": { "city": "Budapest", "country": "Hungary", "countryCode": "HU" },
+    "yearCompleted": 1902,
+    "era": "HISTORICISM",
+    "style": "Gothic Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the building",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/1911_Britannica-Architecture-Parliament_of_Hungary_Plan.png",
+        "alt": "Symmetrical plan with a central domed hall flanked by two assembly chambers and courtyards",
+        "credit": "Encyclopædia Britannica, 11th edition, 1911 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:1911_Britannica-Architecture-Parliament_of_Hungary_Plan.png"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg/1920px-Hungarian_Parliament_Building_from_across_the_Danube%2C_2025-01-11.jpg",
+        "alt": "Long Gothic Revival building with many spires and a central dome, beside a wide river",
+        "credit": "Photo: Kilyann Le Hen · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_from_across_the_Danube,_2025-01-11.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Hungarian_Parliament_Building_-_Council_Hall_%2827368050660%29.jpg/1920px-Hungarian_Parliament_Building_-_Council_Hall_%2827368050660%29.jpg",
+        "alt": "Semicircular chamber with rows of wooden benches, gilded decoration and tall arched windows",
+        "credit": "Photo: Wei-Te Wong from Taipei City, Taiwan, Republic of China · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_-_Council_Hall_(27368050660).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It sits on the bank of a great river, and it has been the largest building in its country since it was finished."
+      },
+      {
+        "order": 2,
+        "text": "Its Gothic Revival style recalls the parliament of another capital, which its architect’s plans resembled."
+      },
+      { "order": 3, "text": "Its central dome crowns a hall where the national crown is displayed." }
+    ],
+    "summary": {
+      "description": "Designed by Imre Steindl after an international competition won in 1883, the Parliament stands on the eastern bank of the Danube in Pest. Its neo-Gothic design resembles the Palace of Westminster, and it opened in 1902 as the largest building in Hungary. A central domed hall flanked by two symmetrical assembly chambers organises the plan. Steindl lost his sight before its completion and died the same year it opened.",
+      "keyFeatures": [
+        "Neo-Gothic façade on the Danube",
+        "Central dome over the main hall",
+        "Symmetrical plan with two assembly chambers",
+        "Rich interiors with gilding and stained glass"
+      ],
+      "funFacts": [
+        "It has been the largest building in Hungary since its completion.",
+        "Steindl’s plans resembled the Palace of Westminster, which helped to win him the job."
+      ]
+    }
+  },
+  {
+    "id": "us-capitol",
+    "name": "United States Capitol",
+    "aliases": [
+      "US Capitol",
+      "U.S. Capitol",
+      "Capitol Building",
+      "The Capitol",
+      "Capitol Hill building",
+      "United States Capitol Building"
+    ],
+    "architects": [
+      {
+        "name": "William Thornton",
+        "aliases": ["Thornton", "Dr. William Thornton"],
+        "lifespan": "1759–1828",
+        "nationality": "British-American",
+        "bio": "Physician and amateur architect whose late entry to the 1792 competition was chosen in 1793, drawing on the east front of the Louvre and the Panthéon in Paris. He served as the first Architect of the Capitol."
+      },
+      {
+        "name": "Thomas U. Walter",
+        "aliases": ["Thomas Ustick Walter", "Walter"],
+        "lifespan": "1804–1887",
+        "nationality": "American",
+        "bio": "Fourth Architect of the Capitol, who added the wings of the 1850s and designed the great cast-iron dome that was completed around 1866."
+      }
+    ],
+    "location": { "city": "Washington, D.C.", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1866,
+    "era": "NEOCLASSICAL",
+    "style": "American Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/United_States_Capitol",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "East front elevation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/U.S._Capitol%2C_Washington%2C_D.C._East_elevation%2C_low_dome_LCCN92519533.jpg/1920px-U.S._Capitol%2C_Washington%2C_D.C._East_elevation%2C_low_dome_LCCN92519533.jpg",
+        "alt": "Brown ink elevation of a long classical front with a central portico and a low dome above",
+        "credit": "William Thornton, c. 1795 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:U.S._Capitol,_Washington,_D.C._East_elevation,_low_dome_LCCN92519533.jpg"
+      },
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Floor plan (Hallet)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/StephenHalletCapitolFloorPlan.jpg/1920px-StephenHalletCapitolFloorPlan.jpg",
+        "alt": "Hand-drawn plan of a symmetrical building with two semicircular chambers, a rotunda and a series of halls",
+        "credit": "Étienne Sulpice Hallet, 1793 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:StephenHalletCapitolFloorPlan.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flickr_-_USCapitol_-_U.S._Capitol_Building_in_Snow_-_February_2010_Blizzard.jpg/1920px-Flickr_-_USCapitol_-_U.S._Capitol_Building_in_Snow_-_February_2010_Blizzard.jpg",
+        "alt": "White domed legislature building seen across a snowy park in winter dusk",
+        "credit": "Photo: USCapitol · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_USCapitol_-_U.S._Capitol_Building_in_Snow_-_February_2010_Blizzard.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Apotheosis_of_G._Washington.jpg/1920px-Apotheosis_of_G._Washington.jpg",
+        "alt": "Circular ceiling painting of a crowd of gods and allegorical figures around a central sky, ringed by decorative panels",
+        "caption": "A fresco fills the canopy of the central rotunda.",
+        "credit": "Photo: Labicanense · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apotheosis_of_G._Washington.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its design was picked in a competition, from a late entry by a physician who was an amateur architect."
+      },
+      { "order": 2, "text": "Its massive iron dome was finished around 1866, just after a civil war." },
+      {
+        "order": 3,
+        "text": "British troops burned it in 1814, and it was rebuilt and extended with new wings for a growing legislature."
+      }
+    ],
+    "summary": {
+      "description": "The building where the United States Congress meets was designed by the amateur architect William Thornton, whose plans were approved in 1793. It was partly destroyed in 1814 by British forces and restored within five years, then extended with new wings in the 1850s, with the Senate in the north wing and the House in the south. The massive cast-iron dome by Thomas U. Walter was completed around 1866, just after the Civil War.",
+      "keyFeatures": [
+        "Great cast-iron dome",
+        "Central rotunda under a fresco canopy",
+        "Symmetrical wings for the Senate and the House",
+        "East front portico"
+      ],
+      "funFacts": [
+        "Thornton took inspiration from the east front of the Louvre and the Panthéon in Paris.",
+        "The east front portico was extended in 1958."
+      ]
+    }
+  },
+  {
+    "id": "white-house",
+    "name": "White House",
+    "aliases": [
+      "The White House",
+      "Presidential Mansion",
+      "President’s House",
+      "Executive Mansion",
+      "1600 Pennsylvania Avenue"
+    ],
+    "architects": [
+      {
+        "name": "James Hoban",
+        "aliases": ["Hoban"],
+        "lifespan": "c. 1758–1831",
+        "nationality": "Irish-American",
+        "bio": "Irish-born architect who won the competition for the President’s House in 1792, modelling it on Leinster House in Dublin, and who rebuilt it after the fire of 1814."
+      }
+    ],
+    "location": { "city": "Washington, D.C.", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1800,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical (Georgian)",
+    "wikipedia": "https://en.wikipedia.org/wiki/White_House",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Front elevation",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_White_House%2C_Washington%2C_D.C._Front_elevation_LCCN2002712058.jpg",
+        "alt": "Faint ink elevation of a two-storey house with a central pediment and evenly spaced windows",
+        "credit": "Charles Bulfinch · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_White_House,_Washington,_D.C._Front_elevation_LCCN2002712058.jpg"
+      },
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the second floor",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Plan_of_the_second_floor_of_the_White_House_LCCN96515892.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.82 },
+        "alt": "Plan of a symmetrical house with a large oval room at the centre of one front and rows of rooms either side",
+        "credit": "Frances Benjamin Johnston · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Plan_of_the_second_floor_of_the_White_House_LCCN96515892.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/WhiteHouseSouthFacadeHDR.jpg/1920px-WhiteHouseSouthFacadeHDR.jpg",
+        "alt": "White house with a columned semicircular portico, behind a green lawn and a fountain",
+        "credit": "Photo: HiraV · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:WhiteHouseSouthFacadeHDR.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/BoudinRedRoom.jpg/1920px-BoudinRedRoom.jpg",
+        "alt": "Parlour with crimson walls and curtains, gilded furniture and a crystal chandelier",
+        "credit": "Photo: Robert LeRoy Knudsen · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:BoudinRedRoom.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its architect was an Irish immigrant who won a design competition in 1792." },
+      { "order": 2, "text": "It was burned by invading troops in 1814 and then rebuilt." },
+      { "order": 3, "text": "Its sandstone walls are painted white, and it was first called the President’s House." }
+    ],
+    "summary": {
+      "description": "Designed by the Irish-born architect James Hoban, the residence and workplace of the American president was built between 1792 and 1800 in the Neoclassical style, modelled on Leinster House in Dublin. Its exterior walls are Aquia Creek sandstone painted white. It was set on fire in 1814 by British forces and rebuilt. The North Portico and South Portico were added later, and its wings have been extended repeatedly.",
+      "keyFeatures": [
+        "Neoclassical front of the Georgian type",
+        "Aquia Creek sandstone painted white",
+        "Curved South Portico",
+        "State rooms such as the Red Room"
+      ],
+      "funFacts": [
+        "John Adams was the first president to live there, in 1800.",
+        "It is modelled on Leinster House in Dublin."
+      ]
+    }
+  },
+  {
+    "id": "reichstag-building",
+    "name": "Reichstag Building",
+    "aliases": [
+      "Reichstag",
+      "Reichstagsgebäude",
+      "Bundestag building",
+      "German Parliament Building",
+      "Reichstag Berlin"
+    ],
+    "architects": [
+      {
+        "name": "Paul Wallot",
+        "aliases": ["Wallot"],
+        "lifespan": "1841–1912",
+        "nationality": "German",
+        "bio": "Architect of the Neo-Renaissance parliament building, constructed between 1884 and 1894 for the German Empire."
+      },
+      {
+        "name": "Norman Foster",
+        "aliases": ["Foster", "Lord Foster"],
+        "lifespan": "b. 1935",
+        "nationality": "British",
+        "bio": "British architect who redesigned the ruined building from 1995 to 1999 for the reunified German parliament, adding a glass dome that opens the roof to the public."
+      }
+    ],
+    "location": { "city": "Berlin", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1894,
+    "era": "HISTORICISM",
+    "style": "Neo-Renaissance with a modern glass dome",
+    "wikipedia": "https://en.wikipedia.org/wiki/Reichstag_building",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Reichstagsgeb%C3%A4ude%2C_Berlin-Mitte%2C_170402%2C_ako.jpg/1920px-Reichstagsgeb%C3%A4ude%2C_Berlin-Mitte%2C_170402%2C_ako.jpg",
+        "alt": "Heavy stone palace with corner towers, a columned portico and a glass dome, beside a river",
+        "credit": "Photo: Ansgar Koreng · CC BY-SA 3.0 de · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude,_Berlin-Mitte,_170402,_ako.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Interior_of_the_Reichstag_dome_2015_2.jpg/1920px-Interior_of_the_Reichstag_dome_2015_2.jpg",
+        "alt": "Inside a glass dome with a spiral ramp, seen from below, with visitors on the walkway",
+        "credit": "Photo: Perituss · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Reichstag_dome_2015_2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its glass dome lets visitors look down into the debating chamber, a symbol of open government."
+      },
+      {
+        "order": 2,
+        "text": "It was damaged by a famous fire in 1933 and stood without a parliament for decades before being rebuilt in the 1990s."
+      },
+      { "order": 3, "text": "Behind an imperial stone exterior, a British architect added a futuristic dome in 1999." }
+    ],
+    "summary": {
+      "description": "The Neo-Renaissance building was constructed between 1884 and 1894 on the River Spree to plans by Paul Wallot, to house the legislature of the German Empire. Severe damage in the fire of 1933 prevented its further use, and it was left in ruins after the Second World War. From 1995 to 1999 it was fundamentally redesigned by Norman Foster for the reunified German parliament, who crowned it with a glass dome open to the public.",
+      "keyFeatures": [
+        "Neo-Renaissance stone exterior with corner towers",
+        "Glass dome with a spiral ramp",
+        "Mirrored cone that lights the debating chamber",
+        "Rebuilt by Foster between 1995 and 1999"
+      ],
+      "funFacts": [
+        "The 1933 fire was a pivotal event in the entrenchment of the Nazi regime.",
+        "Soviet soldiers left graffiti on its walls in 1945, which was kept in the rebuilding."
+      ]
+    }
   }
 ]

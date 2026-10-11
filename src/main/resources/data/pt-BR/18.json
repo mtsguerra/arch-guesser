@@ -1,0 +1,452 @@
+{
+  "louvre-palace": {
+    "name": "Palácio do Louvre (Museu do Louvre)",
+    "aliases": ["Louvre", "O Louvre", "Museu do Louvre", "Palais du Louvre"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "lifespan": "c. 1515–1578",
+        "bio": "Arquiteto do Renascimento francês que projetou a Ala Lescot a partir do fim da década de 1540, a parte mais antiga do palácio que ainda existe, por ordem de Francisco I."
+      },
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "lifespan": "1613–1688",
+        "bio": "Médico e arquiteto creditado, com Louis Le Vau e Charles Le Brun, pela fachada leste clássica da Cour Carrée, com sua grande colunata."
+      },
+      {
+        "aliases": ["Ieoh Ming Pei"],
+        "nationality": "Sino-americano",
+        "lifespan": "1917–2019",
+        "bio": "Arquiteto da pirâmide de vidro acrescentada ao pátio Napoleão em 1989 como entrada principal do museu."
+      }
+    ],
+    "city": "Paris",
+    "style": "Renascimento francês e classicismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Louvre",
+    "drawings": [
+      {
+        "label": "Planta do palácio",
+        "alt": "Planta cinza de um palácio de longas alas em torno de pátios, com jardins e uma seta de bússola"
+      },
+      {
+        "label": "Fachada leste da Cour Carrée",
+        "alt": "Elevação gravada de uma longa frente clássica, com colunas geminadas sobre uma base rusticada e pavilhões com cúpula em cada ponta"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Pátio quadrado com ricas fachadas renascentistas esculpidas e um pavilhão central de telhado mansarda",
+        "caption": null
+      },
+      {
+        "alt": "Grande escada de pedra que sobe entre arcos em direção a uma estátua alada de mármore sob uma claraboia",
+        "caption": null
+      },
+      { "alt": "Longa galeria abobadada, com esculturas e relevos antigos nos dois lados", "caption": null }
+    ],
+    "hints": [
+      "Começou como fortaleza medieval, virou palácio real e hoje é um dos museus mais visitados do mundo.",
+      "Sua ala mais antiga ainda de pé, da década de 1540, levou o Renascimento francês a uma corte real.",
+      "Uma pirâmide de vidro, acrescentada em 1989, marca hoje sua entrada principal no meio de um pátio."
+    ],
+    "summary": {
+      "description": "Construído como fortaleza no fim do século XII, sob Filipe II, o Louvre foi convertido por Francisco I em 1546 numa residência real e redesenhado e ampliado muitas vezes. A ala de Pierre Lescot, do fim da década de 1540, é sua parte mais antiga acima do solo, enquanto a colunata de Claude Perrault fecha a frente leste da Cour Carrée. Luís XIV mudou-se para Versalhes em 1682, deixando o palácio para exibir as coleções reais, e ele se tornou o museu nacional. A pirâmide de vidro de I. M. Pei foi acrescentada em 1989.",
+      "keyFeatures": [
+        "Ala Lescot do Renascimento francês",
+        "Colunata leste clássica de Perrault",
+        "Cour Carrée e Cour Napoléon",
+        "Entrada em pirâmide de vidro de I. M. Pei"
+      ],
+      "funFacts": [
+        "Restos da fortaleza medieval podem ser vistos no subsolo.",
+        "Luís XIV escolheu Versalhes em vez do Louvre em 1682."
+      ]
+    }
+  },
+  "arc-de-triomphe": {
+    "name": "Arco do Triunfo",
+    "aliases": [
+      "Arc de Triomphe",
+      "Arco do Triunfo de Paris",
+      "Arco do Triunfo da Estrela",
+      "Arc de Triomphe de l’Étoile"
+    ],
+    "architects": [
+      {
+        "aliases": ["Chalgrin"],
+        "nationality": "Francês",
+        "lifespan": "1739–1811",
+        "bio": "Arquiteto neoclássico francês que projetou o arco em 1806 e dirigiu a obra até sua morte, em 1811. Inspirou-se no Arco de Tito, em Roma."
+      },
+      {
+        "aliases": ["Goust"],
+        "nationality": "Francês",
+        "lifespan": null,
+        "bio": "Arquiteto que assumiu a obra depois da morte de Chalgrin e a levou até a conclusão, na Restauração Bourbon e na Monarquia de Julho."
+      }
+    ],
+    "city": "Paris",
+    "style": "Neoclássico (arco do triunfo)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Arco_do_Triunfo_(Fran%C3%A7a)",
+    "drawings": [
+      {
+        "label": "Plantas em três níveis",
+        "alt": "Folha gravada com três plantas de um arco retangular, com grandes pilares, abóbadas e uma abertura central"
+      },
+      {
+        "label": "Corte transversal",
+        "alt": "Corte gravado de um arco do triunfo mostrando uma grande abóbada, um teto em caixotões e uma sala superior"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Enorme arco do triunfo de pedra, com relevos esculpidos, emoldurado por árvores e uma rotatória movimentada",
+        "caption": null
+      },
+      { "alt": "Sala abobadada de pedra dentro do arco, com vitrines e uma longa inscrição gravada", "caption": null }
+    ],
+    "hints": [
+      "Foi encomendado por um imperador depois de sua maior vitória, mas ele não viveu para vê-lo pronto.",
+      "Nomes de vitórias e de generais estão gravados em suas superfícies internas e externas.",
+      "Doze avenidas se encontram a seus pés, e uma chama eterna arde sob sua abóbada."
+    ],
+    "summary": {
+      "description": "Encomendado em 1806 por Napoleão I depois de sua vitória em Austerlitz, o Arco do Triunfo foi projetado por Jean-François Chalgrin e inspirado no Arco de Tito, em Roma. A obra continuou sob Louis-Robert Goust depois da morte de Chalgrin, em 1811, e só foi concluída em 1836. Tem 49,54 metros de altura e fica no centro da Place Charles de Gaulle, em forma de estrela, na ponta oeste da Champs-Élysées. Sob sua abóbada está o Túmulo do Soldado Desconhecido.",
+      "keyFeatures": [
+        "Uma única grande abertura entre dois imensos pilares",
+        "Grupos escultóricos e frisos em relevo",
+        "Nomes de vitórias e generais em suas paredes",
+        "Túmulo do Soldado Desconhecido sob a abóbada"
+      ],
+      "funFacts": [
+        "Uma maquete de madeira do arco foi construída para receber a nova esposa de Napoleão em 1810.",
+        "Fica no centro de uma estrela de doze avenidas radiais."
+      ]
+    }
+  },
+  "eiffel-tower": {
+    "name": "Torre Eiffel",
+    "aliases": ["Tour Eiffel", "La Tour Eiffel", "Dama de Ferro"],
+    "architects": [
+      {
+        "aliases": ["Eiffel"],
+        "nationality": "Francês",
+        "lifespan": "1832–1923",
+        "bio": "Engenheiro cuja empresa projetou e construiu a torre de 1887 a 1889 como peça central da Exposição Universal, e que lhe deu o nome."
+      },
+      {
+        "aliases": ["Koechlin"],
+        "nationality": "Franco-suíço",
+        "lifespan": "1856–1946",
+        "bio": "Engenheiro sênior da empresa de Eiffel que fez o primeiro esboço de um grande pilar de quatro vigas treliçadas em 1884; o projeto é atribuído a ele e a Émile Nouguier."
+      },
+      {
+        "aliases": ["Sauvestre"],
+        "nationality": "Francês",
+        "lifespan": "1847–1919",
+        "bio": "Chefe do departamento de arquitetura da empresa de Eiffel, que acrescentou os arcos decorativos na base, um pavilhão de vidro no primeiro nível e outros enfeites."
+      }
+    ],
+    "city": "Paris",
+    "style": "Torre treliçada de ferro forjado",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Torre_Eiffel",
+    "drawings": [
+      {
+        "label": "Estágios superiores e detalhes",
+        "alt": "Grande folha de desenho de engenharia, com elevações das plataformas superiores, plantas dos pisos e esboços das juntas de ferro"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Alta torre treliçada de ferro que se afunila de uma base larga de quatro pernas até um topo esbelto, contra um céu azul",
+        "caption": null
+      },
+      { "alt": "Vista direto para cima, entre quatro pernas de ferro, da treliça e do céu acima", "caption": null },
+      {
+        "alt": "Pequeno apartamento revestido de madeira, com uma escrivaninha e duas figuras sentadas conversando",
+        "caption": "O projetista mantinha um apartamento particular perto do topo."
+      }
+    ],
+    "hints": [
+      "Foi construída como arco de entrada de uma feira mundial que celebrava o centenário de uma revolução.",
+      "Por 41 anos foi a estrutura feita pelo homem mais alta do mundo, até que um arranha-céu americano a superou em 1930.",
+      "Sua treliça de ferro forjado foi moldada por cálculos de resistência ao vento, e arcos decorativos foram acrescentados à base."
+    ],
+    "summary": {
+      "description": "Construída de 1887 a 1889 pela empresa do engenheiro Gustave Eiffel como peça central da Exposição Universal de 1889 e do centenário da Revolução Francesa, a torre é uma treliça de ferro forjado de 330 metros. Seu projeto é atribuído aos engenheiros Maurice Koechlin e Émile Nouguier, a quem Stephen Sauvestre acrescentou os arcos decorativos e o pavilhão de vidro. Criticada de início por muitos artistas, tornou-se o símbolo mundial da França e o monumento pago mais visitado do mundo.",
+      "keyFeatures": [
+        "Treliça de ferro forjado de 330 metros",
+        "Quatro pernas curvas unidas por arcos",
+        "Arcos decorativos e pavilhão de vidro de Sauvestre",
+        "Três níveis abertos ao público"
+      ],
+      "funFacts": [
+        "Foi a estrutura mais alta do mundo por 41 anos, até o Edifício Chrysler, em 1930.",
+        "Muitos dos principais artistas e intelectuais da França protestaram contra ela antes de ser construída."
+      ]
+    }
+  },
+  "sacre-coeur": {
+    "name": "Basílica do Sagrado Coração",
+    "aliases": [
+      "Sacré-Cœur",
+      "Sacre Coeur",
+      "Basílica de Sacré-Cœur",
+      "Sagrado Coração de Montmartre",
+      "Basílica do Sacré-Cœur"
+    ],
+    "architects": [
+      {
+        "aliases": ["Abadie"],
+        "nationality": "Francês",
+        "lifespan": "1812–1884",
+        "bio": "Arquiteto e restaurador de edifícios históricos, cujo projeto neobizantino-românico foi escolhido entre 77 propostas. Depois de sua morte, em 1884, a obra foi continuada por outros quatro arquitetos."
+      }
+    ],
+    "city": "Paris",
+    "style": "Revival romano-bizantino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_de_Sacr%C3%A9_C%C5%93ur",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Basílica branca com cúpulas, uma alta torre sineira e três pórticos em arco, acima de uma colina em degraus",
+        "caption": null
+      },
+      {
+        "alt": "Longa nave e coro com arcos redondos, um mosaico dourado na abside e um altar ao fundo",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Coroa a colina mais alta de sua cidade, e suas cúpulas brancas são vistas de longe.",
+      "Foi proposta como ato de penitência depois de uma derrota militar e de um levante civil.",
+      "Levou quarenta anos e cinco arquitetos para ser construída e só foi consagrada depois de uma guerra mundial."
+    ],
+    "summary": {
+      "description": "Iniciada em 1875 no alto de Montmartre, a basílica foi proposta depois da derrota da França na Guerra Franco-Prussiana e da Comuna de Paris. O plano neobizantino-românico de Paul Abadie foi escolhido entre 77 propostas, e a obra durou quarenta anos sob cinco arquitetos. Foi concluída em 1914 e consagrada em 1919, depois da Primeira Guerra Mundial. Suas cúpulas de pedra branca e sua torre sineira a tornam uma das silhuetas mais reconhecíveis de Paris.",
+      "keyFeatures": [
+        "Cúpulas romano-bizantinas sobre uma colina",
+        "Alto campanário",
+        "Três pórticos em arco na fachada",
+        "Grande mosaico da abside"
+      ],
+      "funFacts": [
+        "É o segundo destino turístico mais popular de Paris, depois da Torre Eiffel.",
+        "Seu local no alto da colina domina o ponto onde o levante de 1871 começou."
+      ]
+    }
+  },
+  "hungarian-parliament-building": {
+    "name": "Parlamento da Hungria",
+    "aliases": ["Edifício do Parlamento Húngaro", "Parlamento Húngaro", "Parlamento de Budapeste", "Országház"],
+    "architects": [
+      {
+        "aliases": ["Steindl"],
+        "nationality": "Húngaro",
+        "lifespan": "1839–1902",
+        "bio": "Arquiteto que venceu o concurso internacional do novo parlamento em 1883 com um projeto neogótico que lembrava o Palácio de Westminster. Ficou cego antes da inauguração e morreu em 1902."
+      }
+    ],
+    "city": "Budapeste",
+    "style": "Neogótico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Parlamento_de_Budapeste",
+    "drawings": [
+      {
+        "label": "Planta do edifício",
+        "alt": "Planta simétrica com um salão central com cúpula ladeado por duas câmaras de assembleia e pátios"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Longo edifício neogótico com muitas flechas e uma cúpula central, à margem de um largo rio",
+        "caption": null
+      },
+      {
+        "alt": "Câmara semicircular com fileiras de bancos de madeira, decoração dourada e altas janelas em arco",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Fica na margem de um grande rio e é o maior edifício de seu país desde que foi concluído.",
+      "Seu estilo neogótico lembra o parlamento de outra capital, a que os planos de seu arquiteto se assemelhavam.",
+      "Sua cúpula central coroa um salão onde a coroa nacional é exposta."
+    ],
+    "summary": {
+      "description": "Projetado por Imre Steindl depois de um concurso internacional vencido em 1883, o Parlamento fica na margem leste do Danúbio, em Pest. Seu projeto neogótico se assemelha ao Palácio de Westminster, e foi inaugurado em 1902 como o maior edifício da Hungria. Um salão central com cúpula, ladeado por duas câmaras de assembleia simétricas, organiza a planta. Steindl perdeu a visão antes da conclusão e morreu no ano da inauguração.",
+      "keyFeatures": [
+        "Fachada neogótica sobre o Danúbio",
+        "Cúpula central sobre o salão principal",
+        "Planta simétrica com duas câmaras de assembleia",
+        "Interiores ricos, com douramento e vitrais"
+      ],
+      "funFacts": [
+        "É o maior edifício da Hungria desde sua conclusão.",
+        "Os planos de Steindl lembravam o Palácio de Westminster, o que ajudou a lhe dar o trabalho."
+      ]
+    }
+  },
+  "us-capitol": {
+    "name": "Capitólio dos Estados Unidos",
+    "aliases": ["Capitólio", "Capitólio de Washington", "US Capitol", "Capitólio dos EUA"],
+    "architects": [
+      {
+        "aliases": ["Dr. William Thornton"],
+        "nationality": "Britânico-americano",
+        "lifespan": "1759–1828",
+        "bio": "Médico e arquiteto amador cuja entrada tardia no concurso de 1792 foi escolhida em 1793, inspirada na frente leste do Louvre e no Panthéon de Paris. Foi o primeiro Arquiteto do Capitólio."
+      },
+      {
+        "aliases": ["Thomas Ustick Walter"],
+        "nationality": "Americano",
+        "lifespan": "1804–1887",
+        "bio": "Quarto Arquiteto do Capitólio, que acrescentou as alas da década de 1850 e projetou a grande cúpula de ferro fundido, concluída por volta de 1866."
+      }
+    ],
+    "city": "Washington, D.C.",
+    "style": "Neoclássico americano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Capit%C3%B3lio_dos_Estados_Unidos",
+    "drawings": [
+      {
+        "label": "Elevação da fachada leste",
+        "alt": "Elevação a tinta marrom de uma longa frente clássica, com um pórtico central e uma cúpula baixa por cima"
+      },
+      {
+        "label": "Planta baixa (Hallet)",
+        "alt": "Planta desenhada à mão de um edifício simétrico, com duas câmaras semicirculares, uma rotunda e uma série de salões"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Edifício legislativo branco com cúpula, visto do outro lado de um parque nevado ao entardecer de inverno",
+        "caption": null
+      },
+      {
+        "alt": "Pintura circular de teto, com uma multidão de deuses e figuras alegóricas em torno de um céu central, cercada por painéis decorativos",
+        "caption": "Um afresco preenche o domo da rotunda central."
+      }
+    ],
+    "hints": [
+      "Seu projeto foi escolhido em concurso, a partir de uma entrada tardia de um médico que era arquiteto amador.",
+      "Sua imensa cúpula de ferro foi concluída por volta de 1866, logo depois de uma guerra civil.",
+      "Tropas britânicas o incendiaram em 1814, e ele foi reconstruído e ampliado com novas alas para um legislativo em crescimento."
+    ],
+    "summary": {
+      "description": "O edifício onde se reúne o Congresso dos Estados Unidos foi projetado pelo arquiteto amador William Thornton, cujos planos foram aprovados em 1793. Foi parcialmente destruído em 1814 por forças britânicas e restaurado em cinco anos, e depois ampliado com novas alas na década de 1850, com o Senado na ala norte e a Câmara na ala sul. A imensa cúpula de ferro fundido de Thomas U. Walter foi concluída por volta de 1866, logo depois da Guerra Civil.",
+      "keyFeatures": [
+        "Grande cúpula de ferro fundido",
+        "Rotunda central sob um domo com afresco",
+        "Alas simétricas para o Senado e a Câmara",
+        "Pórtico da fachada leste"
+      ],
+      "funFacts": [
+        "Thornton se inspirou na frente leste do Louvre e no Panthéon de Paris.",
+        "O pórtico da fachada leste foi ampliado em 1958."
+      ]
+    }
+  },
+  "white-house": {
+    "name": "Casa Branca",
+    "aliases": ["A Casa Branca", "White House", "Mansão Executiva", "Casa do Presidente"],
+    "architects": [
+      {
+        "aliases": ["Hoban"],
+        "nationality": "Irlandês-americano",
+        "lifespan": "c. 1758–1831",
+        "bio": "Arquiteto nascido na Irlanda que venceu o concurso da Casa do Presidente em 1792, inspirando-se na Leinster House, em Dublin, e que a reconstruiu depois do incêndio de 1814."
+      }
+    ],
+    "city": "Washington, D.C.",
+    "style": "Neoclássico (georgiano)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_Branca",
+    "drawings": [
+      {
+        "label": "Elevação frontal",
+        "alt": "Elevação tênue a tinta de uma casa de dois andares, com um frontão central e janelas regularmente espaçadas"
+      },
+      {
+        "label": "Planta do segundo andar",
+        "alt": "Planta de uma casa simétrica, com uma grande sala oval no centro de uma das frentes e fileiras de cômodos dos dois lados"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Casa branca com um pórtico semicircular de colunas, atrás de um gramado verde e de uma fonte",
+        "caption": null
+      },
+      {
+        "alt": "Sala de estar com paredes e cortinas carmesim, móveis dourados e um lustre de cristal",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Seu arquiteto foi um imigrante irlandês que venceu um concurso de projeto em 1792.",
+      "Foi incendiada por tropas invasoras em 1814 e depois reconstruída.",
+      "Suas paredes de arenito são pintadas de branco, e no início ela se chamava Casa do Presidente."
+    ],
+    "summary": {
+      "description": "Projetada pelo arquiteto nascido na Irlanda James Hoban, a residência e local de trabalho do presidente americano foi construída entre 1792 e 1800 em estilo neoclássico, inspirada na Leinster House, em Dublin. Suas paredes externas são de arenito de Aquia Creek pintado de branco. Foi incendiada em 1814 por forças britânicas e reconstruída. O Pórtico Norte e o Pórtico Sul foram acrescentados depois, e suas alas foram ampliadas várias vezes.",
+      "keyFeatures": [
+        "Frente neoclássica do tipo georgiano",
+        "Arenito de Aquia Creek pintado de branco",
+        "Pórtico Sul curvo",
+        "Salões de recepção como a Sala Vermelha"
+      ],
+      "funFacts": [
+        "John Adams foi o primeiro presidente a morar lá, em 1800.",
+        "Foi inspirada na Leinster House, em Dublin."
+      ]
+    }
+  },
+  "reichstag-building": {
+    "name": "Reichstag",
+    "aliases": ["Edifício do Reichstag", "Reichstagsgebäude", "Parlamento Alemão", "Prédio do Reichstag"],
+    "architects": [
+      {
+        "aliases": ["Wallot"],
+        "nationality": "Alemão",
+        "lifespan": "1841–1912",
+        "bio": "Arquiteto do edifício parlamentar neorrenascentista, construído entre 1884 e 1894 para o Império Alemão."
+      },
+      {
+        "aliases": ["Lord Foster"],
+        "nationality": "Britânico",
+        "lifespan": "n. 1935",
+        "bio": "Arquiteto britânico que redesenhou o edifício em ruínas de 1995 a 1999 para o parlamento da Alemanha reunificada, acrescentando uma cúpula de vidro que abre o teto ao público."
+      }
+    ],
+    "city": "Berlim",
+    "style": "Neorrenascentista com cúpula moderna de vidro",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Reichstag",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Pesado palácio de pedra com torres nos cantos, um pórtico de colunas e uma cúpula de vidro, à beira de um rio",
+        "caption": null
+      },
+      {
+        "alt": "Interior de uma cúpula de vidro com uma rampa em espiral, visto de baixo, com visitantes na passarela",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Sua cúpula de vidro permite que os visitantes olhem para baixo, para o plenário, um símbolo de governo aberto.",
+      "Foi danificado por um célebre incêndio em 1933 e ficou décadas sem parlamento antes de ser reconstruído nos anos 1990.",
+      "Por trás de um exterior imperial de pedra, um arquiteto britânico acrescentou uma cúpula futurista em 1999."
+    ],
+    "summary": {
+      "description": "O edifício neorrenascentista foi construído entre 1884 e 1894, às margens do rio Spree, segundo planos de Paul Wallot, para abrigar o legislativo do Império Alemão. Os graves danos do incêndio de 1933 impediram seu uso posterior, e ele ficou em ruínas após a Segunda Guerra Mundial. De 1995 a 1999 foi radicalmente redesenhado por Norman Foster para o parlamento da Alemanha reunificada, que o coroou com uma cúpula de vidro aberta ao público.",
+      "keyFeatures": [
+        "Exterior neorrenascentista de pedra, com torres nos cantos",
+        "Cúpula de vidro com rampa em espiral",
+        "Cone espelhado que ilumina o plenário",
+        "Reconstruído por Foster entre 1995 e 1999"
+      ],
+      "funFacts": [
+        "O incêndio de 1933 foi um evento decisivo na consolidação do regime nazista.",
+        "Soldados soviéticos deixaram grafites em suas paredes em 1945, mantidos na reconstrução."
+      ]
+    }
+  }
+}
