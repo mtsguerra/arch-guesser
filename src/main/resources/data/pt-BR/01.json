@@ -16,6 +16,7 @@
     ],
     "city": "Vicenza",
     "style": "Palladiano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Villa_Capra",
     "drawings": [
       { "label": "Planta do pavimento principal", "alt": "Planta quadrada com um pórtico idêntico em cada um dos quatro lados e um salão circular no centro" },
       { "label": "Corte transversal", "alt": "Corte de uma vila elevada mostrando um salão central com cúpula que se ergue acima dos cômodos ao redor" }
@@ -56,6 +57,7 @@
     ],
     "city": "Roma",
     "style": "Barroco romano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_Santo_Ivo_em_La_Sapienza",
     "drawings": [
       { "label": "Planta da igreja e do pátio", "alt": "Planta em forma de estrela de seis pontas, formada por dois triângulos sobrepostos, com reentrâncias arredondadas e angulares nas pontas" },
       { "label": "Corte pela cúpula", "alt": "Corte de uma igreja alta de planta centralizada: as paredes sobem até uma cúpula nervurada coroada por uma esbelta lanterna" }
@@ -96,6 +98,7 @@
     ],
     "city": "Charlottesville, Virgínia",
     "style": "Neoclássico (palladiano)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Monticello",
     "drawings": [
       { "label": "Planta do primeiro pavimento", "alt": "Planta simétrica de uma casa com pórticos na frente e nos fundos, um salão central, uma sala de estar e cômodos octogonais nos cantos" },
       { "label": "Elevação sul", "alt": "Elevação lateral de uma casa com três janelas altas em arco sob um telhado com balaustrada e uma cúpula baixa" }
@@ -136,6 +139,7 @@
     ],
     "city": "Ouro Preto, Minas Gerais",
     "style": "Rococó (Barroco Mineiro)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Ouro_Preto)",
     "drawings": [],
     "photos": [
       { "alt": "Igreja branca com torres sineiras redondas e entalhes de pedra ornamentados em volta de uma porta verde", "caption": null },
@@ -177,6 +181,7 @@
     ],
     "city": "Rio de Janeiro",
     "style": "Exterior maneirista, interior barroco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mosteiro_de_S%C3%A3o_Bento_(Rio_de_Janeiro)",
     "drawings": [],
     "photos": [
       { "alt": "Fachada de igreja branca e simples, com duas torres pontiagudas e três entradas em arco", "caption": null },
@@ -218,6 +223,7 @@
     ],
     "city": "Rio de Janeiro",
     "style": "Eclético (Beaux-Arts)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro",
     "drawings": [],
     "photos": [
       { "alt": "Rua em preto e branco, de paralelepípedos molhados, que leva a um edifício ornamentado com cúpula", "caption": null },
@@ -255,6 +261,7 @@
     ],
     "city": "Belo Horizonte, Minas Gerais",
     "style": "Modernismo brasileiro",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Belo_Horizonte)",
     "drawings": [],
     "photos": [
       { "alt": "Fileira de abóbadas parabólicas brancas com um mural de azulejos azuis e brancos, ao lado de uma torre em treliça", "caption": null },
@@ -292,6 +299,7 @@
     ],
     "city": "Brasília",
     "style": "Modernismo brasileiro",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada",
     "drawings": [],
     "photos": [
       { "alt": "Palácio de vidro, longo e baixo, atrás de uma colunata de colunas brancas curvas, refletido em um espelho d'água ao entardecer", "caption": null },
@@ -328,6 +336,7 @@
     ],
     "city": "Brasília",
     "style": "Modernismo brasileiro",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Congresso_Nacional",
     "drawings": [],
     "photos": [
       { "alt": "Torres de escritórios gêmeas entre uma cúpula e uma tigela emborcada sobre uma longa plataforma, ao lado de um espelho d'água", "caption": null },
@@ -365,6 +374,7 @@
     ],
     "city": "São Paulo",
     "style": "Brutalismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_de_Arte_de_S%C3%A3o_Paulo",
     "drawings": [],
     "photos": [
       { "alt": "Caixa de galeria com paredes de vidro suspensa entre dois pórticos de concreto pintados de vermelho", "caption": null },
@@ -402,6 +412,7 @@
     ],
     "city": "Brasília",
     "style": "Modernismo brasileiro",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_Bras%C3%ADlia",
     "drawings": [],
     "photos": [
       { "alt": "Edifício circular de dezesseis nervuras de concreto branco curvas reunidas no alto, com vidro entre elas", "caption": null },
@@ -458,6 +469,7 @@
     ],
     "city": "São Paulo",
     "style": "Ecletismo italiano (reformada em 1993–98)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pinacoteca_de_S%C3%A3o_Paulo",
     "drawings": [],
     "photos": [
       { "alt": "Longo edifício de tijolos com loggias de colunas atrás de uma fonte no jardim", "caption": null },

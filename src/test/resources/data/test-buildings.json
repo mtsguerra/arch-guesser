@@ -18,6 +18,7 @@
     "yearCompleted": 1931,
     "era": "MODERNISM",
     "style": "Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Test",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -73,6 +74,7 @@
     "yearCompleted": 1931,
     "era": "BAROQUE",
     "style": "Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Test",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -128,6 +130,7 @@
     "yearCompleted": 1931,
     "era": "ART_DECO",
     "style": "Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Test",
     "drawings": [
       {
         "type": "FLOOR_PLAN",

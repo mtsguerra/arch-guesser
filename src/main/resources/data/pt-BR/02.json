@@ -11,6 +11,7 @@
     ],
     "city": "Niterói, Rio de Janeiro",
     "style": "Modernismo tardio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i",
     "drawings": [],
     "photos": [
       { "alt": "Vista aérea de um edifício branco em forma de disco, sobre uma ponta rochosa acima de uma praia", "caption": null },
@@ -47,6 +48,7 @@
     ],
     "city": "Curitiba, Paraná",
     "style": "Modernismo tardio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_Oscar_Niemeyer",
     "drawings": [],
     "photos": [
       { "alt": "Edifício em forma de olho sobre um pilar amarelo, ao lado de um longo bloco baixo, com uma rampa curva", "caption": null },
@@ -83,6 +85,7 @@
     ],
     "city": "Barcelona",
     "style": "Orientalista / neomudéjar (início do Modernisme)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_Vicens",
     "drawings": [
       { "label": "Planta do térreo (1883)", "alt": "Planta do térreo desenhada à mão, de uma casa compacta, com uma fonte redonda no jardim" }
     ],
@@ -121,6 +124,7 @@
     ],
     "city": "Barcelona",
     "style": "Modernisme",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_G%C3%BCell",
     "drawings": [],
     "photos": [
       { "alt": "Canto de um terraço com chaminés revestidas de cacos de cerâmica coloridos", "caption": null },
@@ -157,6 +161,7 @@
     ],
     "city": "Barcelona",
     "style": "Paisagismo modernista (Modernisme)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Parque_G%C3%BCell",
     "drawings": [],
     "photos": [
       { "alt": "Guarita de conto de fadas com telhado coberto de mosaico e uma alta torre revestida de azulejos", "caption": null },
@@ -193,6 +198,7 @@
     ],
     "city": "Barcelona",
     "style": "Modernisme",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_Batll%C3%B3",
     "drawings": [
       { "label": "Fachada e corte (1904)", "alt": "Elevação desenhada à mão da frente estreita de uma casa com janelas abauladas, ao lado do seu corte" }
     ],
@@ -231,6 +237,7 @@
     ],
     "city": "Barcelona",
     "style": "Modernisme",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_Mil%C3%A0",
     "drawings": [
       { "label": "Planta-tipo", "alt": "Planta de um quarteirão em torno de dois pátios irregulares, com cômodos de formas curvas" },
       { "label": "Corte (1906)", "alt": "Corte desenhado à mão de um edifício de vários andares com um sótão em arco" }
@@ -271,6 +278,7 @@
     ],
     "city": "Barcelona",
     "style": "Modernisme catalão (de inspiração gótica)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Templo_Expiat%C3%B3rio_da_Sagrada_Fam%C3%ADlia",
     "drawings": [
       { "label": "Planta", "alt": "Planta de uma grande igreja em forma de cruz, com nave de várias naves laterais, abside arredondada e amplas escadarias na frente" }
     ],
@@ -310,6 +318,7 @@
     ],
     "city": "Bruxelas",
     "style": "Art Nouveau",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_Tassel",
     "drawings": [],
     "photos": [
       { "alt": "Frente estreita de casa urbana de pedra, com uma janela saliente de ferro e vidro", "caption": null },
@@ -351,6 +360,7 @@
     ],
     "city": "Glasgow",
     "style": "Glasgow Style",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Escola_de_Arte_de_Glasgow",
     "drawings": [],
     "photos": [
       { "alt": "Fachada de pedra com grandes janelas de ateliê, uma entrada descentralizada e grades de ferro curvas", "caption": null },
@@ -387,6 +397,7 @@
     ],
     "city": "Chicago, Illinois",
     "style": "Prairie School",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_de_Frederick_C._Robie",
     "drawings": [
       { "label": "Corte longitudinal e elevação sul", "alt": "Casa longa e baixa em corte e elevação, com amplos telhados em balanço" }
     ],
@@ -426,6 +437,7 @@
     ],
     "city": "Viena",
     "style": "Modernismo inicial",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Looshaus",
     "drawings": [
       { "label": "Planta do térreo", "alt": "Planta irregular de terreno de esquina, com loja, colunas e escadas" },
       { "label": "Corte", "alt": "Corte de um edifício de vários andares: uma loja embaixo e pavimentos de apartamentos lisos em cima" }

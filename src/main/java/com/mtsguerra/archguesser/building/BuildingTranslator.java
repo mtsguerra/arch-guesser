@@ -33,7 +33,7 @@ final class BuildingTranslator {
                 zip(b, "drawings", b.drawings(), t.drawings(), BuildingTranslator::drawing),
                 zip(b, "photos", b.photos(), t.photos(), BuildingTranslator::photo),
                 zip(b, "hints", b.hints(), t.hints(), (h, text) -> new Hint(h.order(), orElse(text, h.text()))),
-                summary(b, t.summary()));
+                summary(b, t.summary()), orElse(t.wikipedia(), b.wikipedia()));
     }
 
     private static Architect architect(Architect a, ArchitectText t) {

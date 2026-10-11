@@ -16,6 +16,7 @@
     ],
     "city": "Alfeld, Baixa Saxônia",
     "style": "Modernismo inicial",
+    "wikipedia": "https://pt.wikipedia.org/wiki/F%C3%A1brica_Fagus",
     "drawings": [],
     "photos": [
       { "alt": "Edifício de três andares cujas paredes de vidro dobram a esquina sem nenhum pilar de apoio", "caption": null },
@@ -53,6 +54,7 @@
     ],
     "city": "Potsdam",
     "style": "Expressionismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Torre_Einstein",
     "drawings": [],
     "photos": [
       { "alt": "Torre branca, lisa e curva, coroada por uma pequena cúpula, entre árvores", "caption": null },
@@ -90,6 +92,7 @@
     ],
     "city": "Utrecht",
     "style": "De Stijl",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_Rietveld_Schr%C3%B6der",
     "drawings": [],
     "photos": [
       { "alt": "Pequena casa de planos brancos e cinzas sobrepostos, no fim de uma fileira de casas de tijolo", "caption": null },
@@ -168,6 +171,7 @@
     ],
     "city": "Barcelona",
     "style": "Modernismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pavilh%C3%A3o_de_Barcelona",
     "drawings": [],
     "photos": [
       { "alt": "Pavilhão baixo de paredes de pedra e vidro sob uma laje plana, ao lado de um espelho d'água", "caption": null },
@@ -209,6 +213,7 @@
     ],
     "city": "Istambul",
     "style": "Bizantino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Santa_Sofia",
     "drawings": [
       { "label": "Planta baixa", "alt": "Planta de uma enorme igreja retangular com um quadrado central coroado por um círculo e semicúpulas em cada extremidade" },
       { "label": "Corte longitudinal", "alt": "Corte de uma vasta igreja com uma cúpula central rasa sobre um anel de janelas" }
@@ -248,6 +253,7 @@
     ],
     "city": "Florença",
     "style": "Primeiro Renascimento",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Santa_Maria_del_Fiore",
     "drawings": [
       { "label": "Corte da cúpula (Cigoli, c. 1613)", "alt": "Corte desenhado à mão de uma alta cúpula pontiaguda com casca interna e externa, cercado de anotações" }
     ],
@@ -287,6 +293,7 @@
     ],
     "city": "Roma",
     "style": "Alto Renascimento",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Tempietto_de_Bramante",
     "drawings": [
       { "label": "Planta (Palladio, 1570)", "alt": "Planta circular: um anel de colunas em volta de uma cela redonda com nichos" },
       { "label": "Pátio projetado (Serlio)", "alt": "Planta de um pequeno templo redondo no centro de um pátio circular cercado por colunata" }
@@ -326,6 +333,7 @@
     ],
     "city": "Mill Run, Pensilvânia",
     "style": "Arquitetura orgânica",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_da_Cascata",
     "drawings": [
       { "label": "Planta do segundo pavimento", "alt": "Planta de casa com terraços projetados sobre um riacho" }
     ],
@@ -369,6 +377,7 @@
     ],
     "city": "Sydney",
     "style": "Modernismo expressionista",
+    "wikipedia": "https://pt.wikipedia.org/wiki/%C3%93pera_de_Sydney",
     "drawings": [],
     "photos": [
       { "alt": "Cascas brancas em forma de velas sobre um pódio junto a um porto, com arranha-céus ao fundo", "caption": null },
@@ -406,6 +415,7 @@
     ],
     "city": "Rio de Janeiro",
     "style": "Neomanuelino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Real_Gabinete_Portugu%C3%AAs_de_Leitura",
     "drawings": [],
     "photos": [
       { "alt": "Fachada ornamentada de pedra clara, com arcos ogivais e pináculos, no fim de uma rua de paralelepípedos", "caption": null },
@@ -443,6 +453,7 @@
     ],
     "city": "Manaus, Amazonas",
     "style": "Eclético (Renascimento revisitado)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
     "drawings": [],
     "photos": [
       { "alt": "Teatro rosa e branco com pórtico de colunas sob uma colorida cúpula de azulejos, ao entardecer", "caption": null },

@@ -11,6 +11,7 @@
     ],
     "city": "Plano, Illinois",
     "style": "Estilo Internacional",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_de_Edith_Farnsworth",
     "drawings": [],
     "photos": [
       { "alt": "Caixa de vidro com estrutura de aço branco elevada acima de um gramado entre árvores", "caption": null },
@@ -51,6 +52,7 @@
     ],
     "city": "Brno",
     "style": "Funcionalismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Vila_Tugendhat",
     "drawings": [],
     "photos": [
       { "alt": "Casa modernista branca com longas janelas horizontais em um gramado inclinado", "caption": null },
@@ -91,6 +93,7 @@
     ],
     "city": "Paimio",
     "style": "Funcionalismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Sanat%C3%B3rio_de_Paimio",
     "drawings": [],
     "photos": [
       { "alt": "Longas alas de hospital modernista branco em meio a uma floresta de pinheiros, vistas de cima", "caption": null },
@@ -166,6 +169,7 @@
     ],
     "city": "Montreal",
     "style": "Brutalismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Habitat_67",
     "drawings": [],
     "photos": [
       { "alt": "Caixas de concreto empilhadas formando uma colina de apartamentos com terraços", "caption": null },
@@ -273,6 +277,7 @@
     ],
     "city": "Londres",
     "style": "Brutalismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Royal_National_Theatre",
     "drawings": [],
     "photos": [
       { "alt": "Terraços de concreto em camadas e torres de cenário ao lado de um calçadão à beira-rio", "caption": null },
@@ -398,6 +403,7 @@
     ],
     "city": "Londres",
     "style": "Pós-modernismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/National_Gallery_(Londres)",
     "drawings": [],
     "photos": [
       { "alt": "Ampliação de galeria em pedra, com pilastras, ao lado de um museu de construção clássica", "caption": null },
@@ -437,6 +443,7 @@
     ],
     "city": "Nova York",
     "style": "Pós-modernismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/550_Madison_Avenue",
     "drawings": [],
     "photos": [
       { "alt": "Arranha-céu de granito visto de baixo, com uma alta entrada em arco", "caption": null },
@@ -472,6 +479,7 @@
     ],
     "city": "Bilbao",
     "style": "Desconstrutivismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_Guggenheim_Bilbao",
     "drawings": [],
     "photos": [
       { "alt": "Museu curvo revestido de titânio, ao lado de um rio e uma ponte", "caption": null },

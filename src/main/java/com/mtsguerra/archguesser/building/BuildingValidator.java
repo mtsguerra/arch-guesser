@@ -17,6 +17,7 @@ final class BuildingValidator {
     private static final Pattern ID = Pattern.compile("[a-z0-9]+(-[a-z0-9]+)*");
     private static final Pattern COUNTRY_CODE = Pattern.compile("[A-Z]{2}");
     private static final String REMOTE_ASSETS = "https://upload.wikimedia.org/";
+    private static final Pattern WIKIPEDIA = Pattern.compile("https://(en|pt)\\.wikipedia\\.org/wiki/\\S+");
     private static final String REMOTE_SOURCES = "https://commons.wikimedia.org/";
 
     private BuildingValidator() {
@@ -49,6 +50,9 @@ final class BuildingValidator {
             validatePhotos(b, e);
             validateHints(b, e);
             validateSummary(b.summary(), e);
+            if (b.wikipedia() == null || !WIKIPEDIA.matcher(b.wikipedia()).matches()) {
+                e.add("wikipedia must be a Wikipedia article URL like 'https://en.wikipedia.org/wiki/Name'");
+            }
         }
         return errors;
     }

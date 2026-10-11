@@ -11,6 +11,7 @@
     ],
     "city": "Roma",
     "style": "Barroco romano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_Santo_Andr%C3%A9_no_Quirinal",
     "drawings": [
       { "label": "Fachada e planta (c. 1700)", "alt": "Elevação da frente de uma igreja com frontão sobre duas pilastras e um pórtico semicircular, com a planta abaixo" }
     ],
@@ -49,6 +50,7 @@
     ],
     "city": "Würzburg",
     "style": "Barroco / Rococó",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Resid%C3%AAncia_de_Wurtzburgo",
     "drawings": [
       { "label": "Planta do pavimento principal", "alt": "Planta de um vasto palácio em torno de vários pátios, com um salão oval projetado no centro" },
       { "label": "Corte pela escadaria e pelos salões", "alt": "Corte de uma grande escadaria sob uma ampla abóbada, ao lado de dois salões" }
@@ -93,6 +95,7 @@
     ],
     "city": "Coimbra",
     "style": "Românico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/S%C3%A9_Velha_de_Coimbra",
     "drawings": [],
     "photos": [
       { "alt": "Frente de igreja de pedra, com ar de fortaleza, com muralhas ameadas e um profundo portal em arco", "caption": null },
@@ -134,6 +137,7 @@
     ],
     "city": "Batalha",
     "style": "Gótico tardio (flamejante e manuelino)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mosteiro_da_Batalha",
     "drawings": [
       { "label": "Planta geral", "alt": "Planta de uma longa igreja com uma capela octogonal na cabeceira e grandes claustros ao lado" },
       { "label": "Corte longitudinal da igreja", "alt": "Corte de uma alta igreja gótica com janelas ogivais, pináculos e uma flecha" }
@@ -178,6 +182,7 @@
     ],
     "city": "Lisboa",
     "style": "Manuelino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mosteiro_dos_Jer%C3%B3nimos",
     "drawings": [],
     "photos": [
       { "alt": "Fachada de igreja em calcário branco ricamente entalhado, com uma torre de cúpula, vista de um gramado", "caption": null },
@@ -214,6 +219,7 @@
     ],
     "city": "Lisboa",
     "style": "Manuelino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Torre_de_Bel%C3%A9m",
     "drawings": [],
     "photos": [
       { "alt": "Torre de fortaleza em calcário branco ornamentado, com um baluarte, erguida em um rio", "caption": null },
@@ -255,6 +261,7 @@
     ],
     "city": "Tomar",
     "style": "Românico, gótico, manuelino e renascentista",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Convento_de_Cristo",
     "drawings": [],
     "photos": [
       { "alt": "Parede de pedra entalhada com uma grande janela emoldurada por cordas, corais e folhagens, sob uma janela redonda", "caption": "A janela da sala do capítulo." },
@@ -291,6 +298,7 @@
     ],
     "city": "Setúbal",
     "style": "Manuelino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_do_antigo_Mosteiro_de_Jesus",
     "drawings": [
       { "label": "Vista da igreja e do convento (século XVIII)", "alt": "Desenho antigo de uma longa igreja e convento com um beiral ameado, e uma cruz na praça à frente" }
     ],
@@ -334,6 +342,7 @@
     ],
     "city": "Lisboa",
     "style": "Maneirista",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Roque_(Lisboa)",
     "drawings": [],
     "photos": [
       { "alt": "Frente de igreja clássica simples, com um frontão triangular e uma janela redonda", "caption": null },
@@ -375,6 +384,7 @@
     ],
     "city": "Lisboa",
     "style": "Maneirista",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Vicente_de_Fora",
     "drawings": [],
     "photos": [
       { "alt": "Alta fachada de igreja branca, com duas torres e três entradas em arco", "caption": null },
@@ -411,6 +421,7 @@
     ],
     "city": "Coimbra",
     "style": "Maneirista e barroco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/S%C3%A9_Nova_de_Coimbra",
     "drawings": [],
     "photos": [
       { "alt": "Fachada de igreja de pedra clara, com estátuas em nichos, um topo barroco curvo e torres sineiras atrás", "caption": null },
@@ -447,6 +458,7 @@
     ],
     "city": "Porto",
     "style": "Barroco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_e_Torre_dos_Cl%C3%A9rigos",
     "drawings": [
       { "label": "Planta ao nível da entrada", "alt": "Planta de uma igreja alongada com nave oval, ligada a uma torre nos fundos" }
     ],

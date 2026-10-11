@@ -11,6 +11,7 @@
     ],
     "city": "Belém, Pará",
     "style": "Neoclássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Theatro_da_Paz",
     "drawings": [],
     "photos": [
       { "alt": "Fachada cor de salmão com colunas brancas, medalhões com retratos e aberturas em arco", "caption": null },
@@ -47,6 +48,7 @@
     ],
     "city": "São Paulo",
     "style": "Ecletismo vitoriano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_da_Luz",
     "drawings": [],
     "photos": [
       { "alt": "Longo edifício de tijolos creme e vermelhos, com telhados íngremes de ardósia e uma torre de relógio", "caption": null },
@@ -83,6 +85,7 @@
     ],
     "city": "Rio de Janeiro",
     "style": "Neogótico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Ilha_Fiscal",
     "drawings": [],
     "photos": [
       { "alt": "Pequeno castelo neogótico verde, com uma torre pontiaguda, em uma ilha na baía", "caption": null },
@@ -119,6 +122,7 @@
     ],
     "city": "São Paulo",
     "style": "Neogótico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_Metropolitana_de_S%C3%A3o_Paulo",
     "drawings": [
       { "label": "Projeto da fachada", "alt": "Frente de catedral neogótica com duas altas torres, um rosetão e um frontão central" }
     ],
@@ -157,6 +161,7 @@
     ],
     "city": "São Paulo",
     "style": "Eclético (revivalismo renascentista italiano)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_do_Ipiranga",
     "drawings": [],
     "photos": [
       { "alt": "Longo palácio ocre com um pavilhão central de colunas, atrás de jardins e palmeiras", "caption": null },
@@ -193,6 +198,7 @@
     ],
     "city": "Paris",
     "style": "Beaux-Arts (estilo Napoleão III)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/%C3%93pera_Garnier",
     "drawings": [
       { "label": "Planta do pavimento principal (1875)", "alt": "Planta simétrica de um enorme teatro: plateia em ferradura, palco profundo e grandes foyers e escadarias na frente" },
       { "label": "Corte pela plateia", "alt": "Corte colorido de uma plateia em ferradura com fileiras de camarotes vermelhos sob uma cúpula pintada" }
@@ -233,6 +239,7 @@
     ],
     "city": "Barcelona",
     "style": "Modernisme catalão",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_da_M%C3%BAsica_Catal%C3%A3",
     "drawings": [],
     "photos": [
       { "alt": "Fachada de esquina de tijolo vermelho, mosaico e colunas esculpidas acima de entradas em arco, em uma rua estreita", "caption": null },
@@ -310,6 +317,7 @@
     ],
     "city": "Nova York",
     "style": "Modernismo orgânico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_Solomon_R._Guggenheim",
     "drawings": [],
     "photos": [
       { "alt": "Edifício branco em espiral curva, que se alarga ao subir, na esquina de uma rua da cidade", "caption": null },
@@ -347,6 +355,7 @@
     ],
     "city": "Nova York",
     "style": "Art Déco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Chrysler_Building",
     "drawings": [],
     "photos": [
       { "alt": "Arranha-céu com uma coroa de aço inoxidável afunilada e em degraus, visto da rua entre torres", "caption": null },
@@ -383,6 +392,7 @@
     ],
     "city": "Istambul",
     "style": "Otomano clássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mesquita_de_Solim%C3%A3o",
     "drawings": [
       { "label": "Planta no nível das cúpulas", "alt": "Planta de um salão de oração quadrado sob uma grande cúpula central ladeada por semicúpulas e cúpulas menores" }
     ],
@@ -421,6 +431,7 @@
     ],
     "city": "Londres",
     "style": "Barroco inglês",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_de_S%C3%A3o_Paulo_(Londres)",
     "drawings": [
       { "label": "Planta (gravura do século XVIII)", "alt": "Planta de catedral em forma de cruz, com um grande cruzeiro coberto por cúpula e extremidades arredondadas do transepto" }
     ],

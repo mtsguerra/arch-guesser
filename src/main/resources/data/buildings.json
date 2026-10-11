@@ -23,6 +23,7 @@
     "yearCompleted": 1605,
     "era": "RENAISSANCE",
     "style": "Palladian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_La_Rotonda",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -101,6 +102,7 @@
     "yearCompleted": 1660,
     "era": "BAROQUE",
     "style": "Roman Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sant'Ivo_alla_Sapienza",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -179,6 +181,7 @@
     "yearCompleted": 1809,
     "era": "NEOCLASSICAL",
     "style": "Neoclassical (Palladian)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monticello",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -261,6 +264,7 @@
     "yearCompleted": 1794,
     "era": "BAROQUE",
     "style": "Rococo (Barroco Mineiro)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi_(Ouro_Preto)",
     "drawings": [],
     "photos": [
       {
@@ -326,6 +330,7 @@
     "yearCompleted": 1671,
     "era": "BAROQUE",
     "style": "Mannerist exterior, Baroque interior",
+    "wikipedia": "https://en.wikipedia.org/wiki/S%C3%A3o_Bento_Monastery",
     "drawings": [],
     "photos": [
       {
@@ -395,6 +400,7 @@
     "yearCompleted": 1909,
     "era": "HISTORICISM",
     "style": "Eclectic (Beaux-Arts)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Theatro_Municipal_(Rio_de_Janeiro)",
     "drawings": [],
     "photos": [
       {
@@ -461,6 +467,7 @@
     "yearCompleted": 1943,
     "era": "MODERNISM",
     "style": "Brazilian Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi,_Pampulha",
     "drawings": [],
     "photos": [
       {
@@ -525,6 +532,7 @@
     "yearCompleted": 1958,
     "era": "MODERNISM",
     "style": "Brazilian Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pal%C3%A1cio_da_Alvorada",
     "drawings": [],
     "photos": [
       {
@@ -590,6 +598,7 @@
     "yearCompleted": 1960,
     "era": "MODERNISM",
     "style": "Brazilian Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Congress_Palace",
     "drawings": [],
     "photos": [
       {
@@ -648,6 +657,7 @@
     "yearCompleted": 1968,
     "era": "BRUTALISM",
     "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Museum_of_Art",
     "drawings": [],
     "photos": [
       {
@@ -712,6 +722,7 @@
     "yearCompleted": 1970,
     "era": "MODERNISM",
     "style": "Brazilian Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia",
     "drawings": [],
     "photos": [
       {
@@ -794,6 +805,7 @@
     "yearCompleted": 1900,
     "era": "HISTORICISM",
     "style": "Italian eclecticism (renovated 1993–98)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pinacoteca_do_Estado_de_S%C3%A3o_Paulo",
     "drawings": [],
     "photos": [
       {
@@ -851,6 +863,7 @@
     "yearCompleted": 1996,
     "era": "MODERNISM",
     "style": "Late Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Niter%C3%B3i_Contemporary_Art_Museum",
     "drawings": [],
     "photos": [
       {
@@ -908,6 +921,7 @@
     "yearCompleted": 2002,
     "era": "MODERNISM",
     "style": "Late Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oscar_Niemeyer_Museum",
     "drawings": [],
     "photos": [
       {
@@ -968,6 +982,7 @@
     "yearCompleted": 1885,
     "era": "ART_NOUVEAU",
     "style": "Orientalist / Neo-Mudéjar (early Modernisme)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casa_Vicens",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -1041,6 +1056,7 @@
     "yearCompleted": 1888,
     "era": "ART_NOUVEAU",
     "style": "Modernisme",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palau_G%C3%BCell",
     "drawings": [],
     "photos": [
       {
@@ -1101,6 +1117,7 @@
     "yearCompleted": 1914,
     "era": "ART_NOUVEAU",
     "style": "Modernisme landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Park_G%C3%BCell",
     "drawings": [],
     "photos": [
       {
@@ -1161,6 +1178,7 @@
     "yearCompleted": 1906,
     "era": "ART_NOUVEAU",
     "style": "Modernisme",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casa_Batll%C3%B3",
     "drawings": [
       {
         "type": "ELEVATION",
@@ -1233,6 +1251,7 @@
     "yearCompleted": 1912,
     "era": "ART_NOUVEAU",
     "style": "Modernisme",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Pedrera,_Barcelona",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -1312,6 +1331,7 @@
     "yearCompleted": null,
     "era": "ART_NOUVEAU",
     "style": "Catalan Modernisme (Gothic-inspired)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -1379,6 +1399,7 @@
     "yearCompleted": 1893,
     "era": "ART_NOUVEAU",
     "style": "Art Nouveau",
+    "wikipedia": "https://en.wikipedia.org/wiki/H%C3%B4tel_Tassel",
     "drawings": [],
     "photos": [
       {
@@ -1449,6 +1470,7 @@
     "yearCompleted": 1909,
     "era": "ART_NOUVEAU",
     "style": "Glasgow Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Glasgow_School_of_Art",
     "drawings": [],
     "photos": [
       {
@@ -1503,6 +1525,7 @@
     "yearCompleted": 1910,
     "era": "MODERNISM",
     "style": "Prairie School",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robie_House",
     "drawings": [
       {
         "type": "SECTION",
@@ -1574,6 +1597,7 @@
     "yearCompleted": 1911,
     "era": "MODERNISM",
     "style": "Early Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Looshaus",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -1658,6 +1682,7 @@
     "yearCompleted": 1913,
     "era": "MODERNISM",
     "style": "Early Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fagus_Factory",
     "drawings": [],
     "photos": [
       {
@@ -1716,6 +1741,7 @@
     "yearCompleted": 1921,
     "era": "MODERNISM",
     "style": "Expressionism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Einstein_Tower",
     "drawings": [],
     "photos": [
       {
@@ -1777,6 +1803,7 @@
     "yearCompleted": 1924,
     "era": "MODERNISM",
     "style": "De Stijl",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rietveld_Schr%C3%B6der_House",
     "drawings": [],
     "photos": [
       {
@@ -1840,6 +1867,7 @@
     "yearCompleted": 1926,
     "era": "MODERNISM",
     "style": "Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bauhaus_Dessau",
     "drawings": [],
     "photos": [
       {
@@ -1908,6 +1936,7 @@
     "yearCompleted": 1929,
     "era": "MODERNISM",
     "style": "Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barcelona_Pavilion",
     "drawings": [],
     "photos": [
       {
@@ -1976,6 +2005,7 @@
     "yearCompleted": 537,
     "era": "BYZANTINE",
     "style": "Byzantine",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hagia_Sophia",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -2050,6 +2080,7 @@
     "yearCompleted": 1436,
     "era": "RENAISSANCE",
     "style": "Early Renaissance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Florence_Cathedral",
     "drawings": [
       {
         "type": "SECTION",
@@ -2117,6 +2148,7 @@
     "yearCompleted": 1502,
     "era": "RENAISSANCE",
     "style": "High Renaissance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tempietto_del_Bramante",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -2195,6 +2227,7 @@
     "yearCompleted": 1939,
     "era": "MODERNISM",
     "style": "Organic architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fallingwater",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -2269,6 +2302,7 @@
     "yearCompleted": 1973,
     "era": "MODERNISM",
     "style": "Expressionist Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
     "drawings": [],
     "photos": [
       {
@@ -2326,6 +2360,7 @@
     "yearCompleted": 1887,
     "era": "HISTORICISM",
     "style": "Neo-Manueline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Royal_Portuguese_Cabinet_of_Reading",
     "drawings": [],
     "photos": [
       {
@@ -2384,6 +2419,7 @@
     "yearCompleted": 1896,
     "era": "HISTORICISM",
     "style": "Eclectic (Renaissance Revival)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amazon_Theatre",
     "drawings": [],
     "photos": [
       {
@@ -2444,6 +2480,7 @@
     "yearCompleted": 1874,
     "era": "NEOCLASSICAL",
     "style": "Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/Theatro_da_Paz",
     "drawings": [],
     "photos": [
       {
@@ -2505,6 +2542,7 @@
     "yearCompleted": 1901,
     "era": "HISTORICISM",
     "style": "Victorian eclectic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luz_Station",
     "drawings": [],
     "photos": [
       {
@@ -2559,6 +2597,7 @@
     "yearCompleted": 1889,
     "era": "HISTORICISM",
     "style": "Neo-Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ilha_Fiscal",
     "drawings": [],
     "photos": [
       {
@@ -2619,6 +2658,7 @@
     "yearCompleted": 1954,
     "era": "HISTORICISM",
     "style": "Gothic Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Cathedral",
     "drawings": [
       {
         "type": "ELEVATION",
@@ -2686,6 +2726,7 @@
     "yearCompleted": 1890,
     "era": "HISTORICISM",
     "style": "Eclectic (Italian Renaissance revival)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museu_do_Ipiranga",
     "drawings": [],
     "photos": [
       {
@@ -2746,6 +2787,7 @@
     "yearCompleted": 1875,
     "era": "HISTORICISM",
     "style": "Beaux-Arts (Napoleon III style)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palais_Garnier",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -2824,6 +2866,7 @@
     "yearCompleted": 1908,
     "era": "ART_NOUVEAU",
     "style": "Catalan Modernisme",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palau_de_la_M%C3%BAsica_Catalana",
     "drawings": [],
     "photos": [
       {
@@ -2888,6 +2931,7 @@
     "yearCompleted": 1906,
     "era": "ART_NOUVEAU",
     "style": "Vienna Secession / early Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Austrian_Postal_Savings_Bank",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -2969,6 +3013,7 @@
     "yearCompleted": 1959,
     "era": "MODERNISM",
     "style": "Organic Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
     "drawings": [],
     "photos": [
       {
@@ -3025,6 +3070,7 @@
     "yearCompleted": 1930,
     "era": "ART_DECO",
     "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chrysler_Building",
     "drawings": [],
     "photos": [
       {
@@ -3088,6 +3134,7 @@
     "yearCompleted": 1557,
     "era": "OTTOMAN",
     "style": "Classical Ottoman",
+    "wikipedia": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -3158,6 +3205,7 @@
     "yearCompleted": 1710,
     "era": "BAROQUE",
     "style": "English Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/St_Paul's_Cathedral",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -3225,6 +3273,7 @@
     "yearCompleted": 1670,
     "era": "BAROQUE",
     "style": "Roman Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sant'Andrea_al_Quirinale",
     "drawings": [
       {
         "type": "ELEVATION",
@@ -3292,6 +3341,7 @@
     "yearCompleted": 1744,
     "era": "BAROQUE",
     "style": "Baroque / Rococo",
+    "wikipedia": "https://en.wikipedia.org/wiki/W%C3%BCrzburg_Residence",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -3379,6 +3429,7 @@
     "yearCompleted": 1220,
     "era": "MEDIEVAL",
     "style": "Romanesque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Old_Cathedral_of_Coimbra",
     "drawings": [],
     "photos": [
       {
@@ -3453,6 +3504,7 @@
     "yearCompleted": 1517,
     "era": "MEDIEVAL",
     "style": "Late Gothic (Flamboyant and Manueline)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Batalha_Monastery",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -3533,6 +3585,7 @@
     "yearCompleted": 1601,
     "era": "MANUELINE",
     "style": "Manueline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jer%C3%B3nimos_Monastery",
     "drawings": [],
     "photos": [
       {
@@ -3596,6 +3649,7 @@
     "yearCompleted": 1519,
     "era": "MANUELINE",
     "style": "Manueline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower",
     "drawings": [],
     "photos": [
       {
@@ -3666,6 +3720,7 @@
     "yearCompleted": 1515,
     "era": "MANUELINE",
     "style": "Romanesque, Gothic, Manueline and Renaissance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Convent_of_Christ_(Tomar)",
     "drawings": [],
     "photos": [
       {
@@ -3724,6 +3779,7 @@
     "yearCompleted": 1510,
     "era": "MANUELINE",
     "style": "Manueline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monastery_of_Jesus_of_Set%C3%BAbal",
     "drawings": [
       {
         "type": "ELEVATION",
@@ -3801,6 +3857,7 @@
     "yearCompleted": 1590,
     "era": "MANNERISM",
     "style": "Mannerist",
+    "wikipedia": "https://en.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Roque",
     "drawings": [],
     "photos": [
       {
@@ -3865,6 +3922,7 @@
     "yearCompleted": 1629,
     "era": "MANNERISM",
     "style": "Mannerist",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monastery_of_S%C3%A3o_Vicente_de_Fora",
     "drawings": [],
     "photos": [
       {
@@ -3922,6 +3980,7 @@
     "yearCompleted": 1640,
     "era": "MANNERISM",
     "style": "Mannerist and Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/New_Cathedral_of_Coimbra",
     "drawings": [],
     "photos": [
       {
@@ -3976,6 +4035,7 @@
     "yearCompleted": 1763,
     "era": "BAROQUE",
     "style": "Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cl%C3%A9rigos_Church",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -4039,6 +4099,7 @@
     "yearCompleted": 1755,
     "era": "BAROQUE",
     "style": "Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Mafra",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -4117,6 +4178,7 @@
     "yearCompleted": 1966,
     "era": "BAROQUE",
     "style": "Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_Santa_Engr%C3%A1cia",
     "drawings": [],
     "photos": [
       {
@@ -4174,6 +4236,7 @@
     "yearCompleted": 1834,
     "era": "BAROQUE",
     "style": "Baroque staircase; Neoclassical church",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_do_Monte",
     "drawings": [],
     "photos": [
       {
@@ -4243,6 +4306,7 @@
     "yearCompleted": 1786,
     "era": "BAROQUE",
     "style": "Rococo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Queluz",
     "drawings": [],
     "photos": [
       {
@@ -4315,6 +4379,7 @@
     "yearCompleted": 1790,
     "era": "NEOCLASSICAL",
     "style": "Late Baroque and Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/Estrela_Basilica",
     "drawings": [],
     "photos": [
       {
@@ -4379,6 +4444,7 @@
     "yearCompleted": 2020,
     "era": "NEOCLASSICAL",
     "style": "Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Ajuda",
     "drawings": [
       {
         "type": "FLOOR_PLAN",
@@ -4456,6 +4522,7 @@
     "yearCompleted": 1793,
     "era": "NEOCLASSICAL",
     "style": "Neoclassical with Rococo elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Teatro_Nacional_de_S%C3%A3o_Carlos",
     "drawings": [],
     "photos": [
       {
@@ -4510,6 +4577,7 @@
     "yearCompleted": 1824,
     "era": "NEOCLASSICAL",
     "style": "Palladian",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Hospital_de_Santo_Ant%C3%B3nio",
     "drawings": [],
     "photos": [
       {
@@ -4563,6 +4631,7 @@
     "yearCompleted": 1854,
     "era": "HISTORICISM",
     "style": "Romanticism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pena_Palace",
     "drawings": [],
     "photos": [
       {
@@ -4626,6 +4695,7 @@
     "yearCompleted": 1907,
     "era": "HISTORICISM",
     "style": "Neo-Manueline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bu%C3%A7aco_Palace",
     "drawings": [],
     "photos": [
       {
@@ -4693,6 +4763,7 @@
     "yearCompleted": 1910,
     "era": "NEOCLASSICAL",
     "style": "Neoclassical (Neo-Palladian), with a Neo-Moorish hall",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pal%C3%A1cio_da_Bolsa",
     "drawings": [],
     "photos": [
       {
@@ -4756,6 +4827,7 @@
     "yearCompleted": 1910,
     "era": "HISTORICISM",
     "style": "Romantic Neo-Manueline and Neo-Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quinta_da_Regaleira",
     "drawings": [],
     "photos": [
       {
@@ -4816,6 +4888,7 @@
     "yearCompleted": 1916,
     "era": "HISTORICISM",
     "style": "Beaux-Arts",
+    "wikipedia": "https://en.wikipedia.org/wiki/S%C3%A3o_Bento_railway_station",
     "drawings": [],
     "photos": [
       {
@@ -4876,6 +4949,7 @@
     "yearCompleted": 1890,
     "era": "HISTORICISM",
     "style": "Neo-Manueline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rossio_railway_station",
     "drawings": [],
     "photos": [
       {
@@ -4932,6 +5006,7 @@
     "yearCompleted": 1906,
     "era": "ART_NOUVEAU",
     "style": "Neo-Gothic and Art Nouveau",
+    "wikipedia": "https://en.wikipedia.org/wiki/Livraria_Lello",
     "drawings": [],
     "photos": [
       {
@@ -4990,6 +5065,7 @@
     "yearCompleted": 1918,
     "era": "HISTORICISM",
     "style": "Eclectic",
+    "wikipedia": "https://en.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_National_Theatre",
     "drawings": [],
     "photos": [
       {
@@ -5045,6 +5121,7 @@
     "yearCompleted": 1909,
     "era": "HISTORICISM",
     "style": "Casa Portuguesa",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_dos_Patudos",
     "drawings": [],
     "photos": [
       {
@@ -5109,6 +5186,7 @@
     "yearCompleted": 1940,
     "era": "ART_DECO",
     "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Serralves",
     "drawings": [],
     "photos": [
       {
@@ -5172,6 +5250,7 @@
     "yearCompleted": 1941,
     "era": "ART_DECO",
     "style": "Streamline Moderne and Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coliseu_do_Porto",
     "drawings": [],
     "photos": [
       {
@@ -5238,6 +5317,7 @@
     "yearCompleted": 1938,
     "era": "MODERNISM",
     "style": "Modernism with Art Deco traits",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_of_the_Rosary_of_F%C3%A1tima",
     "drawings": [],
     "photos": [
       {
@@ -5299,6 +5379,7 @@
     "yearCompleted": 1935,
     "era": "MODERNISM",
     "style": "Modernism with Art Deco traits",
+    "wikipedia": "https://en.wikipedia.org/wiki/Instituto_Superior_T%C3%A9cnico",
     "drawings": [],
     "photos": [
       {
@@ -5359,6 +5440,7 @@
     "yearCompleted": 1969,
     "era": "MODERNISM",
     "style": "Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Library_of_Portugal",
     "drawings": [],
     "photos": [
       {
@@ -5437,6 +5519,7 @@
     "yearCompleted": 1969,
     "era": "MODERNISM",
     "style": "Modernism with Brutalist concrete",
+    "wikipedia": "https://en.wikipedia.org/wiki/Calouste_Gulbenkian_Museum",
     "drawings": [],
     "photos": [
       {
@@ -5509,6 +5592,7 @@
     "yearCompleted": 1967,
     "era": "BRUTALISM",
     "style": "Brutalism",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_do_Cora%C3%A7%C3%A3o_de_Jesus_(Lisboa)",
     "drawings": [],
     "photos": [
       {
@@ -5573,6 +5657,7 @@
     "yearCompleted": 1956,
     "era": "MODERNISM",
     "style": "Modernism",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Bloco_das_%C3%81guas_Livres",
     "drawings": [],
     "photos": [
       {
@@ -5627,6 +5712,7 @@
     "yearCompleted": 1963,
     "era": "MODERNISM",
     "style": "Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casa_de_Ch%C3%A1_da_Boa_Nova",
     "drawings": [],
     "photos": [
       {
@@ -5693,6 +5779,7 @@
     "yearCompleted": 1985,
     "era": "CONTEMPORARY",
     "style": "Contemporary conversion of a historic monastery",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mosteiro_de_Santa_Marinha_da_Costa",
     "drawings": [],
     "photos": [
       {
@@ -5758,6 +5845,7 @@
     "yearCompleted": 1999,
     "era": "MODERNISM",
     "style": "Contemporary Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Serralves",
     "drawings": [],
     "photos": [
       {
@@ -5818,6 +5906,7 @@
     "yearCompleted": 1992,
     "era": "MODERNISM",
     "style": "Contemporary Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Porto_School_of_Architecture",
     "drawings": [],
     "photos": [
       {
@@ -5878,6 +5967,7 @@
     "yearCompleted": 1947,
     "era": "ART_DECO",
     "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cinema_Batalha_(Porto)",
     "drawings": [],
     "photos": [
       {
@@ -5938,6 +6028,7 @@
     "yearCompleted": 1998,
     "era": "MODERNISM",
     "style": "Contemporary Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pavilh%C3%A3o_de_Portugal",
     "drawings": [],
     "photos": [
       {
@@ -6000,6 +6091,7 @@
     "yearCompleted": 2003,
     "era": "CONTEMPORARY",
     "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Braga",
     "drawings": [],
     "photos": [
       {
@@ -6053,6 +6145,7 @@
     "yearCompleted": 2009,
     "era": "CONTEMPORARY",
     "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casa_das_Hist%C3%B3rias_Paula_Rego",
     "drawings": [],
     "photos": [
       {
@@ -6105,6 +6198,7 @@
     "yearCompleted": 2005,
     "era": "CONTEMPORARY",
     "style": "Contemporary (Deconstructivism)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casa_da_M%C3%BAsica",
     "drawings": [],
     "photos": [
       {
@@ -6165,6 +6259,7 @@
     "yearCompleted": 1998,
     "era": "CONTEMPORARY",
     "style": "Structural Expressionism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gare_do_Oriente",
     "drawings": [],
     "photos": [
       {
@@ -6226,6 +6321,7 @@
     "yearCompleted": 1998,
     "era": "CONTEMPORARY",
     "style": "Contemporary Modernism",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pavilh%C3%A3o_do_Conhecimento",
     "drawings": [],
     "photos": [
       {
@@ -6282,6 +6378,7 @@
     "yearCompleted": 1992,
     "era": "POSTMODERNISM",
     "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bel%C3%A9m_Cultural_Center",
     "drawings": [],
     "photos": [
       {
@@ -6337,6 +6434,7 @@
     "yearCompleted": 2015,
     "era": "BRUTALISM",
     "style": "Brutalism (contemporary)",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Coach_Museum",
     "drawings": [],
     "photos": [
       {
@@ -6397,6 +6495,7 @@
     "yearCompleted": 2016,
     "era": "CONTEMPORARY",
     "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museum_of_Art,_Architecture_and_Technology",
     "drawings": [],
     "photos": [
       {
@@ -6449,6 +6548,7 @@
     "yearCompleted": 2015,
     "era": "CONTEMPORARY",
     "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Porto_Leix%C3%B5es_Cruise_Terminal",
     "drawings": [],
     "photos": [
       {
@@ -6509,6 +6609,7 @@
     "yearCompleted": 126,
     "era": "CLASSICAL",
     "style": "Ancient Roman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pantheon,_Rome",
     "drawings": [],
     "photos": [
       {
@@ -6567,6 +6668,7 @@
     "yearCompleted": 4,
     "era": "CLASSICAL",
     "style": "Ancient Roman (Corinthian)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maison_carr%C3%A9e",
     "drawings": [],
     "photos": [
       {
@@ -6625,6 +6727,7 @@
     "yearCompleted": -415,
     "era": "CLASSICAL",
     "style": "Ancient Greek (Doric)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Temple_of_Hephaestus",
     "drawings": [],
     "photos": [
       {
@@ -6683,6 +6786,7 @@
     "yearCompleted": 216,
     "era": "CLASSICAL",
     "style": "Ancient Roman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Baths_of_Caracalla",
     "drawings": [],
     "photos": [
       {
@@ -6742,6 +6846,7 @@
     "yearCompleted": 547,
     "era": "BYZANTINE",
     "style": "Byzantine",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basilica_of_San_Vitale",
     "drawings": [],
     "photos": [
       {
@@ -6797,6 +6902,7 @@
     "yearCompleted": 1321,
     "era": "BYZANTINE",
     "style": "Middle and Late Byzantine",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Chora",
     "drawings": [],
     "photos": [
       {
@@ -6858,6 +6964,7 @@
     "yearCompleted": 1094,
     "era": "BYZANTINE",
     "style": "Italo-Byzantine",
+    "wikipedia": "https://en.wikipedia.org/wiki/St_Mark's_Basilica",
     "drawings": [],
     "photos": [
       {
@@ -6916,6 +7023,7 @@
     "yearCompleted": 1012,
     "era": "BYZANTINE",
     "style": "Middle Byzantine",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hosios_Loukas",
     "drawings": [],
     "photos": [
       {
@@ -6971,6 +7079,7 @@
     "yearCompleted": 1220,
     "era": "MEDIEVAL",
     "style": "High Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chartres_Cathedral",
     "drawings": [],
     "photos": [
       {
@@ -7032,6 +7141,7 @@
     "yearCompleted": 1248,
     "era": "MEDIEVAL",
     "style": "Rayonnant Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
     "drawings": [],
     "photos": [
       {
@@ -7089,6 +7199,7 @@
     "yearCompleted": 1133,
     "era": "MEDIEVAL",
     "style": "Romanesque (Norman)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Durham_Cathedral",
     "drawings": [],
     "photos": [
       {
@@ -7151,6 +7262,7 @@
     "yearCompleted": 1118,
     "era": "MEDIEVAL",
     "style": "Pisan Romanesque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pisa_Cathedral",
     "drawings": [],
     "photos": [
       {
@@ -7210,6 +7322,7 @@
     "yearCompleted": 1617,
     "era": "OTTOMAN",
     "style": "Classical Ottoman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Mosque,_Istanbul",
     "drawings": [],
     "photos": [
       {
@@ -7267,6 +7380,7 @@
     "yearCompleted": 1575,
     "era": "OTTOMAN",
     "style": "Classical Ottoman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Selimiye_Mosque,_Edirne",
     "drawings": [],
     "photos": [
       {
@@ -7324,6 +7438,7 @@
     "yearCompleted": 1563,
     "era": "OTTOMAN",
     "style": "Classical Ottoman",
+    "wikipedia": "https://en.wikipedia.org/wiki/R%C3%BCstem_Pasha_Mosque",
     "drawings": [],
     "photos": [
       {
@@ -7387,6 +7502,7 @@
     "yearCompleted": 1465,
     "era": "OTTOMAN",
     "style": "Ottoman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace",
     "drawings": [],
     "photos": [
       {
@@ -7450,6 +7566,7 @@
     "yearCompleted": 1530,
     "era": "MANUELINE",
     "style": "Manueline with Renaissance elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monastery_of_the_Holy_Cross_(Coimbra)",
     "drawings": [],
     "photos": [
       {
@@ -7505,6 +7622,7 @@
     "yearCompleted": 1530,
     "era": "MANUELINE",
     "style": "Gothic, Manueline and Mudéjar",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sintra_National_Palace",
     "drawings": [],
     "photos": [
       {
@@ -7561,6 +7679,7 @@
     "yearCompleted": 1514,
     "era": "MANUELINE",
     "style": "Gothic and Manueline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cathedral_of_Funchal",
     "drawings": [],
     "photos": [
       {
@@ -7610,6 +7729,7 @@
     "yearCompleted": 1530,
     "era": "MANUELINE",
     "style": "Manueline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Igreja_Matriz_da_Goleg%C3%A3",
     "drawings": [],
     "photos": [
       {
@@ -7664,6 +7784,7 @@
     "yearCompleted": 1782,
     "era": "RENAISSANCE",
     "style": "Renaissance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basilica_di_Sant'Andrea",
     "drawings": [],
     "photos": [
       {
@@ -7720,6 +7841,7 @@
     "yearCompleted": 1547,
     "era": "RENAISSANCE",
     "style": "French Renaissance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord",
     "drawings": [],
     "photos": [
       {
@@ -7787,6 +7909,7 @@
     "yearCompleted": 1584,
     "era": "RENAISSANCE",
     "style": "Spanish Renaissance (Herrerian)",
+    "wikipedia": "https://en.wikipedia.org/wiki/El_Escorial",
     "drawings": [],
     "photos": [
       {
@@ -7844,6 +7967,7 @@
     "yearCompleted": 1571,
     "era": "MANNERISM",
     "style": "Mannerism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laurentian_Library",
     "drawings": [],
     "photos": [
       {
@@ -7909,6 +8033,7 @@
     "yearCompleted": 1710,
     "era": "BAROQUE",
     "style": "French Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
     "drawings": [],
     "photos": [
       {
@@ -7965,6 +8090,7 @@
     "yearCompleted": 1682,
     "era": "BAROQUE",
     "style": "Roman Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/San_Carlo_alle_Quattro_Fontane",
     "drawings": [],
     "photos": [
       {
@@ -8022,6 +8148,7 @@
     "yearCompleted": 1737,
     "era": "BAROQUE",
     "style": "Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karlskirche",
     "drawings": [],
     "photos": [
       {
@@ -8078,6 +8205,7 @@
     "yearCompleted": 1736,
     "era": "BAROQUE",
     "style": "Austrian Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Melk_Abbey",
     "drawings": [],
     "photos": [
       {
@@ -8137,6 +8265,7 @@
     "yearCompleted": 1790,
     "era": "NEOCLASSICAL",
     "style": "Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/Panth%C3%A9on",
     "drawings": [],
     "photos": [
       {
@@ -8199,6 +8328,7 @@
     "yearCompleted": 1830,
     "era": "NEOCLASSICAL",
     "style": "Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/Altes_Museum",
     "drawings": [],
     "photos": [
       {
@@ -8253,6 +8383,7 @@
     "yearCompleted": 1852,
     "era": "NEOCLASSICAL",
     "style": "Greek Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/British_Museum",
     "drawings": [],
     "photos": [
       {
@@ -8304,6 +8435,7 @@
     "yearCompleted": 1842,
     "era": "NEOCLASSICAL",
     "style": "Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Madeleine,_Paris",
     "drawings": [],
     "photos": [
       {
@@ -8369,6 +8501,7 @@
     "yearCompleted": 1870,
     "era": "HISTORICISM",
     "style": "Gothic Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Westminster",
     "drawings": [],
     "photos": [
       {
@@ -8431,6 +8564,7 @@
     "yearCompleted": 1892,
     "era": "HISTORICISM",
     "style": "Romanesque Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
     "drawings": [],
     "photos": [
       {
@@ -8493,6 +8627,7 @@
     "yearCompleted": 1885,
     "era": "HISTORICISM",
     "style": "Gothic and Renaissance Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rijksmuseum",
     "drawings": [],
     "photos": [
       {
@@ -8556,6 +8691,7 @@
     "yearCompleted": 1868,
     "era": "HISTORICISM",
     "style": "Gothic Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/St_Pancras_railway_station",
     "drawings": [],
     "photos": [
       {
@@ -8609,6 +8745,7 @@
     "yearCompleted": 1901,
     "era": "ART_NOUVEAU",
     "style": "Art Nouveau",
+    "wikipedia": "https://en.wikipedia.org/wiki/Horta_Museum",
     "drawings": [],
     "photos": [
       {
@@ -8668,6 +8805,7 @@
     "yearCompleted": 1898,
     "era": "ART_NOUVEAU",
     "style": "Vienna Secession",
+    "wikipedia": "https://en.wikipedia.org/wiki/Secession_Building",
     "drawings": [],
     "photos": [
       {
@@ -8732,6 +8870,7 @@
     "yearCompleted": 1930,
     "era": "ART_NOUVEAU",
     "style": "Catalan Modernisme",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hospital_de_Sant_Pau",
     "drawings": [],
     "photos": [
       {
@@ -8794,6 +8933,7 @@
     "yearCompleted": 1912,
     "era": "ART_NOUVEAU",
     "style": "Art Nouveau",
+    "wikipedia": "https://en.wikipedia.org/wiki/Municipal_House",
     "drawings": [],
     "photos": [
       {
@@ -8847,6 +8987,7 @@
     "yearCompleted": 1931,
     "era": "ART_DECO",
     "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Empire_State_Building",
     "drawings": [],
     "photos": [
       {
@@ -8907,6 +9048,7 @@
     "yearCompleted": 1928,
     "era": "ART_DECO",
     "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fisher_Building",
     "drawings": [],
     "photos": [
       {
@@ -8966,6 +9108,7 @@
     "yearCompleted": 1929,
     "era": "ART_DECO",
     "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guardian_Building",
     "drawings": [],
     "photos": [
       {
@@ -9022,6 +9165,7 @@
     "yearCompleted": 1936,
     "era": "ART_DECO",
     "style": "Art Deco interiors with a medieval great hall",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eltham_Palace",
     "drawings": [],
     "photos": [
       {
@@ -9078,6 +9222,7 @@
     "yearCompleted": 1951,
     "era": "MODERNISM",
     "style": "International Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Farnsworth_House",
     "drawings": [],
     "photos": [
       {
@@ -9135,6 +9280,7 @@
     "yearCompleted": 1930,
     "era": "MODERNISM",
     "style": "Functionalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_Tugendhat",
     "drawings": [],
     "photos": [
       {
@@ -9197,6 +9343,7 @@
     "yearCompleted": 1933,
     "era": "MODERNISM",
     "style": "Functionalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paimio_Sanatorium",
     "drawings": [],
     "photos": [
       {
@@ -9259,6 +9406,7 @@
     "yearCompleted": 1939,
     "era": "MODERNISM",
     "style": "Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_Mairea",
     "drawings": [],
     "photos": [
       {
@@ -9315,6 +9463,7 @@
     "yearCompleted": 1967,
     "era": "BRUTALISM",
     "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Habitat_67",
     "drawings": [],
     "photos": [
       {
@@ -9377,6 +9526,7 @@
     "yearCompleted": 1976,
     "era": "BRUTALISM",
     "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barbican_Estate",
     "drawings": [],
     "photos": [
       {
@@ -9433,6 +9583,7 @@
     "yearCompleted": 1968,
     "era": "BRUTALISM",
     "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boston_City_Hall",
     "drawings": [],
     "photos": [
       {
@@ -9490,6 +9641,7 @@
     "yearCompleted": 1977,
     "era": "BRUTALISM",
     "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Royal_National_Theatre",
     "drawings": [],
     "photos": [
       {
@@ -9558,6 +9710,7 @@
     "yearCompleted": 1994,
     "era": "POSTMODERNISM",
     "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Groninger_Museum",
     "drawings": [],
     "photos": [
       {
@@ -9620,6 +9773,7 @@
     "yearCompleted": 1984,
     "era": "POSTMODERNISM",
     "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Neue_Staatsgalerie",
     "drawings": [],
     "photos": [
       {
@@ -9679,6 +9833,7 @@
     "yearCompleted": 1991,
     "era": "POSTMODERNISM",
     "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Gallery",
     "drawings": [],
     "photos": [
       {
@@ -9733,6 +9888,7 @@
     "yearCompleted": 1984,
     "era": "POSTMODERNISM",
     "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/550_Madison_Avenue",
     "drawings": [],
     "photos": [
       {
@@ -9786,6 +9942,7 @@
     "yearCompleted": 1997,
     "era": "CONTEMPORARY",
     "style": "Deconstructivism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
     "drawings": [],
     "photos": [
       {
@@ -9839,6 +9996,7 @@
     "yearCompleted": 1999,
     "era": "CONTEMPORARY",
     "style": "Deconstructivism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jewish_Museum_Berlin",
     "drawings": [],
     "photos": [
       {
@@ -9898,6 +10056,7 @@
     "yearCompleted": 2016,
     "era": "CONTEMPORARY",
     "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elbphilharmonie",
     "drawings": [],
     "photos": [
       {
@@ -9951,6 +10110,7 @@
     "yearCompleted": 2003,
     "era": "CONTEMPORARY",
     "style": "Deconstructivism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall",
     "drawings": [],
     "photos": [
       {
@@ -10013,6 +10173,7 @@
     "yearCompleted": -432,
     "era": "CLASSICAL",
     "style": "Ancient Greek (Doric)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Parthenon",
     "drawings": [],
     "photos": [
       {
@@ -10074,6 +10235,7 @@
     "yearCompleted": 80,
     "era": "CLASSICAL",
     "style": "Ancient Roman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Colosseum",
     "drawings": [],
     "photos": [
       {
@@ -10138,6 +10300,7 @@
     "yearCompleted": 1144,
     "era": "MEDIEVAL",
     "style": "Early Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Basilica_of_Saint-Denis",
     "drawings": [],
     "photos": [
       {
@@ -10198,6 +10361,7 @@
     "yearCompleted": 1260,
     "era": "MEDIEVAL",
     "style": "French Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
     "drawings": [],
     "photos": [
       {
@@ -10248,6 +10412,7 @@
     "yearCompleted": 987,
     "era": "ISLAMIC",
     "style": "Moorish (Umayyad)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba",
     "drawings": [],
     "photos": [
       {
@@ -10303,6 +10468,7 @@
     "yearCompleted": 1391,
     "era": "ISLAMIC",
     "style": "Nasrid (Moorish)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alhambra",
     "drawings": [],
     "photos": [
       {
@@ -10359,6 +10525,7 @@
     "yearCompleted": 1478,
     "era": "RENAISSANCE",
     "style": "Early Renaissance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pazzi_Chapel",
     "drawings": [],
     "photos": [
       {
@@ -10428,6 +10595,7 @@
     "yearCompleted": 1626,
     "era": "RENAISSANCE",
     "style": "Renaissance and Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/St._Peter's_Basilica",
     "drawings": [],
     "photos": [
       {
@@ -10479,8 +10647,9 @@
     ],
     "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
     "yearCompleted": 1851,
-    "era": "HISTORICISM",
+    "era": "INDUSTRIAL",
     "style": "Iron and glass prefabrication",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Crystal_Palace",
     "drawings": [],
     "photos": [
       {
@@ -10549,6 +10718,7 @@
     "yearCompleted": 1729,
     "era": "NEOCLASSICAL",
     "style": "Neo-Palladian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chiswick_House",
     "drawings": [],
     "photos": [
       {

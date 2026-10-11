@@ -28,6 +28,8 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 - Optional `crop` `{x, y, w, h}` (fractions) on drawings and photos hides anything that names the building or architect (title blocks, captions, signatures, façade lettering). Check every image for spoilers.
 - `credit` + `source` (Commons file page) on every image; credits are shown only after the reveal.
 - `yearCompleted` may be null for unfinished works.
+- `wikipedia` is required: the article URL (`https://en.wikipedia.org/wiki/...`, or `pt.wikipedia.org` when no English article exists), shown after the reveal as further reading. The pt-BR overlay may carry its own `wikipedia` URL.
+- `era` is the style the building is known for, not its date (a 2015 building can be Brutalist). Non-Western works use `ANCIENT_EGYPTIAN`, `PRE_COLUMBIAN`, `INDIC`, `EAST_ASIAN` or `ISLAMIC`.
 - Unknown JSON fields are rejected.
 
 ## Image sourcing
@@ -46,7 +48,7 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 
 ## Design
 
-`DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid, paper sheets, title blocks, brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings.js`. `PRODUCT.md` holds product context.
+`DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid, paper sheets, title blocks, brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings/`. `PRODUCT.md` holds product context.
 
 ## Working agreement
 

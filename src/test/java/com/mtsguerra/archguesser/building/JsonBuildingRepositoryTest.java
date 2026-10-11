@@ -41,6 +41,10 @@ class JsonBuildingRepositoryTest {
         assertThat(repository.findById("villa-rotonda", "pt-BR")).get()
                 .satisfies(b -> assertThat(b.aliases()).contains("Villa Rotonda"))
                 .satisfies(b -> assertThat(b.hints()).hasSize(3));
+        assertThat(repository.findById("villa-rotonda", "pt-BR").get().wikipedia())
+                .isEqualTo("https://pt.wikipedia.org/wiki/Villa_Capra");
+        assertThat(repository.findById("villa-rotonda", "en").get().wikipedia())
+                .isEqualTo("https://en.wikipedia.org/wiki/Villa_La_Rotonda");
         assertThat(repository.findById("villa-rotonda", "en").get().style()).isEqualTo("Palladian");
         assertThat(repository.findById("villa-rotonda", "pt-BR").get().style()).isEqualTo("Palladiano");
     }

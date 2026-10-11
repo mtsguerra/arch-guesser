@@ -16,6 +16,7 @@
     ],
     "city": "Lisboa",
     "style": "Pós-modernismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_Cultural_de_Bel%C3%A9m",
     "drawings": [],
     "photos": [
       { "alt": "Paredes longas e quase sem janelas de pedra rústica rosada em volta de uma praça pavimentada", "caption": null },
@@ -51,6 +52,7 @@
     ],
     "city": "Lisboa",
     "style": "Brutalismo (contemporâneo)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_Nacional_dos_Coches",
     "drawings": [],
     "photos": [
       { "alt": "Longa caixa branca com uma fina faixa azul de janelas, elevada sobre colunas redondas de concreto sobre um térreo aberto", "caption": null },
@@ -85,6 +87,7 @@
     ],
     "city": "Lisboa",
     "style": "Contemporâneo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_de_Arte,_Arquitetura_e_Tecnologia",
     "drawings": [],
     "photos": [
       { "alt": "Edifício branco, baixo e curvo, ao longo de um calçadão à beira-rio, visto da água", "caption": null },
@@ -119,6 +122,7 @@
     ],
     "city": "Matosinhos",
     "style": "Contemporâneo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Terminal_de_Cruzeiros_do_Porto_de_Leix%C3%B5es",
     "drawings": [],
     "photos": [
       { "alt": "Edifício branco arredondado, envolvido por faixas curvas, com um térreo envidraçado escuro", "caption": null },
@@ -154,6 +158,7 @@
     ],
     "city": "Roma",
     "style": "Romano antigo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pante%C3%A3o_(Roma)",
     "drawings": [],
     "photos": [
       { "alt": "Edifício redondo de tijolo com um profundo pórtico de colunas de granito sob um frontão, em uma praça movimentada", "caption": null },
@@ -190,6 +195,7 @@
     ],
     "city": "Nîmes",
     "style": "Romano antigo (coríntio)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Maison_Carr%C3%A9e",
     "drawings": [],
     "photos": [
       { "alt": "Pequeno templo romano com colunas coríntias sobre um alto pódio com degraus, iluminado à noite", "caption": null },
@@ -226,6 +232,7 @@
     ],
     "city": "Atenas",
     "style": "Grego antigo (dórico)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Templo_de_Hefesto",
     "drawings": [],
     "photos": [
       { "alt": "Templo dórico de mármore completo, com um anel de colunas, visto entre arbustos", "caption": null },
@@ -262,6 +269,7 @@
     ],
     "city": "Roma",
     "style": "Romano antigo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Termas_de_Caracala",
     "drawings": [],
     "photos": [
       { "alt": "Imponentes paredes e pilares de tijolo em ruínas de um vasto edifício antigo, em um gramado aberto", "caption": null },
@@ -298,6 +306,7 @@
     ],
     "city": "Ravena",
     "style": "Bizantino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_de_S%C3%A3o_Vital",
     "drawings": [],
     "photos": [
       { "alt": "Igreja octogonal de tijolos, com telhados escalonados e janelas em arco, em um jardim", "caption": null },
@@ -333,6 +342,7 @@
     ],
     "city": "Istambul",
     "style": "Bizantino médio e tardio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Salvador_em_Cora",
     "drawings": [],
     "photos": [
       { "alt": "Pequena igreja de tijolo e pedra com uma cúpula e telhados em camadas, ao lado de um gramado", "caption": null },
@@ -369,6 +379,7 @@
     ],
     "city": "Veneza",
     "style": "Ítalo-bizantino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_de_S%C3%A3o_Marcos",
     "drawings": [],
     "photos": [
       { "alt": "Frente de igreja ornamentada, com cinco portais em arco, mosaicos dourados e cúpulas, do outro lado de uma praça pavimentada", "caption": null },
@@ -405,6 +416,7 @@
     ],
     "city": "Distomo",
     "style": "Bizantino médio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mosteiro_de_S%C3%A3o_Lucas",
     "drawings": [],
     "photos": [
       { "alt": "Igrejas de pedra de um mosteiro, com cúpulas e um campanário, em um vale sob montanhas", "caption": null },

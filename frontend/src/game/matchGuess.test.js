@@ -109,6 +109,7 @@ describe('eraMatches', () => {
     ['MANNERISM', 'RENAISSANCE'],
     ['BAROQUE', 'MANNERISM'],
     ['ISLAMIC', 'MEDIEVAL'],
+    ['INDUSTRIAL', 'HISTORICISM'],
   ])('treats %s as close enough to %s', (guess, answer) => {
     expect(eraMatches(guess, answer)).toBe(true)
   })
@@ -122,6 +123,8 @@ describe('eraMatches', () => {
     ['MANUELINE', 'BAROQUE'],
     ['ISLAMIC', 'OTTOMAN'],
     ['MANNERISM', 'MODERNISM'],
+    ['EAST_ASIAN', 'INDIC'],
+    ['ANCIENT_EGYPTIAN', 'CLASSICAL'],
   ])('rejects %s for %s', (guess, answer) => {
     expect(eraMatches(guess, answer)).toBe(false)
   })

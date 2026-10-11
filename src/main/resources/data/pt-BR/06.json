@@ -11,6 +11,7 @@
     ],
     "city": "Mafra",
     "style": "Barroco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Nacional_de_Mafra",
     "drawings": [
       { "label": "Planta geral", "alt": "Planta de um vasto complexo retangular com uma igreja no centro da fachada principal e pátios atrás" }
     ],
@@ -49,6 +50,7 @@
     ],
     "city": "Lisboa",
     "style": "Barroco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_Santa_Engr%C3%A1cia",
     "drawings": [],
     "photos": [
       { "alt": "Igreja de pedra branca em planta de cruz grega, com torres nos cantos e uma grande cúpula", "caption": null },
@@ -85,6 +87,7 @@
     ],
     "city": "Braga",
     "style": "Escadaria barroca; igreja neoclássica",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Santu%C3%A1rio_do_Bom_Jesus_do_Monte",
     "drawings": [],
     "photos": [
       { "alt": "Escadaria de granito em zigue-zague, com estátuas e fontes, subindo uma colina arborizada até uma igreja de duas torres", "caption": null },
@@ -126,6 +129,7 @@
     ],
     "city": "Queluz, Sintra",
     "style": "Rococó",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Nacional_de_Queluz",
     "drawings": [],
     "photos": [
       { "alt": "Frente de palácio rococó rosa e branco, com frontão e altas janelas, vista ao longo de um jardim formal", "caption": null },
@@ -167,6 +171,7 @@
     ],
     "city": "Lisboa",
     "style": "Barroco tardio e neoclássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_da_Estrela",
     "drawings": [],
     "photos": [
       { "alt": "Frente de igreja branca com duas torres sineiras e estátuas, vista da rua", "caption": null },
@@ -207,6 +212,7 @@
     ],
     "city": "Lisboa",
     "style": "Neoclássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Nacional_da_Ajuda",
     "drawings": [
       { "label": "Planta do projeto original", "alt": "Planta de um enorme palácio em torno de um grande pátio, com a parte executada em preto sólido" }
     ],
@@ -245,6 +251,7 @@
     ],
     "city": "Lisboa",
     "style": "Neoclássico com elementos rococó",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Teatro_Nacional_de_S%C3%A3o_Carlos",
     "drawings": [],
     "photos": [
       { "alt": "Frente de teatro amarela e branca, com relógio, sacada e três arcos de entrada, em uma praça pavimentada", "caption": null },
@@ -315,6 +322,7 @@
     ],
     "city": "Sintra",
     "style": "Romantismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Nacional_da_Pena",
     "drawings": [],
     "photos": [
       { "alt": "Castelo-palácio amarelo, vermelho e cinza, com cúpulas e torres, no alto de uma colina arborizada", "caption": null },
@@ -351,6 +359,7 @@
     ],
     "city": "Luso, Mealhada",
     "style": "Neomanuelino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Hotel_do_Bu%C3%A7aco",
     "drawings": [],
     "photos": [
       { "alt": "Palácio de pedra ornamentado, com uma alta torre de pináculos e arcadas entalhadas, visto do outro lado de um jardim formal", "caption": null },
@@ -392,6 +401,7 @@
     ],
     "city": "Porto",
     "style": "Neoclássico (neopalladiano), com salão neomourisco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_da_Bolsa",
     "drawings": [],
     "photos": [
       { "alt": "Grande palácio neoclássico com frente de frontão, visto entre os telhados de uma cidade em encosta junto a um rio", "caption": null },
@@ -428,6 +438,7 @@
     ],
     "city": "Sintra",
     "style": "Neomanuelino e neogótico românticos",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Quinta_da_Regaleira",
     "drawings": [],
     "photos": [
       { "alt": "Mansão de pedra cinzenta rendilhada, com pináculos e uma torre, erguida acima de um jardim", "caption": null },

@@ -7,6 +7,7 @@ import java.util.List;
  * model and the API response, since the client needs every field for a round.
  *
  * @param yearCompleted null while the building is still under construction
+ * @param wikipedia the Wikipedia article (English, or Portuguese when none exists), offered after the reveal as further reading
  */
 public record Building(
         String id,
@@ -20,7 +21,8 @@ public record Building(
         List<Drawing> drawings,
         List<Photo> photos,
         List<Hint> hints,
-        Summary summary
+        Summary summary,
+        String wikipedia
 ) {
     public Building {
         aliases = Lists.nullToEmpty(aliases);

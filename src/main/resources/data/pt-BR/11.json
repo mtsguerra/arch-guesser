@@ -47,6 +47,7 @@
     ],
     "city": "Chambord",
     "style": "Renascimento francês",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Castelo_de_Chambord",
     "drawings": [],
     "photos": [
       { "alt": "Enorme castelo branco com torres redondas e uma silhueta de telhados apinhados, refletido em águas paradas", "caption": null },
@@ -88,6 +89,7 @@
     ],
     "city": "San Lorenzo de El Escorial",
     "style": "Renascimento espanhol (herreriano)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mosteiro_do_Escorial",
     "drawings": [],
     "photos": [
       { "alt": "Vasto edifício austero de granito, com uma torre de canto e flecha, sob um céu azul", "caption": null },
@@ -124,6 +126,7 @@
     ],
     "city": "Florença",
     "style": "Maneirismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Biblioteca_Medicea_Laurenziana",
     "drawings": [],
     "photos": [
       { "alt": "Edifício de pedra simples com uma pequena cúpula, erguendo-se atrás de um muro de claustro em uma rua estreita", "caption": null },
@@ -165,6 +168,7 @@
     ],
     "city": "Versalhes",
     "style": "Barroco francês",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Versalhes",
     "drawings": [],
     "photos": [
       { "alt": "Fachada de palácio muito longa, vista da extremidade de um terraço de jardim formal", "caption": null },
@@ -201,6 +205,7 @@
     ],
     "city": "Roma",
     "style": "Barroco romano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Carlos_das_Quatro_Fontes",
     "drawings": [],
     "photos": [
       { "alt": "Frente de igreja estreita, de vãos côncavos e convexos ondulantes, com colunas, nichos e estátuas", "caption": null },
@@ -236,6 +241,7 @@
     ],
     "city": "Viena",
     "style": "Barroco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Carlos_Borromeu_(Viena)",
     "drawings": [],
     "photos": [
       { "alt": "Igreja com cúpula e um pórtico de templo ladeado por duas grandes colunas entalhadas", "caption": null },
@@ -271,6 +277,7 @@
     ],
     "city": "Melk",
     "style": "Barroco austríaco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Abadia_de_Melk",
     "drawings": [],
     "photos": [
       { "alt": "Longa abadia amarela com uma igreja de cúpula e duas torres, em uma elevação rochosa", "caption": null },
@@ -306,6 +313,7 @@
     ],
     "city": "Paris",
     "style": "Neoclássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pante%C3%A3o_(Paris)",
     "drawings": [],
     "photos": [
       { "alt": "Edifício neoclássico com cúpula e pórtico coríntio, do outro lado de uma praça", "caption": null },
@@ -342,6 +350,7 @@
     ],
     "city": "Berlim",
     "style": "Neoclássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_Antigo",
     "drawings": [],
     "photos": [
       { "alt": "Longa colunata de colunas jônicas ao longo de uma parede pintada com painéis vermelhos", "caption": "A colunata." },
@@ -377,6 +386,7 @@
     ],
     "city": "Londres",
     "style": "Neoclassicismo grego (Greek Revival)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_Brit%C3%A2nico",
     "drawings": [],
     "photos": [
       { "alt": "Fileira de altas colunas jônicas de um pórtico neoclássico grego acima de degraus molhados", "caption": null },
@@ -412,6 +422,7 @@
     ],
     "city": "Paris",
     "style": "Neoclássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_la_Madeleine",
     "drawings": [],
     "photos": [
       { "alt": "Canto de um edifício em forma de templo, com um frontão sobre fileiras de colunas coríntias", "caption": null },

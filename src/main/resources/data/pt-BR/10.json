@@ -11,6 +11,7 @@
     ],
     "city": "Chartres",
     "style": "Gótico pleno",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_de_Chartres",
     "drawings": [],
     "photos": [
       { "alt": "Catedral gótica com arcobotantes e uma flecha, iluminada por refletores à noite", "caption": null },
@@ -47,6 +48,7 @@
     ],
     "city": "Paris",
     "style": "Gótico radiante",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Sainte-Chapelle",
     "drawings": [],
     "photos": [
       { "alt": "Esbelta capela gótica com flecha e empenas, erguendo-se atrás de edifícios de um palácio em volta de um pátio", "caption": null },
@@ -83,6 +85,7 @@
     ],
     "city": "Durham",
     "style": "Românico (normando)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_de_Durham",
     "drawings": [],
     "photos": [
       { "alt": "Maciça catedral românica com torres quadradas acima de margens arborizadas de um rio", "caption": null },
@@ -124,6 +127,7 @@
     ],
     "city": "Pisa",
     "style": "Românico pisano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_de_Pisa",
     "drawings": [],
     "photos": [
       { "alt": "Catedral românica de mármore com fileiras de arcadas e uma cúpula, ao lado de um gramado", "caption": null },
@@ -160,6 +164,7 @@
     ],
     "city": "Istambul",
     "style": "Otomano clássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mesquita_Azul",
     "drawings": [],
     "photos": [
       { "alt": "Mesquita com uma cascata de cúpulas e seis esbeltos minaretes, vista do outro lado de um parque com palmeiras", "caption": null },
@@ -195,6 +200,7 @@
     ],
     "city": "Edirne",
     "style": "Otomano clássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mesquita_de_Selim",
     "drawings": [],
     "photos": [
       { "alt": "Grande mesquita com cúpula, emoldurada por altos minaretes, vista além de um muro de pedra", "caption": null },
@@ -231,6 +237,7 @@
     ],
     "city": "Istambul",
     "style": "Otomano clássico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mesquita_de_R%C3%BCstem_Pax%C3%A1",
     "drawings": [],
     "photos": [
       { "alt": "Cúpula e semicúpulas cobertas de chumbo de uma mesquita de pedra com um minarete, contra um céu azul", "caption": null },
@@ -271,6 +278,7 @@
     ],
     "city": "Istambul",
     "style": "Otomano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Topkap%C4%B1",
     "drawings": [],
     "photos": [
       { "alt": "Longo pavilhão com arcadas e um beiral profundo, ao lado de um pátio ajardinado", "caption": null },
@@ -312,6 +320,7 @@
     ],
     "city": "Coimbra",
     "style": "Manuelino com elementos renascentistas",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mosteiro_de_Santa_Cruz",
     "drawings": [],
     "photos": [
       { "alt": "Frente de igreja de pedra clara ornamentada, com pináculos e um portal entalhado, acima de uma praça com uma fonte", "caption": null },
@@ -347,6 +356,7 @@
     ],
     "city": "Sintra",
     "style": "Gótico, manuelino e mudéjar",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_Nacional_de_Sintra",
     "drawings": [],
     "photos": [
       { "alt": "Duas enormes chaminés cônicas brancas acima de uma ala do palácio com janelas de estilo mourisco", "caption": null },
@@ -383,6 +393,7 @@
     ],
     "city": "Funchal",
     "style": "Gótico e manuelino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/S%C3%A9_do_Funchal",
     "drawings": [],
     "photos": [
       { "alt": "Igreja branca com bordas de pedra escura, um rosetão e um portal ogival, ao lado de uma torre sineira quadrada", "caption": null },
@@ -418,6 +429,7 @@
     ],
     "city": "Golegã",
     "style": "Manuelino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_Matriz_da_Goleg%C3%A3",
     "drawings": [],
     "photos": [
       { "alt": "Igreja branca com um portal de pedra elaboradamente entalhado e uma alta torre com flecha pontiaguda", "caption": null },

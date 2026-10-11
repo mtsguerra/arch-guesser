@@ -32,6 +32,7 @@ const CLOSE_ERAS = [
   ['MANNERISM', 'RENAISSANCE'],
   ['MANNERISM', 'BAROQUE'],
   ['ISLAMIC', 'MEDIEVAL'],
+  ['INDUSTRIAL', 'HISTORICISM'],
 ]
 
 export function eraMatches(guess, answer) {

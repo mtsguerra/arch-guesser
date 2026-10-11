@@ -106,6 +106,7 @@ function translate(b, t) {
     })),
     location: { ...b.location, city: orElse(t.city, b.location.city) },
     style: orElse(t.style, b.style),
+    wikipedia: orElse(t.wikipedia, b.wikipedia),
     drawings: zip(b, 'drawings', b.drawings, t.drawings, (d, x) => ({ ...d, label: orElse(x.label, d.label), alt: orElse(x.alt, d.alt) })),
     photos: zip(b, 'photos', b.photos, t.photos, (p, x) => ({ ...p, alt: orElse(x.alt, p.alt), caption: orElse(x.caption, p.caption) })),
     hints: zip(b, 'hints', b.hints, t.hints, (h, text) => ({ ...h, text: orElse(text, h.text) })),

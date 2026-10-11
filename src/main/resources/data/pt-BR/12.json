@@ -16,6 +16,7 @@
     ],
     "city": "Londres",
     "style": "Neogótico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Westminster",
     "drawings": [],
     "photos": [
       { "alt": "Longo palácio neogótico com torres ao longo de um rio, visto da água", "caption": null },
@@ -57,6 +58,7 @@
     ],
     "city": "Schwangau",
     "style": "Neorromânico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Castelo_de_Neuschwanstein",
     "drawings": [],
     "photos": [
       { "alt": "Castelo branco com torres em um penhasco arborizado, acima de uma ampla planície", "caption": null },
@@ -93,6 +95,7 @@
     ],
     "city": "Amsterdã",
     "style": "Neogótico e neorrenascentista",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_Estatal_de_Amesterd%C3%A3o",
     "drawings": [],
     "photos": [
       { "alt": "Grande museu de tijolos vermelhos com torres de telhado íngreme e uma passagem em arco, atrás de floreiras", "caption": null },
@@ -133,6 +136,7 @@
     ],
     "city": "Londres",
     "style": "Neogótico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_St_Pancras",
     "drawings": [],
     "photos": [
       { "alt": "Frente de hotel gótico de tijolo vermelho ornamentado, com torres e janelas ogivais", "caption": null },
@@ -168,6 +172,7 @@
     ],
     "city": "Bruxelas",
     "style": "Art Nouveau",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa-Museu_Horta",
     "drawings": [],
     "photos": [
       { "alt": "Frente estreita de casa urbana Art Nouveau, com sacadas de ferro e janelas salientes", "caption": null },
@@ -237,6 +242,7 @@
     ],
     "city": "Barcelona",
     "style": "Modernisme catalão",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Hospital_da_Santa_Cruz_e_S%C3%A3o_Paulo",
     "drawings": [],
     "photos": [
       { "alt": "Pavilhão de tijolos vermelhos com cúpulas de azulejos e uma torre de canto, em meio a jardins", "caption": null },
@@ -312,6 +318,7 @@
     ],
     "city": "Nova York",
     "style": "Art Déco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Empire_State_Building",
     "drawings": [],
     "photos": [
       { "alt": "Esbelto arranha-céu de calcário com recuos e um mastro contra um céu azul", "caption": null },
@@ -423,6 +430,7 @@
     ],
     "city": "Londres",
     "style": "Interiores Art Déco com um grande salão medieval",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Eltham",
     "drawings": [],
     "photos": [
       { "alt": "Longa casa de tijolo e pedra ao lado de um grande salão medieval, atrás de um gramado", "caption": null },

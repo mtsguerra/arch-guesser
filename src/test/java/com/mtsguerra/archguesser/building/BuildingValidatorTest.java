@@ -49,7 +49,7 @@ class BuildingValidatorTest {
     void rejectsMissingArchitects() {
         Building b = building("a", hints(2));
         Building noArchitects = new Building(b.id(), b.name(), b.aliases(), List.of(), b.location(),
-                b.yearCompleted(), b.era(), b.style(), b.drawings(), b.photos(), b.hints(), b.summary());
+                b.yearCompleted(), b.era(), b.style(), b.drawings(), b.photos(), b.hints(), b.summary(), b.wikipedia());
 
         List<String> errors = BuildingValidator.validate(List.of(noArchitects));
 
@@ -110,7 +110,7 @@ class BuildingValidatorTest {
     void acceptsBuildingsStillUnderConstruction() {
         Building b = building("a", hints(2));
         Building ongoing = new Building(b.id(), b.name(), b.aliases(), b.architects(), b.location(),
-                null, b.era(), b.style(), b.drawings(), b.photos(), b.hints(), b.summary());
+                null, b.era(), b.style(), b.drawings(), b.photos(), b.hints(), b.summary(), b.wikipedia());
 
         assertThat(BuildingValidator.validate(List.of(ongoing))).isEmpty();
     }
@@ -131,7 +131,7 @@ class BuildingValidatorTest {
 
     @Test
     void reportsEveryProblemAtOnce() {
-        Building broken = new Building("Not Kebab", null, null, null, null, null, null, null, null, null, null, null);
+        Building broken = new Building("Not Kebab", null, null, null, null, null, null, null, null, null, null, null, null);
 
         List<String> errors = BuildingValidator.validate(List.of(broken));
 
@@ -151,17 +151,18 @@ class BuildingValidatorTest {
                 List.of(drawing("/buildings/" + id + "/plan.jpg", null)),
                 List.of(photo(PhotoView.EXTERIOR, "/buildings/" + id + "/exterior.jpg"), photo(PhotoView.INTERIOR, "/buildings/" + id + "/interior.jpg")),
                 hints,
-                new Summary("Description", null, null));
+                new Summary("Description", null, null),
+                "https://en.wikipedia.org/wiki/Name");
     }
 
     private static Building withDrawings(Building b, Drawing... drawings) {
         return new Building(b.id(), b.name(), b.aliases(), b.architects(), b.location(),
-                b.yearCompleted(), b.era(), b.style(), List.of(drawings), b.photos(), b.hints(), b.summary());
+                b.yearCompleted(), b.era(), b.style(), List.of(drawings), b.photos(), b.hints(), b.summary(), b.wikipedia());
     }
 
     private static Building withPhotos(Building b, Photo... photos) {
         return new Building(b.id(), b.name(), b.aliases(), b.architects(), b.location(),
-                b.yearCompleted(), b.era(), b.style(), b.drawings(), java.util.Arrays.asList(photos), b.hints(), b.summary());
+                b.yearCompleted(), b.era(), b.style(), b.drawings(), java.util.Arrays.asList(photos), b.hints(), b.summary(), b.wikipedia());
     }
 
     private static Drawing drawing(String src, Crop crop) {
