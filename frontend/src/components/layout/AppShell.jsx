@@ -34,7 +34,11 @@ export function AppShell({ actions, children }) {
             aria-label={`${strings.language.label}: ${strings.language.switchTo}`}
             onClick={() => setLang(lang === 'en' ? 'pt-BR' : 'en')}
           >
-            {strings.language.short}
+            <span className={styles.langOptions} aria-hidden="true">
+              <span className={lang === 'en' ? styles.langOn : styles.langOff}>EN</span>
+              <span className={styles.langSep}>|</span>
+              <span className={lang === 'pt-BR' ? styles.langOn : styles.langOff}>PT</span>
+            </span>
           </Button>
         </div>
       </header>

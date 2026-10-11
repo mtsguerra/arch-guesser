@@ -6,7 +6,6 @@ export default {
   language: {
     label: 'Idioma',
     switchTo: 'English',
-    short: 'EN',
   },
 
   years: { bce: 'a.C.', now: 'hoje' },

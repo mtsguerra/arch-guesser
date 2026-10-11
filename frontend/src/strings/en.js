@@ -6,7 +6,6 @@ export default {
   language: {
     label: 'Language',
     switchTo: 'Português (Brasil)',
-    short: 'PT',
   },
 
   years: { bce: 'BCE', now: 'now' },
