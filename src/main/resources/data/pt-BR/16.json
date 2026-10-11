@@ -1,0 +1,436 @@
+{
+  "el-castillo-chichen-itza": {
+    "name": "El Castillo, Chichén Itzá",
+    "aliases": [
+      "El Castillo",
+      "Templo de Kukulcán",
+      "Pirâmide de Kukulcán",
+      "Chichén Itzá",
+      "Pirâmide de Chichén Itzá"
+    ],
+    "architects": [
+      {
+        "aliases": ["Maias"],
+        "nationality": "Maia",
+        "lifespan": "séculos VIII–XII",
+        "bio": "A pirâmide foi erguida pelos maias pré-colombianos de Chichén Itzá como templo à Serpente Emplumada, Kukulcán. Nenhum arquiteto individual é registrado; a obra é atribuída aos construtores itzás e a seus governantes."
+      }
+    ],
+    "city": "Chichén Itzá",
+    "style": "Pirâmide escalonada maia–tolteca",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Templo_de_Kukulc%C3%A1n",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Pirâmide escalonada de pedra com um pequeno templo no topo, vista de um canto sob um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Cabeça de serpente de pedra entalhada, de mandíbulas abertas, ao pé de uma escadaria de pirâmide",
+        "caption": null
+      },
+      {
+        "alt": "Trono de pedra vermelho em forma de jaguar, com manchas incrustadas de jade, numa câmara escura, atrás de uma figura reclinada entalhada",
+        "caption": "Um trono vermelho em forma de jaguar fica dentro da pirâmide mais antiga que existe no interior."
+      }
+    ],
+    "hints": [
+      "Duas vezes por ano, no equinócio, o sol poente faz uma sombra que parece uma serpente descendo sua escadaria.",
+      "É uma pirâmide escalonada com uma escada em cada um dos quatro lados, coroada por um pequeno templo.",
+      "Uma pirâmide menor e mais antiga está escondida dentro dela, com um trono vermelho em forma de jaguar."
+    ],
+    "summary": {
+      "description": "Construída pelos maias pré-colombianos em algum momento entre os séculos VIII e XII, esta pirâmide escalonada era um templo a Kukulcán, a Serpente Emplumada. Uma série de terraços quadrados sobe até um templo no topo, com uma escada em cada lado. Por volta dos equinócios de primavera e outono, o sol do fim da tarde projeta sombras triangulares na balaustrada noroeste que parecem uma serpente descendo a escada. Uma pirâmide anterior, com um trono de jaguar vermelho, sobrevive dentro dela.",
+      "keyFeatures": [
+        "Terraços quadrados escalonados com quatro escadarias",
+        "Cabeças de serpente emplumada ao pé da escada norte",
+        "Efeito de sombra no equinócio na balaustrada",
+        "Templo mais antigo e trono de jaguar no interior"
+      ],
+      "funFacts": [
+        "Milhares de pessoas se reúnem no equinócio para ver a sombra da serpente.",
+        "Não se sabe se o efeito de sombra foi planejado."
+      ]
+    }
+  },
+  "petra-treasury": {
+    "name": "Al-Khazneh (O Tesouro), Petra",
+    "aliases": ["Al-Khazneh", "Al Khazneh", "O Tesouro", "Tesouro de Petra", "Khazneh", "Petra"],
+    "architects": [
+      {
+        "aliases": ["Rei Aretas IV", "Nabateus"],
+        "nationality": "Nabateu",
+        "lifespan": "r. 9 a.C.–40 d.C.",
+        "bio": "Rei nabateu sob o qual se acredita que o Tesouro tenha sido escavado como túmulo real. Os nomes dos escultores e projetistas não foram registrados."
+      }
+    ],
+    "city": "Petra",
+    "style": "Nabateu (escavado na rocha, helenístico)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Al_Khazneh",
+    "drawings": [
+      {
+        "label": "Restituição da fachada",
+        "alt": "Elevação gravada de uma fachada clássica de dois andares, com colunas e estátuas, ao lado de uma planta e de detalhes arquitetônicos"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Alta fachada escavada na rocha, com colunas, frontão e uma tholos redonda, vislumbrada por um desfiladeiro estreito",
+        "caption": null
+      },
+      {
+        "alt": "Fachada talhada em tom rosado num cânion à noite, com fileiras de velas no chão à frente",
+        "caption": null
+      },
+      {
+        "alt": "Câmara quadrada e simples, escavada em arenito de faixas laranja e vermelhas, com uma pequena porta numa das paredes",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi escavado direto num penhasco de arenito, e não construído com blocos.",
+      "Seu nome significa «tesouro», de uma lenda segundo a qual um faraó escondeu suas riquezas na urna da fachada.",
+      "Chega-se a ele por um desfiladeiro longo e estreito, e ele surge de repente ao final."
+    ],
+    "summary": {
+      "description": "Escavado num penhasco de arenito rosado por volta do século I d.C., provavelmente para o rei nabateu Aretas IV, o Tesouro é um dos túmulos mais elaborados de Petra. Sua fachada de dois andares mistura colunas helenísticas, frontões e uma tholos central com detalhes nabateus. Atrás da grande frente há apenas uma câmara simples. O nome vem de uma lenda segundo a qual havia um tesouro na urna acima, cujas marcas de bala mostram até onde o mito foi levado a sério.",
+      "keyFeatures": [
+        "Fachada de dois andares talhada no penhasco",
+        "Colunas coríntias e uma tholos central",
+        "Combinação de detalhes helenísticos e nabateus",
+        "Câmaras simples e sem ornamentos atrás da frente"
+      ],
+      "funFacts": [
+        "A urna é de arenito maciço, mas beduínos atiraram nela na esperança de liberar o tesouro.",
+        "Os beduínos o chamaram de Khaznat el-Far’oun, o Tesouro do Faraó."
+      ]
+    }
+  },
+  "dome-of-the-rock": {
+    "name": "Cúpula da Rocha",
+    "aliases": [
+      "Domo da Rocha",
+      "Qubbat al-Sakhra",
+      "Cúpula da Rocha Jerusalém",
+      "Mesquita da Cúpula da Rocha",
+      "Cúpula Dourada"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Árabe",
+        "lifespan": "m. 730",
+        "bio": "Erudito e conselheiro dos califas omíadas, citado pela tradição como um dos dois responsáveis pela obra, junto com Yazid ibn Salam."
+      },
+      {
+        "aliases": ["Califa Abd al-Malik", "Abd al-Malik ibn Marwan"],
+        "nationality": "Árabe",
+        "lifespan": "646–705",
+        "bio": "Califa omíada que mandou construir o santuário em 691–692 sobre a Pedra Fundamental, no primeiro grande monumento da arquitetura islâmica."
+      }
+    ],
+    "city": "Jerusalém",
+    "style": "Islâmico primitivo (omíada)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/C%C3%BApula_da_Rocha",
+    "drawings": [
+      {
+        "label": "Planta",
+        "alt": "Planta de um octógono duplo em torno de um círculo central de pilares e colunas, com uma entrada em cada lado"
+      },
+      {
+        "label": "Corte",
+        "alt": "Corte gravado de um edifício octogonal com cúpula, com dois anéis de arcadas sobre colunas sob uma grande cúpula"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Santuário octogonal de paredes de azulejos azuis sob uma cúpula dourada, sobre uma plataforma elevada",
+        "caption": null
+      },
+      { "alt": "Anel de colunas e pilares com arcos listrados e uma cúpula dourada no alto", "caption": null },
+      {
+        "alt": "Vista para cima de uma cúpula coberta de padrões geométricos e florais em dourado e vermelho",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É a mais antiga obra importante de arquitetura islâmica que sobrevive no mundo.",
+      "Não é uma mesquita para a oração coletiva, mas um santuário construído em torno de uma rocha sagrada.",
+      "Sua cúpula dourada e seus azulejos azuis estão entre as imagens mais reconhecíveis de uma cidade sagrada para três religiões."
+    ],
+    "summary": {
+      "description": "Construída em 691–692 por ordem do califa omíada Abd al-Malik, a Cúpula da Rocha é um santuário octogonal sobre uma rocha sagrada no Monte do Templo. Uma cúpula de cerca de 20 metros de largura, montada sobre um tambor apoiado em 16 suportes, ergue-se sobre dois deambulatórios octogonais concêntricos. Sua planta e seus mosaicos originais seguem igrejas bizantinas vizinhas, e ela traz as mais antigas inscrições a proclamar o Islã. Os azulejos azuis foram acrescentados por governantes otomanos e o telhado dourado, no século XX.",
+      "keyFeatures": [
+        "Planta octogonal em torno de uma cúpula central",
+        "Dois deambulatórios para circundar a rocha",
+        "Cúpula revestida de ouro com cerca de 20 metros de largura",
+        "Azulejos de estilo Iznik otomanos nas paredes"
+      ],
+      "funFacts": [
+        "É a mais antiga obra de arquitetura islâmica ainda de pé.",
+        "O telhado dourado atual data apenas de 1959–64, refeito nos anos 1990."
+      ]
+    }
+  },
+  "potala-palace": {
+    "name": "Palácio de Potala",
+    "aliases": ["Potala", "Potala de Lhasa", "Palácio Potala"],
+    "architects": [
+      {
+        "aliases": ["Ngawang Lobsang Gyatso", "5º Dalai Lama", "Grande Quinto"],
+        "nationality": "Tibetano",
+        "lifespan": "1617–1682",
+        "bio": "Governante espiritual e político do Tibete que ordenou o início do palácio atual em 1645 e para lá transferiu seu governo. Os mestres de obras não são nomeados."
+      }
+    ],
+    "city": "Lhasa",
+    "style": "Dzong tibetano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Potala",
+    "drawings": [
+      {
+        "label": "Planta do palácio na colina",
+        "alt": "Planta de um longo e irregular complexo palaciano, com terraços e escadas espalhados por um topo de colina com curvas de nível"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Complexo palaciano branco e vermelho que sobe uma encosta, com montanhas nevadas e nuvens ao fundo",
+        "caption": null
+      },
+      {
+        "alt": "Longos muros caiados com fileiras de pequenas janelas erguendo-se sobre uma encosta rochosa",
+        "caption": null
+      },
+      { "alt": "Cômodo ricamente pintado, com uma cama coberta de seda, um tapete e móveis dourados", "caption": null },
+      {
+        "alt": "Pintura mural de uma figura guardiã colorida tocando um alaúde",
+        "caption": "Murais cobrem as paredes dos santuários."
+      }
+    ],
+    "hints": [
+      "Durante três séculos foi a residência de inverno de um líder espiritual e a sede de seu governo.",
+      "Fica numa colina a quase 3.700 metros, e suas paredes inclinadas têm cobre derramado na base como proteção contra terremotos.",
+      "Tem 13 andares, uma parte branca para o governo e uma parte vermelha para o culto."
+    ],
+    "summary": {
+      "description": "Iniciado em 1645 por ordem do 5º Dalai Lama na colina Marpo Ri, o Potala foi o palácio de inverno dos Dalai Lamas e a sede do governo tibetano de 1649 até 1959. Construído no estilo dzong a cerca de 3.700 metros, tem 13 andares e 119 metros de altura, com mais de mil cômodos e cerca de 200 mil estátuas. As paredes de pedra inclinadas têm em média três metros de espessura, e cobre foi derramado nas fundações como proteção contra terremotos. Hoje é um museu.",
+      "keyFeatures": [
+        "13 andares sobre uma colina rochosa",
+        "Palácio Branco para o governo e Palácio Vermelho para o culto",
+        "Paredes de 3 a 5 metros de espessura",
+        "Mais de mil cômodos e 10 mil santuários"
+      ],
+      "funFacts": [
+        "Cobre foi derramado nas fundações como proteção contra terremotos.",
+        "Seu nome vem do Monte Potalaka, a morada mítica do bodisatva da compaixão."
+      ]
+    }
+  },
+  "alcazar-of-seville": {
+    "name": "Real Alcázar de Sevilha",
+    "aliases": ["Alcázar de Sevilha", "Alcázar de Sevilla", "Real Alcázar de Sevilla", "Reais Alcáceres de Sevilha"],
+    "architects": [
+      {
+        "aliases": ["Pedro, o Cruel", "Pedro I de Castela"],
+        "nationality": "Castelhano",
+        "lifespan": "1334–1369",
+        "bio": "Rei de Castela que encomendou o palácio mudéjar na década de 1360, empregando artesãos de Sevilha, Toledo e da corte nasrida de Granada."
+      }
+    ],
+    "city": "Sevilha",
+    "style": "Mudéjar",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Real_Alc%C3%A1zar_de_Sevilha",
+    "drawings": [
+      {
+        "label": "Planta dos palácios",
+        "alt": "Planta colorida de pátios, salões e jardins de palácio interligados, de épocas diferentes"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Portão e torre vermelhos com ameias numa muralha urbana, com uma praça de visitantes à frente",
+        "caption": null
+      },
+      {
+        "alt": "Pátio palaciano amarelo com arcadas e uma fachada renascentista, ao lado de um jardim de sebes aparadas",
+        "caption": null
+      },
+      { "alt": "Pátio com colunas esbeltas, arcos recortados, gesso entalhado e um tanque no centro", "caption": null },
+      {
+        "alt": "Salão com arcos de gesso trabalhado que se abrem para um pequeno pátio com jardim, com uma fonte no chão",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Ainda é usado por uma família real, e suas partes mais antigas começaram como uma cidadela islâmica.",
+      "Seu palácio mais famoso foi construído para um rei cristão por artesãos que trabalhavam num estilo islâmico.",
+      "Seus delicados arcos de gesso, azulejos e pátios lembram um célebre palácio de Granada."
+    ],
+    "summary": {
+      "description": "O Alcázar começou como cidadela islâmica no século X, ampliada depois pelos abádidas e almóadas, e foi reconstruído após a conquista castelhana de 1248. Seu coração é o palácio mudéjar construído pelo rei Pedro I na década de 1360, com pátios como o Patio de las Doncellas, gesso ricamente entalhado, azulejos e tetos de madeira. Acréscimos góticos e renascentistas posteriores e amplos jardins completam um dos melhores exemplos do estilo mudéjar na Península Ibérica. Continua sendo residência oficial da família real espanhola.",
+      "keyFeatures": [
+        "Palácio mudéjar de Pedro I",
+        "Pátios com arcos recortados e gesso entalhado",
+        "Partes góticas e renascentistas posteriores",
+        "Extensos jardins"
+      ],
+      "funFacts": [
+        "Os andares superiores ainda são usados pela família real espanhola quando visita Sevilha.",
+        "Artesãos da corte nasrida de Granada trabalharam no palácio."
+      ]
+    }
+  },
+  "burj-khalifa": {
+    "name": "Burj Khalifa",
+    "aliases": ["Burj Dubai", "Torre Khalifa", "Torre de Dubai"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "lifespan": "n. 1944",
+        "bio": "Sócio de projeto da Skidmore, Owings & Merrill, que liderou o projeto do Burj Khalifa e definiu sua forma em três lóbulos e espiral."
+      },
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "lifespan": "n. 1953",
+        "bio": "Engenheiro estrutural da SOM que concebeu o sistema de núcleo com contrafortes que permite à torre subir até 828 metros."
+      }
+    ],
+    "city": "Dubai",
+    "style": "Neofuturismo (arranha-céu supertall)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Burj_Khalifa",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Uma esbelta torre escalonada de vidro e aço erguendo-se muito acima dos edifícios ao redor",
+        "caption": null
+      },
+      { "alt": "Elegante sala de estar curva, com sofás baixos, tapete estampado e teto luminoso", "caption": null }
+    ],
+    "hints": [
+      "É a estrutura mais alta do mundo, com quase 830 metros.",
+      "Sua planta se baseia numa flor do deserto, e suas três asas se afastam em espiral à medida que a torre sobe.",
+      "Foi rebatizado pouco antes da inauguração, em homenagem ao presidente do país que socorreu seu incorporador."
+    ],
+    "summary": {
+      "description": "Projetado pelo escritório de Chicago da SOM, o Burj Khalifa tem 829,8 metros e é a estrutura mais alta do mundo desde sua inauguração, em 2010. Sua planta em forma de Y, inspirada numa flor do deserto, recua em espirais, o que reduz as forças do vento sobre a torre. A estrutura principal é de concreto armado em torno de um núcleo com contrafortes, e a torre leva o nome do xeque Khalifa bin Zayed, então presidente dos Emirados Árabes Unidos.",
+      "keyFeatures": [
+        "Planta em Y com três asas",
+        "Estrutura de núcleo com contrafortes",
+        "Recuos escalonados em espiral",
+        "Altura total de 829,8 metros"
+      ],
+      "funFacts": [
+        "Parte do aço estrutural veio do demolido Palácio da República, em Berlim Oriental.",
+        "Chamava-se Burj Dubai até a inauguração."
+      ]
+    }
+  },
+  "sheikh-zayed-grand-mosque": {
+    "name": "Grande Mesquita Sheikh Zayed",
+    "aliases": [
+      "Mesquita Sheikh Zayed",
+      "Grande Mesquita de Abu Dhabi",
+      "Mesquita Zayed",
+      "Grande Mesquita do Xeque Zayed"
+    ],
+    "architects": [
+      {
+        "aliases": ["Youssef Abdelke", "Abdelki"],
+        "nationality": "Sírio",
+        "lifespan": null,
+        "bio": "Arquiteto sírio que chefiou a equipe de projeto, inspirando-se em modelos mamelucos, otomanos, mogóis e mouriscos para a mesquita."
+      }
+    ],
+    "city": "Abu Dhabi",
+    "style": "Islâmico moderno (influências mogol, mourisca e mameluca)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Grande_Mesquita_do_Xeique_Zayed",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Mesquita de mármore branco com muitas cúpulas e minaretes esbeltos sob um céu enevoado",
+        "caption": null
+      },
+      {
+        "alt": "Vasto salão de oração com fileiras de colunas brancas, um tapete estampado e enormes lustres",
+        "caption": null
+      },
+      {
+        "alt": "Enorme lustre dourado de cristais pendurado num salão com cúpula",
+        "caption": "Um dos maiores lustres do mundo pende do salão de oração."
+      }
+    ],
+    "hints": [
+      "É a maior mesquita de seu país, e seu fundador está enterrado em seu pátio.",
+      "Tem 82 cúpulas e mais de mil colunas, em sua maioria de mármore branco.",
+      "Seu salão de oração abriga o que se diz ser o maior tapete feito à mão do mundo."
+    ],
+    "summary": {
+      "description": "Construída entre 1994 e 2007, a Grande Mesquita Sheikh Zayed foi lançada pelo primeiro presidente dos Emirados Árabes Unidos, que está enterrado em seu pátio. O complexo mede cerca de 290 por 420 metros e tem 82 cúpulas, mais de mil colunas, lustres dourados e o maior tapete feito à mão do mundo. Seu projeto se inspira em modelos mamelucos, otomanos, mogóis e mouriscos e os combina numa composição moderna de mármore branco.",
+      "keyFeatures": [
+        "82 cúpulas de vários tamanhos",
+        "Mais de mil colunas de mármore branco",
+        "Incrustações florais de pedras semipreciosas",
+        "Vasto tapete feito à mão e lustres dourados"
+      ],
+      "funFacts": [
+        "Seu eixo principal é girado cerca de 12 graus para apontar para Meca.",
+        "Uma réplica menor fica em Surakarta, na Indonésia."
+      ]
+    }
+  },
+  "petronas-towers": {
+    "name": "Torres Petronas",
+    "aliases": ["Petronas Towers", "Torres Gêmeas Petronas", "Torres Gêmeas de Kuala Lumpur", "Menara Petronas"],
+    "architects": [
+      {
+        "aliases": ["Cesar Pelli"],
+        "nationality": "Argentino-americano",
+        "lifespan": "1926–2019",
+        "bio": "Arquiteto americano nascido na Argentina que venceu o concurso das torres símbolo de Kuala Lumpur e extraiu sua planta da geometria islâmica."
+      }
+    ],
+    "city": "Kuala Lumpur",
+    "style": "Pós-modernismo com geometria islâmica",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Petronas_Twin_Towers",
+    "drawings": [
+      {
+        "label": "Geometria da planta (nível 43)",
+        "alt": "Diagrama de uma planta de torre construída a partir de dois quadrados sobrepostos, com lóbulos redondos e uma ligação com a ponte"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Duas torres idênticas de aço e vidro com topos pontiagudos, unidas por uma ponte, vistas de baixo",
+        "caption": null
+      },
+      {
+        "alt": "Arranha-céus gêmeos brilhando ao entardecer em meio a um aglomerado de outras torres",
+        "caption": null
+      },
+      {
+        "alt": "Galeria comercial de vários níveis vista de cima, com um enfeite vermelho decorado no centro",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foram os edifícios mais altos do mundo de 1998 a 2004.",
+      "Sua planta se baseia num motivo islâmico de estrela de oito pontas, com lóbulos redondos acrescentados para ganhar área de escritórios.",
+      "Uma ponte de dois andares as une a meia altura, e não é rigidamente fixa, para que as torres possam balançar."
+    ],
+    "summary": {
+      "description": "Projetadas por César Pelli e concluídas em 1998, as Torres Petronas, de 88 andares, chegam a 451,9 metros e foram os edifícios mais altos do mundo até 2004. Continuam sendo as torres gêmeas mais altas do mundo. A planta se baseia num Rub el Hizb, estrela islâmica de oito pontas, com lóbulos circulares acrescentados para criar área de escritórios, e as fachadas de aço e vidro ecoam motivos islâmicos. Uma ponte liga as torres nos andares 41 e 42.",
+      "keyFeatures": [
+        "Planta em estrela de oito pontas de geometria islâmica",
+        "Sistema estrutural de tubo dentro de tubo",
+        "Revestimento de aço e vidro",
+        "Ponte de dois níveis entre as torres"
+      ],
+      "funFacts": [
+        "Superaram as torres originais do World Trade Center como as torres gêmeas mais altas.",
+        "Seu projeto estrutural usa um sistema de tubo dentro de tubo inventado por Fazlur Rahman Khan."
+      ]
+    }
+  }
+}

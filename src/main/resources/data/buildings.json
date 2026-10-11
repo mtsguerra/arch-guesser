@@ -11347,5 +11347,638 @@
         "The 1983 UNESCO-supported restoration took apart and rebuilt the monument."
       ]
     }
+  },
+  {
+    "id": "el-castillo-chichen-itza",
+    "name": "El Castillo, Chichén Itzá",
+    "aliases": [
+      "El Castillo",
+      "Temple of Kukulcan",
+      "Temple of Kukulkan",
+      "Kukulcan Pyramid",
+      "Chichen Itza",
+      "Chichen Itza pyramid",
+      "Castillo Chichen Itza"
+    ],
+    "architects": [
+      {
+        "name": "Itzá Maya builders",
+        "aliases": ["Maya builders", "Maya"],
+        "lifespan": "8th–12th century",
+        "nationality": "Maya",
+        "bio": "The pyramid was raised by the pre-Columbian Maya of Chichén Itzá as a temple to the Feathered Serpent, Kukulcán. No individual architect is recorded; the work is credited to the Itzá builders and their rulers."
+      }
+    ],
+    "location": { "city": "Chichén Itzá", "country": "Mexico", "countryCode": "MX" },
+    "yearCompleted": 1000,
+    "era": "PRE_COLUMBIAN",
+    "style": "Maya–Toltec step pyramid",
+    "wikipedia": "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Kukulcan-Temple-Chichen-Itza-south-side-2016-Luka-Peternel.jpg/1920px-Kukulcan-Temple-Chichen-Itza-south-side-2016-Luka-Peternel.jpg",
+        "alt": "Stepped stone pyramid with a small temple on top, seen from a corner under a blue sky",
+        "credit": "Photo: Luka Peternel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kukulcan-Temple-Chichen-Itza-south-side-2016-Luka-Peternel.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Serpent_head_at_the_base_of_El_Castillo.jpg/1920px-Serpent_head_at_the_base_of_El_Castillo.jpg",
+        "alt": "Carved stone serpent head with open jaws at the foot of a pyramid stair",
+        "credit": "Photo: Frank Kovalchek · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Serpent_head_at_the_base_of_El_Castillo.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Jaguar_Throne_inlaid_with_jade_behind_the_Chac_Mool_...%28no_longer_on_display_since_2006%29_%2821161769963%29.jpg/1920px-The_Jaguar_Throne_inlaid_with_jade_behind_the_Chac_Mool_...%28no_longer_on_display_since_2006%29_%2821161769963%29.jpg",
+        "alt": "Red jaguar-shaped stone throne with jade-inlaid spots in a dark chamber, behind a carved reclining figure",
+        "caption": "A red jaguar throne sits inside the older pyramid within.",
+        "credit": "Photo: Unknown author · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Jaguar_Throne_inlaid_with_jade_behind_the_Chac_Mool_...(no_longer_on_display_since_2006)_(21161769963).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Twice a year, at the equinox, the setting sun makes a shadow that looks like a serpent crawling down its stair."
+      },
+      {
+        "order": 2,
+        "text": "It is a stepped pyramid with a stairway on each of its four sides, topped by a small temple."
+      },
+      {
+        "order": 3,
+        "text": "A smaller, older pyramid is hidden inside it, containing a red throne shaped like a jaguar."
+      }
+    ],
+    "summary": {
+      "description": "Built by the pre-Columbian Maya sometime between the 8th and 12th centuries, this step pyramid was a temple to Kukulcán, the Feathered Serpent. A series of square terraces rises to a temple on top, with a stairway up each side. Around the spring and autumn equinoxes the late sun casts triangular shadows on the northwest balustrade that look like a serpent crawling down the stair. An earlier pyramid, with a red jaguar throne, survives inside.",
+      "keyFeatures": [
+        "Stepped square terraces with four stairways",
+        "Plumed serpent heads at the foot of the north stair",
+        "Equinox shadow effect on the balustrade",
+        "Older temple and jaguar throne enclosed within"
+      ],
+      "funFacts": [
+        "Thousands of people gather at the equinox to watch the serpent shadow.",
+        "It is not known whether the shadow effect was planned."
+      ]
+    }
+  },
+  {
+    "id": "petra-treasury",
+    "name": "Al-Khazneh (The Treasury), Petra",
+    "aliases": ["Al-Khazneh", "Al Khazneh", "The Treasury", "Treasury at Petra", "Petra Treasury", "Khazneh", "Petra"],
+    "architects": [
+      {
+        "name": "Aretas IV",
+        "aliases": ["King Aretas IV", "Aretas IV Philopatris", "Nabataeans"],
+        "lifespan": "r. 9 BC–AD 40",
+        "nationality": "Nabataean",
+        "bio": "Nabataean king under whom the Treasury is thought to have been carved as a royal tomb. The names of the sculptors and designers are not recorded."
+      }
+    ],
+    "location": { "city": "Petra", "country": "Jordan", "countryCode": "JO" },
+    "yearCompleted": 25,
+    "era": "CLASSICAL",
+    "style": "Nabataean (Hellenistic rock-cut)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Al-Khazneh",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Restoration of the façade",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Restauration_du_Khasne_Petra.jpg/1920px-Restauration_du_Khasne_Petra.jpg",
+        "crop": { "x": 0, "y": 0.06, "w": 1, "h": 0.88 },
+        "alt": "Engraved elevation of a two-storey classical façade with columns and statues, beside a plan and architectural details",
+        "credit": "Jacques Ignace Hittorff, engraving, 1830s · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Restauration_du_Khasne_Petra.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/First_vision_of_Khazneh.JPG/1920px-First_vision_of_Khazneh.JPG",
+        "alt": "Tall rock-cut façade with columns, a pediment and a round tholos, glimpsed through a narrow gorge",
+        "credit": "Photo: Azurfrog · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:First_vision_of_Khazneh.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Al_khazneh.jpg/1920px-Al_khazneh.jpg",
+        "alt": "Rose-red carved façade in a canyon at night, with rows of candles on the ground in front",
+        "credit": "Photo: Susanahajer · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Al_khazneh.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Interior_of_Main_Chamber_Khazneh_Petra_Jordan1165.jpg/1920px-Interior_of_Main_Chamber_Khazneh_Petra_Jordan1165.jpg",
+        "alt": "Bare square chamber cut into banded orange and red sandstone, with a small doorway in one wall",
+        "credit": "Photo: Michael Gunther · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Main_Chamber_Khazneh_Petra_Jordan1165.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was carved straight out of a sandstone cliff, not built up from blocks." },
+      {
+        "order": 2,
+        "text": "Its name means \"treasury\", from a legend that a pharaoh hid his riches in the urn on its façade."
+      },
+      { "order": 3, "text": "You approach it through a long, narrow gorge, and it appears suddenly at the end." }
+    ],
+    "summary": {
+      "description": "Carved out of a rose-red sandstone cliff around the 1st century AD, probably for the Nabataean king Aretas IV, the Treasury is one of the most elaborate tombs of Petra. Its two-storey façade mixes Hellenistic columns, pediments and a central tholos with Nabataean details. Behind the grand front is only a plain chamber. The name comes from a legend that treasure lay in the urn above, whose bullet marks show how far the myth was believed.",
+      "keyFeatures": [
+        "Two-storey façade carved from the cliff",
+        "Corinthian columns and a central tholos",
+        "Hellenistic and Nabataean details combined",
+        "Plain, unadorned chambers behind the front"
+      ],
+      "funFacts": [
+        "The urn is solid sandstone, but Bedouin firing at it hoped to release treasure.",
+        "The Bedouin named it Khaznat el-Far’oun, the Pharaoh’s Treasury."
+      ]
+    }
+  },
+  {
+    "id": "dome-of-the-rock",
+    "name": "Dome of the Rock",
+    "aliases": ["Qubbat al-Sakhra", "Qubbat As-Sakhra", "Dome of the Rock Jerusalem", "Al-Sakhra", "Golden Dome"],
+    "architects": [
+      {
+        "name": "Raja ibn Haywa",
+        "aliases": ["Raja ibn Haywa al-Kindi"],
+        "lifespan": "d. 730",
+        "nationality": "Arab",
+        "bio": "A scholar and adviser to the Umayyad caliphs, named by tradition as one of the two men in charge of the building, together with Yazid ibn Salam."
+      },
+      {
+        "name": "Abd al-Malik",
+        "aliases": ["Caliph Abd al-Malik", "Abd al-Malik ibn Marwan"],
+        "lifespan": "646–705",
+        "nationality": "Arab",
+        "bio": "Umayyad caliph who ordered the shrine built in 691–692 over the Foundation Stone, in the first major monument of Islamic architecture."
+      }
+    ],
+    "location": { "city": "Jerusalem", "country": "Israel", "countryCode": "IL" },
+    "yearCompleted": 692,
+    "era": "ISLAMIC",
+    "style": "Early Islamic (Umayyad)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dome_of_the_Rock",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Dehio_10_Dome_of_the_Rock_Floor_plan-drilled.jpg",
+        "alt": "Plan of a double octagon around a central circle of piers and columns, with an entrance at each side",
+        "credit": "Georg Dehio and Gustav von Bezold, 1887 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Dehio_10_Dome_of_the_Rock_Floor_plan-drilled.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Dehio_10_Dome_of_the_Rock_Section.jpg/1920px-Dehio_10_Dome_of_the_Rock_Section.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.945 },
+        "alt": "Engraved section of a domed octagonal building with two arcaded rings of arches and columns under a large dome",
+        "credit": "Georg Dehio and Gustav von Bezold, 1887 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Dehio_10_Dome_of_the_Rock_Section.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Jerusalem_DomeoftheRock_J65_%28cropped%29.JPG/1920px-Jerusalem_DomeoftheRock_J65_%28cropped%29.JPG",
+        "alt": "Octagonal shrine with blue tiled walls under a gold dome, standing on a raised platform",
+        "credit": "Photo: Ludvig14 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Jerusalem_DomeoftheRock_J65_(cropped).JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Dome_of_Rock_%28Jerusalem_2018%29_02.jpg/1920px-Dome_of_Rock_%28Jerusalem_2018%29_02.jpg",
+        "alt": "Ring of columns and piers with striped arches and a gilded dome overhead",
+        "credit": "Photo: Virtutepetens · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Dome_of_Rock_(Jerusalem_2018)_02.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Dome_of_the_Dome_of_the_Rock_inside_%282018%29_1.jpg/1920px-Dome_of_the_Dome_of_the_Rock_inside_%282018%29_1.jpg",
+        "alt": "Looking up into a dome covered with gold and red geometric and floral patterns",
+        "credit": "Photo: Virtutepetens · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Dome_of_the_Dome_of_the_Rock_inside_(2018)_1.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is the oldest surviving major work of Islamic architecture in the world." },
+      { "order": 2, "text": "It is not a mosque for congregational prayer but a shrine, built around a sacred rock." },
+      {
+        "order": 3,
+        "text": "Its golden dome and blue tiles are among the most recognisable sights of a city sacred to three religions."
+      }
+    ],
+    "summary": {
+      "description": "Built in 691–692 on the orders of the Umayyad caliph Abd al-Malik, the Dome of the Rock is an octagonal shrine over a sacred rock on the Temple Mount. A dome about 20 metres wide, mounted on a drum standing on 16 supports, rises over two concentric octagonal ambulatories. Its plan and original mosaics follow nearby Byzantine churches, and it carries the earliest inscriptions proclaiming Islam. The blue tiles were added by Ottoman rulers and the gold roof in the 20th century.",
+      "keyFeatures": [
+        "Octagonal plan around a central dome",
+        "Two ambulatories for circling the rock",
+        "Gold-plated dome about 20 metres wide",
+        "Ottoman Iznik-style tiles on the walls"
+      ],
+      "funFacts": [
+        "It is the world’s oldest surviving work of Islamic architecture.",
+        "Its present gold roof dates only from 1959–64, redone in the 1990s."
+      ]
+    }
+  },
+  {
+    "id": "potala-palace",
+    "name": "Potala Palace",
+    "aliases": ["Potala", "Lhasa Potala", "Potala Palace Lhasa"],
+    "architects": [
+      {
+        "name": "Fifth Dalai Lama",
+        "aliases": ["Ngawang Lobsang Gyatso", "5th Dalai Lama", "Great Fifth"],
+        "lifespan": "1617–1682",
+        "nationality": "Tibetan",
+        "bio": "Spiritual and political ruler of Tibet who ordered the present palace begun in 1645 and moved his government there. The master builders are not named."
+      }
+    ],
+    "location": { "city": "Lhasa", "country": "China", "countryCode": "CN" },
+    "yearCompleted": 1694,
+    "era": "EAST_ASIAN",
+    "style": "Tibetan dzong",
+    "wikipedia": "https://en.wikipedia.org/wiki/Potala_Palace",
+    "drawings": [
+      {
+        "type": "SITE_PLAN",
+        "label": "Plan of the palace on its hill",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Potala_Palace_plan..jpg/1920px-Potala_Palace_plan..jpg",
+        "alt": "Plan of a long, irregular palace complex with terraces and stairs spread across a contoured hilltop",
+        "credit": "Unknown author · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Potala_Palace_plan..jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Potala_palace21.jpg/1920px-Potala_palace21.jpg",
+        "alt": "White and red palace complex climbing a hillside, with snow-dusted mountains and clouds behind",
+        "credit": "Photo: Antoine Taveneaux · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Potala_palace21.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Lhasa-Potala-66-Ostseite-2014-gje.jpg/1920px-Lhasa-Potala-66-Ostseite-2014-gje.jpg",
+        "alt": "Long whitewashed walls with rows of small windows rising over a rocky slope",
+        "credit": "Photo: Gerd Eichmann · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lhasa-Potala-66-Ostseite-2014-gje.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/IMG_1206_Lhasa_Potala.jpg/1920px-IMG_1206_Lhasa_Potala.jpg",
+        "alt": "Richly painted room with a silk-draped bed, a carpet and gilded furniture",
+        "credit": "Photo: Luca Galuzzi (Lucag) · CC BY-SA 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:IMG_1206_Lhasa_Potala.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Potala_Palace_Lhasa_Tibet_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB_-_panoramio_%2817%29.jpg",
+        "alt": "Wall painting of a colourful guardian figure playing a lute",
+        "caption": "Murals cover the walls of the shrines.",
+        "credit": "Photo: Hiroki Ogawa · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Potala_Palace_Lhasa_Tibet_China_%E8%A5%BF%E8%97%8F_%E6%8B%89%E8%90%A8_%E5%B8%83%E8%BE%BE%E6%8B%89%E5%AE%AB_-_panoramio_(17).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "For three centuries it was the winter home of a spiritual leader, and the seat of his government."
+      },
+      {
+        "order": 2,
+        "text": "It sits on a hill at almost 3,700 metres, and its slanting walls are poured with copper at the base against earthquakes."
+      },
+      { "order": 3, "text": "It has 13 storeys, a white part for government and a red part for worship." }
+    ],
+    "summary": {
+      "description": "Begun in 1645 on the orders of the 5th Dalai Lama on the hill Marpo Ri, the Potala was the winter palace of the Dalai Lamas and the seat of the Tibetan government from 1649 until 1959. Built in the dzong style at about 3,700 metres, it is 13 storeys and 119 metres high, with more than 1,000 rooms and some 200,000 statues. Sloping stone walls average three metres thick, and copper was poured into the foundations as protection against earthquakes. It is now a museum.",
+      "keyFeatures": [
+        "13 storeys on a rocky hill",
+        "White Palace for government and Red Palace for worship",
+        "Walls 3–5 metres thick",
+        "More than 1,000 rooms and 10,000 shrines"
+      ],
+      "funFacts": [
+        "Copper was poured into the foundations to guard against earthquakes.",
+        "Its name comes from Mount Potalaka, the mythical home of the bodhisattva of compassion."
+      ]
+    }
+  },
+  {
+    "id": "alcazar-of-seville",
+    "name": "Real Alcázar of Seville",
+    "aliases": [
+      "Alcázar of Seville",
+      "Alcazar of Seville",
+      "Alcázar de Sevilla",
+      "Reales Alcázares de Sevilla",
+      "Real Alcázar de Sevilla",
+      "Seville Alcazar"
+    ],
+    "architects": [
+      {
+        "name": "Pedro I of Castile",
+        "aliases": ["Peter the Cruel", "Pedro the Cruel", "Pedro I"],
+        "lifespan": "1334–1369",
+        "nationality": "Castilian",
+        "bio": "King of Castile who commissioned the Mudéjar palace in the 1360s, employing craftsmen from Seville, Toledo and the Nasrid court of Granada."
+      }
+    ],
+    "location": { "city": "Seville", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1364,
+    "era": "ISLAMIC",
+    "style": "Mudéjar",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the palaces",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Alcazar_plano_2.jpg/1920px-Alcazar_plano_2.jpg",
+        "alt": "Colour-coded plan of linked palace courtyards, halls and gardens from different periods",
+        "credit": "Anual · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Alcazar_plano_2.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Puerta_del_Le%C3%B3n_Alcazar_Seville_Spain.jpg/1920px-Puerta_del_Le%C3%B3n_Alcazar_Seville_Spain.jpg",
+        "alt": "Red crenellated gate and tower in a city wall, with a plaza of visitors in front",
+        "credit": "Photo: Iantomferry · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Puerta_del_Le%C3%B3n_Alcazar_Seville_Spain.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Real_Alc%C3%A1zar_de_Sevilla%2C_Sevilla_%2842052074324%29.jpg/1920px-Real_Alc%C3%A1zar_de_Sevilla%2C_Sevilla_%2842052074324%29.jpg",
+        "alt": "Yellow arcaded palace court with a Renaissance façade and a garden of clipped hedges",
+        "credit": "Photo: FlyingCrimsonPig · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Real_Alc%C3%A1zar_de_Sevilla,_Sevilla_(42052074324).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Alcazar_de_S%C3%A9ville_-_Patio_de_la_Doncellas.JPG",
+        "alt": "Courtyard with slender columns, scalloped arches, carved plasterwork and a central pool",
+        "credit": "Photo: EmDee · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Alcazar_de_S%C3%A9ville_-_Patio_de_la_Doncellas.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Sala_de_la_Justicia.jpg/1920px-Sala_de_la_Justicia.jpg",
+        "alt": "Hall with intricate plasterwork arches opening onto a small garden court, with a fountain on the floor",
+        "credit": "Photo: Alberto.Bravo · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sala_de_la_Justicia.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is still used by a royal family, and the oldest parts began as an Islamic citadel." },
+      {
+        "order": 2,
+        "text": "Its most famous palace was built for a Christian king by craftsmen working in an Islamic style."
+      },
+      { "order": 3, "text": "Its delicate plaster arches, tiles and courtyards echo a famous palace in Granada." }
+    ],
+    "summary": {
+      "description": "The Alcázar began as a 10th-century Islamic citadel, later enlarged by the Abbadids and Almohads, and was rebuilt after the Castilian conquest of 1248. Its heart is the Mudéjar palace built by King Pedro I in the 1360s, with courtyards such as the Patio de las Doncellas, richly carved plaster, tiles and wooden ceilings. Later Gothic and Renaissance additions and large gardens complete one of the finest examples of Mudéjar style in the Iberian Peninsula. It is still an official residence of the Spanish royal family.",
+      "keyFeatures": [
+        "Mudéjar palace of Pedro I",
+        "Courtyards with scalloped arches and carved plaster",
+        "Later Gothic and Renaissance parts",
+        "Extensive gardens"
+      ],
+      "funFacts": [
+        "The upper floors are still used by the Spanish royal family when they visit Seville.",
+        "Craftsmen from Granada’s Nasrid court worked on the palace."
+      ]
+    }
+  },
+  {
+    "id": "burj-khalifa",
+    "name": "Burj Khalifa",
+    "aliases": ["Burj Dubai", "Khalifa Tower", "Dubai Tower"],
+    "architects": [
+      {
+        "name": "Adrian Smith",
+        "aliases": ["Adrian D. Smith"],
+        "lifespan": "b. 1944",
+        "nationality": "American",
+        "bio": "Design partner at Skidmore, Owings & Merrill, who led the design of the Burj Khalifa and shaped its three-lobed, spiralling form."
+      },
+      {
+        "name": "Bill Baker",
+        "aliases": ["William F. Baker"],
+        "lifespan": "b. 1953",
+        "nationality": "American",
+        "bio": "Structural engineer at SOM who devised the buttressed-core system that lets the tower rise to 828 metres."
+      }
+    ],
+    "location": { "city": "Dubai", "country": "United Arab Emirates", "countryCode": "AE" },
+    "yearCompleted": 2010,
+    "era": "CONTEMPORARY",
+    "style": "Neo-futurism (supertall)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Burj_Khalifa_from_a_ferry%2C_Dubai.jpg/1920px-Burj_Khalifa_from_a_ferry%2C_Dubai.jpg",
+        "alt": "A slender stepped glass and steel tower rising far above surrounding buildings",
+        "credit": "Photo: Jpbowen · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_from_a_ferry,_Dubai.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/At_the_Top_SKY_%40_Burj_Khalifa_%40_Dubai_%2815859695756%29.jpg/1920px-At_the_Top_SKY_%40_Burj_Khalifa_%40_Dubai_%2815859695756%29.jpg",
+        "alt": "Sleek curved lounge with low sofas, patterned carpet and a luminous ceiling",
+        "credit": "Photo: Guilhem Vellut from Annecy, France · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:At_the_Top_SKY_@_Burj_Khalifa_@_Dubai_(15859695756).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is the tallest structure in the world, at almost 830 metres." },
+      {
+        "order": 2,
+        "text": "Its plan is based on a desert flower, and its three wings spiral away as the tower rises."
+      },
+      {
+        "order": 3,
+        "text": "It was renamed just before opening, after the president of the country that bailed out its developer."
+      }
+    ],
+    "summary": {
+      "description": "Designed by the Chicago office of SOM, the Burj Khalifa rises 829.8 metres and has been the world's tallest structure since its opening in 2010. Its Y-shaped plan, inspired by a desert flower, steps back in spirals, which reduces wind forces on the tower. The primary structure is reinforced concrete around a buttressed core, and the tower is named after Sheikh Khalifa bin Zayed, then president of the UAE.",
+      "keyFeatures": [
+        "Y-shaped plan with three wings",
+        "Buttressed core structure",
+        "Stepped, spiralling set-backs",
+        "Total height of 829.8 metres"
+      ],
+      "funFacts": [
+        "Some structural steel came from the demolished Palace of the Republic in East Berlin.",
+        "It was called Burj Dubai until its inauguration."
+      ]
+    }
+  },
+  {
+    "id": "sheikh-zayed-grand-mosque",
+    "name": "Sheikh Zayed Grand Mosque",
+    "aliases": [
+      "Sheikh Zayed Mosque",
+      "Grand Mosque Abu Dhabi",
+      "Abu Dhabi Grand Mosque",
+      "Sheikh Zayed Grand Mosque Abu Dhabi",
+      "Zayed Mosque"
+    ],
+    "architects": [
+      {
+        "name": "Yusef Abdelki",
+        "aliases": ["Youssef Abdelke", "Yousef Abdelki", "Abdelki"],
+        "lifespan": null,
+        "nationality": "Syrian",
+        "bio": "Syrian architect who led the design team, drawing on Mamluk, Ottoman, Mughal and Moorish models for the mosque."
+      }
+    ],
+    "location": { "city": "Abu Dhabi", "country": "United Arab Emirates", "countryCode": "AE" },
+    "yearCompleted": 2007,
+    "era": "ISLAMIC",
+    "style": "Modern Islamic (Mughal, Moorish and Mamluk influences)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sheikh_Zayed_Mosque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sheikh_Zayed_Grand_Mosque_%40_Abu_Dhabi_%2815856602738%29.jpg/1920px-Sheikh_Zayed_Grand_Mosque_%40_Abu_Dhabi_%2815856602738%29.jpg",
+        "alt": "White marble mosque with many domes and slender minarets under a hazy sky",
+        "credit": "Photo: Guilhem Vellut from Annecy, France · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sheikh_Zayed_Grand_Mosque_@_Abu_Dhabi_(15856602738).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Abu_dhabi%2C_Moschea_dello_Sceicco_Zayed%2C_aula_di_preghiera%2C_01.jpg/1920px-Abu_dhabi%2C_Moschea_dello_Sceicco_Zayed%2C_aula_di_preghiera%2C_01.jpg",
+        "alt": "Vast prayer hall with rows of white columns, a patterned carpet and huge chandeliers",
+        "credit": "Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Abu_dhabi,_Moschea_dello_Sceicco_Zayed,_aula_di_preghiera,_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Abu_dhabi%2C_Moschea_dello_Sceicco_Zayed%2C_aula_di_preghiera%2C_lampadario_principale%2C_placcato_oro_e_con_cristalli_swarovski_01.jpg/1920px-Abu_dhabi%2C_Moschea_dello_Sceicco_Zayed%2C_aula_di_preghiera%2C_lampadario_principale%2C_placcato_oro_e_con_cristalli_swarovski_01.jpg",
+        "alt": "Enormous gilded chandelier of crystals hanging in a domed hall",
+        "caption": "One of the largest chandeliers in the world hangs in the prayer hall.",
+        "credit": "Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Abu_dhabi,_Moschea_dello_Sceicco_Zayed,_aula_di_preghiera,_lampadario_principale,_placcato_oro_e_con_cristalli_swarovski_01.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is the largest mosque of its country, and its founder is buried in its courtyard." },
+      { "order": 2, "text": "It has 82 domes and more than a thousand columns, mostly in white marble." },
+      {
+        "order": 3,
+        "text": "Its prayer hall holds what is claimed to be the largest hand-knotted carpet in the world."
+      }
+    ],
+    "summary": {
+      "description": "Built between 1994 and 2007, the Sheikh Zayed Grand Mosque was launched by the first president of the UAE, who is buried in its courtyard. The complex measures about 290 by 420 metres and has 82 domes, more than 1,000 columns, gilded chandeliers and the world's largest hand-knotted carpet. Its design draws on Mamluk, Ottoman, Mughal and Moorish models, and it combines them in a modern composition of white marble.",
+      "keyFeatures": [
+        "82 domes of varying sizes",
+        "More than 1,000 columns in white marble",
+        "Floral inlays of semi-precious stones",
+        "Vast hand-knotted carpet and gilded chandeliers"
+      ],
+      "funFacts": [
+        "Its main axis is rotated about 12 degrees to point to Mecca.",
+        "A smaller replica stands in Surakarta, Indonesia."
+      ]
+    }
+  },
+  {
+    "id": "petronas-towers",
+    "name": "Petronas Towers",
+    "aliases": [
+      "Petronas Twin Towers",
+      "KLCC Twin Towers",
+      "Menara Petronas",
+      "Menara Berkembar Petronas",
+      "Twin Towers Kuala Lumpur"
+    ],
+    "architects": [
+      {
+        "name": "César Pelli",
+        "aliases": ["Cesar Pelli", "Pelli"],
+        "lifespan": "1926–2019",
+        "nationality": "Argentine-American",
+        "bio": "Argentine-born American architect who won the competition to design Kuala Lumpur’s landmark towers and drew their plan from Islamic geometry."
+      }
+    ],
+    "location": { "city": "Kuala Lumpur", "country": "Malaysia", "countryCode": "MY" },
+    "yearCompleted": 1998,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism with Islamic geometry",
+    "wikipedia": "https://en.wikipedia.org/wiki/Petronas_Towers",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan geometry (level 43)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Petronas_Towers_level_43_plan.svg/1920px-Petronas_Towers_level_43_plan.svg.png",
+        "alt": "Diagram of a tower plan built from a pair of overlapping squares, with round lobes and a bridge connection",
+        "credit": "Cmglee · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Petronas_Towers_level_43_plan.svg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Petronas_Twin_Towers_in_Kuala_Lumpur_%282%29_%2810498382174%29.jpg/1920px-Petronas_Twin_Towers_in_Kuala_Lumpur_%282%29_%2810498382174%29.jpg",
+        "alt": "Two identical steel-and-glass towers with pointed tops joined by a bridge, seen from below",
+        "credit": "Photo: V. Epiney · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Petronas_Twin_Towers_in_Kuala_Lumpur_(2)_(10498382174).jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/The_Twins_SE_Asia_2019_%2849171985716%29.jpg/1920px-The_Twins_SE_Asia_2019_%2849171985716%29.jpg",
+        "alt": "Twin skyscrapers glowing at dusk among a cluster of other towers",
+        "credit": "Photo: James Kerwin from Tbilisi · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Twins_SE_Asia_2019_(49171985716).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Inside_View_of_Petronas.jpg/1920px-Inside_View_of_Petronas.jpg",
+        "alt": "Multi-level shopping concourse seen from above, with a red decorated feature in the centre",
+        "credit": "Photo: Mithun89 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_View_of_Petronas.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "They were the tallest buildings in the world from 1998 to 2004." },
+      {
+        "order": 2,
+        "text": "Their plan is based on an eight-pointed Islamic star motif, with round lobes added to give more office space."
+      },
+      {
+        "order": 3,
+        "text": "A two-storey bridge joins them partway up, and it is not rigidly fixed so that the towers can sway."
+      }
+    ],
+    "summary": {
+      "description": "Designed by César Pelli and completed in 1998, the 88-storey Petronas Towers rise to 451.9 metres and were the world's tallest buildings until 2004. They remain the tallest twin towers in the world. The plan is based on a Rub el Hizb, an eight-pointed Islamic star, with circular lobes added to provide office space, and the steel and glass façades echo Islamic motifs. A skybridge links the towers at the 41st and 42nd floors.",
+      "keyFeatures": [
+        "Eight-pointed star plan based on Islamic geometry",
+        "Tube-in-tube structural system",
+        "Steel and glass cladding",
+        "Two-level skybridge between the towers"
+      ],
+      "funFacts": [
+        "They surpassed the original World Trade Center towers as the tallest twin towers.",
+        "Their structural design uses a tube-in-tube system invented by Fazlur Rahman Khan."
+      ]
+    }
   }
 ]
