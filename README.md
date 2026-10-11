@@ -3,7 +3,7 @@
 A casual architecture guessing game. Study a building's drawings and photographs on a drafting board, open
 the hints if you want them, then guess the building, its architect, its country and its era. No scores, no timers.
 
-170 buildings, from the Parthenon to the Elbphilharmonie, with a deep Portuguese and Brazilian selection.
+210 buildings, from the Great Pyramid to the Elbphilharmonie, with a deep Portuguese and Brazilian selection.
 
 ## Run locally
 
