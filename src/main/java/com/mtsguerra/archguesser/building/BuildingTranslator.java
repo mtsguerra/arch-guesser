@@ -39,7 +39,7 @@ final class BuildingTranslator {
     private static Architect architect(Architect a, ArchitectText t) {
         List<String> aliases = new ArrayList<>(a.aliases());
         aliases.addAll(Lists.nullToEmpty(t.aliases()));
-        return new Architect(a.name(), List.copyOf(new LinkedHashSet<>(aliases)), a.lifespan(),
+        return new Architect(a.name(), List.copyOf(new LinkedHashSet<>(aliases)), orElse(t.lifespan(), a.lifespan()),
                 orElse(t.nationality(), a.nationality()), orElse(t.bio(), a.bio()));
     }
 

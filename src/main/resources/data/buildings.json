@@ -10758,5 +10758,594 @@
       ],
       "funFacts": ["Burlington relied on Palladio and Scamozzi rather than on drawings of Roman ruins."]
     }
+  },
+  {
+    "id": "great-pyramid-of-giza",
+    "name": "Great Pyramid of Giza",
+    "aliases": ["Pyramid of Khufu", "Pyramid of Cheops", "Great Pyramid", "Khufu Pyramid", "Giza Pyramid"],
+    "architects": [
+      {
+        "name": "Hemiunu",
+        "aliases": ["Hemon"],
+        "lifespan": "fl. c. 2570 BC",
+        "nationality": "Egyptian",
+        "bio": "Prince and vizier of Pharaoh Khufu, Hemiunu held the title 'Inspector of All Royal Buildings' and is believed to have been the architect of the Great Pyramid. His large mastaba tomb stands beside it at Giza."
+      },
+      {
+        "name": "Khufu",
+        "aliases": ["Cheops"],
+        "lifespan": "r. c. 2589–2566 BC",
+        "nationality": "Egyptian",
+        "bio": "Second pharaoh of the Fourth Dynasty, Khufu commissioned the pyramid as his tomb and the centre of a vast funerary complex. He is remembered above all for this monument."
+      }
+    ],
+    "location": { "city": "Giza", "country": "Egypt", "countryCode": "EG" },
+    "yearCompleted": -2560,
+    "era": "ANCIENT_EGYPTIAN",
+    "style": "Old Kingdom pyramid",
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "North–south section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Great_Pyramid_S-N_Diagram.svg/1920px-Great_Pyramid_S-N_Diagram.svg.png",
+        "alt": "Section through a huge pyramid showing narrow passages, a large rising gallery and two chambers high inside, with a third chamber below ground",
+        "credit": "F l a n k e r · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_S-N_Diagram.svg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/1920px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg",
+        "alt": "Huge stepped pyramid of rough stone blocks rising against a clear blue sky above desert sand",
+        "credit": "Photo: Douwe C. van der Zee · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Great_Pyramid_of_Giza_Grand_Gallery.jpg/1920px-Great_Pyramid_of_Giza_Grand_Gallery.jpg",
+        "alt": "Narrow, steeply rising corridor of stone with a corbelled, stepped ceiling",
+        "caption": "A corbelled corridor climbs towards the burial chambers.",
+        "credit": "Photo: Keith Adler · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza_Grand_Gallery.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "For almost four thousand years it was the tallest human-made structure on Earth." },
+      {
+        "order": 2,
+        "text": "It is the oldest of a famous ancient list of seven wonders, and the only one still largely standing."
+      },
+      {
+        "order": 3,
+        "text": "It was once sheathed in smooth white limestone, which was stripped away over the centuries, leaving the rough core."
+      }
+    ],
+    "summary": {
+      "description": "Built as a tomb for the pharaoh Khufu around 2560 BC, the pyramid rose to 146.6 metres and held the record as the world's tallest structure for more than 3,700 years. Some 2.3 million blocks of limestone and granite were assembled over about 26 years; inside are three chambers connected by narrow passages and a great sloping gallery. Hemiunu, the pharaoh's vizier, is believed to have been its architect.",
+      "keyFeatures": [
+        "Roughly 2.3 million stone blocks",
+        "Original height of 146.6 metres, now 138.5 metres",
+        "Grand Gallery with a corbelled ceiling",
+        "Granite King’s Chamber and an unfinished chamber cut into the bedrock"
+      ],
+      "funFacts": [
+        "The smooth white casing came from Tura, while the granite for the King’s Chamber was floated down the Nile from Aswan.",
+        "It is the oldest of the Seven Wonders of the Ancient World."
+      ]
+    }
+  },
+  {
+    "id": "taj-mahal",
+    "name": "Taj Mahal",
+    "aliases": ["The Taj Mahal", "Taj", "Crown of the Palace"],
+    "architects": [
+      {
+        "name": "Ustad Ahmad Lahori",
+        "aliases": ["Ahmad Lahori", "Ustad Ahmad Lahauri"],
+        "lifespan": "c. 1580–1649",
+        "nationality": "Mughal (Indian)",
+        "bio": "Court architect of Shah Jahan, Lahori is usually named as the lead of the board of architects, artisans and supervisors who designed the tomb and its gardens."
+      },
+      {
+        "name": "Shah Jahan",
+        "aliases": ["Emperor Shah Jahan"],
+        "lifespan": "1592–1666",
+        "nationality": "Mughal (Indian)",
+        "bio": "Fifth Mughal emperor and a great builder, Shah Jahan commissioned the mausoleum in 1631 for his wife Mumtaz Mahal and is buried there himself."
+      }
+    ],
+    "location": { "city": "Agra", "country": "India", "countryCode": "IN" },
+    "yearCompleted": 1648,
+    "era": "ISLAMIC",
+    "style": "Mughal (Indo-Islamic)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taj_Mahal",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Floor plan of the mausoleum",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Taj_floorplan.svg/1920px-Taj_floorplan.svg.png",
+        "alt": "Symmetrical plan with a central octagonal chamber, four corner rooms and four great arched entrances",
+        "credit": "Plan of the tomb · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Taj_floorplan.svg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg",
+        "alt": "White marble tomb with a bulbous central dome and four slender minarets, seen down a long reflecting pool between gardens",
+        "credit": "Photo: Yann; edited by Jim Carter · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Interior_of_Taj%2C_Agra_%28cropped%29.jpg",
+        "alt": "Octagonal screen of white marble pierced with delicate lattice, set around a tomb in a dim chamber",
+        "caption": "A carved marble screen surrounds the tombs.",
+        "credit": "Photo: Raphael Tuck & Sons · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Taj,_Agra_(cropped).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as a tomb by a grieving emperor for the wife who died giving birth to their fourteenth child."
+      },
+      {
+        "order": 2,
+        "text": "Its four minarets lean slightly outward on purpose, so that in an earthquake they would fall away from the tomb."
+      },
+      {
+        "order": 3,
+        "text": "White marble inlaid with semi-precious stones sits at the centre of a garden laid out on a strict axis."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned in 1631 by the Mughal emperor Shah Jahan for his wife Mumtaz Mahal, the white marble mausoleum was completed in 1648 and the surrounding complex in 1653. It combines Persian, Islamic and Indian traditions in a perfectly symmetrical composition of tomb, mosque, guest house and gardens. More than 20,000 workers and artisans took part under a board of architects led by Ustad Ahmad Lahori.",
+      "keyFeatures": [
+        "Symmetrical plan around a central dome",
+        "Four minarets leaning slightly outward",
+        "Pietra dura inlay of semi-precious stones",
+        "Charbagh garden with a long reflecting pool"
+      ],
+      "funFacts": [
+        "More than 20,000 workers and artisans were employed on the project.",
+        "Shah Jahan’s own tomb was added beside his wife’s after his death, breaking the symmetry of the chamber."
+      ]
+    }
+  },
+  {
+    "id": "angkor-wat",
+    "name": "Angkor Wat",
+    "aliases": ["Angkor Vat", "Temple of Angkor"],
+    "architects": [
+      {
+        "name": "Suryavarman II",
+        "aliases": ["King Suryavarman II"],
+        "lifespan": "r. 1113–c. 1150",
+        "nationality": "Khmer",
+        "bio": "Khmer king who commissioned the temple as his state temple and probable mausoleum. The architects are not recorded by name, so the king, who ordered and directed it, is credited."
+      }
+    ],
+    "location": { "city": "Siem Reap", "country": "Cambodia", "countryCode": "KH" },
+    "yearCompleted": 1150,
+    "era": "INDIC",
+    "style": "Khmer (Angkorian temple-mountain)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Angkor_Wat",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the temple",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Angkor_Wat_M3.png",
+        "alt": "Plan of a vast square enclosure with nested galleries, a cross-shaped terrace and a central cluster of towers",
+        "credit": "Baldiri · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_M3.png"
+      },
+      {
+        "type": "SITE_PLAN",
+        "label": "Site plan with moat",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Angkor_Wat_M2.png",
+        "alt": "Aerial plan of a huge rectangular moat and wall with a long causeway leading to a central temple mound",
+        "credit": "Baldiri · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Angkor_Wat_M2.png"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/1920px-Angkor_Wat.jpg",
+        "alt": "Five tall towers shaped like lotus buds rising behind a long gallery, reflected in a lily pond",
+        "credit": "Photo: Bjørn Christian Tørrissen · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/004_Cloister_at_Angkor_Wat%2C_Cambodia.jpg/1920px-004_Cloister_at_Angkor_Wat%2C_Cambodia.jpg",
+        "alt": "Stone cloister with rows of balusters and carved doorways around an inner courtyard",
+        "credit": "Photo: Anandajoti · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:004_Cloister_at_Angkor_Wat,_Cambodia.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as a temple to a Hindu god, later became a Buddhist monastery, and is still a place of worship."
+      },
+      {
+        "order": 2,
+        "text": "Its five towers represent the peaks of a mythical mountain at the centre of the universe."
+      },
+      {
+        "order": 3,
+        "text": "Unlike most temples of its kingdom it faces west, and its silhouette appears on a national flag."
+      }
+    ],
+    "summary": {
+      "description": "Built between 1113 and about 1150 for the Khmer king Suryavarman II, Angkor Wat was first a Hindu temple to Vishnu and later a Buddhist one. Within a vast moat and wall, three rising galleries lead to a central quincunx of towers that represents Mount Meru. It is often called the largest religious monument in the world and is decorated with extensive bas-reliefs.",
+      "keyFeatures": [
+        "Temple-mountain with three rising galleries",
+        "Central quincunx of five lotus-bud towers",
+        "Vast moat and enclosing wall",
+        "Extensive bas-reliefs along the galleries"
+      ],
+      "funFacts": [
+        "It is oriented to the west, unlike most Angkorian temples.",
+        "It has remained in religious use ever since it was built, which helped it survive."
+      ]
+    }
+  },
+  {
+    "id": "forbidden-city",
+    "name": "Forbidden City",
+    "aliases": ["Palace Museum", "Imperial Palace Beijing", "Gugong", "Zijin Cheng"],
+    "architects": [
+      {
+        "name": "Kuai Xiang",
+        "aliases": ["Kuai Xiang master builder"],
+        "lifespan": "1398–1481",
+        "nationality": "Chinese",
+        "bio": "A carpenter who rose to lead the imperial building works, Kuai Xiang is traditionally credited as the master builder of the Ming palaces in Beijing."
+      },
+      {
+        "name": "Yongle Emperor",
+        "aliases": ["Zhu Di", "Emperor Yongle"],
+        "lifespan": "1360–1424",
+        "nationality": "Chinese",
+        "bio": "Third Ming emperor, who moved the capital to Beijing and ordered the new palace city built between 1406 and 1420."
+      }
+    ],
+    "location": { "city": "Beijing", "country": "China", "countryCode": "CN" },
+    "yearCompleted": 1420,
+    "era": "EAST_ASIAN",
+    "style": "Ming and Qing imperial palace",
+    "wikipedia": "https://en.wikipedia.org/wiki/Forbidden_City",
+    "drawings": [
+      {
+        "type": "SITE_PLAN",
+        "label": "Plan of the palace",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Hsiang_Fei_%28plan_of_the_Forbidden_City%29.jpg",
+        "alt": "Plan of a walled rectangular palace city, with halls and courtyards in rows along a central axis",
+        "credit": "Unknown author · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hsiang_Fei_(plan_of_the_Forbidden_City).jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg/1920px-Hall_of_Supreme_Harmony_%2820241127120000%29.jpg",
+        "alt": "Great yellow-tiled hall on a white marble terrace above a wide paved courtyard",
+        "credit": "Photo: N509FZ · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_(20241127120000).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dragon_Throne_Palace_of_Heavenly_Purity_Forbidden_City_Beijing.jpg/1920px-Dragon_Throne_Palace_of_Heavenly_Purity_Forbidden_City_Beijing.jpg",
+        "alt": "Red-pillared hall with a gilded throne raised on steps beneath a carved canopy",
+        "credit": "Photo: Vaiz Ha · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Dragon_Throne_Palace_of_Heavenly_Purity_Forbidden_City_Beijing.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Twenty-four emperors lived here over five centuries; ordinary people were forbidden to enter."
+      },
+      { "order": 2, "text": "Legend gives it 9,999 rooms, but surveys count about 8,886." },
+      {
+        "order": 3,
+        "text": "It is the largest collection of preserved ancient wooden buildings in the world, and today it is a museum."
+      }
+    ],
+    "summary": {
+      "description": "Built between 1406 and 1420 for the Yongle Emperor, the palace city was the home of 24 Ming and Qing emperors and the centre of Chinese government until 1924. Its halls and courtyards are arranged symmetrically along a north–south axis, with the ceremonial buildings in front and the living quarters behind. It covers 72 hectares and is the largest collection of preserved ancient wooden structures in the world.",
+      "keyFeatures": [
+        "Strict north–south axis of halls and courtyards",
+        "Yellow glazed roof tiles reserved for the emperor",
+        "Walled complex of about 8,886 rooms",
+        "Marble terraces and carved dragon ramps"
+      ],
+      "funFacts": [
+        "The Palace Museum has looked after it since 1925.",
+        "The 1987 film The Last Emperor was the first Western production allowed to film inside."
+      ]
+    }
+  },
+  {
+    "id": "temple-of-heaven",
+    "name": "Temple of Heaven",
+    "aliases": ["Hall of Prayer for Good Harvests", "Tiantan", "Altar of Heaven"],
+    "architects": [
+      {
+        "name": "Yongle Emperor",
+        "aliases": ["Zhu Di", "Emperor Yongle"],
+        "lifespan": "1360–1424",
+        "nationality": "Chinese",
+        "bio": "Third Ming emperor, who ordered the temple built in 1420 as part of his new capital, together with the Forbidden City. The designers are not recorded by name."
+      }
+    ],
+    "location": { "city": "Beijing", "country": "China", "countryCode": "CN" },
+    "yearCompleted": 1420,
+    "era": "EAST_ASIAN",
+    "style": "Ming and Qing ritual architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Temple_of_Heaven",
+    "drawings": [
+      {
+        "type": "SITE_PLAN",
+        "label": "Plan of the temple grounds",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Temple_of_Heaven%2C_Peking_-_Plan_%2811107028186%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.955 },
+        "alt": "Old engraved plan of a long temple precinct with a round building at the north end and a circular altar at the south",
+        "credit": "The British Library · No restrictions · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Heaven,_Peking_-_Plan_(11107028186).jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Temple_of_Heaven_-_Hall_of_Prayer_for_Good_Harvests_03.jpg/1920px-Temple_of_Heaven_-_Hall_of_Prayer_for_Good_Harvests_03.jpg",
+        "alt": "Round three-tiered temple with a deep blue tiled roof and a gilded finial, standing on white marble terraces",
+        "credit": "Photo: xiquinhosilva · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Heaven_-_Hall_of_Prayer_for_Good_Harvests_03.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hall_of_Prayer_for_Good_Harvests_interior_2014.jpg/1920px-Hall_of_Prayer_for_Good_Harvests_interior_2014.jpg",
+        "alt": "Looking up at red and gold painted columns and a richly coloured circular ceiling",
+        "credit": "Photo: Daniel Case · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hall_of_Prayer_for_Good_Harvests_interior_2014.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Emperors came here once a year to pray for a good harvest." },
+      {
+        "order": 2,
+        "text": "Its great hall is round under a blue roof, because ancient Chinese cosmology saw Heaven as round and Earth as square."
+      },
+      {
+        "order": 3,
+        "text": "Its main hall is built entirely of wood, without nails, and was rebuilt after lightning burned the original in 1889."
+      }
+    ],
+    "summary": {
+      "description": "Founded in 1420 during the reign of the Yongle Emperor, the temple complex was where Ming and Qing emperors performed the annual rites of prayer for a good harvest. Its numbers, shapes and terraces symbolise the structure of the cosmos: round buildings for Heaven set on square grounds for Earth. The Hall of Prayer for Good Harvests, rebuilt after a fire in 1889, is a 38-metre-tall wooden building on three marble terraces.",
+      "keyFeatures": [
+        "Circular halls under blue glazed tiles",
+        "Triple marble terraces",
+        "Echo Wall around the Imperial Vault of Heaven",
+        "Layout based on the sacred number nine"
+      ],
+      "funFacts": [
+        "A lightning fire destroyed the original Hall of Prayer in 1889.",
+        "The Echo Wall around the Imperial Vault carries whispers over long distances."
+      ]
+    }
+  },
+  {
+    "id": "himeji-castle",
+    "name": "Himeji Castle",
+    "aliases": ["Himeji-jo", "White Heron Castle", "Hakuro-jo", "Shirasagi-jo"],
+    "architects": [
+      {
+        "name": "Ikeda Terumasa",
+        "aliases": ["Terumasa Ikeda"],
+        "lifespan": "1565–1613",
+        "nationality": "Japanese",
+        "bio": "Lord of Himeji from 1600, Ikeda Terumasa completely rebuilt the castle between 1601 and 1609 on the foundations of Toyotomi Hideyoshi’s earlier keep, creating the vast complex seen today."
+      }
+    ],
+    "location": { "city": "Himeji", "country": "Japan", "countryCode": "JP" },
+    "yearCompleted": 1609,
+    "era": "EAST_ASIAN",
+    "style": "Japanese castle (Edo period)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Himeji_Castle",
+    "drawings": [
+      {
+        "type": "SITE_PLAN",
+        "label": "Plan of the castle grounds",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Burg_Himeji_Plan.jpg",
+        "alt": "Plan of a spiral of walled enclosures winding around a central keep on a hill",
+        "credit": "Fraxinus2 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Burg_Himeji_Plan.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Himeji_Castle_with_cherry_blossoms_from_front.jpg/1920px-Himeji_Castle_with_cherry_blossoms_from_front.jpg",
+        "alt": "Multi-storey white castle keep with gabled roofs above stone walls and a foreground of cherry blossom",
+        "credit": "Photo: Seattleite7 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Himeji_Castle_with_cherry_blossoms_from_front.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Himeji_Castle_Interior.jpg/1920px-Himeji_Castle_Interior.jpg",
+        "alt": "Long wooden corridor inside a castle with dark timber beams, a polished floor and display cases",
+        "credit": "Photo: ScribblingGeek · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Himeji_Castle_Interior.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its brilliant white walls earned it a nickname after a bird." },
+      {
+        "order": 2,
+        "text": "It is almost 700 years old as a site, and it came through wartime bombing and a major earthquake almost undamaged."
+      },
+      {
+        "order": 3,
+        "text": "The path to its keep winds back and forth through many gates, designed to lose and trap attackers."
+      }
+    ],
+    "summary": {
+      "description": "Himeji Castle dates to a fort built in 1333, and was remodelled by Toyotomi Hideyoshi and completely rebuilt between 1601 and 1609 by Ikeda Terumasa. Its white plastered keep and a network of 83 buildings with advanced defences make it the finest surviving example of Japanese castle architecture. It survived bombing in 1945 and the 1995 Great Hanshin earthquake virtually undamaged.",
+      "keyFeatures": [
+        "White plastered walls like a bird in flight",
+        "Network of 83 buildings",
+        "Winding approach through many gates",
+        "Complex of defences including loopholes and stone-drop openings"
+      ],
+      "funFacts": [
+        "A firebomb dropped on the top floor in 1945 failed to explode.",
+        "After the 1995 earthquake a bottle of sake on the keep’s altar was still standing."
+      ]
+    }
+  },
+  {
+    "id": "todai-ji",
+    "name": "Tōdai-ji",
+    "aliases": ["Todaiji", "Todai-ji", "Great Buddha Hall", "Daibutsuden", "Todai-ji Great Buddha Hall"],
+    "architects": [
+      {
+        "name": "Emperor Shōmu",
+        "aliases": ["Emperor Shomu", "Shomu"],
+        "lifespan": "701–756",
+        "nationality": "Japanese",
+        "bio": "Devout Buddhist emperor who founded Tōdai-ji as the head of a network of state temples and commissioned its giant Buddha in 743. The present hall dates from a rebuilding in 1709."
+      }
+    ],
+    "location": { "city": "Nara", "country": "Japan", "countryCode": "JP" },
+    "yearCompleted": 1709,
+    "era": "EAST_ASIAN",
+    "style": "Japanese Buddhist (rebuilt Great Buddha Hall)",
+    "wikipedia": "https://en.wikipedia.org/wiki/T%C5%8Ddai-ji",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Todai-ji_Daibutsuden_front_view_in_2011.jpg/1920px-Todai-ji_Daibutsuden_front_view_in_2011.jpg",
+        "alt": "Immense two-roofed wooden hall with golden ornaments on the ridge, seen from across a paved courtyard",
+        "credit": "Photo: ONO Masanobu · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Todai-ji_Daibutsuden_front_view_in_2011.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Nara_Todai-ji_Daibutsuden_Interior_Daibutsu_03.jpg/1920px-Nara_Todai-ji_Daibutsuden_Interior_Daibutsu_03.jpg",
+        "alt": "Colossal dark bronze seated Buddha in a golden halo between red wooden columns",
+        "credit": "Photo: Zairon · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Nara_Todai-ji_Daibutsuden_Interior_Daibutsu_03.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was founded as Japan’s answer to the great temples of Tang China." },
+      {
+        "order": 2,
+        "text": "Its great hall is among the largest wooden buildings in the world, yet today’s hall is only two-thirds the width of the original."
+      },
+      { "order": 3, "text": "Inside sits the world’s largest bronze statue of the cosmic Buddha." }
+    ],
+    "summary": {
+      "description": "Founded in 738 and opened in 752 in the old capital of Nara, Tōdai-ji was designed to imitate the great Tang temples of China. Its Great Buddha Hall houses the world’s largest bronze statue of the Buddha Vairocana. The hall was rebuilt in 1709, at about two-thirds of its original width, and was strengthened with steel framing between 1974 and 1980.",
+      "keyFeatures": [
+        "One of the largest wooden buildings in the world",
+        "Colossal bronze Buddha Vairocana inside",
+        "Double roof with golden ridge ornaments",
+        "Complex of halls, gates and pagodas in Nara"
+      ],
+      "funFacts": [
+        "The present hall is about two-thirds the width of the original.",
+        "The hall was close to collapse in the late 19th century because of the weight of its roof."
+      ]
+    }
+  },
+  {
+    "id": "borobudur",
+    "name": "Borobudur",
+    "aliases": ["Candi Borobudur", "Barabudur"],
+    "architects": [
+      {
+        "name": "Gunadharma",
+        "aliases": [],
+        "lifespan": "fl. 9th century",
+        "nationality": "Javanese",
+        "bio": "Architect named in Javanese tradition as the designer of the temple for the Sailendra dynasty. The attribution rests on local legend, as no inscription names the builder."
+      }
+    ],
+    "location": { "city": "Magelang", "country": "Indonesia", "countryCode": "ID" },
+    "yearCompleted": 825,
+    "era": "INDIC",
+    "style": "Javanese Buddhist (Sailendra)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Borobudur",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "Half cross section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Diagram_of_Borobudur%2C_Short_Guide_to_Borobudur%2C_Mendut%2C_and_Pawon%2C_p16.jpg/1920px-Diagram_of_Borobudur%2C_Short_Guide_to_Borobudur%2C_Mendut%2C_and_Pawon%2C_p16.jpg",
+        "alt": "Old line drawing of a stepped, symmetrical temple mound in section, with a stupa on top and levels labelled in Sanskrit",
+        "credit": "Short Guide to Borobudur, Mendut, and Pawon, diagram · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Diagram_of_Borobudur,_Short_Guide_to_Borobudur,_Mendut,_and_Pawon,_p16.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Borobudur-Nothwest-view.jpg/1920px-Borobudur-Nothwest-view.jpg",
+        "alt": "Huge stepped stone temple mound topped with a central stupa, set in a green park",
+        "credit": "Photo: Gunawan Kartapranata · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Borobudur-Nothwest-view.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Borobudur-Temple-Park_Indonesia_Stupas-of-Borobudur-06.jpg/1920px-Borobudur-Temple-Park_Indonesia_Stupas-of-Borobudur-06.jpg",
+        "alt": "Perforated bell-shaped stupas on a terrace with green hills in the haze behind",
+        "credit": "Photo: CEphoto, Uwe Aranas · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Borobudur-Temple-Park_Indonesia_Stupas-of-Borobudur-06.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Borobudur_-_Gandavyuha_-_071_Level_2%2C_North_Wall_%288601009103%29.jpg/1920px-Borobudur_-_Gandavyuha_-_071_Level_2%2C_North_Wall_%288601009103%29.jpg",
+        "alt": "Carved stone relief of a crowned figure seated among flowers on a gallery wall",
+        "caption": "More than a thousand narrative panels line the galleries.",
+        "credit": "Photo: Photo Dharma from Penang, Malaysia · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Borobudur_-_Gandavyuha_-_071_Level_2,_North_Wall_(8601009103).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It lay abandoned for centuries until a colonial governor was told of its location in 1814."
+      },
+      {
+        "order": 2,
+        "text": "Pilgrims walk up through nine stacked platforms past more than 1,400 narrative relief panels."
+      },
+      {
+        "order": 3,
+        "text": "Seen from above it is a mandala: square terraces below, three circular platforms with perforated stupas above."
+      }
+    ],
+    "summary": {
+      "description": "Built around 825 under the Sailendra dynasty of Java, Borobudur is the largest Buddhist temple in the world. Nine stacked platforms, six square and three circular, rise to a central dome ringed by 72 Buddha statues in perforated stupas. Pilgrims climb through corridors lined with 1,460 narrative relief panels, a journey that mirrors the path to enlightenment.",
+      "keyFeatures": [
+        "Nine stacked platforms topped by a dome",
+        "2,672 relief panels",
+        "72 Buddha statues in perforated stupas",
+        "Mandala plan symbolising the Buddhist cosmos"
+      ],
+      "funFacts": [
+        "Thomas Stamford Raffles, then British governor of Java, was told of the buried-in-jungle site in 1814.",
+        "The 1983 UNESCO-supported restoration took apart and rebuilt the monument."
+      ]
+    }
   }
 ]

@@ -1,0 +1,407 @@
+{
+  "great-pyramid-of-giza": {
+    "name": "Grande Pirâmide de Gizé",
+    "aliases": ["Pirâmide de Quéops", "Pirâmide de Khufu", "Grande Pirâmide", "Pirâmide de Gizé"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Egípcio",
+        "bio": "Príncipe e vizir do faraó Khufu, Hemiunu tinha o título de «Inspetor de Todas as Obras Reais» e acredita-se que tenha sido o arquiteto da Grande Pirâmide. Seu grande túmulo em mastaba fica ao lado dela, em Gizé.",
+        "lifespan": "atuante c. 2570 a.C."
+      },
+      {
+        "aliases": ["Quéops"],
+        "nationality": "Egípcio",
+        "bio": "Segundo faraó da IV Dinastia, Khufu encomendou a pirâmide como seu túmulo e como centro de um vasto complexo funerário. É lembrado, acima de tudo, por esse monumento.",
+        "lifespan": "r. c. 2589–2566 a.C."
+      }
+    ],
+    "city": "Gizé",
+    "style": "Pirâmide do Antigo Império",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pir%C3%A2mide_de_Qu%C3%A9ops",
+    "drawings": [
+      {
+        "label": "Corte norte–sul",
+        "alt": "Corte de uma enorme pirâmide mostrando passagens estreitas, uma grande galeria ascendente e duas câmaras no alto, com uma terceira câmara abaixo do solo"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Enorme pirâmide de blocos de pedra irregulares erguendo-se contra um céu azul limpo, acima da areia do deserto",
+        "caption": null
+      },
+      {
+        "alt": "Corredor estreito e muito inclinado, de pedra, com teto em degraus sobrepostos",
+        "caption": "Um corredor de teto em degraus sobe em direção às câmaras funerárias."
+      }
+    ],
+    "hints": [
+      "Durante quase quatro mil anos foi a estrutura feita pelo homem mais alta da Terra.",
+      "É a mais antiga de uma célebre lista antiga de sete maravilhas, e a única que ainda se mantém em grande parte de pé.",
+      "Foi revestida de calcário branco e liso, retirado ao longo dos séculos, deixando à mostra o núcleo irregular."
+    ],
+    "summary": {
+      "description": "Construída como túmulo do faraó Khufu por volta de 2560 a.C., a pirâmide chegou a 146,6 metros e foi a estrutura mais alta do mundo por mais de 3.700 anos. Cerca de 2,3 milhões de blocos de calcário e granito foram montados ao longo de uns 26 anos; por dentro há três câmaras ligadas por passagens estreitas e uma grande galeria inclinada. Acredita-se que o vizir do faraó, Hemiunu, tenha sido seu arquiteto.",
+      "keyFeatures": [
+        "Cerca de 2,3 milhões de blocos de pedra",
+        "Altura original de 146,6 metros, hoje 138,5 metros",
+        "Grande Galeria com teto em degraus sobrepostos",
+        "Câmara do Rei em granito e uma câmara inacabada escavada na rocha"
+      ],
+      "funFacts": [
+        "O revestimento branco e liso vinha de Tura, enquanto o granito da Câmara do Rei desceu o Nilo desde Assuã.",
+        "É a mais antiga das Sete Maravilhas do Mundo Antigo."
+      ]
+    }
+  },
+  "taj-mahal": {
+    "name": "Taj Mahal",
+    "aliases": ["O Taj Mahal", "Taj", "Coroa do Palácio"],
+    "architects": [
+      {
+        "aliases": ["Ahmad Lahori"],
+        "nationality": "Mogol (indiano)",
+        "bio": "Arquiteto da corte de Shah Jahan, Lahori costuma ser citado como o chefe do grupo de arquitetos, artesãos e supervisores que projetou o mausoléu e seus jardins."
+      },
+      {
+        "aliases": ["Xá Jahan", "Shah Jahan"],
+        "nationality": "Mogol (indiano)",
+        "bio": "Quinto imperador mogol e grande construtor, Shah Jahan encomendou o mausoléu em 1631 para sua esposa Mumtaz Mahal e está ele próprio sepultado ali."
+      }
+    ],
+    "city": "Agra",
+    "style": "Mogol (indo-islâmico)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Taj_Mahal",
+    "drawings": [
+      {
+        "label": "Planta do mausoléu",
+        "alt": "Planta simétrica com uma câmara octogonal central, quatro salas nos cantos e quatro grandes entradas em arco"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Mausoléu de mármore branco com cúpula central bulbosa e quatro minaretes esbeltos, visto ao fim de um longo espelho d’água entre jardins",
+        "caption": null
+      },
+      {
+        "alt": "Biombo octogonal de mármore branco vazado com delicada treliça, em volta de um túmulo numa câmara na penumbra",
+        "caption": "Um biombo de mármore entalhado cerca os túmulos."
+      }
+    ],
+    "hints": [
+      "Foi erguido como túmulo por um imperador enlutado, para a esposa que morreu ao dar à luz o décimo quarto filho.",
+      "Seus quatro minaretes se inclinam levemente para fora de propósito, para que, num terremoto, caíssem longe do túmulo.",
+      "Mármore branco incrustado de pedras semipreciosas, no centro de um jardim traçado sobre um eixo rigoroso."
+    ],
+    "summary": {
+      "description": "Encomendado em 1631 pelo imperador mogol Shah Jahan para sua esposa Mumtaz Mahal, o mausoléu de mármore branco ficou pronto em 1648 e o conjunto em volta, em 1653. Combina tradições persas, islâmicas e indianas numa composição perfeitamente simétrica de túmulo, mesquita, casa de hóspedes e jardins. Mais de 20 mil operários e artesãos trabalharam sob um conselho de arquitetos chefiado por Ustad Ahmad Lahori.",
+      "keyFeatures": [
+        "Planta simétrica em torno de uma cúpula central",
+        "Quatro minaretes levemente inclinados para fora",
+        "Incrustações de pedras semipreciosas (pietra dura)",
+        "Jardim charbagh com um longo espelho d’água"
+      ],
+      "funFacts": [
+        "Mais de 20 mil operários e artesãos trabalharam na obra.",
+        "O túmulo do próprio Shah Jahan foi acrescentado ao lado do de sua esposa depois da morte dele, quebrando a simetria da câmara."
+      ]
+    }
+  },
+  "angkor-wat": {
+    "name": "Angkor Wat",
+    "aliases": ["Angkor Vat", "Templo de Angkor"],
+    "architects": [
+      {
+        "aliases": ["Rei Suryavarman II"],
+        "nationality": "Khmer",
+        "bio": "Rei khmer que encomendou o templo como seu templo estatal e provável mausoléu. Os arquitetos não foram registrados pelo nome, por isso se atribui a obra ao rei, que a ordenou e dirigiu."
+      }
+    ],
+    "city": "Siem Reap",
+    "style": "Khmer (templo-montanha de Angkor)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Angkor_Wat",
+    "drawings": [
+      {
+        "label": "Planta do templo",
+        "alt": "Planta de um vasto recinto quadrado com galerias concêntricas, um terraço em cruz e um grupo central de torres"
+      },
+      {
+        "label": "Implantação com fosso",
+        "alt": "Planta aérea de um enorme fosso e muralha retangulares, com uma longa calçada que leva a um monte de templo no centro"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Cinco torres altas em forma de botão de lótus erguendo-se atrás de uma longa galeria, refletidas num lago de nenúfares",
+        "caption": null
+      },
+      {
+        "alt": "Claustro de pedra com fileiras de balaústres e portais entalhados em torno de um pátio interno",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Começou como templo a um deus hindu, depois virou mosteiro budista e continua sendo lugar de culto.",
+      "Suas cinco torres representam os picos de uma montanha mítica no centro do universo.",
+      "Ao contrário da maioria dos templos de seu reino, é voltado para o oeste, e sua silhueta aparece numa bandeira nacional."
+    ],
+    "summary": {
+      "description": "Construído entre 1113 e cerca de 1150 para o rei khmer Suryavarman II, Angkor Wat foi primeiro um templo hindu dedicado a Vishnu e depois um templo budista. Dentro de um vasto fosso e de uma muralha, três galerias em níveis crescentes levam a um grupo central de cinco torres que representa o Monte Meru. É muitas vezes chamado de o maior monumento religioso do mundo e é decorado com extensos baixos-relevos.",
+      "keyFeatures": [
+        "Templo-montanha com três galerias ascendentes",
+        "Cinco torres centrais em forma de botão de lótus",
+        "Vasto fosso e muralha em torno",
+        "Extensos baixos-relevos ao longo das galerias"
+      ],
+      "funFacts": [
+        "É orientado para o oeste, ao contrário da maioria dos templos de Angkor.",
+        "Está em uso religioso contínuo desde que foi construído, o que ajudou a preservá-lo."
+      ]
+    }
+  },
+  "forbidden-city": {
+    "name": "Cidade Proibida",
+    "aliases": ["Museu do Palácio", "Palácio Imperial de Pequim", "Gugong"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Chinês",
+        "bio": "Carpinteiro que chegou a dirigir as obras imperiais, Kuai Xiang é tradicionalmente reconhecido como o mestre de obras dos palácios Ming em Pequim."
+      },
+      {
+        "aliases": ["Zhu Di", "Imperador Yongle"],
+        "nationality": "Chinês",
+        "bio": "Terceiro imperador Ming, que transferiu a capital para Pequim e mandou construir a nova cidade palaciana entre 1406 e 1420."
+      }
+    ],
+    "city": "Pequim",
+    "style": "Palácio imperial Ming e Qing",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Cidade_Proibida",
+    "drawings": [
+      {
+        "label": "Planta do palácio",
+        "alt": "Planta de uma cidade palaciana murada e retangular, com salões e pátios em fileiras ao longo de um eixo central"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Grande salão de telhas amarelas sobre um terraço de mármore branco, acima de um amplo pátio pavimentado",
+        "caption": null
+      },
+      {
+        "alt": "Salão de colunas vermelhas com um trono dourado elevado sobre degraus, sob um dossel entalhado",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Vinte e quatro imperadores viveram aqui ao longo de cinco séculos; o povo comum era proibido de entrar.",
+      "A lenda lhe dá 9.999 cômodos, mas as medições contam cerca de 8.886.",
+      "É o maior conjunto do mundo de antigas construções de madeira preservadas e hoje é um museu."
+    ],
+    "summary": {
+      "description": "Construída entre 1406 e 1420 para o imperador Yongle, a cidade palaciana foi a casa de 24 imperadores Ming e Qing e o centro do governo chinês até 1924. Seus salões e pátios se organizam simetricamente ao longo de um eixo norte–sul, com os edifícios cerimoniais na frente e os aposentos privados atrás. Cobre 72 hectares e é o maior conjunto de estruturas antigas de madeira preservadas do mundo.",
+      "keyFeatures": [
+        "Rígido eixo norte–sul de salões e pátios",
+        "Telhas esmaltadas amarelas reservadas ao imperador",
+        "Complexo murado com cerca de 8.886 cômodos",
+        "Terraços de mármore e rampas com dragões esculpidos"
+      ],
+      "funFacts": [
+        "O Museu do Palácio cuida dela desde 1925.",
+        "O filme O Último Imperador, de 1987, foi a primeira produção ocidental autorizada a filmar lá dentro."
+      ]
+    }
+  },
+  "temple-of-heaven": {
+    "name": "Templo do Céu",
+    "aliases": ["Salão das Orações pelas Boas Colheitas", "Tiantan", "Altar do Céu"],
+    "architects": [
+      {
+        "aliases": ["Zhu Di", "Imperador Yongle"],
+        "nationality": "Chinês",
+        "bio": "Terceiro imperador Ming, que mandou construir o templo em 1420 como parte de sua nova capital, junto com a Cidade Proibida. Os projetistas não foram registrados pelo nome."
+      }
+    ],
+    "city": "Pequim",
+    "style": "Arquitetura ritual Ming e Qing",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Templo_do_C%C3%A9u",
+    "drawings": [
+      {
+        "label": "Planta do recinto do templo",
+        "alt": "Antiga gravura de planta de um longo recinto de templo, com um edifício redondo na extremidade norte e um altar circular ao sul"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Templo redondo de três níveis, com telhado azul esmaltado e um pináculo dourado, sobre terraços de mármore branco",
+        "caption": null
+      },
+      {
+        "alt": "Vista para cima de colunas pintadas de vermelho e dourado e de um teto circular de cores ricas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Os imperadores vinham aqui uma vez por ano rezar por uma boa colheita.",
+      "Seu grande salão é redondo, sob um telhado azul, porque a antiga cosmologia chinesa via o Céu como redondo e a Terra como quadrada.",
+      "Seu salão principal é inteiramente de madeira, sem pregos, e foi reconstruído depois que um raio queimou o original em 1889."
+    ],
+    "summary": {
+      "description": "Fundado em 1420, no reinado do imperador Yongle, o complexo do templo era onde os imperadores Ming e Qing realizavam os ritos anuais de oração por uma boa colheita. Seus números, formas e terraços simbolizam a estrutura do cosmos: edifícios redondos para o Céu sobre terrenos quadrados para a Terra. O Salão das Orações pelas Boas Colheitas, reconstruído depois de um incêndio em 1889, é um edifício de madeira de 38 metros de altura sobre três terraços de mármore.",
+      "keyFeatures": [
+        "Salões circulares sob telhas esmaltadas azuis",
+        "Terraços triplos de mármore",
+        "Muro do Eco em volta da Abóbada Imperial do Céu",
+        "Planejamento baseado no número sagrado nove"
+      ],
+      "funFacts": [
+        "Um incêndio causado por um raio destruiu o Salão das Orações original em 1889.",
+        "O Muro do Eco em volta da Abóbada Imperial leva sussurros a grandes distâncias."
+      ]
+    }
+  },
+  "himeji-castle": {
+    "name": "Castelo de Himeji",
+    "aliases": ["Himeji-jo", "Castelo da Garça Branca", "Castelo Himeji"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Japonês",
+        "bio": "Senhor de Himeji a partir de 1600, Ikeda Terumasa reconstruiu por completo o castelo entre 1601 e 1609, sobre as bases da torre anterior de Toyotomi Hideyoshi, criando o vasto conjunto que se vê hoje."
+      }
+    ],
+    "city": "Himeji",
+    "style": "Castelo japonês (período Edo)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Castelo_de_Himeji",
+    "drawings": [
+      {
+        "label": "Planta do terreno do castelo",
+        "alt": "Planta de uma espiral de recintos murados que envolvem uma torre central sobre uma colina"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Torre de castelo branca de vários andares, com telhados de empena sobre muros de pedra e cerejeiras em flor em primeiro plano",
+        "caption": null
+      },
+      {
+        "alt": "Longo corredor de madeira dentro de um castelo, com vigas escuras, piso polido e vitrines",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Suas paredes brancas e brilhantes lhe deram o apelido de uma ave.",
+      "O local tem quase 700 anos e passou por bombardeios na guerra e por um grande terremoto quase sem danos.",
+      "O caminho até a torre faz zigue-zagues por muitos portões, pensado para despistar e prender os atacantes."
+    ],
+    "summary": {
+      "description": "O Castelo de Himeji remonta a um forte construído em 1333, foi remodelado por Toyotomi Hideyoshi e inteiramente reconstruído entre 1601 e 1609 por Ikeda Terumasa. Sua torre de reboco branco e uma rede de 83 edifícios com defesas avançadas fazem dele o melhor exemplo sobrevivente da arquitetura de castelos japoneses. Sobreviveu ao bombardeio de 1945 e ao grande terremoto de Hanshin, em 1995, praticamente sem danos.",
+      "keyFeatures": [
+        "Paredes de reboco branco como uma ave em voo",
+        "Rede de 83 edifícios",
+        "Acesso sinuoso por muitos portões",
+        "Defesas como seteiras e aberturas para lançar pedras"
+      ],
+      "funFacts": [
+        "Uma bomba incendiária lançada no último andar em 1945 não explodiu.",
+        "Depois do terremoto de 1995, uma garrafa de saquê no altar da torre continuava de pé."
+      ]
+    }
+  },
+  "todai-ji": {
+    "name": "Todai-ji",
+    "aliases": ["Tōdai-ji", "Todaiji", "Grande Salão do Buda", "Daibutsuden", "Templo Todai-ji"],
+    "architects": [
+      {
+        "aliases": ["Shomu"],
+        "nationality": "Japonês",
+        "bio": "Imperador budista devoto que fundou o Todai-ji como cabeça de uma rede de templos estatais e encomendou seu gigantesco Buda em 743. O salão atual data de uma reconstrução de 1709."
+      }
+    ],
+    "city": "Nara",
+    "style": "Budista japonês (Grande Salão do Buda reconstruído)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/T%C5%8Ddai-ji",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Imenso salão de madeira de dois telhados, com ornamentos dourados na cumeeira, visto do outro lado de um pátio pavimentado",
+        "caption": null
+      },
+      {
+        "alt": "Colossal Buda sentado de bronze escuro, com uma auréola dourada entre colunas de madeira vermelhas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi fundado como a resposta do Japão aos grandes templos da China Tang.",
+      "Seu grande salão está entre as maiores construções de madeira do mundo, mas o atual tem apenas dois terços da largura do original.",
+      "Dentro está a maior estátua de bronze do mundo do Buda cósmico."
+    ],
+    "summary": {
+      "description": "Fundado em 738 e inaugurado em 752 na antiga capital de Nara, o Todai-ji foi concebido para imitar os grandes templos Tang da China. Seu Grande Salão do Buda abriga a maior estátua de bronze do mundo do Buda Vairocana. O salão foi reconstruído em 1709, com cerca de dois terços da largura original, e reforçado com estrutura de aço entre 1974 e 1980.",
+      "keyFeatures": [
+        "Uma das maiores construções de madeira do mundo",
+        "Colossal Buda Vairocana de bronze no interior",
+        "Telhado duplo com ornamentos dourados na cumeeira",
+        "Complexo de salões, portões e pagodes em Nara"
+      ],
+      "funFacts": [
+        "O salão atual tem cerca de dois terços da largura do original.",
+        "No fim do século XIX o salão esteve perto do colapso, por causa do peso do telhado."
+      ]
+    }
+  },
+  "borobudur": {
+    "name": "Borobudur",
+    "aliases": ["Candi Borobudur", "Barabudur"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Javanês",
+        "bio": "Arquiteto citado pela tradição javanesa como projetista do templo para a dinastia Sailendra. A atribuição se apoia na lenda local, pois nenhuma inscrição nomeia o construtor.",
+        "lifespan": "atuante no século IX"
+      }
+    ],
+    "city": "Magelang",
+    "style": "Budista javanês (Sailendra)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Borobudur",
+    "drawings": [
+      {
+        "label": "Meio corte transversal",
+        "alt": "Antigo desenho a traço de um monte de templo escalonado e simétrico em corte, com um estupa no topo e níveis identificados em sânscrito"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Enorme monte de templo escalonado de pedra, coroado por um estupa central, em meio a um parque verde",
+        "caption": null
+      },
+      {
+        "alt": "Estupas perfurados em forma de sino sobre um terraço, com colinas verdes na neblina ao fundo",
+        "caption": null
+      },
+      {
+        "alt": "Relevo de pedra entalhado mostrando uma figura coroada sentada entre flores numa parede de galeria",
+        "caption": "Mais de mil painéis narrativos revestem as galerias."
+      }
+    ],
+    "hints": [
+      "Ficou abandonado por séculos, até que um governador colonial foi informado de sua localização em 1814.",
+      "Os peregrinos sobem por nove plataformas empilhadas, passando por mais de 1.400 painéis narrativos em relevo.",
+      "Visto de cima, é um mandala: terraços quadrados embaixo, três plataformas circulares com estupas perfurados em cima."
+    ],
+    "summary": {
+      "description": "Construído por volta de 825 sob a dinastia Sailendra de Java, Borobudur é o maior templo budista do mundo. Nove plataformas empilhadas, seis quadradas e três circulares, sobem até uma cúpula central cercada por 72 estátuas de Buda em estupas perfurados. Os peregrinos sobem por corredores revestidos de 1.460 painéis narrativos em relevo, um percurso que espelha o caminho para a iluminação.",
+      "keyFeatures": [
+        "Nove plataformas empilhadas coroadas por uma cúpula",
+        "2.672 painéis em relevo",
+        "72 estátuas de Buda em estupas perfurados",
+        "Planta em mandala que simboliza o cosmos budista"
+      ],
+      "funFacts": [
+        "Thomas Stamford Raffles, então governador britânico de Java, foi informado da existência do local em meio à selva em 1814.",
+        "A restauração de 1983, apoiada pela UNESCO, desmontou e remontou o monumento."
+      ]
+    }
+  }
+}

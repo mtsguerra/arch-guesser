@@ -102,6 +102,7 @@ function translate(b, t) {
       ...a,
       aliases: [...new Set([...a.aliases, ...(x.aliases ?? [])])],
       nationality: orElse(x.nationality, a.nationality),
+      lifespan: orElse(x.lifespan, a.lifespan),
       bio: orElse(x.bio, a.bio),
     })),
     location: { ...b.location, city: orElse(t.city, b.location.city) },

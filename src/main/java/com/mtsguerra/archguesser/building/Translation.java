@@ -22,7 +22,7 @@ record Translation(
         String wikipedia
 ) {
 
-    record ArchitectText(List<String> aliases, String nationality, String bio) {
+    record ArchitectText(List<String> aliases, String nationality, String lifespan, String bio) {
     }
 
     record ImageText(String label, String alt, String caption) {
