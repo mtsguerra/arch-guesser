@@ -1,0 +1,416 @@
+{
+  "centre-pompidou": {
+    "name": "Centro Pompidou",
+    "aliases": ["Centre Pompidou", "Centro Georges Pompidou", "Beaubourg", "Pompidou"],
+    "architects": [
+      {
+        "aliases": ["Piano"],
+        "nationality": "Italiano",
+        "lifespan": "n. 1937",
+        "bio": "Arquiteto italiano que, com Richard Rogers, venceu em 1971 o concurso do centro cultural com um projeto radical que punha a estrutura e os dutos para fora."
+      },
+      {
+        "aliases": ["Lord Rogers"],
+        "nationality": "Britânico-italiano",
+        "lifespan": "1933–2021",
+        "bio": "Arquiteto britânico e um dos líderes da arquitetura high-tech, que projetou o Centro Pompidou com Renzo Piano, Gianfranco Franchini e Su Rogers."
+      },
+      {
+        "aliases": ["Franchini"],
+        "nationality": "Italiano",
+        "lifespan": "1938–2009",
+        "bio": "Arquiteto italiano que foi o terceiro sócio principal da equipe vencedora do concurso do Centro Pompidou."
+      }
+    ],
+    "city": "Paris",
+    "style": "High-tech (modernismo tardio)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_Georges_Pompidou",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Tubos e dutos azuis, vermelhos e brancos empilhados do lado de fora de um edifício, acima de velhos telhados de Paris",
+        "caption": null
+      },
+      {
+        "alt": "Enormes apoios de aço branco com juntas articuladas arredondadas contra um calçamento de pedras",
+        "caption": null
+      },
+      {
+        "alt": "Salão aberto com piso cinza, guichês e dutos azuis e vigas de aço atravessando o teto",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi projetado para ser virado do avesso: estrutura, escadas e dutos de serviço ficam todos do lado de fora.",
+      "Seus dutos têm código de cores: azul para o ar, verde para a água, amarelo para a eletricidade e vermelho para a circulação.",
+      "Recebeu o nome de um presidente e causou escândalo num bairro antigo de sua capital quando foi inaugurado."
+    ],
+    "summary": {
+      "description": "Projetado por Richard Rogers, Su Rogers e Renzo Piano, com Gianfranco Franchini, o Centro Pompidou é um marco da arquitetura high-tech. Fica no bairro de Beaubourg, em Paris, e recebeu o nome de Georges Pompidou, presidente da França de 1969 a 1974. Sua estrutura, suas escadas rolantes e seus dutos de serviço ficam do lado de fora, pintados em cores vivas, deixando grandes pavimentos livres por dentro para usos variáveis. Foi inaugurado em 1977 e abriga um museu de arte moderna e uma biblioteca pública.",
+      "keyFeatures": [
+        "Estrutura e instalações expostas do lado de fora",
+        "Tubos e dutos com código de cores",
+        "Escada rolante envidraçada subindo pela fachada",
+        "Grandes pavimentos abertos e flexíveis"
+      ],
+      "funFacts": [
+        "Recebeu o nome de Georges Pompidou, presidente da França de 1969 a 1974.",
+        "A equipe venceu um concurso internacional em 1971 com um projeto que muitos críticos acharam chocante."
+      ]
+    }
+  },
+  "salk-institute": {
+    "name": "Instituto Salk",
+    "aliases": ["Salk Institute", "Instituto Salk de Estudos Biológicos", "Salk"],
+    "architects": [
+      {
+        "aliases": ["Louis I. Kahn", "Kahn"],
+        "nationality": "Americano (nascido na Estônia)",
+        "lifespan": "1901–1974",
+        "bio": "Arquiteto da Filadélfia conhecido por edifícios monumentais e cheios de luz em concreto e tijolo, que projetou o Instituto Salk entre 1959 e 1965 com o conselho do arquiteto mexicano Luis Barragán."
+      }
+    ],
+    "city": "La Jolla",
+    "style": "Modernismo (concreto monumental)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Instituto_Salk",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Dois edifícios paralelos escalonados, de concreto e madeira, frente a frente, em torno de um pátio de pedra nua sobre um penhasco",
+        "caption": null
+      },
+      { "alt": "Escada e poço de concreto bruto, com painéis de luz descendo do alto", "caption": null }
+    ],
+    "hints": [
+      "Foi construído para um cientista que queria um lugar onde um Picasso se sentisse em casa, num penhasco acima do oceano.",
+      "Dois blocos de laboratórios emolduram uma praça de pedra, cortada por um fino canal de água que aponta para o horizonte.",
+      "Um arquiteto mexicano aconselhou deixar vazio o pátio entre eles, como uma fachada para o céu."
+    ],
+    "summary": {
+      "description": "Construído entre 1959 e 1965 num penhasco acima do Pacífico, o Instituto Salk foi encomendado por Jonas Salk, pioneiro da vacina contra a pólio, e projetado por Louis Kahn. Dois blocos de laboratórios de concreto e teca se enfrentam em torno de uma praça de travertino, divididos por um fino canal de água que conduz o olhar ao horizonte. Cada pavimento de laboratório é livre de colunas, com pavimentos técnicos entre eles, para que os espaços possam mudar conforme a pesquisa muda.",
+      "keyFeatures": [
+        "Dois blocos de laboratórios espelhados",
+        "Praça central de travertino com canal de água",
+        "Pavimentos de laboratório sem colunas",
+        "Concreto, teca e vidro"
+      ],
+      "funFacts": [
+        "Kahn planejou primeiro o pátio central com jardins, e depois seguiu o conselho de Luis Barragán de deixá-lo vazio.",
+        "Quadros-negros foram embutidos nas paredes das passarelas no lugar do revestimento de concreto, para discussões improvisadas."
+      ]
+    }
+  },
+  "beijing-national-stadium": {
+    "name": "Estádio Nacional de Pequim",
+    "aliases": ["Ninho de Pássaro", "Estádio Olímpico de Pequim", "Bird's Nest", "Estádio Ninho de Pássaro"],
+    "architects": [
+      {
+        "aliases": ["Jacques Herzog", "Pierre de Meuron"],
+        "nationality": "Suíço",
+        "lifespan": "n. 1950",
+        "bio": "Escritório de arquitetura suíço fundado em Basileia, em 1978, por Jacques Herzog e Pierre de Meuron. Venceu o concurso de 2003 para o estádio com um projeto de aço entrelaçado."
+      },
+      {
+        "aliases": [],
+        "nationality": "Chinês",
+        "lifespan": "n. 1957",
+        "bio": "Artista chinês que foi consultor artístico do projeto do estádio, antes de mais tarde se distanciar publicamente dos Jogos Olímpicos."
+      }
+    ],
+    "city": "Pequim",
+    "style": "Expressionismo estrutural",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Nacional_de_Pequim",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Enorme estádio oval envolvido por uma teia de elementos de aço cruzados, sobre terreno aberto",
+        "caption": null
+      },
+      {
+        "alt": "Arquibancada curva e vermelha sob uma abertura no teto, com a treliça de aço à vista acima dos assentos",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi projetado para uma Olimpíada, por um escritório suíço que trabalhou com um artista famoso.",
+      "Suas paredes e seu teto são uma única teia entrelaçada de aço, como gravetos trançados numa cesta.",
+      "Comporta cerca de 80 mil pessoas, ou 91 mil com assentos temporários."
+    ],
+    "summary": {
+      "description": "Projetado pelo escritório suíço Herzog & de Meuron depois de um concurso vencido em abril de 2003, o Estádio Nacional foi construído entre 2004 e 2008 para os Jogos Olímpicos de Verão de Pequim. Sua estrutura e sua fachada são a mesma coisa: uma teia de elementos de aço entrelaçados que parece um ninho de pássaro. Cobre cerca de 204 mil metros quadrados e comporta 80 mil espectadores, ou 91 mil com assentos temporários, e sediou a cerimônia de abertura em 2008 e os Jogos de Inverno de 2022.",
+      "keyFeatures": [
+        "Treliça de aço autoportante",
+        "Fachada e estrutura são uma só",
+        "Assentos para 80 mil espectadores",
+        "Usado nas Olimpíadas de 2008 e de 2022"
+      ],
+      "funFacts": [
+        "Foi usado nos Jogos Olímpicos de Verão de 2008 e de novo nos Jogos de Inverno de 2022.",
+        "Ai Weiwei foi consultor artístico do projeto."
+      ]
+    }
+  },
+  "grand-central-terminal": {
+    "name": "Grand Central Terminal",
+    "aliases": ["Estação Grand Central", "Grand Central Station", "Grand Central", "Terminal Grand Central"],
+    "architects": [
+      {
+        "aliases": ["Whitney Warren", "Charles Wetmore", "Warren & Wetmore"],
+        "nationality": "Americano",
+        "lifespan": "Whitney Warren 1864–1943",
+        "bio": "Escritório de Nova York que projetou o edifício da estação em estilo Beaux-Arts e sua fachada esculpida, em parceria com a Reed and Stem, que cuidou da engenharia e do pátio de trens."
+      },
+      {
+        "aliases": ["Charles A. Reed", "Allen H. Stem", "Reed & Stem"],
+        "nationality": "Americano",
+        "lifespan": "Charles Reed 1858–1911",
+        "bio": "Escritório de St. Paul que venceu o concurso de 1903 e projetou o plano em vários níveis do terminal, com rampas e níveis separados para trens de longa distância e suburbanos."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Beaux-Arts",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Grand_Central",
+    "drawings": [
+      {
+        "label": "Planta do nível expresso",
+        "alt": "Planta de uma estação com saguão, sala de espera, áreas de bilheteria e trilhos que se curvam num dos lados"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Frente de estação de pedra Beaux-Arts, com altas janelas em arco e um grupo escultórico com relógio, em meio a arranha-céus",
+        "caption": null
+      },
+      {
+        "alt": "Vasto salão abobadado com altas janelas em arco e uma multidão de passageiros sob luzes quentes",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um terminal de trens de subúrbio, com mais plataformas do que qualquer outra estação do mundo.",
+      "Seu grande salão tem um teto pintado com as constelações, embora elas sejam mostradas como vistas de fora do céu.",
+      "Quase foi demolido nos anos 1960, e seu salvamento deu origem a uma lei de preservação histórica."
+    ],
+    "summary": {
+      "description": "Inaugurado em 1913, na Rua 42 com a Park Avenue, o Grand Central Terminal é um terminal ferroviário de passageiros conhecido por seu edifício Beaux-Arts e por seu vasto saguão principal. A arquitetura foi obra conjunta dos escritórios Reed and Stem e Warren and Wetmore. Seu plano em vários níveis separa trens e pedestres com rampas, e é o fim sul de três linhas da Metro-North. É a terceira estação mais movimentada da América do Norte.",
+      "keyFeatures": [
+        "Edifício da estação em estilo Beaux-Arts",
+        "Vasto saguão principal com janelas em arco",
+        "Plano em vários níveis com rampas",
+        "Teto celeste"
+      ],
+      "funFacts": [
+        "É a terceira estação ferroviária mais movimentada da América do Norte.",
+        "O Grand Central Madison, uma ampliação de 6,5 hectares sob os trilhos, foi construído de 2007 a 2023."
+      ]
+    }
+  },
+  "lincoln-memorial": {
+    "name": "Memorial Lincoln",
+    "aliases": ["Lincoln Memorial", "Monumento a Lincoln", "Memorial a Abraham Lincoln"],
+    "architects": [
+      {
+        "aliases": ["Bacon"],
+        "nationality": "Americano",
+        "lifespan": "1866–1924",
+        "bio": "Arquiteto americano que projetou o memorial como um templo dórico grego, e que foi um dos primeiros defensores do estilo neoclássico em edifícios públicos."
+      },
+      {
+        "aliases": ["French"],
+        "nationality": "Americano",
+        "lifespan": "1850–1931",
+        "bio": "Escultor americano que em 1920 projetou a grande figura sentada da câmara interior, esculpida em mármore pelos irmãos Piccirilli."
+      }
+    ],
+    "city": "Washington, D.C.",
+    "style": "Neoclássico (templo dórico grego)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Lincoln_Memorial",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Templo de mármore branco com um anel de colunas dóricas sobre uma base em degraus, sob um céu limpo",
+        "caption": null
+      },
+      {
+        "alt": "Gigantesca figura sentada de mármore, com as mãos sobre os braços de uma cadeira, iluminada contra uma câmara escura",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um templo à maneira de um edifício da Grécia antiga, no fim de um longo parque aberto.",
+      "Sua colunata tem 36 colunas, uma para cada estado na época da morte do homem que ele homenageia.",
+      "Homenageia um presidente, e uma enorme figura de mármore dele ocupa sua sala central."
+    ],
+    "summary": {
+      "description": "Inaugurado em 30 de maio de 1922, o Memorial Lincoln homenageia Abraham Lincoln, o 16º presidente dos Estados Unidos, na ponta oeste do National Mall, em Washington, D.C. Seu arquiteto, Henry Bacon, o construiu como um templo neoclássico, com colunas dóricas em volta do exterior. Lá dentro, uma grande estátua projetada por Daniel Chester French e esculpida em mármore pelos irmãos Piccirilli fica diante de murais de Jules Guérin.",
+      "keyFeatures": [
+        "Colunata dórica em torno do exterior",
+        "Grande estátua sentada de mármore de Daniel Chester French",
+        "Murais interiores de Jules Guérin",
+        "Posicionado no fim do Espelho d’Água"
+      ],
+      "funFacts": [
+        "Muitas vezes serviu de centro simbólico de manifestações pelos direitos civis.",
+        "A estátua foi esculpida em mármore pelos irmãos Piccirilli."
+      ]
+    }
+  },
+  "winter-palace": {
+    "name": "Palácio de Inverno",
+    "aliases": [
+      "Hermitage",
+      "Museu Hermitage",
+      "Palácio de Inverno de São Petersburgo",
+      "Palácio de Inverno dos Czares"
+    ],
+    "architects": [
+      {
+        "aliases": ["Francesco Bartolomeo Rastrelli", "Bartolomeo Rastrelli"],
+        "nationality": "Ítalo-russo",
+        "lifespan": "1700–1771",
+        "bio": "Arquiteto da corte das imperatrizes russas Ana e Isabel e mestre do barroco russo, que projetou o atual Palácio de Inverno na década de 1750 e sua grande escadaria."
+      }
+    ],
+    "city": "São Petersburgo",
+    "style": "Barroco isabelino",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Inverno",
+    "drawings": [
+      {
+        "label": "Corte do Grande Salão do Trono",
+        "alt": "Desenho colorido do lado maior de um grande salão, com colunas geminadas, altas janelas e um teto elaborado"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Frente de palácio barroco verde-claro e branco, com detalhes dourados, colunas e altas janelas",
+        "caption": null
+      },
+      {
+        "alt": "Salão do trono forrado de seda vermelha, com colunas brancas e douradas, um trono elevado e um teto dourado",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi a residência oficial dos imperadores de um vasto império por quase dois séculos, até uma revolução.",
+      "Diz-se que tem cerca de 1.500 cômodos, 1.886 portas e 1.945 janelas.",
+      "Sua frente verde-clara e branca é barroca, e hoje abriga um dos grandes museus de arte do mundo."
+    ],
+    "summary": {
+      "description": "O atual Palácio de Inverno, o quarto naquele local, serviu de residência oficial dos imperadores Romanov de 1732 a 1917 e foi construído e alterado quase continuamente do fim da década de 1730 a 1837, quando um incêndio o danificou gravemente e ele foi reconstruído de imediato. Seu projeto barroco é obra de Bartolomeo Francesco Rastrelli. Tem cerca de 1.500 cômodos, 1.886 portas e 1.945 janelas, e hoje abriga o Museu Hermitage.",
+      "keyFeatures": [
+        "Projeto barroco isabelino de Rastrelli",
+        "Fachada verde-clara com detalhes brancos e dourados",
+        "Cerca de 1.500 cômodos e 117 escadarias",
+        "Hoje parte do Museu Hermitage"
+      ],
+      "funFacts": [
+        "Foi reconstruído imediatamente depois do incêndio de 1837.",
+        "A tomada do palácio em 1917 virou símbolo da Revolução de Outubro."
+      ]
+    }
+  },
+  "schonbrunn-palace": {
+    "name": "Palácio de Schönbrunn",
+    "aliases": ["Schloss Schönbrunn", "Palácio Schönbrunn", "Schönbrunn", "Schonbrunn"],
+    "architects": [
+      {
+        "aliases": ["Fischer von Erlach"],
+        "nationality": "Austríaco",
+        "lifespan": "1656–1723",
+        "bio": "Principal arquiteto do barroco austríaco, que traçou os ambiciosos planos de um palácio imperial de verão em Schönbrunn a partir da década de 1690."
+      },
+      {
+        "aliases": ["Nicolaus Pacassi", "Pacassi"],
+        "nationality": "Austríaco",
+        "lifespan": "1716–1790",
+        "bio": "Arquiteto da corte da imperatriz Maria Teresa, que remodelou o palácio em estilo rococó em meados do século XVIII e lhe deu a forma atual."
+      }
+    ],
+    "city": "Viena",
+    "style": "Barroco e rococó austríaco",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_Sch%C3%B6nbrunn",
+    "drawings": [
+      {
+        "label": "Planta do palácio",
+        "alt": "Planta simples de um palácio muito longo, com um bloco central, alas salientes e dois vãos com cúpula do lado do jardim"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Ornamentado portão de ferro verde enquadrando, ao fundo, um longo palácio amarelo-claro",
+        "caption": null
+      },
+      { "alt": "Longo palácio claro visto de uma colina, do outro lado de jardins formais e fontes", "caption": null },
+      {
+        "alt": "Teto pintado com uma cena lotada de figuras entre nuvens, emoldurada por estuque branco e dourado",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi a principal residência de verão de uma dinastia imperial, e o nome significa «bela fonte».",
+      "Diz-se que tem 1.441 cômodos, e seu enorme jardim faz parte do mesmo projeto.",
+      "É um palácio barroco remodelado em estilo rococó para uma imperatriz que teve dezesseis filhos."
+    ],
+    "summary": {
+      "description": "Schönbrunn foi a principal residência de verão dos governantes Habsburgo, no 13º distrito de Viena. O palácio barroco de 1.441 cômodos, um dos mais importantes monumentos arquitetônicos, culturais e históricos da Áustria, cresceu ao longo de mais de 300 anos, refletindo o gosto cambiante de sucessivos monarcas. Seus planos foram desenhados primeiro por Johann Bernhard Fischer von Erlach, e ele foi remodelado para a imperatriz Maria Teresa por Nikolaus Pacassi. É grande atração turística desde meados da década de 1950.",
+      "keyFeatures": [
+        "1.441 cômodos",
+        "Interiores barrocos e rococós",
+        "Grande Galeria com pinturas no teto",
+        "Vastos jardins formais com a Gloriette"
+      ],
+      "funFacts": [
+        "O imperador Francisco José nasceu aqui e morreu aqui em 1916, aos 86 anos.",
+        "O nome significa «bela fonte», por causa de um poço artesiano."
+      ]
+    }
+  },
+  "taipei-101": {
+    "name": "Taipei 101",
+    "aliases": ["Taipei World Financial Center", "Torre Taipei 101", "Centro Financeiro Mundial de Taipé"],
+    "architects": [
+      {
+        "aliases": ["Lee Chu-yuan", "CY Lee"],
+        "nationality": "Taiwanês",
+        "lifespan": null,
+        "bio": "Arquiteto taiwanês cujo escritório, C. Y. Lee & Partners, projetou a torre, inspirando-se no formato do bambu, em pagodes asiáticos tradicionais e no número oito, de bom augúrio."
+      }
+    ],
+    "city": "Taipé",
+    "style": "Pós-modernismo e neofuturismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Taipei_101",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Alta torre de vidro verde feita de segmentos empilhados e alargados, erguendo-se acima de construções baixas contra um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Uma enorme esfera dourada de aço pendurada em grossos cabos dentro de um poço circular, vista de cima",
+        "caption": "Um gigantesco pêndulo de aço fica pendurado nos andares superiores."
+      },
+      {
+        "alt": "Amplo salão de observação aberto, com piso polido, janelas do piso ao teto e visitantes",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi o edifício mais alto do mundo desde sua inauguração, no último dia de 2004, até 2009.",
+      "Seus oito segmentos empilhados e alargados lembram os gomos do bambu e um pagode, e o oito é um número de sorte ali.",
+      "Uma gigantesca bola dourada de aço fica pendurada nos andares superiores para mantê-lo estável em tufões e terremotos."
+    ],
+    "summary": {
+      "description": "O Taipei 101, antes chamado Centro Financeiro Mundial de Taipé, é um arranha-céu de 508 metros e 101 andares em Taipé, Taiwan. Seu projeto pós-modernista e neofuturista evoca a estética tradicional asiática numa estrutura moderna, com segmentos empilhados e alargados como um pagode ou um bambu. Foi oficialmente o edifício mais alto do mundo desde a inauguração, em 31 de dezembro de 2004, até ser superado pelo Burj Khalifa em 2009. Um amortecedor de massa sintonizada nos andares superiores contrabalança o balanço causado por vento e terremotos.",
+      "keyFeatures": [
+        "Oito segmentos empilhados e alargados",
+        "Esfera do amortecedor de massa sintonizada",
+        "508 metros e 101 andares",
+        "Shopping com o maior símbolo ruyi do mundo"
+      ],
+      "funFacts": [
+        "Foi o edifício mais alto do mundo de 2004 a 2009.",
+        "É o cenário de uma célebre queima de fogos de Réveillon."
+      ]
+    }
+  }
+}

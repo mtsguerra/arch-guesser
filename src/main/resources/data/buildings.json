@@ -13300,5 +13300,582 @@
         "Soviet soldiers left graffiti on its walls in 1945, which was kept in the rebuilding."
       ]
     }
+  },
+  {
+    "id": "centre-pompidou",
+    "name": "Centre Pompidou",
+    "aliases": ["Pompidou Centre", "Centre Georges Pompidou", "Centre Georges-Pompidou", "Beaubourg", "Pompidou"],
+    "architects": [
+      {
+        "name": "Renzo Piano",
+        "aliases": ["Piano"],
+        "lifespan": "b. 1937",
+        "nationality": "Italian",
+        "bio": "Italian architect who, with Richard Rogers, won the 1971 competition for the cultural centre with a radical design that put its structure and pipes on the outside."
+      },
+      {
+        "name": "Richard Rogers",
+        "aliases": ["Rogers", "Lord Rogers"],
+        "lifespan": "1933–2021",
+        "nationality": "British-Italian",
+        "bio": "British architect and a leader of high-tech architecture, who designed the Pompidou Centre with Renzo Piano, Gianfranco Franchini and Su Rogers."
+      },
+      {
+        "name": "Gianfranco Franchini",
+        "aliases": ["Franchini"],
+        "lifespan": "1938–2009",
+        "nationality": "Italian",
+        "bio": "Italian architect who was the third principal partner of the team that won the Pompidou Centre competition."
+      }
+    ],
+    "location": { "city": "Paris", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1977,
+    "era": "MODERNISM",
+    "style": "High-tech (late Modernism)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Centre_Pompidou",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Centre_Pompidou_%40_Jardin_Anne-Frank.jpg/1920px-Centre_Pompidou_%40_Jardin_Anne-Frank.jpg",
+        "alt": "Blue, red and white tubes and ducts stacked on the outside of a building above old Paris rooftops",
+        "credit": "Photo: Rémih · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Centre_Pompidou_@_Jardin_Anne-Frank.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Apud_la_Centro_Georges-Pompidou_3.jpg/1920px-Apud_la_Centro_Georges-Pompidou_3.jpg",
+        "alt": "Huge white steel supports with rounded hinge joints against a cobbled pavement",
+        "credit": "Photo: RG72 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apud_la_Centro_Georges-Pompidou_3.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Interior_of_the_Centre_Pompidou_2.jpg/1920px-Interior_of_the_Centre_Pompidou_2.jpg",
+        "alt": "Open hall with a grey floor, ticket desks and blue ducts and steel beams running across the ceiling",
+        "credit": "Photo: DiscoA340 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Centre_Pompidou_2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was designed to be turned inside out: its structure, stairs and service pipes are all on the outside."
+      },
+      {
+        "order": 2,
+        "text": "Its pipes are colour-coded, with blue for air, green for water, yellow for electricity and red for movement."
+      },
+      {
+        "order": 3,
+        "text": "It was named after a president, and it caused a scandal in an old district of its capital when it opened."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Richard Rogers, Su Rogers and Renzo Piano, with Gianfranco Franchini, the Pompidou Centre is a landmark of high-tech architecture. It stands in the Beaubourg district of Paris and was named after Georges Pompidou, the president of France from 1969 to 1974. Its structure, escalators and service ducts are placed on the outside and painted in bright colours, leaving large open floors free inside for changing uses. It opened in 1977 and houses a modern art museum and a public library.",
+      "keyFeatures": [
+        "Structure and services expressed on the outside",
+        "Colour-coded pipes and ducts",
+        "Glass-enclosed escalator running up the façade",
+        "Large, flexible open floors"
+      ],
+      "funFacts": [
+        "It was named after Georges Pompidou, president of France from 1969 to 1974.",
+        "The team won an international competition in 1971 with a design that many critics found shocking."
+      ]
+    }
+  },
+  {
+    "id": "salk-institute",
+    "name": "Salk Institute",
+    "aliases": ["Salk Institute for Biological Studies", "Salk", "The Salk Institute La Jolla"],
+    "architects": [
+      {
+        "name": "Louis Kahn",
+        "aliases": ["Louis I. Kahn", "Louis Isadore Kahn", "Kahn"],
+        "lifespan": "1901–1974",
+        "nationality": "American (Estonian-born)",
+        "bio": "Philadelphia architect known for monumental, light-filled buildings in concrete and brick, who designed the Salk Institute between 1959 and 1965 with the advice of the Mexican architect Luis Barragán."
+      }
+    ],
+    "location": { "city": "La Jolla", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1965,
+    "era": "MODERNISM",
+    "style": "Modernism (monumental concrete)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salk_Institute_for_Biological_Studies",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/2019_Salk_Institute_from_east.jpg/1920px-2019_Salk_Institute_from_east.jpg",
+        "alt": "Two parallel stepped concrete and timber buildings facing each other across a bare stone court on a bluff",
+        "credit": "Photo: Beyond My Ken · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_from_east.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2019_Salk_Institute_north_building_stairs_and_skylight.jpg/1920px-2019_Salk_Institute_north_building_stairs_and_skylight.jpg",
+        "alt": "Raw concrete stair and shaft, with panels of light coming down from above",
+        "credit": "Photo: Beyond My Ken · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2019_Salk_Institute_north_building_stairs_and_skylight.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for a scientist who wanted a place where a Picasso might be at home, on a cliff above the ocean."
+      },
+      {
+        "order": 2,
+        "text": "Two laboratory blocks frame a stone plaza, split by a thin channel of water that points to the horizon."
+      },
+      { "order": 3, "text": "A Mexican architect advised leaving the court between them bare, as a façade to the sky." }
+    ],
+    "summary": {
+      "description": "Built between 1959 and 1965 on a bluff above the Pacific, the Salk Institute was commissioned by the polio vaccine pioneer Jonas Salk and designed by Louis Kahn. Two laboratory blocks of concrete and teak face each other across a travertine plaza, divided by a thin channel of water that leads the eye to the horizon. Each laboratory floor is free of columns, with service floors in between, so the spaces can be changed as research changes.",
+      "keyFeatures": [
+        "Two mirrored laboratory blocks",
+        "Central travertine plaza with a water channel",
+        "Column-free laboratory floors",
+        "Concrete, teak and glass"
+      ],
+      "funFacts": [
+        "Kahn first planned the central court with gardens, then followed the advice of Luis Barragán to leave it bare.",
+        "Blackboards were set into the walkway walls in place of concrete facing, for impromptu discussion."
+      ]
+    }
+  },
+  {
+    "id": "beijing-national-stadium",
+    "name": "Beijing National Stadium",
+    "aliases": ["Bird's Nest", "Birds Nest", "Beijing Olympic Stadium", "National Stadium Beijing", "Niaochao"],
+    "architects": [
+      {
+        "name": "Herzog & de Meuron",
+        "aliases": ["Jacques Herzog", "Pierre de Meuron", "Herzog and de Meuron"],
+        "lifespan": "b. 1950",
+        "nationality": "Swiss",
+        "bio": "Swiss architecture firm founded in Basel in 1978 by Jacques Herzog and Pierre de Meuron. It won the 2003 competition for the stadium with a design of interwoven steel."
+      },
+      {
+        "name": "Ai Weiwei",
+        "aliases": ["Ai Wei Wei"],
+        "lifespan": "b. 1957",
+        "nationality": "Chinese",
+        "bio": "Chinese artist who was the artistic consultant on the stadium design, before later publicly distancing himself from the Olympics."
+      }
+    ],
+    "location": { "city": "Beijing", "country": "China", "countryCode": "CN" },
+    "yearCompleted": 2008,
+    "era": "CONTEMPORARY",
+    "style": "Structural expressionism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beijing_National_Stadium",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Beijing_national_stadium_1.jpg/1920px-Beijing_national_stadium_1.jpg",
+        "alt": "Huge oval stadium wrapped in a web of crossing steel members, standing on open land",
+        "credit": "Photo: Arne Müseler · CC BY-SA 3.0 de · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Beijing_national_stadium_1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Inside_Birds_nest_2012.JPG/1920px-Inside_Birds_nest_2012.JPG",
+        "alt": "Curving red seating bowl under a roof opening, with the steel lattice visible above the stands",
+        "credit": "Photo: Løken · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_Birds_nest_2012.JPG"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was designed for an Olympic Games, by a Swiss practice working with a famous artist." },
+      { "order": 2, "text": "Its walls and roof are one interwoven web of steel, like twigs woven into a basket." },
+      { "order": 3, "text": "It can hold about 80,000 people, or 91,000 with temporary seating." }
+    ],
+    "summary": {
+      "description": "Designed by the Swiss firm Herzog & de Meuron after a competition won in April 2003, the National Stadium was built between 2004 and 2008 for the Beijing Summer Olympics. Its structure and its façade are the same thing: a web of interlaced steel members that looks like a bird's nest. It covers about 204,000 square metres and holds 80,000 spectators, or 91,000 with temporary seating, and it hosted the opening ceremony in 2008 and the 2022 Winter Games.",
+      "keyFeatures": [
+        "Self-supporting steel lattice",
+        "Façade and structure are one",
+        "Seating for 80,000 spectators",
+        "Used for both the 2008 and 2022 Olympics"
+      ],
+      "funFacts": [
+        "It was used for the 2008 Summer Olympics and again for the 2022 Winter Olympics.",
+        "Ai Weiwei served as the artistic consultant on the design."
+      ]
+    }
+  },
+  {
+    "id": "grand-central-terminal",
+    "name": "Grand Central Terminal",
+    "aliases": ["Grand Central Station", "Grand Central", "Grand Central New York", "GCT"],
+    "architects": [
+      {
+        "name": "Warren and Wetmore",
+        "aliases": ["Whitney Warren", "Charles Wetmore", "Warren & Wetmore"],
+        "lifespan": "Whitney Warren 1864–1943",
+        "nationality": "American",
+        "bio": "New York firm that designed the Beaux-Arts station house and its sculpted façade, in partnership with Reed and Stem, which handled the engineering and the train shed."
+      },
+      {
+        "name": "Reed and Stem",
+        "aliases": ["Charles A. Reed", "Allen H. Stem", "Reed & Stem"],
+        "lifespan": "Charles Reed 1858–1911",
+        "nationality": "American",
+        "bio": "St. Paul firm that won the 1903 competition and designed the multi-level plan of the terminal, with its ramps and separate levels for long-distance and suburban trains."
+      }
+    ],
+    "location": { "city": "New York", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1913,
+    "era": "HISTORICISM",
+    "style": "Beaux-Arts",
+    "wikipedia": "https://en.wikipedia.org/wiki/Grand_Central_Terminal",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the express floor level",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Grand_Central_Terminal_1913_plans_01.jpg/1920px-Grand_Central_Terminal_1913_plans_01.jpg",
+        "alt": "Plan of a station with a concourse, a waiting room, ticket areas and tracks curving away at one side",
+        "credit": "Grand Central Terminal architects, 1913 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Grand_Central_Terminal_1913_plans_01.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/GCT_exterior.jpg/1920px-GCT_exterior.jpg",
+        "alt": "Beaux-Arts stone station front with tall arched windows and a sculpted clock group, set among skyscrapers",
+        "credit": "Photo: Ɱ · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:GCT_exterior.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Grand_Central_Terminal_Main_Concourse_2015.JPG/1920px-Grand_Central_Terminal_Main_Concourse_2015.JPG",
+        "alt": "Vast vaulted hall with tall arched windows and a crowd of commuters under warm lights",
+        "credit": "Photo: Steven Lek · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Grand_Central_Terminal_Main_Concourse_2015.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a terminal for commuter trains, with more platforms than any other station in the world."
+      },
+      {
+        "order": 2,
+        "text": "Its great hall has a ceiling painted with the constellations, though it is shown as seen from outside the sky."
+      },
+      { "order": 3, "text": "It was nearly demolished in the 1960s, and its rescue made a landmark law." }
+    ],
+    "summary": {
+      "description": "Opened in 1913 at 42nd Street and Park Avenue, Grand Central Terminal is a commuter rail terminal known for its Beaux-Arts station house and its vast main concourse. The architecture was a joint work of the firms Reed and Stem and Warren and Wetmore. Its multi-level plan separates trains and pedestrians with ramps, and it is the southern end of three Metro-North lines. It is the third-busiest station in North America.",
+      "keyFeatures": [
+        "Beaux-Arts station house",
+        "Vast main concourse with arched windows",
+        "Multi-level plan with ramps",
+        "Celestial ceiling"
+      ],
+      "funFacts": [
+        "It is the third-busiest train station in North America.",
+        "Grand Central Madison, a 16-acre addition under the tracks, was built from 2007 to 2023."
+      ]
+    }
+  },
+  {
+    "id": "lincoln-memorial",
+    "name": "Lincoln Memorial",
+    "aliases": ["Lincoln Monument", "Abraham Lincoln Memorial", "The Lincoln Memorial"],
+    "architects": [
+      {
+        "name": "Henry Bacon",
+        "aliases": ["Bacon"],
+        "lifespan": "1866–1924",
+        "nationality": "American",
+        "bio": "American architect who designed the memorial as a Greek Doric temple, and who was an early champion of the Neoclassical style in public buildings."
+      },
+      {
+        "name": "Daniel Chester French",
+        "aliases": ["French"],
+        "lifespan": "1850–1931",
+        "nationality": "American",
+        "bio": "American sculptor who in 1920 designed the large seated figure in the interior chamber, which the Piccirilli brothers carved in marble."
+      }
+    ],
+    "location": { "city": "Washington, D.C.", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1922,
+    "era": "NEOCLASSICAL",
+    "style": "Neoclassical (Greek Doric temple)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lincoln_Memorial",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Lincoln_Memorial_east_side.JPG/1920px-Lincoln_Memorial_east_side.JPG",
+        "alt": "White marble temple with a ring of Doric columns on a stepped base, under a clear sky",
+        "credit": "Photo: Martin Falbisoner · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lincoln_Memorial_east_side.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Lincoln_Memorial.jpg/1920px-Lincoln_Memorial.jpg",
+        "alt": "Giant seated marble figure with his hands resting on the arms of a chair, lit against a dark chamber",
+        "credit": "Photo: Jeff Kubina · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lincoln_Memorial.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a temple in the form of an ancient Greek building, at the end of a long open park."
+      },
+      {
+        "order": 2,
+        "text": "Its colonnade has 36 columns, one for each state at the time of the death of the man it honours."
+      },
+      { "order": 3, "text": "It honours a president, and a huge marble figure of him fills its central room." }
+    ],
+    "summary": {
+      "description": "Dedicated on 30 May 1922, the Lincoln Memorial honours Abraham Lincoln, the 16th president of the United States, at the western end of the National Mall in Washington, D.C. Its architect, Henry Bacon, built it as a neoclassical temple in the form of a classical temple with Doric columns around the exterior. Inside, a large statue designed by Daniel Chester French and carved in marble by the Piccirilli brothers sits in front of murals by Jules Guérin.",
+      "keyFeatures": [
+        "Doric colonnade around the exterior",
+        "Large seated marble statue by Daniel Chester French",
+        "Interior murals by Jules Guérin",
+        "Placed at the end of the Reflecting Pool"
+      ],
+      "funFacts": [
+        "It has often been used as a symbolic centre for civil rights gatherings.",
+        "The statue was carved from marble by the Piccirilli brothers."
+      ]
+    }
+  },
+  {
+    "id": "winter-palace",
+    "name": "Winter Palace",
+    "aliases": [
+      "Hermitage",
+      "State Hermitage Museum",
+      "Winter Palace Saint Petersburg",
+      "Zimny Dvorets",
+      "Winter Palace of the Tsars"
+    ],
+    "architects": [
+      {
+        "name": "Bartolomeo Francesco Rastrelli",
+        "aliases": ["Rastrelli", "Francesco Bartolomeo Rastrelli", "Bartolomeo Rastrelli"],
+        "lifespan": "1700–1771",
+        "nationality": "Italian-Russian",
+        "bio": "Court architect of the Russian empresses Anna and Elizabeth, and the master of the Russian Baroque, who designed the present Winter Palace in the 1750s and its great staircase."
+      }
+    ],
+    "location": { "city": "Saint Petersburg", "country": "Russia", "countryCode": "RU" },
+    "yearCompleted": 1762,
+    "era": "BAROQUE",
+    "style": "Elizabethan Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Winter_Palace",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "Section of the Great Throne Room",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Longitudinal_Section_of_Great_Throne_Room_%28Saint_George%27s_Hall%29%2C_Winter_Palace%2C_Saint_Petersburg_MET_DP339578.jpg/1920px-Longitudinal_Section_of_Great_Throne_Room_%28Saint_George%27s_Hall%29%2C_Winter_Palace%2C_Saint_Petersburg_MET_DP339578.jpg",
+        "alt": "Colour drawing of the long side of a grand hall with paired columns, tall windows and an elaborate ceiling",
+        "credit": "Giacomo Quarenghi · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Longitudinal_Section_of_Great_Throne_Room_(Saint_George%27s_Hall),_Winter_Palace,_Saint_Petersburg_MET_DP339578.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hermitage_West_facade_Saint_Petersburg_central_wing.jpg/1920px-Hermitage_West_facade_Saint_Petersburg_central_wing.jpg",
+        "alt": "Pale green and white Baroque palace front with gilded details, columns and tall windows",
+        "credit": "Photo: This Photo was taken by Wolfgang Moroder. Feel free to use m · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hermitage_West_facade_Saint_Petersburg_central_wing.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Small_Throne_Room_of_the_Winter_Palace.jpg/1920px-Small_Throne_Room_of_the_Winter_Palace.jpg",
+        "alt": "Red silk-lined throne room with white and gold columns, a raised throne and a gilded ceiling",
+        "credit": "Photo: Balsamic Fan · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Small_Throne_Room_of_the_Winter_Palace.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was the official home of the emperors of a vast empire for almost two centuries, until a revolution."
+      },
+      { "order": 2, "text": "It is said to have about 1,500 rooms, 1,886 doors and 1,945 windows." },
+      {
+        "order": 3,
+        "text": "Its pale green and white front is Baroque, and it now houses one of the world’s great art museums."
+      }
+    ],
+    "summary": {
+      "description": "The present Winter Palace, the fourth on its site, served as the official residence of the Romanov emperors from 1732 to 1917 and was built and altered almost continuously between the late 1730s and 1837, when a fire severely damaged it and it was immediately rebuilt. Its Baroque design is the work of Bartolomeo Francesco Rastrelli. It contains about 1,500 rooms, 1,886 doors and 1,945 windows, and now houses the Hermitage Museum.",
+      "keyFeatures": [
+        "Elizabethan Baroque design by Rastrelli",
+        "Pale green façade with white and gold detail",
+        "About 1,500 rooms and 117 staircases",
+        "Now part of the Hermitage Museum"
+      ],
+      "funFacts": [
+        "It was rebuilt immediately after the fire of 1837.",
+        "The storming of the palace in 1917 became a symbol of the October Revolution."
+      ]
+    }
+  },
+  {
+    "id": "schonbrunn-palace",
+    "name": "Schönbrunn Palace",
+    "aliases": ["Schloss Schönbrunn", "Schonbrunn Palace", "Schonbrunn", "Schoenbrunn Palace", "Schönbrunn"],
+    "architects": [
+      {
+        "name": "Johann Bernhard Fischer von Erlach",
+        "aliases": ["Fischer von Erlach"],
+        "lifespan": "1656–1723",
+        "nationality": "Austrian",
+        "bio": "Leading architect of the Austrian Baroque, who drew up the ambitious plans for an imperial summer palace at Schönbrunn from the 1690s."
+      },
+      {
+        "name": "Nikolaus Pacassi",
+        "aliases": ["Nicolaus Pacassi", "Pacassi"],
+        "lifespan": "1716–1790",
+        "nationality": "Austrian",
+        "bio": "Court architect of Empress Maria Theresa, who remodelled the palace in the Rococo style in the mid-18th century and gave it its present form."
+      }
+    ],
+    "location": { "city": "Vienna", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1750,
+    "era": "BAROQUE",
+    "style": "Austrian Baroque and Rococo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Plan of the palace",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Schoenbrunn_Palace_plan2_ohne_Nummerierung.svg/1920px-Schoenbrunn_Palace_plan2_ohne_Nummerierung.svg.png",
+        "alt": "Simple plan of a very long palace with a central block, projecting wings and two domed bays on the garden side",
+        "credit": "Gryffindor · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Schoenbrunn_Palace_plan2_ohne_Nummerierung.svg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Palacio_de_Sch%C3%B6nbrunn%2C_Viena%2C_Austria%2C_2020-02-02%2C_DD_10.jpg/1920px-Palacio_de_Sch%C3%B6nbrunn%2C_Viena%2C_Austria%2C_2020-02-02%2C_DD_10.jpg",
+        "alt": "Ornate green iron garden gate framing a long pale yellow palace in the distance",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_Sch%C3%B6nbrunn,_Viena,_Austria,_2020-02-02,_DD_10.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Schoenbrunn_Palace_as_seen_from_Neptune_Fountain%2C_September_2016.jpg/1920px-Schoenbrunn_Palace_as_seen_from_Neptune_Fountain%2C_September_2016.jpg",
+        "alt": "Long pale palace seen from a hill across formal gardens and fountains",
+        "credit": "Photo: Martin Falbisoner · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Schoenbrunn_Palace_as_seen_from_Neptune_Fountain,_September_2016.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Austria-00180_-_Great_Gallery_%289163501955%29.jpg/1920px-Austria-00180_-_Great_Gallery_%289163501955%29.jpg",
+        "alt": "Ceiling painted with a crowded scene of figures in clouds, framed in white and gold stucco",
+        "credit": "Photo: Dennis G. Jarvis · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Austria-00180_-_Great_Gallery_(9163501955).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was the main summer residence of an imperial dynasty, and the name means \"beautiful spring\"."
+      },
+      { "order": 2, "text": "It is said to have 1,441 rooms, and its enormous garden is part of the same design." },
+      {
+        "order": 3,
+        "text": "It is a Baroque palace that was remodelled in the Rococo style for an empress who had sixteen children."
+      }
+    ],
+    "summary": {
+      "description": "Schönbrunn was the main summer residence of the Habsburg rulers, located in the 13th district of Vienna. The 1,441-room Baroque palace, one of the most important architectural, cultural and historic monuments in Austria, grew over more than 300 years, reflecting the changing tastes of successive monarchs. Its plans were first drawn by Johann Bernhard Fischer von Erlach, and it was remodelled for Empress Maria Theresa by Nikolaus Pacassi. It has been a major tourist attraction since the mid-1950s.",
+      "keyFeatures": [
+        "1,441 rooms",
+        "Baroque and Rococo interiors",
+        "Great Gallery with ceiling paintings",
+        "Vast formal gardens with the Gloriette"
+      ],
+      "funFacts": [
+        "Emperor Franz Joseph was born here and died here in 1916, aged 86.",
+        "The name means \"beautiful spring\", after an artesian well."
+      ]
+    }
+  },
+  {
+    "id": "taipei-101",
+    "name": "Taipei 101",
+    "aliases": ["Taipei World Financial Center", "Taipei Tower", "Taipei 101 Tower", "TWFC"],
+    "architects": [
+      {
+        "name": "C. Y. Lee",
+        "aliases": ["Lee Chu-yuan", "C.Y. Lee & Partners", "CY Lee"],
+        "lifespan": null,
+        "nationality": "Taiwanese",
+        "bio": "Taiwanese architect whose firm C. Y. Lee & Partners designed the tower, drawing on the shape of bamboo and on traditional Asian pagodas and the auspicious number eight."
+      }
+    ],
+    "location": { "city": "Taipei", "country": "Taiwan", "countryCode": "TW" },
+    "yearCompleted": 2004,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism and neo-futurism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taipei_101",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/20190418_Taipei_101-4.jpg/1920px-20190418_Taipei_101-4.jpg",
+        "alt": "Tall green glass tower made of stacked flared segments, rising above low buildings against a blue sky",
+        "credit": "Photo: Balon Greyjoy · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:20190418_Taipei_101-4.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Taipei_101_Tuned_Mass_Damper_2010.jpg/1920px-Taipei_101_Tuned_Mass_Damper_2010.jpg",
+        "alt": "A huge golden steel sphere hanging on thick cables inside a circular shaft, seen from above",
+        "caption": "A giant steel pendulum hangs inside the upper floors.",
+        "credit": "Photo: Armand du Plessis · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Taipei_101_Tuned_Mass_Damper_2010.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Taipei_101_Observatory_89F_2019.jpg/1920px-Taipei_101_Observatory_89F_2019.jpg",
+        "alt": "Wide open observation hall with a polished floor, floor-to-ceiling windows and visitors",
+        "credit": "Photo: Wpcpey · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Taipei_101_Observatory_89F_2019.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was the tallest building in the world from its opening on the last day of 2004 until 2009."
+      },
+      {
+        "order": 2,
+        "text": "Its eight stacked, flared sections recall the segments of bamboo and a pagoda, and eight is a lucky number there."
+      },
+      {
+        "order": 3,
+        "text": "A giant golden steel ball hangs inside its upper floors to keep it steady in typhoons and earthquakes."
+      }
+    ],
+    "summary": {
+      "description": "Taipei 101, formerly the Taipei World Financial Center, is a 508-metre, 101-storey skyscraper in Taipei, Taiwan. Its postmodernist and neo-futurist design evokes traditional Asian aesthetics in a modern structure, with stacked, flared segments like a pagoda or bamboo. It was officially the tallest building in the world from its opening on 31 December 2004 until it was surpassed by the Burj Khalifa in 2009. A tuned mass damper in the upper floors counters wind and earthquake sway.",
+      "keyFeatures": [
+        "Eight stacked flared segments",
+        "Tuned mass damper sphere",
+        "508 metres and 101 storeys",
+        "Shopping mall with the world’s largest ruyi symbol"
+      ],
+      "funFacts": [
+        "It was the tallest building in the world from 2004 to 2009.",
+        "It is the setting of a famous New Year’s Eve fireworks display."
+      ]
+    }
   }
 ]
