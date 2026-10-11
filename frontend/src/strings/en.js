@@ -14,10 +14,12 @@ export default {
   eras: {
     CLASSICAL: 'Classical Antiquity',
     BYZANTINE: 'Byzantine',
+    ISLAMIC: 'Islamic & Moorish',
     MEDIEVAL: 'Romanesque & Gothic',
     OTTOMAN: 'Ottoman',
     MANUELINE: 'Manueline',
     RENAISSANCE: 'Renaissance',
+    MANNERISM: 'Mannerism',
     BAROQUE: 'Baroque',
     NEOCLASSICAL: 'Neoclassical',
     HISTORICISM: 'Historicism & Gothic Revival',

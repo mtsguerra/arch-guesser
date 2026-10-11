@@ -16,8 +16,8 @@ const MIN_WORD = 4
 /**
  * Eras that blur into each other, so a guess of either counts ("close enough").
  * The locked field then shows the canonical era, so the player still learns it.
- * Modernism, Brutalism and Contemporary overlap in practice: late Niemeyer or
- * Paulista Brutalism after 1990 is tagged Contemporary.
+ * Modernism, Brutalism and Contemporary overlap in practice. A building's era
+ * is the style it is known for, not its date: late Niemeyer is Modernism.
  */
 const CLOSE_ERAS = [
   ['MODERNISM', 'BRUTALISM'],
@@ -29,6 +29,9 @@ const CLOSE_ERAS = [
   ['NEOCLASSICAL', 'HISTORICISM'],
   ['MANUELINE', 'MEDIEVAL'],
   ['MANUELINE', 'RENAISSANCE'],
+  ['MANNERISM', 'RENAISSANCE'],
+  ['MANNERISM', 'BAROQUE'],
+  ['ISLAMIC', 'MEDIEVAL'],
 ]
 
 export function eraMatches(guess, answer) {

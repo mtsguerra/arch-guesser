@@ -849,7 +849,7 @@
     ],
     "location": { "city": "Niterói, Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
     "yearCompleted": 1996,
-    "era": "CONTEMPORARY",
+    "era": "MODERNISM",
     "style": "Late Modernism",
     "drawings": [],
     "photos": [
@@ -906,7 +906,7 @@
     ],
     "location": { "city": "Curitiba, Paraná", "country": "Brazil", "countryCode": "BR" },
     "yearCompleted": 2002,
-    "era": "CONTEMPORARY",
+    "era": "MODERNISM",
     "style": "Late Modernism",
     "drawings": [],
     "photos": [
@@ -3799,7 +3799,7 @@
     ],
     "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
     "yearCompleted": 1590,
-    "era": "RENAISSANCE",
+    "era": "MANNERISM",
     "style": "Mannerist",
     "drawings": [],
     "photos": [
@@ -3863,7 +3863,7 @@
     ],
     "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
     "yearCompleted": 1629,
-    "era": "RENAISSANCE",
+    "era": "MANNERISM",
     "style": "Mannerist",
     "drawings": [],
     "photos": [
@@ -3920,7 +3920,7 @@
     ],
     "location": { "city": "Coimbra", "country": "Portugal", "countryCode": "PT" },
     "yearCompleted": 1640,
-    "era": "RENAISSANCE",
+    "era": "MANNERISM",
     "style": "Mannerist and Baroque",
     "drawings": [],
     "photos": [
@@ -5297,7 +5297,7 @@
     ],
     "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
     "yearCompleted": 1935,
-    "era": "ART_DECO",
+    "era": "MODERNISM",
     "style": "Modernism with Art Deco traits",
     "drawings": [],
     "photos": [
@@ -5756,7 +5756,7 @@
     ],
     "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
     "yearCompleted": 1999,
-    "era": "CONTEMPORARY",
+    "era": "MODERNISM",
     "style": "Contemporary Modernism",
     "drawings": [],
     "photos": [
@@ -5816,7 +5816,7 @@
     ],
     "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
     "yearCompleted": 1992,
-    "era": "CONTEMPORARY",
+    "era": "MODERNISM",
     "style": "Contemporary Modernism",
     "drawings": [],
     "photos": [
@@ -5936,7 +5936,7 @@
     ],
     "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
     "yearCompleted": 1998,
-    "era": "CONTEMPORARY",
+    "era": "MODERNISM",
     "style": "Contemporary Modernism",
     "drawings": [],
     "photos": [
@@ -6335,8 +6335,8 @@
     ],
     "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
     "yearCompleted": 2015,
-    "era": "CONTEMPORARY",
-    "style": "Contemporary (Brutalist influence)",
+    "era": "BRUTALISM",
+    "style": "Brutalism (contemporary)",
     "drawings": [],
     "photos": [
       {
@@ -7842,7 +7842,7 @@
     ],
     "location": { "city": "Florence", "country": "Italy", "countryCode": "IT" },
     "yearCompleted": 1571,
-    "era": "RENAISSANCE",
+    "era": "MANNERISM",
     "style": "Mannerism",
     "drawings": [],
     "photos": [
@@ -10246,7 +10246,7 @@
     ],
     "location": { "city": "Córdoba", "country": "Spain", "countryCode": "ES" },
     "yearCompleted": 987,
-    "era": "MEDIEVAL",
+    "era": "ISLAMIC",
     "style": "Moorish (Umayyad)",
     "drawings": [],
     "photos": [
@@ -10301,7 +10301,7 @@
     ],
     "location": { "city": "Granada", "country": "Spain", "countryCode": "ES" },
     "yearCompleted": 1391,
-    "era": "MEDIEVAL",
+    "era": "ISLAMIC",
     "style": "Nasrid (Moorish)",
     "drawings": [],
     "photos": [
