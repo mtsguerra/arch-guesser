@@ -14382,5 +14382,300 @@
         "It is also known as Vuoksenniska Church."
       ]
     }
+  },
+  {
+    "id": "taliesin-west",
+    "name": "Taliesin West",
+    "aliases": ["Taliesin", "Frank Lloyd Wright Foundation Taliesin West", "Taliesin West Scottsdale"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Scottsdale, Arizona", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1941,
+    "era": "MODERNISM",
+    "style": "Organic architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taliesin_West",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Taliesin_West-1.jpg/1920px-Taliesin_West-1.jpg",
+        "crop": { "x": 0.22, "y": 0, "w": 0.78, "h": 1 },
+        "alt": "Low walls of rough stone and concrete under a pink-and-white striped roof on a desert hillside, with a gravel path and a cactus",
+        "credit": "Photo: Visitor7 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Taliesin_West-1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Taliesen-Garden-room-.jpg/1920px-Taliesen-Garden-room-.jpg",
+        "alt": "Large room under a slanted, wood-beamed ceiling, with built-in orange sofas, low chairs and angular tables",
+        "caption": "Triangles and natural motifs run through the rooms.",
+        "credit": "Photo: Steven C. Price · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Taliesen-Garden-room-.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was a winter home and studio, used from 1937 until its architect died in 1959." },
+      { "order": 2, "text": "Its walls are \"desert masonry\", a mix of local rocks and concrete." },
+      { "order": 3, "text": "The buildings are laid out on a 45-degree grid and linked by courtyards and walkways." }
+    ],
+    "summary": {
+      "description": "Frank Lloyd Wright bought the site in the McDowell Mountains in 1937, and his apprentices raised the first structures between 1938 and 1941 as a winter home and studio. The buildings are arranged on a 45-degree grid and connected by courtyards and walkways, with walls of desert masonry, a mixture of local rocks and concrete, originally topped by wood-and-canvas roofs. The main building has a drafting room, kitchen, dining room, garden court and the family residence, and the complex also has a kiva room and two performance venues. It is a National Historic Landmark and a World Heritage Site.",
+      "keyFeatures": [
+        "Structures on a 45-degree grid",
+        "Desert masonry walls of local rock and concrete",
+        "Triangles, hexagons and natural motifs inside",
+        "Drafting room, garden court, kiva room and two performance venues"
+      ],
+      "funFacts": [
+        "It was named after Wright's earlier Taliesin studio in Spring Green, Wisconsin.",
+        "The complex is the headquarters of the Frank Lloyd Wright Foundation."
+      ]
+    }
+  },
+  {
+    "id": "unity-temple",
+    "name": "Unity Temple",
+    "aliases": ["Unity Temple Oak Park", "Unitarian Universalist Unity Temple", "Unity Church Oak Park"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Oak Park, Illinois", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1908,
+    "era": "MODERNISM",
+    "style": "Prairie School",
+    "wikipedia": "https://en.wikipedia.org/wiki/Unity_Temple",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Unity_Temple_Blue_Hour.jpg/1920px-Unity_Temple_Blue_Hour.jpg",
+        "alt": "Blocky concrete building lit at dusk, with tall piers topped by ornamental capitals along its upper walls and parked cars in front",
+        "credit": "Photo: Brian Crawford · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Unity_Temple_Blue_Hour.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lloyd_Wright_Unity_Temple_sanctuary_1.jpg/1920px-Lloyd_Wright_Unity_Temple_sanctuary_1.jpg",
+        "alt": "Square auditorium with tiers of balconies and pews around a central pulpit, organ pipes, cream walls with dark wood trim and skylights",
+        "credit": "Photo: QuartierLatin1968 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lloyd_Wright_Unity_Temple_sanctuary_1.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built after the congregation's earlier church burned down in 1905." },
+      { "order": 2, "text": "It has no spire: its roof is made of flat, overhanging concrete slabs." },
+      {
+        "order": 3,
+        "text": "The auditorium is shaped like a Greek cross, with two levels of seating around the pulpit."
+      }
+    ],
+    "summary": {
+      "description": "After the Unity Church of Oak Park burned down in 1905, the trustees hired Frank Lloyd Wright. Construction began in May 1906, Unity House opened in 1907, the auditorium was finished in October 1908 and the church was dedicated in 1909. The building is made of reinforced concrete, with a facade of Portland cement washed to expose the gravel and recessed clerestory windows near the top. Instead of a spire it has flat, overhanging roof slabs, and it is decorated with abstract motifs rather than religious imagery. It is cited as an early example of modern architecture.",
+      "keyFeatures": [
+        "Reinforced-concrete auditorium and church house",
+        "No spire: flat overhanging roof slabs",
+        "Greek-cross auditorium with stair towers at the corners",
+        "Clerestory windows and skylights"
+      ],
+      "funFacts": [
+        "It was restored in the 1960s and completely refurbished from 2015 to 2017.",
+        "It is designated a National Historic Landmark."
+      ]
+    }
+  },
+  {
+    "id": "hollyhock-house",
+    "name": "Hollyhock House",
+    "aliases": ["Barnsdall House", "Aline Barnsdall House", "Hollyhock House Los Angeles"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Los Angeles, California", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1921,
+    "era": "MODERNISM",
+    "style": "Organic architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hollyhock_House",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Hollyhock_House_%28402132321%29.jpg/1920px-Hollyhock_House_%28402132321%29.jpg",
+        "alt": "Pale, inward-sloping front with a frieze of stylised flowers along the top, dark doors and a shallow pool in front",
+        "credit": "Photo: Sandra Cohen-Rose and Colin Rose from Montreal, Canada · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hollyhock_House_(402132321).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Hollyhock_House_Living_Room.jpg/1920px-Hollyhock_House_Living_Room.jpg",
+        "alt": "Living room with a huge sculpted stone fireplace, built-in seating and decorative wall panels",
+        "credit": "Photo: Afpeach · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hollyhock_House_Living_Room.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was commissioned by an heiress who planned a theatrical complex on a hill." },
+      { "order": 2, "text": "Three wings surround a central courtyard, with pools to the east and west." },
+      { "order": 3, "text": "Rudolph Schindler, Richard Neutra and the architect's son helped design it." }
+    ],
+    "summary": {
+      "description": "Frank Lloyd Wright designed this house for the heiress Aline Barnsdall, who had planned a theatrical complex since 1915 on a hill she acquired in 1919. The house and its outbuildings, completed in 1921, were the only parts of the complex built. Its three wings, with the living and music room, the dining and kitchen wing, and the gallery and bedroom wing, surround a central courtyard. The walls are hollow clay tile, wood frame and stucco sloping inward at the top. Rudolph Schindler, Richard Neutra and Wright's son Lloyd Wright helped design it, and it became the first World Heritage Site in Los Angeles.",
+      "keyFeatures": [
+        "Three wings around a central courtyard",
+        "Walls of hollow clay tile and stucco sloping inward",
+        "Hollyhock-inspired motifs throughout",
+        "Long loggia, terraces and pools"
+      ],
+      "funFacts": [
+        "The city of Los Angeles acquired the house in 1927 and it became part of Barnsdall Park.",
+        "It is one of eight Wright buildings on the World Heritage list."
+      ]
+    }
+  },
+  {
+    "id": "price-tower",
+    "name": "Price Tower",
+    "aliases": ["The Price Tower", "H. C. Price Company Tower", "Price Tower Bartlesville"],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Bartlesville, Oklahoma", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1956,
+    "era": "MODERNISM",
+    "style": "Organic architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Price_Tower",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Price_Tower%2C_Dewey_Avenue%2C_Bartlesville%2C_OK_-_53708857429.jpg/1920px-Price_Tower%2C_Dewey_Avenue%2C_Bartlesville%2C_OK_-_53708857429.jpg",
+        "alt": "Slender tall tower with horizontal copper-coloured louvers and vertical fins, rising into a clear blue sky",
+        "credit": "Photo: w_lemay · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Price_Tower,_Dewey_Avenue,_Bartlesville,_OK_-_53708857429.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Lobby_Ceiling%2C_Price_Tower%2C_Dewey_Avenue%2C_Bartlesville%2C_OK.jpg/1920px-Lobby_Ceiling%2C_Price_Tower%2C_Dewey_Avenue%2C_Bartlesville%2C_OK.jpg",
+        "alt": "Tall white lobby with a ceiling of triangular recesses and lights above a window wall",
+        "credit": "Photo: w_lemay · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lobby_Ceiling,_Price_Tower,_Dewey_Avenue,_Bartlesville,_OK.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is one of the few skyscrapers by its architect, and grew out of a 1929 proposal for apartment buildings in New York."
+      },
+      {
+        "order": 2,
+        "text": "Its plan is laid out on a grid of parallelograms and 30-60-90 triangles around a pinwheel-shaped core."
+      },
+      {
+        "order": 3,
+        "text": "Floors cantilever out from the core, behind a facade of embossed copper and tinted glass."
+      }
+    ],
+    "summary": {
+      "description": "Harold C. Price Sr., head of a pipeline-construction firm, hired Frank Lloyd Wright in 1952 to design the headquarters in Bartlesville, Oklahoma, and the nineteen-story, 221-foot tower opened in February 1956. It derives from a 1929 proposal for apartment buildings in New York City. The plan is laid out on a grid of parallelograms with 30-60-90 triangles around a pinwheel-shaped structural core with four piers, and the reinforced-concrete floors cantilever outward from it. The facade combines embossed copper spandrels and louvers with tinted glass and poured stucco. It received the AIA's Twenty-five Year Award in 1983.",
+      "keyFeatures": [
+        "Nineteen stories, 221 feet high",
+        "Pinwheel-shaped core with four piers",
+        "Facade of embossed copper spandrels, louvers and tinted glass",
+        "One residential and three office quadrants"
+      ],
+      "funFacts": [
+        "The top three stories were originally a penthouse apartment and office for the Price family.",
+        "It is a National Historic Landmark."
+      ]
+    }
+  },
+  {
+    "id": "johnson-wax-headquarters",
+    "name": "Johnson Wax Headquarters",
+    "aliases": [
+      "S. C. Johnson Administration Building",
+      "SC Johnson Administration Building",
+      "Johnson Wax Building",
+      "Johnson Wax Research Tower",
+      "SC Johnson Headquarters"
+    ],
+    "architects": [
+      {
+        "name": "Frank Lloyd Wright",
+        "aliases": ["Wright", "F. L. Wright"],
+        "lifespan": "1867–1959",
+        "nationality": "American",
+        "bio": "Over a career of some seventy years Wright developed an 'organic architecture' rooted in landscape, from the low, horizontal Prairie houses of the 1900s to Fallingwater and the Guggenheim Museum. Eight of his buildings form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": { "city": "Racine, Wisconsin", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1939,
+    "era": "MODERNISM",
+    "style": "Streamlined Art Moderne",
+    "wikipedia": "https://en.wikipedia.org/wiki/Johnson_Wax_Headquarters",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/EXTERIOR%2C_GENERAL_VIEW%2C_EAST_TOWARDS_BUILDINGS_COMPLEX_-_Johnson_Wax_Corporation_Building%2C_1525_Howe_Street%2C_Racine%2C_Racine_County%2C_WI_HABS_WIS%2C51-RACI%2C5-1.tif/lossy-page1-1920px-EXTERIOR%2C_GENERAL_VIEW%2C_EAST_TOWARDS_BUILDINGS_COMPLEX_-_Johnson_Wax_Corporation_Building%2C_1525_Howe_Street%2C_Racine%2C_Racine_County%2C_WI_HABS_WIS%2C51-RACI%2C5-1.tif.jpg",
+        "crop": { "x": 0.025, "y": 0.04, "w": 0.915, "h": 0.9 },
+        "alt": "Black-and-white view of a tall slender brick tower with horizontal glass bands beside a low, curved brick building, a large globe and a paved lot",
+        "credit": "Photo: Boucher, Jack E. · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:EXTERIOR,_GENERAL_VIEW,_EAST_TOWARDS_BUILDINGS_COMPLEX_-_Johnson_Wax_Corporation_Building,_1525_Howe_Street,_Racine,_Racine_County,_WI_HABS_WIS,51-RACI,5-1.tif"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/INTERIOR%2C_RECEPTION_AREA_FROM_EAST_-_Johnson_Wax_Corporation_Building%2C_1525_Howe_Street%2C_Racine%2C_Racine_County%2C_WI_HABS_WIS%2C51-RACI%2C5-18.tif/lossy-page1-1920px-INTERIOR%2C_RECEPTION_AREA_FROM_EAST_-_Johnson_Wax_Corporation_Building%2C_1525_Howe_Street%2C_Racine%2C_Racine_County%2C_WI_HABS_WIS%2C51-RACI%2C5-18.tif.jpg",
+        "crop": { "x": 0.03, "y": 0.045, "w": 0.91, "h": 0.9 },
+        "alt": "Black-and-white view of a lobby with slender columns that widen into huge discs at the top, brick balconies, a bust on a stand and a polished floor",
+        "credit": "Photo: Jack Boucher · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:INTERIOR,_RECEPTION_AREA_FROM_EAST_-_Johnson_Wax_Corporation_Building,_1525_Howe_Street,_Racine,_Racine_County,_WI_HABS_WIS,51-RACI,5-18.tif"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "The company's chief executive hired the architect in 1936 after rejecting an earlier plan."
+      },
+      { "order": 2, "text": "Its main interior space has concrete shell columns topped by large \"calyxes\"." },
+      { "order": 3, "text": "Pyrex glass tubes serve as its windows, set in a curved brick facade." }
+    ],
+    "summary": {
+      "description": "S. C. Johnson's chief executive, Herbert Fisk Johnson Jr., hired Frank Lloyd Wright in 1936 to design the Administration Building, which was completed in April 1939; the 15-story Research Tower followed in November 1950. The Administration Building is a variation of the streamlined Art Moderne style, with a curved brick facade and Pyrex glass-tube windows. Its main interior space is a great workroom with concrete shell columns topped by large calyxes, and offices on a mezzanine and penthouse hold furniture designed by Wright. The tower alternates square floors with circular mezzanines cantilevered from its core.",
+      "keyFeatures": [
+        "Curved brick facade with Pyrex glass-tube windows",
+        "Great workroom with concrete shell columns and calyxes",
+        "Research Tower with square floors and circular mezzanines",
+        "Furniture designed by Wright"
+      ],
+      "funFacts": [
+        "Construction went slowly because of Wright's attention to detail and his use of novel methods.",
+        "The headquarters received the AIA Twenty-five Year Award and is a National Historic Landmark."
+      ]
+    }
   }
 ]

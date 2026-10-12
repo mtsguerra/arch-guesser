@@ -1,0 +1,220 @@
+{
+  "taliesin-west": {
+    "name": "Taliesin West",
+    "aliases": ["Taliesin", "Fundação Frank Lloyd Wright", "Taliesin Oeste"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Ao longo de uma carreira de cerca de setenta anos, Wright desenvolveu uma «arquitetura orgânica» enraizada na paisagem, das casas baixas e horizontais da Prairie School dos anos 1900 à Casa da Cascata e ao Museu Guggenheim. Oito de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Scottsdale, Arizona",
+    "style": "Arquitetura orgânica",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Taliesin_West",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Muros baixos de pedra bruta e concreto sob um telhado listrado de rosa e branco numa encosta do deserto, com um caminho de cascalho e um cacto",
+        "caption": null
+      },
+      {
+        "alt": "Grande sala sob um teto inclinado de vigas de madeira, com sofás laranja embutidos, cadeiras baixas e mesas angulosas",
+        "caption": "Triângulos e motivos naturais percorrem as salas."
+      }
+    ],
+    "hints": [
+      "Foi casa de inverno e estúdio, usada de 1937 até à morte do arquiteto em 1959.",
+      "Os seus muros são de \"alvenaria do deserto\", uma mistura de rochas locais e concreto.",
+      "Os edifícios assentam numa malha de 45 graus e são ligados por pátios e passadiços."
+    ],
+    "summary": {
+      "description": "Frank Lloyd Wright comprou o terreno nas montanhas McDowell em 1937, e os seus aprendizes ergueram as primeiras estruturas entre 1938 e 1941 como casa de inverno e estúdio. Os edifícios estão dispostos numa malha de 45 graus e ligados por pátios e passadiços, com muros de alvenaria do deserto, uma mistura de rochas locais e concreto, originalmente cobertos por telhados de madeira e lona. O edifício principal tem sala de desenho, cozinha, sala de jantar, pátio-jardim e a residência da família, e o conjunto inclui ainda uma sala kiva e dois locais de espetáculo. É Monumento Histórico Nacional e Património Mundial.",
+      "keyFeatures": [
+        "Estruturas numa malha de 45 graus",
+        "Muros de alvenaria do deserto de rocha local e concreto",
+        "Triângulos, hexágonos e motivos naturais no interior",
+        "Sala de desenho, pátio-jardim, sala kiva e dois locais de espetáculo"
+      ],
+      "funFacts": [
+        "O nome vem do anterior estúdio Taliesin de Wright, em Spring Green, no Wisconsin.",
+        "O conjunto é a sede da Fundação Frank Lloyd Wright."
+      ]
+    }
+  },
+  "unity-temple": {
+    "name": "Unity Temple",
+    "aliases": ["Templo Unity", "Unity Temple de Oak Park", "Igreja Unity de Oak Park"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Ao longo de uma carreira de cerca de setenta anos, Wright desenvolveu uma «arquitetura orgânica» enraizada na paisagem, das casas baixas e horizontais da Prairie School dos anos 1900 à Casa da Cascata e ao Museu Guggenheim. Oito de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Oak Park, Illinois",
+    "style": "Escola da Pradaria",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Edifício de concreto em blocos iluminado ao entardecer, com altos pilares coroados por capitéis ornamentais ao longo das paredes superiores e carros estacionados à frente",
+        "caption": null
+      },
+      {
+        "alt": "Auditório quadrado com pisos de balcões e bancos em torno de um púlpito central, tubos de órgão, paredes creme com acabamento de madeira escura e claraboias",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construído depois de a igreja anterior da congregação ter ardido em 1905.",
+      "Não tem torre: a cobertura é feita de lajes de concreto planas e salientes.",
+      "O auditório tem a forma de uma cruz grega, com dois níveis de assentos em volta do púlpito."
+    ],
+    "summary": {
+      "description": "Depois de a Unity Church de Oak Park arder em 1905, os administradores contrataram Frank Lloyd Wright. A obra começou em maio de 1906, a Unity House abriu em 1907, o auditório ficou pronto em outubro de 1908 e a igreja foi dedicada em 1909. O edifício é de betão armado, com fachada de cimento Portland lavado para expor o cascalho e janelas de clerestório recuadas junto ao topo. Em vez de torre, tem lajes de cobertura planas e salientes, e é decorado com motivos abstratos em vez de imagens religiosas. É citado como exemplo precoce de arquitetura moderna.",
+      "keyFeatures": [
+        "Auditório e casa da igreja em betão armado",
+        "Sem torre: lajes de cobertura planas e salientes",
+        "Auditório em cruz grega com torres de escada nos cantos",
+        "Janelas de clerestório e claraboias"
+      ],
+      "funFacts": [
+        "Foi restaurado na década de 1960 e totalmente recuperado de 2015 a 2017.",
+        "É Monumento Histórico Nacional."
+      ]
+    }
+  },
+  "hollyhock-house": {
+    "name": "Hollyhock House",
+    "aliases": ["Casa Hollyhock", "Casa Barnsdall", "Casa de Aline Barnsdall", "Hollyhock House Los Angeles"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Ao longo de uma carreira de cerca de setenta anos, Wright desenvolveu uma «arquitetura orgânica» enraizada na paisagem, das casas baixas e horizontais da Prairie School dos anos 1900 à Casa da Cascata e ao Museu Guggenheim. Oito de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Los Angeles, Califórnia",
+    "style": "Arquitetura orgânica",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Frente clara de paredes inclinadas para dentro com um friso de flores estilizadas no topo, portas escuras e um tanque raso à frente",
+        "caption": null
+      },
+      {
+        "alt": "Sala de estar com uma enorme lareira de pedra esculpida, bancos embutidos e painéis decorativos nas paredes",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi encomendada por uma herdeira que planeava um complexo teatral numa colina.",
+      "Três alas rodeiam um pátio central, com tanques a leste e a oeste.",
+      "Rudolph Schindler, Richard Neutra e o filho do arquiteto ajudaram a projetá-la."
+    ],
+    "summary": {
+      "description": "Frank Lloyd Wright projetou esta casa para a herdeira Aline Barnsdall, que planeava desde 1915 um complexo teatral numa colina que adquiriu em 1919. A casa e os seus anexos, concluídos em 1921, foram as únicas partes do complexo construídas. As suas três alas, com a sala de estar e de música, a ala de jantar e cozinha e a ala de galeria e quartos, rodeiam um pátio central. As paredes são de tijolo de barro oco, estrutura de madeira e estuque inclinados para dentro no topo. Rudolph Schindler, Richard Neutra e Lloyd Wright, filho de Wright, ajudaram a projetá-la, e tornou-se o primeiro Património Mundial de Los Angeles.",
+      "keyFeatures": [
+        "Três alas em volta de um pátio central",
+        "Paredes de tijolo oco e estuque inclinadas para dentro",
+        "Motivos inspirados na malva-rosa por toda a casa",
+        "Longa galeria, terraços e tanques"
+      ],
+      "funFacts": [
+        "A cidade de Los Angeles adquiriu a casa em 1927 e ela passou a fazer parte do Barnsdall Park.",
+        "É um de oito edifícios de Wright na lista do Património Mundial."
+      ]
+    }
+  },
+  "price-tower": {
+    "name": "Torre Price",
+    "aliases": ["Price Tower", "The Price Tower", "Torre H. C. Price", "Price Tower Bartlesville"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Ao longo de uma carreira de cerca de setenta anos, Wright desenvolveu uma «arquitetura orgânica» enraizada na paisagem, das casas baixas e horizontais da Prairie School dos anos 1900 à Casa da Cascata e ao Museu Guggenheim. Oito de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Bartlesville, Oklahoma",
+    "style": "Arquitetura orgânica",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Torre alta e esbelta com persianas horizontais cor de cobre e aletas verticais, a erguer-se num céu azul limpo",
+        "caption": null
+      },
+      {
+        "alt": "Hall alto e branco com um teto de recortes triangulares e luzes acima de uma parede de janelas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um dos poucos arranha-céus do seu arquiteto e nasceu de uma proposta de 1929 para edifícios de apartamentos em Nova Iorque.",
+      "A planta assenta numa malha de paralelogramos e triângulos 30-60-90 em torno de um núcleo em forma de cata-vento.",
+      "Os pisos saem em balanço do núcleo, atrás de uma fachada de cobre gravado e vidro tingido."
+    ],
+    "summary": {
+      "description": "Harold C. Price Sr., chefe de uma empresa de construção de oleodutos, contratou Frank Lloyd Wright em 1952 para projetar a sede em Bartlesville, Oklahoma, e a torre de dezanove andares e 67 metros abriu em fevereiro de 1956. Deriva de uma proposta de 1929 para edifícios de apartamentos na cidade de Nova Iorque. A planta assenta numa malha de paralelogramos com triângulos 30-60-90 em torno de um núcleo estrutural em forma de cata-vento com quatro pilares, e os pisos de betão armado saem em balanço dele. A fachada combina painéis e persianas de cobre gravado com vidro tingido e estuque projetado. Recebeu o Prémio dos Vinte e Cinco Anos do AIA em 1983.",
+      "keyFeatures": [
+        "Dezanove andares e 67 metros de altura",
+        "Núcleo em cata-vento com quatro pilares",
+        "Fachada de painéis de cobre gravado, persianas e vidro tingido",
+        "Um quadrante residencial e três de escritórios"
+      ],
+      "funFacts": [
+        "Os três últimos andares eram originalmente um apartamento e escritório da família Price.",
+        "É Monumento Histórico Nacional."
+      ]
+    }
+  },
+  "johnson-wax-headquarters": {
+    "name": "Sede da Johnson Wax",
+    "aliases": [
+      "Johnson Wax Headquarters",
+      "Edifício Administrativo da S. C. Johnson",
+      "Johnson Wax",
+      "Torre de Pesquisa da Johnson Wax",
+      "Sede da SC Johnson"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Ao longo de uma carreira de cerca de setenta anos, Wright desenvolveu uma «arquitetura orgânica» enraizada na paisagem, das casas baixas e horizontais da Prairie School dos anos 1900 à Casa da Cascata e ao Museu Guggenheim. Oito de suas obras formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Racine, Wisconsin",
+    "style": "Art Moderne aerodinâmico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Sede_da_Johnson_Wax",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Vista em preto e branco de uma torre esbelta de tijolo com faixas horizontais de vidro ao lado de um edifício baixo e curvo de tijolo, um grande globo e um parque de estacionamento",
+        "caption": null
+      },
+      {
+        "alt": "Vista em preto e branco de um hall com colunas esbeltas que se alargam em enormes discos no topo, balcões de tijolo, um busto num pedestal e um piso polido",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "O diretor-executivo da empresa contratou o arquiteto em 1936, depois de rejeitar um plano anterior.",
+      "O seu principal espaço interior tem colunas de betão em casca coroadas por grandes \"cálices\".",
+      "Tubos de vidro Pyrex servem de janelas, numa fachada de tijolo curva."
+    ],
+    "summary": {
+      "description": "O diretor-executivo da S. C. Johnson, Herbert Fisk Johnson Jr., contratou Frank Lloyd Wright em 1936 para projetar o Edifício Administrativo, concluído em abril de 1939; a Torre de Pesquisa de 15 andares veio em novembro de 1950. O Edifício Administrativo é uma variação do estilo Art Moderne aerodinâmico, com fachada curva de tijolo e janelas de tubos de vidro Pyrex. O seu principal espaço interior é uma grande sala de trabalho com colunas de betão em casca coroadas por grandes cálices, e os escritórios do mezanino e do ático têm móveis desenhados por Wright. A torre alterna pisos quadrados com mezaninos circulares em balanço a partir do núcleo.",
+      "keyFeatures": [
+        "Fachada curva de tijolo com janelas de tubos de vidro Pyrex",
+        "Grande sala de trabalho com colunas de betão em casca e cálices",
+        "Torre de pesquisa com pisos quadrados e mezaninos circulares",
+        "Móveis desenhados por Wright"
+      ],
+      "funFacts": [
+        "A obra foi lenta por causa da atenção de Wright aos detalhes e do uso de métodos inovadores.",
+        "A sede recebeu o Prémio dos Vinte e Cinco Anos do AIA e é Monumento Histórico Nacional."
+      ]
+    }
+  }
+}
