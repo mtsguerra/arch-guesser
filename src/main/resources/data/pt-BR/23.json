@@ -1,0 +1,164 @@
+{
+  "auditorium-building-chicago": {
+    "name": "Auditorium Building",
+    "aliases": [
+      "Auditorium Theatre",
+      "Edifício Auditorium de Chicago",
+      "Auditorium Building de Chicago",
+      "Edifício Auditorium da Universidade Roosevelt"
+    ],
+    "architects": [
+      {
+        "aliases": ["Adler", "Adler & Sullivan"],
+        "nationality": "Germano-americano",
+        "lifespan": "1844–1900",
+        "bio": "Arquiteto e engenheiro americano nascido na Alemanha, sócio de Louis Sullivan na Adler & Sullivan. Conhecido pela sua perícia em estrutura e acústica, liderou o projeto técnico dos teatros da firma, sobretudo o Auditorium Theatre de Chicago."
+      },
+      {
+        "aliases": ["Sullivan", "Louis H. Sullivan", "Louis Henri Sullivan"],
+        "nationality": "Americano",
+        "lifespan": "1856–1924",
+        "bio": "Muitas vezes chamado de pai dos arranha-céus e do modernismo, Sullivan defendeu a ideia de que a forma segue a função e cobriu os seus edifícios de estrutura de aço com ornamento rico e orgânico. Foi mestre do jovem Frank Lloyd Wright. As suas obras em Chicago e no Meio-Oeste incluem o Auditorium Building, a loja Carson Pirie Scott e os bancos 'caixa de joias'."
+      }
+    ],
+    "city": "Chicago, Illinois",
+    "style": "Românico richardsoniano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Auditorium_Building",
+    "drawings": [
+      {
+        "label": "Corte longitudinal",
+        "alt": "Corte detalhado de um enorme edifício, com um teatro inclinado no coração, pisos de galerias, escadas e torres em volta"
+      },
+      {
+        "label": "Planta do subsolo (axonométrica)",
+        "alt": "Desenho isométrico de um subsolo com o piso em leque de um teatro, filas de colunas e muitas salas pequenas"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Esquina de um edifício de dez andares em granito e calcário com filas de janelas em arco e retangulares e uma torre atrás",
+        "caption": null
+      },
+      {
+        "alt": "Ampla escadaria com balaustradas de ferro ornamentadas, paredes de mármore dourado e um teto esculpido, com pessoas a olhar de um patamar",
+        "caption": "Uma grande escadaria dentro de um edifício hoje usado para aulas."
+      }
+    ],
+    "hints": [
+      "Originalmente reunia um teatro, escritórios e um hotel sob o mesmo teto.",
+      "O teatro acomoda cerca de 4.200 pessoas em quatro níveis.",
+      "A fachada divide-se em três secções horizontais de granito mais escuro e calcário mais claro."
+    ],
+    "summary": {
+      "description": "Construído entre 1887 e 1889 pela Adler & Sullivan, a parceria de Dankmar Adler e Louis Sullivan, este arranha-céus precoce no Loop de Chicago tem 73 metros de altura, na maior parte com dez andares e uma torre de 17 ao sul. Era um complexo multiuso de teatro, escritórios e hotel, financiado por um consórcio liderado por Ferdinand Peck, e o teatro abriu a 9 de dezembro de 1889. A sua estrutura de ferro e aço assenta em fundações de grelhas, e o teatro ocupa grande parte do volume, com 4.200 lugares em quatro níveis. A Universidade Roosevelt assumiu o edifício em 1946 e transformou os escritórios e o hotel em salas de aula.",
+      "keyFeatures": [
+        "Arranha-céus precoce de 73 metros com uma torre de 17 andares",
+        "Teatro de 4.200 lugares em quatro níveis",
+        "Fachada de granito mais escuro e calcário mais claro em três faixas",
+        "Estrutura de ferro e aço sobre fundações de grelhas"
+      ],
+      "funFacts": [
+        "O teatro interior foi renovado entre 1958 e 1967.",
+        "É Monumento Histórico Nacional e Marco de Chicago."
+      ]
+    }
+  },
+  "national-farmers-bank-owatonna": {
+    "name": "Banco Nacional dos Agricultores de Owatonna",
+    "aliases": [
+      "National Farmers' Bank of Owatonna",
+      "National Farmers' Bank",
+      "Banco de Owatonna de Sullivan",
+      "Banco dos Agricultores de Owatonna",
+      "Wells Fargo Owatonna"
+    ],
+    "architects": [
+      {
+        "aliases": ["Sullivan", "Louis H. Sullivan", "Louis Henri Sullivan"],
+        "nationality": "Americano",
+        "lifespan": "1856–1924",
+        "bio": "Muitas vezes chamado de pai dos arranha-céus e do modernismo, Sullivan defendeu a ideia de que a forma segue a função e cobriu os seus edifícios de estrutura de aço com ornamento rico e orgânico. Foi mestre do jovem Frank Lloyd Wright. As suas obras em Chicago e no Meio-Oeste incluem o Auditorium Building, a loja Carson Pirie Scott e os bancos 'caixa de joias'."
+      }
+    ],
+    "city": "Owatonna, Minnesota",
+    "style": "Caixa de joias de Sullivan",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Banco de tijolo vermelho com faixas de terracota verde e duas enormes janelas em arco nas fachadas da rua, com alas baixas de cada lado",
+        "caption": null
+      },
+      {
+        "alt": "Sala de atendimento sob um enorme arco decorado com um mural de nuvens e um relógio, com balcões de caixas e lustres dourados",
+        "caption": "Um mural e um relógio ficam sob o grande arco da sala do banco."
+      }
+    ],
+    "hints": [
+      "Foi o primeiro dos projetos de bancos \"caixa de joias\" do seu arquiteto.",
+      "O tijolo vermelho é entremeado por faixas de terracota verde e rasgado por dois grandes arcos.",
+      "No interior há vitrais de Louis J. Millet, um mural de Oskar Gross e quatro imensos lustres de ferro fundido."
+    ],
+    "summary": {
+      "description": "Construído em 1908 em Owatonna, Minnesota, o banco foi o primeiro dos projetos de bancos \"caixa de joias\" de Louis Sullivan, com elementos decorativos de George Elmslie. O edifício é revestido de tijolo vermelho com faixas de terracota verde, e dois grandes arcos marcam as fachadas voltadas para a rua. Alas de um só piso, que abrigavam escritórios do banco, estendem-se de cada lado. No interior há dois vitrais de Louis J. Millet, um mural de Oskar Gross e quatro enormes lustres de ferro fundido desenhados por Elmslie. O plano de Sullivan incluía uma sala de troca de agricultores, uma sala de consultas para mulheres, uma sala de reuniões e o gabinete do presidente.",
+      "keyFeatures": [
+        "Tijolo vermelho com faixas de terracota verde",
+        "Dois grandes arcos nas fachadas da rua",
+        "Vitrais de Louis J. Millet e mural de Oskar Gross",
+        "Quatro lustres de ferro fundido desenhados por Elmslie"
+      ],
+      "funFacts": [
+        "Uma remodelação em 1940 destruiu muitos elementos do interior, restaurados em 1958 e de 1976 a 1981.",
+        "Em 1981 o banco foi retratado num bloco de quatro selos em homenagem a arquitetos americanos."
+      ]
+    }
+  },
+  "sullivan-center": {
+    "name": "Sullivan Center",
+    "aliases": [
+      "Edifício Carson Pirie Scott",
+      "Loja Carson Pirie Scott",
+      "Edifício Schlesinger & Mayer",
+      "Carson Pirie Scott",
+      "Sullivan Center de Chicago"
+    ],
+    "architects": [
+      {
+        "aliases": ["Sullivan", "Louis H. Sullivan", "Louis Henri Sullivan"],
+        "nationality": "Americano",
+        "lifespan": "1856–1924",
+        "bio": "Muitas vezes chamado de pai dos arranha-céus e do modernismo, Sullivan defendeu a ideia de que a forma segue a função e cobriu os seus edifícios de estrutura de aço com ornamento rico e orgânico. Foi mestre do jovem Frank Lloyd Wright. As suas obras em Chicago e no Meio-Oeste incluem o Auditorium Building, a loja Carson Pirie Scott e os bancos 'caixa de joias'."
+      }
+    ],
+    "city": "Chicago, Illinois",
+    "style": "Escola de Chicago",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Edifício alto e branco com amplas janelas horizontais em grelha, uma esquina curva e uma base ornamental escura ao nível da rua",
+        "caption": null
+      },
+      {
+        "alt": "Ampla área de loja com colunas brancas coroadas por capitéis ornamentados, longas luzes em tira e prateleiras de mercadorias",
+        "caption": "Pisos abertos entre as colunas foram planeados para maximizar o espaço de venda."
+      }
+    ],
+    "hints": [
+      "Foi o último grande edifício comercial do seu arquiteto e abriu por fases entre 1899 e 1907.",
+      "Os dois pisos mais baixos são revestidos de ferro fundido decorativo, com uma entrada numa esquina curva.",
+      "Durante grande parte do século XX abrigou a loja principal de uma cadeia de armazéns; hoje é um complexo de escritórios."
+    ],
+    "summary": {
+      "description": "Louis Sullivan projetou este edifício de doze andares na State com Madison, em Chicago, para a retalhista Schlesinger & Mayer, supervisionando o edifício original de 1899 e um anexo de 1903. Foi o último grande edifício comercial de Sullivan. Em cada fachada, pilares dividem a frente em vãos com amplas janelas de Chicago, e uma esquina curva liga as duas. Os dois pisos mais baixos são revestidos de ferro fundido decorativo, e as janelas superiores são emolduradas por faixas de terracota branca. A superestrutura é de colunas de ferro fundido e aço que sustentam lajes de terracota, e o interior foi planeado com espaços abertos entre as colunas para maximizar o espaço de venda.",
+      "keyFeatures": [
+        "Amplas janelas de Chicago entre pilares",
+        "Entrada na esquina curva",
+        "Ferro fundido decorativo nos dois pisos mais baixos",
+        "Faixas de terracota branca em volta das janelas superiores"
+      ],
+      "funFacts": [
+        "A loja de armazéns Carson ocupou o edifício até 2006.",
+        "D. H. Burnham & Company fez acrescentos em 1906–1907 e Holabird & Root em 1961."
+      ]
+    }
+  }
+}

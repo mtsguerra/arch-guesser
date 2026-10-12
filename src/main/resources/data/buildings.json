@@ -14677,5 +14677,227 @@
         "The headquarters received the AIA Twenty-five Year Award and is a National Historic Landmark."
       ]
     }
+  },
+  {
+    "id": "auditorium-building-chicago",
+    "name": "Auditorium Building",
+    "aliases": [
+      "Auditorium Theatre",
+      "Chicago Auditorium Building",
+      "Roosevelt University Auditorium Building",
+      "Auditorium Theatre Building"
+    ],
+    "architects": [
+      {
+        "name": "Dankmar Adler",
+        "aliases": ["Adler", "Adler & Sullivan"],
+        "lifespan": "1844–1900",
+        "nationality": "German-American",
+        "bio": "German-born American architect and engineer, partner of Louis Sullivan in Adler & Sullivan. Known for his skill in structure and acoustics, he led the technical design of the firm's theatres, above all the Auditorium Theatre in Chicago."
+      },
+      {
+        "name": "Louis Sullivan",
+        "aliases": ["Sullivan", "Louis H. Sullivan", "Louis Henri Sullivan"],
+        "lifespan": "1856–1924",
+        "nationality": "American",
+        "bio": "Often called the father of skyscrapers and of modernism, Sullivan championed the idea that form follows function and covered his steel-frame buildings in rich, organic ornament. He taught the young Frank Lloyd Wright. His Chicago and Midwestern commissions include the Auditorium Building, the Carson Pirie Scott store and the 'jewel box' banks."
+      }
+    ],
+    "location": { "city": "Chicago, Illinois", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1889,
+    "era": "HISTORICISM",
+    "style": "Richardsonian Romanesque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Auditorium_Building_(Chicago)",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "Longitudinal section",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Auditorium_bldg_%28Interior%29_HABS.jpg",
+        "alt": "Detailed section through a huge building, with a sloping theatre at its heart, tiers of galleries, stairs and towers around it",
+        "credit": "Historic American Buildings Survey · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Auditorium_bldg_(Interior)_HABS.jpg"
+      },
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Basement plan (axonometric)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Auditorium_bldg_%28basement%29_HABS.jpg/1920px-Auditorium_bldg_%28basement%29_HABS.jpg",
+        "alt": "Isometric drawing of a basement with a fan-shaped theatre floor, rows of columns and many small rooms",
+        "credit": "Historic American Buildings Survey · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Auditorium_bldg_(basement)_HABS.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Auditorium_Building%2C_Michigan_Avenue%2C_Chicago%2C_IL.jpg/1920px-Auditorium_Building%2C_Michigan_Avenue%2C_Chicago%2C_IL.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.66 },
+        "alt": "Corner of a ten-storey granite and limestone building with rows of arched and rectangular windows and a tower behind",
+        "credit": "Photo: Warren LeMay · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Auditorium_Building,_Michigan_Avenue,_Chicago,_IL.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Roosevelt_University_45_%2813524240524%29.jpg/1920px-Roosevelt_University_45_%2813524240524%29.jpg",
+        "alt": "Wide staircase with ornate iron balustrades, gilded marble walls and a carved ceiling, with people looking over a landing",
+        "caption": "A grand stair inside a building now used for classes.",
+        "credit": "Photo: Jaysin Trevino · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Roosevelt_University_45_(13524240524).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It originally combined a theatre, offices and a hotel under one roof." },
+      { "order": 2, "text": "The theatre seats about 4,200 people across four levels." },
+      {
+        "order": 3,
+        "text": "Its facade is divided into three horizontal sections of darker granite and lighter limestone."
+      }
+    ],
+    "summary": {
+      "description": "Built between 1887 and 1889 by Adler & Sullivan, the partnership of Dankmar Adler and Louis Sullivan, this early skyscraper in Chicago's Loop is 240 feet tall, mostly ten storeys with a 17-storey tower to the south. It was a multi-use complex of theatre, offices and hotel, financed by a syndicate led by Ferdinand Peck, and the theatre opened on 9 December 1889. Its iron and steel frame rises on grillage foundations, and the theatre occupies much of its volume, with 4,200 seats on four levels. Roosevelt University took over the building in 1946 and turned the offices and hotel into classrooms.",
+      "keyFeatures": [
+        "Early skyscraper, 240 feet tall with a 17-storey tower",
+        "4,200-seat theatre on four levels",
+        "Facade of darker granite and lighter limestone in three tiers",
+        "Iron and steel frame on grillage foundations"
+      ],
+      "funFacts": [
+        "The theatre inside was renovated between 1958 and 1967.",
+        "It is a National Historic Landmark and a Chicago Landmark."
+      ]
+    }
+  },
+  {
+    "id": "national-farmers-bank-owatonna",
+    "name": "National Farmers' Bank of Owatonna",
+    "aliases": [
+      "National Farmers' Bank",
+      "Owatonna Bank",
+      "Sullivan Owatonna Bank",
+      "Wells Fargo Bank Owatonna",
+      "Farmers Bank Owatonna"
+    ],
+    "architects": [
+      {
+        "name": "Louis Sullivan",
+        "aliases": ["Sullivan", "Louis H. Sullivan", "Louis Henri Sullivan"],
+        "lifespan": "1856–1924",
+        "nationality": "American",
+        "bio": "Often called the father of skyscrapers and of modernism, Sullivan championed the idea that form follows function and covered his steel-frame buildings in rich, organic ornament. He taught the young Frank Lloyd Wright. His Chicago and Midwestern commissions include the Auditorium Building, the Carson Pirie Scott store and the 'jewel box' banks."
+      }
+    ],
+    "location": { "city": "Owatonna, Minnesota", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1908,
+    "era": "ART_NOUVEAU",
+    "style": "Sullivanesque jewel box",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Farmers'_Bank_of_Owatonna",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Louis_H._Sullivan_-_National_Farmer%27s_Bank_%28B%29%2C_Owatonna%2C_MN.jpg/1920px-Louis_H._Sullivan_-_National_Farmer%27s_Bank_%28B%29%2C_Owatonna%2C_MN.jpg",
+        "alt": "Red-brick bank with green terra-cotta bands and two huge arched windows on the street faces, with low wings on each side",
+        "credit": "Photo: Bmzuckerman · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Louis_H._Sullivan_-_National_Farmer%27s_Bank_(B),_Owatonna,_MN.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Louis_H._Sullivan_-_National_Farmer%27s_Bank_Interior_%28A%29%2C_Owatonna%2C_MN.jpg/1920px-Louis_H._Sullivan_-_National_Farmer%27s_Bank_Interior_%28A%29%2C_Owatonna%2C_MN.jpg",
+        "alt": "Banking hall under a huge arch decorated with a mural of clouds and a clock, with teller counters and gilded chandeliers",
+        "caption": "A mural and a clock sit under the great arch of the banking hall.",
+        "credit": "Photo: Bmzuckerman · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Louis_H._Sullivan_-_National_Farmer%27s_Bank_Interior_(A),_Owatonna,_MN.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was the first of its architect's \"jewel box\" bank designs." },
+      { "order": 2, "text": "Red brick is banded with green terra cotta and pierced by two large arches." },
+      {
+        "order": 3,
+        "text": "Inside are stained-glass windows by Louis J. Millet, a mural by Oskar Gross and four immense cast-iron electroliers."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1908 in Owatonna, Minnesota, the bank was the first of Louis Sullivan's \"jewel box\" bank designs, with decorative elements by George Elmslie. The building is clad in red brick with green terra-cotta bands, and two large arches mark its street-facing facades. Single-storey wings that housed bank offices extend along each side. Inside are two stained-glass windows by Louis J. Millet, a mural by Oskar Gross and four huge cast-iron electroliers designed by Elmslie. Sullivan's plan included a farmers' exchange room, a women's consultation room, a board room and the president's office.",
+      "keyFeatures": [
+        "Red brick with green terra-cotta bands",
+        "Two large arches on the street facades",
+        "Stained glass by Louis J. Millet and a mural by Oskar Gross",
+        "Four cast-iron electroliers designed by Elmslie"
+      ],
+      "funFacts": [
+        "A remodelling in 1940 destroyed many interior elements, which were restored in 1958 and from 1976 to 1981.",
+        "In 1981 the bank was pictured on a block of four stamps honouring American architects."
+      ]
+    }
+  },
+  {
+    "id": "sullivan-center",
+    "name": "Sullivan Center",
+    "aliases": [
+      "Carson Pirie Scott Building",
+      "Carson Pirie Scott and Company Store",
+      "Schlesinger & Mayer Building",
+      "Carson, Pirie, Scott and Company Building",
+      "Carson Pirie Scott"
+    ],
+    "architects": [
+      {
+        "name": "Louis Sullivan",
+        "aliases": ["Sullivan", "Louis H. Sullivan", "Louis Henri Sullivan"],
+        "lifespan": "1856–1924",
+        "nationality": "American",
+        "bio": "Often called the father of skyscrapers and of modernism, Sullivan championed the idea that form follows function and covered his steel-frame buildings in rich, organic ornament. He taught the young Frank Lloyd Wright. His Chicago and Midwestern commissions include the Auditorium Building, the Carson Pirie Scott store and the 'jewel box' banks."
+      }
+    ],
+    "location": { "city": "Chicago, Illinois", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1904,
+    "era": "MODERNISM",
+    "style": "Chicago School",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sullivan_Center",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Carson_Prie_Scott_and_Company_Store_Building_%28Sullivan_Center%29%2C_State_Street_and_Madison_Street%2C_Chicago%2C_IL_%2852901652873%29.jpg/1920px-Carson_Prie_Scott_and_Company_Store_Building_%28Sullivan_Center%29%2C_State_Street_and_Madison_Street%2C_Chicago%2C_IL_%2852901652873%29.jpg",
+        "alt": "Tall white building with broad horizontal windows in a grid, a curved corner and a dark ornamental base at street level",
+        "credit": "Photo: Warren LeMay from Covington, KY, United States · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Carson_Prie_Scott_and_Company_Store_Building_(Sullivan_Center),_State_Street_and_Madison_Street,_Chicago,_IL_(52901652873).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Target_State_St_Interior%2C_Chicago%2C_Illinois.jpg/1920px-Target_State_St_Interior%2C_Chicago%2C_Illinois.jpg",
+        "alt": "Wide retail floor with white columns topped by ornate capitals, long strip lights and shelves of merchandise",
+        "caption": "Open floors between columns were laid out to maximise selling space.",
+        "credit": "Photo: Pokemonprime · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Target_State_St_Interior,_Chicago,_Illinois.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was the last large commercial building by its architect, and opened in phases between 1899 and 1907."
+      },
+      {
+        "order": 2,
+        "text": "Its lowest two storeys are clad in decorative cast iron, with an entrance at a curved corner."
+      },
+      {
+        "order": 3,
+        "text": "For much of the 20th century it housed a department store's flagship; it is now an office complex."
+      }
+    ],
+    "summary": {
+      "description": "Louis Sullivan designed this twelve-storey building at State and Madison streets in Chicago for the retailer Schlesinger & Mayer, overseeing the original 1899 building and a 1903 annex. It was Sullivan's last large commercial building. On each elevation, piers divide the facade into bays with wide Chicago windows, and a curved corner joins the two. The lowest two storeys are clad in decorative cast iron, and the upper windows are framed by white terra-cotta bands. The superstructure is cast iron and steel columns supporting terra-cotta floor slabs, and the interior was planned with open spaces between the columns to maximise selling space.",
+      "keyFeatures": [
+        "Wide Chicago windows between piers",
+        "Curved corner entrance",
+        "Decorative cast iron on the lowest two storeys",
+        "White terra-cotta bands around the upper windows"
+      ],
+      "funFacts": [
+        "Carson's department store occupied the building until 2006.",
+        "D. H. Burnham & Company added to it in 1906–1907 and Holabird & Root in 1961."
+      ]
+    }
   }
 ]
