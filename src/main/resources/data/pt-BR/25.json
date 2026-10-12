@@ -1,0 +1,92 @@
+{
+  "neue-nationalgalerie": {
+    "name": "Neue Nationalgalerie",
+    "aliases": [
+      "Nova Galeria Nacional",
+      "Neue Nationalgalerie de Berlim",
+      "Nova Galeria Nacional de Berlim",
+      "New National Gallery"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (depois americano)",
+        "bio": "Ex-assistente de Peter Behrens, Mies reduziu a arquitetura a aço, vidro e materiais nobres («menos é mais»). Último diretor da Bauhaus, emigrou para Chicago, onde construiu o campus do Illinois Institute of Technology e depois o Seagram Building, em Nova York."
+      }
+    ],
+    "city": "Berlim",
+    "style": "Estilo Internacional",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Cobertura plana de aço preto sobre colunas esbeltas, por cima de um salão de paredes de vidro ao entardecer, com uma grande escultura de bronze na praça à frente",
+        "caption": null
+      },
+      {
+        "alt": "Salão sob um teto de grelha de aço preto com um núcleo de pedra verde-escura e rolos de carpete sobre um piso de pedra",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Oito colunas cruciformes sustentam uma placa de cobertura quadrada de aço pré-esforçado com 1,8 metro de espessura, pintada de preto.",
+      "O seu salão envidraçado superior é o principal espaço expositivo, enquanto o acervo permanente fica num piso inferior três quartos subterrâneo.",
+      "David Chipperfield Architects renovou-o entre 2015 e 2021."
+    ],
+    "summary": {
+      "description": "Ludwig Mies van der Rohe projetou o museu e os seus jardins de esculturas, que abriram a 15 de setembro de 1968 em Berlim Ocidental, a sul do Tiergarten. O piso superior é um hall de entrada e a principal galeria de exposições temporárias, sob uma placa de cobertura quadrada de aço preto com 1,8 metro de espessura sustentada por oito colunas cruciformes, com um balanço de 18 metros e vidro do chão ao teto com 8,4 metros de altura numa malha de 3,6 metros. O piso inferior, três quartos subterrâneo, abriga o acervo permanente, uma biblioteca, escritórios, uma loja e um café. David Chipperfield Architects renovou-o, e reabriu em agosto de 2021.",
+      "keyFeatures": [
+        "Placa de cobertura quadrada de aço preto sustentada por oito colunas cruciformes",
+        "Balanço de 18 metros e vidro do chão ao teto de 8,4 metros",
+        "\"Caixas de ovos\" de alumínio anodizado preto com a iluminação numa malha de 3,6 metros",
+        "Acervo num piso inferior três quartos subterrâneo"
+      ],
+      "funFacts": [
+        "O museu fechou para renovação em 2015 e reabriu em agosto de 2021 com uma exposição de obras de Alexander Calder.",
+        "Faz parte da Galeria Nacional dos Museus Estatais de Berlim, dedicada à arte moderna do século XX."
+      ]
+    }
+  },
+  "crown-hall": {
+    "name": "S. R. Crown Hall",
+    "aliases": ["Crown Hall", "SR Crown Hall", "Crown Hall do IIT", "Crown Hall Instituto de Tecnologia de Illinois"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (depois americano)",
+        "bio": "Ex-assistente de Peter Behrens, Mies reduziu a arquitetura a aço, vidro e materiais nobres («menos é mais»). Último diretor da Bauhaus, emigrou para Chicago, onde construiu o campus do Illinois Institute of Technology e depois o Seagram Building, em Nova York."
+      }
+    ],
+    "city": "Chicago, Illinois",
+    "style": "Estilo Internacional",
+    "wikipedia": "https://pt.wikipedia.org/wiki/S._R._Crown_Hall",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Pavilhão baixo de vidro e aço com colunas de aço pretas e um largo lance de degraus até à entrada elevada, com árvores sem folhas à frente",
+        "caption": null
+      },
+      {
+        "alt": "Vasto salão aberto com teto branco, uma longa parede de madeira de exposição com desenhos afixados e um piso escuro polido, emoldurado por paredes de vidro",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construído para uma faculdade de arquitetura que o seu projetista dirigiu durante duas décadas.",
+      "Quatro vigas apoiadas em quatro pares de colunas sustentam a cobertura, por isso o piso principal não tem colunas interiores.",
+      "O seu nome homenageia um empresário cujos irmãos doaram 250 mil dólares para a construção."
+    ],
+    "summary": {
+      "description": "Concluído em 1956 no campus do Illinois Institute of Technology, o S. R. Crown Hall foi projetado por Ludwig Mies van der Rohe para a Faculdade de Arquitetura, que ele dirigiu durante duas décadas. Uma cortina de vidro em três faixas de painéis, entre colunas de aço e montantes, envolve um edifício retangular de 37 por 67 metros. Quatro vigas sobre quatro pares de colunas sustentam a cobertura a 5,5 metros do piso principal, deixando uma planta aberta com divisórias de meia altura. O piso principal é elevado 1,8 metro e acessado por um alpendre no lado sul. É Marco de Chicago e Monumento Histórico Nacional.",
+      "keyFeatures": [
+        "Cortina de vidro em três faixas de painéis",
+        "Cobertura sustentada por quatro vigas sobre quatro pares de colunas",
+        "Piso principal aberto sem colunas interiores",
+        "Piso principal elevado acessado por um alpendre"
+      ],
+      "funFacts": [
+        "O terreno era ocupado antes pelos Mecca Flats, demolidos em 1952.",
+        "A obra começou a 2 de dezembro de 1954, e o edifício foi inaugurado a 30 de abril de 1956."
+      ]
+    }
+  }
+}

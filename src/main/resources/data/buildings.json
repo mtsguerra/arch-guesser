@@ -15042,5 +15042,122 @@
         "The gradual path from the landscape ends in a sanctuary with no iconography, only natural light."
       ]
     }
+  },
+  {
+    "id": "neue-nationalgalerie",
+    "name": "Neue Nationalgalerie",
+    "aliases": ["New National Gallery", "Neue Nationalgalerie Berlin", "New National Gallery Berlin"],
+    "architects": [
+      {
+        "name": "Ludwig Mies van der Rohe",
+        "aliases": ["Mies van der Rohe", "Mies", "Ludwig Mies"],
+        "lifespan": "1886–1969",
+        "nationality": "German (later American)",
+        "bio": "A former assistant of Peter Behrens, Mies reduced architecture to steel, glass and fine materials ('less is more'). Last director of the Bauhaus, he emigrated to Chicago, where he built the Illinois Institute of Technology campus and later the Seagram Building in New York."
+      }
+    ],
+    "location": { "city": "Berlin", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 1968,
+    "era": "MODERNISM",
+    "style": "International Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Neue_Nationalgalerie",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Berlin_Neue_Nationalgalerie_asv2021-11_img2.jpg/1920px-Berlin_Neue_Nationalgalerie_asv2021-11_img2.jpg",
+        "alt": "Flat black steel roof on slender columns over a glass-walled hall at dusk, with a large bronze sculpture on the square in front",
+        "credit": "Photo: A.Savin · FAL · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_Neue_Nationalgalerie_asv2021-11_img2.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Neue_Nationalgalerie_2023_during_renovation_01.jpg/1920px-Neue_Nationalgalerie_2023_during_renovation_01.jpg",
+        "alt": "Hall under a black steel grid ceiling with a dark green stone core and rolls of carpet on a stone floor",
+        "credit": "Photo: Flibust1er · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Neue_Nationalgalerie_2023_during_renovation_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Eight cruciform columns support a square, pre-stressed steel roof plate 1.8 metres thick, painted black."
+      },
+      {
+        "order": 2,
+        "text": "Its glazed upper hall is the main exhibition space, while the permanent collection sits in a lower floor that is three-quarters underground."
+      },
+      { "order": 3, "text": "David Chipperfield Architects renovated it between 2015 and 2021." }
+    ],
+    "summary": {
+      "description": "Ludwig Mies van der Rohe designed the museum and its sculpture gardens, which opened on 15 September 1968 in West Berlin south of the Tiergarten. The upper story is an entrance hall and the main special-exhibition gallery, under a square black steel roof plate 1.8 metres thick carried by eight cruciform columns, with an 18-metre cantilever and floor-to-ceiling glass 8.4 metres high on a 3.6-metre grid. The lower story, three-quarters below ground, houses the permanent collection, a library, offices, a shop and a café. David Chipperfield Architects renovated it, and it reopened in August 2021.",
+      "keyFeatures": [
+        "Square black steel roof plate carried by eight cruciform columns",
+        "18-metre cantilever and 8.4-metre floor-to-ceiling glazing",
+        "Black anodised aluminium \"egg crates\" holding the lighting on a 3.6-metre grid",
+        "Collection housed in a lower story that is three-quarters below ground"
+      ],
+      "funFacts": [
+        "The museum closed for renovation in 2015 and reopened in August 2021 with an exhibition of works by Alexander Calder.",
+        "It is part of the National Gallery of the Berlin State Museums, focused on 20th-century modern art."
+      ]
+    }
+  },
+  {
+    "id": "crown-hall",
+    "name": "S. R. Crown Hall",
+    "aliases": ["Crown Hall", "SR Crown Hall", "Crown Hall IIT", "Crown Hall Illinois Institute of Technology"],
+    "architects": [
+      {
+        "name": "Ludwig Mies van der Rohe",
+        "aliases": ["Mies van der Rohe", "Mies", "Ludwig Mies"],
+        "lifespan": "1886–1969",
+        "nationality": "German (later American)",
+        "bio": "A former assistant of Peter Behrens, Mies reduced architecture to steel, glass and fine materials ('less is more'). Last director of the Bauhaus, he emigrated to Chicago, where he built the Illinois Institute of Technology campus and later the Seagram Building in New York."
+      }
+    ],
+    "location": { "city": "Chicago, Illinois", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1956,
+    "era": "MODERNISM",
+    "style": "International Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/S._R._Crown_Hall",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Crown_Hall_2.jpg/1920px-Crown_Hall_2.jpg",
+        "alt": "Low glass-and-steel pavilion with black steel columns and a wide flight of steps up to the raised entrance, bare trees in front",
+        "credit": "Photo: Joe Ravi · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Crown_Hall_2.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Interior_Crown_Hall_%28Primera_planta%29.jpg/1920px-Interior_Crown_Hall_%28Primera_planta%29.jpg",
+        "alt": "Vast open hall with a white ceiling, a long wooden display wall with pinned drawings and a polished dark floor, framed by glass walls",
+        "credit": "Photo: Claudia Floress · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_Crown_Hall_(Primera_planta).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built for a college of architecture that its designer led for two decades." },
+      {
+        "order": 2,
+        "text": "Four girders resting on four pairs of columns carry the roof, so the main level has no interior columns."
+      },
+      { "order": 3, "text": "Its name honours a businessman whose brothers donated $250,000 towards construction." }
+    ],
+    "summary": {
+      "description": "Completed in 1956 on the campus of the Illinois Institute of Technology, S. R. Crown Hall was designed by Ludwig Mies van der Rohe for the College of Architecture, which he led for two decades. A glass curtain wall in three tiers of panes, between steel columns and mullions, wraps a rectangular building of 120 by 220 feet. Four girders on four pairs of columns hold the roof 18 feet above the main level, leaving an open plan with half-height partitions. The main level is raised six feet and reached from a porch on the south side. It is a Chicago Landmark and a National Historic Landmark.",
+      "keyFeatures": [
+        "Glass curtain wall in three tiers of panes",
+        "Roof carried by four girders on four pairs of columns",
+        "Open main level with no interior columns",
+        "Raised main story reached from a porch"
+      ],
+      "funFacts": [
+        "The site was previously occupied by the Mecca Flats, which were demolished in 1952.",
+        "Work began on 2 December 1954, and the building was dedicated on 30 April 1956."
+      ]
+    }
   }
 ]
