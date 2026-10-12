@@ -1,0 +1,52 @@
+{
+  "centro-de-artes-de-sines": {
+    "name": "Centro de Artes de Sines",
+    "aliases": ["Centro de Artes Sines", "Biblioteca de Sines", "Sines Arts Centre"],
+    "architects": [
+      {
+        "aliases": ["Aires Mateus", "Manuel Mateus"],
+        "lifespan": "n. 1963",
+        "nationality": "Português",
+        "bio": "Arquiteto português que, com o irmão Francisco, dirige o atelier lisboeta Aires Mateus & Associados."
+      },
+      {
+        "aliases": ["Aires Mateus", "Francisco Mateus"],
+        "lifespan": null,
+        "nationality": "Português",
+        "bio": "Arquiteto português, sócio do irmão Manuel no atelier Aires Mateus & Associados."
+      }
+    ],
+    "city": "Sines",
+    "style": "Contemporâneo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_de_Artes_de_Sines",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Dois enormes blocos revestidos a pedra clara com uma rua estreita entre eles e uma longa faixa de vidro ao nível do chão",
+        "caption": null
+      },
+      {
+        "alt": "Canto de um alto bloco de pedra clara com um piso térreo envidraçado e uma faixa de vidro escuro, sob um céu azul",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi inaugurado em agosto de 2005 na zona histórica da sua vila, no local de um antigo cine-teatro.",
+      "Um único edifício reúne um centro de exposições, a biblioteca municipal, um auditório de 191 lugares e o arquivo histórico.",
+      "A sua robusta fachada de pedra lioz e os seus envidraçados sugerem as aberturas e as seteiras das muralhas do castelo."
+    ],
+    "summary": {
+      "description": "O Centro de Artes de Sines, inaugurado a 20 de agosto de 2005, é uma moderna infraestrutura concebida pelo Atelier Aires Mateus & Associados (Manuel Aires Mateus e Francisco Aires Mateus) na zona histórica de Sines. Um único edifício integra quatro equipamentos: um centro de exposições, a nova biblioteca municipal, um auditório de 191 lugares e o arquivo histórico municipal. Situa-se onde estiveram o Cine-teatro Vasco da Gama e o Teatro do Mar. A sua escala monumental é a do centro histórico, e o jogo de transparências e opacidades sugere as aberturas e seteiras das muralhas do castelo. Na Rua Marquês de Pombal apresenta uma fachada de pedra lioz muito robusta, enquanto na Rua Cândido dos Reis o volume se ilumina pelas fachadas envidraçadas; no interior, a luz natural reflete-se no mármore branco liso dos tetos e paredes.",
+      "keyFeatures": [
+        "Quatro equipamentos num só edifício: exposições, biblioteca, auditório e arquivo",
+        "Fachada robusta de pedra lioz de um lado e fachadas envidraçadas de outro",
+        "Tetos e paredes de mármore branco liso no interior",
+        "Um auditório de 191 lugares"
+      ],
+      "funFacts": [
+        "Ocupa toda a área disponível do lote e funciona como porta do centro histórico.",
+        "Substituiu o Cine-teatro Vasco da Gama e o Teatro do Mar, entre outras estruturas."
+      ]
+    }
+  }
+}

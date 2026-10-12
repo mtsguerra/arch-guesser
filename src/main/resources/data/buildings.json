@@ -18398,5 +18398,74 @@
         "Siza said the entrance patio was where Pomar wanted to place his tiles, and he approved."
       ]
     }
+  },
+  {
+    "id": "centro-de-artes-de-sines",
+    "name": "Sines Arts Centre",
+    "aliases": ["Centro de Artes de Sines", "Sines Arts Center", "Centro de Artes Sines", "Biblioteca de Sines"],
+    "architects": [
+      {
+        "name": "Manuel Aires Mateus",
+        "aliases": ["Aires Mateus", "Manuel Mateus"],
+        "lifespan": "b. 1963",
+        "nationality": "Portuguese",
+        "bio": "Portuguese architect who, with his brother Francisco, leads the Lisbon practice Aires Mateus & Associados."
+      },
+      {
+        "name": "Francisco Aires Mateus",
+        "aliases": ["Aires Mateus", "Francisco Mateus"],
+        "nationality": "Portuguese",
+        "bio": "Portuguese architect, partner of his brother Manuel in the practice Aires Mateus & Associados."
+      }
+    ],
+    "location": { "city": "Sines", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2005,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_de_Artes_de_Sines",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Centro_de_Artes_de_Sines%2C_Sines_02.jpg/1920px-Centro_de_Artes_de_Sines%2C_Sines_02.jpg",
+        "alt": "Two huge blocks clad in pale stone with a narrow street between them and a long glass strip at ground level",
+        "credit": "Photo: GualdimG · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Centro_de_Artes_de_Sines,_Sines_02.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Q18484303.jpg/1920px-Q18484303.jpg",
+        "alt": "Corner of a tall pale stone block with a glazed ground floor and a dark glass strip, under a blue sky",
+        "credit": "Photo: Vanbasten 23 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Q18484303.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was inaugurated in August 2005 in the historic zone of its town, on the site of a former cine-theatre."
+      },
+      {
+        "order": 2,
+        "text": "A single building brings together an exhibition centre, the municipal library, a 191-seat auditorium and the historical archive."
+      },
+      {
+        "order": 3,
+        "text": "Its robust lioz stone facade and its glazing suggest the openings and arrow slits of the castle walls."
+      }
+    ],
+    "summary": {
+      "description": "The Sines Arts Centre, inaugurated on 20 August 2005, is a modern facility designed by the practice Aires Mateus & Associados (Manuel Aires Mateus and Francisco Aires Mateus) in the historic zone of Sines. A single building holds four facilities: an exhibition centre, the new municipal library, a 191-seat auditorium and the municipal historical archive. It stands where the Vasco da Gama cine-theatre and the Teatro do Mar once stood. Its monumental scale is that of the historic centre, and its play of transparency and opacity suggests the openings and arrow slits of the castle walls. On Rua Marquês de Pombal it presents a very robust lioz stone facade, while along Rua Cândido dos Reis it is lit by glazed facades; inside, natural light reflects off smooth white marble ceilings and walls.",
+      "keyFeatures": [
+        "Four facilities in one building: exhibition centre, library, auditorium and archive",
+        "Robust lioz stone facade on one side, glazed facades on another",
+        "Smooth white marble ceilings and walls inside",
+        "A 191-seat auditorium"
+      ],
+      "funFacts": [
+        "It occupies the whole available lot and acts as the gateway to the historic centre.",
+        "It replaced the Vasco da Gama cine-theatre and the Teatro do Mar, among other structures."
+      ]
+    }
   }
 ]
