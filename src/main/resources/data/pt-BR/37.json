@@ -1,0 +1,103 @@
+{
+  "vanna-venturi-house": {
+    "name": "Casa Vanna Venturi",
+    "aliases": [
+      "Mother's House",
+      "Venturi House",
+      "Casa da Mãe",
+      "Vanna Venturi House",
+      "Casa Vanna Venturi Chestnut Hill"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto e autor de «Complexidade e Contradição em Arquitetura» (1966), uma polêmica antimodernista; sócio de Denise Scott Brown."
+      }
+    ],
+    "city": "Filadélfia",
+    "style": "Pós-modernismo",
+    "drawings": [
+      {
+        "label": "Planta do piso térreo",
+        "alt": "Planta desenhada a traço de uma pequena casa com um contorno curvo de varanda, um núcleo central de escada e chaminé e divisões à volta"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Casa azul-claro com um frontão quebrado, um arco fino apenas decorativo sobre a porta recuada e uma chaminé que sobe por trás da abertura",
+        "caption": null
+      },
+      {
+        "alt": "Lado de uma pequena casa clara com uma grande janela quadriculada, trepadeiras na parede, um telhado muito inclinado e uma chaminé, à luz baixa do sol",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi projetada por um arquiteto para a própria mãe e construída entre 1962 e 1964.",
+      "A frente tem um frontão quebrado e um arco aplicado puramente decorativo, um desafio aberto à ortodoxia modernista.",
+      "Um historiador chamou-lhe o maior edifício pequeno da segunda metade do século XX."
+    ],
+    "summary": {
+      "description": "A Casa Vanna Venturi, uma das primeiras obras de destaque da arquitetura pós-moderna, situa-se no bairro de Chestnut Hill, em Filadélfia. Robert Venturi projetou-a para a sua mãe, Vanna Venturi, e foi construída entre 1962 e 1964. A casa de cinco divisões tem apenas cerca de 9 metros de altura, mas apresenta uma fachada frontal monumental, efeito conseguido ao manipular os elementos que indicam a escala. Elementos como um arco aplicado sem função estrutural e janelas «buraco na parede» eram um desafio aberto à ortodoxia modernista, como descreve o livro de Venturi de 1966, Complexidade e Contradição em Arquitetura. O historiador de arquitetura Vincent Scully chamou-lhe «o maior edifício pequeno da segunda metade do século XX».",
+      "keyFeatures": [
+        "Frontão quebrado e um arco aplicado puramente decorativo na frente",
+        "Chaminé e escada centrais a disputar o meio da planta",
+        "Telhado inclinado e piso térreo fechado em vez do vidro e dos pilares modernistas",
+        "Uma escada que parece conduzir a um terceiro piso inexistente"
+      ],
+      "funFacts": [
+        "Venturi chamava-lhe «a Casa da Mãe» e redesenhou-a pelo menos cinco vezes, em versões totalmente elaboradas, enquanto escrevia o seu livro.",
+        "Venturi comparou a fachada frontal a «um desenho de criança de uma casa».",
+        "Juntamente com a Guild House, foi a primeira obra de Venturi como arquiteto independente."
+      ]
+    }
+  },
+  "guild-house-philadelphia": {
+    "name": "Guild House",
+    "aliases": [
+      "Guild House Filadélfia",
+      "Guild House Apartments",
+      "Casa da Guilda",
+      "Friends Neighborhood Guild House"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto e autor de «Complexidade e Contradição em Arquitetura» (1966), uma polêmica antimodernista; sócio de Denise Scott Brown."
+      }
+    ],
+    "city": "Filadélfia",
+    "style": "Pós-modernismo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Fachada de apartamentos em tijolo vermelho com uma pilha de varandas de treliça e uma grande janela em meio círculo a coroar um piso térreo claro",
+        "caption": null
+      },
+      {
+        "alt": "Bloco de seis pisos em tijolo que avança num corpo central com uma janela em arco no topo, visto do outro lado de uma estrada movimentada",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Contém 91 apartamentos para idosos de baixos rendimentos e foi encomendado por uma organização quaker.",
+      "O seu arquiteto explicou-o através da sua filosofia do «galpão decorado».",
+      "Tem um grande letreiro em letras de forma por cima da entrada com o nome do edifício, e a cobertura era originalmente coroada por uma antena de televisão gigante e sem função."
+    ],
+    "summary": {
+      "description": "A Guild House é um edifício residencial em Filadélfia, construído em 1960–63 para idosos de baixos rendimentos, e foi a primeira grande obra de Robert Venturi. Juntamente com a Casa Vanna Venturi, é considerada uma das primeiras expressões da arquitetura pós-moderna. Foi encomendada por uma organização quaker, a Friends Neighborhood Guild, e projetada por Venturi e Rauch com a Cope and Lippincott. Com tijolo vermelho e janelas de guilhotina comuns, combinou a arquitetura comercial banal com referências históricas irónicas e rejeitou os ideais modernistas. Foi inscrita no Registo de Locais Históricos de Filadélfia em 2004.",
+      "keyFeatures": [
+        "Bloco de seis pisos em tijolo vermelho com uma fachada simétrica e escalonada",
+        "Entrada de cunho clássico monumental com uma coluna de granito preto polido",
+        "Grande janela em arco que abre para a sala comum",
+        "91 apartamentos com corredores interiores sinuosos"
+      ],
+      "funFacts": [
+        "A cobertura era originalmente coroada por uma antena de televisão gigante e sem função, uma alusão escultórica ao principal passatempo dos moradores.",
+        "Foi inscrita no Registo de Locais Históricos de Filadélfia em 2004, apesar de ter quase 40 anos."
+      ]
+    }
+  }
+}

@@ -17046,5 +17046,146 @@
         "The Whitney occupied the building until 2014."
       ]
     }
+  },
+  {
+    "id": "vanna-venturi-house",
+    "name": "Vanna Venturi House",
+    "aliases": [
+      "Mother's House",
+      "Venturi House",
+      "Casa Vanna Venturi",
+      "Casa da Mãe",
+      "Vanna Venturi House Chestnut Hill"
+    ],
+    "architects": [
+      {
+        "name": "Robert Venturi",
+        "aliases": ["Venturi"],
+        "nationality": "American",
+        "bio": "Architect and author of 'Complexity and Contradiction in Architecture' (1966), an anti-Modernist polemic; partner of Denise Scott Brown."
+      }
+    ],
+    "location": { "city": "Philadelphia", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1964,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vanna_Venturi_House",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground-floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Vanna_Venturi_Ground_Floor_Plan.jpg",
+        "alt": "Line plan of a small house with a curved porch outline, a central stair and chimney core and rooms packed around it",
+        "credit": "Robert Venturi · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vanna_Venturi_Ground_Floor_Plan.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/VVenturi_House_fall_11.jpg/1920px-VVenturi_House_fall_11.jpg",
+        "alt": "Pale blue house with a broken gable, a thin applied arch over the recessed doorway and a chimney rising behind the split",
+        "credit": "Photo: Smallbones · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:VVenturi_House_fall_11.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/V_Venturi_H_1.JPG/1920px-V_Venturi_H_1.JPG",
+        "alt": "Side of a small pale house with a large grid window, vines on the wall, a big sloping roof and a chimney, seen in low sun",
+        "credit": "Photo: Smallbones · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:V_Venturi_H_1.JPG"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was designed by an architect for his own mother and built between 1962 and 1964." },
+      {
+        "order": 2,
+        "text": "Its front has a broken gable and a purely ornamental applied arch, an open challenge to Modernist orthodoxy."
+      },
+      {
+        "order": 3,
+        "text": "A historian called it the biggest small building of the second half of the twentieth century."
+      }
+    ],
+    "summary": {
+      "description": "The Vanna Venturi House, one of the first prominent works of postmodern architecture, stands in the Chestnut Hill neighbourhood of Philadelphia. Robert Venturi designed it for his mother, Vanna Venturi, and it was built between 1962 and 1964. The five-room house stands only about 30 feet tall but has a monumental front facade, an effect achieved by manipulating the elements that indicate scale. Elements such as a non-structural applied arch and \"hole in the wall\" windows were an open challenge to Modernist orthodoxy, as described in Venturi's 1966 book Complexity and Contradiction in Architecture. Architectural historian Vincent Scully called it \"the biggest small building of the second half of the twentieth century.\"",
+      "keyFeatures": [
+        "Broken gable and a purely ornamental applied arch on the front",
+        "Central chimney and stair competing for the middle of the plan",
+        "Pitched roof and closed ground floor instead of Modernist glass and columns",
+        "A stair that seems to lead to a non-existent third floor"
+      ],
+      "funFacts": [
+        "Venturi called it \"Mother's House\" and redesigned it at least five times in fully worked-out versions while writing his book.",
+        "Venturi compared the front facade to \"a child's drawing of a house\".",
+        "Along with Guild House, it was Venturi's first work as an independent architect."
+      ]
+    }
+  },
+  {
+    "id": "guild-house-philadelphia",
+    "name": "Guild House",
+    "aliases": [
+      "Guild House Philadelphia",
+      "Guild House Apartments",
+      "Casa da Guilda",
+      "Friends Neighborhood Guild House"
+    ],
+    "architects": [
+      {
+        "name": "Robert Venturi",
+        "aliases": ["Venturi"],
+        "nationality": "American",
+        "bio": "Architect and author of 'Complexity and Contradiction in Architecture' (1966), an anti-Modernist polemic; partner of Denise Scott Brown."
+      }
+    ],
+    "location": { "city": "Philadelphia", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1963,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guild_House_(Philadelphia)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Guildhouse_Philly.JPG/1920px-Guildhouse_Philly.JPG",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.77 },
+        "alt": "Red-brick apartment facade with a stack of lattice balconies and a big half-round window crowning a pale ground floor",
+        "credit": "Photo: Smallbones · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Guildhouse_Philly.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Guild_House%2C_Vine_St.%2C_Philly.JPG/1920px-Guild_House%2C_Vine_St.%2C_Philly.JPG",
+        "crop": { "x": 0.02, "y": 0, "w": 0.96, "h": 0.66 },
+        "alt": "Six-storey brick block stepping out to a central bay with an arched window at the top, seen across a busy road",
+        "credit": "Photo: Smallbones · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Guild_House,_Vine_St.,_Philly.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It contains 91 apartments for low-income senior citizens and was commissioned by a Quaker organization."
+      },
+      { "order": 2, "text": "Its architect explained it through his \"decorated shed\" philosophy." },
+      {
+        "order": 3,
+        "text": "It has a large block-letter sign above the entrance spelling its name, and its roof was originally crowned with an oversize non-functional television antenna."
+      }
+    ],
+    "summary": {
+      "description": "Guild House is a residential building in Philadelphia, built in 1960–63 for low-income senior citizens, and was the first major work by Robert Venturi. Along with the Vanna Venturi House it is considered one of the earliest expressions of postmodern architecture. It was commissioned by a Quaker organization, the Friends Neighborhood Guild, and designed by Venturi and Rauch with Cope and Lippincott. Using red clay brick and ordinary double-hung windows, it combined ordinary commercial architecture with ironic historical references and rejected Modernist ideals. It was added to the Philadelphia Register of Historic Places in 2004.",
+      "keyFeatures": [
+        "Six-storey red-brick block with a symmetrical, stepped facade",
+        "Monumental classical entrance bay with a polished black granite column",
+        "Large arched window opening onto the common room",
+        "91 apartments with winding interior corridors"
+      ],
+      "funFacts": [
+        "The roof was originally crowned with an oversize, nonfunctional television antenna, a sculptural nod to the residents' chief pastime.",
+        "It was added to the Philadelphia Register of Historic Places in 2004, despite being barely 40 years old."
+      ]
+    }
   }
 ]
