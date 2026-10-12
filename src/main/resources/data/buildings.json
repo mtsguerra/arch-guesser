@@ -15962,5 +15962,140 @@
         "The parallel arrangement of the homes creates an internal environment that is potentially problematic, according to the programme's documentation."
       ]
     }
+  },
+  {
+    "id": "pousada-santa-maria-do-bouro",
+    "name": "Pousada de Santa Maria do Bouro",
+    "aliases": [
+      "Convento de Santa Maria do Bouro",
+      "Mosteiro de Santa Maria do Bouro",
+      "Pousada Mosteiro de Amares",
+      "Santa Maria do Bouro Monastery",
+      "Pousada Amares"
+    ],
+    "architects": [
+      {
+        "name": "Eduardo Souto de Moura",
+        "aliases": ["Souto de Moura", "Souto Moura", "Eduardo Souto Moura"],
+        "lifespan": "b. 1952",
+        "nationality": "Portuguese",
+        "bio": "Porto School architect, alongside Távora and Siza, who received the Pritzker Architecture Prize in 2011 and the Wolf Prize in Arts in 2013."
+      }
+    ],
+    "location": { "city": "Amares", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1997,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary conversion of a Cistercian monastery",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Convento_de_Santa_Maria_do_Bouro",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Pousada_de_Santa_Maria_do_Bouro_IMG_9783_%286127244425%29.jpg/1920px-Pousada_de_Santa_Maria_do_Bouro_IMG_9783_%286127244425%29.jpg",
+        "alt": "Cloister courtyard at dusk, with orange trees growing from dark stone planters in front of a long stone arcade",
+        "credit": "Photo: 準建築人手札網站 Forgemind ArchiMedia from Taichung, Taiwan, Taiwan · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pousada_de_Santa_Maria_do_Bouro_IMG_9783_(6127244425).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Bouro_March_2016-1a.jpg/1920px-Bouro_March_2016-1a.jpg",
+        "alt": "Row of granite-framed doorways receding in a line, with bright sun and shadow on the stone floor beyond them",
+        "caption": "Granite doorways line up along a corridor.",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bouro_March_2016-1a.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was a monastery that was donated to the Benedictines in 1148 and adopted Cistercian rule in 1195."
+      },
+      {
+        "order": 2,
+        "text": "It was abandoned in 1834, when male religious orders were abolished, and its project for a new use was presented in 1989."
+      },
+      {
+        "order": 3,
+        "text": "It has been classified as a Property of Public Interest since 1958, and an inn opened in it in 1997."
+      }
+    ],
+    "summary": {
+      "description": "Part of an old monastery in the municipality of Amares, in northern Portugal, was converted into an inn, the Pousada de Santa Maria do Bouro. The project of the architect Eduardo Souto de Moura for adapting the monastery's buildings was presented in 1989, work began in 1994 and the inn was inaugurated in 1997. The monastery was given by Afonso Henriques to the Benedictines in 1148 and followed the Cistercian rule from 1195. It was rebuilt from the late 16th century, with new decoration in carved wood and tiles, and abandoned in 1834, when male religious orders were abolished. It has been classified as a Property of Public Interest since 1958.",
+      "keyFeatures": [
+        "Conversion of a Cistercian monastery into an inn",
+        "Church of three naves and a central cloister",
+        "Restoration from 1994 to 1997",
+        "Classified as a Property of Public Interest in 1958"
+      ],
+      "funFacts": [
+        "The municipality of Amares bought part of the monastery in 1986 for 200 contos.",
+        "Strictly, the Benedictines and Cistercians were monks, so the more accurate name would be \"monastery\"."
+      ]
+    }
+  },
+  {
+    "id": "estacao-casa-da-musica",
+    "name": "Casa da Música station",
+    "aliases": [
+      "Estação Casa da Música",
+      "Casa da Música Metro Station",
+      "Casa da Música metro",
+      "Estação Casa da Música Metro do Porto",
+      "Casa da Música Porto Metro"
+    ],
+    "architects": [
+      {
+        "name": "Eduardo Souto de Moura",
+        "aliases": ["Souto de Moura", "Souto Moura", "Eduardo Souto Moura"],
+        "lifespan": "b. 1952",
+        "nationality": "Portuguese",
+        "bio": "Porto School architect, alongside Távora and Siza, who received the Pritzker Architecture Prize in 2011 and the Wolf Prize in Arts in 2013."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2002,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary minimalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casa_da_M%C3%BAsica_station",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Casa_da_Musica_station_building.jpg/1920px-Casa_da_Musica_station_building.jpg",
+        "crop": { "x": 0.36, "y": 0.2, "w": 0.64, "h": 0.7 },
+        "alt": "Low white-roofed station entrance beside a wide road with crossings, a lamp post and a modern apartment block under a blue sky",
+        "credit": "Photo: Ymblanter · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_da_Musica_station_building.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Casa_da_M%C3%BAsica_station_plaftorms.jpg/1920px-Casa_da_M%C3%BAsica_station_plaftorms.jpg",
+        "crop": { "x": 0, "y": 0, "w": 0.78, "h": 1 },
+        "alt": "Underground platform under a long ceiling with two round skylights, a track on one side and travellers waiting along the platform",
+        "credit": "Photo: Ymblanter · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_da_M%C3%BAsica_station_plaftorms.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built on the site of a former railway station, closed in 2001 to enable the construction of a metro."
+      },
+      { "order": 2, "text": "It is one of the main underground stations of its network, ready for a future line." },
+      { "order": 3, "text": "The architect also designed the system's main interchange station." }
+    ],
+    "summary": {
+      "description": "Designed by Eduardo Souto de Moura, who also designed the Porto Metro's Trindade station, this underground station on Avenida da França was inaugurated on 7 December 2002, with commercial services beginning on 1 January 2003. It was built on the site of the old Avenida da França station on the Porto to Póvoa and Famalicão railway line, which closed in 2001 to enable the metro's construction. It is one of the main underground stations of the network, and is already prepared for a future line to be installed under it. The station takes its name from the nearby concert hall.",
+      "keyFeatures": [
+        "Underground station on Avenida da França",
+        "Built on the site of an old railway station",
+        "Prepared for a future line below",
+        "Served by five lines in the shared section"
+      ],
+      "funFacts": [
+        "Lines A, B, C, E and F share the tracks through the station.",
+        "Line B started operating there on 13 March 2005 and line C on 30 July 2005."
+      ]
+    }
   }
 ]

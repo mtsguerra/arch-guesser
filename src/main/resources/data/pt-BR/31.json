@@ -1,0 +1,100 @@
+{
+  "pousada-santa-maria-do-bouro": {
+    "name": "Pousada de Santa Maria do Bouro",
+    "aliases": [
+      "Convento de Santa Maria do Bouro",
+      "Mosteiro de Santa Maria do Bouro",
+      "Pousada Mosteiro de Amares",
+      "Pousada de Amares",
+      "Pousada do Bouro"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto da Escola do Porto, ao lado de Távora e Siza, que recebeu o Prêmio Pritzker de Arquitetura em 2011 e o Prêmio Wolf de Artes em 2013."
+      }
+    ],
+    "city": "Amares",
+    "style": "Conversão contemporânea de um mosteiro cisterciense",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Convento_de_Santa_Maria_do_Bouro",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Pátio do claustro ao entardecer, com laranjeiras a crescer de vasos escuros de pedra diante de uma longa arcada de pedra",
+        "caption": null
+      },
+      {
+        "alt": "Fila de portas emolduradas de granito que se afastam em linha, com sol e sombra no piso de pedra para além delas",
+        "caption": "Portas de granito alinham-se ao longo de um corredor."
+      }
+    ],
+    "hints": [
+      "Foi um mosteiro doado aos beneditinos em 1148 que adotou a regra de Cister em 1195.",
+      "Foi abandonado em 1834, quando as ordens religiosas masculinas foram extintas, e o projeto de novo uso foi apresentado em 1989.",
+      "Está classificado como Imóvel de Interesse Público desde 1958, e abriu nele uma pousada em 1997."
+    ],
+    "summary": {
+      "description": "Parte de um antigo mosteiro no concelho de Amares, no norte de Portugal, foi convertida numa pousada, a Pousada de Santa Maria do Bouro. O projeto do arquiteto Eduardo Souto de Moura para adaptar as dependências do mosteiro foi apresentado em 1989, as obras começaram em 1994 e a pousada foi inaugurada em 1997. O mosteiro foi doado por D. Afonso Henriques à Ordem de São Bento em 1148 e seguiu a regra de Cister desde 1195. Foi reconstruído a partir do final do século XVI, com novas decorações em talha e azulejos, e abandonado em 1834, quando as ordens religiosas masculinas foram extintas. Está classificado como Imóvel de Interesse Público desde 1958.",
+      "keyFeatures": [
+        "Conversão de um mosteiro cisterciense em pousada",
+        "Igreja de três naves e um claustro central",
+        "Restauro de 1994 a 1997",
+        "Classificado como Imóvel de Interesse Público em 1958"
+      ],
+      "funFacts": [
+        "A Câmara Municipal de Amares comprou parte do mosteiro em 1986 por 200 contos.",
+        "Em rigor, beneditinos e cistercienses eram monges, pelo que a designação mais adequada seria \"mosteiro\"."
+      ]
+    }
+  },
+  "estacao-casa-da-musica": {
+    "name": "Estação Casa da Música",
+    "aliases": [
+      "Casa da Música station",
+      "Estação do Metro Casa da Música",
+      "Metro Casa da Música",
+      "Estação Casa da Música Metro do Porto",
+      "Casa da Música Metro"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto da Escola do Porto, ao lado de Távora e Siza, que recebeu o Prêmio Pritzker de Arquitetura em 2011 e o Prêmio Wolf de Artes em 2013."
+      }
+    ],
+    "city": "Porto",
+    "style": "Minimalismo contemporâneo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Casa_da_M%C3%BAsica",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Entrada baixa de estação com cobertura branca ao lado de uma larga estrada com passadeiras, um poste de luz e um prédio moderno sob um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Cais subterrâneo sob um longo teto com duas claraboias redondas, uma via de um lado e passageiros à espera ao longo do cais",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construída no local de uma antiga estação ferroviária, encerrada em 2001 para permitir a construção de um metro.",
+      "É uma das principais estações subterrâneas da sua rede, já preparada para uma futura linha.",
+      "O arquiteto projetou também a principal estação de interligação do sistema."
+    ],
+    "summary": {
+      "description": "Projetada por Eduardo Souto de Moura, que projetou também a estação da Trindade do Metro do Porto, esta estação subterrânea na Avenida da França foi inaugurada a 7 de dezembro de 2002, com serviço comercial a partir de 1 de janeiro de 2003. Foi construída no local da antiga estação da Avenida da França, da linha ferroviária do Porto à Póvoa e Famalicão, encerrada em 2001 para permitir a construção do metro. É uma das principais estações subterrâneas da rede e já está preparada para uma futura linha a instalar por baixo dela. A estação deve o nome à sala de concertos vizinha.",
+      "keyFeatures": [
+        "Estação subterrânea na Avenida da França",
+        "Construída no local de uma antiga estação ferroviária",
+        "Preparada para uma futura linha por baixo",
+        "Servida por cinco linhas no troço comum"
+      ],
+      "funFacts": [
+        "As linhas A, B, C, E e F partilham a via através da estação.",
+        "A linha B começou a operar aí a 13 de março de 2005 e a linha C a 30 de julho de 2005."
+      ]
+    }
+  }
+}
