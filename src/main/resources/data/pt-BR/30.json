@@ -1,0 +1,148 @@
+{
+  "fundacao-ibere-camargo": {
+    "name": "Fundação Iberê Camargo",
+    "aliases": [
+      "Iberê Camargo Foundation",
+      "Museu Iberê Camargo",
+      "Fundação Ibere Camargo",
+      "Museu da Fundação Iberê Camargo"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Porto Alegre",
+    "style": "Modernismo tardio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Funda%C3%A7%C3%A3o_Iber%C3%AA_Camargo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Rampas e varandas curvas de concreto branco enroladas em torno de uma torre em bloco, vistas depois de um longo muro branco sob um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Galeria branca e luminosa iluminada por claraboias, atravessada por uma larga passagem em forma de ponte, com visitantes a olhar pinturas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Homenageia um pintor brasileiro que viveu de 1914 a 1994 e foi criada um ano depois da sua morte.",
+      "Antes de o edifício abrir, em maio de 2008, a fundação funcionava na própria casa do pintor falecido, na mesma cidade.",
+      "Fica na margem do Lago Guaíba, projetada por um arquiteto português vencedor do Prémio Pritzker."
+    ],
+    "summary": {
+      "description": "A sede e o museu da Fundação Iberê Camargo, dedicada a preservar e promover a obra do pintor brasileiro Iberê Camargo (1914–1994), foram projetados pelo arquiteto português Álvaro Siza, vencedor do Prémio Pritzker. A fundação foi criada em 1995, um ano após a morte do artista, e pretende também estimular a reflexão sobre a produção artística contemporânea através de exposições, cursos, seminários e encontros. Antes da inauguração do edifício, em maio de 2008, funcionava na casa do artista, também em Porto Alegre. O novo edifício fica na margem do Lago Guaíba.",
+      "keyFeatures": [
+        "Rampas e varandas curvas de concreto enroladas em torno de uma torre",
+        "Galerias brancas com claraboias atravessadas por largas passagens",
+        "Terreno na margem do Lago Guaíba",
+        "Sede, museu e centro de estudos para um só pintor"
+      ],
+      "funFacts": [
+        "A presidente de honra da fundação é a viúva do pintor, Maria Coussirat Camargo.",
+        "A fundação oferece cursos, seminários e encontros além de exposições."
+      ]
+    }
+  },
+  "museu-nadir-afonso": {
+    "name": "Museu de Arte Contemporânea Nadir Afonso",
+    "aliases": [
+      "Museu Nadir Afonso",
+      "MACNA",
+      "Museu Nadir Afonso de Chaves",
+      "Museu de Arte Contemporânea de Chaves",
+      "Nadir Afonso Museum"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Chaves",
+    "style": "Modernismo tardio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_de_Arte_Contempor%C3%A2nea_Nadir_Afonso",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Edifício de concreto claro com um grande canto de arestas vivas e volumes brancos recuados ao lado de um relvado verde sob um céu escuro",
+        "caption": null
+      },
+      {
+        "alt": "Longa galeria com piso de madeira quente e paredes cor de creme iluminadas por uma luz contínua no teto, com grandes pinturas coloridas penduradas ao longo delas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Mostra quinze pinturas que o artista doou à vila em 1982, guardadas antes num museu regional.",
+      "O seu edifício tem um foyer, uma biblioteca, um auditório para cerca de cem pessoas, um bar e quatro salas de exposição.",
+      "O seu arquiteto desenhou também o logótipo do museu, no ano em que abriu, 2016."
+    ],
+    "summary": {
+      "description": "O museu de arte contemporânea da cidade de Chaves foi inaugurado em julho de 2016 num edifício projetado por Álvaro Siza Vieira. Museu municipal, exibe em permanência a obra do pintor Nadir Afonso e apresenta também outra arte contemporânea em exposições temporárias. O acervo nuclear são quinze obras sobre tela e aglomerado de madeira que Nadir Afonso doou ao município em 1982. O edifício tem um foyer, uma biblioteca, um auditório para cerca de cem pessoas, um bar e quatro salas de exposição.",
+      "keyFeatures": [
+        "Foyer, biblioteca, auditório para cerca de cem pessoas e um bar",
+        "Quatro salas de exposição",
+        "Exposição permanente do pintor Nadir Afonso",
+        "Logótipo desenhado pelo arquiteto em 2016"
+      ],
+      "funFacts": [
+        "O museu recebeu também doações, entre elas mais de vinte óleos e doze cadernos de esboços da pintora Ema Berta em 2017.",
+        "Em 2019 anunciou-se que parte do acervo do Museu Nacional de Arte Contemporânea passaria para aqui, como \"um pólo do Museu do Chiado\"."
+      ]
+    }
+  },
+  "bairro-da-bouca": {
+    "name": "Bairro da Bouça",
+    "aliases": [
+      "Conjunto Habitacional da Bouça",
+      "Bouça",
+      "SAAL Bouça",
+      "Habitação social da Bouça",
+      "Bairro da Bouça Porto"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Porto",
+    "style": "Modernismo tardio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Servi%C3%A7o_de_Apoio_Ambulat%C3%B3rio_Local",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longas filas baixas de casas brancas com pequenas janelas e escadas exteriores, em volta de um pátio pavimentado sob um céu roxo ao entardecer",
+        "caption": null
+      },
+      {
+        "alt": "Patamar de escada de concreto com uma grande janela quadrada aberta para um caminho pavimentado e um relvado, a preto e branco",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um conjunto de habitação social construído através de um programa público criado depois de uma revolução em 1974.",
+      "Foi construído um grande muro ao longo dele para bloquear o ruído dos comboios que passam num aterro ferroviário elevado.",
+      "É feito de quatro longos blocos organizados pela repetição de um único módulo, com casas de tipos diferentes encaixadas umas nas outras."
+    ],
+    "summary": {
+      "description": "Projetado por Álvaro Siza Vieira, o conjunto habitacional da Bouça, na Rua da Boavista, no Porto, foi construído no âmbito do programa SAAL. A localização difícil junto a um aterro ferroviário elevado obrigou à construção de um grande muro para bloquear o som dos comboios, hoje metros. O conjunto tem quatro blocos longitudinais organizados pela repetição de um módulo, unidos pelos topos e pelo muro. As habitações, do T1 ao T4, encaixam-se umas nas outras tanto em planta como em corte.",
+      "keyFeatures": [
+        "Quatro longos blocos ligados por um grande muro antirruído",
+        "Repetição de um único módulo",
+        "Habitações do T1 ao T4 encaixadas em planta e em corte",
+        "Parte do programa de habitação social SAAL"
+      ],
+      "funFacts": [
+        "A escala exterior dos edifícios segue e respeita a cidade envolvente.",
+        "A ordenação paralela das casas gera um ambiente interno potencialmente problemático, segundo a documentação do programa."
+      ]
+    }
+  }
+}

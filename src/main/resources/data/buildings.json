@@ -15764,5 +15764,203 @@
         "It stands on the former location of the Berlin Wall's \"death strip\" and cost about 25 million euros."
       ]
     }
+  },
+  {
+    "id": "fundacao-ibere-camargo",
+    "name": "Iberê Camargo Foundation",
+    "aliases": ["Fundação Iberê Camargo", "Ibere Camargo Foundation", "Ibere Camargo Museum", "Museu Iberê Camargo"],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Porto Alegre", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 2008,
+    "era": "MODERNISM",
+    "style": "Late modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Iber%C3%AA_Camargo_Foundation",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Funda%C3%A7%C3%A3o_Iber%C3%AA_Camargo_-_dia.jpg/1920px-Funda%C3%A7%C3%A3o_Iber%C3%AA_Camargo_-_dia.jpg",
+        "alt": "Curved white concrete ramps and balconies wrapped around a blocky tower, seen past a long white wall under a blue sky",
+        "credit": "Photo: Secretaria Especial da Cultura do Ministério da Cidadania · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Funda%C3%A7%C3%A3o_Iber%C3%AA_Camargo_-_dia.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Funda%C3%A7%C3%A3o_Iber%C3%AA_Camargo_-_interior.jpg/1920px-Funda%C3%A7%C3%A3o_Iber%C3%AA_Camargo_-_interior.jpg",
+        "alt": "Bright white gallery lit from skylights, crossed by a wide bridge-like passage, with visitors looking at paintings",
+        "credit": "Photo: Secretaria Especial da Cultura do Ministério da Cidadania · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Funda%C3%A7%C3%A3o_Iber%C3%AA_Camargo_-_interior.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It honours a Brazilian painter who lived from 1914 to 1994, and was created a year after his death."
+      },
+      {
+        "order": 2,
+        "text": "Before the building opened in May 2008, the foundation worked from the late painter's own house in the same city."
+      },
+      {
+        "order": 3,
+        "text": "It stands on the bank of Guaíba Lake, designed by a Pritzker Prize–winning Portuguese architect."
+      }
+    ],
+    "summary": {
+      "description": "The headquarters and museum of the Iberê Camargo Foundation, dedicated to preserving and promoting the work of the Brazilian painter Iberê Camargo (1914–1994), were designed by the Pritzker Prize–winning Portuguese architect Álvaro Siza. The foundation was created in 1995, a year after the artist's death, and it also aims to stimulate reflection on contemporary art through displays, courses, seminars and meetings. Before the building was inaugurated in May 2008, it operated in the artist's own home, also in Porto Alegre. The new building stands on the bank of Guaíba Lake.",
+      "keyFeatures": [
+        "Curved concrete ramps and balconies wrapped around a tower",
+        "Skylit white galleries crossed by wide passages",
+        "Site on the bank of Guaíba Lake",
+        "Headquarters, museum and study centre for one painter"
+      ],
+      "funFacts": [
+        "The honorary president of the foundation is the painter's widow, Maria Coussirat Camargo.",
+        "The foundation offers courses, seminars and meetings as well as exhibitions."
+      ]
+    }
+  },
+  {
+    "id": "museu-nadir-afonso",
+    "name": "Museu de Arte Contemporânea Nadir Afonso",
+    "aliases": [
+      "Museu Nadir Afonso",
+      "MACNA",
+      "Nadir Afonso Museum",
+      "Nadir Afonso Contemporary Art Museum",
+      "Museu Nadir Afonso Chaves"
+    ],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Chaves", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2016,
+    "era": "MODERNISM",
+    "style": "Late modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Museu_de_Arte_Contempor%C3%A2nea_Nadir_Afonso",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Monade_Museu_Nadir_Afonso.jpg/1920px-Monade_Museu_Nadir_Afonso.jpg",
+        "alt": "Pale concrete building with a large sharp-edged corner and recessed white volumes beside a green lawn under a dark sky",
+        "credit": "Photo: D s p m · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Monade_Museu_Nadir_Afonso.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ema_Berta_Expo_MACNA_2018_a.jpg",
+        "alt": "Long gallery with a warm wooden floor and cream walls lit by a continuous ceiling light, with large colourful paintings hung along them",
+        "credit": "Photo: Ad narragoniam · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ema_Berta_Expo_MACNA_2018_a.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It shows fifteen paintings that the artist donated to the town in 1982, which were first kept in a regional museum."
+      },
+      {
+        "order": 2,
+        "text": "Its building holds a foyer, a library, an auditorium for about a hundred people, a bar and four exhibition rooms."
+      },
+      { "order": 3, "text": "Its architect also designed the museum's logo, in the year it opened, 2016." }
+    ],
+    "summary": {
+      "description": "The contemporary art museum of the town of Chaves was inaugurated in July 2016 in a building designed by Álvaro Siza Vieira. A municipal museum, it permanently shows the work of the painter Nadir Afonso, and also presents other contemporary art in temporary exhibitions. The core of the collection is fifteen works on canvas and chipboard that Nadir Afonso donated to the municipality in 1982. The building holds a foyer, a library, an auditorium for about a hundred people, a bar and four exhibition rooms.",
+      "keyFeatures": [
+        "Foyer, library, auditorium for about a hundred people and a bar",
+        "Four exhibition rooms",
+        "Permanent display of the painter Nadir Afonso",
+        "Logo designed by the architect in 2016"
+      ],
+      "funFacts": [
+        "The museum has also received donations, among them more than twenty oils and twelve sketchbooks by the painter Ema Berta in 2017.",
+        "In 2019 part of the collection of the Museu Nacional de Arte Contemporânea was announced to move here, as a \"pole of the Museu do Chiado\"."
+      ]
+    }
+  },
+  {
+    "id": "bairro-da-bouca",
+    "name": "Bairro da Bouça",
+    "aliases": [
+      "Conjunto Habitacional da Bouça",
+      "Bouça Housing",
+      "SAAL Bouça",
+      "Bouça Social Housing",
+      "Bouça Housing Complex"
+    ],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Porto", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1977,
+    "era": "MODERNISM",
+    "style": "Late modernism",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Servi%C3%A7o_de_Apoio_Ambulat%C3%B3rio_Local",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Conjunto_Habitacional_da_Bou%C3%A7a_by_B%C3%A9ria_-2-.JPG/1920px-Conjunto_Habitacional_da_Bou%C3%A7a_by_B%C3%A9ria_-2-.JPG",
+        "alt": "Long, low rows of white houses with small windows and outer stairs, around a paved courtyard under a purple evening sky",
+        "credit": "Photo: Béria Lima de Rodríguez · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Conjunto_Habitacional_da_Bou%C3%A7a_by_B%C3%A9ria_-2-.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dentro_do_bairro.jpg/1920px-Dentro_do_bairro.jpg",
+        "alt": "Concrete stair landing with a large square window opening onto a paved path and a lawn, in black and white",
+        "credit": "Photo: António Alves Tedim · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Dentro_do_bairro.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a social housing scheme built through a public programme created after a revolution in 1974."
+      },
+      {
+        "order": 2,
+        "text": "A big wall was built along it to block the noise of trains running on an elevated railway embankment."
+      },
+      {
+        "order": 3,
+        "text": "It consists of four long blocks organised by repeating a single module, with homes of different types fitted into each other."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Álvaro Siza Vieira, the Bouça housing complex on Rua da Boavista in Porto was built under the SAAL programme. Its difficult site beside an elevated railway embankment forced the construction of a large wall to block the sound of the trains, which are now metro trains. The complex has four longitudinal blocks organised by repeating a module, joined at the ends and by the wall. The dwellings, from one to four bedrooms, fit into each other in both plan and section.",
+      "keyFeatures": [
+        "Four long blocks linked by a large noise wall",
+        "Repetition of a single module",
+        "Dwellings of one to four bedrooms fitted together in plan and section",
+        "Part of the SAAL social housing programme"
+      ],
+      "funFacts": [
+        "The outer scale of the buildings follows and respects the surrounding city.",
+        "The parallel arrangement of the homes creates an internal environment that is potentially problematic, according to the programme's documentation."
+      ]
+    }
   }
 ]
