@@ -1,6 +1,7 @@
 import { RotateCcw } from 'lucide-react'
 import { useStrings } from '../../i18n.js'
 import { Button } from '../ui/Button.jsx'
+import { PlotLoader } from '../ui/PlotLoader.jsx'
 import { Sheet } from './Sheet.jsx'
 import { TitleBlock } from './TitleBlock.jsx'
 import boardStyles from './DrawingBoard.module.css'
@@ -32,12 +33,9 @@ export function BoardStatus({ status, onRetry }) {
       </div>
       <div className={boardStyles.stage}>
         <Sheet className={boardStyles.page} titleBlock={<TitleBlock fields={blankTitle(strings)} />}>
-          <div className={styles.body} role={loading ? 'status' : 'alert'}>
+          <div className={styles.body} role={loading ? undefined : 'alert'}>
             {loading ? (
-              <>
-                <span className={styles.plotter} aria-hidden="true" />
-                <p className={styles.message}>{strings.board.loading}</p>
-              </>
+              <PlotLoader label={strings.board.loading} />
             ) : (
               <div className={styles.error}>
                 <h2 className={styles.errorTitle}>{strings.board.errorTitle}</h2>

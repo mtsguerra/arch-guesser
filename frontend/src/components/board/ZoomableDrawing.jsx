@@ -5,6 +5,7 @@ import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
 import { Credit } from '../ui/Credit.jsx'
+import { PlotLoader } from '../ui/PlotLoader.jsx'
 import styles from './ZoomableDrawing.module.css'
 
 const ZOOM = 2.5
@@ -97,6 +98,18 @@ export function ZoomableDrawing({ sheet, revealed, onError }) {
             onError={onError}
           />
         </motion.div>
+        <AnimatePresence>
+          {!loaded && (
+            <motion.div
+              key="loader"
+              className={styles.loading}
+              exit={{ opacity: 0 }}
+              transition={{ duration: duration.slow, ease: easeOut }}
+            >
+              <PlotLoader />
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
 
       <div className={styles.controls}>

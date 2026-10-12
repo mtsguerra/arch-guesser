@@ -1,6 +1,7 @@
 import { Languages } from 'lucide-react'
 import { useLanguage } from '../../i18n.js'
 import { Button } from '../ui/Button.jsx'
+import { PageBackground } from './PageBackground.jsx'
 import styles from './AppShell.module.css'
 
 function PlanMark() {
@@ -20,6 +21,7 @@ export function AppShell({ actions, children }) {
   const { lang, setLang, strings } = useLanguage()
   return (
     <div className={styles.shell}>
+      <PageBackground />
       <header className={styles.rail}>
         <a className={styles.brand} href="/">
           <PlanMark />

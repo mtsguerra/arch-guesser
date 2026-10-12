@@ -24,6 +24,12 @@
   will-change: transform;
 }
 
+.loading {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
 .controls {
   position: absolute;
   right: var(--space-3);

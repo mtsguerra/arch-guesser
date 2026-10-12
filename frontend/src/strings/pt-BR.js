@@ -48,6 +48,7 @@ export default {
     label: 'Desenhos',
     tabsLabel: 'Pranchas de desenho',
     loading: 'Buscando desenhos no arquivo…',
+    plotting: 'Traçando a folha…',
     errorTitle: 'O arquivo de desenhos não respondeu',
     errorBody: 'Os desenhos estão fora de alcance por um momento. Tente de novo em instantes.',
     retry: 'Tentar de novo',

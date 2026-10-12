@@ -29,35 +29,3 @@
 .error > :last-child {
   margin-top: var(--space-2);
 }
-
-/* A pen-plotter carriage sweeping the sheet while drawings load. */
-.plotter {
-  position: absolute;
-  inset-inline: 0;
-  top: 0;
-  height: 1.5px;
-  background: var(--accent);
-  opacity: 0.5;
-  animation: plot 2.4s var(--ease-out) infinite;
-}
-
-@keyframes plot {
-  from {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  15% {
-    opacity: 0.5;
-  }
-  to {
-    transform: translateY(100cqh);
-    opacity: 0;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .plotter {
-    animation: none;
-    display: none;
-  }
-}

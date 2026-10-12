@@ -20,14 +20,8 @@ body {
   line-height: 1.5;
   color: var(--ink);
   caret-color: var(--accent);
-  /* Drafting mat: fine grid every 8px, major line every 5 cells */
+  /* The drafting-mat grid is drawn by PageBackground; this is the ground it sits on. */
   background-color: var(--mat);
-  background-image:
-    linear-gradient(var(--mat-grid-major) var(--hairline), transparent var(--hairline)),
-    linear-gradient(90deg, var(--mat-grid-major) var(--hairline), transparent var(--hairline)),
-    linear-gradient(var(--mat-grid) var(--hairline), transparent var(--hairline)),
-    linear-gradient(90deg, var(--mat-grid) var(--hairline), transparent var(--hairline));
-  background-size: 40px 40px, 40px 40px, 8px 8px, 8px 8px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }

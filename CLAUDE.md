@@ -36,7 +36,7 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 
 - Wikimedia Commons only, public domain or CC licences. Store `upload.wikimedia.org` URLs without `?utm_*` parameters; small originals may need the full-file URL instead of a thumbnail.
 - Use the User-Agent `ArchGuesserBot/1.0 (https://github.com/mtsguerra/arch-guesser)` and keep 2 s between requests.
-- Interiors of copyrighted buildings are a "lenient" grey zone the user accepted. On the frontend, a tab whose image fails to load removes itself; there is no placeholder UI anywhere.
+- Interiors of copyrighted buildings are a "lenient" grey zone the user accepted. On the frontend, a tab whose image fails to load removes itself (no error placeholder); while an image is still loading, the sheet shows `PlotLoader` (a drawing plotting itself).
 - Facts come from Wikipedia pages fetched while writing; drop claims that can't be sourced.
 
 ## Game logic (frontend `src/game/`)
@@ -48,7 +48,7 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 
 ## Design
 
-`DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid, paper sheets, title blocks, brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings/`. `PRODUCT.md` holds product context.
+`DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid drawn by `ShapeGrid` in `PageBackground`, paper sheets, title blocks, brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings/`. `PRODUCT.md` holds product context.
 
 ## Working agreement
 

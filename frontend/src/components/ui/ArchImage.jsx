@@ -3,12 +3,14 @@ import { motion } from 'motion/react'
 import { duration, easeOut } from '../../motion.js'
 import styles from './ArchImage.module.css'
 
-const develop = (loaded) => (loaded ? { opacity: 1, filter: 'blur(0px)' } : { opacity: 0, filter: 'blur(8px)' })
-const developTransition = { duration: duration.slow, ease: easeOut }
+const develop = (loaded) =>
+  loaded ? { opacity: 1, filter: 'blur(0px)', scale: 1 } : { opacity: 0, filter: 'blur(12px)', scale: 1.02 }
+const developTransition = { duration: duration.slow * 1.4, ease: easeOut }
 
 /**
- * Image that develops into view once decoded. There is no placeholder: if the
- * file fails to load, `onError` lets the parent drop it (e.g. remove its tab).
+ * Image that develops into view once decoded. It draws no placeholder of its own (the
+ * board shows a loader behind it); if the file fails to load, `onError` lets the parent
+ * drop it (e.g. remove its tab).
  * Remount with `key={src}` to reset.
  *
  * @param fit     'contain' for drawings (scans multiply onto the paper), 'photo' to show a

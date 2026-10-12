@@ -48,6 +48,7 @@ export default {
     label: 'Drawings',
     tabsLabel: 'Drawing sheets',
     loading: 'Pulling drawings from the archive…',
+    plotting: 'Plotting the sheet…',
     errorTitle: 'The drawing archive didn’t answer',
     errorBody: 'The drawings are out of reach for a moment. Try again shortly.',
     retry: 'Try again',

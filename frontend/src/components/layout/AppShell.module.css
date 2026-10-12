@@ -80,6 +80,12 @@
   opacity: 0.6;
 }
 
+.main,
+.footer {
+  position: relative;
+  z-index: 1; /* above the fixed page background */
+}
+
 .main {
   padding: var(--space-5) var(--gutter) var(--space-7);
 }
