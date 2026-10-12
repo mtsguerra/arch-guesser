@@ -1,0 +1,106 @@
+{
+  "palace-of-assembly": {
+    "name": "Palácio da Assembleia",
+    "aliases": [
+      "Palace of Assembly",
+      "Assembleia Legislativa de Chandigarh",
+      "Vidhan Sabha de Chandigarh",
+      "Edifício da Assembleia de Chandigarh",
+      "Palácio da Assembleia de Chandigarh"
+    ],
+    "architects": [
+      {
+        "aliases": ["Corbusier", "Le Corbu", "Charles-Édouard Jeanneret", "Jeanneret"],
+        "nationality": "Suíço-francês",
+        "lifespan": "1887–1965",
+        "bio": "Nascido Charles-Édouard Jeanneret na Suíça, Le Corbusier tornou-se um dos arquitetos mais influentes do século XX. Formulou os 'cinco pontos de uma nova arquitetura', criou o sistema de proporções Modulor e planeou a cidade indiana de Chandigarh. A sua obra tardia em betão bruto ajudou a moldar o brutalismo. Dezassete das suas obras estão na lista do Património Mundial da UNESCO."
+      }
+    ],
+    "city": "Chandigarh",
+    "style": "Modernismo brutalista",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longo pórtico plano de concreto iluminado de laranja ao entardecer, com uma torre esculpida iluminada de rosa e uma cobertura inclinada que se ergue atrás",
+        "caption": null
+      },
+      {
+        "alt": "Hall de concreto nu com uma parede curva, uma abertura arredondada, um painel amarelo vivo e superfícies azul-escuras",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi encomendado por um primeiro-ministro que queria um projeto \"livre das tradições do passado\".",
+      "A sua grande porta de entrada é um painel esmaltado com o cosmos em cima e animais e uma árvore do conhecimento embaixo.",
+      "Duas assembleias legislativas estaduais partilham o edifício."
+    ],
+    "summary": {
+      "description": "O primeiro-ministro Jawaharlal Nehru pediu a Le Corbusier que construísse uma nova capital para o Punjab, uma cidade livre das tradições do passado, e o Palácio da Assembleia tornou-se o centro do seu Complexo do Capitólio. A construção começou em 1951 e terminou em 1962, e o edifício foi inaugurado a 15 de abril de 1964. Abriga as assembleias legislativas do Punjab e de Haryana e tem uma câmara de assembleia circular, um fórum para conversação e circulação sem escadas. Foi designado Património Mundial da UNESCO em 2016.",
+      "keyFeatures": [
+        "Câmara de assembleia circular",
+        "Fórum para conversação e circulação sem escadas",
+        "Grande porta esmaltada com imagens cósmicas e animais",
+        "Parte do Complexo do Capitólio de Chandigarh com o Secretariado e o Tribunal Superior"
+      ],
+      "funFacts": [
+        "Le Corbusier e a sua equipa projetaram quase todos os principais edifícios de Chandigarh, até às maçanetas dos escritórios públicos.",
+        "Cadeiras do edifício da assembleia foram leiloadas em Londres em 2010, apesar de uma tentativa diplomática de travar a venda."
+      ]
+    }
+  },
+  "sainte-marie-de-la-tourette": {
+    "name": "Convento de Sainte-Marie de La Tourette",
+    "aliases": [
+      "La Tourette",
+      "Couvent de La Tourette",
+      "Convento de La Tourette",
+      "Priorado de La Tourette",
+      "Sainte Marie de La Tourette"
+    ],
+    "architects": [
+      {
+        "aliases": ["Corbusier", "Le Corbu", "Charles-Édouard Jeanneret", "Jeanneret"],
+        "nationality": "Suíço-francês",
+        "lifespan": "1887–1965",
+        "bio": "Nascido Charles-Édouard Jeanneret na Suíça, Le Corbusier tornou-se um dos arquitetos mais influentes do século XX. Formulou os 'cinco pontos de uma nova arquitetura', criou o sistema de proporções Modulor e planeou a cidade indiana de Chandigarh. A sua obra tardia em betão bruto ajudou a moldar o brutalismo. Dezassete das suas obras estão na lista do Património Mundial da UNESCO."
+      }
+    ],
+    "city": "Éveux",
+    "style": "Modernismo de béton brut",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Convento_Sainte-Marie_de_La_Tourette",
+    "drawings": [
+      {
+        "label": "Cortes, planta e axonometria",
+        "alt": "Folha de desenho cinzenta com dois longos cortes de um edifício em encosta, uma axonometria em corte de um bloco em torno de um pátio e uma pequena planta"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Vista aproximada de um brise-soleil de concreto bruto com fileiras de aberturas quadradas entre painéis de agregado de seixos à vista",
+        "caption": null
+      },
+      {
+        "alt": "Estreito poço de concreto com teto de blocos cinzentos e uma pequena clarabóia luminosa",
+        "caption": "Paredes de concreto bruto e um único feixe de luz."
+      }
+    ],
+    "hints": [
+      "É um priorado dominicano numa encosta perto de Lyon e a última obra do seu arquiteto.",
+      "Quatro alas rodeiam um espaço central, com a igreja num bloco compacto à beira da colina.",
+      "Os críticos compararam as suas alas elevadas a uma garagem de estacionamento."
+    ],
+    "summary": {
+      "description": "Projetado entre maio de 1953 e 1960 por Le Corbusier, a sua última obra, este priorado dominicano ergue-se numa encosta em Éveux-sur-l'Arbresle, a 25 km de Lyon. Quatro pesadas alas retangulares formam um espaço interior fechado: a igreja e a sacristia ocupam o bloco compacto à beira da colina, enquanto as outras três alas, elevadas sobre pilotis de várias formas, abrigam os espaços de vida e de trabalho. O edifício é de betão armado, com superfícies de vidro ondulantes em três faces desenhadas por Iannis Xenakis. Foi inscrito como Património Mundial da UNESCO em 2016.",
+      "keyFeatures": [
+        "Quatro alas em volta de um espaço central fechado",
+        "Betão armado deixado bruto",
+        "Superfícies de vidro ondulantes desenhadas por Iannis Xenakis",
+        "Peristilo cruciforme que funciona como rampa para a igreja"
+      ],
+      "funFacts": [
+        "Foi concebido com cerca de cem quartos para aprendizes e professores, além de salas de estudo, uma biblioteca e uma igreja.",
+        "O percurso gradual desde a paisagem termina num santuário sem iconografia, apenas com luz natural."
+      ]
+    }
+  }
+}

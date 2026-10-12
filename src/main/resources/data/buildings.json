@@ -14899,5 +14899,148 @@
         "D. H. Burnham & Company added to it in 1906–1907 and Holabird & Root in 1961."
       ]
     }
+  },
+  {
+    "id": "palace-of-assembly",
+    "name": "Palace of Assembly",
+    "aliases": [
+      "Chandigarh Legislative Assembly",
+      "Vidhan Sabha Chandigarh",
+      "Legislative Assembly Building Chandigarh",
+      "Assembly Building Chandigarh",
+      "Punjab and Haryana Legislative Assembly"
+    ],
+    "architects": [
+      {
+        "name": "Le Corbusier",
+        "aliases": ["Corbusier", "Le Corbu", "Charles-Édouard Jeanneret", "Jeanneret"],
+        "lifespan": "1887–1965",
+        "nationality": "Swiss-French",
+        "bio": "Born Charles-Édouard Jeanneret in Switzerland, Le Corbusier became one of the most influential architects of the 20th century. He set out his 'five points of a new architecture', devised the Modulor proportion system and planned the Indian city of Chandigarh. His late work in raw concrete helped shape Brutalism. Seventeen of his works are on the UNESCO World Heritage list."
+      }
+    ],
+    "location": { "city": "Chandigarh", "country": "India", "countryCode": "IN" },
+    "yearCompleted": 1962,
+    "era": "BRUTALISM",
+    "style": "Brutalist modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palace_of_Assembly",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Assembly_Building_Chandigarh.jpg/1920px-Assembly_Building_Chandigarh.jpg",
+        "alt": "Long, flat concrete portico lit orange at dusk, with a pink-lit sculpted tower and a sloping roof rising behind it",
+        "credit": "Photo: Shanmugamp7 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Assembly_Building_Chandigarh.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Corridor_of_legislative_assembly.jpg/1920px-Corridor_of_legislative_assembly.jpg",
+        "alt": "Bare concrete hall with a curved wall, a rounded opening, a bright yellow panel and dark blue surfaces",
+        "credit": "Photo: Nk8595 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Corridor_of_legislative_assembly.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was commissioned by a prime minister who wanted a design \"unfettered by the traditions of the past\"."
+      },
+      {
+        "order": 2,
+        "text": "Its great entrance door is an enamelled panel with the cosmos above, and animals and a tree of knowledge below."
+      },
+      { "order": 3, "text": "Two state legislatures share the building." }
+    ],
+    "summary": {
+      "description": "Prime Minister Jawaharlal Nehru asked Le Corbusier to build a new capital for Punjab, a city free of the traditions of the past, and the Palace of Assembly became the centre of its Capitol Complex. Construction began in 1951 and ended in 1962, and the building was inaugurated on 15 April 1964. It houses the Punjab and Haryana legislative assemblies and has a circular assembly chamber, a forum for conversation and stair-free circulation. It was designated a UNESCO World Heritage Site in 2016.",
+      "keyFeatures": [
+        "Circular assembly chamber",
+        "Forum for conversation and stair-free circulation",
+        "Great enamelled door with cosmic and animal imagery",
+        "Part of the Chandigarh Capitol Complex with the Secretariat and High Court"
+      ],
+      "funFacts": [
+        "Le Corbusier and his team designed nearly all the major buildings of Chandigarh, down to the door handles in public offices.",
+        "Chairs from the assembly building were auctioned in London in 2010, despite a diplomatic attempt to stop the sale."
+      ]
+    }
+  },
+  {
+    "id": "sainte-marie-de-la-tourette",
+    "name": "Sainte Marie de La Tourette",
+    "aliases": [
+      "La Tourette",
+      "Couvent de La Tourette",
+      "Convent of La Tourette",
+      "La Tourette Priory",
+      "Couvent Sainte-Marie de La Tourette"
+    ],
+    "architects": [
+      {
+        "name": "Le Corbusier",
+        "aliases": ["Corbusier", "Le Corbu", "Charles-Édouard Jeanneret", "Jeanneret"],
+        "lifespan": "1887–1965",
+        "nationality": "Swiss-French",
+        "bio": "Born Charles-Édouard Jeanneret in Switzerland, Le Corbusier became one of the most influential architects of the 20th century. He set out his 'five points of a new architecture', devised the Modulor proportion system and planned the Indian city of Chandigarh. His late work in raw concrete helped shape Brutalism. Seventeen of his works are on the UNESCO World Heritage list."
+      }
+    ],
+    "location": { "city": "Éveux", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 1960,
+    "era": "BRUTALISM",
+    "style": "Béton brut modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sainte_Marie_de_La_Tourette",
+    "drawings": [
+      {
+        "type": "SECTION",
+        "label": "Sections, plan and axonometric",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/La_Tourette%2C_Sections_East-West%2C_Plan_%2B_Axon.jpg/1920px-La_Tourette%2C_Sections_East-West%2C_Plan_%2B_Axon.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.78 },
+        "alt": "Grey drawing sheet with two long sections through a hillside building, a cut-away axonometric of a courtyard block and a small plan",
+        "credit": "Wikimedia Commons contributor · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Tourette,_Sections_East-West,_Plan_%2B_Axon.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Kloster_La_Tourette%2C_brise-soleil_%281997%29.jpg/1920px-Kloster_La_Tourette%2C_brise-soleil_%281997%29.jpg",
+        "alt": "Close view of a rough concrete screen with rows of square openings between panels of exposed pebble aggregate",
+        "credit": "Photo: Peter Christian Riemann · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kloster_La_Tourette,_brise-soleil_(1997).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Eveux_-_Couvent_de_La_Tourette_-_Ceiling_of_the_Church.jpg/1920px-Eveux_-_Couvent_de_La_Tourette_-_Ceiling_of_the_Church.jpg",
+        "alt": "Narrow concrete shaft with a ceiling of grey blocks and one small, bright skylight",
+        "caption": "Raw concrete walls and a single shaft of light.",
+        "credit": "Photo: Fred Romero · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eveux_-_Couvent_de_La_Tourette_-_Ceiling_of_the_Church.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a Dominican priory on a hillside near Lyon, and the last building by its architect."
+      },
+      {
+        "order": 2,
+        "text": "Four wings enclose a central space, with the church in a compact block at the edge of the hill."
+      },
+      { "order": 3, "text": "Critics have compared its raised wings to a parking garage." }
+    ],
+    "summary": {
+      "description": "Designed between May 1953 and 1960 by Le Corbusier, his final building, this Dominican priory stands on a hillside at Éveux-sur-l'Arbresle, 25 km from Lyon. Four heavy rectangular wings form a closed interior space: the church and its sacristy occupy the compact block at the edge of the hill, while the other three wings, raised on pilotis of many shapes, hold the living and working spaces. The building is reinforced concrete, with undulating glass surfaces on three faces designed by Iannis Xenakis. It was inscribed as a UNESCO World Heritage Site in 2016.",
+      "keyFeatures": [
+        "Four wings around a closed central space",
+        "Reinforced concrete left raw",
+        "Undulating glass surfaces designed by Iannis Xenakis",
+        "Cruciform peristyle that works as a ramp to the church"
+      ],
+      "funFacts": [
+        "It was designed for about one hundred bedrooms for apprentices and teachers, plus study rooms, a library and a church.",
+        "The gradual path from the landscape ends in a sanctuary with no iconography, only natural light."
+      ]
+    }
   }
 ]
