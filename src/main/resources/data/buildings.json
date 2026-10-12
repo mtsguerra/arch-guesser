@@ -16097,5 +16097,200 @@
         "Line B started operating there on 13 March 2005 and line C on 30 July 2005."
       ]
     }
+  },
+  {
+    "id": "the-shard",
+    "name": "The Shard",
+    "aliases": ["Shard London Bridge", "London Bridge Tower", "The Shard London", "Shard"],
+    "architects": [
+      {
+        "name": "Renzo Piano",
+        "aliases": ["Piano"],
+        "lifespan": "b. 1937",
+        "nationality": "Italian",
+        "bio": "Italian architect who, with Richard Rogers, won the 1971 competition for the cultural centre with a radical design that put its structure and pipes on the outside."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 2012,
+    "era": "CONTEMPORARY",
+    "style": "Neo-futurism",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shard",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/The_Shard_at_sunset_2017_%28cropped%29.jpg",
+        "alt": "Tall glass pyramid with a splintered, pointed top lit gold at dusk, among lower office blocks under heavy blue clouds",
+        "credit": "Photo: Colin · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Shard_at_sunset_2017_(cropped).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Inside_the_Shard_%2840931116230%29.jpg/1920px-Inside_the_Shard_%2840931116230%29.jpg",
+        "alt": "Visitors photographing a river and bridges through floor-to-ceiling windows from a high wooden-floored gallery",
+        "credit": "Photo: Daniel from Glasgow, United Kingdom · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_the_Shard_(40931116230).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced a 24-storey office block from 1975, and was first sketched by its architect on the back of a restaurant menu."
+      },
+      { "order": 2, "text": "At 309.6 metres it is the tallest building in the United Kingdom." },
+      { "order": 3, "text": "Its viewing gallery and open-air deck are on the 72nd floor, at a height of 244 metres." }
+    ],
+    "summary": {
+      "description": "Designed by the Italian architect Renzo Piano, the 95-storey pyramid-shaped skyscraper in Southwark rises 309.6 metres, making it the tallest building in the United Kingdom and Western Europe. Construction began in March 2009, it was topped out on 30 March 2012 and inaugurated on 5 July 2012, with practical completion in November 2012. The glass-clad tower has 72 habitable floors, with a viewing gallery and an open-air observation deck on the 72nd floor, which opened to the public on 1 February 2013. It was developed by Sellar Property Group and is owned 95% by the State of Qatar.",
+      "keyFeatures": [
+        "95 storeys and 309.6 metres high",
+        "Glass-clad pyramid with a splintered top",
+        "72 habitable floors",
+        "Viewing gallery and open-air deck on the 72nd floor, at 244 metres"
+      ],
+      "funFacts": [
+        "Irvine Sellar and his partners decided to redevelop the 1970s Southwark Towers in 1998.",
+        "Planning consent was approved on 19 November 2003 after a planning inquiry in 2003."
+      ]
+    }
+  },
+  {
+    "id": "california-academy-of-sciences",
+    "name": "California Academy of Sciences",
+    "aliases": [
+      "Cal Academy",
+      "California Academy of Sciences San Francisco",
+      "CAS San Francisco",
+      "The California Academy of Sciences"
+    ],
+    "architects": [
+      {
+        "name": "Renzo Piano",
+        "aliases": ["Piano"],
+        "lifespan": "b. 1937",
+        "nationality": "Italian",
+        "bio": "Italian architect who, with Richard Rogers, won the 1971 competition for the cultural centre with a radical design that put its structure and pipes on the outside."
+      }
+    ],
+    "location": { "city": "San Francisco", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 2008,
+    "era": "CONTEMPORARY",
+    "style": "Green architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/California_Academy_of_Sciences",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/California-06239_-_California_Academy_of_Sciences_%2820449900470%29.jpg",
+        "alt": "Long low museum building with a rolling, planted green roof that rises into domes, above gardens with palm trees and clipped trees",
+        "credit": "Photo: Dennis G. Jarvis · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:California-06239_-_California_Academy_of_Sciences_(20449900470).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/California_Academy_of_Sciences_-_Interior_1_2017-04-01.jpg/1920px-California_Academy_of_Sciences_-_Interior_1_2017-04-01.jpg",
+        "alt": "Tall glass-walled hall with a stream, rocks and plants beside a round exhibit under hanging lamps",
+        "caption": "A pond and plants beside the round exhibit under the dome.",
+        "credit": "Photo: FASTILY · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:California_Academy_of_Sciences_-_Interior_1_2017-04-01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is among the largest natural history museums in the world, housing over 46 million specimens."
+      },
+      {
+        "order": 2,
+        "text": "It began as a learned society in 1853, and its main building was completely rebuilt in 2008."
+      },
+      {
+        "order": 3,
+        "text": "It includes a planetarium dome 27 metres across and a rainforest enclosed in a 27-metre glass dome."
+      }
+    ],
+    "summary": {
+      "description": "The California Academy of Sciences, a research institute and natural history museum in Golden Gate Park, began in 1853 as a learned society and is California's oldest operating museum and research institution for the natural sciences. Its primary building, completely rebuilt in 2008 to a design by Renzo Piano, covers 400,000 square feet. It includes the Kimball Natural History Museum, the Morrison Planetarium with a 90-foot digitally controlled dome, and a rainforest enclosed in a 90-foot glass dome. Research and administrative facilities occupy nearly half of the building.",
+      "keyFeatures": [
+        "Primary building of 400,000 square feet, rebuilt in 2008",
+        "Planetarium with a 90-foot digitally controlled dome",
+        "Rainforest enclosed in a 90-foot glass dome",
+        "Research and administration in nearly half the building"
+      ],
+      "funFacts": [
+        "It houses over 46 million specimens.",
+        "Its research arm, the Institute for Biodiversity Science and Sustainability, works in taxonomy, phylogenetics and biodiversity studies."
+      ]
+    }
+  },
+  {
+    "id": "whitney-museum-gansevoort",
+    "name": "Whitney Museum of American Art (Gansevoort Street)",
+    "aliases": [
+      "Whitney Museum",
+      "The Whitney",
+      "Whitney",
+      "Whitney Museum Gansevoort Street",
+      "Whitney Museum of American Art"
+    ],
+    "architects": [
+      {
+        "name": "Renzo Piano",
+        "aliases": ["Piano"],
+        "lifespan": "b. 1937",
+        "nationality": "Italian",
+        "bio": "Italian architect who, with Richard Rogers, won the 1971 competition for the cultural centre with a radical design that put its structure and pipes on the outside."
+      }
+    ],
+    "location": { "city": "New York", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 2015,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary industrial",
+    "wikipedia": "https://en.wikipedia.org/wiki/Whitney_Museum_of_American_Art",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Whitney_Museum_of_American_Art_%2849051573133%29.jpg/1920px-Whitney_Museum_of_American_Art_%2849051573133%29.jpg",
+        "alt": "Stepped, angular museum clad in pale grey metal panels with a band of blue windows, on a street corner under a blue sky",
+        "credit": "Photo: Ajay Suresh from New York, NY, USA · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Whitney_Museum_of_American_Art_(49051573133).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Whitney_Stairwell_%2836773194964%29.jpg/1920px-Whitney_Stairwell_%2836773194964%29.jpg",
+        "alt": "View down a stairwell of metal stairs lit in pink and red, with visitors on the flights and a mirrored sculpture",
+        "credit": "Photo: Billie Grace Ward from New York, USA · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Whitney_Stairwell_(36773194964).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "From 1966 to 2014 the museum was in another building, designed by two other architects, on Manhattan's Upper East Side."
+      },
+      {
+        "order": 2,
+        "text": "The new building opened on 1 May 2015 and expanded the exhibition space to 50,000 square feet."
+      },
+      {
+        "order": 3,
+        "text": "The museum is the largest repository of one American painter's artwork and archives in the world."
+      }
+    ],
+    "summary": {
+      "description": "The Whitney Museum of American Art, founded in 1930 by Gertrude Vanderbilt Whitney, moved in 2015 to a new building at 99 Gansevoort Street in the Meatpacking District, designed by Renzo Piano. It closed its former home on Madison Avenue, designed by Marcel Breuer and Hamilton P. Smith, in October 2014 and opened here on 1 May 2015, expanding the exhibition space to 50,000 square feet. The museum focuses on collecting and preserving 20th- and 21st-century American art and holds more than 25,000 works by more than 3,500 artists.",
+      "keyFeatures": [
+        "Opened 1 May 2015 at 99 Gansevoort Street",
+        "50,000 square feet of exhibition space",
+        "Permanent collection of more than 25,000 works",
+        "Home of the Whitney Biennial"
+      ],
+      "funFacts": [
+        "The museum is the largest repository of Edward Hopper's artwork and archival materials in the world.",
+        "In 2024 it had 888,816 visitors."
+      ]
+    }
   }
 ]

@@ -1,0 +1,140 @@
+{
+  "the-shard": {
+    "name": "The Shard",
+    "aliases": ["Shard London Bridge", "London Bridge Tower", "O Shard", "Shard de Londres", "The Shard London"],
+    "architects": [
+      {
+        "aliases": ["Piano"],
+        "nationality": "Italiano",
+        "lifespan": "n. 1937",
+        "bio": "Arquiteto italiano que, com Richard Rogers, venceu em 1971 o concurso do centro cultural com um projeto radical que punha a estrutura e os dutos para fora."
+      }
+    ],
+    "city": "Londres",
+    "style": "Neofuturismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/The_Shard",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Alta pirâmide de vidro com um topo pontiagudo e fragmentado iluminado a dourado ao entardecer, entre edifícios de escritórios mais baixos sob nuvens azuis pesadas",
+        "caption": null
+      },
+      {
+        "alt": "Visitantes a fotografar um rio e pontes através de janelas do chão ao teto, numa galeria alta de piso de madeira",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Substituiu um edifício de escritórios de 24 andares de 1975 e foi esboçado pelo seu arquiteto pela primeira vez no verso da ementa de um restaurante.",
+      "Com 309,6 metros é o edifício mais alto do Reino Unido.",
+      "A sua galeria de observação e plataforma ao ar livre ficam no 72.º andar, a 244 metros de altura."
+    ],
+    "summary": {
+      "description": "Projetado pelo arquiteto italiano Renzo Piano, o arranha-céus piramidal de 95 andares em Southwark ergue-se 309,6 metros, sendo o edifício mais alto do Reino Unido e da Europa Ocidental. A construção começou em março de 2009, foi concluída estruturalmente a 30 de março de 2012 e inaugurada a 5 de julho de 2012, com conclusão prática em novembro de 2012. A torre revestida de vidro tem 72 andares habitáveis, com uma galeria de observação e uma plataforma ao ar livre no 72.º andar, abertas ao público a 1 de fevereiro de 2013. Foi desenvolvida pela Sellar Property Group e pertence 95% ao Estado do Catar.",
+      "keyFeatures": [
+        "95 andares e 309,6 metros de altura",
+        "Pirâmide revestida de vidro com topo fragmentado",
+        "72 andares habitáveis",
+        "Galeria de observação e plataforma ao ar livre no 72.º andar, a 244 metros"
+      ],
+      "funFacts": [
+        "Irvine Sellar e os seus sócios decidiram redesenvolver as Southwark Towers dos anos 1970 em 1998.",
+        "A licença de construção foi aprovada a 19 de novembro de 2003, depois de um inquérito de planeamento nesse ano."
+      ]
+    }
+  },
+  "california-academy-of-sciences": {
+    "name": "Academia de Ciências da Califórnia",
+    "aliases": [
+      "California Academy of Sciences",
+      "Cal Academy",
+      "Academia de Ciências da Califórnia em São Francisco",
+      "CAS São Francisco",
+      "Academia de Ciências de São Francisco"
+    ],
+    "architects": [
+      {
+        "aliases": ["Piano"],
+        "nationality": "Italiano",
+        "lifespan": "n. 1937",
+        "bio": "Arquiteto italiano que, com Richard Rogers, venceu em 1971 o concurso do centro cultural com um projeto radical que punha a estrutura e os dutos para fora."
+      }
+    ],
+    "city": "São Francisco",
+    "style": "Arquitetura verde",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Academia_de_Ci%C3%AAncias_da_Calif%C3%B3rnia",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longo museu baixo com uma cobertura verde plantada e ondulada que se ergue em cúpulas, sobre jardins com palmeiras e árvores podadas",
+        "caption": null
+      },
+      {
+        "alt": "Alto salão de paredes de vidro com um ribeiro, rochas e plantas ao lado de uma exposição redonda sob candeeiros suspensos",
+        "caption": "Um lago e plantas ao lado da exposição redonda sob a cúpula."
+      }
+    ],
+    "hints": [
+      "É um dos maiores museus de história natural do mundo, com mais de 46 milhões de espécimes.",
+      "Começou como uma sociedade científica em 1853 e o seu edifício principal foi totalmente reconstruído em 2008.",
+      "Inclui uma cúpula de planetário com 27 metros de diâmetro e uma floresta tropical dentro de uma cúpula de vidro de 27 metros."
+    ],
+    "summary": {
+      "description": "A Academia de Ciências da Califórnia, instituto de investigação e museu de história natural no Golden Gate Park, começou em 1853 como sociedade científica e é a mais antiga instituição de museu e investigação em ciências naturais em funcionamento na Califórnia. O seu edifício principal, totalmente reconstruído em 2008 segundo projeto de Renzo Piano, cobre 37.000 metros quadrados. Inclui o Kimball Natural History Museum, o Morrison Planetarium com uma cúpula digital de 27 metros e uma floresta tropical dentro de uma cúpula de vidro de 27 metros. Instalações de investigação e administração ocupam quase metade do edifício.",
+      "keyFeatures": [
+        "Edifício principal de 37.000 m², reconstruído em 2008",
+        "Planetário com cúpula digital de 27 metros",
+        "Floresta tropical dentro de uma cúpula de vidro de 27 metros",
+        "Investigação e administração em quase metade do edifício"
+      ],
+      "funFacts": [
+        "Abriga mais de 46 milhões de espécimes.",
+        "O seu braço de investigação, o Instituto de Ciência da Biodiversidade e Sustentabilidade, trabalha em taxonomia, filogenética e biodiversidade."
+      ]
+    }
+  },
+  "whitney-museum-gansevoort": {
+    "name": "Museu Whitney de Arte Americana (Gansevoort Street)",
+    "aliases": ["Museu Whitney", "O Whitney", "Whitney", "Whitney Museum", "Museu Whitney de Arte Americana"],
+    "architects": [
+      {
+        "aliases": ["Piano"],
+        "nationality": "Italiano",
+        "lifespan": "n. 1937",
+        "bio": "Arquiteto italiano que, com Richard Rogers, venceu em 1971 o concurso do centro cultural com um projeto radical que punha a estrutura e os dutos para fora."
+      }
+    ],
+    "city": "Nova Iorque",
+    "style": "Industrial contemporâneo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Museu_Whitney_de_Arte_Americana",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Museu escalonado e anguloso revestido de painéis de metal cinzento-claros com uma faixa de janelas azuis, numa esquina de rua sob um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Vista para baixo de uma caixa de escadas de metal iluminada de rosa e vermelho, com visitantes nos lances e uma escultura espelhada",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "De 1966 a 2014 o museu esteve noutro edifício, projetado por dois outros arquitetos, no Upper East Side de Manhattan.",
+      "O novo edifício abriu a 1 de maio de 2015 e ampliou o espaço de exposição para 4.600 metros quadrados.",
+      "O museu é o maior repositório do mundo da obra e dos arquivos de um pintor americano."
+    ],
+    "summary": {
+      "description": "O Museu Whitney de Arte Americana, fundado em 1930 por Gertrude Vanderbilt Whitney, mudou-se em 2015 para um novo edifício no número 99 da Gansevoort Street, no Meatpacking District, projetado por Renzo Piano. Fechou em outubro de 2014 a sua antiga sede na Madison Avenue, projetada por Marcel Breuer e Hamilton P. Smith, e abriu aqui a 1 de maio de 2015, ampliando o espaço de exposição para 4.600 metros quadrados. O museu dedica-se a coletar e preservar arte americana dos séculos XX e XXI e tem mais de 25.000 obras de mais de 3.500 artistas.",
+      "keyFeatures": [
+        "Aberto a 1 de maio de 2015 na Gansevoort Street, 99",
+        "4.600 metros quadrados de espaço de exposição",
+        "Acervo permanente de mais de 25.000 obras",
+        "Sede da Whitney Biennial"
+      ],
+      "funFacts": [
+        "O museu é o maior repositório do mundo da obra e dos arquivos de Edward Hopper.",
+        "Em 2024 teve 888.816 visitantes."
+      ]
+    }
+  }
+}
