@@ -15,7 +15,7 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 
 - Backend: Spring Boot 4 (Java 21 target, Jackson 3), Gradle 9 at the repo root (`src/`). Package `com.mtsguerra.archguesser`.
 - Frontend: React 19 + Vite in `frontend/`, plain JSX, CSS Modules, Motion (`motion/react`), lucide icons, Archivo variable font.
-- Data: `src/main/resources/data/buildings.json` (210 buildings: 50 world catalogue, 50 Portugal, 70 era/canon additions, 40 world icons), loaded once at startup.
+- Data: `src/main/resources/data/buildings.json` (260 buildings: 50 world catalogue, 50 Portugal, 70 era/canon additions, 40 world icons, 50 works by named architects), loaded once at startup.
 - i18n: UI copy in `frontend/src/strings/{en,pt-BR}.js` (same keys, tested); building text translated in `src/main/resources/data/pt-BR/*.json` (id → overlay of names, aliases, bios, labels, alts, hints, summary; list sizes must match the source). API takes `?lang=pt-BR`; the static build writes `public/api/pt-BR/`.
 - API: `GET /api/buildings/random?exclude=a,b`, `GET /api/buildings/{id}`, `GET /api/eras`. Errors are RFC 9457 problem+json.
 
