@@ -1,0 +1,142 @@
+{
+  "glass-house-new-canaan": {
+    "name": "Casa de Vidro de New Canaan",
+    "aliases": ["Glass House", "Casa de Vidro de Philip Johnson", "Casa Johnson", "Johnson House", "Casa de Vidro"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto americano que, com John Burgee, projetou a torre em estilo pós-moderno."
+      }
+    ],
+    "city": "New Canaan, Connecticut",
+    "style": "Estilo Internacional",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_de_Vidro_(New_Canaan)",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Pavilhão retangular baixo de estrutura de aço e paredes de vidro entre árvores de outono, com um caminho de cascalho a atravessar um relvado",
+        "caption": null
+      },
+      {
+        "alt": "Sala aberta com paredes de vidro, cadeiras de couro e aço sobre um tapete, um armário de madeira, um cilindro de tijolo escuro e piso de tijolo em espinha",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construída em 1948–49 como retiro de fim de semana pelo próprio arquiteto, que a usou durante 58 anos.",
+      "Só um cilindro de tijolo, que guarda a casa de banho, sobe do chão ao teto.",
+      "Pode ter derivado de uma casa de vidro de um mestre germano-americano concluída dois anos depois."
+    ],
+    "summary": {
+      "description": "Philip Johnson construiu a casa em 1948–49 como retiro de fim de semana, atrás de um muro de pedra à beira de uma crista sobre um lago, e usou-a durante 58 anos. A estrutura tem 17 metros de comprimento, 9,8 de largura e 3,2 de altura, em aço pintado de carvão e vidro sobre um piso de tijolo elevado 25 cm do chão. O interior é aberto, dividido por armários baixos de nogueira, e um cilindro de tijolo guarda a casa de banho. É um exemplo de estrutura mínima, geometria, proporção e transparência, e a propriedade inclui outros edifícios de Johnson de toda a sua carreira. Tornou-se Monumento Histórico Nacional em 1997.",
+      "keyFeatures": [
+        "17 por 9,8 metros e 3,2 de altura, em aço e vidro",
+        "Interior aberto dividido por armários baixos de nogueira",
+        "Cilindro de tijolo com a casa de banho",
+        "Propriedade com outros edifícios de Johnson"
+      ],
+      "funFacts": [
+        "Pertence ao National Trust for Historic Preservation e as visitas partem de um centro de visitantes na Elm Street, 199.",
+        "Johnson partilhou-a durante 45 anos com o crítico de arte e curador David Whitney."
+      ]
+    }
+  },
+  "pennzoil-place": {
+    "name": "Pennzoil Place",
+    "aliases": [
+      "Torres Pennzoil",
+      "Pennzoil Place de Houston",
+      "Edifício Pennzoil",
+      "Pennzoil Towers",
+      "Pennzoil Building"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto americano que, com John Burgee, projetou a torre em estilo pós-moderno."
+      }
+    ],
+    "city": "Houston, Texas",
+    "style": "Pós-modernismo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Torre de vidro escuro com um topo muito inclinado e anguloso, ao lado de um arranha-céus facetado mais alto",
+        "caption": null
+      },
+      {
+        "alt": "Vista para cima entre duas paredes de vidro escuro até uma cobertura de vidro e treliças de aço, com um arranha-céus refletido nos painéis",
+        "caption": "Um átrio de vidro une as duas torres."
+      }
+    ],
+    "hints": [
+      "Foi nomeado \"Edifício da Década\" em 1975 por um crítico do New York Times.",
+      "Duas torres são imagens espelhadas, colocadas a três metros de distância, e a praça entre elas fica sob um átrio de vidro em forma de pirâmide.",
+      "O seu arquiteto recebeu o primeiro Prémio Pritzker em 1979, por esta obra."
+    ],
+    "summary": {
+      "description": "O Pennzoil Place é um par de torres de 36 andares no centro de Houston projetadas por Philip Johnson e John Burgee a partir de um conceito de Eli Attia. Concluídas em 1975, as duas torres trapezoidais, de 151 metros cada, estão a três metros uma da outra e são revestidas de vidro bronze escuro e alumínio. São imagens espelhadas, e um átrio de vidro em forma de pirâmide com 35 metros fecha a praça ao nível da rua que as liga. Deliberadamente projetado como uma ilusão de ótica, o edifício parece diferente de cada ângulo. Quebrou a caixa de vidro modernista popularizada pelos seguidores de Mies van der Rohe e ajudou a introduzir o pós-modernismo.",
+      "keyFeatures": [
+        "Duas torres trapezoidais espelhadas de 36 andares",
+        "Pele de vidro bronze escuro e alumínio",
+        "Átrio de vidro em pirâmide de 35 metros",
+        "Escritórios projetados pela Gensler"
+      ],
+      "funFacts": [
+        "Johnson ganhou a Medalha de Ouro do AIA em 1978 e foi o primeiro laureado do Prémio Pritzker em 1979.",
+        "Tem 130.000 metros quadrados de área alugável."
+      ]
+    }
+  },
+  "christ-cathedral-garden-grove": {
+    "name": "Catedral de Cristo",
+    "aliases": [
+      "Catedral de Cristal",
+      "Christ Cathedral",
+      "Crystal Cathedral",
+      "Catedral de Cristo de Garden Grove",
+      "Catedral de Cristal de Garden Grove"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto americano que, com John Burgee, projetou a torre em estilo pós-moderno."
+      }
+    ],
+    "city": "Garden Grove, Califórnia",
+    "style": "Vidro refletor moderno",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Catedral_de_Cristo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Enorme edifício de vidro espelhado com faces muito inclinadas, ao lado de uma esbelta torre de altas aletas de metal e de uma alta torre com uma cruz",
+        "caption": null
+      },
+      {
+        "alt": "Vasto espaço sob uma cobertura de estrutura espacial de aço branco e paredes de vidro, com um órgão de madeira e tubos de metal ao lado de uma alta fenda luminosa",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Depois de concluída, em 1981, foi descrita como \"o maior edifício de vidro do mundo\".",
+      "Foi vendida a uma diocese em 2012 por 57,5 milhões de dólares, depois de o seu primeiro proprietário ir à falência.",
+      "Abriga um dos maiores instrumentos musicais do mundo, um órgão."
+    ],
+    "summary": {
+      "description": "Projetada por Philip Johnson e John Burgee para a congregação do ministro Robert H. Schuller em Garden Grove, a igreja de vidro refletor de estilo moderno tem lugar para 2.248 pessoas. Depois de concluída, em 1981, foi descrita como \"o maior edifício de vidro do mundo\". A congregação faliu e a Diocese de Orange comprou o edifício e o campus em fevereiro de 2012 por 57,5 milhões de dólares. Após uma renovação de dois anos para a adaptar à liturgia católica, foi consagrada como Catedral de Cristo a 17 de julho de 2019. Abriga o Órgão Hazel Wright, um dos maiores instrumentos musicais do mundo.",
+      "keyFeatures": [
+        "Paredes de vidro refletor sobre uma estrutura espacial de aço",
+        "Lugar para 2.248 pessoas",
+        "O Órgão Hazel Wright",
+        "Campus com a Torre da Esperança de 13 andares"
+      ],
+      "funFacts": [
+        "Robert H. Schuller fundou a congregação em 1955 num cinema drive-in.",
+        "A primeira igreja do campus, aberta em 1961, foi projetada por Richard Neutra."
+      ]
+    }
+  }
+}

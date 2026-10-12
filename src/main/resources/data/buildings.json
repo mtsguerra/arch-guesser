@@ -16549,5 +16549,182 @@
         "It recorded 24.3 million passengers in 2016."
       ]
     }
+  },
+  {
+    "id": "glass-house-new-canaan",
+    "name": "Glass House",
+    "aliases": ["Johnson House", "Philip Johnson Glass House", "The Glass House", "Glass House New Canaan"],
+    "architects": [
+      {
+        "name": "Philip Johnson",
+        "aliases": ["Johnson"],
+        "nationality": "American",
+        "bio": "American architect who, with John Burgee, designed the tower in the postmodern style."
+      }
+    ],
+    "location": { "city": "New Canaan, Connecticut", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1949,
+    "era": "MODERNISM",
+    "style": "International Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Glass_House_(New_Canaan,_Connecticut)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Glass_House_2006.jpg/1920px-Glass_House_2006.jpg",
+        "alt": "Low rectangular steel-framed pavilion with glass walls among autumn trees, with a gravel path crossing a lawn",
+        "credit": "Photo: Carol M. Highsmith · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Glass_House_2006.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Interior_vista.jpg",
+        "alt": "Open room walled in glass, with leather and steel chairs on a rug, a wooden cabinet, a dark brick cylinder and a herringbone brick floor",
+        "credit": "Photo: Edelteil · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_vista.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in 1948–49 as a weekend retreat by its own architect, who used it for 58 years."
+      },
+      { "order": 2, "text": "Only a brick cylinder, which holds the bathroom, rises from floor to ceiling." },
+      {
+        "order": 3,
+        "text": "It may have been derived from a glass house by a German-American master that was completed two years later."
+      }
+    ],
+    "summary": {
+      "description": "Philip Johnson built the house in 1948–49 as his weekend retreat, behind a stone wall at the edge of a crest overlooking a pond, and used it for 58 years. The structure is 56 feet long, 32 feet wide and 10.5 feet high, in charcoal-painted steel and glass on a brick floor raised 10 inches above the ground. The interior is open, divided by low walnut cabinets, and a brick cylinder holds the bathroom. It is an example of minimal structure, geometry, proportion and transparency, and the estate includes other buildings by Johnson from across his career. It became a National Historic Landmark in 1997.",
+      "keyFeatures": [
+        "56 by 32 feet and 10.5 feet high, in steel and glass",
+        "Open interior divided by low walnut cabinets",
+        "Brick cylinder with the bathroom",
+        "Estate with other buildings by Johnson"
+      ],
+      "funFacts": [
+        "It is owned by the National Trust for Historic Preservation, and tours start at a visitors centre at 199 Elm Street.",
+        "Johnson shared it for 45 years with the art critic and curator David Whitney."
+      ]
+    }
+  },
+  {
+    "id": "pennzoil-place",
+    "name": "Pennzoil Place",
+    "aliases": ["Pennzoil Towers", "Pennzoil Place Houston", "Pennzoil Building"],
+    "architects": [
+      {
+        "name": "Philip Johnson",
+        "aliases": ["Johnson"],
+        "nationality": "American",
+        "bio": "American architect who, with John Burgee, designed the tower in the postmodern style."
+      }
+    ],
+    "location": { "city": "Houston, Texas", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1975,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pennzoil_Place",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Pennzoil_Place_in_Houston.JPG/1920px-Pennzoil_Place_in_Houston.JPG",
+        "alt": "Dark glass tower with a steeply sloped, angular top, beside a taller faceted skyscraper",
+        "credit": "Photo: Agsftw · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pennzoil_Place_in_Houston.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2024-0109-Pennzoil_Place_atrium.JPG/1920px-2024-0109-Pennzoil_Place_atrium.JPG",
+        "alt": "Looking up between two dark glass walls to a roof of glass and steel trusses, with a skyscraper reflected in the panes",
+        "caption": "A glass atrium joins the two towers.",
+        "credit": "Photo: Bobak Ha'Eri · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2024-0109-Pennzoil_Place_atrium.JPG"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was named \"Building of the Decade\" in 1975 by a New York Times critic." },
+      {
+        "order": 2,
+        "text": "Two towers are mirror images, placed ten feet apart, and the plaza between them sits under a glass pyramid-shaped atrium."
+      },
+      { "order": 3, "text": "Its architect received the first Pritzker Prize in 1979, for this work." }
+    ],
+    "summary": {
+      "description": "Pennzoil Place is a pair of 36-storey towers in downtown Houston designed by Philip Johnson and John Burgee from a concept by Eli Attia. Completed in 1975, the two trapezoidal towers, each 495 feet high, stand ten feet apart and are sheathed in dark bronze glass and aluminium. They are mirror images, and a 115-foot glass pyramid-shaped atrium encloses the street-level plaza that joins them. Deliberately designed as an optical illusion, the building looks different from every angle. It broke the modernist glass box made popular by followers of Mies van der Rohe and helped introduce postmodernism.",
+      "keyFeatures": [
+        "Two mirror-image 36-storey trapezoidal towers",
+        "Dark bronze glass and aluminium skin",
+        "115-foot glass pyramid-shaped atrium",
+        "Offices designed by Gensler"
+      ],
+      "funFacts": [
+        "Johnson won the 1978 AIA Gold Medal and was the first laureate of the Pritzker Prize in 1979.",
+        "It contains 1,400,000 square feet of leasable space."
+      ]
+    }
+  },
+  {
+    "id": "christ-cathedral-garden-grove",
+    "name": "Christ Cathedral",
+    "aliases": [
+      "Crystal Cathedral",
+      "Garden Grove Crystal Cathedral",
+      "Christ Cathedral Garden Grove",
+      "Cathedral of Christ Orange"
+    ],
+    "architects": [
+      {
+        "name": "Philip Johnson",
+        "aliases": ["Johnson"],
+        "nationality": "American",
+        "bio": "American architect who, with John Burgee, designed the tower in the postmodern style."
+      }
+    ],
+    "location": { "city": "Garden Grove, California", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1981,
+    "era": "MODERNISM",
+    "style": "Modern reflective glass",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christ_Cathedral_(Garden_Grove,_California)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2018_Christ_Cathedral_campus_-_Garden_Grove%2C_California_01.jpg/1920px-2018_Christ_Cathedral_campus_-_Garden_Grove%2C_California_01.jpg",
+        "alt": "Huge mirrored-glass building with sharply sloped faces, beside a slender tower of tall metal fins and a tall tower with a cross",
+        "credit": "Photo: Farragutful · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2018_Christ_Cathedral_campus_-_Garden_Grove,_California_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/CrystalCathedralPoortBinnen.JPG/1920px-CrystalCathedralPoortBinnen.JPG",
+        "alt": "Vast space under a white steel space-frame roof and glass walls, with an organ of wood and metal pipes beside a tall bright slit",
+        "credit": "Photo: Ischa1 at Dutch Wikipedia · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:CrystalCathedralPoortBinnen.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "After it was finished in 1981 it was described as \"the largest glass building in the world\"."
+      },
+      { "order": 2, "text": "It was sold to a diocese in 2012 for $57.5 million after its first owner went bankrupt." },
+      { "order": 3, "text": "It holds one of the largest musical instruments in the world, an organ." }
+    ],
+    "summary": {
+      "description": "Designed by Philip Johnson and John Burgee for the minister Robert H. Schuller's congregation in Garden Grove, the Modern-style reflective glass church seats 2,248 people. After its completion in 1981 it was described as 'the largest glass building in the world'. Its congregation went bankrupt, and the Diocese of Orange bought the building and campus in February 2012 for $57.5 million. After a two-year renovation to convert it for Catholic liturgy it was consecrated as Christ Cathedral on 17 July 2019. It houses the Hazel Wright Organ, one of the largest musical instruments in the world.",
+      "keyFeatures": [
+        "Reflective glass walls on a steel space frame",
+        "Seating for 2,248",
+        "The Hazel Wright Organ",
+        "Campus with the 13-storey Tower of Hope"
+      ],
+      "funFacts": [
+        "Robert H. Schuller founded the congregation in 1955 at a drive-in theatre.",
+        "The first church on the campus, opened in 1961, was designed by Richard Neutra."
+      ]
+    }
   }
 ]
