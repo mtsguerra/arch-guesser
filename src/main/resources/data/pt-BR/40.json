@@ -1,0 +1,245 @@
+{
+  "carpenter-center": {
+    "name": "Centro Carpenter para as Artes Visuais",
+    "aliases": [
+      "Carpenter Center",
+      "Carpenter Center Harvard",
+      "Carpenter Center for the Visual Arts",
+      "Centro Carpenter"
+    ],
+    "architects": [
+      {
+        "aliases": ["Corbusier", "Le Corbu", "Charles-Édouard Jeanneret", "Jeanneret"],
+        "nationality": "Suíço-francês",
+        "lifespan": "1887–1965",
+        "bio": "Nascido Charles-Édouard Jeanneret na Suíça, Le Corbusier tornou-se um dos arquitetos mais influentes do século XX. Formulou os 'cinco pontos de uma nova arquitetura', criou o sistema de proporções Modulor e planeou a cidade indiana de Chandigarh. A sua obra tardia em betão bruto ajudou a moldar o brutalismo. Dezassete das suas obras estão na lista do Património Mundial da UNESCO."
+      }
+    ],
+    "city": "Cambridge",
+    "style": "Modernismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Carpenter_Center_for_the_Visual_Arts",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Bloco de betão arredondado com aberturas profundas sobre finos pilotis, visto de uma estrada entre edifícios de tijolo e árvores",
+        "caption": null
+      },
+      {
+        "alt": "Tambor curvo de betão e um volume em caixa com painéis de tijolo de vidro, com uma rampa que se projeta ao lado de uma árvore nua",
+        "caption": null
+      },
+      {
+        "alt": "Rampa curva de betão sobre um grosso pilar junto a uma parede de tijolos de vidro, com folhas de outono por cima",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É o único edifício projetado principalmente pelo seu famoso arquiteto nos Estados Unidos, e um de apenas dois nas Américas.",
+      "Foi concluído em 1962 numa universidade, com um colaborador chileno e um gabinete local a tratar dos planos de obra.",
+      "Uma rampa em S em consola divide a sua massa compacta e quase cilíndrica, levando os peões através do edifício."
+    ],
+    "summary": {
+      "description": "O Centro Carpenter para as Artes Visuais da Universidade de Harvard, em Cambridge, Massachusetts, é o único edifício projetado principalmente por Le Corbusier nos Estados Unidos e um de apenas dois nas Américas, sendo o outro a Casa Curutchet, em La Plata. Le Corbusier projetou-o com o arquiteto chileno Guillermo Jullian de la Fuente, enquanto os planos de obra no local ficaram a cargo do gabinete de Josep Lluís Sert, então diretor da Harvard Graduate School of Design. Foi concluído em 1962. Como seria o seu único edifício na América, fez dele uma síntese dos seus Cinco Pontos da arquitetura. A massa compacta e quase cilíndrica é dividida por uma rampa em S no terceiro piso, que leva os peões através do edifício para verem as atividades artísticas no interior.",
+      "keyFeatures": [
+        "Rampa de betão em S em consola a partir de uma espinha central",
+        "Aplica os Cinco Pontos da arquitetura de Le Corbusier",
+        "Ateliês e salas de exposição vistos através do vidro a partir da rampa",
+        "Erguido sobre pilotis entre vizinhos de estilo georgiano"
+      ],
+      "funFacts": [
+        "Os doadores, Alfred e Helen Carpenter, deram 1,5 milhões de dólares para uma proposta de 1,3 milhões.",
+        "Le Corbusier fez a primeira de duas visitas a Cambridge em 1959."
+      ]
+    }
+  },
+  "row-house-sumiyoshi": {
+    "name": "Casa Geminada em Sumiyoshi",
+    "aliases": ["Casa Azuma", "Azuma House", "Sumiyoshi Nagaya", "Casa Sumiyoshi", "Row House in Sumiyoshi"],
+    "architects": [
+      {
+        "aliases": ["Ando"],
+        "nationality": "Japonês",
+        "lifespan": "n. 1941",
+        "bio": "Arquiteto japonês autodidata e antigo boxeador, vencedor do Prémio Pritzker em 1995. Ando é conhecido pelo betão moldado no local, de acabamento liso, que emoldura a luz, a água e a natureza em espaços geométricos e silenciosos, da Igreja da Luz aos museus de Naoshima."
+      }
+    ],
+    "city": "Osaca",
+    "style": "Modernismo minimalista em betão",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Row_House_in_Sumiyoshi",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Caixa alta de betão liso com uma única porta escura ao nível do chão, espremida entre casas comuns",
+        "caption": null
+      },
+      {
+        "alt": "Parede de betão com uma porta preta recuada e uma planta frondosa ao lado, com uma scooter estacionada à frente",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É uma pequena residência particular projetada por um arquiteto no início da carreira, num bairro de Osaca.",
+      "Não tem janelas exteriores, refletindo o desejo do proprietário de sentir que não estava «no Japão».",
+      "Para compensar a luz perdida, criou-se um pátio interior com um passadiço em cruz."
+    ],
+    "summary": {
+      "description": "A Casa Geminada em Sumiyoshi, também chamada Casa Azuma, é uma residência particular em Sumiyoshi-ku, Osaca, projetada por Tadao Ando no início da sua carreira. Foi projetada sem janelas exteriores, refletindo o desejo do proprietário de sentir que não estava «no Japão», e para compensar a luz perdida criou-se um pátio interior com um passadiço em cruz. O seu estilo de betão bruto, típico de Ando, inspirou o cenário do videoclipe «Virtual Insanity», dos Jamiroquai.",
+      "keyFeatures": [
+        "Fachada de betão liso sem janelas exteriores",
+        "Pátio interior aberto ao céu",
+        "Passadiço em cruz entre as divisões",
+        "Obra de juventude de Tadao Ando"
+      ],
+      "funFacts": [
+        "A arquitetura de betão de Ando, como aqui se vê, inspirou o cenário do videoclipe «Virtual Insanity», dos Jamiroquai.",
+        "O seu nome japonês é Sumiyoshi no Nagaya, e também é conhecida como Casa Azuma (東邸)."
+      ]
+    }
+  },
+  "awaji-yumebutai": {
+    "name": "Awaji Yumebutai",
+    "aliases": ["Yumebutai", "Palco dos Sonhos de Awaji", "Westin Awaji Island", "淡路夢舞台"],
+    "architects": [
+      {
+        "aliases": ["Ando"],
+        "nationality": "Japonês",
+        "lifespan": "n. 1941",
+        "bio": "Arquiteto japonês autodidata e antigo boxeador, vencedor do Prémio Pritzker em 1995. Ando é conhecido pelo betão moldado no local, de acabamento liso, que emoldura a luz, a água e a natureza em espaços geométricos e silenciosos, da Igreja da Luz aos museus de Naoshima."
+      }
+    ],
+    "city": "Awaji",
+    "style": "Arquitetura contemporânea em betão",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Awaji_Yumebutai",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Paredes rugosas de betão e pedra claros com uma escada de guarda de vidro que sobe a um terraço sob um céu cinzento",
+        "caption": null
+      },
+      {
+        "alt": "Longo passadiço com guardas de vidro que leva a uma pequena torre quadrada de betão junto ao mar, sob um céu escuro",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um complexo com um centro de conferências, um hotel e um memorial, construído perto do epicentro do grande terramoto de Hanshin-Awaji de 1995.",
+      "O nome significa «Palco dos Sonhos» e refere-se à recuperação da ecologia de uma ilha cujo solo foi parcialmente removido para aterros.",
+      "Uma das suas características mais distintivas é um conjunto de 100 canteiros numa encosta, com 1575 degraus e 235 lances."
+    ],
+    "summary": {
+      "description": "O Awaji Yumebutai é um complexo que reúne um centro de conferências, um hotel e um memorial em Awaji, Hyōgo, no Japão, construído perto do epicentro do grande terramoto de Hanshin-Awaji de 1995. Foi projetado por Tadao Ando, que começara a planear o projeto como um parque antes do terramoto. Yumebutai significa «Palco dos Sonhos», metaforicamente «um lugar onde sonhar», e refere-se ao objetivo de restaurar a ecologia da ilha, cujo solo fora parcialmente removido para aterros em Osaca. Uma das suas características mais distintivas é o Hyakudan'en, os «cem jardins em degraus». O hotel é explorado como o Westin Awaji Island Resort.",
+      "keyFeatures": [
+        "Centro de conferências, hotel e memorial num só complexo",
+        "Hyakudan'en: 100 canteiros em grelha por vários níveis",
+        "Construído em terreno erodido por aterros, para restaurar a sua ecologia",
+        "Terraços, passadiços e escadas em betão bruto"
+      ],
+      "funFacts": [
+        "O «cem» de Hyakudan'en refere-se ao número de mini-jardins e não aos degraus; há 1575 degraus e 235 lances.",
+        "Ando começara a planear o projeto como um parque antes de o terramoto atingir a região."
+      ]
+    }
+  },
+  "casa-de-vidro-sao-paulo": {
+    "name": "Casa de Vidro",
+    "aliases": [
+      "Casa de Vidro São Paulo",
+      "Casa de Vidro de Lina Bo Bardi",
+      "Casa de Vidro Morumbi",
+      "Instituto Bardi",
+      "Glass House"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileira, nascida na Itália",
+        "bio": "Nascida Achillina Bo em Roma, mudou-se para o Brasil em 1946 com o marido, o crítico e marchand Pietro Maria Bardi. Fascinada pela cultura popular brasileira, uniu o rigor modernista a uma arquitetura crua e humana, do MASP ao SESC Pompeia."
+      }
+    ],
+    "city": "São Paulo",
+    "style": "Modernismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_de_Vidro_(S%C3%A3o_Paulo)",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Vista de baixo, entre árvores, de uma caixa de paredes de vidro assente em finos postes de aço",
+        "caption": null
+      },
+      {
+        "alt": "Fina escada de aço de degraus abertos que sobe de uma clareira na floresta a um piso elevado sob um teto plano",
+        "caption": null
+      },
+      {
+        "alt": "Alta parede de vidro com cortinas que dá para uma sala de jantar de cadeiras de madeira, emoldurada por um tronco e fetos",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construída entre 1950 e 1951 como casa da própria arquiteta, num terreno de Mata Atlântica, e foi a sua primeira obra no país de adoção.",
+      "Deve o nome a uma grande fachada de vidro, e a parte de trás apoia-se em muros de betão.",
+      "A arquiteta viveu ali com o marido durante mais de quarenta anos, e hoje abriga um instituto com o nome do casal."
+    ],
+    "summary": {
+      "description": "A Casa de Vidro foi projetada pela arquiteta italiana Lina Bo Bardi e construída entre 1950 e 1951 no bairro do Morumbi, em São Paulo, a primeira casa construída no que viria a ser o Jardim Morumbi. Foi o seu primeiro trabalho no Brasil, feito para si e para o marido, Pietro Maria Bardi, que ali viveram mais de quarenta anos. A casa deve o nome à grande fachada de vidro e situa-se num jardim de cerca de 7000 metros quadrados, num terreno de Mata Atlântica, com a parte de trás assente em muros de betão. Le Corbusier foi uma das suas influências, na mistura de transparência e opacidade. Está tombada pelo Condephaat desde 1987 e abriga o Instituto Lina Bo e P. M. Bardi.",
+      "keyFeatures": [
+        "Grande fachada de vidro para o jardim da floresta",
+        "Parte de trás assente em muros de contenção de betão",
+        "Jardim de cerca de 7000 metros quadrados plantado em parte por Lina Bo Bardi",
+        "Hoje sede do Instituto Lina Bo e P. M. Bardi"
+      ],
+      "funFacts": [
+        "Foi a primeira casa construída na área hoje chamada Jardim Morumbi.",
+        "Tornou-se um ponto de encontro de intelectuais, entre eles o cineasta Glauber Rocha."
+      ]
+    }
+  },
+  "conjunto-residencial-parque-guinle": {
+    "name": "Conjunto Residencial do Parque Guinle",
+    "aliases": [
+      "Parque Guinle",
+      "Edifícios do Parque Guinle",
+      "Nova Cintra, Bristol e Caledônia",
+      "Conjunto Habitacional do Parque Guinle"
+    ],
+    "architects": [
+      {
+        "aliases": ["Lucio Costa", "Costa"],
+        "lifespan": "1902–1998",
+        "nationality": "Brasileiro",
+        "bio": "Arquiteto e urbanista brasileiro que liderou a equipa do edifício do Ministério da Educação e Saúde e desenhou o plano piloto de Brasília."
+      }
+    ],
+    "city": "Rio de Janeiro",
+    "style": "Modernismo brasileiro",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Conjunto_Residencial_do_Parque_Guinle",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longo bloco de apartamentos curvo com varandas fundas e blocos brancos vazados, erguido sobre uma base de pedra acima de jardins luxuriantes",
+        "caption": null
+      },
+      {
+        "alt": "Alta lâmina de varandas envidraçadas e painéis claros sobre finos apoios, vista por entre os ramos de uma árvore",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É composto por três edifícios num parque do Rio de Janeiro, projetados a partir da década de 1940 e considerados um ícone da arquitetura moderna no país.",
+      "O projeto original incluía seis edifícios, mas só três foram construídos: Nova Cintra (1948), Bristol (1950) e Caledônia (1952).",
+      "Os seus jardins foram projetados por Burle Marx."
+    ],
+    "summary": {
+      "description": "O Conjunto Residencial do Parque Guinle é composto por três edifícios situados no Parque Eduardo Guinle, na cidade do Rio de Janeiro. Começou a ser projetado na década de 1940 pelo arquiteto brasileiro Lucio Costa e é considerado um ícone da arquitetura moderna no Brasil. O projeto original incluía seis edifícios, mas só três foram construídos: Nova Cintra (1948), Bristol (1950) e Caledônia (1952). Os edifícios são blocos sustentados sobre pilotis, com varandas cujas fachadas usam brises, cobogós e treliças para proteger os apartamentos do sol da tarde sem comprometer a vista para o parque, e são marcadas pelas cores azul, rosa, amarelo, branco e pela cerâmica natural. Os jardins foram projetados por Burle Marx. O projeto rendeu a Lucio Costa o Prémio para Habitação Coletiva da 1.ª Bienal de São Paulo de 1951 e foi tombado pelo IPHAN em 1986.",
+      "keyFeatures": [
+        "Blocos sobre pilotis com varandas fundas",
+        "Brises, cobogós e treliças que protegem do sol da tarde",
+        "Fachadas em azul, rosa, amarelo, branco e cerâmica natural",
+        "Jardins de Roberto Burle Marx"
+      ],
+      "funFacts": [
+        "O projeto ganhou o Prémio para Habitação Coletiva na 1.ª Bienal de São Paulo, em 1951.",
+        "O conjunto foi tombado pelo instituto do património nacional, o IPHAN, em 1986."
+      ]
+    }
+  }
+}
