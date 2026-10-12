@@ -80,6 +80,6 @@
   --dur-slow: 560ms;
 
   /* Layout */
-  --rail-h: 3.5rem;
+  --rail-h: 4rem;
   --gutter: clamp(1rem, 2.5vw, 2rem);
 }

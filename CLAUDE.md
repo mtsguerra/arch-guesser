@@ -43,12 +43,12 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 
 - `gameReducer.js`: phases loading → playing → revealed (or error); correct fields lock and show the canonical answer.
 - `matchGuess.js`: typo-tolerant name matching (aliases, distinctive words, surnames only for people); any one architect counts; countries resolved through `Intl` (`countries.js`); "close enough" eras (Modernism/Brutalism/Contemporary, Postmodernism/Contemporary, Historicism/Art Nouveau, Art Deco/Modernism, Neoclassical/Historicism).
-- Board tabs (`components/board/sheets.js`): cuts first, numbered A-1xx plans, A-2xx elevations, A-3xx sections, A-0xx site plans; then P-1 exterior, P-2 interior.
+- Gallery (`components/board/DrawingBoard.jsx`, frameless carousel: stage, thumbnail strip, side notes with the image's `alt`/`caption`, and the credit after the reveal). Order from `sheets.js`: cuts first, numbered A-1xx plans, A-2xx elevations, A-3xx sections, A-0xx site plans; then P-1 exterior, P-2 interior.
 - Seen buildings are stored in `sessionStorage` and sent as `exclude`.
 
 ## Design
 
-`DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid drawn by `ShapeGrid` in `PageBackground`, paper sheets, title blocks, brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings/`. `PRODUCT.md` holds product context.
+`DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid drawn by `ShapeGrid` in `PageBackground`, the frameless gallery, `EraCombobox` (type a name or year, or browse the list) for the era guess, the one-row `HintTray` under the gallery, `RevealBuild` (the blueprint-rises reveal animation), brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). The playing screen is sized to fit one laptop viewport (about 1470×860 to 956) without scrolling; keep it that way. Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings/`. `PRODUCT.md` holds product context.
 
 ## Working agreement
 

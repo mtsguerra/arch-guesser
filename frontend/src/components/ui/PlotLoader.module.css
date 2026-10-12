@@ -2,6 +2,12 @@
    left to right under a sweeping pen line, then it all rests and fades for the next pass. */
 .loader {
   --cycle: 3.4s;
+  --pl-ground: var(--paper);
+  --pl-ink: var(--ink);
+  --pl-accent: var(--accent);
+  --pl-set-out: var(--camel);
+  --pl-label: var(--ink-soft);
+  --pl-light: color-mix(in oklab, var(--cream) 70%, transparent);
   position: absolute;
   inset: 0;
   display: grid;
@@ -10,9 +16,19 @@
   justify-items: center;
   gap: var(--space-4);
   overflow: hidden;
-  background: var(--paper);
+  background: var(--pl-ground);
   /* Quick loads never see it. */
   animation: appear var(--dur-slow) var(--ease-out) 220ms backwards;
+}
+
+/* On a photograph's dark stage */
+.dark {
+  --pl-ground: var(--stage-dark, var(--chocolate));
+  --pl-ink: var(--cream);
+  --pl-accent: var(--camel);
+  --pl-set-out: var(--russet);
+  --pl-label: color-mix(in oklab, var(--cream) 70%, var(--chocolate));
+  --pl-light: color-mix(in oklab, var(--cream) 9%, transparent);
 }
 
 @keyframes appear {
@@ -28,7 +44,7 @@
   background: linear-gradient(
     105deg,
     transparent 30%,
-    color-mix(in oklab, var(--cream) 70%, transparent) 50%,
+    var(--pl-light) 50%,
     transparent 70%
   );
   background-size: 260% 100%;
@@ -61,17 +77,17 @@
 }
 
 .stroke {
-  stroke: var(--ink);
+  stroke: var(--pl-ink);
   stroke-width: 1.6;
 }
 
 .accent {
-  stroke: var(--accent);
+  stroke: var(--pl-accent);
   stroke-width: 1.8;
 }
 
 .construction {
-  stroke: var(--camel);
+  stroke: var(--pl-set-out);
   stroke-width: 1;
   stroke-dasharray: 0.02 0.012 !important;
   stroke-dashoffset: 0 !important;
@@ -114,8 +130,8 @@
   bottom: 18%;
   left: 0;
   width: 1.5px;
-  background: linear-gradient(transparent, var(--accent) 20%, var(--accent) 80%, transparent);
-  box-shadow: 0 0 14px 2px color-mix(in oklab, var(--accent) 35%, transparent);
+  background: linear-gradient(transparent, var(--pl-accent) 20%, var(--pl-accent) 80%, transparent);
+  box-shadow: 0 0 14px 2px color-mix(in oklab, var(--pl-accent) 35%, transparent);
   opacity: 0;
   animation: pen var(--cycle) var(--ease-out) infinite;
 }
@@ -146,7 +162,7 @@
   font-stretch: var(--stretch-wide);
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: var(--pl-label);
 }
 
 @media (prefers-reduced-motion: reduce) {

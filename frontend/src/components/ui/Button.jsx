@@ -1,7 +1,7 @@
 import styles from './Button.module.css'
 
 /**
- * @param {'primary' | 'rail' | 'ghost' | 'quiet'} variant  `rail` sits on the dark header rail;
+ * @param {'primary' | 'rail' | 'cream' | 'ghost' | 'quiet'} variant  `rail` and `cream` sit on the dark header rail (`cream` is the solid one);
  *   `quiet` is a text-weight action for secondary choices.
  * @param {boolean} compact  hide the label on narrow screens and keep the icon (pass an `aria-label`).
  */

@@ -36,7 +36,7 @@ export default function App() {
     <AppShell
       actions={
         <Button
-          variant="rail"
+          variant="cream"
           icon={Shuffle}
           compact
           aria-label={strings.nextBuilding}

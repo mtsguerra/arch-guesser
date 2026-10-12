@@ -2,6 +2,7 @@
 export default {
   appName: 'Arch Guesser',
   nextBuilding: 'Another building',
+  tagline: 'Name the building from its drawings',
 
   language: {
     label: 'Language',
@@ -49,6 +50,10 @@ export default {
     tabsLabel: 'Drawing sheets',
     loading: 'Pulling drawings from the archive…',
     plotting: 'Plotting the sheet…',
+    carousel: 'carousel',
+    previous: 'Previous image',
+    next: 'Next image',
+    describes: 'What you see',
     errorTitle: 'The drawing archive didn’t answer',
     errorBody: 'The drawings are out of reach for a moment. Try again shortly.',
     retry: 'Try again',
@@ -65,7 +70,13 @@ export default {
     empty: 'Each hint gives a little more away. Take them whenever you like.',
     show: (n, total) => `Show hint ${n} of ${total}`,
     allShown: 'All hints shown',
+    locked: 'Locked',
     label: (n) => `Hint ${n}`,
+  },
+
+  reveal: {
+    building: 'Raising the answer…',
+    skip: 'Skip',
   },
 
   guess: {
@@ -95,6 +106,7 @@ export default {
     result: (correct, wrong) =>
       [correct && `${correct} correct`, wrong && `${wrong} not quite`].filter(Boolean).join(', ') + '.',
     countrySuggestions: 'Country suggestions',
+    eraSuggestions: 'Era suggestions',
   },
 
   summary: {

@@ -1,22 +1,22 @@
 import { useEffect, useRef } from 'react'
-import { AnimatePresence, motion } from 'motion/react'
-import { Lightbulb } from 'lucide-react'
+import { motion } from 'motion/react'
+import { Lightbulb, Lock } from 'lucide-react'
 import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
-import { Button } from '../ui/Button.jsx'
 import styles from './HintTray.module.css'
 
-// Each hint is laid down on the table like a note: drops in, slightly askew, then settles.
+// A hint is laid down in its slot like a note: drops in, slightly askew, then settles.
 const hintMotion = {
-  initial: { opacity: 0, y: -14, rotate: -1.2, scale: 0.97 },
+  initial: { opacity: 0, y: -10, rotate: -1.2, scale: 0.97 },
   animate: { opacity: 1, y: 0, rotate: 0, scale: 1, transition: { duration: duration.slow, ease: easeOut } },
 }
 
-/** Progressive text-only tips; every image is already on the board. */
+/**
+ * Progressive text-only tips, one slot each in a single row so the board never grows.
+ * Hints open in order: the next slot is the button, the rest wait locked.
+ */
 export function HintTray({ hints, hintLevel, canReveal, onReveal }) {
   const strings = useStrings()
-  const shown = hints.slice(0, hintLevel)
-  const remaining = hints.length - hintLevel
   const newest = useRef(null)
   const previousLevel = useRef(hintLevel)
 
@@ -36,35 +36,41 @@ export function HintTray({ hints, hintLevel, canReveal, onReveal }) {
         </span>
       </h2>
 
-      {shown.length === 0 && <p className={styles.empty}>{strings.hints.empty}</p>}
-
-      <ol className={styles.list}>
-        <AnimatePresence initial={false}>
-          {shown.map((hint, i) => (
-            <motion.li
-              key={hint.order}
-              ref={i === shown.length - 1 ? newest : undefined}
-              tabIndex={-1}
-              className={styles.hint}
-              layout
-              variants={hintMotion}
-              initial="initial"
-              animate="animate"
-            >
-              <span className={styles.label}>{strings.hints.label(i + 1)}</span>
-              <p className={styles.fact}>{hint.text}</p>
-            </motion.li>
-          ))}
-        </AnimatePresence>
+      <ol className={styles.row}>
+        {hints.map((hint, i) => {
+          const open = i < hintLevel
+          const next = i === hintLevel && canReveal
+          return (
+            <li key={hint.order} className={styles.slot}>
+              {open ? (
+                <motion.div
+                  ref={i === hintLevel - 1 ? newest : undefined}
+                  tabIndex={-1}
+                  className={`${styles.card} ${styles.open}`}
+                  variants={hintMotion}
+                  initial="initial"
+                  animate="animate"
+                >
+                  <span className={styles.label}>{strings.hints.label(i + 1)}</span>
+                  <p className={styles.fact}>{hint.text}</p>
+                </motion.div>
+              ) : next ? (
+                <button type="button" className={`${styles.card} ${styles.next}`} onClick={onReveal}>
+                  <Lightbulb className={styles.icon} aria-hidden="true" strokeWidth={1.75} />
+                  <span className={styles.label}>{strings.hints.label(i + 1)}</span>
+                  <span className={styles.cta}>{strings.hints.show(i + 1, hints.length)}</span>
+                </button>
+              ) : (
+                <div className={`${styles.card} ${styles.locked}`} aria-disabled="true">
+                  <Lock className={styles.icon} aria-hidden="true" strokeWidth={1.75} />
+                  <span className={styles.label}>{strings.hints.label(i + 1)}</span>
+                  <span className={styles.cta}>{strings.hints.locked}</span>
+                </div>
+              )}
+            </li>
+          )
+        })}
       </ol>
-
-      {canReveal && remaining > 0 && (
-        <motion.div layout className={styles.action}>
-          <Button variant="ghost" icon={Lightbulb} onClick={onReveal}>
-            {strings.hints.show(hintLevel + 1, hints.length)}
-          </Button>
-        </motion.div>
-      )}
     </section>
   )
 }

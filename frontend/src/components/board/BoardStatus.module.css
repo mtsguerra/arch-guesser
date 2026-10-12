@@ -1,9 +1,13 @@
+.status {
+  container: board / inline-size;
+  width: min(100%, 60rem);
+}
+
 .body {
-  position: relative;
-  container-type: size;
+  position: absolute;
+  inset: 0;
   display: grid;
   place-items: center;
-  height: 100%;
   padding: var(--space-6);
   text-align: center;
 }

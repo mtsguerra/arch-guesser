@@ -23,11 +23,11 @@ const STROKES = [
  * Shown on a sheet while its image is on the way: a drawing being plotted. It stays
  * invisible for the first moments, so an image that arrives quickly never flashes it.
  */
-export function PlotLoader({ label }) {
+export function PlotLoader({ label, tone = 'paper' }) {
   const strings = useStrings()
   const text = label ?? strings.board.plotting
   return (
-    <div className={styles.loader} role="status">
+    <div className={`${styles.loader} ${tone === 'dark' ? styles.dark : ''}`} role="status">
       <span className={styles.shimmer} aria-hidden="true" />
       <svg className={styles.drawing} viewBox="0 0 320 190" aria-hidden="true">
         {STROKES.map(({ d, construction, accent, delay = 0 }) => (

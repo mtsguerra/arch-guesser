@@ -25,7 +25,7 @@ function PlottedValue({ children, muted = false }) {
  */
 export function TitleBlock({ fields }) {
   return (
-    <figcaption className={styles.titleBlock}>
+    <div className={styles.titleBlock}>
       <dl className={styles.grid}>
         {fields.map(({ key, label, value, muted, wide }) => (
           <div key={key} className={`${styles.field} ${wide ? styles.wide : ''}`}>
@@ -36,6 +36,6 @@ export function TitleBlock({ fields }) {
           </div>
         ))}
       </dl>
-    </figcaption>
+    </div>
   )
 }

@@ -1,6 +1,5 @@
-import { Languages } from 'lucide-react'
-import { useLanguage } from '../../i18n.js'
-import { Button } from '../ui/Button.jsx'
+import { useStrings } from '../../i18n.js'
+import { LanguageSwitch } from './LanguageSwitch.jsx'
 import { PageBackground } from './PageBackground.jsx'
 import styles from './AppShell.module.css'
 
@@ -18,30 +17,21 @@ function PlanMark() {
 }
 
 export function AppShell({ actions, children }) {
-  const { lang, setLang, strings } = useLanguage()
+  const strings = useStrings()
   return (
     <div className={styles.shell}>
       <PageBackground />
       <header className={styles.rail}>
         <a className={styles.brand} href="/">
           <PlanMark />
-          <span className={styles.wordmark}>{strings.appName}</span>
+          <span className={styles.name}>
+            <span className={styles.wordmark}>{strings.appName}</span>
+            <span className={styles.tagline}>{strings.tagline}</span>
+          </span>
         </a>
         <div className={styles.actions}>
           {actions}
-          <Button
-            variant="rail"
-            icon={Languages}
-            lang={lang === 'en' ? 'pt-BR' : 'en'}
-            aria-label={`${strings.language.label}: ${strings.language.switchTo}`}
-            onClick={() => setLang(lang === 'en' ? 'pt-BR' : 'en')}
-          >
-            <span className={styles.langOptions} aria-hidden="true">
-              <span className={lang === 'en' ? styles.langOn : styles.langOff}>EN</span>
-              <span className={styles.langSep}>|</span>
-              <span className={lang === 'pt-BR' ? styles.langOn : styles.langOff}>PT</span>
-            </span>
-          </Button>
+          <LanguageSwitch />
         </div>
       </header>
       <main className={styles.main}>{children}</main>

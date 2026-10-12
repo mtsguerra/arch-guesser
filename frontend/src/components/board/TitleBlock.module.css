@@ -1,23 +1,21 @@
+/* Project and architect: a ruled list that fills in as the guesses lock. */
 .titleBlock {
   border-top: 1.5px solid var(--paper-rule);
-  background: var(--paper);
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1.6fr 1.6fr 1.3fr minmax(7.5rem, max-content);
 }
 
 .field {
   display: grid;
   gap: 0.125rem;
-  align-content: start;
   min-width: 0;
-  padding: var(--space-2) var(--space-3) var(--space-3);
+  padding: var(--space-2) 0 var(--space-3);
 }
 
 .field + .field {
-  border-left: var(--hairline) solid var(--paper-rule);
+  border-top: var(--hairline) solid var(--paper-hairline);
 }
 
 .label {
@@ -52,24 +50,4 @@
 .muted {
   color: var(--ink-soft);
   font-weight: 500;
-}
-
-/* Narrow board: a phone, or the reference column beside the summary */
-@container board (max-width: 40rem) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .field:nth-child(3) {
-    border-left: 0;
-  }
-
-  .field:nth-child(n + 3) {
-    border-top: var(--hairline) solid var(--paper-rule);
-  }
-
-  .field {
-    padding: var(--space-2);
-  }
-
 }

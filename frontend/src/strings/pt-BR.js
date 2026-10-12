@@ -2,6 +2,7 @@
 export default {
   appName: 'Arch Guesser',
   nextBuilding: 'Outra obra',
+  tagline: 'Descubra o prédio pelos desenhos',
 
   language: {
     label: 'Idioma',
@@ -49,6 +50,10 @@ export default {
     tabsLabel: 'Pranchas de desenho',
     loading: 'Buscando desenhos no arquivo…',
     plotting: 'Traçando a folha…',
+    carousel: 'carrossel',
+    previous: 'Imagem anterior',
+    next: 'Próxima imagem',
+    describes: 'O que se vê',
     errorTitle: 'O arquivo de desenhos não respondeu',
     errorBody: 'Os desenhos estão fora de alcance por um momento. Tente de novo em instantes.',
     retry: 'Tentar de novo',
@@ -65,7 +70,13 @@ export default {
     empty: 'Cada dica revela um pouco mais. Use quando quiser.',
     show: (n, total) => `Mostrar dica ${n} de ${total}`,
     allShown: 'Todas as dicas reveladas',
+    locked: 'Bloqueada',
     label: (n) => `Dica ${n}`,
+  },
+
+  reveal: {
+    building: 'Erguendo a resposta…',
+    skip: 'Pular',
   },
 
   guess: {
@@ -100,6 +111,7 @@ export default {
         .filter(Boolean)
         .join(', ') + '.',
     countrySuggestions: 'Sugestões de país',
+    eraSuggestions: 'Sugestões de período',
   },
 
   summary: {

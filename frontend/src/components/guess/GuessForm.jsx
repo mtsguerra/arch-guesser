@@ -1,6 +1,6 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
-import { ArrowRight, BookOpen, Check, ChevronDown, Eye, X } from 'lucide-react'
+import { ArrowRight, BookOpen, Building2, Check, Eye, Globe, Hourglass, PencilRuler, X } from 'lucide-react'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName, eraRange } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
@@ -8,6 +8,7 @@ import { useLanguage, useStrings } from '../../i18n.js'
 import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
 import { CountryCombobox } from './CountryCombobox.jsx'
+import { EraCombobox } from './EraCombobox.jsx'
 import styles from './GuessForm.module.css'
 
 const emptyValues = Object.fromEntries(GUESS_FIELDS.map((f) => [f, '']))
@@ -33,7 +34,7 @@ function answerFor(field, building, eras, { strings, lang }) {
  * canonical answer, plotted in like the title block, so "Savoy" is corrected
  * to "Villa Savoye" the moment it locks.
  */
-function Field({ id, field, status, attempts, revealed, answer, children }) {
+function Field({ id, field, icon: Icon, status, attempts, revealed, answer, children }) {
   const strings = useStrings()
   const controls = useAnimationControls()
   const messageId = `${id}-message`
@@ -51,24 +52,27 @@ function Field({ id, field, status, attempts, revealed, answer, children }) {
         {strings.guess.fields[field]}
       </label>
 
-      {showAnswer ? (
-        <output id={id} className={styles.answer} aria-describedby={messageId}>
-          <motion.span
-            initial={{ clipPath: 'inset(0 100% 0 0)' }}
-            animate={{ clipPath: 'inset(0 0% 0 0)' }}
-            transition={{ duration: duration.slow * 1.4, ease: easeOut }}
-          >
-            {answer}
-          </motion.span>
-        </output>
-      ) : (
-        children({ id, 'aria-describedby': messageId, 'aria-invalid': status === 'wrong' || undefined })
-      )}
+      <div className={styles.control}>
+        {Icon && <Icon className={styles.icon} aria-hidden="true" strokeWidth={1.75} />}
+        {showAnswer ? (
+          <output id={id} className={styles.answer} aria-describedby={messageId}>
+            <motion.span
+              initial={{ clipPath: 'inset(0 100% 0 0)' }}
+              animate={{ clipPath: 'inset(0 0% 0 0)' }}
+              transition={{ duration: duration.slow * 1.4, ease: easeOut }}
+            >
+              {answer}
+            </motion.span>
+          </output>
+        ) : (
+          children({ id, 'aria-describedby': messageId, 'aria-invalid': status === 'wrong' || undefined })
+        )}
 
-      <span className={styles.badge} aria-hidden="true">
-        {locked && <Check strokeWidth={2.5} />}
-        {revealed && !locked && <Eye strokeWidth={2} />}
-      </span>
+        <span className={styles.badge} aria-hidden="true">
+          {locked && <Check strokeWidth={2.5} />}
+          {revealed && !locked && <Eye strokeWidth={2} />}
+        </span>
+      </div>
 
       <AnimatePresence initial={false}>
         {status === 'wrong' && !revealed && (
@@ -139,12 +143,19 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
 
   return (
     <section className={styles.sheet} aria-labelledby={`${idPrefix}-heading`}>
-      <h2 id={`${idPrefix}-heading`} className={styles.heading}>
-        {strings.guess.heading}
-      </h2>
+      <div className={styles.header}>
+        <h2 id={`${idPrefix}-heading`} className={styles.heading}>
+          {strings.guess.heading}
+        </h2>
+        <span className={styles.pips} aria-hidden="true">
+          {GUESS_FIELDS.map((f) => (
+            <span key={f} className={styles.pip} data-status={revealed && fields[f] !== 'correct' ? 'revealed' : fields[f]} />
+          ))}
+        </span>
+      </div>
 
       <form className={styles.form} onSubmit={handleSubmit} noValidate>
-        <Field {...fieldProps('name')}>
+        <Field {...fieldProps('name')} icon={Building2}>
           {(props) => (
             <input
               {...props}
@@ -159,7 +170,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           )}
         </Field>
 
-        <Field {...fieldProps('architect')}>
+        <Field {...fieldProps('architect')} icon={PencilRuler}>
           {(props) => (
             <input
               {...props}
@@ -174,7 +185,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           )}
         </Field>
 
-        <Field {...fieldProps('country')}>
+        <Field {...fieldProps('country')} icon={Globe}>
           {(props) => (
             <CountryCombobox
               {...props}
@@ -186,25 +197,15 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           )}
         </Field>
 
-        <Field {...fieldProps('era')}>
+        <Field {...fieldProps('era')} icon={Hourglass}>
           {(props) => (
-            <div className={styles.selectWrap}>
-              <select
-                {...props}
-                className={`${styles.input} ${styles.select}`}
-                value={values.era}
-                disabled={!eras?.length}
-                onChange={(e) => update('era', e.target.value)}
-              >
-                <option value="">{eras?.length === 0 ? strings.guess.erasUnavailable : strings.guess.placeholders.era}</option>
-                {eras?.map((era) => (
-                  <option key={era.id} value={era.id}>
-                    {eraName(era, strings)} · {eraRange(era, strings.years)}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown className={styles.chevron} aria-hidden="true" strokeWidth={1.75} />
-            </div>
+            <EraCombobox
+              {...props}
+              className={styles.input}
+              eras={eras}
+              value={values.era}
+              onChange={(era) => update('era', era)}
+            />
           )}
         </Field>
 

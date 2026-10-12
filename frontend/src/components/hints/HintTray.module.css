@@ -1,6 +1,6 @@
 .tray {
   display: grid;
-  gap: var(--space-3);
+  gap: var(--space-2);
 }
 
 .heading {
@@ -20,26 +20,30 @@
   color: var(--ink-soft);
 }
 
-.empty {
-  font-size: var(--text-sm);
-  color: var(--ink-soft);
-}
-
-.list {
+/* Three equal slots in one row; the row's height is set by its tallest card. */
+.row {
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-3);
   padding: 0;
   list-style: none;
 }
 
-/* A slip of paper on the mat */
-.hint {
-  scroll-margin: var(--space-4);
+.slot {
   display: grid;
-  gap: var(--space-2);
+}
+
+.card {
+  display: grid;
+  align-content: start;
+  gap: var(--space-1);
+  min-height: 6.25rem;
   padding: var(--space-3);
-  background: var(--paper);
-  box-shadow: var(--shadow-raised);
+  border: 0;
+  border-radius: var(--radius-md);
+  text-align: left;
+  font: inherit;
+  color: inherit;
 }
 
 .label {
@@ -48,17 +52,78 @@
   font-stretch: var(--stretch-wide);
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
+}
+
+/* A slip of paper on the mat */
+.open {
+  background: var(--paper);
+  box-shadow: var(--shadow-raised);
+}
+
+.open .label {
   color: var(--accent);
 }
 
-
-
 .fact {
   font-size: var(--text-sm);
-  line-height: 1.55;
+  line-height: 1.45;
 }
 
-.action > button {
-  width: 100%;
-  justify-content: center;
+.icon {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.cta {
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.next {
+  justify-items: start;
+  background: color-mix(in oklab, var(--paper) 70%, transparent);
+  box-shadow: inset 0 0 0 1.5px var(--paper-hairline);
+  color: var(--ink);
+  transition:
+    background-color var(--dur-base) var(--ease-out),
+    box-shadow var(--dur-base) var(--ease-out),
+    translate var(--dur-base) var(--ease-out);
+}
+
+.next .icon {
+  color: var(--accent);
+}
+
+.next:hover {
+  background: var(--paper);
+  box-shadow: inset 0 0 0 1.5px var(--accent), var(--shadow-raised);
+  translate: 0 -2px;
+}
+
+.next:active {
+  translate: 0;
+}
+
+.locked {
+  justify-items: start;
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--camel) 45%, transparent);
+  color: var(--ink-soft);
+  opacity: 0.7;
+}
+
+/* Small screens: the slots stack. */
+@media (max-width: 40rem) {
+  .row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .card {
+    min-height: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .next:hover {
+    translate: none;
+  }
 }

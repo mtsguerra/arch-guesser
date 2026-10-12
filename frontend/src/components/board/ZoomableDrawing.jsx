@@ -4,7 +4,6 @@ import { Minus, Plus } from 'lucide-react'
 import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
-import { Credit } from '../ui/Credit.jsx'
 import { PlotLoader } from '../ui/PlotLoader.jsx'
 import styles from './ZoomableDrawing.module.css'
 
@@ -19,7 +18,7 @@ const clamp = (n) => Math.min(1, Math.max(0, n))
  * follows the pointer (or finger), so the whole sheet is explorable without
  * drag handles. Arrow keys pan from the zoom button; Esc exits.
  */
-export function ZoomableDrawing({ sheet, revealed, onError }) {
+export function ZoomableDrawing({ sheet, onError, onZoomChange }) {
   const strings = useStrings()
   const image = sheet.image
   const [zoomed, setZoomed] = useState(false)
@@ -29,6 +28,10 @@ export function ZoomableDrawing({ sheet, revealed, onError }) {
   const originY = useMotionValue(0.5)
   const smoothX = useSpring(originX, followSpring)
   const smoothY = useSpring(originY, followSpring)
+
+  useEffect(() => {
+    onZoomChange?.(zoomed)
+  }, [zoomed, onZoomChange])
 
   useEffect(() => {
     if (!zoomed) return
@@ -79,9 +82,15 @@ export function ZoomableDrawing({ sheet, revealed, onError }) {
       <div
         ref={viewport}
         className={`${styles.viewport} ${zoomed ? styles.zoomed : ''}`}
+        data-kind={sheet.kind}
         onClick={handleClick}
         onPointerMove={handlePointerMove}
       >
+        {/* Photographs that don't fill the stage sit on a blurred, darkened copy of themselves. A
+            cropped image skips it: the crop exists to hide lettering the blur could still hint at. */}
+        {sheet.kind === 'photo' && !image.crop && (
+          <img className={styles.backdrop} src={image.src} alt="" aria-hidden="true" decoding="async" draggable={false} />
+        )}
         <motion.div
           className={styles.canvas}
           style={{ originX: smoothX, originY: smoothY }}
@@ -106,7 +115,7 @@ export function ZoomableDrawing({ sheet, revealed, onError }) {
               exit={{ opacity: 0 }}
               transition={{ duration: duration.slow, ease: easeOut }}
             >
-              <PlotLoader />
+              <PlotLoader tone={sheet.kind === 'photo' ? 'dark' : 'paper'} />
             </motion.div>
           )}
         </AnimatePresence>
@@ -137,14 +146,6 @@ export function ZoomableDrawing({ sheet, revealed, onError }) {
           <span>{zoomed ? strings.board.zoomOut : strings.board.zoomIn}</span>
         </button>
       </div>
-
-      {/* Credits appear only after the reveal: a drawing's author is often the architect,
-          and photo credits can name the building, either of which would give the answer away. */}
-      {revealed && loaded && image.credit && (
-        <p className={styles.credit}>
-          <Credit text={image.credit} source={image.source} />
-        </p>
-      )}
     </div>
   )
 }

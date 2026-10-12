@@ -5,6 +5,7 @@
   min-height: 100dvh;
 }
 
+/* The rail: chocolate with a faint drafting grid, lit from above, a camel hairline below. */
 .rail {
   position: sticky;
   top: 0;
@@ -14,9 +15,16 @@
   justify-content: space-between;
   gap: var(--space-4);
   padding: 0 var(--gutter);
-  background: var(--rail);
+  background-color: var(--rail);
+  background-image:
+    linear-gradient(180deg, rgb(255 230 167 / 0.07), transparent 70%),
+    linear-gradient(rgb(255 230 167 / 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 230 167 / 0.045) 1px, transparent 1px);
+  background-size: auto, 16px 16px, 16px 16px;
   color: var(--rail-ink);
-  box-shadow: var(--shadow-rail);
+  box-shadow:
+    0 1px 0 color-mix(in oklab, var(--camel) 55%, transparent),
+    0 8px 20px -12px rgb(40 22 12 / 0.7);
 }
 
 .brand {
@@ -34,50 +42,70 @@
 }
 
 .mark {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2.25rem;
+  height: 2.25rem;
   flex: none;
+  filter: drop-shadow(0 2px 6px rgb(0 0 0 / 0.35));
+  transition: rotate var(--dur-slow) var(--ease-out);
+}
+
+.brand:hover .mark {
+  rotate: -6deg;
+}
+
+.name {
+  display: grid;
+  min-width: 0;
+  gap: 0.125rem;
 }
 
 .wordmark {
-  font-size: var(--text-sm);
-  font-weight: 700;
+  font-size: var(--text-base);
+  font-weight: 750;
   font-stretch: var(--stretch-extra);
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
+  line-height: 1.1;
   text-transform: uppercase;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+.tagline {
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  color: var(--rail-ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 48rem) {
+  .tagline {
+    display: none;
+  }
+}
+
 @media (max-width: 30rem) {
   .wordmark {
+    font-size: var(--text-sm);
     font-stretch: var(--stretch-normal);
     letter-spacing: 0.06em;
+  }
+
+  .mark {
+    width: 1.875rem;
+    height: 1.875rem;
   }
 }
 
 .actions {
   display: flex;
+  align-items: center;
   flex: none;
-  gap: var(--space-2);
-}
-
-.langOptions {
-  display: inline-flex;
-  gap: var(--space-1);
-  font-variant-numeric: tabular-nums;
-}
-
-.langOn {
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 0.25em;
-}
-
-.langOff,
-.langSep {
-  opacity: 0.6;
+  gap: var(--space-3);
 }
 
 .main,
@@ -87,11 +115,11 @@
 }
 
 .main {
-  padding: var(--space-5) var(--gutter) var(--space-7);
+  padding: var(--space-4) var(--gutter) var(--space-3);
 }
 
 .footer {
-  padding: 0 var(--gutter) var(--space-5);
+  padding: 0 var(--gutter) var(--space-3);
   color: var(--ink-soft);
   font-size: var(--text-xs);
   line-height: 1.5;
