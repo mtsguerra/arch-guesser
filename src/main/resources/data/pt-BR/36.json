@@ -1,0 +1,188 @@
+{
+  "louvre-abu-dhabi": {
+    "name": "Louvre Abu Dhabi",
+    "aliases": ["Museu Louvre Abu Dhabi", "Louvre Abou Dabi", "Louvre de Abu Dhabi", "Louvre Abu Dhabi Museu"],
+    "architects": [
+      {
+        "aliases": ["Nouvel"],
+        "nationality": "Francês",
+        "lifespan": "n. 1945",
+        "bio": "Arquiteto francês e laureado do Prémio Pritzker de 2008, conhecido por edifícios que jogam com a luz, a transparência e telas em camadas, do Institut du Monde Arabe, em Paris, ao Louvre Abu Dhabi. Em 2009 foi nomeado arquiteto coordenador do projeto da Île Seguin, nos subúrbios de Paris."
+      }
+    ],
+    "city": "Abu Dhabi",
+    "style": "Contemporâneo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Louvre_Abu_Dhabi",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Galerias cúbicas brancas e baixas sob uma enorme cúpula pouco profunda de metal entrelaçado, depois de uma larga praça pavimentada com palmeiras",
+        "caption": null
+      },
+      {
+        "alt": "Pátio coberto com blocos brancos, largos degraus e um canal de água sob uma cúpula escura perfurada com um padrão rendado que lança pontos de luz pelo chão",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Funciona ao abrigo de um acordo assinado em março de 2007 que lhe permite usar o nome de um famoso museu de Paris até 2047.",
+      "É o maior museu de arte da Península Arábica, com 8.000 metros quadrados de galerias.",
+      "Em 2019 já atraíra 2 milhões de visitantes, tornando-se o museu mais visitado do mundo árabe."
+    ],
+    "summary": {
+      "description": "O Louvre Abu Dhabi é um museu de arte na Ilha de Saadiyat, projetado por Jean Nouvel. Funciona ao abrigo de um acordo entre os Emirados Árabes Unidos e a França, assinado em março de 2007, que lhe permite usar o nome do Louvre até 2047. Com cerca de 24.000 metros quadrados, dos quais 8.000 de galerias, é o maior museu de arte da Península Arábica e mostra obras de todo o mundo com a intenção declarada de ligar a arte do Oriente e do Ocidente. Em 2019 já atraíra 2 milhões de visitantes. Foi um dos primeiros projetos concluídos do Distrito Cultural de Saadiyat.",
+      "keyFeatures": [
+        "Cerca de 24.000 metros quadrados, com 8.000 de galerias",
+        "Maior museu de arte da Península Arábica",
+        "Parte do Distrito Cultural de Saadiyat",
+        "Obras de arte de todo o mundo"
+      ],
+      "funFacts": [
+        "O museu faz parte de um empreendimento turístico e cultural de 27 mil milhões de dólares na Ilha de Saadiyat.",
+        "O governo francês descreve-o como \"o maior projeto cultural da França no estrangeiro\"."
+      ]
+    }
+  },
+  "centre-pompidou-metz": {
+    "name": "Centro Pompidou-Metz",
+    "aliases": [
+      "Pompidou Metz",
+      "Centre Pompidou-Metz",
+      "Centre Pompidou Metz",
+      "Pompidou-Metz",
+      "Centro Pompidou de Metz"
+    ],
+    "architects": [
+      {
+        "aliases": ["Ban"],
+        "nationality": "Japonês",
+        "lifespan": "n. 1957",
+        "bio": "Arquiteto japonês e laureado do Prémio Pritzker de 2014, famoso por estruturas inventivas em tubos de cartão, papel e madeira e por abrigos de socorro a catástrofes. Projeta também museus e salas de concerto permanentes com grandes coberturas de madeira."
+      }
+    ],
+    "city": "Metz",
+    "style": "Arquitetura contemporânea de madeira",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_Pompidou-Metz",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Cobertura branca ondulante de tecido sustentada por uma treliça de madeira, rematada por uma alta agulha, sobre um salão de frente de vidro sob um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Vista para cima de curvas vigas de madeira lamelada que formam aberturas hexagonais, ao lado de uma caixa de galeria branca saliente com grandes tubos",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "A sua cobertura foi inspirada num chapéu chinês que o seu arquiteto encontrou em Paris.",
+      "É uma extensão de um centro de arte da capital, com 5.000 metros quadrados para exposições temporárias.",
+      "Uma agulha central atinge 77 metros, aludindo a 1977, o ano de abertura do centro original."
+    ],
+    "summary": {
+      "description": "Projetado pelo arquiteto japonês Shigeru Ban, o museu de arte moderna e contemporânea de Metz, extensão do centro de arte Pompidou de Paris, foi inaugurado pelo presidente Nicolas Sarkozy a 12 de maio de 2010. É um grande hexágono estruturado em torno de uma agulha central de 77 metros, e três galerias retangulares atravessam-no a níveis diferentes e saem pela cobertura com grandes janelas viradas para marcos como a catedral gótica. A cobertura, um hexágono de 90 metros de largura com 16 quilómetros de madeira lamelada colada, foi inspirada num chapéu chinês. Oferece 5.000 metros quadrados em três galerias, um teatro e um auditório.",
+      "keyFeatures": [
+        "Planta hexagonal em torno de uma agulha central de 77 metros",
+        "Cobertura com 16 km de madeira lamelada colada",
+        "Três galerias que saem pela cobertura",
+        "Uma grande nave de 1.200 metros quadrados"
+      ],
+      "funFacts": [
+        "A primeira peça do edifício foi colocada a 7 de novembro de 2006.",
+        "Tornou-se um dos locais culturais mais visitados da França fora de Paris."
+      ]
+    }
+  },
+  "la-seine-musicale": {
+    "name": "La Seine Musicale",
+    "aliases": [
+      "Seine Musicale",
+      "A Seine Musicale",
+      "Cité Musicale Île Seguin",
+      "Seine Musicale Boulogne-Billancourt"
+    ],
+    "architects": [
+      {
+        "aliases": ["Ban"],
+        "nationality": "Japonês",
+        "lifespan": "n. 1957",
+        "bio": "Arquiteto japonês e laureado do Prémio Pritzker de 2014, famoso por estruturas inventivas em tubos de cartão, papel e madeira e por abrigos de socorro a catástrofes. Projeta também museus e salas de concerto permanentes com grandes coberturas de madeira."
+      }
+    ],
+    "city": "Boulogne-Billancourt",
+    "style": "Contemporâneo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/La_Seine_Musicale",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Cúpula em treliça em forma de ovo a brilhar à noite sobre um longo edifício branco e um mastro de madeira, junto ao rio",
+        "caption": null
+      },
+      {
+        "alt": "Sala de concertos com um palco rodeado por bancadas de madeira e um teto com padrão hexagonal",
+        "caption": "Um teatro em forma de ovo, com palco central, para música clássica."
+      }
+    ],
+    "hints": [
+      "Fica numa ilha do rio entre duas cidades a oeste da capital.",
+      "O complexo tem um teatro elevado em forma de ovo e uma sala para até 6.000 espectadores.",
+      "Um grande painel solar curvo móvel cobre o auditório menor."
+    ],
+    "summary": {
+      "description": "La Seine Musicale é um centro de música e artes do espetáculo na Île Seguin, uma ilha do Sena entre Boulogne-Billancourt e Sèvres. Em julho de 2009, Jean Nouvel foi nomeado arquiteto coordenador do projeto, e os primeiros edifícios, projetados pela equipa de Shigeru Ban e Jean de Gastines, abriram em abril de 2017. O complexo inclui um teatro elevado em forma de ovo, o Auditório Patrick-Devedjian, de 1.150 lugares, uma sala modular maior, a Grande Seine, para até 6.000, salas de ensaio e um extenso jardim de cobertura. Foi inaugurado a 22 de abril de 2017.",
+      "keyFeatures": [
+        "Auditório em forma de ovo com 1.150 lugares",
+        "Sala Grande Seine para até 6.000",
+        "Painel solar curvo móvel",
+        "Extenso jardim de cobertura"
+      ],
+      "funFacts": [
+        "Bob Dylan deu o primeiro concerto, na Grande Seine de 6.000 lugares, na semana de inauguração.",
+        "Acolheu o Junior Eurovision 2021, o primeiro evento Eurovisão realizado em França desde 1999."
+      ]
+    }
+  },
+  "breuer-building-945-madison": {
+    "name": "Edifício Breuer",
+    "aliases": ["945 Madison Avenue", "Breuer Building", "Antigo Museu Whitney", "Met Breuer", "Frick Madison"],
+    "architects": [
+      {
+        "aliases": ["Breuer", "Marcel Lajos Breuer"],
+        "nationality": "Húngaro-americano",
+        "lifespan": "1902–1981",
+        "bio": "Arquiteto e designer de móveis nascido na Hungria e formado na Bauhaus, criador da cadeira Wassily de aço tubular. Na sua carreira americana tardia voltou-se para edifícios ousados e escultóricos de betão e pedra, dos quais o Museu Whitney, na Madison Avenue, foi o mais significativo em Nova Iorque."
+      }
+    ],
+    "city": "Nova Iorque",
+    "style": "Brutalismo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Bloco pesado de degraus invertidos revestido de granito cinzento, com algumas janelas de forma estranha, numa esquina de rua de Manhattan",
+        "caption": null
+      },
+      {
+        "alt": "Galeria com paredes cinzento-escuras, um teto de caixotões de concreto e vitrines de vidro sobre mesas de madeira com desenhos",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construído de 1964 a 1966 como a terceira casa de um museu de arte americana.",
+      "Os seus pisos superiores avançam progressivamente em balanço sobre a entrada, como um zigurate invertido.",
+      "Abrigou depois uma extensão de um grande museu de arte, depois o lar temporário de uma famosa coleção, e foi comprado por uma casa de leilões."
+    ],
+    "summary": {
+      "description": "Construído de 1964 a 1966 como a terceira casa do Museu Whitney de Arte Americana, o 945 Madison Avenue, hoje chamado Edifício Breuer, foi projetado por Marcel Breuer e Hamilton P. Smith, com Michael H. Irving como arquiteto consultor e Paul Weidlinger como engenheiro de estruturas. Foi o projeto mais significativo de Breuer em Nova Iorque e a sua primeira encomenda de museu. Revestido de granito variegado com betão à vista e formas angulosas severas, com pisos em balanço que se estendem sobre a entrada como um zigurate invertido, é frequentemente descrito como brutalista. Tornou-se mais tarde o Met Breuer e o Frick Madison e, em 2023, foi comprado pela Sotheby's.",
+      "keyFeatures": [
+        "Faces de granito variegado e betão à vista",
+        "Pisos em balanço sobre a entrada",
+        "Terreno de 1.200 metros quadrados na Madison Avenue",
+        "Primeira encomenda de museu de Breuer"
+      ],
+      "funFacts": [
+        "O terreno era antes ocupado por seis casas em fila dos anos 1880.",
+        "O Whitney ocupou o edifício até 2014."
+      ]
+    }
+  }
+}

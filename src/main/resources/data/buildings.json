@@ -16792,5 +16792,259 @@
         "In 2014 the Folha de S.Paulo gave the theatre three stars out of five."
       ]
     }
+  },
+  {
+    "id": "louvre-abu-dhabi",
+    "name": "Louvre Abu Dhabi",
+    "aliases": ["Louvre Abu Dhabi Museum", "Louvre Abou Dabi", "Louvre of Abu Dhabi"],
+    "architects": [
+      {
+        "name": "Jean Nouvel",
+        "aliases": ["Nouvel"],
+        "lifespan": "b. 1945",
+        "nationality": "French",
+        "bio": "French architect and Pritzker Prize laureate of 2008, known for buildings that play with light, transparency and layered screens, from the Institut du Monde Arabe in Paris to the Louvre Abu Dhabi. In 2009 he was named lead coordinating architect of the Île Seguin project in the Paris suburbs."
+      }
+    ],
+    "location": { "city": "Abu Dhabi", "country": "United Arab Emirates", "countryCode": "AE" },
+    "yearCompleted": 2017,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louvre_Abu_Dhabi",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Louvre_abu_dhabi%2C_esterno_02.jpg/1920px-Louvre_abu_dhabi%2C_esterno_02.jpg",
+        "crop": { "x": 0.1, "y": 0.2, "w": 0.62, "h": 0.62 },
+        "alt": "Low white cubic galleries beneath a huge, shallow dome of interlaced metal, beyond a wide paved square with palm trees",
+        "credit": "Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Louvre_abu_dhabi,_esterno_02.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Louvre_abu_dhabi%2C_interno%2C_cortile_coperto_01.jpg/1920px-Louvre_abu_dhabi%2C_interno%2C_cortile_coperto_01.jpg",
+        "alt": "Covered courtyard with white blocks, wide steps and a water channel under a dark dome pierced with a lacy pattern that sends spots of light across the floor",
+        "credit": "Photo: Francesco Bini · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Louvre_abu_dhabi,_interno,_cortile_coperto_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is run under an agreement signed in March 2007 that lets it use a famous Paris museum's name until 2047."
+      },
+      {
+        "order": 2,
+        "text": "It is the largest art museum on the Arabian Peninsula, with 8,000 square metres of galleries."
+      },
+      {
+        "order": 3,
+        "text": "By 2019 it had attracted 2 million visitors, making it the most visited museum in the Arab world."
+      }
+    ],
+    "summary": {
+      "description": "The Louvre Abu Dhabi is an art museum on Saadiyat Island, designed by Jean Nouvel. It runs under an agreement between the UAE and France, signed in March 2007, that lets it use the Louvre's name until 2047. About 24,000 square metres in size, with 8,000 square metres of galleries, it is the largest art museum in the Arabian Peninsula, showing artworks from around the world with the stated intent of bridging Eastern and Western art. By 2019 it had attracted 2 million visitors. It was one of the first completed projects of the Saadiyat Cultural District.",
+      "keyFeatures": [
+        "About 24,000 square metres, with 8,000 of galleries",
+        "Largest art museum in the Arabian Peninsula",
+        "Part of the Saadiyat Cultural District",
+        "Artworks from around the world"
+      ],
+      "funFacts": [
+        "The museum is part of a US$27 billion tourist and cultural development for Saadiyat Island.",
+        "The French government calls it \"France's largest cultural project abroad\"."
+      ]
+    }
+  },
+  {
+    "id": "centre-pompidou-metz",
+    "name": "Centre Pompidou-Metz",
+    "aliases": ["Pompidou Metz", "Centre Pompidou Metz", "Pompidou-Metz"],
+    "architects": [
+      {
+        "name": "Shigeru Ban",
+        "aliases": ["Ban"],
+        "lifespan": "b. 1957",
+        "nationality": "Japanese",
+        "bio": "Japanese architect and 2014 Pritzker Prize laureate, famous for inventive structures in cardboard tubes, paper and timber, and for disaster-relief shelters. He also designs permanent museums and concert halls with great timber roofs."
+      }
+    ],
+    "location": { "city": "Metz", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 2010,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary timber architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Centre_Pompidou-Metz",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Metz_47.jpg/1920px-Metz_47.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.8 },
+        "alt": "White, undulating fabric roof carried by a lattice of timber, peaked by a tall spire, over a glass-fronted hall beneath a blue sky",
+        "credit": "Photo: FrDr · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Metz_47.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Metz_Mus%C3%A9e_G_Pompidou_int%C3%A9rieur_Poutres_de_bois.jpg/1920px-Metz_Mus%C3%A9e_G_Pompidou_int%C3%A9rieur_Poutres_de_bois.jpg",
+        "alt": "Looking up at curving glued timber beams forming hexagonal openings, beside a projecting white gallery box with large pipes",
+        "credit": "Photo: Lucie2beaugency · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Metz_Mus%C3%A9e_G_Pompidou_int%C3%A9rieur_Poutres_de_bois.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its roof was inspired by a Chinese hat that its architect found in Paris." },
+      {
+        "order": 2,
+        "text": "It is a branch of an arts centre in the capital, with 5,000 square metres of space for temporary exhibitions."
+      },
+      {
+        "order": 3,
+        "text": "A central spire reaches 77 metres, alluding to 1977, the opening year of the original centre."
+      }
+    ],
+    "summary": {
+      "description": "Designed by the Japanese architect Shigeru Ban, the museum of modern and contemporary art in Metz, a branch of the Pompidou arts centre of Paris, was inaugurated by President Nicolas Sarkozy on 12 May 2010. It is a large hexagon structured around a central spire reaching 77 metres, three rectangular galleries weave through it at different levels and jut out through the roof with picture windows angled toward landmarks such as the Gothic cathedral. Its roof, a 90-metre-wide hexagon of sixteen kilometres of glued laminated timber, was inspired by a Chinese hat. It offers 5,000 square metres of space across three galleries, a theatre and an auditorium.",
+      "keyFeatures": [
+        "Hexagonal plan around a 77-metre central spire",
+        "Roof of 16 km of glued laminated timber",
+        "Three galleries jutting through the roof",
+        "A great nave of 1,200 square metres"
+      ],
+      "funFacts": [
+        "The first piece of the building was laid on 7 November 2006.",
+        "It has become one of the most visited cultural venues in France outside Paris."
+      ]
+    }
+  },
+  {
+    "id": "la-seine-musicale",
+    "name": "La Seine Musicale",
+    "aliases": [
+      "Seine Musicale",
+      "La Seine musicale",
+      "Cité Musicale Île Seguin",
+      "Seine Musicale Boulogne-Billancourt"
+    ],
+    "architects": [
+      {
+        "name": "Shigeru Ban",
+        "aliases": ["Ban"],
+        "lifespan": "b. 1957",
+        "nationality": "Japanese",
+        "bio": "Japanese architect and 2014 Pritzker Prize laureate, famous for inventive structures in cardboard tubes, paper and timber, and for disaster-relief shelters. He also designs permanent museums and concert halls with great timber roofs."
+      }
+    ],
+    "location": { "city": "Boulogne-Billancourt", "country": "France", "countryCode": "FR" },
+    "yearCompleted": 2017,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Seine_Musicale",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/La_Seine_musicale_at_night.jpg/1920px-La_Seine_musicale_at_night.jpg",
+        "alt": "Egg-shaped lattice dome glowing at night above a long white building and a wooden mast, beside the river",
+        "credit": "Photo: Gerda Arendt · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Seine_musicale_at_night.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/La_Seine_musicale%2C_interior_of_Auditorium.jpg/1920px-La_Seine_musicale%2C_interior_of_Auditorium.jpg",
+        "alt": "Concert hall with a stage encircled by wooden tiers of seating and a hexagon-patterned ceiling",
+        "caption": "An egg-shaped theatre-in-the-round for classical music.",
+        "credit": "Photo: Gerda Arendt · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Seine_musicale,_interior_of_Auditorium.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It sits on an island in the river between two towns west of the capital." },
+      {
+        "order": 2,
+        "text": "The complex has an elevated egg-shaped theatre-in-the-round and a hall for up to 6,000 spectators."
+      },
+      { "order": 3, "text": "A large mobile curved solar panel array covers the smaller auditorium." }
+    ],
+    "summary": {
+      "description": "La Seine Musicale is a music and performing arts centre on Île Seguin, an island on the Seine between Boulogne-Billancourt and Sèvres. In July 2009 Jean Nouvel was named lead coordinating architect for the project, and the first buildings, designed by the team of Shigeru Ban and Jean de Gastines, opened in April 2017. The complex includes an elevated egg-shaped theatre-in-the-round, the 1,150-seat Patrick-Devedjian Auditorium, a larger modular concert hall, Grande Seine, for up to 6,000, rehearsal rooms and an extensive roof garden. It was inaugurated on 22 April 2017.",
+      "keyFeatures": [
+        "Egg-shaped auditorium with 1,150 seats",
+        "Grande Seine hall for up to 6,000",
+        "Mobile curved solar panel array",
+        "Extensive roof garden"
+      ],
+      "funFacts": [
+        "Bob Dylan held the first concert there, in the 6,000-seat Grande Seine, in the inauguration week.",
+        "It hosted Junior Eurovision 2021, the first Eurovision event held in France since 1999."
+      ]
+    }
+  },
+  {
+    "id": "breuer-building-945-madison",
+    "name": "Breuer Building",
+    "aliases": [
+      "945 Madison Avenue",
+      "Whitney Museum Madison Avenue",
+      "Met Breuer",
+      "Frick Madison",
+      "Old Whitney Museum"
+    ],
+    "architects": [
+      {
+        "name": "Marcel Breuer",
+        "aliases": ["Breuer", "Marcel Lajos Breuer"],
+        "lifespan": "1902–1981",
+        "nationality": "Hungarian-American",
+        "bio": "Hungarian-born Bauhaus-trained architect and furniture designer, creator of the tubular-steel Wassily chair. In his later American career he turned to bold, sculptural concrete and stone buildings, of which the Whitney Museum on Madison Avenue was the most significant in New York."
+      }
+    ],
+    "location": { "city": "New York", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1966,
+    "era": "BRUTALISM",
+    "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/945_Madison_Avenue",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/MET_Breuer_%2848377070386%29.jpg/1920px-MET_Breuer_%2848377070386%29.jpg",
+        "alt": "Heavy, inverted-stepped block faced in grey granite, with a few oddly shaped windows, on a Manhattan street corner",
+        "credit": "Photo: Ajay Suresh from New York, NY, USA · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:MET_Breuer_(48377070386).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Met_Breuer_interior_05.jpg/1920px-Met_Breuer_interior_05.jpg",
+        "alt": "Gallery with dark grey walls, a coffered concrete ceiling and glass display cases on wooden tables holding drawings",
+        "credit": "Photo: Ɱ · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Met_Breuer_interior_05.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was built from 1964 to 1966 as the third home of a museum of American art." },
+      {
+        "order": 2,
+        "text": "Its upper floors progressively cantilever out above the entry like an inverted ziggurat."
+      },
+      {
+        "order": 3,
+        "text": "It later held a branch of a great art museum, then a temporary home for a famous collection, and was bought by an auction house."
+      }
+    ],
+    "summary": {
+      "description": "Built from 1964 to 1966 as the third home of the Whitney Museum of American Art, 945 Madison Avenue, now commonly called the Breuer Building, was designed by Marcel Breuer and Hamilton P. Smith, with Michael H. Irving as consulting architect and Paul Weidlinger as structural engineer. It was Breuer's most significant design in New York and his first museum commission. Faced in variegated granite with exposed concrete and stark angular shapes, with cantilevered floors extending above the entry like an inverted ziggurat, it is often described as Brutalist. It later became the Met Breuer and the Frick Madison, and in 2023 Sotheby's bought it.",
+      "keyFeatures": [
+        "Variegated granite and exposed concrete faces",
+        "Cantilevered floors above the entry",
+        "Site of 13,000 square feet on Madison Avenue",
+        "Breuer's first museum commission"
+      ],
+      "funFacts": [
+        "The site was once occupied by six 1880s rowhouses.",
+        "The Whitney occupied the building until 2014."
+      ]
+    }
   }
 ]
