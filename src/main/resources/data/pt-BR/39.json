@@ -1,0 +1,236 @@
+{
+  "centro-galego-de-arte-contemporanea": {
+    "name": "Centro Galego de Arte Contemporânea",
+    "aliases": [
+      "CGAC",
+      "Centro Galego de Arte Contemporánea",
+      "Centro Galego de Arte Contemporáneo",
+      "Centro Galego de Arte Contemporânea Santiago"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Santiago de Compostela",
+    "style": "Modernismo tardio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_Galego_de_Arte_Contempor%C3%A2nea",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Grande bloco de granito elevado sobre um piso térreo envidraçado, com uma alta faixa verde, ao pé de escadas junto a um velho muro de pedra",
+        "caption": null
+      },
+      {
+        "alt": "Longa parede cinzenta de granito de uma galeria que flutua sobre uma base envidraçada, junto a escadas e um candeeiro, sob um céu azul",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um centro de artes criado para promover a arte contemporânea na sua região, aberto em meados da década de 1990.",
+      "O projeto, apresentado em 1992 e construído entre 1993 e 1994, é de um arquiteto português; é uma de apenas duas obras suas nesta cidade.",
+      "O terraço dá vista para os telhados do centro histórico e para um convento vizinho que alberga um panteão de ilustres."
+    ],
+    "summary": {
+      "description": "O Centro Galego de Arte Contemporânea (CGAC) é um centro de artes em Santiago de Compostela que promove a cultura na Galiza através da exposição e do estudo da arte contemporânea. Foi criado em 1993 e tem uma programação estável desde o final de 1994. O edifício, no limite da cidade, junto ao Convento de San Domingos de Bonaval, foi projetado pelo arquiteto português Álvaro Siza Vieira. O trabalho começou a tomar forma em 1988, o projeto foi apresentado em 1992 e a construção ficou concluída entre 1993 e 1994. Tem três pisos, com pórtico de entrada, auditório, cafetaria, biblioteca, escritórios e salas de exposição, e um terraço acessível.",
+      "keyFeatures": [
+        "Bloco revestido a granito sobre um pórtico de entrada envidraçado",
+        "Auditório, biblioteca, café e salas de exposição em três pisos",
+        "Terraço acessível sobre o centro histórico",
+        "Parque de socalcos que respeita o antigo jardim do convento"
+      ],
+      "funFacts": [
+        "Santiago de Compostela é a única cidade fora de Portugal com duas obras de Siza, a outra sendo a Faculdade de Jornalismo.",
+        "A sua coleção de cerca de 1300 obras centra-se na arte da segunda metade do século XX até hoje."
+      ]
+    }
+  },
+  "tidal-pools-leca-da-palmeira": {
+    "name": "Piscina das Marés de Leça da Palmeira",
+    "aliases": [
+      "Piscina das Marés",
+      "Piscinas das Marés",
+      "Piscinas de Marés de Leça da Palmeira",
+      "Piscina de Marés",
+      "Piscinas de Leça"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Matosinhos",
+    "style": "Modernismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Piscinas_de_Mar%C3%A9s_de_Le%C3%A7a_da_Palmeira",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Piscina azul-clara encaixada entre rochas escuras, junto a um longo muro à beira-mar e ao oceano aberto, com banhistas",
+        "caption": null
+      },
+      {
+        "alt": "Rocha castanha recortada em primeiro plano, com um tanque branco curvo escavado na costa e a rebentação ao fundo",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É uma piscina pública numa praia rochosa, aberta apenas de junho a setembro.",
+      "Foi projetada em 1960 e a sua construção terminou em 1973.",
+      "É o único edifício português incluído no livro 100 Buildings: 1900-2000, de Thom Mayne."
+    ],
+    "summary": {
+      "description": "A Piscina das Marés de Leça da Palmeira é uma piscina pública na praia de Leça da Palmeira, em Matosinhos, no distrito do Porto. As estruturas consistem em duas piscinas naturais cheias de água do mar, projetadas e construídas entre 1960 e 1973 pelo arquiteto português Álvaro Siza Vieira. É um dos seus primeiros projetos e o segundo em Leça da Palmeira, depois da Casa de Chá da Boa Nova, um quilómetro a norte. Em 2011 as piscinas foram classificadas como monumento nacional e, desde 2017, estão em consideração para Património Mundial da UNESCO, juntamente com a casa de chá e outros seis projetos. As piscinas abrem sazonalmente, entre junho e setembro.",
+      "keyFeatures": [
+        "Duas piscinas construídas sobre os afloramentos rochosos da costa",
+        "Muros de betão bruto paralelos à praia e ao oceano",
+        "Abertas sazonalmente entre junho e setembro",
+        "Monumento nacional desde 2011"
+      ],
+      "funFacts": [
+        "O projeto final deixou de fora um restaurante na zona norte que constava de um plano de 1961.",
+        "Entre 2019 e 2021 foram gastos 1,3 milhões de euros na estrutura de betão armado, no tanque principal e no sistema de filtragem."
+      ]
+    }
+  },
+  "biblioteca-municipal-viana-do-castelo": {
+    "name": "Biblioteca Municipal de Viana do Castelo",
+    "aliases": ["Biblioteca de Viana do Castelo", "Biblioteca Viana", "Viana do Castelo Municipal Library"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Viana do Castelo",
+    "style": "Escola do Porto contemporânea",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Biblioteca_Municipal_de_Viana_do_Castelo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Caixa de betão branco elevada sobre grossos pilares, sobre um relvado e uma praça empedrada, com uma longa janela corrida",
+        "caption": null
+      },
+      {
+        "alt": "Bloco de betão claro com uma faixa de janelas que paira sobre um piso térreo recuado, junto a um talude verde",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi inaugurada a 20 de janeiro de 2008, no âmbito das comemorações dos 750 anos do foral da sua cidade.",
+      "Um vazio central no piso térreo permite a quem está a norte ver o rio Lima.",
+      "É construída em betão branco sobre uma complexa estrutura de ferro, com base em granito."
+    ],
+    "summary": {
+      "description": "A Biblioteca Municipal de Viana do Castelo foi desenhada por Álvaro Siza Vieira e situa-se no extremo nascente da Praça da Liberdade, na zona ribeirinha de Viana do Castelo. Desde a sua fundação, em 1888, a biblioteca teve seis «moradas». O novo edifício começou a ser construído em janeiro de 2004 e foi inaugurado a 20 de janeiro de 2008, no âmbito das comemorações dos 750 anos do foral de Viana; custou cerca de 4,5 milhões de euros. Tem 3130 metros quadrados em dois pisos, com um vazio central no piso térreo que permite a quem está a norte do edifício ver o rio Lima. É construída em betão branco que recobre uma complexa estrutura de ferro, com base em granito.",
+      "keyFeatures": [
+        "Piso superior elevado que deixa um vazio central no térreo",
+        "Três salas principais de leitura com os nomes de Camões, Saramago e Pessoa",
+        "Betão branco sobre estrutura de ferro, base em granito",
+        "Espaço próprio para crianças com sala do conto"
+      ],
+      "funFacts": [
+        "Mais de 90 mil volumes foram transferidos das «exíguas» instalações anteriores, na rua Cândido dos Reis.",
+        "O espólio é constituído por cerca de cem mil livros e documentos do Município."
+      ]
+    }
+  },
+  "centro-cultural-viana-do-castelo": {
+    "name": "Centro Cultural de Viana do Castelo",
+    "aliases": ["Coliseu de Viana do Castelo", "Centro Cultural de Viana", "Viana do Castelo Cultural Centre"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto da Escola do Porto, ao lado de Távora e Siza, que recebeu o Prêmio Pritzker de Arquitetura em 2011 e o Prêmio Wolf de Artes em 2013."
+      }
+    ],
+    "city": "Viana do Castelo",
+    "style": "Contemporâneo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_Cultural_de_Viana_do_Castelo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Bloco baixo e comprido e claro num cais ribeirinho, com uma fiada de tubos na cobertura e um candeeiro à frente, sob um céu limpo",
+        "caption": null
+      },
+      {
+        "alt": "Canto de um comprido edifício elevado com grossas condutas prateadas a serpentear na cobertura, sobre um piso térreo envidraçado numa praça pavimentada",
+        "caption": null
+      },
+      {
+        "alt": "Grande arena com piso de madeira, bancadas de madeira nos lados e uma longa faixa de janelas que deixa entrar a luz do dia",
+        "caption": null
+      },
+      {
+        "alt": "Amplo átrio envidraçado do lado da água, com altas portas de vidro, chão claro e colinas e rio ao longe",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi inaugurado a 14 de julho de 2013, depois de atrasos na conclusão da obra, e também se chama Coliseu.",
+      "Tem lugar para 2000 pessoas sentadas, e 2700 em concertos em pé, num pavilhão multiusos na foz de um rio.",
+      "Tem três pisos e uma área total de 3792 metros quadrados, com uma estrutura metálica de 1200 toneladas."
+    ],
+    "summary": {
+      "description": "O Centro Cultural de Viana do Castelo, ou Coliseu de Viana do Castelo, é um centro multiusos para eventos culturais, musicais, desportivos e de lazer em Viana do Castelo, na marginal da foz do Lima. Projeto do arquiteto Eduardo Souto de Moura, foi inaugurado a 14 de julho de 2013, depois de atrasos na conclusão da obra. Custou cerca de 13 milhões de euros, incluindo 1,1 milhões de arranjos exteriores. Tem três pisos e uma área total de 3792 m², utilizou 900 toneladas de aço para betão e uma estrutura metálica de 1200 toneladas. Tem capacidade para 2 mil pessoas sentadas, ou 2700 em concertos em pé. O palco principal foi estreado pelo fadista Camané.",
+      "keyFeatures": [
+        "Três pisos com estrutura metálica de 1200 toneladas",
+        "Capacidade para 2000 pessoas (2700 em concertos em pé)",
+        "Grandes condutas prateadas ao longo da cobertura",
+        "Local ribeirinho na foz do Lima"
+      ],
+      "funFacts": [
+        "Na inauguração participaram 32 associações culturais e desportivas, com mais de 700 artistas em atuação.",
+        "A obra custou cerca de 13 milhões de euros, incluindo arranjos exteriores, acessos e um parque de estacionamento."
+      ]
+    }
+  },
+  "mercado-municipal-santa-maria-da-feira": {
+    "name": "Mercado Municipal de Santa Maria da Feira",
+    "aliases": ["Mercado da Feira", "Mercado de Santa Maria da Feira", "Mercado Municipal da Feira"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor que se tornou figura central na modernização da Escola do Porto; dois de seus ex-alunos, Siza e Souto de Moura, ganharam depois o Prêmio Pritzker."
+      }
+    ],
+    "city": "Santa Maria da Feira",
+    "style": "Escola do Porto",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mercado_Municipal_de_Santa_Maria_da_Feira",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Coberturas brancas que sobem como asas sobre finos apoios, com pequenas janelas quadradas, sobre um terraço de granito com degraus",
+        "caption": null
+      },
+      {
+        "alt": "Pátio com um tanque octogonal de azulejos e árvores, rodeado de baixos pavilhões sob finas coberturas brancas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi projetado em 1953 por um arquiteto acabado de sair da Escola de Belas-Artes do Porto e está classificado como monumento de interesse público.",
+      "É unanimemente considerado a primeira obra atribuível à corrente da Escola do Porto.",
+      "Quatro pavilhões com coberturas inclinadas em forma de «asas» protetoras agrupam-se em torno de um pátio com fonte."
+    ],
+    "summary": {
+      "description": "O Mercado Municipal de Santa Maria da Feira é um mercado projetado pelo arquiteto Fernando Távora em 1953 e classificado como monumento de interesse público. É uma obra seminal na história da arquitetura portuguesa, unanimemente considerada a primeira atribuível à Escola do Porto. Foi uma das primeiras obras de Távora após concluir os estudos na Escola Superior de Belas-Artes do Porto. Situa-se no centro histórico de Santa Maria da Feira, mantendo relações visuais com o Castelo e com a Igreja e Convento dos Lóios. O mercado é fragmentado em quatro corpos de carácter diferente, distribuídos em torno de um pátio com fonte, com coberturas desenhadas como «asas» protetoras e estrutura de betão armado e paredes de granito.",
+      "keyFeatures": [
+        "Quatro pavilhões em torno de um pátio com fonte",
+        "Coberturas desenhadas como «asas» protetoras",
+        "Estrutura de betão armado e paredes de granito",
+        "Mosaicos no pavimento alusivos aos produtos vendidos"
+      ],
+      "funFacts": [
+        "Alguns críticos veem influências pré-colombianas na sua evocativa monumentalidade.",
+        "O pavimento é uma grelha de 1 por 1 metro onde se integram mosaicos alusivos aos vários produtos nas zonas onde são vendidos."
+      ]
+    }
+  }
+}

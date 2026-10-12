@@ -17626,5 +17626,349 @@
         "The restoration of the plaza was done by 2004, together with the conversion of the adjacent Lykes Center into the Loews Hotel."
       ]
     }
+  },
+  {
+    "id": "centro-galego-de-arte-contemporanea",
+    "name": "Centro Galego de Arte Contemporánea",
+    "aliases": [
+      "CGAC",
+      "Galician Centre for Contemporary Art",
+      "Galician Contemporary Art Centre",
+      "Centro Galego de Arte Contemporânea",
+      "Centro Galego de Arte Contemporáneo"
+    ],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Santiago de Compostela", "country": "Spain", "countryCode": "ES" },
+    "yearCompleted": 1994,
+    "era": "MODERNISM",
+    "style": "Late modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Centro_Galego_de_Arte_Contempor%C3%A1nea",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Centro_Galego_de_Arte_Contempor%C3%A1nea_2015.jpg/1920px-Centro_Galego_de_Arte_Contempor%C3%A1nea_2015.jpg",
+        "alt": "Big granite block lifted over a glazed ground floor, with a tall green banner, at the foot of steps beside an old stone wall",
+        "credit": "Photo: Kippelboy · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Centro_Galego_de_Arte_Contempor%C3%A1nea_2015.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CGAC_Santiago_de_Compostela.jpg/1920px-CGAC_Santiago_de_Compostela.jpg",
+        "crop": { "x": 0, "y": 0.3, "w": 1, "h": 0.7 },
+        "alt": "Long grey granite wall of a gallery floating over a glazed base, beside steps and a lamp post, under a blue sky",
+        "credit": "Photo: MarcosEire · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:CGAC_Santiago_de_Compostela.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is an arts centre created to promote contemporary art in its region, which opened in the mid-1990s."
+      },
+      {
+        "order": 2,
+        "text": "Its design, presented in 1992 and built between 1993 and 1994, is by a Portuguese architect; it is one of only two works he has in this city."
+      },
+      {
+        "order": 3,
+        "text": "Its terrace gives a view of the roofs of the old quarter and a neighbouring convent that houses a pantheon of illustrious people."
+      }
+    ],
+    "summary": {
+      "description": "The Centro Galego de Arte Contemporánea (CGAC) is an arts centre in Santiago de Compostela that promotes culture in Galicia through the exhibition and study of contemporary art. It was established in 1993 and has had a stable programme since the end of 1994. The building, on the edge of the city next to the Convento de San Domingos de Bonaval, was designed by the Portuguese architect Álvaro Siza Vieira. Work began to take shape in 1988, the project was presented in 1992 and construction was completed between 1993 and 1994. It has three floors with an entrance porch, auditorium, coffee shop, library, offices and exhibition halls, and an accessible terrace.",
+      "keyFeatures": [
+        "Granite-clad block above a glazed entrance porch",
+        "Auditorium, library, cafe and exhibition halls on three floors",
+        "Accessible terrace over the old quarter",
+        "Park of terraces that respects the old convent garden"
+      ],
+      "funFacts": [
+        "Santiago de Compostela is the only city outside Portugal with two works by Siza, the other being the Faculty of Journalism.",
+        "Its collection of about 1,300 works focuses on art from the second half of the twentieth century to the present."
+      ]
+    }
+  },
+  {
+    "id": "tidal-pools-leca-da-palmeira",
+    "name": "Tidal Pools of Leça da Palmeira",
+    "aliases": [
+      "Piscina das Marés",
+      "Piscinas das Marés",
+      "Piscinas de Marés de Leça da Palmeira",
+      "Piscina de Marés",
+      "Leça Swimming Pools",
+      "Piscinas de Leça"
+    ],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Matosinhos", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 1973,
+    "era": "MODERNISM",
+    "style": "Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tidal_pools_of_Le%C3%A7a_de_Palmeira",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Piscina_das_Mar%C3%A9s.jpg/1920px-Piscina_das_Mar%C3%A9s.jpg",
+        "alt": "Pale blue pool tucked among dark rocks beside a long sea wall and the open ocean, with sunbathers",
+        "credit": "Photo: Ricardo Saraiva de Almeida · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Piscina_das_Mar%C3%A9s.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Le%C3%A7a_da_Palmeira_Piscina_de_Mar%C3%A9s_%2825277685847%29.jpg/1920px-Le%C3%A7a_da_Palmeira_Piscina_de_Mar%C3%A9s_%2825277685847%29.jpg",
+        "alt": "Jagged brown rock in the foreground with a white curving pool basin cut into the shore and surf behind",
+        "credit": "Photo: _morgado · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Le%C3%A7a_da_Palmeira_Piscina_de_Mar%C3%A9s_(25277685847).jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is a public swimming pool on a rocky beach, open only from June to September." },
+      { "order": 2, "text": "It was projected in 1960 and its construction came to an end in 1973." },
+      {
+        "order": 3,
+        "text": "It is the only Portuguese building included in Thom Mayne's book 100 Buildings: 1900-2000."
+      }
+    ],
+    "summary": {
+      "description": "The Tidal Pools of Leça da Palmeira are a public swimming pool on the beach of Leça da Palmeira in Matosinhos, in the district of Porto. The structures consist of two natural pools filled with fresh sea water, designed and built between 1960 and 1973 by the Portuguese architect Álvaro Siza Vieira. It is one of his early projects and his second design in Leça da Palmeira, after the Boa Nova tea house a kilometre to the north. In 2011 the pools were classified as a national monument, and since 2017 they have been considered for UNESCO World Heritage together with the tea house and six other projects. The pools are open seasonally between June and September.",
+      "keyFeatures": [
+        "Two pools built over the rocky outcrops of the shore",
+        "Raw concrete walls running parallel to the beach and the ocean",
+        "Open seasonally between June and September",
+        "National monument since 2011"
+      ],
+      "funFacts": [
+        "The final design left out a restaurant in the north area that had been included in a 1961 plan.",
+        "Between 2019 and 2021, 1.3 million euros were spent on the reinforced concrete structure, the main tank and the filtration system."
+      ]
+    }
+  },
+  {
+    "id": "biblioteca-municipal-viana-do-castelo",
+    "name": "Viana do Castelo Municipal Library",
+    "aliases": [
+      "Biblioteca Municipal de Viana do Castelo",
+      "Biblioteca de Viana do Castelo",
+      "Viana do Castelo Library",
+      "Biblioteca Viana"
+    ],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Viana do Castelo", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2008,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary Porto School",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Biblioteca_Municipal_de_Viana_do_Castelo",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Biblioteca_Municipal_de_Viana_do_Castelo_%282%29.jpg/1920px-Biblioteca_Municipal_de_Viana_do_Castelo_%282%29.jpg",
+        "alt": "White concrete box raised on thick piers over a grassy lawn and a cobbled square, with a long ribbon window",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_Municipal_de_Viana_do_Castelo_(2).jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Biblioteca_Municipal_de_Viana_do_Castelo_in_2018.jpg/1920px-Biblioteca_Municipal_de_Viana_do_Castelo_in_2018.jpg",
+        "alt": "Pale concrete block with a long window band hovering over a recessed ground floor beside a green slope",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_Municipal_de_Viana_do_Castelo_in_2018.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was inaugurated on 20 January 2008, within the celebrations of the 750th anniversary of its town's charter."
+      },
+      { "order": 2, "text": "A central void on the ground floor lets those north of it see the river Lima." },
+      { "order": 3, "text": "It is built of white concrete over a complex iron structure, on a granite base." }
+    ],
+    "summary": {
+      "description": "The Municipal Library of Viana do Castelo was designed by Álvaro Siza Vieira and stands at the eastern end of the Praça da Liberdade, on the riverfront of Viana do Castelo. Since its foundation in 1888 the library had six addresses. The new building began construction in January 2004 and was inaugurated on 20 January 2008, within the celebrations of the 750th anniversary of the town's charter; it cost about 4.5 million euros. It has 3,130 square metres on two floors, with a central void at ground level that lets people north of the building see the river Lima. It is built of white concrete covering a complex iron structure, on a granite base.",
+      "keyFeatures": [
+        "Raised upper floor leaving a central void on the ground level",
+        "Three main reading rooms named after Camões, Saramago and Pessoa",
+        "White concrete over an iron structure, granite base",
+        "Space of its own for children with a story room"
+      ],
+      "funFacts": [
+        "More than 90,000 volumes were moved from the cramped former premises on Rua Cândido dos Reis.",
+        "The collection holds around one hundred thousand books and municipal documents."
+      ]
+    }
+  },
+  {
+    "id": "centro-cultural-viana-do-castelo",
+    "name": "Viana do Castelo Cultural Centre",
+    "aliases": [
+      "Centro Cultural de Viana do Castelo",
+      "Coliseu de Viana do Castelo",
+      "Viana Cultural Centre",
+      "Centro Cultural de Viana"
+    ],
+    "architects": [
+      {
+        "name": "Eduardo Souto de Moura",
+        "aliases": ["Souto de Moura", "Souto Moura", "Eduardo Souto Moura"],
+        "lifespan": "b. 1952",
+        "nationality": "Portuguese",
+        "bio": "Porto School architect, alongside Távora and Siza, who received the Pritzker Architecture Prize in 2011 and the Wolf Prize in Arts in 2013."
+      }
+    ],
+    "location": { "city": "Viana do Castelo", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": 2013,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_Cultural_de_Viana_do_Castelo",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Centro_Cultural%2C_Viana_do_Castelo_%2819088203761%29.jpg/1920px-Centro_Cultural%2C_Viana_do_Castelo_%2819088203761%29.jpg",
+        "alt": "Long low pale block on a riverside quay with a row of pipes on the roof and a street lamp in front, under a clear sky",
+        "credit": "Photo: Turismo En Portugal · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Centro_Cultural,_Viana_do_Castelo_(19088203761).jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Centro_Cultural_de_Viana_do_Castelo_-_Portugal_%2853425263052%29.jpg/1920px-Centro_Cultural_de_Viana_do_Castelo_-_Portugal_%2853425263052%29.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.94 },
+        "alt": "Corner of a long raised building with fat silver ducts snaking along its roof, over a glazed ground floor on a paved square",
+        "credit": "Photo: Vitor Oliveira from Torres Vedras, PORTUGAL · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Centro_Cultural_de_Viana_do_Castelo_-_Portugal_(53425263052).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Centro_Cultural_de_Viana_do_Castelo_%281%29.jpg/1920px-Centro_Cultural_de_Viana_do_Castelo_%281%29.jpg",
+        "alt": "Big arena with a wooden floor, tiered wooden seats along the sides and a long band of window letting in daylight",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Centro_Cultural_de_Viana_do_Castelo_(1).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Centro_Cultural_de_Viana_do_Castelo_%282%29.jpg/1920px-Centro_Cultural_de_Viana_do_Castelo_%282%29.jpg",
+        "alt": "Wide glazed foyer on the water side with tall glass doors, a pale floor and distant hills and river",
+        "credit": "Photo: Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Centro_Cultural_de_Viana_do_Castelo_(2).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It opened on 14 July 2013 after delays in finishing the work, and is also called the Coliseu."
+      },
+      {
+        "order": 2,
+        "text": "It seats 2,000 people, and 2,700 for standing concerts, in a multi-purpose hall on the mouth of a river."
+      },
+      {
+        "order": 3,
+        "text": "It has three floors and a total area of 3,792 square metres, with a metal structure of 1,200 tonnes."
+      }
+    ],
+    "summary": {
+      "description": "The Centro Cultural de Viana do Castelo, or Coliseu de Viana do Castelo, is a multi-purpose centre for cultural, musical, sporting and leisure events in Viana do Castelo, on the riverfront at the mouth of the Lima. Designed by the architect Eduardo Souto de Moura, it was inaugurated on 14 July 2013, after delays in finishing the work. It cost about 13 million euros, including 1.1 million euros of outdoor works. It has three floors and a total area of 3,792 square metres, using 900 tonnes of reinforcing steel and a 1,200-tonne metal structure. It seats 2,000 people, or 2,700 for standing concerts. Its first stage performance was by the fado singer Camané.",
+      "keyFeatures": [
+        "Three floors with a metal structure of 1,200 tonnes",
+        "Seats 2,000 (2,700 for standing concerts)",
+        "Large silver ducts running along the roof",
+        "Riverside site on the Foz do Lima"
+      ],
+      "funFacts": [
+        "At its opening 32 cultural and sports associations took part, with more than 700 artists performing.",
+        "The work cost around 13 million euros, including outdoor works, accesses and a car park."
+      ]
+    }
+  },
+  {
+    "id": "mercado-municipal-santa-maria-da-feira",
+    "name": "Santa Maria da Feira Municipal Market",
+    "aliases": [
+      "Mercado Municipal de Santa Maria da Feira",
+      "Mercado da Feira",
+      "Mercado de Santa Maria da Feira",
+      "Feira Municipal Market"
+    ],
+    "architects": [
+      {
+        "name": "Fernando Távora",
+        "aliases": ["Távora", "Fernando Tavora"],
+        "lifespan": "1923–2005",
+        "nationality": "Portuguese",
+        "bio": "Architect and professor who became a key figure in the modernisation of the Porto School; two of his former students, Siza and Souto de Moura, later won the Pritzker Prize."
+      }
+    ],
+    "location": { "city": "Santa Maria da Feira", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": null,
+    "era": "MODERNISM",
+    "style": "Porto School",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Mercado_Municipal_de_Santa_Maria_da_Feira",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mercado_Municipal_de_Santa_Maria_da_Feira_001.jpg/1920px-Mercado_Municipal_de_Santa_Maria_da_Feira_001.jpg",
+        "alt": "White roofs sloping up like wings on slender supports with small square windows, over a granite terrace with steps",
+        "credit": "Photo: Alegna13 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercado_Municipal_de_Santa_Maria_da_Feira_001.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Mercado_Municipal_de_Santa_Maria_da_Feira_003.jpg/1920px-Mercado_Municipal_de_Santa_Maria_da_Feira_003.jpg",
+        "alt": "Courtyard with an octagonal tiled fountain bed and trees, ringed by low pavilions under thin white roofs",
+        "credit": "Photo: Alegna13 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercado_Municipal_de_Santa_Maria_da_Feira_003.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was designed in 1953 by an architect just out of the Porto School of Fine Arts and is classified as a monument of public interest."
+      },
+      { "order": 2, "text": "It is unanimously considered the first work attributable to the Porto School current." },
+      {
+        "order": 3,
+        "text": "Four pavilions with sloping roofs shaped like protective \"wings\" gather around a courtyard with a fountain."
+      }
+    ],
+    "summary": {
+      "description": "The Municipal Market of Santa Maria da Feira is a market designed by the architect Fernando Távora in 1953 and classified as a monument of public interest. It is a seminal work in the history of Portuguese architecture, unanimously considered the first attributable to the Porto School. It was one of Távora's first works after finishing his studies at the Porto School of Fine Arts. It sits in the historic centre of Santa Maria da Feira, keeping visual relations with the castle and the Church and Convent of the Lóios. The market is fragmented into four volumes of different character, distributed around a courtyard with a fountain, with roofs designed as protective \"wings\" and a structure of reinforced concrete and granite walls.",
+      "keyFeatures": [
+        "Four pavilions around a courtyard with a fountain",
+        "Roofs designed as protective \"wings\"",
+        "Reinforced concrete structure and granite walls",
+        "Mosaics on the floor alluding to the products sold"
+      ],
+      "funFacts": [
+        "Some critics see pre-Columbian influences in its evocative monumentality.",
+        "The floor is a 1 by 1 metre grid on which mosaics alluding to the various products are placed where they were sold."
+      ]
+    }
   }
 ]
