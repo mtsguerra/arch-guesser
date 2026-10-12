@@ -15390,5 +15390,124 @@
         "The memorial was built 348 years after the peak of the trials in 1662–1663."
       ]
     }
+  },
+  {
+    "id": "church-on-the-water",
+    "name": "Church on the Water",
+    "aliases": ["Chapel on the Water", "Mizu no Kyokai", "Water Church", "Church on the Water Tomamu"],
+    "architects": [
+      {
+        "name": "Tadao Ando",
+        "aliases": ["Ando"],
+        "lifespan": "b. 1941",
+        "nationality": "Japanese",
+        "bio": "Self-taught Japanese architect and former boxer, winner of the Pritzker Prize in 1995. Ando is known for poured-in-place concrete, with a smooth finish, that frames light, water and nature in quiet, geometric spaces, from the Church of the Light to the museums of Naoshima."
+      }
+    ],
+    "location": { "city": "Tomamu, Hokkaido", "country": "Japan", "countryCode": "JP" },
+    "yearCompleted": 1988,
+    "era": "MODERNISM",
+    "style": "Minimalist concrete modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_on_the_Water",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Church_on_the_Water_Exterior1.jpg",
+        "alt": "Low concrete box with an open glass front over a still pool, with a glass cube on its roof, among green trees",
+        "credit": "Photo: 準建築人手札網站 Forgemind ArchiMedia · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_on_the_Water_Exterior1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Church_on_the_Water.jpg/1920px-Church_on_the_Water.jpg",
+        "alt": "Dark chapel with a concrete wall and a glass wall opening onto a lit pool and a lit cross standing in the water among trees",
+        "caption": "A cross stands in the pool beyond the glass wall.",
+        "credit": "Photo: ume-y · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_on_the_Water.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is a privately owned wedding chapel on the island of Hokkaido." },
+      {
+        "order": 2,
+        "text": "A large floor-to-ceiling window frames a reflecting pool, in the Japanese tradition of \"borrowed scenery\"."
+      },
+      { "order": 3, "text": "Its architect designed it in 1985 and completed it a few years later." }
+    ],
+    "summary": {
+      "description": "Designed by Tadao Ando in 1985 and completed in 1988, this privately owned wedding chapel stands in Tomamu, Shimukappu, on the island of Hokkaido. The chapel faces a large reflecting pool visible through a floor-to-ceiling window, in the Japanese architectural tradition of shakkei, or borrowed scenery. Concrete and glass frame the water, the cross and the surrounding trees.",
+      "keyFeatures": [
+        "Floor-to-ceiling glass wall facing a reflecting pool",
+        "Cross standing in the water",
+        "Concrete box with a glass cube on the roof",
+        "Use of shakkei, or borrowed scenery"
+      ],
+      "funFacts": [
+        "It is also known as the Chapel on the Water, and in Japanese as Mizu no Kyokai.",
+        "It is a notable project of the Japanese modernist architect Tadao Ando."
+      ]
+    }
+  },
+  {
+    "id": "modern-art-museum-of-fort-worth",
+    "name": "Modern Art Museum of Fort Worth",
+    "aliases": ["The Modern", "The Modern Fort Worth", "Modern Art Museum Fort Worth", "Fort Worth Modern"],
+    "architects": [
+      {
+        "name": "Tadao Ando",
+        "aliases": ["Ando"],
+        "lifespan": "b. 1941",
+        "nationality": "Japanese",
+        "bio": "Self-taught Japanese architect and former boxer, winner of the Pritzker Prize in 1995. Ando is known for poured-in-place concrete, with a smooth finish, that frames light, water and nature in quiet, geometric spaces, from the Church of the Light to the museums of Naoshima."
+      }
+    ],
+    "location": { "city": "Fort Worth, Texas", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 2002,
+    "era": "CONTEMPORARY",
+    "style": "Minimalist concrete modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Modern_Art_Museum_of_Fort_Worth",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Fort_Worth_Cultural_District_June_2016_21_%28Modern_Art_Museum_of_Fort_Worth%29.jpg/1920px-Fort_Worth_Cultural_District_June_2016_21_%28Modern_Art_Museum_of_Fort_Worth%29.jpg",
+        "alt": "Long glass-walled pavilion with a tall entrance bay on a wide paved forecourt, with cars and trees at its sides",
+        "credit": "Photo: Michael Barera · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fort_Worth_Cultural_District_June_2016_21_(Modern_Art_Museum_of_Fort_Worth).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Modern_Art_Museum_of_Fort_Worth_January_2017_1.jpg/1920px-Modern_Art_Museum_of_Fort_Worth_January_2017_1.jpg",
+        "alt": "Long, dim concrete corridor with a translucent arched ceiling and bright gallery doorways on each side, with visitors",
+        "caption": "A long concrete passage lit from above leads between galleries.",
+        "credit": "Photo: Michael Barera · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Modern_Art_Museum_of_Fort_Worth_January_2017_1.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is an art museum of post-World War II art, founded in 1892." },
+      {
+        "order": 2,
+        "text": "Its building opened to the public on 14 December 2002, after a five-year design process."
+      },
+      {
+        "order": 3,
+        "text": "Three long pavilions are set into a reflecting pond, beside two other famous museums in the same cultural district."
+      }
+    ],
+    "summary": {
+      "description": "The Modern Art Museum of Fort Worth, founded in 1892, has been housed since 14 December 2002 in a building designed by the Japanese architect Tadao Ando. Michael Auping, the museum's chief curator, worked closely with Ando during the five-year design process to ensure that the interior spaces met the needs of curators and artists. The building features three long pavilions set into a reflecting pond and provides 53,000 square feet of gallery space. In 2019 it was selected as the Best Designed Building in Texas by Architectural Digest.",
+      "keyFeatures": [
+        "Three long pavilions set into a reflecting pond",
+        "53,000 square feet of gallery space",
+        "Concrete and glass galleries lit from above",
+        "Located in the Cultural District beside the Kimbell Art Museum and the Amon Carter Museum"
+      ],
+      "funFacts": [
+        "The permanent collection has more than 3,000 works of international modern and contemporary art.",
+        "The museum holds works by Picasso, Rothko, Pollock and Richter, among many others."
+      ]
+    }
   }
 ]

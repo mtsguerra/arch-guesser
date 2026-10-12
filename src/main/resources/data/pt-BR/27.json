@@ -1,0 +1,100 @@
+{
+  "church-on-the-water": {
+    "name": "Igreja sobre a Água",
+    "aliases": [
+      "Church on the Water",
+      "Capela sobre a Água",
+      "Mizu no Kyokai",
+      "Igreja da Água",
+      "Igreja sobre a Água de Tomamu"
+    ],
+    "architects": [
+      {
+        "aliases": ["Ando"],
+        "nationality": "Japonês",
+        "lifespan": "n. 1941",
+        "bio": "Arquiteto japonês autodidata e antigo boxeador, vencedor do Prémio Pritzker em 1995. Ando é conhecido pelo betão moldado no local, de acabamento liso, que emoldura a luz, a água e a natureza em espaços geométricos e silenciosos, da Igreja da Luz aos museus de Naoshima."
+      }
+    ],
+    "city": "Tomamu, Hokkaido",
+    "style": "Modernismo minimalista de betão",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Baixa caixa de concreto com uma frente de vidro aberta sobre um espelho de água, com um cubo de vidro na cobertura, entre árvores verdes",
+        "caption": null
+      },
+      {
+        "alt": "Capela escura com uma parede de concreto e uma parede de vidro aberta para um tanque iluminado e uma cruz iluminada erguida na água entre árvores",
+        "caption": "Uma cruz ergue-se no tanque, para lá da parede de vidro."
+      }
+    ],
+    "hints": [
+      "É uma capela de casamentos privada na ilha de Hokkaido.",
+      "Uma grande janela do chão ao teto emoldura um espelho de água, na tradição japonesa da \"paisagem emprestada\".",
+      "O seu arquiteto projetou-a em 1985 e concluiu-a alguns anos depois."
+    ],
+    "summary": {
+      "description": "Projetada por Tadao Ando em 1985 e concluída em 1988, esta capela de casamentos privada fica em Tomamu, Shimukappu, na ilha de Hokkaido. A capela dá para um grande espelho de água visível através de uma janela do chão ao teto, na tradição arquitetónica japonesa do shakkei, ou paisagem emprestada. O concreto e o vidro emolduram a água, a cruz e as árvores em volta.",
+      "keyFeatures": [
+        "Parede de vidro do chão ao teto virada para um espelho de água",
+        "Cruz erguida na água",
+        "Caixa de concreto com um cubo de vidro na cobertura",
+        "Uso do shakkei, ou paisagem emprestada"
+      ],
+      "funFacts": [
+        "É também conhecida como Capela sobre a Água e, em japonês, como Mizu no Kyokai.",
+        "É um projeto notável do arquiteto modernista japonês Tadao Ando."
+      ]
+    }
+  },
+  "modern-art-museum-of-fort-worth": {
+    "name": "Museu de Arte Moderna de Fort Worth",
+    "aliases": [
+      "The Modern",
+      "The Modern Fort Worth",
+      "Modern Art Museum of Fort Worth",
+      "Museu de Arte Moderna Fort Worth",
+      "Modern de Fort Worth"
+    ],
+    "architects": [
+      {
+        "aliases": ["Ando"],
+        "nationality": "Japonês",
+        "lifespan": "n. 1941",
+        "bio": "Arquiteto japonês autodidata e antigo boxeador, vencedor do Prémio Pritzker em 1995. Ando é conhecido pelo betão moldado no local, de acabamento liso, que emoldura a luz, a água e a natureza em espaços geométricos e silenciosos, da Igreja da Luz aos museus de Naoshima."
+      }
+    ],
+    "city": "Fort Worth, Texas",
+    "style": "Modernismo minimalista de betão",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longo pavilhão de paredes de vidro com um alto vão de entrada num largo pátio pavimentado, com carros e árvores nos lados",
+        "caption": null
+      },
+      {
+        "alt": "Longo corredor de concreto na penumbra com um teto translúcido em arco e portas luminosas de galerias de cada lado, com visitantes",
+        "caption": "Uma longa passagem de concreto iluminada por cima liga as galerias."
+      }
+    ],
+    "hints": [
+      "É um museu de arte posterior à Segunda Guerra Mundial, fundado em 1892.",
+      "O seu edifício abriu ao público a 14 de dezembro de 2002, depois de um processo de projeto de cinco anos.",
+      "Três longos pavilhões assentam num espelho de água, ao lado de dois outros museus famosos no mesmo distrito cultural."
+    ],
+    "summary": {
+      "description": "O Museu de Arte Moderna de Fort Worth, fundado em 1892, ocupa desde 14 de dezembro de 2002 um edifício projetado pelo arquiteto japonês Tadao Ando. Michael Auping, curador-chefe do museu, trabalhou de perto com Ando durante o processo de projeto de cinco anos para garantir que os espaços interiores servissem os curadores e os artistas. O edifício tem três longos pavilhões assentes num espelho de água e oferece 4.900 metros quadrados de espaço de galeria. Em 2019 foi escolhido como o Edifício Mais Bem Projetado do Texas pela Architectural Digest.",
+      "keyFeatures": [
+        "Três longos pavilhões assentes num espelho de água",
+        "4.900 metros quadrados de espaço de galeria",
+        "Galerias de concreto e vidro iluminadas por cima",
+        "No Distrito Cultural, ao lado do Kimbell Art Museum e do Amon Carter Museum"
+      ],
+      "funFacts": [
+        "O acervo permanente tem mais de 3.000 obras de arte moderna e contemporânea internacional.",
+        "O museu tem obras de Picasso, Rothko, Pollock e Richter, entre muitos outros."
+      ]
+    }
+  }
+}
