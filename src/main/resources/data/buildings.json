@@ -18322,5 +18322,81 @@
         "The complex was listed by the national heritage institute IPHAN in 1986."
       ]
     }
+  },
+  {
+    "id": "atelier-museu-julio-pomar",
+    "name": "Atelier-Museu Júlio Pomar",
+    "aliases": [
+      "Atelier Museu Júlio Pomar",
+      "Atelier-Museum Júlio Pomar",
+      "Júlio Pomar Studio-Museum",
+      "Museu Júlio Pomar",
+      "Atelier-Museu Julio Pomar"
+    ],
+    "architects": [
+      {
+        "name": "Álvaro Siza Vieira",
+        "aliases": ["Álvaro Siza", "Siza Vieira", "Siza"],
+        "lifespan": "b. 1933",
+        "nationality": "Portuguese",
+        "bio": "Porto architect and educator, a former student of Fernando Távora and winner of the Pritzker Architecture Prize in 1992."
+      }
+    ],
+    "location": { "city": "Lisbon", "country": "Portugal", "countryCode": "PT" },
+    "yearCompleted": null,
+    "era": "CONTEMPORARY",
+    "style": "Contemporary Porto School",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atelier-Museu_J%C3%BAlio_Pomar",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Outside_the_Museum_%288711277174%29.jpg/1920px-Outside_the_Museum_%288711277174%29.jpg",
+        "alt": "Black cut-out figures standing in niches of a whitewashed wall along a cobbled lane, in strong light",
+        "credit": "Photo: Pedro Ribeiro Simões from Lisboa, Portugal · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Outside_the_Museum_(8711277174).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/At_the_museum_%288709484567%29.jpg/1920px-At_the_museum_%288709484567%29.jpg",
+        "alt": "Bright upper gallery with white beams and pendant lamps, a railing round a void and visitors in front of colourful paintings",
+        "credit": "Photo: Pedro Ribeiro Simões from Lisboa, Portugal · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:At_the_museum_(8709484567).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Atelier-Museu_J%C3%BAlio_Pomar_%282016%29_e.jpg/1920px-Atelier-Museu_J%C3%BAlio_Pomar_%282016%29_e.jpg",
+        "alt": "Narrow stair with russet steps climbing toward a bright opening, beside a dark wall covered in photographs",
+        "credit": "Photo: GualdimG · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Atelier-Museu_J%C3%BAlio_Pomar_(2016)_e.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a museum between two of its city's most popular neighbourhoods, in a former warehouse bought by the city council in 2000."
+      },
+      {
+        "order": 2,
+        "text": "It was intended as the studio of a painter who lived on the same street, and it preserves that memory in its name."
+      },
+      {
+        "order": 3,
+        "text": "Its small patio is a \"welcoming area with benches and azulejo tiles\" that its architect calls an antechamber to the reception."
+      }
+    ],
+    "summary": {
+      "description": "The Atelier-Museu Júlio Pomar in Lisbon preserves and promotes the work of the painter Júlio Pomar (1926–2018) through exhibitions, events and educational activities. It stands between the Bairro Alto and Madragoa neighbourhoods, in a former warehouse on Rua do Vale bought by Lisbon City Council in 2000 and intended as Pomar's studio. The building was designed by the architect Álvaro Siza Vieira, winner of the 1992 Pritzker Prize. With an austere design and clean lines, discreetly integrated into the fabric of the neighbourhood, it has two floors with a central exhibition area, two storage rooms, service areas, an office and a reception, around an exterior courtyard. Its holdings include about 1,500 works by Pomar and artists close to him.",
+      "keyFeatures": [
+        "Former warehouse converted with austere design and clean lines",
+        "Two floors around a central exhibition area",
+        "Small patio with benches and azulejo tiles by the painter",
+        "About 1,500 works by Júlio Pomar and his circle"
+      ],
+      "funFacts": [
+        "In 2010 the artist gave up using the space as a studio, which allowed it to open as a museum earlier than expected.",
+        "Siza said the entrance patio was where Pomar wanted to place his tiles, and he approved."
+      ]
+    }
   }
 ]

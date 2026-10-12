@@ -1,0 +1,49 @@
+{
+  "atelier-museu-julio-pomar": {
+    "name": "Atelier-Museu Júlio Pomar",
+    "aliases": ["Atelier Museu Júlio Pomar", "Museu Júlio Pomar", "Atelier-Museu Julio Pomar"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto e professor do Porto, ex-aluno de Fernando Távora e vencedor do Prêmio Pritzker de Arquitetura em 1992."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Escola do Porto contemporânea",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Atelier-Museu_J%C3%BAlio_Pomar",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Figuras negras recortadas em nichos de uma parede caiada ao longo de uma ruela empedrada, sob luz forte",
+        "caption": null
+      },
+      {
+        "alt": "Galeria superior luminosa com vigas brancas e candeeiros suspensos, um corrimão em volta de um vazio e visitantes diante de quadros coloridos",
+        "caption": null
+      },
+      {
+        "alt": "Escada estreita de degraus cor de ferrugem que sobe para uma abertura luminosa, junto a uma parede escura coberta de fotografias",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um museu entre dois dos bairros mais populares da cidade, num antigo armazém comprado pela câmara municipal em 2000.",
+      "Destinava-se a ser o atelier de um pintor que vivia na mesma rua, e preserva essa memória no nome.",
+      "O seu pequeno pátio é uma «zona de acolhimento com bancos e azulejos» que o arquiteto descreve como antecâmara da receção."
+    ],
+    "summary": {
+      "description": "O Atelier-Museu Júlio Pomar, em Lisboa, conserva e divulga a obra do pintor Júlio Pomar (1926–2018) através de exposições, eventos e atividades educativas. Situa-se entre os bairros do Bairro Alto e da Madragoa, num antigo armazém da Rua do Vale comprado pela Câmara Municipal de Lisboa em 2000 e destinado a ser o atelier de Pomar. O edifício foi concebido pelo arquiteto Álvaro Siza Vieira, Prémio Pritzker de 1992. De desenho austero e linhas limpas, discretamente integrado no tecido do bairro, tem dois pisos com uma área expositiva central, duas reservas, áreas de serviço, um gabinete e uma receção, em torno de um pátio exterior. O seu acervo inclui cerca de 1500 obras de Pomar e de artistas próximos.",
+      "keyFeatures": [
+        "Antigo armazém convertido com desenho austero e linhas limpas",
+        "Dois pisos em torno de uma área expositiva central",
+        "Pequeno pátio com bancos e azulejos do pintor",
+        "Cerca de 1500 obras de Júlio Pomar e do seu círculo"
+      ],
+      "funFacts": [
+        "Em 2010 o artista deixou de usar o espaço como atelier, o que permitiu abri-lo como museu mais cedo do que o previsto.",
+        "Siza disse que no pátio de entrada Pomar quis colocar os seus azulejos e que ele aprovou."
+      ]
+    }
+  }
+}
