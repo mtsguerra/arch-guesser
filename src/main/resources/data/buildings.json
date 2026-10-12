@@ -16292,5 +16292,262 @@
         "In 2024 it had 888,816 visitors."
       ]
     }
+  },
+  {
+    "id": "hsbc-main-building",
+    "name": "HSBC Main Building",
+    "aliases": [
+      "HSBC Building",
+      "HSBC Building Hong Kong",
+      "HSBC Headquarters Hong Kong",
+      "Hongkong and Shanghai Bank Headquarters",
+      "1 Queen's Road Central"
+    ],
+    "architects": [
+      {
+        "name": "Norman Foster",
+        "aliases": ["Foster", "Lord Foster"],
+        "lifespan": "b. 1935",
+        "nationality": "British",
+        "bio": "British architect who redesigned the ruined building from 1995 to 1999 for the reunified German parliament, adding a glass dome that opens the roof to the public."
+      }
+    ],
+    "location": { "city": "Hong Kong", "country": "China", "countryCode": "HK" },
+    "yearCompleted": 1985,
+    "era": "MODERNISM",
+    "style": "High-tech architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/HSBC_Building_(Hong_Kong)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/HK_HSBC_Main_Building_2008.jpg",
+        "crop": { "x": 0, "y": 0.14, "w": 1, "h": 0.86 },
+        "alt": "Tall steel-and-glass tower with exposed external trusses and ladder-like masts, among taller towers against a green hillside",
+        "credit": "Photo: WiNG · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:HK_HSBC_Main_Building_2008.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/HSBC_Main_Building_Atrium_202009.jpg",
+        "alt": "Looking up a vast atrium of glass floors, cross bracing and escalators, with offices on balconies on every side",
+        "caption": "Escalators rise through a vast atrium.",
+        "credit": "Photo: Wpcpey · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:HSBC_Main_Building_Atrium_202009.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced a 1935 building, and when it was completed it was the most expensive building in the world."
+      },
+      {
+        "order": 2,
+        "text": "Five steel modules were prefabricated in the UK and shipped to Hong Kong, in about 30,000 tons of steel."
+      },
+      { "order": 3, "text": "Lifts are not its main way of moving people: they stop only every few floors at atriums." }
+    ],
+    "summary": {
+      "description": "Designed by Norman Foster with Ove Arup & Partners, this 47-storey, 178.8-metre tower is a steel suspended structure completed on 18 November 1985 and opened on 7 April 1986. The bank had outgrown its 1935 headquarters and decided in 1978 to replace it with a building that would symbolise modernisation. It took seven years from concept to completion, and was then the most expensive building in the world at about HK$5.2 billion. A modular design of five steel modules, prefabricated in the UK, allowed rapid on-site assembly and large open interior spaces, an example of high-tech architecture.",
+      "keyFeatures": [
+        "47 storeys and 178.8 metres high, with four basement levels",
+        "Five prefabricated steel modules",
+        "Steel suspended structure with exposed systems",
+        "Atriums with lifts stopping every few floors"
+      ],
+      "funFacts": [
+        "About 30,000 tons of steel and 4,500 tons of aluminium were used.",
+        "The atrium was the site of the Occupy Hong Kong protests from 2011 to 2012."
+      ]
+    }
+  },
+  {
+    "id": "sage-gateshead",
+    "name": "Sage Gateshead",
+    "aliases": [
+      "The Glasshouse",
+      "The Glasshouse International Centre for Music",
+      "Glasshouse Gateshead",
+      "Sage Gateshead Music Centre"
+    ],
+    "architects": [
+      {
+        "name": "Norman Foster",
+        "aliases": ["Foster", "Lord Foster"],
+        "lifespan": "b. 1935",
+        "nationality": "British",
+        "bio": "British architect who redesigned the ruined building from 1995 to 1999 for the reunified German parliament, adding a glass dome that opens the roof to the public."
+      }
+    ],
+    "location": { "city": "Gateshead", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 2004,
+    "era": "CONTEMPORARY",
+    "style": "High-tech architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Glasshouse,_Gateshead",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Gateshead_-_The_Glasshouse_International_Centre_for_Music.jpg/1920px-Gateshead_-_The_Glasshouse_International_Centre_for_Music.jpg",
+        "alt": "Curved, silvery steel-and-glass domes in a row on a riverbank, above a quay and a green slope under a blue sky",
+        "credit": "Photo: Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gateshead_-_The_Glasshouse_International_Centre_for_Music.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Inside_the_Sage.jpg",
+        "alt": "Looking down on a café with small round tables on a dark floor, in front of a high glass wall with a green and blue band and a view of a city across the river",
+        "credit": "Photo: Lindseyarmstrongphoto · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_the_Sage.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was chosen unanimously from a shortlist of six after a competition launched in 1997." },
+      {
+        "order": 2,
+        "text": "It opened over the weekend of 17–19 December 2004 and cost over £70 million, raised mostly from National Lottery grants."
+      },
+      { "order": 3, "text": "Its original name honours a patron, an accountancy software company." }
+    ],
+    "summary": {
+      "description": "Sage Gateshead, now officially The Glasshouse, is an international centre for musical education and concerts on the Gateshead bank of the Quayside. It was developed by Foster and Partners, who were unanimously chosen as the winner after a competition launched in 1997 managed by RIBA Competitions, where over 100 architects registered interest, 12 were invited to prepare concept designs and six were shortlisted. It cost over £70 million, mainly from National Lottery grants, with Laing O'Rourke as contractor, and opened over the weekend of 17–19 December 2004. The design won the RIBA Inclusive Design Award and the Civic Trust Award.",
+      "keyFeatures": [
+        "Competition winner among 12 invited designs",
+        "Cost over £70 million",
+        "Centre for musical education and concerts",
+        "Practice spaces for professional musicians, students and amateurs"
+      ],
+      "funFacts": [
+        "The building hosted the Labour Party's spring conference in February 2005.",
+        "It is occupied by the North Music Trust and home to the orchestra Royal Northern Sinfonia."
+      ]
+    }
+  },
+  {
+    "id": "sainsbury-centre",
+    "name": "Sainsbury Centre for Visual Arts",
+    "aliases": ["Sainsbury Centre", "Sainsbury Centre UEA", "SCVA", "Sainsbury Centre for Visual Arts Norwich"],
+    "architects": [
+      {
+        "name": "Norman Foster",
+        "aliases": ["Foster", "Lord Foster"],
+        "lifespan": "b. 1935",
+        "nationality": "British",
+        "bio": "British architect who redesigned the ruined building from 1995 to 1999 for the reunified German parliament, adding a glass dome that opens the roof to the public."
+      }
+    ],
+    "location": { "city": "Norwich", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1978,
+    "era": "MODERNISM",
+    "style": "High-tech architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sainsbury_Centre_for_Visual_Arts",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sainsbury_Centre_building_with_rainbow.jpg/1920px-Sainsbury_Centre_building_with_rainbow.jpg",
+        "alt": "Long, boxy metal-clad building with a glazed end framed by a steel truss, on a lawn under a purple sky with a rainbow",
+        "credit": "Photo: SainsburyCentre1 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sainsbury_Centre_building_with_rainbow.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sainsbury_Centre_for_Visual_Arts_interior.jpg/1920px-Sainsbury_Centre_for_Visual_Arts_interior.jpg",
+        "alt": "Vast open hall under a lattice ceiling of lights and ducts, with a round reception desk and displays at one side",
+        "caption": "One vast open space, with no internal divisions.",
+        "credit": "Photo: Oxyman · CC BY 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sainsbury_Centre_for_Visual_Arts_interior.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was among the first major public buildings by its architect, designed between 1974 and 1976 and completed in 1978."
+      },
+      {
+        "order": 2,
+        "text": "Inside it gives the impression of one vast open space, with services, lighting and toilets housed in triangular towers and trusses."
+      },
+      { "order": 3, "text": "It became Grade II* listed in December 2012." }
+    ],
+    "summary": {
+      "description": "The art museum on the campus of the University of East Anglia was one of the first major public buildings designed by Norman Foster and Wendy Cheesman, designed between 1974 and 1976 and opened in 1978. It sits on sloping, turfed ground beside the River Yare as a large cuboid, clad steel structure, one face of which is almost entirely glazed with its prefabricated skeleton visible. Inside, a regular structure embraces all functions in a single, flexible enclosure, a 'universal space', with no internal divisions to interfere with the interplay of natural and artificial light. It became Grade II* listed in December 2012.",
+      "keyFeatures": [
+        "Large cuboid clad steel structure",
+        "One face almost entirely glazed, with the skeleton visible",
+        "Single flexible \"universal space\"",
+        "Services in triangular towers and trusses"
+      ],
+      "funFacts": [
+        "It also houses the School of World Art Studies and Museology.",
+        "In 2023 it relaunched as the first museum in the world to formally recognise art as alive."
+      ]
+    }
+  },
+  {
+    "id": "stansted-airport-terminal",
+    "name": "London Stansted Airport terminal",
+    "aliases": [
+      "Stansted Airport",
+      "Stansted Terminal",
+      "London Stansted Airport",
+      "Stansted Airport Terminal Building"
+    ],
+    "architects": [
+      {
+        "name": "Norman Foster",
+        "aliases": ["Foster", "Lord Foster"],
+        "lifespan": "b. 1935",
+        "nationality": "British",
+        "bio": "British architect who redesigned the ruined building from 1995 to 1999 for the reunified German parliament, adding a glass dome that opens the roof to the public."
+      }
+    ],
+    "location": { "city": "Stansted Mountfitchet", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 1991,
+    "era": "MODERNISM",
+    "style": "High-tech architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/London_Stansted_Airport",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Stansted_Airport_-_geograph.org.uk_-_1710808.jpg/1920px-Stansted_Airport_-_geograph.org.uk_-_1710808.jpg",
+        "alt": "Aerial view of a long runway with a compact terminal complex of low buildings and aircraft stands beside it, in farmland",
+        "credit": "Photo: Thomas Nugent · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Stansted_Airport_-_geograph.org.uk_-_1710808.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/London_Stansted_Airport_main_hall_1.jpg/1920px-London_Stansted_Airport_main_hall_1.jpg",
+        "alt": "Spacious hall under a roof of steel trees whose branches carry roof lights, with wooden benches and luggage belts",
+        "caption": "Slender steel trees carry the roof and its light.",
+        "credit": "Photo: Ralf Roletschek (talk) - Fahrradtechnik auf fahrradmonteur.d · FAL · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:London_Stansted_Airport_main_hall_1.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Plans were approved in 1985, and construction ran from 1988 to 1991 at a cost of £100 million."
+      },
+      { "order": 2, "text": "The engineer behind its structure was Peter Rice at Ove Arup & Partners." },
+      {
+        "order": 3,
+        "text": "It is regarded as influential for airport architecture, with three passenger satellites containing the departure gates."
+      }
+    ],
+    "summary": {
+      "description": "The airport's main passenger terminal, which opened in 1991, was designed by Foster Associates, founded by Norman Foster, with structural engineering led by Peter Rice at Ove Arup & Partners. The plans were approved in 1985 and construction by the John Laing company took place between 1988 and 1991 at a cost of £100 million. The terminal originally comprised a square structure of 11 bays by 11 bays. It is regarded as influential for airport architecture, and has three passenger satellites containing the departure gates.",
+      "keyFeatures": [
+        "Square terminal of 11 bays by 11 bays",
+        "Three passenger satellites with departure gates",
+        "Structural engineering by Peter Rice at Ove Arup",
+        "Cost £100 million"
+      ],
+      "funFacts": [
+        "From 1997 to 2007 the airport grew rapidly with the boom in low-cost air travel, peaking at 24 million passengers in the 12 months to October 2007.",
+        "It recorded 24.3 million passengers in 2016."
+      ]
+    }
   }
 ]

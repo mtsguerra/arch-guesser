@@ -1,0 +1,200 @@
+{
+  "hsbc-main-building": {
+    "name": "Edifício HSBC",
+    "aliases": [
+      "Torre HSBC",
+      "HSBC Main Building",
+      "Sede do HSBC em Hong Kong",
+      "Edifício HSBC de Hong Kong",
+      "HSBC Building"
+    ],
+    "architects": [
+      {
+        "aliases": ["Lord Foster"],
+        "nationality": "Britânico",
+        "lifespan": "n. 1935",
+        "bio": "Arquiteto britânico que redesenhou o edifício em ruínas de 1995 a 1999 para o parlamento da Alemanha reunificada, acrescentando uma cúpula de vidro que abre o teto ao público."
+      }
+    ],
+    "city": "Hong Kong",
+    "style": "Arquitetura high-tech",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Torre_HSBC",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Alta torre de aço e vidro com treliças exteriores à vista e mastros em forma de escada, entre torres mais altas diante de uma encosta verde",
+        "caption": null
+      },
+      {
+        "alt": "Vista para cima por um vasto átrio de pisos de vidro, travamentos em cruz e escadas rolantes, com escritórios em varandas de todos os lados",
+        "caption": "Escadas rolantes sobem por um vasto átrio."
+      }
+    ],
+    "hints": [
+      "Substituiu um edifício de 1935 e, quando foi concluído, era o edifício mais caro do mundo.",
+      "Cinco módulos de aço foram pré-fabricados no Reino Unido e enviados para Hong Kong, em cerca de 30.000 toneladas de aço.",
+      "Os elevadores não são a sua principal forma de mover pessoas: só param de poucos em poucos andares, nos átrios."
+    ],
+    "summary": {
+      "description": "Projetada por Norman Foster com a Ove Arup & Partners, esta torre de 47 andares e 178,8 metros é uma estrutura de aço suspensa concluída a 18 de novembro de 1985 e inaugurada a 7 de abril de 1986. O banco superara a sua sede de 1935 e decidiu em 1978 substituí-la por um edifício que simbolizasse a modernização. Levou sete anos do conceito à conclusão e era então o edifício mais caro do mundo, com cerca de 5,2 mil milhões de dólares de Hong Kong. Um projeto modular de cinco módulos de aço, pré-fabricados no Reino Unido, permitiu uma montagem rápida no local e grandes espaços interiores abertos, um exemplo de arquitetura high-tech.",
+      "keyFeatures": [
+        "47 andares e 178,8 metros de altura, com quatro níveis de cave",
+        "Cinco módulos de aço pré-fabricados",
+        "Estrutura de aço suspensa com sistemas à vista",
+        "Átrios com elevadores que só param de poucos em poucos andares"
+      ],
+      "funFacts": [
+        "Foram usadas cerca de 30.000 toneladas de aço e 4.500 de alumínio.",
+        "O átrio foi o local dos protestos Occupy Hong Kong de 2011 a 2012."
+      ]
+    }
+  },
+  "sage-gateshead": {
+    "name": "Sage Gateshead",
+    "aliases": [
+      "The Glasshouse",
+      "Glasshouse Gateshead",
+      "Centro Internacional de Música The Glasshouse",
+      "Sage Gateshead Centro de Música",
+      "The Glasshouse International Centre for Music"
+    ],
+    "architects": [
+      {
+        "aliases": ["Lord Foster"],
+        "nationality": "Britânico",
+        "lifespan": "n. 1935",
+        "bio": "Arquiteto britânico que redesenhou o edifício em ruínas de 1995 a 1999 para o parlamento da Alemanha reunificada, acrescentando uma cúpula de vidro que abre o teto ao público."
+      }
+    ],
+    "city": "Gateshead",
+    "style": "Arquitetura high-tech",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Cúpulas curvas prateadas de aço e vidro em fila numa margem de rio, acima de um cais e de uma encosta verde sob um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Vista de cima de um café com pequenas mesas redondas num piso escuro, diante de uma parede de vidro alta com uma faixa verde e azul e uma vista da cidade do outro lado do rio",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi escolhido por unanimidade entre seis finalistas depois de um concurso lançado em 1997.",
+      "Abriu no fim de semana de 17 a 19 de dezembro de 2004 e custou mais de 70 milhões de libras, levantadas sobretudo de subsídios da Lotaria Nacional.",
+      "O seu nome original homenageia um patrocinador, uma empresa de software de contabilidade."
+    ],
+    "summary": {
+      "description": "O Sage Gateshead, hoje oficialmente The Glasshouse, é um centro internacional de educação musical e concertos na margem de Gateshead do Quayside. Foi desenvolvido pela Foster and Partners, escolhida por unanimidade vencedora de um concurso lançado em 1997 e gerido pelo RIBA Competitions, onde mais de 100 arquitetos manifestaram interesse, 12 foram convidados a preparar conceitos e seis ficaram na lista final. Custou mais de 70 milhões de libras, sobretudo de subsídios da Lotaria Nacional, com a Laing O'Rourke como empreiteira, e abriu no fim de semana de 17 a 19 de dezembro de 2004. O projeto ganhou o RIBA Inclusive Design Award e o Civic Trust Award.",
+      "keyFeatures": [
+        "Vencedor de um concurso com 12 projetos convidados",
+        "Custou mais de 70 milhões de libras",
+        "Centro de educação musical e concertos",
+        "Espaços de ensaio para músicos profissionais, estudantes e amadores"
+      ],
+      "funFacts": [
+        "O edifício recebeu a conferência de primavera do Partido Trabalhista em fevereiro de 2005.",
+        "É ocupado pelo North Music Trust e é a casa da orquestra Royal Northern Sinfonia."
+      ]
+    }
+  },
+  "sainsbury-centre": {
+    "name": "Sainsbury Centre para as Artes Visuais",
+    "aliases": [
+      "Sainsbury Centre",
+      "Sainsbury Centre for Visual Arts",
+      "Sainsbury Centre UEA",
+      "SCVA",
+      "Centro Sainsbury de Norwich"
+    ],
+    "architects": [
+      {
+        "aliases": ["Lord Foster"],
+        "nationality": "Britânico",
+        "lifespan": "n. 1935",
+        "bio": "Arquiteto britânico que redesenhou o edifício em ruínas de 1995 a 1999 para o parlamento da Alemanha reunificada, acrescentando uma cúpula de vidro que abre o teto ao público."
+      }
+    ],
+    "city": "Norwich",
+    "style": "Arquitetura high-tech",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longo edifício em caixa revestido de metal com uma ponta envidraçada emoldurada por uma treliça de aço, num relvado sob um céu roxo com um arco-íris",
+        "caption": null
+      },
+      {
+        "alt": "Vasto salão aberto sob um teto em treliça de luzes e condutas, com um balcão de receção redondo e exposições de um lado",
+        "caption": "Um vasto espaço aberto, sem divisões internas."
+      }
+    ],
+    "hints": [
+      "Foi um dos primeiros grandes edifícios públicos do seu arquiteto, projetado entre 1974 e 1976 e concluído em 1978.",
+      "Por dentro dá a impressão de um vasto espaço aberto, com serviços, iluminação e instalações sanitárias em torres e treliças triangulares.",
+      "Está classificado como Grade II* desde dezembro de 2012."
+    ],
+    "summary": {
+      "description": "O museu de arte no campus da Universidade de East Anglia foi um dos primeiros grandes edifícios públicos projetados por Norman Foster e Wendy Cheesman, projetado entre 1974 e 1976 e inaugurado em 1978. Fica em terreno inclinado e relvado junto ao rio Yare, como um grande cuboide de estrutura de aço revestida, com uma das faces quase toda envidraçada e o esqueleto pré-fabricado à vista. Por dentro, uma estrutura regular abraça todas as funções num único invólucro flexível, um \"espaço universal\", sem divisões internas que interfiram com o jogo da luz natural e artificial. Foi classificado como Grade II* em dezembro de 2012.",
+      "keyFeatures": [
+        "Grande estrutura cuboide de aço revestida",
+        "Uma face quase toda envidraçada com o esqueleto à vista",
+        "\"Espaço universal\" único e flexível",
+        "Serviços em torres e treliças triangulares"
+      ],
+      "funFacts": [
+        "Abriga também a Escola de Estudos de Arte Mundial e Museologia.",
+        "Em 2023 relançou-se como o primeiro museu do mundo a reconhecer formalmente a arte como viva."
+      ]
+    }
+  },
+  "stansted-airport-terminal": {
+    "name": "Terminal do Aeroporto de Londres Stansted",
+    "aliases": [
+      "Aeroporto de Stansted",
+      "Terminal de Stansted",
+      "Aeroporto de Londres Stansted",
+      "London Stansted Airport",
+      "Stansted"
+    ],
+    "architects": [
+      {
+        "aliases": ["Lord Foster"],
+        "nationality": "Britânico",
+        "lifespan": "n. 1935",
+        "bio": "Arquiteto britânico que redesenhou o edifício em ruínas de 1995 a 1999 para o parlamento da Alemanha reunificada, acrescentando uma cúpula de vidro que abre o teto ao público."
+      }
+    ],
+    "city": "Stansted Mountfitchet",
+    "style": "Arquitetura high-tech",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Aeroporto_de_Londres_Stansted",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Vista aérea de uma longa pista com um complexo compacto de terminal de edifícios baixos e posições de aeronaves ao lado, em terreno agrícola",
+        "caption": null
+      },
+      {
+        "alt": "Amplo salão sob uma cobertura de árvores de aço cujos ramos sustentam clarabóias, com bancos de madeira e tapetes de bagagem",
+        "caption": "Esbeltas árvores de aço sustentam a cobertura e a sua luz."
+      }
+    ],
+    "hints": [
+      "Os planos foram aprovados em 1985 e a obra decorreu de 1988 a 1991, com um custo de 100 milhões de libras.",
+      "O engenheiro por trás da sua estrutura foi Peter Rice, da Ove Arup & Partners.",
+      "É considerado influente para a arquitetura aeroportuária, com três satélites de passageiros onde ficam as portas de embarque."
+    ],
+    "summary": {
+      "description": "O principal terminal de passageiros do aeroporto, aberto em 1991, foi projetado pela Foster Associates, fundada por Norman Foster, com engenharia de estruturas liderada por Peter Rice na Ove Arup & Partners. Os planos foram aprovados em 1985 e a construção, pela empresa John Laing, decorreu entre 1988 e 1991, com um custo de 100 milhões de libras. O terminal compunha-se originalmente de uma estrutura quadrada de 11 por 11 vãos. É considerado influente para a arquitetura aeroportuária e tem três satélites de passageiros com as portas de embarque.",
+      "keyFeatures": [
+        "Terminal quadrado de 11 por 11 vãos",
+        "Três satélites de passageiros com portas de embarque",
+        "Engenharia de estruturas de Peter Rice na Ove Arup",
+        "Custou 100 milhões de libras"
+      ],
+      "funFacts": [
+        "De 1997 a 2007 o aeroporto cresceu rapidamente com o boom das viagens aéreas de baixo custo, atingindo 24 milhões de passageiros nos 12 meses até outubro de 2007.",
+        "Registou 24,3 milhões de passageiros em 2016."
+      ]
+    }
+  }
+}
