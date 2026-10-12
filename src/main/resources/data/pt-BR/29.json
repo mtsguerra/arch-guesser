@@ -1,0 +1,52 @@
+{
+  "memorial-murdered-jews-europe": {
+    "name": "Memorial aos Judeus Mortos da Europa",
+    "aliases": [
+      "Memorial do Holocausto de Berlim",
+      "Holocaust-Mahnmal",
+      "Denkmal für die ermordeten Juden Europas",
+      "Memorial do Holocausto",
+      "Campo de Estelas"
+    ],
+    "architects": [
+      {
+        "aliases": ["Eisenman", "Peter D. Eisenman"],
+        "nationality": "Americano",
+        "lifespan": "n. 1932",
+        "bio": "Arquiteto e teórico americano, figura de destaque do desconstrutivismo. A obra de Eisenman joga com grelhas, deslocamentos e regras abstratas em vez da composição convencional, das primeiras casas numeradas em algarismos romanos ao Wexner Center, no Ohio, e ao memorial do Holocausto, em Berlim."
+      }
+    ],
+    "city": "Berlim",
+    "style": "Desconstrutivismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Memorial_aos_Judeus_Mortos_da_Europa",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Campo de blocos de concreto cinzento de alturas diferentes diante de um longo edifício de apartamentos moderno",
+        "caption": null
+      },
+      {
+        "alt": "Filas de grandes lajes de concreto cinzento em terreno irregular, vistas de dentro da grelha, com edifícios da cidade atrás",
+        "caption": "Becos estreitos correm entre as lajes, num terreno ondulado."
+      }
+    ],
+    "hints": [
+      "É feito de 2.711 lajes de concreto dispostas numa grelha num campo inclinado.",
+      "As lajes variam em altura de 0,2 a 4,7 metros e estão ligeiramente desalinhadas.",
+      "Um \"Local de Informação\" subterrâneo guarda os nomes de cerca de 3 milhões de vítimas."
+    ],
+    "summary": {
+      "description": "Projetado por Peter Eisenman com a Buro Happold, este memorial em Berlim cobre 1,9 hectare com 2.711 lajes de concreto dispostas em grelha num campo inclinado, um quarteirão a sul da Porta de Brandemburgo. As lajes têm 2,38 metros de comprimento e 0,95 de largura e variam de 0,2 a 4,7 metros de altura. Longos becos retos e estreitos correm entre elas ao longo de um terreno ondulado. A obra começou a 1 de abril de 2003 e terminou a 15 de dezembro de 2004, e foi inaugurado a 10 de maio de 2005. Um centro de informação subterrâneo guarda os nomes de cerca de 3 milhões de vítimas judias do Holocausto.",
+      "keyFeatures": [
+        "2.711 lajes de concreto numa grelha num campo inclinado",
+        "Lajes de 0,2 a 4,7 metros de altura, ligeiramente desalinhadas",
+        "Becos estreitos entre as lajes ao longo de terreno ondulado",
+        "\"Local de Informação\" subterrâneo com os nomes de cerca de 3 milhões de vítimas"
+      ],
+      "funFacts": [
+        "O plano original previa quase 4.000 lajes, mas só 2.711 cabiam legalmente no terreno.",
+        "Ergue-se no antigo local da \"faixa da morte\" do Muro de Berlim e custou cerca de 25 milhões de euros."
+      ]
+    }
+  }
+}

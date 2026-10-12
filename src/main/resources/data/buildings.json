@@ -15703,5 +15703,66 @@
         "Text panels at each station explain the process in German and English."
       ]
     }
+  },
+  {
+    "id": "memorial-murdered-jews-europe",
+    "name": "Memorial to the Murdered Jews of Europe",
+    "aliases": [
+      "Holocaust Memorial",
+      "Holocaust-Mahnmal",
+      "Denkmal für die ermordeten Juden Europas",
+      "Berlin Holocaust Memorial",
+      "Field of Stelae"
+    ],
+    "architects": [
+      {
+        "name": "Peter Eisenman",
+        "aliases": ["Eisenman", "Peter D. Eisenman"],
+        "lifespan": "b. 1932",
+        "nationality": "American",
+        "bio": "American architect and theorist, a leading figure of deconstructivism. Eisenman's work plays with grids, shifts and abstract rules rather than conventional composition, from early houses numbered in Roman numerals to the Wexner Center in Ohio and the Holocaust memorial in Berlin."
+      }
+    ],
+    "location": { "city": "Berlin", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 2005,
+    "era": "CONTEMPORARY",
+    "style": "Deconstructivism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Memorial_to_the_Murdered_Jews_of_Europe",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Denkmal_f%C3%BCr_die_ermordeten_Juden_Europas_Berlin-Mitte_2025-12-09_01.jpg/1920px-Denkmal_f%C3%BCr_die_ermordeten_Juden_Europas_Berlin-Mitte_2025-12-09_01.jpg",
+        "alt": "Field of grey concrete blocks of different heights in front of a long modern apartment building",
+        "credit": "Photo: Leonhard Lenz · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Denkmal_f%C3%BCr_die_ermordeten_Juden_Europas_Berlin-Mitte_2025-12-09_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Berlin_Denkmal_fuer_die_ermordeten_Juden_Europas_dk0955.jpg/1920px-Berlin_Denkmal_fuer_die_ermordeten_Juden_Europas_dk0955.jpg",
+        "alt": "Rows of large grey concrete slabs on uneven ground, seen from within the grid, with city buildings behind",
+        "caption": "Narrow alleys run between the slabs, on ground that undulates.",
+        "credit": "Photo: DrKssn · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_Denkmal_fuer_die_ermordeten_Juden_Europas_dk0955.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is made of 2,711 concrete slabs arranged in a grid on a sloping field." },
+      { "order": 2, "text": "The slabs vary in height from 0.2 to 4.7 metres, and are set slightly askew." },
+      { "order": 3, "text": "An underground \"Place of Information\" holds the names of about 3 million victims." }
+    ],
+    "summary": {
+      "description": "Designed by Peter Eisenman with Buro Happold, this memorial in Berlin covers 1.9 hectares with 2,711 concrete slabs arranged in a grid pattern on a sloping field, a block south of the Brandenburg Gate. The slabs are 2.38 metres long and 0.95 metres wide and range from 0.2 to 4.7 metres in height. Long, straight, narrow alleys run between them along ground that undulates. Building began on 1 April 2003 and finished on 15 December 2004, and it was inaugurated on 10 May 2005. An underground information centre holds the names of about 3 million Jewish victims of the Holocaust.",
+      "keyFeatures": [
+        "2,711 concrete slabs in a grid on a sloping field",
+        "Slabs from 0.2 to 4.7 metres high, set slightly askew",
+        "Narrow alleys between the slabs along undulating ground",
+        "Underground \"Place of Information\" with the names of about 3 million victims"
+      ],
+      "funFacts": [
+        "The original plan was for nearly 4,000 slabs, but only 2,711 could legally fit the site.",
+        "It stands on the former location of the Berlin Wall's \"death strip\" and cost about 25 million euros."
+      ]
+    }
   }
 ]
