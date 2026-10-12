@@ -16726,5 +16726,71 @@
         "The first church on the campus, opened in 1961, was designed by Richard Neutra."
       ]
     }
+  },
+  {
+    "id": "sesc-pompeia",
+    "name": "Sesc Pompeia",
+    "aliases": [
+      "SESC Pompéia",
+      "Sesc Pompéia",
+      "SESC Fábrica da Pompeia",
+      "Fábrica da Pompeia",
+      "Sesc Pompeia São Paulo"
+    ],
+    "architects": [
+      {
+        "name": "Lina Bo Bardi",
+        "aliases": ["Bo Bardi", "Achillina Bo"],
+        "lifespan": "1914–1992",
+        "nationality": "Italian-born Brazilian",
+        "bio": "Born Achillina Bo in Rome, she moved to Brazil in 1946 with her husband, the critic and dealer Pietro Maria Bardi. Fascinated by Brazilian popular culture, she joined modernist rigour to a raw, humane architecture, from MASP to SESC Pompéia."
+      }
+    ],
+    "location": { "city": "São Paulo", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1982,
+    "era": "BRUTALISM",
+    "style": "Brutalism",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Sesc_Pompeia",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fachada_norte_do_Sesc_Pompeia.jpg/1920px-Fachada_norte_do_Sesc_Pompeia.jpg",
+        "alt": "Tall raw-concrete tower with irregular, cave-like openings framed in red, rising above a dense tree",
+        "credit": "Photo: PedroTorres2002 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fachada_norte_do_Sesc_Pompeia.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SESC_Pompeia_-_S%C3%A3o_Paulo_-_20220726141715.jpg/1920px-SESC_Pompeia_-_S%C3%A3o_Paulo_-_20220726141715.jpg",
+        "alt": "Raw-concrete exhibition shed with a long reflecting pool, lit screens and visitors under a high steel roof",
+        "credit": "Photo: Joalpe · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:SESC_Pompeia_-_S%C3%A3o_Paulo_-_20220726141715.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a culture and leisure centre that brings together theatres, sports courts, swimming pools, workshops and a reading area."
+      },
+      { "order": 2, "text": "Its opening in 1982 featured performances by São Paulo punk bands." },
+      {
+        "order": 3,
+        "text": "The New York Times chose it as one of the 25 most important architectural works built after World War II."
+      }
+    ],
+    "summary": {
+      "description": "The Sesc Pompeia is a culture and leisure centre in the Vila Pompéia area of São Paulo that brings together theatres, sports courts, swimming pools, snack bars, restaurants, exhibition spaces, a beer hall, workshops, a reading area and free internet. Its architectural project was developed by Lina Bo Bardi in 1977. Its inauguration in 1982 featured performances by São Paulo punk bands of the time, such as Inocentes, Ratos de Porão, Cólera and Olho Seco. The New York Times chose it as one of the 25 most important architectural works built after World War II.",
+      "keyFeatures": [
+        "Theatres, sports courts and swimming pools in one complex",
+        "Exhibition spaces, workshops and a reading area",
+        "Raw concrete tower with irregular openings",
+        "Designed in 1977, opened in 1982"
+      ],
+      "funFacts": [
+        "The theatre's raw-wood chairs are noted by critics as uncomfortable for long shows.",
+        "In 2014 the Folha de S.Paulo gave the theatre three stars out of five."
+      ]
+    }
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "sesc-pompeia": {
+    "name": "Sesc Pompeia",
+    "aliases": [
+      "SESC Pompéia",
+      "Sesc Pompéia",
+      "SESC Fábrica da Pompeia",
+      "Fábrica da Pompeia",
+      "Sesc Pompeia São Paulo"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Brasileira, nascida na Itália",
+        "bio": "Nascida Achillina Bo em Roma, mudou-se para o Brasil em 1946 com o marido, o crítico e marchand Pietro Maria Bardi. Fascinada pela cultura popular brasileira, uniu o rigor modernista a uma arquitetura crua e humana, do MASP ao SESC Pompeia."
+      }
+    ],
+    "city": "São Paulo",
+    "style": "Brutalismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Sesc_Pompeia",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Alta torre de concreto bruto com aberturas irregulares, semelhantes a cavernas, emolduradas a vermelho, que se ergue acima de uma árvore densa",
+        "caption": null
+      },
+      {
+        "alt": "Galpão de exposições de concreto bruto com um longo espelho de água, ecrãs iluminados e visitantes sob uma alta cobertura de aço",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um centro de cultura e lazer que reúne teatros, quadras, piscinas, oficinas e uma área de leitura.",
+      "A sua inauguração, em 1982, teve apresentações de bandas punk de São Paulo.",
+      "O New York Times escolheu-o como uma das 25 obras arquitetónicas mais importantes construídas depois da Segunda Guerra Mundial."
+    ],
+    "summary": {
+      "description": "O Sesc Pompeia é um centro de cultura e lazer no bairro da Vila Pompéia, em São Paulo, que reúne teatros, quadras poliesportivas, piscinas, lanchonetes, restaurantes, espaços de exposições, choperia, oficinas, área de leitura e internet livre. O seu projeto arquitetónico foi desenvolvido por Lina Bo Bardi em 1977. A inauguração, em 1982, teve apresentações de bandas punk paulistanas da época, como Inocentes, Ratos de Porão, Cólera e Olho Seco. O New York Times escolheu-o como uma das 25 obras arquitetónicas mais importantes construídas depois da Segunda Guerra Mundial.",
+      "keyFeatures": [
+        "Teatros, quadras e piscinas num só complexo",
+        "Espaços de exposição, oficinas e área de leitura",
+        "Torre de concreto bruto com aberturas irregulares",
+        "Projetado em 1977 e inaugurado em 1982"
+      ],
+      "funFacts": [
+        "As cadeiras de madeira bruta do teatro são apontadas pela crítica como desconfortáveis em espetáculos longos.",
+        "Em 2014 a Folha de S.Paulo deu ao teatro três estrelas em cinco."
+      ]
+    }
+  }
+}
