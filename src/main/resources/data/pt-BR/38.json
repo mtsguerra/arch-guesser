@@ -1,0 +1,313 @@
+{
+  "luis-barragan-house-and-studio": {
+    "name": "Casa-Estúdio de Luis Barragán",
+    "aliases": [
+      "Casa Luis Barragán",
+      "Casa-Estudio Luis Barragán",
+      "Casa Barragán",
+      "Barragán House",
+      "Luis Barragán House and Studio"
+    ],
+    "architects": [
+      {
+        "aliases": ["Barragán", "Luis Barragan"],
+        "lifespan": "1902–1988",
+        "nationality": "Mexicano",
+        "bio": "Arquiteto mexicano que combinou o modernismo com a tradição vernácula, usando cor forte, paredes lisas e espessas, luz e água; vencedor do Prémio Pritzker em 1980."
+      }
+    ],
+    "city": "Cidade do México",
+    "style": "Modernismo mexicano",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa-est%C3%BAdio_de_Luis_Barrag%C3%A1n",
+    "drawings": [
+      {
+        "label": "Planta do piso térreo",
+        "alt": "Planta de uma casa de pátio, com um grande jardim a ocupar a metade superior e divisões encostadas ao lado inferior, com legendas em hebraico"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Parede lisa de reboco cinzento ao longo de uma rua tranquila, com algumas janelas pequenas e uma fila de balizas",
+        "caption": null
+      },
+      {
+        "alt": "Janela de treliça de vidro amarelo aberta numa parede branca, junto a uma trepadeira e a um pequeno tanque de água",
+        "caption": null
+      },
+      {
+        "alt": "Grande parede envidraçada sobre uma sala de jantar com mesa de madeira, sob um pérgola de trepadeira",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construída em 1948 como casa do próprio arquiteto, que ali viveu até à morte, em 1988.",
+      "Em 2004 a UNESCO classificou-a como Património Mundial, a única residência privada da América Latina assim distinguida.",
+      "A casa funcionou como uma espécie de laboratório das ideias do seu dono e foi modificada muitas vezes durante a sua vida."
+    ],
+    "summary": {
+      "description": "A Casa-Estúdio de Luis Barragán, também conhecida como Casa Luis Barragán, é a antiga residência do arquiteto Luis Barragán, no bairro de Miguel Hidalgo, na Cidade do México. Construída em 1948, foi a sua casa até à morte, em 1988, e durante esse tempo sofreu muitas modificações, servindo como uma espécie de laboratório das suas ideias. O governo do estado de Jalisco e a Fundação de Arquitetura Tapatía adquiriram-na em 1993 e transformaram-na em museu em 1994, preservando o mobiliário original, os objetos pessoais e uma coleção de arte sobretudo mexicana. Em 2004 a UNESCO classificou-a como Património Mundial por ser um dos exemplos mais influentes e representativos da arquitetura moderna mexicana.",
+      "keyFeatures": [
+        "Fachada lisa para a rua que esconde um jardim privado",
+        "Mobiliário original e objetos pessoais mantidos no lugar",
+        "Mistura elementos tradicionais e vernáculos com o modernismo de meados do século",
+        "Única residência privada da América Latina na lista da UNESCO"
+      ],
+      "funFacts": [
+        "Foi apontada como uma das dez casas mais importantes construídas no século XX.",
+        "Pertence à Fundação de Arquitetura Tapatía e ao Governo do Estado de Jalisco, e só se visita sobretudo por marcação."
+      ]
+    }
+  },
+  "torres-de-satelite": {
+    "name": "Torres de Satélite",
+    "aliases": ["Torres Satélite", "Torres de Ciudad Satélite", "Satellite Towers", "Torres da Satélite"],
+    "architects": [
+      {
+        "aliases": ["Barragán", "Luis Barragan"],
+        "lifespan": "1902–1988",
+        "nationality": "Mexicano",
+        "bio": "Arquiteto mexicano que combinou o modernismo com a tradição vernácula, usando cor forte, paredes lisas e espessas, luz e água; vencedor do Prémio Pritzker em 1980."
+      },
+      {
+        "aliases": ["Goeritz", "Mathias Göritz"],
+        "lifespan": "1915–1990",
+        "nationality": "Alemão-mexicano",
+        "bio": "Escultor e pintor mexicano de origem alemã que trabalhou com Barragán em grandes esculturas urbanas."
+      }
+    ],
+    "city": "Naucalpan",
+    "style": "Escultura urbana modernista",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Torres_de_Sat%C3%A9lite",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Cinco prismas altos e estreitos em azul, branco, amarelo e vermelho, erguidos numa praça pavimentada junto a uma autoestrada movimentada",
+        "caption": null
+      },
+      {
+        "alt": "Torres altas de betão em laranja, cinzento e azul contra um horizonte urbano enevoado e montanhas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Um grupo de cinco prismas altos pintados foi inaugurado em março de 1958 como símbolo de um novo bairro mexicano.",
+      "O plano previa sete torres, a mais alta com 200 metros, mas um corte no orçamento deixou cinco, a mais alta com 52 metros.",
+      "Aparecem no filme surrealista A Montanha Sagrada, de Alejandro Jodorowsky."
+    ],
+    "summary": {
+      "description": "As Torres de Satélite são um grupo de esculturas no bairro de Ciudad Satélite, em Naucalpan, no Estado do México, e uma das primeiras esculturas urbanas de grandes dimensões do México. O planeamento começou em 1957 com as ideias do arquiteto Luis Barragán, do pintor Jesús Reyes Ferreira e do escultor Mathias Goeritz. O projeto previa originalmente sete torres, a mais alta com 200 metros, mas um corte no orçamento deixou cinco, a mais alta com 52 metros e a mais baixa com 30. Goeritz queria tons de laranja, mas decidiu-se por uma torre vermelha, uma azul e uma amarela, e duas brancas. Foram inauguradas nos primeiros dias de março de 1958 como o símbolo da nova Ciudad Satélite.",
+      "keyFeatures": [
+        "Cinco torres prismáticas entre 30 e 52 metros de altura",
+        "Pintadas de vermelho, azul e amarelo, com duas deixadas brancas",
+        "Uma das primeiras grandes esculturas urbanas do México",
+        "Símbolo da nova Ciudad Satélite"
+      ],
+      "funFacts": [
+        "Goeritz queria originalmente as torres em diferentes tons de laranja, mas mudou de ideias por pressão dos construtores e investidores.",
+        "Em A Montanha Sagrada, o herói é içado pela torre vermelha e entra por um buraco circular pintado para o filme."
+      ]
+    }
+  },
+  "bonnefanten-museum": {
+    "name": "Museu Bonnefanten",
+    "aliases": ["Bonnefantenmuseum", "Bonnefanten", "Bonnefanten Maastricht", "Museu Bonnefanten Maastricht"],
+    "architects": [
+      {
+        "aliases": ["Rossi"],
+        "lifespan": "1931–1997",
+        "nationality": "Italiano",
+        "bio": "Arquiteto e teórico italiano da «Tendenza», autor de A Arquitetura da Cidade (1966); venceu o Prémio Pritzker em 1990."
+      }
+    ],
+    "city": "Maastricht",
+    "style": "Pós-modernismo",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Bonnefantenmuseum",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Cúpula em forma de foguete revestida a zinco sobre um tambor claro, junto a um tubo verde-claro, erguida sobre árvores e um bloco de tijolo à beira de um rio",
+        "caption": null
+      },
+      {
+        "alt": "Alto e estreito vão de escadas entre duas paredes de tijolo vermelho, iluminado por uma cobertura de vidro, com uma escultura ao fundo",
+        "caption": null
+      },
+      {
+        "alt": "Vista para cima no interior de uma sala com cúpula, com linhas concêntricas pretas e brancas em volta de uma abertura octogonal luminosa",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "É um museu de arte num antigo local industrial junto ao rio Mosa, no edifício para onde se mudou em 1995.",
+      "O nome vem do francês «bons enfants», o nome popular de um antigo convento que o albergou de 1951 a 1978.",
+      "A cúpula em forma de foguete, virada para o rio, faz dele um dos edifícios modernos mais proeminentes da cidade."
+    ],
+    "summary": {
+      "description": "O Museu Bonnefanten é um museu de arte histórica, moderna e contemporânea em Maastricht, nos Países Baixos. Fundado em 1884 como o museu histórico e arqueológico da província holandesa de Limburgo, mudou-se em 1995 para um antigo local industrial chamado Céramique, para um novo edifício projetado pelo arquiteto italiano Aldo Rossi. Com a sua cúpula em forma de foguete virada para o rio Mosa, é um dos edifícios modernos mais proeminentes de Maastricht. O nome deriva do francês «bons enfants», o nome popular de um antigo convento que albergou o museu de 1951 a 1978.",
+      "keyFeatures": [
+        "Cúpula de zinco em forma de foguete sobre o rio Mosa",
+        "Mestres antigos no primeiro piso, arte contemporânea acima",
+        "Construído no antigo local industrial de Céramique",
+        "Museu desde 1884; só de arte desde 1999"
+      ],
+      "funFacts": [
+        "Desde 1999 o museu é exclusivamente de arte e as suas coleções históricas e arqueológicas estão guardadas noutros locais.",
+        "A sua coleção contemporânea centra-se no Minimalismo americano, na Arte Povera italiana e na Arte Concetual."
+      ]
+    }
+  },
+  "monte-amiata-housing": {
+    "name": "Conjunto Monte Amiata",
+    "aliases": [
+      "Gallaratese",
+      "Gallaratese II",
+      "Quartiere Gallaratese",
+      "Dinossauro Vermelho",
+      "Complesso Monte Amiata",
+      "Monte Amiata Gallaratese"
+    ],
+    "architects": [
+      {
+        "aliases": ["Aymonino"],
+        "lifespan": "1926–2010",
+        "nationality": "Italiano",
+        "bio": "Arquiteto e urbanista italiano que liderou o conjunto habitacional Monte Amiata, em Milão, juntamente com Aldo Rossi."
+      },
+      {
+        "aliases": ["Rossi"],
+        "lifespan": "1931–1997",
+        "nationality": "Italiano",
+        "bio": "Arquiteto e teórico italiano da «Tendenza», autor de A Arquitetura da Cidade (1966); venceu o Prémio Pritzker em 1990."
+      }
+    ],
+    "city": "Milão",
+    "style": "Modernismo tardio",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Monte_Amiata_Housing",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Arcada profunda com um teto amarelo e uma clarabóia, paredes vermelhas e uma longa linha de pilares vermelhos a perder de vista",
+        "caption": null
+      },
+      {
+        "alt": "Passagem sob vigas amarelas fortes e colunas quadradas amarelas, com paredes e chão vermelhos a estender-se ao longe",
+        "caption": null
+      },
+      {
+        "alt": "Corredor em vermelho e amarelo saturados, com uma coluna amarela redonda e uma abertura luminosa ao fundo",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi projetado no final da década de 1960 como um conjunto habitacional num bairro de Milão, por dois arquitetos italianos.",
+      "É apelidado de «Dinossauro Vermelho» pela cor avermelhada dos seus edifícios e pela estranheza do desenho.",
+      "Os autores apontaram a Unité d'Habitation de Le Corbusier, em Marselha, como uma das principais fontes de inspiração, embora quisessem melhorá-la."
+    ],
+    "summary": {
+      "description": "O Conjunto Monte Amiata é um complexo residencial no bairro de Gallaratese, em Milão, projetado pelos arquitetos Carlo Aymonino e Aldo Rossi no final da década de 1960. É por vezes chamado «Dinossauro Vermelho», em referência tanto à cor avermelhada dos edifícios como à estranheza do desenho. O complexo compreende cinco edifícios vermelhos, agrupados em torno de uma área central com um teatro ao ar livre amarelo e duas pequenas praças triangulares. Foi concebido como uma micro-cidade utópica dentro da cidade, e Rossi inspirou-se nas pinturas de Giorgio de Chirico para o bloco mais pequeno. É considerado um dos projetos que melhor representam a visão de Aymonino do «fragmentismo».",
+      "keyFeatures": [
+        "Cinco edifícios vermelhos em torno de um teatro ao ar livre amarelo",
+        "Passagens, plataformas, varandas e pontes a ligar os blocos",
+        "Concebido como uma micro-cidade dentro da cidade",
+        "Bloco de Rossi inspirado nas pinturas de de Chirico"
+      ],
+      "funFacts": [
+        "O complexo tem o nome do Monte Amiata e ocupa cerca de 120 912 metros quadrados entre a Via Francesco Cilea e a Via Enrico Falck.",
+        "Nos primeiros anos foi ocupado por famílias sem-abrigo, ficou deserto em 1974 e foi depois convertido num condomínio de classe média."
+      ]
+    }
+  },
+  "gustavo-capanema-palace": {
+    "name": "Palácio Gustavo Capanema",
+    "aliases": [
+      "Palácio Capanema",
+      "Edifício Gustavo Capanema",
+      "Ministério da Educação e Saúde",
+      "Gustavo Capanema Palace",
+      "MES"
+    ],
+    "architects": [
+      {
+        "aliases": ["Lucio Costa", "Costa"],
+        "lifespan": "1902–1998",
+        "nationality": "Brasileiro",
+        "bio": "Arquiteto e urbanista brasileiro que liderou a equipa do edifício do Ministério da Educação e Saúde e desenhou o plano piloto de Brasília."
+      }
+    ],
+    "city": "Rio de Janeiro",
+    "style": "Modernismo brasileiro",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Edif%C3%ADcio_Gustavo_Capanema",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Vista para cima de uma alta lâmina de vidro e betão coberta por uma densa grelha de quebra-sóis reguláveis sob um céu azul profundo",
+        "caption": null
+      },
+      {
+        "alt": "Piso térreo aberto com altos pilares de pedra redondos diante de um grande mural de azulejos azuis e brancos",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi projetado em 1935–36 e concluído em 1945 para albergar o ministério da educação e saúde do seu país.",
+      "Foi o primeiro edifício público modernista das Américas, erguido três pisos acima do passeio sobre pilotis.",
+      "Um célebre modernista franco-suíço foi convidado a supervisionar o projeto, e um famoso paisagista desenhou os seus jardins."
+    ],
+    "summary": {
+      "description": "O Palácio Gustavo Capanema, conhecido arquitetonicamente como Edifício do Ministério da Educação e Saúde, é um edifício de escritórios do governo no centro do Rio de Janeiro. Como primeiro projeto modernista do Brasil, tem grande importância histórica no desenvolvimento do modernismo no país e consta da lista indicativa da UNESCO. Foi projetado em 1935–36 por uma equipa liderada por Lúcio Costa, com Affonso Eduardo Reidy, Ernani Vasconcellos, Carlos Leão, Jorge Machado Moreira e Roberto Burle Marx, e Le Corbusier foi convidado a supervisionar o projeto. A construção começou em 1939 e terminou em 1945. O edifício de 15 andares assenta sobre pilotis três pisos acima do chão e emprega azulejos em murais modernos e brises-soleil corbusianos reguláveis, os primeiros do género no mundo.",
+      "keyFeatures": [
+        "Elevado três pisos acima do passeio sobre pilotis",
+        "Quebra-sóis reguláveis na fachada de vidro",
+        "Murais de azulejos na tradição colonial portuguesa",
+        "Jardins de cobertura de Roberto Burle Marx"
+      ],
+      "funFacts": [
+        "Foi o primeiro edifício público modernista das Américas e muito maior do que tudo o que Le Corbusier construíra até então.",
+        "Le Corbusier sugeriu que fosse implantado junto ao mar, mas o governo recusou."
+      ]
+    }
+  },
+  "piazza-d-italia-new-orleans": {
+    "name": "Piazza d'Italia",
+    "aliases": ["Piazza d Italia", "Piazza Italia", "Piazza d'Italia Nova Orleães", "Praça da Itália", "Italian Plaza"],
+    "architects": [
+      {
+        "aliases": ["Charles Willard Moore", "Moore"],
+        "lifespan": "1925–1993",
+        "nationality": "Americano",
+        "bio": "Arquiteto americano e antigo diretor da Escola de Arquitetura de Yale, defensor de uma linguagem espirituosa e exuberante mais tarde chamada pós-moderna."
+      }
+    ],
+    "city": "Nova Orleães",
+    "style": "Pós-modernismo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Colunatas curvas em branco, vermelho e amarelo em torno de uma praça redonda de calçada com anéis concêntricos, dominada por edifícios de escritórios",
+        "caption": null
+      },
+      {
+        "alt": "Enorme portal quadrado com uma abertura em arco profunda, em faixas de creme, ocre e vermelho, ladeado por colunas escuras e esbeltas",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Esta praça pública comemora a experiência dos imigrantes italianos na sua cidade e foi concluída em 1978.",
+      "A sua fonte tem a forma da península italiana, rodeada de colunatas hemicíclicas.",
+      "Brinca com as ordens clássicas em aço inoxidável e néon, e chegou a ser chamada a primeira «ruína pós-moderna»."
+    ],
+    "summary": {
+      "description": "A Piazza d'Italia é uma praça pública urbana atrás do American Italian Cultural Center, nas ruas Lafayette e Commerce, no centro de Nova Orleães. Concluída em 1978 segundo um projeto do arquiteto pós-moderno Charles Moore e dos Perez Architects, estreou-se com amplo aplauso. Moore, com Ron Filson, Malcolm Heard e Allen Eskew, concebeu uma fonte com a forma da península italiana, rodeada de colunatas hemicíclicas, uma torre do relógio, e um campanário e um templo romano em estrutura espacial abstrata. Como o desenvolvimento à sua volta nunca se concretizou, a praça deteriorou-se rapidamente e foi por vezes chamada a primeira «ruína pós-moderna», até ser totalmente restaurada em 2004.",
+      "keyFeatures": [
+        "Fonte com a forma da península italiana",
+        "Colunatas hemicíclicas que se apropriam das ordens clássicas",
+        "Aço inoxidável, néon e jatos de água em vez de pedra",
+        "Portal com torre do relógio na Commerce Street"
+      ],
+      "funFacts": [
+        "Jatos de água foram usados para sugerir as folhas de acanto dos capitéis coríntios tradicionais.",
+        "O restauro da praça ficou concluído em 2004, juntamente com a conversão do vizinho Lykes Center no Loews Hotel."
+      ]
+    }
+  }
+}

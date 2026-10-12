@@ -17187,5 +17187,444 @@
         "It was added to the Philadelphia Register of Historic Places in 2004, despite being barely 40 years old."
       ]
     }
+  },
+  {
+    "id": "luis-barragan-house-and-studio",
+    "name": "Luis Barragán House and Studio",
+    "aliases": [
+      "Casa Luis Barragán",
+      "Casa-Estudio Luis Barragán",
+      "Casa Barragán",
+      "Barragán House",
+      "Casa-estúdio de Luis Barragán"
+    ],
+    "architects": [
+      {
+        "name": "Luis Barragán",
+        "aliases": ["Barragán", "Luis Barragan"],
+        "lifespan": "1902–1988",
+        "nationality": "Mexican",
+        "bio": "Mexican architect who combined modernism with vernacular tradition, using bold colour, thick plain walls, light and water; winner of the Pritzker Prize in 1980."
+      }
+    ],
+    "location": { "city": "Mexico City", "country": "Mexico", "countryCode": "MX" },
+    "yearCompleted": 1948,
+    "era": "MODERNISM",
+    "style": "Mexican modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luis_Barrag%C3%A1n_House_and_Studio",
+    "drawings": [
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Ground-floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Planta_baja-he.jpg",
+        "alt": "Plan of a courtyard house with a large garden filling the upper half and rooms packed along the lower side, labelled in Hebrew",
+        "credit": "self made by user:רוליג · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Planta_baja-he.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Luis_Barrag%C3%A1n_House_and_Studio_Street_view.JPG/1920px-Luis_Barrag%C3%A1n_House_and_Studio_Street_view.JPG",
+        "alt": "Plain grey rendered wall running along a quiet street, with a few small windows and a row of bollards",
+        "credit": "Photo: Thomas Ledl · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Luis_Barrag%C3%A1n_House_and_Studio_Street_view.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Luis_Barrag%C3%A1n_House_and_Studio-115241.jpg",
+        "alt": "Yellow glazed lattice window set in a white wall beside a trailing vine and a small water basin",
+        "credit": "Photo: Francesco Bandarin · CC BY-SA 3.0 igo · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Luis_Barrag%C3%A1n_House_and_Studio-115241.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Luis_Barragan_House_Garden.jpg/1920px-Luis_Barragan_House_Garden.jpg",
+        "alt": "Big glazed wall looking into a dining room with a wooden table, under a vine pergola",
+        "credit": "Photo: Ymblanter · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Luis_Barragan_House_Garden.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in 1948 as its architect's own home, and he lived there until his death in 1988."
+      },
+      {
+        "order": 2,
+        "text": "In 2004 UNESCO named it a World Heritage Site, the only private residence in Latin America to be so honoured."
+      },
+      {
+        "order": 3,
+        "text": "The house functioned as a kind of laboratory for its owner's ideas and was modified many times during his life."
+      }
+    ],
+    "summary": {
+      "description": "Luis Barragán House and Studio, also known as Casa Luis Barragán, is the former residence of the architect Luis Barragán in the Miguel Hidalgo district of Mexico City. Built in 1948, it remained his home until his death in 1988, and during this time it underwent many modifications and served as a kind of laboratory for his ideas. The Jalisco state government and the Fundación de Arquitectura Tapatía acquired it in 1993 and turned it into a museum in 1994, preserving the original furniture, personal objects and a mostly Mexican art collection. In 2004 UNESCO named it a World Heritage Site because it is one of the most influential and representative examples of modern Mexican architecture.",
+      "keyFeatures": [
+        "Plain street front hiding a private garden",
+        "Original furniture and personal objects kept in place",
+        "Mixes traditional and vernacular elements with mid-century modernism",
+        "Only private residence in Latin America on the UNESCO list"
+      ],
+      "funFacts": [
+        "It has been named one of the ten most important houses built in the twentieth century.",
+        "It is owned by the Fundación de Arquitectura Tapatía and the Government of the State of Jalisco, and is open mostly by appointment."
+      ]
+    }
+  },
+  {
+    "id": "torres-de-satelite",
+    "name": "Torres de Satélite",
+    "aliases": ["Satellite Towers", "Torres Satélite", "Towers of Satélite", "Torres de Ciudad Satélite"],
+    "architects": [
+      {
+        "name": "Luis Barragán",
+        "aliases": ["Barragán", "Luis Barragan"],
+        "lifespan": "1902–1988",
+        "nationality": "Mexican",
+        "bio": "Mexican architect who combined modernism with vernacular tradition, using bold colour, thick plain walls, light and water; winner of the Pritzker Prize in 1980."
+      },
+      {
+        "name": "Mathias Goeritz",
+        "aliases": ["Goeritz", "Mathias Göritz"],
+        "lifespan": "1915–1990",
+        "nationality": "German-Mexican",
+        "bio": "German-born Mexican sculptor and painter who worked with Barragán on large urban sculptures."
+      }
+    ],
+    "location": { "city": "Naucalpan", "country": "Mexico", "countryCode": "MX" },
+    "yearCompleted": 1958,
+    "era": "MODERNISM",
+    "style": "Modernist urban sculpture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Torres_de_Sat%C3%A9lite",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Torres_de_Sat%C3%A9lite_-_2.jpg/1920px-Torres_de_Sat%C3%A9lite_-_2.jpg",
+        "alt": "Five tall, narrow prisms in blue, white, yellow and red rising from a paved plaza beside a busy highway",
+        "credit": "Photo: ProtoplasmaKid · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Torres_de_Sat%C3%A9lite_-_2.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Torres_de_Satelite_0_-_panoramio.jpg/1920px-Torres_de_Satelite_0_-_panoramio.jpg",
+        "alt": "Tall concrete towers in orange, grey and blue against a hazy city skyline and mountains",
+        "credit": "Photo: Octavio Alonso Maya … · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Torres_de_Satelite_0_-_panoramio.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A group of five tall painted prisms was inaugurated in March 1958 as the symbol of a new Mexican suburb."
+      },
+      {
+        "order": 2,
+        "text": "The plan was for seven towers, the tallest 200 metres, but a budget cut left five, with the tallest at 52 metres."
+      },
+      { "order": 3, "text": "They appear in Alejandro Jodorowsky's surrealist film The Holy Mountain." }
+    ],
+    "summary": {
+      "description": "The Torres de Satélite (Satellite Towers) are a group of sculptures in the Ciudad Satélite district of Naucalpan, State of Mexico, and one of Mexico's first urban sculptures of great dimensions. Planning began in 1957 with the ideas of the architect Luis Barragán, the painter Jesús Reyes Ferreira and the sculptor Mathias Goeritz. The project was originally planned as seven towers, the tallest 200 metres, but a budget reduction left five, the tallest 52 metres and the shortest 30. Goeritz wanted shades of orange, but it was finally decided to have one tower each in red, blue and yellow, and two in white. They were inaugurated in the first days of March 1958 as the symbol of the new Ciudad Satélite.",
+      "keyFeatures": [
+        "Five prismatic towers between 30 and 52 metres tall",
+        "Painted red, blue and yellow, with two left white",
+        "One of Mexico's first large urban sculptures",
+        "Symbol of the new Ciudad Satélite"
+      ],
+      "funFacts": [
+        "Goeritz originally wanted the towers in different shades of orange, but changed his mind under pressure from constructors and investors.",
+        "In The Holy Mountain, the hero is hoisted up the red tower and enters through a circular hole painted on for the film."
+      ]
+    }
+  },
+  {
+    "id": "bonnefanten-museum",
+    "name": "Bonnefanten Museum",
+    "aliases": ["Bonnefantenmuseum", "Bonnefanten", "Bonnefanten Maastricht", "Museu Bonnefanten"],
+    "architects": [
+      {
+        "name": "Aldo Rossi",
+        "aliases": ["Rossi"],
+        "lifespan": "1931–1997",
+        "nationality": "Italian",
+        "bio": "Italian architect and theorist of the \"Tendenza\", author of The Architecture of the City (1966); he won the Pritzker Prize in 1990."
+      }
+    ],
+    "location": { "city": "Maastricht", "country": "Netherlands", "countryCode": "NL" },
+    "yearCompleted": 1995,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bonnefantenmuseum",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Rakettoren_-_Bonnefantenmuseum_%28Maastricht%29_20-06-2018_12-00-58.jpg/1920px-Rakettoren_-_Bonnefantenmuseum_%28Maastricht%29_20-06-2018_12-00-58.jpg",
+        "alt": "Zinc-clad rocket-shaped dome on a pale drum beside a pale green chimney tube, rising over trees and a brick block by a river",
+        "credit": "Photo: Paul Hermans · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rakettoren_-_Bonnefantenmuseum_(Maastricht)_20-06-2018_12-00-58.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Central_staircase_at_the_Bonnefantenmuseum.jpg/1920px-Central_staircase_at_the_Bonnefantenmuseum.jpg",
+        "alt": "Tall narrow stair hall between two red-brick walls, lit from a glass roof, with a sculpture at its foot",
+        "credit": "Photo: Sebastiaan ter Burg · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Central_staircase_at_the_Bonnefantenmuseum.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Inside_of_the_tower_of_the_Bonnefantenmuseum.jpg/1920px-Inside_of_the_tower_of_the_Bonnefantenmuseum.jpg",
+        "alt": "View straight up inside a domed room, with concentric black and white lines radiating around a bright octagonal opening",
+        "credit": "Photo: Sebastiaan ter Burg · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_of_the_tower_of_the_Bonnefantenmuseum.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is an art museum on a former industrial site on the river Maas, in the building it moved into in 1995."
+      },
+      {
+        "order": 2,
+        "text": "Its name comes from the French \"bons enfants\", the popular name of a former convent that housed it from 1951 to 1978."
+      },
+      {
+        "order": 3,
+        "text": "Its rocket-shaped cupola overlooking the river makes it one of its city's most prominent modern buildings."
+      }
+    ],
+    "summary": {
+      "description": "The Bonnefanten Museum is a museum of historic, modern and contemporary art in Maastricht, Netherlands. Founded in 1884 as the historical and archaeological museum of the Dutch province of Limburg, it moved in 1995 to a former industrial site named Céramique, into a new building designed by the Italian architect Aldo Rossi. With its rocket-shaped cupola overlooking the river Maas, it is one of Maastricht's most prominent modern buildings. Its name derives from the French \"bons enfants\", the popular name of a former convent that housed the museum from 1951 to 1978.",
+      "keyFeatures": [
+        "Rocket-shaped zinc cupola over the river Maas",
+        "Old masters on the first floor, contemporary art above",
+        "Built on the former industrial site of Céramique",
+        "Museum since 1884; art museum only since 1999"
+      ],
+      "funFacts": [
+        "Since 1999 the museum has been exclusively an art museum, and its historical and archaeological collections are housed elsewhere.",
+        "Its contemporary collection focuses on American Minimalism, Italian Arte Povera and Concept Art."
+      ]
+    }
+  },
+  {
+    "id": "monte-amiata-housing",
+    "name": "Monte Amiata Housing",
+    "aliases": [
+      "Gallaratese",
+      "Gallaratese II",
+      "Quartiere Gallaratese",
+      "Red Dinosaur",
+      "Complesso Monte Amiata",
+      "Monte Amiata Gallaratese"
+    ],
+    "architects": [
+      {
+        "name": "Carlo Aymonino",
+        "aliases": ["Aymonino"],
+        "lifespan": "1926–2010",
+        "nationality": "Italian",
+        "bio": "Italian architect and urbanist who led the Monte Amiata housing complex in Milan together with Aldo Rossi."
+      },
+      {
+        "name": "Aldo Rossi",
+        "aliases": ["Rossi"],
+        "lifespan": "1931–1997",
+        "nationality": "Italian",
+        "bio": "Italian architect and theorist of the \"Tendenza\", author of The Architecture of the City (1966); he won the Pritzker Prize in 1990."
+      }
+    ],
+    "location": { "city": "Milan", "country": "Italy", "countryCode": "IT" },
+    "yearCompleted": null,
+    "era": "MODERNISM",
+    "style": "Late modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monte_Amiata_Housing",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Complesso_abitativo_gallaratese_Monte_Amiata_2.jpg/1920px-Complesso_abitativo_gallaratese_Monte_Amiata_2.jpg",
+        "alt": "Deep arcade with a yellow ceiling and a skylight, red walls and a long line of red piers running away",
+        "credit": "Photo: Goldmund100 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Complesso_abitativo_gallaratese_Monte_Amiata_2.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Complesso_abitativo_gallaratese_Monte_Amiata_4.jpg/1920px-Complesso_abitativo_gallaratese_Monte_Amiata_4.jpg",
+        "alt": "Passage under bold yellow beams and square yellow columns, with red walls and floor stretching into the distance",
+        "credit": "Photo: Goldmund100 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Complesso_abitativo_gallaratese_Monte_Amiata_4.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Complesso_abitativo_gallaratese_Monte_Amiata_3.jpg/1920px-Complesso_abitativo_gallaratese_Monte_Amiata_3.jpg",
+        "alt": "Corridor in saturated red and yellow, with a round yellow column and a bright opening at the far end",
+        "credit": "Photo: Goldmund100 · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Complesso_abitativo_gallaratese_Monte_Amiata_3.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was designed in the late 1960s as a housing complex in a district of Milan, by two Italian architects."
+      },
+      {
+        "order": 2,
+        "text": "It is nicknamed the \"Red Dinosaur\" for the reddish colour of its buildings and the oddity of their design."
+      },
+      {
+        "order": 3,
+        "text": "Its authors cited Le Corbusier's Unité d'Habitation in Marseille as a main source of inspiration, though they meant to improve on it."
+      }
+    ],
+    "summary": {
+      "description": "Monte Amiata Housing is a residential complex in the Gallaratese district of Milan, designed by the architects Carlo Aymonino and Aldo Rossi in the late 1960s. It is sometimes called the \"Red Dinosaur\", referring both to the reddish colour of the buildings and the oddity of their design. The complex comprises five red buildings, grouped around a central area with a yellow open-air theatre and two small triangular plazas. It was conceived as a utopian micro-city within the city, and Rossi took inspiration from Giorgio de Chirico's paintings for the smaller slab. It is regarded as one of the projects that best represent Aymonino's vision of \"fragmentism\".",
+      "keyFeatures": [
+        "Five red buildings around a yellow open-air theatre",
+        "Passages, decks, balconies and bridges linking the blocks",
+        "Conceived as a micro-city within the city",
+        "Rossi's block inspired by de Chirico's paintings"
+      ],
+      "funFacts": [
+        "The complex is named after Mount Amiata and covers about 120,912 square metres between Via Francesco Cilea and Via Enrico Falck.",
+        "In its early years it was occupied by homeless families, then deserted in 1974, and was later converted into a middle-class condominium."
+      ]
+    }
+  },
+  {
+    "id": "gustavo-capanema-palace",
+    "name": "Gustavo Capanema Palace",
+    "aliases": [
+      "Palácio Gustavo Capanema",
+      "Palácio Capanema",
+      "Ministry of Education and Health Building",
+      "Edifício Gustavo Capanema",
+      "Ministério da Educação e Saúde",
+      "MES"
+    ],
+    "architects": [
+      {
+        "name": "Lúcio Costa",
+        "aliases": ["Lucio Costa", "Costa"],
+        "lifespan": "1902–1998",
+        "nationality": "Brazilian",
+        "bio": "Brazilian architect and urban planner who led the team of the Ministry of Education and Health building and designed the master plan of Brasília."
+      }
+    ],
+    "location": { "city": "Rio de Janeiro", "country": "Brazil", "countryCode": "BR" },
+    "yearCompleted": 1945,
+    "era": "MODERNISM",
+    "style": "Brazilian modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gustavo_Capanema_Palace",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/MESP1.JPG",
+        "alt": "Looking up a tall glass-and-concrete slab covered in a deep grid of adjustable sun-shades under a deep blue sky",
+        "credit": "Photo: Imagens AMB · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:MESP1.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Gustavo_Capanema_Palace%2C_Rio_de_Janeiro%2C_Brazil_%28main_entrance%2C_2004%29.jpg",
+        "alt": "Open ground floor of tall round stone pillars in front of a large blue and white tile mural",
+        "credit": "Photo: Marcos Leite Almeida · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Gustavo_Capanema_Palace,_Rio_de_Janeiro,_Brazil_(main_entrance,_2004).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was designed in 1935–36 and completed in 1945 to house the ministry of education and health of its country."
+      },
+      {
+        "order": 2,
+        "text": "It was the first modernist public building in the Americas, raised three floors above the pavement on pilotis."
+      },
+      {
+        "order": 3,
+        "text": "A renowned Swiss-French modernist was invited to oversee the project, and a famous landscape architect laid out its gardens."
+      }
+    ],
+    "summary": {
+      "description": "The Gustavo Capanema Palace, architecturally known as the Ministry of Education and Health Building, is a government office building in downtown Rio de Janeiro. As the first modernist project in Brazil, it is historically important to the country's development of modernism and is on its UNESCO tentative list. It was designed in 1935–36 by a team led by Lucio Costa, with Affonso Eduardo Reidy, Ernani Vasconcellos, Carlos Leão, Jorge Machado Moreira and Roberto Burle Marx, and Le Corbusier was invited to oversee the project. Construction began in 1939 and finished in 1945. The 15-storey building is raised three floors on pilotis, and employs azulejos in modern wall murals and adjustable Corbusian brises-soleil, the first of their kind in the world.",
+      "keyFeatures": [
+        "Raised three floors above the pavement on pilotis",
+        "Adjustable brise-soleil sun-shades on the glass facade",
+        "Azulejo wall murals in the Portuguese colonial tradition",
+        "Roof gardens by Roberto Burle Marx"
+      ],
+      "funFacts": [
+        "It was the first modernist public building in the Americas and far larger than anything Le Corbusier had built until then.",
+        "Le Corbusier suggested siting it beside the sea, but the government declined."
+      ]
+    }
+  },
+  {
+    "id": "piazza-d-italia-new-orleans",
+    "name": "Piazza d'Italia",
+    "aliases": ["Piazza d Italia", "Piazza Italia", "Piazza d'Italia New Orleans", "Italian Plaza", "Praça da Itália"],
+    "architects": [
+      {
+        "name": "Charles Moore",
+        "aliases": ["Charles Willard Moore", "Moore"],
+        "lifespan": "1925–1993",
+        "nationality": "American",
+        "bio": "American architect and former dean of the Yale School of Architecture, a proponent of a witty, exuberant design language later termed postmodern."
+      }
+    ],
+    "location": { "city": "New Orleans", "country": "United States", "countryCode": "US" },
+    "yearCompleted": 1978,
+    "era": "POSTMODERNISM",
+    "style": "Postmodernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Piazza_d'Italia_(New_Orleans)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Piazza_D%27Italia.jpg/1920px-Piazza_D%27Italia.jpg",
+        "alt": "Curved colonnades in white, red and yellow around a round cobbled plaza with concentric rings, towered over by office blocks",
+        "credit": "Photo: TheEWDSDS · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Piazza_D%27Italia.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Piazza_d%27Italia_entrance_arch_on_Commerce_Street%2C_New_Orleans.jpg/1920px-Piazza_d%27Italia_entrance_arch_on_Commerce_Street%2C_New_Orleans.jpg",
+        "alt": "Huge square gateway with a deep arched opening, banded in cream, ochre and red, flanked by dark slender columns",
+        "credit": "Photo: Infrogmation of New Orleans · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Piazza_d%27Italia_entrance_arch_on_Commerce_Street,_New_Orleans.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This public plaza commemorates the Italian immigrant experience in its city and was completed in 1978."
+      },
+      {
+        "order": 2,
+        "text": "Its fountain takes the shape of the Italian peninsula, surrounded by hemicyclical colonnades."
+      },
+      {
+        "order": 3,
+        "text": "It plays with classical orders in stainless steel and neon, and was sometimes called the first \"postmodern ruin\"."
+      }
+    ],
+    "summary": {
+      "description": "The Piazza d'Italia is an urban public plaza behind the American Italian Cultural Center at Lafayette and Commerce Streets in downtown New Orleans. Completed in 1978 to a design by the postmodern architect Charles Moore and Perez Architects, it debuted to widespread acclaim. Moore, with Ron Filson, Malcolm Heard and Allen Eskew, conceived a fountain in the shape of the Italian peninsula, surrounded by hemicyclical colonnades, a clock tower, and a campanile and Roman temple in abstract space-frame fashion. Because the development around it was never realized, the plaza rapidly deteriorated and was sometimes called the first \"postmodern ruin\" before being fully restored by 2004.",
+      "keyFeatures": [
+        "Fountain in the shape of the Italian peninsula",
+        "Hemicyclical colonnades appropriating classical orders",
+        "Stainless steel, neon and water jets in place of stone",
+        "Clock tower gate on Commerce Street"
+      ],
+      "funFacts": [
+        "Water jets were used to suggest the acanthus leaves of traditional Corinthian capitals.",
+        "The restoration of the plaza was done by 2004, together with the conversion of the adjacent Lykes Center into the Loews Hotel."
+      ]
+    }
   }
 ]
