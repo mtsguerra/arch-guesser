@@ -13877,5 +13877,214 @@
         "It is the setting of a famous New Year’s Eve fireworks display."
       ]
     }
+  },
+  {
+    "id": "villa-muller",
+    "name": "Villa Müller",
+    "aliases": ["Müllerova vila", "Müller Villa", "Villa Muller", "Müller House"],
+    "architects": [
+      {
+        "name": "Adolf Loos",
+        "aliases": ["Loos"],
+        "lifespan": "1870–1933",
+        "nationality": "Austrian (born in Brno)",
+        "bio": "Viennese architect and polemicist whose essay 'Ornament and Crime' attacked decoration as wasteful. His buildings pair plain exteriors with rich materials inside, and his Raumplan arranged rooms at different heights."
+      }
+    ],
+    "location": { "city": "Prague", "country": "Czech Republic", "countryCode": "CZ" },
+    "yearCompleted": 1930,
+    "era": "MODERNISM",
+    "style": "Raumplan modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_M%C3%BCller",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Villa_M%C3%BCller.jpg/1920px-Villa_M%C3%BCller.jpg",
+        "alt": "Plain white cubic house with small, irregularly placed windows, partly covered in ivy, on a sloping garden",
+        "credit": "Photo: Szombat78 · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_M%C3%BCller.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Salone_Villa_M%C3%BCller.jpg",
+        "alt": "Living room with a wall of veined marble, a raised sitting area reached by steps, and a patterned carpet",
+        "caption": "Marble and carpets inside a plain white box.",
+        "credit": "Photo: Bassetti Samuele · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Salone_Villa_M%C3%BCller.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "The client co-owned a construction company that specialised in reinforced concrete." },
+      {
+        "order": 2,
+        "text": "Its plain white cube outside hides a lavishly finished interior of marble, wood and silk."
+      },
+      {
+        "order": 3,
+        "text": "Rooms sit at different heights and interlock, an approach its architect called by a German word meaning \"space plan\"."
+      }
+    ],
+    "summary": {
+      "description": "Adolf Loos designed this villa in Prague for František Müller, co-owner of a reinforced-concrete construction company, and it was completed in 1930. Its plain white cubic exterior follows Loos's essay on ornament, while the interior is richly finished in marble, wood and silk. Inside, the rooms are arranged at different levels in what Loos called the Raumplan, a design of spaces rather than of floor plans, facades and sections. The architect Karel Lhota also contributed because of Loos's poor health.",
+      "keyFeatures": [
+        "Raumplan: rooms at different heights that interlock",
+        "Plain white cubic exterior",
+        "Interior lined in marble, wood and silk",
+        "Raised sitting area read as a theatre box"
+      ],
+      "funFacts": [
+        "Loos celebrated his 60th birthday in the house with a few friends after it was finished.",
+        "Communists seized the villa in 1948; it was restored in 1998 and reopened as a museum in 2000."
+      ]
+    }
+  },
+  {
+    "id": "steiner-house",
+    "name": "Steiner House",
+    "aliases": ["Haus Steiner", "Villa Steiner", "Steinerhaus", "Loos Steiner House"],
+    "architects": [
+      {
+        "name": "Adolf Loos",
+        "aliases": ["Loos"],
+        "lifespan": "1870–1933",
+        "nationality": "Austrian (born in Brno)",
+        "bio": "Viennese architect and polemicist whose essay 'Ornament and Crime' attacked decoration as wasteful. His buildings pair plain exteriors with rich materials inside, and his Raumplan arranged rooms at different heights."
+      }
+    ],
+    "location": { "city": "Vienna", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1910,
+    "era": "MODERNISM",
+    "style": "Early modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Steiner_House",
+    "drawings": [
+      {
+        "type": "ELEVATION",
+        "label": "Elevations",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Prospetti_Casa_Steiner%2C_Vienna.jpg/1920px-Prospetti_Casa_Steiner%2C_Vienna.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.9 },
+        "alt": "Four line drawings of a house: a street front with a curved roof, a side view, a garden front with a grey wedge and another side",
+        "credit": "Wikimedia Commons contributor · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Prospetti_Casa_Steiner,_Vienna.jpg"
+      },
+      {
+        "type": "FLOOR_PLAN",
+        "label": "Raised ground-floor plan",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/A.01_PT.jpg/1920px-A.01_PT.jpg",
+        "crop": { "x": 0, "y": 0.02, "w": 1, "h": 0.84 },
+        "alt": "Plan with a kitchen and pantry on one side, a large dining room and a salon with a terrace and pool on the other",
+        "credit": "Wikimedia Commons contributor · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A.01_PT.jpg"
+      },
+      {
+        "type": "SECTION",
+        "label": "Section AA",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/A.02_Sezione_AA.jpg/1920px-A.02_Sezione_AA.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.88 },
+        "alt": "Section through a house with a curved roof, cellars below, living rooms on the main floor and bedrooms above",
+        "credit": "Wikimedia Commons contributor · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A.02_Sezione_AA.jpg"
+      }
+    ],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Steiner1.jpg/1920px-Steiner1.jpg",
+        "alt": "White house with a rounded, barrel-vaulted dark roof behind a low brown fence and bare trees",
+        "credit": "Photo: Castellónenred · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Steiner1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Casa_Steiner_-_Interior.jpg",
+        "alt": "Historic black-and-white view of a living room with a beamed ceiling, a fireplace and heavy drapes",
+        "caption": "A historic view of the living room.",
+        "credit": "Photo: Wikimedia Commons contributor · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_Steiner_-_Interior.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "From the street it seems to have a single floor under a curved roof, while the garden side rises to three storeys."
+      },
+      {
+        "order": 2,
+        "text": "It was one of its architect's first works to be widely accepted, and became a worldwide example of rationalist architecture."
+      },
+      { "order": 3, "text": "Its smooth white stucco wall has no ornament and gives no hint of the rooms inside." }
+    ],
+    "summary": {
+      "description": "Built in 1910 in Vienna, the Steiner House is one of the major works of Adolf Loos. Because only one storey could rise above street level on the street side, Loos gave the house a quarter-round roof facing the street, which hides the two further floors that look onto the garden. The raised living area is separated from the private rooms, and the service spaces sit in the basement and attic. Its stucco facade is smooth and unornamented, and reveals nothing of the interior.",
+      "keyFeatures": [
+        "Quarter-round roof facing the street",
+        "Classical tripartite facade with a recessed centre",
+        "Living area raised slightly above the ground",
+        "Service spaces in the basement and attic"
+      ],
+      "funFacts": [
+        "The curved roof was a way to build within the street-side height limit while keeping two more floors toward the garden.",
+        "Loos used stucco as a protective skin over brick, not as a cheap imitation of stone."
+      ]
+    }
+  },
+  {
+    "id": "loos-american-bar",
+    "name": "American Bar",
+    "aliases": ["Loos American Bar", "Kärntner Bar", "Loos Bar", "Adolf Loos Bar", "American Bar Vienna"],
+    "architects": [
+      {
+        "name": "Adolf Loos",
+        "aliases": ["Loos"],
+        "lifespan": "1870–1933",
+        "nationality": "Austrian (born in Brno)",
+        "bio": "Viennese architect and polemicist whose essay 'Ornament and Crime' attacked decoration as wasteful. His buildings pair plain exteriors with rich materials inside, and his Raumplan arranged rooms at different heights."
+      }
+    ],
+    "location": { "city": "Vienna", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1908,
+    "era": "MODERNISM",
+    "style": "Early modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Bar_(Vienna)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/K%C3%A4rntner_Durchgang_10_Loos_Bar.jpg/1920px-K%C3%A4rntner_Durchgang_10_Loos_Bar.jpg",
+        "crop": { "x": 0, "y": 0.4, "w": 0.72, "h": 0.6 },
+        "alt": "Entrance framed by columns of veined reddish marble with tall windows and an awning of coloured stripes",
+        "credit": "Photo: Thomas Ledl · CC BY-SA 3.0 at · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:K%C3%A4rntner_Durchgang_10_Loos_Bar.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/American_Bar_Adolf_Loos_innen.JPG/1920px-American_Bar_Adolf_Loos_innen.JPG",
+        "alt": "Narrow bar clad in dark mahogany, with a glowing coffered ceiling of onyx tiles and a green leather booth",
+        "caption": "Mahogany, mirrors and onyx fill a very small room.",
+        "credit": "Photo: Thomas Ledl · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:American_Bar_Adolf_Loos_innen.JPG"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It is the smallest bar in its city, with a layout of about 290 square feet." },
+      {
+        "order": 2,
+        "text": "Four years after finishing it, its designer published an essay arguing that ornament is a crime."
+      },
+      { "order": 3, "text": "Above the entrance a mosaic of a national flag spans the width of the whole building." }
+    ],
+    "summary": {
+      "description": "Designed in 1907 by Adolf Loos and finished in 1908, this cocktail bar in central Vienna fits into about 290 square feet, yet feels expansive thanks to mirrors above mahogany panelling and tiles of onyx, which are echoed by green and white marble on the floor. There is no ornament beyond the materials themselves, which are left unaltered. The street front carries an illuminated mosaic of a national flag above four green marble columns. Loos published Ornament and Crime four years later, and it is likely that he developed its ideas while working on the bar.",
+      "keyFeatures": [
+        "Mahogany panelling with mirrors above it",
+        "Coffered marble ceiling with onyx tiles",
+        "Floor of green and white marble",
+        "Illuminated flag mosaic on the street front"
+      ],
+      "funFacts": [
+        "Its materials are all left in their original state, without dye or added decoration.",
+        "The bar was the subject of several recreations and an exhibition in Los Angeles."
+      ]
+    }
   }
 ]

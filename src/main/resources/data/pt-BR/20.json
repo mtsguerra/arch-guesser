@@ -1,0 +1,141 @@
+{
+  "villa-muller": {
+    "name": "Villa Müller",
+    "aliases": ["Müllerova vila", "Vila Müller", "Casa Müller", "Villa Muller"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Austríaco (nascido em Brno)",
+        "bio": "Arquiteto e polemista vienense cujo ensaio «Ornamento e Crime» atacou a decoração como desperdício. Seus edifícios combinam exteriores simples com materiais ricos no interior, e seu Raumplan dispunha os cômodos em alturas diferentes."
+      }
+    ],
+    "city": "Praga",
+    "style": "Modernismo do Raumplan",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Casa branca cúbica e simples, com janelas pequenas e irregulares, parcialmente coberta de hera, num jardim em declive",
+        "caption": null
+      },
+      {
+        "alt": "Sala de estar com uma parede de mármore veado, uma área de estar elevada alcançada por degraus e um tapete estampado",
+        "caption": "Mármore e tapetes dentro de uma caixa branca simples."
+      }
+    ],
+    "hints": [
+      "O cliente era sócio de uma construtora especializada em betão armado.",
+      "O seu cubo branco simples por fora esconde um interior luxuosamente acabado em mármore, madeira e seda.",
+      "Os cômodos ficam em alturas diferentes e se encaixam, uma abordagem que o arquiteto chamava por uma palavra alemã que significa \"plano de espaços\"."
+    ],
+    "summary": {
+      "description": "Adolf Loos projetou esta villa em Praga para František Müller, sócio de uma construtora de betão armado, e ela foi concluída em 1930. O seu exterior cúbico, branco e simples segue o ensaio de Loos sobre o ornamento, enquanto o interior é ricamente acabado em mármore, madeira e seda. Lá dentro, os cômodos estão dispostos em níveis diferentes no que Loos chamava de Raumplan, um projeto de espaços e não de plantas, fachadas e cortes. O arquiteto Karel Lhota também colaborou por causa da saúde frágil de Loos.",
+      "keyFeatures": [
+        "Raumplan: cômodos em alturas diferentes que se encaixam",
+        "Exterior cúbico branco e simples",
+        "Interior revestido de mármore, madeira e seda",
+        "Área de estar elevada lida como um camarote de teatro"
+      ],
+      "funFacts": [
+        "Loos celebrou ali os seus 60 anos com alguns amigos depois de a casa ficar pronta.",
+        "Os comunistas tomaram a villa em 1948; ela foi restaurada em 1998 e reaberta como museu em 2000."
+      ]
+    }
+  },
+  "steiner-house": {
+    "name": "Casa Steiner",
+    "aliases": ["Haus Steiner", "Villa Steiner", "Steinerhaus", "Casa Steiner de Loos"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Austríaco (nascido em Brno)",
+        "bio": "Arquiteto e polemista vienense cujo ensaio «Ornamento e Crime» atacou a decoração como desperdício. Seus edifícios combinam exteriores simples com materiais ricos no interior, e seu Raumplan dispunha os cômodos em alturas diferentes."
+      }
+    ],
+    "city": "Viena",
+    "style": "Modernismo inicial",
+    "drawings": [
+      {
+        "label": "Alçados",
+        "alt": "Quatro desenhos de linhas de uma casa: uma frente para a rua com cobertura curva, uma vista lateral, uma frente para o jardim com uma cunha cinza e outra lateral"
+      },
+      {
+        "label": "Planta do térreo elevado",
+        "alt": "Planta com cozinha e despensa de um lado e, do outro, uma grande sala de jantar e um salão com terraço e piscina"
+      },
+      {
+        "label": "Corte AA",
+        "alt": "Corte de uma casa com cobertura curva, adegas embaixo, salas na parte principal e quartos em cima"
+      }
+    ],
+    "photos": [
+      {
+        "alt": "Casa branca com cobertura escura arredondada em abóbada de berço, atrás de uma cerca marrom baixa e árvores sem folhas",
+        "caption": null
+      },
+      {
+        "alt": "Vista histórica em preto e branco de uma sala de estar com teto de vigas, lareira e cortinas pesadas",
+        "caption": "Uma vista histórica da sala de estar."
+      }
+    ],
+    "hints": [
+      "Da rua parece ter um só piso sob uma cobertura curva, enquanto o lado do jardim sobe a três pavimentos.",
+      "Foi uma das primeiras obras do seu arquiteto a ser amplamente aceita e tornou-se um exemplo mundial da arquitetura racionalista.",
+      "A sua parede lisa de estuque branco não tem ornamento e não dá pista dos cômodos no interior."
+    ],
+    "summary": {
+      "description": "Construída em 1910 em Viena, a Casa Steiner é uma das principais obras de Adolf Loos. Como do lado da rua só se podia erguer um pavimento acima do nível da rua, Loos deu à casa uma cobertura em quarto de círculo voltada para a rua, que esconde os outros dois pisos voltados para o jardim. A área de estar elevada é separada dos cômodos privados, e os serviços ficam no porão e no sótão. A fachada de estuque é lisa e sem ornamentos, e nada revela do interior.",
+      "keyFeatures": [
+        "Cobertura em quarto de círculo voltada para a rua",
+        "Fachada tripartida clássica com centro recuado",
+        "Área de estar ligeiramente elevada do solo",
+        "Serviços no porão e no sótão"
+      ],
+      "funFacts": [
+        "A cobertura curva foi uma forma de construir dentro do limite de altura do lado da rua mantendo mais dois pisos voltados para o jardim.",
+        "Loos usava o estuque como pele protetora sobre o tijolo, não como imitação barata de pedra."
+      ]
+    }
+  },
+  "loos-american-bar": {
+    "name": "American Bar",
+    "aliases": ["Loos American Bar", "Kärntner Bar", "Loos Bar", "Bar Americano de Loos", "American Bar de Viena"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Austríaco (nascido em Brno)",
+        "bio": "Arquiteto e polemista vienense cujo ensaio «Ornamento e Crime» atacou a decoração como desperdício. Seus edifícios combinam exteriores simples com materiais ricos no interior, e seu Raumplan dispunha os cômodos em alturas diferentes."
+      }
+    ],
+    "city": "Viena",
+    "style": "Modernismo inicial",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Entrada emoldurada por colunas de mármore veado avermelhado, com janelas altas e um toldo de listras coloridas",
+        "caption": null
+      },
+      {
+        "alt": "Bar estreito revestido de mogno escuro, com teto em caixotões luminoso de ladrilhos de ónix e um sofá de couro verde",
+        "caption": "Mogno, espelhos e ónix preenchem uma sala muito pequena."
+      }
+    ],
+    "hints": [
+      "É o menor bar da sua cidade, com uma área de cerca de 27 metros quadrados.",
+      "Quatro anos depois de o concluir, o seu projetista publicou um ensaio defendendo que o ornamento é um crime.",
+      "Acima da entrada, um mosaico de uma bandeira nacional se estende por toda a largura do edifício."
+    ],
+    "summary": {
+      "description": "Projetado em 1907 por Adolf Loos e concluído em 1908, este bar de coquetéis no centro de Viena ocupa cerca de 27 metros quadrados, mas parece amplo graças a espelhos acima de painéis de mogno e a ladrilhos de ónix, ecoados por mármore verde e branco no piso. Não há ornamento além dos próprios materiais, deixados sem alteração. A frente para a rua traz um mosaico iluminado de uma bandeira nacional sobre quatro colunas de mármore verde. Loos publicou Ornamento e Crime quatro anos depois, e é provável que tenha desenvolvido as suas ideias enquanto trabalhava no bar.",
+      "keyFeatures": [
+        "Painéis de mogno com espelhos acima",
+        "Teto de mármore em caixotões com ladrilhos de ónix",
+        "Piso de mármore verde e branco",
+        "Mosaico iluminado de bandeira na frente para a rua"
+      ],
+      "funFacts": [
+        "Todos os materiais foram deixados no estado original, sem tinta nem decoração acrescentada.",
+        "O bar foi tema de várias recriações e de uma exposição em Los Angeles."
+      ]
+    }
+  }
+}
