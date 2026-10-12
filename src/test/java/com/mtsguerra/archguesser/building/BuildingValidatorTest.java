@@ -86,15 +86,20 @@ class BuildingValidatorTest {
     }
 
     @Test
-    void requiresAnExteriorAndAnInteriorPhoto() {
+    void requiresAnExteriorAndAnInteriorOrSecondExteriorPhoto() {
         Building b = building("a", hints(2));
-        Building exteriorsOnly = withPhotos(b, photo(PhotoView.EXTERIOR, "/buildings/a/1.jpg"), photo(PhotoView.EXTERIOR, "/buildings/a/2.jpg"));
+        Building twoExteriors = withPhotos(b, photo(PhotoView.EXTERIOR, "/buildings/a/1.jpg"), photo(PhotoView.EXTERIOR, "/buildings/a/2.jpg"));
+        Building oneExterior = withPhotos(b, photo(PhotoView.EXTERIOR, "/buildings/a/1.jpg"));
+        Building interiorOnly = withPhotos(b, photo(PhotoView.INTERIOR, "/buildings/a/1.jpg"));
         Building none = withPhotos(b);
 
-        assertThat(BuildingValidator.validate(List.of(exteriorsOnly)))
-                .singleElement().asString().contains("at least one INTERIOR photo");
+        assertThat(BuildingValidator.validate(List.of(twoExteriors))).isEmpty();
+        assertThat(BuildingValidator.validate(List.of(oneExterior)))
+                .singleElement().asString().contains("second EXTERIOR");
+        assertThat(BuildingValidator.validate(List.of(interiorOnly)))
+                .singleElement().asString().contains("at least one EXTERIOR photo");
         assertThat(BuildingValidator.validate(List.of(none)))
-                .hasSize(2).anySatisfy(e -> assertThat(e).contains("EXTERIOR")).anySatisfy(e -> assertThat(e).contains("INTERIOR"));
+                .singleElement().asString().contains("at least one EXTERIOR photo");
     }
 
     @Test

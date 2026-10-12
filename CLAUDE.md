@@ -23,7 +23,7 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 
 - ids are unique kebab-case; at least one architect with name and bio.
 - `drawings` (cuts) are optional, but every `src` must be real: an `https://upload.wikimedia.org/` URL (or a local `/buildings/{id}/` path). Never a placeholder or null.
-- `photos`: at least one `EXTERIOR` and one `INTERIOR`.
+- `photos`: at least one `EXTERIOR`, plus an `INTERIOR` or a second `EXTERIOR` (when no free interior exists).
 - `hints`: at least 2, text only, `order` 1..n. We write exactly 3, and they must not depend on looking at the photos.
 - Optional `crop` `{x, y, w, h}` (fractions) on drawings and photos hides anything that names the building or architect (title blocks, captions, signatures, façade lettering). Check every image for spoilers.
 - `credit` + `source` (Commons file page) on every image; credits are shown only after the reveal.

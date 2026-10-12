@@ -96,9 +96,9 @@ final class BuildingValidator {
         }
     }
 
-    /** The hard rule: at least one exterior and one interior photo, so the board never shows a placeholder. */
+    /** The hard rule: an exterior photo plus either an interior or a second exterior, so the board never shows a placeholder. */
     private static void validatePhotos(Building b, Errors e) {
-        boolean exterior = false;
+        int exteriors = 0;
         boolean interior = false;
         for (int i = 0; i < b.photos().size(); i++) {
             Photo p = b.photos().get(i);
@@ -106,7 +106,7 @@ final class BuildingValidator {
             if (p.view() == null) {
                 e.add(field + ".view is required");
             } else {
-                exterior |= p.view() == PhotoView.EXTERIOR;
+                if (p.view() == PhotoView.EXTERIOR) exteriors++;
                 interior |= p.view() == PhotoView.INTERIOR;
             }
             e.requireAsset(b.id(), p.src(), field + ".src");
@@ -114,8 +114,8 @@ final class BuildingValidator {
             e.optionalSource(p.source(), field + ".source");
             validateCrop(p.crop(), field + ".crop", e);
         }
-        if (!exterior) e.add("at least one EXTERIOR photo is required");
-        if (!interior) e.add("at least one INTERIOR photo is required");
+        if (exteriors == 0) e.add("at least one EXTERIOR photo is required");
+        else if (!interior && exteriors < 2) e.add("an INTERIOR photo (or a second EXTERIOR photo) is required");
     }
 
     private static void validateHints(Building b, Errors e) {
