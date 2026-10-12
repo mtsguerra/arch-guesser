@@ -15159,5 +15159,236 @@
         "Work began on 2 December 1954, and the building was dedicated on 30 April 1956."
       ]
     }
+  },
+  {
+    "id": "therme-vals",
+    "name": "Therme Vals",
+    "aliases": ["7132 Thermal Baths", "7132 Therme", "Vals Thermal Baths", "Therme Vals Zumthor", "Felsentherme Vals"],
+    "architects": [
+      {
+        "name": "Peter Zumthor",
+        "aliases": ["Zumthor"],
+        "lifespan": "b. 1943",
+        "nationality": "Swiss",
+        "bio": "Swiss architect who won the Pritzker Prize in 2009. He works slowly and on few commissions, with a close attention to materials, light and atmosphere, in buildings such as the thermal baths at Vals, the Kunsthaus Bregenz and the Kolumba museum in Cologne."
+      }
+    ],
+    "location": { "city": "Vals", "country": "Switzerland", "countryCode": "CH" },
+    "yearCompleted": 1996,
+    "era": "CONTEMPORARY",
+    "style": "Minimalist architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/7132_Thermal_Baths",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Therme_Vals_facade%2C_Vals%2C_Graub%C3%BCnden%2C_Switzerland_-_20090809.jpg/1920px-Therme_Vals_facade%2C_Vals%2C_Graub%C3%BCnden%2C_Switzerland_-_20090809.jpg",
+        "alt": "Block of horizontally layered grey stone with deep rectangular openings and a grassy edge against pine trees and a blue sky",
+        "credit": "Photo: Micha L. Rieser · Attribution · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Therme_Vals_facade,_Vals,_Graub%C3%BCnden,_Switzerland_-_20090809.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Felipe_camus_-_6892624822.jpg/1920px-Felipe_camus_-_6892624822.jpg",
+        "alt": "Open-air thermal pool set within stone walls and terraces, with sun loungers below a grassy hillside and mountains",
+        "caption": "Pools meander between stone walls.",
+        "credit": "Photo: fcamusd · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Felipe_camus_-_6892624822.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "Its concept is an architectural interpretation of a stone quarry." },
+      {
+        "order": 2,
+        "text": "It is built from locally quarried quartzite slabs, in 15 table-like units that fit together like a jigsaw."
+      },
+      { "order": 3, "text": "It was built between 1993 and 1996 over the only thermal springs in its canton." }
+    ],
+    "summary": {
+      "description": "Peter Zumthor designed this spa over the thermal springs of Vals, in Graubünden, on the site of a failed 1960s hotel complex that the village had bought in 1983. Built between 1993 and 1996 from locally quarried Valser quartzite, it is made of 15 table-like units 5 metres high, with cantilevered concrete roofs supported by tie-beams and 8 cm gaps covered with glass. The concept is an interpretation of a stone quarry, with a constant change between very small intimate spaces and the large meandering bath. Since 2012 the hotel and spa have been privately owned and renamed 7132 Therme & Hotel.",
+      "keyFeatures": [
+        "15 table-like stone units 5 metres high",
+        "Locally quarried Valser quartzite slabs",
+        "Concrete roofs with glass-covered gaps between units",
+        "Small intimate spaces and a large meandering bath"
+      ],
+      "funFacts": [
+        "The roofs of the units do not join: 8 cm gaps, covered by glass, let light in.",
+        "In 2017 Zumthor complained that the new owner was killing the social project the baths were first designed to be for the local community."
+      ]
+    }
+  },
+  {
+    "id": "kolumba",
+    "name": "Kolumba",
+    "aliases": ["Kolumba Museum", "Kolumba-Museum", "Kolumba Art Museum", "Diocesan Museum Cologne", "Kolumba Köln"],
+    "architects": [
+      {
+        "name": "Peter Zumthor",
+        "aliases": ["Zumthor"],
+        "lifespan": "b. 1943",
+        "nationality": "Swiss",
+        "bio": "Swiss architect who won the Pritzker Prize in 2009. He works slowly and on few commissions, with a close attention to materials, light and atmosphere, in buildings such as the thermal baths at Vals, the Kunsthaus Bregenz and the Kolumba museum in Cologne."
+      }
+    ],
+    "location": { "city": "Cologne", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 2007,
+    "era": "CONTEMPORARY",
+    "style": "Minimalist architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kolumba",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kolumba-Museum_K%C3%B6ln._Ansicht_von_der_Br%C3%BCckenstra%C3%9Fe-9987.jpg/1920px-Kolumba-Museum_K%C3%B6ln._Ansicht_von_der_Br%C3%BCckenstra%C3%9Fe-9987.jpg",
+        "alt": "Light grey perforated-brick building rising above the ruin of a Gothic church wall, behind bare trees and parked cars",
+        "credit": "Photo: Raimond Spekking · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kolumba-Museum_K%C3%B6ln._Ansicht_von_der_Br%C3%BCckenstra%C3%9Fe-9987.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kolumba%2CK%C3%B6ln._Ausstellung_2023-24%2C_Raum_19.jpg/1920px-Kolumba%2CK%C3%B6ln._Ausstellung_2023-24%2C_Raum_19.jpg",
+        "alt": "Bright grey gallery room with a high doorway, visitors, a large painting and a gilded altarpiece panel",
+        "caption": "Sixteen rooms with different daylight, size and proportion.",
+        "credit": "Photo: MenkinAlRire · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kolumba,K%C3%B6ln._Ausstellung_2023-24,_Raum_19.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It stands on the site of a Romanesque church destroyed in World War II, and wraps around its ruins."
+      },
+      { "order": 2, "text": "A perforated grey brick facade wraps around the museum and the old church like a cloak." },
+      { "order": 3, "text": "Its sixteen exhibition rooms differ in daylight, size, proportion and pathways." }
+    ],
+    "summary": {
+      "description": "Built from 2003 to 2007 for the Archdiocese of Cologne, the museum was designed by Peter Zumthor, whose atelier won the competition in 1997, and it was consecrated on 15 September 2007. It sits on the site of the Romanesque church of St. Kolumba, destroyed in World War II, and shares it with the Gothic ruins and the 1950 chapel 'Madonna of the Ruins' by Gottfried Böhm. A perforated cloak of light grey brick, specially fired for the project, wraps the museum and the old church. The sixteen exhibition rooms have walls of light grey brick and clay plaster, floors of Jura limestone and terrazzo, and ceilings of poured mortar.",
+      "keyFeatures": [
+        "Perforated light grey brick facade made of specially fired bricks",
+        "Built on the foundations and remains of St. Kolumba",
+        "Sixteen exhibition rooms with varying daylight",
+        "Includes the 1950 chapel \"Madonna of the Ruins\" by Gottfried Böhm"
+      ],
+      "funFacts": [
+        "The museum was founded by the Society for Christian Art in 1853 and taken over by the Archdiocese in 1989.",
+        "Until April 2007 the collection was housed near Cologne Cathedral."
+      ]
+    }
+  },
+  {
+    "id": "kunsthaus-bregenz",
+    "name": "Kunsthaus Bregenz",
+    "aliases": ["KUB", "Kunsthaus Bregenz KUB", "Bregenz Art Museum", "Kunsthaus Bregenz Zumthor"],
+    "architects": [
+      {
+        "name": "Peter Zumthor",
+        "aliases": ["Zumthor"],
+        "lifespan": "b. 1943",
+        "nationality": "Swiss",
+        "bio": "Swiss architect who won the Pritzker Prize in 2009. He works slowly and on few commissions, with a close attention to materials, light and atmosphere, in buildings such as the thermal baths at Vals, the Kunsthaus Bregenz and the Kolumba museum in Cologne."
+      }
+    ],
+    "location": { "city": "Bregenz", "country": "Austria", "countryCode": "AT" },
+    "yearCompleted": 1997,
+    "era": "CONTEMPORARY",
+    "style": "Minimalist architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kunsthaus_Bregenz",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/BregenzKUB3a.JPG/1920px-BregenzKUB3a.JPG",
+        "alt": "Glowing glass cube at night, its translucent skin lit from within, beside a street lamp and parked cars",
+        "credit": "Photo: böhringer friedrich · CC BY-SA 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:BregenzKUB3a.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bregenz_KUB_interior.jpg/1920px-Bregenz_KUB_interior.jpg",
+        "alt": "Narrow concrete stairwell between two grey walls lit by a skylight at the top",
+        "credit": "Photo: Austriantraveler · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bregenz_KUB_interior.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It opened in July 1997 with an exhibition by James Turrell." },
+      {
+        "order": 2,
+        "text": "It was conceived as a \"daylight museum\", and from outside the glass-sheathed cube looks like a lamp."
+      },
+      { "order": 3, "text": "Its architect won the Mies van der Rohe Award for European Architecture in 1998." }
+    ],
+    "summary": {
+      "description": "Commissioned by the State of Vorarlberg and designed by the Swiss architect Peter Zumthor, the Kunsthaus Bregenz was built between 1990 and 1997 on the shore of Lake Constance and opened in July 1997 with an exhibition by James Turrell. It is made of glass, steel and a cast concrete mass that gives texture and spatial composition to the interior. From outside the building looks like a lamp, absorbing and reflecting the light of the sky and the haze of the lake. Conceived as a daylight museum, it is a fine example of architectural minimalism that presents temporary exhibitions of international contemporary art.",
+      "keyFeatures": [
+        "Glass-sheathed cube on the shore of Lake Constance",
+        "Cast concrete interior mass",
+        "Conceived as a daylight museum",
+        "Temporary exhibitions of international contemporary art"
+      ],
+      "funFacts": [
+        "Edelbert Köb was the first director, from 1997 to 2000.",
+        "Zumthor was also the 2009 Pritzker Prize laureate."
+      ]
+    }
+  },
+  {
+    "id": "steilneset-memorial",
+    "name": "Steilneset Memorial",
+    "aliases": ["Steilneset Minnested", "Vardø Witch Trials Memorial", "Steilneset", "Witchcraft Memorial Vardø"],
+    "architects": [
+      {
+        "name": "Peter Zumthor",
+        "aliases": ["Zumthor"],
+        "lifespan": "b. 1943",
+        "nationality": "Swiss",
+        "bio": "Swiss architect who won the Pritzker Prize in 2009. He works slowly and on few commissions, with a close attention to materials, light and atmosphere, in buildings such as the thermal baths at Vals, the Kunsthaus Bregenz and the Kolumba museum in Cologne."
+      }
+    ],
+    "location": { "city": "Vardø", "country": "Norway", "countryCode": "NO" },
+    "yearCompleted": 2011,
+    "era": "CONTEMPORARY",
+    "style": "Minimalist architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Steilneset_Memorial",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Steilneset_Memorial_in_Vard%C3%B8_seen_from_above.jpg/1920px-Steilneset_Memorial_in_Vard%C3%B8_seen_from_above.jpg",
+        "alt": "Long wooden building on tall stilts with a pointed, fabric-clad hull shape, at the sea's edge beyond green grass and a gravel path",
+        "credit": "Photo: Frankemann · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Steilneset_Memorial_in_Vard%C3%B8_seen_from_above.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Steilneset_Memorial.jpg/1920px-Steilneset_Memorial.jpg",
+        "alt": "Fire burning on a chair in a stone-edged bowl, ringed by dark metal mirrors in a smoked-glass room",
+        "caption": "A flame burns inside the smoked-glass room.",
+        "credit": "Photo: Bjarne Riesto · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Steilneset_Memorial.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It commemorates 91 people tried and executed for witchcraft in 1621." },
+      {
+        "order": 2,
+        "text": "It has two buildings: a 120-metre wooden structure framing a fabric cocoon, and a square smoked-glass room."
+      },
+      { "order": 3, "text": "One of its two buildings holds the last major installation of a French-American artist." }
+    ],
+    "summary": {
+      "description": "The memorial in Vardø, in Finnmark, Norway, commemorates the trial and execution in 1621 of 91 people for witchcraft. It was designed by the artist Louise Bourgeois and the architect Peter Zumthor, began in 2006 and opened on 23 June 2011 in the presence of Queen Sonja. It comprises a 410-foot wooden structure framing a fabric cocoon that holds Zumthor's installation, and a square smoked-glass room, 39 feet on each side, that holds Bourgeois's work. Bourgeois died in 2010, and The Damned, The Possessed and The Beloved was her last major installation.",
+      "keyFeatures": [
+        "120-metre wooden structure framing a fabric cocoon",
+        "Square smoked-glass room with Louise Bourgeois's installation",
+        "Commissioned by the town, county, museum and national roads administration",
+        "Linked to the Norwegian National Tourist Routes"
+      ],
+      "funFacts": [
+        "Finnmark had the highest rate of witchcraft accusations in Norway and an unusually high proportion of executions.",
+        "The memorial was built 348 years after the peak of the trials in 1662–1663."
+      ]
+    }
   }
 ]

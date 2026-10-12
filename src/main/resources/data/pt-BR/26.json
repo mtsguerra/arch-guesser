@@ -1,0 +1,192 @@
+{
+  "therme-vals": {
+    "name": "Therme Vals",
+    "aliases": ["Termas de Vals", "7132 Thermal Baths", "7132 Therme", "Banhos Termais de Vals", "Felsentherme Vals"],
+    "architects": [
+      {
+        "aliases": ["Zumthor"],
+        "nationality": "Suíço",
+        "lifespan": "n. 1943",
+        "bio": "Arquiteto suíço, vencedor do Prémio Pritzker em 2009. Trabalha devagar e em poucas encomendas, com grande atenção aos materiais, à luz e à atmosfera, em obras como as termas de Vals, a Kunsthaus Bregenz e o museu Kolumba, em Colónia."
+      }
+    ],
+    "city": "Vals",
+    "style": "Arquitetura minimalista",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Bloco de pedra cinzenta em camadas horizontais com aberturas retangulares profundas e uma borda de relva junto a pinheiros e a um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Piscina termal ao ar livre integrada em muros e terraços de pedra, com espreguiçadeiras, sob uma encosta relvada e montanhas",
+        "caption": "As piscinas serpenteiam entre muros de pedra."
+      }
+    ],
+    "hints": [
+      "O seu conceito é uma interpretação arquitetónica de uma pedreira.",
+      "É feito de lajes de quartzito extraídas localmente, em 15 unidades semelhantes a mesas que encaixam como um puzzle.",
+      "Foi construído entre 1993 e 1996 sobre as únicas fontes termais do seu cantão."
+    ],
+    "summary": {
+      "description": "Peter Zumthor projetou este spa sobre as fontes termais de Vals, nos Grisões, no local de um complexo hoteleiro fracassado dos anos 1960 que a vila comprara em 1983. Construído entre 1993 e 1996 em quartzito Valser extraído localmente, é feito de 15 unidades em forma de mesa com 5 metros de altura, com coberturas de betão em balanço apoiadas em tirantes e frestas de 8 cm cobertas de vidro. O conceito é uma interpretação de uma pedreira, com uma alternância constante entre espaços pequenos e íntimos e a grande piscina sinuosa. Desde 2012 o hotel e o spa são privados e foram rebatizados 7132 Therme & Hotel.",
+      "keyFeatures": [
+        "15 unidades de pedra em forma de mesa com 5 metros de altura",
+        "Lajes de quartzito Valser extraídas localmente",
+        "Coberturas de betão com frestas cobertas de vidro entre as unidades",
+        "Espaços pequenos e íntimos e uma grande piscina sinuosa"
+      ],
+      "funFacts": [
+        "As coberturas das unidades não se juntam: frestas de 8 cm, cobertas de vidro, deixam entrar luz.",
+        "Em 2017 Zumthor queixou-se de que o novo proprietário estava a matar o projeto social para o qual as termas foram pensadas para a comunidade local."
+      ]
+    }
+  },
+  "kolumba": {
+    "name": "Kolumba",
+    "aliases": [
+      "Museu Kolumba",
+      "Kolumba-Museum",
+      "Kolumba Museu de Arte",
+      "Museu Diocesano de Colónia",
+      "Kolumba Colónia"
+    ],
+    "architects": [
+      {
+        "aliases": ["Zumthor"],
+        "nationality": "Suíço",
+        "lifespan": "n. 1943",
+        "bio": "Arquiteto suíço, vencedor do Prémio Pritzker em 2009. Trabalha devagar e em poucas encomendas, com grande atenção aos materiais, à luz e à atmosfera, em obras como as termas de Vals, a Kunsthaus Bregenz e o museu Kolumba, em Colónia."
+      }
+    ],
+    "city": "Colónia",
+    "style": "Arquitetura minimalista",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Edifício de tijolo perfurado cinzento-claro erguido acima da ruína de uma parede de igreja gótica, atrás de árvores sem folhas e carros estacionados",
+        "caption": null
+      },
+      {
+        "alt": "Sala de galeria cinzenta e luminosa com uma porta alta, visitantes, uma grande pintura e um painel de retábulo dourado",
+        "caption": "Dezasseis salas com luz do dia, tamanho e proporção diferentes."
+      }
+    ],
+    "hints": [
+      "Ergue-se no local de uma igreja românica destruída na Segunda Guerra Mundial e envolve as suas ruínas.",
+      "Uma fachada de tijolo cinzento perfurado envolve o museu e a igreja antiga como uma capa.",
+      "As suas dezasseis salas de exposição diferem em luz do dia, tamanho, proporção e percursos."
+    ],
+    "summary": {
+      "description": "Construído de 2003 a 2007 para a Arquidiocese de Colónia, o museu foi projetado por Peter Zumthor, cujo ateliê ganhou o concurso em 1997, e foi consagrado a 15 de setembro de 2007. Está no local da igreja românica de St. Kolumba, destruída na Segunda Guerra Mundial, e partilha-o com as ruínas góticas e a capela de 1950 'Madonna das Ruínas' de Gottfried Böhm. Uma capa perfurada de tijolo cinzento-claro, cozido especialmente para o projeto, envolve o museu e a igreja antiga. As dezasseis salas de exposição têm paredes de tijolo cinzento-claro e reboco de argila, pisos de calcário do Jura e terrazzo e tetos de argamassa vazada.",
+      "keyFeatures": [
+        "Fachada de tijolo perfurado cinzento-claro cozido especialmente para o projeto",
+        "Construído sobre as fundações e restos de St. Kolumba",
+        "Dezasseis salas de exposição com luz do dia variada",
+        "Inclui a capela de 1950 \"Madonna das Ruínas\" de Gottfried Böhm"
+      ],
+      "funFacts": [
+        "O museu foi fundado pela Sociedade para a Arte Cristã em 1853 e assumido pela Arquidiocese em 1989.",
+        "Até abril de 2007 o acervo ficava perto da Catedral de Colónia."
+      ]
+    }
+  },
+  "kunsthaus-bregenz": {
+    "name": "Kunsthaus Bregenz",
+    "aliases": [
+      "KUB",
+      "Casa de Arte de Bregenz",
+      "Kunsthaus Bregenz KUB",
+      "Museu de Arte de Bregenz",
+      "Kunsthaus Bregenz Zumthor"
+    ],
+    "architects": [
+      {
+        "aliases": ["Zumthor"],
+        "nationality": "Suíço",
+        "lifespan": "n. 1943",
+        "bio": "Arquiteto suíço, vencedor do Prémio Pritzker em 2009. Trabalha devagar e em poucas encomendas, com grande atenção aos materiais, à luz e à atmosfera, em obras como as termas de Vals, a Kunsthaus Bregenz e o museu Kolumba, em Colónia."
+      }
+    ],
+    "city": "Bregenz",
+    "style": "Arquitetura minimalista",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Cubo de vidro luminoso à noite, com a pele translúcida iluminada por dentro, ao lado de um poste de luz e carros estacionados",
+        "caption": null
+      },
+      {
+        "alt": "Estreita caixa de escada de concreto entre duas paredes cinzentas iluminada por uma claraboia no topo",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Abriu em julho de 1997 com uma exposição de James Turrell.",
+      "Foi concebido como um \"museu de luz do dia\", e visto de fora o cubo revestido de vidro parece uma lâmpada.",
+      "O seu arquiteto ganhou o Prémio Mies van der Rohe de Arquitetura Europeia em 1998."
+    ],
+    "summary": {
+      "description": "Encomendado pelo Estado de Vorarlberg e projetado pelo arquiteto suíço Peter Zumthor, o Kunsthaus Bregenz foi construído entre 1990 e 1997 na margem do lago de Constança e abriu em julho de 1997 com uma exposição de James Turrell. É feito de vidro, aço e uma massa de betão moldado que confere textura e composição espacial ao interior. Visto de fora, o edifício parece uma lâmpada, absorvendo e refletindo a luz do céu e a bruma do lago. Concebido como um museu de luz do dia, é um belo exemplo de minimalismo arquitetónico que apresenta exposições temporárias de arte contemporânea internacional.",
+      "keyFeatures": [
+        "Cubo revestido de vidro na margem do lago de Constança",
+        "Interior de betão moldado",
+        "Concebido como um museu de luz do dia",
+        "Exposições temporárias de arte contemporânea internacional"
+      ],
+      "funFacts": [
+        "Edelbert Köb foi o primeiro diretor, de 1997 a 2000.",
+        "Zumthor foi também o laureado do Prémio Pritzker de 2009."
+      ]
+    }
+  },
+  "steilneset-memorial": {
+    "name": "Memorial de Steilneset",
+    "aliases": [
+      "Steilneset Memorial",
+      "Steilneset Minnested",
+      "Memorial das Bruxas de Vardø",
+      "Steilneset",
+      "Memorial das Bruxarias de Vardø"
+    ],
+    "architects": [
+      {
+        "aliases": ["Zumthor"],
+        "nationality": "Suíço",
+        "lifespan": "n. 1943",
+        "bio": "Arquiteto suíço, vencedor do Prémio Pritzker em 2009. Trabalha devagar e em poucas encomendas, com grande atenção aos materiais, à luz e à atmosfera, em obras como as termas de Vals, a Kunsthaus Bregenz e o museu Kolumba, em Colónia."
+      }
+    ],
+    "city": "Vardø",
+    "style": "Arquitetura minimalista",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longo edifício de madeira sobre altas estacas, com uma forma de casco pontiagudo revestida de tecido, à beira-mar, depois de relva verde e de um caminho de cascalho",
+        "caption": null
+      },
+      {
+        "alt": "Fogo a arder sobre uma cadeira numa bacia de pedra, rodeado por espelhos de metal escuro numa sala de vidro fumado",
+        "caption": "Uma chama arde dentro da sala de vidro fumado."
+      }
+    ],
+    "hints": [
+      "Comemora 91 pessoas julgadas e executadas por bruxaria em 1621.",
+      "Tem dois edifícios: uma estrutura de madeira de 120 metros que emoldura um casulo de tecido e uma sala quadrada de vidro fumado.",
+      "Um dos seus dois edifícios guarda a última grande instalação de uma artista franco-americana."
+    ],
+    "summary": {
+      "description": "O memorial em Vardø, no Finnmark, na Noruega, comemora o julgamento e a execução, em 1621, de 91 pessoas por bruxaria. Foi projetado pela artista Louise Bourgeois e pelo arquiteto Peter Zumthor, começou em 2006 e abriu a 23 de junho de 2011 na presença da rainha Sonja. Compreende uma estrutura de madeira de 120 metros que emoldura um casulo de tecido com a instalação de Zumthor e uma sala quadrada de vidro fumado, com 12 metros de lado, com a obra de Bourgeois. Bourgeois morreu em 2010, e The Damned, The Possessed and The Beloved foi a sua última grande instalação.",
+      "keyFeatures": [
+        "Estrutura de madeira de 120 metros que emoldura um casulo de tecido",
+        "Sala quadrada de vidro fumado com a instalação de Louise Bourgeois",
+        "Encomendado pela vila, pelo condado, pelo museu e pela administração de estradas nacionais",
+        "Ligado às Rotas Turísticas Nacionais da Noruega"
+      ],
+      "funFacts": [
+        "O Finnmark teve a maior taxa de acusações de bruxaria da Noruega e uma proporção invulgarmente alta de execuções.",
+        "O memorial foi construído 348 anos depois do pico dos julgamentos em 1662–1663."
+      ]
+    }
+  }
+}
