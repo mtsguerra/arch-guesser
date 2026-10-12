@@ -1,0 +1,236 @@
+{
+  "finlandia-hall": {
+    "name": "Auditório Finlândia",
+    "aliases": ["Finlandia-talo", "Casa Finlândia", "Finlandiahuset", "Palácio Finlândia", "Finlandia Hall"],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "bio": "Arquiteto modernista finlandês que trabalhou em parceria com a esposa, Aino; seu ateliê projetava edifícios, móveis e iluminação como conjuntos integrados."
+      }
+    ],
+    "city": "Helsínquia",
+    "style": "Modernismo nórdico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Audit%C3%B3rio_Finl%C3%A2ndia",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longo edifício de mármore branco com janelas em fita e beiral saliente ao lado de uma praça pavimentada e árvores sem folhas",
+        "caption": null
+      },
+      {
+        "alt": "Foyer branco e luminoso com pilares redondos, uma parede de janelas altas para as árvores e uma galeria envidraçada acima",
+        "caption": "Cada candeeiro, painel e piso foi desenhado para o edifício."
+      }
+    ],
+    "hints": [
+      "Uma parte em forma de torre com cobertura inclinada serve para dar melhor acústica ao salão principal.",
+      "Mármore italiano reveste-o por dentro e por fora, em contraste com granito preto.",
+      "Em 1975 recebeu uma cimeira com 35 líderes mundiais, entre eles Brejnev e Ford."
+    ],
+    "summary": {
+      "description": "Projetado por Alvar Aalto em 1962 e construído entre 1967 e 1971, o auditório foi inaugurado a 2 de dezembro de 1971 com um concerto que incluiu o concerto para violino de Sibelius, tocado por Isaac Stern. Foi a única parte de um grande plano para um novo centro monumental em torno da baía de Töölö, em Helsínquia, a ser construída. A sua secção em forma de torre com cobertura inclinada, escondida por um teto de ripas, dá ao salão principal um pós-eco profundo, e o mármore de Carrara contrasta com o granito preto. Aalto desenhou cada detalhe, de candeeiros a móveis, como uma obra de arte total.",
+      "keyFeatures": [
+        "Secção em torre com cobertura inclinada para a acústica",
+        "Mármore de Carrara contra granito preto",
+        "Teto de ripas que esconde o espaço alto acima do público",
+        "Candeeiros, móveis e acessórios todos desenhados por Aalto"
+      ],
+      "funFacts": [
+        "Um trapézio preto na torre branca faz o Museu Nacional parecer erguer-se do auditório, visto do outro lado da baía de Töölö.",
+        "A ala de congressos foi projetada em 1970 e construída em 1973–1975."
+      ]
+    }
+  },
+  "saynatsalo-town-hall": {
+    "name": "Câmara Municipal de Säynätsalo",
+    "aliases": [
+      "Säynätsalon kunnantalo",
+      "Prefeitura de Säynätsalo",
+      "Paços do Concelho de Säynätsalo",
+      "Saynatsalo Town Hall",
+      "Säynätsalo Town Hall"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "bio": "Arquiteto modernista finlandês que trabalhou em parceria com a esposa, Aino; seu ateliê projetava edifícios, móveis e iluminação como conjuntos integrados."
+      }
+    ],
+    "city": "Säynätsalo, Jyväskylä",
+    "style": "Modernismo orgânico nórdico",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Bloco alto de tijolo vermelho com topo escalonado e inclinado erguendo-se atrás de um muro coberto de hera e de uma ala baixa de madeira",
+        "caption": null
+      },
+      {
+        "alt": "Longo corredor ensolarado com piso de tijolo, uma parede de janelas altas de moldura de madeira, floreiras e uma porta de madeira ao fundo",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi ganha num concurso de projeto em 1949, com uma proposta chamada \"Curia\".",
+      "Edifícios de tijolo reúnem-se em torno de um pátio elevado, um arranjo inspirado no Renascimento italiano.",
+      "A sala do conselho é coroada por tesouras de madeira conhecidas como tesouras-borboleta."
+    ],
+    "summary": {
+      "description": "Alvar Aalto ganhou a encomenda num concurso em 1949, e o edifício foi concluído em dezembro de 1951 para a pequena cidade industrial de Säynätsalo, que se fundiu com Jyväskylä em 1993. Uma câmara e sala do conselho em forma de U e uma biblioteca comunitária com apartamentos rodeiam um pátio central elevado, inspirado no Renascimento italiano. A paleta limita-se a tijolo, madeira e cobre, e uma passagem envidraçada contorna o pátio como uma arcada. A sala do conselho, de pé-direito duplo, é coroada pelas tesouras-borboleta de Aalto.",
+      "keyFeatures": [
+        "Pátio elevado emoldurado por edifícios de tijolo",
+        "Paleta de tijolo, madeira e cobre",
+        "Circulação envidraçada como uma arcada",
+        "Sala do conselho com tesouras-borboleta, alcançada por uma rampa"
+      ],
+      "funFacts": [
+        "Aalto já tinha sido encarregado em 1944 de desenhar um plano urbano para Säynätsalo, uma cidade de fábricas de processamento de madeira.",
+        "Ele queria que o grande espaço público e as secções abertas ao público exprimissem a relação entre democracia e governo."
+      ]
+    }
+  },
+  "villa-aalto": {
+    "name": "Casa Aalto",
+    "aliases": ["Villa Aalto", "Casa de Alvar Aalto", "Casa e Estúdio Aalto", "Residência Aalto", "Aalto House"],
+    "architects": [
+      {
+        "aliases": ["Aino Marsio-Aalto", "Aino Marsio"],
+        "nationality": "Finlandesa",
+        "lifespan": "1894–1949",
+        "bio": "Arquiteta e designer finlandesa, companheira de Alvar Aalto na vida e no trabalho. Co-projetou a casa e o estúdio do casal em Munkkiniemi, Helsínquia, e desenhou móveis e peças de vidro."
+      },
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "bio": "Arquiteto modernista finlandês que trabalhou em parceria com a esposa, Aino; seu ateliê projetava edifícios, móveis e iluminação como conjuntos integrados."
+      }
+    ],
+    "city": "Helsínquia",
+    "style": "Funcionalismo romântico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Villa_Aalto",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Casa de dois pisos com o piso superior saliente revestido de ripas escuras de madeira sobre um térreo branco, num jardim com lajes de pedra",
+        "caption": null
+      },
+      {
+        "alt": "Sala de estar ensolarada com persianas de madeira numa parede de janelas, poltronas de madeira curvada, uma mesa baixa e prateleiras com livros e uma garrafa verde",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construída como casa de família e escritório de arquitetura, e ficou pronta em agosto de 1936.",
+      "Enquanto estava em obras, quem passava perguntava que tipo de galinheiro seria.",
+      "Tem quatro lareiras de tijolo e muita madeira, antecipando uma villa posterior mais famosa do mesmo arquiteto."
+    ],
+    "summary": {
+      "description": "Aino e Alvar Aalto projetaram esta casa em L no subúrbio de Munkkiniemi, em Helsínquia, como casa e local de trabalho, e ela foi concluída em agosto de 1936, mais ou menos na mesma altura que a Biblioteca de Viipuri. Os quartos ficam no piso superior e o estúdio ao nível do solo. A frente para a rua é fechada e dura, suavizada por trepadeiras e um caminho de ardósia. Com muita madeira e quatro lareiras de tijolo, a casa antecipa a Villa Mairea e mostra um funcionalismo mais romântico.",
+      "keyFeatures": [
+        "Casa em L de planta aberta com o estúdio no piso térreo",
+        "Piso superior revestido de ripas finas de madeira escurecida",
+        "Quatro lareiras de tijolo",
+        "Grande terraço virado a sul do lado do pátio"
+      ],
+      "funFacts": [
+        "O escritório mudou-se para o vizinho Studio Aalto quando a firma cresceu em 1955.",
+        "A casa e o estúdio são hoje museus geridos pelo Museu Alvar Aalto."
+      ]
+    }
+  },
+  "studio-aalto": {
+    "name": "Studio Aalto",
+    "aliases": [
+      "Estúdio de Alvar Aalto",
+      "Estúdio Aalto",
+      "Alvar Aallon ateljee",
+      "Atelier Aalto",
+      "Alvar Aalto Studio"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "bio": "Arquiteto modernista finlandês que trabalhou em parceria com a esposa, Aino; seu ateliê projetava edifícios, móveis e iluminação como conjuntos integrados."
+      }
+    ],
+    "city": "Helsínquia",
+    "style": "Modernismo nórdico",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Oficina_Aalto",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Paredes simples de tijolo pintado de branco com uma faixa horizontal de janelas, um muro baixo e árvores sem folhas sob um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Grande escritório de desenho aberto com janelas amplas, mesas compridas, gaveteiros de plantas e candeeiros de mesa sob um teto claro",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Foi construído porque o escritório do arquiteto precisava de mais espaço para um grande número de encomendas.",
+      "A sua massa branca fechada esconde um jardim em pátio com a forma de um anfiteatro.",
+      "Fica perto da casa anterior onde o mesmo arquiteto vivia e trabalhava."
+    ],
+    "summary": {
+      "description": "Alvar Aalto projetou este escritório em 1955–56 no bairro de Tiilimäki, em Munkkiniemi, Helsínquia, quando a sua prática ultrapassou a casa. A fachada é de tijolo pintado de branco e ligeiramente rebocado, e a massa fechada esconde um jardim interior em forma de anfiteatro, com degraus de ardósia. Janelas amplas iluminam o espaço de trabalho do piso superior dos dois lados. Uma ampliação em 1963 acrescentou uma cozinha e um espaço de refeições chamado taverna.",
+      "keyFeatures": [
+        "Fachada de tijolo pintado de branco e ligeiramente rebocado",
+        "Pátio em forma de anfiteatro com degraus de ardósia",
+        "Janelas amplas que iluminam o espaço de trabalho superior",
+        "Ampliação de 1963 com cozinha e espaço de refeições chamado taverna"
+      ],
+      "funFacts": [
+        "Aalto dirigiu o escritório até à sua morte, em 1976, e Elissa Aalto até 1994.",
+        "Aalto terá dito que a arte da arquitetura não pode ser criada num ambiente de escritório."
+      ]
+    }
+  },
+  "church-of-the-three-crosses": {
+    "name": "Igreja das Três Cruzes",
+    "aliases": [
+      "Kolmen Ristin kirkko",
+      "Igreja de Vuoksenniska",
+      "Vuoksenniska",
+      "Church of the Three Crosses",
+      "Três Cruzes de Imatra"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "bio": "Arquiteto modernista finlandês que trabalhou em parceria com a esposa, Aino; seu ateliê projetava edifícios, móveis e iluminação como conjuntos integrados."
+      }
+    ],
+    "city": "Imatra",
+    "style": "Modernismo orgânico",
+    "drawings": [],
+    "photos": [
+      { "alt": "Edifícios brancos de igreja com telhado escuro entre altos pinheiros na neve", "caption": null },
+      {
+        "alt": "Átrio de entrada com um longo banco de madeira, um quadro de avisos, uma porta de madeira e piso de ladrilho castanho",
+        "caption": null
+      }
+    ],
+    "hints": [
+      "Em 1998 uma comissão do património escolheu-a como um dos cinco edifícios mais importantes do seu arquiteto, para marcar o seu centenário.",
+      "As suas três naves consecutivas podem ser divididas por paredes deslizantes, e partes servem a atividades da paróquia durante a semana.",
+      "O nome vem das três cruzes no altar."
+    ],
+    "summary": {
+      "description": "Alvar Aalto projetou esta igreja luterana em Kaukopää, Imatra, e ela foi concluída em 1958; diz-se ser o seu projeto de igreja mais original. Três naves consecutivas podem ser separadas por paredes deslizantes, o que permite usar partes da igreja para atividades da paróquia durante a semana. O exterior é branco com cobertura de cobre. A Docomomo inclui-a como exemplo significativo de arquitetura moderna na Finlândia.",
+      "keyFeatures": [
+        "Três naves consecutivas separadas por paredes deslizantes",
+        "Exterior branco com cobertura de cobre",
+        "Três cruzes no altar",
+        "Listada pela Docomomo como arquitetura moderna significativa na Finlândia"
+      ],
+      "funFacts": [
+        "Uma comissão criada pela Agência Finlandesa do Património em 1998 escolheu-a como um dos cinco edifícios mais importantes de Aalto.",
+        "É também conhecida como Igreja de Vuoksenniska."
+      ]
+    }
+  }
+}

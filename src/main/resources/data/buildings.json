@@ -14086,5 +14086,301 @@
         "The bar was the subject of several recreations and an exhibition in Los Angeles."
       ]
     }
+  },
+  {
+    "id": "finlandia-hall",
+    "name": "Finlandia Hall",
+    "aliases": ["Finlandia-talo", "Finlandia House", "Finlandiahuset", "Finlandia Talo"],
+    "architects": [
+      {
+        "name": "Alvar Aalto",
+        "aliases": ["Aalto", "Hugo Alvar Henrik Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish modernist architect who worked in partnership with his wife Aino; their studio designed buildings, furniture and lighting as integrated wholes."
+      }
+    ],
+    "location": { "city": "Helsinki", "country": "Finland", "countryCode": "FI" },
+    "yearCompleted": 1971,
+    "era": "MODERNISM",
+    "style": "Nordic modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Finlandia_Hall",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Finlandiahuset_November_2025_01.jpg/1920px-Finlandiahuset_November_2025_01.jpg",
+        "alt": "Long white marble building with ribbon windows and a projecting roof edge beside a paved square and bare trees",
+        "credit": "Photo: ArildV · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Finlandiahuset_November_2025_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Finlandia_Hall_Main_Hall.jpg/1920px-Finlandia_Hall_Main_Hall.jpg",
+        "alt": "Bright white foyer with round pillars, a tall window wall onto trees and a glazed gallery overhead",
+        "caption": "Every lamp, panel and floor was designed for the building.",
+        "credit": "Photo: WanderingTrad · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Finlandia_Hall_Main_Hall.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "A tower-like part with a sloping roof was meant to give the main hall better acoustics." },
+      { "order": 2, "text": "Italian marble clads it inside and out, set against black granite." },
+      { "order": 3, "text": "In 1975 it hosted a summit attended by 35 world leaders, among them Brezhnev and Ford." }
+    ],
+    "summary": {
+      "description": "Designed by Alvar Aalto in 1962 and built between 1967 and 1971, the hall was inaugurated on 2 December 1971 with a concert that included Sibelius's violin concerto played by Isaac Stern. It was the only part of a grand plan for a new monumental centre around Töölö Bay in Helsinki to be built. Its tower-like section with a sloping roof, hidden by a lattice ceiling, gives the main hall a deep post-echo, and Carrara marble is set against black granite. Aalto designed every detail, from lamps to furniture, as a total work of art.",
+      "keyFeatures": [
+        "Tower-like section with a sloping roof for acoustics",
+        "Carrara marble against black granite",
+        "Lattice ceiling hiding the high space above the audience",
+        "Lamps, furniture and fittings all designed by Aalto"
+      ],
+      "funFacts": [
+        "A black trapezium on the white tower makes the National Museum look as if it rises from the hall when seen from across Töölö Bay.",
+        "The Congress Wing was designed in 1970 and built in 1973–1975."
+      ]
+    }
+  },
+  {
+    "id": "saynatsalo-town-hall",
+    "name": "Säynätsalo Town Hall",
+    "aliases": [
+      "Säynätsalon kunnantalo",
+      "Saynatsalo Town Hall",
+      "Saynatsalo Town Hall Finland",
+      "Säynätsalo Municipal Hall"
+    ],
+    "architects": [
+      {
+        "name": "Alvar Aalto",
+        "aliases": ["Aalto", "Hugo Alvar Henrik Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish modernist architect who worked in partnership with his wife Aino; their studio designed buildings, furniture and lighting as integrated wholes."
+      }
+    ],
+    "location": { "city": "Säynätsalo, Jyväskylä", "country": "Finland", "countryCode": "FI" },
+    "yearCompleted": 1951,
+    "era": "MODERNISM",
+    "style": "Nordic organic modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/S%C3%A4yn%C3%A4tsalo_Town_Hall",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/S%C3%A4yn%C3%A4tsalo_town_hall.jpg/1920px-S%C3%A4yn%C3%A4tsalo_town_hall.jpg",
+        "alt": "Tall red-brick block with a stepped, sloping top rising behind an ivy-covered wall and a low timber-framed wing",
+        "credit": "Photo: Alexignat · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%A4yn%C3%A4tsalo_town_hall.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/S%C3%A4yn%C3%A4tsalo_town_hall_corridor.jpg/1920px-S%C3%A4yn%C3%A4tsalo_town_hall_corridor.jpg",
+        "alt": "Long sunlit corridor with brick floor, a wall of tall wood-framed windows, planters and a wooden door at the end",
+        "credit": "Photo: Alexignat · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%A4yn%C3%A4tsalo_town_hall_corridor.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "It was won in a design competition in 1949, under an entry called \"Curia\"." },
+      {
+        "order": 2,
+        "text": "Brick buildings gather around a raised courtyard, an arrangement inspired by the Italian Renaissance."
+      },
+      { "order": 3, "text": "The council chamber is topped by timber trusses known as butterfly trusses." }
+    ],
+    "summary": {
+      "description": "Alvar Aalto won the commission in a 1949 competition, and the building was completed in December 1951 for the small factory town of Säynätsalo, which merged with Jyväskylä in 1993. A U-shaped council chamber and town hall and a community library with flats surround a raised central courtyard, inspired by the Italian Renaissance. The palette is limited to brick, timber and copper, and a glass-enclosed walkway borders the courtyard like an arcade. The double-height council chamber is crowned by Aalto's butterfly trusses.",
+      "keyFeatures": [
+        "Raised courtyard framed by brick buildings",
+        "Palette of brick, timber and copper",
+        "Glass-enclosed circulation space like an arcade",
+        "Council chamber with butterfly trusses, reached by a ramp"
+      ],
+      "funFacts": [
+        "Aalto had already been commissioned in 1944 to design a town plan for Säynätsalo, a wood-processing mill town.",
+        "He wanted the large public space and the public sections to express the relationship between democracy and government."
+      ]
+    }
+  },
+  {
+    "id": "villa-aalto",
+    "name": "Aalto House",
+    "aliases": ["Villa Aalto", "Alvar Aalto House", "Aalto Home and Studio", "Aalto Residence"],
+    "architects": [
+      {
+        "name": "Aino Aalto",
+        "aliases": ["Aino Marsio-Aalto", "Aino Marsio"],
+        "lifespan": "1894–1949",
+        "nationality": "Finnish",
+        "bio": "Finnish architect and designer, partner of Alvar Aalto in life and in work. She co-designed the couple's own house and studio in Munkkiniemi, Helsinki, and designed furniture and glassware."
+      },
+      {
+        "name": "Alvar Aalto",
+        "aliases": ["Aalto", "Hugo Alvar Henrik Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish modernist architect who worked in partnership with his wife Aino; their studio designed buildings, furniture and lighting as integrated wholes."
+      }
+    ],
+    "location": { "city": "Helsinki", "country": "Finland", "countryCode": "FI" },
+    "yearCompleted": 1936,
+    "era": "MODERNISM",
+    "style": "Romantic functionalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_Aalto",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Villa_Aalto.jpg/1920px-Villa_Aalto.jpg",
+        "alt": "Two-storey house with a projecting upper floor clad in dark timber battens above a white ground floor, in a garden with stone slabs",
+        "credit": "Photo: Mikkoau · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Aalto.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Int%C3%A9rieur_Villa_Aalto.jpg/1920px-Int%C3%A9rieur_Villa_Aalto.jpg",
+        "alt": "Sunny living room with wooden blinds on a window wall, bent-wood armchairs, a low table and shelves with books and a green bottle",
+        "credit": "Photo: Ninara · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_Villa_Aalto.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as both a family home and an architect's office, and was finished in August 1936."
+      },
+      { "order": 2, "text": "While it was being built, passers-by wondered what kind of henhouse it was going to be." },
+      {
+        "order": 3,
+        "text": "It has four brick fireplaces and a lot of wood, anticipating a later, more famous villa by the same architect."
+      }
+    ],
+    "summary": {
+      "description": "Aino and Alvar Aalto designed this L-shaped house in the Helsinki suburb of Munkkiniemi as their home and workspace, and it was completed in August 1936, roughly at the same time as the Viipuri Library. Living quarters are on the upper floor and the studio at ground level. The street front is closed and harsh, softened by climbing plants and a slate path. With plentiful wood and four brick fireplaces, the house anticipates Villa Mairea and shows a more romantic functionalism.",
+      "keyFeatures": [
+        "L-shaped, open plan with the studio on the ground floor",
+        "Upper floor clad in slender dark-stained timber battens",
+        "Four brick fireplaces",
+        "Large south-facing terrace on the courtyard side"
+      ],
+      "funFacts": [
+        "The office moved to the nearby Studio Aalto when the firm expanded in 1955.",
+        "Both the house and the studio are now museums run by the Alvar Aalto Museum."
+      ]
+    }
+  },
+  {
+    "id": "studio-aalto",
+    "name": "Studio Aalto",
+    "aliases": ["Alvar Aalto Studio", "Aalto Studio", "Alvar Aallon ateljee", "Aalto Atelier"],
+    "architects": [
+      {
+        "name": "Alvar Aalto",
+        "aliases": ["Aalto", "Hugo Alvar Henrik Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish modernist architect who worked in partnership with his wife Aino; their studio designed buildings, furniture and lighting as integrated wholes."
+      }
+    ],
+    "location": { "city": "Helsinki", "country": "Finland", "countryCode": "FI" },
+    "yearCompleted": 1956,
+    "era": "MODERNISM",
+    "style": "Nordic modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Studio_Aalto",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Studio_Aalto_exterior_2014.jpg/1920px-Studio_Aalto_exterior_2014.jpg",
+        "alt": "Plain white brick walls with a long horizontal window strip, a low wall and bare trees under a blue sky",
+        "credit": "Photo: Trogain · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Studio_Aalto_exterior_2014.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Studio_Aalto.jpg/1920px-Studio_Aalto.jpg",
+        "alt": "Large open drawing office with big windows, long tables, plan chests and desk lamps under a pale ceiling",
+        "credit": "Photo: Pepechibiryu · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Studio_Aalto.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built because the architect's office needed more space for a large number of commissions."
+      },
+      { "order": 2, "text": "Its closed white mass hides a courtyard garden shaped like an amphitheatre." },
+      { "order": 3, "text": "It stands near the earlier house where the same architect lived and worked." }
+    ],
+    "summary": {
+      "description": "Alvar Aalto designed this office in 1955–56 in the Tiilimäki neighbourhood of Munkkiniemi, Helsinki, when his practice outgrew his home. The facade is plain white-painted, lightly rendered brick, and the closed mass conceals an inner courtyard garden shaped like an amphitheatre, with slate steps. Large windows light the upstairs workspace on both sides. An extension in 1963 added a kitchen and dining space known as the taverna.",
+      "keyFeatures": [
+        "White-painted, lightly rendered brick facade",
+        "Amphitheatre-shaped courtyard with slate steps",
+        "Large windows lighting the upstairs workspace",
+        "1963 extension with a kitchen and dining space called the taverna"
+      ],
+      "funFacts": [
+        "Aalto ran the office until his death in 1976, and Elissa Aalto led it until 1994.",
+        "Aalto reportedly said that architectural art cannot be created in an office-like environment."
+      ]
+    }
+  },
+  {
+    "id": "church-of-the-three-crosses",
+    "name": "Church of the Three Crosses",
+    "aliases": ["Kolmen Ristin kirkko", "Vuoksenniska Church", "Vuoksenniska Church Imatra", "Three Crosses Church"],
+    "architects": [
+      {
+        "name": "Alvar Aalto",
+        "aliases": ["Aalto", "Hugo Alvar Henrik Aalto"],
+        "nationality": "Finnish",
+        "bio": "Finnish modernist architect who worked in partnership with his wife Aino; their studio designed buildings, furniture and lighting as integrated wholes."
+      }
+    ],
+    "location": { "city": "Imatra", "country": "Finland", "countryCode": "FI" },
+    "yearCompleted": 1958,
+    "era": "MODERNISM",
+    "style": "Organic modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_the_Three_Crosses",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kolmen_Ristin_kirkko_1.JPG/1920px-Kolmen_Ristin_kirkko_1.JPG",
+        "alt": "White church buildings with a dark roof among tall pine trees in snow",
+        "credit": "Photo: MKFI · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kolmen_Ristin_kirkko_1.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Church_of_the_Three_Crosses_01.JPG/1920px-Church_of_the_Three_Crosses_01.JPG",
+        "alt": "Entrance hall with a long wooden bench, a notice board, a wooden door and a brown tiled floor",
+        "credit": "Photo: Rünno · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_of_the_Three_Crosses_01.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "In 1998 a heritage committee picked it as one of the five most important buildings by its architect, to mark his centenary."
+      },
+      {
+        "order": 2,
+        "text": "Its three consecutive halls can be divided by sliding walls, so parts serve parish activities during the week."
+      },
+      { "order": 3, "text": "It gets its name from the three crosses at the altar." }
+    ],
+    "summary": {
+      "description": "Alvar Aalto designed this Lutheran church in Kaukopää, Imatra, and it was completed in 1958; it is said to be his most original church design. Three consecutive halls can be separated by sliding walls, which lets parts of the church be used for parish activities during the week. The exterior is white with copper roofing. Docomomo lists it as a significant example of modern architecture in Finland.",
+      "keyFeatures": [
+        "Three consecutive halls separated by sliding walls",
+        "White exterior with copper roofing",
+        "Three crosses at the altar",
+        "Listed by Docomomo as significant modern architecture in Finland"
+      ],
+      "funFacts": [
+        "A committee set up by the Finnish Heritage Agency in 1998 chose it as one of the five most important buildings by Aalto.",
+        "It is also known as Vuoksenniska Church."
+      ]
+    }
   }
 ]
