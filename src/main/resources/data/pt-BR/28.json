@@ -1,0 +1,144 @@
+{
+  "heydar-aliyev-center": {
+    "name": "Centro Heydar Aliyev",
+    "aliases": [
+      "Heydər Əliyev Mərkəzi",
+      "Centro Cultural Heydar Aliyev",
+      "Heydar Aliyev Center",
+      "Centro Heydar Aliev",
+      "Centro Heydar Aliyev de Baku"
+    ],
+    "architects": [
+      {
+        "aliases": ["Hadid", "Dame Zaha Hadid"],
+        "nationality": "Iraquiano-britânica",
+        "lifespan": "1950–2016",
+        "bio": "Arquiteta iraquiano-britânica que, em 2004, se tornou a primeira mulher a vencer o Prémio Pritzker. As formas fluidas e fragmentadas de Hadid, exploradas primeiro em desenhos e pinturas, evoluíram do desconstrutivismo para um estilo curvo e fluido visto em edifícios de todo o mundo."
+      }
+    ],
+    "city": "Baku",
+    "style": "Neofuturismo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Enorme edifício branco que sobe em curvas suaves até uma dobra de paredes de vidro, sobre uma ampla praça pavimentada com visitantes e uma escultura",
+        "caption": null
+      },
+      {
+        "alt": "Sala de concertos revestida de madeira quente, com balcões curvos e sinuosos, uma orquestra e um piano de cauda num palco iluminado",
+        "caption": "Um auditório de 1.000 lugares revestido de madeira curva."
+      }
+    ],
+    "hints": [
+      "Todas as suas funções e entradas são dobras de uma única superfície contínua.",
+      "Em 2014 ganhou o Design of the Year do Design Museum, tornando a sua arquiteta a primeira mulher a vencê-lo.",
+      "Estende-se por oito níveis e tem um auditório de 1.000 lugares, espaços de exposição, oficinas e um museu."
+    ],
+    "summary": {
+      "description": "Zaha Hadid foi nomeada arquiteta de projeto em 2007 depois de um concurso para este complexo de 57.500 metros quadrados no centro de Baku. A sua forma fluida nasce da dobra da topografia natural da paisagem e do envolvimento de funções individuais, com entradas e todas as funções representadas por dobras numa única superfície contínua que evita ângulos agudos. Estende-se por oito níveis e abriga um auditório de 1.000 lugares, espaços de exposições temporárias, um centro de conferências, oficinas e um museu. O edifício teve uma abertura experimental a 10 de maio de 2012.",
+      "keyFeatures": [
+        "Única superfície contínua dobrada sem ângulos agudos",
+        "Oito níveis",
+        "Auditório de 1.000 lugares",
+        "Centro de conferências, oficinas e um museu"
+      ],
+      "funFacts": [
+        "Ganhou o prémio Design of the Year do Design Museum em 2014, apesar de preocupações com o historial de direitos humanos do local.",
+        "Em 2013 acolheu a primeira exposição no Azerbaijão com mais de cem obras de Andy Warhol."
+      ]
+    }
+  },
+  "london-aquatics-centre": {
+    "name": "London Aquatics Centre",
+    "aliases": [
+      "Centro Aquático de Londres",
+      "Aquatics Centre",
+      "Centro Aquático de Londres 2012",
+      "Centro Aquático Olímpico",
+      "Centro Aquático do Parque Olímpico"
+    ],
+    "architects": [
+      {
+        "aliases": ["Hadid", "Dame Zaha Hadid"],
+        "nationality": "Iraquiano-britânica",
+        "lifespan": "1950–2016",
+        "bio": "Arquiteta iraquiano-britânica que, em 2004, se tornou a primeira mulher a vencer o Prémio Pritzker. As formas fluidas e fragmentadas de Hadid, exploradas primeiro em desenhos e pinturas, evoluíram do desconstrutivismo para um estilo curvo e fluido visto em edifícios de todo o mundo."
+      }
+    ],
+    "city": "Londres",
+    "style": "Arquitetura paramétrica",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Centro_Aqu%C3%A1tico_de_Londres",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Longa cobertura metálica em forma de onda que sobe numa das pontas sobre uma frente de vidro, vista do outro lado de um rio e de uma passarela",
+        "caption": null
+      },
+      {
+        "alt": "Salão de piscinas com plataformas de saltos de betão branco, um tanque de saltos e uma piscina sob um teto curvo escuro",
+        "caption": "Plataformas de saltos de betão com trampolins a 3, 5, 7,5 e 10 metros."
+      }
+    ],
+    "hints": [
+      "A sua cobertura em onda foi projetada em 2004, antes de a cidade ganhar a candidatura aos Jogos Olímpicos que serviu.",
+      "Tem uma piscina de competição de 50 metros, um tanque de saltos de 25 metros e uma piscina de aquecimento de 50 metros.",
+      "As alas de espectadores não estavam no projeto original; foram acrescentadas para acomodar o público estimado."
+    ],
+    "summary": {
+      "description": "Projetado por Zaha Hadid em 2004, antes de Londres ganhar a candidatura aos Jogos Olímpicos de Verão de 2012, o centro foi construído em frente ao Estádio Olímpico, na margem oposta do rio Waterworks. Tem 45 metros de altura, 160 de comprimento e 80 de largura, sob uma cobertura em forma de onda. A sua piscina de 50 metros tem 3 metros de profundidade, com um piso que se pode mover e barreiras para mudar o tamanho. O tanque de saltos tem plataformas a 3, 5, 7,5 e 10 metros e três trampolins de 3 metros. As alas de espectadores foram acrescentadas depois, e após modificações significativas abriu ao público em março de 2014.",
+      "keyFeatures": [
+        "Cobertura em onda sobre três piscinas",
+        "Piscina de competição de 50 metros com piso móvel",
+        "Plataformas de saltos a 3, 5, 7,5 e 10 metros",
+        "Alas de espectadores temporárias para os Jogos"
+      ],
+      "funFacts": [
+        "O presidente do COI, Jacques Rogge, descreveu-o como uma \"obra-prima\".",
+        "O projeto revisto de 2006 era muito menor do que o primeiro, cujo custo estimado tinha duplicado."
+      ]
+    }
+  },
+  "phaeno-science-center": {
+    "name": "Centro de Ciência Phaeno",
+    "aliases": ["Phæno", "Phaeno", "Phaeno Wolfsburg", "Centro de Ciências Phæno", "Phaeno Science Center"],
+    "architects": [
+      {
+        "aliases": ["Hadid", "Dame Zaha Hadid"],
+        "nationality": "Iraquiano-britânica",
+        "lifespan": "1950–2016",
+        "bio": "Arquiteta iraquiano-britânica que, em 2004, se tornou a primeira mulher a vencer o Prémio Pritzker. As formas fluidas e fragmentadas de Hadid, exploradas primeiro em desenhos e pinturas, evoluíram do desconstrutivismo para um estilo curvo e fluido visto em edifícios de todo o mundo."
+      }
+    ],
+    "city": "Wolfsburg",
+    "style": "Desconstrutivismo",
+    "drawings": [],
+    "photos": [
+      {
+        "alt": "Bloco de concreto cinzento com aberturas escuras de formas irregulares, elevado sobre pernas cónicas, ao lado de chaminés de tijolo sob um céu nublado",
+        "caption": null
+      },
+      {
+        "alt": "Vasto piso de exposição na penumbra sob uma cobertura de aço, com visitantes junto a mesas e estações de experiências e pufes vermelhos",
+        "caption": "Centenas de estações de experiências enchem um grande piso de exposição."
+      }
+    ],
+    "hints": [
+      "Mais de 350 estações interativas de experiências, cerca de 40 desenhadas por artistas, deixam os visitantes explorar a ciência com sentidos diferentes.",
+      "Foi concluído em 2005 por 67 milhões de euros, depois de pouco mais de quatro anos de obra.",
+      "A sua exposição de cerca de 9.000 metros quadrados não tem um percurso prescrito."
+    ],
+    "summary": {
+      "description": "O centro de ciência de Wolfsburg foi projetado por Zaha Hadid com a firma de Lörrach Mayer Bährle, custou 67 milhões de euros e abriu a exposição permanente a 24 de novembro de 2005, após pouco mais de quatro anos de obra. Mais de 350 estações interativas de experiências, cerca de 40 desenhadas por artistas, enchem a exposição de aproximadamente 9.000 metros quadrados, dividida nos temas Vida, Visão, Energia, Dinâmica, Sentido e Matemática. A área de entrada, o fórum de ideias e o teatro de ciência ficam no piso térreo, com o piso principal de exposição por cima.",
+      "keyFeatures": [
+        "Exposição interativa de cerca de 9.000 metros quadrados",
+        "Mais de 350 estações de experiências",
+        "Teatro de ciência com demonstrações ao vivo",
+        "Oficinas para escolares e professores"
+      ],
+      "funFacts": [
+        "Não há percurso prescrito: arranjos experimentais simples convidam os visitantes a descobrir as funções por si.",
+        "Painéis de texto em cada estação explicam o processo em alemão e inglês."
+      ]
+    }
+  }
+}

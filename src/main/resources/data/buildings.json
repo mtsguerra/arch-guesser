@@ -15509,5 +15509,199 @@
         "The museum holds works by Picasso, Rothko, Pollock and Richter, among many others."
       ]
     }
+  },
+  {
+    "id": "heydar-aliyev-center",
+    "name": "Heydar Aliyev Center",
+    "aliases": [
+      "Heydər Əliyev Mərkəzi",
+      "Heydar Aliyev Cultural Center",
+      "Heydar Aliev Center",
+      "Baku Heydar Aliyev Center"
+    ],
+    "architects": [
+      {
+        "name": "Zaha Hadid",
+        "aliases": ["Hadid", "Dame Zaha Hadid"],
+        "lifespan": "1950–2016",
+        "nationality": "Iraqi-British",
+        "bio": "Iraqi-British architect who in 2004 became the first woman to win the Pritzker Prize. Hadid's flowing, fragmented forms, first explored in drawings and paintings, grew from deconstructivism into a fluid, curved style seen in buildings around the world."
+      }
+    ],
+    "location": { "city": "Baku", "country": "Azerbaijan", "countryCode": "AZ" },
+    "yearCompleted": 2012,
+    "era": "CONTEMPORARY",
+    "style": "Neofuturism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Heydar_Aliyev_Center",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Azarbaijan.jpg/1920px-Azarbaijan.jpg",
+        "crop": { "x": 0, "y": 0, "w": 1, "h": 0.87 },
+        "alt": "Huge white building that sweeps up in smooth curves into a glass-walled fold, above a wide paved plaza with visitors and a sculpture",
+        "credit": "Photo: \"shaasu1\" · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Azarbaijan.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Heydar_Aliyev_Center_1.1.jpg/1920px-Heydar_Aliyev_Center_1.1.jpg",
+        "alt": "Concert hall panelled in warm wood with sweeping curved balconies, an orchestra and a grand piano on a lit stage",
+        "caption": "A 1,000-seat auditorium lined in curving wood.",
+        "credit": "Photo: Emin Allahverdi · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Heydar_Aliyev_Center_1.1.jpg"
+      }
+    ],
+    "hints": [
+      { "order": 1, "text": "All its functions and entrances are folds of a single continuous surface." },
+      {
+        "order": 2,
+        "text": "In 2014 it won the Design Museum's Design of the Year, making its architect the first woman to win it."
+      },
+      {
+        "order": 3,
+        "text": "It spreads over eight floor levels and holds a 1,000-seat auditorium, exhibition spaces, workshops and a museum."
+      }
+    ],
+    "summary": {
+      "description": "Zaha Hadid was appointed design architect in 2007 after a competition for this 57,500-square-metre complex in the centre of Baku. Its flowing form emerges from the folding of the landscape's natural topography and the wrapping of individual functions, with entrances and all functions represented by folds in one continuous surface that eschews sharp angles. It extends over eight floor levels and houses a 1,000-seat auditorium, temporary exhibition spaces, a conference centre, workshops and a museum. The building had a soft opening on 10 May 2012.",
+      "keyFeatures": [
+        "Single continuous folded surface with no sharp angles",
+        "Eight floor levels",
+        "1,000-seat auditorium",
+        "Conference centre, workshops and a museum"
+      ],
+      "funFacts": [
+        "It won the Design Museum's Design of the Year Award in 2014, despite concerns about the site's human rights record.",
+        "In 2013 it held the first exhibition in Azerbaijan of over a hundred works by Andy Warhol."
+      ]
+    }
+  },
+  {
+    "id": "london-aquatics-centre",
+    "name": "London Aquatics Centre",
+    "aliases": [
+      "Aquatics Centre",
+      "London 2012 Aquatics Centre",
+      "Olympic Aquatics Centre",
+      "Queen Elizabeth Olympic Park Aquatics Centre"
+    ],
+    "architects": [
+      {
+        "name": "Zaha Hadid",
+        "aliases": ["Hadid", "Dame Zaha Hadid"],
+        "lifespan": "1950–2016",
+        "nationality": "Iraqi-British",
+        "bio": "Iraqi-British architect who in 2004 became the first woman to win the Pritzker Prize. Hadid's flowing, fragmented forms, first explored in drawings and paintings, grew from deconstructivism into a fluid, curved style seen in buildings around the world."
+      }
+    ],
+    "location": { "city": "London", "country": "United Kingdom", "countryCode": "GB" },
+    "yearCompleted": 2011,
+    "era": "CONTEMPORARY",
+    "style": "Parametric architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/London_Aquatics_Centre",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/London_Aquatics_Centre_2025-05-05.jpg/1920px-London_Aquatics_Centre_2025-05-05.jpg",
+        "alt": "Long wave-shaped metal roof sweeping up at one end over a glass front, seen across a river and a footbridge",
+        "credit": "Photo: The wub · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:London_Aquatics_Centre_2025-05-05.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/London_Aquatics_Centre_diving_boards.jpg/1920px-London_Aquatics_Centre_diving_boards.jpg",
+        "alt": "Pool hall with white concrete diving platforms, a diving pool and a swimming pool under a dark curved ceiling",
+        "caption": "Concrete diving platforms with boards at 3, 5, 7.5 and 10 metres.",
+        "credit": "Photo: Alexander Kachkaev · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:London_Aquatics_Centre_diving_boards.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its wave-like roof was designed in 2004, before the city won the bid for the Olympic Games it served."
+      },
+      { "order": 2, "text": "It has a 50-metre competition pool, a 25-metre diving pool and a 50-metre warm-up pool." },
+      {
+        "order": 3,
+        "text": "The spectator wings were not in the original design; they were added to fit the estimated audience."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Zaha Hadid in 2004, before London won the bid for the 2012 Summer Olympics, the centre was built opposite the Olympic Stadium on the opposite bank of the Waterworks River. It is 45 metres high, 160 metres long and 80 metres wide, under a wave-like roof. Its 50-metre pool is 3 metres deep, with a floor that can be moved and booms to change its size. The diving pool has platforms at 3, 5, 7.5 and 10 metres and three 3-metre springboards. The spectator wings were added later, and after significant modification it opened to the public in March 2014.",
+      "keyFeatures": [
+        "Wave-like roof over three pools",
+        "50-metre competition pool with a movable floor",
+        "Diving platforms at 3, 5, 7.5 and 10 metres",
+        "Temporary spectator wings for the Games"
+      ],
+      "funFacts": [
+        "The IOC president Jacques Rogge described it as a \"masterpiece\".",
+        "The revised 2006 design was much smaller than the first, which would have doubled its estimated cost."
+      ]
+    }
+  },
+  {
+    "id": "phaeno-science-center",
+    "name": "Phaeno Science Center",
+    "aliases": ["Phæno", "Phaeno", "Phaeno Wolfsburg", "Phæno Science Center", "Phaeno Science Centre"],
+    "architects": [
+      {
+        "name": "Zaha Hadid",
+        "aliases": ["Hadid", "Dame Zaha Hadid"],
+        "lifespan": "1950–2016",
+        "nationality": "Iraqi-British",
+        "bio": "Iraqi-British architect who in 2004 became the first woman to win the Pritzker Prize. Hadid's flowing, fragmented forms, first explored in drawings and paintings, grew from deconstructivism into a fluid, curved style seen in buildings around the world."
+      }
+    ],
+    "location": { "city": "Wolfsburg", "country": "Germany", "countryCode": "DE" },
+    "yearCompleted": 2005,
+    "era": "CONTEMPORARY",
+    "style": "Deconstructivism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Phaeno_Science_Center",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Wolfsburg_Ph%C3%A6no.jpg/1920px-Wolfsburg_Ph%C3%A6no.jpg",
+        "alt": "Grey concrete block with dark openings of irregular shapes, raised on conical legs, beside brick chimneys under a cloudy sky",
+        "credit": "Photo: Ymblanter · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Wolfsburg_Ph%C3%A6no.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Phaeno%2C_Wolfsburg%2C_Ausstellungsflaeche.JPG/1920px-Phaeno%2C_Wolfsburg%2C_Ausstellungsflaeche.JPG",
+        "alt": "Vast dim exhibition floor under a steel roof, with visitors at tables and experiment stations and red beanbags",
+        "caption": "Hundreds of experiment stations fill one big exhibition floor.",
+        "credit": "Photo: Florian-schäffer · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Phaeno,_Wolfsburg,_Ausstellungsflaeche.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Over 350 interactive experiment stations, about 40 of them designed by artists, let visitors explore science with different senses."
+      },
+      {
+        "order": 2,
+        "text": "It was completed in 2005 for 67 million euros, after just over four years of construction."
+      },
+      { "order": 3, "text": "Its exhibition of about 9,000 square metres has no prescribed route." }
+    ],
+    "summary": {
+      "description": "The science centre in Wolfsburg was designed by Zaha Hadid with the Lörrach firm Mayer Bährle, cost 67 million euros and opened its permanent exhibition on 24 November 2005, after just over four years of construction. More than 350 interactive experiment stations, around 40 designed by artists, fill the roughly 9,000-square-metre exhibition, which is divided into the themes Life, Vision, Energy, Dynamics, Sense and Maths. The entrance area, the ideas forum and the science theatre are on the ground floor, with the main exhibition floor above.",
+      "keyFeatures": [
+        "Interactive exhibition of about 9,000 square metres",
+        "More than 350 experiment stations",
+        "Science theatre with live demonstrations",
+        "Workshops for schoolchildren and teachers"
+      ],
+      "funFacts": [
+        "There is no prescribed course: simple experimental arrangements invite visitors to work out the functions for themselves.",
+        "Text panels at each station explain the process in German and English."
+      ]
+    }
   }
 ]
