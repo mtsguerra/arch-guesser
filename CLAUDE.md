@@ -48,7 +48,7 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 
 ## Design
 
-`DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid drawn by `ShapeGrid` in `PageBackground`, the frameless gallery, `EraCombobox` (type a name or year, or browse the list) for the era guess, the one-row `HintTray` under the gallery, `RevealBuild` (the blueprint-rises reveal animation), brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). The playing screen is sized to fit one laptop viewport (about 1470×860 to 956) without scrolling; keep it that way. Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings/`. `PRODUCT.md` holds product context.
+`DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid drawn by `ShapeGrid` in `PageBackground`, the frameless gallery, `EraCombobox` (type a name, or browse the list) for the era guess, the one-row `HintTray` under the gallery, `RevealBuild` (the blueprint-rises reveal animation), brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). The playing screen is sized to fit one laptop viewport (about 1470×860 to 956) without scrolling; keep it that way. Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings/`. `PRODUCT.md` holds product context.
 
 ## Working agreement
 

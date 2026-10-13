@@ -48,6 +48,8 @@ describe('countries', () => {
     ['Turkey', 'TR'],
     ['Türkiye', 'TR'],
     ['England', 'GB'],
+    ['Palestine', 'PS'],
+    ['Palestina', 'PS'],
   ])('resolves %s to %s', (text, code) => {
     expect(resolveCountryCode(text)).toBe(code)
   })

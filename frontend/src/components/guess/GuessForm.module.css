@@ -241,12 +241,6 @@
   gap: var(--space-3);
 }
 
-.optionRange {
-  font-size: var(--text-xs);
-  font-variant-numeric: tabular-nums;
-  opacity: 0.7;
-}
-
 .option[aria-selected='true'] {
   background: var(--ink);
   color: var(--paper);

@@ -9,7 +9,7 @@ export default {
     switchTo: 'English',
   },
 
-  years: { bce: 'a.C.', now: 'hoje' },
+  years: { bce: 'a.C.' },
 
   eras: {
     ANCIENT_EGYPTIAN: 'Egito Antigo',
@@ -43,6 +43,8 @@ export default {
     facts: ', com crédito em cada revelação. Informações adaptadas da',
     wikipedia: 'Wikipédia',
     licence: 'CC BY-SA 4.0',
+    hintBackground: 'Fundo das dicas: render Skywalk de Fons Heijnsbroek',
+    hintBackgroundLicence: 'CC BY 4.0',
   },
 
   board: {

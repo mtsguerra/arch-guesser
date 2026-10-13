@@ -1,24 +1,19 @@
 import { useId, useMemo, useState } from 'react'
-import { eraName, eraRange } from '../../game/useEras.js'
+import { eraName } from '../../game/useEras.js'
 import { normalize } from '../../game/text.js'
 import { useStrings } from '../../i18n.js'
 import styles from './GuessForm.module.css'
 
-/** The eras that match what was typed: part of a name, or a year inside the era's span. */
+/** The eras that match what was typed: part of a name. */
 function suggest(eras, query, strings) {
   const q = normalize(query)
   if (!q) return eras
-  const year = /^-?\d{1,4}$/.test(q) ? Number(q) : null
-  return eras.filter((era) =>
-    year === null
-      ? normalize(eraName(era, strings)).includes(q)
-      : year >= era.startYear && (era.endYear == null || year <= era.endYear),
-  )
+  return eras.filter((era) => normalize(eraName(era, strings)).includes(q))
 }
 
 /**
- * Era input in the shape of the country field: type part of a name (or a year) and pick from the
- * list, or open it and browse the whole timeline. The form holds an era id; typing without choosing
+ * Era input in the shape of the country field: type part of a name and pick from the
+ * list, or open it and browse all the styles. The form holds an era id; typing without choosing
  * means no guess, unless the text names one era exactly.
  *
  * @param value   the chosen era id, or '' for none
@@ -122,7 +117,6 @@ export function EraCombobox({ id, eras, value, onChange, className, ...inputProp
             onMouseEnter={() => setActive(i)}
           >
             <span>{eraName(era, strings)}</span>
-            <span className={styles.optionRange}>{eraRange(era, strings.years)}</span>
           </li>
         ))}
       </ul>

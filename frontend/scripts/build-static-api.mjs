@@ -67,12 +67,10 @@ const toApi = (b) => ({
 
 const buildings = JSON.parse(readFileSync(buildingsFile, 'utf8')).map(toApi)
 
-const eraPattern = /^\s*([A-Z_]+)\("([^"]+)",\s*(-?\d+),\s*(-?\d+|null)\)/gm
-const eras = [...readFileSync(eraFile, 'utf8').matchAll(eraPattern)].map(([, id, label, start, end]) => ({
+const eraPattern = /^\s*([A-Z_]+)\("([^"]+)"\)/gm
+const eras = [...readFileSync(eraFile, 'utf8').matchAll(eraPattern)].map(([, id, label]) => ({
   id,
   label,
-  startYear: Number(start),
-  endYear: end === 'null' ? null : Number(end),
 }))
 if (eras.length === 0) throw new Error(`No eras found in ${eraFile}`)
 const unknownEra = buildings.find((b) => !eras.some((e) => e.id === b.era))

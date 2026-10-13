@@ -33,14 +33,23 @@
   display: grid;
 }
 
+/* FlipCard sizes itself in px; the slot's width and a fixed height win here. */
+.slot .flip {
+  width: 100%;
+  height: 8rem;
+}
+
+/* Open hints are inert but must read at full strength. */
+.slot .flip[data-disabled] {
+  opacity: 1;
+}
+
 .card {
   display: grid;
   align-content: start;
   gap: var(--space-1);
-  min-height: 6.25rem;
+  height: 100%;
   padding: var(--space-3);
-  border: 0;
-  border-radius: var(--radius-md);
   text-align: left;
   font: inherit;
   color: inherit;
@@ -56,8 +65,8 @@
 
 /* A slip of paper on the mat */
 .open {
-  background: var(--paper);
-  box-shadow: var(--shadow-raised);
+  background: color-mix(in oklab, var(--paper) 82%, var(--camel));
+  box-shadow: inset 0 0 0 1px var(--paper-hairline);
 }
 
 .open .label {
@@ -79,36 +88,22 @@
   font-weight: 600;
 }
 
-.next {
+/* Fronts: the Skywalk render under a palette tint, so the cream label stays legible. */
+.front {
+  position: relative;
   justify-items: start;
-  background: color-mix(in oklab, var(--paper) 70%, transparent);
-  box-shadow: inset 0 0 0 1.5px var(--paper-hairline);
-  color: var(--ink);
-  transition:
-    background-color var(--dur-base) var(--ease-out),
-    box-shadow var(--dur-base) var(--ease-out),
-    translate var(--dur-base) var(--ease-out);
+  background:
+    linear-gradient(135deg, color-mix(in oklab, var(--oxblood) 80%, transparent), color-mix(in oklab, var(--chocolate) 84%, transparent)),
+    url('/hint-bg.jpg') center / cover;
+  color: var(--paper);
 }
 
-.next .icon {
-  color: var(--accent);
-}
-
-.next:hover {
-  background: var(--paper);
-  box-shadow: inset 0 0 0 1.5px var(--accent), var(--shadow-raised);
-  translate: 0 -2px;
-}
-
-.next:active {
-  translate: 0;
+.front .icon {
+  color: var(--camel);
 }
 
 .locked {
-  justify-items: start;
-  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--camel) 45%, transparent);
-  color: var(--ink-soft);
-  opacity: 0.7;
+  filter: saturate(0.4);
 }
 
 /* Small screens: the slots stack. */
@@ -117,13 +112,7 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .card {
-    min-height: 0;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .next:hover {
-    translate: none;
+  .slot .flip {
+    height: 6.5rem;
   }
 }

@@ -49,6 +49,14 @@ export function AppShell({ actions, children }) {
           <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">
             {strings.credits.licence}
           </a>
+          ). {strings.credits.hintBackground} (
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Focus_on_the_floating_footpath_of_the_Skywalk_in_3-dimensional_image,_Dutch_modern_architecture_design_in_free_image,_created_by_Arjan_and_Fons_Heijnsbroek.tif"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {strings.credits.hintBackgroundLicence}
+          </a>
           ).
         </p>
       </footer>

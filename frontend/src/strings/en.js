@@ -9,7 +9,7 @@ export default {
     switchTo: 'Português (Brasil)',
   },
 
-  years: { bce: 'BCE', now: 'now' },
+  years: { bce: 'BCE' },
 
   eras: {
     ANCIENT_EGYPTIAN: 'Ancient Egyptian',
@@ -43,6 +43,8 @@ export default {
     facts: ', credited on each reveal. Facts adapted from',
     wikipedia: 'Wikipedia',
     licence: 'CC BY-SA 4.0',
+    hintBackground: 'Hint card background: Skywalk render by Fons Heijnsbroek',
+    hintBackgroundLicence: 'CC BY 4.0',
   },
 
   board: {

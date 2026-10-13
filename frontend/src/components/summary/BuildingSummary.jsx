@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { ArrowRight, Check, ExternalLink, Eye } from 'lucide-react'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
-import { eraName, eraRange, formatYear } from '../../game/useEras.js'
+import { eraName, formatYear } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
@@ -31,10 +31,7 @@ function FactStrip({ building, era }) {
     [
       strings.summary.facts.era,
       era ? (
-        <>
-          {/* Break only between "Modernism ·" and the range, never before the dot or inside the range */}
-          {eraName(era, strings)}&nbsp;· <span className={styles.nowrap}>{eraRange(era, strings.years)}</span>
-        </>
+        eraName(era, strings)
       ) : (
         building.era
       ),

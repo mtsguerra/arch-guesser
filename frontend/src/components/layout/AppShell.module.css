@@ -115,6 +115,7 @@
 }
 
 .main {
+  overflow-x: clip; /* the sheet swap slides sideways */
   padding: var(--space-4) var(--gutter) var(--space-3);
 }
 

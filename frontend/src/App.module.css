@@ -1,0 +1,15 @@
+/* The wrapper that swaps one building's sheet for the next. */
+.sheet {
+  position: relative;
+}
+
+/* Drafting line that leads the wipe across the new sheet. */
+.line {
+  position: absolute;
+  top: -24px;
+  bottom: -24px;
+  width: 2px;
+  background: var(--accent);
+  box-shadow: 0 0 12px color-mix(in oklab, var(--accent) 55%, transparent);
+  pointer-events: none;
+}

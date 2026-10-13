@@ -2,7 +2,7 @@ import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
 import { ArrowRight, BookOpen, Building2, Check, Eye, Globe, Hourglass, PencilRuler, X } from 'lucide-react'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
-import { eraName, eraRange } from '../../game/useEras.js'
+import { eraName } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { countryName } from '../../game/countries.js'
@@ -24,7 +24,7 @@ function answerFor(field, building, eras, { strings, lang }) {
       return countryName(building.location.countryCode, lang) ?? building.location.country
     case 'era': {
       const era = eras?.find((e) => e.id === building.era)
-      return era ? `${eraName(era, strings)} · ${eraRange(era, strings.years)}` : building.era
+      return era ? eraName(era, strings) : building.era
     }
   }
 }

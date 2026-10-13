@@ -27,6 +27,9 @@ const ALIASES = {
 
 const LOCALES = ['en', 'pt-BR']
 
+// Intl calls PS "Palestinian Territories"; the game says Palestine.
+const NAME_OVERRIDES = { en: { PS: 'Palestine' }, 'pt-BR': { PS: 'Palestina' } }
+
 // Drops deprecated codes that alias a current one (FX → FR, BU → MM, YU → RS).
 function isCanonical(code) {
   return Intl.getCanonicalLocales(`und-${code}`)[0] === `und-${code}`
@@ -39,7 +42,7 @@ function regionNames(locale) {
     for (let b = 65; b <= 90; b++) {
       const code = String.fromCharCode(a, b)
       if (NOT_COUNTRIES.has(code) || !isCanonical(code)) continue
-      const name = names.of(code)
+      const name = NAME_OVERRIDES[locale]?.[code] ?? names.of(code)
       if (name && name !== code) result.push({ code, name })
     }
   }
