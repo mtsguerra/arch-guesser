@@ -107,6 +107,13 @@
 }
 
 /* Small screens: the slots stack. */
+/* No translucency: the tint over the image becomes a solid colour. */
+@media (prefers-reduced-transparency: reduce) {
+  .front {
+    background: linear-gradient(135deg, var(--oxblood), var(--chocolate));
+  }
+}
+
 @media (max-width: 40rem) {
   .row {
     grid-template-columns: minmax(0, 1fr);

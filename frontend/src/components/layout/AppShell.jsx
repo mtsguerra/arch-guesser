@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { useStrings } from '../../i18n.js'
 import { LanguageSwitch } from './LanguageSwitch.jsx'
 import { PageBackground } from './PageBackground.jsx'
@@ -16,12 +17,22 @@ function PlanMark() {
   )
 }
 
-export function AppShell({ actions, children }) {
+/** @param place  where the player is (Daily #3, Custom…), shown beside the logo */
+export function AppShell({ actions, place, children }) {
   const strings = useStrings()
+  // The rail's edge only appears once content scrolls under it.
+  const [scrolled, setScrolled] = useState(false)
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 4)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
   return (
     <div className={styles.shell}>
       <PageBackground />
-      <header className={styles.rail}>
+      <header className={styles.rail} data-scrolled={scrolled || undefined}>
+        {place && <span className={styles.place}>{place}</span>}
         <a className={styles.brand} href="#/">
           <PlanMark />
           <span className={styles.name}>

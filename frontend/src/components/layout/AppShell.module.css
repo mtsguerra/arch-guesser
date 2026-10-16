@@ -10,25 +10,61 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  display: flex;
+  /* The name sits in the middle: where you are on the left, the controls on the right. */
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
   gap: var(--space-4);
   padding: 0 var(--gutter);
   background-color: color-mix(in oklab, var(--rail) 82%, transparent);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px) saturate(1.2);
   background-image:
     linear-gradient(180deg, rgb(255 230 167 / 0.07), transparent 70%),
     linear-gradient(rgb(255 230 167 / 0.045) 1px, transparent 1px),
     linear-gradient(90deg, rgb(255 230 167 / 0.045) 1px, transparent 1px);
   background-size: auto, 16px 16px, 16px 16px;
   color: var(--rail-ink);
+  /* A light top edge, and no divider until content scrolls under it. */
+  box-shadow: inset 0 1px 0 rgb(255 230 167 / 0.12);
+  transition: box-shadow var(--dur-base) var(--ease-out), background-color var(--dur-base) var(--ease-out);
+}
+
+.rail[data-scrolled] {
+  background-color: color-mix(in oklab, var(--rail) 90%, transparent);
+  backdrop-filter: blur(18px) saturate(1.2);
   box-shadow:
-    0 1px 0 color-mix(in oklab, var(--camel) 55%, transparent),
-    0 8px 20px -12px rgb(40 22 12 / 0.7);
+    inset 0 1px 0 rgb(255 230 167 / 0.12),
+    0 1px 0 color-mix(in oklab, var(--camel) 30%, transparent),
+    0 10px 24px -14px rgb(40 22 12 / 0.7);
+}
+
+/* No translucency: a solid rail. */
+@media (prefers-reduced-transparency: reduce) {
+  .rail,
+  .rail[data-scrolled] {
+    background-color: var(--rail);
+    backdrop-filter: none;
+  }
+}
+
+.place {
+  grid-column: 1;
+  justify-self: start;
+  min-width: 0;
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--radius-md);
+  background: rgb(255 230 167 / 0.12);
+  color: var(--rail-ink);
+  font-size: var(--text-xs);
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .brand {
+  grid-column: 2;
   min-width: 0;
   display: inline-flex;
   align-items: center;
@@ -103,6 +139,8 @@
 }
 
 .actions {
+  grid-column: 3;
+  justify-self: end;
   display: flex;
   align-items: center;
   flex: none;
@@ -131,4 +169,23 @@
   color: inherit;
   text-decoration: underline;
   text-underline-offset: 0.15em;
+}
+
+/* Narrow screens have no room to centre the name: it goes back to the left. */
+@media (max-width: 40rem) {
+  .rail {
+    grid-template-columns: 1fr auto;
+  }
+
+  .place {
+    display: none;
+  }
+
+  .brand {
+    grid-column: 1;
+  }
+
+  .actions {
+    grid-column: 2;
+  }
 }

@@ -4,6 +4,7 @@ import { ArrowRight, BookOpen, Building2, Check, Eye, Globe, Hourglass, PencilRu
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
+import { REVEAL, TICK, haptic } from '../../game/haptics.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
@@ -39,11 +40,23 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
   const controls = useAnimationControls()
   const messageId = `${id}-message`
 
+  const wasLocked = useRef(status === 'correct')
+
   useEffect(() => {
     if (status === 'wrong') controls.start(shake)
   }, [status, attempts, controls])
 
   const locked = status === 'correct'
+
+  // A field locking is felt: a small spring on the row and a tick, once, not when a saved result comes back.
+  useEffect(() => {
+    if (locked && !wasLocked.current) {
+      controls.start({ scale: [1, 1.025, 1], transition: { duration: 0.4, ease: easeOut } })
+      haptic(TICK)
+    }
+    wasLocked.current = locked
+  }, [locked, controls])
+
   const showAnswer = answer != null
 
   return (
@@ -69,7 +82,17 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
         )}
 
         <span className={styles.badge} aria-hidden="true">
-          {locked && <Check strokeWidth={2.5} />}
+          {locked && (
+            <motion.span
+              // Pops in with a little give: this one is the answer to a guess, so it may overshoot.
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ type: 'spring', stiffness: 400, damping: 18 }}
+              style={{ display: 'grid' }}
+            >
+              <Check strokeWidth={2.5} />
+            </motion.span>
+          )}
           {revealed && !locked && <Eye strokeWidth={2} />}
         </span>
       </div>
@@ -107,8 +130,11 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
   const nextButton = useRef(null)
   const revealed = phase === 'revealed'
 
+  const wasRevealed = useRef(revealed)
   useEffect(() => {
     if (revealed) nextButton.current?.focus({ preventScroll: true })
+    if (revealed && !wasRevealed.current) haptic(REVEAL)
+    wasRevealed.current = revealed
   }, [revealed])
 
   function update(field, value) {

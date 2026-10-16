@@ -1,5 +1,7 @@
 import { useId, useState } from 'react'
+import { AnimatePresence, motion } from 'motion/react'
 import { X } from 'lucide-react'
+import { springSoft } from '../../motion.js'
 import { normalize } from '../../game/text.js'
 import styles from './MultiPicker.module.css'
 
@@ -25,18 +27,25 @@ export function MultiPicker({ label, placeholder, emptyText, rows, selected, onC
         {label}
       </label>
 
-      {selected.length > 0 && (
-        <ul className={styles.chips}>
+      <motion.ul className={styles.chips} layout transition={springSoft}>
+        <AnimatePresence initial={false} mode="popLayout">
           {selected.map((key) => (
-            <li key={key}>
+            <motion.li
+              key={key}
+              layout
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              transition={springSoft}
+            >
               <button type="button" className={styles.chip} onClick={() => toggle(key)}>
                 {byKey.get(key)?.label ?? key}
                 <X className={styles.x} aria-label="×" strokeWidth={2} />
               </button>
-            </li>
+            </motion.li>
           ))}
-        </ul>
-      )}
+        </AnimatePresence>
+      </motion.ul>
 
       <input
         id={`${listId}-search`}
@@ -62,7 +71,7 @@ export function MultiPicker({ label, placeholder, emptyText, rows, selected, onC
             </button>
           </li>
         ))}
-        {shown.length === 0 && <li className={styles.empty}>{emptyText}</li>}
+        {shown.length === 0 && emptyText && <li className={styles.empty}>{emptyText}</li>}
       </ul>
     </div>
   )

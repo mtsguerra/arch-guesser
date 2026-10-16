@@ -1,5 +1,5 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
-import { AnimatePresence, motion } from 'motion/react'
+import { AnimatePresence, animate, motion, useMotionValue, useReducedMotion } from 'motion/react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { duration, easeOut, springSoft } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
@@ -10,7 +10,12 @@ import { ZoomableDrawing } from './ZoomableDrawing.jsx'
 import { buildSheets } from './sheets.js'
 import styles from './DrawingBoard.module.css'
 
-const SWIPE = 48
+const SLOP = 8 // px of travel before a touch becomes a drag
+const FLICK_MS = 90 // how far back release velocity is measured
+const SNAP_SPRING = { type: 'spring', stiffness: 320, damping: 34 } // critically damped: no bounce back
+
+// Where a flick at `velocity` (px/s) would come to rest, with scroll-like deceleration.
+const project = (velocity, rate = 0.998) => ((velocity / 1000) * rate) / (1 - rate)
 
 // A change of image is a wipe: the new one is drawn in from the side you're heading to, settling
 // from slightly large and soft, while the old one steps back and blurs away beneath it.
@@ -57,7 +62,9 @@ export function DrawingBoard({ building, revealed, fields }) {
   const [failed, setFailed] = useState(() => new Set())
   const [zoomed, setZoomed] = useState(false)
   const [moves, setMoves] = useState(0)
-  const swipeStart = useRef(null)
+  const drag = useRef(null)
+  const dragX = useMotionValue(0)
+  const reduceMotion = useReducedMotion()
   const thumbRefs = useRef([])
   const allSheets = useMemo(() => buildSheets(building, strings), [building, strings])
   const sheets = allSheets.filter((s) => !failed.has(s.key))
@@ -108,16 +115,41 @@ export function DrawingBoard({ building, revealed, fields }) {
     thumbRefs.current[next]?.focus()
   }
 
+  // A finger drags the picture 1:1; on release a flick is projected and, if it would carry the
+  // picture past a quarter of the stage, goes to the next or previous sheet. Otherwise it springs home.
   function handlePointerDown(event) {
-    swipeStart.current = event.pointerType === 'touch' && !zoomed ? event.clientX : null
+    if (event.pointerType === 'mouse' || !many || zoomed) return
+    dragX.stop()
+    drag.current = { id: event.pointerId, x: event.clientX, base: dragX.get(), moved: false, history: [] }
   }
 
-  function handlePointerUp(event) {
-    const start = swipeStart.current
-    swipeStart.current = null
-    if (start === null || !many || zoomed) return
-    const dx = event.clientX - start
-    if (Math.abs(dx) > SWIPE) step(dx < 0 ? 1 : -1)
+  function handlePointerMove(event) {
+    const g = drag.current
+    if (!g || g.id !== event.pointerId) return
+    const dx = event.clientX - g.x
+    if (!g.moved) {
+      if (Math.abs(dx) < SLOP) return
+      g.moved = true
+      event.currentTarget.setPointerCapture(event.pointerId)
+    }
+    const now = performance.now()
+    g.history.push({ t: now, x: event.clientX })
+    while (g.history.length > 2 && now - g.history[0].t > FLICK_MS) g.history.shift()
+    if (!reduceMotion) dragX.set(g.base + dx)
+  }
+
+  function handlePointerEnd(event, cancelled) {
+    const g = drag.current
+    if (!g || g.id !== event.pointerId) return
+    drag.current = null
+    if (!g.moved) return
+    const [first, last] = [g.history[0], g.history.at(-1)]
+    const velocity = last.t > first.t ? ((last.x - first.x) / (last.t - first.t)) * 1000 : 0
+    const travel = event.clientX - g.x
+    const reach = travel + project(velocity)
+    const commit = !cancelled && Math.abs(reach) > event.currentTarget.clientWidth * 0.25
+    if (commit) step(reach < 0 ? 1 : -1)
+    animate(dragX, 0, { ...SNAP_SPRING, velocity })
   }
 
   // Title block cells fill in as soon as their guess field locks, not only at the reveal.
@@ -147,7 +179,9 @@ export function DrawingBoard({ building, revealed, fields }) {
             className={styles.stage}
             data-kind={sheet?.kind}
             onPointerDown={handlePointerDown}
-            onPointerUp={handlePointerUp}
+            onPointerMove={handlePointerMove}
+            onPointerUp={(e) => handlePointerEnd(e, false)}
+            onPointerCancel={(e) => handlePointerEnd(e, true)}
           >
             {sheets.length === 0 && (
               <p className={styles.unavailable} role="alert">
@@ -168,7 +202,9 @@ export function DrawingBoard({ building, revealed, fields }) {
                   id={`${idPrefix}-panel`}
                   aria-labelledby={`${idPrefix}-tab-${index}`}
                 >
-                  <ZoomableDrawing sheet={sheet} onError={() => drop(sheet.key)} onZoomChange={setZoomed} />
+                  <motion.div className={styles.drag} style={{ x: dragX }}>
+                    <ZoomableDrawing sheet={sheet} onError={() => drop(sheet.key)} onZoomChange={setZoomed} />
+                  </motion.div>
                 </motion.div>
               )}
             </AnimatePresence>

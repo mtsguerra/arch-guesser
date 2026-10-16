@@ -1,7 +1,7 @@
 import { useEffect, useEffectEvent } from 'react'
 import { motion } from 'motion/react'
 import { useStrings } from '../../i18n.js'
-import { easeOut } from '../../motion.js'
+import { easeOut, springSoft } from '../../motion.js'
 import { silhouetteFor } from './silhouettes.js'
 import styles from './RevealBuild.module.css'
 
@@ -35,9 +35,10 @@ export function RevealBuild({ building, onDone }) {
       className={styles.overlay}
       role="status"
       aria-label={strings.reveal.building}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.35 } }}
-      exit={{ opacity: 0, transition: { duration: 0.6, ease: easeOut } }}
+      // It arrives as a material: the page behind softens and recedes while it settles in.
+      initial={{ opacity: 0, scale: 1.04, backdropFilter: 'blur(0px)' }}
+      animate={{ opacity: 1, scale: 1, backdropFilter: 'blur(14px)', transition: { opacity: { duration: 0.35 }, scale: springSoft, backdropFilter: { duration: 0.5 } } }}
+      exit={{ opacity: 0, scale: 0.98, backdropFilter: 'blur(0px)', transition: { duration: 0.6, ease: easeOut } }}
       onClick={onDone}
     >
       <button type="button" className={styles.skip} onClick={onDone}>

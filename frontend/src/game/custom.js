@@ -47,8 +47,24 @@ function write(storage, key, value) {
   }
 }
 
-// Remembered between visits. Spread over the default so an older or damaged value can't break the form.
-export const readConfig = () => ({ ...emptyConfig, ...read(localStorage, CONFIG_KEY) })
+// Browser storage can hold anything (older versions, hand edits), so every read is rebuilt from
+// known-good parts before the app touches it.
+const strings = (value) => (Array.isArray(value) ? value.filter((x) => typeof x === 'string') : [])
+const isId = (value) => typeof value === 'string' && /^[a-z0-9-]+$/.test(value)
+
+export function sanitizeConfig(value) {
+  const v = value && typeof value === 'object' ? value : {}
+  return {
+    mode: MODES.includes(v.mode) ? v.mode : emptyConfig.mode,
+    architects: strings(v.architects),
+    eras: strings(v.eras),
+    countries: strings(v.countries),
+    rounds: ROUNDS.includes(v.rounds) ? v.rounds : emptyConfig.rounds,
+  }
+}
+
+// Remembered between visits.
+export const readConfig = () => sanitizeConfig(read(localStorage, CONFIG_KEY))
 export const saveConfig = (config) => write(localStorage, CONFIG_KEY, config)
 
 export function shuffle(items, random = Math.random) {
@@ -68,7 +84,15 @@ export function startSession(pool, config, random) {
   return session
 }
 
-export const readSession = () => read(sessionStorage, SESSION_KEY)
+export function readSession() {
+  const s = read(sessionStorage, SESSION_KEY)
+  if (!s || !Array.isArray(s.ids) || !s.ids.every(isId) || !Number.isInteger(s.index) || s.index < 0) return null
+  // Only https links reach an <a href> from here.
+  const played = (Array.isArray(s.played) ? s.played : []).filter(
+    (p) => p && isId(p.id) && typeof p.name === 'string' && typeof p.wikipedia === 'string' && p.wikipedia.startsWith('https://'),
+  )
+  return { config: sanitizeConfig(s.config), ids: s.ids, index: s.index, played }
+}
 export const clearSession = () => {
   try {
     sessionStorage.removeItem(SESSION_KEY)

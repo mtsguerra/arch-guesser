@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { advanceSession, emptyConfig, facets, filterPool, shuffle } from './custom.js'
+import { advanceSession, emptyConfig, facets, filterPool, sanitizeConfig, shuffle } from './custom.js'
 
 const catalogue = [
   { id: 'a', architects: ['Wright'], era: 'MODERNISM', countryCode: 'US' },
@@ -46,5 +46,15 @@ describe('session', () => {
   it('records the building played and moves on', () => {
     const next = advanceSession({ ids: ['a', 'b'], index: 0, played: [] }, { id: 'a', name: 'A', wikipedia: 'u' })
     expect(next).toMatchObject({ index: 1, played: [{ id: 'a', name: 'A', wikipedia: 'u' }] })
+  })
+})
+
+describe('stored data is not trusted', () => {
+  it('rebuilds a damaged config from known-good parts', () => {
+    expect(sanitizeConfig({ mode: 'nope', architects: 'x', eras: [1, 'MODERNISM'], rounds: 99 })).toEqual({
+      ...emptyConfig,
+      eras: ['MODERNISM'],
+    })
+    expect(sanitizeConfig(null)).toEqual(emptyConfig)
   })
 })

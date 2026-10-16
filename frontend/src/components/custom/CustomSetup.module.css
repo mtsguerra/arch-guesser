@@ -9,6 +9,8 @@
 
 .heading {
   font-size: var(--text-xl);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
   font-weight: 750;
   font-stretch: var(--stretch-wide);
 }
@@ -48,6 +50,10 @@
   cursor: pointer;
 }
 
+.mode:active {
+  scale: 0.97;
+}
+
 .mode[aria-pressed='true'] {
   background: var(--ink);
   color: var(--paper);
@@ -70,7 +76,7 @@
   padding: var(--space-3) var(--space-4);
   border-radius: var(--radius-md);
   background: var(--paper);
-  box-shadow: var(--shadow-raised);
+  box-shadow: var(--edge-light), var(--shadow-sheet);
 }
 
 .count {

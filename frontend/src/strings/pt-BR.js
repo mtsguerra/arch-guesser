@@ -14,6 +14,8 @@ export default {
     },
   },
 
+  places: { normal: 'Adivinhar · Normal', custom: 'Adivinhar · Personalizado' },
+
   menu: 'Menu',
 
   daily: {
@@ -24,6 +26,7 @@ export default {
     share: 'Copiar resultado',
     copied: 'Copiado',
     shareTitle: 'Arch Guesser Diário',
+    preview: 'Seu resultado para compartilhar',
     playGuesser: 'Jogar Adivinhar',
   },
 

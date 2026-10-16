@@ -12,14 +12,15 @@ export function DailyDone({ fields, hintsUsed }) {
   const left = useCountdown()
   const [copied, setCopied] = useState(false)
 
+  const text = shareText({
+    number: dailyNumber(),
+    fields,
+    hintsUsed,
+    title: daily.shareTitle,
+    url: window.location.origin,
+  })
+
   const copy = async () => {
-    const text = shareText({
-      number: dailyNumber(),
-      fields,
-      hintsUsed,
-      title: daily.shareTitle,
-      url: window.location.origin,
-    })
     try {
       await navigator.clipboard.writeText(text)
       setCopied(true)
@@ -35,6 +36,9 @@ export function DailyDone({ fields, hintsUsed }) {
         <h2 className={styles.title}>{daily.title(dailyNumber())}</h2>
         <p className={styles.next}>{daily.nextIn(left)}</p>
       </div>
+      <pre className={styles.preview} aria-label={daily.preview}>
+        {text}
+      </pre>
       <Button variant="ghost" icon={copied ? Check : Copy} onClick={copy}>
         {copied ? daily.copied : daily.share}
       </Button>

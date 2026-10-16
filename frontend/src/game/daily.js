@@ -34,11 +34,22 @@ export function formatCountdown(ms) {
   return `${String(Math.floor(minutes / 60)).padStart(2, '0')}:${String(minutes % 60).padStart(2, '0')}`
 }
 
+const STATUSES = ['idle', 'wrong', 'correct']
+const count = (n) => Number.isInteger(n) && n >= 0
+
+// A saved result goes straight to the reveal, so a damaged one is ignored rather than trusted.
+const validResult = ({ id, outcome, fields, attempts, hintsUsed }) =>
+  typeof id === 'string' &&
+  (outcome === 'solved' || outcome === 'gaveUp') &&
+  GUESS_FIELDS.every((f) => STATUSES.includes(fields?.[f])) &&
+  count(attempts) &&
+  count(hintsUsed)
+
 // localStorage can throw (private modes, blocked storage); the daily then just isn't remembered.
 export function readDaily(number) {
   try {
     const saved = JSON.parse(localStorage.getItem(KEY))
-    return saved?.number === number ? saved : null
+    return saved?.number === number && validResult(saved) ? saved : null
   } catch {
     return null
   }

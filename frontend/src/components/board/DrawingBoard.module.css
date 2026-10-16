@@ -39,6 +39,10 @@
   inset: 0;
 }
 
+.drag {
+  height: 100%;
+}
+
 .counter {
   position: absolute;
   top: var(--space-3);

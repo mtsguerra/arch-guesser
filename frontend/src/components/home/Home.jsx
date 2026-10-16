@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { CalendarDays, ChevronDown, Compass, Play, SlidersHorizontal } from 'lucide-react'
-import { duration, easeOut } from '../../motion.js'
+import { duration, easeOut, springSoft } from '../../motion.js'
 import { dailyNumber, readDaily } from '../../game/daily.js'
 import { useCountdown } from '../../game/useCountdown.js'
 import { useStrings } from '../../i18n.js'
@@ -57,9 +57,11 @@ export function Home() {
                 <motion.div
                   id="guesser-modes"
                   className={styles.modes}
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: 'auto', opacity: 1, transition: { duration: duration.base, ease: easeOut } }}
-                  exit={{ height: 0, opacity: 0, transition: { duration: duration.fast } }}
+                  // Grows out of the card's lower edge and folds back along the same path.
+                  style={{ originY: 0 }}
+                  initial={{ height: 0, opacity: 0, y: -8 }}
+                  animate={{ height: 'auto', opacity: 1, y: 0, transition: { height: springSoft, y: springSoft, opacity: { duration: duration.base, ease: easeOut } } }}
+                  exit={{ height: 0, opacity: 0, y: -8, transition: { height: springSoft, y: springSoft, opacity: { duration: duration.fast } } }}
                 >
                   <a className={styles.mode} href="#/play">
                     <Play className={styles.modeIcon} aria-hidden="true" strokeWidth={1.75} />

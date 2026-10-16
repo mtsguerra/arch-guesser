@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { motion } from 'motion/react'
 import { Play } from 'lucide-react'
 import { fetchCatalogue } from '../../api/buildings.js'
 import { countryName } from '../../game/countries.js'
@@ -12,9 +13,12 @@ import {
   saveConfig,
   startSession,
 } from '../../game/custom.js'
+import { springSoft } from '../../motion.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { AppShell } from '../layout/AppShell.jsx'
+import { MenuButton } from '../layout/MenuButton.jsx'
 import { Button } from '../ui/Button.jsx'
+import { LiveText } from './LiveText.jsx'
 import { MultiPicker } from './MultiPicker.jsx'
 import styles from './CustomSetup.module.css'
 
@@ -57,7 +61,7 @@ export function CustomSetup() {
   }
 
   return (
-    <AppShell>
+    <AppShell place={strings.places.custom} actions={<MenuButton />}>
       <div className={styles.setup}>
         <header className={styles.intro}>
           <h1 className={styles.heading}>{custom.heading}</h1>
@@ -86,7 +90,8 @@ export function CustomSetup() {
               key={kind}
               label={custom.pick[kind]}
               placeholder={custom.search}
-              emptyText={custom.none}
+              // Nothing is "not found" while the list is still loading.
+              emptyText={catalogue ? custom.none : ''}
               rows={rows[kind]}
               selected={config[kind]}
               onChange={(keys) => set({ [kind]: keys })}
@@ -110,12 +115,18 @@ export function CustomSetup() {
         </fieldset>
 
         <footer className={styles.footer}>
-          <p className={styles.count} role="status">
-            {ready ? custom.matches(pool.length) : custom.needed(pool.length, MIN_BUILDINGS)}
+          <p className={styles.count}>
+            <LiveText
+              value={pool.length}
+              format={(n) => (n >= MIN_BUILDINGS ? custom.matches(n) : custom.needed(n, MIN_BUILDINGS))}
+            />
           </p>
-          <Button icon={Play} disabled={!ready} onClick={start}>
-            {custom.start}
-          </Button>
+          {/* Keyed on readiness so unlocking Start gives it a small settle. */}
+          <motion.div key={ready} initial={ready ? { scale: 0.92 } : false} animate={{ scale: 1 }} transition={springSoft}>
+            <Button icon={Play} disabled={!ready} onClick={start}>
+              {custom.start}
+            </Button>
+          </motion.div>
         </footer>
       </div>
     </AppShell>

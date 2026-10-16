@@ -14,6 +14,8 @@ export default {
     },
   },
 
+  places: { normal: 'Guesser · Normal', custom: 'Guesser · Custom' },
+
   menu: 'Menu',
 
   daily: {
@@ -24,6 +26,7 @@ export default {
     share: 'Copy result',
     copied: 'Copied',
     shareTitle: 'Arch Guesser Daily',
+    preview: 'Your shareable result',
     playGuesser: 'Play Guesser',
   },
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { dailyId, dailyNumber, formatCountdown, msUntilNextDay, shareText } from './daily.js'
+import { dailyId, dailyNumber, formatCountdown, msUntilNextDay, readDaily, shareText } from './daily.js'
 
 const ids = ['a', 'b', 'c', 'd', 'e']
 
@@ -31,5 +31,26 @@ describe('daily', () => {
     expect(shareText({ number: 3, fields, hintsUsed: 2, title: 'Daily', url: 'https://x.test' })).toBe(
       'Daily #3\n🏛️✅ 👤❌ 🌍✅ ⏳✅ · 💡2\nhttps://x.test',
     )
+  })
+})
+
+describe('readDaily', () => {
+  const store = {}
+  globalThis.localStorage = { getItem: (k) => store[k] ?? null, setItem: (k, v) => (store[k] = v) }
+  const good = { number: 5, id: 'a', outcome: 'solved', attempts: 1, hintsUsed: 0, fields: { name: 'correct', architect: 'correct', country: 'correct', era: 'correct' } }
+
+  it('returns today\'s saved result and ignores another day', () => {
+    store['arch-guesser:daily'] = JSON.stringify(good)
+    expect(readDaily(5)).toEqual(good)
+    expect(readDaily(6)).toBeNull()
+  })
+
+  it('ignores a damaged result', () => {
+    store['arch-guesser:daily'] = JSON.stringify({ ...good, fields: { name: 'correct' } })
+    expect(readDaily(5)).toBeNull()
+    store['arch-guesser:daily'] = JSON.stringify({ ...good, outcome: '<script>' })
+    expect(readDaily(5)).toBeNull()
+    store['arch-guesser:daily'] = 'not json'
+    expect(readDaily(5)).toBeNull()
   })
 })

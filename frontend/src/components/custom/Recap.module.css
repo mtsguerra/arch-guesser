@@ -6,11 +6,13 @@
   padding: var(--space-5);
   border-radius: var(--radius-md);
   background: var(--paper);
-  box-shadow: var(--shadow-raised);
+  box-shadow: var(--edge-light), var(--shadow-sheet);
 }
 
 .heading {
   font-size: var(--text-xl);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
   font-weight: 750;
   font-stretch: var(--stretch-wide);
 }

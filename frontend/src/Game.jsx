@@ -1,14 +1,16 @@
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
-import { LayoutGrid, Shuffle } from 'lucide-react'
+import { Shuffle } from 'lucide-react'
+import { dailyNumber } from './game/daily.js'
 import { clearSession } from './game/custom.js'
 import { useEras } from './game/useEras.js'
 import { useGameRound } from './game/useGameRound.js'
-import { duration, easeOut } from './motion.js'
+import { duration, easeOut, springSoft } from './motion.js'
 import { useStrings } from './i18n.js'
 import { AppShell } from './components/layout/AppShell.jsx'
 import { BoardStatus } from './components/board/BoardStatus.jsx'
 import { DailyDone } from './components/daily/DailyDone.jsx'
 import { Recap } from './components/custom/Recap.jsx'
+import { MenuButton } from './components/layout/MenuButton.jsx'
 import { Round } from './components/layout/Round.jsx'
 import { Button } from './components/ui/Button.jsx'
 import styles from './App.module.css'
@@ -25,9 +27,17 @@ const roundMotion = {
     rotate: 0,
     filter: 'blur(0px)',
     clipPath: 'inset(-24px -24px -24px -24px)',
-    transition: { duration: duration.slow * 1.4, ease: easeOut },
+    // Position springs (it can be redirected mid-flight); the wipe and blur are timed.
+    transition: {
+      x: springSoft,
+      y: springSoft,
+      rotate: springSoft,
+      opacity: { duration: duration.base, ease: easeOut },
+      filter: { duration: duration.slow, ease: easeOut },
+      clipPath: { duration: duration.slow * 1.4, ease: easeOut },
+    },
   },
-  exit: { ...sheetOut, transition: { duration: duration.base, ease: easeOut } },
+  exit: { ...sheetOut, transition: { x: springSoft, rotate: springSoft, opacity: { duration: duration.base, ease: easeOut }, filter: { duration: duration.base } } },
 }
 const plainMotion = {
   initial: { opacity: 0 },
@@ -77,11 +87,10 @@ export default function Game({ mode = 'normal' }) {
 
   return (
     <AppShell
+      place={daily ? strings.daily.title(dailyNumber()) : mode === 'custom' ? strings.places.custom : strings.places.normal}
       actions={
         <>
-          <Button variant="rail" icon={LayoutGrid} compact aria-label={strings.menu} onClick={leave}>
-            {strings.menu}
-          </Button>
+          <MenuButton onClick={leave} />
           {!daily && phase !== 'done' && (
             <Button
               variant="cream"

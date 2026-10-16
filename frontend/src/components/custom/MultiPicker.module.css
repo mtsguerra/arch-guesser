@@ -75,6 +75,11 @@
   cursor: pointer;
 }
 
+.chip:active,
+.row:active {
+  scale: 0.98;
+}
+
 .row:hover {
   background: var(--paper-shade);
 }
