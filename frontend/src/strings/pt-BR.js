@@ -62,7 +62,6 @@ export default {
 
   language: {
     label: 'Idioma',
-    switchTo: 'English',
   },
 
   years: { bce: 'a.C.' },
@@ -127,7 +126,6 @@ export default {
     heading: 'Dicas',
     empty: 'Cada dica revela um pouco mais. Use quando quiser.',
     show: (n, total) => `Mostrar dica ${n} de ${total}`,
-    allShown: 'Todas as dicas reveladas',
     locked: 'Bloqueada',
     label: (n) => `Dica ${n}`,
   },
@@ -156,7 +154,6 @@ export default {
     erasUnavailable: 'Não foi possível carregar as épocas',
     wrong: 'Não é esta. Edite ou peça uma dica.',
     correct: 'Correto',
-    revealedValue: 'Resposta',
     submit: 'Conferir palpite',
     giveUp: 'Revelar resposta',
     next: 'Próxima obra',

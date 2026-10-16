@@ -62,7 +62,6 @@ export default {
 
   language: {
     label: 'Language',
-    switchTo: 'Português (Brasil)',
   },
 
   years: { bce: 'BCE' },
@@ -127,7 +126,6 @@ export default {
     heading: 'Hints',
     empty: 'Each hint gives a little more away. Take them whenever you like.',
     show: (n, total) => `Show hint ${n} of ${total}`,
-    allShown: 'All hints shown',
     locked: 'Locked',
     label: (n) => `Hint ${n}`,
   },
@@ -156,7 +154,6 @@ export default {
     erasUnavailable: 'Eras couldn’t be loaded',
     wrong: 'Not this one. Edit it, or take a hint.',
     correct: 'Correct',
-    revealedValue: 'Answer',
     submit: 'Check guess',
     giveUp: 'Reveal answer',
     next: 'Next building',

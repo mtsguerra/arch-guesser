@@ -71,11 +71,6 @@ function index() {
 
 const listFor = (lang) => index().lists[lang] ?? index().lists.en
 
-/** All countries as { code, name }, sorted by name in `lang`. */
-export function allCountries(lang = 'en') {
-  return listFor(lang)
-}
-
 /** A country's name in `lang` from its ISO code, or null if unknown. */
 export function countryName(code, lang = 'en') {
   return listFor(lang).find((c) => c.code === code)?.name ?? null

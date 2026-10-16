@@ -5,7 +5,7 @@ import { useSyncExternalStore } from 'react'
 const KEY = 'arch-guesser:theme'
 const COLORS = { light: '#432818', dark: '#1f1209' } // the phone's status bar
 
-export const getTheme = () => (document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light')
+const getTheme = () => (document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light')
 
 const subscribe = (notify) => {
   window.addEventListener('themechange', notify)

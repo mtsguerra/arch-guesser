@@ -254,13 +254,6 @@
   line-height: 1.6;
 }
 
-.footer {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: var(--space-5);
-  border-top: var(--hairline) solid var(--paper-hairline);
-}
-
 @media (prefers-reduced-motion: reduce) {
   .photo,
   .photo:nth-child(even) {

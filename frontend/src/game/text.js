@@ -11,7 +11,7 @@ export function normalize(text) {
 }
 
 /** Edit distance where swapping two adjacent letters ("Frnace") costs one edit, like any other typo. */
-export function editDistance(a, b) {
+function editDistance(a, b) {
   if (a === b) return 0
   const d = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)])
   for (let j = 1; j <= b.length; j++) d[0][j] = j
@@ -28,7 +28,7 @@ export function editDistance(a, b) {
 }
 
 /** Typos allowed for a target of this length: none for short words, up to 3 for long names. */
-export function typoAllowance(length) {
+function typoAllowance(length) {
   if (length <= 4) return 0
   if (length <= 8) return 1
   if (length <= 14) return 2
