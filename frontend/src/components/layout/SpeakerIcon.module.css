@@ -1,0 +1,64 @@
+.icon {
+  overflow: visible;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* A long gap in the dash, so a hidden stroke leaves no dot from its round end. */
+.wave,
+.off {
+  fill: none;
+  stroke-dasharray: 1 2;
+}
+
+.body {
+  transform-box: fill-box;
+  transform-origin: 30% 50%;
+}
+
+/* Sound on: the waves draw outward. */
+.wave {
+  stroke-dashoffset: 1.05;
+  transition: stroke-dashoffset 0.32s var(--ease-out);
+}
+
+:global([aria-pressed='true']) .wave {
+  stroke-dashoffset: 0;
+}
+
+:global([aria-pressed='true']) .w1 {
+  transition-delay: 0.04s;
+}
+
+:global([aria-pressed='true']) .w2 {
+  transition-delay: 0.16s;
+}
+
+/* Sound off: the cross draws in, one stroke after the other. */
+.off {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.28s var(--ease-out);
+}
+
+.x2 {
+  transition-delay: 0.1s;
+}
+
+:global([aria-pressed='true']) .off {
+  stroke-dashoffset: 1.05;
+}
+
+:global([aria-pressed='true']) .x1,
+:global([aria-pressed='true']) .x2 {
+  transition-delay: 0s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wave,
+  .off {
+    transition: none;
+  }
+}

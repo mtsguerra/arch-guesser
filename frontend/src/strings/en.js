@@ -19,6 +19,8 @@ export default {
   theme: { toDark: 'Switch to the dark theme', toLight: 'Switch to the light theme' },
   sound: { turnOn: 'Turn sound on', turnOff: 'Turn sound off' },
 
+  pull: { hint: 'Pull down for the next building', release: 'Release for the next building' },
+
   menu: 'Menu',
 
   daily: {

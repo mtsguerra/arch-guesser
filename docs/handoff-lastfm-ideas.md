@@ -41,11 +41,11 @@ Source of the ideas: `~/Desktop/myGit/lastfm-game` (read only; never open its `.
 - [x] Undo toast: `components/ui/Toast.jsx`; in `Game.jsx` `leave()`: stash the session (`custom.js` helpers), go home, show the toast, restore on Undo; remove `window.confirm` and the `custom.leave` string (or reuse it as the toast text).
 - [x] Idle-cost check of `ShapeGrid`.
 
-### Batch 3: phone and tooling
-- [ ] Manifest, icons, `theme-color`, CSP `manifest-src 'self'` (and run the break-it check for it).
-- [ ] Bottom action bar on phones (`max-width: 40rem`), with safe-area insets.
-- [ ] Pull down for the next building after a reveal (touch only; Normal and Custom).
-- [ ] `scripts/break-protections.*` and a short note in `CLAUDE.md`.
+### Batch 3: phone and tooling (done by Claude Sonnet 5.5, awaiting review)
+- [x] Manifest, icons, `theme-color`, CSP `manifest-src 'self'` (and run the break-it check for it).
+- [x] Bottom action bar on phones (`max-width: 40rem`), with safe-area insets.
+- [x] Pull down for the next building after a reveal (touch only; Normal and Custom).
+- [x] `scripts/break-protections.*` and a short note in `CLAUDE.md`.
 
 ## Checks (run after every batch)
 ```

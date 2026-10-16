@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { advanceSession, emptyConfig, facets, filterPool, sanitizeConfig, shuffle } from './custom.js'
+import { advanceSession, emptyConfig, facets, filterPool, readSession, sanitizeConfig, shuffle } from './custom.js'
 
 const catalogue = [
   { id: 'a', architects: ['Wright'], era: 'MODERNISM', countryCode: 'US' },
@@ -56,5 +56,34 @@ describe('stored data is not trusted', () => {
       eras: ['MODERNISM'],
     })
     expect(sanitizeConfig(null)).toEqual(emptyConfig)
+  })
+})
+
+describe('a stored session is not trusted', () => {
+  const store = {}
+  globalThis.sessionStorage = {
+    getItem: (k) => store[k] ?? null,
+    setItem: (k, v) => (store[k] = v),
+    removeItem: (k) => delete store[k],
+  }
+  const key = 'arch-guesser:custom-session'
+  const session = (extra) => JSON.stringify({ config: emptyConfig, ids: ['a', 'b'], index: 0, played: [], ...extra })
+
+  it('keeps only recap entries with a kebab-case id and an https link', () => {
+    store[key] = session({
+      played: [
+        { id: 'villa-rotonda', name: 'Villa Rotonda', wikipedia: 'https://en.wikipedia.org/wiki/Villa_Rotonda' },
+        { id: 'x', name: 'Bad link', wikipedia: 'javascript:alert(1)' },
+        { id: '../etc', name: 'Bad id', wikipedia: 'https://example.com' },
+      ],
+    })
+    expect(readSession().played.map((p) => p.id)).toEqual(['villa-rotonda'])
+  })
+
+  it('rejects a session whose ids are not plain ids or whose index is not a number', () => {
+    store[key] = session({ ids: ['ok', '../../secret'] })
+    expect(readSession()).toBeNull()
+    store[key] = session({ index: 'one' })
+    expect(readSession()).toBeNull()
   })
 })

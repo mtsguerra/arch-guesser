@@ -1,0 +1,21 @@
+.ring {
+  position: absolute;
+  inset: -1px;
+  border: 2px solid var(--rail-ink);
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  animation: ring 0.6s var(--ease-out) both;
+}
+
+@keyframes ring {
+  from {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(1.7);
+  }
+}

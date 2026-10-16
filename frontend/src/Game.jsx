@@ -1,9 +1,10 @@
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
-import { Shuffle } from 'lucide-react'
+import { ChevronDown, LayoutGrid, Shuffle } from 'lucide-react'
 import { dailyNumber } from './game/daily.js'
 import { clearSession, readSession, restoreSession } from './game/custom.js'
 import { showToast } from './components/ui/toast.js'
 import { useEras } from './game/useEras.js'
+import { usePullToNext } from './game/usePullToNext.js'
 import { useGameRound } from './game/useGameRound.js'
 import { duration, easeOut, springSoft } from './motion.js'
 import { useStrings } from './i18n.js'
@@ -55,6 +56,8 @@ export default function Game({ mode = 'normal' }) {
   const eras = useEras()
   const { phase, building } = round
   const loading = phase === 'loading'
+  // After a reveal, pulling the page down moves to the next building (Normal and Custom, on touch).
+  const pullIndicator = usePullToNext(phase === 'revealed' && !daily, round.loadNext)
 
   // Leaving a custom session ends it at once; for a few seconds Undo puts it back where it was
   // (the building you were on, though not the guesses you had typed for it).
@@ -99,7 +102,7 @@ export default function Game({ mode = 'normal' }) {
     <AppShell
       place={daily ? strings.daily.title(dailyNumber()) : mode === 'custom' ? strings.places.custom : strings.places.normal}
       actions={
-        <>
+        <span className={styles.desktopOnly}>
           <MenuButton onClick={leave} />
           {!daily && phase !== 'done' && (
             <Button
@@ -113,9 +116,26 @@ export default function Game({ mode = 'normal' }) {
               {strings.nextBuilding}
             </Button>
           )}
-        </>
+        </span>
       }
     >
+      {/* On phones the same controls sit in a bar within thumb reach. */}
+      <div className={styles.bar}>
+        <Button variant="ghost" icon={LayoutGrid} onClick={leave}>
+          {strings.menu}
+        </Button>
+        {!daily && phase !== 'done' && (
+          <Button icon={Shuffle} onClick={round.loadNext} disabled={loading}>
+            {strings.nextBuilding}
+          </Button>
+        )}
+      </div>
+      <div className={styles.barSpacer} aria-hidden="true" />
+      <div ref={pullIndicator} className={styles.pull} aria-hidden="true">
+        <ChevronDown strokeWidth={2} />
+        <span className={styles.pullHint}>{strings.pull.hint}</span>
+        <span className={styles.pullRelease}>{strings.pull.release}</span>
+      </div>
       <AnimatePresence mode="wait">
         <motion.div
           key={content.key}

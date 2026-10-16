@@ -19,6 +19,8 @@ export default {
   theme: { toDark: 'Mudar para o tema escuro', toLight: 'Mudar para o tema claro' },
   sound: { turnOn: 'Ligar o som', turnOff: 'Desligar o som' },
 
+  pull: { hint: 'Puxe para baixo para a próxima obra', release: 'Solte para a próxima obra' },
+
   menu: 'Menu',
 
   daily: {

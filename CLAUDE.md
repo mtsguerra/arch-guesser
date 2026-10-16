@@ -47,6 +47,11 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 - Gallery (`components/board/DrawingBoard.jsx`, frameless carousel: stage, thumbnail strip, side notes with the image's `alt`/`caption`, and the credit after the reveal). Order from `sheets.js`: cuts first, numbered A-1xx plans, A-2xx elevations, A-3xx sections, A-0xx site plans; then P-1 exterior, P-2 interior.
 - Seen buildings are stored in `sessionStorage` and sent as `exclude`.
 
+## Tooling
+
+- `frontend/scripts/break-protections.mjs` breaks each protection on purpose (CSP in `vercel.json`, stored-data validation, https-only recap links) and checks a test fails; every line must say CAUGHT. Run it after touching a protection. `frontend/scripts/make-icons.py` renders the PNG app icons from the logo.
+- The site is installable (`public/manifest.webmanifest`); `public/prepaint.js` sets theme, text scale and lite mode before paint (it is a file because the CSP allows only `'self'` scripts).
+
 ## Design
 
 `DESIGN.md` and `.impeccable/design.json` describe the visual system (drafting-mat grid drawn by `ShapeGrid` in `PageBackground`, the frameless gallery, `EraCombobox` (type a name, or browse the list) for the era guess, the one-row `HintTray` under the gallery, `RevealBuild` (the blueprint-rises reveal animation), brief-pinned palette `#6F1D1B #BB9457 #432818 #99582A #FFE6A7`). The playing screen is sized to fit one laptop viewport (about 1470×860 to 956) without scrolling; keep it that way. Use tokens from `frontend/src/styles/tokens.css`; all UI copy lives in `frontend/src/strings/`. `PRODUCT.md` holds product context.

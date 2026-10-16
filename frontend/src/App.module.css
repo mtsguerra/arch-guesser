@@ -13,3 +13,94 @@
   box-shadow: 0 0 12px color-mix(in oklab, var(--accent) 55%, transparent);
   pointer-events: none;
 }
+
+/* Header controls on desktop; on phones they move to the bar below. */
+.desktopOnly {
+  display: contents;
+}
+
+.bar,
+.barSpacer {
+  display: none;
+}
+
+.pull {
+  position: fixed;
+  top: calc(var(--rail-h) + var(--space-2));
+  left: 50%;
+  z-index: 12;
+  display: none;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  pointer-events: none;
+  opacity: var(--pull-opacity, 0);
+  transform: translate(-50%, calc(var(--pull, 0px) - 3rem));
+}
+
+.pull svg {
+  width: 1rem;
+  height: 1rem;
+  transition: rotate var(--dur-base) var(--ease-out);
+}
+
+.pull[data-ready] svg {
+  rotate: 180deg;
+}
+
+.pullRelease,
+.pull[data-ready] .pullHint {
+  display: none;
+}
+
+.pull[data-ready] .pullRelease {
+  display: inline;
+}
+
+@media (max-width: 40rem) {
+  .desktopOnly {
+    display: none;
+  }
+
+  .bar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    gap: var(--space-3);
+    justify-content: center;
+    padding: var(--space-3) var(--gutter) max(var(--space-3), env(safe-area-inset-bottom));
+    background: color-mix(in oklab, var(--paper) 94%, transparent);
+    backdrop-filter: blur(14px) saturate(1.2);
+    box-shadow: 0 -1px 0 var(--paper-hairline);
+  }
+
+  .barSpacer {
+    display: block;
+    height: calc(4.25rem + env(safe-area-inset-bottom));
+  }
+
+  .pull {
+    display: flex;
+  }
+}
+
+/* Weak devices and reduced transparency: a solid bar. */
+:global(html.lite) .bar {
+  background: var(--paper);
+  backdrop-filter: none;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .bar {
+    background: var(--paper);
+    backdrop-filter: none;
+  }
+}
