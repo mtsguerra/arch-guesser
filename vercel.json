@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "cd frontend && npm ci",
-  "buildCommand": "cd frontend && npm run build:static",
+  "installCommand": "cd frontend && env $(env | cut -d= -f1 | grep -iE \"^npm_config_cache[-_]dir$\" | sed \"s/^/-u /\") npm ci",
+  "buildCommand": "cd frontend && env $(env | cut -d= -f1 | grep -iE \"^npm_config_cache[-_]dir$\" | sed \"s/^/-u /\") npm run build:static",
   "outputDirectory": "frontend/dist",
   "headers": [
     {
