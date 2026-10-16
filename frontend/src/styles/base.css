@@ -9,6 +9,8 @@
 }
 
 html {
+  /* --scale is set before first paint (public/prepaint.js); the browser's own text size still counts. */
+  font-size: calc(100% * var(--scale, 1));
   -webkit-text-size-adjust: 100%;
   scrollbar-color: var(--camel) var(--mat);
 }
@@ -79,4 +81,11 @@ a {
   clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
+}
+
+/* A theme change spreads in a circle from the button (theme.js): the old theme stays still beneath it. */
+.theme-wipe::view-transition-old(root),
+.theme-wipe::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
 }

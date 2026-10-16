@@ -108,6 +108,46 @@
   text-overflow: ellipsis;
 }
 
+.plot {
+  display: inline-block;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--rail-ink);
+  animation: plot-on 1s steps(1, end) forwards;
+}
+
+/* Outline, a flicker or two, then solid. */
+@keyframes plot-on {
+  0%,
+  22%,
+  38%,
+  54% {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--rail-ink);
+  }
+  30%,
+  46%,
+  62%,
+  100% {
+    color: var(--rail-ink);
+    -webkit-text-stroke: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .plot {
+    animation: none;
+    color: var(--rail-ink);
+    -webkit-text-stroke: 0;
+  }
+}
+
+/* Weak devices: no blur on the rail. */
+:global(html.lite) .rail,
+:global(html.lite) .rail[data-scrolled] {
+  background-color: var(--rail);
+  backdrop-filter: none;
+}
+
 .tagline {
   font-size: var(--text-2xs);
   font-weight: 500;
@@ -126,6 +166,10 @@
 }
 
 @media (max-width: 30rem) {
+  .name {
+    display: none; /* only the mark: the header has other controls to fit */
+  }
+
   .wordmark {
     font-size: var(--text-sm);
     font-stretch: var(--stretch-normal);

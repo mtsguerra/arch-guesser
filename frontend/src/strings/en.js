@@ -16,6 +16,9 @@ export default {
 
   places: { normal: 'Guesser · Normal', custom: 'Guesser · Custom' },
 
+  theme: { toDark: 'Switch to the dark theme', toLight: 'Switch to the light theme' },
+  sound: { turnOn: 'Turn sound on', turnOff: 'Turn sound off' },
+
   menu: 'Menu',
 
   daily: {

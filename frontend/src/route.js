@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from 'react'
+import { withTransition } from './viewTransition.js'
 
 const ROUTES = { '#/play': 'play', '#/daily': 'daily', '#/custom': 'custom', '#/custom/play': 'customPlay' }
 
@@ -6,8 +7,9 @@ const ROUTES = { '#/play': 'play', '#/daily': 'daily', '#/custom': 'custom', '#/
 export const routeFrom = (hash) => ROUTES[hash] ?? 'home'
 
 const subscribe = (notify) => {
-  window.addEventListener('hashchange', notify)
-  return () => window.removeEventListener('hashchange', notify)
+  const onChange = () => withTransition(notify)
+  window.addEventListener('hashchange', onChange)
+  return () => window.removeEventListener('hashchange', onChange)
 }
 
 export const useRoute = () =>

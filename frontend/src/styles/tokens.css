@@ -19,6 +19,8 @@
   --mat-grid: color-mix(in oklab, var(--camel) 16%, transparent);
   --mat-grid-major: color-mix(in oklab, var(--camel) 34%, transparent);
   --paper: #fff8e4;
+  /* A scan's own paper: stays light in the dark theme, so drawings keep their contrast. */
+  --sheet: #fff8e4;
   --paper-shade: color-mix(in oklab, var(--cream) 55%, var(--paper));
   --paper-rule: color-mix(in oklab, var(--chocolate) 70%, var(--paper));
   --paper-hairline: color-mix(in oklab, var(--camel) 55%, var(--paper));
@@ -94,4 +96,34 @@
   :root {
     --paper-hairline: color-mix(in oklab, var(--chocolate) 75%, var(--paper));
   }
+}
+
+/* Blueprint night: deep chocolate ground, cream ink, camel grid. The accent is lifted so it reads on dark. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --mat: #2a1a0f;
+  --mat-grid: color-mix(in oklab, var(--camel) 13%, transparent);
+  --mat-grid-major: color-mix(in oklab, var(--camel) 28%, transparent);
+  --paper: #3a2416;
+  --paper-shade: color-mix(in oklab, #24150b 45%, var(--paper));
+  --paper-rule: color-mix(in oklab, var(--cream) 62%, var(--paper));
+  --paper-hairline: color-mix(in oklab, var(--camel) 42%, var(--paper));
+  --ink: var(--cream);
+  --ink-soft: color-mix(in oklab, var(--cream) 78%, var(--paper));
+  --rail: #1f1209;
+  --accent: #e0895a;
+  --accent-strong: color-mix(in oklab, #e0895a 82%, white);
+  --accent-ink: #24150b;
+  --link: #e2a46a;
+  --focus: #e2a46a;
+
+  --shadow-sheet:
+    0 1px 1px rgb(0 0 0 / 0.3),
+    0 10px 24px -8px rgb(0 0 0 / 0.5),
+    0 28px 56px -20px rgb(0 0 0 / 0.45);
+  --shadow-raised: 0 1px 2px rgb(0 0 0 / 0.35), 0 4px 10px -4px rgb(0 0 0 / 0.5);
+  --shadow-rail: 0 1px 0 rgb(0 0 0 / 0.5), 0 6px 16px -10px rgb(0 0 0 / 0.7);
+  --edge-light: inset 0 1px 0 rgb(255 230 167 / 0.08);
+  --shadow-tab: 0 -4px 10px -6px rgb(0 0 0 / 0.4);
 }

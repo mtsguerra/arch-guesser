@@ -16,6 +16,9 @@ export default {
 
   places: { normal: 'Adivinhar · Normal', custom: 'Adivinhar · Personalizado' },
 
+  theme: { toDark: 'Mudar para o tema escuro', toLight: 'Mudar para o tema claro' },
+  sound: { turnOn: 'Ligar o som', turnOff: 'Desligar o som' },
+
   menu: 'Menu',
 
   daily: {

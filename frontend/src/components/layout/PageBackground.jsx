@@ -1,12 +1,12 @@
 import ShapeGrid from '../ui/ShapeGrid.jsx'
+import { useTheme } from '../../theme.js'
 import styles from './PageBackground.module.css'
 
 // The canvas can't read CSS variables, so the brief-pinned palette is mirrored here
 // (see styles/tokens.css): camel lines on the cream mat, russet outlines and an oxblood wash under the cursor.
 const GRID = {
-  lineColor: 'rgb(187 148 87 / 0.42)',
-  hoverColor: '#99582a',
-  hoverFillColor: '#6f1d1b',
+  light: { lineColor: 'rgb(187 148 87 / 0.42)', hoverColor: '#99582a', hoverFillColor: '#6f1d1b' },
+  dark: { lineColor: 'rgb(187 148 87 / 0.22)', hoverColor: '#e2a46a', hoverFillColor: '#e2a46a' },
 }
 
 /**
@@ -14,6 +14,7 @@ const GRID = {
  * only shows in the margins, and lights up cell by cell under the cursor.
  */
 export function PageBackground() {
+  const theme = useTheme()
   return (
     <div className={styles.background} aria-hidden="true">
       <ShapeGrid
@@ -26,7 +27,7 @@ export function PageBackground() {
         glow={0}
         fillOpacity={0.07}
         clickCascade={false}
-        {...GRID}
+        {...GRID[theme]}
       />
     </div>
   )

@@ -36,7 +36,7 @@
 /* Drawings only: the develop animation's filter isolates this frame, so the scan
    multiplies against this paper. */
 .blend {
-  background: var(--paper);
+  background: var(--sheet);
 }
 
 .blend .cropped {

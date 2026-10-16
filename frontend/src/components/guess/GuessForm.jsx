@@ -5,6 +5,7 @@ import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
 import { REVEAL, TICK, haptic } from '../../game/haptics.js'
+import { chime, scratch, tick } from '../../game/sound.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
@@ -43,7 +44,10 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
   const wasLocked = useRef(status === 'correct')
 
   useEffect(() => {
-    if (status === 'wrong') controls.start(shake)
+    if (status === 'wrong') {
+      controls.start(shake)
+      scratch()
+    }
   }, [status, attempts, controls])
 
   const locked = status === 'correct'
@@ -53,6 +57,7 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
     if (locked && !wasLocked.current) {
       controls.start({ scale: [1, 1.025, 1], transition: { duration: 0.4, ease: easeOut } })
       haptic(TICK)
+      tick()
     }
     wasLocked.current = locked
   }, [locked, controls])
@@ -133,7 +138,10 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
   const wasRevealed = useRef(revealed)
   useEffect(() => {
     if (revealed) nextButton.current?.focus({ preventScroll: true })
-    if (revealed && !wasRevealed.current) haptic(REVEAL)
+    if (revealed && !wasRevealed.current) {
+      haptic(REVEAL)
+      chime()
+    }
     wasRevealed.current = revealed
   }, [revealed])
 

@@ -1,0 +1,30 @@
+.toggle {
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  border: var(--hairline) solid color-mix(in oklab, var(--rail-ink) 28%, transparent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--rail-ink);
+  cursor: pointer;
+  transition: background-color var(--dur-base) var(--ease-out), scale 120ms var(--ease-out);
+}
+
+.toggle:hover {
+  background: rgb(255 230 167 / 0.12);
+}
+
+.toggle:active {
+  scale: 0.94;
+}
+
+.toggle:focus-visible {
+  outline-color: var(--rail-ink);
+}
+
+.icon {
+  width: 1.125rem;
+  height: 1.125rem;
+}
