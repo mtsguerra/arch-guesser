@@ -1,90 +1,95 @@
-import { useState } from 'react'
-import { AnimatePresence, motion } from 'motion/react'
-import { CalendarDays, ChevronDown, Compass, Play, SlidersHorizontal } from 'lucide-react'
-import { duration, easeOut, springSoft } from '../../motion.js'
+import { useEffect, useState } from 'react'
+import { fetchCatalogue } from '../../api/buildings.js'
+import { countryName } from '../../game/countries.js'
+import { filterPool, pickedKeys, readConfig } from '../../game/custom.js'
 import { dailyNumber, readDaily } from '../../game/daily.js'
 import { useCountdown } from '../../game/useCountdown.js'
-import { useStrings } from '../../i18n.js'
+import { useEras } from '../../game/useEras.js'
+import { useLanguage, useStrings } from '../../i18n.js'
 import { AppShell } from '../layout/AppShell.jsx'
 import { RollingText } from '../ui/RollingNumber.jsx'
+import { PencilDrawing } from './PencilDrawing.jsx'
+import { PencilFilter } from './PencilFilter.jsx'
+import { PencilTitle } from './PencilTitle.jsx'
 import styles from './Home.module.css'
 
-/** Today's daily: a link whose status says whether it is still to play. */
-function DailyCard() {
-  const { daily } = useStrings()
-  const left = useCountdown()
-  const number = dailyNumber()
+// Three hand-drawn underlines, so the names don't all get the same stroke.
+const STROKES = [
+  'M2 7 C60 3 120 10 180 6 S300 4 350 7',
+  'M2 6 C70 9 130 3 190 7 S310 9 350 5',
+  'M2 8 C50 4 110 9 170 5 S290 8 350 6',
+]
+
+/** One mode: its name, underlined by the pencil, and a line about it. The whole block is the link. */
+function Mode({ href, tone, index, name, text }) {
   return (
-    <a className={`${styles.card} ${styles.link}`} href="#/daily">
-      <CalendarDays className={styles.icon} aria-hidden="true" strokeWidth={1.75} />
-      <h2 className={styles.title}>
-        <RollingText value={number} format={daily.title} />
-      </h2>
-      <p className={styles.text}>{readDaily(number) ? daily.done(left) : daily.play}</p>
-    </a>
+    <li className={`${styles.mode} ${tone === 'main' ? styles.main : ''}`}>
+      <a className={styles.link} href={href}>
+        <span className={styles.nameWrap}>
+          <h2 className={styles.name}>{name}</h2>
+          <svg className={styles.underline} viewBox="0 0 352 12" preserveAspectRatio="none" aria-hidden="true" style={{ '--d': `${0.5 + index * 0.6}s` }}>
+            <path pathLength="1" d={STROKES[index]} />
+          </svg>
+        </span>
+        <p className={styles.text}>{text}</p>
+      </a>
+    </li>
   )
 }
 
+/** What the remembered Custom setup would play ("12 buildings · Siza +1"), or null if nothing is picked. */
+function useCustomSummary() {
+  const { lang } = useLanguage()
+  const { eras: eraNames, home } = useStrings()
+  const [catalogue, setCatalogue] = useState(null)
+  useEffect(() => {
+    fetchCatalogue().then(setCatalogue).catch(() => {})
+  }, [])
+  if (!catalogue) return null
+  const config = readConfig()
+  const picked = pickedKeys(config)
+  const count = filterPool(catalogue, config).length
+  if (!picked.length || !count) return null
+  const label = ({ kind, key }) =>
+    kind === 'countries' ? (countryName(key, lang) ?? key) : kind === 'eras' ? (eraNames[key] ?? key) : key
+  return home.custom.summary(count, label(picked[0]), picked.length - 1)
+}
+
 export function Home() {
-  const strings = useStrings()
-  const { home } = strings
-  const [open, setOpen] = useState(false)
+  const { home, daily } = useStrings()
+  const left = useCountdown()
+  const number = dailyNumber()
+  const customSummary = useCustomSummary()
+  const eras = useEras()
+  const [buildings, setBuildings] = useState(null)
+  useEffect(() => {
+    fetchCatalogue().then((c) => setBuildings(c.length)).catch(() => {})
+  }, [])
 
   return (
-    <AppShell>
+    <AppShell brand="afterHero">
       <div className={styles.home}>
-        <header className={styles.intro}>
-          <h1 className={styles.heading}>{home.heading}</h1>
-          <p className={styles.lead}>{strings.tagline}</p>
-        </header>
-
-        <div className={styles.cards}>
-          <DailyCard />
-
-          <section className={styles.card}>
-            <button
-              type="button"
-              className={styles.toggle}
-              aria-expanded={open}
-              aria-controls="guesser-modes"
-              onClick={() => setOpen((o) => !o)}
-            >
-              <Compass className={styles.icon} aria-hidden="true" strokeWidth={1.75} />
-              <h2 className={styles.title}>{home.guesser.title}</h2>
-              <p className={styles.text}>{home.guesser.text}</p>
-              <ChevronDown className={`${styles.chevron} ${open ? styles.turned : ''}`} aria-hidden="true" />
-            </button>
-
-            <AnimatePresence initial={false}>
-              {open && (
-                <motion.div
-                  id="guesser-modes"
-                  className={styles.modes}
-                  // Grows out of the card's lower edge and folds back along the same path.
-                  style={{ originY: 0 }}
-                  initial={{ height: 0, opacity: 0, y: -8 }}
-                  animate={{ height: 'auto', opacity: 1, y: 0, transition: { height: springSoft, y: springSoft, opacity: { duration: duration.base, ease: easeOut } } }}
-                  exit={{ height: 0, opacity: 0, y: -8, transition: { height: springSoft, y: springSoft, opacity: { duration: duration.fast } } }}
-                >
-                  <a className={styles.mode} href="#/play">
-                    <Play className={styles.modeIcon} aria-hidden="true" strokeWidth={1.75} />
-                    <span>
-                      <strong>{home.guesser.normal.title}</strong>
-                      <span className={styles.text}>{home.guesser.normal.text}</span>
-                    </span>
-                  </a>
-                  <a className={styles.mode} href="#/custom">
-                    <SlidersHorizontal className={styles.modeIcon} aria-hidden="true" strokeWidth={1.75} />
-                    <span>
-                      <strong>{home.guesser.custom.title}</strong>
-                      <span className={styles.text}>{home.guesser.custom.text}</span>
-                    </span>
-                  </a>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </section>
+        <PencilFilter />
+        <PencilTitle />
+        <div className={styles.hero}>
+          <PencilDrawing />
         </div>
+
+        <p className={styles.how}>{home.how}</p>
+
+        <ul className={styles.modes}>
+          <Mode
+            href="#/daily"
+            tone="main"
+            index={0}
+            name={<RollingText value={number} format={daily.title} />}
+            text={readDaily(number) ? daily.done(left) : daily.play}
+          />
+          <Mode href="#/play" index={1} name={home.normal.title} text={home.normal.text} />
+          <Mode href="#/custom" index={2} name={home.custom.title} text={customSummary ?? home.custom.text} />
+        </ul>
+
+        {buildings && eras?.length > 0 && <p className={styles.stats}>{home.stats(buildings, eras.length)}</p>}
       </div>
     </AppShell>
   )

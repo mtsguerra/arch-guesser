@@ -2,8 +2,8 @@
   position: relative;
   display: grid;
   place-items: center;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: var(--toggle-size, 2.25rem);
+  height: var(--toggle-size, 2.25rem);
   padding: 0;
   border: var(--hairline) solid color-mix(in oklab, var(--rail-ink) 28%, transparent);
   border-radius: 999px;

@@ -1,0 +1,92 @@
+.root {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 0.25rem;
+}
+
+.title,
+.subtitle {
+  margin: 0;
+  line-height: 0;
+}
+
+.svg {
+  display: block;
+  overflow: visible;
+  height: auto;
+  filter: url(#pencil-grain);
+}
+
+.title .svg {
+  width: min(46rem, 94vw);
+}
+
+.subtitle .svg {
+  width: min(34rem, 92vw);
+}
+
+.probe {
+  fill: transparent;
+  visibility: hidden;
+}
+
+/* Each letter: the outline is traced, then the letter is shaded in. */
+.letter {
+  fill: var(--graphite);
+  fill-opacity: 0;
+  stroke: var(--graphite);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  paint-order: stroke;
+  animation:
+    trace 0.9s cubic-bezier(0.4, 0.1, 0.3, 1) var(--delay) forwards,
+    shade 0.5s ease-out calc(var(--delay) + 0.75s) forwards;
+}
+
+.done {
+  animation: none;
+  fill-opacity: 0.9;
+  stroke-dashoffset: 0;
+}
+
+@keyframes trace {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes shade {
+  to {
+    fill-opacity: 0.9;
+  }
+}
+
+.pencil {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.1rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.pencil svg {
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .letter {
+    animation: none;
+    fill-opacity: 0.9;
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Weak devices: no grain filter (it is re-drawn every frame while the pencil moves). */
+:global(html.lite) .svg {
+  filter: none;
+}

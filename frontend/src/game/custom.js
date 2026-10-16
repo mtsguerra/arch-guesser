@@ -47,6 +47,12 @@ function write(storage, key, value) {
   }
 }
 
+/** What a setup has picked, for a one-line summary: [{ kind: 'architects' | 'eras' | 'countries', key }]. */
+export function pickedKeys({ mode, architects, eras, countries }) {
+  const by = { architect: [['architects', architects]], era: [['eras', eras]], country: [['countries', countries]], countryEra: [['countries', countries], ['eras', eras]] }
+  return by[mode].flatMap(([kind, keys]) => keys.map((key) => ({ kind, key })))
+}
+
 // Browser storage can hold anything (older versions, hand edits), so every read is rebuilt from
 // known-good parts before the app touches it.
 const strings = (value) => (Array.isArray(value) ? value.filter((x) => typeof x === 'string') : [])

@@ -1,0 +1,20 @@
+import { shuffle } from '../../game/custom.js'
+import { silhouettes } from '../reveal/silhouettes.js'
+
+/** True where the pencil would be wasted: phones (battery) and people who asked for less motion. */
+export function skipsPencil() {
+  const query = (q) => window.matchMedia?.(q).matches
+  return query('(max-width: 40rem)') || query('(prefers-reduced-motion: reduce)')
+}
+
+// The era drawings of the reveal, without their dimension lines (a dash pattern can't also be a drawing animation).
+export const DRAWINGS = Object.values(silhouettes).map((s) => s.strokes.filter((stroke) => stroke.tone !== 'dimension'))
+export const length = (strokes) => Math.max(...strokes.map((s) => s.delay + s.duration))
+
+/** A new random order that doesn't open with the drawing that just closed the last one. */
+export function order(last) {
+  const next = shuffle(DRAWINGS.map((_, i) => i))
+  if (next[0] === last) next.push(next.shift())
+  return next
+}
+

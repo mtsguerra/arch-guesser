@@ -1,9 +1,12 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
+import { motion } from 'motion/react'
+import { springSoft } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { LanguageSwitch } from './LanguageSwitch.jsx'
 import { SoundToggle } from './SoundToggle.jsx'
 import { ThemeToggle } from './ThemeToggle.jsx'
 import { PageBackground } from './PageBackground.jsx'
+import { useAutoHide } from './autoHide.js'
 import styles from './AppShell.module.css'
 
 function PlanMark() {
@@ -19,60 +22,74 @@ function PlanMark() {
   )
 }
 
-// The wordmark plots itself once per visit: each letter starts as an outline and lights up at its own moment.
-let plotted = false
-
-function PlotterText({ text }) {
-  const [animate] = useState(() => !plotted)
-  useEffect(() => {
-    plotted = true
-  }, [])
-  // Scattered but fixed (no randomness in render): each letter lights at its own moment.
-  const letters = useMemo(
-    () => [...text].map((char, i) => ({ char, key: i, delay: ((i * 37) % 10) / 11, length: 0.8 + ((i * 53) % 7) / 10 })),
-    [text],
-  )
-  if (!animate) return text
-  return (
-    <>
-      <span className="visually-hidden">{text}</span>
-      <span aria-hidden="true">
-        {letters.map(({ char, key, delay, length }) =>
-          char === ' ' ? (
-            ' '
-          ) : (
-            <span key={key} className={styles.plot} style={{ animationDelay: `${delay}s`, animationDuration: `${length}s` }}>
-              {char}
-            </span>
-          ),
-        )}
-      </span>
-    </>
-  )
-}
-
-/** @param place  where the player is (Daily #3, Custom…), shown beside the logo */
-export function AppShell({ actions, place, children }) {
+/**
+ * @param place  where the player is (Daily #3, Custom…), shown beside the logo
+ * @param slim   the game's header: a thin line (the Menu on the left, `actions` on the right) that tucks away
+ *               while the page scrolls down and returns when it scrolls up; no box, no big name
+ * @param menu   the slim header's left control
+ * @param brand  'always' shows the small name in the header; 'afterHero' (the home page, which has the big
+ *               drawn name in the page) shows it only once that has scrolled away
+ */
+export function AppShell({ actions, place, brand = 'always', slim = false, menu, children }) {
   const strings = useStrings()
   // The rail's edge only appears once content scrolls under it.
   const [scrolled, setScrolled] = useState(false)
+  const [pastHero, setPastHero] = useState(false)
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 4)
+    const onScroll = () => {
+      setScrolled(window.scrollY > 4)
+      setPastHero(window.scrollY > 240)
+    }
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+  const scrolledAway = useAutoHide()
+  const [peek, setPeek] = useState(false) // the pointer is at the top edge or on the bar
+  const [focused, setFocused] = useState(false) // a control in the bar has the keyboard
+  const hidden = slim && scrolledAway && !peek && !focused
+
+  const header = slim ? (
+    <>
+      {/* A hair-thin strip at the very top: pointing at it brings the bar back. */}
+      <div className={styles.edge} onMouseEnter={() => setPeek(true)} aria-hidden="true" />
+      <motion.header
+        className={styles.slim}
+        animate={{ y: hidden ? '-100%' : '0%', opacity: hidden ? 0 : 1 }}
+        transition={springSoft}
+        onMouseEnter={() => setPeek(true)}
+        onMouseLeave={() => setPeek(false)}
+        onFocus={() => setFocused(true)}
+        onBlur={() => setFocused(false)}
+        inert={hidden || undefined}
+      >
+        <div className={styles.slimLeft}>{menu}</div>
+        <a className={styles.slimBrand} href="#/" aria-label={strings.appName}>
+          <PlanMark />
+          {place && <span>{place}</span>}
+        </a>
+        <div className={styles.slimRight}>
+          {actions}
+          <span className={styles.tools}>
+            <ThemeToggle />
+            <SoundToggle />
+            <LanguageSwitch />
+          </span>
+        </div>
+      </motion.header>
+    </>
+  ) : null
+
   return (
-    <div className={styles.shell}>
+    <div className={styles.shell} data-slim={slim || undefined}>
       <PageBackground />
-      <header className={styles.rail} data-scrolled={scrolled || undefined}>
+      {header}
+      {!slim && <header className={styles.rail} data-scrolled={scrolled || undefined}>
         {place && <span className={styles.place}>{place}</span>}
-        <a className={styles.brand} href="#/" aria-label={strings.appName}>
+        <a className={styles.brand} href="#/" aria-label={strings.appName} data-hidden={(brand === 'afterHero' && !pastHero) || undefined}>
           <PlanMark />
           <span className={styles.name}>
-            <span className={styles.wordmark}>
-              <PlotterText text={strings.appName} />
-            </span>
+            <span className={styles.wordmark}>{strings.appName}</span>
             <span className={styles.tagline}>{strings.tagline}</span>
           </span>
         </a>
@@ -82,7 +99,7 @@ export function AppShell({ actions, place, children }) {
           <SoundToggle />
           <LanguageSwitch />
         </div>
-      </header>
+      </header>}
       <main className={styles.main}>{children}</main>
       <footer className={styles.footer}>
         <p>

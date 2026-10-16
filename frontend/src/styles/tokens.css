@@ -33,6 +33,8 @@
   --accent-strong: color-mix(in oklab, var(--oxblood) 82%, black);
   --accent-ink: var(--paper);
   --link: var(--russet);
+  /* The pencil: lines and shading drawn by hand */
+  --graphite: color-mix(in oklab, var(--chocolate) 86%, transparent);
   --focus: var(--russet);
 
   /* Type */
@@ -116,6 +118,7 @@
   --accent-strong: color-mix(in oklab, #e0895a 82%, white);
   --accent-ink: #24150b;
   --link: #e2a46a;
+  --graphite: color-mix(in oklab, var(--cream) 88%, transparent);
   --focus: #e2a46a;
 
   --shadow-sheet:

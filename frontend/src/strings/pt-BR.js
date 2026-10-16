@@ -5,12 +5,13 @@ export default {
   tagline: 'Descubra o prédio pelos desenhos',
 
   home: {
-    heading: 'Escolha um modo',
-    guesser: {
-      title: 'Adivinhar',
-      text: 'Jogue quantos edifícios quiser.',
-      normal: { title: 'Normal', text: 'Um edifício aleatório de toda a coleção.' },
-      custom: { title: 'Personalizado', text: 'Escolha arquitetos, épocas e países (mínimo de 10 edifícios).' },
+    how: 'Veja os desenhos, abra as dicas e adivinhe o edifício, o arquiteto, o país e a época.',
+    stats: (buildings, styles) => `${buildings} edifícios · ${styles} estilos`,
+    normal: { title: 'Normal', text: 'Edifícios aleatórios, quantos você quiser.' },
+    custom: {
+      title: 'Personalizado',
+      text: 'Escolha arquitetos, épocas ou países para jogar só esses.',
+      summary: (n, first, more) => `${n} edifícios · ${first}${more ? ` +${more}` : ''}`,
     },
   },
 

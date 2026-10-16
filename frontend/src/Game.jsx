@@ -12,7 +12,7 @@ import { AppShell } from './components/layout/AppShell.jsx'
 import { BoardStatus } from './components/board/BoardStatus.jsx'
 import { DailyDone } from './components/daily/DailyDone.jsx'
 import { Recap } from './components/custom/Recap.jsx'
-import { MenuButton } from './components/layout/MenuButton.jsx'
+import { SlimButton } from './components/layout/SlimButton.jsx'
 import { Round } from './components/layout/Round.jsx'
 import { Button } from './components/ui/Button.jsx'
 import styles from './App.module.css'
@@ -101,22 +101,22 @@ export default function Game({ mode = 'normal' }) {
   return (
     <AppShell
       place={daily ? strings.daily.title(dailyNumber()) : mode === 'custom' ? strings.places.custom : strings.places.normal}
-      actions={
+      slim
+      menu={
         <span className={styles.desktopOnly}>
-          <MenuButton onClick={leave} />
-          {!daily && phase !== 'done' && (
-            <Button
-              variant="cream"
-              icon={Shuffle}
-              compact
-              aria-label={strings.nextBuilding}
-              onClick={round.loadNext}
-              disabled={loading}
-            >
-              {strings.nextBuilding}
-            </Button>
-          )}
+          <SlimButton icon={LayoutGrid} onClick={leave}>
+            {strings.menu}
+          </SlimButton>
         </span>
+      }
+      actions={
+        !daily && phase !== 'done' ? (
+          <span className={styles.desktopOnly}>
+            <SlimButton icon={Shuffle} onClick={round.loadNext} disabled={loading}>
+              {strings.nextBuilding}
+            </SlimButton>
+          </span>
+        ) : null
       }
     >
       {/* On phones the same controls sit in a bar within thumb reach. */}

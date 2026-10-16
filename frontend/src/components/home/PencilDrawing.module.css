@@ -1,0 +1,53 @@
+.svg {
+  display: block;
+  width: min(24rem, 78vw);
+  height: auto;
+  margin-top: var(--space-3);
+  overflow: visible;
+  filter: url(#pencil-grain);
+  transition: opacity 0.7s ease;
+}
+
+.leaving {
+  opacity: 0;
+}
+
+.stroke {
+  fill: none;
+  stroke: var(--graphite);
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw var(--dur) cubic-bezier(0.4, 0.1, 0.3, 1) var(--delay) forwards;
+}
+
+/* A second, fainter pass, a hair off: the sketchy double line of a hand. */
+.ghost {
+  stroke-width: 1;
+  opacity: 0.45;
+  transform: translate(0.7px, 0.5px);
+}
+
+.done {
+  animation: none;
+  stroke-dashoffset: 0;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stroke {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+}
+
+:global(html.lite) .svg {
+  filter: none;
+}

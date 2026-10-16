@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { advanceSession, emptyConfig, facets, filterPool, readSession, sanitizeConfig, shuffle } from './custom.js'
+import { advanceSession, emptyConfig, facets, filterPool, pickedKeys, readSession, sanitizeConfig, shuffle } from './custom.js'
 
 const catalogue = [
   { id: 'a', architects: ['Wright'], era: 'MODERNISM', countryCode: 'US' },
@@ -85,5 +85,14 @@ describe('a stored session is not trusted', () => {
     expect(readSession()).toBeNull()
     store[key] = session({ index: 'one' })
     expect(readSession()).toBeNull()
+  })
+})
+
+describe('pickedKeys', () => {
+  it('lists the picks that matter for the chosen mode, in the order the setup shows them', () => {
+    const config = { ...emptyConfig, architects: ['Siza'], eras: ['BAROQUE'], countries: ['PT', 'ES'] }
+    expect(pickedKeys({ ...config, mode: 'architect' })).toEqual([{ kind: 'architects', key: 'Siza' }])
+    expect(pickedKeys({ ...config, mode: 'countryEra' }).map((p) => p.key)).toEqual(['PT', 'ES', 'BAROQUE'])
+    expect(pickedKeys({ ...emptyConfig })).toEqual([])
   })
 })

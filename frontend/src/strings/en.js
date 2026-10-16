@@ -5,12 +5,13 @@ export default {
   tagline: 'Name the building from its drawings',
 
   home: {
-    heading: 'Choose a mode',
-    guesser: {
-      title: 'Guesser',
-      text: 'Play as many buildings as you like.',
-      normal: { title: 'Normal', text: 'A random building from the whole collection.' },
-      custom: { title: 'Custom', text: 'Pick architects, eras and countries (at least 10 buildings).' },
+    how: 'See the drawings, open the tips, then guess the building, architect, country and era.',
+    stats: (buildings, styles) => `${buildings} buildings · ${styles} styles`,
+    normal: { title: 'Normal', text: 'Random buildings, as many as you like.' },
+    custom: {
+      title: 'Custom',
+      text: 'Pick architects, eras or countries to play only those.',
+      summary: (n, first, more) => `${n} buildings · ${first}${more ? ` +${more}` : ''}`,
     },
   },
 
