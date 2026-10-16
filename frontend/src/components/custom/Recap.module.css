@@ -1,0 +1,36 @@
+.recap {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  box-shadow: var(--shadow-raised);
+}
+
+.heading {
+  font-size: var(--text-xl);
+  font-weight: 750;
+  font-stretch: var(--stretch-wide);
+}
+
+.lead {
+  color: var(--ink-soft);
+}
+
+.list {
+  display: grid;
+  gap: var(--space-1);
+  padding-left: var(--space-5);
+}
+
+.list a {
+  color: var(--accent);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}

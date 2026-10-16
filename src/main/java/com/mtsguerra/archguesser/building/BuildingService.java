@@ -43,6 +43,10 @@ public class BuildingService {
         return pool.get(ThreadLocalRandom.current().nextInt(pool.size()));
     }
 
+    public List<CatalogueEntry> catalogue() {
+        return repository.findAll().stream().map(CatalogueEntry::of).toList();
+    }
+
     /** Every building id, sorted: the browser derives the daily building from it. */
     public List<String> ids() {
         return repository.findAll().stream().map(Building::id).sorted().toList();

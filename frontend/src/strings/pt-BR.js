@@ -6,7 +6,6 @@ export default {
 
   home: {
     heading: 'Escolha um modo',
-    soon: 'Em breve',
     guesser: {
       title: 'Adivinhar',
       text: 'Jogue quantos edifícios quiser.',
@@ -26,6 +25,29 @@ export default {
     copied: 'Copiado',
     shareTitle: 'Arch Guesser Diário',
     playGuesser: 'Jogar Adivinhar',
+  },
+
+  custom: {
+    heading: 'Jogo personalizado',
+    lead: (min) => `Escolha o que jogar. São necessários pelo menos ${min} edifícios.`,
+    modeLabel: 'Filtrar por',
+    modes: { architect: 'Arquiteto', era: 'Época', country: 'País', countryEra: 'País + Época' },
+    pick: { architects: 'Arquitetos', eras: 'Épocas', countries: 'Países' },
+    search: 'Buscar',
+    none: 'Nada encontrado',
+    rounds: 'Rodadas',
+    all: (n) => `Todos (${n})`,
+    matches: (n) => `${n} edifícios correspondem`,
+    needed: (n, min) => `${n} de ${min} necessários`,
+    start: 'Começar',
+    failed: 'Não foi possível carregar a lista de edifícios.',
+    leave: 'Sair desta sessão? Seu progresso será perdido.',
+    recap: {
+      heading: 'Sessão concluída',
+      lead: (n) => `Você jogou ${n} edifícios. Leia mais sobre eles:`,
+      again: 'Jogar de novo',
+      change: 'Mudar filtros',
+    },
   },
 
   language: {

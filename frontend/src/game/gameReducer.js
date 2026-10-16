@@ -6,6 +6,8 @@ import { GUESS_FIELDS } from './matchGuess.js'
  *   loading ─▶ playing ─▶ revealed ─▶ loading …
  *      └─▶ error ─(retry)─▶ loading
  *
+ * A custom session that runs out of buildings ends in `done`.
+ *
  * During `loading`, the previous building stays in state so the board can
  * hand over to the next one with an exit animation instead of a blank flash.
  *
@@ -42,6 +44,9 @@ export function gameReducer(state, action) {
       const { fields, outcome, attempts, hintsUsed } = action.saved
       return { ...initialState, phase: 'revealed', building: action.building, fields, outcome, attempts, hintsUsed, hintLevel: action.building.hints.length }
     }
+
+    case 'session/done':
+      return { ...state, phase: 'done' }
 
     case 'building/translate':
       // Same building in another language: only the text changes.

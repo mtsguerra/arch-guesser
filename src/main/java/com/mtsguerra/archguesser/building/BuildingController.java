@@ -28,6 +28,11 @@ class BuildingController {
         return service.random(exclude, lang);
     }
 
+    @GetMapping("/buildings/catalogue")
+    List<CatalogueEntry> catalogue() {
+        return service.catalogue();
+    }
+
     @GetMapping("/buildings/ids")
     List<String> ids() {
         return service.ids();

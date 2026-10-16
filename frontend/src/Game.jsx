@@ -1,5 +1,6 @@
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { LayoutGrid, Shuffle } from 'lucide-react'
+import { clearSession } from './game/custom.js'
 import { useEras } from './game/useEras.js'
 import { useGameRound } from './game/useGameRound.js'
 import { duration, easeOut } from './motion.js'
@@ -7,6 +8,7 @@ import { useStrings } from './i18n.js'
 import { AppShell } from './components/layout/AppShell.jsx'
 import { BoardStatus } from './components/board/BoardStatus.jsx'
 import { DailyDone } from './components/daily/DailyDone.jsx'
+import { Recap } from './components/custom/Recap.jsx'
 import { Round } from './components/layout/Round.jsx'
 import { Button } from './components/ui/Button.jsx'
 import styles from './App.module.css'
@@ -33,7 +35,7 @@ const plainMotion = {
   exit: { opacity: 0, transition: { duration: duration.fast } },
 }
 
-/** @param {'normal' | 'daily'} mode */
+/** @param {'normal' | 'daily' | 'custom'} mode */
 export default function Game({ mode = 'normal' }) {
   const strings = useStrings()
   const reduceMotion = useReducedMotion()
@@ -43,9 +45,20 @@ export default function Game({ mode = 'normal' }) {
   const { phase, building } = round
   const loading = phase === 'loading'
 
+  // Leaving a custom session throws its progress away, so ask first.
+  const leave = () => {
+    if (mode === 'custom' && phase !== 'done') {
+      if (!window.confirm(strings.custom.leave)) return
+      clearSession()
+    }
+    window.location.hash = '#/'
+  }
+
   let content
   if (phase === 'error') {
-    content = <BoardStatus key="error" status="error" onRetry={round.loadNext} />
+    content = <BoardStatus key="error" status="error" onRetry={round.reload} />
+  } else if (phase === 'done') {
+    content = <Recap key="recap" onAgain={round.reload} />
   } else if (!building) {
     content = <BoardStatus key="loading" status="loading" />
   } else {
@@ -66,10 +79,10 @@ export default function Game({ mode = 'normal' }) {
     <AppShell
       actions={
         <>
-          <Button variant="rail" icon={LayoutGrid} compact aria-label={strings.menu} onClick={() => (window.location.hash = '#/')}>
+          <Button variant="rail" icon={LayoutGrid} compact aria-label={strings.menu} onClick={leave}>
             {strings.menu}
           </Button>
-          {!daily && (
+          {!daily && phase !== 'done' && (
             <Button
               variant="cream"
               icon={Shuffle}

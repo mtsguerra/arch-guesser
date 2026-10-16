@@ -64,6 +64,16 @@ export function fetchBuildingIds() {
   return ids
 }
 
+let catalogue
+/** The filterable fields of every building, fetched once; a failure is not cached. */
+export function fetchCatalogue() {
+  catalogue ??= getJson(staticApi ? '/api/buildings/catalogue.json' : '/api/buildings/catalogue').catch((error) => {
+    catalogue = undefined
+    throw error
+  })
+  return catalogue
+}
+
 export function fetchEras(signal) {
   return getJson(staticApi ? '/api/eras.json' : '/api/eras', signal)
 }

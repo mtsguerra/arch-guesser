@@ -6,7 +6,6 @@ export default {
 
   home: {
     heading: 'Choose a mode',
-    soon: 'Soon',
     guesser: {
       title: 'Guesser',
       text: 'Play as many buildings as you like.',
@@ -26,6 +25,29 @@ export default {
     copied: 'Copied',
     shareTitle: 'Arch Guesser Daily',
     playGuesser: 'Play Guesser',
+  },
+
+  custom: {
+    heading: 'Custom game',
+    lead: (min) => `Pick what to play. You need at least ${min} buildings.`,
+    modeLabel: 'Filter by',
+    modes: { architect: 'Architect', era: 'Era', country: 'Country', countryEra: 'Country + Era' },
+    pick: { architects: 'Architects', eras: 'Eras', countries: 'Countries' },
+    search: 'Search',
+    none: 'Nothing found',
+    rounds: 'Rounds',
+    all: (n) => `All (${n})`,
+    matches: (n) => `${n} buildings match`,
+    needed: (n, min) => `${n} of ${min} needed`,
+    start: 'Start',
+    failed: 'The building list couldn’t be loaded.',
+    leave: 'Leave this session? Your progress will be lost.',
+    recap: {
+      heading: 'Session complete',
+      lead: (n) => `You played ${n} buildings. Read more about them:`,
+      again: 'Play again',
+      change: 'Change filters',
+    },
   },
 
   language: {

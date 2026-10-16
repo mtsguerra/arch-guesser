@@ -1,12 +1,16 @@
 import { useCallback, useEffect, useReducer, useRef } from 'react'
 import { fetchBuilding, fetchBuildingIds, fetchRandomBuilding } from '../api/buildings.js'
 import { useLanguage } from '../i18n.js'
+import { advanceSession, readSession } from './custom.js'
 import { dailyHold, dailyId, dailyNumber, readDaily, saveDaily } from './daily.js'
 import { gameReducer, initialState } from './gameReducer.js'
 import { evaluateGuess } from './matchGuess.js'
 import { readSeen, recordSeen } from './seenBuildings.js'
 
-/** @param {'normal' | 'daily'} mode  daily plays today's fixed building once, then shows its saved result. */
+/**
+ * @param {'normal' | 'daily' | 'custom'} mode  daily plays today's fixed building once, then shows its saved result;
+ *   custom walks the saved session's buildings in order.
+ */
 export function useGameRound(mode = 'normal') {
   const [state, dispatch] = useReducer(gameReducer, initialState)
   const pending = useRef(null)
@@ -17,13 +21,31 @@ export function useGameRound(mode = 'normal') {
     langRef.current = lang
   }, [lang])
 
-  const loadNext = useCallback(async () => {
+  const buildingRef = useRef(null)
+  useEffect(() => {
+    buildingRef.current = state.building
+  }, [state.building])
+
+  // `advance` (custom only) moves the session past the current building first.
+  const load = useCallback(async (advance) => {
     pending.current?.abort()
     const controller = new AbortController()
     pending.current = controller
 
     dispatch({ type: 'load/start' })
     try {
+      if (mode === 'custom') {
+        let session = readSession()
+        if (!session) throw new Error('No custom session')
+        if (advance) session = advanceSession(session, buildingRef.current)
+        if (session.index >= session.ids.length) {
+          dispatch({ type: 'session/done' })
+          return
+        }
+        const building = await fetchBuilding(session.ids[session.index], controller.signal, langRef.current)
+        dispatch({ type: 'load/success', building })
+        return
+      }
       if (mode === 'daily') {
         const number = dailyNumber()
         const id = dailyId(await fetchBuildingIds(), number)
@@ -42,10 +64,14 @@ export function useGameRound(mode = 'normal') {
     }
   }, [mode])
 
+  // Next building (in a custom session: the next one); `reload` retries the current one.
+  const loadNext = useCallback(() => load(true), [load])
+  const reload = useCallback(() => load(false), [load])
+
   useEffect(() => {
-    loadNext()
+    reload()
     return () => pending.current?.abort()
-  }, [loadNext])
+  }, [reload])
 
   const currentId = state.building?.id
 
@@ -80,5 +106,5 @@ export function useGameRound(mode = 'normal') {
     [building],
   )
 
-  return { ...state, loadNext, revealHint, revealAnswer, submitGuess, editField }
+  return { ...state, loadNext, reload, revealHint, revealAnswer, submitGuess, editField }
 }

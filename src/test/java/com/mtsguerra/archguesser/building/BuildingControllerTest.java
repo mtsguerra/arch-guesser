@@ -77,6 +77,16 @@ class BuildingControllerTest {
     }
 
     @Test
+    void listsTheCatalogueForCustomFilters() throws Exception {
+        mvc.perform(get("/api/buildings/catalogue"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$[0].id").isNotEmpty())
+                .andExpect(jsonPath("$[0].architects[0]").isNotEmpty())
+                .andExpect(jsonPath("$[0].era").isNotEmpty())
+                .andExpect(jsonPath("$[0].countryCode").isNotEmpty());
+    }
+
+    @Test
     void listsEras() throws Exception {
         mvc.perform(get("/api/eras"))
                 .andExpect(status().isOk())

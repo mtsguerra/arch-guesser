@@ -68,14 +68,13 @@ export function Home() {
                       <span className={styles.text}>{home.guesser.normal.text}</span>
                     </span>
                   </a>
-                  <div className={`${styles.mode} ${styles.soon}`} aria-disabled="true">
+                  <a className={styles.mode} href="#/custom">
                     <SlidersHorizontal className={styles.modeIcon} aria-hidden="true" strokeWidth={1.75} />
                     <span>
                       <strong>{home.guesser.custom.title}</strong>
                       <span className={styles.text}>{home.guesser.custom.text}</span>
                     </span>
-                    <span className={styles.tag}>{home.soon}</span>
-                  </div>
+                  </a>
                 </motion.div>
               )}
             </AnimatePresence>
