@@ -11,6 +11,12 @@ repositories {
     mavenCentral()
 }
 
+// Spring Boot 4.1.1 manages Tomcat 11.0.24 and Jackson 3.1.5, which have published advisories (Tomcat
+// authentication issues, Jackson denial-of-service on untrusted JSON). Use the fixed releases until a
+// Spring Boot that includes them is out, then delete these two lines.
+ext['tomcat.version'] = '11.0.25'
+ext['jackson-bom.version'] = '3.1.7'
+
 tasks.withType(JavaCompile).configureEach {
     options.release = 21
 }

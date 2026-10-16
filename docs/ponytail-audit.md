@@ -78,7 +78,7 @@ At most 20 findings are listed; I left out nothing larger than these. Smaller th
 
 **Lean:** -560 lines, -0 dependencies possible (about 45 of dead code now; about 400 in `ShapeGrid`; about 90 in `FlipCard`; about 25 from merging the seven checks).
 
-**Not checked:** A real browser (gestures, sound, haptics, the pencil and the Safari behaviour). The Java dependency vulnerability scan (see `docs/security-checklist.md`). I did not read `ShapeGrid`'s drawing code line by line (only what the app can reach); the data files (`buildings.json`, the pt-BR overlays) were checked by the validator and the link tests, not read.
+**Not checked:** A real browser (gestures, sound, haptics, the pencil and the Safari behaviour). The Java dependency scan used the public OSV database, not a local scanner (see `docs/security-checklist.md`). I did not read `ShapeGrid`'s drawing code line by line (only what the app can reach); the data files (`buildings.json`, the pt-BR overlays) were checked by the validator and the link tests, not read.
 
 ## Applied overnight (only the clearly safe cleanups)
 

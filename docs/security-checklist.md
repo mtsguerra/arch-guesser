@@ -57,7 +57,7 @@ Checked on 2026-10-17 against the three lists the author shared (18 checks for a
 | 17 | Trim API responses | OK | Responses carry only game data; no internal fields, timestamps or ids beyond building ids. The whole building is needed by a round. |
 | 18 | Security headers | OK | `vercel.json`: Content-Security-Policy (self-only scripts, images only from Wikimedia, `connect-src 'self'`, no objects, no framing, `upgrade-insecure-requests`), `Strict-Transport-Security`, `X-Frame-Options: DENY`, `X-Content-Type-Options: nosniff`, `Referrer-Policy`, `Permissions-Policy` (camera, microphone, geolocation, payment, usb, topics off), `Cross-Origin-Opener-Policy`, `Cross-Origin-Resource-Policy`. All asserted in `deploy.test.js`. |
 | 19 | Force HTTPS | OK | Vercel redirects http to https; HSTS (2 years) and `upgrade-insecure-requests` added; no `http://` literal in the code or data. |
-| 20 | Scan dependencies | OK | `npm audit`: 0 vulnerabilities (production and dev); `npm update` applied (React 19.3.1 and others). The Gradle wrapper download is now pinned to its SHA-256. The Java dependency scan is in the next section. |
+| 20 | Scan dependencies | OK | `npm audit`: 0 vulnerabilities (production and dev); `npm update` applied (React 19.3.1 and others). The Gradle wrapper download is now pinned to its SHA-256. Java: see "Dependency scan" below (3 packages had advisories; fixed). |
 
 ### List 3: part 2, items 19 to 36
 
@@ -82,6 +82,15 @@ Checked on 2026-10-17 against the three lists the author shared (18 checks for a
 | 35 | Exposed logs | OK | No endpoint serves logs; `*.log` is git-ignored. Vercel's build and runtime logs are private to the project. |
 | 36 | Exposed source maps | OK | The production build emits none (no `.map` files, no `sourceMappingURL`). |
 
+## Dependency scan
+
+- **npm** (`npm audit`, production and dev): 0 vulnerabilities, after `npm update`.
+- **Java** (all 39 packages on the runtime classpath, checked against the public OSV database by exact version): 3 packages had advisories with Spring Boot 4.1.1's managed versions.
+  - `tomcat-embed-core 11.0.24`: three critical advisories about DIGEST and FORM authentication and access control (GHSA-9xv2-5v5q-p794, GHSA-gcx9-497g-6cp6, GHSA-h3x4-894j-xpx5). This app uses no Tomcat authentication, so the real risk was low. Fixed in 11.0.25.
+  - `jackson-core 3.1.5` and `jackson-databind 3.1.5`: seven high or moderate advisories, mostly denial of service when parsing untrusted JSON (for example GHSA-7hhh-6rmp-j9qf, GHSA-cxp5-3px4-pw24, GHSA-wv8q-qhhj-9h54). The backend only reads its own data files at startup, so the real risk was low. Fixed in 3.1.7.
+  - **Fix:** `build.gradle` overrides the two managed versions (`tomcat.version` 11.0.25, `jackson-bom.version` 3.1.7); tests pass, and a second OSV check shows 0 advisories. No newer Spring Boot existed yet; when one ships with these versions, delete the two override lines (the comment in `build.gradle` says so).
+- The OWASP `dependency-check` tool was tried first; without an NVD API key its database download was too slow, so OSV was used instead. Re-run OSV (or dependency-check with a key) after any dependency change.
+
 ## What changed in the code for this checklist
 
 - `vercel.json`: HSTS, `X-Frame-Options`, COOP, CORP, `upgrade-insecure-requests`, wider Permissions-Policy.
@@ -90,7 +99,7 @@ Checked on 2026-10-17 against the three lists the author shared (18 checks for a
 - Static build (`build-static-api.mjs`): refuses to build if any shipped link (English or pt-BR) is not an https Wikipedia article or Commons file page; the Java side has a matching test over the pt-BR overlay.
 - `deploy.test.js`: asserts every header above, the wrapper checksum, the ignore rules and that no secret-looking file is tracked.
 - `break-protections.mjs`: now breaks 16 protections on purpose (CSP x4, HSTS, framing, http upgrade, COOP, wrapper checksum, ignore rules, stored-data checks x3, error stack traces, error messages); every line says CAUGHT.
-- Dependencies: `npm update` (patch and minor within the declared ranges).
+- Dependencies: `npm update` (patch and minor within the declared ranges) and the Tomcat and Jackson overrides above.
 
 ## Do in the Vercel dashboard (cannot be done from the repo)
 
