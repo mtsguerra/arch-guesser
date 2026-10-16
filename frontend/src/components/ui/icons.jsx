@@ -1,10 +1,11 @@
+import { useEffect, useRef } from 'react'
 import styles from './icons.module.css'
 
 // Button icons that move when their button is hovered or focused (the rule is in icons.module.css:
 // a hovered control sets --on to 1 and each part reacts). Same props as the lucide icons they replace.
-function Svg({ className = '', strokeWidth = 1.75, children }) {
+function Svg({ className = '', strokeWidth = 1.75, svgRef, children }) {
   return (
-    <svg className={`${styles.icon} ${className}`} viewBox="0 0 24 24" strokeWidth={strokeWidth} aria-hidden="true" focusable="false">
+    <svg ref={svgRef} className={`${styles.icon} ${className}`} viewBox="0 0 24 24" strokeWidth={strokeWidth} aria-hidden="true" focusable="false">
       {children}
     </svg>
   )
@@ -12,15 +13,50 @@ function Svg({ className = '', strokeWidth = 1.75, children }) {
 
 const part = (...names) => [styles.part, ...names.map((n) => styles[n])].join(' ')
 
-/** Two strands that wipe out and redraw, one after the other, as if the cards were shuffled. */
+// Each arrowhead rides back along its own strand and returns (SMIL, so it follows the curves and turns
+// with them). The paths are the strands read backwards from the arrowhead, in coordinates relative to it.
+const RIDE_UP = 'M0 0 h-5.973 a4 4 0 0 0 -3.3 1.7 l-5.454 8.6 a4 4 0 0 1 -3.3 1.7 h-1.973'
+const RIDE_DOWN = 'M0 0 h-6.041 a4 4 0 0 1 -3.3 -1.8 l-.359 -.45 l-4.728 -7.55 a4 4 0 0 0 -3.6 -2.2 h-1.972'
+const EASE = { calcMode: 'spline', keyTimes: '0;0.5;1', keyPoints: '0;1;0', keySplines: '0.4 0 0.2 1;0.4 0 0.2 1' }
+
+/** Two strands with an arrowhead each: on hover the heads travel along their strand, one down and one up, and come back. */
 export function ShuffleIcon(props) {
+  const svg = useRef(null)
+  const heads = useRef([])
+
+  useEffect(() => {
+    const control = svg.current?.closest('button, a, [role="button"]')
+    if (!control) return
+    const ride = () => {
+      if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return
+      if (control.disabled || control.getAttribute('aria-disabled') === 'true') return
+      heads.current.forEach((head) => head?.beginElement?.())
+    }
+    control.addEventListener('mouseenter', ride)
+    control.addEventListener('focus', ride)
+    return () => {
+      control.removeEventListener('mouseenter', ride)
+      control.removeEventListener('focus', ride)
+    }
+  }, [])
+
   return (
-    <Svg {...props}>
-      <path className={part('sh', 'sh1')} pathLength="1" d="M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22" />
-      <path className={part('headUp')} d="m18 2 4 4-4 4" />
-      <path className={part('sh', 'sh2')} pathLength="1" d="M2 6h1.972a4 4 0 0 1 3.6 2.2" />
-      <path className={part('sh', 'sh2')} pathLength="1" d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45" />
-      <path className={part('headDown')} d="m18 14 4 4-4 4" />
+    <Svg {...props} svgRef={svg}>
+      <path d="M2 18h1.973a4 4 0 0 0 3.3-1.7l5.454-8.6a4 4 0 0 1 3.3-1.7H22" />
+      <path d="M2 6h1.972a4 4 0 0 1 3.6 2.2" />
+      <path d="M22 18h-6.041a4 4 0 0 1-3.3-1.8l-.359-.45" />
+      <g transform="translate(22 6)">
+        <g>
+          <animateMotion ref={(el) => (heads.current[0] = el)} begin="indefinite" dur="0.9s" rotate="auto-reverse" path={RIDE_UP} {...EASE} />
+          <path d="m-4 -4 4 4 -4 4" />
+        </g>
+      </g>
+      <g transform="translate(22 18)">
+        <g>
+          <animateMotion ref={(el) => (heads.current[1] = el)} begin="indefinite" dur="0.9s" rotate="auto-reverse" path={RIDE_DOWN} {...EASE} />
+          <path d="m-4 -4 4 4 -4 4" />
+        </g>
+      </g>
     </Svg>
   )
 }

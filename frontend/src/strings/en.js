@@ -135,6 +135,8 @@ export default {
   reveal: {
     building: 'Raising the answer…',
     skip: 'Skip',
+    menu: 'What next',
+    readOn: 'Read on, or move on:',
   },
 
   guess: {

@@ -1,7 +1,7 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
 import { Building2, Check, Eye, Globe, Hourglass, PencilRuler, X } from 'lucide-react'
-import { ArrowRightIcon, BookIcon, CheckIcon } from '../ui/icons.jsx'
+import { CheckIcon } from '../ui/icons.jsx'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
@@ -127,18 +127,16 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
 /**
  * The guess sheet. Remount per building (`key={building.id}`) to clear the inputs.
  */
-export function GuessForm({ building, eras, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp, onNext, nextLabel, onShowSummary }) {
+export function GuessForm({ building, eras, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp }) {
   const strings = useStrings()
   const { lang } = useLanguage()
   const idPrefix = useId()
   const [values, setValues] = useState(emptyValues)
   const [nothingToCheck, setNothingToCheck] = useState(false)
-  const nextButton = useRef(null)
   const revealed = phase === 'revealed'
 
   const wasRevealed = useRef(revealed)
   useEffect(() => {
-    if (revealed) nextButton.current?.focus({ preventScroll: true })
     if (revealed && !wasRevealed.current) {
       haptic(REVEAL)
       chime()
@@ -248,29 +246,16 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           {status}
         </p>
 
-        <div className={styles.actions}>
-          {revealed ? (
-            <>
-              <Button ref={nextButton} icon={ArrowRightIcon} onClick={onNext} className={styles.primary}>
-                {nextLabel ?? strings.guess.next}
-              </Button>
-              {onShowSummary && (
-                <Button variant="quiet" icon={BookIcon} onClick={onShowSummary}>
-                  {strings.summary.showSummary}
-                </Button>
-              )}
-            </>
-          ) : (
-            <>
-              <Button type="submit" icon={CheckIcon} className={styles.primary}>
-                {strings.guess.submit}
-              </Button>
-              <Button variant="quiet" onClick={onGiveUp}>
-                {strings.guess.giveUp}
-              </Button>
-            </>
-          )}
-        </div>
+        {!revealed && (
+          <div className={styles.actions}>
+            <Button type="submit" icon={CheckIcon} className={styles.primary}>
+              {strings.guess.submit}
+            </Button>
+            <Button variant="quiet" onClick={onGiveUp}>
+              {strings.guess.giveUp}
+            </Button>
+          </div>
+        )}
       </form>
     </section>
   )

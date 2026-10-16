@@ -1,0 +1,110 @@
+.bar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  padding: var(--space-3) var(--gutter) max(var(--space-3), env(safe-area-inset-bottom));
+  background: color-mix(in oklab, var(--paper) 88%, transparent);
+  backdrop-filter: blur(14px) saturate(1.2);
+  box-shadow: 0 -1px 0 var(--paper-hairline), 0 -10px 24px -16px rgb(40 22 12 / 0.5);
+}
+
+.lead {
+  display: grid;
+  gap: 0.125rem;
+  margin-right: auto;
+  color: var(--ink-soft);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+.result {
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-3);
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 2.5rem;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-md);
+  box-shadow: inset 0 0 0 var(--hairline) var(--paper-hairline);
+  color: var(--ink);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: none;
+  transition: scale 120ms var(--ease-out);
+}
+
+.link:hover {
+  box-shadow: inset 0 0 0 1.5px var(--accent);
+}
+
+.link:active {
+  scale: 0.98;
+}
+
+.linkIcon {
+  width: 1.05em;
+  height: 1.05em;
+}
+
+/* Phones: icons for the small actions, and the way forward takes the rest of the row. */
+@media (max-width: 40rem) {
+  .bar {
+    gap: var(--space-2);
+  }
+
+  .lead {
+    flex-basis: 100%;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin-right: 0;
+  }
+
+  .actions {
+    flex: 1;
+    flex-wrap: nowrap;
+    gap: var(--space-2);
+  }
+
+  .link {
+    padding: 0 var(--space-3);
+  }
+
+  .link span {
+    display: none;
+  }
+
+  .next {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+:global(html.lite) .bar {
+  background: var(--paper);
+  backdrop-filter: none;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .bar {
+    background: var(--paper);
+    backdrop-filter: none;
+  }
+}

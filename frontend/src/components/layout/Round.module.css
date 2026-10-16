@@ -27,6 +27,13 @@
   min-width: 0;
 }
 
+/* Wide screens have the Drawings button in the reveal bar. */
+@media (min-width: 40.01rem) {
+  .boardAction {
+    display: none;
+  }
+}
+
 .boardAction > button {
   width: 100%;
   justify-content: center;

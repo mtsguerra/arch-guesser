@@ -16,16 +16,6 @@
 /* --on is 0 normally and 1 while the nearest control is hovered or focused (base.css). Parts that
    ease toward a state use it in a transition; parts that play a short move use the hover selector. */
 
-/* Shuffle: the strands wipe out and redraw, one just after the other */
-.sh { stroke-dasharray: 1 1; }
-:global(:is(button, a, [role='button']):is(:hover, :focus-visible):not(:disabled, [aria-disabled='true'])) .sh1 { animation: wipe 0.8s cubic-bezier(0.4, 0, 0.2, 1) both; }
-:global(:is(button, a, [role='button']):is(:hover, :focus-visible):not(:disabled, [aria-disabled='true'])) .sh2 { animation: wipe 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.12s both; }
-:global(:is(button, a, [role='button']):is(:hover, :focus-visible):not(:disabled, [aria-disabled='true'])) .headUp { animation: head-up 0.8s ease-in-out both; }
-:global(:is(button, a, [role='button']):is(:hover, :focus-visible):not(:disabled, [aria-disabled='true'])) .headDown { animation: head-down 0.8s ease-in-out 0.12s both; }
-@keyframes wipe { 0% { stroke-dashoffset: 0; } 45% { stroke-dashoffset: -1; } 46% { stroke-dashoffset: 1; } 100% { stroke-dashoffset: 0; } }
-@keyframes head-up { 0%, 100% { transform: translate(0, 0); opacity: 1; } 40% { transform: translate(3px, -3px); opacity: 0; } 46% { transform: translate(-3px, 3px); opacity: 0; } 75% { opacity: 1; } }
-@keyframes head-down { 0%, 100% { transform: translate(0, 0); opacity: 1; } 40% { transform: translate(3px, 3px); opacity: 0; } 46% { transform: translate(-3px, -3px); opacity: 0; } 75% { opacity: 1; } }
-
 /* Bulb: glow and fill come up, a small wiggle */
 .glow { fill: color-mix(in oklab, var(--camel) 75%, transparent); stroke: none; opacity: calc(var(--on, 0) * 0.65); transform: scale(calc(0.5 + var(--on, 0) * 0.5)); transition: opacity 0.35s var(--ease-out), transform 0.45s var(--ease-out); }
 .bulbBody { fill: var(--camel); fill-opacity: calc(var(--on, 0) * 0.5); transition: fill-opacity 0.35s var(--ease-out); }

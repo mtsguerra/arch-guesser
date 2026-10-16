@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { ChevronDown } from 'lucide-react'
 import { LayoutGridIcon, ShuffleIcon } from './components/ui/icons.jsx'
@@ -11,7 +12,7 @@ import { duration, easeOut, springSoft } from './motion.js'
 import { useStrings } from './i18n.js'
 import { AppShell } from './components/layout/AppShell.jsx'
 import { BoardStatus } from './components/board/BoardStatus.jsx'
-import { DailyDone } from './components/daily/DailyDone.jsx'
+import { RevealBar } from './components/layout/RevealBar.jsx'
 import { Recap } from './components/custom/Recap.jsx'
 import { SlimButton } from './components/layout/SlimButton.jsx'
 import { Round } from './components/layout/Round.jsx'
@@ -57,6 +58,12 @@ export default function Game({ mode = 'normal' }) {
   const eras = useEras()
   const { phase, building } = round
   const loading = phase === 'loading'
+  const revealed = phase === 'revealed'
+
+  // Drawings or summary after the reveal; it starts on the summary for each building.
+  const [viewFor, setViewFor] = useState({ id: null, view: 'summary' })
+  const view = building && viewFor.id === building.id ? viewFor.view : 'summary'
+  const toggleView = () => setViewFor({ id: building.id, view: view === 'summary' ? 'board' : 'summary' })
   // After a reveal, pulling the page down moves to the next building (Normal and Custom, on touch).
   const pullIndicator = usePullToNext(phase === 'revealed' && !daily, round.loadNext)
 
@@ -91,10 +98,9 @@ export default function Game({ mode = 'normal' }) {
         <Round
           round={round}
           eras={eras}
-          onNext={daily ? () => (window.location.hash = '#/play') : round.loadNext}
-          nextLabel={daily ? strings.daily.playGuesser : undefined}
+          view={view}
+          onViewChange={(next) => setViewFor({ id: building.id, view: next })}
         />
-        {daily && phase === 'revealed' && <DailyDone fields={round.fields} hintsUsed={round.hintsUsed} />}
       </div>
     )
   }
@@ -103,8 +109,10 @@ export default function Game({ mode = 'normal' }) {
     <AppShell
       place={daily ? strings.daily.title(dailyNumber()) : mode === 'custom' ? strings.places.custom : strings.places.normal}
       slim
+      phoneMenu={revealed}
+      bottomBar={revealed ? 'reveal' : 'phone'}
       menu={
-        <span className={styles.desktopOnly}>
+        <span className={revealed ? undefined : styles.desktopOnly}>
           <SlimButton icon={LayoutGridIcon} onClick={leave}>
             {strings.menu}
           </SlimButton>
@@ -120,18 +128,34 @@ export default function Game({ mode = 'normal' }) {
         ) : null
       }
     >
+      {/* After the reveal: what to do next, fixed at the bottom. */}
+      {revealed && building && (
+        <>
+          <RevealBar
+            view={view}
+            onToggleView={toggleView}
+            wikipedia={building.wikipedia}
+            onNext={daily ? () => (window.location.hash = '#/play') : round.loadNext}
+            nextLabel={daily ? strings.daily.playGuesser : undefined}
+            daily={daily ? { fields: round.fields, hintsUsed: round.hintsUsed } : null}
+          />
+        </>
+      )}
       {/* On phones the same controls sit in a bar within thumb reach. */}
-      <div className={styles.bar}>
-        <Button variant="ghost" icon={LayoutGridIcon} onClick={leave}>
-          {strings.menu}
-        </Button>
-        {!daily && phase !== 'done' && (
-          <Button icon={ShuffleIcon} onClick={round.loadNext} disabled={loading}>
-            {strings.nextBuilding}
-          </Button>
-        )}
-      </div>
-      <div className={styles.barSpacer} aria-hidden="true" />
+      {!revealed && (
+        <>
+          <div className={styles.bar}>
+            <Button variant="ghost" icon={LayoutGridIcon} onClick={leave}>
+              {strings.menu}
+            </Button>
+            {!daily && phase !== 'done' && (
+              <Button icon={ShuffleIcon} onClick={round.loadNext} disabled={loading}>
+                {strings.nextBuilding}
+              </Button>
+            )}
+          </div>
+        </>
+      )}
       <div ref={pullIndicator} className={styles.pull} aria-hidden="true">
         <ChevronDown strokeWidth={2} />
         <span className={styles.pullHint}>{strings.pull.hint}</span>

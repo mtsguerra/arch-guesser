@@ -24,11 +24,10 @@ const fade = {
  * board steps back into a reference column beside the summary; the player can
  * swap back to the full drawings at any time. Remount per building.
  */
-export function Round({ round, eras, onNext, nextLabel }) {
+export function Round({ round, eras, view, onViewChange }) {
   const strings = useStrings()
   const { building, phase } = round
   const revealed = phase === 'revealed'
-  const [view, setView] = useState('summary')
   const [built, setBuilt] = useState(false)
   const reduceMotion = useReducedMotion()
   const summary = revealed && view === 'summary'
@@ -51,7 +50,7 @@ export function Round({ round, eras, onNext, nextLabel }) {
           </motion.div>
           {summary ? (
             <motion.div {...fade} className={styles.boardAction}>
-              <Button variant="ghost" icon={MapIcon} onClick={() => setView('board')}>
+              <Button variant="ghost" icon={MapIcon} onClick={() => onViewChange('board')}>
                 {strings.summary.showDrawings}
               </Button>
             </motion.div>
@@ -75,8 +74,6 @@ export function Round({ round, eras, onNext, nextLabel }) {
                 eras={eras}
                 fields={round.fields}
                 outcome={round.outcome}
-                onNext={onNext}
-                nextLabel={nextLabel}
               />
             </motion.div>
           ) : (
@@ -91,9 +88,6 @@ export function Round({ round, eras, onNext, nextLabel }) {
                 onSubmit={round.submitGuess}
                 onEdit={round.editField}
                 onGiveUp={round.revealAnswer}
-                onNext={onNext}
-                nextLabel={nextLabel}
-                onShowSummary={revealed ? () => setView('summary') : undefined}
               />
             </motion.aside>
           )}

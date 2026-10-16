@@ -27,10 +27,13 @@ function PlanMark() {
  * @param slim   the game's header: a thin line (the Menu on the left, `actions` on the right) that tucks away
  *               while the page scrolls down and returns when it scrolls up; no box, no big name
  * @param menu   the slim header's left control
+ * @param bottomBar  'phone' or 'reveal' when a fixed bar covers the bottom of the screen (on phones only, or at every size),
+ *               so the credits footer gets room above it
+ * @param phoneMenu  show that control on phones too (they otherwise keep it in the bottom bar)
  * @param brand  'always' shows the small name in the header; 'afterHero' (the home page, which has the big
  *               drawn name in the page) shows it only once that has scrolled away
  */
-export function AppShell({ actions, place, brand = 'always', slim = false, menu, children }) {
+export function AppShell({ actions, place, brand = 'always', slim = false, menu, phoneMenu = false, bottomBar, children }) {
   const strings = useStrings()
   // The rail's edge only appears once content scrolls under it.
   const [scrolled, setScrolled] = useState(false)
@@ -55,6 +58,7 @@ export function AppShell({ actions, place, brand = 'always', slim = false, menu,
       <div className={styles.edge} onMouseEnter={() => setPeek(true)} aria-hidden="true" />
       <motion.header
         className={styles.slim}
+        data-phone-menu={phoneMenu || undefined}
         animate={{ y: hidden ? '-100%' : '0%', opacity: hidden ? 0 : 1 }}
         transition={springSoft}
         onMouseEnter={() => setPeek(true)}
@@ -81,7 +85,7 @@ export function AppShell({ actions, place, brand = 'always', slim = false, menu,
   ) : null
 
   return (
-    <div className={styles.shell} data-slim={slim || undefined}>
+    <div className={styles.shell} data-slim={slim || undefined} data-bottom-bar={bottomBar}>
       <PageBackground />
       {header}
       {!slim && <header className={styles.rail} data-scrolled={scrolled || undefined}>

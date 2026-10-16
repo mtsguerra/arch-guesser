@@ -321,3 +321,35 @@
     grid-column: 2;
   }
 }
+
+/* On a phone the revealed screen has its own bottom bar, so the Menu moves up here. */
+@media (max-width: 40rem) {
+  .slim[data-phone-menu] {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .slim[data-phone-menu] .slimLeft {
+    display: flex;
+    grid-column: 1;
+  }
+
+  .slim[data-phone-menu] .slimBrand {
+    grid-column: 2;
+    justify-self: center;
+  }
+
+  .slim[data-phone-menu] .slimRight {
+    grid-column: 3;
+  }
+}
+
+/* A fixed bar covers the bottom of the screen: leave the credits room above it. */
+.shell[data-bottom-bar='reveal'] .footer {
+  padding-bottom: calc(7.5rem + env(safe-area-inset-bottom));
+}
+
+@media (max-width: 40rem) {
+  .shell[data-bottom-bar='phone'] .footer {
+    padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+  }
+}

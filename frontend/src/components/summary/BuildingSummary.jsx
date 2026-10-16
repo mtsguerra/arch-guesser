@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { Check, Eye } from 'lucide-react'
-import { ArrowRightIcon, ExternalIcon } from '../ui/icons.jsx'
+import { ExternalIcon } from '../ui/icons.jsx'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName, formatYear } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
@@ -9,7 +9,6 @@ import { useLanguage, useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
 import { Credit } from '../ui/Credit.jsx'
 import { countryName } from '../../game/countries.js'
-import { Button } from '../ui/Button.jsx'
 import styles from './BuildingSummary.module.css'
 
 // The monograph unfolds section by section as the board steps back.
@@ -103,7 +102,7 @@ function Photo({ photo }) {
   )
 }
 
-export function BuildingSummary({ building, eras, fields, outcome, onNext, nextLabel }) {
+export function BuildingSummary({ building, eras, fields, outcome }) {
   const strings = useStrings()
   const heading = useRef(null)
   const era = eras?.find((e) => e.id === building.era)
@@ -194,11 +193,6 @@ export function BuildingSummary({ building, eras, fields, outcome, onNext, nextL
         </motion.section>
       )}
 
-      <motion.footer className={styles.footer} variants={section}>
-        <Button icon={ArrowRightIcon} onClick={onNext}>
-          {nextLabel ?? strings.guess.next}
-        </Button>
-      </motion.footer>
     </motion.article>
   )
 }

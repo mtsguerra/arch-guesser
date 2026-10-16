@@ -19,8 +19,7 @@
   display: contents;
 }
 
-.bar,
-.barSpacer {
+.bar {
   display: none;
 }
 
@@ -82,11 +81,6 @@
     box-shadow: 0 -1px 0 var(--paper-hairline);
   }
 
-  .barSpacer {
-    display: block;
-    height: calc(4.25rem + env(safe-area-inset-bottom));
-  }
-
   .pull {
     display: flex;
   }
@@ -104,3 +98,4 @@
     backdrop-filter: none;
   }
 }
+
