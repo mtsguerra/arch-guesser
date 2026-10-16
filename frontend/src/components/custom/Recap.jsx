@@ -1,4 +1,4 @@
-import { RotateCcw, SlidersHorizontal } from 'lucide-react'
+import { RotateIcon, SlidersIcon } from '../ui/icons.jsx'
 import { fetchCatalogue } from '../../api/buildings.js'
 import { filterPool, readSession, startSession } from '../../game/custom.js'
 import { useStrings } from '../../i18n.js'
@@ -34,11 +34,11 @@ export function Recap({ onAgain }) {
 
       <div className={styles.actions}>
         {session && (
-          <Button icon={RotateCcw} onClick={again}>
+          <Button icon={RotateIcon} onClick={again}>
             {custom.recap.again}
           </Button>
         )}
-        <Button variant="ghost" icon={SlidersHorizontal} onClick={() => (window.location.hash = '#/custom')}>
+        <Button variant="ghost" icon={SlidersIcon} onClick={() => (window.location.hash = '#/custom')}>
           {custom.recap.change}
         </Button>
       </div>

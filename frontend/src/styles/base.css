@@ -46,6 +46,18 @@ button {
   cursor: pointer;
 }
 
+/* Icons inside a control move while it is hovered or focused (components/ui/icons). */
+:root,
+button,
+a,
+[role='button'] {
+  --on: 0;
+}
+
+:is(button, a, [role='button']):is(:hover, :focus-visible):not(:disabled, [aria-disabled='true']) {
+  --on: 1;
+}
+
 h1,
 h2,
 h3 {

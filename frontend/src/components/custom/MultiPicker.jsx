@@ -1,6 +1,6 @@
 import { useId, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
-import { X } from 'lucide-react'
+import { XIcon } from '../ui/icons.jsx'
 import { springSoft } from '../../motion.js'
 import { normalize } from '../../game/text.js'
 import styles from './MultiPicker.module.css'
@@ -40,7 +40,7 @@ export function MultiPicker({ label, placeholder, emptyText, rows, selected, onC
             >
               <button type="button" className={styles.chip} onClick={() => toggle(key)}>
                 {byKey.get(key)?.label ?? key}
-                <X className={styles.x} aria-label="×" strokeWidth={2} />
+                <XIcon className={styles.x} aria-label="×" strokeWidth={2} />
               </button>
             </motion.li>
           ))}

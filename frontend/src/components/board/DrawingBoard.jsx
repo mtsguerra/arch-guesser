@@ -1,6 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, animate, motion, useMotionValue, useReducedMotion } from 'motion/react'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { ChevronLeftIcon, ChevronRightIcon } from '../ui/icons.jsx'
 import { duration, easeOut, springSoft } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
@@ -231,7 +231,7 @@ export function DrawingBoard({ building, revealed, fields }) {
                   onClick={() => step(-1)}
                   aria-label={strings.board.previous}
                 >
-                  <ChevronLeft aria-hidden="true" strokeWidth={2} />
+                  <ChevronLeftIcon aria-hidden="true" strokeWidth={2} />
                 </button>
                 <button
                   type="button"
@@ -239,7 +239,7 @@ export function DrawingBoard({ building, revealed, fields }) {
                   onClick={() => step(1)}
                   aria-label={strings.board.next}
                 >
-                  <ChevronRight aria-hidden="true" strokeWidth={2} />
+                  <ChevronRightIcon aria-hidden="true" strokeWidth={2} />
                 </button>
               </>
             )}

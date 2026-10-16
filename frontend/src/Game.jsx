@@ -1,5 +1,6 @@
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
-import { ChevronDown, LayoutGrid, Shuffle } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
+import { LayoutGridIcon, ShuffleIcon } from './components/ui/icons.jsx'
 import { dailyNumber } from './game/daily.js'
 import { clearSession, readSession, restoreSession } from './game/custom.js'
 import { showToast } from './components/ui/toast.js'
@@ -104,7 +105,7 @@ export default function Game({ mode = 'normal' }) {
       slim
       menu={
         <span className={styles.desktopOnly}>
-          <SlimButton icon={LayoutGrid} onClick={leave}>
+          <SlimButton icon={LayoutGridIcon} onClick={leave}>
             {strings.menu}
           </SlimButton>
         </span>
@@ -112,7 +113,7 @@ export default function Game({ mode = 'normal' }) {
       actions={
         !daily && phase !== 'done' ? (
           <span className={styles.desktopOnly}>
-            <SlimButton icon={Shuffle} onClick={round.loadNext} disabled={loading}>
+            <SlimButton icon={ShuffleIcon} onClick={round.loadNext} disabled={loading}>
               {strings.nextBuilding}
             </SlimButton>
           </span>
@@ -121,11 +122,11 @@ export default function Game({ mode = 'normal' }) {
     >
       {/* On phones the same controls sit in a bar within thumb reach. */}
       <div className={styles.bar}>
-        <Button variant="ghost" icon={LayoutGrid} onClick={leave}>
+        <Button variant="ghost" icon={LayoutGridIcon} onClick={leave}>
           {strings.menu}
         </Button>
         {!daily && phase !== 'done' && (
-          <Button icon={Shuffle} onClick={round.loadNext} disabled={loading}>
+          <Button icon={ShuffleIcon} onClick={round.loadNext} disabled={loading}>
             {strings.nextBuilding}
           </Button>
         )}

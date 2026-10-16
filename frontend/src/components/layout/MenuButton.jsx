@@ -1,4 +1,4 @@
-import { LayoutGrid } from 'lucide-react'
+import { LayoutGridIcon } from '../ui/icons.jsx'
 import { useStrings } from '../../i18n.js'
 import { Button } from '../ui/Button.jsx'
 
@@ -6,7 +6,7 @@ import { Button } from '../ui/Button.jsx'
 export function MenuButton({ onClick = () => (window.location.hash = '#/') }) {
   const strings = useStrings()
   return (
-    <Button variant="rail" icon={LayoutGrid} compact aria-label={strings.menu} onClick={onClick}>
+    <Button variant="rail" icon={LayoutGridIcon} compact aria-label={strings.menu} onClick={onClick}>
       {strings.menu}
     </Button>
   )

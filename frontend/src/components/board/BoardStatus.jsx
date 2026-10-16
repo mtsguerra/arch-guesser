@@ -1,4 +1,4 @@
-import { RotateCcw } from 'lucide-react'
+import { RotateIcon } from '../ui/icons.jsx'
 import { useStrings } from '../../i18n.js'
 import { Button } from '../ui/Button.jsx'
 import { PlotLoader } from '../ui/PlotLoader.jsx'
@@ -22,7 +22,7 @@ export function BoardStatus({ status, onRetry }) {
             <div className={styles.error}>
               <h2 className={styles.errorTitle}>{strings.board.errorTitle}</h2>
               <p className={styles.message}>{strings.board.errorBody}</p>
-              <Button icon={RotateCcw} onClick={onRetry}>{strings.board.retry}</Button>
+              <Button icon={RotateIcon} onClick={onRetry}>{strings.board.retry}</Button>
             </div>
           )}
         </div>

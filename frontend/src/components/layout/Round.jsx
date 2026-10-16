@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { createPortal } from 'react-dom'
 import { AnimatePresence, LayoutGroup, motion, useReducedMotion } from 'motion/react'
-import { Map as MapIcon } from 'lucide-react'
+import { MapIcon } from '../ui/icons.jsx'
 import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { DrawingBoard } from '../board/DrawingBoard.jsx'

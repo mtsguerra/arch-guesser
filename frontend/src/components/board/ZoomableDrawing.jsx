@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion, useMotionValue, useSpring } from 'motion/react'
-import { Minus, Plus } from 'lucide-react'
+import { MinusIcon, PlusIcon } from '../ui/icons.jsx'
 import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
@@ -142,7 +142,7 @@ export function ZoomableDrawing({ sheet, onError, onZoomChange }) {
           onClick={toggleFromButton}
           onKeyDown={handleButtonKeyDown}
         >
-          {zoomed ? <Minus aria-hidden="true" strokeWidth={2} /> : <Plus aria-hidden="true" strokeWidth={2} />}
+          {zoomed ? <MinusIcon aria-hidden="true" strokeWidth={2} /> : <PlusIcon aria-hidden="true" strokeWidth={2} />}
           <span>{zoomed ? strings.board.zoomOut : strings.board.zoomIn}</span>
         </button>
       </div>

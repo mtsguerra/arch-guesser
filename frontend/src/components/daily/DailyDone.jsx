@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Check, Copy } from 'lucide-react'
+import { CheckIcon, CopyIcon } from '../ui/icons.jsx'
 import { dailyNumber, shareText } from '../../game/daily.js'
 import { useCountdown } from '../../game/useCountdown.js'
 import { useStrings } from '../../i18n.js'
@@ -39,7 +39,7 @@ export function DailyDone({ fields, hintsUsed }) {
       <pre className={styles.preview} aria-label={daily.preview}>
         {text}
       </pre>
-      <Button variant="ghost" icon={copied ? Check : Copy} onClick={copy}>
+      <Button variant="ghost" icon={copied ? CheckIcon : CopyIcon} onClick={copy}>
         {copied ? daily.copied : daily.share}
       </Button>
     </section>

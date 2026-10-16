@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
-import { Lightbulb, Lock } from 'lucide-react'
+import { Lock } from 'lucide-react'
+import { BulbIcon } from '../ui/icons.jsx'
 import { useStrings } from '../../i18n.js'
 import FlipCard from '../ui/FlipCard.jsx'
 import styles from './HintTray.module.css'
@@ -53,7 +54,7 @@ export function HintTray({ hints, hintLevel, canReveal, onReveal }) {
                 front={
                   <div className={`${styles.card} ${styles.front} ${next ? styles.next : styles.locked}`}>
                     {next ? (
-                      <Lightbulb className={styles.icon} aria-hidden="true" strokeWidth={1.75} />
+                      <BulbIcon className={styles.icon} aria-hidden="true" strokeWidth={1.75} />
                     ) : (
                       <Lock className={styles.icon} aria-hidden="true" strokeWidth={1.75} />
                     )}

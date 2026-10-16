@@ -1,6 +1,7 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
-import { ArrowRight, BookOpen, Building2, Check, Eye, Globe, Hourglass, PencilRuler, X } from 'lucide-react'
+import { Building2, Check, Eye, Globe, Hourglass, PencilRuler, X } from 'lucide-react'
+import { ArrowRightIcon, BookIcon, CheckIcon } from '../ui/icons.jsx'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
@@ -250,18 +251,18 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
         <div className={styles.actions}>
           {revealed ? (
             <>
-              <Button ref={nextButton} icon={ArrowRight} onClick={onNext} className={styles.primary}>
+              <Button ref={nextButton} icon={ArrowRightIcon} onClick={onNext} className={styles.primary}>
                 {nextLabel ?? strings.guess.next}
               </Button>
               {onShowSummary && (
-                <Button variant="quiet" icon={BookOpen} onClick={onShowSummary}>
+                <Button variant="quiet" icon={BookIcon} onClick={onShowSummary}>
                   {strings.summary.showSummary}
                 </Button>
               )}
             </>
           ) : (
             <>
-              <Button type="submit" icon={Check} className={styles.primary}>
+              <Button type="submit" icon={CheckIcon} className={styles.primary}>
                 {strings.guess.submit}
               </Button>
               <Button variant="quiet" onClick={onGiveUp}>

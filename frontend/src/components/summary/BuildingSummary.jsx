@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion } from 'motion/react'
-import { ArrowRight, Check, ExternalLink, Eye } from 'lucide-react'
+import { Check, Eye } from 'lucide-react'
+import { ArrowRightIcon, ExternalIcon } from '../ui/icons.jsx'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName, formatYear } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
@@ -188,13 +189,13 @@ export function BuildingSummary({ building, eras, fields, outcome, onNext, nextL
           <p>{strings.summary.more.text}</p>
           <a className={styles.moreLink} href={building.wikipedia} target="_blank" rel="noreferrer">
             {strings.summary.more.link}
-            <ExternalLink className={styles.moreIcon} aria-hidden="true" strokeWidth={1.75} />
+            <ExternalIcon className={styles.moreIcon} aria-hidden="true" strokeWidth={1.75} />
           </a>
         </motion.section>
       )}
 
       <motion.footer className={styles.footer} variants={section}>
-        <Button icon={ArrowRight} onClick={onNext}>
+        <Button icon={ArrowRightIcon} onClick={onNext}>
           {nextLabel ?? strings.guess.next}
         </Button>
       </motion.footer>

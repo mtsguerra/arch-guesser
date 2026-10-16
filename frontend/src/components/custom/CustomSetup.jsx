@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { motion } from 'motion/react'
-import { Play } from 'lucide-react'
+import { PlayIcon } from '../ui/icons.jsx'
 import { fetchCatalogue } from '../../api/buildings.js'
 import { countryName } from '../../game/countries.js'
 import {
@@ -113,7 +113,7 @@ export function CustomSetup() {
           </p>
           {/* Keyed on readiness so unlocking Start gives it a small settle. */}
           <motion.div key={ready} initial={ready ? { scale: 0.92 } : false} animate={{ scale: 1 }} transition={springSoft}>
-            <Button icon={Play} disabled={!ready} onClick={start}>
+            <Button icon={PlayIcon} disabled={!ready} onClick={start}>
               {custom.start}
             </Button>
           </motion.div>
