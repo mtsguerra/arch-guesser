@@ -1,6 +1,9 @@
 package com.mtsguerra.archguesser.building;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -92,5 +95,33 @@ class BuildingControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$[0].id").value("ANCIENT_EGYPTIAN"))
                 .andExpect(jsonPath("$[*].id").value(Matchers.hasItems("ART_DECO", "OTTOMAN", "MANUELINE", "ISLAMIC", "MANNERISM", "INDUSTRIAL", "EAST_ASIAN", "RUSSIAN")));
+    }
+
+    @Test
+    void theApiIsReadOnly() throws Exception {
+        for (var path : new String[] {"/api/eras", "/api/buildings/ids", "/api/buildings/catalogue", "/api/buildings/random"}) {
+            mvc.perform(post(path)).andExpect(status().isMethodNotAllowed());
+            mvc.perform(put(path)).andExpect(status().isMethodNotAllowed());
+            mvc.perform(delete(path)).andExpect(status().isMethodNotAllowed());
+        }
+    }
+
+    @Test
+    void errorsDoNotLeakInternals() throws Exception {
+        for (var path : new String[] {"/api/nope", "/api/buildings/does-not-exist", "/api/buildings/..%2f..%2fetc%2fpasswd", "/api/buildings/%00"}) {
+            mvc.perform(get(path)).andExpect(content().string(Matchers.not(Matchers.anyOf(
+                    Matchers.containsString("Exception"),
+                    Matchers.containsString("at com."),
+                    Matchers.containsString("at org."),
+                    Matchers.containsString("java.")))));
+        }
+    }
+
+    @Test
+    void anUnknownLanguageServesTheSourceTextAndSetsNoCookie() throws Exception {
+        mvc.perform(get("/api/buildings/villa-savoye").param("lang", "xx-<script>"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value("villa-savoye"))
+                .andExpect(org.springframework.test.web.servlet.result.MockMvcResultMatchers.header().doesNotExist("Set-Cookie"));
     }
 }

@@ -78,4 +78,22 @@ class JsonBuildingRepositoryTest {
     private static ByteArrayResource json(String content) {
         return new ByteArrayResource(content.getBytes(StandardCharsets.UTF_8));
     }
+
+    @Test
+    void everyLinkInTheShippedDataIsHttpsToWikipediaOrWikimedia() throws Exception {
+        // The pt-BR overlay can carry its own links, and the validator only sees the English source.
+        var resolver = new org.springframework.core.io.support.PathMatchingResourcePatternResolver();
+        var files = resolver.getResources("classpath*:data/pt-BR/*.json");
+        var repository = new JsonBuildingRepository(jsonMapper, new ClassPathResource("data/buildings.json"), files);
+        var article = java.util.regex.Pattern.compile("https://(en|pt)\\.wikipedia\\.org/wiki/\\S+");
+        var commons = java.util.regex.Pattern.compile("https://commons\\.wikimedia\\.org/wiki/\\S+");
+
+        for (var lang : new String[] {null, "pt-BR"}) {
+            for (var b : repository.findAll(lang)) {
+                assertThat(b.wikipedia()).as(b.id() + " wikipedia").matches(article);
+                b.drawings().forEach(d -> assertThat(d.source()).as(b.id() + " drawing source").matches(commons));
+                b.photos().forEach(p -> assertThat(p.source()).as(b.id() + " photo source").matches(commons));
+            }
+        }
+    }
 }

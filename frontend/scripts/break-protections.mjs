@@ -20,6 +20,14 @@ const cases = [
   ['recap links are not limited to https', join(frontend, 'src/game/custom.js'), "p.wikipedia.startsWith('https://')", 'true', 'src/game/custom.test.js'],
   ['session ids are not checked', join(frontend, 'src/game/custom.js'), '!s.ids.every(isId)', 'false', 'src/game/custom.test.js'],
   ['stored filter mode is not checked', join(frontend, 'src/game/custom.js'), 'MODES.includes(v.mode) ? v.mode : emptyConfig.mode', 'v.mode', 'src/game/custom.test.js'],
+  ['HSTS header is dropped', join(repo, 'vercel.json'), '"Strict-Transport-Security"', '"X-Not-Hsts"', 'src/deploy.test.js'],
+  ['framing is allowed by X-Frame-Options', join(repo, 'vercel.json'), '"value": "DENY"', '"value": "SAMEORIGIN"', 'src/deploy.test.js'],
+  ['stray http requests are not upgraded', join(repo, 'vercel.json'), '; upgrade-insecure-requests', '', 'src/deploy.test.js'],
+  ['cross-origin isolation is dropped', join(repo, 'vercel.json'), '"Cross-Origin-Opener-Policy"', '"X-Not-Coop"', 'src/deploy.test.js'],
+  ['the Gradle download is no longer checksummed', join(repo, 'gradle/wrapper/gradle-wrapper.properties'), 'distributionSha256Sum=', '#distributionSha256Sum=', 'src/deploy.test.js'],
+  ['secrets are no longer git-ignored', join(repo, '.gitignore'), '\n.env\n', '\n#.env\n', 'src/deploy.test.js'],
+  ['error responses carry stack traces', join(repo, 'src/main/resources/application.properties'), 'server.error.include-stacktrace=never', 'server.error.include-stacktrace=always', 'SecurityConfigTest', 'gradle'],
+  ['error responses carry exception messages', join(repo, 'src/main/resources/application.properties'), 'server.error.include-message=never', 'server.error.include-message=always', 'SecurityConfigTest', 'gradle'],
 ]
 
 let originals = []
@@ -27,7 +35,7 @@ const restore = () => originals.forEach(([file, text]) => writeFileSync(file, te
 for (const signal of ['SIGINT', 'SIGTERM']) process.on(signal, () => (restore(), process.exit(130)))
 
 let failed = 0
-for (const [name, file, find, replace, test] of cases) {
+for (const [name, file, find, replace, test, kind] of cases) {
   const original = readFileSync(file, 'utf8')
   if (!original.includes(find)) {
     console.log(`SETUP-ERROR  ${name}`)
@@ -36,7 +44,10 @@ for (const [name, file, find, replace, test] of cases) {
   }
   originals = [[file, original]]
   writeFileSync(file, original.replace(find, replace))
-  const run = spawnSync('npx', ['vitest', 'run', test], { cwd: frontend, encoding: 'utf8' })
+  const run =
+    kind === 'gradle'
+      ? spawnSync('./gradlew', ['test', '--tests', `*${test}`, '-q'], { cwd: repo, encoding: 'utf8' })
+      : spawnSync('npx', ['vitest', 'run', test], { cwd: frontend, encoding: 'utf8' })
   restore()
   originals = []
   const caught = run.status !== 0
