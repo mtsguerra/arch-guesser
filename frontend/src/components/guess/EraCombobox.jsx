@@ -1,5 +1,6 @@
 import { useId, useMemo, useState } from 'react'
 import { eraName } from '../../game/useEras.js'
+import { useListPlacement } from './listPlacement.js'
 import { normalize } from '../../game/text.js'
 import { useStrings } from '../../i18n.js'
 import styles from './GuessForm.module.css'
@@ -32,6 +33,7 @@ export function EraCombobox({ id, eras, value, onChange, className, ...inputProp
     [open, eras, chosen, typed, strings],
   )
   const expanded = open && options.length > 0
+  const { ref, placement } = useListPlacement(expanded)
 
   function choose(era) {
     setTyped(eraName(era, strings))
@@ -73,7 +75,7 @@ export function EraCombobox({ id, eras, value, onChange, className, ...inputProp
   }
 
   return (
-    <div className={styles.combo}>
+    <div ref={ref} className={styles.combo}>
       <input
         {...inputProps}
         id={id}
@@ -100,6 +102,8 @@ export function EraCombobox({ id, eras, value, onChange, className, ...inputProp
         role="listbox"
         aria-label={strings.guess.eraSuggestions}
         className={styles.listbox}
+        data-up={placement.up || undefined}
+        style={{ maxHeight: placement.max }}
         hidden={!expanded}
       >
         {options.map((era, i) => (

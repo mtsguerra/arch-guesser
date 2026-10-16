@@ -1,5 +1,6 @@
 import { useId, useMemo, useState } from 'react'
 import { suggestCountries } from '../../game/countries.js'
+import { useListPlacement } from './listPlacement.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import styles from './GuessForm.module.css'
 
@@ -15,6 +16,7 @@ export function CountryCombobox({ id, value, onChange, className, ...inputProps 
   const [active, setActive] = useState(-1)
   const options = useMemo(() => (open ? suggestCountries(value, lang) : []), [open, value, lang])
   const expanded = open && options.length > 0
+  const { ref, placement } = useListPlacement(expanded)
 
   function choose(country) {
     onChange(country.name)
@@ -38,7 +40,7 @@ export function CountryCombobox({ id, value, onChange, className, ...inputProps 
   }
 
   return (
-    <div className={styles.combo}>
+    <div ref={ref} className={styles.combo}>
       <input
         {...inputProps}
         id={id}
@@ -59,7 +61,7 @@ export function CountryCombobox({ id, value, onChange, className, ...inputProps 
         onKeyDown={handleKeyDown}
         onBlur={() => setOpen(false)}
       />
-      <ul id={listId} role="listbox" aria-label={strings.guess.countrySuggestions} className={styles.listbox} hidden={!expanded}>
+      <ul id={listId} role="listbox" aria-label={strings.guess.countrySuggestions} className={styles.listbox} data-up={placement.up || undefined} style={{ maxHeight: placement.max }} hidden={!expanded}>
         {options.map((country, i) => (
           <li
             key={country.code}

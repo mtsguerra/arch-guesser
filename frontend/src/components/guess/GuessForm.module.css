@@ -223,6 +223,11 @@
   list-style: none;
 }
 
+.listbox[data-up] {
+  top: auto;
+  bottom: calc(100% + var(--space-1));
+}
+
 .listbox[hidden] {
   display: none;
 }
