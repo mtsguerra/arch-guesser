@@ -18,10 +18,6 @@ public class BuildingService {
         this.repository = repository;
     }
 
-    public Building findById(String id) {
-        return findById(id, null);
-    }
-
     public Building findById(String id, String lang) {
         return repository.findById(id, lang)
                 .orElseThrow(() -> new NotFoundException("No building with id '" + id + "'"));
