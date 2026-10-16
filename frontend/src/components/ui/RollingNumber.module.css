@@ -1,0 +1,21 @@
+.number {
+  display: inline-flex;
+  font-variant-numeric: tabular-nums;
+}
+
+.column {
+  display: inline-block;
+  height: 1.2em;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.strip {
+  display: block;
+}
+
+.cell {
+  display: block;
+  height: 1.2em;
+  line-height: 1.2;
+}

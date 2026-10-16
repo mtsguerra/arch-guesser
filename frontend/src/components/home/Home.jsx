@@ -6,6 +6,7 @@ import { dailyNumber, readDaily } from '../../game/daily.js'
 import { useCountdown } from '../../game/useCountdown.js'
 import { useStrings } from '../../i18n.js'
 import { AppShell } from '../layout/AppShell.jsx'
+import { RollingText } from '../ui/RollingNumber.jsx'
 import styles from './Home.module.css'
 
 /** Today's daily: a link whose status says whether it is still to play. */
@@ -16,7 +17,9 @@ function DailyCard() {
   return (
     <a className={`${styles.card} ${styles.link}`} href="#/daily">
       <CalendarDays className={styles.icon} aria-hidden="true" strokeWidth={1.75} />
-      <h2 className={styles.title}>{daily.title(number)}</h2>
+      <h2 className={styles.title}>
+        <RollingText value={number} format={daily.title} />
+      </h2>
       <p className={styles.text}>{readDaily(number) ? daily.done(left) : daily.play}</p>
     </a>
   )

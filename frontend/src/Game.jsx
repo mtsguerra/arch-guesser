@@ -1,7 +1,8 @@
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { Shuffle } from 'lucide-react'
 import { dailyNumber } from './game/daily.js'
-import { clearSession } from './game/custom.js'
+import { clearSession, readSession, restoreSession } from './game/custom.js'
+import { showToast } from './components/ui/toast.js'
 import { useEras } from './game/useEras.js'
 import { useGameRound } from './game/useGameRound.js'
 import { duration, easeOut, springSoft } from './motion.js'
@@ -55,11 +56,20 @@ export default function Game({ mode = 'normal' }) {
   const { phase, building } = round
   const loading = phase === 'loading'
 
-  // Leaving a custom session throws its progress away, so ask first.
+  // Leaving a custom session ends it at once; for a few seconds Undo puts it back where it was
+  // (the building you were on, though not the guesses you had typed for it).
   const leave = () => {
-    if (mode === 'custom' && phase !== 'done') {
-      if (!window.confirm(strings.custom.leave)) return
+    const session = mode === 'custom' && phase !== 'done' ? readSession() : null
+    if (session) {
       clearSession()
+      showToast({
+        text: strings.custom.ended,
+        actionLabel: strings.custom.undo,
+        onAction: () => {
+          restoreSession(session)
+          window.location.hash = '#/custom/play'
+        },
+      })
     }
     window.location.hash = '#/'
   }

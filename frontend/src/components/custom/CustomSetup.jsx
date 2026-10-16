@@ -18,7 +18,8 @@ import { useLanguage, useStrings } from '../../i18n.js'
 import { AppShell } from '../layout/AppShell.jsx'
 import { MenuButton } from '../layout/MenuButton.jsx'
 import { Button } from '../ui/Button.jsx'
-import { LiveText } from './LiveText.jsx'
+import { MeltSelect } from '../ui/MeltSelect.jsx'
+import { RollingText } from '../ui/RollingNumber.jsx'
 import { MultiPicker } from './MultiPicker.jsx'
 import styles from './CustomSetup.module.css'
 
@@ -70,19 +71,12 @@ export function CustomSetup() {
 
         {failed && <p role="alert">{custom.failed}</p>}
 
-        <div className={styles.modes} role="group" aria-label={custom.modeLabel}>
-          {MODES.map((mode) => (
-            <button
-              key={mode}
-              type="button"
-              className={styles.mode}
-              aria-pressed={config.mode === mode}
-              onClick={() => set({ mode })}
-            >
-              {custom.modes[mode]}
-            </button>
-          ))}
-        </div>
+        <MeltSelect
+          label={custom.modeLabel}
+          options={MODES.map((mode) => ({ value: mode, label: custom.modes[mode] }))}
+          value={config.mode}
+          onChange={(mode) => set({ mode })}
+        />
 
         <div className={styles.pickers}>
           {PICKERS[config.mode].map((kind) => (
@@ -99,24 +93,20 @@ export function CustomSetup() {
           ))}
         </div>
 
-        <fieldset className={styles.rounds}>
-          <legend className={styles.legend}>{custom.rounds}</legend>
-          {ROUNDS.map((n) => (
-            <button
-              key={n}
-              type="button"
-              className={styles.mode}
-              aria-pressed={config.rounds === n}
-              onClick={() => set({ rounds: n })}
-            >
-              {n === 'all' ? custom.all(pool.length) : n}
-            </button>
-          ))}
-        </fieldset>
+        <div className={styles.rounds}>
+          <span className={styles.legend}>{custom.rounds}</span>
+          <MeltSelect
+            label={custom.rounds}
+            options={ROUNDS.map((n) => ({ value: n, label: n === 'all' ? custom.all(pool.length) : String(n) }))}
+            value={config.rounds}
+            onChange={(rounds) => set({ rounds })}
+          />
+        </div>
 
         <footer className={styles.footer}>
           <p className={styles.count}>
-            <LiveText
+            <RollingText
+              live
               value={pool.length}
               format={(n) => (n >= MIN_BUILDINGS ? custom.matches(n) : custom.needed(n, MIN_BUILDINGS))}
             />

@@ -93,6 +93,8 @@ export function readSession() {
   )
   return { config: sanitizeConfig(s.config), ids: s.ids, index: s.index, played }
 }
+/** Puts back a session that was cleared a moment ago (Undo after leaving). */
+export const restoreSession = (session) => write(sessionStorage, SESSION_KEY, session)
 export const clearSession = () => {
   try {
     sessionStorage.removeItem(SESSION_KEY)

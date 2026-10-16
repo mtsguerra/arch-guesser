@@ -47,7 +47,8 @@ export default {
     needed: (n, min) => `${n} de ${min} necessários`,
     start: 'Começar',
     failed: 'Não foi possível carregar a lista de edifícios.',
-    leave: 'Sair desta sessão? Seu progresso será perdido.',
+    ended: 'Sessão encerrada',
+    undo: 'Desfazer',
     recap: {
       heading: 'Sessão concluída',
       lead: (n) => `Você jogou ${n} edifícios. Leia mais sobre eles:`,

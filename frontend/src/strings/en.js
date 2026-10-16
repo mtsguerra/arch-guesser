@@ -47,7 +47,8 @@ export default {
     needed: (n, min) => `${n} of ${min} needed`,
     start: 'Start',
     failed: 'The building list couldn’t be loaded.',
-    leave: 'Leave this session? Your progress will be lost.',
+    ended: 'Session ended',
+    undo: 'Undo',
     recap: {
       heading: 'Session complete',
       lead: (n) => `You played ${n} buildings. Read more about them:`,

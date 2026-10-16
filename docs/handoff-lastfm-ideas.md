@@ -35,11 +35,11 @@ Source of the ideas: `~/Desktop/myGit/lastfm-game` (read only; never open its `.
 - [x] Plotter title: wordmark in `AppShell.jsx`; letters split into spans with random delays; reduced motion shows plain text.
 - [x] Page transitions: wrap hash-route changes in `document.startViewTransition` (guarded).
 
-### Batch 2: Custom and feedback
-- [ ] Melting selector (`components/ui/MeltSelect.jsx` + css): replaces the mode buttons and the rounds buttons in `CustomSetup.jsx`; keyboard and `aria-pressed`/radio semantics preserved.
-- [ ] Digit counter (`components/ui/RollingNumber.jsx`): use for the match count (`LiveText` in `CustomSetup`) and Daily #N.
-- [ ] Undo toast: `components/ui/Toast.jsx`; in `Game.jsx` `leave()`: stash the session (`custom.js` helpers), go home, show the toast, restore on Undo; remove `window.confirm` and the `custom.leave` string (or reuse it as the toast text).
-- [ ] Idle-cost check of `ShapeGrid`.
+### Batch 2: Custom and feedback (done by Claude Sonnet 5.5, awaiting review; ShapeGrid already stops when settled and when off-screen, so no change was needed)
+- [x] Melting selector (`components/ui/MeltSelect.jsx` + css): replaces the mode buttons and the rounds buttons in `CustomSetup.jsx`; keyboard and `aria-pressed`/radio semantics preserved.
+- [x] Digit counter (`components/ui/RollingNumber.jsx`): use for the match count (`LiveText` in `CustomSetup`) and Daily #N.
+- [x] Undo toast: `components/ui/Toast.jsx`; in `Game.jsx` `leave()`: stash the session (`custom.js` helpers), go home, show the toast, restore on Undo; remove `window.confirm` and the `custom.leave` string (or reuse it as the toast text).
+- [x] Idle-cost check of `ShapeGrid`.
 
 ### Batch 3: phone and tooling
 - [ ] Manifest, icons, `theme-color`, CSP `manifest-src 'self'` (and run the break-it check for it).
