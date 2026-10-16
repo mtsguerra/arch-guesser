@@ -5,8 +5,8 @@ Educational guessing game on architectural history. The player sees a building's
 ## Run
 
 ```
-./gradlew bootRun            # Spring Boot API on :8080
-cd frontend && npm run dev   # Vite on :5173, proxies /api to :8080
+./gradlew bootRun            # Spring Boot API on :8090
+cd frontend && npm run dev   # Vite on :5173, proxies /api to :8090
 ```
 
 Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`, `npm run lint`, `npm run build`.
@@ -17,6 +17,7 @@ Checks before committing: `./gradlew test` and, in `frontend/`, `npx vitest run`
 - Frontend: React 19 + Vite in `frontend/`, plain JSX, CSS Modules, Motion (`motion/react`), lucide icons, Archivo variable font.
 - Data: `src/main/resources/data/buildings.json` (280 buildings: 50 world catalogue, 50 Portugal, 70 era/canon additions, 40 world icons, 70 works by named architects), loaded once at startup.
 - i18n: UI copy in `frontend/src/strings/{en,pt-BR}.js` (same keys, tested); building text translated in `src/main/resources/data/pt-BR/*.json` (id → overlay of names, aliases, bios, labels, alts, hints, summary; list sizes must match the source). API takes `?lang=pt-BR`; the static build writes `public/api/pt-BR/`.
+- Routes (URL hash, no router): `#/` is the homepage (`components/home/Home.jsx`: Daily and Guesser > Normal / Custom; Daily and Custom are "Soon" placeholders), `#/play` is the game (`Game.jsx`). `src/route.js`.
 - API: `GET /api/buildings/random?exclude=a,b`, `GET /api/buildings/{id}`, `GET /api/eras`. Errors are RFC 9457 problem+json.
 
 ## Data rules (enforced by `BuildingValidator`; the app refuses to start if any fail)

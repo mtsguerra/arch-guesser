@@ -43,6 +43,11 @@ public class BuildingService {
         return pool.get(ThreadLocalRandom.current().nextInt(pool.size()));
     }
 
+    /** Every building id, sorted: the browser derives the daily building from it. */
+    public List<String> ids() {
+        return repository.findAll().stream().map(Building::id).sorted().toList();
+    }
+
     public List<EraView> eras() {
         return Arrays.stream(Era.values()).map(EraView::of).toList();
     }

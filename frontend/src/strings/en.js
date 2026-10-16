@@ -4,6 +4,30 @@ export default {
   nextBuilding: 'Another building',
   tagline: 'Name the building from its drawings',
 
+  home: {
+    heading: 'Choose a mode',
+    soon: 'Soon',
+    guesser: {
+      title: 'Guesser',
+      text: 'Play as many buildings as you like.',
+      normal: { title: 'Normal', text: 'A random building from the whole collection.' },
+      custom: { title: 'Custom', text: 'Pick architects, eras and countries (at least 10 buildings).' },
+    },
+  },
+
+  menu: 'Menu',
+
+  daily: {
+    title: (n) => `Daily #${n}`,
+    play: 'Play today’s building',
+    done: (time) => `Done · next in ${time}`,
+    nextIn: (time) => `Next daily in ${time}`,
+    share: 'Copy result',
+    copied: 'Copied',
+    shareTitle: 'Arch Guesser Daily',
+    playGuesser: 'Play Guesser',
+  },
+
   language: {
     label: 'Language',
     switchTo: 'Português (Brasil)',

@@ -24,7 +24,7 @@ const fade = {
  * board steps back into a reference column beside the summary; the player can
  * swap back to the full drawings at any time. Remount per building.
  */
-export function Round({ round, eras }) {
+export function Round({ round, eras, onNext, nextLabel }) {
   const strings = useStrings()
   const { building, phase } = round
   const revealed = phase === 'revealed'
@@ -75,7 +75,8 @@ export function Round({ round, eras }) {
                 eras={eras}
                 fields={round.fields}
                 outcome={round.outcome}
-                onNext={round.loadNext}
+                onNext={onNext}
+                nextLabel={nextLabel}
               />
             </motion.div>
           ) : (
@@ -90,7 +91,8 @@ export function Round({ round, eras }) {
                 onSubmit={round.submitGuess}
                 onEdit={round.editField}
                 onGiveUp={round.revealAnswer}
-                onNext={round.loadNext}
+                onNext={onNext}
+                nextLabel={nextLabel}
                 onShowSummary={revealed ? () => setView('summary') : undefined}
               />
             </motion.aside>

@@ -54,6 +54,16 @@ export function fetchBuilding(id, signal, lang = 'en') {
   return getJson(`/api/buildings/${encodeURIComponent(id)}${query}`, signal)
 }
 
+let ids
+/** Every building id, fetched once (the file is small); a failure is not cached. */
+export function fetchBuildingIds() {
+  ids ??= getJson(staticApi ? '/api/buildings/index.json' : '/api/buildings/ids').catch((error) => {
+    ids = undefined
+    throw error
+  })
+  return ids
+}
+
 export function fetchEras(signal) {
   return getJson(staticApi ? '/api/eras.json' : '/api/eras', signal)
 }

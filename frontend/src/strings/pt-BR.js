@@ -4,6 +4,30 @@ export default {
   nextBuilding: 'Outra obra',
   tagline: 'Descubra o prédio pelos desenhos',
 
+  home: {
+    heading: 'Escolha um modo',
+    soon: 'Em breve',
+    guesser: {
+      title: 'Adivinhar',
+      text: 'Jogue quantos edifícios quiser.',
+      normal: { title: 'Normal', text: 'Um edifício aleatório de toda a coleção.' },
+      custom: { title: 'Personalizado', text: 'Escolha arquitetos, épocas e países (mínimo de 10 edifícios).' },
+    },
+  },
+
+  menu: 'Menu',
+
+  daily: {
+    title: (n) => `Diário #${n}`,
+    play: 'Jogue o edifício de hoje',
+    done: (time) => `Concluído · próximo em ${time}`,
+    nextIn: (time) => `Próximo diário em ${time}`,
+    share: 'Copiar resultado',
+    copied: 'Copiado',
+    shareTitle: 'Arch Guesser Diário',
+    playGuesser: 'Jogar Adivinhar',
+  },
+
   language: {
     label: 'Idioma',
     switchTo: 'English',

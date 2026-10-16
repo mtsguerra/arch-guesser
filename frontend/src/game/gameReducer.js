@@ -20,12 +20,13 @@ export const initialState = {
   hintLevel: 0,
   fields: idleFields,
   attempts: 0,
+  hintsUsed: 0,
   outcome: null,
   error: null,
 }
 
 function reveal(state, outcome) {
-  return { ...state, phase: 'revealed', outcome, hintLevel: state.building.hints.length }
+  return { ...state, phase: 'revealed', outcome, hintsUsed: state.hintLevel, hintLevel: state.building.hints.length }
 }
 
 export function gameReducer(state, action) {
@@ -35,6 +36,12 @@ export function gameReducer(state, action) {
 
     case 'load/success':
       return { ...initialState, phase: 'playing', building: action.building }
+
+    case 'load/restore': {
+      // A finished daily coming back: straight to the reveal, with the saved result.
+      const { fields, outcome, attempts, hintsUsed } = action.saved
+      return { ...initialState, phase: 'revealed', building: action.building, fields, outcome, attempts, hintsUsed, hintLevel: action.building.hints.length }
+    }
 
     case 'building/translate':
       // Same building in another language: only the text changes.

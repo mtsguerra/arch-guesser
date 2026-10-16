@@ -28,6 +28,11 @@ class BuildingController {
         return service.random(exclude, lang);
     }
 
+    @GetMapping("/buildings/ids")
+    List<String> ids() {
+        return service.ids();
+    }
+
     @GetMapping("/buildings/{id}")
     Building byId(@PathVariable String id, @RequestParam(required = false) String lang) {
         return service.findById(id, lang);

@@ -70,6 +70,13 @@ class BuildingControllerTest {
     }
 
     @Test
+    void listsBuildingIds() throws Exception {
+        mvc.perform(get("/api/buildings/ids"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$[0]").isNotEmpty());
+    }
+
+    @Test
     void listsEras() throws Exception {
         mvc.perform(get("/api/eras"))
                 .andExpect(status().isOk())

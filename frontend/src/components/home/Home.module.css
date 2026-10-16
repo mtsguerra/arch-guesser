@@ -1,0 +1,163 @@
+.home {
+  display: grid;
+  gap: var(--space-5);
+  align-content: start;
+  max-width: 56rem;
+  margin-inline: auto;
+  padding-block: var(--space-5);
+}
+
+.intro {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.heading {
+  font-size: var(--text-xl);
+  font-weight: 750;
+  font-stretch: var(--stretch-wide);
+}
+
+.lead {
+  color: var(--ink-soft);
+}
+
+/* Two cards side by side; the open Guesser card grows without moving Daily. */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.card {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  box-shadow: var(--shadow-raised);
+  color: var(--ink);
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  transition: translate var(--dur-base) var(--ease-out), box-shadow var(--dur-base) var(--ease-out);
+}
+
+.link:hover {
+  box-shadow: inset 0 0 0 1.5px var(--accent), var(--shadow-raised);
+  translate: 0 -2px;
+}
+
+.soon {
+  justify-items: start;
+  background: var(--paper-shade);
+  box-shadow: inset 0 0 0 1px var(--paper-hairline);
+  color: var(--ink-soft);
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--accent);
+}
+
+.title {
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+
+.text {
+  font-size: var(--text-sm);
+  line-height: 1.45;
+}
+
+.tag {
+  font-size: var(--text-2xs);
+  font-weight: 650;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.toggle {
+  position: relative;
+  display: grid;
+  gap: var(--space-2);
+  justify-items: start;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.chevron {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  transition: rotate var(--dur-base) var(--ease-out);
+}
+
+.turned {
+  rotate: 180deg;
+}
+
+.modes {
+  display: grid;
+  gap: var(--space-2);
+  overflow: hidden;
+}
+
+.mode {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: start;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: color-mix(in oklab, var(--paper) 70%, var(--camel));
+  color: var(--ink);
+  text-decoration: none;
+  transition: translate var(--dur-base) var(--ease-out), box-shadow var(--dur-base) var(--ease-out);
+}
+
+a.mode:hover {
+  box-shadow: inset 0 0 0 1.5px var(--accent), var(--shadow-raised);
+  translate: 0 -2px;
+}
+
+.mode > span {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.mode.soon {
+  background: var(--paper-shade);
+}
+
+.modeIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--accent);
+}
+
+@media (max-width: 40rem) {
+  .cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.mode:hover,
+  .link:hover {
+    translate: none;
+  }
+}

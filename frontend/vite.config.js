@@ -5,9 +5,9 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   server: {
-    // Same-origin API calls in dev; the Spring Boot backend runs on :8080.
+    // Same-origin API calls in dev; the Spring Boot backend runs on :8090.
     proxy: {
-      '/api': 'http://localhost:8080',
+      '/api': 'http://localhost:8090',
     },
   },
 })

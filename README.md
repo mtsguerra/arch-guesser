@@ -8,8 +8,8 @@ the hints if you want them, then guess the building, its architect, its country 
 ## Run locally
 
 ```
-./gradlew bootRun            # Spring Boot API on :8080
-cd frontend && npm install && npm run dev   # Vite on :5173, proxies /api to :8080
+./gradlew bootRun            # Spring Boot API on :8090
+cd frontend && npm install && npm run dev   # Vite on :5173, proxies /api to :8090
 ```
 
 Checks: `./gradlew test`, and in `frontend/`: `npx vitest run`, `npm run lint`, `npm run build`.

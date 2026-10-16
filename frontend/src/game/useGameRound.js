@@ -1,11 +1,13 @@
 import { useCallback, useEffect, useReducer, useRef } from 'react'
-import { fetchBuilding, fetchRandomBuilding } from '../api/buildings.js'
+import { fetchBuilding, fetchBuildingIds, fetchRandomBuilding } from '../api/buildings.js'
 import { useLanguage } from '../i18n.js'
+import { dailyHold, dailyId, dailyNumber, readDaily, saveDaily } from './daily.js'
 import { gameReducer, initialState } from './gameReducer.js'
 import { evaluateGuess } from './matchGuess.js'
 import { readSeen, recordSeen } from './seenBuildings.js'
 
-export function useGameRound() {
+/** @param {'normal' | 'daily'} mode  daily plays today's fixed building once, then shows its saved result. */
+export function useGameRound(mode = 'normal') {
   const [state, dispatch] = useReducer(gameReducer, initialState)
   const pending = useRef(null)
   const { lang } = useLanguage()
@@ -22,22 +24,40 @@ export function useGameRound() {
 
     dispatch({ type: 'load/start' })
     try {
+      if (mode === 'daily') {
+        const number = dailyNumber()
+        const id = dailyId(await fetchBuildingIds(), number)
+        const building = await fetchBuilding(id, controller.signal, langRef.current)
+        const saved = readDaily(number)
+        dispatch(saved ? { type: 'load/restore', building, saved } : { type: 'load/success', building })
+        return
+      }
       const seen = readSeen()
-      const building = await fetchRandomBuilding(seen, controller.signal, langRef.current)
+      const hold = await dailyHold()
+      const building = await fetchRandomBuilding(hold ? [...seen, hold] : seen, controller.signal, langRef.current)
       recordSeen(building.id, seen)
       dispatch({ type: 'load/success', building })
     } catch (error) {
       if (error.name !== 'AbortError') dispatch({ type: 'load/failure', error })
     }
-  }, [])
+  }, [mode])
 
   useEffect(() => {
     loadNext()
     return () => pending.current?.abort()
   }, [loadNext])
 
-  // Switching language mid-round swaps the building's text but keeps guesses, hints and phase.
   const currentId = state.building?.id
+
+  // A finished daily is remembered on this device.
+  const { phase, outcome, fields, attempts, hintsUsed } = state
+  useEffect(() => {
+    if (mode === 'daily' && phase === 'revealed') {
+      saveDaily({ number: dailyNumber(), id: currentId, outcome, fields, attempts, hintsUsed })
+    }
+  }, [mode, phase, outcome, fields, attempts, hintsUsed, currentId])
+
+  // Switching language mid-round swaps the building's text but keeps guesses, hints and phase.
   const currentLang = useRef(lang)
   useEffect(() => {
     if (currentLang.current === lang) return

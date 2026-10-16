@@ -102,7 +102,7 @@ function Photo({ photo }) {
   )
 }
 
-export function BuildingSummary({ building, eras, fields, outcome, onNext }) {
+export function BuildingSummary({ building, eras, fields, outcome, onNext, nextLabel }) {
   const strings = useStrings()
   const heading = useRef(null)
   const era = eras?.find((e) => e.id === building.era)
@@ -195,7 +195,7 @@ export function BuildingSummary({ building, eras, fields, outcome, onNext }) {
 
       <motion.footer className={styles.footer} variants={section}>
         <Button icon={ArrowRight} onClick={onNext}>
-          {strings.guess.next}
+          {nextLabel ?? strings.guess.next}
         </Button>
       </motion.footer>
     </motion.article>

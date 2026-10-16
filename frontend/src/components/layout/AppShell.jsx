@@ -22,7 +22,7 @@ export function AppShell({ actions, children }) {
     <div className={styles.shell}>
       <PageBackground />
       <header className={styles.rail}>
-        <a className={styles.brand} href="/">
+        <a className={styles.brand} href="#/">
           <PlanMark />
           <span className={styles.name}>
             <span className={styles.wordmark}>{strings.appName}</span>

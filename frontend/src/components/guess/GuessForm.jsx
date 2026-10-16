@@ -98,7 +98,7 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
 /**
  * The guess sheet. Remount per building (`key={building.id}`) to clear the inputs.
  */
-export function GuessForm({ building, eras, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp, onNext, onShowSummary }) {
+export function GuessForm({ building, eras, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp, onNext, nextLabel, onShowSummary }) {
   const strings = useStrings()
   const { lang } = useLanguage()
   const idPrefix = useId()
@@ -217,7 +217,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           {revealed ? (
             <>
               <Button ref={nextButton} icon={ArrowRight} onClick={onNext} className={styles.primary}>
-                {strings.guess.next}
+                {nextLabel ?? strings.guess.next}
               </Button>
               {onShowSummary && (
                 <Button variant="quiet" icon={BookOpen} onClick={onShowSummary}>
