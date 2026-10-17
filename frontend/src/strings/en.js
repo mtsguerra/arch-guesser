@@ -23,6 +23,16 @@ export default {
       setUp: 'Set up',
       result: 'See result',
     },
+    progress: {
+      streak: 'Daily streak',
+      days: (n) => (n === 1 ? '1 day' : `${n} days`),
+      start: 'Start today',
+      day: (n, state) => `Daily #${n}, ${state === 'done' ? 'played' : state === 'today' ? 'today' : 'not played'}`,
+      today: 'Today',
+      archive: 'Archive',
+      count: (styles, allStyles, countries, allCountries) => `${styles} of ${allStyles} styles · ${countries} of ${allCountries} countries`,
+      empty: 'Every building you reveal stamps its style here.',
+    },
     teaser: {
       label: 'Today’s sheet',
       aria: 'A detail of today’s building',

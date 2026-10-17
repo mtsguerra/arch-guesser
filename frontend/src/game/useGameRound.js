@@ -4,6 +4,7 @@ import { useLanguage } from '../i18n.js'
 import { advanceSession, readSession } from './custom.js'
 import { dailyHold, dailyId, dailyNumber, readDaily, saveDaily } from './daily.js'
 import { gameReducer, initialState } from './gameReducer.js'
+import { recordReveal } from './progress.js'
 import { evaluateGuess } from './matchGuess.js'
 import { readSeen, recordSeen } from './seenBuildings.js'
 
@@ -82,6 +83,13 @@ export function useGameRound(mode = 'normal') {
       saveDaily({ number: dailyNumber(), id: currentId, outcome, fields, attempts, hintsUsed })
     }
   }, [mode, phase, outcome, fields, attempts, hintsUsed, currentId])
+
+  // Every revealed building stamps its era and country in the archive; a Daily also counts for the streak.
+  useEffect(() => {
+    if (phase === 'revealed' && buildingRef.current?.id === currentId && currentId) {
+      recordReveal(buildingRef.current, mode === 'daily' ? dailyNumber() : undefined)
+    }
+  }, [mode, phase, currentId])
 
   // Switching language mid-round swaps the building's text but keeps guesses, hints and phase.
   const currentLang = useRef(lang)

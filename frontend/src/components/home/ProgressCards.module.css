@@ -1,0 +1,161 @@
+.card {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: var(--hairline) solid var(--paper-hairline);
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: var(--edge-light), var(--shadow-raised);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-size: var(--text-2xs);
+  font-weight: 750;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.big {
+  font-size: var(--text-sm);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.count {
+  text-align: right;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  font-variant-numeric: tabular-nums;
+}
+
+/* The last seven Dailies, stamped when played. */
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.day {
+  display: grid;
+  justify-items: center;
+  gap: 0.15rem;
+  padding: 0.35rem 0 0.3rem;
+  border: var(--hairline) solid var(--paper-hairline);
+  border-radius: var(--radius-md);
+}
+
+.num {
+  font-size: 0.625rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.mark {
+  display: grid;
+  place-items: center;
+  min-width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 999px;
+  font-size: 0.5rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.mark svg {
+  width: 0.8rem;
+  height: 0.8rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.day[data-state='done'] .mark {
+  background: var(--accent);
+  color: var(--accent-ink);
+  rotate: -8deg;
+}
+
+.day[data-state='today'] {
+  border-style: dashed;
+  border-color: var(--accent);
+}
+
+.day[data-state='today'] .mark {
+  color: var(--accent);
+}
+
+.day[data-state='missed'] .mark {
+  border: var(--hairline) dashed var(--paper-hairline);
+}
+
+/* The archive: one segment per style, then the styles found so far as stamps. */
+.register {
+  display: flex;
+  gap: 2px;
+}
+
+.register span {
+  flex: 1;
+  height: 0.4rem;
+  border-radius: 1px;
+  background: color-mix(in oklab, var(--camel) 22%, transparent);
+}
+
+.register span[data-on] {
+  background: var(--accent);
+}
+
+.stamps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stamps li {
+  padding: 0.15rem 0.5rem;
+  border: 1.5px solid var(--camel);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  color: var(--ink);
+  animation: stamp 0.45s cubic-bezier(0.34, 1.4, 0.5, 1) calc(0.6s + var(--i) * 40ms) both;
+}
+
+@keyframes stamp {
+  from {
+    opacity: 0;
+    scale: 1.4;
+  }
+}
+
+.empty {
+  font-size: var(--text-sm);
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stamps li {
+    animation: none;
+  }
+}

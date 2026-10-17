@@ -80,9 +80,6 @@ export function Levels({ modes }) {
             <line key={`glow-${active}`} className={styles.glow} x1="-8" x2="408" y1={y} y2={y} />
             <g className={styles.marker} style={{ transform: `translateY(${y}px)` }}>
               <path d="M-27 -10H-9L-18 0Z" />
-              <text x="-31" y="-1" textAnchor="end">
-                {t.heights[active]}
-              </text>
             </g>
           </svg>
         </div>

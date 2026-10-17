@@ -10,6 +10,7 @@ import { AppShell } from '../layout/AppShell.jsx'
 import { RollingText } from '../ui/RollingNumber.jsx'
 import { DailyTeaser } from './DailyTeaser.jsx'
 import { Levels } from './Levels.jsx'
+import { ProgressCards } from './ProgressCards.jsx'
 import { PencilFilter } from './PencilFilter.jsx'
 import { PencilTitle } from './PencilTitle.jsx'
 import styles from './Home.module.css'
@@ -39,9 +40,11 @@ export function Home() {
   const played = Boolean(readDaily(number))
   const customSummary = useCustomSummary()
   const eras = useEras()
-  const [buildings, setBuildings] = useState(null)
+  const [catalogue, setCatalogue] = useState(null)
   useEffect(() => {
-    fetchCatalogue().then((c) => setBuildings(c.length)).catch(() => {})
+    fetchCatalogue()
+      .then((c) => setCatalogue({ buildings: c.length, countries: new Set(c.map((b) => b.countryCode)).size }))
+      .catch(() => {})
   }, [])
   const lv = home.levels
   const modes = [
@@ -60,8 +63,9 @@ export function Home() {
         </div>
         <aside className={styles.aside}>
           <DailyTeaser />
+          <ProgressCards eras={eras} countriesTotal={catalogue?.countries} />
           <p className={styles.how}>{home.how}</p>
-          {buildings && eras?.length > 0 && <p className={styles.stats}>{home.stats(buildings, eras.length)}</p>}
+          {catalogue && eras?.length > 0 && <p className={styles.stats}>{home.stats(catalogue.buildings, eras.length)}</p>}
         </aside>
       </div>
     </AppShell>

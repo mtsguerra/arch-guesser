@@ -77,14 +77,6 @@
   fill: var(--accent);
 }
 
-.marker text {
-  fill: var(--accent);
-  font-size: 10px;
-  font-weight: 800;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: 0.02em;
-}
-
 .glow {
   stroke: var(--accent);
   stroke-width: 2.4;
@@ -101,6 +93,10 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  paint-order: stroke;
+  stroke: var(--mat);
+  stroke-width: 3px;
+  stroke-linejoin: round;
   animation: fade 0.5s var(--ease-out) 0.3s both;
 }
 
@@ -271,7 +267,7 @@
 @media (max-width: 40rem) {
   .stage {
     grid-template-columns: minmax(0, 1fr);
-    row-gap: var(--space-6);
+    row-gap: var(--space-4);
   }
 
   .elevation {
@@ -280,7 +276,8 @@
   }
 
   .caption {
-    left: 2.25rem;
+    position: static;
+    margin-top: var(--space-2);
   }
 
   .modes {
