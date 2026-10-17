@@ -338,6 +338,11 @@
     justify-self: center;
   }
 
+  /* Room is short: the logo alone says where you are (the link keeps its label). */
+  .slim[data-phone-menu] .slimBrand span {
+    display: none;
+  }
+
   .slim[data-phone-menu] .slimRight {
     grid-column: 3;
   }

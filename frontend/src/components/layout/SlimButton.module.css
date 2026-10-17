@@ -40,3 +40,26 @@
   width: 0.95rem;
   height: 0.95rem;
 }
+
+/* Phones: the icon alone; the word stays for screen readers. */
+@media (max-width: 40rem) {
+  .button span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .button {
+    min-width: 2.25rem;
+    min-height: 2.25rem;
+    justify-content: center;
+  }
+
+  .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
