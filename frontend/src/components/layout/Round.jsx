@@ -6,6 +6,7 @@ import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { DrawingBoard } from '../board/DrawingBoard.jsx'
 import { GuessForm } from '../guess/GuessForm.jsx'
+import { GuessLog } from '../guess/GuessLog.jsx'
 import { HintTray } from '../hints/HintTray.jsx'
 import { BuildingSummary } from '../summary/BuildingSummary.jsx'
 import { RevealBuild } from '../reveal/RevealBuild.jsx'
@@ -89,6 +90,7 @@ export function Round({ round, eras, view, onViewChange }) {
                 onEdit={round.editField}
                 onGiveUp={round.revealAnswer}
               />
+              <GuessLog log={round.log} eras={eras} />
             </motion.aside>
           )}
         </AnimatePresence>

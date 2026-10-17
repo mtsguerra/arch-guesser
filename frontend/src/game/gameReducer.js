@@ -22,6 +22,7 @@ export const initialState = {
   hintLevel: 0,
   fields: idleFields,
   attempts: 0,
+  log: [], // wrong guesses so far: [{ field, text }], newest last
   hintsUsed: 0,
   outcome: null,
   error: null,
@@ -68,7 +69,13 @@ export function gameReducer(state, action) {
         const result = action.results[field]
         fields[field] = result === true ? 'correct' : result === false ? 'wrong' : 'idle'
       }
-      const next = { ...state, fields, attempts: state.attempts + 1 }
+      const log = [...state.log]
+      for (const field of GUESS_FIELDS) {
+        const text = String(action.values?.[field] ?? '').trim()
+        const seen = log.some((e) => e.field === field && e.text.toLowerCase() === text.toLowerCase())
+        if (state.fields[field] !== 'correct' && action.results[field] === false && text && !seen) log.push({ field, text })
+      }
+      const next = { ...state, fields, log, attempts: state.attempts + 1 }
       return GUESS_FIELDS.every((f) => fields[f] === 'correct') ? reveal(next, 'solved') : next
     }
 

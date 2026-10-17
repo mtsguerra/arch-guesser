@@ -102,7 +102,7 @@ export function useGameRound(mode = 'normal') {
 
   const { building } = state
   const submitGuess = useCallback(
-    (values) => dispatch({ type: 'guess/submit', results: evaluateGuess(building, values) }),
+    (values) => dispatch({ type: 'guess/submit', results: evaluateGuess(building, values), values }),
     [building],
   )
 

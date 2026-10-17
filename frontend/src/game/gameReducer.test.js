@@ -65,6 +65,16 @@ describe('guessing', () => {
     expect(gameReducer(state, { type: 'guess/edit', field: 'name' })).toBe(state)
   })
 
+  it('logs wrong guesses once each, skipping blanks and correct fields', () => {
+    const send = (state, results, values) => gameReducer(state, { type: 'guess/submit', results, values })
+    let state = send(playing(), { name: false, architect: true, country: false }, { name: ' Villa X ', architect: 'Le Corbusier', country: '' })
+    expect(state.log).toEqual([{ field: 'name', text: 'Villa X' }])
+    state = send(state, { name: false }, { name: 'villa x' })
+    expect(state.log).toHaveLength(1)
+    state = send(state, { name: false }, { name: 'Villa Y' })
+    expect(state.log.map((e) => e.text)).toEqual(['Villa X', 'Villa Y'])
+  })
+
   it('solves the round once all four fields are correct, opening every hint', () => {
     let state = submit(playing(), { name: true, architect: true })
     state = submit(state, { country: true, era: true })

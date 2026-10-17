@@ -6,6 +6,7 @@ import { useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
 import { Credit } from '../ui/Credit.jsx'
 import { TitleBlock } from './TitleBlock.jsx'
+import { VeiledGlobe } from './VeiledGlobe.jsx'
 import { ZoomableDrawing } from './ZoomableDrawing.jsx'
 import { buildSheets } from './sheets.js'
 import styles from './DrawingBoard.module.css'
@@ -307,6 +308,9 @@ export function DrawingBoard({ building, revealed, fields }) {
             )}
           </AnimatePresence>
           <TitleBlock fields={titleFields} />
+          <div className={styles.globeSlot}>
+            <VeiledGlobe code={building.location.countryCode} found={revealed || fields?.country === 'correct'} />
+          </div>
         </aside>
       </section>
     </div>

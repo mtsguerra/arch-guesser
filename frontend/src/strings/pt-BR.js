@@ -108,6 +108,13 @@ export default {
     loading: 'Buscando desenhos no arquivo…',
     plotting: 'Traçando a folha…',
     carousel: 'carrossel',
+    globe: {
+      label: 'Onde no mundo',
+      hidden: 'Local oculto',
+      hint: 'Acerte o país e o globo gira até ele.',
+      coords: (lat, lon) =>
+        `${Math.abs(Math.round(lat))}°${lat >= 0 ? 'N' : 'S'} · ${Math.abs(Math.round(lon))}°${lon >= 0 ? 'L' : 'O'}`,
+    },
     previous: 'Imagem anterior',
     next: 'Próxima imagem',
     describes: 'O que se vê',
@@ -150,6 +157,10 @@ export default {
       architect: 'Qualquer um dos arquitetos',
       country: 'Comece a digitar um país',
       era: 'Escolha uma época',
+    },
+    log: {
+      heading: 'Palpites anteriores',
+      empty: 'Os palpites errados ficam aqui para você não repetir.',
     },
     erasUnavailable: 'Não foi possível carregar as épocas',
     wrong: 'Não é esta. Edite ou peça uma dica.',

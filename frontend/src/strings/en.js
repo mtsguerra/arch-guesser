@@ -108,6 +108,13 @@ export default {
     loading: 'Pulling drawings from the archive…',
     plotting: 'Plotting the sheet…',
     carousel: 'carousel',
+    globe: {
+      label: 'Where in the world',
+      hidden: 'Location hidden',
+      hint: 'Get the country right and the globe turns to it.',
+      coords: (lat, lon) =>
+        `${Math.abs(Math.round(lat))}°${lat >= 0 ? 'N' : 'S'} · ${Math.abs(Math.round(lon))}°${lon >= 0 ? 'E' : 'W'}`,
+    },
     previous: 'Previous image',
     next: 'Next image',
     describes: 'What you see',
@@ -150,6 +157,10 @@ export default {
       architect: 'Any one architect',
       country: 'Start typing a country',
       era: 'Choose an era',
+    },
+    log: {
+      heading: 'Earlier guesses',
+      empty: 'Wrong guesses stay here so you don’t repeat them.',
     },
     erasUnavailable: 'Eras couldn’t be loaded',
     wrong: 'Not this one. Edit it, or take a hint.',
