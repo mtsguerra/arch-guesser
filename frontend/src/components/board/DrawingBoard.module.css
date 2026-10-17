@@ -23,7 +23,7 @@
   position: relative;
   aspect-ratio: 4 / 3;
   /* On a laptop the stage, thumbnails and hint row together fit one viewport. */
-  max-height: calc(100dvh - var(--rail-h) - 22.5rem);
+  max-height: calc(100dvh - var(--rail-h) - var(--safe-top) - 22.5rem);
   min-height: 16rem;
   width: 100%;
   overflow: hidden;

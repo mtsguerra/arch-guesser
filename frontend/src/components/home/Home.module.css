@@ -1,20 +1,35 @@
 .home {
   display: grid;
-  gap: var(--space-4);
-  align-content: start;
-  max-width: 40rem;
+  grid-template-columns: minmax(0, 1fr) 17.5rem;
+  grid-template-areas: 'title title' 'levels aside';
+  gap: var(--space-5) var(--space-7);
+  align-items: start;
+  max-width: 76rem;
   margin-inline: auto;
-  padding-block: var(--space-5) var(--space-6);
+  padding-block: var(--space-5) var(--space-7);
 }
 
-.hero {
+.home .title {
+  grid-area: title;
+  justify-items: start;
+}
+
+.levels {
+  grid-area: levels;
+  min-width: 0;
+  padding-block: var(--space-6) var(--space-7);
+}
+
+/* Below the title row, so the name has the top of the page to itself. */
+.aside {
+  grid-area: aside;
   display: grid;
-  justify-items: center;
+  gap: var(--space-4);
+  padding-top: var(--space-4);
 }
 
 .how,
 .stats {
-  text-align: center;
   color: var(--ink-soft);
   font-size: var(--text-sm);
   line-height: 1.45;
@@ -25,178 +40,20 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* Phones: Daily is a wide accent card, Normal and Custom share a row (cards, with pencil-underlined names). */
-.modes {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-3);
-  padding: 0;
-  list-style: none;
-}
-
-.mode {
-  display: grid;
-  border-radius: 12px;
-  background: var(--paper);
-  box-shadow: var(--edge-light), var(--shadow-raised);
-  color: var(--ink);
-}
-
-.main {
-  grid-column: 1 / -1;
-  background: var(--accent);
-  color: var(--accent-ink);
-}
-
-.link {
-  display: grid;
-  align-content: start;
-  gap: var(--space-1);
-  padding: var(--space-3);
-  border-radius: inherit;
-  color: inherit;
-  text-decoration: none;
-  transition: scale 120ms var(--ease-out);
-}
-
-.link:active {
-  scale: 0.98;
-}
-
-.main .link {
-  padding: var(--space-4);
-}
-
-.nameWrap {
-  display: grid;
-  width: fit-content;
-}
-
-.name {
-  font-size: 1.35rem;
-  font-weight: 760;
-  font-stretch: var(--stretch-semi);
-  line-height: 1.1;
-  letter-spacing: -0.01em;
-  font-variant-numeric: tabular-nums;
-}
-
-.main .name {
-  font-size: 2rem;
-  letter-spacing: var(--tracking-display);
-}
-
-.underline {
-  display: block;
-  width: 100%;
-  height: 12px;
-  overflow: visible;
-  filter: url(#pencil-grain);
-}
-
-.underline path {
-  fill: none;
-  stroke: var(--graphite);
-  stroke-width: 2.2;
-  stroke-linecap: round;
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-  animation: underline 1.1s cubic-bezier(0.3, 0.1, 0.2, 1) var(--d) forwards;
-}
-
-.main .underline path {
-  stroke: var(--accent-ink);
-}
-
-@keyframes underline {
-  to {
-    stroke-dashoffset: 0;
+@media (max-width: 64rem) {
+  .home {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: 'title' 'levels' 'aside';
+    max-width: 44rem;
   }
 }
 
-.text {
-  font-size: var(--text-sm);
-  line-height: 1.4;
-  color: var(--ink-soft);
-}
-
-.main .text {
-  color: color-mix(in oklab, var(--accent-ink) 84%, transparent);
-}
-
-/* Wide screens: a plain list of big names. The pencil underlines a name when you point at it or tab to it. */
-@media (min-width: 40.01rem) {
-  .modes {
-    grid-template-columns: 1fr;
-    gap: var(--space-2);
+@media (max-width: 40rem) {
+  .home .title {
+    justify-items: center;
   }
 
-  .mode,
-  .main {
-    grid-column: auto;
-    background: none;
-    box-shadow: none;
-    color: var(--ink);
+  .levels {
+    padding-block: var(--space-2) var(--space-6);
   }
-
-  .link,
-  .main .link {
-    padding: var(--space-2) var(--space-1);
-  }
-
-  .name,
-  .main .name {
-    font-size: clamp(1.6rem, 4vw, 2.3rem);
-    font-stretch: var(--stretch-wide);
-    letter-spacing: var(--tracking-display);
-  }
-
-  .underline path,
-  .main .underline path {
-    stroke: var(--graphite);
-    animation: none;
-    transition: stroke-dashoffset 0.5s var(--ease-out);
-  }
-
-  .link:hover .underline path,
-  .link:focus-visible .underline path {
-    stroke-dashoffset: 0;
-  }
-
-  /* The line about a mode appears under the name when it is underlined. */
-  .text,
-  .main .text {
-    max-height: 0;
-    overflow: hidden;
-    color: var(--ink-soft);
-    transition: max-height 0.4s var(--ease-out);
-  }
-
-  .link:hover .text,
-  .link:focus-visible .text {
-    max-height: 3rem;
-  }
-}
-
-/* A mouse can't hover on a touch laptop or tablet: there the lines are always there. */
-@media (min-width: 40.01rem) and (hover: none) {
-  .underline path {
-    stroke-dashoffset: 0;
-  }
-
-  .text {
-    max-height: 3rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .underline path {
-    animation: none;
-    stroke-dashoffset: 0;
-    transition: none;
-  }
-}
-
-:global(html.lite) .underline {
-  filter: none;
 }

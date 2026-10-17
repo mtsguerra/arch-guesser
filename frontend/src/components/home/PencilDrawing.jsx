@@ -11,7 +11,7 @@ const FIRST_LEAD_S = 2.2 // the first drawing starts while the title is still be
  * the pencil, held for a moment, faded and replaced by the next, in random order. On phones and
  * with reduced motion one drawing is shown, finished, and stays.
  */
-export function PencilDrawing() {
+export function PencilDrawing({ className = '', onDrawing }) {
   const [instant] = useState(skipsPencil)
   // `at` walks through a shuffled `list` of drawings; `shown` counts the drawings so far.
   const [queue, setQueue] = useState(() => ({ list: order(-1), at: 0, shown: 0 }))
@@ -21,6 +21,10 @@ export function PencilDrawing() {
   const strokes = DRAWINGS[index]
   const lead = queue.shown === 0 ? FIRST_LEAD_S : 0.2
   const total = useMemo(() => length(strokes), [strokes])
+
+  useEffect(() => {
+    onDrawing?.(index)
+  }, [index, onDrawing])
 
   useEffect(() => {
     if (instant) return
@@ -44,7 +48,7 @@ export function PencilDrawing() {
   return (
     <svg
       key={`${queue.shown}`}
-      className={`${styles.svg} ${leaving ? styles.leaving : ''}`}
+      className={`${styles.svg} ${leaving ? styles.leaving : ''} ${className}`}
       viewBox="0 0 400 244"
       aria-hidden="true"
     >

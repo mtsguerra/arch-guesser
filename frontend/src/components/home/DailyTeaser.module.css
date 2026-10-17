@@ -1,0 +1,196 @@
+.card {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: var(--hairline) solid var(--paper-hairline);
+  border-radius: 12px;
+  background: var(--paper);
+  box-shadow: var(--edge-light), var(--shadow-raised);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-size: var(--text-2xs);
+  font-weight: 750;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.number {
+  font-variant-numeric: tabular-nums;
+}
+
+/* A magnifying glass over the sheet; the detail drifts under it. */
+.lens {
+  position: relative;
+  justify-self: center;
+  width: 10rem;
+  aspect-ratio: 1;
+  margin-block: var(--space-1) var(--space-3);
+}
+
+.lens::after {
+  content: '';
+  position: absolute;
+  right: -0.9rem;
+  bottom: -0.9rem;
+  width: 2.6rem;
+  height: 0.6rem;
+  border-radius: 999px;
+  background: var(--ink);
+  rotate: 45deg;
+}
+
+.glass {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid var(--ink);
+  background:
+    repeating-linear-gradient(45deg, transparent 0 6px, color-mix(in oklab, var(--camel) 30%, transparent) 6px 7px),
+    var(--sheet);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.25), inset 0 6px 14px -6px rgb(0 0 0 / 0.35);
+}
+
+.pan {
+  position: absolute;
+  inset: 0;
+  animation: pan 22s ease-in-out infinite alternate;
+}
+
+.pan .frame {
+  position: absolute;
+  height: 320%;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
+
+@keyframes pan {
+  0% { transform: translate(22%, 16%); }
+  35% { transform: translate(-20%, 8%); }
+  70% { transform: translate(-6%, -22%); }
+  100% { transform: translate(18%, -12%); }
+}
+
+.frame {
+  position: relative;
+  overflow: hidden;
+}
+
+.frame[data-drawing] {
+  background: var(--sheet);
+}
+
+.frame[data-drawing] .image {
+  mix-blend-mode: multiply;
+}
+
+.frame:not([data-drawing]) .image {
+  filter: saturate(0.55) contrast(1.05);
+}
+
+.image {
+  position: absolute;
+  max-width: none;
+  user-select: none;
+}
+
+/* Done: the whole sheet, stamped. */
+.full {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 11rem;
+  border-radius: var(--radius-md);
+  background: var(--sheet);
+  overflow: hidden;
+}
+
+.full .frame {
+  height: 100%;
+  max-width: 100%;
+}
+
+.stamp {
+  position: absolute;
+  right: var(--space-3);
+  bottom: var(--space-3);
+  padding: 0.125rem 0.75rem;
+  border: 2.5px solid #4f7a3a;
+  border-radius: var(--radius-md);
+  background: rgb(255 248 228 / 0.8);
+  color: #3d6a2c;
+  font-size: var(--text-sm);
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  rotate: -7deg;
+  animation: stamp 0.5s cubic-bezier(0.34, 1.4, 0.5, 1) 0.3s both;
+}
+
+@keyframes stamp {
+  from {
+    opacity: 0;
+    scale: 1.8;
+  }
+}
+
+.text,
+.next {
+  font-size: var(--text-sm);
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.next {
+  font-variant-numeric: tabular-nums;
+}
+
+.cta,
+.secondary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 2.75rem;
+  padding: 0 var(--space-4);
+  border-radius: 10px;
+  font-weight: 750;
+  text-decoration: none;
+  transition: scale 0.15s var(--ease-out), filter 0.15s var(--ease-out);
+}
+
+.cta {
+  background: var(--accent);
+  color: var(--accent-ink);
+  box-shadow: inset 0 -3px 0 rgb(0 0 0 / 0.18), var(--shadow-raised);
+}
+
+.secondary {
+  border: var(--hairline) solid var(--paper-hairline);
+  color: var(--ink);
+}
+
+.cta:hover,
+.secondary:hover {
+  filter: brightness(1.06);
+}
+
+.cta:active,
+.secondary:active {
+  scale: 0.97;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pan,
+  .stamp {
+    animation: none;
+  }
+}

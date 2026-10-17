@@ -18,7 +18,7 @@
    summary can always be compared with the plan. */
 .boardSlot {
   position: sticky;
-  top: calc(var(--rail-h) + var(--space-5));
+  top: calc(var(--rail-h) + var(--safe-top) + var(--space-5));
   display: grid;
   gap: var(--space-3);
 }

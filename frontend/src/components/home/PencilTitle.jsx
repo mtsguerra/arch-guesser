@@ -103,7 +103,7 @@ function Pencil() {
  * The home page's heading: the name and the tagline drawn by a pencil, live. It plays on every visit;
  * on phones and with reduced motion the lines simply appear.
  */
-export function PencilTitle() {
+export function PencilTitle({ className = '' }) {
   const strings = useStrings()
   const [instant] = useState(skipsPencil)
   const root = useRef(null)
@@ -145,7 +145,7 @@ export function PencilTitle() {
   }, [instant])
 
   return (
-    <div ref={root} className={styles.root}>
+    <div ref={root} className={`${styles.root} ${className}`}>
       <h1 className={styles.title}>
         <PencilLine
           text={strings.appName.toUpperCase()}

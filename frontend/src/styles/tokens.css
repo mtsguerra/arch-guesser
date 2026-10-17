@@ -90,7 +90,9 @@
 
   /* Layout */
   --rail-h: 4rem;
-  --gutter: clamp(1rem, 2.5vw, 2rem);
+  /* The header runs under the status bar (viewport-fit=cover), so the brown reaches the top of the phone. */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --gutter: max(clamp(1rem, 2.5vw, 2rem), env(safe-area-inset-left, 0px), env(safe-area-inset-right, 0px));
 }
 
 /* More contrast: hairlines become clearly visible. */

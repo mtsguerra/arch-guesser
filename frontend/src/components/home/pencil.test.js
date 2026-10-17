@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { DRAWINGS, length, order } from './pencil.js'
+import { DRAWINGS, DRAWING_ERAS, length, order } from './pencil.js'
+import { bundles } from '../../strings/index.js'
 
 describe('the home page drawings', () => {
   it('has a drawing for every family of styles, each with strokes and no dash-pattern lines', () => {
@@ -9,6 +10,11 @@ describe('the home page drawings', () => {
       expect(strokes.some((s) => s.tone === 'dimension')).toBe(false)
       expect(length(strokes)).toBeGreaterThan(1)
     }
+  })
+
+  it('names an era for every drawing, in both languages', () => {
+    expect(DRAWING_ERAS).toHaveLength(DRAWINGS.length)
+    for (const era of DRAWING_ERAS) for (const b of Object.values(bundles)) expect(b.eras[era]).toBeTruthy()
   })
 
   it('orders every drawing exactly once and never opens with the one that just played', () => {

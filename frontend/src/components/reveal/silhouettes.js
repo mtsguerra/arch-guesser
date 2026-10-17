@@ -431,7 +431,7 @@ const ottoman = {
 }
 
 // CLASSICAL keeps the civic front; any era not listed falls back to it too.
-const BY_ERA = {
+export const BY_ERA = {
   ANCIENT_EGYPTIAN: pyramid,
   PRE_COLUMBIAN: pyramid,
   MEDIEVAL: gothic,
