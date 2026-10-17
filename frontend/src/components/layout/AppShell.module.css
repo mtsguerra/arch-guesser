@@ -287,6 +287,11 @@
   align-items: center;
   gap: var(--space-2);
   zoom: 0.82;
+  transition: scale var(--dur-fast) var(--ease-out);
+}
+
+.tools:focus-within {
+  scale: 1.06;
 }
 
 :global(html.lite) .slim,
