@@ -1,6 +1,7 @@
 .svg {
   display: block;
-  width: min(24rem, 78vw);
+  width: 24rem;
+  max-width: 100%;
   height: auto;
   margin-top: var(--space-3);
   overflow: visible;

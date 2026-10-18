@@ -3,7 +3,7 @@
   gap: var(--space-3);
   padding: var(--space-4);
   border: var(--hairline) solid var(--paper-hairline);
-  border-radius: 12px;
+  border-radius: 0.75rem;
   background: var(--paper);
   box-shadow: var(--edge-light), var(--shadow-raised);
 }
@@ -38,6 +38,11 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* The archive is a wide strip under the modes: tighter rows. */
+.archive {
+  gap: var(--space-2);
+}
+
 /* The last seven Dailies, stamped when played. */
 .week {
   display: grid;
@@ -69,11 +74,7 @@
   place-items: center;
   min-width: 1.35rem;
   height: 1.35rem;
-  border-radius: 999px;
-  font-size: 0.5rem;
-  font-weight: 900;
-  letter-spacing: 0;
-  text-transform: uppercase;
+  border-radius: 62.4375rem;
 }
 
 .mark svg {
@@ -97,8 +98,12 @@
   border-color: var(--accent);
 }
 
-.day[data-state='today'] .mark {
-  color: var(--accent);
+.day[data-state='today'] .mark::after {
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--accent);
 }
 
 .day[data-state='missed'] .mark {
@@ -108,13 +113,13 @@
 /* The archive: one segment per style, then the styles found so far as stamps. */
 .register {
   display: flex;
-  gap: 2px;
+  gap: 0.125rem;
 }
 
 .register span {
   flex: 1;
   height: 0.4rem;
-  border-radius: 1px;
+  border-radius: 0.0625rem;
   background: color-mix(in oklab, var(--camel) 22%, transparent);
 }
 
@@ -133,7 +138,7 @@
 
 .stamps li {
   padding: 0.15rem 0.5rem;
-  border: 1.5px solid var(--camel);
+  border: 0.0938rem solid var(--camel);
   border-radius: var(--radius-sm);
   font-size: var(--text-2xs);
   font-weight: 700;

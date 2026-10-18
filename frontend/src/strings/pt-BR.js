@@ -28,7 +28,6 @@ export default {
       days: (n) => (n === 1 ? '1 dia' : `${n} dias`),
       start: 'Comece hoje',
       day: (n, state) => `Diário #${n}, ${state === 'done' ? 'jogado' : state === 'today' ? 'hoje' : 'não jogado'}`,
-      today: 'Hoje',
       archive: 'Acervo',
       count: (styles, allStyles, countries, allCountries) => `${styles} de ${allStyles} estilos · ${countries} de ${allCountries} países`,
       empty: 'Cada obra revelada carimba o seu estilo aqui.',

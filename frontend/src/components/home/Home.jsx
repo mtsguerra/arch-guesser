@@ -10,9 +10,10 @@ import { AppShell } from '../layout/AppShell.jsx'
 import { RollingText } from '../ui/RollingNumber.jsx'
 import { DailyTeaser } from './DailyTeaser.jsx'
 import { Levels } from './Levels.jsx'
-import { ProgressCards } from './ProgressCards.jsx'
+import { ArchiveCard, StreakCard } from './ProgressCards.jsx'
 import { PencilFilter } from './PencilFilter.jsx'
 import { PencilTitle } from './PencilTitle.jsx'
+import { useFitToScreen } from './useFitToScreen.js'
 import styles from './Home.module.css'
 
 /** What the remembered Custom setup would play ("12 buildings · Siza +1"), or null if nothing is picked. */
@@ -38,6 +39,7 @@ export function Home() {
   const left = useCountdown()
   const number = dailyNumber()
   const played = Boolean(readDaily(number))
+  useFitToScreen()
   const customSummary = useCustomSummary()
   const eras = useEras()
   const [catalogue, setCatalogue] = useState(null)
@@ -61,9 +63,12 @@ export function Home() {
         <div className={styles.levels}>
           <Levels modes={modes} />
         </div>
+        <div className={styles.archive}>
+          <ArchiveCard eras={eras} countriesTotal={catalogue?.countries} />
+        </div>
         <aside className={styles.aside}>
           <DailyTeaser />
-          <ProgressCards eras={eras} countriesTotal={catalogue?.countries} />
+          <StreakCard />
           <p className={styles.how}>{home.how}</p>
           {catalogue && eras?.length > 0 && <p className={styles.stats}>{home.stats(catalogue.buildings, eras.length)}</p>}
         </aside>

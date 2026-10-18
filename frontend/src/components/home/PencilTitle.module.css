@@ -19,11 +19,13 @@
 }
 
 .title .svg {
-  width: min(46rem, 94vw);
+  width: 46rem;
+  max-width: 100%;
 }
 
 .subtitle .svg {
-  width: min(34rem, 92vw);
+  width: 34rem;
+  max-width: 100%;
 }
 
 .probe {
