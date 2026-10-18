@@ -1,5 +1,7 @@
 export const MIN_BUILDINGS = 10
-export const ROUNDS = [5, 10, 'all']
+export const MIN_ROUNDS = 3
+export const MAX_ROUNDS = 50
+export const isRounds = (v) => v === 'all' || (Number.isInteger(v) && v >= MIN_ROUNDS && v <= MAX_ROUNDS)
 
 // Filter modes: one of architects, eras or countries alone, or countries + eras together.
 export const MODES = ['architect', 'era', 'country', 'countryEra']
@@ -65,7 +67,7 @@ export function sanitizeConfig(value) {
     architects: strings(v.architects),
     eras: strings(v.eras),
     countries: strings(v.countries),
-    rounds: ROUNDS.includes(v.rounds) ? v.rounds : emptyConfig.rounds,
+    rounds: isRounds(v.rounds) ? v.rounds : emptyConfig.rounds,
   }
 }
 

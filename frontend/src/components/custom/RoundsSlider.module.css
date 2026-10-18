@@ -1,0 +1,114 @@
+.root {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: var(--space-3);
+  width: 100%;
+  height: 100%;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+/* A drafted slider: a ruled track filled to the thumb, ticks every five rounds. */
+.range {
+  flex: 1;
+  height: 1.5rem;
+  min-width: 0;
+  appearance: none;
+  background:
+    linear-gradient(var(--accent), var(--accent)) 0 50% / var(--p, 0%) 3px no-repeat,
+    linear-gradient(var(--paper-rule), var(--paper-rule)) 0 50% / 100% 1.5px no-repeat,
+    repeating-linear-gradient(90deg, var(--paper-rule) 0 1px, transparent 1px calc(100% / 47 * 5)) 0 100% / 100% 0.375rem no-repeat;
+  cursor: pointer;
+}
+
+.range:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.range::-webkit-slider-thumb {
+  appearance: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: var(--shadow-raised);
+  transition: scale 0.15s var(--ease-out);
+}
+
+.range::-moz-range-thumb {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: var(--shadow-raised);
+}
+
+.range:active::-webkit-slider-thumb {
+  scale: 1.15;
+}
+
+.number {
+  min-width: 2.5ch;
+  font-size: var(--text-xl);
+  font-weight: 800;
+  font-stretch: var(--stretch-wide);
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.all {
+  padding: var(--space-1) var(--space-3);
+  border: 1.5px solid var(--paper-hairline);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s var(--ease-out), color 0.15s var(--ease-out);
+}
+
+.all[aria-pressed='true'] {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.colonnade {
+  align-self: center;
+  width: 100%;
+  max-height: 100%;
+  overflow: visible;
+}
+
+.shaft,
+.cap,
+.beam,
+.step {
+  stroke: var(--ink);
+  stroke-width: 0.5;
+  stroke-opacity: 0.7;
+}
+
+.shaft {
+  fill: color-mix(in oklab, var(--accent) 12%, var(--paper));
+}
+
+.cap,
+.beam {
+  fill: var(--paper);
+}
+
+.step {
+  fill: color-mix(in oklab, var(--accent) 22%, var(--paper));
+}

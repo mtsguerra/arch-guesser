@@ -6,7 +6,6 @@ import { countryName } from '../../game/countries.js'
 import {
   MIN_BUILDINGS,
   MODES,
-  ROUNDS,
   filterPool,
   facets,
   readConfig,
@@ -15,15 +14,20 @@ import {
 } from '../../game/custom.js'
 import { springSoft } from '../../motion.js'
 import { useLanguage, useStrings } from '../../i18n.js'
+import { useFitToScreen } from '../home/useFitToScreen.js'
 import { AppShell } from '../layout/AppShell.jsx'
 import { MenuButton } from '../layout/MenuButton.jsx'
 import { Button } from '../ui/Button.jsx'
+import { CompassIcon, GlobeClockIcon, GlobeIcon, HourglassIcon } from '../ui/InstrumentIcons.jsx'
 import { MeltSelect } from '../ui/MeltSelect.jsx'
 import { RollingText } from '../ui/RollingNumber.jsx'
+import { RoundsSlider } from './RoundsSlider.jsx'
+import { Foundation } from './Foundation.jsx'
 import { MultiPicker } from './MultiPicker.jsx'
 import styles from './CustomSetup.module.css'
 
 /** Which pickers each mode shows. */
+const MODE_ICONS = { architect: <CompassIcon />, era: <HourglassIcon />, country: <GlobeIcon />, countryEra: <GlobeClockIcon /> }
 const PICKERS = { architect: ['architects'], era: ['eras'], country: ['countries'], countryEra: ['countries', 'eras'] }
 
 export function CustomSetup() {
@@ -33,6 +37,8 @@ export function CustomSetup() {
   const [catalogue, setCatalogue] = useState(null)
   const [failed, setFailed] = useState(false)
   const [config, setConfig] = useState(readConfig)
+  const [last, setLast] = useState(() => (config.rounds === 'all' ? 10 : config.rounds)) // the slider's number, kept while "All" is on
+  useFitToScreen() // the setup fits one screen on a wide window
 
   useEffect(() => {
     fetchCatalogue().then(setCatalogue).catch(() => setFailed(true))
@@ -62,48 +68,69 @@ export function CustomSetup() {
   }
 
   return (
-    <AppShell place={strings.places.custom} actions={<MenuButton />}>
+    <AppShell place={strings.places.custom} actions={<MenuButton />} floating>
       <div className={styles.setup}>
         <header className={styles.intro}>
+          <p className={styles.eyebrow}>{custom.sheet} · {strings.titleBlock.sheetOf(1, 1)}</p>
           <h1 className={styles.heading}>{custom.heading}</h1>
           <p className={styles.lead}>{custom.lead(MIN_BUILDINGS)}</p>
         </header>
 
         {failed && <p role="alert">{custom.failed}</p>}
 
-        <MeltSelect
-          label={custom.modeLabel}
-          options={MODES.map((mode) => ({ value: mode, label: custom.modes[mode] }))}
-          value={config.mode}
-          onChange={(mode) => set({ mode })}
-        />
-
-        <div className={styles.pickers}>
-          {PICKERS[config.mode].map((kind) => (
-            <MultiPicker
-              key={kind}
-              label={custom.pick[kind]}
-              placeholder={custom.search}
-              // Nothing is "not found" while the list is still loading.
-              emptyText={catalogue ? custom.none : ''}
-              rows={rows[kind]}
-              selected={config[kind]}
-              onChange={(keys) => set({ [kind]: keys })}
+        <div className={styles.sheet}>
+          <section className={styles.step} data-step="filter">
+            <h2 className={styles.stepTitle}>
+              <span className={styles.num}>1</span>
+              {custom.modeLabel}
+            </h2>
+            <MeltSelect
+              label={custom.modeLabel}
+              options={MODES.map((mode) => ({ value: mode, label: custom.modes[mode], icon: MODE_ICONS[mode] }))}
+              value={config.mode}
+              onChange={(mode) => set({ mode })}
             />
-          ))}
-        </div>
+          </section>
 
-        <div className={styles.rounds}>
-          <span className={styles.legend}>{custom.rounds}</span>
-          <MeltSelect
-            label={custom.rounds}
-            options={ROUNDS.map((n) => ({ value: n, label: n === 'all' ? custom.all(pool.length) : String(n) }))}
-            value={config.rounds}
-            onChange={(rounds) => set({ rounds })}
-          />
+          <section className={styles.step} data-step="pick">
+            <h2 className={styles.stepTitle}>
+              <span className={styles.num}>2</span>
+              {custom.pickStep}
+            </h2>
+            <div className={styles.pickers}>
+              {PICKERS[config.mode].map((kind) => (
+                <MultiPicker
+                  key={kind}
+              kind={kind}
+                  label={custom.pick[kind]}
+                  placeholder={custom.search}
+                  // Nothing is "not found" while the list is still loading.
+                  emptyText={catalogue ? custom.none : ''}
+                  rows={rows[kind]}
+                  selected={config[kind]}
+                  onChange={(keys) => set({ [kind]: keys })}
+                />
+              ))}
+            </div>
+          </section>
+
+          <section className={styles.step} data-step="rounds">
+            <h2 className={styles.stepTitle}>
+              <span className={styles.num}>3</span>
+              {custom.rounds}
+            </h2>
+            <RoundsSlider
+              value={config.rounds}
+              all={pool.length}
+              onChange={(rounds) => set({ rounds })}
+              last={last}
+              onLast={setLast}
+            />
+          </section>
         </div>
 
         <footer className={styles.footer}>
+          <Foundation count={pool.length} needed={MIN_BUILDINGS} />
           <p className={styles.count}>
             <RollingText
               live
@@ -112,7 +139,7 @@ export function CustomSetup() {
             />
           </p>
           {/* Keyed on readiness so unlocking Start gives it a small settle. */}
-          <motion.div key={ready} initial={ready ? { scale: 0.92 } : false} animate={{ scale: 1 }} transition={springSoft}>
+          <motion.div key={ready} className={ready ? styles.go : undefined} initial={ready ? { scale: 0.92 } : false} animate={{ scale: 1 }} transition={springSoft}>
             <Button icon={PlayIcon} disabled={!ready} onClick={start}>
               {custom.start}
             </Button>

@@ -10,7 +10,7 @@ const TAIL = { stiffness: 170, damping: 24 }
  * A group of exclusive choices with a pill that melts from the old choice to the new one. The
  * labels are copied in the pill's ink and clipped to it, so the text turns light only where the pill is.
  *
- * @param options   [{ value, label }]
+ * @param options   [{ value, label, icon? }]  (an icon is a node shown before the label)
  * @param value     the chosen value
  * @param onChange(value)
  */
@@ -109,6 +109,7 @@ export function MeltSelect({ label, options, value, onChange }) {
             className={styles.option}
             onClick={() => onChange(option.value)}
           >
+            {option.icon}
             {option.label}
           </button>
         ))}
@@ -117,6 +118,7 @@ export function MeltSelect({ label, options, value, onChange }) {
       <motion.div className={`${styles.row} ${styles.ink}`} style={{ clipPath: clip }} aria-hidden="true">
         {options.map((option) => (
           <span key={option.value} className={styles.option}>
+            {option.icon}
             {option.label}
           </span>
         ))}

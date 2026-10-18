@@ -56,6 +56,7 @@ describe('stored data is not trusted', () => {
       eras: ['MODERNISM'],
     })
     expect(sanitizeConfig(null)).toEqual(emptyConfig)
+    expect([3, 12, 50, 'all', 2, 51, 4.5, '7'].map((rounds) => sanitizeConfig({ rounds }).rounds)).toEqual([3, 12, 50, 'all', 10, 10, 10, 10])
   })
 })
 
