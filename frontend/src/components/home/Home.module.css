@@ -31,13 +31,13 @@
   padding-left: calc(var(--labels) + 2.5rem);
 }
 
-/* As tall as the elevation plus the room under it: the sheet is 8 squares high from the roof (320 of the box's 440), the streak (3 squares) ends where the caption does. */
+/* As tall as the elevation plus the room under it: the sheet is 8 squares high from the roof (320 of the box's 440), the streak (3.5 squares) starts 4 squares above where the caption ends. */
 .aside {
   grid-area: aside;
   align-self: stretch;
-  margin-top: var(--space-5);
+  margin-block: var(--space-5) -1.25rem; /* the streak is 3.5 squares tall: its top stays, the extra half square goes down */
   display: grid;
-  grid-template-rows: calc((100% - 3.75rem) * 0.7273) 1fr 7.5rem;
+  grid-template-rows: calc((100% - 5rem) * 0.7273) 1fr 8.75rem;
 }
 
 .aside > :first-child {
