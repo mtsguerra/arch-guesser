@@ -13,10 +13,12 @@ export function useFitToScreen() {
     const fit = () => {
       root.style.removeProperty('--fit')
       if (window.innerWidth < TWO_COLUMNS) return
-      const over = root.scrollHeight - window.innerHeight
-      if (over <= 0) return
-      const next = Math.max(MIN_FIT, (window.innerHeight / root.scrollHeight) * 0.99)
-      root.style.setProperty('--fit', next.toFixed(3))
+      // Not everything scales with the text (borders, wrapping), so one ratio can fall short: close in by steps.
+      let next = 1
+      for (let i = 0; i < 6 && root.scrollHeight > window.innerHeight && next > MIN_FIT; i += 1) {
+        next = Math.max(MIN_FIT, next * (window.innerHeight / root.scrollHeight) * 0.99)
+        root.style.setProperty('--fit', next.toFixed(3))
+      }
     }
     fit()
     // Fonts and the catalogue change the height after first paint; fit() is idempotent, so its own change settles.

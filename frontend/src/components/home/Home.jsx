@@ -56,7 +56,7 @@ export function Home() {
   ]
 
   return (
-    <AppShell brand="afterHero">
+    <AppShell brand="afterHero" floating>
       <div className={styles.home}>
         <PencilFilter />
         <PencilTitle className={styles.title} />
@@ -69,9 +69,11 @@ export function Home() {
         <aside className={styles.aside}>
           <DailyTeaser />
           <StreakCard />
-          <p className={styles.how}>{home.how}</p>
-          {catalogue && eras?.length > 0 && <p className={styles.stats}>{home.stats(catalogue.buildings, eras.length)}</p>}
         </aside>
+        <footer className={styles.foot}>
+          <p>{home.how}</p>
+          {catalogue && eras?.length > 0 && <p>{home.stats(catalogue.buildings, eras.length)}</p>}
+        </footer>
       </div>
     </AppShell>
   )

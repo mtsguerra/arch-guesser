@@ -40,7 +40,8 @@
 
 /* The archive is a wide strip under the modes: tighter rows. */
 .archive {
-  gap: var(--space-2);
+  gap: 0.375rem;
+  padding-block: var(--space-2);
 }
 
 /* The last seven Dailies, stamped when played. */
@@ -57,7 +58,7 @@
   display: grid;
   justify-items: center;
   gap: 0.15rem;
-  padding: 0.35rem 0 0.3rem;
+  padding: 0.25rem 0 0.2rem;
   border: var(--hairline) solid var(--paper-hairline);
   border-radius: var(--radius-md);
 }

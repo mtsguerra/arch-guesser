@@ -363,3 +363,30 @@
     padding-bottom: calc(5rem + env(safe-area-inset-bottom));
   }
 }
+
+/* The home page on a wide screen: no strip, just the controls floating at the top right over the mat. */
+@media (min-width: 1025px) {
+  .shell[data-floating] {
+    grid-template-rows: 1fr auto;
+  }
+
+  .shell[data-floating] .rail,
+  .shell[data-floating] .rail[data-scrolled] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    height: calc(var(--rail-h) + var(--safe-top));
+    display: flex;
+    background: none;
+    backdrop-filter: none;
+    box-shadow: none;
+    --rail-ink: var(--ink);
+    --rail-ink-soft: var(--ink-soft);
+  }
+
+  .shell[data-floating] .place,
+  .shell[data-floating] .brand {
+    display: none;
+  }
+}

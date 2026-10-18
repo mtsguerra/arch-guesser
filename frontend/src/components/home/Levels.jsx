@@ -8,6 +8,10 @@ import styles from './Levels.module.css'
 // y of each level in the drawing's 400×244 viewBox (the ground line is at 214): top storey, first floor, ground.
 const LEVELS = [54, 134, 214]
 const STOREY = 80
+const ABOVE = STOREY - LEVELS[0] // the top storey's hatch rises this far above the drawing (26 of 400 units wide: see .elevation)
+// The sheet of lines is wider than the drawing (which is 86.7% of it, centred): the view box reaches this far past it on each side.
+const X0 = -30.7
+const VW = 461.4
 const TOUR_MS = 3400
 const RESUME_MS = 4500
 
@@ -61,7 +65,7 @@ export function Levels({ modes }) {
       <div className={styles.elevation}>
         <div className={styles.frame}>
           <PencilDrawing className={styles.drawing} onDrawing={onDrawing} />
-          <svg className={styles.overlay} viewBox="0 0 400 244" aria-hidden="true">
+          <svg className={styles.overlay} viewBox={`${X0} 0 ${VW} 244`} aria-hidden="true">
             <defs>
               <pattern id={hatch} width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
                 <line x1="0" y1="0" x2="0" y2="7" className={styles.hatchLine} />
@@ -69,17 +73,17 @@ export function Levels({ modes }) {
             </defs>
             {LEVELS.map((ly, i) => (
               <g key={ly} className={styles.level} data-on={i === active || undefined} style={{ '--i': i }}>
-                <rect className={styles.band} x="0" y={ly - STOREY} width="400" height={STOREY} fill={`url(#${hatch})`} />
-                <line className={styles.line} pathLength="1" x1="-8" x2="408" y1={ly} y2={ly} />
-                <path className={styles.datum} d={`M-26 ${ly - 9}H-10L-18 ${ly}Z`} />
+                <rect className={styles.band} x={X0} y={ly - STOREY} width={VW} height={STOREY} fill={`url(#${hatch})`} />
+                <line className={styles.line} pathLength="1" x1={X0 - 8} x2={X0 + VW} y1={ly} y2={ly} />
+                <path className={styles.datum} d={`M${X0 - 26} ${ly - 9}H${X0 - 10}L${X0 - 18} ${ly}Z`} />
               </g>
             ))}
-            <text key={`storey-${active}`} className={styles.storey} x="404" y={y - 5} textAnchor="end">
+            <text key={`storey-${active}`} className={styles.storey} x={X0 + VW - 2} y={y - 5} textAnchor="end">
               {t.storey}
             </text>
-            <line key={`glow-${active}`} className={styles.glow} x1="-8" x2="408" y1={y} y2={y} />
+            <line key={`glow-${active}`} className={styles.glow} x1={X0 - 8} x2={X0 + VW} y1={y} y2={y} />
             <g className={styles.marker} style={{ transform: `translateY(${y}px)` }}>
-              <path d="M-27 -10H-9L-18 0Z" />
+              <path d={`M${X0 - 27} -10H${X0 - 9}L${X0 - 18} 0Z`} />
             </g>
           </svg>
         </div>
@@ -93,7 +97,7 @@ export function Levels({ modes }) {
           <li
             key={mode.key}
             className={styles.mode}
-            style={{ '--y': LEVELS[i] / 244, '--i': i }}
+            style={{ '--y': (LEVELS[i] + ABOVE) / (244 + ABOVE), '--i': i }}
             data-on={i === active || undefined}
             data-main={i === 0 || undefined}
           >

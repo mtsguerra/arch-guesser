@@ -4,7 +4,7 @@ import { BY_ERA, silhouettes } from '../reveal/silhouettes.js'
 /** True where the pencil would be wasted: phones (battery) and people who asked for less motion. */
 export function skipsPencil() {
   const query = (q) => window.matchMedia?.(q).matches
-  return query('(max-width: 40rem)') || query('(prefers-reduced-motion: reduce)')
+  return query('(max-width: 640px)') || query('(prefers-reduced-motion: reduce)')
 }
 
 // The era drawings of the reveal, without their dimension lines (a dash pattern can't also be a drawing animation).

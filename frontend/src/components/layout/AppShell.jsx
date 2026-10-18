@@ -30,10 +30,11 @@ function PlanMark() {
  * @param bottomBar  'phone' or 'reveal' when a fixed bar covers the bottom of the screen (on phones only, or at every size),
  *               so the credits footer gets room above it
  * @param phoneMenu  show that control on phones too (they otherwise keep it in the bottom bar)
+ * @param floating  on wide screens, drop the rail's strip and let the controls float at the top right (the home page)
  * @param brand  'always' shows the small name in the header; 'afterHero' (the home page, which has the big
  *               drawn name in the page) shows it only once that has scrolled away
  */
-export function AppShell({ actions, place, brand = 'always', slim = false, menu, phoneMenu = false, bottomBar, children }) {
+export function AppShell({ actions, place, brand = 'always', floating = false, slim = false, menu, phoneMenu = false, bottomBar, children }) {
   const strings = useStrings()
   // The rail's edge only appears once content scrolls under it.
   const [scrolled, setScrolled] = useState(false)
@@ -85,7 +86,7 @@ export function AppShell({ actions, place, brand = 'always', slim = false, menu,
   ) : null
 
   return (
-    <div className={styles.shell} data-slim={slim || undefined} data-bottom-bar={bottomBar}>
+    <div className={styles.shell} data-slim={slim || undefined} data-floating={floating || undefined} data-bottom-bar={bottomBar}>
       <PageBackground />
       {header}
       {!slim && <header className={styles.rail} data-scrolled={scrolled || undefined}>

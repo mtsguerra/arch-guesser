@@ -1,13 +1,17 @@
 .home {
+  /* Laid out from the layout mock: labels | drawing | sheet column, 5rem apart, centred. */
+  --labels: 11.25rem;
+  --drawing: 50rem; /* the elevation box: a 3rem marker gutter, then the sheet of lines */
+  --block: calc(var(--labels) + 2.5rem + var(--drawing));
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 17.5rem;
-  grid-template-rows: auto auto 1fr;
-  grid-template-areas: 'title title' 'levels aside' 'archive aside';
-  gap: var(--space-4) var(--space-7);
+  grid-template-columns: var(--block) 16.3rem;
+  justify-content: center;
+  grid-template-areas: 'title title' 'levels aside' 'archive .';
+  gap: var(--space-4) 5rem;
   align-items: start;
-  max-width: 76rem;
+  max-width: 125rem;
   margin-inline: auto;
-  padding-block: var(--space-5) var(--space-7);
+  padding: var(--space-5) var(--space-7) var(--space-7);
 }
 
 .home .title {
@@ -17,55 +21,107 @@
 .levels {
   grid-area: levels;
   min-width: 0;
-  padding-block: var(--space-6); /* top: the Daily label rises above the drawing; bottom: the caption */
+  padding-block: var(--space-5) 3.75rem; /* bottom: room for the caption, and the streak ends here */
 }
 
+/* Starts where the drawing starts (past the label column) and ends where its lines end. */
 .archive {
   grid-area: archive;
   min-width: 0;
+  padding-left: calc(var(--labels) + 2.5rem);
 }
 
-/* Below the title row, so the name has the top of the page to itself. */
+/* As tall as the elevation plus the room under it: the sheet is 8 squares high from the roof (320 of the box's 440), the streak (3 squares) ends where the caption does. */
 .aside {
   grid-area: aside;
+  align-self: stretch;
+  margin-top: var(--space-5);
   display: grid;
-  gap: var(--space-4);
-  padding-top: var(--space-6);
+  grid-template-rows: calc((100% - 3.75rem) * 0.7273) 1fr 7.5rem;
 }
 
-.how,
-.stats {
+.aside > :first-child {
+  grid-row: 1;
+  align-content: space-between;
+}
+
+.aside > :last-child {
+  grid-row: 3;
+}
+
+/* In the archive's row, under the labels. */
+.foot {
+  grid-area: archive;
+  justify-self: start;
+  align-self: end;
+  width: var(--labels);
+  margin-top: -2.25rem; /* starts level with the caption */
+  display: grid;
+  gap: var(--space-2);
   color: var(--ink-soft);
-  font-size: var(--text-sm);
-  line-height: 1.45;
-}
-
-.stats {
   font-size: var(--text-xs);
+  line-height: 1.45;
   font-variant-numeric: tabular-nums;
+  text-align: right;
 }
 
-@media (max-width: 64rem) {
+@media (max-width: 1024px) {
   .home {
     grid-template-columns: minmax(0, 1fr);
-      grid-template-rows: none;
-    grid-template-areas: 'title' 'levels' 'archive' 'aside';
+    grid-template-areas: 'title' 'levels' 'archive' 'aside' 'foot';
     max-width: 54rem; /* wide enough that the level labels don't crowd each other */
+    padding-inline: 0;
+    --labels: 14rem;
+  }
+
+  .foot {
+    grid-area: foot;
+    justify-self: stretch;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-2) var(--space-5);
+    text-align: center;
   }
 
   /* The teaser beside the streak, instead of one tall stack. */
-  .aside {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: start;
-    padding-top: 0;
+  .archive {
+    padding-left: calc(var(--labels) + var(--space-5));
   }
 
-  .aside > :first-child {
-    grid-row: span 3;
+  .levels {
+    padding-block: var(--space-6);
+  }
+
+  .foot {
+    margin-top: 0;
+  }
+
+  .aside {
+    margin-block: 0;
+    grid-template-rows: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-4);
+    align-items: start;
+  }
+
+  .aside > :first-child,
+  .aside > :last-child {
+    grid-row: auto;
   }
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
+  .levels,
+  .archive {
+    width: 100%;
+  }
+
+  .archive {
+    padding-left: 0;
+  }
+
   .levels {
     padding-block: var(--space-2) 0;
   }
@@ -74,7 +130,4 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .aside > :first-child {
-    grid-row: auto;
-  }
 }
