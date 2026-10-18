@@ -72,6 +72,36 @@
   }
 }
 
+/* Phones: the four choices form a 2x2 grid, and the chosen one is simply filled (the sliding pill is one-dimensional). */
+@media (max-width: 640px) {
+  .root {
+    width: 100%;
+  }
+
+  .goo,
+  .ink {
+    display: none;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.25rem;
+    width: 100%;
+  }
+
+  .option {
+    justify-content: center;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .option[aria-checked='true'] {
+    background: var(--ink);
+    color: var(--paper);
+  }
+}
+
 /* Weak devices: a plain sliding pill, no melting. */
 :global(html.lite) .goo {
   filter: none !important;

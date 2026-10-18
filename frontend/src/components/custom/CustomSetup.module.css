@@ -177,6 +177,20 @@
   box-shadow: var(--edge-light), var(--shadow-sheet);
 }
 
+/* Phones: Foundation, count and Start stay on one row. */
+@media (max-width: 640px) {
+  .footer {
+    flex-wrap: nowrap;
+    gap: var(--space-3);
+    padding: var(--space-2) var(--space-3);
+  }
+
+  .count {
+    min-width: 0;
+    font-size: var(--text-xs);
+  }
+}
+
 .go {
   border-radius: var(--radius-md);
   animation: ready 1.6s ease-out 0.2s 2;
