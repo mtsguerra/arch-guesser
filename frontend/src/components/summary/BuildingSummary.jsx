@@ -9,6 +9,7 @@ import { useLanguage, useStrings } from '../../i18n.js'
 import { ArchImage } from '../ui/ArchImage.jsx'
 import { Credit } from '../ui/Credit.jsx'
 import { countryName } from '../../game/countries.js'
+import { DailyCard } from './DailyCard.jsx'
 import styles from './BuildingSummary.module.css'
 
 // The monograph unfolds section by section as the board steps back.
@@ -102,7 +103,7 @@ function Photo({ photo }) {
   )
 }
 
-export function BuildingSummary({ building, eras, fields, outcome }) {
+export function BuildingSummary({ building, eras, fields, outcome, daily }) {
   const strings = useStrings()
   const heading = useRef(null)
   const era = eras?.find((e) => e.id === building.era)
@@ -126,7 +127,7 @@ export function BuildingSummary({ building, eras, fields, outcome }) {
       </motion.div>
 
       <motion.div variants={section}>
-        <Recap fields={fields} outcome={outcome} />
+        {daily ? <DailyCard daily={daily} /> : <Recap fields={fields} outcome={outcome} />}
       </motion.div>
 
       <motion.p className={styles.lead} variants={section}>

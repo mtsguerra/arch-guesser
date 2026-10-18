@@ -209,9 +209,9 @@
   min-width: 0;
 }
 
-/* The globe sits at the foot of the column, level with the thumbnails. */
+/* The globe sits right under the drawing's info, not at the foot of the column. */
 .globeSlot {
-  align-self: end;
+  align-self: start;
 }
 
 .note {

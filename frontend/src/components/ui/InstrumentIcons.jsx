@@ -1,0 +1,108 @@
+import styles from './InstrumentIcons.module.css'
+
+// Small drafting instruments (a compass, an hourglass, a globe). They move when the control they sit in is
+// hovered, focused or chosen: a button, or anything marked data-motion (see InstrumentIcons.module.css).
+// Same props as the lucide icons they stand in for, so className sets their size and colour.
+function Svg({ className = '', strokeWidth = 1.75, children }) {
+  return (
+    <svg className={`${styles.icon} ${className}`} strokeWidth={strokeWidth} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      {children}
+    </svg>
+  )
+}
+
+/** A drafting compass whose legs close, then open wider than before, and settle. */
+export function CompassIcon(props) {
+  return (
+    <Svg {...props}>
+      <g>
+        <circle cx="12" cy="3.5" r="1.6" />
+        <path className={styles.legL} d="M12 5 8.5 20.5l-.6 1.5" />
+        <path className={styles.legR} d="M12 5 15.5 20.5H17" />
+        <path d="M10 10.5h4" />
+      </g>
+    </Svg>
+  )
+}
+
+/** An hourglass with sand in both bulbs: it turns over, the stream runs, and it ends looking as it began. */
+export function HourglassIcon({ className = '', ...props }) {
+  return (
+    <Svg {...props} className={`${className} ${styles.hourglassSvg}`}>
+      <g>
+        <path d="M6.5 3h11M6.5 21h11M8 3c0 5 8 5.5 8 9s-8 4-8 9M16 3c0 5-8 5.5-8 9s8 4 8 9" />
+        <path className={styles.sandA} d="M8.9 4.6h6.2L12 8.6z" />
+        <path className={styles.sandB} d="M8.9 19.6h6.2L12 15.6z" />
+        <path className={styles.stream} d="M12 12V16" />
+      </g>
+    </Svg>
+  )
+}
+
+/** A globe whose meridian turns. */
+export function GlobeIcon(props) {
+  return (
+    <Svg {...props}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18" />
+      <ellipse className={styles.meridian} cx="12" cy="12" rx="4" ry="9" />
+    </Svg>
+  )
+}
+
+/** A globe with a clock hand sweeping round: a place and a time. */
+export function GlobeClockIcon(props) {
+  return (
+    <Svg {...props}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h4M17 12h4M12 3v3M12 18v3" />
+      <path className={styles.hand} d="M12 12V7.5M12 12l3 2" />
+    </Svg>
+  )
+}
+
+const WINDOWS = [
+  [8, 6.5, 2],
+  [14, 6.5, 2],
+  [8, 10.5, 1],
+  [14, 10.5, 1],
+  [8, 14.5, 0],
+  [14, 14.5, 0],
+] // [x, y, row from the bottom]
+
+/** A facade whose windows light up floor by floor from the bottom, and whose door opens a crack. */
+export function BuildingIcon(props) {
+  return (
+    <Svg {...props}>
+      <path d="M6 21V3h12v18M4 21h16" />
+      {WINDOWS.map(([x, y, row]) => (
+        <rect key={`${x}-${y}`} className={styles.win} style={{ '--r': row }} x={x} y={y} width="2" height="2" rx="0.3" />
+      ))}
+      <path className={styles.door} d="M10.5 21v-3.5h3V21" />
+    </Svg>
+  )
+}
+
+/** Three nodes joined by lines: the lines draw on hover and the nodes ripple outward when pressed. */
+export function ShareIcon(props) {
+  return (
+    <Svg {...props}>
+      <path className={styles.link1} pathLength="1" d="M8 11l8-4.5" />
+      <path className={styles.link2} pathLength="1" d="M8 13l8 4.5" />
+      <circle className={styles.node} cx="6" cy="12" r="2.4" />
+      <circle className={`${styles.node} ${styles.node2}`} cx="18" cy="5.5" r="2.4" />
+      <circle className={`${styles.node} ${styles.node3}`} cx="18" cy="18.5" r="2.4" />
+    </Svg>
+  )
+}
+
+/** A drawing sheet under a veil: on hover the veil rolls up to show the lines beneath, and falls away when pressed. */
+export function RevealIcon(props) {
+  return (
+    <Svg {...props}>
+      <rect x="4" y="4" width="16" height="16" rx="1.5" />
+      <path className={styles.sheetLines} d="M8 9h8M8 12.5h6M8 16h7" />
+      <rect className={styles.veil} x="4" y="4" width="16" height="16" rx="1.5" />
+    </Svg>
+  )
+}

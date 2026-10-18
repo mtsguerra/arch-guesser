@@ -254,7 +254,7 @@
   min-width: 0;
   color: inherit;
   text-decoration: none;
-  font-size: var(--text-2xs);
+  font-size: var(--text-sm);
   font-weight: 650;
   font-stretch: var(--stretch-wide);
   letter-spacing: var(--tracking-caps);
@@ -264,8 +264,8 @@
 }
 
 .slimBrand .mark {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.4rem;
+  height: 1.4rem;
   filter: none;
 }
 
@@ -287,7 +287,7 @@
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
-  zoom: 0.82;
+  zoom: 0.95;
   transition: scale var(--dur-fast) var(--ease-out);
 }
 
@@ -351,6 +351,18 @@
 
   .slim[data-phone-menu] .slimRight {
     grid-column: 3;
+  }
+}
+
+/* The game on a wide screen: no strip either; the Menu, the place and the controls float over the mat (the bar keeps its height, so nothing moves). */
+@media (min-width: 1025px) {
+  .slim,
+  :global(html.lite) .slim {
+    background: none;
+    backdrop-filter: none;
+    box-shadow: none;
+    --rail-ink: var(--ink);
+    --rail-ink-soft: var(--ink-soft);
   }
 }
 

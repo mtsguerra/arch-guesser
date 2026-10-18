@@ -11,6 +11,7 @@ const C = 100
 const RAD = Math.PI / 180
 const IDLE = { lat: 25, lon: 20 }
 const TURN = { duration: 1.6, ease: easeOut }
+const SPIN = { duration: 2.6, ease: easeOut } // a full turn first, then it comes to rest on the country
 
 // Orthographic projection; null on the far side of the globe.
 function project(lat, lon, lat0, lon0) {
@@ -39,7 +40,7 @@ function graticule(lat0, lon0) {
 }
 
 /**
- * A bare graticule that hides where the building is. Once the country guess is right it turns to
+ * A bare graticule that hides where the building is. Once the country guess is right it spins once, then turns to
  * that country and drops a pin. `found` is true after the guess locks or the answer is revealed.
  */
 export function VeiledGlobe({ code, found }) {
@@ -60,9 +61,17 @@ export function VeiledGlobe({ code, found }) {
       lonValue.set(lon)
       return undefined
     }
-    const turns = [animate(latValue, lat, TURN), animate(lonValue, lon, TURN)]
+    // Going to the country, the globe first spins once all the way round (eastward) and ends on it.
+    const start = lonValue.get()
+    const spun = start + ((((lon - start) % 360) + 360) % 360) + 360
+    const turns = known
+      ? [
+          animate(latValue, lat, SPIN),
+          animate(lonValue, spun, { ...SPIN, onComplete: () => lonValue.set(lon) }), // same place, so the next turn starts from a plain angle
+        ]
+      : [animate(latValue, lat, TURN), animate(lonValue, lon, TURN)]
     return () => turns.forEach((t) => t.stop())
-  }, [lat, lon, latValue, lonValue, reduceMotion])
+  }, [lat, lon, known, latValue, lonValue, reduceMotion])
 
   const name = known ? (countryName(code, lang) ?? code) : text.hidden
 
@@ -85,7 +94,7 @@ export function VeiledGlobe({ code, found }) {
           className={styles.pin}
           initial={false}
           animate={{ opacity: known ? 1 : 0, scale: known ? 1 : 0.4 }}
-          transition={{ duration: 0.45, ease: easeOut, delay: known && !reduceMotion ? 1.2 : 0 }}
+          transition={{ duration: 0.45, ease: easeOut, delay: known && !reduceMotion ? 2.1 : 0 }}
         >
           <circle className={styles.ring} cx={C} cy={C} r="11" />
           <circle className={styles.dot} cx={C} cy={C} r="4.5" />

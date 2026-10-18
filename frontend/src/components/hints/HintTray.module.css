@@ -88,18 +88,56 @@
   font-weight: 600;
 }
 
-/* Fronts: the Skywalk render under a palette tint, so the cream label stays legible. */
+/* Fronts: the Skywalk render under a palette tint (oxblood into chocolate); the text is always the palette's cream
+   (the theme's paper is dark in the dark theme). Dark keeps the render in its own colours under the tint; light turns it
+   to greyscale under a cream-and-camel wash, with dark brown text. Layers: the render (-2), the tint (-1), the text. */
 .front {
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border-radius: inherit;
   justify-items: start;
-  background:
-    linear-gradient(135deg, color-mix(in oklab, var(--oxblood) 80%, transparent), color-mix(in oklab, var(--chocolate) 84%, transparent)),
-    url('/hint-bg.jpg') center / cover;
-  color: var(--paper);
+  color: var(--cream);
+  text-shadow: 0 1px 2px rgb(30 14 8 / 0.55);
+}
+
+.front::before,
+.front::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.front::before {
+  z-index: -2;
+  background: url('/hint-bg.jpg') center / cover;
+}
+
+.front::after {
+  z-index: -1;
+  background: linear-gradient(135deg, color-mix(in oklab, var(--oxblood) 80%, transparent), color-mix(in oklab, var(--chocolate) 84%, transparent));
+}
+
+:global(:root:not([data-theme='dark'])) .front {
+  color: var(--chocolate);
+  text-shadow: none;
+}
+
+:global(:root:not([data-theme='dark'])) .front::before {
+  filter: grayscale(1) contrast(1.1);
+}
+
+/* Light: a paper-and-camel wash over the greyscale render, with the dark brown ink of the theme. */
+:global(:root:not([data-theme='dark'])) .front::after {
+  background: linear-gradient(135deg, color-mix(in oklab, var(--cream) 90%, transparent), color-mix(in oklab, var(--camel) 80%, transparent));
 }
 
 .front .icon {
   color: var(--camel);
+}
+
+:global(:root:not([data-theme='dark'])) .front .icon {
+  color: var(--oxblood);
 }
 
 .locked {
@@ -109,8 +147,16 @@
 /* Small screens: the slots stack. */
 /* No translucency: the tint over the image becomes a solid colour. */
 @media (prefers-reduced-transparency: reduce) {
-  .front {
+  .front::before {
+    display: none;
+  }
+
+  .front::after {
     background: linear-gradient(135deg, var(--oxblood), var(--chocolate));
+  }
+
+  :global(:root:not([data-theme='dark'])) .front::after {
+    background: linear-gradient(135deg, var(--cream), var(--camel));
   }
 }
 

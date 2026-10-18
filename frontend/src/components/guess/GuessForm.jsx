@@ -1,6 +1,6 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
-import { Building2, Check, Eye, Globe, Hourglass, PencilRuler, X } from 'lucide-react'
+import { Check, Eye, X } from 'lucide-react'
 import { CheckIcon } from '../ui/icons.jsx'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName } from '../../game/useEras.js'
@@ -10,6 +10,7 @@ import { chime, scratch, tick } from '../../game/sound.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
+import { BuildingIcon, CompassIcon, GlobeIcon, HourglassIcon, RevealIcon } from '../ui/InstrumentIcons.jsx'
 import { CountryCombobox } from './CountryCombobox.jsx'
 import { EraCombobox } from './EraCombobox.jsx'
 import styles from './GuessForm.module.css'
@@ -66,7 +67,7 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
   const showAnswer = answer != null
 
   return (
-    <motion.div className={styles.field} data-status={revealed ? (locked ? 'correct' : 'revealed') : status} animate={controls}>
+    <motion.div className={styles.field} data-motion data-status={revealed ? (locked ? 'correct' : 'revealed') : status} animate={controls}>
       <label className={styles.label} htmlFor={id}>
         {strings.guess.fields[field]}
       </label>
@@ -188,7 +189,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
       </div>
 
       <form className={styles.form} onSubmit={handleSubmit} noValidate>
-        <Field {...fieldProps('name')} icon={Building2}>
+        <Field {...fieldProps('name')} icon={BuildingIcon}>
           {(props) => (
             <input
               {...props}
@@ -203,7 +204,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           )}
         </Field>
 
-        <Field {...fieldProps('architect')} icon={PencilRuler}>
+        <Field {...fieldProps('architect')} icon={CompassIcon}>
           {(props) => (
             <input
               {...props}
@@ -218,7 +219,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           )}
         </Field>
 
-        <Field {...fieldProps('country')} icon={Globe}>
+        <Field {...fieldProps('country')} icon={GlobeIcon}>
           {(props) => (
             <CountryCombobox
               {...props}
@@ -230,7 +231,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           )}
         </Field>
 
-        <Field {...fieldProps('era')} icon={Hourglass}>
+        <Field {...fieldProps('era')} icon={HourglassIcon}>
           {(props) => (
             <EraCombobox
               {...props}
@@ -251,7 +252,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
             <Button type="submit" icon={CheckIcon} className={styles.primary}>
               {strings.guess.submit}
             </Button>
-            <Button variant="quiet" onClick={onGiveUp}>
+            <Button variant="quiet" icon={RevealIcon} onClick={onGiveUp}>
               {strings.guess.giveUp}
             </Button>
           </div>

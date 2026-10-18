@@ -100,6 +100,7 @@ export default function Game({ mode = 'normal' }) {
           eras={eras}
           view={view}
           onViewChange={(next) => setViewFor({ id: building.id, view: next })}
+          daily={daily}
         />
       </div>
     )

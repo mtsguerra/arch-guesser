@@ -1,9 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import { dailyNumber, shareText } from '../../game/daily.js'
 import { useCountdown } from '../../game/useCountdown.js'
 import { useStrings } from '../../i18n.js'
 import { Button } from '../ui/Button.jsx'
-import { ArrowRightIcon, BookIcon, CheckIcon, CopyIcon, ExternalIcon, MapIcon } from '../ui/icons.jsx'
+import { DailyShare } from './DailyShare.jsx'
+import { ArrowRightIcon, BookIcon, ExternalIcon, MapIcon } from '../ui/icons.jsx'
 import styles from './RevealBar.module.css'
 
 /**
@@ -18,7 +19,6 @@ export function RevealBar({ view, onToggleView, wikipedia, onNext, nextLabel, da
   const strings = useStrings()
   const left = useCountdown()
   const next = useRef(null)
-  const [copied, setCopied] = useState(false)
 
   // Whoever finished the round is one key press from the way forward.
   useEffect(() => {
@@ -28,15 +28,6 @@ export function RevealBar({ view, onToggleView, wikipedia, onNext, nextLabel, da
   const text = daily
     ? shareText({ number: dailyNumber(), fields: daily.fields, hintsUsed: daily.hintsUsed, title: strings.daily.shareTitle, url: window.location.origin })
     : ''
-  const copy = async () => {
-    try {
-      await navigator.clipboard.writeText(text)
-      setCopied(true)
-      setTimeout(() => setCopied(false), 2000)
-    } catch {
-      // Clipboard blocked (insecure context or permissions): nothing to copy to.
-    }
-  }
 
   const toSummary = view === 'board'
   return (
@@ -70,11 +61,7 @@ export function RevealBar({ view, onToggleView, wikipedia, onNext, nextLabel, da
             <span>{strings.summary.more.link}</span>
           </a>
         )}
-        {daily && (
-          <Button variant="ghost" icon={copied ? CheckIcon : CopyIcon} compact aria-label={strings.daily.share} onClick={copy}>
-            {copied ? strings.daily.copied : strings.daily.share}
-          </Button>
-        )}
+        {daily && <DailyShare text={text} />}
         <Button ref={next} icon={ArrowRightIcon} onClick={onNext} className={styles.next}>
           {nextLabel ?? strings.guess.next}
         </Button>
