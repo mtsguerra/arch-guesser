@@ -35,9 +35,9 @@
 
 /* Each letter: the outline is traced, then the letter is shaded in. */
 .letter {
-  fill: var(--graphite);
+  fill: var(--title-ink);
   fill-opacity: 0;
-  stroke: var(--graphite);
+  stroke: var(--title-ink);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-dasharray: 1200;
@@ -50,7 +50,7 @@
 
 .done {
   animation: none;
-  fill-opacity: 0.9;
+  fill-opacity: 1;
   stroke-dashoffset: 0;
 }
 
@@ -62,7 +62,7 @@
 
 @keyframes shade {
   to {
-    fill-opacity: 0.9;
+    fill-opacity: 1;
   }
 }
 
@@ -83,7 +83,7 @@
 @media (prefers-reduced-motion: reduce) {
   .letter {
     animation: none;
-    fill-opacity: 0.9;
+    fill-opacity: 1;
     stroke-dashoffset: 0;
   }
 }

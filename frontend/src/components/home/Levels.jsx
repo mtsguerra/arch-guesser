@@ -79,7 +79,7 @@ export function Levels({ modes }) {
               </g>
             ))}
             <text key={`storey-${active}`} className={styles.storey} x={X0 + VW - 2} y={y - 5} textAnchor="end">
-              {t.storey}
+              {t.storey(t.heights[active])}
             </text>
             <line key={`glow-${active}`} className={styles.glow} x1={X0 - 8} x2={X0 + VW} y1={y} y2={y} />
             <g className={styles.marker} style={{ transform: `translateY(${y}px)` }}>

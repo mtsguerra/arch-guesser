@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { fetchBuilding, fetchBuildingIds } from '../../api/buildings.js'
 import { dailyId, dailyNumber, readDaily } from '../../game/daily.js'
 import { useCountdown } from '../../game/useCountdown.js'
-import { useStrings } from '../../i18n.js'
+import { useLanguage, useStrings } from '../../i18n.js'
+import { ArrowRightIcon } from '../ui/icons.jsx'
 import styles from './DailyTeaser.module.css'
 
 const WHOLE = { x: 0, y: 0, w: 1, h: 1 }
@@ -38,6 +39,7 @@ function Sheet({ sheet, onFail }) {
  */
 export function DailyTeaser() {
   const strings = useStrings()
+  const { lang } = useLanguage()
   const t = strings.home.teaser
   const number = dailyNumber()
   const done = Boolean(readDaily(number))
@@ -70,11 +72,18 @@ export function DailyTeaser() {
         <>
           <div className={styles.full} role="img" aria-label={t.aria}>
             {image}
-            <span className={styles.stamp}>{t.done}</span>
+            {/* Signed off like a drawing: the word, the date and a signature. */}
+            <span className={styles.stamp}>
+              <b>{t.done}</b>
+              <time>{new Date().toLocaleDateString(lang, { day: '2-digit', month: '2-digit', year: 'numeric' })}</time>
+              <svg viewBox="0 0 48 12" aria-hidden="true">
+                <path d="M2 8c3-7 5-7 4-1s3 4 6-1c2-3 3 0 5 1s4-3 6-2 3 3 6 1 5-1 7 0" />
+              </svg>
+            </span>
           </div>
           <p className={styles.next}>{t.next(left)}</p>
           <a className={styles.secondary} href="#/daily">
-            {t.result} <span aria-hidden="true">→</span>
+            {t.result} <ArrowRightIcon className={styles.arrow} strokeWidth={1.75} />
           </a>
         </>
       ) : (
@@ -86,7 +95,7 @@ export function DailyTeaser() {
           </div>
           <p className={styles.text}>{t.text}</p>
           <a className={styles.cta} href="#/daily">
-            {t.play} <span aria-hidden="true">→</span>
+            {t.play} <ArrowRightIcon className={styles.arrow} strokeWidth={1.75} />
           </a>
         </>
       )}

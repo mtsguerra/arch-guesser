@@ -122,17 +122,40 @@
   position: absolute;
   right: var(--space-3);
   bottom: var(--space-3);
-  padding: 0.125rem 0.75rem;
-  border: 0.1562rem solid #4f7a3a;
-  border-radius: var(--radius-md);
-  background: rgb(255 248 228 / 0.8);
-  color: #3d6a2c;
-  font-size: var(--text-sm);
-  font-weight: 900;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  display: grid;
+  justify-items: center;
+  gap: 0.0625rem;
+  padding: 0.25rem 0.75rem 0.125rem;
+  border: 0.1562rem double var(--accent);
+  border-radius: var(--radius-sm);
+  background: rgb(255 248 228 / 0.82);
+  color: var(--accent);
   rotate: -7deg;
   animation: stamp 0.5s cubic-bezier(0.34, 1.4, 0.5, 1) 0.3s both;
+}
+
+.stamp b {
+  font-size: var(--text-sm);
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.stamp time {
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+}
+
+.stamp svg {
+  width: 3rem;
+  height: 0.75rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 @keyframes stamp {
@@ -178,9 +201,18 @@
   color: var(--ink);
 }
 
-.cta:hover,
+.arrow {
+  width: 1.1em;
+  height: 1.1em;
+  flex: none;
+}
+
+.cta:hover {
+  background: var(--accent-strong);
+}
+
 .secondary:hover {
-  filter: brightness(1.06);
+  border-color: var(--accent);
 }
 
 .cta:active,

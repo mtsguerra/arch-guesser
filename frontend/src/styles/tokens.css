@@ -35,6 +35,7 @@
   --link: var(--russet);
   /* The pencil: lines and shading drawn by hand */
   --graphite: color-mix(in oklab, var(--chocolate) 86%, transparent);
+  --title-ink: var(--chocolate); /* the home title: solid, not faded like the sketch lines */
   --focus: var(--russet);
 
   /* Type */
@@ -121,6 +122,7 @@
   --accent-ink: #24150b;
   --link: #e2a46a;
   --graphite: color-mix(in oklab, var(--cream) 88%, transparent);
+  --title-ink: var(--graphite);
   --focus: #e2a46a;
 
   --shadow-sheet:
