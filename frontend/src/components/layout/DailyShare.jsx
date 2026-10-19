@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useId, useRef, useState } from 'react'
 import { motion, useReducedMotion } from 'motion/react'
 import { useStrings } from '../../i18n.js'
 import { springSoft } from '../../motion.js'
@@ -7,9 +7,8 @@ import { CheckIcon, CopyIcon, ExternalIcon } from '../ui/icons.jsx'
 import { ShareIcon } from '../ui/InstrumentIcons.jsx'
 import styles from './DailyShare.module.css'
 
-/** Share (where the device has a share sheet), copy and WhatsApp for one result text. */
-export function ShareButtons({ text }) {
-  const strings = useStrings()
+/** Copy, share sheet and their state, for one result text. */
+function useShareActions(text) {
   const [copied, setCopied] = useState(false)
   const canShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function'
   const copy = async () => {
@@ -22,21 +21,78 @@ export function ShareButtons({ text }) {
     }
   }
   const share = () => navigator.share({ text }).catch(() => {}) // closing the sheet rejects: not an error
+  return { canShare, copied, copy, share }
+}
+
+const whatsappUrl = (text) => `https://wa.me/?text=${encodeURIComponent(text)}`
+
+/** Share (where the device has a share sheet), copy and WhatsApp for one result text. */
+export function ShareButtons({ text }) {
+  const strings = useStrings()
+  const { canShare, copied, copy, share } = useShareActions(text)
 
   return (
     <div className={styles.buttons}>
-    {canShare && (
-      <Button icon={ShareIcon} onClick={share}>
-        {strings.daily.shareVia}
+      {canShare && (
+        <Button icon={ShareIcon} onClick={share}>
+          {strings.daily.shareVia}
+        </Button>
+      )}
+      <Button variant={canShare ? 'ghost' : 'primary'} icon={copied ? CheckIcon : CopyIcon} onClick={copy}>
+        {copied ? strings.daily.copied : strings.daily.copy}
       </Button>
-    )}
-    <Button variant={canShare ? 'ghost' : 'primary'} icon={copied ? CheckIcon : CopyIcon} onClick={copy}>
-      {copied ? strings.daily.copied : strings.daily.copy}
-            </Button>
-            <a className={styles.whatsapp} href={`https://wa.me/?text=${encodeURIComponent(text)}`} target="_blank" rel="noreferrer">
+      <a className={styles.whatsapp} href={whatsappUrl(text)} target="_blank" rel="noreferrer">
+        <ExternalIcon aria-hidden="true" strokeWidth={1.75} />
+        WhatsApp
+      </a>
+    </div>
+  )
+}
+
+/**
+ * One wide Share button for the result card. It opens a short list: copy, WhatsApp and other ways
+ * (the device's share sheet, or e-mail where there is none).
+ */
+export function ShareMenu({ text }) {
+  const strings = useStrings()
+  const { canShare, copied, copy, share } = useShareActions(text)
+  const [open, setOpen] = useState(false)
+  const listId = useId()
+
+  return (
+    <div className={styles.menu}>
+      <Button icon={ShareIcon} className={styles.wide} aria-expanded={open} aria-controls={listId} onClick={() => setOpen((o) => !o)}>
+        {strings.daily.share}
+      </Button>
+      {open && (
+        <ul id={listId} className={styles.options}>
+          <li>
+            <button type="button" className={styles.option} onClick={copy}>
+              {copied ? <CheckIcon aria-hidden="true" /> : <CopyIcon aria-hidden="true" />}
+              {copied ? strings.daily.copied : strings.daily.copy}
+            </button>
+          </li>
+          <li>
+            <a className={styles.option} href={whatsappUrl(text)} target="_blank" rel="noreferrer">
               <ExternalIcon aria-hidden="true" strokeWidth={1.75} />
               WhatsApp
             </a>
+          </li>
+          <li>
+            {canShare ? (
+              <button type="button" className={styles.option} onClick={share}>
+                <ShareIcon aria-hidden="true" />
+                {strings.daily.shareMore}
+              </button>
+            ) : (
+              <a className={styles.option} href={`mailto:?subject=${encodeURIComponent(strings.daily.shareTitle)}&body=${encodeURIComponent(text)}`}>
+                <ExternalIcon aria-hidden="true" strokeWidth={1.75} />
+                {strings.daily.email}
+              </a>
+            )}
+          </li>
+        </ul>
+      )}
     </div>
   )
 }

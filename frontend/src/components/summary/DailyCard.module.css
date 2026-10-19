@@ -29,6 +29,8 @@
 }
 
 .foot {
+  flex-direction: column;
+  align-items: stretch;
   padding-block: var(--space-3);
   border-top: 2px solid var(--paper-rule);
 }
@@ -141,4 +143,71 @@
     border-right: 0;
     border-bottom: 2px solid var(--paper-rule);
   }
+}
+
+/* The wait for the next sheet, drawn like a title-block cell: label, big digits, units. */
+.countdown {
+  display: grid;
+  animation: rise 0.5s var(--ease-out) 0.3s both;
+  justify-items: center;
+  gap: 0.125rem;
+  padding: var(--space-2) 0 var(--space-3);
+}
+
+.countLabel {
+  font-size: var(--text-2xs);
+  font-weight: 750;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.digits {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.125rem;
+  font-size: 2.25rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+.colon {
+  padding-inline: 0.125rem;
+  color: var(--accent);
+  animation: tick 2s ease-in-out infinite;
+}
+
+@keyframes tick {
+  50% {
+    opacity: 0.2;
+    scale: 0.9;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    translate: 0 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .colon,
+  .countdown {
+    animation: none;
+  }
+}
+
+/* h sits under the hour pair, min under the minute pair. */
+.units {
+  display: flex;
+  gap: 2.4rem;
+  font-size: var(--text-2xs);
+  font-weight: 650;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--ink-soft);
 }

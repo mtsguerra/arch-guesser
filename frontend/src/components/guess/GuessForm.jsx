@@ -188,7 +188,7 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
         </span>
       </div>
 
-      <form className={styles.form} onSubmit={handleSubmit} noValidate>
+      <form id="guess-form" className={styles.form} onSubmit={handleSubmit} noValidate>
         <Field {...fieldProps('name')} icon={BuildingIcon}>
           {(props) => (
             <input

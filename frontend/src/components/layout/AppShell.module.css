@@ -263,6 +263,13 @@
   white-space: nowrap;
 }
 
+.slimBrand span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .slimBrand .mark {
   width: 1.4rem;
   height: 1.4rem;
@@ -325,32 +332,6 @@
 
   .slimRight {
     grid-column: 2;
-  }
-}
-
-/* On a phone the revealed screen has its own bottom bar, so the Menu moves up here. */
-@media (max-width: 640px) {
-  .slim[data-phone-menu] {
-    grid-template-columns: auto 1fr auto;
-  }
-
-  .slim[data-phone-menu] .slimLeft {
-    display: flex;
-    grid-column: 1;
-  }
-
-  .slim[data-phone-menu] .slimBrand {
-    grid-column: 2;
-    justify-self: center;
-  }
-
-  /* Room is short: the logo alone says where you are (the link keeps its label). */
-  .slim[data-phone-menu] .slimBrand span {
-    display: none;
-  }
-
-  .slim[data-phone-menu] .slimRight {
-    grid-column: 3;
   }
 }
 

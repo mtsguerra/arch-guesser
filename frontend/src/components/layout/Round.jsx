@@ -30,6 +30,7 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
   const { building, phase } = round
   const revealed = phase === 'revealed'
   const [built, setBuilt] = useState(false)
+  const [settled, setSettled] = useState(false) // the reveal build-up has finished fading out
   const reduceMotion = useReducedMotion()
   const summary = revealed && view === 'summary'
 
@@ -37,7 +38,7 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
     <LayoutGroup>
       {/* Portalled to the body: the round sits inside a transformed wrapper, which would pin a fixed overlay to it. */}
       {createPortal(
-        <AnimatePresence>
+        <AnimatePresence onExitComplete={() => setSettled(true)}>
           {revealed && !built && !reduceMotion && (
             <RevealBuild key="build" building={building} onDone={() => setBuilt(true)} />
           )}
@@ -74,6 +75,9 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
                 building={building}
                 eras={eras}
                 fields={round.fields}
+                log={round.log}
+                play={settled || reduceMotion}
+                onOpenBoard={() => onViewChange('board')}
                 outcome={round.outcome}
                 daily={daily ? { fields: round.fields, hintsUsed: round.hintsUsed } : null}
               />

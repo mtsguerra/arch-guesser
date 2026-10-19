@@ -19,7 +19,8 @@
   display: contents;
 }
 
-.bar {
+.bar,
+.nextEnd {
   display: none;
 }
 
@@ -74,13 +75,49 @@
     left: var(--gutter);
     z-index: 15;
     display: flex;
-    gap: var(--space-3);
+    align-items: center;
+    gap: var(--space-2);
     justify-content: center;
     padding: var(--space-2);
     border-radius: 999px;
     background: color-mix(in oklab, var(--paper) 94%, transparent);
     backdrop-filter: blur(14px) saturate(1.2);
     box-shadow: 0 0 0 1px var(--paper-hairline), var(--shadow-raised);
+  }
+
+  /* Menu is a round icon; Check guess takes the rest of the pill. Alone, Menu shrinks the pill around itself. */
+  .bar .barMenu {
+    flex: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .bar .barCheck {
+    flex: 1;
+    justify-content: center;
+    min-height: 2.75rem;
+    border-radius: 999px;
+  }
+
+  .bar:not(:has(.barCheck)) {
+    right: auto;
+    left: 50%;
+    translate: -50% 0;
+  }
+
+  .nextEnd {
+    display: grid;
+    justify-items: center;
+    gap: var(--space-1);
+    margin-top: var(--space-5);
+  }
+
+  .nextEndButton {
+    width: 100%;
+    justify-content: center;
   }
 
   .pull {

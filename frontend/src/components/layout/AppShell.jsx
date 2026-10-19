@@ -29,12 +29,11 @@ function PlanMark() {
  * @param menu   the slim header's left control
  * @param bottomBar  'phone' or 'reveal' when a fixed bar covers the bottom of the screen (on phones only, or at every size),
  *               so the credits footer gets room above it
- * @param phoneMenu  show that control on phones too (they otherwise keep it in the bottom bar)
  * @param floating  drop the rail's strip and let the logo and controls float over the page (the home and Custom pages)
  * @param brand  'always' shows the small name in the header; 'afterHero' (the home page, which has the big
  *               drawn name in the page) shows it only once that has scrolled away
  */
-export function AppShell({ actions, place, brand = 'always', floating = false, slim = false, menu, phoneMenu = false, bottomBar, children }) {
+export function AppShell({ actions, place, brand = 'always', floating = false, slim = false, menu, bottomBar, children }) {
   const strings = useStrings()
   // The rail's edge only appears once content scrolls under it.
   const [scrolled, setScrolled] = useState(false)
@@ -59,7 +58,6 @@ export function AppShell({ actions, place, brand = 'always', floating = false, s
       <div className={styles.edge} onMouseEnter={() => setPeek(true)} aria-hidden="true" />
       <motion.header
         className={styles.slim}
-        data-phone-menu={phoneMenu || undefined}
         animate={{ y: hidden ? '-100%' : '0%', opacity: hidden ? 0 : 1 }}
         transition={springSoft}
         onMouseEnter={() => setPeek(true)}

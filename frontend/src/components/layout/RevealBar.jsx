@@ -4,7 +4,7 @@ import { useCountdown } from '../../game/useCountdown.js'
 import { useStrings } from '../../i18n.js'
 import { Button } from '../ui/Button.jsx'
 import { DailyShare } from './DailyShare.jsx'
-import { ArrowRightIcon, BookIcon, ExternalIcon, MapIcon } from '../ui/icons.jsx'
+import { ArrowRightIcon, BookIcon, ExternalIcon, LayoutGridIcon, MapIcon } from '../ui/icons.jsx'
 import styles from './RevealBar.module.css'
 
 /**
@@ -13,9 +13,10 @@ import styles from './RevealBar.module.css'
  * one comes and holds the copyable result.
  *
  * @param view      'summary' or 'board'
+ * @param onMenu    go back to the menu (on phones, where the header has no Menu)
  * @param daily     null, or { fields, hintsUsed } for the daily's result
  */
-export function RevealBar({ view, onToggleView, wikipedia, onNext, nextLabel, daily }) {
+export function RevealBar({ view, onToggleView, onMenu, wikipedia, onNext, nextLabel, daily }) {
   const strings = useStrings()
   const left = useCountdown()
   const next = useRef(null)
@@ -46,6 +47,9 @@ export function RevealBar({ view, onToggleView, wikipedia, onNext, nextLabel, da
       </div>
 
       <div className={styles.actions}>
+        <Button variant="ghost" icon={LayoutGridIcon} compact className={styles.menu} aria-label={strings.menu} onClick={onMenu}>
+          {strings.menu}
+        </Button>
         <Button
           variant="ghost"
           icon={toSummary ? BookIcon : MapIcon}
@@ -61,7 +65,11 @@ export function RevealBar({ view, onToggleView, wikipedia, onNext, nextLabel, da
             <span>{strings.summary.more.link}</span>
           </a>
         )}
-        {daily && <DailyShare text={text} />}
+        {daily && (
+          <span className={styles.share}>
+            <DailyShare text={text} />
+          </span>
+        )}
         <Button ref={next} icon={ArrowRightIcon} onClick={onNext} className={styles.next}>
           {nextLabel ?? strings.guess.next}
         </Button>

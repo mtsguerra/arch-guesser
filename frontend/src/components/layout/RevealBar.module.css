@@ -36,6 +36,14 @@
   gap: var(--space-3);
 }
 
+.menu {
+  display: none;
+}
+
+.share {
+  display: contents;
+}
+
 .link {
   display: inline-flex;
   align-items: center;
@@ -87,7 +95,17 @@
     padding: 0 var(--space-3);
   }
 
-  .link span {
+  .menu {
+    display: inline-flex;
+  }
+
+  /* The result card has its own Share button. */
+  .share {
+    display: none;
+  }
+
+  .link span,
+  .menu span {
     display: none;
   }
 

@@ -4,7 +4,8 @@ import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { dailyNumber, shareText } from '../../game/daily.js'
 import { useCountdown } from '../../game/useCountdown.js'
 import { useStrings } from '../../i18n.js'
-import { ShareButtons } from '../layout/DailyShare.jsx'
+import { RollingNumber } from '../ui/RollingNumber.jsx'
+import { ShareMenu } from '../layout/DailyShare.jsx'
 import styles from './DailyCard.module.css'
 
 /**
@@ -13,8 +14,9 @@ import styles from './DailyCard.module.css'
  * shares never names the building.
  *
  * @param daily  { fields, hintsUsed }
+ * @param play   false while the reveal build-up covers the screen: the badges and digits wait, then play
  */
-export function DailyCard({ daily }) {
+export function DailyCard({ daily, play = true }) {
   const strings = useStrings()
   const reduce = useReducedMotion()
   const left = useCountdown()
@@ -46,7 +48,7 @@ export function DailyCard({ daily }) {
                   className={styles.badge}
                   data-got={ok || undefined}
                   initial={reduce ? false : { opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
+                  animate={play ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.5 }}
                   transition={{ type: 'spring', stiffness: 460, damping: 20, delay: 0.45 + i * 0.12 }}
                 >
                   {ok ? (
@@ -54,7 +56,7 @@ export function DailyCard({ daily }) {
                       <motion.path
                         d="M6.5 12.5l3.5 3.5 7.5-8"
                         initial={reduce ? false : { pathLength: 0 }}
-                        animate={{ pathLength: 1 }}
+                        animate={{ pathLength: play ? 1 : 0 }}
                         transition={{ duration: 0.35, ease: 'easeOut', delay: 0.6 + i * 0.12 }}
                       />
                     </svg>
@@ -69,8 +71,24 @@ export function DailyCard({ daily }) {
         </ul>
       </div>
       <footer className={styles.foot}>
-        <ShareButtons text={text} />
-        <p>{strings.daily.nextIn(left)}</p>
+        <div className={styles.countdown}>
+          <span className={styles.countLabel}>{strings.daily.nextLabel}</span>
+          <span className={styles.digits} aria-hidden="true">
+            {left.split('').map((c, i) =>
+              c === ':' ? (
+                <span key={i} className={styles.colon}>:</span>
+              ) : (
+                <RollingNumber key={i} value={play ? Number(c) : 0} delay={0.5 + i * 0.09} fade />
+              ),
+            )}
+          </span>
+          <span className={styles.units} aria-hidden="true">
+            <span>{strings.daily.hoursUnit}</span>
+            <span>{strings.daily.minutesUnit}</span>
+          </span>
+          <span className="visually-hidden">{strings.daily.nextIn(left)}</span>
+        </div>
+        <ShareMenu text={text} />
       </footer>
     </section>
   )

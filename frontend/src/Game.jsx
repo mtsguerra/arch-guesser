@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { ChevronDown } from 'lucide-react'
-import { LayoutGridIcon, ShuffleIcon } from './components/ui/icons.jsx'
+import { CheckIcon, LayoutGridIcon, ShuffleIcon } from './components/ui/icons.jsx'
 import { dailyNumber } from './game/daily.js'
 import { clearSession, readSession, restoreSession } from './game/custom.js'
 import { showToast } from './components/ui/toast.js'
@@ -49,6 +49,22 @@ const plainMotion = {
   exit: { opacity: 0, transition: { duration: duration.fast } },
 }
 
+/** Two taps for a move you cannot take back: the first arms it (and times out), the second does it. */
+function useConfirm(action) {
+  const [armed, setArmed] = useState(false)
+  useEffect(() => {
+    if (!armed) return undefined
+    const timer = setTimeout(() => setArmed(false), 4000)
+    return () => clearTimeout(timer)
+  }, [armed])
+  const press = () => {
+    if (!armed) return setArmed(true)
+    setArmed(false)
+    action()
+  }
+  return { armed, press, cancel: () => setArmed(false) }
+}
+
 /** @param {'normal' | 'daily' | 'custom'} mode */
 export default function Game({ mode = 'normal' }) {
   const strings = useStrings()
@@ -65,6 +81,7 @@ export default function Game({ mode = 'normal' }) {
   const view = building && viewFor.id === building.id ? viewFor.view : 'summary'
   const toggleView = () => setViewFor({ id: building.id, view: view === 'summary' ? 'board' : 'summary' })
   // After a reveal, pulling the page down moves to the next building (Normal and Custom, on touch).
+  const next = useConfirm(round.loadNext)
   const pullIndicator = usePullToNext(phase === 'revealed' && !daily, round.loadNext)
 
   // Leaving a custom session ends it at once; for a few seconds Undo puts it back where it was
@@ -110,10 +127,9 @@ export default function Game({ mode = 'normal' }) {
     <AppShell
       place={daily ? strings.daily.title(dailyNumber()) : mode === 'custom' ? strings.places.custom : strings.places.normal}
       slim
-      phoneMenu={revealed}
       bottomBar={revealed ? 'reveal' : 'phone'}
       menu={
-        <span className={revealed ? undefined : styles.desktopOnly}>
+        <span className={styles.desktopOnly}>
           <SlimButton icon={LayoutGridIcon} onClick={leave}>
             {strings.menu}
           </SlimButton>
@@ -122,8 +138,8 @@ export default function Game({ mode = 'normal' }) {
       actions={
         !daily && phase !== 'done' ? (
           <span className={styles.desktopOnly}>
-            <SlimButton icon={ShuffleIcon} onClick={round.loadNext} disabled={loading}>
-              {strings.nextBuilding}
+            <SlimButton icon={ShuffleIcon} onClick={next.press} disabled={loading}>
+              {next.armed ? strings.nextConfirm : strings.nextBuilding}
             </SlimButton>
           </span>
         ) : null
@@ -136,6 +152,7 @@ export default function Game({ mode = 'normal' }) {
             view={view}
             onToggleView={toggleView}
             wikipedia={building.wikipedia}
+            onMenu={leave}
             onNext={daily ? () => (window.location.hash = '#/play') : round.loadNext}
             nextLabel={daily ? strings.daily.playGuesser : undefined}
             daily={daily ? { fields: round.fields, hintsUsed: round.hintsUsed } : null}
@@ -146,12 +163,12 @@ export default function Game({ mode = 'normal' }) {
       {!revealed && (
         <>
           <div className={styles.bar}>
-            <Button variant="ghost" icon={LayoutGridIcon} onClick={leave}>
+            <Button variant="ghost" icon={LayoutGridIcon} onClick={leave} compact className={styles.barMenu} aria-label={strings.menu}>
               {strings.menu}
             </Button>
-            {!daily && phase !== 'done' && (
-              <Button icon={ShuffleIcon} onClick={round.loadNext} disabled={loading}>
-                {strings.nextBuilding}
+            {phase === 'playing' && (
+              <Button type="submit" form="guess-form" icon={CheckIcon} className={styles.barCheck}>
+                {strings.guess.submit}
               </Button>
             )}
           </div>
@@ -183,6 +200,19 @@ export default function Game({ mode = 'normal' }) {
           )}
         </motion.div>
       </AnimatePresence>
+      {/* On phones, another building sits at the very end of the page and asks twice. */}
+      {!revealed && !daily && phase !== 'done' && building && (
+        <div className={styles.nextEnd}>
+          <Button icon={ShuffleIcon} onClick={next.press} disabled={loading} variant={next.armed ? 'primary' : 'ghost'} className={styles.nextEndButton}>
+            {next.armed ? strings.nextConfirm : strings.nextBuilding}
+          </Button>
+          {next.armed && (
+            <Button variant="quiet" onClick={next.cancel}>
+              {strings.nextCancel}
+            </Button>
+          )}
+        </div>
+      )}
     </AppShell>
   )
 }

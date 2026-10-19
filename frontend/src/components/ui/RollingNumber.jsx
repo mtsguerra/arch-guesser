@@ -6,10 +6,10 @@ import styles from './RollingNumber.module.css'
 const DIGITS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 const CELL = 1.2 // em: the height of one digit
 
-function Digit({ digit }) {
+function Digit({ digit, delay }) {
   return (
     <span className={styles.column}>
-      <motion.span className={styles.strip} initial={{ y: 0 }} animate={{ y: `${-digit * CELL}em` }} transition={springSoft}>
+      <motion.span className={styles.strip} initial={{ y: 0 }} animate={{ y: `${-digit * CELL}em` }} transition={{ ...springSoft, delay }}>
         {DIGITS.map((d) => (
           <span key={d} className={styles.cell}>
             {d}
@@ -21,12 +21,12 @@ function Digit({ digit }) {
 }
 
 /** A number whose digits roll to their new values. Keyed from the right, so a longer number keeps its low digits. */
-export function RollingNumber({ value }) {
+export function RollingNumber({ value, delay = 0, fade = false }) {
   const digits = String(Math.max(0, Math.round(value))).split('')
   return (
-    <span className={styles.number}>
+    <span className={styles.number} data-fade={fade || undefined}>
       {digits.map((d, i) => (
-        <Digit key={digits.length - i} digit={Number(d)} />
+        <Digit key={digits.length - i} digit={Number(d)} delay={delay} />
       ))}
     </span>
   )

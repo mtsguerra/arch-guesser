@@ -273,3 +273,14 @@
   flex: 1;
   justify-content: center;
 }
+
+/* Phones: Check guess lives in the floating bar (the hidden button still takes Enter), and "Reveal answer" sits centred. */
+@media (max-width: 640px) {
+  .actions {
+    justify-content: center;
+  }
+
+  .primary {
+    display: none;
+  }
+}
