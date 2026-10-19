@@ -1,0 +1,25 @@
+/* Small controls get a 44px tap area on touch screens without changing how they look. */
+.hit,
+.hitY {
+  position: relative;
+}
+
+@media (pointer: coarse) {
+  .hit::after,
+  .hitY::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: max(100%, 2.75rem);
+    translate: -50% -50%;
+  }
+
+  .hit::after {
+    width: max(100%, 2.75rem);
+  }
+
+  .hitY::after {
+    width: 100%;
+  }
+}

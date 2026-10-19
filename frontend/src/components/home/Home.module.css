@@ -68,7 +68,7 @@
 @media (max-width: 1024px) {
   .home {
     grid-template-columns: minmax(0, 1fr);
-    grid-template-areas: 'title' 'levels' 'archive' 'aside' 'foot';
+    grid-template-areas: 'title' 'levels' 'aside' 'archive' 'foot';
     max-width: 54rem; /* wide enough that the level labels don't crowd each other */
     padding-inline: 0;
     --labels: 14rem;

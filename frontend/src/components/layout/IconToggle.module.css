@@ -1,5 +1,5 @@
 .toggle {
-  position: relative;
+  composes: hit from '../../styles/hit.module.css';
   display: grid;
   place-items: center;
   width: var(--toggle-size, 2.25rem);

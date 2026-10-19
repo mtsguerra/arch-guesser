@@ -1,4 +1,5 @@
 .button {
+  composes: hit from '../../styles/hit.module.css';
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
@@ -42,7 +43,7 @@
 }
 
 /* Phones: the icon alone; the word stays for screen readers. */
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
   .button span {
     position: absolute;
     width: 1px;

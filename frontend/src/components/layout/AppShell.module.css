@@ -136,13 +136,13 @@
   text-overflow: ellipsis;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
   .tagline {
     display: none;
   }
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 480px) {
   .name {
     display: none; /* only the mark: the header has other controls to fit */
   }
@@ -195,7 +195,7 @@
 }
 
 /* Narrow screens have no room to centre the name: it goes back to the left. */
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
   .rail {
     grid-template-columns: 1fr auto;
   }
@@ -309,7 +309,7 @@
 }
 
 /* Phones: the Menu and Another building are in the bottom bar, so only the place and the tools are up here. */
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
   .slim {
     grid-template-columns: 1fr auto;
   }
@@ -329,7 +329,7 @@
 }
 
 /* On a phone the revealed screen has its own bottom bar, so the Menu moves up here. */
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
   .slim[data-phone-menu] {
     grid-template-columns: auto 1fr auto;
   }
@@ -354,15 +354,24 @@
   }
 }
 
-/* The game on a wide screen: no strip either; the Menu, the place and the controls float over the mat (the bar keeps its height, so nothing moves). */
-@media (min-width: 1025px) {
-  .slim,
-  :global(html.lite) .slim {
-    background: none;
-    backdrop-filter: none;
-    box-shadow: none;
-    --rail-ink: var(--ink);
-    --rail-ink-soft: var(--ink-soft);
+/* The game: no strip. The logo and the controls float over the mat and tuck away on scroll like the strip did (the bar keeps its height, so nothing moves). */
+.slim,
+:global(html.lite) .slim {
+  background: none;
+  backdrop-filter: none;
+  box-shadow: none;
+  --rail-ink: var(--ink);
+  --rail-ink-soft: var(--ink-soft);
+}
+
+/* Below the wide layout they can sit over the page content, so each gets a soft pill behind it. */
+@media (max-width: 1024px) {
+  .slimBrand,
+  .tools {
+    padding: 0.125rem 0.375rem;
+    border-radius: 999px;
+    background: color-mix(in oklab, var(--paper) 82%, transparent);
+    backdrop-filter: blur(10px) saturate(1.2);
   }
 }
 
@@ -371,9 +380,56 @@
   padding-bottom: calc(7.5rem + env(safe-area-inset-bottom));
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
   .shell[data-bottom-bar='phone'] .footer {
     padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+  }
+}
+
+/* Home and Custom on a phone or tablet: no strip either. The logo and the controls float over the mat; the page keeps the room the strip had. */
+@media (max-width: 1024px) {
+  .shell[data-floating] {
+    grid-template-rows: 1fr auto;
+  }
+
+  .shell[data-floating] .rail,
+  .shell[data-floating] .rail[data-scrolled] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    grid-template-columns: auto 1fr;
+    background: none;
+    backdrop-filter: none;
+    box-shadow: none;
+    pointer-events: none; /* the bar is empty between the logo and the controls */
+    --rail-ink: var(--ink);
+    --rail-ink-soft: var(--ink-soft);
+  }
+
+  .shell[data-floating] .brand,
+  .shell[data-floating] .actions {
+    pointer-events: auto;
+  }
+
+  .shell[data-floating] .place,
+  .shell[data-floating] .name {
+    display: none;
+  }
+
+  .shell[data-floating] .brand,
+  .shell[data-floating] .brand[data-hidden] {
+    grid-column: 1;
+    opacity: 1;
+  }
+
+  .shell[data-floating] .actions {
+    grid-column: 2;
+    justify-self: end;
+  }
+
+  .shell[data-floating] .main {
+    padding-top: calc(var(--rail-h) + var(--safe-top));
   }
 }
 

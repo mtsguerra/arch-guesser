@@ -28,7 +28,7 @@
 }
 
 /* Wide screens have the Drawings button in the reveal bar. */
-@media (min-width: 40.01rem) {
+@media (min-width: 641px) {
   .boardAction {
     display: none;
   }
@@ -45,7 +45,7 @@
 }
 
 /* Laptop: everything stacks; guess and hints sit side by side under the board. */
-@media (max-width: 70rem) {
+@media (max-width: 1120px) {
   .playLayout {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -60,7 +60,7 @@
 }
 
 /* Narrow: the summary leads; the board follows as a reference. */
-@media (max-width: 52rem) {
+@media (max-width: 832px) {
   .summaryLayout {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -68,5 +68,29 @@
   .summaryLayout .boardSlot {
     position: static;
     order: 1;
+  }
+}
+
+/* Phones: the tips come after the guess form, instead of under the drawing. */
+@media (max-width: 640px) {
+  .playLayout .boardSlot {
+    display: contents;
+  }
+
+  /* The guess form, then the tips, then the earlier guesses. */
+  .playLayout .aside {
+    display: contents;
+  }
+
+  .playLayout .aside > :first-child {
+    order: 1;
+  }
+
+  .playLayout .hints {
+    order: 2;
+  }
+
+  .playLayout .aside > :last-child {
+    order: 3;
   }
 }

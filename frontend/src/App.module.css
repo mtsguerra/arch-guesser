@@ -61,24 +61,26 @@
   display: inline;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
   .desktopOnly {
     display: none;
   }
 
+  /* A floating pill within thumb reach, not a strip across the screen. */
   .bar {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    right: var(--gutter);
+    bottom: max(var(--space-3), env(safe-area-inset-bottom));
+    left: var(--gutter);
     z-index: 15;
     display: flex;
     gap: var(--space-3);
     justify-content: center;
-    padding: var(--space-3) var(--gutter) max(var(--space-3), env(safe-area-inset-bottom));
+    padding: var(--space-2);
+    border-radius: 999px;
     background: color-mix(in oklab, var(--paper) 94%, transparent);
     backdrop-filter: blur(14px) saturate(1.2);
-    box-shadow: 0 -1px 0 var(--paper-hairline);
+    box-shadow: 0 0 0 1px var(--paper-hairline), var(--shadow-raised);
   }
 
   .pull {

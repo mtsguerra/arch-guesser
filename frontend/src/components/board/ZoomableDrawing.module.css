@@ -41,6 +41,7 @@
 }
 
 .zoomButton {
+  composes: hitY from '../../styles/hit.module.css';
   pointer-events: auto;
   display: inline-flex;
   align-items: center;

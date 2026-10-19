@@ -7,7 +7,7 @@
 }
 
 .option {
-  position: relative;
+  composes: hitY from '../../styles/hit.module.css';
   isolation: isolate;
   min-width: 2.5rem;
   min-height: 2rem;
@@ -45,7 +45,7 @@
   box-shadow: 0 1px 4px rgb(0 0 0 / 0.35);
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 480px) {
   .option {
     min-width: 2.125rem;
     padding: 0 var(--space-2);

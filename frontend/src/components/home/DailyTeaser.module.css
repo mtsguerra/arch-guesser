@@ -142,7 +142,7 @@
 }
 
 .stamp time {
-  font-size: 0.625rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   letter-spacing: 0.08em;
   font-variant-numeric: tabular-nums;

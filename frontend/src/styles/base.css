@@ -46,6 +46,15 @@ button {
   cursor: pointer;
 }
 
+/* No double-tap delay, and a quick press on every control (own :active rules win). */
+:where(button, a, [role='button'], [role='radio'], summary) {
+  touch-action: manipulation;
+}
+
+:where(button, [role='button']):where(:not(:disabled, [aria-disabled='true'])):active {
+  scale: 0.97;
+}
+
 /* Icons inside a control move while it is hovered or focused (components/ui/icons). */
 :root,
 button,

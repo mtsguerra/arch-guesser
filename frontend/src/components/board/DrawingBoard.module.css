@@ -192,7 +192,7 @@
   border-top-right-radius: var(--radius-sm);
   background: color-mix(in oklab, var(--chocolate) 78%, transparent);
   color: var(--cream);
-  font-size: 0.5625rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   font-stretch: var(--stretch-semi);
   letter-spacing: 0.04em;

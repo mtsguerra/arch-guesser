@@ -64,7 +64,7 @@
 }
 
 .num {
-  font-size: 0.625rem;
+  font-size: var(--text-2xs);
   font-weight: 700;
   color: var(--ink-soft);
   font-variant-numeric: tabular-nums;

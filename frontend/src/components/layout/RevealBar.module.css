@@ -65,7 +65,7 @@
 }
 
 /* Phones: icons for the small actions, and the way forward takes the rest of the row. */
-@media (max-width: 40rem) {
+@media (max-width: 640px) {
   .bar {
     gap: var(--space-2);
   }
