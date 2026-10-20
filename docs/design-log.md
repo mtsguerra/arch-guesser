@@ -23,9 +23,30 @@ Working rule from the owner: for any visual or UX change, three options with pre
 - **Guess form fields** use the instrument icons: building (windows light up, door ajar), compass (legs close then open wider), globe (meridian turns), hourglass (flips, sand runs). They play on hover, focus-within and when the answer is correct.
 - "Reveal answer" has a veil icon that rolls up on hover and falls away when pressed.
 
+## Phone layouts (2026-10-19, commit 50db4e8 and earlier)
+
+- **No brown strip on phones** (up to 1024px) on Home, Custom and the game. Logo and controls float; in the game each group gets a soft translucent pill and the header still hides on scroll. All media queries are px; the game's old `40rem` rules were skipped in the owner's Safari responsive mode, which made the header and bottom bar overlap.
+- **Home on phones:** Archive sits after Today's sheet and the streak, then the footer lines.
+- **Custom on phones:** 2×2 filter tabs (plain filled option, no sliding pill), fixed 11rem picker list, one-row footer.
+- **Play screen on phones:** floating bottom pill = round Menu icon + wide Check guess (`type=submit form="guess-form"`; the in-form button is hidden but still takes Enter). Order below the drawing: guess form, tips, earlier guesses, then "Another building" as a full-width button at the page end. "Another building" (page end and the wide header) needs two taps: the first arms it ("Tap again to confirm", Cancel link, 4 s timeout). "Reveal answer" is centred.
+- **Reveal on phones:** same slim header as play; the reveal bar starts with an icon-only Menu button; the Daily share icon is hidden there because the result card has its own Share button.
+- **Touch:** `:hover` rules are wrapped in `@media (hover: hover)` by `frontend/postcss-hover-only.js` (with tests); `styles/hit.module.css` adds an invisible 44px hit area on coarse pointers (toggles, SlimButton, language options, zoom); zero-specificity `touch-action: manipulation` and `:active` press scale in `base.css`; labels that were 9 to 10px now use `--text-2xs` (11px).
+
+## Reveal drafting details (2026-10-19)
+
+All in `components/summary/BuildingSummary.jsx` and its CSS, animated and drawn on after the reveal build-up has fully faded (`Round` passes `play`; CSS animations wait under `.monograph:not([data-play])`, the Daily card's badges and digits wait on `play` too):
+1. Photo and drawing strip under the title (a second photo if there is no drawing); tapping opens the drawings view. Credits after load.
+2. Dimension line with the completion year under the byline.
+3. Section cut A–A across the strip, an unlabelled scale bar and a north arrow (no invented scale).
+4. Level marker: a triangle slides to the score on a ruled scale ("+3 / 4").
+5. Guess-versus-answer rows (non-daily): answer in bold, your last wrong guess struck through; rows you got are hatched (45°, 2px every 7px) and drawn stroke by stroke; "Approved" stamp when four of four.
+6. Revision block ("Drawn by / Date / Sheet") at the foot; its cells rise when scrolled into view (IntersectionObserver, not Motion).
+Also: first sentence as a larger lede (not split at abbreviations like "d.C."), "Worth knowing" as a ruled margin note, a slim sticky title with the score (sits `--space-3` under the header). On wide screens the pinned board repeats the images the strip shows; hiding the strip there is an open choice.
+
 ## Daily result and sharing
 
-- **Share** is a popover from the bar button (send-off icon: lines redraw on hover, nodes ripple on press) with the exact post text and Share (native sheet where there is one), Copy and WhatsApp. The text never names the building.
+- **Result card share:** one wide Share button at the card's foot opens a list (Copy result, WhatsApp, Other ways = native share sheet, or e-mail where there is none). The countdown is a title-block cell: label, big rolling digits (they fade at the window edges, staggered), blinking colon, h and min units.
+- **Share** (bar button, wide screens) is a popover from the bar button (send-off icon: lines redraw on hover, nodes ripple on press) with the exact post text and Share (native sheet where there is one), Copy and WhatsApp. The text never names the building.
 - **Result card** in the reveal summary is a title block: "Daily #N", score, and one ruled row per guess with a round badge (solid accent circle with a self-drawing check for got, quiet outlined circle with an eye for revealed). Chosen over stamps ("slop") and rings.
 - Paper cards: hard-edged ruled sheets for documents; soft rounded cards are older and still on the home and guess form (see open items).
 
@@ -41,7 +62,8 @@ Working rule from the owner: for any visual or UX change, three options with pre
 
 - The owner views in Safari. CSS transforms on SVG groups inside a viewBox are read differently (pivots and units), so animate attributes (`attrX`), use `transform-box: fill-box`, or transform the whole `<svg>`. The compass went through four animations because of this and taste.
 - Dark mode is only `data-theme="dark"` on `<html>`; CSS media queries for dark do not exist.
-- Headless Chromium here cannot render the game page; verify game, reveal and Daily states in Safari.
+- Headless Chromium cannot render the game page, but **Playwright's cached WebKit can** (`~/Library/Caches/ms-playwright/webkit-2370`, `playwright-core` installed in a scratch folder, not the repo). Probe `getComputedStyle` over time and take screenshots before claiming an animation or layout works; it found animations finishing behind the reveal overlay and an SVG that took layout space. Its 3D card flip draws hint text mirrored (a headless quirk). Still ask the owner to check feel in Safari.
+- Motion/CSS animations that start at mount run under the reveal overlay (4.4 s plus a 0.6 s fade): gate them on `play`.
 - In a stacking context a child with a negative z-index paints above the element's own background: tints must be a pseudo-element above the image pseudo-element.
 
 ## Visual review (2026-10-19)
@@ -64,7 +86,10 @@ Suggested order: quick wins (phone Custom, 12px floor, a global reduced-motion r
 
 ## Open items
 
-- None of the review has been acted on yet; the owner has not picked a starting point.
+- Acted on from the review: phone Custom, 12px floor on the worst labels (11px token, still below 12), sticky hover, touch targets, `transition: all`, press feedback. Still open: the grid mat competing with text, home dead space and the blank lens, the two card styles, the motion budget and `--ease-spring` token, reduced-transparency and contrast media queries, skip link and error boundary, bundle splitting (about 536 KB), dark-theme hint text contrast not measured.
+- Floating phone header pills may overlap text scrolling under them; the controls scroll away with the page on Home and Custom.
+- The new strings (confirm, share, reveal details) exist in en and pt-BR; Portuguese lengths in the revision block and Daily countdown unchecked.
+- Uncommitted: nothing from the reveal or phone work; untracked on purpose: `.claude/` (local settings, 5 project skills), `.claudeignore`, `.codegraph/`, root `package-lock.json`.
 - The final logo replaces the placeholder mark in the logo slot.
 - Portuguese labels in the 11.25rem home label column and Custom are unverified (long words may crowd).
 - The batch-1 security review never ran (HTTP 429).
