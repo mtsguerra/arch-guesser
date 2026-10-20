@@ -10,6 +10,7 @@ import { chime, scratch, tick } from '../../game/sound.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
+import { Hatch } from '../ui/Hatch.jsx'
 import { BuildingIcon, CompassIcon, GlobeIcon, HourglassIcon, RevealIcon } from '../ui/InstrumentIcons.jsx'
 import { CountryCombobox } from './CountryCombobox.jsx'
 import { EraCombobox } from './EraCombobox.jsx'
@@ -76,6 +77,7 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
         {Icon && <Icon className={styles.icon} aria-hidden="true" strokeWidth={1.75} />}
         {showAnswer ? (
           <output id={id} className={styles.answer} aria-describedby={messageId}>
+            {locked && <Hatch />}
             <motion.span
               initial={{ clipPath: 'inset(0 100% 0 0)' }}
               animate={{ clipPath: 'inset(0 0% 0 0)' }}
@@ -91,10 +93,10 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
         <span className={styles.badge} aria-hidden="true">
           {locked && (
             <motion.span
-              // Pops in with a little give: this one is the answer to a guess, so it may overshoot.
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ type: 'spring', stiffness: 400, damping: 18 }}
+                            // Stamped down: lands a little big and crooked, then settles.
+              initial={{ scale: 1.8, rotate: -14, opacity: 0 }}
+              animate={{ scale: 1, rotate: 0, opacity: 1 }}
+              transition={{ type: 'spring', stiffness: 380, damping: 16, delay: 0.25 }}
               style={{ display: 'grid' }}
             >
               <Check strokeWidth={2.5} />

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { DRAWINGS, length, order, skipsPencil } from './pencil.js'
+import { DRAWINGS, length, order } from './pencil.js'
 import styles from './PencilDrawing.module.css'
 
 const HOLD_MS = 3000 // a finished drawing stays this long
@@ -12,7 +12,6 @@ const FIRST_LEAD_S = 2.2 // the first drawing starts while the title is still be
  * with reduced motion one drawing is shown, finished, and stays.
  */
 export function PencilDrawing({ className = '', onDrawing }) {
-  const [instant] = useState(skipsPencil)
   // `at` walks through a shuffled `list` of drawings; `shown` counts the drawings so far.
   const [queue, setQueue] = useState(() => ({ list: order(-1), at: 0, shown: 0 }))
   const [leaving, setLeaving] = useState(false)
@@ -27,7 +26,6 @@ export function PencilDrawing({ className = '', onDrawing }) {
   }, [index, onDrawing])
 
   useEffect(() => {
-    if (instant) return
     const stay = (lead + total) * 1000 + HOLD_MS
     const leave = setTimeout(() => setLeaving(true), stay)
     const next = setTimeout(() => {
@@ -43,7 +41,7 @@ export function PencilDrawing({ className = '', onDrawing }) {
       clearTimeout(leave)
       clearTimeout(next)
     }
-  }, [queue, index, instant, lead, total])
+  }, [queue, index, lead, total])
 
   return (
     <svg
@@ -58,7 +56,7 @@ export function PencilDrawing({ className = '', onDrawing }) {
             key={`${i}-${ghost}`}
             d={stroke.d}
             pathLength="1"
-            className={`${styles.stroke} ${ghost ? styles.ghost : ''} ${instant ? styles.done : ''}`}
+            className={`${styles.stroke} ${ghost ? styles.ghost : ''}`}
             style={{ '--delay': `${lead + stroke.delay + (ghost ? 0.12 : 0)}s`, '--dur': `${stroke.duration}s` }}
           />
         )),

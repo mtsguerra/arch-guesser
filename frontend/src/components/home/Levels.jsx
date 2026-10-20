@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useId, useRef, useState } from 'react'
 import { useReducedMotion } from 'motion/react'
 import { useStrings } from '../../i18n.js'
-import { DRAWING_ERAS, skipsPencil } from './pencil.js'
+import { DRAWING_ERAS } from './pencil.js'
 import { PencilDrawing } from './PencilDrawing.jsx'
 import styles from './Levels.module.css'
 
@@ -33,7 +33,6 @@ export function Levels({ modes }) {
   const strings = useStrings()
   const t = strings.home.levels
   const reduceMotion = useReducedMotion()
-  const [instant] = useState(skipsPencil)
   const hatch = `levels-hatch-${useId().replace(/:/g, '')}`
   const [active, setActive] = useState(0)
   const [era, setEra] = useState(null)
@@ -61,7 +60,7 @@ export function Levels({ modes }) {
   const y = LEVELS[active]
 
   return (
-    <section className={styles.stage} aria-label={t.label} data-instant={instant || undefined}>
+    <section className={styles.stage} aria-label={t.label}>
       <div className={styles.elevation}>
         <div className={styles.frame}>
           <PencilDrawing className={styles.drawing} onDrawing={onDrawing} />

@@ -121,3 +121,28 @@
   text-transform: uppercase;
   color: color-mix(in oklab, var(--cream) 70%, var(--chocolate));
 }
+
+/* All four right: a line sweeps down the sheet and four pips (as in the guess card) fill in turn. */
+.sweep {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--camel), transparent);
+  pointer-events: none;
+}
+
+.pips {
+  position: absolute;
+  top: calc(var(--space-6) + 2.5rem);
+  display: flex;
+  gap: var(--space-1);
+}
+
+.pip {
+  width: 2.5rem;
+  height: 0.375rem;
+  border-radius: 999px;
+  background: var(--camel);
+  transform-origin: left;
+}

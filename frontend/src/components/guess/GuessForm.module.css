@@ -136,6 +136,8 @@
 }
 
 .answer {
+  position: relative;
+  overflow: hidden;
   display: flex;
   align-items: center;
   min-height: 2.75rem;

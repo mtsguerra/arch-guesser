@@ -82,28 +82,6 @@
   color: var(--ink-soft);
 }
 
-/* An approval stamp dropped on the sheet when all four are right. */
-.stamp {
-  padding: 0.125rem var(--space-3);
-  border: 2px solid var(--accent);
-  border-radius: var(--radius-sm);
-  color: var(--accent);
-  font-size: var(--text-xs);
-  font-weight: 800;
-  font-stretch: var(--stretch-wide);
-  letter-spacing: var(--tracking-caps);
-  text-transform: uppercase;
-  rotate: -6deg;
-  animation: stampDown 0.45s var(--ease-out) 0.6s both;
-}
-
-@keyframes stampDown {
-  from {
-    opacity: 0;
-    scale: 1.8;
-  }
-}
-
 /* One ruled row per field: name and badge on the first line, the answer, then your guess. */
 .recapList {
   display: grid;
@@ -164,11 +142,7 @@
   color: var(--ink-soft);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .stamp {
-    animation: none;
-  }
-}
+
 
 /* The photo and a drawing, side by side under the title. */
 .hero {
@@ -780,4 +754,124 @@
 .monograph:not([data-play]) *::before,
 .monograph:not([data-play]) *::after {
   animation-play-state: paused;
+}
+
+/* Signed off (all four right): once the sheet has drawn itself (about 3 s), a second rule is drawn round it,
+   the right rows light up in turn and a check is traced beside the title. */
+.monograph {
+  position: relative;
+}
+
+.header {
+  position: relative;
+}
+
+.signoff {
+  position: absolute;
+  inset: 0.375rem;
+  width: calc(100% - 0.75rem);
+  height: calc(100% - 0.75rem);
+  overflow: visible;
+  pointer-events: none;
+}
+
+.signoff path {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.nibDot {
+  fill: var(--accent);
+}
+
+.nibGlow {
+  fill: var(--camel);
+  opacity: 0.45;
+}
+
+.check {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  overflow: visible;
+}
+
+.check path {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1 2;
+  animation: signDraw 0.6s var(--ease-out) 4.1s both;
+}
+
+.check circle {
+  fill: var(--accent);
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: dotPop 0.4s cubic-bezier(0.34, 1.4, 0.5, 1) 4.65s both;
+}
+
+@keyframes signDraw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dotPop {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+/* A colour wipe across each right row, left to right, then it fades. */
+.monograph[data-signed] .got::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, color-mix(in oklab, var(--accent) 16%, transparent) 70%, transparent);
+  transform-origin: left;
+  animation: rowWipe 1s ease-out calc(2.9s + var(--row, 0) * 0.25s) both;
+  pointer-events: none;
+}
+
+@keyframes rowWipe {
+  from {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  60% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  to {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .check path,
+  .check circle,
+  .monograph[data-signed] .got::before {
+    animation: none;
+  }
+
+  .monograph[data-signed] .got::before {
+    opacity: 0;
+  }
+}
+
+/* Room for the check beside a long title. */
+.monograph[data-signed] .title {
+  padding-right: 3rem;
 }

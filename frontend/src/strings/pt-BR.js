@@ -238,7 +238,6 @@ export default {
     recapGuess: 'Seu palpite',
     recapAnswer: 'Resposta',
     noGuess: 'Sem palpite',
-    stamp: 'Aprovado',
     levelLabel: 'Nível',
     drawnBy: 'Desenho de',
     dateLabel: 'Data',

@@ -395,22 +395,11 @@
   }
 }
 
-/* Phones and reduced motion: the lines are simply there. */
-.stage[data-instant] .line {
-  animation: none;
-  stroke-dashoffset: 0;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .line,
   .glow,
   .storey,
   .mode {
     animation: none;
-  }
-
-  .line {
-    stroke-dashoffset: 0;
   }
 
   .glow {

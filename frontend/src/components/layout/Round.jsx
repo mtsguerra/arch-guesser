@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { createPortal } from 'react-dom'
-import { AnimatePresence, LayoutGroup, motion, useReducedMotion } from 'motion/react'
+import { AnimatePresence, LayoutGroup, motion } from 'motion/react'
 import { MapIcon } from '../ui/icons.jsx'
 import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
@@ -31,7 +31,6 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
   const revealed = phase === 'revealed'
   const [built, setBuilt] = useState(false)
   const [settled, setSettled] = useState(false) // the reveal build-up has finished fading out
-  const reduceMotion = useReducedMotion()
   const summary = revealed && view === 'summary'
 
   return (
@@ -39,8 +38,8 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
       {/* Portalled to the body: the round sits inside a transformed wrapper, which would pin a fixed overlay to it. */}
       {createPortal(
         <AnimatePresence onExitComplete={() => setSettled(true)}>
-          {revealed && !built && !reduceMotion && (
-            <RevealBuild key="build" building={building} onDone={() => setBuilt(true)} />
+          {revealed && !built && (
+            <RevealBuild key="build" building={building} solved={round.outcome === 'solved'} onDone={() => setBuilt(true)} />
           )}
         </AnimatePresence>,
         document.body,
@@ -76,7 +75,7 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
                 eras={eras}
                 fields={round.fields}
                 log={round.log}
-                play={settled || reduceMotion}
+                play={settled}
                 onOpenBoard={() => onViewChange('board')}
                 outcome={round.outcome}
                 daily={daily ? { fields: round.fields, hintsUsed: round.hintsUsed } : null}

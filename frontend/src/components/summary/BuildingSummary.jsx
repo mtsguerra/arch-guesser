@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
+import { AnimatePresence, animate, motion, useReducedMotion } from 'motion/react'
 import { Check, Eye } from 'lucide-react'
 import { ExternalIcon } from '../ui/icons.jsx'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
@@ -77,7 +77,65 @@ function Hatch({ row }) {
   )
 }
 
-/** Your guess against the answer, one ruled row per field. Four right earns the stamp. */
+/**
+ * All four right: once everything else has been drawn, a pen plots a second rule round the sheet,
+ * leaving a glow behind its nib. Waits for `play`; under reduced motion the rule is simply there.
+ */
+const SIGN_DELAY = 2.7
+const SIGN_TIME = 1.4
+function SignOff({ play }) {
+  const reduce = useReducedMotion()
+  const root = useRef(null)
+  const line = useRef(null)
+  const nib = useRef(null)
+  const [size, setSize] = useState(null)
+
+  useEffect(() => {
+    const el = root.current
+    const measure = () => setSize({ w: el.clientWidth, h: el.clientHeight })
+    measure()
+    const observer = new ResizeObserver(measure)
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    const path = line.current
+    if (!size || !path) return undefined
+    const total = path.getTotalLength()
+    path.style.strokeDasharray = `${total} ${total}`
+    path.style.strokeDashoffset = reduce ? 0 : total
+    if (reduce || !play) return undefined
+    const controls = animate(0, 1, {
+      delay: SIGN_DELAY,
+      duration: SIGN_TIME,
+      ease: easeOut,
+      onUpdate: (p) => {
+        path.style.strokeDashoffset = total * (1 - p)
+        const at = path.getPointAtLength(total * p)
+        nib.current.setAttribute('transform', `translate(${at.x} ${at.y})`)
+        nib.current.style.opacity = p > 0 && p < 1 ? 1 : 0
+      },
+    })
+    return () => controls.stop()
+  }, [size, play, reduce])
+
+  return (
+    <svg ref={root} className={styles.signoff} aria-hidden="true">
+      {size && (
+        <>
+          <path ref={line} d={`M0 0H${size.w}V${size.h}H0Z`} />
+          <g ref={nib} className={styles.nib} style={{ opacity: 0 }}>
+            <circle r="9" className={styles.nibGlow} />
+            <circle r="3" className={styles.nibDot} />
+          </g>
+        </>
+      )}
+    </svg>
+  )
+}
+
+/** Your guess against the answer, one ruled row per field. */
 function Recap({ building, era, fields, log, outcome }) {
   const strings = useStrings()
   const { lang } = useLanguage()
@@ -89,12 +147,10 @@ function Recap({ building, era, fields, log, outcome }) {
     era: era ? eraName(era, strings) : building.era,
   }
   const typed = (field) => log?.findLast((e) => e.field === field)?.text
-  const allGot = GUESS_FIELDS.every((f) => fields[f] === 'correct')
   return (
     <div className={styles.recap}>
       <div className={styles.recapHead}>
         <p className={styles.outcome}>{outcome === 'solved' ? strings.guess.solved : strings.guess.gaveUp}</p>
-        {allGot && <span className={styles.stamp}>{strings.summary.stamp}</span>}
       </div>
       <ul className={styles.recapList} aria-label={strings.summary.recap}>
         {GUESS_FIELDS.map((field) => {
@@ -102,7 +158,7 @@ function Recap({ building, era, fields, log, outcome }) {
           const Icon = got ? Check : Eye
           const guess = typed(field)
           return (
-            <li key={field} className={got ? styles.got : styles.missed}>
+            <li key={field} className={got ? styles.got : styles.missed} style={{ '--row': GUESS_FIELDS.indexOf(field) }}>
               {got && <Hatch row={GUESS_FIELDS.indexOf(field)} />}
               <span className={styles.recapField}>{strings.guess.fields[field]}</span>
               <Icon className={styles.recapIcon} aria-hidden="true" strokeWidth={2.25} />
@@ -305,18 +361,26 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
   const photos = building.photos ?? []
   const [lede, rest] = splitLede(building.summary.description)
   const score = GUESS_FIELDS.filter((f) => fields[f] === 'correct').length
+  const signedOff = score === GUESS_FIELDS.length
   const facts = [...building.hints.map((h) => h.text), ...building.summary.funFacts]
 
   // Move focus to the summary so keyboard and screen-reader users land on the payoff.
   useEffect(() => heading.current?.focus({ preventScroll: true }), [])
 
   return (
-    <motion.article className={styles.monograph} aria-label={strings.summary.label} variants={unfold} initial="hidden" animate="shown" data-play={play || undefined}>
+    <motion.article className={styles.monograph} aria-label={strings.summary.label} variants={unfold} initial="hidden" animate="shown" data-play={play || undefined} data-signed={signedOff || undefined}>
+      {signedOff && <SignOff play={play} />}
       <StickyTitle title={building.name} target={heading} score={score} total={GUESS_FIELDS.length} />
       <motion.header className={styles.header} variants={section}>
         <h2 ref={heading} tabIndex={-1} className={styles.title}>
           {building.name}
         </h2>
+        {signedOff && (
+          <svg className={styles.check} viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 13.5 9.5 20 21 4.5" pathLength="1" />
+            <circle cx="21" cy="4.5" r="1.8" />
+          </svg>
+        )}
         <p className={styles.byline}>{building.architects.map((a) => a.name).join(' & ')}</p>
         <div className={styles.dim} aria-hidden="true">
           <span className={styles.dimLine} />

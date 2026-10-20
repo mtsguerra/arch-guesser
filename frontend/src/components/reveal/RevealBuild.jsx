@@ -11,7 +11,7 @@ const TOTAL_MS = 4400
  * The answer being built: a blueprint plots itself, the building rises into it, and the
  * name, architect and place are lettered in. About four seconds, and it can be skipped.
  */
-export function RevealBuild({ building, onDone }) {
+export function RevealBuild({ building, onDone, solved = false }) {
   const strings = useStrings()
   const settle = useEffectEvent(onDone)
 
@@ -44,6 +44,30 @@ export function RevealBuild({ building, onDone }) {
       <button type="button" className={styles.skip} onClick={onDone}>
         {strings.reveal.skip}
       </button>
+
+      {solved && (
+        // All four right: a line sweeps down the sheet and the four pips fill in turn, before the drawing starts.
+        <>
+          <motion.span
+            className={styles.sweep}
+            aria-hidden="true"
+            initial={{ top: '0%', opacity: 1 }}
+            animate={{ top: '100%', opacity: [1, 1, 0] }}
+            transition={{ duration: 1.2, delay: 0.2, ease: easeOut }}
+          />
+          <div className={styles.pips} aria-hidden="true">
+            {[0, 1, 2, 3].map((i) => (
+              <motion.span
+                key={i}
+                className={styles.pip}
+                initial={{ scaleX: 0 }}
+                animate={{ scaleX: 1 }}
+                transition={{ delay: 0.3 + i * 0.18, duration: 0.3, ease: easeOut }}
+              />
+            ))}
+          </div>
+        </>
+      )}
 
       <div className={styles.stage}>
         <svg className={styles.drawing} viewBox="0 0 400 244" aria-hidden="true">

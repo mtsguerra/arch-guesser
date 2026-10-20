@@ -233,7 +233,6 @@ export default {
     recapGuess: 'Your guess',
     recapAnswer: 'Answer',
     noGuess: 'No guess',
-    stamp: 'Approved',
     levelLabel: 'Level',
     drawnBy: 'Drawn by',
     dateLabel: 'Date',
