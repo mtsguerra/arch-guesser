@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import {
-  Blocks, Building2, Cable, Castle, ChevronDown, Church, Columns3, Cross, Crown, Flower2, Gem, House,
-  LayoutGrid, Library, Landmark, MoonStar, Sparkles, Tent, Theater, TrainFront, Trophy,
+  Building2, Cable, Castle, ChevronDown, Church, Cross, Crown, Flower, Flower2, Gem, Goal,
+  Grid3x3, Hourglass, Layers, Library, Landmark, MoonStar, Sparkles, Theater, TrainFront, Trees,
 } from 'lucide-react'
 import { PlayIcon } from '../ui/icons.jsx'
 import { fetchCatalogue } from '../../api/buildings.js'
@@ -18,9 +18,9 @@ import styles from './ThemedSetup.module.css'
 const ICONS = {
   castles: Castle, 'churches-cathedrals': Church, mosques: MoonStar, monasteries: Cross, palaces: Crown,
   museums: Landmark, 'theatres-opera': Theater, 'railway-stations': TrainFront, 'bridges-towers': Cable,
-  skyscrapers: Building2, libraries: Library, 'houses-villas': House, stadiums: Trophy, 'asian-temples': Tent,
-  'ancient-ruins': Columns3, brutalism: Blocks, 'art-nouveau': Flower2, 'art-deco': Gem,
-  'portuguese-azulejo': LayoutGrid, 'modern-icons': Sparkles,
+  skyscrapers: Building2, libraries: Library, 'houses-villas': Trees, stadiums: Goal, 'asian-temples': Flower,
+  'ancient-ruins': Hourglass, brutalism: Layers, 'art-nouveau': Flower2, 'art-deco': Gem,
+  'portuguese-azulejo': Grid3x3, 'modern-icons': Sparkles,
 }
 
 /** The three difficulties as a radio group: one tab stop, arrow keys move and pick. */
