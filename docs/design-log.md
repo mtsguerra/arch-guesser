@@ -94,3 +94,11 @@ Suggested order: quick wins (phone Custom, 12px floor, a global reduced-motion r
 - Portuguese labels in the 11.25rem home label column and Custom are unverified (long words may crowd).
 - The batch-1 security review never ran (HTTP 429).
 - The lens card may still show blank sky when today's building only has a photo.
+
+## Themed mode (Oct 2026)
+
+- Menu: a numbered "index sheet" of themes (icon, name, count); the chosen row opens a dashed level strip (I, II, III) and Start. Chosen from three options (index sheet, plan grid of tiles, two-step levels).
+- Guess form: century and decade are native selects styled like the other inputs (chosen over a ruler slider and a typed year); the decade list is the decades of the picked century and stays disabled until one is picked.
+- Recap: the ten buildings on an HTML timeline by year (dots alternate in two lanes and keep a minimum gap), a stamp per round, links to Wikipedia.
+- Checked in WebKit at 390, 1024 and 1470 wide, light and dark, English and pt-BR; the play screen still fits one viewport at 1470×860 and ×956 with five fields. Feel and motion are not checked by me.
+- Open: century list shows every century between the oldest and newest building of the theme; Safari's native select popup is not themed.
