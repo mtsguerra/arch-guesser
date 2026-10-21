@@ -21614,5 +21614,818 @@
         "It cost US$56.8 million."
       ]
     }
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "aliases": [
+      "Machu Pikchu"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Inca builders",
+        "aliases": [],
+        "lifespan": "15th century",
+        "nationality": "Inca",
+        "bio": "Inca builders who raised the site as a royal estate, most likely for the emperor Pachacuti, working in fine dry-stone ashlar masonry."
+      }
+    ],
+    "location": {
+      "city": "Urubamba Province",
+      "country": "Peru",
+      "countryCode": "PE"
+    },
+    "yearCompleted": 1450,
+    "era": "PRE_COLUMBIAN",
+    "themes": [
+      "ancient-ruins"
+    ],
+    "style": "Inca",
+    "wikipedia": "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg/1920px-80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg",
+        "alt": "Stone ruins and green terraces on a mountain ridge below a steep peak, under heavy cloud",
+        "credit": "Photo: Martin St-Amant (S23678) · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_60.JPG/1920px-Machu_Picchu%2C_Per%C3%BA%2C_2015-07-30%2C_DD_60.JPG",
+        "alt": "Stepped grass terraces and dry-stone walls with a steep green peak behind",
+        "caption": "Terraces and walls built without mortar.",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Per%C3%BA,_2015-07-30,_DD_60.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a royal estate built on a mountain ridge high in the Andes, far above a river valley."
+      },
+      {
+        "order": 2,
+        "text": "Its walls are made of finely cut stones fitted together without mortar, and its terraces cover about 4.9 hectares."
+      },
+      {
+        "order": 3,
+        "text": "It was brought to international attention in 1911 by an American explorer, and has been a UNESCO World Heritage Site since 1983."
+      }
+    ],
+    "summary": {
+      "description": "This Inca estate sits at about 2,430 m on a ridge above the Urubamba valley. Most archaeologists believe it was ordered by the emperor Pachacuti around the mid-15th century. Its dry-stone ashlar walls, terraces and solar-aligned buildings made it one of the best-known sites of the Americas.",
+      "keyFeatures": [
+        "Dry-stone ashlar masonry",
+        "Agricultural terraces (andenes)",
+        "Temple of the Sun (Torreón), a semicircular tower",
+        "Intihuatana ritual stone",
+        "Mountain ridge setting"
+      ],
+      "funFacts": [
+        "Hiram Bingham's expeditions recovered 15th-century knives of bismuth bronze, the earliest known objects made of that alloy.",
+        "It draws over 1.5 million visitors a year, making it Peru's most visited international destination."
+      ]
+    }
+  },
+  {
+    "id": "abu-simbel",
+    "name": "Abu Simbel Temples",
+    "aliases": [
+      "Abu Simbel",
+      "Great Temple of Ramesses II",
+      "Temples of Abu Simbel"
+    ],
+    "architects": [
+      {
+        "name": "Unknown royal builders",
+        "aliases": [
+          "Unknown",
+          "Anonymous"
+        ],
+        "bio": "The palace grew in campaigns sponsored by King John I from around 1415 and by King Manuel I between 1497 and 1530; its master builders are not recorded."
+      }
+    ],
+    "location": {
+      "city": "Abu Simbel",
+      "country": "Egypt",
+      "countryCode": "EG"
+    },
+    "yearCompleted": -1244,
+    "era": "ANCIENT_EGYPTIAN",
+    "themes": [
+      "ancient-ruins"
+    ],
+    "style": "Ancient Egyptian rock-cut temple",
+    "wikipedia": "https://en.wikipedia.org/wiki/Abu_Simbel_temples",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/The_great_temple_of_Abu_simbel..JPG/1920px-The_great_temple_of_Abu_simbel..JPG",
+        "alt": "Rock-cut temple front with four colossal seated pharaoh statues flanking a small doorway",
+        "credit": "Photo: Abumalek ahmed mohamed · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_great_temple_of_Abu_simbel..JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Abu_Simbel_interior_great_temple-0002.jpg/1920px-Abu_Simbel_interior_great_temple-0002.jpg",
+        "alt": "Hall with giant standing royal figures against the wall and a painted ceiling with winged vultures",
+        "caption": "The Osiride pillars of the hypostyle hall.",
+        "credit": "Photo: MatthiasKabel · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Abu_Simbel_interior_great_temple-0002.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Two temples were carved straight into a sandstone cliff by a pharaoh, one for himself and one for his favourite wife."
+      },
+      {
+        "order": 2,
+        "text": "In the 1960s the whole complex was cut into 1,036 blocks and rebuilt on higher ground to escape a rising reservoir."
+      },
+      {
+        "order": 3,
+        "text": "Twice a year, around 22 October and 22 February, sunlight reaches the inner sanctuary and lights the statues there, except one that stays in shadow."
+      }
+    ],
+    "summary": {
+      "description": "Ramesses II had two rock temples carved into a cliff in Nubia, beginning around 1264 BC and taking about twenty years. The Great Temple is fronted by four seated colossi about 20 m high, and the smaller temple honours Hathor in the person of Queen Nefertari. Between 1964 and 1968 the temples were moved piece by piece to avoid flooding by Lake Nasser.",
+      "keyFeatures": [
+        "Four seated colossi about 20 m high",
+        "Façade about 33 m high and 38 m wide",
+        "Hypostyle hall with eight Osiride pillars",
+        "Reliefs of the Battle of Kadesh",
+        "Solar alignment of the sanctuary"
+      ],
+      "funFacts": [
+        "The relocation cost about 41.7 million US dollars, shared between Egypt and contributions from 48 countries.",
+        "The temples were reassembled about 208 m inland and about 65 m higher."
+      ]
+    }
+  },
+  {
+    "id": "karnak-temple-complex",
+    "name": "Karnak Temple Complex",
+    "aliases": [
+      "Karnak",
+      "Karnak Temple",
+      "Temples of Karnak"
+    ],
+    "architects": [
+      {
+        "name": "Unknown royal builders",
+        "aliases": [
+          "Unknown",
+          "Anonymous"
+        ],
+        "bio": "The palace grew in campaigns sponsored by King John I from around 1415 and by King Manuel I between 1497 and 1530; its master builders are not recorded."
+      }
+    ],
+    "location": {
+      "city": "Luxor",
+      "country": "Egypt",
+      "countryCode": "EG"
+    },
+    "yearCompleted": null,
+    "era": "ANCIENT_EGYPTIAN",
+    "themes": [
+      "ancient-ruins"
+    ],
+    "style": "Ancient Egyptian temple complex",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karnak",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Karnak_First_Pylon_R02.jpg/1920px-Karnak_First_Pylon_R02.jpg",
+        "alt": "Two massive sandstone gateway towers with window slots, seen across a wide paved court",
+        "credit": "Photo: Marc Ryckaert · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Karnak_First_Pylon_R02.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Luxor%2C_Egypt%2C_Karnak%2C_Great_Hypostyle_Hall.jpg/1920px-Luxor%2C_Egypt%2C_Karnak%2C_Great_Hypostyle_Hall.jpg",
+        "alt": "Avenue between enormous carved columns, with a tiny visitor standing at the far end",
+        "caption": "Columns of the great hall.",
+        "credit": "Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Luxor,_Egypt,_Karnak,_Great_Hypostyle_Hall.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a vast religious precinct that grew for some two thousand years, with about thirty rulers adding to it."
+      },
+      {
+        "order": 2,
+        "text": "One hall holds 134 giant columns in 16 rows, the tallest about 21 m high."
+      },
+      {
+        "order": 3,
+        "text": "Its name for the chief god's precinct was Ipet-isut, often translated as the Most Select of Places."
+      }
+    ],
+    "summary": {
+      "description": "This sprawling complex of temples, chapels and pylons near Thebes was begun under Senusret I in the Middle Kingdom and extended into Ptolemaic times. Most of what survives dates from the New Kingdom, and the largest precinct honours the god Amun-Re. It is believed to be Egypt's second most visited ancient site after the Giza pyramids.",
+      "keyFeatures": [
+        "Great Hypostyle Hall with 134 columns",
+        "First Pylon about 113 m long and 43 m high",
+        "Precinct of Amun-Re",
+        "Obelisks of Hatshepsut and others",
+        "Sacred lake and processional ways"
+      ],
+      "funFacts": [
+        "The hall's architraves are estimated to weigh about 70 tons each.",
+        "Six hundred black granite statues were found in the courtyard of the Mut temple."
+      ]
+    }
+  },
+  {
+    "id": "persepolis",
+    "name": "Persepolis",
+    "aliases": [
+      "Takht-e Jamshid",
+      "Parsa"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Achaemenid builders",
+        "aliases": [],
+        "lifespan": "6th-5th century BC",
+        "nationality": "Persian",
+        "bio": "Builders and craftsmen working for the Achaemenid kings, beginning under Darius I and continued by Xerxes I and Artaxerxes I."
+      }
+    ],
+    "location": {
+      "city": "Marvdasht",
+      "country": "Iran",
+      "countryCode": "IR"
+    },
+    "yearCompleted": null,
+    "era": "CLASSICAL",
+    "themes": [
+      "ancient-ruins"
+    ],
+    "style": "Achaemenid",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persepolis",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20101229_Gates_of_the_nations_Persepolis_Iran.jpg/1920px-20101229_Gates_of_the_nations_Persepolis_Iran.jpg",
+        "alt": "Stone gateway with a huge lintel, bearded winged bull guardians and tall slender columns with animal capitals",
+        "credit": "Photo: User:Ggia · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:20101229_Gates_of_the_nations_Persepolis_Iran.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/The_Apadana_Staircase_with_the_Procession_of_the_Vassals_%284686171639%29.jpg/1920px-The_Apadana_Staircase_with_the_Procession_of_the_Vassals_%284686171639%29.jpg",
+        "alt": "Stone stairway wall carved with rows of figures and a lion attacking a bull, under a modern roof",
+        "caption": "Reliefs of a ceremonial staircase.",
+        "credit": "Photo: A.Davey from Portland, Oregon, EE UU · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Apadana_Staircase_with_the_Procession_of_the_Vassals_(4686171639).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was a ceremonial capital on a raised stone terrace, used seasonally rather than as an everyday city."
+      },
+      {
+        "order": 2,
+        "text": "A king founded it around 515 BC, and its columns once stood about 16.5 m tall and were topped with double-bull capitals."
+      },
+      {
+        "order": 3,
+        "text": "It was burned in 330 BC after being taken by Alexander the Great, and ancient writers disagree on whether the fire was deliberate or an accident."
+      }
+    ],
+    "summary": {
+      "description": "Darius I made this the ceremonial seat of the Achaemenid Empire, and Xerxes I and Artaxerxes I extended it over the following generations. Built mainly of grey limestone on a partly artificial terrace, it held audience halls, gateways and treasuries. It was destroyed by fire in 330 BC and has been a UNESCO World Heritage Site since 1979.",
+      "keyFeatures": [
+        "Raised stone terrace",
+        "Apadana audience hall",
+        "Gate of All Nations with bull guardians",
+        "Hall of a Hundred Columns",
+        "Processional relief carvings"
+      ],
+      "funFacts": [
+        "Gold and silver foundation tablets were buried beneath the Apadana.",
+        "It is linked with the Nowruz festivities."
+      ]
+    }
+  },
+  {
+    "id": "roman-forum",
+    "name": "Roman Forum",
+    "aliases": [
+      "Forum Romanum",
+      "Foro Romano",
+      "The Forum"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Roman architects",
+        "aliases": [
+          "Unknown",
+          "Anonymous"
+        ],
+        "bio": "The builders of this imperial bath complex, erected under Septimius Severus and Caracalla, are not recorded."
+      }
+    ],
+    "location": {
+      "city": "Rome",
+      "country": "Italy",
+      "countryCode": "IT"
+    },
+    "yearCompleted": null,
+    "era": "CLASSICAL",
+    "themes": [
+      "ancient-ruins"
+    ],
+    "style": "Roman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roman_Forum",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Roman_Forum_looking_East_panorama.jpg/1920px-Roman_Forum_looking_East_panorama.jpg",
+        "alt": "Valley of ruined temple columns, a triumphal arch and low foundations, with a Baroque church dome at the edge",
+        "credit": "Photo: Nicholas Hartmann · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Roman_Forum_looking_East_panorama.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Temple_of_Saturn_and_Roman_Forum._Rome%2C_Italy.jpg/1920px-Temple_of_Saturn_and_Roman_Forum._Rome%2C_Italy.jpg",
+        "alt": "Ancient temple portico with a Latin inscription on its architrave, beside ruined walls and a distant amphitheatre",
+        "credit": "Photo: Jon Gudorf Photography · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Saturn_and_Roman_Forum._Rome,_Italy.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as a drained marsh in a valley between two hills and grew into the civic heart of a great city."
+      },
+      {
+        "order": 2,
+        "text": "It hosted triumphal processions, elections, trials and speeches, and a famous dictator was cremated here in 44 BC."
+      },
+      {
+        "order": 3,
+        "text": "In the 1540s stone was quarried from it for a new basilica, and by then cattle grazed there and it was called the 'cattle field'."
+      }
+    ],
+    "summary": {
+      "description": "This open space between the Palatine and Capitoline hills began as a marketplace and became the civic centre of ancient Rome. Temples, basilicas, arches and speakers' platforms were added over about a thousand years, the last major monument in 608 AD. After the empire fell it decayed, was quarried for building stone, and has been excavated since the 19th century.",
+      "keyFeatures": [
+        "Temple of Saturn, eight columns surviving",
+        "Arch of Septimius Severus, 203 AD",
+        "Curia Julia, the Senate house",
+        "Rostra, the speakers' platform",
+        "Basilica of Maxentius, 312 AD"
+      ],
+      "funFacts": [
+        "Julius Caesar was cremated here, and Mark Antony gave his funeral speech here.",
+        "The medieval name of the area was Campo Vaccino, the cattle field."
+      ]
+    }
+  },
+  {
+    "id": "theatre-of-epidaurus",
+    "name": "Theatre of Epidaurus",
+    "aliases": [
+      "Epidaurus Theatre",
+      "Ancient Theatre of Epidaurus",
+      "Epidauros Theatre"
+    ],
+    "architects": [
+      {
+        "name": "Polykleitos the Younger",
+        "aliases": [
+          "Polykleitos",
+          "Polyclitus the Younger"
+        ],
+        "lifespan": "4th century BC",
+        "nationality": "Greek",
+        "bio": "Greek architect credited with designing the theatre in the 4th century BC."
+      }
+    ],
+    "location": {
+      "city": "Epidaurus",
+      "country": "Greece",
+      "countryCode": "GR"
+    },
+    "yearCompleted": -300,
+    "era": "CLASSICAL",
+    "themes": [
+      "ancient-ruins",
+      "theatres-opera"
+    ],
+    "style": "Greek theatre",
+    "wikipedia": "https://en.wikipedia.org/wiki/Epidaurus_Theatre",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Epidauros_BW_2017-10-10_16-38-16.jpg/1920px-Epidauros_BW_2017-10-10_16-38-16.jpg",
+        "alt": "Huge semicircular stone auditorium rising up a wooded hillside around a circular flat floor",
+        "credit": "Photo: Berthold Werner · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Epidauros_BW_2017-10-10_16-38-16.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Epidaurus_seats.JPG/1920px-Epidaurus_seats.JPG",
+        "alt": "Curved rows of weathered limestone seats seen from above, with one person sitting among them",
+        "caption": "The limestone seat rows.",
+        "credit": "Photo: Orlovic · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Epidaurus_seats.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a hillside auditorium built in the 4th century BC as part of a healing sanctuary."
+      },
+      {
+        "order": 2,
+        "text": "Its 34 original rows were extended by 21 more in Roman times, and it could hold up to 14,000 people."
+      },
+      {
+        "order": 3,
+        "text": "It is famous for acoustics that carry stage speech to the top row, and it still hosts drama performances today."
+      }
+    ],
+    "summary": {
+      "description": "This theatre belongs to the Sanctuary of Asclepius and is credited to Polykleitos the Younger in the 4th century BC. Its tiered limestone seating wraps around a circular orchestra, and the landscape behind the stage is part of the view. Its sanctuary was inscribed as a UNESCO World Heritage Site in 1988.",
+      "keyFeatures": [
+        "Capacity of up to 14,000",
+        "34 original rows plus 21 added by the Romans",
+        "Circular orchestra",
+        "Limestone seating that filters low-frequency noise",
+        "Open view of the landscape"
+      ],
+      "funFacts": [
+        "Measurements show the seat rows filter out low-frequency crowd murmur and boost high-frequency stage sound.",
+        "It is still used for dramatic performances today."
+      ]
+    }
+  },
+  {
+    "id": "30-rockefeller-plaza",
+    "name": "30 Rockefeller Plaza",
+    "aliases": [
+      "30 Rock",
+      "Comcast Building",
+      "GE Building",
+      "RCA Building",
+      "NBCUniversal Building"
+    ],
+    "architects": [
+      {
+        "name": "Raymond Hood",
+        "aliases": [
+          "Hood"
+        ],
+        "lifespan": "1881-1934",
+        "nationality": "American",
+        "bio": "American architect who was the lead architect of Rockefeller Center."
+      }
+    ],
+    "location": {
+      "city": "New York",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1933,
+    "era": "ART_DECO",
+    "themes": [
+      "art-deco",
+      "skyscrapers"
+    ],
+    "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/30_Rockefeller_Plaza",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/30_Rockefeller_Plaza_viewed_from_5th_Avenue%2C_August_29%2C_2024.jpg/1920px-30_Rockefeller_Plaza_viewed_from_5th_Avenue%2C_August_29%2C_2024.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.85
+        },
+        "alt": "Tall slender setback skyscraper seen between two lower stone buildings flying flags",
+        "credit": "Photo: D. Benjamin Miller · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:30_Rockefeller_Plaza_viewed_from_5th_Avenue,_August_29,_2024.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Rockefeller_Center_%2817%29.jpg/1920px-Rockefeller_Center_%2817%29.jpg",
+        "alt": "Lobby wall and ceiling painted in brown tones with muscular workers raising a building and a man in a top hat",
+        "caption": "A lobby mural of workers building a nation.",
+        "credit": "Photo: PortableNYCTours · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rockefeller_Center_(17).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a tall office tower with a flat roof and stepped setbacks, the centrepiece of a large city complex."
+      },
+      {
+        "order": 2,
+        "text": "It was completed in 1933, and a restaurant on its 65th floor opened in 1934."
+      },
+      {
+        "order": 3,
+        "text": "A broadcaster has its headquarters here, and its studio 8H is home to a long-running late-night comedy show."
+      }
+    ],
+    "summary": {
+      "description": "This 66-storey tower is the centrepiece of Rockefeller Center in Midtown Manhattan, completed in 1933. Raymond Hood was the complex's lead architect, working within a group of associated firms. Its stepped Art Deco massing, lobby murals and a sculpture over the entrance made it an icon of New York.",
+      "keyFeatures": [
+        "66 stories with a flat roof and setbacks",
+        "Art Deco styling",
+        "Lee Lawrie's sculpture Wisdom over the entrance",
+        "Josep Maria Sert's lobby murals",
+        "Rainbow Room restaurant on the 65th floor"
+      ],
+      "funFacts": [
+        "Diego Rivera's mural Man at the Crossroads was destroyed in 1934 because of its communist imagery.",
+        "It has had three names: RCA Building, GE Building and, since 2015, Comcast Building."
+      ]
+    }
+  },
+  {
+    "id": "eastern-columbia-building",
+    "name": "Eastern Columbia Building",
+    "aliases": [
+      "Eastern Columbia",
+      "Eastern-Columbia Building"
+    ],
+    "architects": [
+      {
+        "name": "Claud Beelman",
+        "aliases": [
+          "Beelman"
+        ],
+        "lifespan": "1883-1963",
+        "nationality": "American",
+        "bio": "American architect who designed this 13-storey building for a department-store company."
+      }
+    ],
+    "location": {
+      "city": "Los Angeles",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1930,
+    "era": "ART_DECO",
+    "themes": [
+      "art-deco"
+    ],
+    "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eastern_Columbia_Building",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/LA_Eastern_Columbia_Building.jpg/1920px-LA_Eastern_Columbia_Building.jpg",
+        "crop": {
+          "x": 0.2,
+          "y": 0.28,
+          "w": 0.55,
+          "h": 0.38
+        },
+        "alt": "Turquoise terracotta tower with vertical fluting and gold trim rising above lower buildings",
+        "credit": "Photo: Photo: Andreas Praefcke · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:LA_Eastern_Columbia_Building.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Eastern_Columbia_Building_entrance.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.92
+        },
+        "alt": "Entrance detail with fluted turquoise terracotta piers, a gold sunburst relief and blue zigzag tiles",
+        "credit": "Photo: Binksternet · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Eastern_Columbia_Building_entrance.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a 13-storey department-store headquarters clad in glossy terracotta tiles."
+      },
+      {
+        "order": 2,
+        "text": "It was built in about nine months and opened in 1930; a clock tower was exempted from the city's 150-foot height limit."
+      },
+      {
+        "order": 3,
+        "text": "Its turquoise and gold clock tower carries a company name in white neon on all four sides."
+      }
+    ],
+    "summary": {
+      "description": "This building opened on 12 September 1930 as the headquarters of a department-store company that merged a furniture store and a clothing store. It is clad in turquoise terracotta with deep blue and gold trim, and its clock tower is topped by four stylised flying buttresses. It is often called the greatest surviving Art Deco building in Los Angeles.",
+      "keyFeatures": [
+        "Turquoise glazed terracotta",
+        "Blue and gold trim",
+        "Four-sided clock tower, 264 ft in total",
+        "Neon lettering on the tower",
+        "Gold sunburst reliefs at the entrance"
+      ],
+      "funFacts": [
+        "It was built for about 1.25 million dollars in roughly nine months.",
+        "It was converted into 147 condominiums in a 2006 renovation."
+      ]
+    }
+  },
+  {
+    "id": "hoover-building",
+    "name": "Hoover Building",
+    "aliases": [
+      "Hoover Factory",
+      "Hoover Building Perivale"
+    ],
+    "architects": [
+      {
+        "name": "Wallis, Gilbert and Partners",
+        "aliases": [
+          "Wallis Gilbert and Partners",
+          "Wallis Gilbert"
+        ],
+        "lifespan": "active 20th century",
+        "nationality": "British",
+        "bio": "British architectural firm that also designed the Firestone Tyre Factory in Brentford and Victoria Coach Station."
+      }
+    ],
+    "location": {
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": 1933,
+    "era": "ART_DECO",
+    "themes": [
+      "art-deco"
+    ],
+    "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hoover_Building",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/West_Tower_of_the_Hoover_Building%2C_Perivale.jpg/1920px-West_Tower_of_the_Hoover_Building%2C_Perivale.jpg",
+        "alt": "White stair tower with red and black stripes, green glazed bars and arched windows under a deep blue sky",
+        "credit": "Photo: Ethan Doyle White · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:West_Tower_of_the_Hoover_Building,_Perivale.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Front_of_the_Hoover_Building_in_Perivale.jpg/1920px-Front_of_the_Hoover_Building_in_Perivale.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.26,
+          "w": 1,
+          "h": 0.74
+        },
+        "alt": "White façade with tall green-glazed windows between pale piers and a colourful geometric entrance",
+        "credit": "Photo: Ethan Doyle White · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Front_of_the_Hoover_Building_in_Perivale.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a former factory beside a major arterial road in outer West London."
+      },
+      {
+        "order": 2,
+        "text": "It opened in 1933, with a geometric sunburst pattern above its entrance, and was listed Grade II* in 1980."
+      },
+      {
+        "order": 3,
+        "text": "A supermarket chain bought it in 1989, and Elvis Costello recorded a song about it in 1980."
+      }
+    ],
+    "summary": {
+      "description": "This former vacuum-cleaner factory on Western Avenue in Perivale, in the London Borough of Ealing, opened on 2 May 1933. It was designed by Wallis, Gilbert and Partners, with large columns, recessed glass bay windows and a sunburst pattern above the entrance. It later became offices and, in 2017-2018, apartments.",
+      "keyFeatures": [
+        "Large columns and recessed glass bays",
+        "Geometric sunburst above the entrance",
+        "White rendered walls with green and red detail",
+        "Grade II* listed since 1980",
+        "Converted to apartments in 2017-2018"
+      ],
+      "funFacts": [
+        "Elvis Costello recorded the song Hoover Factory in 1980 as the B-side of Clubland.",
+        "Its architects also designed Victoria Coach Station."
+      ]
+    }
+  },
+  {
+    "id": "tuschinski-theatre",
+    "name": "Tuschinski Theatre",
+    "aliases": [
+      "Tuschinski",
+      "Pathé Tuschinski",
+      "Theater Tuschinski",
+      "Koninklijk Theater Tuschinski"
+    ],
+    "architects": [
+      {
+        "name": "Hijman Louis de Jong",
+        "aliases": [
+          "H. L. de Jong",
+          "De Jong"
+        ],
+        "lifespan": "1882-1945",
+        "nationality": "Dutch",
+        "bio": "Dutch architect who designed this cinema with Willem Kromhout."
+      },
+      {
+        "name": "Willem Kromhout",
+        "aliases": [
+          "Kromhout"
+        ],
+        "lifespan": "1864-1940",
+        "nationality": "Dutch",
+        "bio": "Dutch architect who, with Hijman Louis de Jong, designed this cinema."
+      }
+    ],
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "countryCode": "NL"
+    },
+    "yearCompleted": 1921,
+    "era": "ART_DECO",
+    "themes": [
+      "art-deco",
+      "theatres-opera"
+    ],
+    "style": "Art Deco and Amsterdam School",
+    "wikipedia": "https://en.wikipedia.org/wiki/Path%C3%A9_Tuschinski",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Tuschinski_front.jpg/1920px-Tuschinski_front.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.61
+        },
+        "alt": "Tall tiled façade with two towers, leadlight windows, ceramic sculptures and a lit entrance canopy",
+        "credit": "Photo: User:DirkvdM · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tuschinski_front.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tuschinski_main_auditorium_balconies.jpg/1920px-Tuschinski_main_auditorium_balconies.jpg",
+        "alt": "Auditorium balcony with glowing amber lamps and walls painted in geometric patterns of red and gold",
+        "caption": "The main auditorium.",
+        "credit": "Photo: Jvhertum · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tuschinski_main_auditorium_balconies.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a cinema that opened in 1921, designed to make visitors feel they are entering an illusion."
+      },
+      {
+        "order": 2,
+        "text": "Its façade mixes Art Deco, Art Nouveau and Amsterdam School details, with ceramic sculptures and leadlight windows, and its interior has Asian influences."
+      },
+      {
+        "order": 3,
+        "text": "Its founder was murdered in 1942 after the occupiers seized the company, and it has been owned by a film company since 1995."
+      }
+    ],
+    "summary": {
+      "description": "This cinema opened on 28 October 1921, founded by Abraham Tuschinski and designed by Hijman Louis de Jong and Willem Kromhout. Its façade has two towers, ceramic sculptures and leadlight windows, and its lavish interior has Asian influences. It has been a national monument since 1967 and was restored from 1998 to 2002.",
+      "keyFeatures": [
+        "Façade with two towers and ceramic sculptures",
+        "Leadlight windows",
+        "Main hall with screen, stage and organ, 1,431 seats",
+        "Interior with Asian influences",
+        "Rijksmonument since 1967"
+      ],
+      "funFacts": [
+        "Time Out named it the most beautiful cinema in the world in 2021.",
+        "Its founder bought a theatre organ from Brussels when the maker could not deliver in time."
+      ]
+    }
   }
 ]

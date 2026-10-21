@@ -1,0 +1,283 @@
+{
+  "machu-picchu": {
+    "name": "Machu Picchu",
+    "aliases": [],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Inca",
+        "lifespan": "século XV",
+        "bio": "Construtores incas que ergueram o sítio como residência real, provavelmente para o imperador Pachacuti, usando alvenaria fina de pedra seca."
+      }
+    ],
+    "city": "Província de Urubamba",
+    "style": "Inca",
+    "photos": [
+      {
+        "alt": "Ruínas de pedra e terraços verdes numa crista de montanha sob um pico íngreme e nuvens carregadas",
+        "caption": null
+      },
+      {
+        "alt": "Terraços de grama em degraus e muros de pedra seca com um pico verde e íngreme ao fundo",
+        "caption": "Terraços e muros construídos sem argamassa."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma residência real construída numa crista de montanha, bem alto nos Andes, acima de um vale com rio.",
+      "Suas paredes são de pedras finamente lavradas, encaixadas sem argamassa, e seus terraços cobrem cerca de 4,9 hectares.",
+      "Chamou a atenção internacional em 1911, por obra de um explorador americano, e é Patrimônio Mundial da UNESCO desde 1983."
+    ],
+    "summary": {
+      "description": "Esta propriedade inca fica a cerca de 2.430 m de altitude, numa crista acima do vale do Urubamba. A maioria dos arqueólogos acredita que foi ordenada pelo imperador Pachacuti em meados do século XV. Suas paredes de pedra seca, terraços e edifícios alinhados ao sol fizeram dela um dos sítios mais conhecidos das Américas.",
+      "keyFeatures": [
+        "Alvenaria de pedra seca bem lavrada",
+        "Terraços agrícolas (andenes)",
+        "Templo do Sol (Torreón), torre semicircular",
+        "Pedra ritual Intihuatana",
+        "Cenário de crista de montanha"
+      ],
+      "funFacts": [
+        "As expedições de Hiram Bingham recuperaram facas do século XV de bronze de bismuto, os objetos mais antigos conhecidos com essa liga.",
+        "Recebe mais de 1,5 milhão de visitantes por ano, o destino internacional mais visitado do Peru."
+      ]
+    }
+  },
+  "abu-simbel": {
+    "name": "Templos de Abu Simbel",
+    "aliases": [
+      "Abu Simbel",
+      "Grande Templo de Ramsés II"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "O palácio cresceu em campanhas patrocinadas pelo rei D. João I a partir de cerca de 1415 e pelo rei D. Manuel I entre 1497 e 1530; seus mestres de obras não estão registrados."
+      }
+    ],
+    "city": "Abu Simbel",
+    "style": "Templo egípcio escavado na rocha",
+    "photos": [
+      {
+        "alt": "Fachada de templo escavada na rocha com quatro colossais estátuas sentadas de faraó ladeando uma pequena porta",
+        "caption": null
+      },
+      {
+        "alt": "Salão com gigantescas figuras reais em pé junto à parede e teto pintado com abutres de asas abertas",
+        "caption": "Os pilares osiríacos do salão hipostilo."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Dois templos foram escavados diretamente numa falésia de arenito por um faraó, um para si e outro para sua esposa favorita.",
+      "Na década de 1960 todo o complexo foi cortado em 1.036 blocos e remontado em terreno mais alto para escapar de um reservatório que subia.",
+      "Duas vezes por ano, por volta de 22 de outubro e 22 de fevereiro, a luz do sol chega ao santuário interno e ilumina as estátuas, exceto uma que fica na sombra."
+    ],
+    "summary": {
+      "description": "Ramsés II mandou escavar dois templos na rocha de uma falésia na Núbia, a partir de cerca de 1264 a.C., num trabalho de cerca de vinte anos. O Grande Templo tem na frente quatro colossos sentados de cerca de 20 m de altura, e o templo menor homenageia Hathor na pessoa da rainha Nefertari. Entre 1964 e 1968 os templos foram movidos peça por peça para evitar a inundação pelo Lago Nasser.",
+      "keyFeatures": [
+        "Quatro colossos sentados de cerca de 20 m",
+        "Fachada com cerca de 33 m de altura e 38 m de largura",
+        "Salão hipostilo com oito pilares osiríacos",
+        "Relevos da Batalha de Kadesh",
+        "Alinhamento solar do santuário"
+      ],
+      "funFacts": [
+        "A mudança custou cerca de 41,7 milhões de dólares, divididos entre o Egito e contribuições de 48 países.",
+        "Os templos foram remontados cerca de 208 m terra adentro e cerca de 65 m mais altos."
+      ]
+    }
+  },
+  "karnak-temple-complex": {
+    "name": "Complexo de Templos de Karnak",
+    "aliases": [
+      "Karnak",
+      "Templo de Karnak",
+      "Templos de Karnak"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "O palácio cresceu em campanhas patrocinadas pelo rei D. João I a partir de cerca de 1415 e pelo rei D. Manuel I entre 1497 e 1530; seus mestres de obras não estão registrados."
+      }
+    ],
+    "city": "Luxor",
+    "style": "Complexo de templos egípcio",
+    "photos": [
+      {
+        "alt": "Duas imensas torres-portal de arenito com aberturas, vistas através de um amplo pátio pavimentado",
+        "caption": null
+      },
+      {
+        "alt": "Passagem entre enormes colunas esculpidas, com um minúsculo visitante ao fundo",
+        "caption": "Colunas do grande salão."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É um vasto recinto religioso que cresceu por cerca de dois mil anos, com cerca de trinta governantes acrescentando obras.",
+      "Um dos salões tem 134 colunas gigantes em 16 fileiras, as mais altas com cerca de 21 m.",
+      "O nome do recinto do deus principal era Ipet-isut, geralmente traduzido como o Mais Seleto dos Lugares."
+    ],
+    "summary": {
+      "description": "Este vasto complexo de templos, capelas e pilonos perto de Tebas foi iniciado sob Senusret I, no Reino Médio, e ampliado até a época ptolomaica. A maior parte do que resta é do Reino Novo, e o maior recinto honra o deus Amon-Rá. Acredita-se ser o segundo sítio antigo mais visitado do Egito, depois das pirâmides de Gizé.",
+      "keyFeatures": [
+        "Grande Sala Hipostila com 134 colunas",
+        "Primeiro Pilono com cerca de 113 m de comprimento e 43 m de altura",
+        "Recinto de Amon-Rá",
+        "Obeliscos de Hatshepsut e outros",
+        "Lago sagrado e vias processionais"
+      ],
+      "funFacts": [
+        "Estima-se que os arquitraves do salão pesem cerca de 70 toneladas cada.",
+        "Seiscentas estátuas de granito negro foram encontradas no pátio do templo de Mut."
+      ]
+    }
+  },
+  "persepolis": {
+    "name": "Persépolis",
+    "aliases": [
+      "Takht-e Jamshid",
+      "Parsa"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "persa",
+        "lifespan": "séculos VI-V a.C.",
+        "bio": "Construtores e artesãos a serviço dos reis aquemênidas, a partir de Dario I e continuados por Xerxes I e Artaxerxes I."
+      }
+    ],
+    "city": "Marvdasht",
+    "style": "Aquemênida",
+    "photos": [
+      {
+        "alt": "Portal de pedra com enorme verga, guardiões em forma de touros barbados alados e colunas altas e esbeltas com capitéis de animais",
+        "caption": null
+      },
+      {
+        "alt": "Parede de escadaria de pedra esculpida com fileiras de figuras e um leão atacando um touro, sob uma cobertura moderna",
+        "caption": "Relevos de uma escadaria cerimonial."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Era uma capital cerimonial sobre um terraço elevado de pedra, usada sazonalmente e não como cidade do dia a dia.",
+      "Um rei a fundou por volta de 515 a.C., e suas colunas chegavam a cerca de 16,5 m, com capitéis de touros duplos.",
+      "Foi queimada em 330 a.C. após ser tomada por Alexandre, o Grande, e autores antigos divergem se o incêndio foi proposital ou acidental."
+    ],
+    "summary": {
+      "description": "Dario I fez deste local a sede cerimonial do Império Aquemênida, e Xerxes I e Artaxerxes I o ampliaram nas gerações seguintes. Construída sobretudo de calcário cinza num terraço em parte artificial, tinha salas de audiência, portais e tesouros. Foi destruída por incêndio em 330 a.C. e é Patrimônio Mundial da UNESCO desde 1979.",
+      "keyFeatures": [
+        "Terraço elevado de pedra",
+        "Sala de audiências Apadana",
+        "Portão de Todas as Nações com guardiões em forma de touro",
+        "Salão das Cem Colunas",
+        "Relevos de procissão"
+      ],
+      "funFacts": [
+        "Tábuas de fundação de ouro e prata foram enterradas sob a Apadana.",
+        "Está ligada às celebrações do Nowruz."
+      ]
+    }
+  },
+  "roman-forum": {
+    "name": "Fórum Romano",
+    "aliases": [
+      "Foro Romano",
+      "Forum Romanum",
+      "O Fórum"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "Os construtores deste complexo de banhos imperiais, erguido sob Sétimo Severo e Caracala, não estão registrados."
+      }
+    ],
+    "city": "Roma",
+    "style": "Romano",
+    "photos": [
+      {
+        "alt": "Vale de colunas de templos em ruínas, um arco do triunfo e fundações baixas, com a cúpula de uma igreja barroca na borda",
+        "caption": null
+      },
+      {
+        "alt": "Pórtico de templo antigo com inscrição em latim no arquitrave, ao lado de muros em ruínas e de um anfiteatro ao longe",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Começou como um pântano drenado num vale entre duas colinas e se tornou o coração cívico de uma grande cidade.",
+      "Sediou procissões triunfais, eleições, julgamentos e discursos, e um famoso ditador foi cremado aqui em 44 a.C.",
+      "Na década de 1540 sua pedra foi extraída para uma nova basílica, e nessa época o gado pastava ali e o lugar era chamado de 'campo das vacas'."
+    ],
+    "summary": {
+      "description": "Este espaço aberto entre as colinas Palatina e Capitolina começou como mercado e se tornou o centro cívico da Roma antiga. Templos, basílicas, arcos e tribunas de oradores foram acrescentados ao longo de cerca de mil anos, o último grande monumento em 608 d.C. Após a queda do império, decaiu, foi usado como pedreira e é escavado desde o século XIX.",
+      "keyFeatures": [
+        "Templo de Saturno, com oito colunas preservadas",
+        "Arco de Sétimo Severo, 203 d.C.",
+        "Cúria Júlia, a sede do Senado",
+        "Rostra, a tribuna dos oradores",
+        "Basílica de Maxêncio, 312 d.C."
+      ],
+      "funFacts": [
+        "Júlio César foi cremado aqui, e Marco Antônio fez aqui o discurso fúnebre.",
+        "O nome medieval da área era Campo Vaccino, o campo das vacas."
+      ]
+    }
+  },
+  "theatre-of-epidaurus": {
+    "name": "Teatro de Epidauro",
+    "aliases": [
+      "Teatro Antigo de Epidauro",
+      "Teatro de Epidaurus"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Policleto",
+          "Policleto, o Jovem"
+        ],
+        "nationality": "grego",
+        "lifespan": "século IV a.C.",
+        "bio": "Arquiteto grego a quem se atribui o projeto do teatro no século IV a.C."
+      }
+    ],
+    "city": "Epidauro",
+    "style": "Teatro grego",
+    "photos": [
+      {
+        "alt": "Enorme auditório semicircular de pedra subindo uma encosta arborizada em torno de um piso plano circular",
+        "caption": null
+      },
+      {
+        "alt": "Fileiras curvas de assentos de calcário desgastados vistas de cima, com uma pessoa sentada entre elas",
+        "caption": "As fileiras de assentos de calcário."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É um auditório na encosta de uma colina construído no século IV a.C. como parte de um santuário de cura.",
+      "Suas 34 fileiras originais foram ampliadas com mais 21 na época romana, e ele comportava até 14 mil pessoas.",
+      "É famoso pela acústica que leva a fala do palco até a última fileira, e ainda recebe espetáculos de teatro hoje."
+    ],
+    "summary": {
+      "description": "Este teatro pertence ao Santuário de Asclépio e é atribuído a Policleto, o Jovem, no século IV a.C. Seus assentos de calcário em degraus cercam uma orquestra circular, e a paisagem atrás do palco faz parte da vista. O santuário foi inscrito como Patrimônio Mundial da UNESCO em 1988.",
+      "keyFeatures": [
+        "Capacidade de até 14 mil pessoas",
+        "34 fileiras originais mais 21 acrescentadas pelos romanos",
+        "Orquestra circular",
+        "Assentos de calcário que filtram ruídos graves",
+        "Vista aberta para a paisagem"
+      ],
+      "funFacts": [
+        "Medições mostram que as fileiras filtram o murmúrio grave da plateia e reforçam os sons agudos do palco.",
+        "Ainda é usado para espetáculos dramáticos hoje."
+      ]
+    }
+  }
+}

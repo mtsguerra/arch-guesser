@@ -1,0 +1,198 @@
+{
+  "30-rockefeller-plaza": {
+    "name": "30 Rockefeller Plaza",
+    "aliases": [
+      "30 Rock",
+      "Edifício Comcast",
+      "Edifício GE",
+      "Edifício RCA"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1881-1934",
+        "bio": "Arquiteto americano que foi o arquiteto principal do Rockefeller Center."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Art Déco",
+    "photos": [
+      {
+        "alt": "Arranha-céu esbelto e escalonado visto entre dois edifícios baixos de pedra com bandeiras",
+        "caption": null
+      },
+      {
+        "alt": "Parede e teto de saguão pintados em tons de marrom com trabalhadores musculosos erguendo um edifício e um homem de cartola",
+        "caption": "Um mural do saguão com trabalhadores construindo uma nação."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma alta torre de escritórios com telhado plano e recuos escalonados, peça central de um grande complexo urbano.",
+      "Foi concluída em 1933, e um restaurante no 65º andar abriu em 1934.",
+      "Uma emissora tem sede aqui, e seu estúdio 8H abriga um programa de comédia noturno de longa duração."
+    ],
+    "summary": {
+      "description": "Esta torre de 66 andares é a peça central do Rockefeller Center, em Midtown Manhattan, concluída em 1933. Raymond Hood foi o arquiteto principal do complexo, trabalhando com um grupo de escritórios associados. Seu volume escalonado Art Déco, os murais do saguão e uma escultura sobre a entrada a tornaram um ícone de Nova York.",
+      "keyFeatures": [
+        "66 andares com telhado plano e recuos",
+        "Estilo Art Déco",
+        "Escultura Wisdom, de Lee Lawrie, sobre a entrada",
+        "Murais de Josep Maria Sert no saguão",
+        "Restaurante Rainbow Room no 65º andar"
+      ],
+      "funFacts": [
+        "O mural Man at the Crossroads, de Diego Rivera, foi destruído em 1934 por causa de sua imagem comunista.",
+        "Teve três nomes: Edifício RCA, Edifício GE e, desde 2015, Edifício Comcast."
+      ]
+    }
+  },
+  "eastern-columbia-building": {
+    "name": "Edifício Eastern Columbia",
+    "aliases": [
+      "Eastern Columbia"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1883-1963",
+        "bio": "Arquiteto americano que projetou este edifício de 13 andares para uma rede de lojas de departamentos."
+      }
+    ],
+    "city": "Los Angeles",
+    "style": "Art Déco",
+    "photos": [
+      {
+        "alt": "Torre de terracota turquesa com caneluras verticais e detalhes dourados acima de edifícios mais baixos",
+        "caption": null
+      },
+      {
+        "alt": "Detalhe de entrada com pilares canelados de terracota turquesa, um relevo dourado em forma de sol e azulejos azuis em zigue-zague",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É a sede de uma loja de departamentos de 13 andares revestida de ladrilhos de terracota brilhante.",
+      "Foi construído em cerca de nove meses e inaugurado em 1930; a torre do relógio ficou isenta do limite de 150 pés da cidade.",
+      "Sua torre de relógio turquesa e dourada exibe o nome de uma empresa em neon branco nos quatro lados."
+    ],
+    "summary": {
+      "description": "O edifício foi inaugurado em 12 de setembro de 1930 como sede de uma rede de lojas de departamentos que juntou uma loja de móveis e uma de roupas. É revestido de terracota turquesa com acabamentos azul-escuro e dourado, e a torre do relógio é coroada por quatro arcobotantes estilizados. É muitas vezes chamado de o maior edifício Art Déco que sobrevive em Los Angeles.",
+      "keyFeatures": [
+        "Terracota vitrificada turquesa",
+        "Acabamentos azuis e dourados",
+        "Torre de relógio de quatro faces, 264 pés no total",
+        "Letreiro de neon na torre",
+        "Relevos dourados em forma de sol na entrada"
+      ],
+      "funFacts": [
+        "Foi construído por cerca de 1,25 milhão de dólares em aproximadamente nove meses.",
+        "Foi convertido em 147 condomínios numa reforma em 2006."
+      ]
+    }
+  },
+  "hoover-building": {
+    "name": "Hoover Building",
+    "aliases": [
+      "Fábrica Hoover",
+      "Edifício Hoover"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "ativo no século XX",
+        "bio": "Escritório britânico de arquitetura que também projetou a fábrica de pneus Firestone em Brentford e a Victoria Coach Station."
+      }
+    ],
+    "city": "Londres",
+    "style": "Art Déco",
+    "photos": [
+      {
+        "alt": "Torre de escada branca com listras vermelhas e pretas, barras vidradas verdes e janelas em arco sob um céu azul-escuro",
+        "caption": null
+      },
+      {
+        "alt": "Fachada branca com janelas altas de vidro verde entre pilares claros e uma entrada geométrica colorida",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma antiga fábrica ao lado de uma grande via arterial na periferia oeste de Londres.",
+      "Foi inaugurada em 1933, com um padrão geométrico de raios de sol sobre a entrada, e tombada como Grade II* em 1980.",
+      "Uma rede de supermercados a comprou em 1989, e Elvis Costello gravou uma canção sobre ela em 1980."
+    ],
+    "summary": {
+      "description": "Esta antiga fábrica de aspiradores na Western Avenue, em Perivale, no distrito londrino de Ealing, foi inaugurada em 2 de maio de 1933. Foi projetada pela Wallis, Gilbert and Partners, com grandes colunas, janelas de vidro recuadas e um padrão de raios de sol sobre a entrada. Depois virou escritórios e, em 2017-2018, apartamentos.",
+      "keyFeatures": [
+        "Grandes colunas e vãos de vidro recuados",
+        "Raios de sol geométricos sobre a entrada",
+        "Paredes brancas rebocadas com detalhes verdes e vermelhos",
+        "Tombado como Grade II* desde 1980",
+        "Convertido em apartamentos em 2017-2018"
+      ],
+      "funFacts": [
+        "Elvis Costello gravou a canção Hoover Factory em 1980, como lado B de Clubland.",
+        "Seus arquitetos também projetaram a Victoria Coach Station."
+      ]
+    }
+  },
+  "tuschinski-theatre": {
+    "name": "Teatro Tuschinski",
+    "aliases": [
+      "Tuschinski",
+      "Pathé Tuschinski",
+      "Theater Tuschinski"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "holandês",
+        "lifespan": "1882-1945",
+        "bio": "Arquiteto holandês que projetou este cinema com Willem Kromhout."
+      },
+      {
+        "aliases": [],
+        "nationality": "holandês",
+        "lifespan": "1864-1940",
+        "bio": "Arquiteto holandês que, com Hijman Louis de Jong, projetou este cinema."
+      }
+    ],
+    "city": "Amsterdã",
+    "style": "Art Déco e Escola de Amsterdã",
+    "photos": [
+      {
+        "alt": "Fachada alta revestida de azulejos, com duas torres, vitrais, esculturas de cerâmica e uma marquise iluminada na entrada",
+        "caption": null
+      },
+      {
+        "alt": "Balcão de auditório com lâmpadas âmbar brilhantes e paredes pintadas com padrões geométricos vermelhos e dourados",
+        "caption": "O auditório principal."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É um cinema inaugurado em 1921, projetado para dar aos visitantes a sensação de entrar numa ilusão.",
+      "Sua fachada mistura Art Déco, Art Nouveau e Escola de Amsterdã, com esculturas de cerâmica e vitrais, e o interior tem influências asiáticas.",
+      "Seu fundador foi assassinado em 1942 depois que os ocupantes tomaram a empresa, e desde 1995 pertence a uma empresa de cinema."
+    ],
+    "summary": {
+      "description": "Este cinema foi inaugurado em 28 de outubro de 1921, fundado por Abraham Tuschinski e projetado por Hijman Louis de Jong e Willem Kromhout. A fachada tem duas torres, esculturas de cerâmica e vitrais, e o luxuoso interior tem influências asiáticas. É monumento nacional desde 1967 e foi restaurado de 1998 a 2002.",
+      "keyFeatures": [
+        "Fachada com duas torres e esculturas de cerâmica",
+        "Vitrais",
+        "Sala principal com tela, palco e órgão, 1.431 lugares",
+        "Interior com influências asiáticas",
+        "Rijksmonument desde 1967"
+      ],
+      "funFacts": [
+        "A Time Out o escolheu como o cinema mais bonito do mundo em 2021.",
+        "Seu fundador comprou um órgão de teatro em Bruxelas quando o fabricante não conseguiu entregar a tempo."
+      ]
+    }
+  }
+}
