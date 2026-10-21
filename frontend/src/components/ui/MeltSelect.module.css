@@ -78,8 +78,9 @@
     width: 100%;
   }
 
-  .goo,
-  .ink {
+  /* .root raises the specificity: the later `.row` rule would otherwise show the ink copy over the real labels. */
+  .root .goo,
+  .root .ink {
     display: none;
   }
 
