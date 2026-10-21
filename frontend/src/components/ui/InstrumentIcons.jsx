@@ -106,3 +106,29 @@ export function RevealIcon(props) {
     </Svg>
   )
 }
+
+/** The Roman C (one hundred) that draws itself again. */
+export function CenturyIcon(props) {
+  return (
+    <Svg {...props}>
+      <path className={styles.cArc} pathLength="1" d="M18.5 7.2A8 8 0 1 0 18.5 16.8" />
+      <path d="M12 12h.01" />
+    </Svg>
+  )
+}
+
+const TALLY = [
+  'M3 6v12', 'M5.5 6v12', 'M8 6v12', 'M10.5 6v12', 'M2 16 12.5 8',
+  'M14 6v12', 'M16.5 6v12', 'M19 6v12', 'M21.5 6v12', 'M13 16 23 8',
+]
+
+/** Two tally gates (ten marks): the strokes grow in one after another. */
+export function DecadeIcon(props) {
+  return (
+    <Svg {...props}>
+      {TALLY.map((d, i) => (
+        <path key={d} className={styles.tally} style={{ '--i': i }} d={d} />
+      ))}
+    </Svg>
+  )
+}

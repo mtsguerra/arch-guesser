@@ -367,6 +367,41 @@
   transform: scaleY(0);
 }
 
+/* Century: the C draws itself. Decade: the tally strokes grow in order. */
+.cArc {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+
+.tally {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+
+:global(:is(button, [data-motion]):hover) .cArc,
+:global(:is(button, [data-motion]):is(:focus-visible, :focus-within)) .cArc,
+:global([aria-checked='true'], [data-motion][data-status='correct']) .cArc {
+  animation: draw-c 1s ease-out both;
+}
+
+:global(:is(button, [data-motion]):hover) .tally,
+:global(:is(button, [data-motion]):is(:focus-visible, :focus-within)) .tally,
+:global([aria-checked='true'], [data-motion][data-status='correct']) .tally {
+  animation: grow-tally 0.35s ease-out calc(var(--i) * 0.07s) both;
+}
+
+@keyframes draw-c {
+  from {
+    stroke-dashoffset: 1;
+  }
+}
+
+@keyframes grow-tally {
+  from {
+    transform: scaleY(0);
+  }
+}
+
 @keyframes turn {
   50% {
     transform: scaleX(0.1);
@@ -387,7 +422,9 @@
   .sandA,
   .sandB,
   .stream,
-  .meridian {
+  .meridian,
+  .cArc,
+  .tally {
     animation: none !important;
     transition: none !important;
     transform: none !important;

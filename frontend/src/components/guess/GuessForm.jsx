@@ -13,7 +13,7 @@ import { useLanguage, useStrings } from '../../i18n.js'
 import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
 import { Hatch } from '../ui/Hatch.jsx'
-import { BuildingIcon, CompassIcon, GlobeIcon, HourglassIcon, RevealIcon } from '../ui/InstrumentIcons.jsx'
+import { BuildingIcon, CenturyIcon, CompassIcon, DecadeIcon, GlobeIcon, HourglassIcon, RevealIcon } from '../ui/InstrumentIcons.jsx'
 import { CountryCombobox } from './CountryCombobox.jsx'
 import { EraCombobox } from './EraCombobox.jsx'
 import styles from './GuessForm.module.css'
@@ -271,7 +271,7 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
       century: (
         <Field
           {...fieldProps('century')}
-          icon={HourglassIcon}
+          icon={CenturyIcon}
           dial={values.century && <Dial key="century" n={Number(values.century)} text={strings.themed.century(Number(values.century))} />}
         >
           {(props) => (
@@ -289,7 +289,7 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
       decade: (
         <Field
           {...fieldProps('decade')}
-          icon={HourglassIcon}
+          icon={DecadeIcon}
           dial={values.decade && <Dial key="decade" n={Number(values.decade)} text={strings.themed.decade(Number(values.decade))} />}
         >
           {(props) => (
