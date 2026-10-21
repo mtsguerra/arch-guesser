@@ -54,13 +54,13 @@
       {
         "aliases": [],
         "nationality": "italiano",
-        "lifespan": "",
+        "lifespan": null,
         "bio": "Arquiteto que iniciou o Teatro Colón em 1889 e morreu em 1891."
       },
       {
         "aliases": [],
         "nationality": "italiano",
-        "lifespan": "",
+        "lifespan": null,
         "bio": "Arquiteto que deu continuidade ao Teatro Colón após a morte de Tamburini e foi assassinado em 1904."
       },
       {
@@ -68,7 +68,7 @@
           "Jules Dormal"
         ],
         "nationality": "belga",
-        "lifespan": "",
+        "lifespan": null,
         "bio": "Arquiteto belga que concluiu o Teatro Colón."
       }
     ],
@@ -227,7 +227,7 @@
       {
         "aliases": [],
         "nationality": "italiano",
-        "lifespan": "",
+        "lifespan": null,
         "bio": "Discípulo de Juvarra, que deu continuidade à obra do Palácio Real de Madri."
       }
     ],

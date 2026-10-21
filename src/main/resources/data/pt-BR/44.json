@@ -61,8 +61,8 @@
         "aliases": [
           "Cavaleiros Teutônicos"
         ],
-        "nationality": "",
-        "lifespan": "",
+        "nationality": null,
+        "lifespan": null,
         "bio": "Mestres de obras da Ordem Teutônica, que ergueram o castelo entre 1274 e 1406."
       }
     ],
@@ -202,8 +202,8 @@
     "architects": [
       {
         "aliases": [],
-        "nationality": "",
-        "lifespan": "",
+        "nationality": null,
+        "lifespan": null,
         "bio": "Construtores mouros ergueram as fortificações no século X; reis portugueses, entre eles D. Dinis por volta de 1300, transformaram depois a alcáçova em paço real e ampliaram as muralhas."
       }
     ],
@@ -248,8 +248,8 @@
     "architects": [
       {
         "aliases": [],
-        "nationality": "",
-        "lifespan": "",
+        "nationality": null,
+        "lifespan": null,
         "bio": "Construído por ordem da condessa Mumadona Dias no século X, ampliado pelo conde D. Henrique no fim do século XI e remodelado por D. Dinis por volta de 1300."
       }
     ],

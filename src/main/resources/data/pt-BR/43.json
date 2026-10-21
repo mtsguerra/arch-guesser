@@ -163,8 +163,8 @@
       },
       {
         "aliases": [],
-        "nationality": "",
-        "lifespan": "",
+        "nationality": null,
+        "lifespan": null,
         "bio": "Os romanos fortificaram a colina por volta de 100 a.C.; visigodos, a família Trencavel e os reis da França construíram e ampliaram depois as muralhas e torres."
       }
     ],
@@ -212,8 +212,8 @@
         "aliases": [
           "Cavaleiros Hospitalários"
         ],
-        "nationality": "",
-        "lifespan": "",
+        "nationality": null,
+        "lifespan": null,
         "bio": "Os Cavaleiros Hospitalários receberam o local em 1142 e o reconstruíram em duas fases, acrescentando as muralhas externas no início do século XIII para fazer dele um castelo concêntrico."
       }
     ],
@@ -258,8 +258,8 @@
     "architects": [
       {
         "aliases": [],
-        "nationality": "",
-        "lifespan": "",
+        "nationality": null,
+        "lifespan": null,
         "bio": "Construído pelos almorávidas sobre fundações romanas, depois reconstruído e ampliado por reis castelhanos, entre eles João II no século XV e Filipe II no XVI."
       }
     ],

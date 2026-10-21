@@ -19008,8 +19008,8 @@
       {
         "name": "Unknown Gallo-Roman and medieval builders",
         "aliases": [],
-        "lifespan": "",
-        "nationality": "",
+        "lifespan": null,
+        "nationality": null,
         "bio": "The Romans fortified the hill around 100 BC; the Visigoths, the Trencavel family and the kings of France later built and extended the walls and towers."
       }
     ],
@@ -19085,8 +19085,8 @@
         "aliases": [
           "Knights Hospitaller"
         ],
-        "lifespan": "",
-        "nationality": "",
+        "lifespan": null,
+        "nationality": null,
         "bio": "The Knights Hospitaller received the site in 1142 and rebuilt it in two phases, adding the outer walls in the early 13th century to make it a concentric castle."
       }
     ],
@@ -19159,8 +19159,8 @@
       {
         "name": "Unknown Almoravid and Castilian builders",
         "aliases": [],
-        "lifespan": "",
-        "nationality": "",
+        "lifespan": null,
+        "nationality": null,
         "bio": "Built by the Almoravids on Roman foundations, then rebuilt and extended by Castilian kings, including John II in the 15th century and Philip II in the 16th."
       }
     ],
@@ -19314,8 +19314,8 @@
         "aliases": [
           "Teutonic Knights"
         ],
-        "lifespan": "",
-        "nationality": "",
+        "lifespan": null,
+        "nationality": null,
         "bio": "Master builders of the Teutonic Order, who raised the castle between 1274 and 1406."
       }
     ],
@@ -19542,8 +19542,8 @@
       {
         "name": "Unknown Moorish and Portuguese builders",
         "aliases": [],
-        "lifespan": "",
-        "nationality": "",
+        "lifespan": null,
+        "nationality": null,
         "bio": "Moorish builders raised the fortifications in the 10th century; Portuguese kings, including Denis around 1300, later turned the alcáçova into a royal palace and extended the walls."
       }
     ],
@@ -19617,8 +19617,8 @@
       {
         "name": "Unknown medieval builders",
         "aliases": [],
-        "lifespan": "",
-        "nationality": "",
+        "lifespan": null,
+        "nationality": null,
         "bio": "Built on the orders of Countess Mumadona Dias in the 10th century, expanded by Count Henry in the late 11th century and remodelled by King Denis around 1300."
       }
     ],
@@ -20274,7 +20274,7 @@
         "aliases": [
           "Tamburini"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Italian",
         "bio": "Architect who began the Teatro Colón in 1889 and died in 1891."
       },
@@ -20283,7 +20283,7 @@
         "aliases": [
           "Meano"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Italian",
         "bio": "Architect who continued the Teatro Colón after Tamburini's death and was murdered in 1904."
       },
@@ -20293,7 +20293,7 @@
           "Jules Dormal",
           "Julio Dormal"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Belgian",
         "bio": "Belgian architect who completed the Teatro Colón."
       }
@@ -20555,7 +20555,7 @@
           "Giambattista Sacchetti",
           "Sacchetti"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Italian",
         "bio": "Juvarra's disciple, who continued the work on the Royal Palace of Madrid."
       }
@@ -21545,14 +21545,14 @@
       {
         "name": "Alexandre Chan",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Brazilian",
         "bio": "Architect of the Juscelino Kubitschek Bridge, who received the 2003 Gustav Lindenthal Medal for it."
       },
       {
         "name": "Mário Vila Verde",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Brazilian",
         "bio": "Structural engineer of the Juscelino Kubitschek Bridge."
       }
@@ -22441,14 +22441,14 @@
       {
         "name": "Unknown Portuguese builders",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Anonymous builders of the late 18th-century chapel, which was enlarged and restored in 1801."
       },
       {
         "name": "Eduardo Leite",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Painter who designed the 1929 azulejo panels, made at the Viúva Lamego factory in Lisbon."
       }
@@ -22524,7 +22524,7 @@
       {
         "name": "José Figueiredo Seixas",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Architect of the Carmo church, built for the Third Order of Carmel between 1756 and 1768."
       }
@@ -22606,7 +22606,7 @@
       {
         "name": "Unknown Portuguese builders",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Builders of the hunting pavilion raised in 1671-72 for João de Mascarenhas, 1st Marquis of Fronteira."
       }
@@ -22683,7 +22683,7 @@
       {
         "name": "Unknown Portuguese builders",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Builders of the Madre de Deus convent, founded by Queen Leonor in 1509."
       }
@@ -22766,7 +22766,7 @@
       {
         "name": "Unknown Portuguese builders",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Builders of the late 17th-century church; its interior was tiled in 1730 with panels by Policarpo de Oliveira Bernardes."
       }
@@ -22842,7 +22842,7 @@
       {
         "name": "Unknown Portuguese builders",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Anonymous builders of the Douro Line station, which opened in 1880; its tile panels were installed in 1937."
       }
@@ -22925,7 +22925,7 @@
       {
         "name": "António Rodrigues da Silva Júnior",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Architect who directed the 1919 renovation that turned the old palace into a casino with a revivalist interior."
       }
@@ -23007,28 +23007,28 @@
       {
         "name": "Waldir Ramos",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Brazilian",
         "bio": "Brazilian architect credited as one of the designers of the Maracanã Stadium, built for the 1950 FIFA World Cup."
       },
       {
         "name": "Raphael Galvão",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Brazilian",
         "bio": "Brazilian architect credited as one of the designers of the Maracanã Stadium, built for the 1950 FIFA World Cup."
       },
       {
         "name": "Miguel Feldman",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Brazilian",
         "bio": "Brazilian architect credited as one of the designers of the Maracanã Stadium, built for the 1950 FIFA World Cup."
       },
       {
         "name": "Oscar Valdetaro",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Brazilian",
         "bio": "Brazilian architect credited as one of the designers of the Maracanã Stadium, built for the 1950 FIFA World Cup."
       }
@@ -23183,7 +23183,7 @@
         "aliases": [
           "Francesc Mitjans Miró"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Spanish",
         "bio": "Catalan architect who, with Josep Soteras, designed the Camp Nou, which opened in 1957."
       },
@@ -23192,14 +23192,14 @@
         "aliases": [
           "Josep Soteras Mauri"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Spanish",
         "bio": "Catalan architect who, with Francesc Mitjans, designed the Camp Nou, which opened in 1957."
       },
       {
         "name": "Lorenzo García-Barbón",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Spanish",
         "bio": "Architect who collaborated with Mitjans and Soteras on the design of the Camp Nou."
       }
@@ -23360,8 +23360,8 @@
         "aliases": [
           "HOK Sport"
         ],
-        "lifespan": "",
-        "nationality": "",
+        "lifespan": null,
+        "nationality": null,
         "bio": "Architect at HOK Sport Venue Event (now Populous) who designed the Estádio da Luz, opened in 2003."
       }
     ],
@@ -23438,14 +23438,14 @@
         "aliases": [
           "Jacobetty Rosa"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Portuguese architect credited in the design of the Estádio Nacional, inaugurated in 1944."
       },
       {
         "name": "Francisco Caldeira Cabral",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Portuguese",
         "bio": "Portuguese designer who took part in the original design of the Estádio Nacional."
       },
@@ -23454,8 +23454,8 @@
         "aliases": [
           "Konrad Weisner"
         ],
-        "lifespan": "",
-        "nationality": "",
+        "lifespan": null,
+        "nationality": null,
         "bio": "Named among the authors of the original design of the Estádio Nacional."
       }
     ],
@@ -23532,7 +23532,7 @@
         "aliases": [
           "Lycurgus"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Greek",
         "bio": "Athenian statesman who built the first stadium on the site around 330/329 BC."
       },
@@ -23541,14 +23541,14 @@
         "aliases": [
           "Herodes Atticus of Athens"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Greek",
         "bio": "Athenian Roman senator who rebuilt the stadium in Pentelic marble, completed around 144 AD."
       },
       {
         "name": "Anastasios Metaxas",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Greek",
         "bio": "Architect who prepared the plan for the 1896 reconstruction of the stadium for the first modern Olympic Games."
       }
@@ -23624,7 +23624,7 @@
       {
         "name": "Werner March",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "German",
         "bio": "Architect who designed the 1936 Olympic Stadium in Berlin, with his brother Walter assisting."
       }
@@ -23701,14 +23701,14 @@
         "aliases": [
           "Behnisch & Partner"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "German",
         "bio": "Architect whose firm Behnisch & Partner won the 1967 competition for the Munich Olympic Park and its stadium."
       },
       {
         "name": "Frei Otto",
         "aliases": [],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "German",
         "bio": "Engineer of the lightweight tent roof of the Munich Olympic Stadium, a revolutionary construction of acrylic glass on steel cables."
       }
@@ -23786,7 +23786,7 @@
         "aliases": [
           "Ramos de Azevedo office"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Brazilian",
         "bio": "São Paulo architectural office of Ramos de Azevedo, credited with the design of the Pacaembu Stadium."
       },
@@ -23795,7 +23795,7 @@
         "aliases": [
           "Severo & Villares"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Brazilian",
         "bio": "São Paulo firm credited, with the Ramos de Azevedo office, with the design of the Pacaembu Stadium."
       }
@@ -25387,7 +25387,7 @@
         "aliases": [
           "Van Bogaert"
         ],
-        "lifespan": "",
+        "lifespan": null,
         "nationality": "Belgian",
         "bio": "Engineer who designed the iron-and-glass train hall of Antwerpen-Centraal."
       }

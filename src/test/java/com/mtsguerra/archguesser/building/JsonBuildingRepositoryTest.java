@@ -24,6 +24,16 @@ class JsonBuildingRepositoryTest {
     }
 
     @Test
+    void everyThemeHasEnoughShippedBuildings() {
+        var repository = new JsonBuildingRepository(jsonMapper, new ClassPathResource("data/buildings.json"));
+
+        for (String theme : BuildingValidator.THEMES) {
+            long count = repository.findAll().stream().filter(b -> b.themes().contains(theme)).count();
+            assertThat(count).as(theme).isGreaterThanOrEqualTo(BuildingValidator.MIN_THEME_BUILDINGS);
+        }
+    }
+
+    @Test
     void shippedPortugueseTranslationsCoverEveryBuildingAndMatchTheSource() throws Exception {
         var resolver = new org.springframework.core.io.support.PathMatchingResourcePatternResolver();
         var files = resolver.getResources("classpath*:data/pt-BR/*.json");
