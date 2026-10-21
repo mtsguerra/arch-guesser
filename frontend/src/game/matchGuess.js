@@ -1,6 +1,6 @@
 import { resolveCountryCode } from './countries.js'
 import { isCloseTo, normalize } from './text.js'
-import { judgeCentury, judgeDecade } from './themed.js'
+import { judgeCentury, judgeDecade } from './dates.js'
 
 export const GUESS_FIELDS = ['name', 'architect', 'country', 'era']
 

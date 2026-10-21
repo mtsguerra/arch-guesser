@@ -2,9 +2,11 @@ import { Fragment, useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
 import { Check, Eye, Target, X } from 'lucide-react'
 import { CheckIcon } from '../ui/icons.jsx'
-import { centuryOf, decadeOf, decadesOfCentury } from '../../game/themed.js'
+import { centuryOf, decadeOf, decadesOfCentury } from '../../game/dates.js'
 import { eraName } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
+import { useReducedMotion } from '../../motionPref.js'
+import { RollingNumber } from '../ui/RollingNumber.jsx'
 import { REVEAL, TICK, haptic } from '../../game/haptics.js'
 import { chime, scratch, tick } from '../../game/sound.js'
 import { useLanguage, useStrings } from '../../i18n.js'
@@ -15,6 +17,20 @@ import { BuildingIcon, CompassIcon, GlobeIcon, HourglassIcon, RevealIcon } from 
 import { CountryCombobox } from './CountryCombobox.jsx'
 import { EraCombobox } from './EraCombobox.jsx'
 import styles from './GuessForm.module.css'
+
+/** The picked century or decade as a dial: the number rolls to its new value, the words around it stay. */
+function Dial({ text, n }) {
+  const digits = String(Math.abs(n))
+  const at = text.indexOf(digits)
+  if (at < 0) return <span className={styles.dial}>{text}</span>
+  return (
+    <motion.span className={styles.dial} aria-hidden="true" initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: duration.base, ease: easeOut }}>
+      {text.slice(0, at)}
+      <RollingNumber value={Math.abs(n)} fade />
+      {text.slice(at + digits.length)}
+    </motion.span>
+  )
+}
 
 const shake = { x: [0, -7, 7, -4, 4, 0], transition: { duration: 0.4, ease: 'easeOut' } }
 
@@ -42,7 +58,7 @@ function answerFor(field, building, eras, { strings, lang }) {
  * canonical answer, plotted in like the title block, so "Savoy" is corrected
  * to "Villa Savoye" the moment it locks.
  */
-function Field({ id, field, icon: Icon, status, attempts, revealed, answer, children }) {
+function Field({ id, field, icon: Icon, status, attempts, revealed, answer, dial, children }) {
   const strings = useStrings()
   const controls = useAnimationControls()
   const messageId = `${id}-message`
@@ -54,6 +70,7 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
       controls.start(shake)
       scratch()
     }
+    if (status === 'close') controls.start({ scale: [1, 1.02, 1], transition: { duration: 0.4, ease: easeOut } })
   }, [status, attempts, controls])
 
   const locked = status === 'correct'
@@ -72,9 +89,12 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
 
   return (
     <motion.div className={styles.field} data-motion data-status={revealed ? (locked ? 'correct' : 'revealed') : status} animate={controls}>
-      <label className={styles.label} htmlFor={id}>
-        {strings.guess.fields[field]}
-      </label>
+      <div className={styles.labelRow}>
+        <label className={styles.label} htmlFor={id}>
+          {strings.guess.fields[field]}
+        </label>
+        {dial}
+      </div>
 
       <div className={styles.control}>
         {Icon && <Icon className={styles.icon} aria-hidden="true" strokeWidth={1.75} />}
@@ -140,6 +160,7 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
   const idPrefix = useId()
   const names = Object.keys(fields) // the fields this round asks, in the order they are drawn
   const [values, setValues] = useState(() => Object.fromEntries(names.map((f) => [f, ''])))
+  const reduce = useReducedMotion()
   const [nothingToCheck, setNothingToCheck] = useState(false)
   const revealed = phase === 'revealed'
 
@@ -247,7 +268,11 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
           </Field>
       ),
       century: (
-        <Field {...fieldProps('century')} icon={HourglassIcon}>
+        <Field
+          {...fieldProps('century')}
+          icon={HourglassIcon}
+          dial={values.century && <Dial key="century" n={Number(values.century)} text={strings.themed.century(Number(values.century))} />}
+        >
           {(props) => (
             <select {...props} className={`${styles.input} ${styles.select}`} value={values.century} onChange={(e) => update('century', e.target.value)}>
               <option value="">{strings.guess.placeholders.century}</option>
@@ -261,8 +286,20 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
         </Field>
       ),
       decade: (
-        <Field {...fieldProps('decade')} icon={HourglassIcon}>
+        <Field
+          {...fieldProps('decade')}
+          icon={HourglassIcon}
+          dial={values.decade && <Dial key="decade" n={Number(values.decade)} text={strings.themed.decade(Number(values.decade))} />}
+        >
           {(props) => (
+            <motion.span
+              // Picking a century sweeps its decades open.
+              key={values.century}
+              style={{ display: 'block' }}
+              initial={reduce || !values.century ? false : { clipPath: 'inset(0 100% 0 0)' }}
+              animate={{ clipPath: 'inset(0 0% 0 0)' }}
+              transition={{ duration: duration.base, ease: easeOut }}
+            >
             <select
               {...props}
               className={`${styles.input} ${styles.select}`}
@@ -278,6 +315,7 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
                   </option>
                 ))}
             </select>
+            </motion.span>
           )}
         </Field>
       ),

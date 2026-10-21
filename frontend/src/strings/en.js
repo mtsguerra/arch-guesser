@@ -116,6 +116,7 @@ export default {
     sheet: 'Index sheet',
     heading: 'Themed game',
     lead: 'Pick a theme, then how much you want to guess.',
+    pickOne: 'Pick a theme to see its levels.',
     themeStep: 'Theme',
     levelStep: 'Difficulty',
     themes: {

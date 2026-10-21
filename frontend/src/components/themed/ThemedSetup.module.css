@@ -2,7 +2,7 @@
   display: grid;
   gap: var(--space-5);
   align-content: start;
-  max-width: 44rem;
+  max-width: 72rem;
   margin-inline: auto;
   padding-block: var(--space-5);
 }
@@ -50,6 +50,16 @@
 
 .lead {
   color: var(--ink-soft);
+}
+
+.body {
+  display: grid;
+  gap: var(--space-5);
+  align-items: start;
+}
+
+.detail {
+  display: none;
 }
 
 /* One index sheet: ruled rows, corner marks like a plotted border. */
@@ -252,5 +262,68 @@
   .drawerInner {
     margin-left: var(--space-3);
     margin-right: var(--space-3);
+  }
+}
+
+/* Wide screens: the index in two columns, the chosen theme's card beside it. */
+@media (min-width: 1025px) {
+  .body {
+    grid-template-columns: minmax(0, 1.7fr) minmax(20rem, 1fr);
+  }
+
+  .sheet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(var(--rows), auto);
+    grid-auto-flow: column;
+  }
+
+  .row + .row {
+    border-top: 0;
+  }
+
+  .row:not([data-first]) {
+    border-top: var(--hairline) solid var(--paper-rule);
+  }
+
+  .row[data-col2] {
+    border-left: var(--hairline) solid var(--paper-rule);
+  }
+
+  .drawer,
+  .caret {
+    display: none;
+  }
+
+  .detail {
+    position: sticky;
+    top: var(--space-5);
+    display: grid;
+    gap: var(--space-3);
+    padding: var(--space-5);
+    border: 2px solid var(--paper-rule);
+    background: var(--paper);
+    box-shadow: 0.25rem 0.25rem 0 color-mix(in oklab, var(--accent) 18%, transparent);
+  }
+
+  .detailHead {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding-bottom: var(--space-3);
+    border-bottom: var(--hairline) dashed var(--ink-soft);
+  }
+
+  .detailIcon {
+    width: 3rem;
+    height: 3rem;
+    color: var(--accent);
+  }
+
+  .detailName {
+    font-size: var(--text-lg);
+    font-weight: 750;
+    font-stretch: var(--stretch-wide);
+    line-height: var(--leading-display);
   }
 }

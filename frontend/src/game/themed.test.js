@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { centuryOf, decadeOf, erasIn, fieldsFor, judgeCentury, judgeDecade, themePool, themesOf } from './themed.js'
+import { centuriesIn, centuryOf, decadeOf, decadesOfCentury, judgeCentury, judgeDecade } from './dates.js'
+import { erasIn, fieldsFor, themePool, themesOf } from './themed.js'
 import { evaluateGuess } from './matchGuess.js'
 
 const entry = (id, themes, extra = {}) => ({ id, themes, era: 'MEDIEVAL', architects: ['Unknown masons'], yearCompleted: 1250, ...extra })
@@ -77,8 +78,7 @@ describe('fieldsFor', () => {
 })
 
 describe('themed sessions', () => {
-  it('lists centuries across the pool without a century 0', async () => {
-    const { centuriesIn, decadesOfCentury } = await import('./themed.js')
+  it('lists centuries across the pool without a century 0', () => {
     expect(centuriesIn([{ yearCompleted: -50 }, { yearCompleted: 120 }, { yearCompleted: null }])).toEqual([-1, 1, 2])
     expect(decadesOfCentury(19)).toEqual([1800, 1810, 1820, 1830, 1840, 1850, 1860, 1870, 1880, 1890, 1900])
     // A year that ends a century keeps its decade in that century's list.

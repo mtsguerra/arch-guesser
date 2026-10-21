@@ -116,6 +116,7 @@ export default {
     sheet: 'Folha de índice',
     heading: 'Jogo temático',
     lead: 'Escolha um tema e depois quanto quer adivinhar.',
+    pickOne: 'Escolha um tema para ver os níveis.',
     themeStep: 'Tema',
     levelStep: 'Dificuldade',
     themes: {

@@ -23,6 +23,37 @@ const ICONS = {
   'portuguese-azulejo': LayoutGrid, 'modern-icons': Sparkles,
 }
 
+/** The three difficulties as a radio group: one tab stop, arrow keys move and pick. */
+function LevelPicker({ level, onPick, label, levels }) {
+  const onKeyDown = (e) => {
+    const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key]
+    if (!step) return
+    e.preventDefault()
+    const next = LEVELS[(LEVELS.indexOf(level) + step + LEVELS.length) % LEVELS.length]
+    onPick(next)
+    e.currentTarget.querySelector(`[data-level="${next}"]`)?.focus()
+  }
+  return (
+    <div role="radiogroup" aria-label={label} className={styles.levels} onKeyDown={onKeyDown}>
+      {LEVELS.map((l) => (
+        <button
+          key={l}
+          type="button"
+          role="radio"
+          data-level={l}
+          aria-checked={level === l}
+          tabIndex={level === l ? 0 : -1}
+          className={styles.level}
+          onClick={() => onPick(l)}
+        >
+          <span className={styles.levelName}>{levels[l - 1].name}</span>
+          <span>{levels[l - 1].text}</span>
+        </button>
+      ))}
+    </div>
+  )
+}
+
 /** The theme index: one numbered row per theme; the chosen row opens its difficulty strip. */
 export function ThemedSetup() {
   const strings = useStrings()
@@ -44,6 +75,10 @@ export function ThemedSetup() {
     return Object.keys(themed.themes).filter((id) => counts.has(id)).map((id) => ({ id, count: counts.get(id) }))
   }, [catalogue, themed.themes])
 
+  const half = Math.max(1, Math.ceil(rows.length / 2))
+  const picked = rows.find((r) => r.id === pick.theme)
+  const PickedIcon = ICONS[pick.theme] ?? Landmark
+
   const start = () => {
     startThemedSession(themePool(catalogue, pick.theme), pick.theme, pick.level)
     window.location.hash = '#/themed/play'
@@ -61,12 +96,13 @@ export function ThemedSetup() {
         {failed && <p role="alert">{themed.failed}</p>}
         {catalogue && rows.length === 0 && <p>{themed.empty}</p>}
 
-        <ol className={styles.sheet} aria-label={themed.themeStep}>
+        <div className={styles.body}>
+        <ol className={styles.sheet} aria-label={themed.themeStep} style={{ '--rows': half }}>
           {rows.map(({ id, count }, i) => {
             const Icon = ICONS[id] ?? Landmark
             const open = pick.theme === id
             return (
-              <li key={id} className={styles.row} data-open={open || undefined}>
+              <li key={id} className={styles.row} data-open={open || undefined} data-first={i % half === 0 || undefined} data-col2={i >= half || undefined}>
                 <button
                   type="button"
                   className={styles.theme}
@@ -92,21 +128,7 @@ export function ThemedSetup() {
                     >
                       <div className={styles.drawerInner}>
                         <p className={styles.levelTitle}>{themed.levelStep}</p>
-                        <div role="radiogroup" aria-label={themed.levelStep} className={styles.levels}>
-                          {LEVELS.map((level) => (
-                            <button
-                              key={level}
-                              type="button"
-                              role="radio"
-                              aria-checked={pick.level === level}
-                              className={styles.level}
-                              onClick={() => setPick((p) => ({ ...p, level }))}
-                            >
-                              <span className={styles.levelName}>{themed.levels[level - 1].name}</span>
-                              <span>{themed.levels[level - 1].text}</span>
-                            </button>
-                          ))}
-                        </div>
+                        <LevelPicker level={pick.level} onPick={(level) => setPick((p) => ({ ...p, level }))} label={themed.levelStep} levels={themed.levels} />
                         <div className={styles.go}>
                           <span className={styles.rounds}>{themed.rounds(Math.min(THEMED_ROUNDS, count))}</span>
                           <Button icon={PlayIcon} onClick={start}>
@@ -121,6 +143,32 @@ export function ThemedSetup() {
             )
           })}
         </ol>
+
+        {/* Wide screens: the chosen theme's levels sit in a card beside the index instead of a drawer. */}
+        <aside className={styles.detail} aria-label={themed.levelStep}>
+          {picked ? (
+            <>
+              <div className={styles.detailHead}>
+                <PickedIcon className={styles.detailIcon} aria-hidden="true" strokeWidth={1.4} />
+                <div>
+                  <p className={styles.detailName}>{themed.themes[pick.theme]}</p>
+                  <p className={styles.count}>{themed.count(picked.count)}</p>
+                </div>
+              </div>
+              <p className={styles.levelTitle}>{themed.levelStep}</p>
+              <LevelPicker level={pick.level} onPick={(level) => setPick((p) => ({ ...p, level }))} label={themed.levelStep} levels={themed.levels} />
+              <div className={styles.go}>
+                <span className={styles.rounds}>{themed.rounds(Math.min(THEMED_ROUNDS, picked.count))}</span>
+                <Button icon={PlayIcon} onClick={start}>
+                  {themed.start}
+                </Button>
+              </div>
+            </>
+          ) : (
+            <p className={styles.lead}>{themed.pickOne}</p>
+          )}
+        </aside>
+        </div>
       </div>
     </AppShell>
   )
