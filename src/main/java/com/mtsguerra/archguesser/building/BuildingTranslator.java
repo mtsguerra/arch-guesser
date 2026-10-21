@@ -29,7 +29,7 @@ final class BuildingTranslator {
         return new Building(
                 b.id(), name, List.copyOf(aliases),
                 zip(b, "architects", b.architects(), t.architects(), BuildingTranslator::architect),
-                location, b.yearCompleted(), b.era(), orElse(t.style(), b.style()),
+                location, b.yearCompleted(), b.era(), b.themes(), orElse(t.style(), b.style()),
                 zip(b, "drawings", b.drawings(), t.drawings(), BuildingTranslator::drawing),
                 zip(b, "photos", b.photos(), t.photos(), BuildingTranslator::photo),
                 zip(b, "hints", b.hints(), t.hints(), (h, text) -> new Hint(h.order(), orElse(text, h.text()))),

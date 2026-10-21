@@ -1,7 +1,7 @@
 // Turns the Spring Boot catalogue into static JSON so the app can be hosted on a static host.
 //   public/api/eras.json                 -> GET /api/eras
 //   public/api/buildings/index.json      -> every building id (the browser picks the random one)
-//   public/api/buildings/catalogue.json  -> id, architects, era, country per building (Custom mode filters)
+//   public/api/buildings/catalogue.json  -> id, architects, era, themes, year, country per building (Custom and Themed filters)
 //   public/api/buildings/{id}.json       -> GET /api/buildings/{id}
 //   public/api/pt-BR/buildings/{id}.json -> GET /api/buildings/{id}?lang=pt-BR (translated text)
 // The Java side stays the source of truth: BuildingValidator checks buildings.json at startup and
@@ -146,13 +146,15 @@ rmSync(out, { recursive: true, force: true })
 mkdirSync(join(out, 'buildings'), { recursive: true })
 write(join(out, 'eras.json'), eras)
 write(join(out, 'buildings', 'index.json'), buildings.map((b) => b.id))
-// The fields Custom mode filters on (mirrors CatalogueEntry.java).
+// The fields Custom and Themed mode filter on (mirrors CatalogueEntry.java).
 write(
   join(out, 'buildings', 'catalogue.json'),
   buildings.map((b) => ({
     id: b.id,
     architects: b.architects.map((a) => a.name),
     era: b.era,
+    themes: b.themes ?? [],
+    yearCompleted: b.yearCompleted,
     countryCode: b.location.countryCode,
     country: b.location.country,
   })),

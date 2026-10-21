@@ -1,5 +1,6 @@
 import { resolveCountryCode } from './countries.js'
 import { isCloseTo, normalize } from './text.js'
+import { judgeCentury, judgeDecade } from './themed.js'
 
 export const GUESS_FIELDS = ['name', 'architect', 'country', 'era']
 
@@ -72,7 +73,12 @@ export function matchesName(guess, names, { person = false } = {}) {
 export function evaluateGuess(building, values) {
   const judge = (value, isCorrect) => (String(value ?? '').trim() ? isCorrect(value) : null)
 
+  const themed = {}
+  if ('century' in values) themed.century = judge(values.century, (v) => judgeCentury(v, building.yearCompleted))
+  if ('decade' in values) themed.decade = judge(values.decade, (v) => judgeDecade(v, building.yearCompleted))
+
   return {
+    ...themed,
     name: judge(values.name, (v) => matchesName(v, [building.name, ...building.aliases])),
     architect: judge(values.architect, (v) =>
       building.architects.some((a) => matchesName(v, [a.name, ...a.aliases], { person: true })),

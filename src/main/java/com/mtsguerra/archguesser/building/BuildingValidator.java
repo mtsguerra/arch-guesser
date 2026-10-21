@@ -14,6 +14,14 @@ final class BuildingValidator {
 
     static final int MIN_HINTS = 2;
 
+    /** Themed mode's themes; each needs at least MIN_THEME_BUILDINGS buildings (asserted over the shipped data). */
+    static final Set<String> THEMES = Set.of(
+            "castles", "churches-cathedrals", "mosques", "monasteries", "palaces", "museums", "theatres-opera",
+            "railway-stations", "bridges-towers", "skyscrapers", "libraries", "houses-villas", "stadiums",
+            "asian-temples", "ancient-ruins", "brutalism", "art-nouveau", "art-deco", "portuguese-azulejo",
+            "modern-icons");
+    static final int MIN_THEME_BUILDINGS = 10;
+
     private static final Pattern ID = Pattern.compile("[a-z0-9]+(-[a-z0-9]+)*");
     private static final Pattern COUNTRY_CODE = Pattern.compile("[A-Z]{2}");
     private static final String REMOTE_ASSETS = "https://upload.wikimedia.org/";
@@ -43,6 +51,9 @@ final class BuildingValidator {
             }
             e.requireText(b.name(), "name");
             if (b.era() == null) e.add("era is required");
+            for (String theme : b.themes()) {
+                if (!THEMES.contains(theme)) e.add("unknown theme '" + theme + "'");
+            }
 
             validateArchitects(b.architects(), e);
             validateLocation(b.location(), e);

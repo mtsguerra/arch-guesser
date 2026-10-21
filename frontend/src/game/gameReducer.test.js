@@ -123,3 +123,12 @@ describe('building/translate', () => {
     expect(gameReducer(state, { type: 'building/translate', building: { ...building, id: 'b' } })).toBe(state)
   })
 })
+
+describe('themed rounds', () => {
+  it('asks only the given fields and reveals when those are correct', () => {
+    let state = gameReducer(initialState, { type: 'load/success', building: villaSavoye, fields: ['name', 'era'] })
+    expect(Object.keys(state.fields)).toEqual(['name', 'era'])
+    state = gameReducer(state, { type: 'guess/submit', results: { name: true, era: true }, values: {} })
+    expect(state.phase).toBe('revealed')
+  })
+})

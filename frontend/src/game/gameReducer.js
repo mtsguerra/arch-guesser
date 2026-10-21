@@ -14,13 +14,14 @@ import { GUESS_FIELDS } from './matchGuess.js'
  * `fields` holds each guess field's status: 'idle' | 'wrong' | 'close' | 'correct'.
  * Correct fields lock. `outcome` is 'solved' or 'gaveUp' once revealed.
  */
-const idleFields = Object.fromEntries(GUESS_FIELDS.map((f) => [f, 'idle']))
+const idle = (fields) => Object.fromEntries(fields.map((f) => [f, 'idle']))
 
 export const initialState = {
   phase: 'loading',
   building: null,
   hintLevel: 0,
-  fields: idleFields,
+  guessFields: GUESS_FIELDS,
+  fields: idle(GUESS_FIELDS),
   attempts: 0,
   log: [], // wrong guesses so far: [{ field, text }], newest last
   hintsUsed: 0,
@@ -38,7 +39,8 @@ export function gameReducer(state, action) {
       return { ...state, phase: 'loading', error: null }
 
     case 'load/success':
-      return { ...initialState, phase: 'playing', building: action.building }
+      // Themed rounds ask their own fields (action.fields); the other modes ask all four.
+      return { ...initialState, phase: 'playing', building: action.building, guessFields: action.fields ?? GUESS_FIELDS, fields: idle(action.fields ?? GUESS_FIELDS) }
 
     case 'load/restore': {
       // A finished daily coming back: straight to the reveal, with the saved result.
@@ -64,19 +66,19 @@ export function gameReducer(state, action) {
     case 'guess/submit': {
       if (state.phase !== 'playing') return state
       const fields = { ...state.fields }
-      for (const field of GUESS_FIELDS) {
+      for (const field of state.guessFields) {
         if (fields[field] === 'correct') continue
         const result = action.results[field]
         fields[field] = result === true ? 'correct' : result === 'close' ? 'close' : result === false ? 'wrong' : 'idle'
       }
       const log = [...state.log]
-      for (const field of GUESS_FIELDS) {
+      for (const field of state.guessFields) {
         const text = String(action.values?.[field] ?? '').trim()
         const seen = log.some((e) => e.field === field && e.text.toLowerCase() === text.toLowerCase())
         if (state.fields[field] !== 'correct' && action.results[field] === false && text && !seen) log.push({ field, text })
       }
       const next = { ...state, fields, log, attempts: state.attempts + 1 }
-      return GUESS_FIELDS.every((f) => fields[f] === 'correct') ? reveal(next, 'solved') : next
+      return state.guessFields.every((f) => fields[f] === 'correct') ? reveal(next, 'solved') : next
     }
 
     case 'guess/edit':
