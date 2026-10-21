@@ -1,3 +1,5 @@
+import { isId, read, shuffle, write } from './custom.js'
+
 export const THEMED_ROUNDS = 10
 export const MIN_THEME_BUILDINGS = 10
 export const LEVELS = [1, 2, 3]
@@ -71,3 +73,64 @@ export function fieldsFor(level, pool, building) {
   }
   return LEVEL_FIELDS[level].filter((f) => !skip[f])
 }
+
+/** Centuries from the earliest to the latest dated building of the pool, BCE first, with no century 0. */
+export function centuriesIn(pool) {
+  const cs = pool.filter((b) => b.yearCompleted != null).map((b) => centuryOf(b.yearCompleted))
+  if (!cs.length) return []
+  const out = []
+  for (let c = Math.min(...cs); c <= Math.max(...cs); c++) if (c !== 0) out.push(c)
+  return out
+}
+
+/** First years of the ten decades of a CE century (19 -> 1800 ... 1890). */
+export const decadesOfCentury = (c) => Array.from({ length: 10 }, (_, i) => (c - 1) * 100 + i * 10)
+
+// A themed session is one shuffled run through ten buildings of a theme; it lives in this tab only.
+const SESSION_KEY = 'arch-guesser:themed-session'
+
+export function startThemedSession(pool, theme, level, random) {
+  const ids = shuffle(pool.map((b) => b.id), random).slice(0, THEMED_ROUNDS)
+  const session = { theme, level, ids, index: 0, played: [] }
+  write(sessionStorage, SESSION_KEY, session)
+  return session
+}
+
+export function readThemedSession() {
+  const s = read(sessionStorage, SESSION_KEY)
+  if (!s || !isId(s.theme) || !LEVELS.includes(s.level) || !Array.isArray(s.ids) || !s.ids.every(isId)) return null
+  if (!Number.isInteger(s.index) || s.index < 0) return null
+  // Only https links reach an <a href> from here.
+  const played = (Array.isArray(s.played) ? s.played : [])
+    .filter((p) => p && isId(p.id) && typeof p.name === 'string' && typeof p.wikipedia === 'string' && p.wikipedia.startsWith('https://'))
+    .map((p) => ({ id: p.id, name: p.name, wikipedia: p.wikipedia, year: Number.isInteger(p.year) ? p.year : null, solved: p.solved === true }))
+  return { theme: s.theme, level: s.level, ids: s.ids, index: s.index, played }
+}
+
+export const restoreThemedSession = (session) => write(sessionStorage, SESSION_KEY, session)
+export const clearThemedSession = () => {
+  try {
+    sessionStorage.removeItem(SESSION_KEY)
+  } catch {
+    // Ignore.
+  }
+}
+
+/** Moves on from `building`, recording it (and whether it was solved) for the recap. */
+export function advanceThemedSession(session, building, solved) {
+  const played = building
+    ? [...session.played, { id: building.id, name: building.name, wikipedia: building.wikipedia, year: building.yearCompleted ?? null, solved }]
+    : session.played
+  const next = { ...session, played, index: session.index + 1 }
+  write(sessionStorage, SESSION_KEY, next)
+  return next
+}
+
+// The last theme and level picked, remembered between visits.
+const PICK_KEY = 'arch-guesser:themed'
+
+export function readThemedPick() {
+  const v = read(localStorage, PICK_KEY) ?? {}
+  return { theme: isId(v.theme) ? v.theme : null, level: LEVELS.includes(v.level) ? v.level : 1 }
+}
+export const saveThemedPick = (pick) => write(localStorage, PICK_KEY, pick)

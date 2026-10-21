@@ -91,6 +91,7 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
               <GuessForm
                 building={building}
                 eras={eras}
+                centuries={round.themed?.centuries}
                 phase={phase}
                 fields={round.fields}
                 attempts={round.attempts}

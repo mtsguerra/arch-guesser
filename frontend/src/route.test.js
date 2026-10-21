@@ -7,6 +7,8 @@ describe('routeFrom', () => {
     expect(routeFrom('#/daily')).toBe('daily')
     expect(routeFrom('#/custom')).toBe('custom')
     expect(routeFrom('#/custom/play')).toBe('customPlay')
+    expect(routeFrom('#/themed')).toBe('themed')
+    expect(routeFrom('#/themed/play')).toBe('themedPlay')
     expect(routeFrom('')).toBe('home')
     expect(routeFrom('#/')).toBe('home')
     expect(routeFrom('#/nope')).toBe('home')

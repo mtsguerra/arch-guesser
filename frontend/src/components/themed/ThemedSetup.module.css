@@ -1,0 +1,256 @@
+.setup {
+  display: grid;
+  gap: var(--space-5);
+  align-content: start;
+  max-width: 44rem;
+  margin-inline: auto;
+  padding-block: var(--space-5);
+}
+
+.intro {
+  display: grid;
+  gap: var(--space-2);
+}
+
+/* The logo floats at the top left on a wide window: the heading sits beside it. */
+@media (min-width: 1025px) {
+  .intro {
+    padding-left: 7rem;
+    min-height: 5rem;
+  }
+}
+
+.eyebrow {
+  font-size: var(--text-xs);
+  font-weight: 750;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.heading {
+  font-size: var(--text-xl);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+  font-weight: 750;
+  font-stretch: var(--stretch-wide);
+}
+
+/* A dimension line under the heading: ticks at both ends. */
+.heading::after {
+  content: '';
+  display: block;
+  height: 0.5rem;
+  margin-top: var(--space-2);
+  max-width: 14rem;
+  border-inline: 1.5px solid var(--accent);
+  background: linear-gradient(var(--accent), var(--accent)) center / 100% 1.5px no-repeat;
+}
+
+.lead {
+  color: var(--ink-soft);
+}
+
+/* One index sheet: ruled rows, corner marks like a plotted border. */
+.sheet {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 2px solid var(--paper-rule);
+  background: var(--paper);
+  box-shadow: 0.25rem 0.25rem 0 color-mix(in oklab, var(--accent) 18%, transparent);
+}
+
+.sheet::before,
+.sheet::after {
+  content: '';
+  position: absolute;
+  width: 0.875rem;
+  height: 0.875rem;
+  border: 2px solid var(--accent);
+  pointer-events: none;
+}
+
+.sheet::before {
+  top: -0.5rem;
+  left: -0.5rem;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.sheet::after {
+  right: -0.5rem;
+  bottom: -0.5rem;
+  border-left: 0;
+  border-top: 0;
+}
+
+.row + .row {
+  border-top: var(--hairline) solid var(--paper-rule);
+}
+
+.row[data-open] {
+  background: color-mix(in oklab, var(--camel) 14%, var(--paper));
+}
+
+.theme {
+  display: grid;
+  grid-template-columns: 2rem 1.5rem minmax(0, 1fr) auto 1.25rem;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  min-height: 3.25rem;
+  padding: var(--space-2) var(--space-4);
+  text-align: left;
+  border: 0;
+  background: transparent;
+  font-size: var(--text-base);
+  color: var(--ink);
+  transition: background-color var(--dur-fast) var(--ease-out);
+}
+
+.theme:hover {
+  background: color-mix(in oklab, var(--camel) 10%, transparent);
+}
+
+.theme:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: -2px;
+}
+
+.num {
+  font-size: var(--text-xs);
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--ink-soft);
+}
+
+.row[data-open] .icon {
+  color: var(--accent);
+}
+
+.name {
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.count {
+  font-size: var(--text-xs);
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.caret {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--ink-soft);
+  transition: transform var(--dur-base) var(--ease-out);
+}
+
+.row[data-open] .caret {
+  transform: rotate(180deg);
+}
+
+.drawer {
+  overflow: hidden;
+}
+
+.drawerInner {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0 var(--space-4) var(--space-4) calc(var(--space-4) + 2rem + var(--space-3));
+  padding: var(--space-3) var(--space-4) var(--space-4);
+  border: var(--hairline) dashed var(--ink-soft);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+}
+
+.levelTitle {
+  font-size: var(--text-xs);
+  font-weight: 750;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.levels {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.level {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 2.75rem;
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  border: var(--hairline) solid var(--paper-hairline);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  font-size: var(--text-sm);
+  color: var(--ink);
+  transition:
+    background-color var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out);
+}
+
+.level:hover {
+  border-color: var(--ink-soft);
+}
+
+.level:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.level[aria-checked='true'] {
+  border-color: var(--accent);
+  background: color-mix(in oklab, var(--accent) 9%, var(--paper));
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.levelName {
+  min-width: 2.25rem;
+  font-weight: 800;
+  font-stretch: var(--stretch-wide);
+  color: var(--accent);
+}
+
+.go {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.rounds {
+  font-size: var(--text-xs);
+  color: var(--ink-soft);
+}
+
+@media (max-width: 640px) {
+  .theme {
+    grid-template-columns: 1.75rem 1.5rem minmax(0, 1fr) 1.25rem;
+    padding-inline: var(--space-3);
+  }
+
+  .count {
+    display: none;
+  }
+
+  .drawerInner {
+    margin-left: var(--space-3);
+    margin-right: var(--space-3);
+  }
+}

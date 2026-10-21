@@ -305,3 +305,23 @@
     display: none;
   }
 }
+
+/* Century and decade: a native list, with a drawn caret. */
+select.select {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--ink-soft) 50%),
+    linear-gradient(135deg, var(--ink-soft) 50%, transparent 50%);
+  background-position:
+    calc(100% - 1.2rem) 50%,
+    calc(100% - 0.85rem) 50%;
+  background-size: 0.38rem 0.38rem;
+  background-repeat: no-repeat;
+}
+
+select.select:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}

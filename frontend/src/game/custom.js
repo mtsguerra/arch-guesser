@@ -33,7 +33,7 @@ export function facets(catalogue, valuesOf, labelOf) {
     .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
 }
 
-function read(storage, key) {
+export function read(storage, key) {
   try {
     return JSON.parse(storage.getItem(key))
   } catch {
@@ -41,7 +41,7 @@ function read(storage, key) {
   }
 }
 
-function write(storage, key, value) {
+export function write(storage, key, value) {
   try {
     storage.setItem(key, JSON.stringify(value))
   } catch {
@@ -58,7 +58,7 @@ export function pickedKeys({ mode, architects, eras, countries }) {
 // Browser storage can hold anything (older versions, hand edits), so every read is rebuilt from
 // known-good parts before the app touches it.
 const strings = (value) => (Array.isArray(value) ? value.filter((x) => typeof x === 'string') : [])
-const isId = (value) => typeof value === 'string' && /^[a-z0-9-]+$/.test(value)
+export const isId = (value) => typeof value === 'string' && /^[a-z0-9-]+$/.test(value)
 
 export function sanitizeConfig(value) {
   const v = value && typeof value === 'object' ? value : {}

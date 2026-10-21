@@ -1,16 +1,17 @@
-import { useCallback, useEffect, useReducer, useRef } from 'react'
-import { fetchBuilding, fetchBuildingIds, fetchRandomBuilding } from '../api/buildings.js'
+import { useCallback, useEffect, useReducer, useRef, useState } from 'react'
+import { fetchBuilding, fetchBuildingIds, fetchCatalogue, fetchRandomBuilding } from '../api/buildings.js'
 import { useLanguage } from '../i18n.js'
 import { advanceSession, readSession } from './custom.js'
 import { dailyHold, dailyId, dailyNumber, readDaily, saveDaily } from './daily.js'
 import { gameReducer, initialState } from './gameReducer.js'
 import { recordReveal } from './progress.js'
+import { advanceThemedSession, centuriesIn, erasIn, fieldsFor, readThemedSession, themePool } from './themed.js'
 import { evaluateGuess } from './matchGuess.js'
 import { readSeen, recordSeen } from './seenBuildings.js'
 
 /**
- * @param {'normal' | 'daily' | 'custom'} mode  daily plays today's fixed building once, then shows its saved result;
- *   custom walks the saved session's buildings in order.
+ * @param {'normal' | 'daily' | 'custom' | 'themed'} mode  daily plays today's fixed building once, then shows its saved result;
+ *   custom and themed walk the saved session's buildings in order; themed also asks only the fields of its level.
  */
 export function useGameRound(mode = 'normal') {
   const [state, dispatch] = useReducer(gameReducer, initialState)
@@ -23,9 +24,14 @@ export function useGameRound(mode = 'normal') {
   }, [lang])
 
   const buildingRef = useRef(null)
+  const solvedRef = useRef(false)
   useEffect(() => {
     buildingRef.current = state.building
-  }, [state.building])
+    solvedRef.current = state.outcome === 'solved'
+  }, [state.building, state.outcome])
+
+  // Themed: the eras and centuries that occur in the theme, so the pickers offer nothing else.
+  const [themed, setThemed] = useState(null)
 
   // `advance` (custom only) moves the session past the current building first.
   const load = useCallback(async (advance) => {
@@ -45,6 +51,21 @@ export function useGameRound(mode = 'normal') {
         }
         const building = await fetchBuilding(session.ids[session.index], controller.signal, langRef.current)
         dispatch({ type: 'load/success', building })
+        return
+      }
+      if (mode === 'themed') {
+        let session = readThemedSession()
+        if (!session) throw new Error('No themed session')
+        if (advance) session = advanceThemedSession(session, buildingRef.current, solvedRef.current)
+        if (session.index >= session.ids.length) {
+          dispatch({ type: 'session/done' })
+          return
+        }
+        const id = session.ids[session.index]
+        const [building, catalogue] = await Promise.all([fetchBuilding(id, controller.signal, langRef.current), fetchCatalogue()])
+        const pool = themePool(catalogue, session.theme)
+        setThemed({ eras: erasIn(pool), centuries: centuriesIn(pool) })
+        dispatch({ type: 'load/success', building, fields: fieldsFor(session.level, pool, catalogue.find((b) => b.id === id)) })
         return
       }
       if (mode === 'daily') {
@@ -114,5 +135,5 @@ export function useGameRound(mode = 'normal') {
     [building],
   )
 
-  return { ...state, loadNext, reload, revealHint, revealAnswer, submitGuess, editField }
+  return { ...state, themed, loadNext, reload, revealHint, revealAnswer, submitGuess, editField }
 }

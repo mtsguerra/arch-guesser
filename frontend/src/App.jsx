@@ -1,8 +1,10 @@
 import { useEffect } from 'react'
 import { useRoute } from './route.js'
 import { readSession } from './game/custom.js'
+import { readThemedSession } from './game/themed.js'
 import Game from './Game.jsx'
 import { CustomSetup } from './components/custom/CustomSetup.jsx'
+import { ThemedSetup } from './components/themed/ThemedSetup.jsx'
 import { Home } from './components/home/Home.jsx'
 import { ToastHost } from './components/ui/ToastHost.jsx'
 
@@ -15,10 +17,21 @@ function CustomPlay() {
   return hasSession ? <Game mode="custom" /> : null
 }
 
+// Same for a themed game.
+function ThemedPlay() {
+  const hasSession = readThemedSession() !== null
+  useEffect(() => {
+    if (!hasSession) window.location.hash = '#/themed'
+  }, [hasSession])
+  return hasSession ? <Game mode="themed" /> : null
+}
+
 function Screen({ route }) {
   if (route === 'home') return <Home />
   if (route === 'custom') return <CustomSetup />
   if (route === 'customPlay') return <CustomPlay />
+  if (route === 'themed') return <ThemedSetup />
+  if (route === 'themedPlay') return <ThemedPlay />
   // Keyed so Normal and Daily never share round state.
   return <Game key={route} mode={route === 'daily' ? 'daily' : 'normal'} />
 }

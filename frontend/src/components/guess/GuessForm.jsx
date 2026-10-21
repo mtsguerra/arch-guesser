@@ -1,8 +1,8 @@
-import { useEffect, useId, useRef, useState } from 'react'
+import { Fragment, useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
 import { Check, Eye, Target, X } from 'lucide-react'
 import { CheckIcon } from '../ui/icons.jsx'
-import { GUESS_FIELDS } from '../../game/matchGuess.js'
+import { centuryOf, decadeOf, decadesOfCentury } from '../../game/themed.js'
 import { eraName } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
 import { REVEAL, TICK, haptic } from '../../game/haptics.js'
@@ -16,11 +16,14 @@ import { CountryCombobox } from './CountryCombobox.jsx'
 import { EraCombobox } from './EraCombobox.jsx'
 import styles from './GuessForm.module.css'
 
-const emptyValues = Object.fromEntries(GUESS_FIELDS.map((f) => [f, '']))
 const shake = { x: [0, -7, 7, -4, 4, 0], transition: { duration: 0.4, ease: 'easeOut' } }
 
 function answerFor(field, building, eras, { strings, lang }) {
   switch (field) {
+    case 'century':
+      return strings.themed.century(centuryOf(building.yearCompleted))
+    case 'decade':
+      return strings.themed.decade(decadeOf(building.yearCompleted))
     case 'name':
       return building.name
     case 'architect':
@@ -119,7 +122,7 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
             transition={{ duration: duration.base, ease: easeOut }}
           >
             {status === 'close' ? <Target aria-hidden="true" strokeWidth={2.25} /> : <X aria-hidden="true" strokeWidth={2.25} />}
-            {status === 'close' ? strings.guess.close : strings.guess.wrong}
+            {status === 'close' ? (field === 'century' || field === 'decade' ? strings.guess.closeDate : strings.guess.close) : strings.guess.wrong}
           </motion.p>
         )}
       </AnimatePresence>
@@ -131,11 +134,12 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
 /**
  * The guess sheet. Remount per building (`key={building.id}`) to clear the inputs.
  */
-export function GuessForm({ building, eras, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp }) {
+export function GuessForm({ building, eras, centuries, phase, fields, attempts, outcome, onSubmit, onEdit, onGiveUp }) {
   const strings = useStrings()
   const { lang } = useLanguage()
   const idPrefix = useId()
-  const [values, setValues] = useState(emptyValues)
+  const names = Object.keys(fields) // the fields this round asks, in the order they are drawn
+  const [values, setValues] = useState(() => Object.fromEntries(names.map((f) => [f, ''])))
   const [nothingToCheck, setNothingToCheck] = useState(false)
   const revealed = phase === 'revealed'
 
@@ -149,24 +153,25 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
   }, [revealed])
 
   function update(field, value) {
-    setValues((v) => ({ ...v, [field]: value }))
+    // A new century clears the decade picked inside the old one.
+    setValues((v) => ({ ...v, [field]: value, ...(field === 'century' && { decade: '' }) }))
     setNothingToCheck(false)
     onEdit(field)
   }
 
   function handleSubmit(event) {
     event.preventDefault()
-    const open = GUESS_FIELDS.filter((f) => fields[f] !== 'correct')
+    const open = names.filter((f) => fields[f] !== 'correct')
     if (!open.some((f) => values[f].trim())) return setNothingToCheck(true)
     onSubmit(values)
   }
 
-  const correctCount = GUESS_FIELDS.filter((f) => fields[f] === 'correct').length
-  const wrongCount = GUESS_FIELDS.filter((f) => fields[f] === 'wrong').length
-  const closeCount = GUESS_FIELDS.filter((f) => fields[f] === 'close').length
+  const correctCount = names.filter((f) => fields[f] === 'correct').length
+  const wrongCount = names.filter((f) => fields[f] === 'wrong').length
+  const closeCount = names.filter((f) => fields[f] === 'close').length
 
   let status = ''
-  if (revealed) status = outcome === 'solved' ? strings.guess.solved : strings.guess.gaveUp
+  if (revealed) status = outcome === 'solved' ? (names.length === 4 ? strings.guess.solved : strings.guess.solvedAll) : strings.guess.gaveUp
   else if (nothingToCheck) status = strings.guess.nothingToCheck
   else if (attempts > 0) status = strings.guess.result(correctCount, wrongCount, closeCount)
 
@@ -179,6 +184,105 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
     answer: revealed || fields[field] === 'correct' ? answerFor(field, building, eras, { strings, lang }) : null,
   })
 
+  const inputs = {
+      name: (
+          <Field {...fieldProps('name')} icon={BuildingIcon}>
+            {(props) => (
+              <input
+                {...props}
+                className={styles.input}
+                type="text"
+                autoComplete="off"
+                spellCheck={false}
+                placeholder={strings.guess.placeholders.name}
+                value={values.name}
+                onChange={(e) => update('name', e.target.value)}
+              />
+            )}
+          </Field>
+
+      ),
+      architect: (
+          <Field {...fieldProps('architect')} icon={CompassIcon}>
+            {(props) => (
+              <input
+                {...props}
+                className={styles.input}
+                type="text"
+                autoComplete="off"
+                spellCheck={false}
+                placeholder={strings.guess.placeholders.architect}
+                value={values.architect}
+                onChange={(e) => update('architect', e.target.value)}
+              />
+            )}
+          </Field>
+
+      ),
+      country: (
+          <Field {...fieldProps('country')} icon={GlobeIcon}>
+            {(props) => (
+              <CountryCombobox
+                {...props}
+                className={styles.input}
+                placeholder={strings.guess.placeholders.country}
+                value={values.country}
+                onChange={(value) => update('country', value)}
+              />
+            )}
+          </Field>
+
+      ),
+      era: (
+          <Field {...fieldProps('era')} icon={HourglassIcon}>
+            {(props) => (
+              <EraCombobox
+                {...props}
+                className={styles.input}
+                eras={eras}
+                value={values.era}
+                onChange={(era) => update('era', era)}
+              />
+            )}
+          </Field>
+      ),
+      century: (
+        <Field {...fieldProps('century')} icon={HourglassIcon}>
+          {(props) => (
+            <select {...props} className={`${styles.input} ${styles.select}`} value={values.century} onChange={(e) => update('century', e.target.value)}>
+              <option value="">{strings.guess.placeholders.century}</option>
+              {(centuries ?? []).map((c) => (
+                <option key={c} value={c}>
+                  {strings.themed.century(c)}
+                </option>
+              ))}
+            </select>
+          )}
+        </Field>
+      ),
+      decade: (
+        <Field {...fieldProps('decade')} icon={HourglassIcon}>
+          {(props) => (
+            <select
+              {...props}
+              className={`${styles.input} ${styles.select}`}
+              value={values.decade}
+              disabled={!(Number(values.century) > 0)}
+              onChange={(e) => update('decade', e.target.value)}
+            >
+              <option value="">{strings.guess.placeholders.decade}</option>
+              {Number(values.century) > 0 &&
+                decadesOfCentury(Number(values.century)).map((d) => (
+                  <option key={d} value={d}>
+                    {strings.themed.decade(d)}
+                  </option>
+                ))}
+            </select>
+          )}
+        </Field>
+      ),
+  }
+
   return (
     <section className={styles.sheet} aria-labelledby={`${idPrefix}-heading`}>
       <div className={styles.header}>
@@ -186,66 +290,16 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
           {strings.guess.heading}
         </h2>
         <span className={styles.pips} aria-hidden="true">
-          {GUESS_FIELDS.map((f) => (
+          {names.map((f) => (
             <span key={f} className={styles.pip} data-status={revealed && fields[f] !== 'correct' ? 'revealed' : fields[f]} />
           ))}
         </span>
       </div>
 
       <form id="guess-form" className={styles.form} onSubmit={handleSubmit} noValidate>
-        <Field {...fieldProps('name')} icon={BuildingIcon}>
-          {(props) => (
-            <input
-              {...props}
-              className={styles.input}
-              type="text"
-              autoComplete="off"
-              spellCheck={false}
-              placeholder={strings.guess.placeholders.name}
-              value={values.name}
-              onChange={(e) => update('name', e.target.value)}
-            />
-          )}
-        </Field>
-
-        <Field {...fieldProps('architect')} icon={CompassIcon}>
-          {(props) => (
-            <input
-              {...props}
-              className={styles.input}
-              type="text"
-              autoComplete="off"
-              spellCheck={false}
-              placeholder={strings.guess.placeholders.architect}
-              value={values.architect}
-              onChange={(e) => update('architect', e.target.value)}
-            />
-          )}
-        </Field>
-
-        <Field {...fieldProps('country')} icon={GlobeIcon}>
-          {(props) => (
-            <CountryCombobox
-              {...props}
-              className={styles.input}
-              placeholder={strings.guess.placeholders.country}
-              value={values.country}
-              onChange={(value) => update('country', value)}
-            />
-          )}
-        </Field>
-
-        <Field {...fieldProps('era')} icon={HourglassIcon}>
-          {(props) => (
-            <EraCombobox
-              {...props}
-              className={styles.input}
-              eras={eras}
-              value={values.era}
-              onChange={(era) => update('era', era)}
-            />
-          )}
-        </Field>
+        {names.map((name) => (
+          <Fragment key={name}>{inputs[name]}</Fragment>
+        ))}
 
         <p className={styles.status} role="status">
           {status}

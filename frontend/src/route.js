@@ -1,7 +1,7 @@
 import { useSyncExternalStore } from 'react'
 import { withTransition } from './viewTransition.js'
 
-const ROUTES = { '#/play': 'play', '#/daily': 'daily', '#/custom': 'custom', '#/custom/play': 'customPlay' }
+const ROUTES = { '#/play': 'play', '#/daily': 'daily', '#/custom': 'custom', '#/custom/play': 'customPlay', '#/themed': 'themed', '#/themed/play': 'themedPlay' }
 
 /** The hash picks the screen; anything unknown is the homepage. */
 export const routeFrom = (hash) => ROUTES[hash] ?? 'home'

@@ -45,7 +45,7 @@ export function Home() {
   const lv = home.levels
   const modes = [
     { key: 'normal', href: '#/play', name: home.normal.title, text: home.normal.text, action: lv.play },
-    { key: 'themed', name: home.themed.title, text: home.themed.text, action: lv.soon, soon: true },
+    { key: 'themed', href: '#/themed', name: home.themed.title, text: home.themed.text, action: lv.setUp },
     { key: 'custom', href: '#/custom', name: home.custom.title, text: customSummary ?? home.custom.text, action: lv.setUp },
   ]
 

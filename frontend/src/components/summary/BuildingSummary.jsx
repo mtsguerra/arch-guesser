@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { animate, motion } from 'motion/react'
 import { Check, Eye } from 'lucide-react'
 import { ExternalIcon } from '../ui/icons.jsx'
-import { GUESS_FIELDS } from '../../game/matchGuess.js'
+import { centuryOf, decadeOf } from '../../game/themed.js'
 import { eraName, formatYear } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
 import { useLanguage, useStrings } from '../../i18n.js'
@@ -147,7 +147,10 @@ function Recap({ building, era, fields, log, outcome }) {
     architect: building.architects.map((a) => a.name).join(' & '),
     country: countryName(location.countryCode, lang) ?? location.country,
     era: era ? eraName(era, strings) : building.era,
+    century: building.yearCompleted != null && strings.themed.century(centuryOf(building.yearCompleted)),
+    decade: building.yearCompleted > 0 && strings.themed.decade(decadeOf(building.yearCompleted)),
   }
+  const names = Object.keys(fields) // only the fields this round asked
   const typed = (field) => log?.findLast((e) => e.field === field)?.text
   return (
     <div className={styles.recap}>
@@ -155,13 +158,13 @@ function Recap({ building, era, fields, log, outcome }) {
         <p className={styles.outcome}>{outcome === 'solved' ? strings.guess.solved : strings.guess.gaveUp}</p>
       </div>
       <ul className={styles.recapList} aria-label={strings.summary.recap}>
-        {GUESS_FIELDS.map((field) => {
+        {names.map((field) => {
           const got = fields[field] === 'correct'
           const Icon = got ? Check : Eye
           const guess = typed(field)
           return (
-            <li key={field} className={got ? styles.got : styles.missed} style={{ '--row': GUESS_FIELDS.indexOf(field) }}>
-              {got && <Hatch row={GUESS_FIELDS.indexOf(field)} />}
+            <li key={field} className={got ? styles.got : styles.missed} style={{ '--row': names.indexOf(field) }}>
+              {got && <Hatch row={names.indexOf(field)} />}
               <span className={styles.recapField}>{strings.guess.fields[field]}</span>
               <Icon className={styles.recapIcon} aria-hidden="true" strokeWidth={2.25} />
               <span className={styles.recapAnswer}>
@@ -372,8 +375,9 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
   const era = eras?.find((e) => e.id === building.era)
   const photos = building.photos ?? []
   const [lede, rest] = splitLede(building.summary.description)
-  const score = GUESS_FIELDS.filter((f) => fields[f] === 'correct').length
-  const signedOff = score === GUESS_FIELDS.length
+  const total = Object.keys(fields).length
+  const score = Object.values(fields).filter((s) => s === 'correct').length
+  const signedOff = score === total
   const facts = [...building.hints.map((h) => h.text), ...building.summary.funFacts]
 
   // Move focus to the summary so keyboard and screen-reader users land on the payoff.
@@ -382,7 +386,7 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
   return (
     <motion.article className={styles.monograph} aria-label={strings.summary.label} variants={unfold} initial="hidden" animate="shown" data-play={play || undefined} data-signed={signedOff || undefined}>
       {signedOff && <SignOff play={play} />}
-      <StickyTitle title={building.name} target={heading} score={score} total={GUESS_FIELDS.length} />
+      <StickyTitle title={building.name} target={heading} score={score} total={total} />
       <motion.header className={styles.header} variants={section}>
         <h2 ref={heading} tabIndex={-1} className={styles.title}>
           {building.name}
@@ -412,7 +416,7 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
       </motion.div>
 
       <motion.div variants={section}>
-        <LevelMarker score={score} total={GUESS_FIELDS.length} />
+        <LevelMarker score={score} total={total} />
       </motion.div>
 
       <motion.div variants={section}>

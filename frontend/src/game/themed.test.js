@@ -75,3 +75,27 @@ describe('fieldsFor', () => {
     expect(fieldsFor(3, named, bce)).toEqual(['name', 'era', 'century', 'architect'])
   })
 })
+
+describe('themed sessions', () => {
+  it('lists centuries across the pool without a century 0', async () => {
+    const { centuriesIn, decadesOfCentury } = await import('./themed.js')
+    expect(centuriesIn([{ yearCompleted: -50 }, { yearCompleted: 120 }, { yearCompleted: null }])).toEqual([-1, 1, 2])
+    expect(decadesOfCentury(19)).toEqual([1800, 1810, 1820, 1830, 1840, 1850, 1860, 1870, 1880, 1890])
+  })
+
+  it('keeps a session through storage and drops bad links', async () => {
+    const store = {}
+    globalThis.sessionStorage = { getItem: (k) => store[k] ?? null, setItem: (k, v) => (store[k] = v), removeItem: (k) => delete store[k] }
+    const t = await import('./themed.js')
+    const pool = Array.from({ length: 12 }, (_, i) => ({ id: `b${i}` }))
+    const s = t.startThemedSession(pool, 'castles', 2)
+    expect(s.ids).toHaveLength(10)
+    const next = t.advanceThemedSession(s, { id: 'b1', name: 'B', wikipedia: 'javascript:alert(1)', yearCompleted: 1200 }, true)
+    expect(next.index).toBe(1)
+    expect(t.readThemedSession().played).toEqual([]) // unsafe link filtered
+    t.advanceThemedSession(next, { id: 'b2', name: 'C', wikipedia: 'https://en.wikipedia.org/wiki/C', yearCompleted: null }, false)
+    expect(t.readThemedSession().played).toEqual([{ id: 'b2', name: 'C', wikipedia: 'https://en.wikipedia.org/wiki/C', year: null, solved: false }])
+    store['arch-guesser:themed-session'] = '{"theme":"X y","level":9}'
+    expect(t.readThemedSession()).toBeNull()
+  })
+})

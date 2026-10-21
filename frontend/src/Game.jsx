@@ -4,6 +4,7 @@ import { ChevronDown } from 'lucide-react'
 import { CheckIcon, LayoutGridIcon, ShuffleIcon } from './components/ui/icons.jsx'
 import { dailyNumber } from './game/daily.js'
 import { clearSession, readSession, restoreSession } from './game/custom.js'
+import { clearThemedSession, readThemedSession, restoreThemedSession } from './game/themed.js'
 import { showToast } from './components/ui/toast.js'
 import { useEras } from './game/useEras.js'
 import { usePullToNext } from './game/usePullToNext.js'
@@ -14,6 +15,7 @@ import { AppShell } from './components/layout/AppShell.jsx'
 import { BoardStatus } from './components/board/BoardStatus.jsx'
 import { RevealBar } from './components/layout/RevealBar.jsx'
 import { Recap } from './components/custom/Recap.jsx'
+import { ThemedRecap } from './components/themed/ThemedRecap.jsx'
 import { SlimButton } from './components/layout/SlimButton.jsx'
 import { Round } from './components/layout/Round.jsx'
 import { Button } from './components/ui/Button.jsx'
@@ -66,13 +68,21 @@ function useConfirm(action) {
   return { armed, press, cancel: () => setArmed(false) }
 }
 
-/** @param {'normal' | 'daily' | 'custom'} mode */
+// The session each session-based mode keeps, and the screen its Undo returns to.
+const SESSIONS = {
+  custom: { read: readSession, clear: clearSession, restore: restoreSession, play: '#/custom/play' },
+  themed: { read: readThemedSession, clear: clearThemedSession, restore: restoreThemedSession, play: '#/themed/play' },
+}
+
+/** @param {'normal' | 'daily' | 'custom' | 'themed'} mode */
 export default function Game({ mode = 'normal' }) {
   const strings = useStrings()
   const reduceMotion = useReducedMotion()
   const daily = mode === 'daily'
   const round = useGameRound(mode)
-  const eras = useEras()
+  const allEras = useEras()
+  // A themed game offers only the styles that occur in its theme.
+  const eras = round.themed && allEras ? allEras.filter((e) => round.themed.eras.includes(e.id)) : allEras
   const { phase, building } = round
   const loading = phase === 'loading'
   const revealed = phase === 'revealed'
@@ -88,15 +98,16 @@ export default function Game({ mode = 'normal' }) {
   // Leaving a custom session ends it at once; for a few seconds Undo puts it back where it was
   // (the building you were on, though not the guesses you had typed for it).
   const leave = () => {
-    const session = mode === 'custom' && phase !== 'done' ? readSession() : null
+    const store = SESSIONS[mode]
+    const session = store && phase !== 'done' ? store.read() : null
     if (session) {
-      clearSession()
+      store.clear()
       showToast({
         text: strings.custom.ended,
         actionLabel: strings.custom.undo,
         onAction: () => {
-          restoreSession(session)
-          window.location.hash = '#/custom/play'
+          store.restore(session)
+          window.location.hash = store.play
         },
       })
     }
@@ -107,7 +118,7 @@ export default function Game({ mode = 'normal' }) {
   if (phase === 'error') {
     content = <BoardStatus key="error" status="error" onRetry={round.reload} />
   } else if (phase === 'done') {
-    content = <Recap key="recap" onAgain={round.reload} />
+    content = mode === 'themed' ? <ThemedRecap key="recap" onAgain={round.reload} /> : <Recap key="recap" onAgain={round.reload} />
   } else if (!building) {
     content = <BoardStatus key="loading" status="loading" />
   } else {
@@ -126,7 +137,7 @@ export default function Game({ mode = 'normal' }) {
 
   return (
     <AppShell
-      place={daily ? strings.daily.title(dailyNumber()) : mode === 'custom' ? strings.places.custom : strings.places.normal}
+      place={daily ? strings.daily.title(dailyNumber()) : (strings.places[mode] ?? strings.places.normal)}
       slim
       bottomBar={revealed ? 'reveal' : 'phone'}
       menu={
