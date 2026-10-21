@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { duration, easeOut } from '../../motion.js'
 import styles from './ArchImage.module.css'
@@ -22,17 +22,27 @@ export function ArchImage({ src, alt, fit = 'contain', crop, className = '', onL
   const [loaded, setLoaded] = useState(false)
   const [ratio, setRatio] = useState(null)
 
-  const handleLoad = (event) => {
-    const { naturalWidth, naturalHeight } = event.currentTarget
-    if (crop) setRatio((naturalWidth * crop.w) / (naturalHeight * crop.h))
+  const imgRef = useRef(null)
+
+  const settle = (img) => {
+    if (crop) setRatio((img.naturalWidth * crop.w) / (img.naturalHeight * crop.h))
     setLoaded(true)
     onLoad?.()
   }
+  const handleLoad = (event) => settle(event.currentTarget)
+
+  // A cached image can finish before React attaches onLoad: without its size the crop frame would stretch it.
+  useEffect(() => {
+    const img = imgRef.current
+    if (img?.complete && img.naturalWidth && !loaded) settle(img)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [src])
 
   if (crop) {
     // A frame with the cropped region's aspect ratio, fitted inside the box; the full
     // image is scaled and offset inside it so only the region shows.
-    const frameSize = ratio ? { aspectRatio: ratio, width: `min(100cqw, calc(100cqh * ${ratio}))` } : undefined
+    // Until the size is known the frame is hidden: its box would otherwise stretch the region to the whole stage.
+    const frameSize = ratio ? { aspectRatio: ratio, height: 'auto', width: `min(100cqw, calc(100cqh * ${ratio}))` } : { visibility: 'hidden' }
     return (
       <div className={`${styles.cropBox} ${className}`}>
         <motion.div
@@ -43,6 +53,7 @@ export function ArchImage({ src, alt, fit = 'contain', crop, className = '', onL
           transition={developTransition}
         >
           <img
+            ref={imgRef}
             src={src}
             alt={alt}
             decoding="async"
