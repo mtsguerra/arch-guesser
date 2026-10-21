@@ -2,15 +2,12 @@ import { useEffect, useState } from 'react'
 import { fetchCatalogue } from '../../api/buildings.js'
 import { countryName } from '../../game/countries.js'
 import { filterPool, pickedKeys, readConfig } from '../../game/custom.js'
-import { dailyNumber, readDaily } from '../../game/daily.js'
-import { useCountdown } from '../../game/useCountdown.js'
 import { useEras } from '../../game/useEras.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { AppShell } from '../layout/AppShell.jsx'
-import { RollingText } from '../ui/RollingNumber.jsx'
 import { DailyTeaser } from './DailyTeaser.jsx'
 import { Levels } from './Levels.jsx'
-import { ArchiveCard, StreakCard } from './ProgressCards.jsx'
+import { ArchiveCard, LibraryCard, StreakCard } from './ProgressCards.jsx'
 import { PencilFilter } from './PencilFilter.jsx'
 import { PencilTitle } from './PencilTitle.jsx'
 import { useFitToScreen } from './useFitToScreen.js'
@@ -35,10 +32,7 @@ function useCustomSummary() {
 }
 
 export function Home() {
-  const { home, daily } = useStrings()
-  const left = useCountdown()
-  const number = dailyNumber()
-  const played = Boolean(readDaily(number))
+  const { home } = useStrings()
   useFitToScreen()
   const customSummary = useCustomSummary()
   const eras = useEras()
@@ -50,8 +44,8 @@ export function Home() {
   }, [])
   const lv = home.levels
   const modes = [
-    { key: 'daily', href: '#/daily', name: <RollingText value={number} format={daily.title} />, text: played ? daily.done(left) : daily.play, action: played ? lv.result : lv.play, today: true },
     { key: 'normal', href: '#/play', name: home.normal.title, text: home.normal.text, action: lv.play },
+    { key: 'themed', name: home.themed.title, text: home.themed.text, action: lv.soon, soon: true },
     { key: 'custom', href: '#/custom', name: home.custom.title, text: customSummary ?? home.custom.text, action: lv.setUp },
   ]
 
@@ -69,6 +63,7 @@ export function Home() {
         <aside className={styles.aside}>
           <DailyTeaser />
           <StreakCard />
+          <LibraryCard />
         </aside>
         <footer className={styles.foot}>
           <p>{home.how}</p>

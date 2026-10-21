@@ -27,7 +27,7 @@ const STROKES = [
  * and a datum marker glides to the active level. The active level tours on its own; pointing at or
  * tabbing to a mode holds it there. On phones the labels become rows under the drawing.
  *
- * @param modes  [{ key, href, name, text, action, today? }], top level first
+ * @param modes  [{ key, href, name, text, action, soon? }], top level first (`soon`: no link yet)
  */
 export function Levels({ modes }) {
   const strings = useStrings()
@@ -103,6 +103,9 @@ export function Levels({ modes }) {
             <a
               className={styles.link}
               href={mode.href}
+              role={mode.soon ? 'link' : undefined}
+              aria-disabled={mode.soon || undefined}
+              tabIndex={mode.soon ? 0 : undefined}
               onPointerEnter={() => hold(i)}
               onPointerLeave={release}
               onFocus={() => hold(i)}
@@ -110,10 +113,13 @@ export function Levels({ modes }) {
             >
               <span className={styles.meta}>
                 <span className={styles.height}>{t.heights[i]}</span>
-                {mode.today && <em className={styles.badge}>{t.today}</em>}
-                <span className={styles.go}>
-                  {mode.action} <span aria-hidden="true">→</span>
-                </span>
+                {mode.soon ? (
+                  <em className={styles.badge}>{mode.action}</em>
+                ) : (
+                  <span className={styles.go}>
+                    {mode.action} <span aria-hidden="true">→</span>
+                  </span>
+                )}
               </span>
               <span className={styles.nameWrap}>
                 <h2 className={styles.name}>{mode.name}</h2>

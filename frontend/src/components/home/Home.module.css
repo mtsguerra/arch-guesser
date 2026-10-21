@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: var(--block) 16.3rem;
   justify-content: center;
-  grid-template-areas: 'title title' 'levels aside' 'archive .';
+  grid-template-areas: 'title title' 'levels aside' 'archive aside';
   gap: var(--space-4) 5rem;
   align-items: start;
   max-width: 125rem;
@@ -27,26 +27,23 @@
 /* Starts where the drawing starts (past the label column) and ends where its lines end. */
 .archive {
   grid-area: archive;
+  align-self: end; /* its bottom edge lines up with the library's */
   min-width: 0;
   padding-left: calc(var(--labels) + 2.5rem);
 }
 
-/* As tall as the elevation plus the room under it: the sheet is 8 squares high from the roof (320 of the box's 440), the streak (3.5 squares) starts 4 squares above where the caption ends. */
+/* Spans the elevation's row and the archive's: the sheet takes what is left, then the streak and the library (8.75rem each), all the same gap apart, the library ending where the archive ends. */
 .aside {
   grid-area: aside;
   align-self: stretch;
-  margin-block: var(--space-5) -1.25rem; /* the streak is 3.5 squares tall: its top stays, the extra half square goes down */
+  margin-block: var(--space-5) 0;
   display: grid;
-  grid-template-rows: calc((100% - 5rem) * 0.7273) 1fr 8.75rem;
+  grid-template-rows: 1fr 8.75rem 8.75rem;
+  gap: var(--space-4);
 }
 
 .aside > :first-child {
-  grid-row: 1;
   align-content: space-between;
-}
-
-.aside > :last-child {
-  grid-row: 3;
 }
 
 /* In the archive's row, under the labels. */
@@ -67,8 +64,9 @@
 
 @media (max-width: 1024px) {
   .home {
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas: 'title' 'levels' 'aside' 'archive' 'foot';
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: 'title title' 'levels levels' 'teaser streak' 'archive archive' 'library library' 'foot foot';
+    column-gap: var(--space-4);
     max-width: 54rem; /* wide enough that the level labels don't crowd each other */
     padding-inline: 0;
     --labels: 14rem;
@@ -98,17 +96,22 @@
     margin-top: 0;
   }
 
+  /* The sheet and the streak side by side, then the archive, then the library. */
   .aside {
-    margin-block: 0;
-    grid-template-rows: none;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--space-4);
-    align-items: start;
+    display: contents;
   }
 
-  .aside > :first-child,
-  .aside > :last-child {
-    grid-row: auto;
+  .aside > :nth-child(1) {
+    grid-area: teaser;
+  }
+
+  .aside > :nth-child(2) {
+    grid-area: streak;
+    align-self: start;
+  }
+
+  .aside > :nth-child(3) {
+    grid-area: library;
   }
 }
 
@@ -126,8 +129,9 @@
     padding-block: var(--space-2) 0;
   }
 
-  .aside {
+  .home {
     grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: 'title' 'levels' 'teaser' 'streak' 'archive' 'library' 'foot';
   }
 
 }

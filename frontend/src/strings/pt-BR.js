@@ -10,6 +10,8 @@ export default {
     how: 'Veja os desenhos, abra as dicas e adivinhe o edifício, o arquiteto, o país e a época.',
     stats: (buildings, styles) => `${buildings} edifícios · ${styles} estilos`,
     normal: { title: 'Normal', text: 'Edifícios aleatórios, quantos você quiser.' },
+    themed: { title: 'Temático', text: 'Conjuntos de obras escolhidos por tema.' },
+    library: { title: 'Biblioteca', text: 'Reveja as obras que você já adivinhou.', soon: 'Em breve' },
     custom: {
       title: 'Personalizado',
       text: 'Escolha arquitetos, épocas ou países para jogar só esses.',
@@ -20,7 +22,7 @@ export default {
       heights: ['+6,40', '+3,20', '±0,00'],
       storey: (h) => `Cota ${h} m`,
       caption: (era) => `Elevação frontal · ${era} · esc. 1:100`,
-      today: 'Hoje',
+      soon: 'Em breve',
       play: 'Jogar',
       setUp: 'Montar',
       result: 'Ver resultado',

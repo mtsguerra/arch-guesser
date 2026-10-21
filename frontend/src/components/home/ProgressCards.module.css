@@ -165,3 +165,20 @@
     animation: none;
   }
 }
+
+/* The same size as the streak card (8.75rem), under it. */
+.library {
+  height: 8.75rem;
+  align-content: space-between;
+  gap: var(--space-2);
+}
+
+.libraryText {
+  font-size: var(--text-xs);
+  color: var(--ink-soft);
+}
+
+.library > button {
+  width: 100%;
+  justify-content: center;
+}

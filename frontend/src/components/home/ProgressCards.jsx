@@ -3,6 +3,7 @@ import { dailyNumber, readDaily } from '../../game/daily.js'
 import { lastWeek, readProgress, streakLength } from '../../game/progress.js'
 import { eraName } from '../../game/useEras.js'
 import { useStrings } from '../../i18n.js'
+import { Button } from '../ui/Button.jsx'
 import styles from './ProgressCards.module.css'
 
 function Check() {
@@ -77,6 +78,22 @@ export function ArchiveCard({ eras, countriesTotal }) {
       ) : (
         <p className={styles.empty}>{t.empty}</p>
       )}
+    </section>
+  )
+}
+
+/** The themed sets, not built yet: a placeholder with a disabled button. */
+export function LibraryCard() {
+  const t = useStrings().home.library
+  return (
+    <section className={`${styles.card} ${styles.library}`} aria-label={t.title}>
+      <div className={styles.head}>
+        <span>{t.title}</span>
+      </div>
+      <p className={styles.libraryText}>{t.text}</p>
+      <Button variant="ghost" disabled>
+        {t.soon}
+      </Button>
     </section>
   )
 }

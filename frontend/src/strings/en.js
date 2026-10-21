@@ -10,6 +10,8 @@ export default {
     how: 'See the drawings, open the tips, then guess the building, architect, country and era.',
     stats: (buildings, styles) => `${buildings} buildings · ${styles} styles`,
     normal: { title: 'Normal', text: 'Random buildings, as many as you like.' },
+    themed: { title: 'Themed', text: 'Curated sets of buildings, by theme.' },
+    library: { title: 'Library', text: 'Look back at the buildings you have already guessed.', soon: 'Coming soon' },
     custom: {
       title: 'Custom',
       text: 'Pick architects, eras or countries to play only those.',
@@ -20,7 +22,7 @@ export default {
       heights: ['+6.40', '+3.20', '±0.00'],
       storey: (h) => `Level height ${h} m`,
       caption: (era) => `Front elevation · ${era} · scale 1:100`,
-      today: 'Today',
+      soon: 'Coming soon',
       play: 'Play',
       setUp: 'Set up',
       result: 'See result',
