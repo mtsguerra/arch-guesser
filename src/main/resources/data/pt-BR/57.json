@@ -1,0 +1,207 @@
+{
+  "speyer-cathedral": {
+    "name": "Catedral de Espira",
+    "aliases": [
+      "Catedral de Speyer",
+      "Catedral Imperial de Espira",
+      "Speyerer Dom"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "Os arquitetos da reconstrução de 1194–1220 são desconhecidos; Jean Texier acrescentou depois a flecha norte, em estilo flamejante, em 1507–1513."
+      }
+    ],
+    "city": "Espira",
+    "style": "Românico",
+    "photos": [
+      {
+        "alt": "Longa igreja de arenito vermelho com telhado de cobre esverdeado, cruzeiro com cúpula e quatro torres esbeltas de topo pontiagudo",
+        "caption": null
+      },
+      {
+        "alt": "Alta nave de pedra listrada em rosa e creme, com abóbadas de aresta, arcos de volta perfeita e um lustre em forma de anel",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta igreja foi fundada por um imperador no século XI e tornou-se local de sepultamento de muitos imperadores e reis medievais do seu império.",
+      "Sua nave foi alteada e recebeu abóbadas de aresta por volta de 1090, um uso ousado da técnica nessa escala, e sua cripta é o maior salão de colunas românico da Europa.",
+      "É listada pela UNESCO e descrita como a maior igreja românica ainda existente, com uma fachada oeste refeita na década de 1850 após o incêndio de 1689."
+    ],
+    "summary": {
+      "description": "O imperador Conrado II encomendou esta igreja em 1025 e a obra começou em 1030. Por volta de 1090 Henrique IV a ampliou, alteando a nave e acrescentando abóbadas de aresta, e a igreja ampliada ficou pronta em 1106. É descrita como a maior igreja românica ainda existente e foi incluída na lista da UNESCO em 1981.",
+      "keyFeatures": [
+        "Tramos quadrados da nave com abóbadas de aresta",
+        "Nave com cerca de 33 m de altura",
+        "Cripta de cerca de 850 m², consagrada em 1041",
+        "Sepultamentos de governantes sálios, Staufer e Habsburgo",
+        "Fachada oeste neorromânica de 1854 a 1858"
+      ],
+      "funFacts": [
+        "Tropas francesas atearam fogo à catedral em 1689, e a nave oeste desabou.",
+        "O último governante sepultado aqui foi Alberto I, em 1308."
+      ]
+    }
+  },
+  "ulm-minster": {
+    "name": "Catedral de Ulm",
+    "aliases": [
+      "Ulmer Münster",
+      "Münster de Ulm",
+      "Ulm Minster"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "alemão",
+        "lifespan": null,
+        "bio": "Membro da família Parler de mestres de obras, creditado pelo projeto original da catedral, iniciada em 1377."
+      },
+      {
+        "aliases": [],
+        "nationality": "alemão",
+        "lifespan": null,
+        "bio": "Mestre de obras do gótico tardio que trabalhou na torre da catedral no fim do século XV."
+      }
+    ],
+    "city": "Ulm",
+    "style": "Gótico",
+    "photos": [
+      {
+        "alt": "Esbelta flecha gótica rendilhada sob andaimes, atrás de uma torre medieval, casas enxaimel e uma pirâmide de vidro",
+        "caption": null
+      },
+      {
+        "alt": "Alta nave gótica com um grande órgão acima do arco de entrada, bancos de madeira e piso de pedra xadrez",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Embora seja chamada de catedral, nunca foi sede de bispo, e os cidadãos da cidade a pagaram eles mesmos.",
+      "A obra começou em 1377, parou por séculos a partir de 1543 e só foi concluída em 31 de maio de 1890.",
+      "Sua única torre, com cerca de 161,5 metros, foi a mais alta de qualquer igreja do mundo até 2025, e uma escada de 768 degraus a sobe."
+    ],
+    "summary": {
+      "description": "Esta igreja luterana gótica foi iniciada em 1377 e concluída em 31 de maio de 1890, após uma longa pausa a partir de 1543. Sua torre tem 161,53 m de altura, e foi a igreja mais alta do mundo de 1890 até a Sagrada Família, em Barcelona, superá-la em outubro de 2025. Os cidadãos da cidade a financiaram por conta própria.",
+      "keyFeatures": [
+        "Torre de 161,53 m de altura",
+        "Projeto gótico iniciado por Heinrich Parler",
+        "Principalmente de tijolo, com torres e ornamentos de pedra",
+        "768 degraus até o alto da flecha",
+        "Nunca foi catedral, apesar do tamanho"
+      ],
+      "funFacts": [
+        "A construção parou por séculos depois de 1543.",
+        "Foi financiada pelos próprios cidadãos de Ulm."
+      ]
+    }
+  },
+  "sanssouci-palace": {
+    "name": "Sanssouci",
+    "aliases": [
+      "Palácio de Sanssouci",
+      "Schloss Sanssouci"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "alemão",
+        "lifespan": "1699–1753",
+        "bio": "Arquiteto prussiano que projetou Sanssouci para Frederico, o Grande; foi dispensado em 1746 e Jan Bouman concluiu o projeto."
+      }
+    ],
+    "city": "Potsdam",
+    "style": "Rococó fredericiano",
+    "photos": [
+      {
+        "alt": "Vista aérea de um palácio amarelo baixo com cúpula verde acima de seis amplos terraços de jardim, um lago redondo e gramados formais",
+        "caption": null
+      },
+      {
+        "alt": "Sala rococó com teto verde e rosa coberto de ornamentos dourados, uma janela alta com cortinas e bustos de mármore",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É um refúgio de verão de um andar para um rei que queria fugir do cerimonial da corte, com cerca de dez salas principais.",
+      "Fica numa vinha em terraços, e seu nome em francês significa 'sem preocupações'.",
+      "Construído de 1745 a 1747, hospedou um famoso filósofo francês entre 1750 e 1753, e seu rei foi sepultado de novo aqui em 1991, numa cripta que desejara."
+    ],
+    "summary": {
+      "description": "Construído em 1745 a 1747 perto de Berlim para Frederico, o Grande, este pequeno palácio de verão é o melhor exemplo do rococó fredericiano. Tem um único andar com cerca de dez salas principais, numa vinha em terraços. Seu nome em francês significa 'sem preocupações'.",
+      "keyFeatures": [
+        "Um só andar com cerca de dez salas principais",
+        "Cenário de vinha em terraços",
+        "Interiores rococó",
+        "Sala de Voltaire",
+        "Patrimônio Mundial da UNESCO desde 1990"
+      ],
+      "funFacts": [
+        "Voltaire ficou em Potsdam de 1750 a 1753 e usava muito a Sala de Voltaire.",
+        "Os restos de Frederico foram sepultados de novo numa cripta no terraço da vinha em 1991, como ele desejara."
+      ]
+    }
+  },
+  "peterhof-palace": {
+    "name": "Palácio de Peterhof",
+    "aliases": [
+      "Petergof",
+      "Peterhof",
+      "Grande Palácio de Peterhof"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "francês",
+        "lifespan": "1679–1719",
+        "bio": "Arquiteto francês que projetou o palácio inicial e os jardins para Pedro, o Grande."
+      },
+      {
+        "aliases": [
+          "Francesco Bartolomeo Rastrelli",
+          "Bartolomeo Rastrelli"
+        ],
+        "nationality": "Ítalo-russo",
+        "lifespan": "1700–1771",
+        "bio": "Arquiteto da corte das imperatrizes russas Ana e Isabel e mestre do barroco russo, que projetou o atual Palácio de Inverno na década de 1750 e sua grande escadaria."
+      }
+    ],
+    "city": "São Petersburgo",
+    "style": "Barroco petrino e elisabetano",
+    "photos": [
+      {
+        "alt": "Longo palácio amarelo e branco com uma cúpula dourada acima de uma cascata de fontes e um canal reto ladeado de árvores",
+        "caption": null
+      },
+      {
+        "alt": "Estátuas douradas e jatos de água numa cascata escalonada diante de um palácio amarelo com uma capela de cúpula dourada",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Um czar mandou fazer este complexo à beira-mar em parte como rival de um palácio real francês, o que lhe rendeu um apelido que o compara a esse palácio.",
+      "Suas fontes funcionam com nascentes naturais e gravidade, sem bombas, e um dos jatos sobe cerca de 20 metros.",
+      "Forças alemãs o ocuparam de 1941 a 1944 e o destruíram em grande parte, e a estátua dourada de um herói que rasga as mandíbulas de um leão foi saqueada e depois substituída por uma réplica em 1947."
+    ],
+    "summary": {
+      "description": "Pedro, o Grande, encomendou este complexo no Golfo da Finlândia em parte como resposta a Versalhes, de Luís XIV, e a obra começou em 1714. Jean-Baptiste Le Blond projetou o palácio inicial e os jardins, e Francesco Bartolomeo Rastrelli o ampliou de 1747 a 1756. A Grande Cascata tem 64 fontes, e o conjunto foi em grande parte destruído na Segunda Guerra Mundial e ainda está sendo restaurado.",
+      "keyFeatures": [
+        "Grande Cascata com 64 fontes",
+        "Fonte de Sansão com jato de 20 m",
+        "Fontes funcionam sem bombas",
+        "Ampliado por Rastrelli, de 1747 a 1756",
+        "Patrimônio Mundial da UNESCO desde 1990"
+      ],
+      "funFacts": [
+        "É apelidado de Versalhes russo.",
+        "A Fonte de Sansão foi saqueada na guerra e uma réplica foi instalada em 1947."
+      ]
+    }
+  }
+}

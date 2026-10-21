@@ -1,0 +1,315 @@
+{
+  "great-zimbabwe": {
+    "name": "Grande Zimbábue",
+    "aliases": [
+      "Ruínas do Grande Zimbábue",
+      "Grande Cercado",
+      "Great Zimbabwe"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "xona",
+        "lifespan": null,
+        "bio": "Ancestrais do povo xona, provavelmente os caranga, que ergueram as muralhas de pedra da cidade a partir do século XI, trabalhando com pedra seca, sem argamassa."
+      }
+    ],
+    "city": "Masvingo",
+    "style": "Arquitetura xona de pedra seca",
+    "photos": [
+      {
+        "alt": "Vista aérea de uma enorme muralha curva de granito cercando árvores, ao lado de ruínas de pedra espalhadas numa encosta seca",
+        "caption": null
+      },
+      {
+        "alt": "Longas muralhas de pedra ao longe, sobre uma colina baixa, vistas sobre uma paisagem africana arborizada",
+        "caption": "O cercado murado visto do outro lado do vale."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta cidade de pedra no sul da África foi capital e centro comercial por vários séculos antes de ser abandonada.",
+      "Suas muralhas foram erguidas com blocos de granito secos, sem argamassa, e a maior chega a cerca de 11 metros.",
+      "Escritores europeus antigos se recusavam a crer que africanos a tivessem construído, e seu nome, de palavras xonas para casas de pedra, foi depois dado a um país inteiro."
+    ],
+    "summary": {
+      "description": "Ocupada por volta do ano 1000, esta cidade passou a ser construída em pedra a partir do século XI e tornou-se capital do seu reino a partir do século XIII. Suas muralhas de granito são assentadas sem argamassa, e o Grande Cercado tem uma muralha externa de até 11 m de altura e cerca de 250 m de comprimento. Foi abandonada nos séculos XVI ou XVII e hoje é Patrimônio Mundial da UNESCO.",
+      "keyFeatures": [
+        "Muralhas de granito seco, sem argamassa",
+        "Grande Cercado com muralha externa de até 11 m",
+        "Torre cônica de cerca de 9 m",
+        "Aves de pedra-sabão esculpidas para monólitos",
+        "Ruínas que cobrem cerca de 730 hectares"
+      ],
+      "funFacts": [
+        "Autores coloniais atribuíram a obra a fenícios, árabes ou à Rainha de Sabá, e a origem africana só foi aceita pelos estudiosos a partir da década de 1950.",
+        "As aves de pedra-sabão, provavelmente águias-bateleur, aparecem na bandeira e no brasão nacionais."
+      ]
+    }
+  },
+  "church-of-saint-george-lalibela": {
+    "name": "Igreja de São Jorge, Lalibela",
+    "aliases": [
+      "Bete Giyorgis",
+      "Biete Ghiorgis",
+      "Igreja de São Jorge de Lalibela"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "etíope",
+        "lifespan": null,
+        "bio": "Construtores a serviço do rei Gebre Mesqel Lalibela, da dinastia Zagué, que esculpiram a igreja de cima para baixo no tufo vulcânico no fim do século XII ou início do XIII."
+      }
+    ],
+    "city": "Lalibela",
+    "style": "Igreja etíope escavada na rocha",
+    "photos": [
+      {
+        "alt": "Igreja de pedra marrom-avermelhada em forma de cruz, vista de cima, afundada num poço quadrado cavado na rocha, com plintos escalonados e pequenas janelas em arco",
+        "caption": null
+      },
+      {
+        "alt": "Trincheira estreita aberta na rocha maciça ao lado da base escalonada de uma construção esculpida em pedra",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta igreja não foi construída de baixo para cima: foi escavada numa colina de rocha vulcânica, e seu teto fica rente ao terreno ao redor.",
+      "Sua planta e seu teto têm forma de cruz, e ela se ergue num profundo poço quadrado alcançado por uma trincheira.",
+      "Um rei da dinastia Zagué, venerado como santo, disse que uma visão lhe mandou fazê-la, e ela é a mais famosa das onze igrejas escavadas na rocha de sua cidade sagrada."
+    ],
+    "summary": {
+      "description": "Esculpida de cima para baixo num único bloco de tufo vulcânico no fim do século XII ou início do XIII, esta igreja em forma de cruz fica num poço aberto ao céu. A tradição diz que o rei Gebre Mesqel Lalibela, da dinastia Zagué, teve uma visão que lhe ordenou construí-la. Faz parte das igrejas escavadas na rocha de Lalibela, inscritas pela UNESCO em 1978.",
+      "keyFeatures": [
+        "Esculpida num único bloco de tufo vulcânico",
+        "Planta e teto em forma de cruz",
+        "Afundada num poço quadrado alcançado por uma trincheira",
+        "Plinto escalonado e janelas em arco talhadas em relevo",
+        "Parte de um conjunto de igrejas listado pela UNESCO"
+      ],
+      "funFacts": [
+        "A igreja foi talhada de cima para baixo, de modo que o teto ficou pronto antes das paredes.",
+        "Diz-se que a trincheira entre dois grupos de igrejas representa o rio Jordão."
+      ]
+    }
+  },
+  "pyramid-of-the-sun-teotihuacan": {
+    "name": "Pirâmide do Sol",
+    "aliases": [
+      "Pirámide del Sol",
+      "Pirâmide do Sol de Teotihuacán"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "teotihuacana",
+        "lifespan": null,
+        "bio": "O povo de Teotihuacán, que ergueu a pirâmide em duas fases a partir de cerca de 200 d.C. e cujo próprio nome para ela é desconhecido."
+      }
+    ],
+    "city": "Teotihuacán",
+    "style": "Pirâmide teotihuacana de talude-tablero",
+    "photos": [
+      {
+        "alt": "Enorme pirâmide de pedra em degraus, com escadaria central, erguendo-se sobre uma ampla praça vazia",
+        "caption": null
+      },
+      {
+        "alt": "Terraço pavimentado de pedras soltas ao longo de uma pirâmide de pedra íngreme, com uma pirâmide menor e uma planície verde lá embaixo",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É a maior estrutura de uma vasta cidade antiga da Mesoamérica cujo próprio nome para ela se perdeu.",
+      "Sua escadaria principal dá para uma longa avenida processional que o traçado da cidade segue, e ela fica entre dois outros grandes monumentos.",
+      "Seu nome vem dos astecas, que encontraram a cidade abandonada séculos antes, e a pirâmide tem mais de 200 metros de largura na base."
+    ],
+    "summary": {
+      "description": "Construída em duas fases a partir de cerca de 200 d.C., é uma das maiores pirâmides das Américas pré-colombianas. Ergue-se ao lado da Avenida dos Mortos, e o traçado central da cidade segue sua orientação. O nome Pirâmide do Sol foi dado pelos astecas muito depois do abandono da cidade, e como os teotihuacanos a chamavam é desconhecido.",
+      "keyFeatures": [
+        "Duas fases de construção a partir de cerca de 200 d.C.",
+        "Base de cerca de 220 a 230 m por lado",
+        "Ao lado da Avenida dos Mortos",
+        "Antes revestida de reboco pintado com murais, hoje perdidos",
+        "Uma caverna a cerca de 6 m sob o centro"
+      ],
+      "funFacts": [
+        "Um poço encontrado em 1971 leva a uma caverna sob a pirâmide que pode ser artificial e pode ter sido uma tumba real.",
+        "As fontes divergem sobre a altura, com valores de cerca de 65 m a 75 m."
+      ]
+    }
+  },
+  "palacio-de-bellas-artes": {
+    "name": "Palácio de Belas Artes",
+    "aliases": [
+      "Palacio de Bellas Artes"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "italiano",
+        "lifespan": "1863–1928",
+        "bio": "Arquiteto italiano que elaborou o projeto original em 1904, em formas Art Nouveau e neoclássicas, e iniciou a obra."
+      },
+      {
+        "aliases": [],
+        "nationality": "mexicano",
+        "lifespan": "1881–1971",
+        "bio": "Arquiteto mexicano que retomou a obra em 1932 e concluiu o interior em estilo Art Déco."
+      }
+    ],
+    "city": "Cidade do México",
+    "style": "Exterior Art Nouveau e neoclássico, interior Art Déco",
+    "photos": [
+      {
+        "alt": "Casa de ópera de mármore branco com grande cúpula central e fachada esculpida e ornamentada ao lado de um parque",
+        "caption": null
+      },
+      {
+        "alt": "Salão de mármore com colunas altas, detalhes geométricos Art Déco e balcões em vários níveis",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta casa de ópera e centro de artes de mármore, numa capital latino-americana, levou três décadas para ficar pronta porque uma revolução interrompeu a obra.",
+      "Ela afundou cerca de quatro metros em solo mole, e seu pano de boca é feito de quase um milhão de peças de vidro.",
+      "Por fora é Art Nouveau e neoclássica e por dentro é Art Déco, e seus salões guardam murais de Rivera, Orozco e Siqueiros."
+    ],
+    "summary": {
+      "description": "Iniciada em 1º de outubro de 1904 segundo projeto de Adamo Boari, a obra parou por volta de 1913, durante a Revolução Mexicana, e foi retomada em 1932. Federico Mariscal a concluiu, dando ao interior um caráter Art Déco, e ela foi inaugurada em 29 de novembro de 1934. Abriga um teatro de 1.590 lugares e murais dos principais pintores mexicanos.",
+      "keyFeatures": [
+        "Exterior em estilos Art Nouveau e neoclássico",
+        "Mármore do México e de Carrara",
+        "Interior Art Déco",
+        "Pano de boca de vidro feito pela Tiffany's",
+        "Murais de Rivera, Orozco e Siqueiros"
+      ],
+      "funFacts": [
+        "A cortina de vidro Tiffany pesa cerca de 24 toneladas.",
+        "O edifício afundou cerca de quatro metros no solo mole da cidade."
+      ]
+    }
+  },
+  "biblioteca-central-unam": {
+    "name": "Biblioteca Central da UNAM",
+    "aliases": [
+      "Biblioteca Central de la UNAM",
+      "Biblioteca Central da Universidade Nacional Autônoma do México"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "mexicano",
+        "lifespan": "1905–1982",
+        "bio": "Arquiteto e pintor mexicano que co-liderou o projeto da biblioteca a partir de 1948 e criou seu mural externo, Representação Histórica da Cultura."
+      },
+      {
+        "aliases": [],
+        "nationality": "mexicano",
+        "lifespan": null,
+        "bio": "Arquiteto que co-projetou a Biblioteca Central com Juan O'Gorman e Juan Martínez de Velasco."
+      },
+      {
+        "aliases": [],
+        "nationality": "mexicano",
+        "lifespan": null,
+        "bio": "Arquiteto que co-projetou a Biblioteca Central com Juan O'Gorman e Gustavo Saavedra."
+      }
+    ],
+    "city": "Cidade do México",
+    "style": "Modernismo mexicano com mural de mosaico de pedra",
+    "photos": [
+      {
+        "alt": "Alta torre sem janelas coberta por um colorido mural de mosaico de pedra, sobre uma plataforma baixa",
+        "caption": null
+      },
+      {
+        "alt": "Sala de leitura com um grande mural abstrato sobre estantes de livros e uma janela de placas de pedra translúcida",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta biblioteca universitária é um bloco alto sem janelas, porque seus andares superiores foram feitos para guardar livros, não leitores.",
+      "Suas quatro paredes são cobertas por um enorme mural feito de ladrilhos de pedra natural em doze cores, não de tinta.",
+      "O mural conta a história de uma nação, da época pré-hispânica à universidade moderna, e o campus ao redor é Patrimônio Mundial."
+    ],
+    "summary": {
+      "description": "Projetada a partir de 1948 por Juan O'Gorman, Gustavo Saavedra e Juan Martínez de Velasco, a biblioteca foi inaugurada em 1956. Os dez andares superiores são depósitos sem janelas cobertos pelo mural de O'Gorman, Representação Histórica da Cultura. O mural usa ladrilhos de pedra natural em 12 cores de todo o México, e a biblioteca faz parte do Campus Central da Cidade Universitária, listado pela UNESCO.",
+      "keyFeatures": [
+        "Dez andares de depósito de livros sem janelas",
+        "Mural de ladrilhos de pedra natural em 12 cores",
+        "Quatro paredes: México pré-hispânico, colonial, contemporâneo e universitário",
+        "Plataforma elevada com fontes de basalto",
+        "Luz da sala de leitura filtrada por finas placas de pedra tecali"
+      ],
+      "funFacts": [
+        "Cada um dos dez andares de depósito comporta cerca de 120 mil volumes.",
+        "A biblioteca e o Campus Central foram inscritos pela UNESCO em julho de 2007."
+      ]
+    }
+  },
+  "estadio-olimpico-universitario": {
+    "name": "Estádio Olímpico Universitário",
+    "aliases": [
+      "Estádio Olímpico da Cidade do México",
+      "Estádio Olímpico Universitário da UNAM"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "mexicano",
+        "lifespan": null,
+        "bio": "Arquiteto mexicano que projetou o estádio universitário junto com Raúl Salinas e Jorge Bravo."
+      },
+      {
+        "aliases": [],
+        "nationality": "mexicano",
+        "lifespan": null,
+        "bio": "Arquiteto mexicano que co-projetou o estádio universitário com Augusto Pérez Palacios e Jorge Bravo."
+      },
+      {
+        "aliases": [],
+        "nationality": "mexicano",
+        "lifespan": null,
+        "bio": "Arquiteto mexicano que co-projetou o estádio universitário com Augusto Pérez Palacios e Raúl Salinas."
+      }
+    ],
+    "city": "Cidade do México",
+    "style": "Modernismo mexicano",
+    "photos": [
+      {
+        "alt": "Arquibancadas curvas de concreto ao redor de uma pista de corrida e um gramado, com torres de refletores e colinas arborizadas ao fundo",
+        "caption": null
+      },
+      {
+        "alt": "Fachada de entrada do estádio revestida de pedra escura, com um grande mural colorido em relevo de figuras e uma águia",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É um estádio universitário de arquibancadas assimétricas, com um dos lados construído muito mais alto e desenvolvido que o outro.",
+      "Foi inaugurado em 1952 e ampliado para cerca de 80 mil lugares para uns Jogos Olímpicos de Verão no fim da década de 1960.",
+      "Um mural em relevo de pedra natural num dos lados mostra uma família e atletas acendendo a tocha, e foi aqui que dois velocistas ergueram os punhos num pódio em 1968."
+    ],
+    "summary": {
+      "description": "Inaugurado em 20 de novembro de 1952, o estádio foi projetado por Augusto Pérez Palacios, Raúl Salinas e Jorge Bravo. Para os Jogos Olímpicos de Verão de 1968, sua capacidade subiu de 70.000 para 83.700 lugares sem alterar substancialmente a estrutura original. Suas arquibancadas são assimétricas, com o lado oeste mais desenvolvido.",
+      "keyFeatures": [
+        "Arquibancadas assimétricas, com o lado oeste mais desenvolvido",
+        "Inaugurado em 20 de novembro de 1952",
+        "Mural de relevo em pedra no lado leste",
+        "Capacidade ampliada para 83.700 em 1968",
+        "Arquibancadas completam o eixo da Cidade Universitária"
+      ],
+      "funFacts": [
+        "O estádio recebeu as cerimônias de abertura e encerramento das Olimpíadas de 1968.",
+        "Tommie Smith e John Carlos fizeram aqui a saudação do Poder Negro na entrega de medalhas dos 200 metros."
+      ]
+    }
+  }
+}

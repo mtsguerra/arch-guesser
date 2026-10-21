@@ -1,0 +1,298 @@
+{
+  "church-of-the-light": {
+    "name": "Igreja da Luz",
+    "aliases": [
+      "Igreja de Kasugaoka em Ibaraki",
+      "Church of the Light"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Ando"
+        ],
+        "nationality": "Japonês",
+        "lifespan": "n. 1941",
+        "bio": "Arquiteto japonês autodidata e antigo boxeador, vencedor do Prémio Pritzker em 1995. Ando é conhecido pelo betão moldado no local, de acabamento liso, que emoldura a luz, a água e a natureza em espaços geométricos e silenciosos, da Igreja da Luz aos museus de Naoshima."
+      }
+    ],
+    "city": "Ibaraki",
+    "style": "Modernismo minimalista em concreto",
+    "photos": [
+      {
+        "alt": "Capela de concreto aparente com bancos de madeira escura e uma cruz de luz do dia recortada na parede atrás do altar",
+        "caption": null
+      },
+      {
+        "alt": "Parede lisa de concreto cinza com uma fenda envidraçada em forma de cruz, parcialmente escondida por sebes e uma conífera",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta pequena igreja num bairro residencial é construída quase só de concreto aparente e liso.",
+      "Uma parede inclinada a 15 graus em relação à caixa corta sua planta, separando a capela da entrada.",
+      "Seu único ornamento é uma cruz recortada na parede atrás do altar, feita de luz do dia, e quase se deixou o telhado de fora por falta de dinheiro."
+    ],
+    "summary": {
+      "description": "Concluída em 1989 num bairro residencial de Ibaraki, na província de Osaka, esta pequena capela é uma caixa de concreto de cerca de 113 metros quadrados. Uma parede inclinada a 15 graus atravessa três cubos para separar a capela da entrada. A cruz é recortada no concreto atrás do altar e iluminada pela luz do dia.",
+      "keyFeatures": [
+        "Concreto moldado aparente em todo o edifício",
+        "Parede inclinada a 15 graus",
+        "Cruz recortada na parede do altar, iluminada pela luz do dia",
+        "Cerca de 113 m² de área",
+        "Ala da Escola Dominical acrescentada em 1999"
+      ],
+      "funFacts": [
+        "Por atrasos no financiamento, o arquiteto cogitou construí-la sem telhado, mas uma construtora doou a cobertura.",
+        "Uma ampliação para a Escola Dominical foi acrescentada em 1999."
+      ]
+    }
+  },
+  "oslo-opera-house": {
+    "name": "Ópera de Oslo",
+    "aliases": [
+      "Casa de Ópera de Oslo",
+      "Operahuset"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "norueguês",
+        "lifespan": null,
+        "bio": "Escritório norueguês de arquitetura que venceu o concurso para a casa de ópera entre 350 propostas."
+      }
+    ],
+    "city": "Oslo",
+    "style": "Contemporâneo",
+    "photos": [
+      {
+        "alt": "Edifício branco anguloso com paredes de vidro iluminadas ao entardecer, cujo telhado inclinado desce até a água",
+        "caption": null
+      },
+      {
+        "alt": "Foyer alto com colunas brancas inclinadas, parede de vidro, piso de pedra e uma parede curva revestida de madeira",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta ópera nacional fica à beira de um fiorde, e seu telhado desce em rampa para que os visitantes subam por ele a partir da água.",
+      "Por fora é revestida de mármore branco italiano e granito branco, com superfícies anguladas que parecem emergir do mar.",
+      "Foi inaugurada em abril de 2008, concluída abaixo do orçamento, e uma escultura de vidro e aço flutua na água ao lado."
+    ],
+    "summary": {
+      "description": "Escolhida entre 350 propostas num concurso, esta casa de ópera foi inaugurada em 12 de abril de 2008 em Bjørvika, na cabeceira do Oslofjord. Suas superfícies anguladas de mármore e granito parecem emergir da água, e o telhado desce até o nível do chão como uma praça pública. O auditório principal tem 1.364 lugares.",
+      "keyFeatures": [
+        "Telhado que desce ao nível do chão como praça pública",
+        "Revestimento de mármore de Carrara e granito branco",
+        "Cerca de 49.000 m² em cerca de 1.100 salas",
+        "Auditório principal com 1.364 lugares",
+        "Escultura She Lies flutuando no fiorde"
+      ],
+      "funFacts": [
+        "Foi concluída cerca de 300 milhões de NOK abaixo do orçamento de cerca de 4,4 bilhões de NOK.",
+        "Ganhou o prêmio de cultura do World Architecture Festival em 2008 e o Prêmio de Arquitetura Contemporânea da União Europeia em 2009."
+      ]
+    }
+  },
+  "harpa-reykjavik": {
+    "name": "Harpa",
+    "aliases": [
+      "Sala de Concertos Harpa",
+      "Harpa Reykjavik"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "dinamarquês",
+        "lifespan": null,
+        "bio": "Escritório dinamarquês de arquitetura que projetou a sala de concertos junto com o artista Ólafur Eliasson."
+      },
+      {
+        "aliases": [],
+        "nationality": "dinamarquês-islandês",
+        "lifespan": null,
+        "bio": "Artista dinamarquês-islandês que projetou a fachada de vidro do edifício em colaboração com a Henning Larsen Architects."
+      }
+    ],
+    "city": "Reykjavik",
+    "style": "Contemporâneo",
+    "photos": [
+      {
+        "alt": "Edifício escuro de vidro facetado ao lado de um porto, visto por cima de uma encosta coberta de neve ao entardecer",
+        "caption": null
+      },
+      {
+        "alt": "Dois músicos folclóricos em trajes tradicionais tocando violino diante de uma parede de painéis de vidro geométricos",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta sala de concertos e centro de conferências fica num porto de uma capital nórdica e foi pensada para dar à cidade um marco.",
+      "Sua estrutura de aço é revestida de painéis de vidro coloridos e geométricos inspirados na paisagem de basalto do país.",
+      "As obras começaram em 2007 e pararam durante uma crise financeira nacional, até o governo decidir em 2008 financiar o restante, e foi inaugurada em 2011."
+    ],
+    "summary": {
+      "description": "Projetada pela Henning Larsen Architects com o artista Ólafur Eliasson, autor da fachada, esta sala de concertos tem estrutura de aço revestida de painéis de vidro coloridos e geométricos inspirados na paisagem de basalto da Islândia. A obra começou em 2007 e foi interrompida durante a crise financeira de 2008 a 2011, até o governo decidir financiar o restante. Foi inaugurada em 2011, a um custo de cerca de 164 milhões de euros.",
+      "keyFeatures": [
+        "Estrutura de aço com painéis de vidro coloridos geométricos",
+        "Fachada de Ólafur Eliasson",
+        "Inspirada na paisagem de basalto islandesa",
+        "Sala principal Eldborg",
+        "Prêmio Mies van der Rohe 2013"
+      ],
+      "funFacts": [
+        "Ganhou o prêmio Mies van der Rohe de arquitetura contemporânea da UE em 2013.",
+        "O governo decidiu em 2008 pagar o restante da obra após a crise bancária."
+      ]
+    }
+  },
+  "louvre-pyramid": {
+    "name": "Pirâmide do Louvre",
+    "aliases": [
+      "Pyramide du Louvre"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Ieoh Ming Pei"
+        ],
+        "nationality": "Sino-americano",
+        "lifespan": "1917–2019",
+        "bio": "Arquiteto da pirâmide de vidro acrescentada ao pátio Napoleão em 1989 como entrada principal do museu."
+      }
+    ],
+    "city": "Paris",
+    "style": "Modernismo tardio em vidro e aço",
+    "photos": [
+      {
+        "alt": "Pirâmide de vidro iluminada ao entardecer num vasto pátio emoldurado por duas alas de um ornamentado palácio de pedra",
+        "caption": null
+      },
+      {
+        "alt": "Vista para cima através da treliça de aço e vidro de uma pirâmide, com o sol e um edifício de pedra refletidos",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta pirâmide de vidro é a entrada de um antigo palácio real que hoje é um dos maiores museus do mundo.",
+      "Tem cerca de 21,6 metros de altura, com base quadrada de cerca de 34 metros de lado, e os críticos a chamaram de símbolo de morte egípcio.",
+      "Foi concluída em 1989 como parte de um projeto presidencial, e um mito popular diz que tem 666 vidros, embora a contagem real seja 603 losangos e 70 triângulos."
+    ],
+    "summary": {
+      "description": "Escolhida em 1983 para o projeto Grand Louvre, anunciado pelo presidente Mitterrand em 1981, esta pirâmide de vidro foi concluída em 1989. Tem cerca de 21,6 m de altura sobre uma base quadrada de cerca de 34 m de lado, e suas faces encontram a base num ângulo de 51,52 graus. Muitos críticos se opuseram a uma forma modernista ao lado da arquitetura renascentista.",
+      "keyFeatures": [
+        "Cerca de 21,6 m de altura, base de cerca de 34 m",
+        "603 segmentos de vidro em losango e 70 triangulares",
+        "Faces com inclinação de 51,52 graus",
+        "Entrada de um palácio-museu histórico",
+        "Claraboia de pirâmide invertida no Carrousel du Louvre"
+      ],
+      "funFacts": [
+        "Um boato diz que tem 666 vidros, mas o museu conta 673 segmentos.",
+        "Críticos a apelidaram de Pirâmide do Faraó François."
+      ]
+    }
+  },
+  "hallgrimskirkja": {
+    "name": "Hallgrímskirkja",
+    "aliases": [
+      "Igreja de Hallgrímur"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "islandês",
+        "lifespan": "1887–1950",
+        "bio": "Arquiteto estatal islandês cujo projeto para a igreja foi encomendado em 1937; inspirou-se nas formações de basalto colunar da Islândia."
+      }
+    ],
+    "city": "Reykjavik",
+    "style": "Modernismo expressionista",
+    "photos": [
+      {
+        "alt": "Alta igreja de concreto claro com fachada escalonada e nervurada que sobe até uma torre esbelta, com a estátua de um explorador ao lado",
+        "caption": null
+      },
+      {
+        "alt": "Longa nave clara com esbeltos arcos ogivais, janelas altas e estreitas, bancos de madeira e um grande órgão ao fundo",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É a maior igreja do seu país, e sua torre está entre as estruturas mais altas de lá.",
+      "Sua fachada escalonada e nervurada pretende lembrar as formações de basalto colunar, as montanhas e as geleiras da paisagem.",
+      "A obra durou de 1945 a 1986, e ela leva o nome de um poeta e clérigo do século XVII que escreveu os Hinos da Paixão."
+    ],
+    "summary": {
+      "description": "Encomendada em 1937 e construída entre 1945 e 1986, é a maior igreja da Islândia, com 74,5 m de altura. Seu projeto lembra as rochas de traquito, as montanhas e as geleiras islandesas, em especial o basalto colunar. Recebe o nome do poeta e clérigo Hallgrímur Pétursson, autor dos Hinos da Paixão.",
+      "keyFeatures": [
+        "Torre de 74,5 m de altura",
+        "Fachada escalonada que lembra colunas de basalto",
+        "Cripta consagrada em 1948",
+        "Órgão Klais com 5.275 tubos",
+        "Consagrada em 26 de outubro de 1986"
+      ],
+      "funFacts": [
+        "A estátua de Leif Erikson na frente, de Alexander Stirling Calder, foi um presente dos EUA em 1930 e é anterior à igreja.",
+        "Seu órgão tem 102 fileiras e 72 registros."
+      ]
+    }
+  },
+  "santiago-de-compostela-cathedral": {
+    "name": "Catedral de Santiago de Compostela",
+    "aliases": [
+      "Catedral de Santiago",
+      "Catedral de São Tiago de Compostela"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "espanhol",
+        "lifespan": null,
+        "bio": "Mestre escultor e construtor que, com sua oficina, fez o Pórtico da Glória românico para o rei Fernando II de Leão."
+      },
+      {
+        "aliases": [],
+        "nationality": "espanhol",
+        "lifespan": null,
+        "bio": "Arquiteto que projetou a fachada barroca do Obradoiro, concluída por volta de 1740."
+      }
+    ],
+    "city": "Santiago de Compostela",
+    "style": "Românico com acréscimos góticos e barrocos",
+    "photos": [
+      {
+        "alt": "Duas torres sineiras e uma fachada barroca de granito ricamente esculpida acima de telhados de cerâmica vermelha",
+        "caption": null
+      },
+      {
+        "alt": "Nave românica escura com arcos de volta perfeita, uma galeria acima e uma cúpula-lanterna no cruzeiro",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta catedral marca o fim tradicional de uma grande rota medieval de peregrinação que cruza toda uma região da Europa.",
+      "É o suposto local de sepultamento de um apóstolo, e um enorme incensório de cerca de 80 kg é balançado por cordas através de seu transepto.",
+      "Iniciada em 1075 e consagrada em 1211, seu corpo românico esconde um pórtico da Glória e é precedido por uma fachada barroca do século XVIII."
+    ],
+    "summary": {
+      "description": "Iniciada em 1075 e consagrada em 1211, esta catedral é principalmente românica, com acréscimos góticos e barrocos. É o fim tradicional do Caminho de Santiago e o suposto local de sepultamento do apóstolo. Sua fachada barroca do Obradoiro foi projetada por Fernando de Casas Novoa, e o Pórtico da Glória românico é do Mestre Mateo.",
+      "keyFeatures": [
+        "Planta românica iniciada em 1075",
+        "Fachada barroca do Obradoiro, por volta de 1740",
+        "Pórtico da Glória do Mestre Mateo",
+        "Incensório botafumeiro de 1851",
+        "Suposto túmulo de São Tiago"
+      ],
+      "funFacts": [
+        "O botafumeiro é descrito como o maior incensório do mundo, com cerca de 1,6 m de altura e cerca de 80 kg.",
+        "A construção foi interrompida várias vezes entre o século XII e o início do XIII."
+      ]
+    }
+  }
+}

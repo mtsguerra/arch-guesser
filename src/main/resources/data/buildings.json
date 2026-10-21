@@ -23864,5 +23864,1341 @@
         "It reopened on 27 January 2025 after a 40-month renovation."
       ]
     }
+  },
+  {
+    "id": "great-zimbabwe",
+    "name": "Great Zimbabwe",
+    "aliases": [
+      "Great Zimbabwe Ruins",
+      "Great Enclosure"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Shona builders",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Shona",
+        "bio": "Ancestors of the Shona people, most likely the Karanga, who raised the stone walls of the city from the 11th century onward, working in dry stone without mortar."
+      }
+    ],
+    "location": {
+      "city": "Masvingo",
+      "country": "Zimbabwe",
+      "countryCode": "ZW"
+    },
+    "yearCompleted": null,
+    "era": "MEDIEVAL",
+    "themes": [
+      "ancient-ruins"
+    ],
+    "style": "Shona dry-stone architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Great-zim-aerial-looking-West.JPG/1920px-Great-zim-aerial-looking-West.JPG",
+        "alt": "Aerial view of a huge curved granite wall enclosing trees, beside scattered stone ruins on a dry hillside",
+        "credit": "Photo: Janice Bell · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Great-zim-aerial-looking-West.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Great_Zimbabwe_%28Great_Enclosure%29.jpg/1920px-Great_Zimbabwe_%28Great_Enclosure%29.jpg",
+        "alt": "Distant long stone walls on a low rise seen over a wooded African landscape",
+        "caption": "The walled enclosure seen across the valley.",
+        "credit": "Photo: Todinirunganga · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Zimbabwe_(Great_Enclosure).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This stone city in southern Africa was a capital and trading centre for several centuries before it was abandoned."
+      },
+      {
+        "order": 2,
+        "text": "Its walls were laid in dry granite blocks with no mortar, and the largest rises up to about 11 metres."
+      },
+      {
+        "order": 3,
+        "text": "Early European writers refused to believe Africans built it, and its name, from Shona words for houses of stone, was later given to a whole country."
+      }
+    ],
+    "summary": {
+      "description": "Settled around 1000 AD, this city grew in stone from the 11th century and became the capital of its kingdom from the 13th century. Its granite walls are laid without mortar, and the Great Enclosure has an outer wall up to 11 m high and about 250 m long. It was abandoned in the 16th or 17th century and is now a UNESCO World Heritage Site.",
+      "keyFeatures": [
+        "Dry granite walls with no mortar",
+        "Great Enclosure with an outer wall up to 11 m high",
+        "Conical tower about 9 m tall",
+        "Soapstone Zimbabwe Birds carved for monoliths",
+        "Ruins covering about 730 hectares"
+      ],
+      "funFacts": [
+        "Colonial-era writers credited Phoenicians, Arabs or the Queen of Sheba, and an African origin was accepted by scholars only from the 1950s.",
+        "The soapstone bird carvings, probably bateleur eagles, appear on the national flag and coat of arms."
+      ]
+    }
+  },
+  {
+    "id": "church-of-saint-george-lalibela",
+    "name": "Church of Saint George, Lalibela",
+    "aliases": [
+      "Bete Giyorgis",
+      "Biete Ghiorgis",
+      "Saint George Church Lalibela"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Zagwe builders",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Ethiopian",
+        "bio": "Builders working for King Gebre Mesqel Lalibela of the Zagwe dynasty, who carved the church downward out of volcanic tuff in the late 12th or early 13th century."
+      }
+    ],
+    "location": {
+      "city": "Lalibela",
+      "country": "Ethiopia",
+      "countryCode": "ET"
+    },
+    "yearCompleted": 1200,
+    "era": "MEDIEVAL",
+    "themes": [
+      "churches-cathedrals",
+      "ancient-ruins"
+    ],
+    "style": "Ethiopian rock-hewn church",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_Saint_George,_Lalibela",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Bete_Giyorgis_03.jpg/1920px-Bete_Giyorgis_03.jpg",
+        "alt": "Cross-shaped red-brown stone church seen from above, sunk in a square pit cut into the rock, with stepped plinths and small arched windows",
+        "credit": "Photo: Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bete_Giyorgis_03.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bete_Giyorgis-Lalibela_%289%29.jpg/1920px-Bete_Giyorgis-Lalibela_%289%29.jpg",
+        "alt": "Narrow trench cut in solid rock beside the stepped base of a carved stone building",
+        "credit": "Photo: Ji-Elle · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bete_Giyorgis-Lalibela_(9).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This church was not built up from the ground: it was carved down into a hillside of volcanic rock, and its roof lies level with the surrounding ground."
+      },
+      {
+        "order": 2,
+        "text": "Its plan and its roof are shaped like a cross, and it stands in a deep square pit reached by a trench."
+      },
+      {
+        "order": 3,
+        "text": "A king of the Zagwe dynasty who is venerated as a saint said a vision told him to make it, and it is the most famous of eleven rock-hewn churches in his holy town."
+      }
+    ],
+    "summary": {
+      "description": "Carved downward from a single block of volcanic tuff in the late 12th or early 13th century, this cross-shaped church sits in a pit open to the sky. Tradition says King Gebre Mesqel Lalibela of the Zagwe dynasty had a vision telling him to build it. It belongs to the rock-hewn churches of Lalibela, inscribed by UNESCO in 1978.",
+      "keyFeatures": [
+        "Carved from one block of volcanic tuff",
+        "Cross-shaped plan and roof",
+        "Sunk in a square pit reached by a trench",
+        "Stepped plinth and arched windows cut in relief",
+        "Part of a UNESCO-listed group of churches"
+      ],
+      "funFacts": [
+        "The church was cut from the top down, so the roof was finished before the walls.",
+        "The trench between two church groups is said to represent the River Jordan."
+      ]
+    }
+  },
+  {
+    "id": "pyramid-of-the-sun-teotihuacan",
+    "name": "Pyramid of the Sun",
+    "aliases": [
+      "Pirámide del Sol",
+      "Pyramid of the Sun Teotihuacan",
+      "Pyramid of the Sun, Teotihuacan"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Teotihuacan builders",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Teotihuacano",
+        "bio": "The people of Teotihuacan, who raised the pyramid in two phases from about 200 AD and whose own name for it is unknown."
+      }
+    ],
+    "location": {
+      "city": "Teotihuacán",
+      "country": "Mexico",
+      "countryCode": "MX"
+    },
+    "yearCompleted": 200,
+    "era": "PRE_COLUMBIAN",
+    "themes": [
+      "ancient-ruins"
+    ],
+    "style": "Teotihuacan talud-tablero pyramid",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pyramid_of_the_Sun",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pyramid_of_the_Sun_at_Teotihuacan.jpg/1920px-Pyramid_of_the_Sun_at_Teotihuacan.jpg",
+        "alt": "Huge stepped stone pyramid with a central stair rising above a wide empty plaza",
+        "credit": "Photo: Peachseltzer · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pyramid_of_the_Sun_at_Teotihuacan.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/View_along_terrace_of_Pyramid_of_the_Sun%2C_Teotihuacan.jpg/1920px-View_along_terrace_of_Pyramid_of_the_Sun%2C_Teotihuacan.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.82
+        },
+        "alt": "Rubble-paved terrace along a steep stone pyramid with a smaller pyramid and green plain far below",
+        "credit": "Photo: Daniel Case · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:View_along_terrace_of_Pyramid_of_the_Sun,_Teotihuacan.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is the largest structure in a vast ancient city of Mesoamerica whose own name for it is lost."
+      },
+      {
+        "order": 2,
+        "text": "Its main stair faces a long processional avenue that the city's grid follows, and it stands between two other great monuments."
+      },
+      {
+        "order": 3,
+        "text": "Its name comes from the Aztecs, who found the city already abandoned centuries earlier, and the pyramid is over 200 metres wide at the base."
+      }
+    ],
+    "summary": {
+      "description": "Built in two phases from about 200 AD, this is among the largest pyramids of the pre-Columbian Americas. It rises beside the Avenue of the Dead, and the city's central grid follows its orientation. The name Pyramid of the Sun was given by the Aztecs long after the city was abandoned, and what the Teotihuacanos called it is unknown.",
+      "keyFeatures": [
+        "Two construction phases from about 200 AD",
+        "Base roughly 220 to 230 m per side",
+        "Beside the Avenue of the Dead",
+        "Once plastered and painted with murals, now lost",
+        "A cave about 6 m under its centre"
+      ],
+      "funFacts": [
+        "A pit found in 1971 leads to a cave under the pyramid that may be man-made and may have been a royal tomb.",
+        "Sources disagree on its height, giving figures from about 65 m to 75 m."
+      ]
+    }
+  },
+  {
+    "id": "palacio-de-bellas-artes",
+    "name": "Palacio de Bellas Artes",
+    "aliases": [
+      "Palace of Fine Arts",
+      "Bellas Artes"
+    ],
+    "architects": [
+      {
+        "name": "Adamo Boari",
+        "aliases": [],
+        "lifespan": "1863–1928",
+        "nationality": "Italian",
+        "bio": "Italian architect who drew up the original design in 1904, in Art Nouveau and Neoclassical forms, and began construction."
+      },
+      {
+        "name": "Federico Mariscal",
+        "aliases": [
+          "Federico E. Mariscal"
+        ],
+        "lifespan": "1881–1971",
+        "nationality": "Mexican",
+        "bio": "Mexican architect who resumed construction in 1932 and completed the interior in Art Deco style."
+      }
+    ],
+    "location": {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "countryCode": "MX"
+    },
+    "yearCompleted": 1934,
+    "era": "ART_NOUVEAU",
+    "themes": [
+      "theatres-opera",
+      "museums",
+      "art-nouveau"
+    ],
+    "style": "Art Nouveau and Neoclassical exterior, Art Deco interior",
+    "wikipedia": "https://en.wikipedia.org/wiki/Palacio_de_Bellas_Artes",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Mexico_City_Palacio_de_bellas_artes.jpg/1920px-Mexico_City_Palacio_de_bellas_artes.jpg",
+        "alt": "White marble opera house with a large central dome and ornate sculpted facade beside a park",
+        "credit": "Photo: Jeses · CC BY-SA 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mexico_City_Palacio_de_bellas_artes.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Interior_of_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg/1920px-Interior_of_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg",
+        "alt": "Marble hall with tall columns, geometric Art Deco details and balconies on several levels",
+        "credit": "Photo: José Luiz · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Palacio_de_Bellas_Artes_-_Mexico_2024.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This marble opera house and arts centre in a Latin American capital took three decades to finish because a revolution stopped the work."
+      },
+      {
+        "order": 2,
+        "text": "It has sunk about four metres into soft ground, and its stage curtain is made of nearly a million pieces of glass."
+      },
+      {
+        "order": 3,
+        "text": "Its outside is Art Nouveau and Neoclassical while its inside is Art Deco, and its halls hold murals by Rivera, Orozco and Siqueiros."
+      }
+    ],
+    "summary": {
+      "description": "Begun on 1 October 1904 to a design by Adamo Boari, construction stalled around 1913 during the Mexican Revolution and resumed in 1932. Federico Mariscal finished it, giving the interior an Art Deco character, and it opened on 29 November 1934. It holds a 1,590-seat theatre and murals by leading Mexican painters.",
+      "keyFeatures": [
+        "Exterior in Art Nouveau and Neoclassical styles",
+        "Marble from Mexico and Carrara",
+        "Art Deco interior",
+        "Glass stage curtain made by Tiffany's",
+        "Murals by Rivera, Orozco and Siqueiros"
+      ],
+      "funFacts": [
+        "The Tiffany glass curtain weighs about 24 tons.",
+        "The building has sunk about four metres into the soft subsoil of the city."
+      ]
+    }
+  },
+  {
+    "id": "biblioteca-central-unam",
+    "name": "Central Library of UNAM",
+    "aliases": [
+      "Biblioteca Central de la UNAM",
+      "Central Library of the National Autonomous University of Mexico",
+      "UNAM Central Library"
+    ],
+    "architects": [
+      {
+        "name": "Juan O'Gorman",
+        "aliases": [
+          "Juan O Gorman"
+        ],
+        "lifespan": "1905–1982",
+        "nationality": "Mexican",
+        "bio": "Mexican architect and painter who co-led the design of the library from 1948 and created its exterior mural, Historical Representation of Culture."
+      },
+      {
+        "name": "Gustavo Saavedra",
+        "aliases": [
+          "Gustavo María Saavedra"
+        ],
+        "lifespan": null,
+        "nationality": "Mexican",
+        "bio": "Architect who co-designed the Central Library with Juan O'Gorman and Juan Martínez de Velasco."
+      },
+      {
+        "name": "Juan Martínez de Velasco",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Mexican",
+        "bio": "Architect who co-designed the Central Library with Juan O'Gorman and Gustavo Saavedra."
+      }
+    ],
+    "location": {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "countryCode": "MX"
+    },
+    "yearCompleted": 1956,
+    "era": "MODERNISM",
+    "themes": [
+      "libraries",
+      "modern-icons"
+    ],
+    "style": "Mexican Modernism with stone mosaic mural",
+    "wikipedia": "https://en.wikipedia.org/wiki/Central_Library_(UNAM)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Biblioteca_Central_UNAM_M%C3%A9xico.jpg",
+        "alt": "Tall windowless tower covered in a colourful stone mosaic mural, standing on a low platform",
+        "credit": "Photo: Scanudas https://www.flickr.com/photos/scanudas/ · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_UNAM_M%C3%A9xico.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Biblioteca_Central_UNAM-Departamento_de_Consulta_02.jpg/1920px-Biblioteca_Central_UNAM-Departamento_de_Consulta_02.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.42
+        },
+        "alt": "Reading room with a large abstract mural above book shelves and a window of translucent stone panels",
+        "credit": "Photo: Laboratorio Restauración · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_Central_UNAM-Departamento_de_Consulta_02.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This university library is a tall windowless block, because its upper floors are made to hold books rather than readers."
+      },
+      {
+        "order": 2,
+        "text": "Its four walls are covered by a huge mural made of natural stone tiles in twelve colours, not paint."
+      },
+      {
+        "order": 3,
+        "text": "The mural tells the history of a nation from pre-Hispanic times to the modern university, and the campus around it is a World Heritage Site."
+      }
+    ],
+    "summary": {
+      "description": "Designed from 1948 by Juan O'Gorman, Gustavo Saavedra and Juan Martínez de Velasco, the library opened in 1956. The ten upper floors are windowless storage covered by O'Gorman's mural, Historical Representation of Culture. The mural uses natural stone tiles in 12 colours from across Mexico, and the library is part of the UNESCO-listed Central Campus of University City.",
+      "keyFeatures": [
+        "Ten windowless book-storage floors",
+        "Mural of natural stone tiles in 12 colours",
+        "Four walls: pre-Hispanic, colonial, contemporary and university Mexico",
+        "Raised platform with basalt fountains",
+        "Reading-room light filtered through thin tecali stone"
+      ],
+      "funFacts": [
+        "Each of the ten storage floors holds about 120,000 volumes.",
+        "The library and the Central Campus were inscribed by UNESCO in July 2007."
+      ]
+    }
+  },
+  {
+    "id": "estadio-olimpico-universitario",
+    "name": "Estadio Olímpico Universitario",
+    "aliases": [
+      "Olympic Stadium Mexico City",
+      "Estadio Olimpico Universitario",
+      "University Olympic Stadium"
+    ],
+    "architects": [
+      {
+        "name": "Augusto Pérez Palacios",
+        "aliases": [
+          "Augusto Perez Palacios"
+        ],
+        "lifespan": null,
+        "nationality": "Mexican",
+        "bio": "Mexican architect who designed the university stadium together with Raúl Salinas and Jorge Bravo."
+      },
+      {
+        "name": "Raúl Salinas",
+        "aliases": [
+          "Raul Salinas Moro"
+        ],
+        "lifespan": null,
+        "nationality": "Mexican",
+        "bio": "Mexican architect who co-designed the university stadium with Augusto Pérez Palacios and Jorge Bravo."
+      },
+      {
+        "name": "Jorge Bravo",
+        "aliases": [
+          "Jorge Bravo Jiménez"
+        ],
+        "lifespan": null,
+        "nationality": "Mexican",
+        "bio": "Mexican architect who co-designed the university stadium with Augusto Pérez Palacios and Raúl Salinas."
+      }
+    ],
+    "location": {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "countryCode": "MX"
+    },
+    "yearCompleted": 1952,
+    "era": "MODERNISM",
+    "themes": [
+      "stadiums",
+      "modern-icons"
+    ],
+    "style": "Mexican Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Universitario",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Estadio_Olimpico_Universitario_CU.jpg",
+        "alt": "Curving concrete stands around a running track and green pitch, with floodlight towers and wooded hills behind",
+        "credit": "Photo: Nortonvonwerl · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Estadio_Olimpico_Universitario_CU.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Estadio_Ol%C3%ADmpico_Universitario%2C_2011.jpg/1920px-Estadio_Ol%C3%ADmpico_Universitario%2C_2011.jpg",
+        "alt": "Stadium entrance front clad in dark stone with a large colourful relief mural of figures and an eagle",
+        "credit": "Photo: Elisa.rolle · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Estadio_Ol%C3%ADmpico_Universitario,_2011.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a university stadium whose stands are asymmetric, with one side built far higher and more developed than the other."
+      },
+      {
+        "order": 2,
+        "text": "It opened in 1952 and was enlarged to about 80,000 seats for a Summer Olympics in the late 1960s."
+      },
+      {
+        "order": 3,
+        "text": "A relief mural in natural stone on one side shows a family and athletes lighting the torch, and it is where two sprinters raised fists on a medal podium in 1968."
+      }
+    ],
+    "summary": {
+      "description": "Opened on 20 November 1952, the stadium was designed by Augusto Pérez Palacios, Raúl Salinas and Jorge Bravo. For the 1968 Summer Olympics its capacity was raised from 70,000 to 83,700 without substantially changing the original structure. Its stands are asymmetric, with the west side more developed.",
+      "keyFeatures": [
+        "Asymmetric stands, the west side more developed",
+        "Opened 20 November 1952",
+        "Stone relief mural on the east side",
+        "Capacity raised to 83,700 for 1968",
+        "Stands complete the axis of University City"
+      ],
+      "funFacts": [
+        "The stadium hosted the opening and closing ceremonies of the 1968 Olympics.",
+        "Tommie Smith and John Carlos gave their Black power salute here during the 200-metre medal ceremony."
+      ]
+    }
+  },
+  {
+    "id": "church-of-the-light",
+    "name": "Church of the Light",
+    "aliases": [
+      "Ibaraki Kasugaoka Church",
+      "Light Church",
+      "Kasugaoka Church"
+    ],
+    "architects": [
+      {
+        "name": "Tadao Ando",
+        "aliases": [
+          "Ando"
+        ],
+        "lifespan": "b. 1941",
+        "nationality": "Japanese",
+        "bio": "Self-taught Japanese architect and former boxer, winner of the Pritzker Prize in 1995. Ando is known for poured-in-place concrete, with a smooth finish, that frames light, water and nature in quiet, geometric spaces, from the Church of the Light to the museums of Naoshima."
+      }
+    ],
+    "location": {
+      "city": "Ibaraki",
+      "country": "Japan",
+      "countryCode": "JP"
+    },
+    "yearCompleted": 1989,
+    "era": "MODERNISM",
+    "themes": [
+      "churches-cathedrals",
+      "modern-icons"
+    ],
+    "style": "Minimalist concrete Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Church_of_the_Light",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Church_of_Light.JPG",
+        "alt": "Bare concrete chapel with dark wooden pews and a cross of daylight cut through the wall behind the altar",
+        "credit": "Photo: The original uploader was Bujatt at English Wikipedia. · CC BY-SA 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_of_Light.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ibaraki_Kasugaoka_Church_Outside.JPG",
+        "alt": "Plain grey concrete wall with a cross-shaped glazed slit, partly hidden by hedges and a conifer",
+        "credit": "Photo: Bergmann · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ibaraki_Kasugaoka_Church_Outside.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This small church in a residential neighbourhood is built almost entirely of bare, smooth concrete."
+      },
+      {
+        "order": 2,
+        "text": "A wall set at 15 degrees to the box cuts through its plan, separating the chapel from the entrance."
+      },
+      {
+        "order": 3,
+        "text": "Its only ornament is a cross cut through the wall behind the altar, so the cross is made of daylight, and a roof was nearly left out for lack of money."
+      }
+    ],
+    "summary": {
+      "description": "Completed in 1989 in a residential district of Ibaraki, Osaka Prefecture, this small chapel is a concrete box of about 113 square metres. A wall angled at 15 degrees cuts through three cubes to separate the chapel from the entrance. The cross is cut into the concrete behind the altar and lit by daylight.",
+      "keyFeatures": [
+        "Bare cast concrete throughout",
+        "Wall angled at 15 degrees",
+        "Cross cut through the altar wall and lit by daylight",
+        "About 113 m² of floor area",
+        "Sunday School wing added in 1999"
+      ],
+      "funFacts": [
+        "Because of funding delays, the architect considered building it without a roof, but a construction firm donated the roof.",
+        "A Sunday School extension was added in 1999."
+      ]
+    }
+  },
+  {
+    "id": "oslo-opera-house",
+    "name": "Oslo Opera House",
+    "aliases": [
+      "Operahuset",
+      "Den Norske Opera & Ballett",
+      "Norwegian National Opera and Ballet"
+    ],
+    "architects": [
+      {
+        "name": "Snøhetta",
+        "aliases": [
+          "Snohetta"
+        ],
+        "lifespan": null,
+        "nationality": "Norwegian",
+        "bio": "Norwegian architecture firm that won the competition for the opera house from 350 entries."
+      }
+    ],
+    "location": {
+      "city": "Oslo",
+      "country": "Norway",
+      "countryCode": "NO"
+    },
+    "yearCompleted": 2008,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "theatres-opera",
+      "modern-icons"
+    ],
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oslo_Opera_House",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Oslo_Opera_House_-_2025.jpg/1920px-Oslo_Opera_House_-_2025.jpg",
+        "alt": "White angled building with glass walls glowing at dusk, its sloping roof reaching down to the water",
+        "credit": "Photo: Pierre Blaché · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Oslo_Opera_House_-_2025.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Oslo%2C_Den_Norske_Opera%2C_foyer_%283%29.jpg/1920px-Oslo%2C_Den_Norske_Opera%2C_foyer_%283%29.jpg",
+        "alt": "Tall foyer with slanting white columns, a glass wall, stone floor and a curved timber-clad wall",
+        "credit": "Photo: Palickap · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Oslo,_Den_Norske_Opera,_foyer_(3).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This national opera house sits at the edge of a fjord, and its roof slopes down so visitors can walk up it from the water."
+      },
+      {
+        "order": 2,
+        "text": "Its outside is clad in white Italian marble and white granite, with angled surfaces that seem to rise out of the sea."
+      },
+      {
+        "order": 3,
+        "text": "It opened in April 2008, finished under budget, and a glass-and-steel sculpture floats in the water beside it."
+      }
+    ],
+    "summary": {
+      "description": "Chosen from 350 entries in a competition, this opera house opened on 12 April 2008 in Bjørvika at the head of the Oslofjord. Its angled marble and granite surfaces make it seem to rise from the water, and its roof slopes down to ground level as a public plaza. The main auditorium seats 1,364.",
+      "keyFeatures": [
+        "Roof slopes to ground level as a public plaza",
+        "Carrara marble and white granite cladding",
+        "About 49,000 m² across roughly 1,100 rooms",
+        "Main auditorium with 1,364 seats",
+        "Sculpture She Lies floating in the fjord"
+      ],
+      "funFacts": [
+        "It was finished about 300 million NOK under its budget of about 4.4 billion NOK.",
+        "It won the World Architecture Festival culture award in 2008 and the 2009 European Union Prize for Contemporary Architecture."
+      ]
+    }
+  },
+  {
+    "id": "harpa-reykjavik",
+    "name": "Harpa",
+    "aliases": [
+      "Harpa Concert Hall",
+      "Harpa Reykjavik Concert Hall and Conference Centre"
+    ],
+    "architects": [
+      {
+        "name": "Henning Larsen Architects",
+        "aliases": [
+          "Henning Larsen"
+        ],
+        "lifespan": null,
+        "nationality": "Danish",
+        "bio": "Danish architecture firm that designed the concert hall together with the artist Ólafur Eliasson."
+      },
+      {
+        "name": "Ólafur Eliasson",
+        "aliases": [
+          "Olafur Eliasson"
+        ],
+        "lifespan": null,
+        "nationality": "Danish-Icelandic",
+        "bio": "Danish-Icelandic artist who designed the building's glass facade in collaboration with Henning Larsen Architects."
+      }
+    ],
+    "location": {
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "countryCode": "IS"
+    },
+    "yearCompleted": 2011,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "theatres-opera"
+    ],
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harpa_(concert_hall)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Snow_in_Reykjavik%2C_Harpa_concert_hall_%286905136669%29.jpg/1920px-Snow_in_Reykjavik%2C_Harpa_concert_hall_%286905136669%29.jpg",
+        "alt": "Dark faceted glass building beside a harbour, seen across a snow-covered slope at dusk",
+        "credit": "Photo: Tristan Ferne from UK · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Snow_in_Reykjavik,_Harpa_concert_hall_(6905136669).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Concert_at_the_Harpa_in_Reykjavik.jpg/1920px-Concert_at_the_Harpa_in_Reykjavik.jpg",
+        "alt": "Two folk musicians in traditional dress playing violins in front of a wall of geometric glass panels",
+        "credit": "Photo: James Poulson · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Concert_at_the_Harpa_in_Reykjavik.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This concert hall and conference centre stands on a harbour in a northern capital and was meant to give the city a landmark."
+      },
+      {
+        "order": 2,
+        "text": "Its steel frame is clad in coloured, geometric glass panels inspired by the basalt landscape of its country."
+      },
+      {
+        "order": 3,
+        "text": "Work began in 2007 and halted during a national financial crisis, until the government chose in 2008 to fund the rest, and it opened in 2011."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Henning Larsen Architects with the artist Ólafur Eliasson, who made the facade, this concert hall has a steel frame clad in coloured geometric glass panels inspired by Iceland's basalt landscape. Construction began in 2007 and was halted during the 2008 to 2011 financial crisis before the government chose to fund the rest. It opened in 2011 at a cost of about 164 million euros.",
+      "keyFeatures": [
+        "Steel frame with geometric coloured glass panels",
+        "Facade by Ólafur Eliasson",
+        "Inspired by Icelandic basalt landscape",
+        "Main hall Eldborg",
+        "Mies van der Rohe Award 2013"
+      ],
+      "funFacts": [
+        "It won the EU's Mies van der Rohe award for contemporary architecture in 2013.",
+        "The government decided in 2008 to pay for the remaining construction after the banking crisis."
+      ]
+    }
+  },
+  {
+    "id": "louvre-pyramid",
+    "name": "Louvre Pyramid",
+    "aliases": [
+      "Pyramide du Louvre",
+      "Pyramide of the Louvre"
+    ],
+    "architects": [
+      {
+        "name": "I. M. Pei",
+        "aliases": [
+          "Ieoh Ming Pei",
+          "Pei"
+        ],
+        "lifespan": "1917–2019",
+        "nationality": "Chinese-American",
+        "bio": "Architect of the glass pyramid added to the Cour Napoléon in 1989 as the main entrance to the museum."
+      }
+    ],
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1989,
+    "era": "MODERNISM",
+    "themes": [
+      "museums",
+      "modern-icons"
+    ],
+    "style": "Late Modernist glass and steel",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louvre_Pyramid",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Louvre_Courtyard%2C_Looking_West.jpg/1920px-Louvre_Courtyard%2C_Looking_West.jpg",
+        "alt": "Glass pyramid glowing at dusk in a vast courtyard framed by two wings of an ornate stone palace",
+        "credit": "Photo: Benh LIEU SONG (Flickr) · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Louvre_Courtyard,_Looking_West.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Louvre_Pyramid_Interior_%285987328784%29.jpg/1920px-Louvre_Pyramid_Interior_%285987328784%29.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.8
+        },
+        "alt": "View upward through the steel-and-glass lattice of a pyramid, with the sun and a stone building reflected",
+        "credit": "Photo: Erik Drost · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Louvre_Pyramid_Interior_(5987328784).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This glass pyramid is the entrance to a former royal palace that is now one of the world's largest museums."
+      },
+      {
+        "order": 2,
+        "text": "It is about 21.6 metres tall, with a square base about 34 metres wide, and critics at first called it an Egyptian death symbol."
+      },
+      {
+        "order": 3,
+        "text": "It was completed in 1989 as part of a presidential project, and a popular myth says it has 666 panes, though the real count is 603 rhombi and 70 triangles."
+      }
+    ],
+    "summary": {
+      "description": "Selected in 1983 for the Grand Louvre project announced by President Mitterrand in 1981, this glass pyramid was completed in 1989. It is about 21.6 m tall on a square base about 34 m wide, and its sides meet the base at 51.52 degrees. Many critics objected to a modernist form beside Renaissance architecture.",
+      "keyFeatures": [
+        "About 21.6 m tall, base about 34 m",
+        "603 rhombus and 70 triangular glass segments",
+        "Sides rise at 51.52 degrees",
+        "Entrance to a historic palace-museum",
+        "Inverted pyramid skylight in the Carrousel du Louvre"
+      ],
+      "funFacts": [
+        "A rumour says it has 666 panes, but the museum counts 673 segments.",
+        "Critics nicknamed it Pharaoh François' Pyramid."
+      ]
+    }
+  },
+  {
+    "id": "hallgrimskirkja",
+    "name": "Hallgrímskirkja",
+    "aliases": [
+      "Hallgrimskirkja",
+      "Church of Hallgrímur"
+    ],
+    "architects": [
+      {
+        "name": "Guðjón Samúelsson",
+        "aliases": [
+          "Gudjon Samuelsson"
+        ],
+        "lifespan": "1887–1950",
+        "nationality": "Icelandic",
+        "bio": "Icelandic state architect whose design for the church was commissioned in 1937; he drew on Iceland's columnar basalt formations."
+      }
+    ],
+    "location": {
+      "city": "Reykjavik",
+      "country": "Iceland",
+      "countryCode": "IS"
+    },
+    "yearCompleted": 1986,
+    "era": "MODERNISM",
+    "themes": [
+      "churches-cathedrals"
+    ],
+    "style": "Expressionist Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hallgr%C3%ADmskirkja.jpeg",
+        "alt": "Tall pale concrete church with a stepped, ribbed front rising to a slender tower, with a statue of an explorer beside it",
+        "credit": "Photo: Andreas Tille · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hallgr%C3%ADmskirkja.jpeg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/5_-_Navata_cattedrale_Reykjavik.jpg/1920px-5_-_Navata_cattedrale_Reykjavik.jpg",
+        "alt": "Long pale nave with slender pointed arches, tall narrow windows, wooden pews and a large organ at the far end",
+        "credit": "Photo: GRANDE PUFFO VCO · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:5_-_Navata_cattedrale_Reykjavik.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This is the largest church in its country, and its tower is among the tallest structures there."
+      },
+      {
+        "order": 2,
+        "text": "Its stepped, ribbed front is meant to recall the columnar basalt formations, mountains and glaciers of the landscape."
+      },
+      {
+        "order": 3,
+        "text": "Work lasted from 1945 to 1986, and it is named after a 17th-century poet and cleric who wrote the Passion Hymns."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned in 1937 and built between 1945 and 1986, this is the largest church in Iceland, at 74.5 m tall. Its design resembles Iceland's trap rocks, mountains and glaciers, especially columnar basalt. It is named after the poet and cleric Hallgrímur Pétursson, author of the Passion Hymns.",
+      "keyFeatures": [
+        "Tower 74.5 m high",
+        "Stepped front recalling basalt columns",
+        "Crypt consecrated in 1948",
+        "Klais organ with 5,275 pipes",
+        "Consecrated on 26 October 1986"
+      ],
+      "funFacts": [
+        "The statue of Leif Erikson in front, by Alexander Stirling Calder, was a US gift in 1930 and predates the church.",
+        "Its organ has 102 ranks and 72 stops."
+      ]
+    }
+  },
+  {
+    "id": "santiago-de-compostela-cathedral",
+    "name": "Santiago de Compostela Cathedral",
+    "aliases": [
+      "Catedral de Santiago de Compostela",
+      "Cathedral of Saint James",
+      "Cathedral of Santiago"
+    ],
+    "architects": [
+      {
+        "name": "Master Mateo",
+        "aliases": [
+          "Maestro Mateo",
+          "Mestre Mateo"
+        ],
+        "lifespan": null,
+        "nationality": "Spanish",
+        "bio": "Master sculptor and builder who, with his workshop, made the Romanesque Pórtico da Gloria for King Ferdinand II of León."
+      },
+      {
+        "name": "Fernando de Casas Novoa",
+        "aliases": [
+          "Fernando de Casas y Novoa"
+        ],
+        "lifespan": null,
+        "nationality": "Spanish",
+        "bio": "Architect who designed the Baroque Obradoiro façade, completed about 1740."
+      }
+    ],
+    "location": {
+      "city": "Santiago de Compostela",
+      "country": "Spain",
+      "countryCode": "ES"
+    },
+    "yearCompleted": 1211,
+    "era": "MEDIEVAL",
+    "themes": [
+      "churches-cathedrals"
+    ],
+    "style": "Romanesque with Gothic and Baroque additions",
+    "wikipedia": "https://en.wikipedia.org/wiki/Santiago_de_Compostela_Cathedral",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/2013_-_Fachada_do_Obradoiro_desde_a_Alameda._Catedral_de_Santiago_de_Compostela-2.jpg/1920px-2013_-_Fachada_do_Obradoiro_desde_a_Alameda._Catedral_de_Santiago_de_Compostela-2.jpg",
+        "alt": "Twin bell towers and an elaborately carved granite Baroque facade rising above red-tiled roofs",
+        "credit": "Photo: Luis Miguel Bugallo Sánchez (Lmbuga) · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2013_-_Fachada_do_Obradoiro_desde_a_Alameda._Catedral_de_Santiago_de_Compostela-2.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Catedral_de_Santiago_de_Compostela%2C_nave_lateral.jpg/1920px-Catedral_de_Santiago_de_Compostela%2C_nave_lateral.jpg",
+        "alt": "Dark Romanesque nave with round arches, a gallery above and a lantern dome at the crossing",
+        "credit": "Photo: D.Rovchak · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_Santiago_de_Compostela,_nave_lateral.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This cathedral marks the traditional end of a great medieval pilgrimage route that crosses a whole region of Europe."
+      },
+      {
+        "order": 2,
+        "text": "It is the reputed burial place of an apostle, and a huge silver incense burner, about 80 kg, is swung through its transept on ropes."
+      },
+      {
+        "order": 3,
+        "text": "Begun in 1075 and consecrated in 1211, its Romanesque body hides a Gloria portico and is fronted by a Baroque facade from the 18th century."
+      }
+    ],
+    "summary": {
+      "description": "Begun in 1075 and consecrated in 1211, this cathedral is mainly Romanesque, with Gothic and Baroque additions. It is the traditional end of the Way of St James and the reputed burial place of the apostle. Its Baroque Obradoiro facade was designed by Fernando de Casas Novoa, and the Romanesque Pórtico da Gloria is by Master Mateo.",
+      "keyFeatures": [
+        "Romanesque plan begun in 1075",
+        "Baroque Obradoiro facade, about 1740",
+        "Pórtico da Gloria by Master Mateo",
+        "Botafumeiro incense burner of 1851",
+        "Reputed tomb of Saint James"
+      ],
+      "funFacts": [
+        "The botafumeiro is described as the largest censer in the world, about 1.6 m tall and about 80 kg.",
+        "Building was halted several times over the 12th century and early 13th."
+      ]
+    }
+  },
+  {
+    "id": "speyer-cathedral",
+    "name": "Speyer Cathedral",
+    "aliases": [
+      "Speyerer Dom",
+      "Kaiserdom zu Speyer",
+      "Imperial Cathedral of Speyer"
+    ],
+    "architects": [
+      {
+        "name": "Unknown master masons",
+        "aliases": [
+          "Unknown",
+          "Anonymous"
+        ],
+        "bio": "The architects of the 1194–1220 rebuilding are unknown; Jean Texier later added the Flamboyant north spire in 1507–1513."
+      }
+    ],
+    "location": {
+      "city": "Speyer",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "yearCompleted": 1106,
+    "era": "MEDIEVAL",
+    "themes": [
+      "churches-cathedrals"
+    ],
+    "style": "Romanesque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Speyer_Cathedral",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Speyer---Cathedral---South-View---%28Gentry%29.jpg/1920px-Speyer---Cathedral---South-View---%28Gentry%29.jpg",
+        "alt": "Long red sandstone church with a green copper roof, a domed crossing and four slender towers with pointed caps",
+        "credit": "Photo: Sole Creator and Copyright Holder: Alfred Hutter aka Gentry · Attribution · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Speyer---Cathedral---South-View---(Gentry).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Speyer_%28DerHexer%29_2010-12-19_015.jpg/1920px-Speyer_%28DerHexer%29_2010-12-19_015.jpg",
+        "alt": "Tall nave of banded pink and cream stone with groin vaults, round arches and a ring-shaped hanging lamp",
+        "credit": "Photo: DerHexer, Wikimedia Commons · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Speyer_(DerHexer)_2010-12-19_015.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This church was founded by an emperor in the 11th century and became the burial place of many of the medieval emperors and kings of his empire."
+      },
+      {
+        "order": 2,
+        "text": "Its nave was raised and given groin vaults around 1090, an early bold use of the technique on this scale, and its crypt is Europe's largest Romanesque columned hall."
+      },
+      {
+        "order": 3,
+        "text": "It is listed by UNESCO and is described as the largest surviving Romanesque church, with a west front that was rebuilt in the 1850s after a fire in 1689."
+      }
+    ],
+    "summary": {
+      "description": "Emperor Conrad II ordered this church in 1025 and construction began in 1030. Around 1090 Henry IV enlarged it, raising the nave and adding groin vaults, and the expanded church was finished in 1106. It is described as the largest surviving Romanesque church and was added to the UNESCO list in 1981.",
+      "keyFeatures": [
+        "Square groin-vaulted nave bays",
+        "Nave about 33 m high",
+        "Crypt of about 850 m², consecrated 1041",
+        "Burials of Salian, Staufer and Habsburg rulers",
+        "Neo-Romanesque west front of 1854 to 1858"
+      ],
+      "funFacts": [
+        "French troops set it on fire in 1689, and the western nave collapsed.",
+        "The last ruler buried here was Albert I in 1308."
+      ]
+    }
+  },
+  {
+    "id": "ulm-minster",
+    "name": "Ulm Minster",
+    "aliases": [
+      "Ulmer Münster",
+      "Münster Ulm",
+      "Ulm Cathedral"
+    ],
+    "architects": [
+      {
+        "name": "Heinrich Parler",
+        "aliases": [
+          "Heinrich Parler the Elder"
+        ],
+        "lifespan": null,
+        "nationality": "German",
+        "bio": "Member of the Parler family of master builders, credited with the original design of the minster, begun in 1377."
+      },
+      {
+        "name": "Matthäus Böblinger",
+        "aliases": [
+          "Matthaus Boblinger"
+        ],
+        "lifespan": null,
+        "nationality": "German",
+        "bio": "Late Gothic master builder who worked on the minster's tower in the late 15th century."
+      }
+    ],
+    "location": {
+      "city": "Ulm",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "yearCompleted": 1890,
+    "era": "MEDIEVAL",
+    "themes": [
+      "churches-cathedrals"
+    ],
+    "style": "Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ulm_Minster",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/20221017_Ulm_Minster_06.jpg/1920px-20221017_Ulm_Minster_06.jpg",
+        "alt": "Slender openwork Gothic spire under scaffolding rising behind a medieval tower, half-timbered houses and a glass pyramid",
+        "credit": "Photo: Flocci Nivis · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:20221017_Ulm_Minster_06.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Ulm_Germany_Interior-of-Ulm-Minster-01.jpg/1920px-Ulm_Germany_Interior-of-Ulm-Minster-01.jpg",
+        "alt": "Tall Gothic nave with a large organ above the entrance arch, wooden pews and a checkered stone floor",
+        "credit": "Photo: CEphoto, Uwe Aranas · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ulm_Germany_Interior-of-Ulm-Minster-01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Although it is called a minster it has never been a bishop's seat, and the citizens of the town paid for it themselves."
+      },
+      {
+        "order": 2,
+        "text": "Work began in 1377, stopped for centuries from 1543, and was finally completed on 31 May 1890."
+      },
+      {
+        "order": 3,
+        "text": "Its single steeple, about 161.5 metres high, was the tallest of any church in the world until 2025, and a staircase of 768 steps climbs it."
+      }
+    ],
+    "summary": {
+      "description": "This Gothic Lutheran church was begun in 1377 and completed on 31 May 1890, after a long hiatus starting in 1543. Its steeple is 161.53 m high, and it was the world's tallest church from 1890 until Barcelona's Sagrada Família surpassed it in October 2025. The town's citizens financed it themselves.",
+      "keyFeatures": [
+        "Steeple 161.53 m high",
+        "Gothic design begun by Heinrich Parler",
+        "Mostly brick with stone towers and ornament",
+        "768 steps up the spire",
+        "Never a cathedral despite its size"
+      ],
+      "funFacts": [
+        "Construction paused for centuries after 1543.",
+        "It was financed by Ulm's own citizens."
+      ]
+    }
+  },
+  {
+    "id": "sanssouci-palace",
+    "name": "Sanssouci",
+    "aliases": [
+      "Schloss Sanssouci",
+      "Sanssouci Palace"
+    ],
+    "architects": [
+      {
+        "name": "Georg Wenzeslaus von Knobelsdorff",
+        "aliases": [
+          "Knobelsdorff",
+          "Georg von Knobelsdorff"
+        ],
+        "lifespan": "1699–1753",
+        "nationality": "German",
+        "bio": "Prussian architect who designed Sanssouci for Frederick the Great; he was dismissed in 1746 and Jan Bouman finished the project."
+      }
+    ],
+    "location": {
+      "city": "Potsdam",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "yearCompleted": 1747,
+    "era": "BAROQUE",
+    "themes": [
+      "palaces"
+    ],
+    "style": "Frederician Rococo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sanssouci",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aerial_image_of_Sanssouci_%28view_from_the_south%29.jpg/1920px-Aerial_image_of_Sanssouci_%28view_from_the_south%29.jpg",
+        "alt": "Aerial view of a low yellow palace with a green dome above six broad garden terraces, a round pond and formal lawns",
+        "credit": "Photo: Carsten Steger · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Sanssouci_(view_from_the_south).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sanssouci_13.JPG/1920px-Sanssouci_13.JPG",
+        "alt": "Rococo room with a green-and-pink ceiling covered in gilded ornament, a tall curtained window and marble busts",
+        "credit": "Photo: w:fa:User:سندباد · GFDL · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sanssouci_13.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a one-storey summer retreat for a king who wanted to escape court ceremony, with about ten main rooms."
+      },
+      {
+        "order": 2,
+        "text": "It stands on a terraced vineyard, and its name is French for 'without worries'."
+      },
+      {
+        "order": 3,
+        "text": "Built from 1745 to 1747, it hosted a famous French philosopher between 1750 and 1753, and its king was reburied here in 1991 in a crypt he had wished for."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1745 to 1747 near Berlin for Frederick the Great, this small summer palace is the finest example of Frederician Rococo. It has a single storey of about ten principal rooms on a terraced vineyard. Its name is French for 'without worries'.",
+      "keyFeatures": [
+        "Single storey with about ten main rooms",
+        "Terraced vineyard setting",
+        "Rococo interiors",
+        "Voltaire Room",
+        "UNESCO World Heritage Site since 1990"
+      ],
+      "funFacts": [
+        "Voltaire stayed in Potsdam from 1750 to 1753 and often used the Voltaire Room.",
+        "Frederick's remains were reinterred in a crypt on the vineyard terrace in 1991, as he had wished."
+      ]
+    }
+  },
+  {
+    "id": "peterhof-palace",
+    "name": "Peterhof Palace",
+    "aliases": [
+      "Petergof",
+      "Peterhof",
+      "Grand Palace at Peterhof",
+      "Petrodvorets"
+    ],
+    "architects": [
+      {
+        "name": "Jean-Baptiste Le Blond",
+        "aliases": [
+          "Jean-Baptiste Alexandre Le Blond",
+          "Le Blond"
+        ],
+        "lifespan": "1679–1719",
+        "nationality": "French",
+        "bio": "French architect who designed the initial palace and gardens for Peter the Great."
+      },
+      {
+        "name": "Bartolomeo Francesco Rastrelli",
+        "aliases": [
+          "Rastrelli",
+          "Francesco Bartolomeo Rastrelli",
+          "Bartolomeo Rastrelli"
+        ],
+        "lifespan": "1700–1771",
+        "nationality": "Italian-Russian",
+        "bio": "Court architect of the Russian empresses Anna and Elizabeth, and the master of the Russian Baroque, who designed the present Winter Palace in the 1750s and its great staircase."
+      }
+    ],
+    "location": {
+      "city": "Saint Petersburg",
+      "country": "Russia",
+      "countryCode": "RU"
+    },
+    "yearCompleted": null,
+    "era": "BAROQUE",
+    "themes": [
+      "palaces"
+    ],
+    "style": "Petrine and Elizabethan Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peterhof_Palace",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Peterhof_2013_16.jpg/1920px-Peterhof_2013_16.jpg",
+        "alt": "Long yellow and white palace with a gilded cupola above a cascade of fountains and a straight canal lined with trees",
+        "credit": "Photo: Perituss · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Peterhof_2013_16.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Grand_Cascade_of_Peterhof_01.jpg/1920px-Grand_Cascade_of_Peterhof_01.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.84,
+          "h": 1
+        },
+        "alt": "Gilded statues and jets of water on a stepped cascade in front of a yellow palace with a golden-domed chapel",
+        "credit": "Photo: Florstein (Telegram:WikiPhoto.Space) · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Grand_Cascade_of_Peterhof_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A tsar ordered this seaside complex partly as a rival to a French royal palace, earning it a nickname that compares it to that palace."
+      },
+      {
+        "order": 2,
+        "text": "Its fountains run on natural springs and gravity, with no pumps, and one jet shoots about 20 metres into the air."
+      },
+      {
+        "order": 3,
+        "text": "German forces occupied it from 1941 to 1944 and largely destroyed it, and the golden statue of a lion-tearing hero was looted and later replaced by a replica in 1947."
+      }
+    ],
+    "summary": {
+      "description": "Peter the Great commissioned this complex on the Gulf of Finland partly as a response to Louis XIV's Versailles, and work began in 1714. Jean-Baptiste Le Blond designed the initial palace and gardens, and Francesco Bartolomeo Rastrelli expanded it from 1747 to 1756. The Grand Cascade has 64 fountains, and the site was largely destroyed in the Second World War and is still being restored.",
+      "keyFeatures": [
+        "Grand Cascade with 64 fountains",
+        "Samson Fountain with a 20 m jet",
+        "Fountains run without pumps",
+        "Expanded by Rastrelli, 1747 to 1756",
+        "UNESCO World Heritage Site since 1990"
+      ],
+      "funFacts": [
+        "It is nicknamed the Russian Versailles.",
+        "The Samson Fountain was looted in the war and a replica was installed in 1947."
+      ]
+    }
   }
 ]
