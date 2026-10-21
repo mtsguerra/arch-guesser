@@ -22993,5 +22993,876 @@
         "It is classified as a Monument of Public Interest."
       ]
     }
+  },
+  {
+    "id": "maracana-stadium",
+    "name": "Maracanã Stadium",
+    "aliases": [
+      "Maracanã",
+      "Estádio do Maracanã",
+      "Estádio Jornalista Mário Filho",
+      "Mário Filho Stadium"
+    ],
+    "architects": [
+      {
+        "name": "Waldir Ramos",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Brazilian",
+        "bio": "Brazilian architect credited as one of the designers of the Maracanã Stadium, built for the 1950 FIFA World Cup."
+      },
+      {
+        "name": "Raphael Galvão",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Brazilian",
+        "bio": "Brazilian architect credited as one of the designers of the Maracanã Stadium, built for the 1950 FIFA World Cup."
+      },
+      {
+        "name": "Miguel Feldman",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Brazilian",
+        "bio": "Brazilian architect credited as one of the designers of the Maracanã Stadium, built for the 1950 FIFA World Cup."
+      },
+      {
+        "name": "Oscar Valdetaro",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Brazilian",
+        "bio": "Brazilian architect credited as one of the designers of the Maracanã Stadium, built for the 1950 FIFA World Cup."
+      }
+    ],
+    "location": {
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "countryCode": "BR"
+    },
+    "yearCompleted": 1950,
+    "era": "MODERNISM",
+    "themes": [
+      "stadiums",
+      "modern-icons"
+    ],
+    "style": "Brazilian Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maracan%C3%A3_Stadium",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Rio_de_Janeiro_Maracan%C3%A3_Stadium_5.jpg",
+        "alt": "Curving grey concrete stadium with a white membrane roof seen from a street lined with young trees",
+        "credit": "Photo: Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_Maracan%C3%A3_Stadium_5.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Est%C3%A1dio_do_Maracan%C3%A3_%283345360655%29.jpg/1920px-Est%C3%A1dio_do_Maracan%C3%A3_%283345360655%29.jpg",
+        "alt": "Hazy view from a forested hill of a huge oval stadium with a white roof ring and a domed arena beside it",
+        "credit": "Photo: Rodrigo Soldon from Rio de Janeiro, Brazil · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Maracan%C3%A3_(3345360655).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built in the late 1940s for a World Cup that its host country was sure to win."
+      },
+      {
+        "order": 2,
+        "text": "Its record crowd is officially close to 200,000 people, and its fans' defeat in the final became a national trauma."
+      },
+      {
+        "order": 3,
+        "text": "In the 2010s its old concrete roof and two-tier bowl were replaced by a one-tier bowl under a tensioned fabric roof."
+      }
+    ],
+    "summary": {
+      "description": "Opened in 1950 for the FIFA World Cup, this stadium was designed by a team of Brazilian architects and was long the largest in the world. It hosted the 1950 final, in which Uruguay beat Brazil 2-1 in the match known as the Maracanazo. Rebuilt for the 2014 World Cup, it also staged the 2016 Olympic ceremonies.",
+      "keyFeatures": [
+        "Vast bowl originally built with open terraces",
+        "Terraces gradually replaced by seats",
+        "Concrete roof replaced by a PTFE-coated fiberglass membrane",
+        "Grey façade with yellow, blue and white seats"
+      ],
+      "funFacts": [
+        "Its official record attendance is 173,850, though the 1950 final crowd was officially counted at 199,854.",
+        "It hosted the 2014 World Cup final and the opening and closing ceremonies of the 2016 Olympics.",
+        "It was designated a national landmark in 1998."
+      ]
+    }
+  },
+  {
+    "id": "allianz-arena",
+    "name": "Allianz Arena",
+    "aliases": [
+      "Fröttmaning Arena",
+      "FIFA Arena München"
+    ],
+    "architects": [
+      {
+        "name": "Herzog & de Meuron",
+        "aliases": [
+          "Herzog and de Meuron",
+          "Jacques Herzog",
+          "Pierre de Meuron"
+        ],
+        "nationality": "Swiss",
+        "bio": "Swiss architecture firm of Jacques Herzog and Pierre de Meuron."
+      }
+    ],
+    "location": {
+      "city": "Munich",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "yearCompleted": 2005,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "stadiums",
+      "modern-icons"
+    ],
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Allianz_Arena",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Allianz_Arena_Exterior_Detail.JPG/1920px-Allianz_Arena_Exterior_Detail.JPG",
+        "alt": "Close view of a glossy white façade made of hundreds of inflated diamond-shaped cushions",
+        "credit": "Photo: Martin Falbisoner · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_Exterior_Detail.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Allianz-Arena.blue.red.jpg",
+        "alt": "Oval stadium glowing red and blue at night, reflected in still water",
+        "credit": "Photo: Unknown author · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Allianz-Arena.blue.red.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced an older stadium whose two football clubs both moved here in 2005."
+      },
+      {
+        "order": 2,
+        "text": "Its skin is made of thousands of inflated foil panels that can each be lit in different colours."
+      },
+      {
+        "order": 3,
+        "text": "Its outer shell, about 0.2 mm thick in foil, was the first of its kind in the world to change colour completely."
+      }
+    ],
+    "summary": {
+      "description": "This football stadium on the northern edge of its city opened in 2005 and was designed by a Swiss practice with Arup as structural engineer. Its façade is made of 2,760 air-filled ETFE foil panels that can glow white, red or blue. It hosted the opening match of the 2006 World Cup and several European finals.",
+      "keyFeatures": [
+        "2,760 inflated ETFE-foil diamond panels",
+        "Façade that can be lit in white, red or blue",
+        "Roof with built-in roller blinds",
+        "Seating for about 70,000 to 75,000"
+      ],
+      "funFacts": [
+        "It was described as the first stadium in the world with a fully colour-changing exterior.",
+        "It hosted the 2012 and 2025 UEFA Champions League finals.",
+        "In 2022 it staged the first regular-season NFL game played in Germany."
+      ]
+    }
+  },
+  {
+    "id": "camp-nou",
+    "name": "Camp Nou",
+    "aliases": [
+      "Spotify Camp Nou",
+      "Estadi del Futbol Club Barcelona"
+    ],
+    "architects": [
+      {
+        "name": "Francesc Mitjans",
+        "aliases": [
+          "Francesc Mitjans Miró"
+        ],
+        "lifespan": "",
+        "nationality": "Spanish",
+        "bio": "Catalan architect who, with Josep Soteras, designed the Camp Nou, which opened in 1957."
+      },
+      {
+        "name": "Josep Soteras",
+        "aliases": [
+          "Josep Soteras Mauri"
+        ],
+        "lifespan": "",
+        "nationality": "Spanish",
+        "bio": "Catalan architect who, with Francesc Mitjans, designed the Camp Nou, which opened in 1957."
+      },
+      {
+        "name": "Lorenzo García-Barbón",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Spanish",
+        "bio": "Architect who collaborated with Mitjans and Soteras on the design of the Camp Nou."
+      }
+    ],
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "countryCode": "ES"
+    },
+    "yearCompleted": 1957,
+    "era": "MODERNISM",
+    "themes": [
+      "stadiums"
+    ],
+    "style": "Mid-century Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Camp_Nou",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Camp_Nou_-_Exterior_01.JPG/1920px-Camp_Nou_-_Exterior_01.JPG",
+        "alt": "Curving concrete stadium wall with louvred panels and a crowd gathering on the street below",
+        "credit": "Photo: Little Savage · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Camp_Nou_-_Exterior_01.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Camp_Nou_-_Interior_%282005%29.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.2,
+          "w": 1,
+          "h": 0.8
+        },
+        "alt": "Packed three-tier stands curving around a green football pitch",
+        "credit": "Photo: Mutari 09:33, 21 September 2007 (UTC) · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Camp_Nou_-_Interior_(2005).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It opened in 1957 and its name means simply 'new field', because it replaced an older ground."
+      },
+      {
+        "order": 2,
+        "text": "Its rings of seating are oval and continuous with no open corners, a layout borrowed from a Dutch stadium."
+      },
+      {
+        "order": 3,
+        "text": "A third tier was added for the 1982 World Cup, and its owner club is now rebuilding it for a capacity above 100,000."
+      }
+    ],
+    "summary": {
+      "description": "Opened in 1957 to replace the club's older ground, it was designed by Francesc Mitjans and Josep Soteras, with Lorenzo García-Barbón collaborating. Its continuous oval rings were inspired by a stadium in Rotterdam. It opened with over 106,000 seats and has since been expanded and, from 2023, deeply redeveloped.",
+      "keyFeatures": [
+        "Oval rings of seating with no open corners",
+        "Third tier added for the 1982 World Cup",
+        "Pitch lowered by 2.5 m in 1993-94",
+        "Large redevelopment started in 2023"
+      ],
+      "funFacts": [
+        "Its record attendance is 120,000, for a match in 1986.",
+        "It hosted the 1982 World Cup opening match and the 1992 Olympic football final.",
+        "It has hosted two European Cup or Champions League finals, in 1989 and 1999."
+      ]
+    }
+  },
+  {
+    "id": "estadio-do-dragao",
+    "name": "Estádio do Dragão",
+    "aliases": [
+      "Dragão Stadium",
+      "Dragon Stadium",
+      "Estadio do Dragao"
+    ],
+    "architects": [
+      {
+        "name": "Manuel Salgado",
+        "aliases": [
+          "Salgado",
+          "Manuel Sande e Castro Salgado"
+        ],
+        "lifespan": "b. 1944",
+        "nationality": "Portuguese",
+        "bio": "Lisbon architect who later led urban planning on Lisbon's city council from 2007 to 2019."
+      }
+    ],
+    "location": {
+      "city": "Porto",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 2003,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "stadiums"
+    ],
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Drag%C3%A3o",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Est%C3%A1dio_do_Drag%C3%A3o_Aerial.jpg/1920px-Est%C3%A1dio_do_Drag%C3%A3o_Aerial.jpg",
+        "alt": "Aerial view of an oval stadium with a pale roof and two steel arches, beside a motorway",
+        "credit": "Photo: CaGeRaGe · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Drag%C3%A3o_Aerial.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Porto_Est%C3%A1dio_do_Drag%C3%A3o_1.jpg",
+        "alt": "Wide-angle view of blue seats, a green pitch and a translucent roof held by concrete pillars",
+        "credit": "Photo: Валерий Дед · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Porto_Est%C3%A1dio_do_Drag%C3%A3o_1.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built to host matches of a European football championship, and replaced an older home ground in the same city."
+      },
+      {
+        "order": 2,
+        "text": "A frame of around 21,000 square metres of decorative glazed tiles surrounds it."
+      },
+      {
+        "order": 3,
+        "text": "Its first match, a 2-0 win over a Spanish giant in 2003, featured a 16-year-old Lionel Messi."
+      }
+    ],
+    "summary": {
+      "description": "Opened in 2003 and designed by Manuel Salgado, this football stadium was built for Euro 2004 at a cost of about €125 million. It has four stands and about 50,000 seats, and is framed by some 21,000 square metres of azulejos. It hosted the 2021 UEFA Champions League final.",
+      "keyFeatures": [
+        "Four stands, all-seater",
+        "About 21,000 m² of azulejo tiles in its frame",
+        "96 executive suites",
+        "Own Porto Metro station"
+      ],
+      "funFacts": [
+        "Its inaugural match, a 2-0 win for the home club over Barcelona, featured a 16-year-old Lionel Messi.",
+        "Turf problems forced the club to play its first matches back at its old ground.",
+        "It hosted the Euro 2004 opening match and the 2021 Champions League final."
+      ]
+    }
+  },
+  {
+    "id": "estadio-da-luz",
+    "name": "Estádio da Luz",
+    "aliases": [
+      "Stadium of Light",
+      "Estádio do Sport Lisboa e Benfica",
+      "Estadio da Luz"
+    ],
+    "architects": [
+      {
+        "name": "Damon Lavelle",
+        "aliases": [
+          "HOK Sport"
+        ],
+        "lifespan": "",
+        "nationality": "",
+        "bio": "Architect at HOK Sport Venue Event (now Populous) who designed the Estádio da Luz, opened in 2003."
+      }
+    ],
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 2003,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "stadiums"
+    ],
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Luz",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Estadio_Benfica_April_2013-1.jpg/1920px-Estadio_Benfica_April_2013-1.jpg",
+        "alt": "Stadium with big red steel arches over a dark roof, seen under a clear blue sky",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Estadio_Benfica_April_2013-1.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Est%C3%A1dio_da_Luz_-_Lisboa2.jpg",
+        "alt": "Red steel arches rising behind palm trees and a fountain",
+        "credit": "Photo: Vitor Oliveira from Torres Vedras, PORTUGAL · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_da_Luz_-_Lisboa2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced an older stadium on the very same site, once able to hold 120,000 people."
+      },
+      {
+        "order": 2,
+        "text": "Its roof seems to float over the stands, hung from four steel arches 43 metres high."
+      },
+      {
+        "order": 3,
+        "text": "It opened in October 2003 and hosted the final of Euro 2004."
+      }
+    ],
+    "summary": {
+      "description": "Opened on 25 October 2003, it replaced the club's original stadium on the same site. It was designed by Damon Lavelle of HOK Sport (now Populous) for Euro 2004 and cost about €160 million. Four steel arches support a polycarbonate roof that seems to float over the stands.",
+      "keyFeatures": [
+        "Four steel arches 43 m high",
+        "Polycarbonate roof that lets light through",
+        "Wavy arch profile echoing three tiers of seating",
+        "Capacity of about 68,000 after 2025 works"
+      ],
+      "funFacts": [
+        "It hosted the Euro 2004 final and the Champions League finals of 2014 and 2020.",
+        "A 2014 online poll by L'Équipe named it the most beautiful stadium in Europe.",
+        "The first stadium on the site opened in 1954."
+      ]
+    }
+  },
+  {
+    "id": "estadio-nacional-do-jamor",
+    "name": "Estádio Nacional do Jamor",
+    "aliases": [
+      "Estádio Nacional",
+      "Jamor Stadium",
+      "National Stadium of Portugal",
+      "Estádio do Jamor"
+    ],
+    "architects": [
+      {
+        "name": "Miguel Jacobetty Rosa",
+        "aliases": [
+          "Jacobetty Rosa"
+        ],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Portuguese architect credited in the design of the Estádio Nacional, inaugurated in 1944."
+      },
+      {
+        "name": "Francisco Caldeira Cabral",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Portuguese designer who took part in the original design of the Estádio Nacional."
+      },
+      {
+        "name": "Konrad Wiesner",
+        "aliases": [
+          "Konrad Weisner"
+        ],
+        "lifespan": "",
+        "nationality": "",
+        "bio": "Named among the authors of the original design of the Estádio Nacional."
+      }
+    ],
+    "location": {
+      "city": "Oeiras",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1944,
+    "era": "MODERNISM",
+    "themes": [
+      "stadiums"
+    ],
+    "style": "Estado Novo Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Est%C3%A1dio_Nacional",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Est%C3%A1dio_Nacional_do_Jamor_-_Vista_geral.jpg/1920px-Est%C3%A1dio_Nacional_do_Jamor_-_Vista_geral.jpg",
+        "alt": "Pale stepped stands with a small central tribune seen across an open paved area, with pine woods behind",
+        "credit": "Photo: Tagido · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Nacional_do_Jamor_-_Vista_geral.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Est%C3%A1dio_Nacional_%28Portugal%29_%28165015108%29.jpg/1920px-Est%C3%A1dio_Nacional_%28Portugal%29_%28165015108%29.jpg",
+        "alt": "Packed event in an open-sided bowl stadium among trees, with a tall floodlight mast",
+        "credit": "Photo: Vitor Oliveira from Torres Vedras, PORTUGAL · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Nacional_(Portugal)_(165015108).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It sits in a wooded valley just outside a capital, inside a large park of sports grounds."
+      },
+      {
+        "order": 2,
+        "text": "One side of its oval bowl is left open, unusual for a stadium of this kind."
+      },
+      {
+        "order": 3,
+        "text": "It hosted the 1967 European Cup final, won by a team that became known as the 'Lisbon Lions'."
+      }
+    ],
+    "summary": {
+      "description": "Inaugurated in 1944 after construction began in 1939, this stadium stands in the Jamor sports park near Lisbon. It was designed by Miguel Jacobetty Rosa with Francisco Caldeira Cabral and Konrad Wiesner. Its oval bowl is open on the east side, and it has hosted the Portuguese Cup final almost every year since 1946.",
+      "keyFeatures": [
+        "Oval bowl open on its east side",
+        "Set in a forested sports park",
+        "Capacity of about 37,600",
+        "Grass pitch of 105 x 68 m"
+      ],
+      "funFacts": [
+        "It hosted the first UEFA club match ever played, in 1955.",
+        "Celtic won the 1967 European Cup final here, earning the nickname 'Lisbon Lions'.",
+        "It has hosted concerts by The Police, Black Eyed Peas and Iron Maiden."
+      ]
+    }
+  },
+  {
+    "id": "panathenaic-stadium",
+    "name": "Panathenaic Stadium",
+    "aliases": [
+      "Kallimarmaro",
+      "Panathinaiko Stadium",
+      "Panathinaikó Stadio",
+      "Kallimarmaron"
+    ],
+    "architects": [
+      {
+        "name": "Lykourgos",
+        "aliases": [
+          "Lycurgus"
+        ],
+        "lifespan": "",
+        "nationality": "Greek",
+        "bio": "Athenian statesman who built the first stadium on the site around 330/329 BC."
+      },
+      {
+        "name": "Herodes Atticus",
+        "aliases": [
+          "Herodes Atticus of Athens"
+        ],
+        "lifespan": "",
+        "nationality": "Greek",
+        "bio": "Athenian Roman senator who rebuilt the stadium in Pentelic marble, completed around 144 AD."
+      },
+      {
+        "name": "Anastasios Metaxas",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Greek",
+        "bio": "Architect who prepared the plan for the 1896 reconstruction of the stadium for the first modern Olympic Games."
+      }
+    ],
+    "location": {
+      "city": "Athens",
+      "country": "Greece",
+      "countryCode": "GR"
+    },
+    "yearCompleted": 144,
+    "era": "CLASSICAL",
+    "themes": [
+      "stadiums",
+      "ancient-ruins"
+    ],
+    "style": "Classical",
+    "wikipedia": "https://en.wikipedia.org/wiki/Panathenaic_Stadium",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Panathenaic_stadium_Athens_Greece.jpg/1920px-Panathenaic_stadium_Athens_Greece.jpg",
+        "alt": "Long pale marble horseshoe of stands set into a wooded hill among dense apartment blocks",
+        "credit": "Photo: Jebulon · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Panathenaic_stadium_Athens_Greece.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/GR-athen-panathinaiko-stadion.jpg/1920px-GR-athen-panathinaiko-stadion.jpg",
+        "alt": "Panorama of a U-shaped marble stadium with rows of flagpoles and a paved track",
+        "credit": "Photo: Bgabel · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:GR-athen-panathinaiko-stadion.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A racecourse stood on this site in the 6th century BC, set in a natural ravine between two hills."
+      },
+      {
+        "order": 2,
+        "text": "It is the only stadium in the world built entirely of marble."
+      },
+      {
+        "order": 3,
+        "text": "It was rebuilt in the 19th century to host the opening and closing ceremonies of the first modern Olympic Games, in 1896."
+      }
+    ],
+    "summary": {
+      "description": "A statesman built a stadium of poros stone here around 330 BC, and a Roman senator rebuilt it in Pentelic marble in the 2nd century AD. After excavations in 1869-70 it was reconstructed to a plan by Anastasios Metaxas for the first modern Olympics in 1896. It is a U-shaped track set in a ravine and is the only stadium in the world built entirely of marble.",
+      "keyFeatures": [
+        "Entirely of Pentelic marble",
+        "U-shaped track set in a natural ravine",
+        "Original 4th-century BC stadium of poros stone",
+        "Rebuilt for the 1896 Olympic Games"
+      ],
+      "funFacts": [
+        "Harvard Stadium and Albert Speer's unbuilt Deutsches Stadion were modelled on it.",
+        "It was the finish line of the marathon at the 2004 Olympics and is still the finish of the Athens Classic Marathon.",
+        "A marble chair from the stadium, the 'Biel Throne', is in the British Museum."
+      ]
+    }
+  },
+  {
+    "id": "olympiastadion-berlin",
+    "name": "Olympiastadion Berlin",
+    "aliases": [
+      "Berlin Olympic Stadium",
+      "Olympic Stadium Berlin",
+      "Olympiastadion"
+    ],
+    "architects": [
+      {
+        "name": "Werner March",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "German",
+        "bio": "Architect who designed the 1936 Olympic Stadium in Berlin, with his brother Walter assisting."
+      }
+    ],
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "yearCompleted": 1936,
+    "era": "NEOCLASSICAL",
+    "themes": [
+      "stadiums"
+    ],
+    "style": "Stripped Neoclassicism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Olympiastadion_(Berlin)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Olympiastadion_Berlin_2015.jpg/1920px-Olympiastadion_Berlin_2015.jpg",
+        "alt": "Two tall stone towers framing a set of five interlocked rings above a low colonnaded oval stadium",
+        "credit": "Photo: Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0 de · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin_2015.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Olympiastadion_Berlin_Innenansicht.jpg/1920px-Olympiastadion_Berlin_Innenansicht.jpg",
+        "alt": "Bronze bowl on stone pillars in front of a pitch ringed by a roof with translucent panels",
+        "credit": "Photo: Jan Künzel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin_Innenansicht.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built between 1934 and 1936 as the centrepiece of a sports complex for the Summer Games of a dictatorship."
+      },
+      {
+        "order": 2,
+        "text": "Its pitch lies about 12 metres below ground, and a bell tower and parade lawn stand at its western end."
+      },
+      {
+        "order": 3,
+        "text": "It was renovated in 2000-2004, lowering the pitch by 2.65 m and adding a roof with transparent panels."
+      }
+    ],
+    "summary": {
+      "description": "Designed by Werner March and built in 1934-36, this stadium opened the 1936 Summer Olympics, where Jesse Owens won four gold medals. Its lower tier is sunk about 12 m below ground. A 2000-2004 renovation lowered the field and added a roof of about 37,000 m² with transparent panels, keeping the original stonework.",
+      "keyFeatures": [
+        "Lower tier sunk about 12 m into the ground",
+        "Stone-clad colonnaded exterior",
+        "Marathon Gate and 77 m Bell Tower",
+        "2004 roof carried by twenty columns"
+      ],
+      "funFacts": [
+        "Usain Bolt set his 100 m and 200 m world records here in 2009.",
+        "It hosted the 1974 and 2006 World Cups, the latter's final included, and the Euro 2024 final.",
+        "It has been home to Hertha BSC since 1963."
+      ]
+    }
+  },
+  {
+    "id": "munich-olympic-stadium",
+    "name": "Munich Olympic Stadium",
+    "aliases": [
+      "Olympiastadion München",
+      "Olympiastadion Munich",
+      "Olympic Stadium Munich"
+    ],
+    "architects": [
+      {
+        "name": "Günter Behnisch",
+        "aliases": [
+          "Behnisch & Partner"
+        ],
+        "lifespan": "",
+        "nationality": "German",
+        "bio": "Architect whose firm Behnisch & Partner won the 1967 competition for the Munich Olympic Park and its stadium."
+      },
+      {
+        "name": "Frei Otto",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "German",
+        "bio": "Engineer of the lightweight tent roof of the Munich Olympic Stadium, a revolutionary construction of acrylic glass on steel cables."
+      }
+    ],
+    "location": {
+      "city": "Munich",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "yearCompleted": 1972,
+    "era": "MODERNISM",
+    "themes": [
+      "stadiums",
+      "modern-icons"
+    ],
+    "style": "Tensile Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Olympic_Stadium_(Munich)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Olympiastadion_at_dusk.JPG/1920px-Olympiastadion_at_dusk.JPG",
+        "alt": "Evening aerial view of a stadium bowl and a landscape of cable-hung canopies in a park",
+        "credit": "Photo: Martin Falbisoner · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Olympiastadion_at_dusk.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Munich_Olympic_Stadium_%2837075834470%29.jpg/1920px-Munich_Olympic_Stadium_%2837075834470%29.jpg",
+        "alt": "Panorama of green seating around a running track, with a translucent cable-hung canopy on the far side",
+        "credit": "Photo: airbus777 from Washington, DC, USA · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Munich_Olympic_Stadium_(37075834470).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for the Summer Games of 1972 and meant to show a new, open and democratic image of its country."
+      },
+      {
+        "order": 2,
+        "text": "Its roof is a tent of acrylic glass panels hung from steel cables on tall masts, used at this scale for the first time."
+      },
+      {
+        "order": 3,
+        "text": "The canopy was meant to echo the silhouette of the Alps."
+      }
+    ],
+    "summary": {
+      "description": "Won in competition in 1967 by Behnisch & Partner, with Frei Otto as engineer of the roof, this stadium opened on 26 May 1972 for the Summer Olympics. Its lightweight tent of acrylic glass panels on steel cables was revolutionary at this scale. It later hosted the 1974 World Cup final.",
+      "keyFeatures": [
+        "Tent roof of acrylic glass on steel cables",
+        "Roof meant to evoke the Alps",
+        "Bowl set into the landscape of the Olympic Park",
+        "Seating for about 63,000"
+      ],
+      "funFacts": [
+        "It hosted the 1974 World Cup final and the Euro 1988 final.",
+        "Bayern Munich and TSV 1860 played here until both moved to the Allianz Arena in 2005.",
+        "Its roof once covered almost 45,000 seats, and now covers fewer than 40,000."
+      ]
+    }
+  },
+  {
+    "id": "estadio-do-pacaembu",
+    "name": "Estádio do Pacaembu",
+    "aliases": [
+      "Pacaembu Stadium",
+      "Estádio Municipal Paulo Machado de Carvalho",
+      "Pacaembu"
+    ],
+    "architects": [
+      {
+        "name": "Escritório Técnico Ramos de Azevedo",
+        "aliases": [
+          "Ramos de Azevedo office"
+        ],
+        "lifespan": "",
+        "nationality": "Brazilian",
+        "bio": "São Paulo architectural office of Ramos de Azevedo, credited with the design of the Pacaembu Stadium."
+      },
+      {
+        "name": "Severo e Villares",
+        "aliases": [
+          "Severo & Villares"
+        ],
+        "lifespan": "",
+        "nationality": "Brazilian",
+        "bio": "São Paulo firm credited, with the Ramos de Azevedo office, with the design of the Pacaembu Stadium."
+      }
+    ],
+    "location": {
+      "city": "São Paulo",
+      "country": "Brazil",
+      "countryCode": "BR"
+    },
+    "yearCompleted": 1940,
+    "era": "ART_DECO",
+    "themes": [
+      "stadiums",
+      "art-deco"
+    ],
+    "style": "Art Deco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pacaembu_Stadium",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Est%C3%A1dio_do_Pacaembu%2C_Sao_Paulo_2017_040.jpg/1920px-Est%C3%A1dio_do_Pacaembu%2C_Sao_Paulo_2017_040.jpg",
+        "alt": "Tall cream-coloured floodlight tower with rows of lamps and a slit pattern, against a cloudy sky",
+        "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Pacaembu,_Sao_Paulo_2017_040.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Est%C3%A1dio_do_Pacaembu%2C_Sao_Paulo_2017_012.jpg/1920px-Est%C3%A1dio_do_Pacaembu%2C_Sao_Paulo_2017_012.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.6,
+          "w": 1,
+          "h": 0.4
+        },
+        "alt": "Steep concrete stand of orange and cream seats beside the pitch, below a scoreboard",
+        "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net). · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Pacaembu,_Sao_Paulo_2017_012.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was inaugurated in April 1940 in the presence of the country's president."
+      },
+      {
+        "order": 2,
+        "text": "It is listed as heritage by its state council, partly for its Art Deco style."
+      },
+      {
+        "order": 3,
+        "text": "A football museum was opened beneath its stands in 2008."
+      }
+    ],
+    "summary": {
+      "description": "Inaugurated on 27 April 1940 with President Getúlio Vargas present, it was designed by the Ramos de Azevedo office with Severo e Villares. Its Art Deco style helped win it heritage listing by the state council in 1998. It hosted six matches of the 1950 World Cup and reopened in 2025 after a long renovation.",
+      "keyFeatures": [
+        "Art Deco architecture",
+        "Heritage listing in 1998",
+        "Football museum under the stands",
+        "South stand rebuilt in a five-storey building"
+      ],
+      "funFacts": [
+        "Its attendance record is 71,281, set in 1942.",
+        "It hosted six matches of the 1950 FIFA World Cup.",
+        "It reopened on 27 January 2025 after a 40-month renovation."
+      ]
+    }
   }
 ]

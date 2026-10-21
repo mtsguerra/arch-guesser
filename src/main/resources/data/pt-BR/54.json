@@ -1,0 +1,215 @@
+{
+  "panathenaic-stadium": {
+    "name": "Estádio Panatenaico",
+    "aliases": [
+      "Kallimarmaro",
+      "Panathinaiko",
+      "Estádio Panathinaiko"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "grego",
+        "lifespan": "",
+        "bio": "Estadista ateniense que construiu o primeiro estádio no local por volta de 330/329 a.C."
+      },
+      {
+        "aliases": [],
+        "nationality": "grego",
+        "lifespan": "",
+        "bio": "Senador romano de Atenas que reconstruiu o estádio em mármore pentélico, concluído por volta de 144 d.C."
+      },
+      {
+        "aliases": [],
+        "nationality": "grego",
+        "lifespan": "",
+        "bio": "Arquiteto que preparou o plano da reconstrução de 1896 do estádio para os primeiros Jogos Olímpicos modernos."
+      }
+    ],
+    "city": "Atenas",
+    "style": "Clássico",
+    "photos": [
+      {
+        "alt": "Longo ferradura de arquibancadas de mármore claro encaixada em uma colina arborizada entre blocos de apartamentos",
+        "caption": null
+      },
+      {
+        "alt": "Panorama de um estádio de mármore em forma de U com fileiras de mastros e uma pista pavimentada",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma pista de corrida existia neste local no século VI a.C., num vale natural entre duas colinas.",
+      "É o único estádio do mundo construído inteiramente de mármore.",
+      "Foi reconstruído no século XIX para sediar a abertura e o encerramento dos primeiros Jogos Olímpicos modernos, em 1896."
+    ],
+    "summary": {
+      "description": "Um estadista construiu aqui um estádio de pedra porosa por volta de 330 a.C., e um senador romano o reconstruiu em mármore pentélico no século II d.C. Após escavações em 1869-70, foi reconstruído segundo um plano de Anastasios Metaxas para as primeiras Olimpíadas modernas, em 1896. É uma pista em forma de U encaixada num vale e o único estádio do mundo inteiramente de mármore.",
+      "keyFeatures": [
+        "Inteiramente de mármore pentélico",
+        "Pista em U encaixada num vale natural",
+        "Estádio original do século IV a.C. em pedra porosa",
+        "Reconstruído para os Jogos Olímpicos de 1896"
+      ],
+      "funFacts": [
+        "O Harvard Stadium e o Deutsches Stadion, não construído, de Albert Speer foram modelados a partir dele.",
+        "Foi a linha de chegada da maratona das Olimpíadas de 2004 e ainda é a chegada da Maratona Clássica de Atenas.",
+        "Uma cadeira de mármore do estádio, o 'Trono de Biel', está no Museu Britânico."
+      ]
+    }
+  },
+  "olympiastadion-berlin": {
+    "name": "Estádio Olímpico de Berlim",
+    "aliases": [
+      "Olympiastadion",
+      "Olympiastadion Berlin"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "alemão",
+        "lifespan": "",
+        "bio": "Arquiteto que projetou o Estádio Olímpico de Berlim de 1936, com a ajuda do irmão Walter."
+      }
+    ],
+    "city": "Berlim",
+    "style": "Neoclassicismo estilizado",
+    "photos": [
+      {
+        "alt": "Duas altas torres de pedra emoldurando cinco anéis entrelaçados sobre um estádio oval baixo com colunata",
+        "caption": null
+      },
+      {
+        "alt": "Taça de bronze sobre pilares de pedra diante de um gramado cercado por uma cobertura com painéis translúcidos",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi construído entre 1934 e 1936 como peça central de um complexo esportivo para os Jogos de Verão de uma ditadura.",
+      "Seu gramado fica cerca de 12 metros abaixo do solo, e uma torre com sino e um gramado de desfiles ficam em sua extremidade oeste.",
+      "Foi reformado em 2000-2004, com o gramado rebaixado em 2,65 m e uma cobertura de painéis transparentes."
+    ],
+    "summary": {
+      "description": "Projetado por Werner March e construído em 1934-36, o estádio abriu os Jogos Olímpicos de Verão de 1936, nos quais Jesse Owens ganhou quatro medalhas de ouro. Seu anel inferior fica afundado cerca de 12 m no solo. Uma reforma de 2000-2004 rebaixou o campo e acrescentou uma cobertura de cerca de 37 mil m² com painéis transparentes, mantendo a cantaria original.",
+      "keyFeatures": [
+        "Anel inferior afundado cerca de 12 m no solo",
+        "Exterior de pedra com colunata",
+        "Portão da Maratona e Torre do Sino de 77 m",
+        "Cobertura de 2004 sustentada por vinte pilares"
+      ],
+      "funFacts": [
+        "Usain Bolt bateu aqui seus recordes mundiais dos 100 m e 200 m em 2009.",
+        "Sediou as Copas de 1974 e 2006, esta com a final, e a final da Euro 2024.",
+        "É a casa do Hertha BSC desde 1963."
+      ]
+    }
+  },
+  "munich-olympic-stadium": {
+    "name": "Estádio Olímpico de Munique",
+    "aliases": [
+      "Olympiastadion München",
+      "Olympiastadion"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "alemão",
+        "lifespan": "",
+        "bio": "Arquiteto cujo escritório Behnisch & Partner venceu o concurso de 1967 para o Parque Olímpico de Munique e seu estádio."
+      },
+      {
+        "aliases": [],
+        "nationality": "alemão",
+        "lifespan": "",
+        "bio": "Engenheiro da leve cobertura em tenda do Estádio Olímpico de Munique, uma construção revolucionária de vidro acrílico sobre cabos de aço."
+      }
+    ],
+    "city": "Munique",
+    "style": "Modernismo tensionado",
+    "photos": [
+      {
+        "alt": "Vista aérea ao entardecer de uma bacia de estádio e de uma paisagem de coberturas penduradas em cabos num parque",
+        "caption": null
+      },
+      {
+        "alt": "Panorama de cadeiras verdes em torno de uma pista de corrida, com uma cobertura translúcida pendurada em cabos do outro lado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi construído para os Jogos de Verão de 1972 e queria mostrar uma imagem nova, aberta e democrática de seu país.",
+      "Sua cobertura é uma tenda de painéis de vidro acrílico pendurados em cabos de aço presos a altos mastros, usada nessa escala pela primeira vez.",
+      "A cobertura buscava ecoar a silhueta dos Alpes."
+    ],
+    "summary": {
+      "description": "Vencedor de um concurso em 1967 pelo escritório Behnisch & Partner, com Frei Otto como engenheiro da cobertura, o estádio foi inaugurado em 26 de maio de 1972 para as Olimpíadas de Verão. Sua tenda leve de painéis de vidro acrílico sobre cabos de aço foi revolucionária nessa escala. Mais tarde sediou a final da Copa de 1974.",
+      "keyFeatures": [
+        "Cobertura em tenda de vidro acrílico sobre cabos de aço",
+        "Cobertura feita para evocar os Alpes",
+        "Bacia embutida na paisagem do Parque Olímpico",
+        "Capacidade de cerca de 63 mil lugares sentados"
+      ],
+      "funFacts": [
+        "Sediou a final da Copa de 1974 e a final da Euro 1988.",
+        "Bayern de Munique e TSV 1860 jogaram aqui até ambos se mudarem para a Allianz Arena em 2005.",
+        "A cobertura já abrigou quase 45 mil lugares e hoje cobre menos de 40 mil."
+      ]
+    }
+  },
+  "estadio-do-pacaembu": {
+    "name": "Estádio do Pacaembu",
+    "aliases": [
+      "Estádio Municipal Paulo Machado de Carvalho",
+      "Pacaembu"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "brasileiro",
+        "lifespan": "",
+        "bio": "Escritório de arquitetura paulistano de Ramos de Azevedo, creditado com o projeto do Estádio do Pacaembu."
+      },
+      {
+        "aliases": [],
+        "nationality": "brasileiro",
+        "lifespan": "",
+        "bio": "Firma paulistana creditada, com o Escritório Técnico Ramos de Azevedo, com o projeto do Estádio do Pacaembu."
+      }
+    ],
+    "city": "São Paulo",
+    "style": "Art Déco",
+    "photos": [
+      {
+        "alt": "Alta torre de refletores cor de creme, com fileiras de lâmpadas e um padrão de frestas, contra um céu nublado",
+        "caption": null
+      },
+      {
+        "alt": "Arquibancada íngreme de concreto com cadeiras laranja e creme ao lado do gramado, abaixo de um placar",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi inaugurado em abril de 1940 na presença do presidente do país.",
+      "É tombado como patrimônio pelo conselho de seu estado, em parte por seu estilo Art Déco.",
+      "Um museu do futebol foi aberto sob suas arquibancadas em 2008."
+    ],
+    "summary": {
+      "description": "Inaugurado em 27 de abril de 1940 com a presença do presidente Getúlio Vargas, foi projetado pelo Escritório Técnico Ramos de Azevedo com Severo e Villares. Seu estilo Art Déco ajudou a garantir o tombamento pelo conselho estadual em 1998. Recebeu seis jogos da Copa do Mundo de 1950 e reabriu em 2025 após uma longa reforma.",
+      "keyFeatures": [
+        "Arquitetura Art Déco",
+        "Tombamento em 1998",
+        "Museu do futebol sob as arquibancadas",
+        "Arquibancada sul reconstruída como um edifício de cinco andares"
+      ],
+      "funFacts": [
+        "Seu recorde de público é de 71.281 pessoas, em 1942.",
+        "Recebeu seis jogos da Copa do Mundo de 1950.",
+        "Reabriu em 27 de janeiro de 2025 após 40 meses de reforma."
+      ]
+    }
+  }
+}

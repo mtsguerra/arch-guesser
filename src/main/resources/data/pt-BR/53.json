@@ -1,0 +1,324 @@
+{
+  "maracana-stadium": {
+    "name": "Estádio do Maracanã",
+    "aliases": [
+      "Maracanã",
+      "Estádio Jornalista Mário Filho"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "brasileiro",
+        "lifespan": "",
+        "bio": "Arquiteto brasileiro creditado como um dos projetistas do Estádio do Maracanã, construído para a Copa do Mundo de 1950."
+      },
+      {
+        "aliases": [],
+        "nationality": "brasileiro",
+        "lifespan": "",
+        "bio": "Arquiteto brasileiro creditado como um dos projetistas do Estádio do Maracanã, construído para a Copa do Mundo de 1950."
+      },
+      {
+        "aliases": [],
+        "nationality": "brasileiro",
+        "lifespan": "",
+        "bio": "Arquiteto brasileiro creditado como um dos projetistas do Estádio do Maracanã, construído para a Copa do Mundo de 1950."
+      },
+      {
+        "aliases": [],
+        "nationality": "brasileiro",
+        "lifespan": "",
+        "bio": "Arquiteto brasileiro creditado como um dos projetistas do Estádio do Maracanã, construído para a Copa do Mundo de 1950."
+      }
+    ],
+    "city": "Rio de Janeiro",
+    "style": "Modernismo brasileiro",
+    "photos": [
+      {
+        "alt": "Estádio curvo de concreto cinza com cobertura branca, visto de uma rua com árvores novas",
+        "caption": null
+      },
+      {
+        "alt": "Vista enevoada, de um morro coberto de mata, de um enorme estádio oval com anel branco de cobertura e um ginásio com cúpula ao lado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi construído no fim da década de 1940 para uma Copa do Mundo que o país-sede tinha certeza de vencer.",
+      "Seu recorde de público oficial passa de 170 mil pessoas, e a derrota da torcida na final virou um trauma nacional.",
+      "Nos anos 2010, a velha cobertura de concreto e o anel duplo foram trocados por um anel único sob uma cobertura de membrana tensionada."
+    ],
+    "summary": {
+      "description": "Inaugurado em 1950 para a Copa do Mundo, o estádio foi projetado por uma equipe de arquitetos brasileiros e por muito tempo foi o maior do mundo. Sediou a final de 1950, em que o Uruguai venceu o Brasil por 2 a 1, no jogo conhecido como Maracanazo. Reconstruído para a Copa de 2014, também recebeu as cerimônias olímpicas de 2016.",
+      "keyFeatures": [
+        "Enorme bacia construída originalmente com arquibancadas abertas",
+        "Arquibancadas substituídas aos poucos por cadeiras",
+        "Cobertura de concreto trocada por membrana de fibra de vidro com PTFE",
+        "Fachada cinza com cadeiras amarelas, azuis e brancas"
+      ],
+      "funFacts": [
+        "Seu recorde oficial de público é de 173.850 pessoas, embora a final de 1950 tenha sido registrada oficialmente com 199.854.",
+        "Recebeu a final da Copa de 2014 e as cerimônias de abertura e encerramento dos Jogos Olímpicos de 2016.",
+        "Foi tombado como patrimônio nacional em 1998."
+      ]
+    }
+  },
+  "allianz-arena": {
+    "name": "Allianz Arena",
+    "aliases": [
+      "Arena Allianz"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Suíço",
+        "bio": "Escritório suíço de arquitetura de Jacques Herzog e Pierre de Meuron."
+      }
+    ],
+    "city": "Munique",
+    "style": "Contemporâneo",
+    "photos": [
+      {
+        "alt": "Detalhe de uma fachada branca brilhante feita de centenas de almofadas infladas em forma de losango",
+        "caption": null
+      },
+      {
+        "alt": "Estádio oval brilhando em vermelho e azul à noite, refletido na água parada",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ele substituiu um estádio mais antigo, e os dois clubes de futebol que o usavam se mudaram para cá em 2005.",
+      "Sua pele é feita de milhares de painéis de película inflados, cada um podendo ser iluminado de uma cor.",
+      "Seu invólucro, de película com cerca de 0,2 mm, foi o primeiro do mundo a mudar totalmente de cor."
+    ],
+    "summary": {
+      "description": "Este estádio de futebol, na borda norte da cidade, foi inaugurado em 2005 e projetado por um escritório suíço, com a Arup como engenheira estrutural. Sua fachada é feita de 2.760 painéis de ETFE cheios de ar, que podem brilhar em branco, vermelho ou azul. Sediou o jogo de abertura da Copa de 2006 e várias finais europeias.",
+      "keyFeatures": [
+        "2.760 painéis de ETFE em losango, inflados",
+        "Fachada que pode ser iluminada em branco, vermelho ou azul",
+        "Cobertura com cortinas de enrolar embutidas",
+        "Capacidade de cerca de 70 a 75 mil lugares"
+      ],
+      "funFacts": [
+        "Foi descrito como o primeiro estádio do mundo com fachada totalmente mutável de cor.",
+        "Sediou as finais da Liga dos Campeões de 2012 e 2025.",
+        "Em 2022 recebeu o primeiro jogo da temporada regular da NFL disputado na Alemanha."
+      ]
+    }
+  },
+  "camp-nou": {
+    "name": "Camp Nou",
+    "aliases": [
+      "Estádio Camp Nou"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "espanhol",
+        "lifespan": "",
+        "bio": "Arquiteto catalão que, com Josep Soteras, projetou o Camp Nou, inaugurado em 1957."
+      },
+      {
+        "aliases": [],
+        "nationality": "espanhol",
+        "lifespan": "",
+        "bio": "Arquiteto catalão que, com Francesc Mitjans, projetou o Camp Nou, inaugurado em 1957."
+      },
+      {
+        "aliases": [],
+        "nationality": "espanhol",
+        "lifespan": "",
+        "bio": "Arquiteto que colaborou com Mitjans e Soteras no projeto do Camp Nou."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Modernismo de meados do século",
+    "photos": [
+      {
+        "alt": "Parede curva de concreto com painéis de venezianas e uma multidão reunida na rua abaixo",
+        "caption": null
+      },
+      {
+        "alt": "Arquibancadas lotadas em três anéis curvos em volta de um gramado verde",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi inaugurado em 1957 e seu nome significa simplesmente 'campo novo', porque substituiu um estádio mais antigo.",
+      "Seus anéis de arquibancada são ovais e contínuos, sem cantos abertos, um desenho copiado de um estádio holandês.",
+      "Um terceiro anel foi acrescentado para a Copa de 1982, e o clube dono o reconstrói agora para passar de 100 mil lugares."
+    ],
+    "summary": {
+      "description": "Inaugurado em 1957 para substituir o campo mais antigo do clube, foi projetado por Francesc Mitjans e Josep Soteras, com a colaboração de Lorenzo García-Barbón. Seus anéis ovais contínuos foram inspirados em um estádio de Roterdã. Abriu com mais de 106 mil lugares e desde então foi ampliado e, a partir de 2023, profundamente reformado.",
+      "keyFeatures": [
+        "Anéis ovais de arquibancada sem cantos abertos",
+        "Terceiro anel acrescentado para a Copa de 1982",
+        "Gramado rebaixado em 2,5 m em 1993-94",
+        "Grande reforma iniciada em 2023"
+      ],
+      "funFacts": [
+        "Seu recorde de público é de 120 mil pessoas, em um jogo de 1986.",
+        "Sediou o jogo de abertura da Copa de 1982 e a final de futebol olímpica de 1992.",
+        "Recebeu duas finais da Copa dos Campeões ou Liga dos Campeões, em 1989 e 1999."
+      ]
+    }
+  },
+  "estadio-do-dragao": {
+    "name": "Estádio do Dragão",
+    "aliases": [
+      "Estádio Dragão"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Português",
+        "bio": "Arquiteto lisboeta que depois chefiou o urbanismo da câmara municipal de Lisboa de 2007 a 2019."
+      }
+    ],
+    "city": "Porto",
+    "style": "Contemporâneo",
+    "photos": [
+      {
+        "alt": "Vista aérea de um estádio oval com cobertura clara e dois arcos de aço, ao lado de uma autoestrada",
+        "caption": null
+      },
+      {
+        "alt": "Vista grande-angular de cadeiras azuis, um gramado verde e uma cobertura translúcida apoiada em pilares de concreto",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi construído para receber jogos de um campeonato europeu de futebol e substituiu o antigo estádio do clube na mesma cidade.",
+      "Uma moldura de cerca de 21 mil metros quadrados de azulejos decorativos o envolve.",
+      "Seu primeiro jogo, uma vitória por 2 a 0 sobre um gigante espanhol em 2003, teve um Lionel Messi de 16 anos."
+    ],
+    "summary": {
+      "description": "Inaugurado em 2003 e projetado por Manuel Salgado, este estádio de futebol foi construído para o Euro 2004 por cerca de 125 milhões de euros. Tem quatro bancadas e cerca de 50 mil lugares, e é emoldurado por uns 21 mil metros quadrados de azulejos. Sediou a final da Liga dos Campeões de 2021.",
+      "keyFeatures": [
+        "Quatro bancadas, todas com assentos",
+        "Cerca de 21 mil m² de azulejos na moldura",
+        "96 camarotes",
+        "Estação própria do Metro do Porto"
+      ],
+      "funFacts": [
+        "Seu jogo inaugural, vitória do clube da casa por 2 a 0 sobre o Barcelona, teve um Lionel Messi de 16 anos.",
+        "Problemas no gramado obrigaram o clube a jogar as primeiras partidas de volta no estádio antigo.",
+        "Sediou o jogo de abertura do Euro 2004 e a final da Liga dos Campeões de 2021."
+      ]
+    }
+  },
+  "estadio-da-luz": {
+    "name": "Estádio da Luz",
+    "aliases": [
+      "Estádio do Sport Lisboa e Benfica"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "HOK Sport"
+        ],
+        "nationality": "",
+        "lifespan": "",
+        "bio": "Arquiteto da HOK Sport Venue Event (hoje Populous) que projetou o Estádio da Luz, inaugurado em 2003."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Contemporâneo",
+    "photos": [
+      {
+        "alt": "Estádio com grandes arcos de aço vermelhos sobre uma cobertura escura, sob um céu azul limpo",
+        "caption": null
+      },
+      {
+        "alt": "Arcos de aço vermelhos erguendo-se atrás de palmeiras e de uma fonte",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Substituiu um estádio mais antigo, no mesmo local, que já chegou a receber 120 mil pessoas.",
+      "Sua cobertura parece flutuar sobre as bancadas, pendurada em quatro arcos de aço de 43 metros de altura.",
+      "Foi inaugurado em outubro de 2003 e sediou a final do Euro 2004."
+    ],
+    "summary": {
+      "description": "Inaugurado em 25 de outubro de 2003, substituiu o estádio original do clube no mesmo terreno. Foi projetado por Damon Lavelle, da HOK Sport (hoje Populous), para o Euro 2004, e custou cerca de 160 milhões de euros. Quatro arcos de aço sustentam uma cobertura de policarbonato que parece flutuar sobre as bancadas.",
+      "keyFeatures": [
+        "Quatro arcos de aço de 43 m de altura",
+        "Cobertura de policarbonato que deixa passar a luz",
+        "Perfil ondulado dos arcos ecoando os três anéis de assentos",
+        "Capacidade de cerca de 68 mil lugares após as obras de 2025"
+      ],
+      "funFacts": [
+        "Sediou a final do Euro 2004 e as finais da Liga dos Campeões de 2014 e 2020.",
+        "Uma votação online do L'Équipe em 2014 o apontou como o estádio mais bonito da Europa.",
+        "O primeiro estádio no local foi inaugurado em 1954."
+      ]
+    }
+  },
+  "estadio-nacional-do-jamor": {
+    "name": "Estádio Nacional do Jamor",
+    "aliases": [
+      "Estádio Nacional",
+      "Estádio do Jamor"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Jacobetty Rosa"
+        ],
+        "nationality": "português",
+        "lifespan": "",
+        "bio": "Arquiteto português creditado no projeto do Estádio Nacional, inaugurado em 1944."
+      },
+      {
+        "aliases": [],
+        "nationality": "português",
+        "lifespan": "",
+        "bio": "Projetista português que participou do projeto original do Estádio Nacional."
+      },
+      {
+        "aliases": [],
+        "nationality": "",
+        "lifespan": "",
+        "bio": "Citado entre os autores do projeto original do Estádio Nacional."
+      }
+    ],
+    "city": "Oeiras",
+    "style": "Modernismo do Estado Novo",
+    "photos": [
+      {
+        "alt": "Arquibancadas claras em degraus com uma pequena tribuna central, vistas de uma área pavimentada aberta, com pinhal ao fundo",
+        "caption": null
+      },
+      {
+        "alt": "Evento lotado em um estádio em bacia, aberto de um lado e cercado de árvores, com um alto poste de refletores",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Fica num vale arborizado logo fora de uma capital, dentro de um grande parque de instalações desportivas.",
+      "Um dos lados de sua bacia oval é deixado aberto, o que é incomum num estádio desse tipo.",
+      "Sediou a final da Taça dos Campeões Europeus de 1967, vencida por um time que ficou conhecido como os 'Leões de Lisboa'."
+    ],
+    "summary": {
+      "description": "Inaugurado em 1944, após o início das obras em 1939, este estádio fica no parque desportivo do Jamor, perto de Lisboa. Foi projetado por Miguel Jacobetty Rosa com Francisco Caldeira Cabral e Konrad Wiesner. Sua bacia oval é aberta no lado leste, e ele recebe a final da Taça de Portugal quase todos os anos desde 1946.",
+      "keyFeatures": [
+        "Bacia oval aberta no lado leste",
+        "Situado num parque desportivo arborizado",
+        "Capacidade de cerca de 37.600 lugares",
+        "Gramado de 105 x 68 m"
+      ],
+      "funFacts": [
+        "Recebeu o primeiro jogo de clubes da UEFA já disputado, em 1955.",
+        "O Celtic venceu aqui a final da Taça dos Campeões de 1967 e ganhou o apelido de 'Leões de Lisboa'.",
+        "Já recebeu shows de The Police, Black Eyed Peas e Iron Maiden."
+      ]
+    }
+  }
+}
