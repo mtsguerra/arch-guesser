@@ -1,0 +1,259 @@
+{
+  "millau-viaduct": {
+    "name": "Viaduto de Millau",
+    "aliases": [
+      "Viaduc de Millau"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "francês",
+        "lifespan": "n. 1946",
+        "bio": "Engenheiro estrutural francês que liderou a equipe de projeto do Viaduto de Millau."
+      },
+      {
+        "aliases": [
+          "Lord Foster"
+        ],
+        "nationality": "Britânico",
+        "lifespan": "n. 1935",
+        "bio": "Arquiteto britânico que redesenhou o edifício em ruínas de 1995 a 1999 para o parlamento da Alemanha reunificada, acrescentando uma cúpula de vidro que abre o teto ao público."
+      }
+    ],
+    "city": "Millau",
+    "style": "Viaduto estaiado",
+    "photos": [
+      {
+        "alt": "Altos e esbeltos pilares de concreto erguendo-se sobre campos agrícolas",
+        "caption": null
+      },
+      {
+        "alt": "Uma longa ponte branca atravessando um vale distante, vista de uma colina acima de uma cidade",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Leva uma autoestrada sobre um desfiladeiro de rio em sete pilares esbeltos, e seu tabuleiro tem cerca de 2,5 quilômetros.",
+      "Sete mastros de 87 metros de altura sustentam o tabuleiro, e seu pilar mais alto tem 343 metros.",
+      "Foi inaugurado em dezembro de 2004 e foi a ponte mais alta do mundo por mais de duas décadas."
+    ],
+    "summary": {
+      "description": "Este viaduto estaiado de vários vãos cruza o desfiladeiro do rio Tarn. Michel Virlogeux liderou o projeto estrutural e Norman Foster assinou a arquitetura. Foi aberto em dezembro de 2004.",
+      "keyFeatures": [
+        "Tabuleiro de 2.460 m",
+        "Sete mastros de 87 m",
+        "Pilar mais alto com 343 m",
+        "Seis vãos centrais de 342 m"
+      ],
+      "funFacts": [
+        "A construção custou cerca de 394 milhões de euros.",
+        "Tem vida útil projetada de 120 anos."
+      ]
+    }
+  },
+  "forth-bridge": {
+    "name": "Ponte Forth",
+    "aliases": [
+      "Forth Bridge",
+      "Ponte Ferroviária de Forth"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "1817-1898",
+        "bio": "Engenheiro britânico que projetou a Ponte Forth com Benjamin Baker."
+      },
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "1840-1907",
+        "bio": "Engenheiro britânico que projetou a Ponte Forth com John Fowler."
+      }
+    ],
+    "city": "South Queensferry",
+    "style": "Ponte de aço em balanços",
+    "photos": [
+      {
+        "alt": "Uma longa ponte de aço vermelho em balanços no horizonte, sobre um estuário azul",
+        "caption": null
+      },
+      {
+        "alt": "Grandes braços de aço vermelho em balanço erguendo-se de pilares de pedra sobre a água da maré, com um pequeno barco",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma ponte ferroviária tão associada à manutenção sem fim que seu nome virou expressão para uma tarefa interminável.",
+      "Seus dois vãos principais têm 520 metros cada, formados por pares de braços em balanço, e cerca de 6,5 milhões de rebites a mantêm unida.",
+      "Aberta em março de 1890, foi a primeira grande estrutura de aço da Grã-Bretanha e hoje é Patrimônio Mundial."
+    ],
+    "summary": {
+      "description": "Esta ponte ferroviária leva a linha Edimburgo-Aberdeen sobre o estuário de Forth em três enormes torres de aço em balanço. John Fowler e Benjamin Baker a projetaram. Foi concluída em dezembro de 1889 e aberta em março de 1890.",
+      "keyFeatures": [
+        "Dois vãos principais de 520 m (1.700 pés)",
+        "Comprimento total de 2.467 m (8.094 pés)",
+        "Cerca de 6,5 milhões de rebites",
+        "Patrimônio Mundial da UNESCO desde 2015"
+      ],
+      "funFacts": [
+        "Em 1887, uma demonstração humana do balanço usou Kaichi Watanabe sentado entre Fowler e Baker.",
+        "Tinha o maior vão em balanço único do mundo quando foi aberta."
+      ]
+    }
+  },
+  "pont-du-gard": {
+    "name": "Pont du Gard",
+    "aliases": [
+      "Ponte do Gard"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "Os construtores deste complexo de banhos imperiais, erguido sob Sétimo Severo e Caracala, não estão registrados."
+      }
+    ],
+    "city": "Vers-Pont-du-Gard",
+    "style": "Ponte-aqueduto romano",
+    "photos": [
+      {
+        "alt": "Três níveis de arcos de pedra clara formando uma ponte-aqueduto antiga sobre um rio",
+        "caption": null
+      },
+      {
+        "alt": "Uma alta arcada romana de blocos de pedra talhados atravessando um vale de rio",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma ponte que na verdade era um canal: levava água a uma cidade a cerca de 50 quilômetros.",
+      "Três níveis de 6, 11 e 35 arcos sobem 48,8 metros, com blocos de pedra encaixados sem argamassa.",
+      "Escavações recentes a datam de cerca de 40-60 d.C., embora por muito tempo tenha sido atribuída a Agripa por volta de 19 a.C."
+    ],
+    "summary": {
+      "description": "Esta ponte-aqueduto romana de três níveis levava água de perto de Uzès a Nîmes. Seus blocos de pedra, alguns de até 6 toneladas, foram talhados para se encaixar sem argamassa. É datada de cerca de 40-60 d.C.",
+      "keyFeatures": [
+        "Altura de 48,8 m",
+        "Três níveis com 6, 11 e 35 arcos",
+        "Construção a seco, sem argamassa",
+        "Parte de um aqueduto de 50 km"
+      ],
+      "funFacts": [
+        "O aqueduto levava cerca de 40.000 metros cúbicos de água por dia.",
+        "Foi inscrito como Patrimônio Mundial da UNESCO em 1985."
+      ]
+    }
+  },
+  "space-needle": {
+    "name": "Space Needle",
+    "aliases": [
+      "Agulha Espacial"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1911-1990",
+        "bio": "Executivo de hotéis que propôs a ideia da base em forma de balão que deu origem à Space Needle."
+      },
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1908-1991",
+        "bio": "Arquiteto de Seattle que projetou o topo em forma de disco voador da Space Needle."
+      },
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1911-1985",
+        "bio": "Arquiteto de Seattle que introduziu o perfil de ampulheta e o desenho em tripé da Space Needle."
+      }
+    ],
+    "city": "Seattle",
+    "style": "Era espacial / Googie",
+    "photos": [
+      {
+        "alt": "Altas pernas cor de creme e a parte de baixo de um mirante em forma de disco, com um poço de elevador entre elas",
+        "caption": null
+      },
+      {
+        "alt": "Uma torre esbelta com o topo em forma de disco voador erguendo-se acima das árvores em um céu azul nublado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi construída para uma feira mundial cujo tema era o futuro, e abriu em abril de 1962.",
+      "Suas pernas em forma de ampulheta sustentam um topo em forma de disco com um restaurante giratório, a cerca de 520 pés de altura.",
+      "Foi feita para resistir a ventos de até 200 mph, o dobro da exigência do código de obras da época."
+    ],
+    "summary": {
+      "description": "Construída para a Exposição Century 21 de 1962, esta torre combina um perfil de ampulheta em tripé com um topo de disco voador. Edward Carlson propôs a ideia, John Graham projetou o topo e Victor Steinbrueck a forma de ampulheta. Tem 184 m (605 pés) de altura com a antena.",
+      "keyFeatures": [
+        "Perfil de ampulheta em tripé",
+        "Topo de disco voador com restaurante giratório",
+        "Altura de 184 m (605 pés)",
+        "Mirante a cerca de 520 pés de altura"
+      ],
+      "funFacts": [
+        "Os elevadores chegam ao mirante em cerca de 41 segundos.",
+        "A Feira Mundial de 1962 atraiu mais de 2,3 milhões de visitantes."
+      ]
+    }
+  },
+  "ponte-juscelino-kubitschek": {
+    "name": "Ponte Juscelino Kubitschek",
+    "aliases": [
+      "Ponte JK"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "brasileiro",
+        "lifespan": "",
+        "bio": "Arquiteto da Ponte Juscelino Kubitschek, que recebeu por ela a Medalha Gustav Lindenthal de 2003."
+      },
+      {
+        "aliases": [],
+        "nationality": "brasileiro",
+        "lifespan": "",
+        "bio": "Engenheiro estrutural da Ponte Juscelino Kubitschek."
+      }
+    ],
+    "city": "Brasília",
+    "style": "Ponte em arcos de aço assimétricos",
+    "photos": [
+      {
+        "alt": "Três arcos de aço brancos cruzando um lago largo ao longe",
+        "caption": null
+      },
+      {
+        "alt": "Vista em preto e branco ao longo de uma pista entre fileiras de cabos, com um arco adiante",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Seus arcos de aço cruzam a pista de um lado ao outro, com cabos se entrelaçando em um plano torcido.",
+      "Tem três vãos de 240 metros, e os arcos têm cerca de 61 metros de altura.",
+      "Foi aberta ao tráfego em 15 de dezembro de 2002 e depois rendeu uma medalha internacional a seu arquiteto."
+    ],
+    "summary": {
+      "description": "Esta ponte cruza o Lago Paranoá com três arcos de aço assimétricos que se alternam de um lado a outro do tabuleiro. Foi projetada pelo arquiteto Alexandre Chan e pelo engenheiro Mário Vila Verde. Foi inaugurada em 15 de dezembro de 2002.",
+      "keyFeatures": [
+        "Três arcos de aço com cerca de 61 m de altura",
+        "Três vãos de 240 m",
+        "Comprimento total de 1.200 m",
+        "Cabos alternados de cada lado do tabuleiro"
+      ],
+      "funFacts": [
+        "Alexandre Chan recebeu a Medalha Gustav Lindenthal de 2003.",
+        "Custou 56,8 milhões de dólares."
+      ]
+    }
+  }
+}

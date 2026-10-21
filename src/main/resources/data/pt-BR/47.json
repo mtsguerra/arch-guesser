@@ -1,0 +1,302 @@
+{
+  "tower-bridge": {
+    "name": "Tower Bridge",
+    "aliases": [
+      "Ponte da Torre"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "1819-1887",
+        "bio": "Arquiteto da Cidade de Londres que projetou a Tower Bridge, mas morreu em 1887, antes de ela ficar pronta."
+      },
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "1836-1918",
+        "bio": "Engenheiro da Tower Bridge que assumiu o papel de arquiteto após a morte de Horace Jones."
+      }
+    ],
+    "city": "Londres",
+    "style": "Gótico vitoriano",
+    "photos": [
+      {
+        "alt": "Duas torres de pedra de estilo gótico unidas por passarelas altas, vistas sobre uma antiga muralha de fortaleza",
+        "caption": null
+      },
+      {
+        "alt": "Vista aérea de uma ponte de duas torres com correntes azuis atravessando um rio largo e marrom",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Costuma ser confundida com outra ponte, mas é uma ponte basculante cuja pista pode se abrir e levantar para a passagem de navios.",
+      "Sua estrutura de aço é revestida de granito e pedra para parecer uma fortaleza medieval, e suas torres têm cerca de 65 metros de altura.",
+      "Seu arquiteto morreu em 1887, sete anos antes de ela ser aberta ao público, em 1894."
+    ],
+    "summary": {
+      "description": "A Tower Bridge cruza o Tâmisa ao lado de uma fortaleza medieval, por isso seu esqueleto de aço foi vestido de pedra em estilo gótico vitoriano. O vão central se divide em dois báscules que levantam em cerca de cinco minutos para dar passagem aos navios. Foi inaugurada em 1894.",
+      "keyFeatures": [
+        "Vão basculante em duas folhas de cerca de 1.070 toneladas cada",
+        "Estrutura de aço revestida de granito da Cornualha e pedra de Portland",
+        "Torres com cerca de 65 m de altura",
+        "Passarelas elevadas ligando as torres"
+      ],
+      "funFacts": [
+        "Em 1952, um motorista de ônibus de dois andares acelerou sobre o vão quando a ponte começava a subir.",
+        "Foi pintada de vermelho, branco e azul para o Jubileu de Prata de 1977."
+      ]
+    }
+  },
+  "brooklyn-bridge": {
+    "name": "Ponte do Brooklyn",
+    "aliases": [
+      "Ponte de Brooklyn"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "teuto-americano",
+        "lifespan": "1806-1869",
+        "bio": "Engenheiro que projetou a Ponte do Brooklyn; morreu em 1869, antes de a construção realmente começar."
+      },
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1837-1926",
+        "bio": "Filho de John A. Roebling e engenheiro-chefe da Ponte do Brooklyn; sua esposa, Emily Warren Roebling, ajudou a supervisionar a obra."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Ponte pênsil neogótica",
+    "photos": [
+      {
+        "alt": "A pista vista do tabuleiro da ponte ao entardecer, com uma teia de cabos de aço e o horizonte de uma cidade à frente",
+        "caption": null
+      },
+      {
+        "alt": "Cabos de aço abrindo-se em leque sobre uma pista em direção ao horizonte de uma cidade ao pôr do sol",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Quando foi inaugurada, era a maior ponte pênsil do mundo, com um vão principal de cerca de 486 metros.",
+      "Suas torres de pedra têm arcos ogivais góticos, e seus quatro cabos principais reúnem 5.282 fios de aço cada.",
+      "Seu projetista morreu antes de a obra realmente começar, então o filho assumiu e, depois, a nora a supervisionou; foi inaugurada em 1883."
+    ],
+    "summary": {
+      "description": "A Ponte do Brooklyn liga dois distritos sobre o East River com um híbrido de cabos pênseis e estais diagonais. Suas torres de granito e calcário têm arcos ogivais góticos. Foi projetada por John A. Roebling e concluída sob seu filho Washington, com Emily Warren Roebling ajudando a supervisionar a obra.",
+      "keyFeatures": [
+        "Vão principal de 486,3 m (1.595,5 pés)",
+        "Torres neogóticas com cerca de 85 m de altura",
+        "Uso pioneiro de cabos de fios de aço",
+        "Híbrido de cabos pênseis e estais diagonais"
+      ],
+      "funFacts": [
+        "Cerca de 150.300 pessoas a atravessaram no dia da inauguração.",
+        "Custou cerca de 15,5 milhões de dólares de 1883."
+      ]
+    }
+  },
+  "golden-gate-bridge": {
+    "name": "Ponte Golden Gate",
+    "aliases": [
+      "Golden Gate"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1870-1938",
+        "bio": "Engenheiro-chefe da Ponte Golden Gate."
+      },
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1884-1952",
+        "bio": "Arquiteto que projetou as torres e os detalhes Art Déco da ponte."
+      },
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1876-1949",
+        "bio": "Engenheiro principal da Ponte Golden Gate, que recebeu pouco crédito até tempos depois."
+      },
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1872-1943",
+        "bio": "Engenheiro que concebeu o projeto final de ponte pênsil."
+      }
+    ],
+    "city": "São Francisco",
+    "style": "Ponte pênsil Art Déco",
+    "photos": [
+      {
+        "alt": "Uma longa ponte pênsil laranja com duas torres altas cruzando um estreito, com ondas em primeiro plano",
+        "caption": null
+      },
+      {
+        "alt": "Uma alta torre vermelho-alaranjada emergindo da neblina sobre uma pista cheia de carros",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Sua cor, um vermelhão chamado laranja internacional, foi escolhida em parte para ser vista na neblina.",
+      "Seu vão principal de 1.280 metros foi o maior do mundo até 1964, e suas torres sobem 227 metros.",
+      "Foi inaugurada em maio de 1937, depois de 200 mil pessoas a atravessarem a pé e de patins no dia anterior à liberação dos carros."
+    ],
+    "summary": {
+      "description": "Esta ponte pênsil cruza o estreito na entrada da baía de São Francisco. O vão principal de 4.200 pés manteve o recorde mundial até 1964, e suas torres e grades têm detalhes Art Déco. A tinta laranja internacional foi escolhida para se destacar na neblina.",
+      "keyFeatures": [
+        "Vão principal de 1.280 m (4.200 pés)",
+        "Torres com 227 m (746 pés) de altura",
+        "Decoração Art Déco nas torres, postes e grades",
+        "Cor laranja internacional"
+      ],
+      "funFacts": [
+        "Era a ponte pênsil mais longa e mais alta do mundo quando foi inaugurada.",
+        "A obra começou em 5 de janeiro de 1933 e custou mais de 35 milhões de dólares."
+      ]
+    }
+  },
+  "ponte-dom-luis-i": {
+    "name": "Ponte Dom Luís I",
+    "aliases": [
+      "Ponte de Dom Luís"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "teuto-belga",
+        "lifespan": "1843-1923",
+        "bio": "Engenheiro que projetou a Ponte Dom Luís I; foi sócio de Gustave Eiffel e projetou a semelhante Ponte Maria Pia."
+      }
+    ],
+    "city": "Porto",
+    "style": "Ponte em arco de ferro",
+    "photos": [
+      {
+        "alt": "Um rio ao entardecer com barcos atracados e antigos cais iluminados, e uma ponte ao fundo",
+        "caption": null
+      },
+      {
+        "alt": "Vista aérea de uma ponte em arco de ferro com tabuleiro no alto cruzando um rio ao lado de uma cidade em encosta",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Tem dois tabuleiros: um no alto das falésias e outro baixo, junto ao rio.",
+      "Seu projetista foi sócio do engenheiro de uma famosa torre de Paris, e sua ponte anterior, ali perto, é parecida.",
+      "Quando foi inaugurada, em 1886, seu arco de ferro de 172 metros era o maior do gênero no mundo."
+    ],
+    "summary": {
+      "description": "Esta ponte em arco de ferro de dois tabuleiros cruza o rio Douro entre o Porto e Vila Nova de Gaia. Foi projetada por Théophile Seyrig, que antes projetara a vizinha Ponte Maria Pia. Quando foi inaugurada, em 1886, seu vão de 172 m era o maior do gênero.",
+      "keyFeatures": [
+        "Arco de ferro com duas rótulas e vão de 172 m",
+        "Dois tabuleiros em alturas diferentes",
+        "Tabuleiro superior hoje serve ao Metro do Porto",
+        "Construída pela sociedade belga Willebroek"
+      ],
+      "funFacts": [
+        "As portagens começaram em 1886, a 4 réis por pessoa, e acabaram em 1944.",
+        "O tabuleiro superior fechou ao trânsito de veículos em 2003 para receber o metrô."
+      ]
+    }
+  },
+  "rialto-bridge": {
+    "name": "Ponte de Rialto",
+    "aliases": [
+      "Ponte Rialto"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "veneziano",
+        "lifespan": "c. 1512-1597",
+        "bio": "Arquiteto veneziano que projetou a Ponte de Rialto, de pedra e vão único."
+      }
+    ],
+    "city": "Veneza",
+    "style": "Ponte de pedra renascentista",
+    "photos": [
+      {
+        "alt": "Uma ponte de pedra branca em arco, com arcadas cobertas, sobre um canal ao entardecer",
+        "caption": null
+      },
+      {
+        "alt": "Uma ponte de pedra de arco único cruzando um canal ao lado de um antigo palácio",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Substituiu pontes de madeira que desabaram duas vezes, em 1444 e 1524.",
+      "É um único arco de pedra com duas rampas de lojas levando a um pórtico central; seu vão tem cerca de 32 metros.",
+      "Seu projeto foi escolhido entre rivais, e um famoso arquiteto previu que ela cairia; foi concluída em 1591."
+    ],
+    "summary": {
+      "description": "A Ponte de Rialto cruza o Grande Canal em um único arco de pedra, com duas rampas cobertas de lojas subindo a um pórtico central. Substituiu uma ponte de madeira que desabara em 1444 e 1524. Antonio da Ponte a concluiu em 1591.",
+      "keyFeatures": [
+        "Arco único de pedra de 31,8 m",
+        "Duas rampas ladeadas por lojas",
+        "Pórtico central",
+        "Substituiu uma ponte de madeira com trecho levadiço"
+      ],
+      "funFacts": [
+        "Uma ponte de madeira de 1255 tinha um trecho central móvel para navios altos.",
+        "Vincenzo Scamozzi previu que ela cairia, mas ela virou uma das maiores atrações de Veneza."
+      ]
+    }
+  },
+  "ponte-vecchio": {
+    "name": "Ponte Vecchio",
+    "aliases": [
+      "Ponte Velha"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "florentino",
+        "lifespan": "c. 1290-1366",
+        "bio": "Pintor e arquiteto florentino a quem Giorgio Vasari atribuiu o projeto da Ponte Vecchio; historiadores modernos sugerem Neri di Fioravanti como possível construtor."
+      }
+    ],
+    "city": "Florença",
+    "style": "Ponte medieval de pedra",
+    "photos": [
+      {
+        "alt": "Uma ponte com casas ao longo da borda e um longo edifício de arcadas ao lado, refletidos em um rio ao entardecer",
+        "caption": null
+      },
+      {
+        "alt": "Uma ponte de pedra ladeada de casas e lojas cruzando um rio, vista da margem gramada",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Suas lojas abrigaram açougueiros e curtidores até um decreto de 1565 deixar só ourives e joalheiros.",
+      "Um corredor privado foi construído sobre ela em 1565 para que uma família governante andasse entre dois palácios.",
+      "Foi a única ponte da cidade que não foi destruída na retirada alemã de agosto de 1944, e foi reconstruída em pedra em 1345."
+    ],
+    "summary": {
+      "description": "A Ponte Vecchio é uma ponte medieval de pedra com três arcos abatidos, ladeada de lojas dos dois lados. Foi reconstruída em 1345 depois que pontes anteriores foram destruídas por enchentes. Desde 1565 suas lojas são ocupadas por ourives e joalheiros.",
+      "keyFeatures": [
+        "Três arcos abatidos de pedra",
+        "Vão principal de 30 m e vãos laterais de 27 m",
+        "Lojas construídas dos dois lados",
+        "Corredor acima, acrescentado em 1565"
+      ],
+      "funFacts": [
+        "Foi a única ponte florentina não destruída em agosto de 1944.",
+        "Em 2005-2006 a cidade retirou 5.500 cadeados de amor de suas grades."
+      ]
+    }
+  }
+}

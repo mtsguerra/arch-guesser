@@ -20708,5 +20708,911 @@
         "The palace was bombed nine times in the Second World War."
       ]
     }
+  },
+  {
+    "id": "tower-bridge",
+    "name": "Tower Bridge",
+    "aliases": [
+      "Tower Bridge London"
+    ],
+    "architects": [
+      {
+        "name": "Horace Jones",
+        "aliases": [
+          "Sir Horace Jones"
+        ],
+        "lifespan": "1819-1887",
+        "nationality": "British",
+        "bio": "City Architect of London who designed Tower Bridge but died in 1887, before it was finished."
+      },
+      {
+        "name": "John Wolfe Barry",
+        "aliases": [
+          "Sir John Wolfe Barry"
+        ],
+        "lifespan": "1836-1918",
+        "nationality": "British",
+        "bio": "Engineer of Tower Bridge who took over as its architect after Horace Jones died."
+      }
+    ],
+    "location": {
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": 1894,
+    "era": "HISTORICISM",
+    "themes": [
+      "bridges-towers"
+    ],
+    "style": "Victorian Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tower_Bridge",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/London%2C_Tower_Bridge_--_2016_--_4676.jpg/1920px-London%2C_Tower_Bridge_--_2016_--_4676.jpg",
+        "alt": "Two Gothic-style stone towers joined by high walkways, seen over an old fortress wall",
+        "credit": "Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:London,_Tower_Bridge_--_2016_--_4676.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tower_Bridge_from_London_City_Hall_2015.jpg/1920px-Tower_Bridge_from_London_City_Hall_2015.jpg",
+        "alt": "Aerial view of a twin-towered bridge with blue suspension chains crossing a wide brown river",
+        "credit": "Photo: Colin · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_from_London_City_Hall_2015.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is often mistaken for a different bridge, yet it is a bascule bridge whose roadway can split and lift for ships."
+      },
+      {
+        "order": 2,
+        "text": "Its steel frame is clad in granite and stone to look like a medieval fortress, and its towers are about 65 metres high."
+      },
+      {
+        "order": 3,
+        "text": "Its architect died in 1887, seven years before it opened to the public in 1894."
+      }
+    ],
+    "summary": {
+      "description": "Tower Bridge crosses the Thames beside a medieval fortress, so its steel skeleton was dressed in Victorian Gothic stone to match. The central span splits into two bascules that lift in about five minutes to let ships through. It opened in 1894.",
+      "keyFeatures": [
+        "Bascule span in two leaves of about 1,070 tons each",
+        "Steel frame clad in Cornish granite and Portland stone",
+        "Towers about 65 m high",
+        "High-level walkways linking the towers"
+      ],
+      "funFacts": [
+        "In 1952 a double-decker bus driver accelerated across the gap as the bridge began to rise.",
+        "It was painted red, white and blue for the 1977 Silver Jubilee."
+      ]
+    }
+  },
+  {
+    "id": "brooklyn-bridge",
+    "name": "Brooklyn Bridge",
+    "aliases": [
+      "Brooklyn Bridge New York"
+    ],
+    "architects": [
+      {
+        "name": "John A. Roebling",
+        "aliases": [
+          "John Augustus Roebling",
+          "Roebling"
+        ],
+        "lifespan": "1806-1869",
+        "nationality": "German-American",
+        "bio": "Engineer who designed the Brooklyn Bridge; he died in 1869 before construction began in earnest."
+      },
+      {
+        "name": "Washington Roebling",
+        "aliases": [
+          "Washington Augustus Roebling"
+        ],
+        "lifespan": "1837-1926",
+        "nationality": "American",
+        "bio": "Son of John A. Roebling and chief engineer of the Brooklyn Bridge; his wife Emily Warren Roebling helped supervise the work."
+      }
+    ],
+    "location": {
+      "city": "New York",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1883,
+    "era": "HISTORICISM",
+    "themes": [
+      "bridges-towers"
+    ],
+    "style": "Neo-Gothic suspension bridge",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Brooklyn_Bridge_-_03.jpg/1920px-Brooklyn_Bridge_-_03.jpg",
+        "alt": "The roadway seen from the bridge deck at dusk, with a web of steel cables and a city skyline ahead",
+        "credit": "Photo: Carlos Delgado · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_-_03.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Brooklyn_Bridge_August_2017.jpg/1920px-Brooklyn_Bridge_August_2017.jpg",
+        "alt": "Steel cables fanning out over a roadway toward a city skyline at sunset",
+        "credit": "Photo: Arild Vågen · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_August_2017.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "When it opened it was the longest suspension bridge in the world, with a main span of about 486 metres."
+      },
+      {
+        "order": 2,
+        "text": "Its stone towers have pointed Gothic arches, and its four main cables hold 5,282 steel wires each."
+      },
+      {
+        "order": 3,
+        "text": "Its designer died before work really began, so his son took over, and later his daughter-in-law supervised; it opened in 1883."
+      }
+    ],
+    "summary": {
+      "description": "The Brooklyn Bridge links two boroughs across the East River with a hybrid of suspension cables and diagonal stays. Its granite-and-limestone towers carry Gothic pointed arches. It was designed by John A. Roebling and finished under his son Washington, with Emily Warren Roebling helping to supervise the work.",
+      "keyFeatures": [
+        "Main span of 1,595.5 ft (486.3 m)",
+        "Neo-Gothic towers about 85 m tall",
+        "Early use of steel-wire cables",
+        "Hybrid of suspension cables and diagonal stays"
+      ],
+      "funFacts": [
+        "About 150,300 people crossed it on opening day.",
+        "It cost about $15.5 million in 1883 dollars."
+      ]
+    }
+  },
+  {
+    "id": "golden-gate-bridge",
+    "name": "Golden Gate Bridge",
+    "aliases": [
+      "Golden Gate"
+    ],
+    "architects": [
+      {
+        "name": "Joseph Strauss",
+        "aliases": [
+          "Joseph B. Strauss"
+        ],
+        "lifespan": "1870-1938",
+        "nationality": "American",
+        "bio": "Chief engineer of the Golden Gate Bridge."
+      },
+      {
+        "name": "Irving Morrow",
+        "aliases": [
+          "Irving F. Morrow"
+        ],
+        "lifespan": "1884-1952",
+        "nationality": "American",
+        "bio": "Architect who designed the bridge's towers and Art Deco details."
+      },
+      {
+        "name": "Charles Ellis",
+        "aliases": [
+          "Charles Alton Ellis"
+        ],
+        "lifespan": "1876-1949",
+        "nationality": "American",
+        "bio": "Principal engineer of the Golden Gate Bridge, who received little credit until later."
+      },
+      {
+        "name": "Leon Moisseiff",
+        "aliases": [],
+        "lifespan": "1872-1943",
+        "nationality": "American",
+        "bio": "Engineer who conceived the final suspension design of the bridge."
+      }
+    ],
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1937,
+    "era": "ART_DECO",
+    "themes": [
+      "bridges-towers",
+      "art-deco",
+      "modern-icons"
+    ],
+    "style": "Art Deco suspension bridge",
+    "wikipedia": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Golden_Gate_Bridge_as_seen_from_Marshall%E2%80%99s_Beach%2C_March_2018.jpg/1920px-Golden_Gate_Bridge_as_seen_from_Marshall%E2%80%99s_Beach%2C_March_2018.jpg",
+        "alt": "A long orange suspension bridge with two tall towers crossing a strait, with waves in the foreground",
+        "credit": "Photo: Frank Schulenburg · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Marshall%E2%80%99s_Beach,_March_2018.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Golden_Gate_bridge_3.jpg/1920px-Golden_Gate_bridge_3.jpg",
+        "alt": "A tall red-orange tower rising out of fog above a roadway full of cars",
+        "credit": "Photo: Sebring12Hrs · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Golden_Gate_bridge_3.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its colour, a vermilion called International Orange, was chosen partly to stay visible in fog."
+      },
+      {
+        "order": 2,
+        "text": "Its 1,280-metre main span was the longest in the world until 1964, and its towers rise 227 metres."
+      },
+      {
+        "order": 3,
+        "text": "It opened in May 1937, after 200,000 people walked and roller-skated across it the day before cars were allowed."
+      }
+    ],
+    "summary": {
+      "description": "This suspension bridge crosses the strait at the mouth of San Francisco Bay. The main span of 4,200 ft held the world record until 1964, and its towers and railings carry Art Deco details. Its International Orange paint was chosen to stand out in the fog.",
+      "keyFeatures": [
+        "Main span of 4,200 ft (1,280 m)",
+        "Towers 746 ft (227 m) high",
+        "Art Deco tower decoration, streetlights and railings",
+        "International Orange colour"
+      ],
+      "funFacts": [
+        "It was the longest and tallest suspension bridge in the world when it opened.",
+        "Construction began on 5 January 1933 and cost more than $35 million."
+      ]
+    }
+  },
+  {
+    "id": "ponte-dom-luis-i",
+    "name": "Ponte Dom Luís I",
+    "aliases": [
+      "Dom Luís I Bridge",
+      "Luís I Bridge",
+      "Ponte Luiz I"
+    ],
+    "architects": [
+      {
+        "name": "Théophile Seyrig",
+        "aliases": [
+          "Teófilo Seyrig"
+        ],
+        "lifespan": "1843-1923",
+        "nationality": "German-Belgian",
+        "bio": "Engineer who designed the Dom Luís I Bridge; he was a former partner of Gustave Eiffel and designed the similar Maria Pia Bridge."
+      }
+    ],
+    "location": {
+      "city": "Porto",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1886,
+    "era": "INDUSTRIAL",
+    "themes": [
+      "bridges-towers"
+    ],
+    "style": "Iron arch bridge",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Puente_de_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2019-06-02%2C_DD_29-31_HDR.jpg/1920px-Puente_de_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2019-06-02%2C_DD_29-31_HDR.jpg",
+        "alt": "A river at dusk with moored boats and lit old quays, and a bridge in the distance",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Puente_de_Don_Luis_I,_Oporto,_Portugal,_2019-06-02,_DD_29-31_HDR.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Puente_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2012-05-09%2C_DD_13.JPG/1920px-Puente_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2012-05-09%2C_DD_13.JPG",
+        "alt": "Aerial view of an iron arch bridge with a deck on top crossing a river beside a hillside town",
+        "credit": "Photo: Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It has two decks: one high on the cliff tops and another low beside the river."
+      },
+      {
+        "order": 2,
+        "text": "Its designer was a former partner of the engineer of a famous Paris tower, and his earlier bridge nearby looks similar."
+      },
+      {
+        "order": 3,
+        "text": "When it opened in 1886, its 172-metre iron arch was the longest of its type in the world."
+      }
+    ],
+    "summary": {
+      "description": "This double-deck iron arch bridge crosses the Douro between Porto and Vila Nova de Gaia. It was designed by Théophile Seyrig, who earlier designed the nearby Maria Pia Bridge. When it opened in 1886 its 172 m span was the longest of its type.",
+      "keyFeatures": [
+        "Two-hinged iron arch with a 172 m span",
+        "Two decks at different heights",
+        "Upper deck now carries the Porto Metro",
+        "Built by the Belgian Société de Willebroek"
+      ],
+      "funFacts": [
+        "Tolls began in 1886 at 4 reis per person and ended in 1944.",
+        "The upper deck closed to motor traffic in 2003 to carry the metro."
+      ]
+    }
+  },
+  {
+    "id": "rialto-bridge",
+    "name": "Rialto Bridge",
+    "aliases": [
+      "Ponte di Rialto",
+      "Ponte Rialto"
+    ],
+    "architects": [
+      {
+        "name": "Antonio da Ponte",
+        "aliases": [
+          "Antonio Da Ponte"
+        ],
+        "lifespan": "c. 1512-1597",
+        "nationality": "Venetian",
+        "bio": "Venetian architect who designed the single-span stone Rialto Bridge."
+      }
+    ],
+    "location": {
+      "city": "Venice",
+      "country": "Italy",
+      "countryCode": "IT"
+    },
+    "yearCompleted": 1591,
+    "era": "RENAISSANCE",
+    "themes": [
+      "bridges-towers"
+    ],
+    "style": "Renaissance stone arch bridge",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rialto_Bridge",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ponte_di_Rialto_facciata_ovest_di_sera.jpg/1920px-Ponte_di_Rialto_facciata_ovest_di_sera.jpg",
+        "alt": "A white stone arch bridge with covered arcades over a canal at dusk",
+        "credit": "Photo: This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponte_di_Rialto_facciata_ovest_di_sera.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Palazzo_dei_Camerlenghi_e_Ponte_Rialto_a_Venezia.jpg/1920px-Palazzo_dei_Camerlenghi_e_Ponte_Rialto_a_Venezia.jpg",
+        "alt": "A single-arch stone bridge crossing a canal beside an old palace",
+        "credit": "Photo: This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palazzo_dei_Camerlenghi_e_Ponte_Rialto_a_Venezia.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced wooden bridges that collapsed twice, in 1444 and 1524."
+      },
+      {
+        "order": 2,
+        "text": "It is a single stone arch with two ramps of shops leading to a central portico; its span is about 32 metres."
+      },
+      {
+        "order": 3,
+        "text": "Its design was chosen over rivals, and one famous architect predicted it would fall; it was finished in 1591."
+      }
+    ],
+    "summary": {
+      "description": "The Rialto Bridge crosses the Grand Canal in a single stone arch, with two covered ramps of shops rising to a central portico. It replaced a timber bridge that had collapsed in 1444 and 1524. Antonio da Ponte completed it in 1591.",
+      "keyFeatures": [
+        "Single stone arch of 31.8 m",
+        "Two ramps lined with shops",
+        "Central portico",
+        "Replaced a wooden bridge with a lifting section"
+      ],
+      "funFacts": [
+        "A timber bridge of 1255 had a movable central section for tall ships.",
+        "Vincenzo Scamozzi predicted it would fall, yet it became one of Venice's top attractions."
+      ]
+    }
+  },
+  {
+    "id": "ponte-vecchio",
+    "name": "Ponte Vecchio",
+    "aliases": [
+      "Old Bridge"
+    ],
+    "architects": [
+      {
+        "name": "Taddeo Gaddi",
+        "aliases": [
+          "Neri di Fioravanti"
+        ],
+        "lifespan": "c. 1290-1366",
+        "nationality": "Florentine",
+        "bio": "Florentine painter and architect to whom Giorgio Vasari attributed the design of the Ponte Vecchio; modern historians suggest Neri di Fioravanti as its possible builder."
+      }
+    ],
+    "location": {
+      "city": "Florence",
+      "country": "Italy",
+      "countryCode": "IT"
+    },
+    "yearCompleted": 1345,
+    "era": "MEDIEVAL",
+    "themes": [
+      "bridges-towers"
+    ],
+    "style": "Medieval stone arch bridge",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ponte_Vecchio",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ponte_Vecchio_at_dusk_1.JPG/1920px-Ponte_Vecchio_at_dusk_1.JPG",
+        "alt": "A bridge with houses along its edge and a long arcaded building beside it, reflected in a river at dusk",
+        "credit": "Photo: Martin Falbisoner · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_dusk_1.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg/1920px-Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg",
+        "alt": "A stone bridge lined with houses and shops crossing a river, seen from the grassy bank",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_sobre_el_r%C3%ADo_Arno,_Florencia,_Italia,_2022-09-19,_DD_02.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its shops first held butchers and tanners until a 1565 decree left only goldsmiths and jewellers."
+      },
+      {
+        "order": 2,
+        "text": "A private corridor was built above it in 1565 so a ruling family could walk between two palaces."
+      },
+      {
+        "order": 3,
+        "text": "It was the only bridge in its city not destroyed in the German retreat of August 1944, and it was rebuilt in stone in 1345."
+      }
+    ],
+    "summary": {
+      "description": "The Ponte Vecchio is a medieval stone bridge of three segmental arches, lined with shops on both sides. It was rebuilt in 1345 after earlier bridges were destroyed by floods. Since 1565 its shops have been occupied by goldsmiths and jewellers.",
+      "keyFeatures": [
+        "Three segmental stone arches",
+        "Main span of 30 m, side spans of 27 m",
+        "Shops built along both sides",
+        "Corridor above, added in 1565"
+      ],
+      "funFacts": [
+        "It was the only Florentine bridge not destroyed in August 1944.",
+        "In 2005-2006 the city removed 5,500 love padlocks from its railings."
+      ]
+    }
+  },
+  {
+    "id": "millau-viaduct",
+    "name": "Millau Viaduct",
+    "aliases": [
+      "Viaduc de Millau"
+    ],
+    "architects": [
+      {
+        "name": "Michel Virlogeux",
+        "aliases": [],
+        "lifespan": "b. 1946",
+        "nationality": "French",
+        "bio": "French structural engineer who led the design team of the Millau Viaduct."
+      },
+      {
+        "name": "Norman Foster",
+        "aliases": [
+          "Foster",
+          "Lord Foster"
+        ],
+        "lifespan": "b. 1935",
+        "nationality": "British",
+        "bio": "British architect who redesigned the ruined building from 1995 to 1999 for the reunified German parliament, adding a glass dome that opens the roof to the public."
+      }
+    ],
+    "location": {
+      "city": "Millau",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 2004,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "bridges-towers",
+      "modern-icons"
+    ],
+    "style": "Cable-stayed viaduct",
+    "wikipedia": "https://en.wikipedia.org/wiki/Millau_Viaduct",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/The_Millau_Viaduct_%282714080736%29.jpg",
+        "alt": "Tall slender concrete piers rising over farmland",
+        "credit": "Photo: FaceMePLS from The Hague, The Netherlands · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Millau_Viaduct_(2714080736).jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Millau_Viaduct_%282724128971%29.jpg/1920px-Millau_Viaduct_%282724128971%29.jpg",
+        "alt": "A long white bridge spanning a distant valley, seen from a hillside above a town",
+        "credit": "Photo: Richard Leeming from London, UK · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Millau_Viaduct_(2724128971).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It carries a motorway across a river gorge on seven slender piers, and its deck is about 2.5 kilometres long."
+      },
+      {
+        "order": 2,
+        "text": "Seven masts, each 87 metres high, hold the deck, and its tallest pier is 343 metres tall."
+      },
+      {
+        "order": 3,
+        "text": "It was inaugurated in December 2004 and was the world's tallest bridge for over two decades."
+      }
+    ],
+    "summary": {
+      "description": "This multispan cable-stayed viaduct crosses the gorge of the River Tarn. Michel Virlogeux led the structural design and Norman Foster provided the architecture. It opened in December 2004.",
+      "keyFeatures": [
+        "Deck 2,460 m long",
+        "Seven masts of 87 m",
+        "Tallest pier 343 m",
+        "Six central spans of 342 m"
+      ],
+      "funFacts": [
+        "Construction cost about 394 million euros.",
+        "It has a design life of 120 years."
+      ]
+    }
+  },
+  {
+    "id": "forth-bridge",
+    "name": "Forth Bridge",
+    "aliases": [
+      "Forth Rail Bridge"
+    ],
+    "architects": [
+      {
+        "name": "John Fowler",
+        "aliases": [
+          "Sir John Fowler"
+        ],
+        "lifespan": "1817-1898",
+        "nationality": "British",
+        "bio": "British engineer who designed the Forth Bridge with Benjamin Baker."
+      },
+      {
+        "name": "Benjamin Baker",
+        "aliases": [
+          "Sir Benjamin Baker"
+        ],
+        "lifespan": "1840-1907",
+        "nationality": "British",
+        "bio": "British engineer who designed the Forth Bridge with John Fowler."
+      }
+    ],
+    "location": {
+      "city": "South Queensferry",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": 1889,
+    "era": "INDUSTRIAL",
+    "themes": [
+      "bridges-towers"
+    ],
+    "style": "Steel cantilever bridge",
+    "wikipedia": "https://en.wikipedia.org/wiki/Forth_Bridge",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Forth_Bridge_2022.jpg/1920px-Forth_Bridge_2022.jpg",
+        "alt": "A long red steel cantilever bridge on the horizon across a blue estuary",
+        "credit": "Photo: MrMasterKeyboard · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Forth_Bridge_2022.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Forth_Bridge_%28geograph_6549767%29.jpg/1920px-Forth_Bridge_%28geograph_6549767%29.jpg",
+        "alt": "Large red steel cantilever arms rising from stone piers over tidal water, with a small boat",
+        "credit": "Photo: Graeme Yuill · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Forth_Bridge_(geograph_6549767).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A rail bridge so associated with endless upkeep that its name became a phrase for a never-ending task."
+      },
+      {
+        "order": 2,
+        "text": "Its two main spans are each 520 metres, built from pairs of cantilever arms, and about 6.5 million rivets hold it together."
+      },
+      {
+        "order": 3,
+        "text": "Opened in March 1890, it was the first major steel structure in Britain, and it is now a World Heritage Site."
+      }
+    ],
+    "summary": {
+      "description": "This railway bridge carries the Edinburgh-Aberdeen line across the Firth of Forth on three huge steel cantilever towers. John Fowler and Benjamin Baker designed it. It was completed in December 1889 and opened in March 1890.",
+      "keyFeatures": [
+        "Two main spans of 1,700 ft (520 m)",
+        "Total length 8,094 ft (2,467 m)",
+        "About 6.5 million rivets",
+        "UNESCO World Heritage Site since 2015"
+      ],
+      "funFacts": [
+        "In 1887 a human demonstration of a cantilever used Kaichi Watanabe seated between Fowler and Baker.",
+        "It had the longest single cantilever span in the world when it opened."
+      ]
+    }
+  },
+  {
+    "id": "pont-du-gard",
+    "name": "Pont du Gard",
+    "aliases": [
+      "Pont-du-Gard"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Roman architects",
+        "aliases": [
+          "Unknown",
+          "Anonymous"
+        ],
+        "bio": "The builders of this imperial bath complex, erected under Septimius Severus and Caracalla, are not recorded."
+      }
+    ],
+    "location": {
+      "city": "Vers-Pont-du-Gard",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 60,
+    "era": "CLASSICAL",
+    "themes": [
+      "bridges-towers",
+      "ancient-ruins"
+    ],
+    "style": "Roman aqueduct bridge",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pont_du_Gard",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pont_du_Gard_BLS.jpg/1920px-Pont_du_Gard_BLS.jpg",
+        "alt": "Three tiers of pale stone arches forming an ancient aqueduct bridge over a river",
+        "credit": "Photo: Benh LIEU SONG (Flickr) · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pont_du_Gard_2017.jpg/1920px-Pont_du_Gard_2017.jpg",
+        "alt": "A tall Roman arcade of cut stone blocks spanning a river valley",
+        "credit": "Photo: This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_2017.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a bridge that was really a channel: it carried water to a city about 50 kilometres away."
+      },
+      {
+        "order": 2,
+        "text": "Three tiers of 6, 11 and 35 arches rise 48.8 metres, with stone blocks fitted without mortar."
+      },
+      {
+        "order": 3,
+        "text": "Newer excavations date it to about 40-60 AD, though it was long credited to Agrippa around 19 BC."
+      }
+    ],
+    "summary": {
+      "description": "This three-tiered Roman aqueduct bridge carried water from near Uzes to Nimes. Its stone blocks, some up to 6 tons, were cut to fit together without mortar. It is dated to roughly 40-60 AD.",
+      "keyFeatures": [
+        "Height of 48.8 m",
+        "Three tiers with 6, 11 and 35 arches",
+        "Dry-stone construction without mortar",
+        "Part of a 50 km aqueduct"
+      ],
+      "funFacts": [
+        "The aqueduct carried an estimated 40,000 cubic metres of water per day.",
+        "It was listed as a UNESCO World Heritage Site in 1985."
+      ]
+    }
+  },
+  {
+    "id": "space-needle",
+    "name": "Space Needle",
+    "aliases": [
+      "The Space Needle"
+    ],
+    "architects": [
+      {
+        "name": "Edward E. Carlson",
+        "aliases": [
+          "Edward Carlson"
+        ],
+        "lifespan": "1911-1990",
+        "nationality": "American",
+        "bio": "Hotel executive who proposed the balloon-like base idea that started the Space Needle."
+      },
+      {
+        "name": "John Graham Jr.",
+        "aliases": [
+          "John Graham"
+        ],
+        "lifespan": "1908-1991",
+        "nationality": "American",
+        "bio": "Seattle architect who designed the flying-saucer top of the Space Needle."
+      },
+      {
+        "name": "Victor Steinbrueck",
+        "aliases": [],
+        "lifespan": "1911-1985",
+        "nationality": "American",
+        "bio": "Seattle architect who introduced the hourglass profile and tripod design of the Space Needle."
+      }
+    ],
+    "location": {
+      "city": "Seattle",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1962,
+    "era": "MODERNISM",
+    "themes": [
+      "bridges-towers",
+      "modern-icons"
+    ],
+    "style": "Space Age / Googie",
+    "wikipedia": "https://en.wikipedia.org/wiki/Space_Needle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Seattle_%28WA%2C_USA%29%2C_Space_Needle_--_2022_--_1523.jpg/1920px-Seattle_%28WA%2C_USA%29%2C_Space_Needle_--_2022_--_1523.jpg",
+        "alt": "Tall cream-coloured legs and the underside of a saucer-shaped deck, with a lift shaft between them",
+        "credit": "Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Seattle_(WA,_USA),_Space_Needle_--_2022_--_1523.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Seattle_%28WA%2C_USA%29%2C_Space_Needle_--_2022_--_1571.jpg/1920px-Seattle_%28WA%2C_USA%29%2C_Space_Needle_--_2022_--_1571.jpg",
+        "alt": "A slender tower with a flying-saucer-shaped top rising above trees into a cloudy blue sky",
+        "credit": "Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Seattle_(WA,_USA),_Space_Needle_--_2022_--_1571.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built for a world's fair whose theme was the future, and it opened in April 1962."
+      },
+      {
+        "order": 2,
+        "text": "Its hourglass-shaped legs support a saucer-like top with a revolving restaurant, about 520 feet up."
+      },
+      {
+        "order": 3,
+        "text": "It was built to withstand winds of up to 200 mph, twice the building code requirement of its day."
+      }
+    ],
+    "summary": {
+      "description": "Built for the 1962 Century 21 Exposition, this tower combines a tripod hourglass profile with a flying-saucer top. Edward Carlson proposed the idea, John Graham designed the top and Victor Steinbrueck the hourglass shape. It is 605 ft (184 m) tall including its antenna.",
+      "keyFeatures": [
+        "Hourglass tripod profile",
+        "Flying-saucer top with revolving restaurant",
+        "Height of 605 ft (184 m)",
+        "Observation deck about 520 ft up"
+      ],
+      "funFacts": [
+        "Elevators reach the observation deck in about 41 seconds.",
+        "The 1962 World's Fair drew more than 2.3 million visitors."
+      ]
+    }
+  },
+  {
+    "id": "ponte-juscelino-kubitschek",
+    "name": "Juscelino Kubitschek Bridge",
+    "aliases": [
+      "Ponte JK",
+      "Ponte Juscelino Kubitschek",
+      "JK Bridge"
+    ],
+    "architects": [
+      {
+        "name": "Alexandre Chan",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Brazilian",
+        "bio": "Architect of the Juscelino Kubitschek Bridge, who received the 2003 Gustav Lindenthal Medal for it."
+      },
+      {
+        "name": "Mário Vila Verde",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Brazilian",
+        "bio": "Structural engineer of the Juscelino Kubitschek Bridge."
+      }
+    ],
+    "location": {
+      "city": "Brasília",
+      "country": "Brazil",
+      "countryCode": "BR"
+    },
+    "yearCompleted": 2002,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "bridges-towers",
+      "modern-icons"
+    ],
+    "style": "Asymmetric steel arch bridge",
+    "wikipedia": "https://en.wikipedia.org/wiki/Juscelino_Kubitschek_Bridge",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ponte_Juscelino_Kubitschek.jpg/1920px-Ponte_Juscelino_Kubitschek.jpg",
+        "alt": "Three white steel arches crossing a wide lake in the distance",
+        "credit": "Photo: Eliene Vieira de Araújo · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ponte_Juscelino_Kubitschek.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Juscelino_Kubitschek_Bridge.jpg",
+        "alt": "Black-and-white view along a roadway between rows of cables, with an arch ahead",
+        "credit": "Photo: hiabba from Brazil · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Juscelino_Kubitschek_Bridge.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its steel arches cross the roadway from one side to the other, with cables interlacing in a twisted plane."
+      },
+      {
+        "order": 2,
+        "text": "It has three spans of 240 metres, and the arches stand about 61 metres tall."
+      },
+      {
+        "order": 3,
+        "text": "It opened to traffic on 15 December 2002 and later won an international medal for its architect."
+      }
+    ],
+    "summary": {
+      "description": "This bridge crosses Lake Paranoa with three asymmetrical steel arches that alternate from side to side of the deck. It was designed by architect Alexandre Chan and engineer Mario Vila Verde. It opened on 15 December 2002.",
+      "keyFeatures": [
+        "Three steel arches about 61 m tall",
+        "Three spans of 240 m",
+        "Total length 1,200 m",
+        "Cables alternating on each side of the deck"
+      ],
+      "funFacts": [
+        "Alexandre Chan received the 2003 Gustav Lindenthal Medal.",
+        "It cost US$56.8 million."
+      ]
+    }
   }
 ]
