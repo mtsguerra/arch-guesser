@@ -1,0 +1,192 @@
+{
+  "helsinki-central-station": {
+    "name": "Estação Central de Helsinque",
+    "aliases": [
+      "Estação Ferroviária Central de Helsinque",
+      "Estação de Helsinki"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "lifespan": "1873–1950",
+        "bio": "Arquiteto finlandês cujo projeto para o concurso da estação ferroviária de Helsinque, muito reformulado, deu origem ao edifício concluído em 1919."
+      }
+    ],
+    "city": "Helsinque",
+    "style": "Romantismo Nacional / Art Nouveau tardio",
+    "photos": [
+      {
+        "alt": "Pesado edifício de granito com uma alta torre de relógio de telhado verde e uma grande entrada em arco, visto de cima",
+        "caption": null
+      },
+      {
+        "alt": "Enorme entrada em arco de granito ladeada por figuras de pedra que seguram lampiões esféricos, com torre de relógio à direita",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Suas paredes de pedra se erguem sobre milhares de estacas de madeira cravadas no que antes era uma baía rasa.",
+      "Dois pares de gigantescas figuras de pedra ladeiam a entrada principal, cada uma segurando um lampião esférico.",
+      "O edifício atual foi inaugurado em março de 1919, após cerca de doze anos de obras, e é revestido sobretudo de granito local."
+    ],
+    "summary": {
+      "description": "Este terminal foi projetado após um concurso de arquitetura e muito retrabalhado por seu arquiteto, passando do romantismo nacional de contos de fadas a uma forma mais racional e monumental. A fachada principal é revestida de granito vermelho, com grande entrada em arco, torre de relógio e estátuas que seguram lampiões. Por dentro, abóbadas de concreto armado cobrem os salões.",
+      "keyFeatures": [
+        "Revestimento de granito finlandês, vermelho na fachada principal",
+        "Grande entrada em arco",
+        "Torre de relógio",
+        "Estátuas com lampiões de Emil Wikström",
+        "Abóbadas de concreto armado Hennebique"
+      ],
+      "funFacts": [
+        "Ela se apoia em cerca de 10.000 estacas de madeira cravadas na antiga baía de Kluuvi.",
+        "A BBC a incluiu entre as estações ferroviárias mais bonitas do mundo."
+      ]
+    }
+  },
+  "liege-guillemins-station": {
+    "name": "Estação ferroviária de Liège-Guillemins",
+    "aliases": [
+      "Estação de Liège",
+      "Estação de Liège-Guillemins"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol-suíço",
+        "bio": "Arquiteto, engenheiro estrutural, escultor e pintor conhecido por pontes com pilares inclinados e por estações, estádios e museus cujas formas lembram organismos vivos."
+      }
+    ],
+    "city": "Liège",
+    "style": "Neofuturista high-tech",
+    "photos": [
+      {
+        "alt": "Ampla cobertura branca de aço e vidro curvando-se sobre uma grande esplanada pavimentada, ao lado de uma fileira de pilares de concreto afunilados",
+        "caption": null
+      },
+      {
+        "alt": "Vista entre enormes nervuras de concreto branco sobre as plataformas, sob uma cobertura abobadada de vidro",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ela substituiu um edifício de 1958 demolido em 2009 para dar lugar a uma estrutura muito mais dramática.",
+      "Sua abóbada de vidro e aço tem cerca de 160 metros de comprimento e 32 de altura, e abriga cinco plataformas com nove vias.",
+      "A estação de concreto branco, aço e vidro foi inaugurada em setembro de 2009, a um custo de cerca de 312 milhões de euros."
+    ],
+    "summary": {
+      "description": "Esta estação foi inaugurada em 2009 no lugar de um edifício de 1958. Um grande arco branco de aço, vidro e concreto, com cerca de 160 m de comprimento e 32 m de altura, abriga as plataformas como uma onda. É uma das obras mais conhecidas de seu arquiteto espanhol.",
+      "keyFeatures": [
+        "Arco monumental de 160 m de comprimento e 32 m de altura",
+        "Aço, vidro e concreto branco",
+        "Nove vias e cinco plataformas",
+        "Substituiu uma estação de estilo internacional de 1958"
+      ],
+      "funFacts": [
+        "O edifício custou 312 milhões de euros.",
+        "A estação original do local foi inaugurada em 1º de maio de 1842."
+      ]
+    }
+  },
+  "antwerp-central-station": {
+    "name": "Estação Central de Antuérpia",
+    "aliases": [
+      "Estação de Antuérpia",
+      "Antuérpia-Central"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Belga",
+        "lifespan": "1838–1909",
+        "bio": "Arquiteto belga que projetou o edifício da estação de Antwerpen-Centraal, construído entre 1895 e 1905."
+      },
+      {
+        "aliases": [],
+        "nationality": "Belga",
+        "lifespan": "",
+        "bio": "Engenheiro que projetou o salão de trens de ferro e vidro de Antwerpen-Centraal."
+      }
+    ],
+    "city": "Antuérpia",
+    "style": "Eclético com cobertura de ferro e vidro",
+    "photos": [
+      {
+        "alt": "Grande extremidade em arco de uma cobertura de ferro e vidro pintada de bordô, sobre um viaduto de pedra",
+        "caption": null
+      },
+      {
+        "alt": "Escadas rolantes subindo por um vão moderno revestido de tijolos em direção a um grande salão de pedra sob um teto de vidro nervurado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Seu apelido a compara a uma casa de culto, por causa da enorme cúpula.",
+      "O salão de trens de ferro e vidro tem cerca de 44 metros de altura, o bastante para deixar escapar a fumaça das locomotivas.",
+      "Construída entre 1895 e 1905, deixou de ser estação terminal e virou estação de passagem de quatro níveis quando um túnel ferroviário foi aberto em 2007."
+    ],
+    "summary": {
+      "description": "Esta estação foi construída entre 1895 e 1905, com um suntuoso edifício de pedra na frente e um enorme galpão de ferro e vidro atrás. Seu estilo eclético e seu salão com cúpula lhe renderam o apelido de 'catedral ferroviária'. Um túnel aberto em 2007 a transformou em estação de quatro níveis, com plataformas bem abaixo das antigas.",
+      "keyFeatures": [
+        "Salão de espera de pedra com cúpula",
+        "Salão de trens de ferro e vidro com 185 m de comprimento e cerca de 44 m de altura",
+        "Quatro níveis de plataformas, até 18 m abaixo do solo",
+        "Estilo eclético, difícil de classificar"
+      ],
+      "funFacts": [
+        "Os impactos de V-2 na Segunda Guerra deixaram ondulações visíveis no telhado.",
+        "Ela ganhou um Grande Prêmio no Europa Nostra Awards de 2011."
+      ]
+    }
+  },
+  "milano-centrale": {
+    "name": "Milano Centrale",
+    "aliases": [
+      "Estação Central de Milão",
+      "Estação Milano Centrale"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Italiano",
+        "lifespan": "1871–1947",
+        "bio": "Arquiteto italiano que venceu em 1912 o concurso para a nova estação central de Milão com o projeto 'In Motu Vita'."
+      }
+    ],
+    "city": "Milão",
+    "style": "Eclético 'assírio-lombardo' com toques de Liberty e Art Déco",
+    "photos": [
+      {
+        "alt": "Frente de pedra muito larga com um alto pórtico central e figuras esculpidas, do outro lado de uma rua movimentada",
+        "caption": null
+      },
+      {
+        "alt": "Passageiros e trens sob uma enorme cobertura curva de aço e vidro, acima de um saguão de mármore polido",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ela substituiu uma estação menor de 1864 da qual nada restou, após um concurso vencido em 1912.",
+      "Sua fachada tem cerca de 200 metros de largura e a abóbada de aço das plataformas, com cerca de 72 metros de altura, foi recorde quando construída.",
+      "A obra começou com uma pedra fundamental em 1906, mas só foi retomada em 1925, e a inauguração oficial foi em 1º de julho de 1931."
+    ],
+    "summary": {
+      "description": "Esta estação foi escolhida em concurso vencido em 1912, depois atrasada por guerra e problemas econômicos e concluída sob o governo de Mussolini. Mistura muitos estilos, chamados de 'assírio-lombardo', com abundante escultura. Suas 24 plataformas ficam sob enormes coberturas de aço.",
+      "keyFeatures": [
+        "Fachada com cerca de 200 m de largura",
+        "Abóbada com cerca de 72 m de altura",
+        "24 plataformas sob coberturas de aço com cerca de 341 m",
+        "Muita escultura em um monumental pórtico de pedra"
+      ],
+      "funFacts": [
+        "A pedra fundamental foi lançada em 1906 pelo rei Vítor Emanuel III.",
+        "A estação foi eletrificada em 1938."
+      ]
+    }
+  }
+}

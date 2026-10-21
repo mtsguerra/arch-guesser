@@ -1,0 +1,196 @@
+{
+  "chhatrapati-shivaji-maharaj-terminus": {
+    "name": "Terminal Chhatrapati Shivaji Maharaj",
+    "aliases": [
+      "Terminal Vitória",
+      "Estação Victoria Terminus",
+      "Terminal Chhatrapati Shivaji"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Britânico",
+        "lifespan": "1847–1900",
+        "bio": "Arquiteto britânico que construiu o Victoria Terminus em Bombaim, a partir de um projeto inicial de Axel Haig."
+      },
+      {
+        "aliases": [],
+        "nationality": "Sueco",
+        "lifespan": "1835–1921",
+        "bio": "Desenhista e arquiteto nascido na Suécia, cujo projeto inicial do Victoria Terminus foi construído por F. W. Stevens."
+      }
+    ],
+    "city": "Bombaim",
+    "style": "Neogótico vitoriano com elementos indo-sarracenos",
+    "photos": [
+      {
+        "alt": "Longo edifício ornamentado de arenito com uma cúpula central nervurada coroada por uma estátua, torres de canto e arcos ogivais",
+        "caption": null
+      },
+      {
+        "alt": "Frontão central com relógio e cúpula nervurada encimada pela estátua de uma figura em pé segurando uma tocha, com arcos entalhados e palmeiras embaixo",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ela substituiu uma estação muito menor de 1853 e recebeu o nome de uma rainha reinante, antes de ser renomeada duas vezes.",
+      "Uma cúpula central traz uma estátua que simboliza o Progresso, e figuras entalhadas de um leão e de um tigre guardam seus portões.",
+      "A construção começou em 1878 e ela foi aberta ao público em 1888; a UNESCO a declarou Patrimônio Mundial em 2004."
+    ],
+    "summary": {
+      "description": "Esta estação foi projetada na era colonial britânica e construída a partir de 1878, misturando o neogótico vitoriano com motivos de palácios indianos e indo-sarracenos. Uma cúpula central nervurada, coroada pela estátua do Progresso, ergue-se sobre uma longa fachada de pedra policroma com torres e arcos ogivais. Continua sendo um terminal em operação, com 18 plataformas, e foi inscrita como Patrimônio Mundial da UNESCO em 2004.",
+      "keyFeatures": [
+        "Cúpula central com a estátua do Progresso",
+        "Quatro torres de canto",
+        "Neogótico vitoriano com influências indo-sarracenas",
+        "Leão e tigre de pedra nos portões",
+        "18 plataformas"
+      ],
+      "funFacts": [
+        "Foi renomeada em 1996 e novamente em 2017.",
+        "A estátua da rainha Vitória que existia aqui desapareceu depois da década de 1950 e nunca foi encontrada."
+      ]
+    }
+  },
+  "berlin-hauptbahnhof": {
+    "name": "Estação Central de Berlim",
+    "aliases": [
+      "Berlin Hauptbahnhof",
+      "Estação Principal de Berlim",
+      "Hauptbahnhof de Berlim"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão",
+        "lifespan": "1935–2022",
+        "bio": "Arquiteto do escritório Gerkan, Marg und Partner, que venceu em 1993 o concurso para a nova estação central de Berlim."
+      }
+    ],
+    "city": "Berlim",
+    "style": "Contemporâneo de vidro e aço",
+    "photos": [
+      {
+        "alt": "Blocos de escritórios de vidro e uma longa cobertura curva de vidro sobre um viaduto ferroviário elevado, refletidos em um rio",
+        "caption": null
+      },
+      {
+        "alt": "Panorama largo de torres de vidro e salões ferroviários em arco ao lado de um rio e de uma ponte rodoviária",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ela se ergue no lugar de um terminal inaugurado em 1871 e demolido em 1957-58.",
+      "Oito vias subterrâneas cruzam em ângulo reto seis vias elevadas, sob uma cobertura curva de vidro com cerca de 321 metros.",
+      "Foi inaugurada em cerimônia em 26 de maio de 2006, e suas coberturas de vidro foram encurtadas em cerca de 100 metros para acelerar a obra."
+    ],
+    "summary": {
+      "description": "Esta estação substituiu a antiga Lehrter Bahnhof e foi aberta em 2006, após um concurso vencido em 1993. É o cruzamento de duas linhas em dois níveis, com vias elevadas leste-oeste sob uma cobertura curva de vidro e vias subterrâneas norte-sul. Seu salão de vidro e aço é ladeado por duas pontes de escritórios.",
+      "keyFeatures": [
+        "Salão elevado de 321 m sob uma cobertura curva de vidro",
+        "Oito vias subterrâneas de longa distância",
+        "Cruzamento em dois níveis, com uma estação de U-Bahn abaixo",
+        "Cerca de 2.700 m² de painéis fotovoltaicos"
+      ],
+      "funFacts": [
+        "As coberturas de vidro foram encurtadas em cerca de 100 m para acelerar a obra.",
+        "Em janeiro de 2007, o ciclone Kyrill derrubou vigas de aço da fachada sudoeste."
+      ]
+    }
+  },
+  "madrid-atocha-station": {
+    "name": "Estação de Atocha, Madri",
+    "aliases": [
+      "Atocha",
+      "Estação de Madrid Atocha",
+      "Madrid Puerta de Atocha"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Espanhol",
+        "lifespan": "1856–1939",
+        "bio": "Arquiteto espanhol que, com Gustave Eiffel, projetou a estação de ferro e vidro reconstruída em 1892 após um incêndio."
+      }
+    ],
+    "city": "Madri",
+    "style": "Arquitetura ferroviária de ferro e vidro",
+    "photos": [
+      {
+        "alt": "Enorme empena em arco de ferro e vidro sobre um edifício de tijolo vermelho e pedra, com um relógio na base e um grifo no topo",
+        "caption": null
+      },
+      {
+        "alt": "Denso jardim tropical de palmeiras e bambus crescendo dentro de um grande salão de teto de ferro, com viajantes descansando na borda",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Começou em 1851 como a primeira estação ferroviária de sua cidade e foi reconstruída em 1892 após um incêndio.",
+      "Seu antigo salão de ferro e vidro hoje abriga um jardim tropical de cerca de 4.000 metros quadrados.",
+      "Um arquiteto moderno a reformou a partir de 1985, e aqui há um memorial às vítimas de um atentado de março de 2004."
+    ],
+    "summary": {
+      "description": "Esta estação foi aberta em 1851 como a primeira de Madri, foi em grande parte destruída por um incêndio e reconstruída, reabrindo em 1892 como um salão de ferro e vidro. Desde uma reforma concluída em 1992, o antigo edifício serve de saguão com um jardim tropical, enquanto um novo terminal recebe os trens. Também abriga um memorial aos atentados a trens de 11 de março de 2004.",
+      "keyFeatures": [
+        "Salão de ferro e vidro de 1892",
+        "Fachada de tijolo e pedra com relógio central",
+        "Jardim tropical de cerca de 4.000 m²",
+        "Reforma de 1985-1992 por Rafael Moneo"
+      ],
+      "funFacts": [
+        "Foi aberta em 9 de fevereiro de 1851 como Estación de Mediodía.",
+        "Um memorial às vítimas dos atentados de 2004 foi inaugurado em 10 de junho de 2004."
+      ]
+    }
+  },
+  "gare-de-lyon": {
+    "name": "Gare de Lyon",
+    "aliases": [
+      "Estação de Lyon",
+      "Gare de Lyon de Paris"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "lifespan": "1852–1922",
+        "bio": "Arquiteto de Toulon que projetou o edifício de treze vias da Gare de Lyon para a Exposição Universal de 1900."
+      }
+    ],
+    "city": "Paris",
+    "style": "Arquitetura ferroviária eclética de 1900",
+    "photos": [
+      {
+        "alt": "Torre de relógio de pedra clara com um enorme mostrador azul ornamentado, leões esculpidos e um topo cinza em cúpula",
+        "caption": null
+      },
+      {
+        "alt": "Amplo saguão de estação sob um teto de vidro e ferro com painéis de madeira, um relógio e painéis de partidas",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Seu primeiro edifício foi aberto em 1849, e um incêndio durante a Comuna de Paris, em 1871, o destruiu em parte.",
+      "O edifício atual foi projetado para uma exposição universal realizada em sua cidade em 1900.",
+      "Foi inaugurada em abril de 1901 pelo presidente da França, e um restaurante luxuosamente decorado aqui serve refeições desde esse ano."
+    ],
+    "summary": {
+      "description": "Este terminal foi reconstruído por um arquiteto de Toulon como estação de treze vias para a Exposição Universal de 1900 e inaugurado em abril de 1901 pelo presidente Émile Loubet. Uma grande torre de relógio marca um dos cantos. Dentro do edifício há um famoso restaurante ornamentado que serve refeições desde 1901.",
+      "keyFeatures": [
+        "Grande torre de relógio em um canto",
+        "Edifício de treze vias projetado para a Exposição Universal de 1900",
+        "Cobertura do saguão de ferro e vidro",
+        "Ornamentado restaurante Le Train Bleu"
+      ],
+      "funFacts": [
+        "A primeira estação aqui foi aberta em 12 de agosto de 1849.",
+        "As pinturas de parede do restaurante incluem obra de Albert Maignan."
+      ]
+    }
+  }
+}

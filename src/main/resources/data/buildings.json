@@ -25200,5 +25200,651 @@
         "The Samson Fountain was looted in the war and a replica was installed in 1947."
       ]
     }
+  },
+  {
+    "id": "helsinki-central-station",
+    "name": "Helsinki Central Station",
+    "aliases": [
+      "Helsinki Central Railway Station",
+      "Helsingin päärautatieasema",
+      "Rautatieasema"
+    ],
+    "architects": [
+      {
+        "name": "Eliel Saarinen",
+        "aliases": [
+          "Saarinen"
+        ],
+        "lifespan": "1873–1950",
+        "nationality": "Finnish",
+        "bio": "Finnish architect whose competition entry for the Helsinki railway station, substantially redesigned, became the building completed in 1919."
+      }
+    ],
+    "location": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "countryCode": "FI"
+    },
+    "yearCompleted": 1919,
+    "era": "ART_NOUVEAU",
+    "themes": [
+      "railway-stations",
+      "art-nouveau"
+    ],
+    "style": "National Romantic / late Art Nouveau",
+    "wikipedia": "https://en.wikipedia.org/wiki/Helsinki_Central_Station",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Helsinki_Central_railway_station_in_Finland%2C_2021_July.jpg/1920px-Helsinki_Central_railway_station_in_Finland%2C_2021_July.jpg",
+        "alt": "Heavy granite station building with a tall green-roofed clock tower and a great arched entrance seen from above",
+        "credit": "Photo: Anne Pietarinen · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Helsinki_Central_railway_station_in_Finland,_2021_July.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Helsinki_Central_Station_fa%C3%A7ade.jpg/1920px-Helsinki_Central_Station_fa%C3%A7ade.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.63
+        },
+        "alt": "Huge arched granite entrance flanked by stone figures holding globe lamps, with a clock tower at the right",
+        "credit": "Photo: HartOve · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Helsinki_Central_Station_fa%C3%A7ade.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its stone walls rise from thousands of wooden piles driven into what was once a shallow bay."
+      },
+      {
+        "order": 2,
+        "text": "Two pairs of giant stone figures flank its main entrance, each holding a spherical lamp."
+      },
+      {
+        "order": 3,
+        "text": "The present building was inaugurated in March 1919 after about twelve years of construction, and is clad mostly in local granite."
+      }
+    ],
+    "summary": {
+      "description": "This terminus was designed after an architectural competition and heavily reworked by its architect, moving from fairy-tale National Romanticism toward a more rational, monumental form. Its main facade is clad in red granite, with a big arched entrance, a clock tower and lamp-bearing statues. Inside, reinforced-concrete vaults cover the halls.",
+      "keyFeatures": [
+        "Finnish granite cladding, red granite on the main facade",
+        "Giant arched main entrance",
+        "Clock tower",
+        "Lamp-holding statues by Emil Wikström",
+        "Hennebique reinforced-concrete vaults"
+      ],
+      "funFacts": [
+        "It stands on about 10,000 wooden piles driven into the former Kluuvi bay.",
+        "The BBC counted it among the world's most beautiful railway stations."
+      ]
+    }
+  },
+  {
+    "id": "liege-guillemins-station",
+    "name": "Liège-Guillemins railway station",
+    "aliases": [
+      "Liège-Guillemins",
+      "Gare de Liège-Guillemins",
+      "Luik-Guillemins"
+    ],
+    "architects": [
+      {
+        "name": "Santiago Calatrava",
+        "aliases": [
+          "Calatrava",
+          "Santiago Calatrava Valls"
+        ],
+        "lifespan": "b. 1951",
+        "nationality": "Spanish-Swiss",
+        "bio": "Architect, structural engineer, sculptor and painter known for bridges with leaning pylons and stations, stadiums and museums whose forms resemble living organisms."
+      }
+    ],
+    "location": {
+      "city": "Liège",
+      "country": "Belgium",
+      "countryCode": "BE"
+    },
+    "yearCompleted": 2009,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "railway-stations",
+      "modern-icons"
+    ],
+    "style": "Neo-futurist high-tech",
+    "wikipedia": "https://en.wikipedia.org/wiki/Li%C3%A8ge-Guillemins_railway_station",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/13-12-26-Gare_de_Li%C3%A8ge-Guillemins_de_Santiago_Calatrava-21.jpg/1920px-13-12-26-Gare_de_Li%C3%A8ge-Guillemins_de_Santiago_Calatrava-21.jpg",
+        "alt": "Sweeping white steel-and-glass canopy curving over a wide paved forecourt beside a row of tapering concrete piers",
+        "credit": "Photo: Ralf Roletschek · GFDL 1.2 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:13-12-26-Gare_de_Li%C3%A8ge-Guillemins_de_Santiago_Calatrava-21.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Li%C3%A8ge-Guillemins_railway_station_%28DSC_0357%29.jpg/1920px-Li%C3%A8ge-Guillemins_railway_station_%28DSC_0357%29.jpg",
+        "alt": "View between huge white concrete ribs down onto train platforms under a vaulted glass roof",
+        "credit": "Photo: Trougnouf · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Li%C3%A8ge-Guillemins_railway_station_(DSC_0357).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced a 1958 building that was demolished in 2009 to make way for a far more dramatic structure."
+      },
+      {
+        "order": 2,
+        "text": "Its glass-and-steel vault is about 160 metres long and 32 metres high, and shelters five platforms with nine tracks."
+      },
+      {
+        "order": 3,
+        "text": "The white concrete, steel and glass station opened in September 2009 at a cost of about 312 million euros."
+      }
+    ],
+    "summary": {
+      "description": "This station opened in 2009 on the site of a 1958 building. A great white steel, glass and concrete arch about 160 m long and 32 m high shelters the platforms like a wave. It is among the best-known works of its Spanish architect.",
+      "keyFeatures": [
+        "Monumental arch 160 m long and 32 m high",
+        "Steel, glass and white concrete",
+        "Nine tracks and five platforms",
+        "Replaced a 1958 International-style station"
+      ],
+      "funFacts": [
+        "The building cost 312 million euros.",
+        "The original station on the site opened on 1 May 1842."
+      ]
+    }
+  },
+  {
+    "id": "antwerp-central-station",
+    "name": "Antwerp Central Station",
+    "aliases": [
+      "Antwerpen-Centraal",
+      "Antwerpen Centraal",
+      "Gare d'Anvers-Central",
+      "Antwerp Central railway station"
+    ],
+    "architects": [
+      {
+        "name": "Louis Delacenserie",
+        "aliases": [
+          "Delacenserie"
+        ],
+        "lifespan": "1838–1909",
+        "nationality": "Belgian",
+        "bio": "Belgian architect who designed the station building of Antwerpen-Centraal, built between 1895 and 1905."
+      },
+      {
+        "name": "Clément Van Bogaert",
+        "aliases": [
+          "Van Bogaert"
+        ],
+        "lifespan": "",
+        "nationality": "Belgian",
+        "bio": "Engineer who designed the iron-and-glass train hall of Antwerpen-Centraal."
+      }
+    ],
+    "location": {
+      "city": "Antwerp",
+      "country": "Belgium",
+      "countryCode": "BE"
+    },
+    "yearCompleted": 1905,
+    "era": "HISTORICISM",
+    "themes": [
+      "railway-stations"
+    ],
+    "style": "Eclectic with iron-and-glass train shed",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antwerpen-Centraal_railway_station",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Station_Antwerpen-Centraal_2021-1.jpg/1920px-Station_Antwerpen-Centraal_2021-1.jpg",
+        "alt": "Great arched end of an iron-and-glass train shed painted burgundy, rising above a stone viaduct",
+        "credit": "Photo: Wikihydro · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Station_Antwerpen-Centraal_2021-1.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Antwerpen%2C_centraal_station_oeg7051_IMG_1032_2017-08-27_10.33.jpg/1920px-Antwerpen%2C_centraal_station_oeg7051_IMG_1032_2017-08-27_10.33.jpg",
+        "alt": "Escalators climbing through a modern brick-lined void toward a grand stone hall under a ribbed glass roof",
+        "credit": "Photo: Michielverbeek · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Antwerpen,_centraal_station_oeg7051_IMG_1032_2017-08-27_10.33.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its nickname compares it to a house of worship, because of its huge dome."
+      },
+      {
+        "order": 2,
+        "text": "The iron-and-glass train hall is about 44 metres high, tall enough to let locomotive steam escape."
+      },
+      {
+        "order": 3,
+        "text": "Built between 1895 and 1905, it was turned from a terminus into a four-level through station when a rail tunnel opened in 2007."
+      }
+    ],
+    "summary": {
+      "description": "This station was built between 1895 and 1905, with a lavish stone building in front and a huge iron-and-glass shed behind. Its eclectic style and domed hall earned it the nickname 'railway cathedral'. A tunnel opened in 2007 turned it into a four-level station, with new platforms deep below the old ones.",
+      "keyFeatures": [
+        "Domed stone waiting hall",
+        "Iron-and-glass train hall 185 m long and about 44 m high",
+        "Four platform levels, down to 18 m below ground",
+        "Eclectic, hard-to-classify style"
+      ],
+      "funFacts": [
+        "World War II V-2 hits left visible waves in the roof.",
+        "It won a Grand Prix at the 2011 Europa Nostra Awards."
+      ]
+    }
+  },
+  {
+    "id": "milano-centrale",
+    "name": "Milano Centrale",
+    "aliases": [
+      "Milan Central Station",
+      "Stazione di Milano Centrale",
+      "Milano Centrale railway station"
+    ],
+    "architects": [
+      {
+        "name": "Ulisse Stacchini",
+        "aliases": [
+          "Stacchini"
+        ],
+        "lifespan": "1871–1947",
+        "nationality": "Italian",
+        "bio": "Italian architect who won the 1912 competition for the new Milan central station with a project titled 'In Motu Vita'."
+      }
+    ],
+    "location": {
+      "city": "Milan",
+      "country": "Italy",
+      "countryCode": "IT"
+    },
+    "yearCompleted": 1931,
+    "era": "HISTORICISM",
+    "themes": [
+      "railway-stations"
+    ],
+    "style": "Eclectic 'Assyrian-Lombard' with Liberty and Art Deco touches",
+    "wikipedia": "https://en.wikipedia.org/wiki/Milano_Centrale_railway_station",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Milano_Centrale_during_sunset.jpg",
+        "alt": "Very wide stone station front with a tall central portico and sculpted figures, across a busy road",
+        "credit": "Photo: ALMahaAA · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Milano_Centrale_during_sunset.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Milano_-_Stazione_di_Milano_Centrale_-_3.jpg/1920px-Milano_-_Stazione_di_Milano_Centrale_-_3.jpg",
+        "alt": "Passengers and trains under a huge curved steel and glass roof above a polished marble concourse",
+        "credit": "Photo: Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Milano_-_Stazione_di_Milano_Centrale_-_3.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced a smaller station from 1864 that left no trace, after a design competition won in 1912."
+      },
+      {
+        "order": 2,
+        "text": "Its facade is about 200 metres wide and the steel platform vault, about 72 metres high, was a record when built."
+      },
+      {
+        "order": 3,
+        "text": "Work began with a cornerstone in 1906 but resumed only in 1925, and it was officially opened on 1 July 1931."
+      }
+    ],
+    "summary": {
+      "description": "This station was chosen through a competition won in 1912, then slowed by war and economic problems and finished under Mussolini's government. It mixes many styles, called 'Assyrian-Lombard', with abundant sculpture. Its 24 platforms sit under huge steel canopies.",
+      "keyFeatures": [
+        "Facade about 200 m wide",
+        "Vault about 72 m high",
+        "24 platforms under steel canopies about 341 m long",
+        "Abundant sculpture on a monumental stone portico"
+      ],
+      "funFacts": [
+        "The cornerstone was laid in 1906 by King Victor Emmanuel III.",
+        "The station was electrified in 1938."
+      ]
+    }
+  },
+  {
+    "id": "chhatrapati-shivaji-maharaj-terminus",
+    "name": "Chhatrapati Shivaji Maharaj Terminus",
+    "aliases": [
+      "Victoria Terminus",
+      "Chhatrapati Shivaji Terminus",
+      "CSMT",
+      "CST Mumbai",
+      "VT"
+    ],
+    "architects": [
+      {
+        "name": "Frederick William Stevens",
+        "aliases": [
+          "F. W. Stevens",
+          "Stevens"
+        ],
+        "lifespan": "1847–1900",
+        "nationality": "British",
+        "bio": "British architect who built the Victoria Terminus in Bombay, working from an initial design by Axel Haig."
+      },
+      {
+        "name": "Axel Haig",
+        "aliases": [
+          "Haig"
+        ],
+        "lifespan": "1835–1921",
+        "nationality": "Swedish",
+        "bio": "Swedish-born draughtsman and architect whose initial design for the Victoria Terminus was built by F. W. Stevens."
+      }
+    ],
+    "location": {
+      "city": "Mumbai",
+      "country": "India",
+      "countryCode": "IN"
+    },
+    "yearCompleted": 1888,
+    "era": "HISTORICISM",
+    "themes": [
+      "railway-stations"
+    ],
+    "style": "Victorian Gothic Revival with Indo-Saracenic elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Maharaj_Terminus",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Chhatrapati_Shivaji_Terminus_%28Victoria_Terminus%29.jpg/1920px-Chhatrapati_Shivaji_Terminus_%28Victoria_Terminus%29.jpg",
+        "alt": "Long ornate sandstone building with a central ribbed dome crowned by a statue, corner turrets and pointed arches",
+        "credit": "Photo: Joe Ravi · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chhatrapati_Shivaji_Terminus_(Victoria_Terminus).jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Close-up_of_Chhatrapati_Shivaji_Terminus.jpg/1920px-Close-up_of_Chhatrapati_Shivaji_Terminus.jpg",
+        "alt": "Central clock gable and ribbed dome topped by a statue of a standing figure holding a torch, with carved arches and palm trees below",
+        "credit": "Photo: Joe Ravi · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Close-up_of_Chhatrapati_Shivaji_Terminus.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It replaced a much smaller station of 1853 and was named after a ruling queen before being renamed twice."
+      },
+      {
+        "order": 2,
+        "text": "A central dome carries a statue symbolising Progress, and carved figures of a lion and a tiger guard its gates."
+      },
+      {
+        "order": 3,
+        "text": "Construction began in 1878 and it opened to the public in 1888; UNESCO listed it as a World Heritage Site in 2004."
+      }
+    ],
+    "summary": {
+      "description": "This station was designed in the British colonial era and built from 1878, blending Victorian Gothic Revival with Indian palace and Indo-Saracenic motifs. A ribbed central dome topped by a statue of Progress rises over a long polychrome stone front with turrets and pointed arches. It is still a working terminus with 18 platforms and was inscribed as a UNESCO World Heritage Site in 2004.",
+      "keyFeatures": [
+        "Central dome with a statue of Progress",
+        "Four corner turrets",
+        "Victorian Gothic with Indo-Saracenic influences",
+        "Stone lion and tiger at the gates",
+        "18 platforms"
+      ],
+      "funFacts": [
+        "It was renamed in 1996 and again in 2017.",
+        "The statue of Queen Victoria that once stood here went missing after the 1950s and has never been found."
+      ]
+    }
+  },
+  {
+    "id": "berlin-hauptbahnhof",
+    "name": "Berlin Hauptbahnhof",
+    "aliases": [
+      "Berlin Central Station",
+      "Berlin Hbf",
+      "Hauptbahnhof Berlin"
+    ],
+    "architects": [
+      {
+        "name": "Meinhard von Gerkan",
+        "aliases": [
+          "von Gerkan",
+          "Gerkan, Marg and Partners",
+          "gmp"
+        ],
+        "lifespan": "1935–2022",
+        "nationality": "German",
+        "bio": "Architect of Gerkan, Marg and Partners, whose firm won the 1993 design competition for the new Berlin central station."
+      }
+    ],
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "yearCompleted": 2006,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "railway-stations",
+      "modern-icons"
+    ],
+    "style": "Contemporary glass-and-steel",
+    "wikipedia": "https://en.wikipedia.org/wiki/Berlin_Hauptbahnhof",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Berlin_Hauptbahnhof_Ostseite_HDR.jpg/1920px-Berlin_Hauptbahnhof_Ostseite_HDR.jpg",
+        "alt": "Glass office blocks and a long curved glass roof over an elevated rail viaduct, reflected in a river",
+        "credit": "Photo: Ansgar Koreng · CC BY 3.0 de · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_Hauptbahnhof_Ostseite_HDR.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Berlin_Hauptbahnhof_-_Berlin_central_railwaystation_-_Germany_-_01.jpg/1920px-Berlin_Hauptbahnhof_-_Berlin_central_railwaystation_-_Germany_-_01.jpg",
+        "alt": "Wide panorama of glass towers and arched glass train halls beside a river and a road bridge",
+        "credit": "Photo: Norbert Nagel · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_Hauptbahnhof_-_Berlin_central_railwaystation_-_Germany_-_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It stands on the site of a terminus that opened in 1871 and was demolished in 1957-58."
+      },
+      {
+        "order": 2,
+        "text": "Eight underground tracks cross at right angles with six elevated tracks, under a curved glass roof about 321 metres long."
+      },
+      {
+        "order": 3,
+        "text": "It was ceremonially opened on 26 May 2006, and its glass roofs were shortened by about 100 metres to speed construction."
+      }
+    ],
+    "summary": {
+      "description": "This station replaced the old Lehrter Bahnhof and opened in 2006 after a design competition won in 1993. It is a crossing of two lines on two levels, with elevated east-west tracks under a curved glass roof and underground north-south tracks. Its glass-and-steel hall is flanked by two office bridges.",
+      "keyFeatures": [
+        "Elevated hall 321 m long under a curved glass roof",
+        "Eight underground mainline tracks",
+        "Crossing on two levels, with a U-Bahn station below",
+        "About 2,700 m² of photovoltaic panels"
+      ],
+      "funFacts": [
+        "The glass roofs were shortened by roughly 100 m to speed up construction.",
+        "In January 2007 Cyclone Kyrill knocked steel beams from the southwest facade."
+      ]
+    }
+  },
+  {
+    "id": "madrid-atocha-station",
+    "name": "Madrid Atocha station",
+    "aliases": [
+      "Atocha",
+      "Estación de Atocha",
+      "Madrid Puerta de Atocha",
+      "Atocha railway station"
+    ],
+    "architects": [
+      {
+        "name": "Alberto de Palacio",
+        "aliases": [
+          "Alberto de Palacio Elissagne",
+          "Palacio"
+        ],
+        "lifespan": "1856–1939",
+        "nationality": "Spanish",
+        "bio": "Spanish architect who, working with Gustave Eiffel, designed the iron-and-glass station rebuilt in 1892 after a fire."
+      }
+    ],
+    "location": {
+      "city": "Madrid",
+      "country": "Spain",
+      "countryCode": "ES"
+    },
+    "yearCompleted": 1892,
+    "era": "INDUSTRIAL",
+    "themes": [
+      "railway-stations"
+    ],
+    "style": "Iron-and-glass railway architecture",
+    "wikipedia": "https://en.wikipedia.org/wiki/Madrid_Atocha_railway_station",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Madrid_Atocha_R01.jpg/1920px-Madrid_Atocha_R01.jpg",
+        "alt": "Huge arched iron-and-glass gable above a red brick and stone building, with a clock at its base and a griffin on top",
+        "credit": "Photo: Marc Ryckaert (MJJR) · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Madrid_Atocha_R01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Jard%C3%ADn_Tropical_de_la_Estaci%C3%B3n_de_Atocha_%285374990367%29.jpg/1920px-Jard%C3%ADn_Tropical_de_la_Estaci%C3%B3n_de_Atocha_%285374990367%29.jpg",
+        "alt": "Dense tropical garden of palms and bamboo growing inside a big iron-roofed hall, with travellers resting at the edge",
+        "credit": "Photo: Felipe Gabaldón · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_Tropical_de_la_Estaci%C3%B3n_de_Atocha_(5374990367).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began in 1851 as its city's first railway station and was rebuilt in 1892 after a fire."
+      },
+      {
+        "order": 2,
+        "text": "Its old iron-and-glass hall now shelters a tropical garden of about 4,000 square metres."
+      },
+      {
+        "order": 3,
+        "text": "A modern architect remodelled it from 1985, and a memorial to the victims of a March 2004 attack stands here."
+      }
+    ],
+    "summary": {
+      "description": "This station opened in 1851 as Madrid's first, was largely destroyed by fire, and was rebuilt to reopen in 1892 as an iron-and-glass hall. Since a remodel completed in 1992 the old building has served as a concourse with a tropical garden, while a new terminal handles trains. It is also the site of a memorial to the 11 March 2004 train bombings.",
+      "keyFeatures": [
+        "Iron-and-glass hall of 1892",
+        "Brick and stone front with a central clock",
+        "Tropical garden of about 4,000 m²",
+        "1985-1992 remodel by Rafael Moneo"
+      ],
+      "funFacts": [
+        "It opened on 9 February 1851 as the Estación de Mediodía.",
+        "A memorial to the victims of the 2004 bombings was dedicated on 10 June 2004."
+      ]
+    }
+  },
+  {
+    "id": "gare-de-lyon",
+    "name": "Gare de Lyon",
+    "aliases": [
+      "Paris Gare de Lyon",
+      "Paris-Gare-de-Lyon",
+      "Gare de Paris-Lyon"
+    ],
+    "architects": [
+      {
+        "name": "Marius Toudoire",
+        "aliases": [
+          "Toudoire"
+        ],
+        "lifespan": "1852–1922",
+        "nationality": "French",
+        "bio": "Architect from Toulon who designed the thirteen-track Gare de Lyon building for the 1900 World's Fair."
+      }
+    ],
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1901,
+    "era": "HISTORICISM",
+    "themes": [
+      "railway-stations"
+    ],
+    "style": "Eclectic railway architecture of 1900",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gare_de_Lyon",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Tour_Horloge_Gare_Lyon_Paris_32.jpg/1920px-Tour_Horloge_Gare_Lyon_Paris_32.jpg",
+        "alt": "Pale stone clock tower with a huge ornate blue clock face, carved lions and a grey domed top",
+        "credit": "Photo: Chabe01 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Tour_Horloge_Gare_Lyon_Paris_32.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Hall_de_la_gare_de_Lyon_%C3%A0_Paris_%28ao%C3%BBt_2019%29.JPG/1920px-Hall_de_la_gare_de_Lyon_%C3%A0_Paris_%28ao%C3%BBt_2019%29.JPG",
+        "alt": "Wide station concourse under a glass-and-iron roof with timber panels, a clock and departure boards",
+        "credit": "Photo: Florian Pépellin · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hall_de_la_gare_de_Lyon_%C3%A0_Paris_(ao%C3%BBt_2019).JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its first building opened in 1849, and a fire during the Paris Commune of 1871 partly destroyed it."
+      },
+      {
+        "order": 2,
+        "text": "The present building was designed for a world's fair held in its city in 1900."
+      },
+      {
+        "order": 3,
+        "text": "It was inaugurated in April 1901 by the French president, and a lavishly decorated restaurant here has served meals since that year."
+      }
+    ],
+    "summary": {
+      "description": "This terminus was rebuilt by a Toulon architect as a thirteen-track station for the 1900 World's Fair and inaugurated in April 1901 by President Émile Loubet. A large clock tower marks one corner. Inside the building is a famous ornate restaurant that has served meals since 1901.",
+      "keyFeatures": [
+        "Large clock tower on one corner",
+        "Thirteen-track building designed for the 1900 World's Fair",
+        "Iron-and-glass concourse roof",
+        "Ornate Le Train Bleu restaurant"
+      ],
+      "funFacts": [
+        "The first station here opened on 12 August 1849.",
+        "The restaurant's wall paintings include work by Albert Maignan."
+      ]
+    }
   }
 ]
