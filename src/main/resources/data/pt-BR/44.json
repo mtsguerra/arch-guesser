@@ -1,0 +1,289 @@
+{
+  "castel-del-monte": {
+    "name": "Castel del Monte",
+    "aliases": [
+      "Castelo da Montanha"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Imperador Frederico II",
+          "Frederico II",
+          "Frederico II Hohenstaufen"
+        ],
+        "nationality": "sacro-império",
+        "lifespan": "1194–1250",
+        "bio": "Imperador do Sacro Império Romano-Germânico e rei da Sicília, que mandou construir o Castel del Monte na década de 1240, em terras herdadas de sua mãe, Constança da Sicília."
+      }
+    ],
+    "city": "Andria",
+    "style": "Românico-gótico Hohenstaufen",
+    "photos": [
+      {
+        "alt": "Fortaleza octogonal de calcário claro com uma torre em cada canto e um único portal ornamentado, sobre uma colina com arbustos",
+        "caption": null
+      },
+      {
+        "alt": "Pátio de oito lados visto de baixo, com paredes de pedra subindo até uma abertura octogonal de céu",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma fortaleza no alto de uma colina cuja planta se baseia inteiramente no número oito.",
+      "Historiadores ainda debatem sua função, pois não tem fosso, nem ponte levadiça, nem muitos sinais de defesa.",
+      "O solo próximo rendeu bactérias usadas em remédios contra o câncer, e ela aparece em uma moeda de euro."
+    ],
+    "summary": {
+      "description": "Construída na década de 1240 para Frederico II, esta cidadela é um prisma octogonal com uma torre octogonal em cada canto ao redor de um pátio de oito lados. Sua função é debatida: já foi chamada de pavilhão de caça, mas hoje se pensa que era uma cidadela. Depois serviu de prisão, foi saqueada no século XVIII e comprada pelo Estado italiano em 1876.",
+      "keyFeatures": [
+        "Planta octogonal com oito torres octogonais",
+        "Pátio central de oito lados",
+        "Oito salas em cada andar",
+        "Paredes e colunas originalmente de mármore",
+        "Patrimônio Mundial da UNESCO desde 1996"
+      ],
+      "funFacts": [
+        "Aparece na moeda italiana de um centavo de euro.",
+        "Na Segunda Guerra Mundial, a 15ª Força Aérea dos EUA manteve aqui uma estação secreta de navegação."
+      ]
+    }
+  },
+  "malbork-castle": {
+    "name": "Castelo de Malbork",
+    "aliases": [
+      "Marienburg",
+      "Zamek w Malborku",
+      "Castelo da Ordem Teutônica em Malbork"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Cavaleiros Teutônicos"
+        ],
+        "nationality": "",
+        "lifespan": "",
+        "bio": "Mestres de obras da Ordem Teutônica, que ergueram o castelo entre 1274 e 1406."
+      }
+    ],
+    "city": "Malbork",
+    "style": "Gótico de tijolo",
+    "photos": [
+      {
+        "alt": "Grande palácio de tijolo vermelho com telhados íngremes e frontões ornamentados atrás de um muro de tijolo e de um rio",
+        "caption": null
+      },
+      {
+        "alt": "Salão cujo esbelto pilar central se abre em uma abóbada nervurada em forma de palmeira sobre janelas góticas",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É o maior castelo do mundo em área, construído em tijolo.",
+      "Uma ordem militar religiosa fez dele sua sede em 1309, e a Polônia o tomou em 1457.",
+      "Mais da metade foi destruída em 1945, e a reconstrução continua desde 1962."
+    ],
+    "summary": {
+      "description": "Construído pela Ordem Teutônica principalmente entre 1274 e 1406, o castelo tornou-se sede da Ordem em 1309, quando o grão-mestre Siegfried von Feuchtwangen se mudou para lá. Tem três partes, os Castelos Alto, Médio e Baixo, separados por fossos e torres. Combates no início de 1945 destruíram mais da metade, e a maior parte foi reconstruída.",
+      "keyFeatures": [
+        "Maior castelo do mundo em área",
+        "Castelos Alto, Médio e Baixo",
+        "Palácio do Grão-Mestre no Castelo Médio",
+        "Grande Refeitório com abóbada em palmeira",
+        "Patrimônio Mundial da UNESCO desde 1997"
+      ],
+      "funFacts": [
+        "Esteve sob domínio alemão por mais de 170 anos, da Primeira Partilha da Polônia, em 1772, até 1945.",
+        "Em 1457, o rei Casimiro IV entrou nele depois que mercenários boêmios o venderam à Polônia."
+      ]
+    }
+  },
+  "caernarfon-castle": {
+    "name": "Castelo de Caernarfon",
+    "aliases": [
+      "Castelo de Carnarvon",
+      "Castell Caernarfon"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Mestre Tiago de São Jorge"
+        ],
+        "nationality": "saboiano",
+        "lifespan": "c. 1230–1309",
+        "bio": "Engenheiro militar, provavelmente o arquiteto de Caernarfon e de vários outros castelos construídos para Eduardo I no País de Gales."
+      }
+    ],
+    "city": "Caernarfon",
+    "style": "Castelo eduardiano",
+    "photos": [
+      {
+        "alt": "Castelo de pedra cinza com torres poligonais e torreões ao lado de um porto cheio de barcos",
+        "caption": null
+      },
+      {
+        "alt": "Estreita escada de pedra em caracol dentro de uma torre, com uma corda como corrimão",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi iniciado em 1283 por um rei inglês para dominar um país conquistado.",
+      "Ao contrário de muitos castelos do tipo, tem torres poligonais e faixas de pedra colorida, talvez ecoando as muralhas de Constantinopla.",
+      "Sediou as investiduras de dois Príncipes de Gales, em 1911 e 1969."
+    ],
+    "summary": {
+      "description": "Eduardo I começou a substituir aqui um antigo forte de motte-and-bailey em 1283, provavelmente sob o mestre Tiago de São Jorge. Torres poligonais e alvenaria em faixas o distinguem das torres redondas de outros castelos eduardianos. As obras pararam em 1330 com partes inacabadas, e os edifícios internos sobrevivem só como fundações.",
+      "keyFeatures": [
+        "Torres poligonais",
+        "Pedra colorida em faixas",
+        "Torre da Águia com três torreões",
+        "Portão do Rei inacabado",
+        "Patrimônio Mundial da UNESCO desde 1986"
+      ],
+      "funFacts": [
+        "As forças de Owain Glyndŵr o sitiaram sem sucesso em 1401–1404.",
+        "Sua guarnição realista se rendeu em 1646, o último combate que viu."
+      ]
+    }
+  },
+  "hohenzollern-castle": {
+    "name": "Castelo de Hohenzollern",
+    "aliases": [
+      "Burg Hohenzollern"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "alemão",
+        "lifespan": "1800–1865",
+        "bio": "Arquiteto prussiano que projetou o terceiro castelo no monte Hohenzollern, em estilo neogótico, construído de 1846 a 1867 para Frederico Guilherme IV da Prússia."
+      }
+    ],
+    "city": "Hechingen",
+    "style": "Neogótico",
+    "photos": [
+      {
+        "alt": "Castelo de conto de fadas com muitas torres pontiagudas e bastiões coroando uma colina arborizada no outono",
+        "caption": null
+      },
+      {
+        "alt": "Abóbada de capela pintada de azul e dourado com nervuras e janelas ogivais com vitrais",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ergue-se em uma colina de 855 metros na borda do Jura da Suábia.",
+      "O primeiro castelo aqui foi destruído em 1423, e o atual é um memorial do século XIX a uma família real.",
+      "Foi construído de 1846 a 1867 em estilo neogótico para um rei prussiano."
+    ],
+    "summary": {
+      "description": "O castelo atual é o terceiro no monte Hohenzollern. O primeiro, de cerca de 1040, foi destruído em 1423, e um segundo foi concluído por volta de 1461. O terceiro foi construído em 1846–1867 como memorial da família de Frederico Guilherme IV da Prússia, projetado por Friedrich August Stüler em estilo neogótico.",
+      "keyFeatures": [
+        "Projeto neogótico",
+        "Colina a 855 m",
+        "Terceiro castelo no local",
+        "Capela com o caixão de Frederico, o Grande, até 1991",
+        "Coroa de Guilherme II em exposição"
+      ],
+      "funFacts": [
+        "Os caixões de Frederico Guilherme I e de Frederico, o Grande, ficaram na capela de 1952 a 1991.",
+        "Um terremoto em 1978 danificou suas torres, e os reparos duraram até meados da década de 1990."
+      ]
+    }
+  },
+  "castelo-de-sao-jorge": {
+    "name": "Castelo de São Jorge",
+    "aliases": [
+      "Castelo de S. Jorge"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "",
+        "lifespan": "",
+        "bio": "Construtores mouros ergueram as fortificações no século X; reis portugueses, entre eles D. Dinis por volta de 1300, transformaram depois a alcáçova em paço real e ampliaram as muralhas."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Fortaleza moura e medieval portuguesa",
+    "photos": [
+      {
+        "alt": "Muralhas de arenito com torres quadradas ameadas e bastiões inclinados sob um céu azul",
+        "caption": null
+      },
+      {
+        "alt": "Ameias de pedra desgastada com uma pessoa apoiada nos merlões sob um céu cinzento",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma fortaleza medieval na colina mais alta de uma capital junto a um largo estuário.",
+      "Diz-se que um cavaleiro travou uma porta com o próprio corpo para que as tropas cristãs entrassem em 1147.",
+      "Sua torre abriga uma câmara escura, e em 1498 um rei recebeu aqui Vasco da Gama."
+    ],
+    "summary": {
+      "description": "Os mouros fortificaram esta colina no século X, e Afonso Henriques tomou o castelo em 1147. D. Dinis transformou a alcáçova moura em paço real por volta de 1300, e em 1498 D. Manuel I recebeu aqui Vasco da Gama. O terremoto de 1755 o danificou gravemente, e grandes obras de renovação vieram na década de 1940.",
+      "keyFeatures": [
+        "Cidadela no alto da colina com dez torres",
+        "Muralhas mouras do século X",
+        "Antigo paço real",
+        "Câmara escura na Torre de Ulisses",
+        "Monumento a Afonso Henriques, 1947"
+      ],
+      "funFacts": [
+        "Os registros reais ficaram aqui na Torre do Tombo até o terremoto de 1755.",
+        "A lenda atribui a Martim Moniz ter mantido a porta aberta em 1147."
+      ]
+    }
+  },
+  "castelo-de-guimaraes": {
+    "name": "Castelo de Guimarães",
+    "aliases": [
+      "Castelo de São Mamede"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "",
+        "lifespan": "",
+        "bio": "Construído por ordem da condessa Mumadona Dias no século X, ampliado pelo conde D. Henrique no fim do século XI e remodelado por D. Dinis por volta de 1300."
+      }
+    ],
+    "city": "Guimarães",
+    "style": "Românico tardio com elementos góticos iniciais",
+    "photos": [
+      {
+        "alt": "Torres e muralhas de granito com ameias atrás de uma oliveira em um dia cinzento",
+        "caption": null
+      },
+      {
+        "alt": "Parede de palácio de granito sem telhado, com fileiras de janelas retangulares contra o céu",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma pequena fortaleza de granito no norte de Portugal, citada pela primeira vez em um codicilo do século X.",
+      "Diz a tradição que foi o berço do primeiro rei do país.",
+      "Uma batalha próxima, em 1128, levou à independência do condado que virou reino."
+    ],
+    "summary": {
+      "description": "Um codicilo de 968 menciona este castelo como recém-construído pela condessa Mumadona Dias para proteger a comunidade de um mosteiro. O conde D. Henrique o ampliou como residência, e Afonso Henriques nasceu aqui em 1111. D. Dinis lhe deu a forma atual por volta de 1300, e uma restauração de 1937 a 1940 se seguiu a uma proposta de demolição em 1836 que não foi adiante.",
+      "keyFeatures": [
+        "Muralha de forma quase pentagonal",
+        "Oito torres retangulares",
+        "Torre de menagem central",
+        "Românico tardio com elementos góticos iniciais",
+        "Parte do Centro Histórico de Guimarães, UNESCO 2001"
+      ],
+      "funFacts": [
+        "Resistiu a cercos em 1369 e 1385.",
+        "Foi declarado monumento nacional em 1910 e reinaugurado em 4 de junho de 1940."
+      ]
+    }
+  }
+}

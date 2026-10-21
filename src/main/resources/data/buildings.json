@@ -18747,5 +18747,937 @@
         "It replaced the Vasco da Gama cine-theatre and the Teatro do Mar, among other structures."
       ]
     }
+  },
+  {
+    "id": "edinburgh-castle",
+    "name": "Edinburgh Castle",
+    "aliases": [],
+    "architects": [
+      {
+        "name": "Unknown royal builders",
+        "aliases": [
+          "Unknown",
+          "Anonymous"
+        ],
+        "bio": "The palace grew in campaigns sponsored by King John I from around 1415 and by King Manuel I between 1497 and 1530; its master builders are not recorded."
+      }
+    ],
+    "location": {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": null,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles"
+    ],
+    "style": "Medieval fortress",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edinburgh_Castle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Edinburgh_Castle_from_Esplanade_20211019.jpg/1920px-Edinburgh_Castle_from_Esplanade_20211019.jpg",
+        "alt": "Stone fortress and gatehouse rising above a wide paved esplanade on a rocky crag",
+        "credit": "Photo: Daniel Kraft · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_from_Esplanade_20211019.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Interior_of_the_Great_Hall_at_Edinburgh_Castle%2C_Scotland.jpg/1920px-Interior_of_the_Great_Hall_at_Edinburgh_Castle%2C_Scotland.jpg",
+        "alt": "Great hall with a huge carved stone fireplace, suits of armour and a chequered floor",
+        "credit": "Photo: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Great_Hall_at_Edinburgh_Castle,_Scotland.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It crowns a volcanic plug of rock that overlooks a capital city."
+      },
+      {
+        "order": 2,
+        "text": "Its oldest surviving building is a tiny chapel from the early 12th century, and the national crown jewels were rediscovered here in 1818."
+      },
+      {
+        "order": 3,
+        "text": "A medieval siege gun called Mons Meg, delivered here in 1457, still stands on its ramparts."
+      }
+    ],
+    "summary": {
+      "description": "This fortress stands on Castle Rock, the remains of an extinct volcano about 350 million years old. It grew over many centuries as a royal residence, garrison and prison, and holds the Honours of Scotland. Much of what visitors see is the work of later kings, military engineers and Victorian restorers.",
+      "keyFeatures": [
+        "Volcanic Castle Rock site",
+        "St Margaret's Chapel, early 12th century",
+        "Great Hall of James IV",
+        "Gatehouse completed in 1584",
+        "Honours of Scotland in the Crown Room"
+      ],
+      "funFacts": [
+        "The Honours of Scotland were lost from view after the 1707 Union and rediscovered by Sir Walter Scott in 1818.",
+        "Mons Meg was returned from the Tower of London in 1829."
+      ]
+    }
+  },
+  {
+    "id": "windsor-castle",
+    "name": "Windsor Castle",
+    "aliases": [],
+    "architects": [
+      {
+        "name": "William the Conqueror",
+        "aliases": [
+          "William I",
+          "King William I"
+        ],
+        "lifespan": "c. 1028–1087",
+        "nationality": "Norman",
+        "bio": "The Norman duke who conquered England in 1066 and had the keep begun around 1078 as a symbol of his power over London."
+      },
+      {
+        "name": "Jeffry Wyatville",
+        "aliases": [
+          "Jeffry Wyatt",
+          "Wyatville"
+        ],
+        "lifespan": "1766–1840",
+        "nationality": "British",
+        "bio": "Architect who redesigned the State Apartments and extended the Round Tower of Windsor Castle by about 30 feet in the early 19th century for George IV."
+      }
+    ],
+    "location": {
+      "city": "Windsor",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": null,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles",
+      "palaces"
+    ],
+    "style": "Norman castle with Gothic Revival additions",
+    "wikipedia": "https://en.wikipedia.org/wiki/Windsor_Castle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Windsor_Castle_Upper_Ward_Quadrangle_2_-_Nov_2006.jpg/1920px-Windsor_Castle_Upper_Ward_Quadrangle_2_-_Nov_2006.jpg",
+        "alt": "Crenellated grey stone range with tall Gothic windows around a lawn, with guards in bearskin hats",
+        "credit": "Photo: Diliff · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Windsor_Castle_Upper_Ward_Quadrangle_2_-_Nov_2006.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ceiling_of_St_George%27s_Hall%2C_Windsor_Castle.jpg/1920px-Ceiling_of_St_George%27s_Hall%2C_Windsor_Castle.jpg",
+        "alt": "Timber hammerbeam roof painted with rows of heraldic shields above pointed arches",
+        "credit": "Photo: Ian Gratton · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ceiling_of_St_George%27s_Hall,_Windsor_Castle.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as a motte-and-bailey castle ordered by a conqueror in the decade after 1066."
+      },
+      {
+        "order": 2,
+        "text": "It is the longest-occupied palace in Europe, used by monarchs since Henry I."
+      },
+      {
+        "order": 3,
+        "text": "A fire here in 1992 damaged many state rooms, which were then restored over several years."
+      }
+    ],
+    "summary": {
+      "description": "Commissioned by William the Conqueror after 1066, this royal residence has been used by monarchs since Henry I. Its Round Tower sits on the original motte and was raised by Jeffry Wyatville in the early 19th century. A fire in 1992 led to a major restoration of the State Apartments.",
+      "keyFeatures": [
+        "Motte-and-bailey origins",
+        "Round Tower on the motte",
+        "St George's Chapel in Perpendicular Gothic, begun 1475",
+        "State Apartments redesigned by Wyatville",
+        "Post-1992 fire restoration"
+      ],
+      "funFacts": [
+        "The grounds cover about 13 acres.",
+        "St George's Chapel is the spiritual home of the Order of the Garter."
+      ]
+    }
+  },
+  {
+    "id": "chateau-de-chenonceau",
+    "name": "Château de Chenonceau",
+    "aliases": [
+      "Chenonceau"
+    ],
+    "architects": [
+      {
+        "name": "Philibert de l'Orme",
+        "aliases": [
+          "Philibert Delorme"
+        ],
+        "lifespan": "c. 1514–1570",
+        "nationality": "French",
+        "bio": "Renaissance architect commissioned by Diane de Poitiers to design the bridge across the Cher at Chenonceau, built 1556–1559."
+      },
+      {
+        "name": "Jean Bullant",
+        "aliases": [],
+        "lifespan": "c. 1515–1578",
+        "nationality": "French",
+        "bio": "Renaissance architect who designed the gallery on the bridge at Chenonceau between 1570 and 1576 for Catherine de' Medici."
+      }
+    ],
+    "location": {
+      "city": "Chenonceaux",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1521,
+    "era": "RENAISSANCE",
+    "themes": [
+      "castles",
+      "palaces"
+    ],
+    "style": "French Renaissance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chenonceau",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Chateau_de_Chenonceau_2008E.jpg/1920px-Chateau_de_Chenonceau_2008E.jpg",
+        "alt": "White Renaissance château with a slate roof built on arches spanning a river, with a round tower at one corner",
+        "credit": "Photo: It is a derivative work of Ra-smit's photo. · GFDL · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Chateau_de_Chenonceau_2008E.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Interior_gallery_in_the_Castle_of_Chenonceau_02.jpg/1920px-Interior_gallery_in_the_Castle_of_Chenonceau_02.jpg",
+        "alt": "Pale stone fireplace topped by two reclining carved figures and a coat of arms",
+        "credit": "Photo: Krzysztof Golik · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_gallery_in_the_Castle_of_Chenonceau_02.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a château whose long gallery stands on a bridge of arches over a river."
+      },
+      {
+        "order": 2,
+        "text": "Two women shaped it: a king's mistress who built the bridge, and a widowed queen who added the gallery."
+      },
+      {
+        "order": 3,
+        "text": "During the Second World War the river beneath it marked the line between occupied and free France."
+      }
+    ],
+    "summary": {
+      "description": "Thomas Bohier and his wife Katherine Briçonnet rebuilt the château in 1515–1521 around an older keep. Diane de Poitiers had a bridge across the Cher built in 1556–1559, and Catherine de' Medici later added a two-storey gallery on it. It was a hospital ward in the First World War and a crossing point between zones in 1940.",
+      "keyFeatures": [
+        "Gallery built on a bridge over the Cher",
+        "Surviving 15th-century keep",
+        "Bridge by Philibert de l'Orme",
+        "Gallery by Jean Bullant, dedicated 1577",
+        "Gardens of the two rival ladies"
+      ],
+      "funFacts": [
+        "Fireworks were displayed in France for the first time here in 1560.",
+        "Allied bombing in June 1944 destroyed the chapel's windows."
+      ]
+    }
+  },
+  {
+    "id": "cite-de-carcassonne",
+    "name": "Cité de Carcassonne",
+    "aliases": [
+      "Carcassonne",
+      "La Cité",
+      "Carcassonne Castle"
+    ],
+    "architects": [
+      {
+        "name": "Eugène Viollet-le-Duc",
+        "aliases": [
+          "Viollet-le-Duc"
+        ],
+        "nationality": "French",
+        "bio": "Architect who supervised its restoration between 1844 and 1864."
+      },
+      {
+        "name": "Unknown Gallo-Roman and medieval builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "",
+        "bio": "The Romans fortified the hill around 100 BC; the Visigoths, the Trencavel family and the kings of France later built and extended the walls and towers."
+      }
+    ],
+    "location": {
+      "city": "Carcassonne",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": null,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles"
+    ],
+    "style": "Medieval fortified city",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carcassonne",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Carcassonne_Cite.jpg/1920px-Carcassonne_Cite.jpg",
+        "alt": "Floodlit walled hilltop citadel with towers above a river and an arched stone bridge at dusk",
+        "credit": "Photo: Benh LIEU SONG (Flickr) · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Carcassonne_Cite.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Towers_-_Ramparts_of_Carcassonne_-_Carcassonne_2014_%282%29.JPG/1920px-Towers_-_Ramparts_of_Carcassonne_-_Carcassonne_2014_%282%29.JPG",
+        "alt": "Round stone tower with a conical slate roof beside a rampart walk, above terracotta rooftops",
+        "credit": "Photo: José Luiz · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Towers_-_Ramparts_of_Carcassonne_-_Carcassonne_2014_(2).JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a hilltop fortified town enclosed by two concentric rings of walls."
+      },
+      {
+        "order": 2,
+        "text": "A 19th-century decree to demolish it caused an uproar, and an architect rebuilt many roofs with slate."
+      },
+      {
+        "order": 3,
+        "text": "Legend says a clever lady ended a siege here by ringing all the bells."
+      }
+    ],
+    "summary": {
+      "description": "The Romans fortified this hill around 100 BC, and the double walls with 52 towers grew over the Middle Ages. After a plan to demolish it in 1849 was resisted, restoration began in 1853 under Viollet-le-Duc. Critics still debate his use of slate instead of terracotta tiles.",
+      "keyFeatures": [
+        "Two concentric walls",
+        "52 towers and barbicans",
+        "Gallo-Roman lower courses",
+        "Château Comtal of the Trencavels",
+        "UNESCO World Heritage Site since 1997"
+      ],
+      "funFacts": [
+        "In August 1209 a crusading army besieged the city during the Cathar crusade.",
+        "A neo-Gothic statue of Lady Carcas stands near the Narbonne Gate."
+      ]
+    }
+  },
+  {
+    "id": "krak-des-chevaliers",
+    "name": "Krak des Chevaliers",
+    "aliases": [
+      "Crac des Chevaliers",
+      "Hisn al-Akrad",
+      "Qal'at al-Hosn"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Hospitaller builders",
+        "aliases": [
+          "Knights Hospitaller"
+        ],
+        "lifespan": "",
+        "nationality": "",
+        "bio": "The Knights Hospitaller received the site in 1142 and rebuilt it in two phases, adding the outer walls in the early 13th century to make it a concentric castle."
+      }
+    ],
+    "location": {
+      "city": "Al-Husn",
+      "country": "Syria",
+      "countryCode": "SY"
+    },
+    "yearCompleted": null,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles"
+    ],
+    "style": "Crusader concentric castle",
+    "wikipedia": "https://en.wikipedia.org/wiki/Krak_des_Chevaliers",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Krak_des_Chevaliers_Castle%2C_Syria.jpg/1920px-Krak_des_Chevaliers_Castle%2C_Syria.jpg",
+        "alt": "Massive pale stone fortress with round towers and a double ring of walls on a bare hilltop",
+        "credit": "Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Krak_des_Chevaliers_Castle,_Syria.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Krak_des_Chevaliers_general_purpose_area_3239.jpg/1920px-Krak_des_Chevaliers_general_purpose_area_3239.jpg",
+        "alt": "Wide vaulted stone hall with thick pointed arches and a worn flagstone floor",
+        "credit": "Photo: Dosseman · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Krak_des_Chevaliers_general_purpose_area_3239.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a hilltop fortress built by a military religious order in the Middle East."
+      },
+      {
+        "order": 2,
+        "text": "Its two concentric rings of walls could shelter a garrison of about 2,000 at its peak."
+      },
+      {
+        "order": 3,
+        "text": "A forged letter helped persuade its garrison to surrender to the Mamluks in 1271."
+      }
+    ],
+    "summary": {
+      "description": "The Knights Hospitaller were given this site in 1142 and spent decades building a new castle, damaged by an earthquake in 1170. Outer walls added in the early 13th century made it a concentric castle. It fell to Baibars and the Mamluks in 1271, and T. E. Lawrence called it perhaps the best preserved and most admirable castle in the world.",
+      "keyFeatures": [
+        "Concentric double walls",
+        "Hilltop in the Homs Gap",
+        "Vaulted halls and stables",
+        "Hospitaller phase 1142–early 13th century",
+        "UNESCO World Heritage Site since 2006"
+      ],
+      "funFacts": [
+        "Villagers lived inside until they were relocated in 1933.",
+        "It was damaged by shelling and airstrikes in the Syrian Civil War."
+      ]
+    }
+  },
+  {
+    "id": "alcazar-of-segovia",
+    "name": "Alcázar of Segovia",
+    "aliases": [
+      "Alcázar de Segovia",
+      "Segovia Alcazar"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Almoravid and Castilian builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "",
+        "bio": "Built by the Almoravids on Roman foundations, then rebuilt and extended by Castilian kings, including John II in the 15th century and Philip II in the 16th."
+      }
+    ],
+    "location": {
+      "city": "Segovia",
+      "country": "Spain",
+      "countryCode": "ES"
+    },
+    "yearCompleted": null,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles",
+      "palaces"
+    ],
+    "style": "Medieval Castilian alcázar",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Segovia",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Segovia_-_Alc%C3%A1zar_de_Segovia_22_2017-10-24.jpg/1920px-Segovia_-_Alc%C3%A1zar_de_Segovia_22_2017-10-24.jpg",
+        "alt": "Castle with slender slate-roofed turrets on a rocky outcrop at dusk, shaped like the prow of a ship",
+        "credit": "Photo: Rafa Esteve · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Segovia_-_Alc%C3%A1zar_de_Segovia_22_2017-10-24.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sala_Dao%C3%ADz_del_Alc%C3%A1zar_de_Segovia.JPG/1920px-Sala_Dao%C3%ADz_del_Alc%C3%A1zar_de_Segovia.JPG",
+        "alt": "Hall with a coffered wooden ceiling, glass chandeliers and painted frieze above portraits",
+        "credit": "Photo: Ministrillo · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sala_Dao%C3%ADz_del_Alc%C3%A1zar_de_Segovia.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a castle-palace perched on a rocky crag where two rivers meet, shaped like the prow of a ship."
+      },
+      {
+        "order": 2,
+        "text": "In 1474 a princess took refuge here and was crowned queen of Castile the next day."
+      },
+      {
+        "order": 3,
+        "text": "Its fairy-tale spires, added in the 16th century, are said to have inspired an animated princess film's castle."
+      }
+    ],
+    "summary": {
+      "description": "First mentioned in 1120, the fortress was built by the Almoravids on a Roman castrum. After a fire in 1258 it was rebuilt over centuries, and Isabella was enthroned here on 13 December 1474. In the 16th century Philip II added the sharp slate spires, and from 1764 it housed the Royal College of Artillery.",
+      "keyFeatures": [
+        "Ship-shaped crag site",
+        "Tower of John II",
+        "Hall of the Galley with ceiling like an inverted hull",
+        "Slate spires added under Philip II",
+        "UNESCO listing with the Old City, 1985"
+      ],
+      "funFacts": [
+        "Its silhouette inspired the castle in Disney's Snow White and the Seven Dwarfs.",
+        "A fire on 6 March 1862 destroyed the ceilings of the private rooms."
+      ]
+    }
+  },
+  {
+    "id": "castel-del-monte",
+    "name": "Castel del Monte",
+    "aliases": [
+      "Castle of the Mountain"
+    ],
+    "architects": [
+      {
+        "name": "Frederick II",
+        "aliases": [
+          "Emperor Frederick II",
+          "Federico II",
+          "Frederick II Hohenstaufen"
+        ],
+        "lifespan": "1194–1250",
+        "nationality": "Holy Roman",
+        "bio": "Holy Roman Emperor and King of Sicily who had Castel del Monte built in the 1240s on lands inherited from his mother, Constance of Sicily."
+      }
+    ],
+    "location": {
+      "city": "Andria",
+      "country": "Italy",
+      "countryCode": "IT"
+    },
+    "yearCompleted": 1240,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles"
+    ],
+    "style": "Hohenstaufen Romanesque-Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Castel_del_Monte,_Apulia",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Castel_del_Monte_BW_2016-10-14_12-26-11_r.jpg/1920px-Castel_del_Monte_BW_2016-10-14_12-26-11_r.jpg",
+        "alt": "Pale limestone octagonal fortress with a tower at each corner and a single ornate doorway, on a scrubby hill",
+        "credit": "Photo: Berthold Werner · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Castel_del_Monte_BW_2016-10-14_12-26-11_r.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Castel_del_Monte_BW_2016-10-14_13-04-18_stitch.jpg/1920px-Castel_del_Monte_BW_2016-10-14_13-04-18_stitch.jpg",
+        "alt": "Eight-sided courtyard seen from below, with stone walls rising to an octagonal opening of sky",
+        "credit": "Photo: Berthold Werner · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Castel_del_Monte_BW_2016-10-14_13-04-18_stitch.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a hilltop fortress whose plan is built entirely on the number eight."
+      },
+      {
+        "order": 2,
+        "text": "Historians still debate its purpose, because it has no moat, no drawbridge and little sign of defence."
+      },
+      {
+        "order": 3,
+        "text": "Soil near it gave bacteria used to make cancer drugs, and it appears on a euro coin."
+      }
+    ],
+    "summary": {
+      "description": "Built in the 1240s for Frederick II, this citadel is an octagonal prism with an octagonal tower at every corner around an eight-sided courtyard. Its purpose is debated: once called a hunting lodge, it is now thought to have been a citadel. It later served as a prison, was looted in the 18th century and was bought by the Italian state in 1876.",
+      "keyFeatures": [
+        "Octagonal plan with eight octagonal towers",
+        "Eight-sided central courtyard",
+        "Eight rooms on each floor",
+        "Originally marble walls and columns",
+        "UNESCO World Heritage Site since 1996"
+      ],
+      "funFacts": [
+        "It appears on the Italian one-cent euro coin.",
+        "In the Second World War the US 15th Army Air Force ran a secret navigation station here."
+      ]
+    }
+  },
+  {
+    "id": "malbork-castle",
+    "name": "Malbork Castle",
+    "aliases": [
+      "Marienburg",
+      "Zamek w Malborku",
+      "Castle of the Teutonic Order in Malbork"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Teutonic Order builders",
+        "aliases": [
+          "Teutonic Knights"
+        ],
+        "lifespan": "",
+        "nationality": "",
+        "bio": "Master builders of the Teutonic Order, who raised the castle between 1274 and 1406."
+      }
+    ],
+    "location": {
+      "city": "Malbork",
+      "country": "Poland",
+      "countryCode": "PL"
+    },
+    "yearCompleted": 1406,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles"
+    ],
+    "style": "Brick Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malbork_Castle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Malbork_Castle_2023_118.jpg/1920px-Malbork_Castle_2023_118.jpg",
+        "alt": "Large red brick palace with steep tiled roofs and ornate gables behind a brick wall and a moat-like river",
+        "credit": "Photo: Scotch Mist · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Malbork_Castle_2023_118.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Zamek_Krzy%C5%BCacki%2C_Wielki_Refektarz.jpg/1920px-Zamek_Krzy%C5%BCacki%2C_Wielki_Refektarz.jpg",
+        "alt": "Hall whose slender central pillar fans out into a palm-like ribbed vault above Gothic windows",
+        "credit": "Photo: Aneta Pawska · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Zamek_Krzy%C5%BCacki,_Wielki_Refektarz.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is the largest castle in the world by land area, built of brick."
+      },
+      {
+        "order": 2,
+        "text": "A military religious order made it its headquarters in 1309, and Poland took it in 1457."
+      },
+      {
+        "order": 3,
+        "text": "More than half of it was destroyed in 1945, and rebuilding has continued since 1962."
+      }
+    ],
+    "summary": {
+      "description": "Built by the Teutonic Order mainly between 1274 and 1406, this castle became the Order's headquarters in 1309 when Grand Master Siegfried von Feuchtwangen moved there. It has three parts, the High, Middle and Lower Castles, separated by moats and towers. Fighting in early 1945 destroyed more than half of it, and most has since been rebuilt.",
+      "keyFeatures": [
+        "Largest castle in the world by land area",
+        "High, Middle and Lower Castles",
+        "Grand Master's Palace in the Middle Castle",
+        "Great Refectory with palm vaulting",
+        "UNESCO World Heritage Site since 1997"
+      ],
+      "funFacts": [
+        "It was under German rule for over 170 years, from the First Partition of Poland in 1772 to 1945.",
+        "In 1457 King Casimir IV entered it after Bohemian mercenaries sold it to Poland."
+      ]
+    }
+  },
+  {
+    "id": "caernarfon-castle",
+    "name": "Caernarfon Castle",
+    "aliases": [
+      "Carnarvon Castle",
+      "Castell Caernarfon"
+    ],
+    "architects": [
+      {
+        "name": "James of Saint George",
+        "aliases": [
+          "Master James of Saint George",
+          "James of St George"
+        ],
+        "lifespan": "c. 1230–1309",
+        "nationality": "Savoyard",
+        "bio": "Military engineer, probably the architect of Caernarfon and several other castles built for Edward I in Wales."
+      }
+    ],
+    "location": {
+      "city": "Caernarfon",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": 1330,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles"
+    ],
+    "style": "Edwardian castle",
+    "wikipedia": "https://en.wikipedia.org/wiki/Caernarfon_Castle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Caernarfon_Castle_1994.jpg/1920px-Caernarfon_Castle_1994.jpg",
+        "alt": "Grey stone castle with polygonal towers and turrets beside a harbour full of boats",
+        "credit": "Photo: Herbert Ortner · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Caernarfon_Castle_1994.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/SpiralStairs_CaernarfonCastle.jpg/1920px-SpiralStairs_CaernarfonCastle.jpg",
+        "alt": "Narrow stone spiral staircase inside a tower, with a rope as handrail",
+        "credit": "Photo: Martinvl · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:SpiralStairs_CaernarfonCastle.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was begun in 1283 by an English king to hold down a conquered country."
+      },
+      {
+        "order": 2,
+        "text": "Unlike many castles of its kind it has polygonal towers and bands of coloured stone, perhaps echoing the walls of Constantinople."
+      },
+      {
+        "order": 3,
+        "text": "It staged the investitures of two Princes of Wales, in 1911 and 1969."
+      }
+    ],
+    "summary": {
+      "description": "Edward I began replacing an earlier motte-and-bailey fort here in 1283, probably under Master James of Saint George. Polygonal towers and banded masonry set it apart from the round towers of other Edwardian castles. Work stopped in 1330 with parts unfinished, and the interior buildings survive only as foundations.",
+      "keyFeatures": [
+        "Polygonal towers",
+        "Banded coloured stone",
+        "Eagle Tower with three turrets",
+        "King's Gate left unfinished",
+        "UNESCO World Heritage Site since 1986"
+      ],
+      "funFacts": [
+        "Owain Glyndŵr's forces besieged it unsuccessfully in 1401–1404.",
+        "Its Royalist garrison surrendered in 1646, the last fighting it saw."
+      ]
+    }
+  },
+  {
+    "id": "hohenzollern-castle",
+    "name": "Hohenzollern Castle",
+    "aliases": [
+      "Burg Hohenzollern"
+    ],
+    "architects": [
+      {
+        "name": "Friedrich August Stüler",
+        "aliases": [
+          "Friedrich Stüler",
+          "Stueler"
+        ],
+        "lifespan": "1800–1865",
+        "nationality": "German",
+        "bio": "Prussian architect who designed the Gothic Revival third castle on Mount Hohenzollern, built 1846–1867 for Frederick William IV of Prussia."
+      }
+    ],
+    "location": {
+      "city": "Hechingen",
+      "country": "Germany",
+      "countryCode": "DE"
+    },
+    "yearCompleted": 1867,
+    "era": "HISTORICISM",
+    "themes": [
+      "castles"
+    ],
+    "style": "Gothic Revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hohenzollern_Castle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Burg_Hohenzollern_ak.jpg/1920px-Burg_Hohenzollern_ak.jpg",
+        "alt": "Fairy-tale castle with many pointed turrets and bastions crowning a wooded hilltop in autumn",
+        "credit": "Photo: A. Kniesel (= User:-donald-), Lauffen · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Burg_Hohenzollern_ak.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hechingen_Burg_Hohenzollern_Evangelische_Kapelle_1.jpg",
+        "alt": "Chapel vault painted blue and gold with ribs and pointed stained-glass windows",
+        "credit": "Photo: Zairon · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hechingen_Burg_Hohenzollern_Evangelische_Kapelle_1.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It stands on a 855-metre hill at the edge of the Swabian Jura."
+      },
+      {
+        "order": 2,
+        "text": "The first castle here was destroyed in 1423, and the present one is a 19th-century memorial to a royal family."
+      },
+      {
+        "order": 3,
+        "text": "It was built from 1846 to 1867 in the Gothic Revival style for a Prussian king."
+      }
+    ],
+    "summary": {
+      "description": "The present castle is the third on Mount Hohenzollern. The first, built around 1040, was destroyed in 1423, and a second was completed around 1461. The third was built in 1846–1867 as a family memorial for Frederick William IV of Prussia, designed by Friedrich August Stüler in Gothic Revival style.",
+      "keyFeatures": [
+        "Gothic Revival design",
+        "Hilltop at 855 m",
+        "Third castle on the site",
+        "Chapel with Frederick the Great's coffin until 1991",
+        "Crown of Wilhelm II on display"
+      ],
+      "funFacts": [
+        "The coffins of Frederick William I and Frederick the Great rested in the chapel from 1952 to 1991.",
+        "A 1978 earthquake damaged its turrets, and repairs lasted into the mid-1990s."
+      ]
+    }
+  },
+  {
+    "id": "castelo-de-sao-jorge",
+    "name": "Castelo de São Jorge",
+    "aliases": [
+      "São Jorge Castle",
+      "Saint George's Castle",
+      "Castle of St George"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Moorish and Portuguese builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "",
+        "bio": "Moorish builders raised the fortifications in the 10th century; Portuguese kings, including Denis around 1300, later turned the alcáçova into a royal palace and extended the walls."
+      }
+    ],
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": null,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles"
+    ],
+    "style": "Moorish and medieval Portuguese fortress",
+    "wikipedia": "https://en.wikipedia.org/wiki/S%C3%A3o_Jorge_Castle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Castelo_de_Sao_Jorge_-_Lisbon_-_01.jpg/1920px-Castelo_de_Sao_Jorge_-_Lisbon_-_01.jpg",
+        "alt": "Sandstone fortress walls with square crenellated towers and sloping bastions under a blue sky",
+        "credit": "Photo: NorbertNagel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Castelo_de_Sao_Jorge_-_Lisbon_-_01.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/S%C3%A3o_Jorge%2C_ameias_%28Simon_Lee%29.jpg/1920px-S%C3%A3o_Jorge%2C_ameias_%28Simon_Lee%29.jpg",
+        "alt": "Weathered stone battlements with a person leaning on the merlons under a grey sky",
+        "credit": "Photo: Simon Lee from London · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Jorge,_ameias_(Simon_Lee).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a medieval fortress on the highest hill of a capital that stands beside a wide estuary."
+      },
+      {
+        "order": 2,
+        "text": "A knight is said to have jammed a gate with his own body so that Christian troops could enter in 1147."
+      },
+      {
+        "order": 3,
+        "text": "Its tower holds a camera obscura, and in 1498 a king received Vasco da Gama here."
+      }
+    ],
+    "summary": {
+      "description": "Moors fortified this hill in the 10th century, and Afonso Henriques took the castle in 1147. King Denis turned the Moorish alcáçova into a royal palace around 1300, and in 1498 Manuel I received Vasco da Gama here. The 1755 earthquake badly damaged it, and major renovations followed in the 1940s.",
+      "keyFeatures": [
+        "Hilltop citadel with ten towers",
+        "Moorish walls from the 10th century",
+        "Former royal palace",
+        "Camera obscura in the Tower of Ulysses",
+        "Monument to Afonso Henriques, 1947"
+      ],
+      "funFacts": [
+        "Royal records were kept in the Torre do Tombo here until the 1755 earthquake.",
+        "Legend credits Martim Moniz with holding the gate open in 1147."
+      ]
+    }
+  },
+  {
+    "id": "castelo-de-guimaraes",
+    "name": "Castelo de Guimarães",
+    "aliases": [
+      "Guimarães Castle",
+      "Castle of Guimarães",
+      "Castelo de São Mamede"
+    ],
+    "architects": [
+      {
+        "name": "Unknown medieval builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "",
+        "bio": "Built on the orders of Countess Mumadona Dias in the 10th century, expanded by Count Henry in the late 11th century and remodelled by King Denis around 1300."
+      }
+    ],
+    "location": {
+      "city": "Guimarães",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": null,
+    "era": "MEDIEVAL",
+    "themes": [
+      "castles"
+    ],
+    "style": "Late Romanesque with early Gothic elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guimar%C3%A3es_Castle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Exterior_view_of_Castelo_de_Guimar%C3%A3es_01.jpg/1920px-Exterior_view_of_Castelo_de_Guimar%C3%A3es_01.jpg",
+        "alt": "Crenellated granite towers and walls behind an olive tree on a grey day",
+        "credit": "Photo: John Samuel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_Castelo_de_Guimar%C3%A3es_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Castelo_de_Guimar%C3%A3es_%28interior%29.JPG/1920px-Castelo_de_Guimar%C3%A3es_%28interior%29.JPG",
+        "alt": "Roofless granite palace wall with rows of rectangular window openings against the sky",
+        "credit": "Photo: Béria Lima de Rodríguez · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Castelo_de_Guimar%C3%A3es_(interior).JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a small granite fortress in northern Portugal, first mentioned in a 10th-century codicil."
+      },
+      {
+        "order": 2,
+        "text": "It is traditionally said to be the birthplace of the country's first king."
+      },
+      {
+        "order": 3,
+        "text": "A nearby battle in 1128 led to the independence of the county that became a kingdom."
+      }
+    ],
+    "summary": {
+      "description": "A codicil of 968 mentions this castle as newly built under Countess Mumadona Dias to protect a monastery's community. Count Henry expanded it as his residence, and Afonso Henriques was born here in 1111. King Denis gave it its present form around 1300, and a restoration from 1937 to 1940 followed a failed demolition proposal in 1836.",
+      "keyFeatures": [
+        "Pentagon-like wall circuit",
+        "Eight rectangular towers",
+        "Central keep",
+        "Late Romanesque with early Gothic elements",
+        "Part of the Historic Centre of Guimarães, UNESCO 2001"
+      ],
+      "funFacts": [
+        "It withstood sieges in 1369 and 1385.",
+        "It was declared a national monument in 1910 and re-inaugurated on 4 June 1940."
+      ]
+    }
   }
 ]

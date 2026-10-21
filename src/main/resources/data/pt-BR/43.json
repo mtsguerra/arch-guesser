@@ -1,0 +1,299 @@
+{
+  "edinburgh-castle": {
+    "name": "Castelo de Edimburgo",
+    "aliases": [
+      "Castelo de Edinburgh"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": null,
+        "bio": "O palácio cresceu em campanhas patrocinadas pelo rei D. João I a partir de cerca de 1415 e pelo rei D. Manuel I entre 1497 e 1530; seus mestres de obras não estão registrados."
+      }
+    ],
+    "city": "Edimburgo",
+    "style": "Fortaleza medieval",
+    "photos": [
+      {
+        "alt": "Fortaleza de pedra com portaria acima de uma grande esplanada pavimentada sobre um rochedo",
+        "caption": null
+      },
+      {
+        "alt": "Grande salão com enorme lareira de pedra esculpida, armaduras e piso xadrez",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ela coroa um bloco vulcânico de rocha que domina uma capital.",
+      "Seu edifício mais antigo é uma pequena capela do início do século XII, e as joias da coroa nacional foram redescobertas aqui em 1818.",
+      "Um canhão de cerco medieval chamado Mons Meg, entregue aqui em 1457, ainda está em suas muralhas."
+    ],
+    "summary": {
+      "description": "Esta fortaleza ergue-se na Castle Rock, resto de um vulcão extinto com cerca de 350 milhões de anos. Cresceu ao longo de muitos séculos como residência real, guarnição e prisão, e guarda as Honras da Escócia. Boa parte do que se vê hoje é obra de reis posteriores, engenheiros militares e restauradores vitorianos.",
+      "keyFeatures": [
+        "Sítio vulcânico da Castle Rock",
+        "Capela de Santa Margarida, início do século XII",
+        "Grande Salão de Jaime IV",
+        "Portaria concluída em 1584",
+        "Honras da Escócia na Sala da Coroa"
+      ],
+      "funFacts": [
+        "As Honras da Escócia sumiram de vista após a União de 1707 e foram redescobertas por Sir Walter Scott em 1818.",
+        "Mons Meg voltou da Torre de Londres em 1829."
+      ]
+    }
+  },
+  "windsor-castle": {
+    "name": "Castelo de Windsor",
+    "aliases": [],
+    "architects": [
+      {
+        "aliases": [
+          "Guilherme I",
+          "Rei Guilherme I"
+        ],
+        "nationality": "Normando",
+        "lifespan": "c. 1028–1087",
+        "bio": "O duque normando que conquistou a Inglaterra em 1066 e mandou iniciar a torre de menagem por volta de 1078, como símbolo de seu poder sobre Londres."
+      },
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "1766–1840",
+        "bio": "Arquiteto que redesenhou os Aposentos de Estado e ampliou em cerca de 9 metros a Torre Redonda do Castelo de Windsor no início do século XIX, a mando de Jorge IV."
+      }
+    ],
+    "city": "Windsor",
+    "style": "Castelo normando com acréscimos neogóticos",
+    "photos": [
+      {
+        "alt": "Ala de pedra cinza com ameias e altas janelas góticas ao redor de um gramado, com guardas de chapéu de pele",
+        "caption": null
+      },
+      {
+        "alt": "Teto de madeira com vigas aparentes pintado com fileiras de brasões sob arcos ogivais",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Começou como um castelo de motte-and-bailey ordenado por um conquistador na década após 1066.",
+      "É o palácio habitado há mais tempo na Europa, usado por monarcas desde Henrique I.",
+      "Um incêndio em 1992 danificou muitas salas de estado, restauradas ao longo de vários anos."
+    ],
+    "summary": {
+      "description": "Encomendado por Guilherme, o Conquistador, depois de 1066, esta residência real é usada por monarcas desde Henrique I. Sua Torre Redonda ergue-se sobre o montículo original e foi alteada por Jeffry Wyatville no início do século XIX. Um incêndio em 1992 levou a uma grande restauração dos Aposentos de Estado.",
+      "keyFeatures": [
+        "Origem em motte-and-bailey",
+        "Torre Redonda sobre o montículo",
+        "Capela de São Jorge em gótico perpendicular, iniciada em 1475",
+        "Aposentos de Estado redesenhados por Wyatville",
+        "Restauração após o incêndio de 1992"
+      ],
+      "funFacts": [
+        "Os terrenos cobrem cerca de 5,3 hectares.",
+        "A Capela de São Jorge é a sede espiritual da Ordem da Jarreteira."
+      ]
+    }
+  },
+  "chateau-de-chenonceau": {
+    "name": "Castelo de Chenonceau",
+    "aliases": [
+      "Château de Chenonceau"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "francês",
+        "lifespan": "c. 1514–1570",
+        "bio": "Arquiteto renascentista contratado por Diane de Poitiers para projetar a ponte sobre o rio Cher em Chenonceau, construída entre 1556 e 1559."
+      },
+      {
+        "aliases": [],
+        "nationality": "francês",
+        "lifespan": "c. 1515–1578",
+        "bio": "Arquiteto renascentista que projetou a galeria sobre a ponte de Chenonceau entre 1570 e 1576 para Catarina de Médici."
+      }
+    ],
+    "city": "Chenonceaux",
+    "style": "Renascimento francês",
+    "photos": [
+      {
+        "alt": "Castelo renascentista branco com telhado de ardósia, apoiado em arcos sobre um rio, com uma torre redonda em um canto",
+        "caption": null
+      },
+      {
+        "alt": "Lareira de pedra clara encimada por duas figuras reclinadas esculpidas e um brasão",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É um castelo cuja longa galeria se apoia em uma ponte de arcos sobre um rio.",
+      "Duas mulheres o moldaram: a amante de um rei que construiu a ponte e uma rainha viúva que acrescentou a galeria.",
+      "Na Segunda Guerra Mundial, o rio sob ele marcava a linha entre a França ocupada e a livre."
+    ],
+    "summary": {
+      "description": "Thomas Bohier e sua esposa Katherine Briçonnet reconstruíram o castelo em 1515–1521 em torno de uma torre de menagem mais antiga. Diane de Poitiers mandou construir uma ponte sobre o Cher em 1556–1559, e Catarina de Médici acrescentou depois uma galeria de dois andares sobre ela. Foi enfermaria na Primeira Guerra Mundial e ponto de passagem entre zonas em 1940.",
+      "keyFeatures": [
+        "Galeria construída sobre uma ponte no Cher",
+        "Torre de menagem do século XV preservada",
+        "Ponte de Philibert de l'Orme",
+        "Galeria de Jean Bullant, inaugurada em 1577",
+        "Jardins das duas damas rivais"
+      ],
+      "funFacts": [
+        "Fogos de artifício foram exibidos pela primeira vez na França aqui, em 1560.",
+        "Bombardeios aliados em junho de 1944 destruíram os vitrais da capela."
+      ]
+    }
+  },
+  "cite-de-carcassonne": {
+    "name": "Cidade de Carcassonne",
+    "aliases": [
+      "Cité de Carcassonne",
+      "Carcassona"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Francês",
+        "bio": "Arquiteto que supervisionou sua restauração entre 1844 e 1864."
+      },
+      {
+        "aliases": [],
+        "nationality": "",
+        "lifespan": "",
+        "bio": "Os romanos fortificaram a colina por volta de 100 a.C.; visigodos, a família Trencavel e os reis da França construíram e ampliaram depois as muralhas e torres."
+      }
+    ],
+    "city": "Carcassonne",
+    "style": "Cidade fortificada medieval",
+    "photos": [
+      {
+        "alt": "Cidadela murada iluminada no alto de uma colina, com torres, sobre um rio e uma ponte de arcos ao anoitecer",
+        "caption": null
+      },
+      {
+        "alt": "Torre redonda de pedra com telhado cônico de ardósia ao lado de um adarve, sobre telhados de terracota",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma cidade fortificada no alto de uma colina, cercada por dois anéis concêntricos de muralhas.",
+      "Um decreto do século XIX mandou demoli-la, causou um escândalo, e um arquiteto refez muitos telhados com ardósia.",
+      "Diz a lenda que uma dama astuta encerrou um cerco aqui fazendo soar todos os sinos."
+    ],
+    "summary": {
+      "description": "Os romanos fortificaram esta colina por volta de 100 a.C., e as muralhas duplas com 52 torres cresceram ao longo da Idade Média. Depois que um plano de demolição, em 1849, foi barrado, a restauração começou em 1853 sob Viollet-le-Duc. Críticos ainda debatem o uso de ardósia em vez de telhas de terracota.",
+      "keyFeatures": [
+        "Duas muralhas concêntricas",
+        "52 torres e barbacãs",
+        "Camadas inferiores galo-romanas",
+        "Château Comtal dos Trencavel",
+        "Patrimônio Mundial da UNESCO desde 1997"
+      ],
+      "funFacts": [
+        "Em agosto de 1209, um exército de cruzados sitiou a cidade durante a cruzada contra os cátaros.",
+        "Uma estátua neogótica da Dama Carcas fica perto da Porta de Narbona."
+      ]
+    }
+  },
+  "krak-des-chevaliers": {
+    "name": "Krak des Chevaliers",
+    "aliases": [
+      "Crac dos Cavaleiros",
+      "Krak dos Cavaleiros"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Cavaleiros Hospitalários"
+        ],
+        "nationality": "",
+        "lifespan": "",
+        "bio": "Os Cavaleiros Hospitalários receberam o local em 1142 e o reconstruíram em duas fases, acrescentando as muralhas externas no início do século XIII para fazer dele um castelo concêntrico."
+      }
+    ],
+    "city": "Al-Husn",
+    "style": "Castelo concêntrico cruzado",
+    "photos": [
+      {
+        "alt": "Imensa fortaleza de pedra clara com torres redondas e dupla linha de muralhas no alto de uma colina nua",
+        "caption": null
+      },
+      {
+        "alt": "Amplo salão abobadado de pedra com grossos arcos ogivais e piso de lajes gastas",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma fortaleza no alto de uma colina, construída por uma ordem militar religiosa no Oriente Médio.",
+      "Seus dois anéis concêntricos de muralhas abrigavam uma guarnição de cerca de 2.000 homens no auge.",
+      "Uma carta falsificada ajudou a convencer sua guarnição a se render aos mamelucos em 1271."
+    ],
+    "summary": {
+      "description": "Os Cavaleiros Hospitalários receberam este local em 1142 e passaram décadas construindo um novo castelo, danificado por um terremoto em 1170. As muralhas externas, acrescentadas no início do século XIII, o tornaram um castelo concêntrico. Caiu para Baibars e os mamelucos em 1271, e T. E. Lawrence o chamou de talvez o castelo mais bem preservado e admirável do mundo.",
+      "keyFeatures": [
+        "Muralhas duplas concêntricas",
+        "Colina na passagem de Homs",
+        "Salões abobadados e estábulos",
+        "Fase hospitalária de 1142 ao início do século XIII",
+        "Patrimônio Mundial da UNESCO desde 2006"
+      ],
+      "funFacts": [
+        "Aldeões viveram dentro dele até serem transferidos em 1933.",
+        "Foi danificado por bombardeios e ataques aéreos na guerra civil síria."
+      ]
+    }
+  },
+  "alcazar-of-segovia": {
+    "name": "Alcázar de Segóvia",
+    "aliases": [
+      "Alcázar de Segovia"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "",
+        "lifespan": "",
+        "bio": "Construído pelos almorávidas sobre fundações romanas, depois reconstruído e ampliado por reis castelhanos, entre eles João II no século XV e Filipe II no XVI."
+      }
+    ],
+    "city": "Segóvia",
+    "style": "Alcázar castelhano medieval",
+    "photos": [
+      {
+        "alt": "Castelo de esbeltas torres com telhado de ardósia sobre um penhasco ao entardecer, com forma de proa de navio",
+        "caption": null
+      },
+      {
+        "alt": "Salão com teto de madeira em caixotões, lustres de vidro e friso pintado acima de retratos",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É um castelo-palácio sobre um penhasco onde dois rios se encontram, com forma de proa de navio.",
+      "Em 1474, uma princesa se refugiou aqui e foi coroada rainha de Castela no dia seguinte.",
+      "Suas torres de conto de fadas, acrescentadas no século XVI, teriam inspirado o castelo de um filme de animação sobre uma princesa."
+    ],
+    "summary": {
+      "description": "Mencionada pela primeira vez em 1120, a fortaleza foi construída pelos almorávidas sobre um castrum romano. Após um incêndio em 1258, foi reconstruída ao longo dos séculos, e Isabel foi entronizada aqui em 13 de dezembro de 1474. No século XVI, Filipe II acrescentou as agudas torres de ardósia, e a partir de 1764 abrigou o Real Colégio de Artilharia.",
+      "keyFeatures": [
+        "Sítio em penhasco com forma de navio",
+        "Torre de João II",
+        "Sala da Galera com teto de casco invertido",
+        "Torres de ardósia acrescentadas por Filipe II",
+        "Patrimônio Mundial com a Cidade Velha, 1985"
+      ],
+      "funFacts": [
+        "Sua silhueta inspirou o castelo de Branca de Neve e os Sete Anões, da Disney.",
+        "Um incêndio em 6 de março de 1862 destruiu os tetos dos aposentos privados."
+      ]
+    }
+  }
+}
