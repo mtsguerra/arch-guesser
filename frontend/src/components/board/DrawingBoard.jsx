@@ -1,5 +1,5 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
-import { AnimatePresence, animate, motion, useMotionValue, useReducedMotion } from 'motion/react'
+import { AnimatePresence, animate, motion, useMotionValue } from 'motion/react'
 import { ChevronLeftIcon, ChevronRightIcon } from '../ui/icons.jsx'
 import { duration, easeOut, springSoft } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
@@ -10,6 +10,7 @@ import { VeiledGlobe } from './VeiledGlobe.jsx'
 import { ZoomableDrawing } from './ZoomableDrawing.jsx'
 import { buildSheets } from './sheets.js'
 import styles from './DrawingBoard.module.css'
+import { useReducedMotion } from '../../motionPref.js'
 
 const SLOP = 8 // px of travel before a touch becomes a drag
 const FLICK_MS = 90 // how far back release velocity is measured

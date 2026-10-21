@@ -1,11 +1,12 @@
 import { useEffect, useId, useRef, useState } from 'react'
-import { motion, useReducedMotion } from 'motion/react'
+import { motion } from 'motion/react'
 import { useStrings } from '../../i18n.js'
 import { springSoft } from '../../motion.js'
 import { Button } from '../ui/Button.jsx'
 import { CheckIcon, CopyIcon, ExternalIcon } from '../ui/icons.jsx'
 import { ShareIcon } from '../ui/InstrumentIcons.jsx'
 import styles from './DailyShare.module.css'
+import { useReducedMotion } from '../../motionPref.js'
 
 /** Copy, share sheet and their state, for one result text. */
 function useShareActions(text) {

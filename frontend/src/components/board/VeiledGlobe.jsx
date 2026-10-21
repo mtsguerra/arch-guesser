@@ -1,10 +1,11 @@
 import { useEffect } from 'react'
-import { animate, motion, useMotionValue, useReducedMotion, useTransform } from 'motion/react'
+import { animate, motion, useMotionValue, useTransform } from 'motion/react'
 import { countryName } from '../../game/countries.js'
 import { CENTROIDS } from '../../game/countryCentroids.js'
 import { useLanguage } from '../../i18n.js'
 import { easeOut } from '../../motion.js'
 import styles from './VeiledGlobe.module.css'
+import { useReducedMotion } from '../../motionPref.js'
 
 const R = 88
 const C = 100

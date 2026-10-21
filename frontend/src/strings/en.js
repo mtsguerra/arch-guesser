@@ -49,6 +49,15 @@ export default {
 
   theme: { toDark: 'Switch to the dark theme', toLight: 'Switch to the light theme' },
   sound: { turnOn: 'Turn sound on', turnOff: 'Turn sound off' },
+  options: { label: 'Options', done: 'Done', sound: 'Sound', theme: 'Theme', motion: 'Reduce motion' },
+  motion: {
+    reduce: 'Reduce motion',
+    restore: 'Restore full motion',
+    noteTitle: 'Reduced motion is on',
+    noteText: 'Movement and transitions are switched off. The line drawings still draw themselves, as they are the heart of the game.',
+    noteKeep: 'Got it',
+    noteFull: 'Full motion',
+  },
 
   pull: { hint: 'Pull down for the next building', release: 'Release for the next building' },
 
@@ -205,6 +214,7 @@ export default {
     },
     erasUnavailable: 'Eras couldn’t be loaded',
     wrong: 'Not this one. Edit it, or take a hint.',
+    close: 'Close! Try the more specific style.',
     correct: 'Correct',
     submit: 'Check guess',
     giveUp: 'Reveal answer',
@@ -212,16 +222,16 @@ export default {
     nothingToCheck: 'Fill in at least one field to check it.',
     solved: 'All four right. Nicely read.',
     gaveUp: 'Here’s the answer. The fields you got are ticked.',
-    result: (correct, wrong) =>
-      [correct && `${correct} correct`, wrong && `${wrong} not quite`].filter(Boolean).join(', ') + '.',
+    result: (correct, wrong, close) =>
+      [correct && `${correct} correct`, close && `${close} close`, wrong && `${wrong} not quite`].filter(Boolean).join(', ') + '.',
     countrySuggestions: 'Country suggestions',
     eraSuggestions: 'Era suggestions',
   },
 
   summary: {
     label: 'About this building',
-    showDrawings: 'Back to drawings',
-    showSummary: 'Read about it',
+    showDrawings: 'Show drawings',
+    showSummary: 'Hide drawings',
     facts: {
       location: 'Location',
       completed: 'Completed',

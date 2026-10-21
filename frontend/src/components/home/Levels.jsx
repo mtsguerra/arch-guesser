@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useId, useRef, useState } from 'react'
-import { useReducedMotion } from 'motion/react'
 import { useStrings } from '../../i18n.js'
 import { DRAWING_ERAS } from './pencil.js'
 import { PencilDrawing } from './PencilDrawing.jsx'
 import styles from './Levels.module.css'
+import { useReducedMotion } from '../../motionPref.js'
 
 // y of each level in the drawing's 400×244 viewBox (the ground line is at 214): top storey, first floor, ground.
 const LEVELS = [54, 134, 214]

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import styles from './icons.module.css'
+import { isReduced } from '../../motionPref.js'
 
 // Button icons that move when their button is hovered or focused (the rule is in icons.module.css:
 // a hovered control sets --on to 1 and each part reacts). Same props as the lucide icons they replace.
@@ -28,7 +29,7 @@ export function ShuffleIcon(props) {
     const control = svg.current?.closest('button, a, [role="button"]')
     if (!control) return
     const ride = () => {
-      if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return
+      if (isReduced()) return
       if (control.disabled || control.getAttribute('aria-disabled') === 'true') return
       heads.current.forEach((head) => head?.beginElement?.())
     }

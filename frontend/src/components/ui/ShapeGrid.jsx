@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef } from 'react'
 
 import './ShapeGrid.css'
+import { isReduced } from '../../motionPref.js'
 
 // Vendored from React Bits (ShapeGrid, JS + CSS). Only change: the settings ref is written in a
 // layout effect instead of during render, to satisfy react-hooks/refs.
@@ -317,7 +318,7 @@ export default function ShapeGrid({
     if (!container || !canvas) return undefined
     const ctx = canvas.getContext('2d')
     if (!ctx) return undefined
-    const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false
+    const reduce = isReduced()
 
     const state = {
       alive: true,

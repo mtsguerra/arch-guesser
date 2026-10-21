@@ -11,7 +11,7 @@ import { GUESS_FIELDS } from './matchGuess.js'
  * During `loading`, the previous building stays in state so the board can
  * hand over to the next one with an exit animation instead of a blank flash.
  *
- * `fields` holds each guess field's status: 'idle' | 'wrong' | 'correct'.
+ * `fields` holds each guess field's status: 'idle' | 'wrong' | 'close' | 'correct'.
  * Correct fields lock. `outcome` is 'solved' or 'gaveUp' once revealed.
  */
 const idleFields = Object.fromEntries(GUESS_FIELDS.map((f) => [f, 'idle']))
@@ -67,7 +67,7 @@ export function gameReducer(state, action) {
       for (const field of GUESS_FIELDS) {
         if (fields[field] === 'correct') continue
         const result = action.results[field]
-        fields[field] = result === true ? 'correct' : result === false ? 'wrong' : 'idle'
+        fields[field] = result === true ? 'correct' : result === 'close' ? 'close' : result === false ? 'wrong' : 'idle'
       }
       const log = [...state.log]
       for (const field of GUESS_FIELDS) {
@@ -80,8 +80,8 @@ export function gameReducer(state, action) {
     }
 
     case 'guess/edit':
-      // Editing a wrong field clears its error; correct fields are locked.
-      if (state.fields[action.field] !== 'wrong') return state
+      // Editing a wrong or close field clears its message; correct fields are locked.
+      if (!['wrong', 'close'].includes(state.fields[action.field])) return state
       return { ...state, fields: { ...state.fields, [action.field]: 'idle' } }
 
     case 'answer/reveal':

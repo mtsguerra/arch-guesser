@@ -186,10 +186,10 @@
   color: inherit;
 }
 
-/* The slim title that follows you down the page; the hold is zero-height, so it adds no space. */
+/* The slim title: pinned at the level of the game header (centred between the Menu and the controls), then under it on phones. */
 .stickyHold {
   position: sticky;
-  top: calc(var(--rail-h) + var(--safe-top) + var(--space-3));
+  top: calc(var(--safe-top) + 0.5rem);
   z-index: 8;
   height: 0;
   margin-bottom: calc(-1 * var(--space-6));
@@ -200,6 +200,8 @@
   top: 0;
   left: 0;
   right: 0;
+  width: min(30rem, 100%);
+  margin-inline: auto;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -209,6 +211,12 @@
   background: color-mix(in oklab, var(--paper) 92%, transparent);
   backdrop-filter: blur(10px) saturate(1.2);
   box-shadow: 0 0 0 1px var(--paper-hairline), var(--shadow-raised);
+}
+
+@media (max-width: 640px) {
+  .stickyHold {
+    top: calc(var(--rail-h) + var(--safe-top) + var(--space-3));
+  }
 }
 
 .stickyName {
@@ -683,8 +691,13 @@
 /* Revision block at the foot of the sheet. */
 .rev {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(9rem, 100%), 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   border: 1.5px solid var(--paper-rule);
+}
+
+/* The architect fills the top row; the date and the sheet share the one below. */
+.revCell:first-child {
+  grid-column: 1 / -1;
 }
 
 .revCell {

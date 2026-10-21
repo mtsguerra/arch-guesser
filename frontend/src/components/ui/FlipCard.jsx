@@ -4,12 +4,12 @@ import {
   motion,
   useMotionTemplate,
   useMotionValue,
-  useReducedMotion,
   useSpring,
   useTransform,
 } from 'motion/react'
 
 import './FlipCard.css'
+import { useReducedMotion } from '../../motionPref.js'
 
 // From React Bits (FlipCard, JS + CSS).
 const SLOP = { fine: 4, coarse: 8 }

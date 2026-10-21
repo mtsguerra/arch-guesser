@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { AnimatePresence, animate, motion, useReducedMotion } from 'motion/react'
+import { animate, motion } from 'motion/react'
 import { Check, Eye } from 'lucide-react'
 import { ExternalIcon } from '../ui/icons.jsx'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
@@ -11,6 +11,8 @@ import { Credit } from '../ui/Credit.jsx'
 import { countryName } from '../../game/countries.js'
 import { DailyCard } from './DailyCard.jsx'
 import styles from './BuildingSummary.module.css'
+import { useReducedMotion } from '../../motionPref.js'
+import { setHeaderTitle } from '../../headerTitle.js'
 
 // The monograph unfolds section by section as the board steps back.
 const unfold = {
@@ -232,35 +234,45 @@ function Hero({ building, onOpen }) {
   )
 }
 
-/** A slim title that slides in once the real one has scrolled away, so the reveal keeps its identity. */
+/**
+ * A slim title with the score, pinned at the level of the game header while the real title is scrolled away. As you
+ * scroll back up, the real title arrives from above and pushes the bar down in front of it, so the bar stays just under
+ * the title; once the title is well inside the page the bar fades. The header hides its own label while the bar is
+ * up in its spot (headerTitle.js), so the two never overlap.
+ */
 function StickyTitle({ title, target, score, total }) {
-  const reduce = useReducedMotion()
-  const [away, setAway] = useState(false)
+  const bar = useRef(null)
   useEffect(() => {
-    const el = target.current
-    if (!el) return undefined
-    const observer = new IntersectionObserver(([entry]) => setAway(!entry.isIntersecting && entry.boundingClientRect.top < 0))
-    observer.observe(el)
-    return () => observer.disconnect()
-  }, [target])
+    const update = () => {
+      if (!target.current || !bar.current) return
+      const hold = bar.current.parentElement
+      const pin = parseFloat(getComputedStyle(hold).top) || 0 // where the sticky hold pins, from the viewport's top
+      const room = bar.current.offsetHeight + 8
+      const pushed = target.current.getBoundingClientRect().bottom + 8 - pin // how far the title's lower edge is below the pin
+      // The bar goes to the pin, or just under the title if that is lower; the hold itself may not be stuck yet.
+      bar.current.style.transform = `translateY(${Math.max(pin, pushed + pin) - hold.getBoundingClientRect().top}px)`
+      const opacity = 1 - Math.min(1, Math.max(0, (pushed - 1.2 * room) / (0.8 * room))) // gone well before the title is at rest, so it never covers the byline
+      bar.current.style.opacity = opacity
+      bar.current.style.visibility = opacity <= 0 ? 'hidden' : 'visible'
+      setHeaderTitle(pushed <= 0 ? title : null)
+    }
+    update()
+    window.addEventListener('scroll', update, { passive: true })
+    window.addEventListener('resize', update)
+    return () => {
+      window.removeEventListener('scroll', update)
+      window.removeEventListener('resize', update)
+      setHeaderTitle(null)
+    }
+  }, [target, title])
   return (
     <div className={styles.stickyHold} aria-hidden="true">
-      <AnimatePresence>
-        {away && (
-          <motion.div
-            className={styles.sticky}
-            initial={reduce ? { opacity: 0 } : { opacity: 0, y: -8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={reduce ? { opacity: 0 } : { opacity: 0, y: -8 }}
-            transition={{ duration: duration.fast, ease: easeOut }}
-          >
-            <span className={styles.stickyName}>{title}</span>
-            <span className={styles.stickyScore}>
-              {score}/{total}
-            </span>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <div ref={bar} className={styles.sticky} style={{ visibility: 'hidden' }}>
+        <span className={styles.stickyName}>{title}</span>
+        <span className={styles.stickyScore}>
+          {score}/{total}
+        </span>
+      </div>
     </div>
   )
 }

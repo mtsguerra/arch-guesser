@@ -1,0 +1,92 @@
+/* The options button shows on phones only; the sheet it opens is a bottom sheet. */
+.button {
+  composes: hit from '../../styles/hit.module.css';
+  display: none;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: var(--hairline) solid var(--paper-rule);
+  border-radius: 50%;
+  background: color-mix(in oklab, var(--paper) 82%, transparent);
+  backdrop-filter: blur(10px) saturate(1.2);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.button svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+
+@media (max-width: 640px) {
+  .button {
+    display: grid;
+  }
+}
+
+.sheet {
+  --rail-ink: var(--ink);
+  --toggle-size: 2.75rem;
+  margin: auto 0 0;
+  width: 100%;
+  max-width: none;
+  max-height: 90dvh;
+  overflow-y: auto;
+  padding: var(--space-2) var(--space-5) calc(var(--space-5) + env(safe-area-inset-bottom));
+  border: 0;
+  border-radius: 1.25rem 1.25rem 0 0;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 -0.5rem 2rem rgb(0 0 0 / 0.3);
+  animation: sheetUp 0.34s var(--ease-out);
+}
+
+.sheet::backdrop {
+  background: rgb(36 32 36 / 0.55);
+}
+
+@keyframes sheetUp {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet {
+    animation: none;
+  }
+}
+
+.handle {
+  display: block;
+  width: 2.5rem;
+  height: 0.25rem;
+  margin: 0 auto var(--space-3);
+  border-radius: 999px;
+  background: var(--paper-rule);
+}
+
+.title {
+  margin-bottom: var(--space-2);
+  font-size: var(--text-md);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 3.5rem;
+  border-bottom: var(--hairline) solid var(--paper-rule);
+  font-weight: 600;
+}
+
+.done {
+  width: 100%;
+  margin-top: var(--space-4);
+}

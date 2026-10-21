@@ -1,5 +1,5 @@
 import { Eye } from 'lucide-react'
-import { motion, useReducedMotion } from 'motion/react'
+import { motion } from 'motion/react'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { dailyNumber, shareText } from '../../game/daily.js'
 import { useCountdown } from '../../game/useCountdown.js'
@@ -7,6 +7,7 @@ import { useStrings } from '../../i18n.js'
 import { RollingNumber } from '../ui/RollingNumber.jsx'
 import { ShareMenu } from '../layout/DailyShare.jsx'
 import styles from './DailyCard.module.css'
+import { useReducedMotion } from '../../motionPref.js'
 
 /**
  * The Daily's result as a drafting title block: the score on the left, one ruled row per guess with a

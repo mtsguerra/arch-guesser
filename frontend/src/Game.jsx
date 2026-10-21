@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
+import { AnimatePresence, motion } from 'motion/react'
 import { ChevronDown } from 'lucide-react'
 import { CheckIcon, LayoutGridIcon, ShuffleIcon } from './components/ui/icons.jsx'
 import { dailyNumber } from './game/daily.js'
@@ -18,6 +18,7 @@ import { SlimButton } from './components/layout/SlimButton.jsx'
 import { Round } from './components/layout/Round.jsx'
 import { Button } from './components/ui/Button.jsx'
 import styles from './App.module.css'
+import { useReducedMotion } from './motionPref.js'
 
 // Sheet swap: the old drawing set is pulled off the mat, the new one is laid down
 // as a drafting line wipes across it.

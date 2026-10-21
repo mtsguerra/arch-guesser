@@ -1,6 +1,6 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { AnimatePresence, motion, useAnimationControls } from 'motion/react'
-import { Check, Eye, X } from 'lucide-react'
+import { Check, Eye, Target, X } from 'lucide-react'
 import { CheckIcon } from '../ui/icons.jsx'
 import { GUESS_FIELDS } from '../../game/matchGuess.js'
 import { eraName } from '../../game/useEras.js'
@@ -93,7 +93,7 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
         <span className={styles.badge} aria-hidden="true">
           {locked && (
             <motion.span
-                            // Stamped down: lands a little big and crooked, then settles.
+              // Stamped down: lands a little big and crooked, then settles.
               initial={{ scale: 1.8, rotate: -14, opacity: 0 }}
               animate={{ scale: 1, rotate: 0, opacity: 1 }}
               transition={{ type: 'spring', stiffness: 380, damping: 16, delay: 0.25 }}
@@ -107,18 +107,19 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, chil
       </div>
 
       <AnimatePresence initial={false}>
-        {status === 'wrong' && !revealed && (
+        {(status === 'wrong' || status === 'close') && !revealed && (
           <motion.p
-            key="wrong"
+            key={status}
             id={messageId}
             className={styles.message}
+            data-kind={status}
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: duration.base, ease: easeOut }}
           >
-            <X aria-hidden="true" strokeWidth={2.25} />
-            {strings.guess.wrong}
+            {status === 'close' ? <Target aria-hidden="true" strokeWidth={2.25} /> : <X aria-hidden="true" strokeWidth={2.25} />}
+            {status === 'close' ? strings.guess.close : strings.guess.wrong}
           </motion.p>
         )}
       </AnimatePresence>
@@ -162,11 +163,12 @@ export function GuessForm({ building, eras, phase, fields, attempts, outcome, on
 
   const correctCount = GUESS_FIELDS.filter((f) => fields[f] === 'correct').length
   const wrongCount = GUESS_FIELDS.filter((f) => fields[f] === 'wrong').length
+  const closeCount = GUESS_FIELDS.filter((f) => fields[f] === 'close').length
 
   let status = ''
   if (revealed) status = outcome === 'solved' ? strings.guess.solved : strings.guess.gaveUp
   else if (nothingToCheck) status = strings.guess.nothingToCheck
-  else if (attempts > 0) status = strings.guess.result(correctCount, wrongCount)
+  else if (attempts > 0) status = strings.guess.result(correctCount, wrongCount, closeCount)
 
   const fieldProps = (field) => ({
     id: `${idPrefix}-${field}`,

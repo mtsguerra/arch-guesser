@@ -14,10 +14,9 @@ const GENERIC_WORDS = new Set([
 const MIN_WORD = 4
 
 /**
- * Eras that blur into each other, so a guess of either counts ("close enough").
- * The locked field then shows the canonical era, so the player still learns it.
- * Modernism, Brutalism and Contemporary overlap in practice. A building's era
- * is the style it is known for, not its date: late Niemeyer is Modernism.
+ * Eras that blur into each other. A guess of one for a building stored as the other is
+ * "close": the field stays open and the player is nudged to the more specific style.
+ * Each building stores exactly one era: the style it is known for, not its date.
  */
 const CLOSE_ERAS = [
   ['MODERNISM', 'BRUTALISM'],
@@ -36,9 +35,10 @@ const CLOSE_ERAS = [
   ['RUSSIAN', 'BYZANTINE'],
 ]
 
-export function eraMatches(guess, answer) {
+/** true (exactly the stored era), 'close' (a neighbouring one, either way round) or false. */
+export function judgeEra(guess, answer) {
   if (guess === answer) return true
-  return CLOSE_ERAS.some(([a, b]) => (guess === a && answer === b) || (guess === b && answer === a))
+  return CLOSE_ERAS.some(([a, b]) => (guess === a && answer === b) || (guess === b && answer === a)) ? 'close' : false
 }
 
 /**
@@ -67,7 +67,7 @@ export function matchesName(guess, names, { person = false } = {}) {
 
 /**
  * Scores the player's guess. Each field is true (correct), false (wrong) or
- * null (left empty, so not judged).
+ * null (left empty, so not judged); the era may also be 'close'.
  */
 export function evaluateGuess(building, values) {
   const judge = (value, isCorrect) => (String(value ?? '').trim() ? isCorrect(value) : null)
@@ -78,6 +78,6 @@ export function evaluateGuess(building, values) {
       building.architects.some((a) => matchesName(v, [a.name, ...a.aliases], { person: true })),
     ),
     country: judge(values.country, (v) => resolveCountryCode(v) === building.location.countryCode),
-    era: judge(values.era, (v) => eraMatches(v, building.era)),
+    era: judge(values.era, (v) => judgeEra(v, building.era)),
   }
 }

@@ -17,6 +17,7 @@
 /* The drawing stays pinned while the page scrolls, so hint photos and the
    summary can always be compared with the plan. */
 .boardSlot {
+  scroll-margin-top: calc(var(--rail-h) + var(--safe-top) + var(--space-3));
   position: sticky;
   top: calc(var(--rail-h) + var(--safe-top) + var(--space-5));
   display: grid;
@@ -57,6 +58,31 @@
   .aside {
     max-width: 36rem;
   }
+}
+
+/* Drawings folded: only the summary shows (the board stays mounted, hidden, so it opens at once). */
+.summaryLayout:not([data-expanded]) {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+.summaryLayout:not([data-expanded]) .boardSlot {
+  display: contents;
+}
+
+.summaryLayout:not([data-expanded]) .boardAction {
+  order: 1;
+}
+
+/* Drawings expanded: the board takes the full width above the summary, which stays where it is below it. */
+.summaryLayout[data-expanded] {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.summaryLayout[data-expanded] .boardSlot {
+  position: static;
+  order: 0;
 }
 
 /* Narrow: the summary leads; the board follows as a reference. */

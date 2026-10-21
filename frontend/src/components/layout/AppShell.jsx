@@ -3,11 +3,15 @@ import { motion } from 'motion/react'
 import { springSoft } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { LanguageSwitch } from './LanguageSwitch.jsx'
+import { Options } from './Options.jsx'
+import { MotionNote } from './MotionNote.jsx'
+import { MotionToggle } from './MotionToggle.jsx'
 import { SoundToggle } from './SoundToggle.jsx'
 import { ThemeToggle } from './ThemeToggle.jsx'
 import { PageBackground } from './PageBackground.jsx'
 import { useAutoHide } from './autoHide.js'
 import styles from './AppShell.module.css'
+import { useHeaderTitle } from '../../headerTitle.js'
 
 function PlanMark() {
   return (
@@ -35,6 +39,7 @@ function PlanMark() {
  */
 export function AppShell({ actions, place, brand = 'always', floating = false, slim = false, menu, bottomBar, children }) {
   const strings = useStrings()
+  const title = useHeaderTitle()
   // The rail's edge only appears once content scrolls under it.
   const [scrolled, setScrolled] = useState(false)
   const [pastHero, setPastHero] = useState(false)
@@ -67,7 +72,7 @@ export function AppShell({ actions, place, brand = 'always', floating = false, s
         inert={hidden || undefined}
       >
         <div className={styles.slimLeft}>{menu}</div>
-        <a className={styles.slimBrand} href="#/" aria-label={strings.appName}>
+        <a className={styles.slimBrand} href="#/" aria-label={strings.appName} data-away={title ? true : undefined}>
           <PlanMark />
           {place && <span>{place}</span>}
         </a>
@@ -76,8 +81,10 @@ export function AppShell({ actions, place, brand = 'always', floating = false, s
           <span className={styles.tools}>
             <ThemeToggle />
             <SoundToggle />
+            <MotionToggle />
             <LanguageSwitch />
           </span>
+          <Options />
         </div>
       </motion.header>
     </>
@@ -86,6 +93,7 @@ export function AppShell({ actions, place, brand = 'always', floating = false, s
   return (
     <div className={styles.shell} data-slim={slim || undefined} data-floating={floating || undefined} data-bottom-bar={bottomBar}>
       <PageBackground />
+      <MotionNote />
       {header}
       {!slim && <header className={styles.rail} data-scrolled={scrolled || undefined}>
         {place && <span className={styles.place}>{place}</span>}
@@ -98,9 +106,13 @@ export function AppShell({ actions, place, brand = 'always', floating = false, s
         </a>
         <div className={styles.actions}>
           {actions}
-          <ThemeToggle />
-          <SoundToggle />
-          <LanguageSwitch />
+          <span className={styles.toggles}>
+            <ThemeToggle />
+            <SoundToggle />
+            <MotionToggle />
+            <LanguageSwitch />
+          </span>
+          <Options />
         </div>
       </header>}
       <main className={styles.main}>{children}</main>

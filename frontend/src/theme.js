@@ -20,7 +20,6 @@ function apply(theme) {
   window.dispatchEvent(new Event('themechange'))
 }
 
-const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
 
 /**
  * Switches the theme and remembers the choice. With `origin` (the button that was pressed), the new
@@ -32,7 +31,7 @@ export function setTheme(theme, origin) {
   } catch {
     // Not remembered, but still switched.
   }
-  if (!origin || reducedMotion() || !document.startViewTransition) return apply(theme)
+  if (!origin || !document.startViewTransition) return apply(theme)
 
   const box = origin.getBoundingClientRect()
   const x = box.left + box.width / 2

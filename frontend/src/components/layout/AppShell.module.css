@@ -270,6 +270,17 @@
   white-space: nowrap;
 }
 
+/* The summary's slim title takes this spot on wide screens while its real title is scrolled away. */
+@media (min-width: 641px) {
+  .slimBrand {
+    transition: opacity var(--dur-fast) var(--ease-out);
+  }
+
+  .slimBrand[data-away] {
+    opacity: 0;
+  }
+}
+
 .slimBrand .mark {
   width: 1.4rem;
   height: 1.4rem;
@@ -466,5 +477,17 @@
     grid-column: 2;
     align-self: start;
     margin-top: 0.75rem; /* stays where it was while the logo sits lower */
+  }
+}
+
+/* The header's controls sit loose in the rail on wide screens; on phones they move into the options sheet (Options.jsx). */
+.toggles {
+  display: contents;
+}
+
+@media (max-width: 640px) {
+  .toggles,
+  .tools {
+    display: none;
   }
 }

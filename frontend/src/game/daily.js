@@ -34,7 +34,7 @@ export function formatCountdown(ms) {
   return `${String(Math.floor(minutes / 60)).padStart(2, '0')}:${String(minutes % 60).padStart(2, '0')}`
 }
 
-const STATUSES = ['idle', 'wrong', 'correct']
+const STATUSES = ['idle', 'wrong', 'close', 'correct']
 const count = (n) => Number.isInteger(n) && n >= 0
 
 // A saved result goes straight to the reveal, so a damaged one is ignored rather than trusted.

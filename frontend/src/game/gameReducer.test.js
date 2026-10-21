@@ -65,6 +65,14 @@ describe('guessing', () => {
     expect(gameReducer(state, { type: 'guess/edit', field: 'name' })).toBe(state)
   })
 
+  it('marks a close era without locking it, and clears it on edit', () => {
+    let state = submit(playing(), { era: 'close' })
+    expect(state.fields.era).toBe('close')
+    expect(state.log).toEqual([])
+    state = gameReducer(state, { type: 'guess/edit', field: 'era' })
+    expect(state.fields.era).toBe('idle')
+  })
+
   it('logs wrong guesses once each, skipping blanks and correct fields', () => {
     const send = (state, results, values) => gameReducer(state, { type: 'guess/submit', results, values })
     let state = send(playing(), { name: false, architect: true, country: false }, { name: ' Villa X ', architect: 'Le Corbusier', country: '' })

@@ -49,6 +49,15 @@ export default {
 
   theme: { toDark: 'Mudar para o tema escuro', toLight: 'Mudar para o tema claro' },
   sound: { turnOn: 'Ligar o som', turnOff: 'Desligar o som' },
+  options: { label: 'Opções', done: 'Concluir', sound: 'Som', theme: 'Tema', motion: 'Reduzir movimento' },
+  motion: {
+    reduce: 'Reduzir movimento',
+    restore: 'Restaurar movimento completo',
+    noteTitle: 'Movimento reduzido ativado',
+    noteText: 'Movimentos e transições estão desligados. Os desenhos continuam a ser traçados, pois são o coração do jogo.',
+    noteKeep: 'Entendi',
+    noteFull: 'Movimento completo',
+  },
 
   pull: { hint: 'Puxe para baixo para a próxima obra', release: 'Solte para a próxima obra' },
 
@@ -205,6 +214,7 @@ export default {
     },
     erasUnavailable: 'Não foi possível carregar as épocas',
     wrong: 'Não é esta. Edite ou peça uma dica.',
+    close: 'Quase! Tente o estilo mais específico.',
     correct: 'Correto',
     submit: 'Conferir palpite',
     giveUp: 'Revelar resposta',
@@ -212,9 +222,10 @@ export default {
     nothingToCheck: 'Preencha pelo menos um campo para conferir.',
     solved: 'Os quatro certos. Bela leitura.',
     gaveUp: 'Aqui está a resposta. Os campos que você acertou estão marcados.',
-    result: (correct, wrong) =>
+    result: (correct, wrong, close) =>
       [
         correct && `${correct} ${correct === 1 ? 'certo' : 'certos'}`,
+        close && `${close} quase`,
         wrong && `${wrong} ${wrong === 1 ? 'errado' : 'errados'}`,
       ]
         .filter(Boolean)
@@ -225,8 +236,8 @@ export default {
 
   summary: {
     label: 'Sobre esta obra',
-    showDrawings: 'Voltar aos desenhos',
-    showSummary: 'Ler sobre a obra',
+    showDrawings: 'Mostrar desenhos',
+    showSummary: 'Ocultar desenhos',
     facts: {
       location: 'Local',
       completed: 'Concluída',

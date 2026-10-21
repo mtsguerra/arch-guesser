@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { resolveCountryCode, suggestCountries } from './countries.js'
-import { eraMatches, evaluateGuess, matchesName } from './matchGuess.js'
+import { judgeEra, evaluateGuess, matchesName } from './matchGuess.js'
 import { normalize } from './text.js'
 import { salk, santIvo, villaSavoye } from './testBuildings.js'
 
@@ -92,9 +92,9 @@ describe('evaluateGuess', () => {
   })
 })
 
-describe('eraMatches', () => {
+describe('judgeEra', () => {
   it('accepts the exact era', () => {
-    expect(eraMatches('BAROQUE', 'BAROQUE')).toBe(true)
+    expect(judgeEra('BAROQUE', 'BAROQUE')).toBe(true)
   })
 
   it.each([
@@ -113,8 +113,8 @@ describe('eraMatches', () => {
     ['ISLAMIC', 'MEDIEVAL'],
     ['INDUSTRIAL', 'HISTORICISM'],
     ['RUSSIAN', 'BYZANTINE'],
-  ])('treats %s as close enough to %s', (guess, answer) => {
-    expect(eraMatches(guess, answer)).toBe(true)
+  ])('is %s close to %s (not correct)', (guess, answer) => {
+    expect(judgeEra(guess, answer)).toBe('close')
   })
 
   it.each([
@@ -129,11 +129,12 @@ describe('eraMatches', () => {
     ['EAST_ASIAN', 'INDIC'],
     ['ANCIENT_EGYPTIAN', 'CLASSICAL'],
   ])('rejects %s for %s', (guess, answer) => {
-    expect(eraMatches(guess, answer)).toBe(false)
+    expect(judgeEra(guess, answer)).toBe(false)
   })
 
   it('is used when judging a guess', () => {
-    expect(evaluateGuess(salk, { era: 'MODERNISM' }).era).toBe(true)
+    expect(evaluateGuess(salk, { era: 'BRUTALISM' }).era).toBe(true)
+    expect(evaluateGuess(salk, { era: 'MODERNISM' }).era).toBe('close')
     expect(evaluateGuess(santIvo, { era: 'RENAISSANCE' }).era).toBe(false)
   })
 })

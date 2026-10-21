@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useId, useLayoutEffect, useRef } from 'react'
-import { motion, useReducedMotion, useSpring, useTransform } from 'motion/react'
+import { motion, useSpring, useTransform } from 'motion/react'
 import styles from './MeltSelect.module.css'
+import { useReducedMotion } from '../../motionPref.js'
 
 // A fast pill leads and a slower one follows; the goo filter melts the two into one stretching blob.
 const LEAD = { stiffness: 420, damping: 38 }

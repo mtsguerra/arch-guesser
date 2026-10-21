@@ -1,6 +1,7 @@
 // Runs before the page paints (loaded in <head> without defer), so nothing flashes the wrong look:
 //  - the theme: the saved choice, else the system setting;
 //  - the root text scale, so a big or small window gets a proportionally sized page;
+//  - the motion setting (reduced or full);
 //  - "lite" for weak devices, which drops blur.
 // It is a file, not an inline script, because the Content-Security-Policy allows only 'self' scripts.
 (() => {
@@ -26,6 +27,16 @@
   }
   setScale()
   window.addEventListener('resize', setScale, { passive: true })
+
+  // "reduced" from the saved choice, else the system setting; the toggle changes it later (src/motionPref.js).
+  let motion = null
+  try {
+    motion = localStorage.getItem('arch-guesser:motion')
+  } catch {
+    // Storage blocked: follow the system.
+  }
+  const less = motion ? motion === 'reduced' : window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+  root.dataset.motion = less ? 'reduced' : 'full'
 
   const weak =
     navigator.hardwareConcurrency <= 4 || navigator.deviceMemory <= 4 || navigator.connection?.saveData === true

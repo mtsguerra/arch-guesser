@@ -1,8 +1,9 @@
+import { isReduced } from '../motionPref.js'
 // A short vibration for the few moments that earn one (a field locking, the reveal). Silent where
 // the Vibration API doesn't exist (iOS Safari, most desktops) and for people who asked for less motion.
 export function haptic(pattern) {
   if (typeof navigator === 'undefined' || !navigator.vibrate) return
-  if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return
+  if (isReduced()) return
   navigator.vibrate(pattern)
 }
 

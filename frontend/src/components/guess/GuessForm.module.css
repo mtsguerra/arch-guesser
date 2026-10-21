@@ -50,6 +50,10 @@
   box-shadow: inset 0 0 0 1.5px var(--accent);
 }
 
+.pip[data-status='close'] {
+  background: var(--camel);
+}
+
 .pip[data-status='revealed'] {
   background: color-mix(in oklab, var(--ink-soft) 40%, transparent);
 }
@@ -133,6 +137,21 @@
 
 .field[data-status='wrong'] .icon {
   color: var(--accent);
+}
+
+/* Close: a gold rule, a hint rather than an error */
+.field[data-status='close'] .input {
+  border-color: var(--camel);
+  box-shadow: 0 0 0 1px var(--camel);
+}
+
+.field[data-status='close'] .icon {
+  color: var(--russet);
+}
+
+.message[data-kind='close'],
+.message[data-kind='close'] svg {
+  color: var(--russet);
 }
 
 .answer {

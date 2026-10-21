@@ -4,6 +4,7 @@ import { useStrings } from '../../i18n.js'
 import { IconToggle } from './IconToggle.jsx'
 import { SpeakerIcon } from './SpeakerIcon.jsx'
 import styles from './SoundToggle.module.css'
+import { isReduced } from '../../motionPref.js'
 
 // The speaker squashes, overshoots and settles.
 const POP = [
@@ -21,7 +22,7 @@ export function SoundToggle() {
 
   const press = (event) => {
     toggleSound()
-    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return
+    if (isReduced()) return
     event.currentTarget.querySelector('[data-speaker-body]')?.animate(POP, {
       duration: 440,
       easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',

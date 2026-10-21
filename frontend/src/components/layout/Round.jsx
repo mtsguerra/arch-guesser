@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { AnimatePresence, LayoutGroup, motion } from 'motion/react'
 import { MapIcon } from '../ui/icons.jsx'
@@ -31,7 +31,12 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
   const revealed = phase === 'revealed'
   const [built, setBuilt] = useState(false)
   const [settled, setSettled] = useState(false) // the reveal build-up has finished fading out
-  const summary = revealed && view === 'summary'
+  const summary = revealed
+  const expanded = revealed && view === 'board' // the drawings grown to full width above the summary
+  const board = useRef(null)
+  useEffect(() => {
+    if (expanded) board.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [expanded])
 
   return (
     <LayoutGroup>
@@ -44,15 +49,15 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
         </AnimatePresence>,
         document.body,
       )}
-      <div className={summary ? styles.summaryLayout : styles.playLayout}>
-        <motion.div layout="position" transition={layoutTransition} className={styles.boardSlot}>
-          <motion.div layout transition={layoutTransition}>
+      <div className={summary ? styles.summaryLayout : styles.playLayout} data-expanded={expanded || undefined}>
+        <motion.div ref={board} layout="position" transition={layoutTransition} className={styles.boardSlot}>
+          <motion.div layout transition={layoutTransition} hidden={summary && !expanded}>
             <DrawingBoard building={building} revealed={revealed} fields={round.fields} />
           </motion.div>
           {summary ? (
             <motion.div {...fade} className={styles.boardAction}>
-              <Button variant="ghost" icon={MapIcon} onClick={() => onViewChange('board')}>
-                {strings.summary.showDrawings}
+              <Button variant="ghost" icon={MapIcon} onClick={() => onViewChange(expanded ? 'summary' : 'board')}>
+                {expanded ? strings.summary.showSummary : strings.summary.showDrawings}
               </Button>
             </motion.div>
           ) : (
