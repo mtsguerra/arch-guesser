@@ -108,6 +108,7 @@ export function MeltSelect({ label, options, value, onChange }) {
             aria-checked={i === index}
             tabIndex={i === index ? 0 : -1}
             className={styles.option}
+            data-sound="pick"
             onClick={() => onChange(option.value)}
           >
             {option.icon}

@@ -8,6 +8,7 @@ import { recordReveal } from './progress.js'
 import { centuriesIn } from './dates.js'
 import { advanceThemedSession, erasIn, fieldsFor, readThemedSession, themePool } from './themed.js'
 import { evaluateGuess } from './matchGuess.js'
+import { turn } from './sound.js'
 import { readSeen, recordSeen } from './seenBuildings.js'
 
 /**
@@ -97,7 +98,10 @@ export function useGameRound(mode = 'normal') {
   }, [mode])
 
   // Next building (in a custom session: the next one); `reload` retries the current one.
-  const loadNext = useCallback(() => load(true), [load])
+  const loadNext = useCallback(() => {
+    turn()
+    load(true)
+  }, [load])
   const reload = useCallback(() => load(false), [load])
 
   useEffect(() => {

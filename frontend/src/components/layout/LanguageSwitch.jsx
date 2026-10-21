@@ -27,6 +27,7 @@ export function LanguageSwitch() {
             lang={code}
             aria-pressed={on}
             aria-label={name}
+            data-sound="toggle"
             onClick={() => setLang(code)}
           >
             {on && <motion.span layoutId={`${id}-lit`} className={styles.lit} transition={springSoft} />}

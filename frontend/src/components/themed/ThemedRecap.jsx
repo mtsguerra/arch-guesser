@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { done } from '../../game/sound.js'
 import { RotateIcon, SlidersIcon } from '../ui/icons.jsx'
 import { fetchCatalogue } from '../../api/buildings.js'
 import { readThemedSession, startThemedSession, themePool } from '../../game/themed.js'
@@ -26,6 +27,7 @@ function place(played) {
 export function ThemedRecap({ onAgain }) {
   const strings = useStrings()
   const { themed } = strings
+  useEffect(done, [])
   const session = readThemedSession()
   const played = session?.played ?? []
   const solved = played.filter((p) => p.solved).length

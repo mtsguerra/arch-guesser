@@ -12,7 +12,8 @@ import { Credit } from '../ui/Credit.jsx'
 import { countryName } from '../../game/countries.js'
 import { DailyCard } from './DailyCard.jsx'
 import styles from './BuildingSummary.module.css'
-import { useReducedMotion } from '../../motionPref.js'
+import { isReduced, useReducedMotion } from '../../motionPref.js'
+import { hatchScore, signScore } from '../../game/sound.js'
 import { setHeaderTitle } from '../../headerTitle.js'
 
 // The monograph unfolds section by section as the board steps back.
@@ -57,7 +58,7 @@ function FactStrip({ building, era }) {
 
 /** The row's diagonal hatching (45 degrees, a line every 7px across, 2px thick), drawn stroke by stroke from left to right. */
 const HATCH_GAP = 7 * Math.SQRT2 // 7px between lines, measured across them
-function Hatch({ row }) {
+function Hatch({ row, play }) {
   const root = useRef(null)
   const [size, setSize] = useState(null)
   useEffect(() => {
@@ -70,6 +71,12 @@ function Hatch({ row }) {
     return () => observer.disconnect()
   }, [])
   const strokes = size ? Array.from({ length: Math.ceil((size.w + size.h) / HATCH_GAP) + 1 }, (_, i) => i * HATCH_GAP - size.h) : []
+  // The scratch follows the drawing: the CSS starts the strokes 0.9 s plus 0.15 s a row after the sheet is allowed to play.
+  const count = strokes.length
+  useEffect(() => {
+    if (!play || !count || isReduced()) return undefined
+    return hatchScore(0.9 + row * 0.15, count, row)
+  }, [play, count, row])
   return (
     <svg ref={root} className={styles.hatch} viewBox={size ? `0 0 ${size.w} ${size.h}` : undefined} aria-hidden="true" style={{ '--row': row }}>
       {size &&
@@ -120,7 +127,11 @@ function SignOff({ play }) {
         nib.current.style.opacity = p > 0 && p < 1 ? 1 : 0
       },
     })
-    return () => controls.stop()
+    const stopSound = signScore(SIGN_DELAY, SIGN_TIME)
+    return () => {
+      controls.stop()
+      stopSound()
+    }
   }, [size, play, reduce])
 
   return (
@@ -139,7 +150,7 @@ function SignOff({ play }) {
 }
 
 /** Your guess against the answer, one ruled row per field. */
-function Recap({ building, era, eras, fields, log, outcome }) {
+function Recap({ building, era, eras, fields, log, outcome, play }) {
   const strings = useStrings()
   const { lang } = useLanguage()
   const { location } = building
@@ -168,7 +179,7 @@ function Recap({ building, era, eras, fields, log, outcome }) {
           const guess = typed(field)
           return (
             <li key={field} className={got ? styles.got : styles.missed} style={{ '--row': names.indexOf(field) }}>
-              {got && <Hatch row={names.indexOf(field)} />}
+              {got && <Hatch row={names.indexOf(field)} play={play} />}
               <span className={styles.recapField}>{strings.guess.fields[field]}</span>
               <Icon className={styles.recapIcon} aria-hidden="true" strokeWidth={2.25} />
               <span className={styles.recapAnswer}>
@@ -424,7 +435,7 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
       </motion.div>
 
       <motion.div variants={section}>
-        {daily ? <DailyCard daily={daily} play={play} /> : <Recap building={building} era={era} eras={eras} fields={fields} log={log} outcome={outcome} />}
+        {daily ? <DailyCard daily={daily} play={play} /> : <Recap building={building} era={era} eras={eras} fields={fields} log={log} outcome={outcome} play={play} />}
       </motion.div>
 
       <motion.div className={styles.reading} variants={section}>

@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'motion/react'
 import { MAX_ROUNDS, MIN_ROUNDS } from '../../game/custom.js'
 import { VIEW_W, colonnade } from '../../game/colonnade.js'
+import { roundStep } from '../../game/sound.js'
 import { springSoft } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { RollingText } from '../ui/RollingNumber.jsx'
@@ -40,6 +41,7 @@ export function RoundsSlider({ value, all, onChange, last, onLast }) {
           style={{ '--p': `${pct}%` }}
           onChange={(e) => {
             const n = Number(e.target.value)
+            roundStep((n - MIN_ROUNDS) / (MAX_ROUNDS - MIN_ROUNDS))
             onLast(n)
             onChange(n)
           }}
@@ -47,7 +49,7 @@ export function RoundsSlider({ value, all, onChange, last, onLast }) {
         <output className={styles.number} aria-hidden="true">
           <RollingText value={isAll ? all : last} format={String} />
         </output>
-        <button type="button" className={styles.all} aria-pressed={isAll} onClick={() => onChange(isAll ? last : 'all')}>
+        <button type="button" className={styles.all} data-sound="choose" aria-pressed={isAll} onClick={() => onChange(isAll ? last : 'all')}>
           {custom.all(all)}
         </button>
       </div>

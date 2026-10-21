@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import { done } from '../../game/sound.js'
 import { RotateIcon, SlidersIcon } from '../ui/icons.jsx'
 import { fetchCatalogue } from '../../api/buildings.js'
 import { filterPool, readSession, startSession } from '../../game/custom.js'
@@ -8,6 +10,7 @@ import styles from './Recap.module.css'
 /** The end of a custom session: what was played, with a way to read more, and what to do next. */
 export function Recap({ onAgain }) {
   const { custom } = useStrings()
+  useEffect(done, [])
   const session = readSession()
   const played = session?.played ?? []
 

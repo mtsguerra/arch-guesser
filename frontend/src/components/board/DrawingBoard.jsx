@@ -230,6 +230,7 @@ export function DrawingBoard({ building, revealed, fields }) {
                 <button
                   type="button"
                   className={`${styles.arrow} ${styles.prev}`}
+                  data-sound="sheet"
                   onClick={() => step(-1)}
                   aria-label={strings.board.previous}
                 >
@@ -238,6 +239,7 @@ export function DrawingBoard({ building, revealed, fields }) {
                 <button
                   type="button"
                   className={`${styles.arrow} ${styles.next}`}
+                  data-sound="sheet"
                   onClick={() => step(1)}
                   aria-label={strings.board.next}
                 >
@@ -268,6 +270,7 @@ export function DrawingBoard({ building, revealed, fields }) {
                     aria-label={`${s.number} ${s.label}`}
                     tabIndex={selected ? 0 : -1}
                     className={`${styles.thumb} ${selected ? styles.thumbOn : ''}`}
+                    data-sound="sheet"
                     data-kind={s.kind}
                     onClick={() => select(i)}
                   >

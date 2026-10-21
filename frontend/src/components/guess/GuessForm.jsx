@@ -8,7 +8,7 @@ import { duration, easeOut } from '../../motion.js'
 import { useReducedMotion } from '../../motionPref.js'
 import { RollingNumber } from '../ui/RollingNumber.jsx'
 import { REVEAL, TICK, haptic } from '../../game/haptics.js'
-import { chime, scratch, tick } from '../../game/sound.js'
+import { close, dial, lock, nothing, wrong } from '../../game/sound.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { countryName } from '../../game/countries.js'
 import { Button } from '../ui/Button.jsx'
@@ -68,9 +68,12 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, dial
   useEffect(() => {
     if (status === 'wrong') {
       controls.start(shake)
-      scratch()
+      wrong()
     }
-    if (status === 'close') controls.start({ scale: [1, 1.02, 1], transition: { duration: 0.4, ease: easeOut } })
+    if (status === 'close') {
+      controls.start({ scale: [1, 1.02, 1], transition: { duration: 0.4, ease: easeOut } })
+      close()
+    }
   }, [status, attempts, controls])
 
   const locked = status === 'correct'
@@ -80,7 +83,7 @@ function Field({ id, field, icon: Icon, status, attempts, revealed, answer, dial
     if (locked && !wasLocked.current) {
       controls.start({ scale: [1, 1.025, 1], transition: { duration: 0.4, ease: easeOut } })
       haptic(TICK)
-      tick()
+      lock()
     }
     wasLocked.current = locked
   }, [locked, controls])
@@ -162,19 +165,20 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
   const [values, setValues] = useState(() => Object.fromEntries(names.map((f) => [f, ''])))
   const reduce = useReducedMotion()
   const [nothingToCheck, setNothingToCheck] = useState(false)
+  const [nudges, setNudges] = useState(0)
   const revealed = phase === 'revealed'
 
   const wasRevealed = useRef(revealed)
   useEffect(() => {
     if (revealed && !wasRevealed.current) {
       haptic(REVEAL)
-      chime()
     }
     wasRevealed.current = revealed
   }, [revealed])
 
   function update(field, value) {
     // A new century clears the decade picked inside the old one.
+    if (field === 'century' || field === 'decade') dial()
     setValues((v) => ({ ...v, [field]: value, ...(field === 'century' && { decade: '' }) }))
     setNothingToCheck(false)
     onEdit(field)
@@ -184,7 +188,11 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
   function handleSubmit(event) {
     event.preventDefault()
     const open = names.filter((f) => fields[f] !== 'correct')
-    if (!open.some((f) => values[f].trim())) return setNothingToCheck(true)
+    if (!open.some((f) => values[f].trim())) {
+      nothing()
+      setNudges((n) => n + 1) // shakes the message again on every press
+      return setNothingToCheck(true)
+    }
     onSubmit(values)
   }
 
@@ -340,16 +348,16 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
           <Fragment key={name}>{inputs[name]}</Fragment>
         ))}
 
-        <p className={styles.status} role="status">
+        <motion.p key={nudges} className={styles.status} role="status" animate={nothingToCheck && !reduce ? shake : undefined}>
           {status}
-        </p>
+        </motion.p>
 
         {!revealed && (
           <div className={styles.actions}>
             <Button type="submit" icon={CheckIcon} className={styles.primary}>
               {strings.guess.submit}
             </Button>
-            <Button variant="quiet" icon={RevealIcon} onClick={onGiveUp}>
+            <Button variant="quiet" icon={RevealIcon} data-sound="unveil" onClick={onGiveUp}>
               {strings.guess.giveUp}
             </Button>
           </div>

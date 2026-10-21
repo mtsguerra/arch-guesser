@@ -94,7 +94,7 @@ export function DailyTeaser() {
             </div>
           </div>
           <p className={styles.text}>{t.text}</p>
-          <a className={styles.cta} href="#/daily">
+          <a className={styles.cta} href="#/daily" data-sound="start">
             {t.play} <ArrowRightIcon className={styles.arrow} strokeWidth={1.75} />
           </a>
         </>

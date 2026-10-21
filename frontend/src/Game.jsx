@@ -11,6 +11,7 @@ import { usePullToNext } from './game/usePullToNext.js'
 import { useGameRound } from './game/useGameRound.js'
 import { duration, easeOut, springSoft } from './motion.js'
 import { useStrings } from './i18n.js'
+import { stamp } from './game/sound.js'
 import { AppShell } from './components/layout/AppShell.jsx'
 import { BoardStatus } from './components/board/BoardStatus.jsx'
 import { RevealBar } from './components/layout/RevealBar.jsx'
@@ -86,6 +87,12 @@ export default function Game({ mode = 'normal' }) {
   const { phase, building } = round
   const loading = phase === 'loading'
   const revealed = phase === 'revealed'
+  // The Daily's result card lands a moment after the reveal overlay clears.
+  useEffect(() => {
+    if (!(daily && revealed)) return undefined
+    const timer = setTimeout(stamp, 1600)
+    return () => clearTimeout(timer)
+  }, [daily, revealed])
 
   // Drawings or summary after the reveal; it starts on the summary for each building.
   const [viewFor, setViewFor] = useState({ id: null, view: 'summary' })

@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { Lock } from 'lucide-react'
 import { BulbIcon } from '../ui/icons.jsx'
+import { hint as hintSound } from '../../game/sound.js'
 import { useStrings } from '../../i18n.js'
 import FlipCard from '../ui/FlipCard.jsx'
 import styles from './HintTray.module.css'
@@ -41,7 +42,7 @@ export function HintTray({ hints, hintLevel, canReveal, onReveal }) {
                 flipped={open}
                 // Only the next slot is live; open and locked ones stay put so hints open in order.
                 disabled={!next}
-                onFlipChange={next ? onReveal : undefined}
+                onFlipChange={next ? (...args) => { hintSound(); onReveal(...args) } : undefined}
                 ariaLabel={next ? strings.hints.show(i + 1, hints.length) : strings.hints.label(i + 1)}
                 draggable={false}
                 tiltMax={6}

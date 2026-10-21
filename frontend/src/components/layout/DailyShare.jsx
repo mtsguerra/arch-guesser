@@ -1,6 +1,7 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { useStrings } from '../../i18n.js'
+import { copied as copiedSound } from '../../game/sound.js'
 import { springSoft } from '../../motion.js'
 import { Button } from '../ui/Button.jsx'
 import { CheckIcon, CopyIcon, ExternalIcon } from '../ui/icons.jsx'
@@ -16,6 +17,7 @@ function useShareActions(text) {
     try {
       await navigator.clipboard.writeText(text)
       setCopied(true)
+      copiedSound()
       setTimeout(() => setCopied(false), 2000)
     } catch {
       // Clipboard blocked (insecure context or permissions): the other ways still work.

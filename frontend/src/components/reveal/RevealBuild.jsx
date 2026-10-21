@@ -2,6 +2,7 @@ import { useEffect, useEffectEvent } from 'react'
 import { motion } from 'motion/react'
 import { useStrings } from '../../i18n.js'
 import { easeOut, springSoft } from '../../motion.js'
+import { revealScore } from '../../game/sound.js'
 import { silhouetteFor } from './silhouettes.js'
 import styles from './RevealBuild.module.css'
 
@@ -14,19 +15,22 @@ const TOTAL_MS = 4400
 export function RevealBuild({ building, onDone, solved = false }) {
   const strings = useStrings()
   const settle = useEffectEvent(onDone)
+  const { name, architects, location, yearCompleted, era } = building
+  const { strokes, mass } = silhouetteFor(era)
+  const score = useEffectEvent(() => revealScore(strokes, solved, name.length))
 
   useEffect(() => {
     const timer = setTimeout(settle, TOTAL_MS)
+    const stopSound = score()
     const onKey = (event) => event.key === 'Escape' && settle()
     window.addEventListener('keydown', onKey)
     return () => {
       clearTimeout(timer)
+      stopSound()
       window.removeEventListener('keydown', onKey)
     }
   }, [])
 
-  const { name, architects, location, yearCompleted, era } = building
-  const { strokes, mass } = silhouetteFor(era)
   const place = [location.city, location.country].filter(Boolean).join(', ')
   const meta = [place, yearCompleted].filter(Boolean).join(' · ')
 

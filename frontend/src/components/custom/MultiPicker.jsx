@@ -44,7 +44,7 @@ export function MultiPicker({ kind, label, placeholder, emptyText, rows, selecte
   }, [open])
 
   const chip = (key) => (
-    <button type="button" className={styles.chip} onClick={() => toggle(key)}>
+    <button type="button" className={styles.chip} data-sound="choose" onClick={() => toggle(key)}>
       {byKey.get(key)?.label ?? key}
       <XIcon className={styles.x} aria-label="×" strokeWidth={2} />
     </button>
@@ -101,6 +101,7 @@ export function MultiPicker({ kind, label, placeholder, emptyText, rows, selecte
             <button
               type="button"
               className={styles.row}
+              data-sound="choose"
               aria-pressed={selected.includes(row.key)}
               onClick={() => toggle(row.key)}
             >

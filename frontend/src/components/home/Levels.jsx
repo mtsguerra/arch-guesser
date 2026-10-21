@@ -103,6 +103,8 @@ export function Levels({ modes }) {
             <a
               className={styles.link}
               href={mode.href}
+              data-sound={mode.soon ? undefined : 'start'}
+              data-sound-hover="level"
               role={mode.soon ? 'link' : undefined}
               aria-disabled={mode.soon || undefined}
               tabIndex={mode.soon ? 0 : undefined}
