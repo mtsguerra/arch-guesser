@@ -1,0 +1,64 @@
+/* The note is placed against the nearest positioned ancestor, so it can span the width of its row. */
+.button {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  transition: color var(--dur-fast) var(--ease-out);
+}
+
+.button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* A bigger target than the drawn icon. */
+.button::after {
+  content: '';
+  position: absolute;
+  inset: -0.625rem;
+}
+
+.button:hover,
+.tip[data-open] .button {
+  color: var(--accent);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.pop {
+  position: absolute;
+  top: calc(100% + var(--space-2));
+  left: 0;
+  z-index: 20;
+  display: none;
+  width: min(20rem, calc(100vw - 2 * var(--gutter)));
+  padding: var(--space-3) var(--space-4);
+  border: 2px solid var(--paper-rule);
+  background: var(--paper);
+  box-shadow: 0.25rem 0.25rem 0 color-mix(in oklab, var(--accent) 18%, transparent);
+  color: var(--ink);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-transform: none;
+  line-height: 1.45;
+  white-space: normal;
+}
+
+.tip:hover .pop,
+.tip:focus-within .pop,
+.tip[data-open] .pop {
+  display: grid;
+  gap: var(--space-2);
+}

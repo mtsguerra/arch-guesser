@@ -21,14 +21,6 @@
   gap: var(--space-2);
 }
 
-/* The logo floats at the top left on a wide window: the heading sits beside it. */
-@media (min-width: 1025px) {
-  .intro {
-    padding-left: 7rem;
-    min-height: 5rem;
-  }
-}
-
 .eyebrow {
   font-size: var(--text-2xs);
   font-weight: 750;

@@ -16,7 +16,8 @@ import { springSoft } from '../../motion.js'
 import { useLanguage, useStrings } from '../../i18n.js'
 import { useFitToScreen } from '../home/useFitToScreen.js'
 import { AppShell } from '../layout/AppShell.jsx'
-import { MenuButton } from '../layout/MenuButton.jsx'
+import { menuSlots } from '../layout/menuSlots.jsx'
+import { InfoTip } from '../ui/InfoTip.jsx'
 import { Button } from '../ui/Button.jsx'
 import { CompassIcon, GlobeClockIcon, GlobeIcon, HourglassIcon } from '../ui/InstrumentIcons.jsx'
 import { MeltSelect } from '../ui/MeltSelect.jsx'
@@ -68,7 +69,17 @@ export function CustomSetup() {
   }
 
   return (
-    <AppShell place={strings.places.custom} actions={<MenuButton />} floating>
+    <AppShell
+      place={strings.places.custom}
+      slim
+      {...menuSlots(strings.menu)}
+      info={
+        <InfoTip label={custom.info.label}>
+          <strong>{custom.info.title}</strong>
+          <span>{custom.info.what}</span>
+        </InfoTip>
+      }
+    >
       <div className={styles.setup}>
         <header className={styles.intro}>
           <p className={styles.eyebrow}>{custom.sheet} · {strings.titleBlock.sheetOf(1, 1)}</p>
@@ -140,7 +151,7 @@ export function CustomSetup() {
           </p>
           {/* Keyed on readiness so unlocking Start gives it a small settle. */}
           <motion.div key={ready} className={ready ? styles.go : undefined} initial={ready ? { scale: 0.92 } : false} animate={{ scale: 1 }} transition={springSoft}>
-            <Button icon={PlayIcon} disabled={!ready} onClick={start}>
+            <Button icon={PlayIcon} disabled={!ready} data-sound="start" onClick={start}>
               {custom.start}
             </Button>
           </motion.div>

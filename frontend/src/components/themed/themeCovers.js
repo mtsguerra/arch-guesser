@@ -1,0 +1,23 @@
+/** One famous building per theme, shown blurred behind the theme in the Themed menu (330px Wikimedia Commons thumbnails, the first exterior photo of the building). */
+export const THEME_COVERS = {
+  'castles': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Neuschwanstein_Castle_2025.jpg/330px-Neuschwanstein_Castle_2025.jpg',
+  'churches-cathedrals': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cath%C3%A9drale_Notre-Dame_de_Paris_%28Ank_Kumar%2CInfosys%29_01.jpg/330px-Cath%C3%A9drale_Notre-Dame_de_Paris_%28Ank_Kumar%2CInfosys%29_01.jpg',
+  'mosques': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sultan_Ahmed_Mosque_2022_3.jpg/330px-Sultan_Ahmed_Mosque_2022_3.jpg',
+  'monasteries': 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Melk_Abbey_%284%29.jpg/330px-Melk_Abbey_%284%29.jpg',
+  'palaces': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Palacio_de_Versalles%2C_Par%C3%ADs%2C_Francia%2C_2026-04-04%2C_DD_58.jpg/330px-Palacio_de_Versalles%2C_Par%C3%ADs%2C_Francia%2C_2026-04-04%2C_DD_58.jpg',
+  'museums': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bilbao_-_Gug.jpg/330px-Bilbao_-_Gug.jpg',
+  'theatres-opera': 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/NZ7_2340_%2840056091673%29.jpg/330px-NZ7_2340_%2840056091673%29.jpg',
+  'railway-stations': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/GCT_exterior.jpg/330px-GCT_exterior.jpg',
+  'bridges-towers': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/330px-Tour_Eiffel_Wikimedia_Commons.jpg',
+  'skyscrapers': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Chrysler_Building_%281%29_09.jpg/330px-Chrysler_Building_%281%29_09.jpg',
+  'libraries': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Exterior_view._View_of_approaches_from_the_west_fa%C3%A7ade_of_the_Jefferson_Building._Library_of_Congress_Thomas_Jefferson_Building%2C_Washington%2C_D.C._%28LOC%29.jpg/330px-Exterior_view._View_of_approaches_from_the_west_fa%C3%A7ade_of_the_Jefferson_Building._Library_of_Congress_Thomas_Jefferson_Building%2C_Washington%2C_D.C._%28LOC%29.jpg',
+  'houses-villas': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Frank_Lloyd_Wright_-_Mill_Run%2C_PA_-_Fallingwater_%28A%29.jpg/330px-Frank_Lloyd_Wright_-_Mill_Run%2C_PA_-_Fallingwater_%28A%29.jpg',
+  'stadiums': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Rio_de_Janeiro_Maracan%C3%A3_Stadium_5.jpg/330px-Rio_de_Janeiro_Maracan%C3%A3_Stadium_5.jpg',
+  'asian-temples': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/330px-Angkor_Wat.jpg',
+  'ancient-ruins': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/1026_Parthenon_of_the_Acropolis_of_Athens_Photo_by_Giles_Laurent.jpg/330px-1026_Parthenon_of_the_Acropolis_of_Athens_Photo_by_Giles_Laurent.jpg',
+  'brutalism': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Barbican_Estate_2018-09-22.jpg/330px-Barbican_Estate_2018-09-22.jpg',
+  'art-nouveau': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Casa_Batllo%2C_Barcelona_%2840897276590%29.jpg/330px-Casa_Batllo%2C_Barcelona_%2840897276590%29.jpg',
+  'art-deco': 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Empire_State_Building_%28New_York%29_%2845240606631%29.jpg/330px-Empire_State_Building_%28New_York%29_%2845240606631%29.jpg',
+  'portuguese-azulejo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Porto%2C_Portugal_%2848513789692%29.jpg/330px-Porto%2C_Portugal_%2848513789692%29.jpg',
+  'modern-icons': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Villa_Savoye%2C_Poissy_%C3%A9l%C3%A9ments_de_d%C3%A9coration_circulaires.jpg/330px-Villa_Savoye%2C_Poissy_%C3%A9l%C3%A9ments_de_d%C3%A9coration_circulaires.jpg',
+}

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import {
-  Building2, Cable, Castle, ChevronDown, Church, Cross, Crown, Flower, Flower2, Gem, Goal,
+  Building2, Cable, Castle, ChevronDown, Church, Cross, Crown, Dices, Flower, Flower2, Gem, Goal,
   Grid3x3, Hourglass, Layers, Library, Landmark, MoonStar, Sparkles, Theater, TrainFront, Trees,
 } from 'lucide-react'
 import { PlayIcon } from '../ui/icons.jsx'
@@ -11,8 +11,10 @@ import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { useReducedMotion } from '../../motionPref.js'
 import { AppShell } from '../layout/AppShell.jsx'
-import { MenuButton } from '../layout/MenuButton.jsx'
+import { menuSlots } from '../layout/menuSlots.jsx'
 import { Button } from '../ui/Button.jsx'
+import { InfoTip } from '../ui/InfoTip.jsx'
+import { THEME_COVERS } from './themeCovers.js'
 import styles from './ThemedSetup.module.css'
 
 const ICONS = {
@@ -44,6 +46,7 @@ function LevelPicker({ level, onPick, label, levels }) {
           aria-checked={level === l}
           tabIndex={level === l ? 0 : -1}
           className={styles.level}
+          data-sound="choose"
           onClick={() => onPick(l)}
         >
           <span className={styles.levelName}>{levels[l - 1].name}</span>
@@ -75,21 +78,33 @@ export function ThemedSetup() {
     return Object.keys(themed.themes).filter((id) => counts.has(id)).map((id) => ({ id, count: counts.get(id) }))
   }, [catalogue, themed.themes])
 
-  const half = Math.max(1, Math.ceil(rows.length / 2))
   const picked = rows.find((r) => r.id === pick.theme)
   const PickedIcon = ICONS[pick.theme] ?? Landmark
 
-  const start = () => {
-    startThemedSession(themePool(catalogue, pick.theme), pick.theme, pick.level)
+  const start = (theme = pick.theme) => {
+    startThemedSession(themePool(catalogue, theme), theme, pick.level)
     window.location.hash = '#/themed/play'
   }
+  const surprise = () => start(rows[Math.floor(Math.random() * rows.length)].id)
+
+  const surpriseButton = rows.length > 0 && (
+    <Button variant="ghost" icon={Dices} className={styles.surprise} data-sound="dice" onClick={surprise}>
+      {themed.surprise}
+    </Button>
+  )
 
   return (
-    <AppShell place={strings.places.themed} actions={<MenuButton />} floating>
+    <AppShell place={strings.places.themed} slim {...menuSlots(strings.menu)} info={
+      <InfoTip label={themed.info.label}>
+        <strong>{themed.info.title}</strong>
+        <span>{themed.info.what}</span>
+        <span>{themed.levels.map((l) => `${l.name}: ${l.text}`).join(' · ')}</span>
+        <span>{themed.info.blur}</span>
+      </InfoTip>
+    }>
       <div className={styles.setup}>
         <header className={styles.intro}>
-          <p className={styles.eyebrow}>{themed.sheet} · {strings.titleBlock.sheetOf(1, 1)}</p>
-          <h1 className={styles.heading}>{themed.heading}</h1>
+          <h1 className={styles.srOnly}>{themed.heading}</h1>
           <p className={styles.lead}>{themed.lead}</p>
         </header>
 
@@ -97,19 +112,23 @@ export function ThemedSetup() {
         {catalogue && rows.length === 0 && <p>{themed.empty}</p>}
 
         <div className={styles.body}>
-        <ol className={styles.sheet} aria-label={themed.themeStep} style={{ '--rows': half }}>
+        <div className={styles.frame}>
+        <ol className={styles.sheet} aria-label={themed.themeStep}>
           {rows.map(({ id, count }, i) => {
             const Icon = ICONS[id] ?? Landmark
             const open = pick.theme === id
             return (
-              <li key={id} className={styles.row} data-open={open || undefined} data-first={i % half === 0 || undefined} data-col2={i >= half || undefined}>
+              <li key={id} className={styles.row} data-open={open || undefined}>
                 <button
                   type="button"
                   className={styles.theme}
+                  data-sound="pick"
                   aria-expanded={open}
                   aria-controls={open ? `levels-${id}` : undefined}
                   onClick={() => setPick((p) => ({ ...p, theme: open ? null : id }))}
                 >
+                  {/* Decorative and blurred: it must never help the player identify a building. */}
+                  <img className={styles.photo} src={THEME_COVERS[id]} alt="" loading="lazy" decoding="async" />
                   <span className={styles.num}>{String(i + 1).padStart(2, '0')}</span>
                   <Icon className={styles.icon} aria-hidden="true" strokeWidth={1.6} />
                   <span className={styles.name}>{themed.themes[id]}</span>
@@ -131,10 +150,11 @@ export function ThemedSetup() {
                         <LevelPicker level={pick.level} onPick={(level) => setPick((p) => ({ ...p, level }))} label={themed.levelStep} levels={themed.levels} />
                         <div className={styles.go}>
                           <span className={styles.rounds}>{themed.rounds(Math.min(THEMED_ROUNDS, count))}</span>
-                          <Button icon={PlayIcon} onClick={start}>
+                          <Button icon={PlayIcon} data-sound="start" onClick={() => start()}>
                             {themed.start}
                           </Button>
                         </div>
+                        {surpriseButton}
                       </div>
                     </motion.div>
                   )}
@@ -143,6 +163,7 @@ export function ThemedSetup() {
             )
           })}
         </ol>
+        </div>
 
         {/* Wide screens: the chosen theme's levels sit in a card beside the index instead of a drawer. */}
         <aside className={styles.detail} aria-label={themed.levelStep}>
@@ -159,7 +180,7 @@ export function ThemedSetup() {
               <LevelPicker level={pick.level} onPick={(level) => setPick((p) => ({ ...p, level }))} label={themed.levelStep} levels={themed.levels} />
               <div className={styles.go}>
                 <span className={styles.rounds}>{themed.rounds(Math.min(THEMED_ROUNDS, picked.count))}</span>
-                <Button icon={PlayIcon} onClick={start}>
+                <Button icon={PlayIcon} data-sound="start" onClick={() => start()}>
                   {themed.start}
                 </Button>
               </div>
@@ -167,8 +188,14 @@ export function ThemedSetup() {
           ) : (
             <p className={styles.lead}>{themed.pickOne}</p>
           )}
+          {surpriseButton}
         </aside>
         </div>
+
+        <p className={styles.credit}>
+          {themed.coverCredit}{' '}
+          <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
+        </p>
       </div>
     </AppShell>
   )

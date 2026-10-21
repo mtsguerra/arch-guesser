@@ -30,6 +30,7 @@ function PlanMark() {
  * @param place  where the player is (Daily #3, Custom…), shown beside the logo
  * @param slim   the game's header: a thin line (the Menu on the left, `actions` on the right) that tucks away
  *               while the page scrolls down and returns when it scrolls up; no box, no big name
+ * @param info  slim only: a note (an InfoTip) shown beside the logo and place
  * @param menu   the slim header's left control
  * @param bottomBar  'phone' or 'reveal' when a fixed bar covers the bottom of the screen (on phones only, or at every size),
  *               so the credits footer gets room above it
@@ -37,7 +38,7 @@ function PlanMark() {
  * @param brand  'always' shows the small name in the header; 'afterHero' (the home page, which has the big
  *               drawn name in the page) shows it only once that has scrolled away
  */
-export function AppShell({ actions, place, brand = 'always', floating = false, slim = false, menu, bottomBar, children }) {
+export function AppShell({ actions, place, brand = 'always', floating = false, slim = false, info, menu, bottomBar, children }) {
   const strings = useStrings()
   const title = useHeaderTitle()
   // The rail's edge only appears once content scrolls under it.
@@ -72,10 +73,13 @@ export function AppShell({ actions, place, brand = 'always', floating = false, s
         inert={hidden || undefined}
       >
         <div className={styles.slimLeft}>{menu}</div>
-        <a className={styles.slimBrand} href="#/" aria-label={strings.appName} data-away={title ? true : undefined}>
-          <PlanMark />
-          {place && <span>{place}</span>}
-        </a>
+        <span className={styles.slimGroup} data-info={info ? true : undefined}>
+          <a className={styles.slimBrand} href="#/" aria-label={strings.appName} data-away={title ? true : undefined}>
+            <PlanMark />
+            {place && <span>{place}</span>}
+          </a>
+          {info}
+        </span>
         <div className={styles.slimRight}>
           {actions}
           <span className={styles.tools}>

@@ -246,6 +246,20 @@
   align-items: center;
 }
 
+.slimGroup:not([data-info]) {
+  display: contents; /* no note: the brand is the grid item itself */
+}
+
+.slimGroup[data-info] {
+  position: relative; /* the note opens under the group */
+  grid-column: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+  max-width: 100%; /* a long place name shortens instead of running under the controls */
+}
+
 .slimBrand {
   grid-column: 2;
   display: inline-flex;
@@ -336,7 +350,8 @@
     display: none;
   }
 
-  .slimBrand {
+  .slimBrand,
+  .slimGroup[data-info] {
     grid-column: 1;
     justify-self: start;
   }
@@ -489,5 +504,24 @@
   .toggles,
   .tools {
     display: none;
+  }
+}
+
+/* A screen's Menu: in the bar's left on wide screens, among the right-hand controls on phones. */
+.deskOnly {
+  display: contents;
+}
+
+.phoneOnly {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .deskOnly {
+    display: none;
+  }
+
+  .phoneOnly {
+    display: contents;
   }
 }
