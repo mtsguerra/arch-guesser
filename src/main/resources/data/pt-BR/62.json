@@ -1,0 +1,98 @@
+{
+  "horyu-ji": {
+    "name": "Hōryū-ji",
+    "aliases": [
+      "Templo Horyu-ji",
+      "Horyuji",
+      "Wakakusadera"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "japonês",
+        "lifespan": "",
+        "bio": "Carpinteiros de templos do período Asuka; o príncipe Shōtoku encomendou o templo, tido como concluído em 607, e depois de um incêndio em 670 ele foi reconstruído, por volta de 711."
+      }
+    ],
+    "city": "Ikaruga, Nara",
+    "style": "Budista do período Asuka",
+    "photos": [
+      {
+        "alt": "Pagode de madeira de cinco andares com um alto pináculo ao lado de um salão de dois andares com telhados de telhas, visto do outro lado de um pátio de cascalho",
+        "caption": null
+      },
+      {
+        "alt": "Salão octogonal de madeira com telhado de telhas coroado por um pináculo de bronze, sobre uma plataforma baixa de pedra",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Este templo budista perto de uma antiga capital do Japão foi fundado por um príncipe regente, e seu salão principal é amplamente reconhecido como a construção de madeira mais antiga do mundo.",
+      "Seu pagode de cinco andares, com cerca de 32 m, tem um pilar central cuja madeira foi datada pelos anéis das árvores no ano 594.",
+      "Um incêndio em 670 destruiu os primeiros edifícios e outro em 1949 danificou os murais do salão principal; em 1993 virou um dos primeiros Patrimônios Mundiais do Japão."
+    ],
+    "summary": {
+      "description": "Templo budista encomendado pelo príncipe Shōtoku e tido como concluído em 607. O Nihon Shoki registra um incêndio em 670, depois do qual foi reconstruído por volta de 711. Seu salão principal, o Kondō, é amplamente reconhecido como a construção de madeira mais antiga do mundo, e o pagode de cinco andares tem 32,45 m.",
+      "keyFeatures": [
+        "Kondō, amplamente reconhecido como a construção de madeira mais antiga do mundo",
+        "Pagode de cinco andares com 32,45 m",
+        "Pilar central datado por dendrocronologia em 594",
+        "Salão octogonal Yumedono",
+        "Abriga a estátua Kudara Kannon"
+      ],
+      "funFacts": [
+        "Primeiro Patrimônio Mundial da UNESCO do Japão, registrado em 1993.",
+        "O dia de prevenção de incêndios em bens culturais é 26 de janeiro, data do incêndio de 1949 no salão principal."
+      ]
+    }
+  },
+  "lotus-temple": {
+    "name": "Templo de Lótus",
+    "aliases": [
+      "Casa de Adoração Bahá'í de Nova Délhi",
+      "Templo Bahá'í de Délhi",
+      "Kamal Mandir"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "iraniano",
+        "lifespan": "",
+        "bio": "Arquiteto da Casa de Adoração Bahá'í de Nova Délhi, que se inspirou no lótus em parte nas esculturas das cavernas de Ajanta e Ellora."
+      }
+    ],
+    "city": "Nova Délhi",
+    "style": "Modernismo expressionista",
+    "photos": [
+      {
+        "alt": "Edifício branco em forma de flor semiaberta, feito de cascas curvas de mármore como pétalas, com aberturas em arco na base",
+        "caption": null
+      },
+      {
+        "alt": "Por dentro de uma abóbada de concreto em forma de concha, com uma rede de nervuras iluminada em tom quente, sobre fileiras de bancos de madeira e janelas em arco",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta casa de adoração é aberta a pessoas de qualquer religião e não tem sermões, rituais nem instrumentos musicais, apenas escrituras lidas ou entoadas.",
+      "Sua forma é uma flor: 27 pétalas independentes revestidas de mármore em três anéis de nove, cercadas por nove espelhos d'água, com nove portas.",
+      "Foi concluída em 1986, revestida de mármore de uma montanha na Grécia, e já foi comparada à Ópera de Sydney."
+    ],
+    "summary": {
+      "description": "Casa de Adoração Bahá'í concluída em 30 de setembro de 1986 e aberta ao público em janeiro de 1987. Fariborz Sahba a projetou como um lótus de 27 pétalas de concreto revestidas de mármore em três anéis de nove, com 40,8 m de altura, nove espelhos d'água e nove portas. Acolhe pessoas de qualquer religião, e mais de 5 milhões a visitam por ano.",
+      "keyFeatures": [
+        "27 pétalas independentes revestidas de mármore em três anéis de nove",
+        "Nove espelhos d'água e nove portas",
+        "Cerca de 10.000 m² de mármore branco do Monte Pentélico, na Grécia",
+        "Cerca de 1.300 lugares",
+        "Altura de 40,8 m"
+      ],
+      "funFacts": [
+        "Fritz Leonhardt a chamou de Taj Mahal do século XX.",
+        "Em 2015 instalou mais de 400 painéis solares que produzem cerca de 120 kW."
+      ]
+    }
+  }
+}

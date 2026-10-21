@@ -1,0 +1,291 @@
+{
+  "kinkaku-ji": {
+    "name": "Kinkaku-ji",
+    "aliases": [
+      "Pavilhão Dourado",
+      "Templo do Pavilhão Dourado",
+      "Rokuon-ji"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "japonês",
+        "lifespan": "",
+        "bio": "Xogum que comprou a villa da família Saionji em 1397 e a transformou no complexo Kinkaku-ji, onde o pavilhão foi construído por volta de 1399."
+      }
+    ],
+    "city": "Quioto",
+    "style": "Muromachi, estilos shinden e zen",
+    "photos": [
+      {
+        "alt": "Pavilhão de três andares com os pisos superiores cobertos de ouro e telhados escuros, refletido num lago parado emoldurado por folhas vermelhas de bordo",
+        "caption": null
+      },
+      {
+        "alt": "Vista próxima de um pavilhão folheado a ouro com dois andares superiores, uma varanda e uma fênix de bronze no telhado, entre pinheiros",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Este pavilhão de três andares à beira de um lago foi construído como parte da vila de repouso de um xogum e depois virou a sala de relíquias de um templo zen.",
+      "Cada andar tem um estilo: o primeiro à maneira de uma mansão nobre, o segundo de uma casa de guerreiro, o terceiro de um salão zen chinês, e os dois de cima são cobertos de folha de ouro.",
+      "Em 1950 um jovem monge o incendiou, fato que inspirou um célebre romance, e o edifício atual é a reconstrução de 1955 do original de cerca de 1399."
+    ],
+    "summary": {
+      "description": "Um xogum, Ashikaga Yoshimitsu, comprou a villa em 1397 e fez dela o complexo de templo cujo pavilhão foi construído por volta de 1399. Os três andares têm estilos diferentes, e os dois superiores são cobertos de folha de ouro. Um noviço o incendiou em 1950, e o pavilhão atual foi reconstruído em 1955.",
+      "keyFeatures": [
+        "Três andares em três estilos: shinden, guerreiro e zen chinês",
+        "Dois andares superiores cobertos de folha de ouro",
+        "Jardim com lago espelhado",
+        "Funciona como relicário com relíquias de Buda"
+      ],
+      "funFacts": [
+        "O romance O Pavilhão Dourado, de Yukio Mishima (1956), ficcionaliza o incêndio de 1950.",
+        "Faz parte do sítio da UNESCO Monumentos Históricos da Antiga Quioto."
+      ]
+    }
+  },
+  "harmandir-sahib": {
+    "name": "Harmandir Sahib",
+    "aliases": [
+      "Templo Dourado",
+      "O Templo Dourado",
+      "Darbar Sahib"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "indiano",
+        "lifespan": "",
+        "bio": "Quinto guru sikh, que fundou o Harmandir Sahib, iniciou sua construção em 1581 e instalou ali o Adi Granth em 16 de agosto de 1604."
+      }
+    ],
+    "city": "Amritsar",
+    "style": "Sikh, indo-islâmico e rajput",
+    "photos": [
+      {
+        "alt": "Santuário de dois andares coberto de painéis dourados com pequenas cúpulas e quiosques, à beira de um lago com peregrinos ao longo do parapeito",
+        "caption": null
+      },
+      {
+        "alt": "Santuário dourado refletido num grande lago, alcançado por uma passarela coberta cheia de visitantes, com prédios brancos ao fundo",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Este santuário fica no meio de um lago sagrado e é alcançado por uma única passarela, mas tem uma porta em cada um de seus quatro lados.",
+      "Suas quatro entradas simbolizam a acolhida a pessoas de todas as castas e crenças, e o edifício fica abaixo do nível do entorno, de modo que os visitantes descem até ele.",
+      "Foi iniciado em 1581 e em 1604 a escritura sagrada da comunidade foi instalada nele, enquanto o revestimento de ouro veio nos anos 1830, sob um marajá do Punjab."
+    ],
+    "summary": {
+      "description": "O santuário mais sagrado do sikhismo, fundado pelo quinto guru, Guru Arjan, com obras iniciadas em 1581 e o templo de tijolo concluído em 1589; o Adi Granth foi instalado em 16 de agosto de 1604. O marajá Ranjit Singh o reconstruiu em mármore e cobre em 1809 e dourou o santuário em 1830. A arquitetura mistura elementos mogóis indo-islâmicos e rajputes hindus.",
+      "keyFeatures": [
+        "Santuário dourado num lago chamado Amrit Sarovar",
+        "Passarela única até o santuário",
+        "Quatro entradas abertas a todos",
+        "Santuário abaixo do nível do entorno",
+        "Mistura de arquitetura mogol e rajput"
+      ],
+      "funFacts": [
+        "Mais de 100 mil refeições vegetarianas gratuitas são servidas por dia na cozinha comunitária.",
+        "Mais de 150 mil pessoas o visitam por dia."
+      ]
+    }
+  },
+  "brihadisvara-temple": {
+    "name": "Templo Brihadisvara",
+    "aliases": [
+      "Templo Brihadeeswarar",
+      "Templo Grande",
+      "Peruvudaiyar Kovil",
+      "Grande Templo de Thanjavur"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "indiano",
+        "lifespan": "",
+        "bio": "Imperador chola que construiu o Templo Brihadisvara, erguido entre 1003 e 1010 d.C."
+      }
+    ],
+    "city": "Thanjavur",
+    "style": "Dravidiano chola",
+    "photos": [
+      {
+        "alt": "Torre escalonada de granito iluminada por holofotes, com topo em cúpula, ao lado de um pavilhão de colunas, ao crepúsculo",
+        "caption": null
+      },
+      {
+        "alt": "Torre piramidal de muitos níveis de pequenos santuários e esculturas, coroada por uma cúpula, acima de salões de entrada baixos",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Um rei construiu este templo de granito a um deus da fé hindu como monumento ao seu poder, e sua torre sobe cerca de 63 m, entre as mais altas do gênero no sul do subcontinente.",
+      "Um enorme touro de pedra encara o santuário, e a torre é coroada por uma cúpula esculpida num único bloco que, dizem, pesa cerca de 80 toneladas.",
+      "Concluído em 1010 sob a dinastia Chola, foi inscrito pela UNESCO em 1987 como parte de um conjunto de templos 'Grandes Chola Vivos'."
+    ],
+    "summary": {
+      "description": "Templo hindu dedicado a Shiva, construído pelo imperador chola Rajaraja I entre 1003 e 1010 d.C. Seu vimana de granito tem cerca de 63 m de altura, e o linga principal é um monólito de uns 8,7 m. Afrescos cholas descobertos em 1931 cobrem cerca de 670 m².",
+      "keyFeatures": [
+        "Vimana de granito de cerca de 63 m",
+        "Capitel em cúpula esculpido num único bloco",
+        "Touro Nandi monolítico diante do santuário",
+        "Linga monolítico de cerca de 8,7 m",
+        "81 dos 108 karanas de dança esculpidos numa parede superior"
+      ],
+      "funFacts": [
+        "Também é chamado de Dakshina Meru.",
+        "Foi inscrito pela UNESCO em 1987 e ampliado em 2004 como Grandes Templos Chola Vivos."
+      ]
+    }
+  },
+  "konark-sun-temple": {
+    "name": "Templo do Sol de Konark",
+    "aliases": [
+      "Templo de Konark",
+      "Templo do Sol",
+      "Pagode Negro",
+      "Konarak"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "indiano",
+        "lifespan": "",
+        "bio": "Rei da dinastia Ganga Oriental que construiu o templo por volta de 1250 d.C."
+      }
+    ],
+    "city": "Konark",
+    "style": "Kalinga (Odisha)",
+    "photos": [
+      {
+        "alt": "Salão de pedra escalonado com telhado piramidal e uma porta escura, em parte sob andaimes e cercado de visitantes",
+        "caption": null
+      },
+      {
+        "alt": "Roda gigante de pedra entalhada com oito raios largos e aro ricamente decorado, embutida numa parede de esculturas",
+        "caption": "Uma das 24 rodas entalhadas do templo."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Este templo do século XIII tem a forma de um gigantesco carro de pedra, puxado por sete cavalos, dedicado a um deus da luz e do dia.",
+      "Vinte e quatro enormes rodas entalhadas decoram sua base, e ele é feito principalmente de pedra khondalita escura.",
+      "Construído por volta de 1250 por um rei da dinastia Ganga Oriental, foi chamado de 'Pagode Negro' por marinheiros europeus e virou Patrimônio Mundial em 1984."
+    ],
+    "summary": {
+      "description": "Templo construído por volta de 1250 d.C. pelo rei Narasimhadeva I, da dinastia Ganga Oriental, em forma de carro de pedra dedicado a Surya, o deus do sol. É uma obra-prima da arquitetura kalinga, com 24 rodas entalhadas e sete cavalos. Foi declarado Patrimônio Mundial da UNESCO em 1984.",
+      "keyFeatures": [
+        "Templo em forma de carro de Surya",
+        "24 rodas de pedra entalhadas",
+        "Sete cavalos puxando o carro",
+        "Principalmente pedra khondalita",
+        "Arquitetura kalinga (Odisha)"
+      ],
+      "funFacts": [
+        "Diz-se que as rodas funcionam como relógios de sol que marcam a hora com precisão de um minuto.",
+        "O templo aparece no verso da nota indiana de 10 rupias."
+      ]
+    }
+  },
+  "wat-arun": {
+    "name": "Wat Arun",
+    "aliases": [
+      "Templo da Aurora",
+      "Wat Arun Ratchawararam",
+      "Wat Chaeng"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "tailandês",
+        "lifespan": "",
+        "bio": "Construtores a serviço dos reis Chakri: Rama II restaurou o templo e planejou sua grande torre, e as obras começaram sob Rama III."
+      }
+    ],
+    "city": "Bangkok",
+    "style": "Tailandês com prang de estilo khmer",
+    "photos": [
+      {
+        "alt": "Torre escalonada dourada iluminada, com tridente no topo, ladeada por quatro torres menores, contra o céu noturno",
+        "caption": null
+      },
+      {
+        "alt": "Salão branco com telhado de telhas laranja e brancas e uma flecha esguia, guardado por uma estátua gigante colorida num jardim",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Este templo à beira do rio toma o nome do cocheiro hindu do deus do sol, e sua flecha era o primeiro sinal da capital que os viajantes viam ao subir o rio.",
+      "Sua alta torre central é incrustada de pedaços de porcelana, que antes serviam de lastro em barcos vindos da China.",
+      "A torre principal foi concluída em 1851 e é coroada por um tridente de sete pontas; fica na margem oeste, em frente ao Grande Palácio."
+    ],
+    "summary": {
+      "description": "Um templo na margem oeste do rio Chao Phraya, em Thonburi. Rama II o restaurou e planejou uma grande torre de 70 m, e o prang principal foi concluído em 1851 sob Rama III, após cerca de nove anos de obras. O prang é incrustado de porcelana e conchas.",
+      "keyFeatures": [
+        "Prang central de cerca de 67 a 86 m, conforme a fonte",
+        "Superfície incrustada de porcelana e conchas Mauritia mauritiana",
+        "Quatro prangs menores em volta da torre principal",
+        "Tridente de sete pontas no topo",
+        "Nome vem de Aruna, cocheiro do deus do sol"
+      ],
+      "funFacts": [
+        "O rei Taksin o rebatizou de Wat Chaeng no século XVIII e teria prometido restaurá-lo depois de passar por ele ao amanhecer.",
+        "O acabamento de reboco de cal da restauração de 2013-2017 pareceu caiado a alguns, o que gerou críticas."
+      ]
+    }
+  },
+  "shwedagon-pagoda": {
+    "name": "Pagode Shwedagon",
+    "aliases": [
+      "Shwedagon",
+      "Grande Pagode Dagon",
+      "Shwedagon Paya"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "birmanês",
+        "lifespan": "",
+        "bio": "Gerações de construtores e doadores mons e birmaneses; depois do terremoto de 1768, o rei Hsinbyushin ergueu o stupa até a altura atual em 1775."
+      }
+    ],
+    "city": "Yangon",
+    "style": "Stupa birmanês",
+    "photos": [
+      {
+        "alt": "Enorme stupa dourado em forma de sino que afina até uma flecha esguia, cercado de pequenos santuários dourados num terraço de mármore molhado, com pessoas sob guarda-chuvas",
+        "caption": null
+      },
+      {
+        "alt": "Pavilhão dourado de vários telhados com telhas verdes ao lado de flechas douradas numa plataforma de mármore sob céu azul",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "A tradição diz que este stupa revestido de ouro foi construído há mais de 2.500 anos para guardar fios de cabelo de Buda e relíquias de três Budas anteriores.",
+      "Coroa uma colina acima de uma cidade, com cerca de 99 m, e sua coroa em forma de guarda-chuva é cravejada de milhares de diamantes e rubis e de um diamante de 76 quilates.",
+      "Um terremoto em 1768 derrubou seu topo, e um rei o ergueu até a altura atual em 1775; os visitantes entram descalços."
+    ],
+    "summary": {
+      "description": "Grande stupa dourado na colina Singuttara, com 99 m (112 m com a flecha), de corpo de tijolo coberto de placas de ouro presas por rebites. A tradição diz que tem mais de 2.500 anos e guarda oito fios de cabelo de Buda. Depois que o terremoto de 1768 derrubou o topo, o rei Hsinbyushin o reconstruiu até a altura atual em 1775.",
+      "keyFeatures": [
+        "Stupa de tijolo coberto de placas de ouro",
+        "Coroa com 5.448 diamantes, 2.317 rubis e um diamante de 76 quilates",
+        "Quatro entradas guardadas cada uma por um par de leogrifos gigantes",
+        "Terraço cercado de santuários e pavilhões menores",
+        "Altura limitada por zoneamento para manter o destaque"
+      ],
+      "funFacts": [
+        "O Grande Sino de Dhammazedi, doado em 1485, caiu num rio durante o transporte e nunca foi recuperado.",
+        "O rei Mindon doou um novo hti (coroa em guarda-chuva) em 1871."
+      ]
+    }
+  }
+}

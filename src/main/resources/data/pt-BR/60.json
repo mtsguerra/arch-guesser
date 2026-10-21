@@ -1,0 +1,285 @@
+{
+  "hassan-ii-mosque": {
+    "name": "Mesquita Hassan II",
+    "aliases": [
+      "Grande Mesquita de Casablanca",
+      "Mesquita de Hassan II"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "francês",
+        "lifespan": "",
+        "bio": "Arquiteto francês que viveu no Marrocos e projetou a Mesquita Hassan II; a construtora Bouygues a executou."
+      }
+    ],
+    "city": "Casablanca",
+    "style": "Revival mouro-marroquino",
+    "photos": [
+      {
+        "alt": "Minarete quadrado muito alto, com azulejos verdes e painéis entalhados, visto por um arco de ferradura ao entardecer",
+        "caption": null
+      },
+      {
+        "alt": "Silhueta de uma torre enorme e de um salão de telhado verde na orla, contra um sol baixo e ondas quebrando",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta enorme mesquita moderna fica num promontório, em parte sobre o mar, para que os fiéis rezem acima da água.",
+      "Seu minarete está entre os mais altos do mundo e tem um laser apontado para Meca, enquanto o salão de oração tem teto retrátil.",
+      "Foi inaugurada em 1993 e paga em grande parte por subscrição pública, mas a água salgada começou a corroer sua estrutura em cerca de dez anos."
+    ],
+    "summary": {
+      "description": "Uma vasta mesquita no litoral atlântico, iniciada em 1986 e inaugurada em 1993, projetada por Michel Pinseau e construída pela Bouygues. Seu minarete de 210 m é o segundo mais alto do mundo, e o salão comporta até 25 mil fiéis, com espaço para outros 80 mil nos arredores.",
+      "keyFeatures": [
+        "Minarete de 210 m com laser apontado para Meca",
+        "Teto retrátil de cerca de 1.100 toneladas",
+        "Plataforma em parte sobre o Atlântico",
+        "Cedro, mármore e granito com azulejaria zellij",
+        "Museu, madrasa, hammams e 41 fontes"
+      ],
+      "funFacts": [
+        "Cerca de 6.000 artesãos trabalharam por uns cinco anos na decoração.",
+        "A corrosão pela água salgada foi detectada cerca de dez anos após a abertura; os reparos começaram em 2005, por cerca de 50 milhões de euros."
+      ]
+    }
+  },
+  "great-mosque-of-djenne": {
+    "name": "Grande Mesquita de Djenné",
+    "aliases": [
+      "Mesquita de Djenné",
+      "Mesquita de Lama de Djenné"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "malinês",
+        "lifespan": "",
+        "bio": "Chefe da guilda de pedreiros de Djenné e arquiteto da mesquita reconstruída em 1907."
+      }
+    ],
+    "city": "Djenné",
+    "style": "Tijolo de adobe sudano-saheliano",
+    "photos": [
+      {
+        "alt": "Enorme edifício de terra cor de areia, com altas torres-contraforte eriçadas de estacas de madeira, visto do outro lado de uma praça aberta",
+        "caption": null
+      },
+      {
+        "alt": "Fileira de pináculos de terra, cada um coroado por um ovo de avestruz, com vigas de madeira salientes",
+        "caption": "A linha do telhado de pináculos cônicos."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Este gigante de terra seca ao sol ergue-se numa planície aluvial na borda do Sahel, e suas paredes são eriçadas de feixes de varas de palmeira.",
+      "Todo ano a cidade inteira se reúne para reembocá-lo depois das chuvas, subindo pelas varas salientes que servem de andaime embutido.",
+      "O edifício atual é de 1907, no lugar de outro que caíra em ruínas, e é muitas vezes chamado de maior construção de tijolo de terra do mundo."
+    ],
+    "summary": {
+      "description": "A mesquita atual foi concluída em 1907 no local de outra, que estava em ruínas na década de 1830. É feita de tijolos de terra secos ao sol revestidos de reboco e é descrita como a maior construção de adobe do mundo. Ismaila Traoré, chefe da guilda de pedreiros de Djenné, foi seu arquiteto.",
+      "keyFeatures": [
+        "Tijolos de terra secos ao sol com reboco",
+        "Feixes de varas de palmeira (toron) saindo cerca de 60 cm das paredes",
+        "Três torres em forma de caixa na parede da qibla",
+        "Pináculos cônicos coroados por ovos de avestruz"
+      ],
+      "funFacts": [
+        "Toda a comunidade participa do reembocamento anual: meninos amassam a lama, mulheres carregam água e a guilda de pedreiros dirige o trabalho.",
+        "Junto com a Cidade Velha de Djenné, tornou-se Patrimônio Mundial da UNESCO em 1988."
+      ]
+    }
+  },
+  "shah-mosque-isfahan": {
+    "name": "Mesquita do Xá",
+    "aliases": [
+      "Mesquita do Imã",
+      "Mesquita Real de Isfahan",
+      "Mesquita Shah",
+      "Mesquita Imam"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "persa",
+        "lifespan": "",
+        "bio": "Arquiteto que muito provavelmente concluiu a Mesquita do Xá para Abbas, o Grande."
+      }
+    ],
+    "city": "Isfahan",
+    "style": "Persa safávida",
+    "photos": [
+      {
+        "alt": "Vista de baixo para cima de um profundo nicho de portal coberto de mosaico azul, com abóbada de favo feita de células em estalactite",
+        "caption": null
+      },
+      {
+        "alt": "Vista direto para cima de uma cúpula redonda coberta de azulejos azul-escuros, com faixas caligráficas e janelas rendilhadas",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ela fecha um lado de uma imensa praça real retangular e é girada em ângulo para que sua cúpula continue voltada para a direção certa.",
+      "Seu portal e suas cúpulas são cobertos de mosaico de azulejos de 'sete cores', sobretudo azul, e a cúpula tem casca dupla.",
+      "Iniciada em 1611 sob Abbas, o Grande, levou cerca de duas décadas e teria usado uns 18 milhões de tijolos e 475 mil azulejos."
+    ],
+    "summary": {
+      "description": "Obra-prima da arquitetura safávida no lado sul da Praça Naqsh-e Jahan, iniciada em 1611 para Abbas, o Grande, e concluída por volta de 1630. O vestíbulo de entrada gira cerca de 45 graus para que o salão de oração fique voltado para a qibla enquanto o portal fica voltado para a praça. A cúpula externa tem 52 m de altura.",
+      "keyFeatures": [
+        "Planta de quatro iwans em torno de um pátio central",
+        "Mosaicos de azulejos haft rangi ('sete cores')",
+        "Cúpula externa de 52 m, interna de 38 m",
+        "Dois minaretes de entrada de 33,5 m",
+        "Vestíbulo girado cerca de 45 graus em direção à qibla"
+      ],
+      "funFacts": [
+        "Teria cerca de 18 milhões de tijolos e 475 mil azulejos.",
+        "Sua cúpula aparece no verso da nota iraniana de 20.000 riais."
+      ]
+    }
+  },
+  "sheikh-lotfollah-mosque": {
+    "name": "Mesquita Sheikh Lotfollah",
+    "aliases": [
+      "Mesquita Lotfollah",
+      "Mesquita do Xeique Lotfollah"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "persa",
+        "lifespan": "",
+        "bio": "Construtor de Isfahan, filho de Husayn, cujo nome aparece numa inscrição em volta do mihrab da mesquita."
+      }
+    ],
+    "city": "Isfahan",
+    "style": "Persa safávida",
+    "photos": [
+      {
+        "alt": "Câmara de oração quadrada com paredes de azulejos azuis e dourados, arcos ogivais e um anel de janelas rendilhadas sob uma cúpula dourada",
+        "caption": null
+      },
+      {
+        "alt": "Vista muito ampla sobre um espelho d'água e uma vasta praça com arcadas, com uma única cúpula azulejada pequena no meio do lado oposto",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ao contrário da gigante vizinha na mesma praça, esta pequena mesquita não tem minaretes nem pátio, porque era um local de culto privado.",
+      "Entra-se por uma passagem sinuosa em L, e sob a cúpula um teto de azulejos creme e dourado forma no centro um padrão de luz semelhante a um pavão.",
+      "Foi construída entre cerca de 1603 e 1619 para Abbas, o Grande, e leva o nome de um respeitado erudito religioso que vivia por perto."
+    ],
+    "summary": {
+      "description": "Pequena mesquita real no lado leste da Praça Naqsh-e Jahan, construída entre 1603 e 1619 sob Abbas, o Grande, para a corte e não para o público. Uma passagem de entrada sinuosa protegia as mulheres da corte dos olhares. Sua cúpula de casca única tem cerca de 13 m de diâmetro por dentro.",
+      "keyFeatures": [
+        "Sem minaretes e sem pátio",
+        "Passagem de entrada sinuosa em L",
+        "Cúpula de casca única, cerca de 13 m de diâmetro",
+        "Mosaicos haft rang sobre paredes de mármore",
+        "Cúpula deslocada do eixo de entrada para voltar-se à qibla"
+      ],
+      "funFacts": [
+        "Uma forma de 'pavão' iluminada pelo sol surge no centro da cúpula por uma abertura no teto.",
+        "Um túnel já ligou o Palácio Ali Qapu ao outro lado da praça."
+      ]
+    }
+  },
+  "badshahi-mosque": {
+    "name": "Mesquita Badshahi",
+    "aliases": [
+      "Mesquita do Imperador",
+      "Mesquita Real de Lahore"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "mogol",
+        "lifespan": "",
+        "bio": "Artesãos mogóis que construíram a mesquita para o imperador Aurangzeb, com a obra supervisionada por seu irmão de leite Muzaffar Hussein (Fidai Khan Koka), governador de Lahore."
+      }
+    ],
+    "city": "Lahore",
+    "style": "Mogol",
+    "photos": [
+      {
+        "alt": "Alto minarete de arenito vermelho com um pequeno pavilhão com cúpula no topo, ao lado de uma grande cúpula de mármore claro e de um longo muro vermelho",
+        "caption": null
+      },
+      {
+        "alt": "Salão de oração com um arco de mihrab de mármore lobulado sob uma lâmpada suspensa, com homens rezando em tapetes vermelhos à frente",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta mesquita de arenito vermelho era a maior do mundo quando foi construída, e seu pátio comporta cem mil pessoas.",
+      "Nos cantos de um vasto pátio quadrado erguem-se quatro altos minaretes, e acima do salão de oração sobem três cúpulas de mármore branco.",
+      "Encomendada em 1671 por um imperador e concluída em 1673, serviu de estábulo para os cavalos de um exército no início do século XIX."
+    ],
+    "summary": {
+      "description": "A maior mesquita da era mogol, encomendada em 1671 pelo imperador Aurangzeb e concluída em 1673. Arenito vermelho com incrustações de mármore branco forma um complexo de cerca de 170 m por 170 m, com um pátio de uns 25.600 metros quadrados. Depois que o exército de Ranjit Singh tomou Lahore em 1799, o pátio serviu de estábulo para cavalos militares.",
+      "keyFeatures": [
+        "Arenito vermelho com incrustações de mármore branco",
+        "Quatro minaretes principais de 60 m",
+        "Três cúpulas de mármore branco",
+        "Pátio de cerca de 25.600 m²",
+        "Capacidade de cerca de 100.000 com o pátio em uso"
+      ],
+      "funFacts": [
+        "Continuou sendo a maior mesquita do mundo por mais de 300 anos.",
+        "Em 1974, 39 chefes de Estado muçulmanos rezaram ali durante a Segunda Cúpula Islâmica."
+      ]
+    }
+  },
+  "ibn-tulun-mosque": {
+    "name": "Mesquita de Ibn Tulun",
+    "aliases": [
+      "Mesquita Ibn Tulun",
+      "Mesquita de Ahmad ibn Tulun"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "egípcio",
+        "lifespan": "",
+        "bio": "Arquiteto da mesquita que, segundo o autor do século X al-Balawi, não era muçulmano, possivelmente cristão."
+      }
+    ],
+    "city": "Cairo",
+    "style": "Abássida (estilo Samarra)",
+    "photos": [
+      {
+        "alt": "Minarete de pedra com base retangular, fuste redondo e pequena lanterna com cúpula, atrás de uma crista de muro em rendilhado vazado",
+        "caption": null
+      },
+      {
+        "alt": "Vasto pátio vazio cercado por arcadas ogivais simples, com um pavilhão de abluções com cúpula no meio",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Suas arcadas de tijolo austeras e o enorme pátio aberto fazem dela a mais antiga mesquita do país a sobreviver quase em sua forma original.",
+      "O minarete de pedra tem uma escada em espiral incomum por fora, e uma lenda diz que o desenho veio de um governante que, distraído, enrolou um pergaminho no dedo.",
+      "Foi iniciada em 876 por um governador abássida e concluída em 879, e o arquiteto teria sido cristão."
+    ],
+    "summary": {
+      "description": "Construída por Ahmad ibn Tulun, governador abássida do Egito, de 876 a cerca de 879, numa pequena colina do que hoje é o Cairo islâmico. É descrita como a mais antiga mesquita bem preservada do Egito. Paredes de tijolo, arcos ogivais sobre pilares de tijolo e um teto de madeira de palmeira cercam um pátio central.",
+      "keyFeatures": [
+        "Pilares de tijolo com arcos ogivais em volta de um enorme pátio",
+        "Minarete de pedra com escada espiral externa",
+        "Estuque entalhado e inscrição cúfica de quase 2 km",
+        "Fonte octogonal sob uma cúpula, acrescentada em 1296",
+        "Salão de oração com cinco naves de profundidade"
+      ],
+      "funFacts": [
+        "Uma lenda local diz que a Arca de Noé pousou nessa colina, e não no Monte Ararate.",
+        "Aparece na nota egípcia de cinco libras e no filme O Espião que Me Amava."
+      ]
+    }
+  }
+}

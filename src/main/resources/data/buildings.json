@@ -25846,5 +25846,1117 @@
         "The restaurant's wall paintings include work by Albert Maignan."
       ]
     }
+  },
+  {
+    "id": "hassan-ii-mosque",
+    "name": "Hassan II Mosque",
+    "aliases": [
+      "Mosquée Hassan II",
+      "Grande Mosquée Hassan II",
+      "Great Mosque of Casablanca"
+    ],
+    "architects": [
+      {
+        "name": "Michel Pinseau",
+        "aliases": [
+          "Pinseau"
+        ],
+        "lifespan": null,
+        "nationality": "French",
+        "bio": "French architect who had lived in Morocco and designed the Hassan II Mosque; the Bouygues company built it."
+      }
+    ],
+    "location": {
+      "city": "Casablanca",
+      "country": "Morocco",
+      "countryCode": "MA"
+    },
+    "yearCompleted": 1993,
+    "era": "ISLAMIC",
+    "themes": [
+      "mosques"
+    ],
+    "style": "Moroccan-Moorish revival",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Whispers_of_Gold_-_Hassan_II_Mosque_at_Dusk.jpg/1920px-Whispers_of_Gold_-_Hassan_II_Mosque_at_Dusk.jpg",
+        "alt": "Very tall square minaret with green tilework and carved panels, seen through a horseshoe-shaped arch at dusk",
+        "credit": "Photo: OussamaHamama · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Whispers_of_Gold_-_Hassan_II_Mosque_at_Dusk.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Sunshine_on_mosque_Hassan_II_in_Casablanca%2C_Morocco_-_Flickr_-_Milamber%27s_portfolio.jpg/1920px-Sunshine_on_mosque_Hassan_II_in_Casablanca%2C_Morocco_-_Flickr_-_Milamber%27s_portfolio.jpg",
+        "alt": "Silhouette of a huge tower and a green-roofed hall on the shore against a low sun and breaking waves",
+        "credit": "Photo: Milamber's portfolio · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunshine_on_mosque_Hassan_II_in_Casablanca,_Morocco_-_Flickr_-_Milamber%27s_portfolio.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This huge modern mosque stands on a promontory, partly over the sea, so that worshippers can pray above the water."
+      },
+      {
+        "order": 2,
+        "text": "Its minaret is among the tallest in the world and carries a laser beam aimed towards Mecca, while the prayer hall has a retractable roof."
+      },
+      {
+        "order": 3,
+        "text": "It was inaugurated in 1993 and paid for largely by public subscription, but salt water began corroding its structure within about ten years."
+      }
+    ],
+    "summary": {
+      "description": "A vast mosque on the Atlantic shore, started in 1986 and inaugurated in 1993, designed by Michel Pinseau and built by the Bouygues company. Its 210 m minaret is the world's second-tallest, and the hall holds up to 25,000 worshippers with room for 80,000 more on the grounds.",
+      "keyFeatures": [
+        "210 m minaret topped by a laser aimed at Mecca",
+        "Retractable roof of about 1,100 tons",
+        "Platform partly over the Atlantic",
+        "Cedar, marble and granite with zellij tilework",
+        "Museum, madrasa, hammams and 41 fountains"
+      ],
+      "funFacts": [
+        "About 6,000 artisans worked for roughly five years on the decoration.",
+        "Corrosion from salt water was found about ten years after opening; repairs began in 2005 at about 50 million euros."
+      ]
+    }
+  },
+  {
+    "id": "great-mosque-of-djenne",
+    "name": "Great Mosque of Djenné",
+    "aliases": [
+      "Grande Mosquée de Djenné",
+      "Djenné Mosque",
+      "Djenne Mosque",
+      "Great Mud Mosque"
+    ],
+    "architects": [
+      {
+        "name": "Ismaila Traoré",
+        "aliases": [
+          "Traoré"
+        ],
+        "lifespan": null,
+        "nationality": "Malian",
+        "bio": "Head of the masons' guild of Djenné and the architect of the mosque rebuilt in 1907."
+      }
+    ],
+    "location": {
+      "city": "Djenné",
+      "country": "Mali",
+      "countryCode": "ML"
+    },
+    "yearCompleted": 1907,
+    "era": "ISLAMIC",
+    "themes": [
+      "mosques"
+    ],
+    "style": "Sudano-Sahelian mud-brick",
+    "wikipedia": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Great_Mosque_of_Djenn%C3%A9_1.jpg",
+        "alt": "Huge sand-coloured earthen building with tall buttress towers bristling with wooden stakes, seen across an open square",
+        "credit": "Photo: Andy Gilham · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Djenn%C3%A9_1.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Djenn%C3%A9_Moschee%28Dach%291990.jpg",
+        "alt": "Row of earthen pinnacles, each topped by an ostrich egg, with protruding wooden beams",
+        "caption": "The roofline of cone-shaped pinnacles.",
+        "credit": "Photo: Albert Backer · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Djenn%C3%A9_Moschee(Dach)1990.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This giant of sun-dried earth stands on a floodplain at the edge of the Sahel, and its walls bristle with bundles of palm sticks."
+      },
+      {
+        "order": 2,
+        "text": "Every year the whole town gathers to re-plaster it after the rains, climbing on the protruding sticks that serve as built-in scaffolding."
+      },
+      {
+        "order": 3,
+        "text": "The present building dates from 1907, replacing one that had fallen into ruin, and it is often called the largest mud-brick building in the world."
+      }
+    ],
+    "summary": {
+      "description": "The current mosque was completed in 1907 on the site of an older one that was in ruins by the 1830s. It is built of sun-dried earth bricks coated in plaster and is described as the world's largest adobe building. Ismaila Traoré, head of Djenné's masons' guild, was its architect.",
+      "keyFeatures": [
+        "Sun-dried earth bricks coated in plaster",
+        "Bundles of palm sticks (toron) projecting about 60 cm from the walls",
+        "Three box-like towers on the qibla wall",
+        "Cone-shaped pinnacles topped with ostrich eggs"
+      ],
+      "funFacts": [
+        "The whole community takes part in the yearly replastering: boys stir the mud, women carry water and the masons' guild directs the work.",
+        "Together with the Old Towns of Djenné it became a UNESCO World Heritage Site in 1988."
+      ]
+    }
+  },
+  {
+    "id": "shah-mosque-isfahan",
+    "name": "Shah Mosque",
+    "aliases": [
+      "Imam Mosque",
+      "Royal Mosque of Isfahan",
+      "Masjed-e Shah",
+      "Masjed-e Imam",
+      "Naqsh-e Jahan Imam Mosque",
+      "Shah Abbasi Mosque"
+    ],
+    "architects": [
+      {
+        "name": "Ali Akbar Isfahani",
+        "aliases": [
+          "Ali Akbar"
+        ],
+        "lifespan": null,
+        "nationality": "Persian",
+        "bio": "Architect who most likely completed the Shah Mosque for Shah Abbas the Great."
+      }
+    ],
+    "location": {
+      "city": "Isfahan",
+      "country": "Iran",
+      "countryCode": "IR"
+    },
+    "yearCompleted": 1630,
+    "era": "ISLAMIC",
+    "themes": [
+      "mosques"
+    ],
+    "style": "Safavid Persian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shah_Mosque_(Isfahan)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_64.jpg/1920px-Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_64.jpg",
+        "alt": "Looking up into a deep portal niche covered in blue mosaic tiles, with a honeycomb vault of stalactite-like cells",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mezquita_Shah,_Isfah%C3%A1n,_Ir%C3%A1n,_2016-09-20,_DD_64.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg/1920px-Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg",
+        "alt": "Looking straight up into a round dome covered in deep blue tilework with calligraphic bands and lattice windows",
+        "credit": "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mezquita_Shah,_Isfah%C3%A1n,_Ir%C3%A1n,_2016-09-20,_DD_71-73_HDR.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It closes one side of an immense rectangular royal square and is turned at an angle so that its dome still faces the right direction."
+      },
+      {
+        "order": 2,
+        "text": "Its portal and domes are covered in 'seven-colour' tile mosaic, mostly in blue, and the dome is double-shelled."
+      },
+      {
+        "order": 3,
+        "text": "Begun in 1611 under the Safavid king Abbas the Great, it took about two decades and reportedly used some 18 million bricks and 475,000 tiles."
+      }
+    ],
+    "summary": {
+      "description": "A masterpiece of Safavid architecture on the south side of Naqsh-e Jahan Square, begun in 1611 for Shah Abbas the Great and finished around 1630. The entrance vestibule turns about 45 degrees so the prayer hall can face the qibla while the portal faces the square. The outer dome is 52 m high.",
+      "keyFeatures": [
+        "Four-iwan plan around a central courtyard",
+        "Haft rangi ('seven-colour') tile mosaics",
+        "Outer dome 52 m high, inner dome 38 m",
+        "Two entrance minarets of 33.5 m",
+        "Vestibule turned about 45 degrees towards the qibla"
+      ],
+      "funFacts": [
+        "It reportedly contains about 18 million bricks and 475,000 tiles.",
+        "Its dome appears on the reverse of the Iranian 20,000-rial banknote."
+      ]
+    }
+  },
+  {
+    "id": "sheikh-lotfollah-mosque",
+    "name": "Sheikh Lotfollah Mosque",
+    "aliases": [
+      "Lotfollah Mosque",
+      "Sheikh Lutfallah Mosque",
+      "Masjed-e Sheikh Lotfollah",
+      "Sheikh Lotf Allah Mosque"
+    ],
+    "architects": [
+      {
+        "name": "Muhammad Reza Isfahani",
+        "aliases": [
+          "Muhammad Reza",
+          "Mohammad Reza Isfahani"
+        ],
+        "lifespan": null,
+        "nationality": "Persian",
+        "bio": "Builder from Isfahan, son of Husayn, whose name appears in an inscription around the mihrab of the mosque."
+      }
+    ],
+    "location": {
+      "city": "Isfahan",
+      "country": "Iran",
+      "countryCode": "IR"
+    },
+    "yearCompleted": 1619,
+    "era": "ISLAMIC",
+    "themes": [
+      "mosques"
+    ],
+    "style": "Safavid Persian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sheikh_Lotfollah_Mosque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Sheikh_Lotfollah_Mosque%2C_Isfahan%2CIran.jpg/1920px-Sheikh_Lotfollah_Mosque%2C_Isfahan%2CIran.jpg",
+        "alt": "Square prayer chamber with walls of blue and gold tilework, pointed arches and a ring of lattice windows under a gold-toned dome",
+        "credit": "Photo: Amirpashaei · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sheikh_Lotfollah_Mosque,_Isfahan,Iran.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sheikh_Lotfollah_Mosque_from_top_of_ali_qapu.jpg/1920px-Sheikh_Lotfollah_Mosque_from_top_of_ali_qapu.jpg",
+        "crop": {
+          "x": 0.4,
+          "y": 0.25,
+          "w": 0.25,
+          "h": 0.6
+        },
+        "alt": "Very wide view across a pool and a vast arcaded square, with a single small tiled dome rising in the middle of the far side",
+        "credit": "Photo: Amir Pashaei · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sheikh_Lotfollah_Mosque_from_top_of_ali_qapu.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Unlike its giant neighbour across the same square, this small mosque has no minarets and no courtyard, because it was a private place of worship."
+      },
+      {
+        "order": 2,
+        "text": "Visitors enter by a winding L-shaped passage, and under its dome a ceiling of cream and gold tile forms a peacock-like pattern of sunlight at the centre."
+      },
+      {
+        "order": 3,
+        "text": "It was built between about 1603 and 1619 for Shah Abbas the Great and named after a respected religious scholar who lived nearby."
+      }
+    ],
+    "summary": {
+      "description": "A small royal mosque on the east side of Naqsh-e Jahan Square, built between 1603 and 1619 under Shah Abbas the Great for the court rather than for the public. A winding entrance passage once shielded the women of the court from view. Its single-shell dome is about 13 m across inside.",
+      "keyFeatures": [
+        "No minarets and no courtyard",
+        "Winding L-shaped entry passage",
+        "Single-shell dome, about 13 m across",
+        "Haft rang tile mosaics above marble lower walls",
+        "Dome offset from the entrance axis to face the qibla"
+      ],
+      "funFacts": [
+        "A sunlit 'peacock' shape appears at the centre of the dome through an opening in the ceiling.",
+        "A tunnel once ran under the square from the Ali Qapu Palace."
+      ]
+    }
+  },
+  {
+    "id": "badshahi-mosque",
+    "name": "Badshahi Mosque",
+    "aliases": [
+      "Badshahi Masjid",
+      "Emperor's Mosque",
+      "Royal Mosque of Lahore",
+      "Shahi Mosque Lahore"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Mughal builders",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Mughal",
+        "bio": "Mughal craftsmen who built the mosque for the emperor Aurangzeb, with construction overseen by his foster brother Muzaffar Hussein (Fidai Khan Koka), governor of Lahore."
+      }
+    ],
+    "location": {
+      "city": "Lahore",
+      "country": "Pakistan",
+      "countryCode": "PK"
+    },
+    "yearCompleted": 1673,
+    "era": "ISLAMIC",
+    "themes": [
+      "mosques"
+    ],
+    "style": "Mughal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Badshahi_Mosque",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Badshahi_Mosque_%28Lahore%29.jpg",
+        "alt": "Tall red sandstone minaret with a small domed pavilion on top, beside a large pale marble dome and a long red wall",
+        "credit": "Photo: Muhammad Umair Mirza · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Badshahi_Mosque_(Lahore).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Inside_Badshahi_Mosque.jpg/1920px-Inside_Badshahi_Mosque.jpg",
+        "alt": "Prayer hall with a cusped marble mihrab arch under a hanging lamp, with men praying on red carpets in front",
+        "credit": "Photo: Ashhad Ahmed · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Inside_Badshahi_Mosque.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This red sandstone mosque was the largest in the world when it was built, and its courtyard can hold a hundred thousand people."
+      },
+      {
+        "order": 2,
+        "text": "At the corners of a vast square courtyard stand four tall minarets, and above the prayer hall rise three white marble domes."
+      },
+      {
+        "order": 3,
+        "text": "Commissioned in 1671 by an emperor and finished in 1673, it served as a stable for an army's horses in the early 19th century."
+      }
+    ],
+    "summary": {
+      "description": "The largest mosque of the Mughal era, commissioned in 1671 by the emperor Aurangzeb and completed in 1673. Red sandstone with white marble inlay forms a complex about 170 m by 170 m with a courtyard of some 25,600 square metres. After Ranjit Singh's army took Lahore in 1799, the courtyard served as a stable for army horses.",
+      "keyFeatures": [
+        "Red sandstone with white marble inlay",
+        "Four main minarets of 60 m",
+        "Three white marble domes",
+        "Courtyard of about 25,600 m²",
+        "Capacity of about 100,000 with the courtyard in use"
+      ],
+      "funFacts": [
+        "It remained the world's largest mosque for over 300 years.",
+        "In 1974, 39 heads of Muslim states prayed there during the Second Islamic Summit."
+      ]
+    }
+  },
+  {
+    "id": "ibn-tulun-mosque",
+    "name": "Mosque of Ibn Tulun",
+    "aliases": [
+      "Ibn Tulun Mosque",
+      "Masjid Ibn Tulun",
+      "Ahmad ibn Tulun Mosque"
+    ],
+    "architects": [
+      {
+        "name": "Al-Nasrani",
+        "aliases": [
+          "Al Nasrani"
+        ],
+        "lifespan": null,
+        "nationality": "Egyptian",
+        "bio": "Architect of the mosque who, according to the 10th-century author al-Balawi, was a non-Muslim, possibly a Christian."
+      }
+    ],
+    "location": {
+      "city": "Cairo",
+      "country": "Egypt",
+      "countryCode": "EG"
+    },
+    "yearCompleted": 879,
+    "era": "ISLAMIC",
+    "themes": [
+      "mosques"
+    ],
+    "style": "Abbasid (Samarra style)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mosque_of_Ibn_Tulun",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Kairo_Ibn_Tulun_Moschee_BW_7.jpg/1920px-Kairo_Ibn_Tulun_Moschee_BW_7.jpg",
+        "alt": "Stone minaret with a rectangular base, a round shaft and a small domed lantern, behind a wall crest of cut-out openwork",
+        "credit": "Photo: Berthold Werner · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kairo_Ibn_Tulun_Moschee_BW_7.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Kairo_Ibn_Tulun_Moschee_BW_4.jpg/1920px-Kairo_Ibn_Tulun_Moschee_BW_4.jpg",
+        "alt": "Vast empty courtyard ringed by plain pointed arcades, with a domed ablution pavilion in the middle",
+        "credit": "Photo: User:Berthold Werner · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kairo_Ibn_Tulun_Moschee_BW_4.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its austere brick arcades and huge open court make it the oldest mosque in its country to survive in nearly its original form."
+      },
+      {
+        "order": 2,
+        "text": "The stone minaret has an unusual spiral staircase on the outside, and a legend says its design came from a ruler absentmindedly winding a scroll around his finger."
+      },
+      {
+        "order": 3,
+        "text": "It was begun in 876 by an Abbasid governor and finished in 879, and the architect is said to have been a Christian."
+      }
+    ],
+    "summary": {
+      "description": "Built by Ahmad ibn Tulun, Abbasid governor of Egypt, from 876 to about 879, on a small hill in what is now Islamic Cairo. It is described as the oldest well-preserved mosque in Egypt. Brick walls, pointed arches on brick piers and a palm-wood roof surround a central courtyard.",
+      "keyFeatures": [
+        "Brick piers carrying pointed arches around a huge courtyard",
+        "Stone minaret with an external spiral staircase",
+        "Carved stucco decoration and a Kufic inscription of nearly 2 km",
+        "Octagonal fountain under a dome, added in 1296",
+        "Prayer hall five aisles deep"
+      ],
+      "funFacts": [
+        "A local legend says Noah's Ark came to rest on the hill, not on Mount Ararat.",
+        "It appears on the Egyptian five-pound banknote and in the film The Spy Who Loved Me."
+      ]
+    }
+  },
+  {
+    "id": "kinkaku-ji",
+    "name": "Kinkaku-ji",
+    "aliases": [
+      "Golden Pavilion",
+      "Temple of the Golden Pavilion",
+      "Rokuon-ji",
+      "Kinkakuji"
+    ],
+    "architects": [
+      {
+        "name": "Ashikaga Yoshimitsu",
+        "aliases": [
+          "Yoshimitsu"
+        ],
+        "lifespan": null,
+        "nationality": "Japanese",
+        "bio": "Shogun who bought the Saionji family's villa in 1397 and turned it into the Kinkaku-ji complex, where the pavilion was built around 1399."
+      }
+    ],
+    "location": {
+      "city": "Kyoto",
+      "country": "Japan",
+      "countryCode": "JP"
+    },
+    "yearCompleted": 1399,
+    "era": "EAST_ASIAN",
+    "themes": [
+      "asian-temples"
+    ],
+    "style": "Muromachi, shinden and Zen styles",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kinkaku-ji",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Kinkaku-ji_in_November_2016_-02.jpg/1920px-Kinkaku-ji_in_November_2016_-02.jpg",
+        "alt": "Three-storey pavilion with gold-covered upper floors and dark roofs, reflected in a still pond framed by red maple leaves",
+        "credit": "Photo: Martin Falbisoner · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kinkaku-ji_in_November_2016_-02.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Golden_Pavilion_Kinkaku-ji_2024.jpg/1920px-Golden_Pavilion_Kinkaku-ji_2024.jpg",
+        "alt": "Close view of a gold-leafed pavilion with two upper floors, a balcony and a bronze phoenix on the roof, among pine trees",
+        "credit": "Photo: Nacaru · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Golden_Pavilion_Kinkaku-ji_2024.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This three-storey pavilion by a pond was built as part of a shogun's retirement villa and later became a Zen temple's relic hall."
+      },
+      {
+        "order": 2,
+        "text": "Each floor has a different style: the first is in the manner of a noble's mansion, the second a warrior's house, the third a Chinese Zen hall, and the top two are covered in gold leaf."
+      },
+      {
+        "order": 3,
+        "text": "In 1950 a young monk burned it down, an event that inspired a famous novel, and the present building dates from the 1955 reconstruction of the original of about 1399."
+      }
+    ],
+    "summary": {
+      "description": "A shogun, Ashikaga Yoshimitsu, bought the villa in 1397 and made it the temple complex whose pavilion was built about 1399. The three floors are in different styles, and the upper two are covered in gold leaf. A novice monk burned it down in 1950, and the present pavilion was rebuilt in 1955.",
+      "keyFeatures": [
+        "Three floors in three styles: shinden, warrior and Chinese Zen",
+        "Top two floors covered in gold leaf",
+        "Mirror-like pond garden",
+        "Serves as a reliquary housing Buddha relics"
+      ],
+      "funFacts": [
+        "Yukio Mishima's 1956 novel The Temple of the Golden Pavilion fictionalises the 1950 arson.",
+        "It is part of the UNESCO site Historic Monuments of Ancient Kyoto."
+      ]
+    }
+  },
+  {
+    "id": "harmandir-sahib",
+    "name": "Harmandir Sahib",
+    "aliases": [
+      "Golden Temple",
+      "The Golden Temple",
+      "Darbar Sahib",
+      "Sri Harmandir Sahib",
+      "Hari Mandir"
+    ],
+    "architects": [
+      {
+        "name": "Guru Arjan",
+        "aliases": [
+          "Guru Arjan Dev"
+        ],
+        "lifespan": null,
+        "nationality": "Indian",
+        "bio": "Fifth Sikh Guru, who founded the Harmandir Sahib, began building it in 1581 and installed the Adi Granth there on 16 August 1604."
+      }
+    ],
+    "location": {
+      "city": "Amritsar",
+      "country": "India",
+      "countryCode": "IN"
+    },
+    "yearCompleted": 1589,
+    "era": "INDIC",
+    "themes": [
+      "asian-temples"
+    ],
+    "style": "Sikh, Indo-Islamic and Rajput",
+    "wikipedia": "https://en.wikipedia.org/wiki/Golden_Temple",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Hamandir_Sahib_%28Golden_Temple%29.jpg/1920px-Hamandir_Sahib_%28Golden_Temple%29.jpg",
+        "alt": "Two-storey shrine covered in gold panels with small domes and kiosks, standing at the edge of a pool with pilgrims along its rail",
+        "credit": "Photo: This picture has been taken by Oleg Yunakov. Contact e-mail: yunakovgmail.com. Image can be used in accordance with the terms of the СС-BY-SA license. Other photos can be seen here. · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hamandir_Sahib_(Golden_Temple).jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Golden_Temple%2C_Amritsar_01.jpg/1920px-Golden_Temple%2C_Amritsar_01.jpg",
+        "alt": "Gilded shrine reflected in a large pool, reached by a covered walkway full of visitors, with white buildings behind",
+        "credit": "Photo: Bernard Gagnon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Golden_Temple,_Amritsar_01.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This shrine stands in the middle of a sacred pool and is reached by a single causeway, yet it has a door on each of its four sides."
+      },
+      {
+        "order": 2,
+        "text": "Its four entrances stand for welcome to people of every caste and creed, and the building sits lower than its surroundings, so visitors walk down to it."
+      },
+      {
+        "order": 3,
+        "text": "It was begun in 1581 and in 1604 the community's holy scripture was installed in it, while the gold covering came in the 1830s under a Punjabi maharaja."
+      }
+    ],
+    "summary": {
+      "description": "The holiest shrine of Sikhism, founded by the fifth Guru, Guru Arjan, with work starting in 1581 and the brick temple finished in 1589; the Adi Granth was installed on 16 August 1604. Maharaja Ranjit Singh rebuilt it in marble and copper in 1809 and gilded the sanctum in 1830. The architecture blends Indo-Islamic Mughal and Hindu Rajput elements.",
+      "keyFeatures": [
+        "Gilded sanctum on a pool called the Amrit Sarovar",
+        "Single causeway to the shrine",
+        "Four entrances open to all",
+        "Sanctum set lower than its surroundings",
+        "Blend of Mughal and Rajput architecture"
+      ],
+      "funFacts": [
+        "Over 100,000 free vegetarian meals are served daily in its community kitchen.",
+        "More than 150,000 people visit each day."
+      ]
+    }
+  },
+  {
+    "id": "brihadisvara-temple",
+    "name": "Brihadisvara Temple",
+    "aliases": [
+      "Brihadeeswarar Temple",
+      "Big Temple",
+      "Peruvudaiyar Kovil",
+      "Thanjavur Big Temple",
+      "Rajarajeswaram",
+      "Brihadeshwara Temple"
+    ],
+    "architects": [
+      {
+        "name": "Rajaraja I",
+        "aliases": [
+          "Rajaraja Chola",
+          "Raja Raja Chola I"
+        ],
+        "lifespan": null,
+        "nationality": "Indian",
+        "bio": "Chola emperor who built the Brihadisvara Temple, constructed between 1003 and 1010 CE."
+      }
+    ],
+    "location": {
+      "city": "Thanjavur",
+      "country": "India",
+      "countryCode": "IN"
+    },
+    "yearCompleted": 1010,
+    "era": "INDIC",
+    "themes": [
+      "asian-temples"
+    ],
+    "style": "Chola Dravidian",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/1920px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.8,
+          "h": 1
+        },
+        "alt": "Floodlit stepped granite tower with a domed top beside a pillared pavilion, at twilight",
+        "credit": "Photo: Original: Rainer Halama Derivative work: UnpetitproleX · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_(edit).jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Brihadisvara_Temple%2C_Thanjavur%2C_Tamil_Nadu%2C_India.jpg/1920px-Brihadisvara_Temple%2C_Thanjavur%2C_Tamil_Nadu%2C_India.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.8
+        },
+        "alt": "Pyramidal tower of many tiers of small shrines and sculpture, topped by a domed cap, rising above low entrance halls",
+        "credit": "Photo: Matthew T Rader · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Brihadisvara_Temple,_Thanjavur,_Tamil_Nadu,_India.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A king built this granite temple to a god of the Hindu faith as a monument to his power, and its tower rises about 63 m, among the tallest of its kind in the south of the subcontinent."
+      },
+      {
+        "order": 2,
+        "text": "A huge stone bull faces the sanctum, and the tower is crowned by a domed cap carved from a single block that is said to weigh around 80 tons."
+      },
+      {
+        "order": 3,
+        "text": "Completed in 1010 under the Chola dynasty, it was inscribed by UNESCO in 1987 as part of a group of 'Great Living' temples."
+      }
+    ],
+    "summary": {
+      "description": "A Hindu temple to Shiva built by the Chola emperor Rajaraja I between 1003 and 1010 CE. Its granite vimana is about 63 m tall, and the main linga inside is a monolith around 8.7 m high. Chola frescoes found in 1931 cover about 670 m².",
+      "keyFeatures": [
+        "Granite vimana about 63 m tall",
+        "Domed capstone carved from a single block",
+        "Monolithic Nandi bull facing the sanctum",
+        "Monolithic linga about 8.7 m high",
+        "81 of the 108 dance karanas carved on an upper wall"
+      ],
+      "funFacts": [
+        "It is also called Dakshina Meru.",
+        "It was inscribed by UNESCO in 1987 and extended in 2004 as the Great Living Chola Temples."
+      ]
+    }
+  },
+  {
+    "id": "konark-sun-temple",
+    "name": "Konark Sun Temple",
+    "aliases": [
+      "Konarak Sun Temple",
+      "Sun Temple, Konark",
+      "Konark Temple",
+      "Black Pagoda",
+      "Surya Deul"
+    ],
+    "architects": [
+      {
+        "name": "Narasimhadeva I",
+        "aliases": [
+          "Narasingha Deva I",
+          "Narasimha Deva I"
+        ],
+        "lifespan": null,
+        "nationality": "Indian",
+        "bio": "King of the Eastern Ganga dynasty who built the temple around 1250 CE."
+      }
+    ],
+    "location": {
+      "city": "Konark",
+      "country": "India",
+      "countryCode": "IN"
+    },
+    "yearCompleted": 1250,
+    "era": "INDIC",
+    "themes": [
+      "asian-temples",
+      "ancient-ruins"
+    ],
+    "style": "Kalinga (Odisha)",
+    "wikipedia": "https://en.wikipedia.org/wiki/Konark_Sun_Temple",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Sun_Temple_Main_Structure%2C_Konark%2C_Orissa.jpg/1920px-Sun_Temple_Main_Structure%2C_Konark%2C_Orissa.jpg",
+        "alt": "Stepped, pyramid-roofed stone hall with a dark doorway, partly under scaffolding and surrounded by visitors",
+        "credit": "Photo: Subhrajyoti07 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Sun_Temple_Main_Structure,_Konark,_Orissa.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg/1920px-Wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa%2C_India.jpg",
+        "alt": "Giant carved stone wheel with eight broad spokes and a richly decorated rim, set into a wall of sculpture",
+        "caption": "One of the temple's 24 carved wheels.",
+        "credit": "Photo: Joydeep · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Wheel_engraved_in_the_13th_century_built_Konark_Sun_Temple_in_Orissa,_India.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This 13th-century temple is built in the form of a gigantic stone chariot, pulled by seven horses, dedicated to a god of light and the day."
+      },
+      {
+        "order": 2,
+        "text": "Twenty-four huge carved wheels decorate its base, and it is made mainly of dark khondalite stone."
+      },
+      {
+        "order": 3,
+        "text": "Built around 1250 by a king of the Eastern Ganga dynasty, it was called the 'Black Pagoda' by European sailors and became a World Heritage Site in 1984."
+      }
+    ],
+    "summary": {
+      "description": "A temple built around 1250 CE by King Narasimhadeva I of the Eastern Ganga dynasty, shaped as a stone chariot dedicated to Surya, the sun god. It stands as a masterpiece of Kalinga architecture, with 24 carved wheels and seven horses. It was designated a UNESCO World Heritage Site in 1984.",
+      "keyFeatures": [
+        "Chariot-shaped temple of Surya",
+        "24 carved stone wheels",
+        "Seven horses pulling the chariot",
+        "Mainly khondalite stone",
+        "Kalinga (Odisha) architecture"
+      ],
+      "funFacts": [
+        "The wheels are said to work as sundials that tell time to within a minute.",
+        "The temple appears on the reverse of the Indian 10-rupee note."
+      ]
+    }
+  },
+  {
+    "id": "wat-arun",
+    "name": "Wat Arun",
+    "aliases": [
+      "Temple of Dawn",
+      "Wat Arun Ratchawararam",
+      "Wat Chaeng"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Thai royal builders",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Thai",
+        "bio": "Builders working for the Chakri kings: Rama II restored the temple and planned its great tower, and work on it began under Rama III."
+      }
+    ],
+    "location": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "countryCode": "TH"
+    },
+    "yearCompleted": 1851,
+    "era": "INDIC",
+    "themes": [
+      "asian-temples"
+    ],
+    "style": "Thai with Khmer-style prang",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wat_Arun",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Templo_Wat_Arun%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_37.jpg/1920px-Templo_Wat_Arun%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_37.jpg",
+        "alt": "Floodlit tiered gold-toned tower with a trident finial, flanked by four smaller towers, against a night sky",
+        "credit": "Photo: Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_37.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Templo_Wat_Arun%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_30.jpg/1920px-Templo_Wat_Arun%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_30.jpg",
+        "alt": "White hall with an orange and white tiled roof and a slender spire, guarded by a colourful giant statue in a garden",
+        "credit": "Photo: Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_30.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This riverside temple takes its name from the Hindu charioteer of the sun god, and its spire was the first sign of the capital that travellers saw sailing upstream."
+      },
+      {
+        "order": 2,
+        "text": "Its tall central tower is encrusted with pieces of porcelain, which once served as ballast on boats arriving from China."
+      },
+      {
+        "order": 3,
+        "text": "The main tower was finished in 1851 and is topped by a seven-pronged trident; it stands on the west bank, across from the Grand Palace."
+      }
+    ],
+    "summary": {
+      "description": "A temple on the west bank of the Chao Phraya River in Thonburi. Rama II restored it and planned a great tower of 70 m, and the main prang was completed in 1851 under Rama III, after about nine years of work. The prang is encrusted with porcelain and shells.",
+      "keyFeatures": [
+        "Central prang between about 67 and 86 m high, depending on the source",
+        "Surface encrusted with porcelain and Mauritia mauritiana shells",
+        "Four smaller prangs around the main tower",
+        "Seven-pronged trident finial",
+        "Named after Aruna, the sun god's charioteer"
+      ],
+      "funFacts": [
+        "King Taksin renamed it Wat Chaeng in the 1700s and is believed to have vowed to restore it after passing it at sunrise.",
+        "The 2013-2017 restoration's lime-plaster finish looked whitewashed to some, which drew criticism."
+      ]
+    }
+  },
+  {
+    "id": "shwedagon-pagoda",
+    "name": "Shwedagon Pagoda",
+    "aliases": [
+      "Shwedagon",
+      "Shwedagon Zedi Daw",
+      "Great Dagon Pagoda",
+      "Shwedagon Paya"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Mon and Burmese builders",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Burmese",
+        "bio": "Generations of Mon and Burmese builders and donors; after the 1768 earthquake King Hsinbyushin raised the stupa to its present height in 1775."
+      }
+    ],
+    "location": {
+      "city": "Yangon",
+      "country": "Myanmar",
+      "countryCode": "MM"
+    },
+    "yearCompleted": 1775,
+    "era": "INDIC",
+    "themes": [
+      "asian-temples"
+    ],
+    "style": "Burmese stupa",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shwedagon_Pagoda",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/20160813_Shwedagon_Pagoda_9949_DxO.jpg/1920px-20160813_Shwedagon_Pagoda_9949_DxO.jpg",
+        "alt": "Enormous bell-shaped gilded stupa tapering to a slender spire, ringed by small golden shrines on a wet marble terrace with people under umbrellas",
+        "credit": "Photo: Jakub Hałun · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:20160813_Shwedagon_Pagoda_9949_DxO.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Shwedagon_Pagoda%2C_Terrace%2C_Yangon%2C_Myanmar.jpg/1920px-Shwedagon_Pagoda%2C_Terrace%2C_Yangon%2C_Myanmar.jpg",
+        "alt": "Golden multi-roofed pavilion with green roof tiles beside gilded spires on a marble platform under a blue sky",
+        "credit": "Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Shwedagon_Pagoda,_Terrace,_Yangon,_Myanmar.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Tradition says this gold-plated stupa was built more than 2,500 years ago to enshrine hairs of the Buddha and relics of three earlier Buddhas."
+      },
+      {
+        "order": 2,
+        "text": "It crowns a hill above a city, rising about 99 m, and its umbrella-like crown is tipped with thousands of diamonds and rubies and a 76-carat diamond."
+      },
+      {
+        "order": 3,
+        "text": "An earthquake in 1768 brought down its top, and a king raised it to its present height in 1775; visitors must go barefoot."
+      }
+    ],
+    "summary": {
+      "description": "A great gilded stupa on Singuttara Hill, rising to 99 m (112 m with its spire), with a brick body covered in gold plates attached by rivets. Tradition says it is over 2,500 years old and holds eight strands of the Buddha's hair. After the 1768 earthquake brought down the top, King Hsinbyushin rebuilt it to its present height in 1775.",
+      "keyFeatures": [
+        "Brick stupa covered in gold plates",
+        "Crown tipped with 5,448 diamonds and 2,317 rubies and a 76-carat diamond",
+        "Four entrances each guarded by a pair of giant leogryphs",
+        "Terrace ringed by smaller shrines and pavilions",
+        "Height capped by city zoning to keep it prominent"
+      ],
+      "funFacts": [
+        "The Great Bell of Dhammazedi, donated in 1485, fell into a river while being moved and has never been recovered.",
+        "King Mindon donated a new hti (umbrella crown) in 1871."
+      ]
+    }
+  },
+  {
+    "id": "horyu-ji",
+    "name": "Hōryū-ji",
+    "aliases": [
+      "Horyu-ji",
+      "Horyuji",
+      "Horyu ji",
+      "Hōryūji",
+      "Wakakusadera"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Japanese temple carpenters",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Japanese",
+        "bio": "Temple carpenters of the Asuka period; Prince Shōtoku commissioned the temple, believed complete by 607, and after a fire in 670 it was rebuilt, by about 711."
+      }
+    ],
+    "location": {
+      "city": "Ikaruga, Nara",
+      "country": "Japan",
+      "countryCode": "JP"
+    },
+    "yearCompleted": 711,
+    "era": "EAST_ASIAN",
+    "themes": [
+      "asian-temples",
+      "monasteries"
+    ],
+    "style": "Asuka period Buddhist",
+    "wikipedia": "https://en.wikipedia.org/wiki/H%C5%8Dry%C5%AB-ji",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Horyu-ji10s3200.jpg/1920px-Horyu-ji10s3200.jpg",
+        "alt": "Five-storey wooden pagoda with a tall finial beside a two-storey hall with tiled roofs, seen across a gravel precinct",
+        "credit": "Photo: 663highland · CC BY 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Horyu-ji10s3200.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Horyu-ji36s3200.jpg/1920px-Horyu-ji36s3200.jpg",
+        "alt": "Eight-sided wooden hall with a tiled roof topped by a bronze finial, standing on a low stone platform",
+        "credit": "Photo: 663highland · CC BY 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Horyu-ji36s3200.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This Buddhist temple near an ancient capital in Japan was founded by a regent prince, and its main hall is widely recognised as the oldest wooden building in the world."
+      },
+      {
+        "order": 2,
+        "text": "Its five-storey pagoda, about 32 m tall, has a central pillar whose wood has been dated by tree rings to the year 594."
+      },
+      {
+        "order": 3,
+        "text": "A fire in 670 destroyed the first buildings and a 1949 fire damaged the main hall's murals; in 1993 it became one of Japan's first World Heritage Sites."
+      }
+    ],
+    "summary": {
+      "description": "A Buddhist temple commissioned by Prince Shōtoku and believed complete by 607. The Nihon Shoki records a fire in 670, after which it was rebuilt by about 711. Its main hall, the Kondō, is widely recognised as the world's oldest wooden building, and the five-storey pagoda is 32.45 m tall.",
+      "keyFeatures": [
+        "Kondō, widely recognised as the world's oldest wooden building",
+        "Five-storey pagoda, 32.45 m tall",
+        "Central pillar dated by dendrochronology to 594",
+        "Eight-sided Yumedono hall",
+        "Home of the Kudara Kannon statue"
+      ],
+      "funFacts": [
+        "Japan's first UNESCO World Heritage Site, registered in 1993.",
+        "Fire-prevention day for cultural properties is 26 January, the day of the 1949 fire in the main hall."
+      ]
+    }
+  },
+  {
+    "id": "lotus-temple",
+    "name": "Lotus Temple",
+    "aliases": [
+      "Bahá'í House of Worship, New Delhi",
+      "Baha'i Lotus Temple",
+      "Bahai Temple Delhi",
+      "Kamal Mandir"
+    ],
+    "architects": [
+      {
+        "name": "Fariborz Sahba",
+        "aliases": [
+          "Sahba"
+        ],
+        "lifespan": null,
+        "nationality": "Iranian",
+        "bio": "Architect of the Bahá'í House of Worship in New Delhi, who drew his lotus inspiration partly from carvings at the Ajanta and Ellora caves."
+      }
+    ],
+    "location": {
+      "city": "New Delhi",
+      "country": "India",
+      "countryCode": "IN"
+    },
+    "yearCompleted": 1986,
+    "era": "MODERNISM",
+    "themes": [
+      "asian-temples",
+      "modern-icons"
+    ],
+    "style": "Expressionist modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lotus_Temple",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lotus_temple_daytime.jpg/1920px-Lotus_temple_daytime.jpg",
+        "alt": "White building shaped like a half-open flower, made of curved petal-like marble shells with arched openings at the base",
+        "credit": "Photo: Muhammad Mahdi Karim · GFDL 1.2 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lotus_temple_daytime.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Interior_of_Lotus_temple.jpg",
+        "alt": "Inside a shell-like concrete vault with a web of ribs lit warmly, above rows of wooden benches and arched windows",
+        "credit": "Photo: Dinudey Baidya from Bangalore, India · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Lotus_temple.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This house of worship is open to people of any religion and has no sermons, rituals or musical instruments, only scripture read or chanted."
+      },
+      {
+        "order": 2,
+        "text": "Its form is a flower: 27 free-standing marble-clad petals in three rings of nine, surrounded by nine pools, with nine doors."
+      },
+      {
+        "order": 3,
+        "text": "It was completed in 1986, clad in marble from a mountain in Greece, and has been compared to the Sydney Opera House."
+      }
+    ],
+    "summary": {
+      "description": "A Bahá'í House of Worship completed on 30 September 1986 and opened to the public in January 1987. Fariborz Sahba designed it as a lotus of 27 marble-clad concrete petals in three rings of nine, rising 40.8 m, with nine pools and nine doors. It welcomes people of any religion, and over 5 million people visit each year.",
+      "keyFeatures": [
+        "27 free-standing marble-clad petals in three rings of nine",
+        "Nine surrounding pools and nine doors",
+        "About 10,000 m² of white marble from Mount Pentelicus in Greece",
+        "Seats about 1,300",
+        "Height of 40.8 m"
+      ],
+      "funFacts": [
+        "Fritz Leonhardt called it the Taj Mahal of the 20th century.",
+        "In 2015 it installed over 400 solar panels producing about 120 kW."
+      ]
+    }
   }
 ]
