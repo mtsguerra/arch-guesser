@@ -33,6 +33,7 @@ export function useGameRound(mode = 'normal') {
 
   // Themed: the eras and centuries that occur in the theme, so the pickers offer nothing else.
   const [themed, setThemed] = useState(null)
+  const advancedFrom = useRef(null) // the building a themed session already moved past, so a double press moves once
 
   // `advance` (custom only) moves the session past the current building first.
   const load = useCallback(async (advance) => {
@@ -57,7 +58,10 @@ export function useGameRound(mode = 'normal') {
       if (mode === 'themed') {
         let session = readThemedSession()
         if (!session) throw new Error('No themed session')
-        if (advance) session = advanceThemedSession(session, buildingRef.current, solvedRef.current)
+        if (advance && advancedFrom.current !== buildingRef.current) {
+          advancedFrom.current = buildingRef.current
+          session = advanceThemedSession(session, buildingRef.current, solvedRef.current)
+        }
         const catalogue = await fetchCatalogue()
         // Saved ids the catalogue no longer has (data changed mid-session) are moved past.
         while (session.index < session.ids.length && !catalogue.some((b) => b.id === session.ids[session.index])) {

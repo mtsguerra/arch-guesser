@@ -178,6 +178,7 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
     setValues((v) => ({ ...v, [field]: value, ...(field === 'century' && { decade: '' }) }))
     setNothingToCheck(false)
     onEdit(field)
+    if (field === 'century' && names.includes('decade')) onEdit('decade')
   }
 
   function handleSubmit(event) {
@@ -192,7 +193,7 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
   const closeCount = names.filter((f) => fields[f] === 'close').length
 
   let status = ''
-  if (revealed) status = outcome === 'solved' ? (names.length === 4 ? strings.guess.solved : strings.guess.solvedAll) : strings.guess.gaveUp
+  if (revealed) status = outcome === 'solved' ? (names.includes('country') ? strings.guess.solved : strings.guess.solvedAll) : strings.guess.gaveUp
   else if (nothingToCheck) status = strings.guess.nothingToCheck
   else if (attempts > 0) status = strings.guess.result(correctCount, wrongCount, closeCount)
 

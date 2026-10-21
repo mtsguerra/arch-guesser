@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { RotateIcon, SlidersIcon } from '../ui/icons.jsx'
 import { fetchCatalogue } from '../../api/buildings.js'
 import { readThemedSession, startThemedSession, themePool } from '../../game/themed.js'
@@ -33,9 +34,16 @@ export function ThemedRecap({ onAgain }) {
   const years = points.length ? [points[0].year, points[points.length - 1].year] : null
   const fmt = (y) => (y < 0 ? `${-y} ${strings.years.bce}` : String(y))
 
+  const [busy, setBusy] = useState(false)
   const again = async () => {
-    startThemedSession(themePool(await fetchCatalogue(), session.theme), session.theme, session.level)
-    onAgain()
+    if (busy) return
+    setBusy(true)
+    try {
+      startThemedSession(themePool(await fetchCatalogue(), session.theme), session.theme, session.level)
+      onAgain()
+    } catch {
+      setBusy(false)
+    }
   }
 
   return (
