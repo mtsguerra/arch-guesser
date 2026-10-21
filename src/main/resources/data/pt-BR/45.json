@@ -1,0 +1,286 @@
+{
+  "hotel-solvay": {
+    "name": "Hôtel Solvay",
+    "aliases": [
+      "Casa Solvay",
+      "Maison Solvay"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Belga",
+        "bio": "Nascido em Gante, Horta projetou nos anos 1890 uma série de casas urbanas em Bruxelas que fizeram dele o pioneiro da arquitetura Art Nouveau, com plantas abertas, ferro aparente e ornamentos em forma de chicote. Quatro delas, incluindo o Hôtel Tassel e sua própria casa, formam um sítio do Patrimônio Mundial da UNESCO."
+      }
+    ],
+    "city": "Bruxelas",
+    "style": "Art Nouveau",
+    "photos": [
+      {
+        "alt": "Fachada de casa estreita com janelas salientes curvas, varandas de ferro forjado e esquadrias de madeira esguias",
+        "caption": null
+      },
+      {
+        "alt": "Hall da escada com guarda-corpo de ferro em linhas sinuosas, claraboia de vitral e um grande mural pontilhista",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma casa estreita em Bruxelas, feita para uma rica família de industriais, cujo arquiteto projetou cada detalhe, até a campainha.",
+      "O hall da escada é iluminado por uma claraboia de vitral, e um pintor pontilhista colaborou na decoração da escadaria.",
+      "Foi construída entre 1895 e 1900 e é uma de quatro casas do mesmo arquiteto tombadas pela UNESCO em 2000."
+    ],
+    "summary": {
+      "description": "Uma casa na Avenue Louise construída para Armand Solvay, filho do químico e industrial Ernest Solvay. Victor Horta a projetou por inteiro: móveis, tapetes, luminárias, louça e até a campainha, em mármore, ônix, bronze e madeiras tropicais.",
+      "keyFeatures": [
+        "Fachada com sacadas curvas e varandas de ferro forjado",
+        "Hall da escada sob uma claraboia de vitral",
+        "Projeto total, dos móveis à campainha",
+        "Mármore, ônix, bronze e madeiras tropicais"
+      ],
+      "funFacts": [
+        "O pintor pontilhista Théo van Rysselberghe colaborou na decoração da escadaria.",
+        "A casa permaneceu privada até abrir como museu em 23 de janeiro de 2021."
+      ]
+    }
+  },
+  "villa-majorelle": {
+    "name": "Villa Majorelle",
+    "aliases": [
+      "Villa Jitka"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "francês",
+        "lifespan": "1873–1932",
+        "bio": "Arquiteto francês cujo primeiro projeto, aos 24 anos, foi a Villa Majorelle, em Nancy."
+      }
+    ],
+    "city": "Nancy",
+    "style": "Art Nouveau",
+    "photos": [
+      {
+        "alt": "Casa de pedra com telhado íngreme de empena, uma grande janela em arco e uma sacada com metal esverdeado",
+        "caption": null
+      },
+      {
+        "alt": "Fachada de pedra clara com molduras de janela esculpidas e irregulares e uma marquise curva de ferro forjado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi construída como vitrine do trabalho de um fabricante de móveis, com um ateliê no último andar.",
+      "Foi o primeiro projeto de um arquiteto de 24 anos e é uma das primeiras e mais influentes casas Art Nouveau da França.",
+      "Fica em Nancy e foi chamada primeiro pelo nome da esposa do cliente, Jitka."
+    ],
+    "summary": {
+      "description": "Uma casa construída em 1901-1902 para o fabricante de móveis Louis Majorelle, de Nancy, como vitrine de seus móveis e do trabalho de outros artistas decorativos. Foi o primeiro projeto de Henri Sauvage, então com 24 anos, e é uma das primeiras casas Art Nouveau da França.",
+      "keyFeatures": [
+        "Escada de carvalho esculpido",
+        "Cerâmicas de Alexandre Bigot",
+        "Vitrais de Jacques Gruber",
+        "Portão de ferro forjado e piso de mosaico no vestíbulo"
+      ],
+      "funFacts": [
+        "A revista L'Illustration a chamou de \"uma casa feita por um artista para um artista\".",
+        "Foi declarada monumento histórico em janeiro de 1975."
+      ]
+    }
+  },
+  "casa-amatller": {
+    "name": "Casa Amatller",
+    "aliases": [],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "catalão",
+        "lifespan": "1867–1956",
+        "bio": "Arquiteto catalão que redesenhou a Casa Amatller para o chocolateiro Antoni Amatller entre 1898 e 1900."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Modernismo catalão",
+    "photos": [
+      {
+        "alt": "Fachada com empena escalonada revestida de azulejos, fileiras de janelas pequenas e molduras de pedra esculpidas sobre reboco estampado",
+        "caption": null
+      },
+      {
+        "alt": "Caixa de escada com degraus de mármore e tapete vermelho, parede estampada e uma janela com grade de ferro forjado e vidros coloridos",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Um rico chocolateiro e arqueólogo amador mandou transformar uma casa de 1875 em sua nova residência.",
+      "Uma empena escalonada coberta de azulejos coroa a fachada, cujas esculturas incluem um rato com uma câmera.",
+      "Fica num famoso quarteirão de três casas célebres, em uma das avenidas mais nobres da cidade."
+    ],
+    "summary": {
+      "description": "Uma casa no Passeig de Gràcia, construída em 1875 e redesenhada entre 1898 e 1900 por Josep Puig i Cadafalch para o chocolateiro e arqueólogo amador Antoni Amatller. Fica na Illa de la Discòrdia, ao lado da Casa Batlló e da Casa Lleó-Morera.",
+      "keyFeatures": [
+        "Empena escalonada coberta de azulejos",
+        "Composições escultóricas na fachada",
+        "Foyer de entrada com grandes portas de vitral",
+        "Caixa de escada com teto de vitral"
+      ],
+      "funFacts": [
+        "Uma das esculturas da fachada mostra um rato com uma câmera.",
+        "A propriedade ficou na família até 1960, o que preservou em grande parte o interior de 1900."
+      ]
+    }
+  },
+  "unite-d-habitation-marseille": {
+    "name": "Unité d'Habitation",
+    "aliases": [
+      "Cité Radieuse",
+      "La Cité Radieuse",
+      "Unité d'Habitation de Marselha"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Corbusier",
+          "Le Corbu",
+          "Charles-Édouard Jeanneret",
+          "Jeanneret"
+        ],
+        "nationality": "Suíço-francês",
+        "lifespan": "1887–1965",
+        "bio": "Nascido Charles-Édouard Jeanneret na Suíça, Le Corbusier tornou-se um dos arquitetos mais influentes do século XX. Formulou os 'cinco pontos de uma nova arquitetura', criou o sistema de proporções Modulor e planeou a cidade indiana de Chandigarh. A sua obra tardia em betão bruto ajudou a moldar o brutalismo. Dezassete das suas obras estão na lista do Património Mundial da UNESCO."
+      }
+    ],
+    "city": "Marselha",
+    "style": "Brutalismo",
+    "photos": [
+      {
+        "alt": "Alta empena de concreto bruto com escada externa em zigue-zague, apoiada em enormes pilares afunilados",
+        "caption": null
+      },
+      {
+        "alt": "Borda do terraço de cobertura com uma chaminé de ventilação de concreto cercada por tela, com vista para a cidade e montanhas ao fundo",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Um bloco de moradias do pós-guerra erguido sobre grandes pernas de concreto, com amplos corredores internos chamados de ruas no céu.",
+      "Tem 337 apartamentos em 23 plantas, além de lojas, um hotel e uma cobertura coletiva com pista de corrida e piscina rasa.",
+      "Foi construído entre 1947 e 1952 no sul de uma cidade portuária francesa e entrou na lista do Patrimônio Mundial da UNESCO em 2016."
+    ],
+    "summary": {
+      "description": "Um bloco residencial de 12 andares construído entre 1947 e 1952 com Shadrach Woods e George Candilis, em concreto bruto (béton brut), sobre grandes pilotis. Tem 337 apartamentos em 23 plantas e é frequentemente citado como inspiração da arquitetura brutalista.",
+      "keyFeatures": [
+        "Erguido sobre grandes pilotis",
+        "337 apartamentos em 23 plantas",
+        "Corredores internos a cada três andares",
+        "Terraço de cobertura coletivo",
+        "Lojas, hotel e restaurante no interior"
+      ],
+      "funFacts": [
+        "Walter Gropius teria dito que o arquiteto que não achasse o prédio belo deveria largar o lápis.",
+        "Entrou na lista do Patrimônio Mundial da UNESCO em 2016, com outras 16 obras do mesmo arquiteto."
+      ]
+    }
+  },
+  "geisel-library": {
+    "name": "Biblioteca Geisel",
+    "aliases": [
+      "Biblioteca Central da UC San Diego"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "William L. Pereira & Associates"
+        ],
+        "nationality": "americano",
+        "lifespan": "1909–1985",
+        "bio": "Arquiteto americano cujo escritório, William L. Pereira & Associates, projetou a biblioteca principal da UC San Diego, inaugurada em 1970."
+      }
+    ],
+    "city": "San Diego",
+    "style": "Brutalismo",
+    "photos": [
+      {
+        "alt": "Andares escalonados de vidro de um edifício de concreto de oito pavimentos sustentado por pernas de concreto abertas",
+        "caption": null
+      },
+      {
+        "alt": "Vista frontal de uma torre escalonada de concreto e vidro atrás de uma árvore escultural sem folhas e pavilhões de entrada em vidro",
+        "caption": null
+      },
+      {
+        "alt": "Andar de estudo com estantes curvas, poltronas e janelas altas voltadas para uma encosta arborizada",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma biblioteca de concreto em um campus universitário na costa do Pacífico, descrita como um ponto de encontro entre brutalismo e futurismo.",
+      "Seus andares são numerados 1, 2 e depois de 4 a 8, porque o terceiro andar que falta é um fórum aberto ao ar livre.",
+      "Inaugurada em 1970 e renomeada em 1995, guarda uma coleção de cerca de 8.500 itens de um famoso autor infantil."
+    ],
+    "summary": {
+      "description": "A biblioteca principal da UC San Diego, uma torre de concreto armado de oito andares, com cerca de 34 m de altura e 61 m de largura, projetada pela William L. Pereira & Associates. A obra começou em 1968 e foi inaugurada em 1970; recebeu o nome atual em 1995, em homenagem a Audrey e Theodor Seuss Geisel (Dr. Seuss).",
+      "keyFeatures": [
+        "Oito andares escalonados de concreto e vidro",
+        "Construção em concreto armado",
+        "Expansão subterrânea concluída em 1993",
+        "Coleção Dr. Seuss com cerca de 8.500 itens"
+      ],
+      "funFacts": [
+        "O terceiro andar é um fórum aberto ao ar livre, e não um andar fechado.",
+        "Um caminho de ardósia de 170 metros, o Snake Path de Alexis Smith, serpenteia ao redor do prédio."
+      ]
+    }
+  },
+  "trellick-tower": {
+    "name": "Trellick Tower",
+    "aliases": [
+      "Torre Trellick"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Erno Goldfinger"
+        ],
+        "nationality": "britânico",
+        "lifespan": "1902–1987",
+        "bio": "Arquiteto da Trellick Tower, encomendada pelo Greater London Council; foi seu último grande projeto."
+      }
+    ],
+    "city": "Londres",
+    "style": "Brutalismo",
+    "photos": [
+      {
+        "alt": "Alta lâmina residencial de concreto com varandas ao lado de uma torre de serviço estreita e separada, coroada por uma casa de caldeiras envidraçada",
+        "caption": null
+      },
+      {
+        "alt": "Vista de baixo para cima de uma torre de serviço de concreto com janelas em fenda, ligada a uma lâmina escura por uma passarela",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma torre de habitação social em Londres cujo poço de elevadores e serviços fica separado da lâmina principal.",
+      "Nos anos 1970 ganhou o apelido de Torre do Terror, até que uma associação de moradores e um porteiro mudaram sua reputação.",
+      "Foi concluída em 1972, tem 98 metros e 31 andares e é tombada como Grau II*."
+    ],
+    "summary": {
+      "description": "Uma torre residencial brutalista em Kensal Town, concluída em 28 de junho de 1972 para o Greater London Council. Tem 98 m de altura, 31 andares e 217 moradias, e uma torre separada abriga os elevadores e a casa de máquinas.",
+      "keyFeatures": [
+        "31 andares e 217 moradias",
+        "Torre de elevadores e serviços separada",
+        "Todos os apartamentos têm varanda e grandes janelas",
+        "Tombada como Grau II* desde 1998"
+      ],
+      "funFacts": [
+        "Foi baseada na Balfron Tower, anterior, do mesmo arquiteto, em Poplar.",
+        "Aparece no filme Withnail & I e acredita-se que tenha inspirado o romance High-Rise, de J. G. Ballard."
+      ]
+    }
+  }
+}

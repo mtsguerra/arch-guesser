@@ -1,0 +1,323 @@
+{
+  "teatro-alla-scala": {
+    "name": "Teatro alla Scala",
+    "aliases": [
+      "La Scala",
+      "Scala de Milão"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "italiano",
+        "lifespan": "1734–1808",
+        "bio": "Arquiteto neoclássico que projetou o La Scala, inaugurado em 1778."
+      }
+    ],
+    "city": "Milão",
+    "style": "Neoclássico",
+    "photos": [
+      {
+        "alt": "Fachada neoclássica sóbria cor de creme, com frontão e pórtico de arcos no térreo, diante de uma praça pavimentada",
+        "caption": null
+      },
+      {
+        "alt": "Plateia em ferradura com fileiras de camarotes, poltronas vermelhas, cortina vermelha e um lustre",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta casa de ópera foi construída no lugar de uma igreja, depois que o teatro anterior pegou fogo em 1776.",
+      "Sua temporada abre todo dia 7 de dezembro, festa do padroeiro da cidade.",
+      "Foi inaugurada em 1778 e estreou o Otello, de Verdi, e a Turandot, de Puccini."
+    ],
+    "summary": {
+      "description": "Uma casa de ópera em Milão projetada por Giuseppe Piermarini e inaugurada em 3 de agosto de 1778, no terreno da igreja de Santa Maria della Scala. Tem seis níveis de camarotes sob uma galeria chamada loggione e cerca de 2.000 lugares.",
+      "keyFeatures": [
+        "Plateia em ferradura com seis níveis de camarotes",
+        "Galeria loggione acima dos camarotes",
+        "Fachada neoclássica",
+        "Palco com cerca de 20 m de largura e 26 m de altura"
+      ],
+      "funFacts": [
+        "Bombardeios a danificaram gravemente em 1943; reabriu em 1946 com um concerto regido por Arturo Toscanini.",
+        "Estreou Nabucco, Otello e Falstaff, de Verdi, e Madama Butterfly e Turandot, de Puccini."
+      ]
+    }
+  },
+  "teatro-colon": {
+    "name": "Teatro Colón",
+    "aliases": [
+      "Teatro Colón de Buenos Aires"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "italiano",
+        "lifespan": "",
+        "bio": "Arquiteto que iniciou o Teatro Colón em 1889 e morreu em 1891."
+      },
+      {
+        "aliases": [],
+        "nationality": "italiano",
+        "lifespan": "",
+        "bio": "Arquiteto que deu continuidade ao Teatro Colón após a morte de Tamburini e foi assassinado em 1904."
+      },
+      {
+        "aliases": [
+          "Jules Dormal"
+        ],
+        "nationality": "belga",
+        "lifespan": "",
+        "bio": "Arquiteto belga que concluiu o Teatro Colón."
+      }
+    ],
+    "city": "Buenos Aires",
+    "style": "Eclético",
+    "photos": [
+      {
+        "alt": "Grande casa de ópera cor de creme com janelas em arco, pilastras, frisos esculpidos e um pórtico de esquina",
+        "caption": null
+      },
+      {
+        "alt": "Plateia dourada em ferradura com andares de balcões voltados para um palco iluminado e um proscênio de veludo drapeado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Esta casa de ópera levou dezenove anos para ser construída, atrasada por problemas financeiros e pela morte de seus arquitetos, um deles assassinado.",
+      "Sua acústica já foi apontada como a melhor do mundo para ópera, e sua decoração é escarlate e dourada.",
+      "Foi inaugurada em 1908 com a Aida, de Verdi, e em 1910 uma bomba anarquista caiu no meio de sua orquestra."
+    ],
+    "summary": {
+      "description": "Uma casa de ópera em Buenos Aires, iniciada em 1889 por Francesco Tamburini, continuada por Vittorio Meano e concluída em 1908 por Julio Dormal. Foi inaugurada em 25 de maio de 1908 com a Aida, de Verdi, e tem cerca de 2.480 lugares.",
+      "keyFeatures": [
+        "Arquitetura eclética",
+        "Plateia escarlate e dourada",
+        "Lustre central com cerca de 700 lâmpadas",
+        "Cúpula pintada por Raúl Soldi em 1966",
+        "Acústica apontada como a melhor para ópera em pesquisa de Leo Beranek"
+      ],
+      "funFacts": [
+        "Anarquistas bombardearam o teatro em 1910.",
+        "Reabriu em 24 de maio de 2010, após uma reforma iniciada em 2006."
+      ]
+    }
+  },
+  "villa-savoye": {
+    "name": "Villa Savoye",
+    "aliases": [
+      "Casa Savoye"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Corbusier",
+          "Le Corbu",
+          "Charles-Édouard Jeanneret",
+          "Jeanneret"
+        ],
+        "nationality": "Suíço-francês",
+        "lifespan": "1887–1965",
+        "bio": "Nascido Charles-Édouard Jeanneret na Suíça, Le Corbusier tornou-se um dos arquitetos mais influentes do século XX. Formulou os 'cinco pontos de uma nova arquitetura', criou o sistema de proporções Modulor e planeou a cidade indiana de Chandigarh. A sua obra tardia em betão bruto ajudou a moldar o brutalismo. Dezassete das suas obras estão na lista do Património Mundial da UNESCO."
+      }
+    ],
+    "city": "Poissy",
+    "style": "Modernismo",
+    "photos": [
+      {
+        "alt": "Caixa branca erguida sobre colunas redondas esbeltas acima de um muro de arrimo de pedra, com uma escultura de anéis metálicos no gramado",
+        "caption": null
+      },
+      {
+        "alt": "Chaise longue de aço tubular e couro preto sobre piso de ladrilhos, diante de uma parede de vidro",
+        "caption": null
+      },
+      {
+        "alt": "Banheiro revestido de azulejos brancos, com banheira rebaixada em mosaico azul e um divã curvo revestido",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma casa de campo branca nos arredores de uma capital, feita para uma família que queria um refúgio de fim de semana, com uma rampa subindo pelo centro.",
+      "Ela encarna os cinco pontos do arquiteto: pilotis, terraço-jardim, planta livre, janelas horizontais compridas e fachada livre.",
+      "Concluída em 1931, foi o primeiro edifício modernista que a França tombou como monumento histórico, em 1965."
+    ],
+    "summary": {
+      "description": "Uma vila modernista em Poissy, construída em concreto armado entre 1928 e 1931 para Pierre e Eugénie Savoye por Le Corbusier e Pierre Jeanneret. Encarna os Cinco Pontos da arquitetura de Le Corbusier, e uma rampa atravessa a casa.",
+      "keyFeatures": [
+        "Erguida sobre pilotis",
+        "Terraço-jardim",
+        "Planta livre",
+        "Janelas horizontais compridas",
+        "Rampa atravessando a casa"
+      ],
+      "funFacts": [
+        "Foi o primeiro edifício modernista tombado como monumento histórico na França, em 1965.",
+        "Entrou na lista do Patrimônio Mundial da UNESCO em 2016, com outras 16 obras do mesmo arquiteto."
+      ]
+    }
+  },
+  "casa-malaparte": {
+    "name": "Casa Malaparte",
+    "aliases": [
+      "Villa Malaparte"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "italiano",
+        "lifespan": "1903–1963",
+        "bio": "Arquiteto racionalista italiano, creditado, ao lado do escritor Curzio Malaparte, como autor da Casa Malaparte."
+      }
+    ],
+    "city": "Capri",
+    "style": "Racionalismo",
+    "photos": [
+      {
+        "alt": "Casa vermelha comprida sobre um penhasco rochoso à beira-mar, entre pinheiros, acima de águas azuis",
+        "caption": null
+      },
+      {
+        "alt": "Vista aérea de uma casa vermelha comprida em um promontório rochoso estreito, com uma parede branca curva no telhado plano",
+        "caption": null
+      },
+      {
+        "alt": "Terraço de cobertura ladrilhado com uma parede branca curva independente e uma cadeira solitária, diante de um penhasco arborizado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma caixa de alvenaria vermelha ergue-se sobre um penhasco no Mediterrâneo, 32 metros acima do mar, e se chega a pé ou por 99 degraus a partir da água.",
+      "Escadas em pirâmide invertida levam a um terraço na cobertura, com uma parede branca curva independente.",
+      "Iniciada em 1937 para um escritor, é um cenário famoso do filme O Desprezo, de Jean-Luc Godard, de 1963."
+    ],
+    "summary": {
+      "description": "Uma casa em Punta Massullo, no lado leste de Capri, iniciada em 1937 para o escritor Curzio Malaparte; Adalberto Libera é creditado como arquiteto. É uma caixa de alvenaria vermelha num penhasco a 32 m do mar, com escadas em pirâmide invertida que levam a um terraço na cobertura.",
+      "keyFeatures": [
+        "Caixa de alvenaria vermelha sobre um penhasco",
+        "Escadas em pirâmide invertida",
+        "Terraço na cobertura",
+        "Parede branca curva independente"
+      ],
+      "funFacts": [
+        "Aparece com destaque no filme O Desprezo (1963), de Godard.",
+        "Foi doada à Fundação Giorgio Ronchi em 1972."
+      ]
+    }
+  },
+  "royal-palace-of-madrid": {
+    "name": "Palácio Real de Madri",
+    "aliases": [
+      "Palacio Real de Madrid",
+      "Palácio Real"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Filippo Juvara"
+        ],
+        "nationality": "italiano",
+        "lifespan": "1678–1736",
+        "bio": "Arquiteto italiano que iniciou o projeto do Palácio Real de Madri."
+      },
+      {
+        "aliases": [],
+        "nationality": "italiano",
+        "lifespan": "",
+        "bio": "Discípulo de Juvarra, que deu continuidade à obra do Palácio Real de Madri."
+      }
+    ],
+    "city": "Madri",
+    "style": "Barroco tardio e classicismo",
+    "photos": [
+      {
+        "alt": "Imensa fachada de palácio em granito e calcário, com pilastras gigantes, um frontão com relógio no centro e uma enorme praça pavimentada",
+        "caption": null
+      },
+      {
+        "alt": "Hall de escadaria monumental de mármore, com lampadários dourados, estuques e teto abobadado pintado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É o maior palácio real da Europa, com cerca de 135.000 metros quadrados e 3.418 salas.",
+      "Ergueu-se no lugar de uma fortaleza medieval que queimou na véspera de Natal de 1734, quando uma famosa pintura foi salva ao ser jogada por uma janela.",
+      "Sua grande escadaria é esculpida em uma única peça de mármore de San Agustín."
+    ],
+    "summary": {
+      "description": "A residência oficial da família real espanhola, usada principalmente em cerimônias de Estado. Construído depois que o antigo Alcázar queimou em 1734, foi projetado por Filippo Juvarra e continuado por Giambattista Sacchetti, com exterior barroco tardio e clássico, em granito cinza e calcário branco.",
+      "keyFeatures": [
+        "Cerca de 135.000 m² e 3.418 salas",
+        "Fachada de granito e calcário com colunas de ordem gigante",
+        "Grande Escadaria de Francesco Sabatini",
+        "Afrescos de Tiepolo, Giaquinto e Mengs"
+      ],
+      "funFacts": [
+        "As Meninas foram salvas do incêndio de 1734 ao serem jogadas por uma janela.",
+        "Abriga o único quinteto de cordas Stradivarius completo do mundo."
+      ]
+    }
+  },
+  "buckingham-palace": {
+    "name": "Palácio de Buckingham",
+    "aliases": [
+      "Buckingham House"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "1752–1835",
+        "bio": "Arquiteto britânico que ampliou a Buckingham House para Jorge IV a partir de 1826 e foi afastado do projeto em 1829."
+      },
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "1787–1879",
+        "bio": "Arquiteto britânico que concluiu o palácio para Guilherme IV a partir de 1830 e projetou sua ala leste em 1847-1849."
+      },
+      {
+        "aliases": [],
+        "nationality": "britânico",
+        "lifespan": "1849–1930",
+        "bio": "Arquiteto britânico que redesenhou a Fachada Leste em pedra de Portland em 1913."
+      }
+    ],
+    "city": "Londres",
+    "style": "Neoclássico",
+    "photos": [
+      {
+        "alt": "Longa fachada de palácio em pedra clara, com frontão central, vista além de uma rotatória, canteiros de flores e uma estátua dourada de um monumento",
+        "caption": null
+      },
+      {
+        "alt": "Ampla fachada de palácio em pedra clara, com pórtico central, portões e grades dourados e pessoas na calçada",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Começou como uma modesta mansão de 1703 para um duque e virou lar real depois que um rei a comprou em 1761 para sua rainha.",
+      "Tem 775 salas, incluindo 19 salões de Estado e um salão de baile de 120 pés de comprimento, e a família real cumprimenta o público de sua sacada.",
+      "Sua Fachada Leste em pedra de Portland é de 1913, e a rainha Vitória foi a primeira monarca a morar ali, a partir de 1837."
+    ],
+    "summary": {
+      "description": "A residência do monarca britânico em Londres, que cresceu a partir da Buckingham House (1703) depois que Jorge III a comprou em 1761. John Nash a ampliou a partir de 1826, Edward Blore concluiu a obra e acrescentou a ala leste, e Aston Webb deu à Fachada Leste seu aspecto atual, em pedra de Portland, em 1913.",
+      "keyFeatures": [
+        "775 salas, incluindo 19 salões de Estado",
+        "Sacada da Fachada Leste",
+        "Salão de baile de 120 pés de comprimento",
+        "Jardim privado de 39 acres"
+      ],
+      "funFacts": [
+        "A rainha Vitória foi a primeira monarca a residir ali, a partir de 1837.",
+        "O palácio foi bombardeado nove vezes na Segunda Guerra Mundial."
+      ]
+    }
+  }
+}

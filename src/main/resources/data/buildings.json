@@ -19679,5 +19679,1034 @@
         "It was declared a national monument in 1910 and re-inaugurated on 4 June 1940."
       ]
     }
+  },
+  {
+    "id": "hotel-solvay",
+    "name": "Hôtel Solvay",
+    "aliases": [
+      "Solvay House",
+      "Hotel Solvay",
+      "Maison Solvay"
+    ],
+    "architects": [
+      {
+        "name": "Victor Horta",
+        "aliases": [
+          "Horta",
+          "Baron Horta"
+        ],
+        "lifespan": "1861–1947",
+        "nationality": "Belgian",
+        "bio": "Born in Ghent, Horta designed a series of Brussels town houses in the 1890s that made him the pioneer of Art Nouveau architecture, with open plans, exposed iron and whiplash ornament. Four of them, including the Hôtel Tassel and his own house, form a UNESCO World Heritage Site."
+      }
+    ],
+    "location": {
+      "city": "Brussels",
+      "country": "Belgium",
+      "countryCode": "BE"
+    },
+    "yearCompleted": 1900,
+    "era": "ART_NOUVEAU",
+    "themes": [
+      "art-nouveau",
+      "houses-villas"
+    ],
+    "style": "Art Nouveau",
+    "wikipedia": "https://en.wikipedia.org/wiki/H%C3%B4tel_Solvay",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bruxelles_-_H%C3%B4tel_Solvay_%281%29.jpg/1920px-Bruxelles_-_H%C3%B4tel_Solvay_%281%29.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.9
+        },
+        "alt": "Narrow town house façade with curved bay windows, wrought-iron balconies and slender wooden window frames",
+        "credit": "Photo: Fred Romero from Paris, France · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bruxelles_-_H%C3%B4tel_Solvay_(1).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/H%C3%B4tel_Solvay_-_Main_Stairs.jpg/1920px-H%C3%B4tel_Solvay_-_Main_Stairs.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.76
+        },
+        "alt": "Stair hall with a whiplash-curved iron balustrade, a stained-glass skylight and a large pointillist mural",
+        "credit": "Photo: Brigade Piron · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Solvay_-_Main_Stairs.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A narrow Brussels town house built for a wealthy industrial family, whose architect designed every detail down to the doorbell."
+      },
+      {
+        "order": 2,
+        "text": "Its stair hall is lit by a stained-glass skylight, and a pointillist painter collaborated on the decoration of the staircase."
+      },
+      {
+        "order": 3,
+        "text": "It was built between 1895 and 1900 and is one of four town houses by the same architect that UNESCO listed in 2000."
+      }
+    ],
+    "summary": {
+      "description": "A town house on Avenue Louise built for Armand Solvay, son of the chemist and industrialist Ernest Solvay. Victor Horta designed it in total: furniture, carpets, light fittings, tableware and even the doorbell, in marble, onyx, bronze and tropical woods.",
+      "keyFeatures": [
+        "Façade with curved bays and wrought-iron balconies",
+        "Stair hall under a stained-glass skylight",
+        "Total design down to the furniture and doorbell",
+        "Marble, onyx, bronze and tropical woods"
+      ],
+      "funFacts": [
+        "The pointillist painter Théo van Rysselberghe collaborated on the staircase decoration.",
+        "The house stayed private until it opened as a museum on 23 January 2021."
+      ]
+    }
+  },
+  {
+    "id": "villa-majorelle",
+    "name": "Villa Majorelle",
+    "aliases": [
+      "Villa Jitka",
+      "Maison Majorelle Nancy"
+    ],
+    "architects": [
+      {
+        "name": "Henri Sauvage",
+        "aliases": [
+          "Sauvage"
+        ],
+        "lifespan": "1873–1932",
+        "nationality": "French",
+        "bio": "French architect whose first project, at the age of 24, was the Villa Majorelle in Nancy."
+      }
+    ],
+    "location": {
+      "city": "Nancy",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1902,
+    "era": "ART_NOUVEAU",
+    "themes": [
+      "art-nouveau",
+      "houses-villas"
+    ],
+    "style": "Art Nouveau",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_Majorelle",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Villa_Majorelle_Nancy_vue_g%C3%A9n%C3%A9rale_de_la_fa%C3%A7ade_Nord_r%C3%A9nov%C3%A9e_2020.jpg",
+        "alt": "Stone house with a steep gabled roof, a large arched window and a balcony with green metalwork",
+        "credit": "Photo: cliché Damien Boyer · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Majorelle_Nancy_vue_g%C3%A9n%C3%A9rale_de_la_fa%C3%A7ade_Nord_r%C3%A9nov%C3%A9e_2020.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Villa_Majorelle%2C_East_fa%C3%A7ade.jpg/1920px-Villa_Majorelle%2C_East_fa%C3%A7ade.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.86
+        },
+        "alt": "Pale stone façade with irregular carved window frames and a curved wrought-iron canopy",
+        "credit": "Photo: Audesome · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Majorelle,_East_fa%C3%A7ade.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was built as a showcase for a furniture maker's work, with a studio on its top floor."
+      },
+      {
+        "order": 2,
+        "text": "It was the first project of a 24-year-old architect and is among the earliest and most influential Art Nouveau houses in France."
+      },
+      {
+        "order": 3,
+        "text": "It stands in Nancy and was first called after the client's wife, Jitka."
+      }
+    ],
+    "summary": {
+      "description": "A house built in 1901-1902 for the Nancy furniture maker Louis Majorelle, as a showcase for his furniture and for other decorative artists. It was the first project of the 24-year-old Henri Sauvage and is among the first Art Nouveau houses in France.",
+      "keyFeatures": [
+        "Carved oak staircase",
+        "Ceramics by Alexandre Bigot",
+        "Stained glass by Jacques Gruber",
+        "Wrought-iron front grille and mosaic vestibule floor"
+      ],
+      "funFacts": [
+        "L'Illustration called it \"a house made by an artist for an artist\".",
+        "It was declared a historical monument in January 1975."
+      ]
+    }
+  },
+  {
+    "id": "casa-amatller",
+    "name": "Casa Amatller",
+    "aliases": [
+      "Amatller House"
+    ],
+    "architects": [
+      {
+        "name": "Josep Puig i Cadafalch",
+        "aliases": [
+          "Puig i Cadafalch",
+          "Josep Puig"
+        ],
+        "lifespan": "1867–1956",
+        "nationality": "Catalan",
+        "bio": "Catalan architect who redesigned Casa Amatller for the chocolatier Antoni Amatller in 1898-1900."
+      }
+    ],
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "countryCode": "ES"
+    },
+    "yearCompleted": 1900,
+    "era": "ART_NOUVEAU",
+    "themes": [
+      "art-nouveau",
+      "houses-villas"
+    ],
+    "style": "Catalan Modernisme",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casa_Amatller",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Casa_Amatller.jpg/1920px-Casa_Amatller.jpg",
+        "alt": "Façade with a stepped tiled gable, rows of small windows and carved stone window frames over patterned plaster",
+        "credit": "Photo: Kent Wang · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_Amatller.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Casa_Amatller_-_51446999114.jpg/1920px-Casa_Amatller_-_51446999114.jpg",
+        "alt": "Stair court with a red-carpeted marble stair, a stencilled wall and a window with a wrought-iron grille set with coloured glass",
+        "credit": "Photo: Kent Wang · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa_Amatller_-_51446999114.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A wealthy chocolatier and amateur archaeologist had an 1875 house remodelled into a new home."
+      },
+      {
+        "order": 2,
+        "text": "A tile-covered stepped gable crowns the façade, whose sculpture includes a rat with a camera."
+      },
+      {
+        "order": 3,
+        "text": "It stands on a famous block of three celebrated houses on one of the city's grandest boulevards."
+      }
+    ],
+    "summary": {
+      "description": "A house on Passeig de Gràcia, built in 1875 and redesigned between 1898 and 1900 by Josep Puig i Cadafalch for the chocolatier and amateur archaeologist Antoni Amatller. It stands on the Illa de la Discòrdia beside Casa Batlló and Casa Lleó-Morera.",
+      "keyFeatures": [
+        "Stepped gable covered in tile",
+        "Sculptural compositions on the façade",
+        "Entrance foyer with large stained-glass doors",
+        "Stair court with a stained-glass ceiling"
+      ],
+      "funFacts": [
+        "One façade sculpture shows a rat with a camera.",
+        "Continuous family ownership until 1960 kept the 1900 interior largely intact."
+      ]
+    }
+  },
+  {
+    "id": "unite-d-habitation-marseille",
+    "name": "Unité d'Habitation",
+    "aliases": [
+      "Cité Radieuse",
+      "La Cité Radieuse",
+      "Unité d'Habitation de Marseille",
+      "Radiant City Marseille"
+    ],
+    "architects": [
+      {
+        "name": "Le Corbusier",
+        "aliases": [
+          "Corbusier",
+          "Le Corbu",
+          "Charles-Édouard Jeanneret",
+          "Jeanneret"
+        ],
+        "lifespan": "1887–1965",
+        "nationality": "Swiss-French",
+        "bio": "Born Charles-Édouard Jeanneret in Switzerland, Le Corbusier became one of the most influential architects of the 20th century. He set out his 'five points of a new architecture', devised the Modulor proportion system and planned the Indian city of Chandigarh. His late work in raw concrete helped shape Brutalism. Seventeen of his works are on the UNESCO World Heritage list."
+      }
+    ],
+    "location": {
+      "city": "Marseille",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1952,
+    "era": "BRUTALISM",
+    "themes": [
+      "brutalism",
+      "houses-villas"
+    ],
+    "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Unit%C3%A9_d%27Habitation",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Cit%C3%A9_Radieuse_%C3%A0_Marseille.jpg",
+        "alt": "Tall rough concrete slab end wall with a zigzag external stair, raised on massive tapering supports",
+        "credit": "Photo: Gatotienesueño · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_Radieuse_%C3%A0_Marseille.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/Unit%C3%A9_d%27Habitation_de_Marseille_4.JPG",
+        "alt": "Roof terrace edge with a mesh-fenced concrete ventilation stack overlooking a city and distant hills",
+        "credit": "Photo: Anapuig · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Unit%C3%A9_d%27Habitation_de_Marseille_4.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A postwar housing block raised on large concrete legs, with wide internal corridors it called streets in the sky."
+      },
+      {
+        "order": 2,
+        "text": "It holds 337 apartments in 23 layouts, plus shops, a hotel and a communal roof with a running track and paddling pool."
+      },
+      {
+        "order": 3,
+        "text": "It was built between 1947 and 1952 in the south of a French port city and joined UNESCO's World Heritage List in 2016."
+      }
+    ],
+    "summary": {
+      "description": "A 12-storey housing block built between 1947 and 1952 with Shadrach Woods and George Candilis, in rough-cast concrete (béton brut), raised on large pilotis. It holds 337 apartments in 23 layouts and is often cited as an inspiration for Brutalist architecture.",
+      "keyFeatures": [
+        "Raised on large pilotis",
+        "337 apartments in 23 layouts",
+        "Internal corridors every third floor",
+        "Communal roof terrace",
+        "Shops, hotel and restaurant inside"
+      ],
+      "funFacts": [
+        "Walter Gropius reportedly said any architect who did not find it beautiful should put down his pencil.",
+        "It joined UNESCO's World Heritage List in 2016 with 16 other works by the same architect."
+      ]
+    }
+  },
+  {
+    "id": "geisel-library",
+    "name": "Geisel Library",
+    "aliases": [
+      "UCSD Geisel Library",
+      "Central Library UC San Diego",
+      "Geisel Library UC San Diego"
+    ],
+    "architects": [
+      {
+        "name": "William Pereira",
+        "aliases": [
+          "William L. Pereira",
+          "William L. Pereira & Associates",
+          "Pereira"
+        ],
+        "lifespan": "1909–1985",
+        "nationality": "American",
+        "bio": "American architect whose firm, William L. Pereira & Associates, designed the main library of UC San Diego, opened in 1970."
+      }
+    ],
+    "location": {
+      "city": "San Diego",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1970,
+    "era": "BRUTALISM",
+    "themes": [
+      "brutalism",
+      "libraries"
+    ],
+    "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Geisel_Library",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Geisel_Library_on_Clear_Day.jpg/1920px-Geisel_Library_on_Clear_Day.jpg",
+        "alt": "Stepped glass tiers of an eight-storey concrete building held aloft on splayed concrete legs",
+        "credit": "Photo: Gankbank789 · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Geisel_Library_on_Clear_Day.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Geisel_Library%2C_UCSD.jpg/1920px-Geisel_Library%2C_UCSD.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.74
+        },
+        "alt": "Front view of a stepped concrete and glass tower behind a bare sculptural tree and glass entrance pavilions",
+        "credit": "Photo: https://www.flickr.com/photos/belisario/ · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Geisel_Library,_UCSD.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Interior_of_Geisel_Library_2_2019-04-16.jpg/1920px-Interior_of_Geisel_Library_2_2019-04-16.jpg",
+        "alt": "Study floor with curved bookcases, armchairs and tall windows looking over a wooded hillside",
+        "credit": "Photo: FASTILY · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_Geisel_Library_2_2019-04-16.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A concrete library on a university campus on the Pacific coast, described as a nexus between brutalism and futurism."
+      },
+      {
+        "order": 2,
+        "text": "Its floors are numbered 1, 2, then 4 to 8, because the missing third floor is an open outdoor forum."
+      },
+      {
+        "order": 3,
+        "text": "Opened in 1970 and renamed in 1995, it holds a collection of about 8,500 items from a famous children's author."
+      }
+    ],
+    "summary": {
+      "description": "The main library of UC San Diego, a reinforced-concrete tower of eight floors, about 34 m tall and 61 m wide, designed by William L. Pereira & Associates. Construction began in 1968 and it opened in 1970; it was renamed in 1995 after Audrey and Theodor Seuss Geisel (Dr. Seuss).",
+      "keyFeatures": [
+        "Eight stepped floors of concrete and glass",
+        "Reinforced-concrete construction",
+        "Underground expansion completed in 1993",
+        "Dr. Seuss Collection of about 8,500 items"
+      ],
+      "funFacts": [
+        "The third floor is an open outdoor forum, not a sealed floor.",
+        "A 560-foot slate path, Snake Path by Alexis Smith, winds around the building."
+      ]
+    }
+  },
+  {
+    "id": "trellick-tower",
+    "name": "Trellick Tower",
+    "aliases": [
+      "Trellick"
+    ],
+    "architects": [
+      {
+        "name": "Ernő Goldfinger",
+        "aliases": [
+          "Erno Goldfinger",
+          "Goldfinger"
+        ],
+        "lifespan": "1902–1987",
+        "nationality": "British",
+        "bio": "Architect of Trellick Tower, commissioned by the Greater London Council; it was his last major project."
+      }
+    ],
+    "location": {
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": 1972,
+    "era": "BRUTALISM",
+    "themes": [
+      "brutalism",
+      "skyscrapers"
+    ],
+    "style": "Brutalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trellick_Tower",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Trellick_Tower_02.JPG/1920px-Trellick_Tower_02.JPG",
+        "alt": "Tall concrete residential slab with balconies beside a separate narrow service tower topped by a glazed boiler room",
+        "credit": "Photo: Edwardx · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Trellick_Tower_02.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Trellick_Tower%2C_August_2015_02.jpg/1920px-Trellick_Tower%2C_August_2015_02.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.86
+        },
+        "alt": "Looking up a tall concrete service tower with slit windows, linked to a dark slab by a bridge",
+        "credit": "Photo: Edwardx · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Trellick_Tower,_August_2015_02.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A London council-housing tower whose lift and service shaft stands apart from the main slab."
+      },
+      {
+        "order": 2,
+        "text": "In the 1970s it earned the nickname Tower of Terror before a residents' association and a concierge turned its reputation around."
+      },
+      {
+        "order": 3,
+        "text": "It was finished in 1972, rises 98 metres over 31 floors, and is Grade II* listed."
+      }
+    ],
+    "summary": {
+      "description": "A Brutalist residential tower in Kensal Town, completed on 28 June 1972 for the Greater London Council. It is 98 m tall with 31 floors and 217 dwellings, and a separate tower holds the lifts and plant room.",
+      "keyFeatures": [
+        "31 floors and 217 dwellings",
+        "Separate lift and service tower",
+        "Every flat has a balcony and large windows",
+        "Grade II* listed since 1998"
+      ],
+      "funFacts": [
+        "It was based on the architect's earlier Balfron Tower in Poplar.",
+        "It appears in the film Withnail & I and is believed to have inspired J. G. Ballard's High-Rise."
+      ]
+    }
+  },
+  {
+    "id": "teatro-alla-scala",
+    "name": "Teatro alla Scala",
+    "aliases": [
+      "La Scala",
+      "Scala Opera House",
+      "Teatro La Scala"
+    ],
+    "architects": [
+      {
+        "name": "Giuseppe Piermarini",
+        "aliases": [
+          "Piermarini"
+        ],
+        "lifespan": "1734–1808",
+        "nationality": "Italian",
+        "bio": "Neoclassical architect who designed La Scala, opened in 1778."
+      }
+    ],
+    "location": {
+      "city": "Milan",
+      "country": "Italy",
+      "countryCode": "IT"
+    },
+    "yearCompleted": 1778,
+    "era": "NEOCLASSICAL",
+    "themes": [
+      "theatres-opera"
+    ],
+    "style": "Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/Teatro_alla_Scala",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/20110725_Milano_La_Scala_5507.jpg/1920px-20110725_Milano_La_Scala_5507.jpg",
+        "alt": "Sober cream-coloured neoclassical façade with a pediment and arched ground-floor porte-cochère on a paved square",
+        "credit": "Photo: Jakub Hałun · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:20110725_Milano_La_Scala_5507.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Teatro_alla_Scala_interior_Milan.jpg/1920px-Teatro_alla_Scala_interior_Milan.jpg",
+        "alt": "Horseshoe-shaped auditorium with tiers of boxes, red seats, a red curtain and a chandelier",
+        "credit": "Photo: This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Teatro_alla_Scala_interior_Milan.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This opera house was built on the site of a church, after its predecessor theatre burned down in 1776."
+      },
+      {
+        "order": 2,
+        "text": "Its season opens every 7 December, the feast day of the city's patron saint."
+      },
+      {
+        "order": 3,
+        "text": "It opened in 1778 and has premiered Verdi's Otello and Puccini's Turandot."
+      }
+    ],
+    "summary": {
+      "description": "An opera house in Milan designed by Giuseppe Piermarini and opened on 3 August 1778 on the site of the church of Santa Maria della Scala. It has six tiers of boxes below a gallery called the loggione and seats about 2,000.",
+      "keyFeatures": [
+        "Horseshoe auditorium with six tiers of boxes",
+        "Loggione gallery above the boxes",
+        "Neoclassical façade",
+        "Stage about 20 m wide and 26 m high"
+      ],
+      "funFacts": [
+        "Bombing damaged it severely in 1943; it reopened in 1946 with a concert conducted by Arturo Toscanini.",
+        "It premiered Verdi's Nabucco, Otello and Falstaff, and Puccini's Madama Butterfly and Turandot."
+      ]
+    }
+  },
+  {
+    "id": "teatro-colon",
+    "name": "Teatro Colón",
+    "aliases": [
+      "Colón Theatre",
+      "Columbus Theatre",
+      "Teatro Colon Buenos Aires"
+    ],
+    "architects": [
+      {
+        "name": "Francesco Tamburini",
+        "aliases": [
+          "Tamburini"
+        ],
+        "lifespan": "",
+        "nationality": "Italian",
+        "bio": "Architect who began the Teatro Colón in 1889 and died in 1891."
+      },
+      {
+        "name": "Vittorio Meano",
+        "aliases": [
+          "Meano"
+        ],
+        "lifespan": "",
+        "nationality": "Italian",
+        "bio": "Architect who continued the Teatro Colón after Tamburini's death and was murdered in 1904."
+      },
+      {
+        "name": "Julio Dormal",
+        "aliases": [
+          "Jules Dormal",
+          "Julio Dormal"
+        ],
+        "lifespan": "",
+        "nationality": "Belgian",
+        "bio": "Belgian architect who completed the Teatro Colón."
+      }
+    ],
+    "location": {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "countryCode": "AR"
+    },
+    "yearCompleted": 1908,
+    "era": "HISTORICISM",
+    "themes": [
+      "theatres-opera"
+    ],
+    "style": "Eclectic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Teatro_Col%C3%B3n",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Teatro_Col%C3%B3n%2C_Buenos_Aires_01.jpg/1920px-Teatro_Col%C3%B3n%2C_Buenos_Aires_01.jpg",
+        "crop": {
+          "x": 0.27,
+          "y": 0,
+          "w": 0.73,
+          "h": 1
+        },
+        "alt": "Large cream-coloured opera house with arched windows, pilasters, sculpted friezes and a corner portico",
+        "credit": "Photo: Bernard Gagnon · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Teatro_Col%C3%B3n,_Buenos_Aires_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29_02.JPG/1920px-Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_%28sala%29_02.JPG",
+        "alt": "Gilded horseshoe auditorium with tiers of balconies facing a lit stage and a draped velvet proscenium",
+        "credit": "Photo: Leandro Kibisz · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Argentina_-_Buenos_Aires_-_Teatro_Col%C3%B3n_(sala)_02.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "This opera house took nineteen years to build, delayed by financial trouble and the deaths of its architects, one of whom was murdered."
+      },
+      {
+        "order": 2,
+        "text": "Its acoustics have been ranked the best in the world for opera, and its decor is scarlet and gold."
+      },
+      {
+        "order": 3,
+        "text": "It opened in 1908 with Verdi's Aida, and a 1910 anarchist bomb landed in the middle of its orchestra."
+      }
+    ],
+    "summary": {
+      "description": "An opera house in Buenos Aires, begun in 1889 by Francesco Tamburini, continued by Vittorio Meano and completed in 1908 by Julio Dormal. It opened on 25 May 1908 with Verdi's Aida and holds about 2,480 seats.",
+      "keyFeatures": [
+        "Eclectic architecture",
+        "Scarlet and gold auditorium",
+        "Central chandelier of about 700 bulbs",
+        "Cupola painted by Raúl Soldi in 1966",
+        "Acoustics ranked best for opera in a Leo Beranek survey"
+      ],
+      "funFacts": [
+        "Anarchists bombed the theatre in 1910.",
+        "It reopened on 24 May 2010 after a refurbishment that began in 2006."
+      ]
+    }
+  },
+  {
+    "id": "villa-savoye",
+    "name": "Villa Savoye",
+    "aliases": [
+      "Savoye House"
+    ],
+    "architects": [
+      {
+        "name": "Le Corbusier",
+        "aliases": [
+          "Corbusier",
+          "Le Corbu",
+          "Charles-Édouard Jeanneret",
+          "Jeanneret"
+        ],
+        "lifespan": "1887–1965",
+        "nationality": "Swiss-French",
+        "bio": "Born Charles-Édouard Jeanneret in Switzerland, Le Corbusier became one of the most influential architects of the 20th century. He set out his 'five points of a new architecture', devised the Modulor proportion system and planned the Indian city of Chandigarh. His late work in raw concrete helped shape Brutalism. Seventeen of his works are on the UNESCO World Heritage list."
+      }
+    ],
+    "location": {
+      "city": "Poissy",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1931,
+    "era": "MODERNISM",
+    "themes": [
+      "houses-villas",
+      "modern-icons"
+    ],
+    "style": "Modernism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_Savoye",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Villa_Savoye%2C_Poissy_%C3%A9l%C3%A9ments_de_d%C3%A9coration_circulaires.jpg/1920px-Villa_Savoye%2C_Poissy_%C3%A9l%C3%A9ments_de_d%C3%A9coration_circulaires.jpg",
+        "alt": "White box raised on slender round columns above a stone retaining wall, with a metal ring sculpture on the grass",
+        "credit": "Photo: Cbyd · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Savoye,_Poissy_%C3%A9l%C3%A9ments_de_d%C3%A9coration_circulaires.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Villa_Savoye_%288237925975%29.jpg/1920px-Villa_Savoye_%288237925975%29.jpg",
+        "alt": "Tubular steel and black leather chaise longue on a tiled floor in front of a glazed wall",
+        "credit": "Photo: jeanbaptisteparis from Cambridge, MA, USA · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Savoye_(8237925975).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Villa_Savoye32.JPG_-_Flickr_-_scarletgreen.jpg",
+        "alt": "White-tiled bathroom with a sunken blue-mosaic bath and a curving tiled couch",
+        "credit": "Photo: scarletgreen from Japan · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Savoye32.JPG_-_Flickr_-_scarletgreen.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A white country house outside a capital, built for a family who wanted a weekend home, with a ramp rising through its centre."
+      },
+      {
+        "order": 2,
+        "text": "It embodies the architect's five points: pilotis, a roof garden, a free plan, long horizontal windows and a free façade."
+      },
+      {
+        "order": 3,
+        "text": "Finished in 1931, it was the first modernist building France listed as a historical monument, in 1965."
+      }
+    ],
+    "summary": {
+      "description": "A modernist villa in Poissy, built in reinforced concrete in 1928-1931 for Pierre and Eugénie Savoye by Le Corbusier and Pierre Jeanneret. It embodies Le Corbusier's Five Points of architecture, and a ramp runs through the house.",
+      "keyFeatures": [
+        "Raised on pilotis",
+        "Roof garden",
+        "Free floor plan",
+        "Long horizontal windows",
+        "Ramp through the house"
+      ],
+      "funFacts": [
+        "It was the first modernist building listed as a historical monument in France, in 1965.",
+        "It joined UNESCO's World Heritage List in 2016, with 16 other works by the same architect."
+      ]
+    }
+  },
+  {
+    "id": "casa-malaparte",
+    "name": "Casa Malaparte",
+    "aliases": [
+      "Villa Malaparte",
+      "Malaparte House"
+    ],
+    "architects": [
+      {
+        "name": "Adalberto Libera",
+        "aliases": [
+          "Libera"
+        ],
+        "lifespan": "1903–1963",
+        "nationality": "Italian",
+        "bio": "Italian rationalist architect credited, alongside the writer Curzio Malaparte, as author of Casa Malaparte."
+      }
+    ],
+    "location": {
+      "city": "Capri",
+      "country": "Italy",
+      "countryCode": "IT"
+    },
+    "yearCompleted": 1940,
+    "era": "MODERNISM",
+    "themes": [
+      "houses-villas"
+    ],
+    "style": "Rationalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Villa_Malaparte",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Villa_Malaparte_lato_Est_a_Capri.jpg/1920px-Villa_Malaparte_lato_Est_a_Capri.jpg",
+        "alt": "Long red house on a rocky sea cliff among pine trees above blue water",
+        "credit": "Photo: This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Malaparte_lato_Est_a_Capri.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Villa_Malaparte.jpg",
+        "alt": "Aerial view of a long red house on a narrow rocky promontory, with a white curved wall on its flat roof",
+        "credit": "Photo: User Peter Schüle · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Villa_Malaparte.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Casa-Malaparte-Capri-Italy_1991-May_05.jpg/1920px-Casa-Malaparte-Capri-Italy_1991-May_05.jpg",
+        "alt": "Tiled roof terrace with a curving freestanding white wall and a single chair, backed by a wooded cliff",
+        "credit": "Photo: Eoghanacht · CC0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casa-Malaparte-Capri-Italy_1991-May_05.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A red masonry box stands on a Mediterranean cliff 32 metres above the sea, reached on foot or by 99 steps from the water."
+      },
+      {
+        "order": 2,
+        "text": "Reverse-pyramid stairs lead up to a roof patio with a freestanding curved white wall."
+      },
+      {
+        "order": 3,
+        "text": "Begun in 1937 for a writer, it is a famous setting in Jean-Luc Godard's 1963 film Contempt."
+      }
+    ],
+    "summary": {
+      "description": "A house on Punta Massullo on the eastern side of Capri, begun in 1937 for the writer Curzio Malaparte; Adalberto Libera is credited as architect. It is a red masonry box on a cliff 32 m above the sea, with reverse-pyramid stairs leading to a roof patio.",
+      "keyFeatures": [
+        "Red masonry box on a sea cliff",
+        "Reverse-pyramid stairs",
+        "Roof patio",
+        "Freestanding curved white wall"
+      ],
+      "funFacts": [
+        "It features prominently in Godard's film Contempt (1963).",
+        "It was donated to the Giorgio Ronchi Foundation in 1972."
+      ]
+    }
+  },
+  {
+    "id": "royal-palace-of-madrid",
+    "name": "Royal Palace of Madrid",
+    "aliases": [
+      "Palacio Real de Madrid",
+      "Palacio Real",
+      "Madrid Royal Palace"
+    ],
+    "architects": [
+      {
+        "name": "Filippo Juvarra",
+        "aliases": [
+          "Juvarra",
+          "Filippo Juvara"
+        ],
+        "lifespan": "1678–1736",
+        "nationality": "Italian",
+        "bio": "Italian architect who began the design of the Royal Palace of Madrid."
+      },
+      {
+        "name": "Giovanni Battista Sacchetti",
+        "aliases": [
+          "Giambattista Sacchetti",
+          "Sacchetti"
+        ],
+        "lifespan": "",
+        "nationality": "Italian",
+        "bio": "Juvarra's disciple, who continued the work on the Royal Palace of Madrid."
+      }
+    ],
+    "location": {
+      "city": "Madrid",
+      "country": "Spain",
+      "countryCode": "ES"
+    },
+    "yearCompleted": 1755,
+    "era": "BAROQUE",
+    "themes": [
+      "palaces"
+    ],
+    "style": "Late Baroque and Classicism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Royal_Palace_of_Madrid",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Palacio_Real_de_Madrid_-_13.jpg/1920px-Palacio_Real_de_Madrid_-_13.jpg",
+        "alt": "Vast granite-and-limestone palace front with giant pilasters, a central clock pediment and a huge paved square",
+        "credit": "Photo: Carlos Delgado · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_-_13.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Main_Staircase_%28Royal_Palace_of_Madrid%29.jpg/1920px-Main_Staircase_%28Royal_Palace_of_Madrid%29.jpg",
+        "alt": "Grand marble staircase hall with gilded lamps, stucco and a painted vaulted ceiling",
+        "credit": "Photo: Joseolgon · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Main_Staircase_(Royal_Palace_of_Madrid).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is the largest royal palace in Europe, with about 135,000 square metres of floor area and 3,418 rooms."
+      },
+      {
+        "order": 2,
+        "text": "It rose on the site of a medieval fortress that burned down on Christmas Eve 1734, when a famous painting was saved by being thrown out of a window."
+      },
+      {
+        "order": 3,
+        "text": "Its grand staircase is carved from a single piece of San Agustín marble."
+      }
+    ],
+    "summary": {
+      "description": "The official residence of the Spanish royal family, used mainly for state ceremonies. Built after the old Alcázar burned in 1734, it was designed by Filippo Juvarra and continued by Giambattista Sacchetti, with a Late Baroque and Classical exterior of grey granite and white limestone.",
+      "keyFeatures": [
+        "About 135,000 m² and 3,418 rooms",
+        "Granite and limestone façade with giant-order columns",
+        "Grand Staircase by Francesco Sabatini",
+        "Frescoes by Tiepolo, Giaquinto and Mengs"
+      ],
+      "funFacts": [
+        "Las Meninas was saved from the 1734 fire by being tossed out of a window.",
+        "It holds the world's only complete Stradivarius string quintet."
+      ]
+    }
+  },
+  {
+    "id": "buckingham-palace",
+    "name": "Buckingham Palace",
+    "aliases": [
+      "Buckingham House"
+    ],
+    "architects": [
+      {
+        "name": "John Nash",
+        "aliases": [
+          "Nash"
+        ],
+        "lifespan": "1752–1835",
+        "nationality": "British",
+        "bio": "British architect who expanded Buckingham House for George IV from 1826 and was removed from the project in 1829."
+      },
+      {
+        "name": "Edward Blore",
+        "aliases": [
+          "Blore"
+        ],
+        "lifespan": "1787–1879",
+        "nationality": "British",
+        "bio": "British architect who finished the palace for William IV from 1830 and designed its east wing in 1847-1849."
+      },
+      {
+        "name": "Aston Webb",
+        "aliases": [
+          "Webb"
+        ],
+        "lifespan": "1849–1930",
+        "nationality": "British",
+        "bio": "British architect who redesigned the East Front in Portland stone in 1913."
+      }
+    ],
+    "location": {
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": 1913,
+    "era": "NEOCLASSICAL",
+    "themes": [
+      "palaces"
+    ],
+    "style": "Neoclassical",
+    "wikipedia": "https://en.wikipedia.org/wiki/Buckingham_Palace",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Buckingham_Palace%2C_London_-_April_2009.jpg/1920px-Buckingham_Palace%2C_London_-_April_2009.jpg",
+        "alt": "Long pale stone palace front with a central pediment, seen across a roundabout, flower beds and a gilded memorial statue",
+        "credit": "Photo: Diliff · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace,_London_-_April_2009.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/East_Front_of_Buckingham_Palace_20160816.jpg/1920px-East_Front_of_Buckingham_Palace_20160816.jpg",
+        "alt": "Wide pale stone palace front with a central portico, gilded gates and railings, and people on the pavement",
+        "credit": "Photo: Suicasmo · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:East_Front_of_Buckingham_Palace_20160816.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as a modest 1703 mansion for a duke and became a royal home after a king bought it in 1761 for his queen."
+      },
+      {
+        "order": 2,
+        "text": "It has 775 rooms, including 19 state rooms and a ballroom 120 feet long, and the royal family greets crowds from its balcony."
+      },
+      {
+        "order": 3,
+        "text": "Its Portland-stone East Front dates from 1913, and Queen Victoria was the first monarch to live there, from 1837."
+      }
+    ],
+    "summary": {
+      "description": "The London residence of the British monarch, which grew from Buckingham House (1703) after George III bought it in 1761. John Nash expanded it from 1826, Edward Blore finished the work and added the east wing, and Aston Webb gave the East Front its present Portland-stone face in 1913.",
+      "keyFeatures": [
+        "775 rooms, including 19 state rooms",
+        "East Front balcony",
+        "Ballroom 120 ft long",
+        "39-acre private garden"
+      ],
+      "funFacts": [
+        "Queen Victoria was the first monarch to reside there, from 1837.",
+        "The palace was bombed nine times in the Second World War."
+      ]
+    }
   }
 ]
