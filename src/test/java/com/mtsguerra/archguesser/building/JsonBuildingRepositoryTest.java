@@ -53,7 +53,7 @@ class JsonBuildingRepositoryTest {
     void testCatalogueLoads() {
         var repository = new JsonBuildingRepository(jsonMapper, new ClassPathResource("data/test-buildings.json"));
 
-        assertThat(repository.findById("villa-savoye")).get()
+        assertThat(repository.findById("test-villa")).get()
                 .satisfies(b -> assertThat(b.hints()).hasSizeGreaterThanOrEqualTo(BuildingValidator.MIN_HINTS));
     }
 

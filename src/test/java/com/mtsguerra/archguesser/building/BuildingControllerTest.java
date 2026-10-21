@@ -28,13 +28,13 @@ class BuildingControllerTest {
 
     /** Every id except Villa Savoye, so a random pick has exactly one candidate. */
     private String allButSavoye() {
-        return repository.findAll().stream().map(Building::id).filter(id -> !id.equals("villa-savoye"))
+        return repository.findAll().stream().map(Building::id).filter(id -> !id.equals("test-villa"))
                 .collect(java.util.stream.Collectors.joining(","));
     }
 
     @Test
     void returnsBuildingById() throws Exception {
-        mvc.perform(get("/api/buildings/villa-savoye"))
+        mvc.perform(get("/api/buildings/test-villa"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.name").value("Villa Savoye"))
                 .andExpect(jsonPath("$.architects[*].name").value(Matchers.contains("Le Corbusier")))
@@ -55,12 +55,12 @@ class BuildingControllerTest {
     void randomSkipsExcludedBuildings() throws Exception {
         mvc.perform(get("/api/buildings/random").param("exclude", allButSavoye()))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id").value("villa-savoye"));
+                .andExpect(jsonPath("$.id").value("test-villa"));
     }
 
     @Test
     void randomIgnoresExclusionsOnceEverythingIsSeen() throws Exception {
-        mvc.perform(get("/api/buildings/random").param("exclude", allButSavoye() + ",villa-savoye"))
+        mvc.perform(get("/api/buildings/random").param("exclude", allButSavoye() + ",test-villa"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.id").isNotEmpty());
     }
@@ -119,9 +119,9 @@ class BuildingControllerTest {
 
     @Test
     void anUnknownLanguageServesTheSourceTextAndSetsNoCookie() throws Exception {
-        mvc.perform(get("/api/buildings/villa-savoye").param("lang", "xx-<script>"))
+        mvc.perform(get("/api/buildings/test-villa").param("lang", "xx-<script>"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id").value("villa-savoye"))
+                .andExpect(jsonPath("$.id").value("test-villa"))
                 .andExpect(org.springframework.test.web.servlet.result.MockMvcResultMatchers.header().doesNotExist("Set-Cookie"));
     }
 }
