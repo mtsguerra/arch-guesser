@@ -1,0 +1,292 @@
+{
+  "vyborg-library": {
+    "name": "Biblioteca de Vyborg",
+    "aliases": [
+      "Biblioteca de Viipuri",
+      "Biblioteca Alvar Aalto de Vyborg",
+      "Biblioteca Municipal de Viipuri"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Finlandês",
+        "bio": "Arquiteto modernista finlandês que trabalhou em parceria com a esposa, Aino; seu ateliê projetava edifícios, móveis e iluminação como conjuntos integrados."
+      },
+      {
+        "aliases": [],
+        "nationality": "Finlandesa",
+        "bio": "Arquiteta e designer finlandesa, sócia do ateliê Aalto, que liderou grande parte de seu design de interiores e de móveis."
+      }
+    ],
+    "city": "Vyborg",
+    "style": "Funcionalismo",
+    "photos": [
+      {
+        "alt": "Edifício modernista branco com janelas contínuas, uma torre de escada envidraçada e uma entrada de pedra cinza em um parque",
+        "caption": null
+      },
+      {
+        "alt": "Vista aérea de blocos brancos de cobertura plana, um deles com o teto perfurado por fileiras de claraboias redondas, entre árvores",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi projetada por um casal para uma cidade que desde então mudou de país, e fica num parque perto de um porto.",
+      "Seu salão de leitura rebaixado é iluminado por dezenas de claraboias redondas e profundas, e o auditório teve um famoso teto ondulado de madeira.",
+      "Abandonada por décadas após a Segunda Guerra, foi restaurada até 2013 e ganhou um prêmio europeu de patrimônio em 2015."
+    ],
+    "summary": {
+      "description": "Projetada entre 1927 e 1935, esta biblioteca começou como um projeto de classicismo nórdico e tornou-se uma obra pioneira do funcionalismo. Seu salão de leitura escalonado e rebaixado é iluminado por claraboias cilíndricas, e teve a primeira ala infantil dedicada da Finlândia. Após danos de guerra e abandono, foi restaurada e reaberta em 2013.",
+      "keyFeatures": [
+        "Salão de leitura e empréstimo escalonado e rebaixado",
+        "Claraboias cilíndricas profundas",
+        "Teto ondulado de madeira no auditório",
+        "Empréstimo em estantes abertas e ala infantil",
+        "Concreto, vidro, aço e madeira"
+      ],
+      "funFacts": [
+        "Depois da Segunda Guerra foi rebatizada em homenagem a Nadezhda Krupskaya; hoje é a Biblioteca Central Alvar Aalto.",
+        "Ganhou o Prêmio de Modernismo World Monuments Fund/Knoll de 2014 e o Prêmio Europa Nostra de 2015."
+      ]
+    }
+  },
+  "bibliotheca-alexandrina": {
+    "name": "Biblioteca de Alexandria",
+    "aliases": [
+      "Bibliotheca Alexandrina",
+      "Nova Biblioteca de Alexandria"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "norueguês",
+        "lifespan": "fundado em 1989",
+        "bio": "Escritório norueguês de arquitetura que venceu em 1988 o concurso da UNESCO para a Bibliotheca Alexandrina, entre 524 concorrentes."
+      }
+    ],
+    "city": "Alexandria",
+    "style": "Contemporâneo",
+    "photos": [
+      {
+        "alt": "Parede curva de granito cinza gravada com sinais e letras de muitos sistemas de escrita, sob uma fachada de vidro",
+        "caption": null
+      },
+      {
+        "alt": "Vista em preto e branco de um salão de leitura em cascata sob um teto envidraçado inclinado, com altas colunas de concreto",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ela homenageia uma das bibliotecas mais famosas do mundo antigo, na costa do Mediterrâneo.",
+      "Um teto em forma de disco inclinado, com cerca de 160 metros de diâmetro, desce em direção ao mar como um relógio de sol, e sua parede de granito é gravada com caracteres de 120 sistemas de escrita.",
+      "Foi inaugurada em outubro de 2002, depois de um concurso de 1988 vencido por um escritório norueguês."
+    ],
+    "summary": {
+      "description": "Inaugurada em 2002, esta biblioteca homenageia a antiga Biblioteca de Alexandria. Sua sala de leitura, com cerca de 20 mil metros quadrados em onze níveis em cascata, fica sob um teto inclinado de painéis de vidro. Uma parede de granito gravada com caracteres de 120 sistemas de escrita envolve o complexo.",
+      "keyFeatures": [
+        "Teto em disco inclinado com cerca de 160 m de diâmetro",
+        "Sala de leitura em onze níveis em cascata",
+        "Parede de granito com 120 sistemas de escrita",
+        "Espaço para cerca de oito milhões de livros",
+        "Centro de conferências, museus e planetário"
+      ],
+      "funFacts": [
+        "Quando foi construída, sua sala de leitura era a maior do mundo.",
+        "Críticos a chamaram de elefante branco, alegando que os gastos com a obra superaram os gastos com o acervo."
+      ]
+    }
+  },
+  "bibliotheque-sainte-genevieve": {
+    "name": "Biblioteca Sainte-Geneviève",
+    "aliases": [
+      "Biblioteca de Sainte-Geneviève"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "francês",
+        "lifespan": "1801-1875",
+        "bio": "Arquiteto francês que ganhou o Prêmio de Roma em 1824 e projetou a Biblioteca Sainte-Geneviève, concluída em 1850."
+      }
+    ],
+    "city": "Paris",
+    "style": "Neorrenascentista com ferro aparente",
+    "photos": [
+      {
+        "alt": "Edifício longo de pedra clara com uma fileira de altas janelas em arco sobre uma base maciça e guirlandas esculpidas",
+        "caption": null
+      },
+      {
+        "alt": "Longa sala de leitura com esbeltos arcos de ferro fundido, abóbadas de berço e fileiras de mesas de madeira com luminárias verdes",
+        "caption": "Esbeltas colunas de ferro sustentam arcos vazados."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Sua fachada traz uma lista com nomes de grandes eruditos em vez de esculturas convencionais.",
+      "Todo o andar superior é uma única sala de leitura, cujas abóbadas de berço se apoiam em esbeltas colunas de ferro fundido aparentes e arcos de ferro rendilhados.",
+      "Foi concluída em dezembro de 1850 e aberta ao público em fevereiro de 1851."
+    ],
+    "summary": {
+      "description": "Esta biblioteca parisiense une uma fachada de pedra serena, de inspiração italiana, a um interior ousado em ferro. Sua sala de leitura ocupa todo o andar superior, com dezesseis esbeltas colunas de ferro fundido sustentando arcos vazados e abóbadas de gesso. Os modernistas a valorizam por levar a alta tecnologia a um edifício monumental.",
+      "keyFeatures": [
+        "Janelas em arco sobre uma base maciça",
+        "Fachada inscrita com nomes de eruditos",
+        "Sala de leitura ocupando o andar superior",
+        "Dezesseis colunas jônicas de ferro fundido",
+        "Arcos de ferro vazados sob abóbadas de gesso"
+      ],
+      "funFacts": [
+        "A sala de leitura abrigava cerca de 60 mil livros, com outros 40 mil na reserva.",
+        "O arquiteto estudou por seis anos edifícios clássicos e renascentistas italianos depois de ganhar o Prêmio de Roma."
+      ]
+    }
+  },
+  "woolworth-building": {
+    "name": "Woolworth Building",
+    "aliases": [
+      "Catedral do Comércio",
+      "Edifício Woolworth"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1859-1934",
+        "bio": "Arquiteto americano que projetou o Woolworth Building em estilo neogótico."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Neogótico",
+    "photos": [
+      {
+        "alt": "Torre esguia de terracota creme com pináculos, ornamentos góticos e um telhado piramidal de cobre verde",
+        "caption": null
+      },
+      {
+        "alt": "Vista de baixo para cima dos pilares verticais e das janelas ogivais de uma torre clara de estilo gótico",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi o edifício mais alto do mundo até 1929, e seu estilo foi comparado ao de uma catedral europeia.",
+      "Um apelido criado em um folheto de 1916 o chama de catedral do comércio, e seu saguão tem uma galeria em cruz de mármore e mosaico de vidro.",
+      "Foi concluído em 1912 e tem 792 pés de altura no sul de Manhattan, feito para uma rede de lojas de preço único."
+    ],
+    "summary": {
+      "description": "Este arranha-céu neogótico no sul de Manhattan foi concluído em 1912 e tem 792 pés de altura. Sua torre revestida de terracota, os pináculos e o telhado de cobre evocam uma catedral medieval. Foi o edifício mais alto do mundo até 1929.",
+      "keyFeatures": [
+        "Fachada neogótica de terracota",
+        "Torre de 792 pés (241 m)",
+        "Telhado piramidal de cobre verde",
+        "Galeria cruciforme no saguão, de mármore de Skyros",
+        "Tetos de mosaico de vidro"
+      ],
+      "funFacts": [
+        "O apelido 'Catedral do Comércio' foi criado pelo reverendo S. Parkes Cadman em um folheto de 1916.",
+        "Continuou sendo o mais alto até ser superado pelo 40 Wall Street e pelo Chrysler Building em 1929."
+      ]
+    }
+  },
+  "flatiron-building": {
+    "name": "Flatiron Building",
+    "aliases": [
+      "Edifício Flatiron",
+      "Edifício Fuller"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1846-1912",
+        "bio": "Arquiteto e urbanista americano da escola de Chicago que projetou o Flatiron Building, trabalhando com Frederick P. Dinkelberg."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Beaux-Arts",
+    "photos": [
+      {
+        "alt": "Torre de pedra muito estreita em forma de cunha, com proa arredondada e cornija ornamentada, vista de um cruzamento",
+        "caption": null
+      },
+      {
+        "alt": "Arranha-céu triangular de calcário erguendo-se sobre um cruzamento movimentado contra o céu azul",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Seu terreno triangular lhe dá uma proa com apenas poucos metros de largura, como a proa de um navio.",
+      "Foi batizado com o nome do empreiteiro cuja empresa o construiu, mas as pessoas continuaram a usar o apelido inspirado em um eletrodoméstico.",
+      "Os primeiros críticos o chamaram de 'a loucura de Burnham', duvidando de sua estabilidade, mas foi inaugurado em 1º de outubro de 1902."
+    ],
+    "summary": {
+      "description": "Esta torre triangular, concluída em 1902, ocupa um quarteirão em cunha onde uma famosa avenida cruza uma grande via. Oficialmente era o Edifício Fuller, mas sua forma, como a de um ferro de passar de ferro fundido, lhe deu o nome duradouro. Os primeiros críticos duvidaram de sua estabilidade, e ele já resiste há mais de um século.",
+      "keyFeatures": [
+        "Planta triangular em cunha",
+        "Estilo de palazzo renascentista vertical",
+        "Ornamentos Beaux-Arts",
+        "22 andares, 307 pés (93,6 m)",
+        "Anexo comercial 'cowcatcher' na ponta"
+      ],
+      "funFacts": [
+        "Tinha inicialmente 20 andares e 285 pés; uma ampliação de 1905 o levou a 22.",
+        "Chamava-se originalmente Fuller Building, por causa do empreiteiro George A. Fuller."
+      ]
+    }
+  },
+  "seagram-building": {
+    "name": "Seagram Building",
+    "aliases": [
+      "Edifício Seagram",
+      "375 Park Avenue"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Alemão (depois americano)",
+        "bio": "Ex-assistente de Peter Behrens, Mies reduziu a arquitetura a aço, vidro e materiais nobres («menos é mais»). Último diretor da Bauhaus, emigrou para Chicago, onde construiu o campus do Illinois Institute of Technology e depois o Seagram Building, em Nova York."
+      },
+      {
+        "aliases": [],
+        "nationality": "Americano",
+        "bio": "Arquiteto americano que, com John Burgee, projetou a torre em estilo pós-moderno."
+      }
+    ],
+    "city": "Nova York",
+    "style": "Estilo Internacional",
+    "photos": [
+      {
+        "alt": "Torre retangular de bronze escuro e vidro erguendo-se entre blocos de escritórios mais claros em uma avenida larga",
+        "caption": null
+      },
+      {
+        "alt": "Pavimentos inferiores de uma torre de vidro âmbar e bronze escuro sobre pilares, acima de uma praça de granito com espelhos d'água",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma lâmina retangular recuada cerca de 90 pés da avenida, deixando uma praça de granito com dois espelhos d'água.",
+      "Sua fachada foi a primeira de um edifício de escritórios a usar bronze extrudado, cerca de 1.600 toneladas, nos montantes verticais.",
+      "Foi concluído em 1958 e a torre de 38 andares, com 516 pés de altura, abrigou um famoso restaurante em seus andares inferiores."
+    ],
+    "summary": {
+      "description": "Concluída em 1958, esta torre de 38 andares é um marco do Estilo Internacional. Sua cortina de bronze e vidro fumê fica atrás de uma praça de granito rosa recuada da avenida. Os espelhos d'água e o espaço aberto deram à cidade um novo tipo de sala pública.",
+      "keyFeatures": [
+        "Fachada-cortina de bronze e vidro fumê",
+        "Cerca de 1.600 toneladas curtas de bronze",
+        "Praça de granito rosa com dois espelhos d'água",
+        "Sem recuos escalonados, a lâmina se afasta da rua",
+        "Altura de 516 pés (157 m) até o telhado"
+      ],
+      "funFacts": [
+        "Foi o primeiro edifício de escritórios a usar bronze extrudado na fachada.",
+        "Críticos o chamaram de 'um edifício sem recuos, mas todo ele recuado'."
+      ]
+    }
+  }
+}

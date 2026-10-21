@@ -26958,5 +26958,1224 @@
         "In 2015 it installed over 400 solar panels producing about 120 kW."
       ]
     }
+  },
+  {
+    "id": "biblioteca-joanina",
+    "name": "Biblioteca Joanina",
+    "aliases": [
+      "Joanine Library",
+      "Joanina Library",
+      "Coimbra University Library"
+    ],
+    "architects": [
+      {
+        "name": "João Carvalho Ferreira",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "Portuguese",
+        "bio": "Architect credited with the design of the Joanina Library, built for King John V at the University of Coimbra between 1717 and 1728."
+      }
+    ],
+    "location": {
+      "city": "Coimbra",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1728,
+    "era": "BAROQUE",
+    "themes": [
+      "libraries"
+    ],
+    "style": "Portuguese Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Biblioteca_Joanina",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Coimbra_Biblioteca_Joanina_908.jpg/1920px-Coimbra_Biblioteca_Joanina_908.jpg",
+        "alt": "Tall white and ochre stone building with arched windows, urn finials and a statue on a stair",
+        "credit": "Photo: GFreihalter · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Coimbra_Biblioteca_Joanina_908.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Biblioteca_Joanina%2C_Coimbra.jpg/1920px-Biblioteca_Joanina%2C_Coimbra.jpg",
+        "alt": "Hall of gilded and painted two-storey bookcases with a royal portrait framed by carved ornament",
+        "caption": "One of the three halls, divided by decorated arches.",
+        "credit": "Photo: Jl FilpoC · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_Joanina,_Coimbra.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was founded by a king of Portugal to serve one of Europe's oldest universities."
+      },
+      {
+        "order": 2,
+        "text": "Its gilded, chinoiserie-painted shelves are made largely of exotic wood from Brazil, and its thick walls and teak door keep the air at a steady temperature."
+      },
+      {
+        "order": 3,
+        "text": "A colony of bats lives inside and eats the insects that would otherwise damage the books."
+      }
+    ],
+    "summary": {
+      "description": "This Baroque library was built between 1717 and 1728 for King John V on a university hill in Coimbra. Three halls, divided by ornate arches, hold shelves of gilded and painted wood, with ceilings by Lisbon artists. Its oak construction and thick walls help protect the books from insects and heat.",
+      "keyFeatures": [
+        "Three halls divided by decorated arches",
+        "Two-storey gilded and painted shelves",
+        "Painted ceilings by Simões Ribeiro and Vicente Nunes",
+        "Chinoiserie motifs",
+        "Walls about 2.11 m thick"
+      ],
+      "funFacts": [
+        "A colony of bats lives in the library and eats insects that threaten the books.",
+        "A 1725 portrait of King John V by Domenico Duprà hangs at the end of the main hall."
+      ]
+    }
+  },
+  {
+    "id": "radcliffe-camera",
+    "name": "Radcliffe Camera",
+    "aliases": [
+      "The Rad Cam",
+      "Radcliffe Library"
+    ],
+    "architects": [
+      {
+        "name": "James Gibbs",
+        "aliases": [],
+        "lifespan": "1682-1754",
+        "nationality": "Scottish",
+        "bio": "Architect appointed in 1736 to design the Radcliffe Camera after the death of Nicholas Hawksmoor; he published its design in Bibliotheca Radcliviana (1747)."
+      }
+    ],
+    "location": {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": 1748,
+    "era": "BAROQUE",
+    "themes": [
+      "libraries"
+    ],
+    "style": "English Palladian Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Radcliffe_Camera",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Radcliffe_Camera%2C_Oxford_-_Oct_2006.jpg/1920px-Radcliffe_Camera%2C_Oxford_-_Oct_2006.jpg",
+        "alt": "Round stone building with paired columns, a balustrade and a lead-covered dome with a small lantern",
+        "credit": "Photo: Diliff · CC BY 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera,_Oxford_-_Oct_2006.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Radcliffe_Camera_Oxford_2018_04.jpg/1920px-Radcliffe_Camera_Oxford_2018_04.jpg",
+        "alt": "Circular honey-coloured stone building with a rusticated base and a domed roof across a lawn",
+        "credit": "Photo: Julian Herzog (Website) · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera_Oxford_2018_04.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was paid for by the bequest of a royal physician who died in 1714."
+      },
+      {
+        "order": 2,
+        "text": "It is the earliest circular library in England, with a heavily rusticated ground stage and a lanterned dome on an octagonal drum."
+      },
+      {
+        "order": 3,
+        "text": "Construction began in May 1737 and it opened in April 1749; since 1861 it has served as a reading room for a university library."
+      }
+    ],
+    "summary": {
+      "description": "This domed rotunda stands in the heart of a university city, built with money left by the physician John Radcliffe. Its architect won the commission after another famous architect died. It is the earliest circular library in England and became a reading room after the books moved out in 1861.",
+      "keyFeatures": [
+        "Circular plan",
+        "Rusticated ground stage with pedimented projections",
+        "Coupled Corinthian columns",
+        "Lanterned dome on an octagonal drum",
+        "Local Headington and Burford stone"
+      ],
+      "funFacts": [
+        "The design was recorded in the architect's 1747 book Bibliotheca Radcliviana.",
+        "It was fully completed in 1748 and opened on 13 April 1749."
+      ]
+    }
+  },
+  {
+    "id": "trinity-college-long-room",
+    "name": "Trinity College Library, Long Room",
+    "aliases": [
+      "Long Room",
+      "Old Library, Trinity College Dublin",
+      "Trinity College Old Library"
+    ],
+    "architects": [
+      {
+        "name": "Thomas Burgh",
+        "aliases": [],
+        "lifespan": "1670-1730",
+        "nationality": "Irish",
+        "bio": "Engineer and architect whose major work is the Old Library at Trinity College Dublin, built between 1712 and 1732."
+      }
+    ],
+    "location": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "countryCode": "IE"
+    },
+    "yearCompleted": 1732,
+    "era": "BAROQUE",
+    "themes": [
+      "libraries"
+    ],
+    "style": "Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trinity_College_Library",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Trinity_college_library.jpg/1920px-Trinity_college_library.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.88
+        },
+        "alt": "Long grey stone building of three storeys with rows of windows and arches beside a lawn",
+        "credit": "Photo: Patrick Theiner · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Trinity_college_library.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Long_Room_Interior%2C_Trinity_College_Dublin%2C_Ireland_-_Diliff.jpg/1920px-Long_Room_Interior%2C_Trinity_College_Dublin%2C_Ireland_-_Diliff.jpg",
+        "alt": "Very long hall with a wooden barrel vault, two levels of dark bookcases and marble busts down the aisle",
+        "caption": "The hall is about 65 metres long.",
+        "credit": "Photo: Diliff · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its main hall is one of the longest single-room libraries in the world, lined with marble busts of writers and thinkers."
+      },
+      {
+        "order": 2,
+        "text": "It was built between 1712 and 1732, and in 1860 its flat ceiling was raised to make room for an upper gallery of books."
+      },
+      {
+        "order": 3,
+        "text": "It houses a medieval illuminated manuscript presented to the college in 1661, an ancient Irish harp and a surviving copy of the 1916 Proclamation."
+      }
+    ],
+    "summary": {
+      "description": "The Old Library was designed by Thomas Burgh and built between 1712 and 1732 at a college in Dublin. Its main hall is 65 metres long and holds about 200,000 of the library's oldest books. The room's roof was raised in 1860 to add an upper gallery.",
+      "keyFeatures": [
+        "65 m long main hall",
+        "About 200,000 of the oldest books",
+        "Upper gallery added in 1860",
+        "Marble busts along the aisle",
+        "Home of the Book of Kells"
+      ],
+      "funFacts": [
+        "One of the four volumes of the Book of Kells, given to the college in 1661, is on display at any time.",
+        "The hall holds one of the last copies of the 1916 Proclamation of the Irish Republic."
+      ]
+    }
+  },
+  {
+    "id": "library-of-congress-jefferson-building",
+    "name": "Library of Congress Thomas Jefferson Building",
+    "aliases": [
+      "Thomas Jefferson Building",
+      "Library of Congress",
+      "Jefferson Building"
+    ],
+    "architects": [
+      {
+        "name": "John L. Smithmeyer",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "American",
+        "bio": "Co-winner with Paul Pelz of the 1873 design competition for the Library of Congress building; dismissed in 1888."
+      },
+      {
+        "name": "Paul J. Pelz",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "American",
+        "bio": "Co-winner of the 1873 competition and the lead designer of most of the exterior; dismissed in 1892."
+      },
+      {
+        "name": "Edward Pearce Casey",
+        "aliases": [],
+        "lifespan": null,
+        "nationality": "American",
+        "bio": "Architect who replaced Pelz in 1892 and worked through the final years of construction."
+      }
+    ],
+    "location": {
+      "city": "Washington, D.C.",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1897,
+    "era": "HISTORICISM",
+    "themes": [
+      "libraries"
+    ],
+    "style": "Beaux-Arts",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Jefferson_Building",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Exterior_view._View_of_approaches_from_the_west_fa%C3%A7ade_of_the_Jefferson_Building._Library_of_Congress_Thomas_Jefferson_Building%2C_Washington%2C_D.C._%28LOC%29.jpg",
+        "alt": "Grand white stone entrance with three arches, tall columns, carved busts and a wide flight of steps",
+        "credit": "Photo: Carol M. Highsmith · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Exterior_view._View_of_approaches_from_the_west_fa%C3%A7ade_of_the_Jefferson_Building._Library_of_Congress_Thomas_Jefferson_Building,_Washington,_D.C._(LOC).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Library_of_Congress_Great_Hall_-_Jan_2006.jpg/1920px-Library_of_Congress_Great_Hall_-_Jan_2006.jpg",
+        "alt": "Great marble hall with stained-glass ceiling panels, painted vaults, staircases and a mosaic floor",
+        "credit": "Photo: Diliff · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Library_of_Congress_Great_Hall_-_Jan_2006.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is the oldest of three buildings that house the largest library in the world, and it has been a National Historic Landmark since 1965."
+      },
+      {
+        "order": 2,
+        "text": "Its Great Hall has a stained-glass ceiling and mosaic floor, and a gilded dome crowns the Main Reading Room."
+      },
+      {
+        "order": 3,
+        "text": "It opened to the public on 1 November 1897 and was once linked to the Capitol by a book tunnel with a conveyor."
+      }
+    ],
+    "summary": {
+      "description": "Opened in 1897, this Beaux-Arts palace was designed to house a national library on Capitol Hill. Its richly decorated interior has murals, mosaics and marble, and a copper dome gilded with 23-karat gold leaf. It was renamed for the president whose books founded the collection in 1980.",
+      "keyFeatures": [
+        "Classical Beaux-Arts façade",
+        "Great Hall with stained glass and mosaics",
+        "Main Reading Room under a gilded dome",
+        "Court of Neptune Fountain",
+        "Murals by Edwin Blashfield"
+      ],
+      "funFacts": [
+        "A book tunnel once linked the building to the Capitol; part of it was removed for the Capitol Visitor Center.",
+        "It was named for Thomas Jefferson in 1980."
+      ]
+    }
+  },
+  {
+    "id": "stockholm-public-library",
+    "name": "Stockholm Public Library",
+    "aliases": [
+      "Stadsbiblioteket",
+      "Stockholm City Library"
+    ],
+    "architects": [
+      {
+        "name": "Gunnar Asplund",
+        "aliases": [],
+        "lifespan": "1885-1940",
+        "nationality": "Swedish",
+        "bio": "Swedish architect who moved from classicism toward functionalism; the Stockholm Public Library is one of his most important works."
+      }
+    ],
+    "location": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "countryCode": "SE"
+    },
+    "yearCompleted": 1928,
+    "era": "MODERNISM",
+    "themes": [
+      "libraries"
+    ],
+    "style": "Nordic Classicism to Functionalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stockholm_Public_Library",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Stadsbiblioteket_Stockholm_2009a.jpg/1920px-Stadsbiblioteket_Stockholm_2009a.jpg",
+        "alt": "Ochre-coloured building with a tall cylinder rising from a block, lit at dusk beside a pool",
+        "credit": "Photo: Holger.Ellgaard · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Stadsbiblioteket_Stockholm_2009a.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Stockholm_public_library.jpg",
+        "alt": "Orange stucco block with a large plain cylindrical drum on top, seen at night from above",
+        "credit": "Photo: sushipumpum · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Stockholm_public_library.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its tall cylindrical drum, rising from a square block, is the form people remember from the outside."
+      },
+      {
+        "order": 2,
+        "text": "It was the first public library in its country to use open shelves, a system its architect studied in the United States."
+      },
+      {
+        "order": 3,
+        "text": "It opened on 31 March 1928, and a west wing was added in 1932."
+      }
+    ],
+    "summary": {
+      "description": "This library opened in 1928 and combines a plain, tall rotunda with a block of reading rooms. Its architect reduced classical elements to abstract geometric forms and removed most decoration. It was the first public library in Sweden with open shelves.",
+      "keyFeatures": [
+        "Tall cylindrical rotunda",
+        "Classical elements reduced to simple geometry",
+        "Open shelves, a first in Sweden",
+        "Furnishings designed room by room",
+        "West wing added in 1932"
+      ],
+      "funFacts": [
+        "The rotunda was partly inspired by Ledoux's Barrière Saint-Martin in Paris.",
+        "Arnos Grove tube station in London is said to be based on this library."
+      ]
+    }
+  },
+  {
+    "id": "seattle-central-library",
+    "name": "Seattle Central Library",
+    "aliases": [
+      "Central Library, Seattle",
+      "Seattle Public Library Central Library"
+    ],
+    "architects": [
+      {
+        "name": "Rem Koolhaas",
+        "aliases": [
+          "Koolhaas",
+          "OMA",
+          "Office for Metropolitan Architecture"
+        ],
+        "lifespan": "b. 1944",
+        "nationality": "Dutch",
+        "bio": "Dutch architect, theorist and urbanist, founder of OMA, often cited as a representative of deconstructivism and author of 'Delirious New York'."
+      }
+    ],
+    "location": {
+      "city": "Seattle",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 2004,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "libraries"
+    ],
+    "style": "Deconstructivism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seattle_Central_Library",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Seattle_Central_Library%2C_Seattle%2C_Washington_-_20060418.jpg",
+        "alt": "Angular glass and steel building with a diamond lattice skin and projecting floating platforms",
+        "credit": "Photo: DVD R W. · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Seattle_Central_Library,_Seattle,_Washington_-_20060418.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Central_Library%2C_Seattle_%282014%29_-_03.JPG/1920px-Central_Library%2C_Seattle_%282014%29_-_03.JPG",
+        "alt": "Narrow escalator rising between walls of vivid acid-green colour",
+        "credit": "Photo: Another Believer · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Central_Library,_Seattle_(2014)_-_03.JPG"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A steel net wraps around its glass skin, and several platforms seem to float inside the shell."
+      },
+      {
+        "order": 2,
+        "text": "A continuous ramped display holds the nonfiction collection in unbroken numerical order across four floors, sloping at most 2 degrees."
+      },
+      {
+        "order": 3,
+        "text": "Opened in May 2004, it was part-funded by a $20 million gift from a software billionaire."
+      }
+    ],
+    "summary": {
+      "description": "Opened in 2004, this eleven-storey glass and steel library was designed by OMA with LMN Architects. A diamond-patterned steel net wraps its glass skin, and its platforms appear to float. Its Book Spiral keeps the nonfiction collection in one continuous run.",
+      "keyFeatures": [
+        "Steel net over a glass skin",
+        "Book Spiral across floors 6 to 9",
+        "Floating platforms",
+        "Red Floor in 13 shades of red",
+        "Nearly 10,000 custom windows"
+      ],
+      "funFacts": [
+        "Critic Paul Goldberger called it the most important new library built in a generation.",
+        "About 2.3 million people visited in its first year."
+      ]
+    }
+  },
+  {
+    "id": "vyborg-library",
+    "name": "Vyborg Library",
+    "aliases": [
+      "Viipuri Library",
+      "Alvar Aalto Library, Vyborg",
+      "Viipuri City Library",
+      "Central City Alvar Aalto Library"
+    ],
+    "architects": [
+      {
+        "name": "Alvar Aalto",
+        "aliases": [
+          "Aalto",
+          "Hugo Alvar Henrik Aalto"
+        ],
+        "nationality": "Finnish",
+        "bio": "Finnish modernist architect who worked in partnership with his wife Aino; their studio designed buildings, furniture and lighting as integrated wholes."
+      },
+      {
+        "name": "Aino Aalto",
+        "aliases": [
+          "Aino Marsio-Aalto"
+        ],
+        "nationality": "Finnish",
+        "bio": "Finnish architect and designer, partner in the Aalto studio, who led much of its interior and furniture design."
+      }
+    ],
+    "location": {
+      "city": "Vyborg",
+      "country": "Russia",
+      "countryCode": "RU"
+    },
+    "yearCompleted": 1935,
+    "era": "MODERNISM",
+    "themes": [
+      "libraries"
+    ],
+    "style": "Functionalism",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vyborg_Library",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Alvar_Aalto_Library_Vyborg3.jpg/1920px-Alvar_Aalto_Library_Vyborg3.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.76,
+          "h": 1
+        },
+        "alt": "White modernist building with long ribbon windows, a glazed stair tower and a grey stone entrance in a park",
+        "credit": "Photo: Ninaraas · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Alvar_Aalto_Library_Vyborg3.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Vyborg_AaltoLibrary_0033.jpg/1920px-Vyborg_AaltoLibrary_0033.jpg",
+        "alt": "Aerial view of white flat-roofed blocks, one roof pierced by rows of round skylights, among trees",
+        "credit": "Photo: Ludvig14 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vyborg_AaltoLibrary_0033.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was designed by a couple for a town that has since changed country, and it sits in a park near a harbour."
+      },
+      {
+        "order": 2,
+        "text": "Its sunken reading hall is lit by dozens of deep round skylights, and the lecture hall once had a famous undulating timber ceiling."
+      },
+      {
+        "order": 3,
+        "text": "Neglected for decades after the Second World War, it was restored by 2013 and won a European heritage prize in 2015."
+      }
+    ],
+    "summary": {
+      "description": "Designed between 1927 and 1935, this library began as a Nordic Classical scheme and became a pioneering work of functionalism. Its stepped, sunken reading hall is lit by cylindrical skylights, and it had Finland's first dedicated children's wing. After wartime damage and abandonment, it was restored and reopened in 2013.",
+      "keyFeatures": [
+        "Stepped, sunken reading and lending hall",
+        "Deep cylindrical skylights",
+        "Undulating timber ceiling in the auditorium",
+        "Open-shelf lending and a children's wing",
+        "Concrete, glass, steel and timber"
+      ],
+      "funFacts": [
+        "After the Second World War it was renamed after Nadezhda Krupskaya; it is now the Central City Alvar Aalto Library.",
+        "It won the 2014 World Monuments Fund/Knoll Modernism Prize and the 2015 Europa Nostra Award."
+      ]
+    }
+  },
+  {
+    "id": "bibliotheca-alexandrina",
+    "name": "Bibliotheca Alexandrina",
+    "aliases": [
+      "Library of Alexandria (modern)",
+      "New Library of Alexandria"
+    ],
+    "architects": [
+      {
+        "name": "Snøhetta",
+        "aliases": [],
+        "lifespan": "founded 1989",
+        "nationality": "Norwegian",
+        "bio": "Norwegian architecture firm that won the 1988 UNESCO competition for the Bibliotheca Alexandrina against 524 other entries."
+      }
+    ],
+    "location": {
+      "city": "Alexandria",
+      "country": "Egypt",
+      "countryCode": "EG"
+    },
+    "yearCompleted": 2002,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "libraries"
+    ],
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bibliotheca_Alexandrina",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bibliotheca_Alexandrina_%28GLAM_tour_I%29_01.jpg/1920px-Bibliotheca_Alexandrina_%28GLAM_tour_I%29_01.jpg",
+        "alt": "Curved grey granite wall carved with signs and letters from many writing systems, beneath a glass facade",
+        "credit": "Photo: Sohilaali869 · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bibliotheca_Alexandrina_(GLAM_tour_I)_01.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bibliotiqa_Alexandria_9_edited.jpg/1920px-Bibliotiqa_Alexandria_9_edited.jpg",
+        "alt": "Black and white view of a cascading reading hall under a sloping glazed roof with tall concrete columns",
+        "credit": "Photo: Original: Mono Abo-Abda Derivative work: Radomianin · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Bibliotiqa_Alexandria_9_edited.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It commemorates one of the most famous libraries of the ancient world, on the Mediterranean coast."
+      },
+      {
+        "order": 2,
+        "text": "A tilted disc roof about 160 metres across slopes toward the sea like a sundial, and its granite wall is carved with characters from 120 writing systems."
+      },
+      {
+        "order": 3,
+        "text": "It was inaugurated in October 2002, after a 1988 competition won by a Norwegian firm."
+      }
+    ],
+    "summary": {
+      "description": "Inaugurated in 2002, this library commemorates the ancient Library of Alexandria. Its reading room, about 20,000 square metres on eleven cascading levels, sits under a tilted, glass-panelled roof. A granite wall carved with characters from 120 writing systems encloses the complex.",
+      "keyFeatures": [
+        "Tilted disc roof about 160 m in diameter",
+        "Reading room on eleven cascading levels",
+        "Granite wall with 120 writing systems",
+        "Shelf space for about eight million books",
+        "Conference centre, museums and planetarium"
+      ],
+      "funFacts": [
+        "When built, its reading room was the largest in the world.",
+        "Critics have called it a white elephant, arguing construction spending exceeded spending on the collection."
+      ]
+    }
+  },
+  {
+    "id": "bibliotheque-sainte-genevieve",
+    "name": "Bibliothèque Sainte-Geneviève",
+    "aliases": [
+      "Sainte-Geneviève Library",
+      "Sainte-Genevieve Library"
+    ],
+    "architects": [
+      {
+        "name": "Henri Labrouste",
+        "aliases": [],
+        "lifespan": "1801-1875",
+        "nationality": "French",
+        "bio": "French architect who won the Prix de Rome in 1824 and designed the Bibliothèque Sainte-Geneviève, completed in 1850."
+      }
+    ],
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "countryCode": "FR"
+    },
+    "yearCompleted": 1850,
+    "era": "HISTORICISM",
+    "themes": [
+      "libraries"
+    ],
+    "style": "Neo-Renaissance with exposed iron",
+    "wikipedia": "https://en.wikipedia.org/wiki/Biblioth%C3%A8que_Sainte-Genevi%C3%A8ve",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Fa%C3%A7ade_de_la_Biblioth%C3%A8que_Sainte-Genevi%C3%A8ve%2C_sud-est.JPG/1920px-Fa%C3%A7ade_de_la_Biblioth%C3%A8que_Sainte-Genevi%C3%A8ve%2C_sud-est.JPG",
+        "alt": "Long pale stone building with a row of tall arched windows above a solid base and carved garlands",
+        "credit": "Photo: Priscille Leroy · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_de_la_Biblioth%C3%A8que_Sainte-Genevi%C3%A8ve,_sud-est.JPG"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n03.jpg/1920px-Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n03.jpg",
+        "alt": "Long reading room with slender cast-iron arches, barrel vaults and rows of wooden tables with green lamps",
+        "caption": "Slender iron columns carry openwork arches.",
+        "credit": "Photo: Marie-Lan Nguyen · CC BY 2.0 fr · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Salle_de_lecture_Bibliotheque_Sainte-Genevieve_n03.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its façade carries a list of the names of famous scholars instead of conventional sculpture."
+      },
+      {
+        "order": 2,
+        "text": "The whole upper floor is one reading room, whose barrel vaults rest on slender, exposed cast-iron columns and lace-like iron arches."
+      },
+      {
+        "order": 3,
+        "text": "It was completed in December 1850 and opened to the public in February 1851."
+      }
+    ],
+    "summary": {
+      "description": "This Paris library combines a calm, Italian-inspired stone façade with a bold iron interior. Its reading room fills the whole upper floor, with sixteen slender cast-iron columns supporting openwork arches and plaster vaults. Modernists value it for bringing high technology into a monumental building.",
+      "keyFeatures": [
+        "Arched windows over a solid base",
+        "Façade inscribed with scholars' names",
+        "Reading room filling the upper storey",
+        "Sixteen cast-iron Ionic columns",
+        "Openwork iron arches under plaster vaults"
+      ],
+      "funFacts": [
+        "The reading room held about 60,000 books, with 40,000 more in reserve.",
+        "The architect studied Italian classical and Renaissance buildings for six years after winning the Prix de Rome."
+      ]
+    }
+  },
+  {
+    "id": "woolworth-building",
+    "name": "Woolworth Building",
+    "aliases": [
+      "Cathedral of Commerce"
+    ],
+    "architects": [
+      {
+        "name": "Cass Gilbert",
+        "aliases": [],
+        "lifespan": "1859-1934",
+        "nationality": "American",
+        "bio": "American architect who designed the Woolworth Building in the Neo-Gothic style."
+      }
+    ],
+    "location": {
+      "city": "New York City",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1912,
+    "era": "HISTORICISM",
+    "themes": [
+      "skyscrapers"
+    ],
+    "style": "Neo-Gothic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Woolworth_Building",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Woolworth_Building_January_2023.jpg",
+        "alt": "Slender cream terracotta tower with pinnacles, Gothic ornament and a green copper pyramid roof",
+        "credit": "Photo: Kidfly182 · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Woolworth_Building_January_2023.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Woolworth-Building-New-York-September-2014.jpg/1920px-Woolworth-Building-New-York-September-2014.jpg",
+        "alt": "Looking up the vertical piers and pointed windows of a pale Gothic-style tower",
+        "credit": "Photo: Acediscovery · CC BY 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Woolworth-Building-New-York-September-2014.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It was the tallest building in the world until 1929, and its style was likened to a European cathedral."
+      },
+      {
+        "order": 2,
+        "text": "A nickname coined in a 1916 booklet calls it a cathedral of commerce, and its lobby has a cruciform arcade of marble and glass mosaic."
+      },
+      {
+        "order": 3,
+        "text": "It was completed in 1912 and rises 792 feet in Lower Manhattan for a chain of five-and-dime stores."
+      }
+    ],
+    "summary": {
+      "description": "This Neo-Gothic skyscraper in Lower Manhattan was completed in 1912 and stands 792 feet tall. Its terracotta-clad tower, pinnacles and copper roof evoke a medieval cathedral. It remained the world's tallest building until 1929.",
+      "keyFeatures": [
+        "Neo-Gothic terracotta facade",
+        "792 ft (241 m) tower",
+        "Green copper pyramid roof",
+        "Cruciform lobby arcade of Skyros marble",
+        "Glass mosaic ceilings"
+      ],
+      "funFacts": [
+        "The 'Cathedral of Commerce' nickname was coined by Rev. S. Parkes Cadman in a 1916 booklet.",
+        "It stayed the tallest building until 40 Wall Street and the Chrysler Building surpassed it in 1929."
+      ]
+    }
+  },
+  {
+    "id": "flatiron-building",
+    "name": "Flatiron Building",
+    "aliases": [
+      "Fuller Building",
+      "Flat Iron Building"
+    ],
+    "architects": [
+      {
+        "name": "Daniel Burnham",
+        "aliases": [],
+        "lifespan": "1846-1912",
+        "nationality": "American",
+        "bio": "American architect and urban planner of the Chicago school who designed the Flatiron Building, working with Frederick P. Dinkelberg."
+      }
+    ],
+    "location": {
+      "city": "New York City",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1902,
+    "era": "HISTORICISM",
+    "themes": [
+      "skyscrapers"
+    ],
+    "style": "Beaux-Arts",
+    "wikipedia": "https://en.wikipedia.org/wiki/Flatiron_Building",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Flatiron_Building_-_New_York_City_2.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.78
+        },
+        "alt": "Very narrow wedge-shaped stone tower with a rounded prow and ornate cornice seen from a street junction",
+        "credit": "Photo: Upstateherd · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Flatiron_Building_-_New_York_City_2.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flatiron_Building_-_New_York_City_1.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.85
+        },
+        "alt": "Triangular limestone skyscraper rising above a busy junction against a blue sky",
+        "credit": "Photo: Upstateherd · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Flatiron_Building_-_New_York_City_1.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its triangular plot gives it a prow only a few metres wide, like the bow of a ship."
+      },
+      {
+        "order": 2,
+        "text": "It was originally named after the contractor whose company built it, but people kept using the nickname inspired by a household appliance."
+      },
+      {
+        "order": 3,
+        "text": "Early critics called it 'Burnham's Folly', doubting its stability, but it opened on 1 October 1902."
+      }
+    ],
+    "summary": {
+      "description": "This triangular tower, completed in 1902, fills a wedge-shaped block where a famous avenue crosses a broadway. It was officially the Fuller Building, but its shape, like a cast-iron clothes iron, gave it its lasting name. Early critics doubted its stability, yet it has stood for over a century.",
+      "keyFeatures": [
+        "Triangular, wedge-shaped plan",
+        "Vertical Renaissance palazzo styling",
+        "Beaux-Arts ornament",
+        "22 storeys, 307 ft (93.6 m)",
+        "Retail 'cowcatcher' annex at the tip"
+      ],
+      "funFacts": [
+        "It was first 20 storeys and 285 ft tall; a 1905 expansion made it 22.",
+        "It was originally called the Fuller Building after contractor George A. Fuller."
+      ]
+    }
+  },
+  {
+    "id": "seagram-building",
+    "name": "Seagram Building",
+    "aliases": [
+      "375 Park Avenue"
+    ],
+    "architects": [
+      {
+        "name": "Ludwig Mies van der Rohe",
+        "aliases": [
+          "Mies van der Rohe",
+          "Mies",
+          "Ludwig Mies"
+        ],
+        "lifespan": "1886–1969",
+        "nationality": "German (later American)",
+        "bio": "A former assistant of Peter Behrens, Mies reduced architecture to steel, glass and fine materials ('less is more'). Last director of the Bauhaus, he emigrated to Chicago, where he built the Illinois Institute of Technology campus and later the Seagram Building in New York."
+      },
+      {
+        "name": "Philip Johnson",
+        "aliases": [
+          "Johnson"
+        ],
+        "nationality": "American",
+        "bio": "American architect who, with John Burgee, designed the tower in the postmodern style."
+      }
+    ],
+    "location": {
+      "city": "New York City",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1958,
+    "era": "MODERNISM",
+    "themes": [
+      "skyscrapers"
+    ],
+    "style": "International Style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seagram_Building",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Seagram_Building_%2835098307116%29.jpg/1920px-Seagram_Building_%2835098307116%29.jpg",
+        "alt": "Dark bronze and glass rectangular tower rising between lighter office blocks on a wide avenue",
+        "credit": "Photo: Ken OHYAMA from FUNABASHI, Japan · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Seagram_Building_(35098307116).jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Seagram_Building-NewYork-3.jpg",
+        "alt": "Lower floors of a dark bronze-and-amber glass tower raised on columns above a granite plaza with pools",
+        "credit": "Photo: dandeluca · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Seagram_Building-NewYork-3.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a rectangular slab that sits about 90 feet back from the avenue, leaving a granite plaza with two pools."
+      },
+      {
+        "order": 2,
+        "text": "Its facade was the first on an office building to use extruded bronze, about 1,600 tons of it, for the vertical mullions."
+      },
+      {
+        "order": 3,
+        "text": "It was finished in 1958 and the 38-storey tower, 516 feet tall, once housed a famous restaurant on its lower floors."
+      }
+    ],
+    "summary": {
+      "description": "Completed in 1958, this 38-storey tower is a landmark of the International Style. Its bronze and tinted-glass curtain wall sits behind a pink granite plaza set back from the avenue. The pools and open space gave the city a new kind of public room.",
+      "keyFeatures": [
+        "Bronze and tinted-glass curtain wall",
+        "About 1,600 short tons of bronze",
+        "Pink granite plaza with two pools",
+        "No setbacks, the slab stands back from the street",
+        "516 ft (157 m) roof height"
+      ],
+      "funFacts": [
+        "It was the first office building to use extruded bronze on its facade.",
+        "Critics called it 'a no-setback building but a building all set back'."
+      ]
+    }
+  },
+  {
+    "id": "30-st-mary-axe",
+    "name": "30 St Mary Axe",
+    "aliases": [
+      "The Gherkin",
+      "Swiss Re Building",
+      "Swiss Re Tower"
+    ],
+    "architects": [
+      {
+        "name": "Norman Foster",
+        "aliases": [
+          "Foster",
+          "Lord Foster"
+        ],
+        "lifespan": "b. 1935",
+        "nationality": "British",
+        "bio": "British architect who redesigned the ruined building from 1995 to 1999 for the reunified German parliament, adding a glass dome that opens the roof to the public."
+      }
+    ],
+    "location": {
+      "city": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB"
+    },
+    "yearCompleted": 2003,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "skyscrapers"
+    ],
+    "style": "High-tech",
+    "wikipedia": "https://en.wikipedia.org/wiki/30_St_Mary_Axe",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/30_St_Mary_Axe%2C_%27Gherkin%27.JPG",
+        "alt": "Aerial view of a bullet-shaped glass tower with a diamond lattice and dark spiral bands above city rooftops",
+        "credit": "Photo: Paste at English Wikipedia · Public domain · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:30_St_Mary_Axe,_%27Gherkin%27.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/30_St_Mary_Axe_-_The_Gherkin_from_Leadenhall_St_-_Nov_2006.jpg/1920px-30_St_Mary_Axe_-_The_Gherkin_from_Leadenhall_St_-_Nov_2006.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.9,
+          "h": 1
+        },
+        "alt": "Illuminated egg-shaped glass tower at night behind a small medieval church tower",
+        "credit": "Photo: Diliff · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:30_St_Mary_Axe_-_The_Gherkin_from_Leadenhall_St_-_Nov_2006.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It stands on a site cleared after a 1992 bomb badly damaged a historic trading hall."
+      },
+      {
+        "order": 2,
+        "text": "A triangulated perimeter structure keeps its rounded, 41-storey shape rigid, and a glass 'lens' tops it, echoing a dome that once stood on the old building."
+      },
+      {
+        "order": 3,
+        "text": "It won the Stirling Prize in 2004 and is better known by a nickname inspired by its pickle-like shape."
+      }
+    ],
+    "summary": {
+      "description": "Completed in 2003, this 180-metre, 41-floor tower was designed by Foster + Partners with Arup as structural engineers. A triangulated perimeter structure holds its curved form. It replaced the Baltic Exchange, which was badly damaged by a 1992 bomb.",
+      "keyFeatures": [
+        "Rounded, aerodynamic profile",
+        "Triangulated perimeter structure",
+        "Glass 'lens' at the top",
+        "180 m (591 ft) tall, 41 floors",
+        "Opened April 2004"
+      ],
+      "funFacts": [
+        "It won the 2004 Stirling Prize and the 2003 Emporis Skyscraper Award.",
+        "Its top dome recalls the glass dome of the Baltic Exchange that stood on the site."
+      ]
+    }
+  },
+  {
+    "id": "willis-tower",
+    "name": "Willis Tower",
+    "aliases": [
+      "Sears Tower"
+    ],
+    "architects": [
+      {
+        "name": "Bruce Graham",
+        "aliases": [],
+        "lifespan": "1925-2010",
+        "nationality": "American",
+        "bio": "Architect at Skidmore, Owings & Merrill who designed the Sears (now Willis) Tower."
+      },
+      {
+        "name": "Fazlur Rahman Khan",
+        "aliases": [
+          "Fazlur Khan"
+        ],
+        "lifespan": "1929-1982",
+        "nationality": "Bangladeshi-American",
+        "bio": "Structural engineer at Skidmore, Owings & Merrill whose bundled tube design for this tower was the first of its kind."
+      }
+    ],
+    "location": {
+      "city": "Chicago",
+      "country": "United States",
+      "countryCode": "US"
+    },
+    "yearCompleted": 1973,
+    "era": "MODERNISM",
+    "themes": [
+      "skyscrapers"
+    ],
+    "style": "International Style, bundled tube",
+    "wikipedia": "https://en.wikipedia.org/wiki/Willis_Tower",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Willis_Tower%2C_Chicago_September_2016-26.jpg/1920px-Willis_Tower%2C_Chicago_September_2016-26.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        },
+        "alt": "Black glass and aluminium tower with stepped setbacks and white antennas on top, seen from a street",
+        "credit": "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Willis_Tower,_Chicago_September_2016-26.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Willis_Tower.jpg/1920px-Willis_Tower.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.68
+        },
+        "alt": "Very tall black skyscraper seen from below, with vertical lines and pointed upper sections",
+        "credit": "Photo: Daniel Schwen · CC BY-SA 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Willis_Tower.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "For nearly 25 years from 1973 it was the tallest building in the world."
+      },
+      {
+        "order": 2,
+        "text": "It is built as nine square tubes, each 75 feet across, bundled in a 3 by 3 grid, with setbacks at the 50th, 66th and 90th floors."
+      },
+      {
+        "order": 3,
+        "text": "A glass-floored observation deck on the 103rd floor, about 1,353 feet up, draws around 1.7 million visitors a year."
+      }
+    ],
+    "summary": {
+      "description": "Completed in the early 1970s for a retailer, this 110-storey tower rises 1,451 ft to its architectural top. Its structural system bundles nine square tubes, a design later used in most supertall buildings. Its facade is anodized aluminium and black glass.",
+      "keyFeatures": [
+        "Nine bundled square tubes in a 3x3 grid",
+        "Setbacks at floors 50, 66 and 90",
+        "1,451 ft (442 m) architectural height",
+        "Black anodized aluminium and glass facade",
+        "Observation deck on the 103rd floor"
+      ],
+      "funFacts": [
+        "It was renamed in 2009 after its original corporate tenant had left in 1994.",
+        "Its bundled-tube system has been used in most supertall buildings since, including the Burj Khalifa."
+      ]
+    }
+  },
+  {
+    "id": "torre-agbar",
+    "name": "Torre Glòries",
+    "aliases": [
+      "Torre Agbar",
+      "Agbar Tower",
+      "Glòries Tower"
+    ],
+    "architects": [
+      {
+        "name": "Jean Nouvel",
+        "aliases": [
+          "Nouvel"
+        ],
+        "lifespan": "b. 1945",
+        "nationality": "French",
+        "bio": "French architect and Pritzker Prize laureate of 2008, known for buildings that play with light, transparency and layered screens, from the Institut du Monde Arabe in Paris to the Louvre Abu Dhabi. In 2009 he was named lead coordinating architect of the Île Seguin project in the Paris suburbs."
+      }
+    ],
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "countryCode": "ES"
+    },
+    "yearCompleted": 2004,
+    "era": "CONTEMPORARY",
+    "themes": [
+      "skyscrapers"
+    ],
+    "style": "Contemporary",
+    "wikipedia": "https://en.wikipedia.org/wiki/Torre_Gl%C3%B2ries",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Torre_Agbar_Barcelona_2015.jpg/1920px-Torre_Agbar_Barcelona_2015.jpg",
+        "alt": "Bullet-shaped tower clad in orange, blue and gold coloured louvres against a deep blue sky",
+        "credit": "Photo: Bjørn Erik Pedersen · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Torre_Agbar_Barcelona_2015.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Torre_Agbar_-_Barcelona%2C_Spain_-_Jan_2007.jpg/1920px-Torre_Agbar_-_Barcelona%2C_Spain_-_Jan_2007.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.82,
+          "h": 1
+        },
+        "alt": "Tall rounded tower with a pixel-like pattern of blue and red facade panels against a clear sky",
+        "credit": "Photo: Diliff · CC BY 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Torre_Agbar_-_Barcelona,_Spain_-_Jan_2007.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its designer drew on the rock formations of a nearby mountain and a rising geyser."
+      },
+      {
+        "order": 2,
+        "text": "Its concrete structure is covered with about 59,000 painted metal strips and over 4,500 window openings, with sensors that adjust blinds to cut air conditioning."
+      },
+      {
+        "order": 3,
+        "text": "Finished in 2004 for a water company, it has more than 4,500 LED devices that can light it in about 16 million colours."
+      }
+    ],
+    "summary": {
+      "description": "Finished in 2004 and opened in 2005, this 144-metre tower was designed by Jean Nouvel with b720 Fermín Vázquez Arquitectos. Its concrete core is clad in glass and painted aluminium strips. Local nicknames refer to its bullet-like shape.",
+      "keyFeatures": [
+        "Rounded, bullet-like profile",
+        "About 59,619 painted metal strips",
+        "Over 4,500 LED devices designed by Yann Kersalé",
+        "Temperature-controlled blinds",
+        "144.44 m (474 ft) tall"
+      ],
+      "funFacts": [
+        "It is nicknamed 'el supositori' and 'l'obús' because of its shape.",
+        "It won the International Highrise Award in 2006."
+      ]
+    }
   }
 ]

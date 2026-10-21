@@ -1,0 +1,295 @@
+{
+  "biblioteca-joanina": {
+    "name": "Biblioteca Joanina",
+    "aliases": [
+      "Biblioteca da Universidade de Coimbra"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "português",
+        "lifespan": "",
+        "bio": "Arquiteto a quem se atribui o projeto da Biblioteca Joanina, construída para o rei D. João V na Universidade de Coimbra entre 1717 e 1728."
+      }
+    ],
+    "city": "Coimbra",
+    "style": "Barroco português",
+    "photos": [
+      {
+        "alt": "Edifício alto de pedra branca e ocre com janelas em arco, pinhas decorativas e uma estátua numa escadaria",
+        "caption": null
+      },
+      {
+        "alt": "Salão de estantes douradas e pintadas de dois pisos com um retrato real emoldurado por talha ornamentada",
+        "caption": "Um dos três salões, separados por arcos decorados."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi fundada por um rei de Portugal para servir uma das universidades mais antigas da Europa.",
+      "Suas estantes douradas, com pinturas de chinoiserie, são feitas em grande parte de madeiras exóticas do Brasil, e as paredes grossas e a porta de teca mantêm a temperatura estável.",
+      "Uma colônia de morcegos vive dentro dela e come os insetos que, de outra forma, danificariam os livros."
+    ],
+    "summary": {
+      "description": "Esta biblioteca barroca foi construída entre 1717 e 1728 para D. João V, no alto da colina da universidade de Coimbra. Três salões, separados por arcos ornamentados, abrigam estantes de madeira dourada e pintada, com tetos de artistas lisboetas. A construção em carvalho e as paredes grossas ajudam a proteger os livros de insetos e do calor.",
+      "keyFeatures": [
+        "Três salões separados por arcos decorados",
+        "Estantes douradas e pintadas de dois pisos",
+        "Tetos pintados por Simões Ribeiro e Vicente Nunes",
+        "Motivos de chinoiserie",
+        "Paredes com cerca de 2,11 m de espessura"
+      ],
+      "funFacts": [
+        "Uma colônia de morcegos vive na biblioteca e come os insetos que ameaçam os livros.",
+        "Um retrato de D. João V de 1725, de Domenico Duprà, está no fundo do salão principal."
+      ]
+    }
+  },
+  "radcliffe-camera": {
+    "name": "Radcliffe Camera",
+    "aliases": [
+      "Biblioteca Radcliffe"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "escocês",
+        "lifespan": "1682-1754",
+        "bio": "Arquiteto nomeado em 1736 para projetar a Radcliffe Camera após a morte de Nicholas Hawksmoor; publicou o projeto em Bibliotheca Radcliviana (1747)."
+      }
+    ],
+    "city": "Oxford",
+    "style": "Barroco palladiano inglês",
+    "photos": [
+      {
+        "alt": "Edifício redondo de pedra com colunas pareadas, balaustrada e cúpula coberta de chumbo com um pequeno lanternim",
+        "caption": null
+      },
+      {
+        "alt": "Edifício circular de pedra cor de mel com base rusticada e cúpula, visto do outro lado de um gramado",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Foi paga com o legado de um médico real que morreu em 1714.",
+      "É a biblioteca circular mais antiga da Inglaterra, com base fortemente rusticada e uma cúpula com lanternim sobre um tambor octogonal.",
+      "A obra começou em maio de 1737 e foi inaugurada em abril de 1749; desde 1861 serve de sala de leitura de uma biblioteca universitária."
+    ],
+    "summary": {
+      "description": "Esta rotunda com cúpula fica no coração de uma cidade universitária, construída com o dinheiro deixado pelo médico John Radcliffe. Seu arquiteto assumiu o projeto depois da morte de outro arquiteto famoso. É a biblioteca circular mais antiga da Inglaterra e virou sala de leitura quando os livros saíram, em 1861.",
+      "keyFeatures": [
+        "Planta circular",
+        "Base rusticada com frontões salientes",
+        "Colunas coríntias pareadas",
+        "Cúpula com lanternim sobre tambor octogonal",
+        "Pedra local de Headington e Burford"
+      ],
+      "funFacts": [
+        "O projeto foi registrado no livro Bibliotheca Radcliviana, de 1747, do arquiteto.",
+        "Foi totalmente concluída em 1748 e inaugurada em 13 de abril de 1749."
+      ]
+    }
+  },
+  "trinity-college-long-room": {
+    "name": "Biblioteca do Trinity College, Long Room",
+    "aliases": [
+      "Long Room",
+      "Old Library do Trinity College Dublin",
+      "Biblioteca Antiga do Trinity College"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "irlandês",
+        "lifespan": "1670-1730",
+        "bio": "Engenheiro e arquiteto cuja principal obra é a Old Library do Trinity College Dublin, construída entre 1712 e 1732."
+      }
+    ],
+    "city": "Dublin",
+    "style": "Barroco",
+    "photos": [
+      {
+        "alt": "Edifício longo de pedra cinza de três andares com fileiras de janelas e arcos ao lado de um gramado",
+        "caption": null
+      },
+      {
+        "alt": "Salão muito longo com abóbada de madeira, dois níveis de estantes escuras e bustos de mármore ao longo do corredor",
+        "caption": "O salão tem cerca de 65 metros de comprimento."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Seu salão principal é uma das bibliotecas de sala única mais longas do mundo, ladeado por bustos de mármore de escritores e pensadores.",
+      "Foi construída entre 1712 e 1732, e em 1860 o teto plano foi elevado para abrir espaço a uma galeria superior de livros.",
+      "Guarda um manuscrito medieval iluminado entregue ao colégio em 1661, uma antiga harpa irlandesa e uma cópia sobrevivente da Proclamação de 1916."
+    ],
+    "summary": {
+      "description": "A Old Library foi projetada por Thomas Burgh e construída entre 1712 e 1732 num colégio de Dublin. Seu salão principal tem 65 metros de comprimento e guarda cerca de 200 mil dos livros mais antigos da biblioteca. O telhado da sala foi elevado em 1860 para criar uma galeria superior.",
+      "keyFeatures": [
+        "Salão principal com 65 m de comprimento",
+        "Cerca de 200 mil dos livros mais antigos",
+        "Galeria superior acrescentada em 1860",
+        "Bustos de mármore ao longo do corredor",
+        "Abriga o Livro de Kells"
+      ],
+      "funFacts": [
+        "Um dos quatro volumes do Livro de Kells, doado ao colégio em 1661, fica sempre em exibição.",
+        "O salão guarda uma das últimas cópias da Proclamação da República Irlandesa de 1916."
+      ]
+    }
+  },
+  "library-of-congress-jefferson-building": {
+    "name": "Biblioteca do Congresso, Edifício Thomas Jefferson",
+    "aliases": [
+      "Edifício Thomas Jefferson",
+      "Biblioteca do Congresso dos EUA",
+      "Edifício Jefferson"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "",
+        "bio": "Vencedor, com Paul Pelz, do concurso de 1873 para o edifício da Biblioteca do Congresso; foi demitido em 1888."
+      },
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "",
+        "bio": "Vencedor do concurso de 1873 e autor da maior parte do exterior; foi demitido em 1892."
+      },
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "",
+        "bio": "Arquiteto que substituiu Pelz em 1892 e acompanhou os últimos anos da construção."
+      }
+    ],
+    "city": "Washington, D.C.",
+    "style": "Beaux-Arts",
+    "photos": [
+      {
+        "alt": "Grande entrada de pedra branca com três arcos, colunas altas, bustos esculpidos e uma larga escadaria",
+        "caption": null
+      },
+      {
+        "alt": "Grande salão de mármore com painéis de vitral no teto, abóbadas pintadas, escadarias e piso de mosaico",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É o mais antigo dos três edifícios que abrigam a maior biblioteca do mundo e é Marco Histórico Nacional desde 1965.",
+      "Seu Grande Salão tem teto de vitral e piso de mosaico, e uma cúpula dourada coroa a Sala de Leitura Principal.",
+      "Foi aberto ao público em 1º de novembro de 1897 e já esteve ligado ao Capitólio por um túnel de livros com esteira."
+    ],
+    "summary": {
+      "description": "Inaugurado em 1897, este palácio Beaux-Arts foi projetado para abrigar uma biblioteca nacional na Colina do Capitólio. O interior ricamente decorado tem murais, mosaicos e mármore, e uma cúpula de cobre revestida de folha de ouro de 23 quilates. Em 1980 recebeu o nome do presidente cujos livros deram origem ao acervo.",
+      "keyFeatures": [
+        "Fachada clássica Beaux-Arts",
+        "Grande Salão com vitrais e mosaicos",
+        "Sala de Leitura Principal sob cúpula dourada",
+        "Fonte da Corte de Netuno",
+        "Murais de Edwin Blashfield"
+      ],
+      "funFacts": [
+        "Um túnel de livros ligava o edifício ao Capitólio; parte dele foi removida para o Centro de Visitantes do Capitólio.",
+        "Recebeu o nome de Thomas Jefferson em 1980."
+      ]
+    }
+  },
+  "stockholm-public-library": {
+    "name": "Biblioteca Pública de Estocolmo",
+    "aliases": [
+      "Stadsbiblioteket",
+      "Biblioteca Municipal de Estocolmo"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "sueco",
+        "lifespan": "1885-1940",
+        "bio": "Arquiteto sueco que passou do classicismo ao funcionalismo; a Biblioteca Pública de Estocolmo é uma de suas obras mais importantes."
+      }
+    ],
+    "city": "Estocolmo",
+    "style": "Classicismo nórdico rumo ao funcionalismo",
+    "photos": [
+      {
+        "alt": "Edifício cor de ocre com um alto cilindro erguendo-se de um bloco, iluminado ao anoitecer ao lado de um espelho d'água",
+        "caption": null
+      },
+      {
+        "alt": "Bloco de reboco alaranjado com um grande tambor cilíndrico liso no topo, visto de cima à noite",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "O alto tambor cilíndrico que se ergue de um bloco quadrado é a forma que todos lembram do lado de fora.",
+      "Foi a primeira biblioteca pública de seu país a usar estantes abertas, sistema que seu arquiteto estudou nos Estados Unidos.",
+      "Foi inaugurada em 31 de março de 1928, e uma ala oeste foi acrescentada em 1932."
+    ],
+    "summary": {
+      "description": "Esta biblioteca foi inaugurada em 1928 e combina uma alta rotunda lisa com um bloco de salas de leitura. Seu arquiteto reduziu os elementos clássicos a formas geométricas abstratas e eliminou quase toda a decoração. Foi a primeira biblioteca pública da Suécia com estantes abertas.",
+      "keyFeatures": [
+        "Alta rotunda cilíndrica",
+        "Elementos clássicos reduzidos à geometria simples",
+        "Estantes abertas, uma novidade na Suécia",
+        "Mobiliário projetado sala a sala",
+        "Ala oeste acrescentada em 1932"
+      ],
+      "funFacts": [
+        "A rotunda foi em parte inspirada na Barrière Saint-Martin de Ledoux, em Paris.",
+        "Diz-se que a estação Arnos Grove do metrô de Londres se baseia nesta biblioteca."
+      ]
+    }
+  },
+  "seattle-central-library": {
+    "name": "Biblioteca Central de Seattle",
+    "aliases": [
+      "Seattle Central Library",
+      "Biblioteca Pública de Seattle"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "Holandês",
+        "bio": "Arquiteto, teórico e urbanista holandês, fundador do OMA, frequentemente citado como representante do desconstrutivismo e autor de «Nova York Delirante»."
+      }
+    ],
+    "city": "Seattle",
+    "style": "Desconstrutivismo",
+    "photos": [
+      {
+        "alt": "Edifício anguloso de vidro e aço com pele em treliça de losangos e plataformas salientes que parecem flutuar",
+        "caption": null
+      },
+      {
+        "alt": "Escada rolante estreita subindo entre paredes de um verde-limão vibrante",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma rede de aço envolve sua pele de vidro, e várias plataformas parecem flutuar dentro da casca.",
+      "Uma rampa contínua de exposição guarda o acervo de não ficção em ordem numérica ininterrupta ao longo de quatro andares, com inclinação de no máximo 2 graus.",
+      "Inaugurada em maio de 2004, foi custeada em parte por uma doação de 20 milhões de dólares de um bilionário do software."
+    ],
+    "summary": {
+      "description": "Inaugurada em 2004, esta biblioteca de onze andares em vidro e aço foi projetada pelo OMA com a LMN Architects. Uma rede de aço em losangos envolve a pele de vidro, e suas plataformas parecem flutuar. A Espiral de Livros mantém o acervo de não ficção em uma sequência contínua.",
+      "keyFeatures": [
+        "Rede de aço sobre pele de vidro",
+        "Espiral de Livros nos andares 6 a 9",
+        "Plataformas flutuantes",
+        "Piso Vermelho em 13 tons de vermelho",
+        "Quase 10 mil janelas sob medida"
+      ],
+      "funFacts": [
+        "O crítico Paul Goldberger a chamou de a biblioteca nova mais importante em uma geração.",
+        "Cerca de 2,3 milhões de pessoas a visitaram no primeiro ano."
+      ]
+    }
+  }
+}

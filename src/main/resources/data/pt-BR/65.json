@@ -1,0 +1,154 @@
+{
+  "30-st-mary-axe": {
+    "name": "30 St Mary Axe",
+    "aliases": [
+      "The Gherkin",
+      "O Pepino",
+      "Edifício Swiss Re"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Lord Foster"
+        ],
+        "nationality": "Britânico",
+        "lifespan": "n. 1935",
+        "bio": "Arquiteto britânico que redesenhou o edifício em ruínas de 1995 a 1999 para o parlamento da Alemanha reunificada, acrescentando uma cúpula de vidro que abre o teto ao público."
+      }
+    ],
+    "city": "Londres",
+    "style": "High-tech",
+    "photos": [
+      {
+        "alt": "Vista aérea de uma torre de vidro em forma de projétil, com treliça de losangos e faixas espirais escuras acima dos telhados da cidade",
+        "caption": null
+      },
+      {
+        "alt": "Torre de vidro em forma de ovo iluminada à noite atrás da pequena torre de uma igreja medieval",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Ergue-se num terreno liberado depois que uma bomba, em 1992, danificou gravemente um histórico salão de negócios.",
+      "Uma estrutura triangulada no perímetro mantém rígida sua forma arredondada de 41 andares, e uma 'lente' de vidro a coroa, lembrando uma cúpula que existia no antigo edifício.",
+      "Ganhou o Prêmio Stirling em 2004 e é mais conhecida por um apelido inspirado em seu formato de pepino em conserva."
+    ],
+    "summary": {
+      "description": "Concluída em 2003, esta torre de 180 metros e 41 andares foi projetada pela Foster + Partners, com a Arup como engenheira estrutural. Uma estrutura triangulada no perímetro sustenta sua forma curva. Substituiu a Baltic Exchange, gravemente danificada por uma bomba em 1992.",
+      "keyFeatures": [
+        "Perfil arredondado e aerodinâmico",
+        "Estrutura triangulada no perímetro",
+        "'Lente' de vidro no topo",
+        "180 m (591 pés) de altura, 41 andares",
+        "Inaugurada em abril de 2004"
+      ],
+      "funFacts": [
+        "Ganhou o Prêmio Stirling de 2004 e o Emporis Skyscraper Award de 2003.",
+        "Sua cúpula superior lembra a cúpula de vidro da Baltic Exchange que ficava no local."
+      ]
+    }
+  },
+  "willis-tower": {
+    "name": "Willis Tower",
+    "aliases": [
+      "Sears Tower",
+      "Torre Sears"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "americano",
+        "lifespan": "1925-2010",
+        "bio": "Arquiteto do Skidmore, Owings & Merrill que projetou a Sears (hoje Willis) Tower."
+      },
+      {
+        "aliases": [],
+        "nationality": "bengali-americano",
+        "lifespan": "1929-1982",
+        "bio": "Engenheiro estrutural do Skidmore, Owings & Merrill cujo projeto de tubos agrupados para esta torre foi o primeiro do tipo."
+      }
+    ],
+    "city": "Chicago",
+    "style": "Estilo Internacional, tubos agrupados",
+    "photos": [
+      {
+        "alt": "Torre de vidro preto e alumínio com recuos escalonados e antenas brancas no topo, vista da rua",
+        "caption": null
+      },
+      {
+        "alt": "Arranha-céu preto altíssimo visto de baixo, com linhas verticais e partes superiores pontiagudas",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Por quase 25 anos, a partir de 1973, foi o edifício mais alto do mundo.",
+      "É construída como nove tubos quadrados de 75 pés de lado, agrupados numa grade de 3 por 3, com recuos nos andares 50, 66 e 90.",
+      "Um mirante com piso de vidro no 103º andar, a cerca de 1.353 pés de altura, recebe cerca de 1,7 milhão de visitantes por ano."
+    ],
+    "summary": {
+      "description": "Concluída no início da década de 1970 para uma varejista, esta torre de 110 andares chega a 1.451 pés até o topo arquitetônico. Seu sistema estrutural agrupa nove tubos quadrados, solução depois usada na maioria dos edifícios supertall. A fachada é de alumínio anodizado e vidro preto.",
+      "keyFeatures": [
+        "Nove tubos quadrados agrupados em grade 3x3",
+        "Recuos nos andares 50, 66 e 90",
+        "1.451 pés (442 m) de altura arquitetônica",
+        "Fachada de alumínio anodizado preto e vidro",
+        "Mirante no 103º andar"
+      ],
+      "funFacts": [
+        "Foi rebatizada em 2009, depois que o inquilino corporativo original saiu, em 1994.",
+        "Seu sistema de tubos agrupados foi usado na maioria dos edifícios supertall desde então, inclusive no Burj Khalifa."
+      ]
+    }
+  },
+  "torre-agbar": {
+    "name": "Torre Glòries",
+    "aliases": [
+      "Torre Agbar",
+      "Torre Agbar de Barcelona"
+    ],
+    "architects": [
+      {
+        "aliases": [
+          "Nouvel"
+        ],
+        "nationality": "Francês",
+        "lifespan": "n. 1945",
+        "bio": "Arquiteto francês e laureado do Prémio Pritzker de 2008, conhecido por edifícios que jogam com a luz, a transparência e telas em camadas, do Institut du Monde Arabe, em Paris, ao Louvre Abu Dhabi. Em 2009 foi nomeado arquiteto coordenador do projeto da Île Seguin, nos subúrbios de Paris."
+      }
+    ],
+    "city": "Barcelona",
+    "style": "Contemporâneo",
+    "photos": [
+      {
+        "alt": "Torre em forma de projétil revestida de venezianas laranja, azuis e douradas contra um céu azul profundo",
+        "caption": null
+      },
+      {
+        "alt": "Torre alta e arredondada com um padrão pixelado de painéis de fachada azuis e vermelhos contra o céu limpo",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Seu autor se inspirou nas formações rochosas de uma montanha próxima e em um gêiser que se eleva.",
+      "Sua estrutura de concreto é coberta por cerca de 59 mil tiras de metal pintadas e mais de 4.500 aberturas de janela, com sensores que ajustam persianas para reduzir o ar-condicionado.",
+      "Concluída em 2004 para uma empresa de águas, tem mais de 4.500 dispositivos de LED que podem iluminá-la em cerca de 16 milhões de cores."
+    ],
+    "summary": {
+      "description": "Concluída em 2004 e aberta em 2005, esta torre de 144 metros foi projetada por Jean Nouvel com a b720 Fermín Vázquez Arquitectos. O núcleo de concreto é revestido de vidro e tiras de alumínio pintado. Os apelidos locais fazem referência ao seu formato de projétil.",
+      "keyFeatures": [
+        "Perfil arredondado em forma de projétil",
+        "Cerca de 59.619 tiras de metal pintado",
+        "Mais de 4.500 dispositivos de LED, projetados por Yann Kersalé",
+        "Persianas controladas por temperatura",
+        "144,44 m (474 pés) de altura"
+      ],
+      "funFacts": [
+        "É apelidada de 'el supositori' e 'l'obús' por causa de sua forma.",
+        "Ganhou o International Highrise Award em 2006."
+      ]
+    }
+  }
+}
