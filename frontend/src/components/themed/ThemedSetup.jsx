@@ -71,7 +71,7 @@ export function ThemedSetup() {
                   type="button"
                   className={styles.theme}
                   aria-expanded={open}
-                  aria-controls={`levels-${id}`}
+                  aria-controls={open ? `levels-${id}` : undefined}
                   onClick={() => setPick((p) => ({ ...p, theme: open ? null : id }))}
                 >
                   <span className={styles.num}>{String(i + 1).padStart(2, '0')}</span>

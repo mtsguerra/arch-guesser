@@ -57,12 +57,17 @@ export function useGameRound(mode = 'normal') {
         let session = readThemedSession()
         if (!session) throw new Error('No themed session')
         if (advance) session = advanceThemedSession(session, buildingRef.current, solvedRef.current)
+        const catalogue = await fetchCatalogue()
+        // Saved ids the catalogue no longer has (data changed mid-session) are moved past.
+        while (session.index < session.ids.length && !catalogue.some((b) => b.id === session.ids[session.index])) {
+          session = advanceThemedSession(session, null, false)
+        }
         if (session.index >= session.ids.length) {
           dispatch({ type: 'session/done' })
           return
         }
         const id = session.ids[session.index]
-        const [building, catalogue] = await Promise.all([fetchBuilding(id, controller.signal, langRef.current), fetchCatalogue()])
+        const building = await fetchBuilding(id, controller.signal, langRef.current)
         const pool = themePool(catalogue, session.theme)
         setThemed({ eras: erasIn(pool), centuries: centuriesIn(pool) })
         dispatch({ type: 'load/success', building, fields: fieldsFor(session.level, pool, catalogue.find((b) => b.id === id)) })

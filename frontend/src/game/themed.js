@@ -83,8 +83,8 @@ export function centuriesIn(pool) {
   return out
 }
 
-/** First years of the ten decades of a CE century (19 -> 1800 ... 1890). */
-export const decadesOfCentury = (c) => Array.from({ length: 10 }, (_, i) => (c - 1) * 100 + i * 10)
+/** First years of the decades of a CE century, 1800 to 1900 for the 19th: the year 1900 ends it, and its decade is the 1900s. */
+export const decadesOfCentury = (c) => Array.from({ length: 11 }, (_, i) => (c - 1) * 100 + i * 10)
 
 // A themed session is one shuffled run through ten buildings of a theme; it lives in this tab only.
 const SESSION_KEY = 'arch-guesser:themed-session'

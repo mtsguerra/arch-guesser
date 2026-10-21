@@ -55,6 +55,15 @@ class BuildingValidatorTest {
     }
 
     @Test
+    void rejectsRepeatedThemes() {
+        Building b = building("a", hints(2));
+        Building twice = new Building(b.id(), b.name(), b.aliases(), b.architects(), b.location(),
+                b.yearCompleted(), b.era(), List.of("castles", "castles"), b.style(), b.drawings(), b.photos(), b.hints(), b.summary(), b.wikipedia());
+
+        assertThat(BuildingValidator.validate(List.of(twice))).singleElement().asString().contains("themes must not repeat");
+    }
+
+    @Test
     void rejectsMissingArchitects() {
         Building b = building("a", hints(2));
         Building noArchitects = new Building(b.id(), b.name(), b.aliases(), List.of(), b.location(),

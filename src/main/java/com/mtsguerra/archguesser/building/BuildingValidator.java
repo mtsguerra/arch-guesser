@@ -54,6 +54,7 @@ final class BuildingValidator {
             for (String theme : b.themes()) {
                 if (!THEMES.contains(theme)) e.add("unknown theme '" + theme + "'");
             }
+            if (new HashSet<>(b.themes()).size() != b.themes().size()) e.add("themes must not repeat");
 
             validateArchitects(b.architects(), e);
             validateLocation(b.location(), e);

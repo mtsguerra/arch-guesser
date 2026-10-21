@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from 'motion/react'
 import { X } from 'lucide-react'
-import { eraName } from '../../game/useEras.js'
+import { guessText } from '../../game/guessText.js'
 import { duration, easeOut } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import styles from './GuessLog.module.css'
@@ -8,11 +8,7 @@ import styles from './GuessLog.module.css'
 /** The wrong guesses of this round, newest first, so nobody retypes the same one. */
 export function GuessLog({ log, eras }) {
   const strings = useStrings()
-  const shown = (entry) => {
-    if (entry.field !== 'era') return entry.text
-    const era = eras?.find((e) => e.id === entry.text)
-    return era ? eraName(era, strings) : entry.text
-  }
+  const shown = (entry) => guessText(entry.field, entry.text, { eras, strings })
 
   return (
     <section className={styles.log} aria-label={strings.guess.log.heading}>

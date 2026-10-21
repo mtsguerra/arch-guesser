@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { animate, motion } from 'motion/react'
 import { Check, Eye } from 'lucide-react'
 import { ExternalIcon } from '../ui/icons.jsx'
+import { guessText } from '../../game/guessText.js'
 import { centuryOf, decadeOf } from '../../game/themed.js'
 import { eraName, formatYear } from '../../game/useEras.js'
 import { duration, easeOut } from '../../motion.js'
@@ -138,7 +139,7 @@ function SignOff({ play }) {
 }
 
 /** Your guess against the answer, one ruled row per field. */
-function Recap({ building, era, fields, log, outcome }) {
+function Recap({ building, era, eras, fields, log, outcome }) {
   const strings = useStrings()
   const { lang } = useLanguage()
   const { location } = building
@@ -151,7 +152,10 @@ function Recap({ building, era, fields, log, outcome }) {
     decade: building.yearCompleted > 0 && strings.themed.decade(decadeOf(building.yearCompleted)),
   }
   const names = Object.keys(fields) // only the fields this round asked
-  const typed = (field) => log?.findLast((e) => e.field === field)?.text
+  const typed = (field) => {
+    const text = log?.findLast((e) => e.field === field)?.text
+    return text && guessText(field, text, { eras, strings })
+  }
   return (
     <div className={styles.recap}>
       <div className={styles.recapHead}>
@@ -420,7 +424,7 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
       </motion.div>
 
       <motion.div variants={section}>
-        {daily ? <DailyCard daily={daily} play={play} /> : <Recap building={building} era={era} fields={fields} log={log} outcome={outcome} />}
+        {daily ? <DailyCard daily={daily} play={play} /> : <Recap building={building} era={era} eras={eras} fields={fields} log={log} outcome={outcome} />}
       </motion.div>
 
       <motion.div className={styles.reading} variants={section}>

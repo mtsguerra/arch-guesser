@@ -80,7 +80,9 @@ describe('themed sessions', () => {
   it('lists centuries across the pool without a century 0', async () => {
     const { centuriesIn, decadesOfCentury } = await import('./themed.js')
     expect(centuriesIn([{ yearCompleted: -50 }, { yearCompleted: 120 }, { yearCompleted: null }])).toEqual([-1, 1, 2])
-    expect(decadesOfCentury(19)).toEqual([1800, 1810, 1820, 1830, 1840, 1850, 1860, 1870, 1880, 1890])
+    expect(decadesOfCentury(19)).toEqual([1800, 1810, 1820, 1830, 1840, 1850, 1860, 1870, 1880, 1890, 1900])
+    // A year that ends a century keeps its decade in that century's list.
+    expect(decadesOfCentury(centuryOf(1900))).toContain(decadeOf(1900))
   })
 
   it('keeps a session through storage and drops bad links', async () => {
@@ -97,5 +99,15 @@ describe('themed sessions', () => {
     expect(t.readThemedSession().played).toEqual([{ id: 'b2', name: 'C', wikipedia: 'https://en.wikipedia.org/wiki/C', year: null, solved: false }])
     store['arch-guesser:themed-session'] = '{"theme":"X y","level":9}'
     expect(t.readThemedSession()).toBeNull()
+  })
+})
+
+describe('guess text', () => {
+  it('shows century and decade with their unit', async () => {
+    const { guessText } = await import('./guessText.js')
+    const strings = { themed: { century: (c) => `C${c}`, decade: (d) => `D${d}` } }
+    expect(guessText('century', '19', { strings })).toBe('C19')
+    expect(guessText('decade', '1890', { strings })).toBe('D1890')
+    expect(guessText('name', 'Tower', { strings })).toBe('Tower')
   })
 })
