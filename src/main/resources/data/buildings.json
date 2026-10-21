@@ -22427,5 +22427,571 @@
         "Its founder bought a theatre organ from Brussels when the maker could not deliver in time."
       ]
     }
+  },
+  {
+    "id": "capela-das-almas-porto",
+    "name": "Capela das Almas",
+    "aliases": [
+      "Capela de Santa Catarina",
+      "Chapel of Souls",
+      "Capela das Almas de Santa Catarina",
+      "Chapel of Saint Catherine"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Portuguese builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Anonymous builders of the late 18th-century chapel, which was enlarged and restored in 1801."
+      },
+      {
+        "name": "Eduardo Leite",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Painter who designed the 1929 azulejo panels, made at the Viúva Lamego factory in Lisbon."
+      }
+    ],
+    "location": {
+      "city": "Porto",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1801,
+    "era": "BAROQUE",
+    "themes": [
+      "churches-cathedrals",
+      "portuguese-azulejo"
+    ],
+    "style": "Baroque, clad in azulejos",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Capela_das_Almas",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Capela_das_Almas_%28Porto%29_17.jpg/1920px-Capela_das_Almas_%28Porto%29_17.jpg",
+        "alt": "Small stone church with a bell gable whose walls are covered in blue and white tile panels",
+        "credit": "Photo: John Samuel · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Capela_das_Almas_(Porto)_17.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Azulejo_facade_of_the_Capela_das_Almas_in_Porto_%284%29.jpg/1920px-Azulejo_facade_of_the_Capela_das_Almas_in_Porto_%284%29.jpg",
+        "alt": "Blue and white tile panel of a crucifixion scene framed by angels and scrolls",
+        "caption": "One of the scenes on the outer walls.",
+        "credit": "Photo: Krzysztof Golik · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Azulejo_facade_of_the_Capela_das_Almas_in_Porto_(4).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "Its plain stone walls are wrapped from top to bottom in a skin of blue and white glazed tiles."
+      },
+      {
+        "order": 2,
+        "text": "The tiles show scenes from the lives of saints and were painted in the twentieth century, long after the chapel itself was built."
+      },
+      {
+        "order": 3,
+        "text": "About 16,000 tiles, covering some 360 square metres, were fired for it in a Lisbon factory in 1929."
+      }
+    ],
+    "summary": {
+      "description": "A late 18th-century chapel in Porto, enlarged and restored in 1801, whose outer walls are covered with 15,947 azulejos. Eduardo Leite designed the panels in 1929, and the Viúva Lamego factory in Lisbon made them.",
+      "keyFeatures": [
+        "Façades clad in blue and white azulejos",
+        "About 360 square metres of tile",
+        "Scenes from the lives of saints",
+        "Two bodies, the second one lower"
+      ],
+      "funFacts": [
+        "Its tiles number 15,947.",
+        "The Brotherhood of Souls moved here in the late 18th century from the Santa Clara monastery."
+      ]
+    }
+  },
+  {
+    "id": "igreja-do-carmo-porto",
+    "name": "Igreja do Carmo",
+    "aliases": [
+      "Carmo Church",
+      "Carmo Church Porto",
+      "Igreja do Carmo do Porto"
+    ],
+    "architects": [
+      {
+        "name": "José Figueiredo Seixas",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Architect of the Carmo church, built for the Third Order of Carmel between 1756 and 1768."
+      }
+    ],
+    "location": {
+      "city": "Porto",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1768,
+    "era": "BAROQUE",
+    "themes": [
+      "churches-cathedrals",
+      "portuguese-azulejo"
+    ],
+    "style": "Baroque with Rococo elements",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_do_Carmo_(Porto)",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Igreja_do_Carmo_Porto_Azulejos.JPG",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.77
+        },
+        "alt": "Tall church side wall covered by one huge blue and white tile mural between barred windows",
+        "credit": "Photo: Henrique Matos · CC BY 2.5 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Igreja_do_Carmo_Porto_Azulejos.JPG"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Igreja_do_Carmo_azulejos_%287893547500%29.jpg",
+        "alt": "Close view of a blue and white tile mural of robed figures gathered on a hillside",
+        "caption": "Detail of the mural on the side wall.",
+        "credit": "Photo: Yellow.Cat from Roma, Italy · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Igreja_do_Carmo_azulejos_(7893547500).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A tall Baroque church whose bare side wall was covered with a single enormous painted picture in the early twentieth century."
+      },
+      {
+        "order": 2,
+        "text": "The mural tells the legend of the order that owns the church, and it sits beside another church with only a sliver of a house between them."
+      },
+      {
+        "order": 3,
+        "text": "It was built between 1756 and 1768, and the tile mural dates from 1912."
+      }
+    ],
+    "summary": {
+      "description": "A Baroque church with Rococo touches, built between 1756 and 1768 by the Third Order of Carmel and designed by José Figueiredo Seixas. Its side wall carries a large azulejo composition designed by Silvestre Silvestri and painted by Carlos Branco in 1912.",
+      "keyFeatures": [
+        "Baroque design with Rococo elements",
+        "Giant azulejo mural on the side wall",
+        "Mural dated 1912",
+        "A very narrow hidden house separates it from the neighbouring church"
+      ],
+      "funFacts": [
+        "The Casa Escondida, just over 1.5 metres wide, stands between this church and the Carmelitas church.",
+        "The hospital of the order was finished later, in 1801."
+      ]
+    }
+  },
+  {
+    "id": "palacio-dos-marqueses-de-fronteira",
+    "name": "Palácio dos Marqueses de Fronteira",
+    "aliases": [
+      "Palácio Fronteira",
+      "Fronteira Palace",
+      "Fronteira Palace Lisbon"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Portuguese builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Builders of the hunting pavilion raised in 1671-72 for João de Mascarenhas, 1st Marquis of Fronteira."
+      }
+    ],
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1672,
+    "era": "BAROQUE",
+    "themes": [
+      "palaces",
+      "portuguese-azulejo"
+    ],
+    "style": "Baroque",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_dos_Marqueses_de_Fronteira",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jardim_do_Pal%C3%A1cio_dos_Marqueses_de_Fronteira%2C_S%C3%A3o_Domingos_de_Benfica%2C_Lisboa_13.jpg/1920px-Jardim_do_Pal%C3%A1cio_dos_Marqueses_de_Fronteira%2C_S%C3%A3o_Domingos_de_Benfica%2C_Lisboa_13.jpg",
+        "alt": "Garden gallery with niches holding busts, blue tiled walls, a long green pool and clipped box hedges",
+        "credit": "Photo: GualdimG · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Jardim_do_Pal%C3%A1cio_dos_Marqueses_de_Fronteira,_S%C3%A3o_Domingos_de_Benfica,_Lisboa_13.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Azulejos_no_Jardim_do_Pal%C3%A1cio_dos_Marqueses_de_Fronteira%2C_S%C3%A3o_Domingos_de_Benfica%2C_Lisboa_07.jpg/1920px-Azulejos_no_Jardim_do_Pal%C3%A1cio_dos_Marqueses_de_Fronteira%2C_S%C3%A3o_Domingos_de_Benfica%2C_Lisboa_07.jpg",
+        "alt": "Arched tile panels of horsemen above a green pool, with busts and a pebble-and-tile wall above",
+        "caption": "Tiled riders reflected in the garden tank.",
+        "credit": "Photo: GualdimG · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Azulejos_no_Jardim_do_Pal%C3%A1cio_dos_Marqueses_de_Fronteira,_S%C3%A3o_Domingos_de_Benfica,_Lisboa_07.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as a hunting pavilion in the countryside, and its family still lives in part of it."
+      },
+      {
+        "order": 2,
+        "text": "Its garden walls are lined with tile panels of mounted knights that mirror in a long pool, and with scenes of monkeys."
+      },
+      {
+        "order": 3,
+        "text": "It was built in 1671-72 for a nobleman who earned his title from his loyalty during the Restoration War."
+      }
+    ],
+    "summary": {
+      "description": "Built in 1671-72 as a hunting pavilion for João de Mascarenhas, 1st Marquis of Fronteira, this Lisbon palace is still inhabited. It is famed for its tiles, from battle scenes in the Sala das Batalhas to garden panels of horsemen and monkeys.",
+      "keyFeatures": [
+        "Garden gallery with niches and busts of Portuguese kings",
+        "Tiled panels of horsemen reflected in a tank",
+        "Sala das Batalhas, about the Restoration War",
+        "Chapel façade decorated with stones, shells and porcelain fragments"
+      ],
+      "funFacts": [
+        "The palace complex has been a National Monument since 1982.",
+        "The garden busts show Portuguese kings, except the three Philips."
+      ]
+    }
+  },
+  {
+    "id": "convento-da-madre-de-deus",
+    "name": "Convento da Madre de Deus",
+    "aliases": [
+      "Museu Nacional do Azulejo",
+      "National Tile Museum",
+      "National Museum of the Azulejo",
+      "Madre de Deus Convent"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Portuguese builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Builders of the Madre de Deus convent, founded by Queen Leonor in 1509."
+      }
+    ],
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": null,
+    "era": "MANUELINE",
+    "themes": [
+      "monasteries",
+      "museums",
+      "portuguese-azulejo"
+    ],
+    "style": "Manueline, Mannerist and Baroque",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Tile_Museum",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/%22Madre_de_Deus%22_Cloister_%2843711517502%29.jpg/1920px-%22Madre_de_Deus%22_Cloister_%2843711517502%29.jpg",
+        "alt": "Black and white view along a row of slender stone columns with carved, perforated arches around a cloister court",
+        "credit": "Photo: Pedro Ribeiro Simões from Lisboa, Portugal · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:%22Madre_de_Deus%22_Cloister_(43711517502).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Small_cloister_%28Claustrim%29%2C_Museu_Nacional_do_Azulejo%2C_Lisbon%2C_Portugal_julesvernex2.jpg/1920px-Small_cloister_%28Claustrim%29%2C_Museu_Nacional_do_Azulejo%2C_Lisbon%2C_Portugal_julesvernex2.jpg",
+        "crop": {
+          "x": 0.12,
+          "y": 0,
+          "w": 0.88,
+          "h": 1
+        },
+        "alt": "Cloister corridor with blue tile dado under a white wall and stone arches beside the court",
+        "credit": "Photo: Jules Verne Times Two · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Small_cloister_(Claustrim),_Museu_Nacional_do_Azulejo,_Lisbon,_Portugal_julesvernex2.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "A queen founded this convent in 1509, and part of its grounds is now a museum devoted to a single craft."
+      },
+      {
+        "order": 2,
+        "text": "Its collection of glazed tiles runs from the late 15th century to the present, including a c. 1700 panel showing a vast view of a capital."
+      },
+      {
+        "order": 3,
+        "text": "Its church has a gilded carved wood choir and Baroque chapel, and its cloister is Mannerist."
+      }
+    ],
+    "summary": {
+      "description": "Queen Leonor founded this Lisbon convent in 1509. Since 1965 it has housed the Museu Nacional do Azulejo, which became a national museum in 1980 and traces tile making from the late 15th century to today.",
+      "keyFeatures": [
+        "Sixteenth-century Mannerist cloister",
+        "Church with gilded carved wood choir",
+        "Baroque Chapel of Saint Anthony with canvases by André Gonçalves",
+        "Tile collection from the late 15th century to the present"
+      ],
+      "funFacts": [
+        "The permanent show includes a c. 1700 panel, the Great View of Lisbon.",
+        "It holds one of the largest ceramics collections in the world, according to its Wikipedia article."
+      ]
+    }
+  },
+  {
+    "id": "igreja-de-sao-lourenco-de-almancil",
+    "name": "Igreja de São Lourenço de Almancil",
+    "aliases": [
+      "Igreja de São Lourenço",
+      "Igreja de São Lourenço dos Matos",
+      "Church of São Lourenço",
+      "Church of Saint Lawrence Almancil"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Portuguese builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Builders of the late 17th-century church; its interior was tiled in 1730 with panels by Policarpo de Oliveira Bernardes."
+      }
+    ],
+    "location": {
+      "city": "Almancil",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1730,
+    "era": "BAROQUE",
+    "themes": [
+      "churches-cathedrals",
+      "portuguese-azulejo"
+    ],
+    "style": "Baroque",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Louren%C3%A7o_de_Almancil",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Igreja_de_S%C3%A3o_Louren%C3%A7o_-_Almancil_-_Portugal_%282762787139%29.jpg",
+        "alt": "Whitewashed church with a clock tower, an outer stair and a blue tile plaque on its curved gable",
+        "credit": "Photo: Vitor Oliveira from Torres Vedras, PORTUGAL · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Igreja_de_S%C3%A3o_Louren%C3%A7o_-_Almancil_-_Portugal_(2762787139).jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Almancil_Igreja_Sao_Louren%C3%A7o_R02.jpg/1920px-Almancil_Igreja_Sao_Louren%C3%A7o_R02.jpg",
+        "alt": "Nave and chancel with walls of blue and white tiles around a gilded carved altarpiece",
+        "caption": "Tiles cover the walls and the dome.",
+        "credit": "Photo: Marc Ryckaert (MJJR) · CC BY 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Almancil_Igreja_Sao_Louren%C3%A7o_R02.jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "From outside it is a modest whitewashed church in a southern coastal region."
+      },
+      {
+        "order": 2,
+        "text": "Inside, blue and white tile panels cover every wall and even the dome, telling the story of a martyred deacon."
+      },
+      {
+        "order": 3,
+        "text": "Its tiles are dated 1730 and came by ship from Lisbon, the work of a leading master."
+      }
+    ],
+    "summary": {
+      "description": "A late 17th-century Baroque church near Almancil in the Algarve, classified as a Property of Public Interest since 1946. Its interior walls and dome are covered with azulejos dated 1730 by Policarpo de Oliveira Bernardes, illustrating the life of Saint Lawrence of Huesca.",
+      "keyFeatures": [
+        "Whitewashed Baroque exterior",
+        "Azulejos over the whole interior and dome",
+        "Scenes from the life of Saint Lawrence",
+        "Gilded wooden altarpiece attributed to Manuel Martins"
+      ],
+      "funFacts": [
+        "The tiles were brought from Lisbon in 1730.",
+        "The sacristy contains a finely carved piece of furniture."
+      ]
+    }
+  },
+  {
+    "id": "estacao-do-pinhao",
+    "name": "Estação do Pinhão",
+    "aliases": [
+      "Pinhão railway station",
+      "Pinhão station",
+      "Estação Ferroviária do Pinhão"
+    ],
+    "architects": [
+      {
+        "name": "Unknown Portuguese builders",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Anonymous builders of the Douro Line station, which opened in 1880; its tile panels were installed in 1937."
+      }
+    ],
+    "location": {
+      "city": "Pinhão",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1880,
+    "era": "INDUSTRIAL",
+    "themes": [
+      "railway-stations",
+      "portuguese-azulejo"
+    ],
+    "style": "19th-century railway station with azulejo panels",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pinh%C3%A3o_railway_station",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/A_Esta%C3%A7%C3%A3o_do_Pinh%C3%A3o_com_os_seus_pain%C3%A9is_de_azulejos_exterior.jpg/1920px-A_Esta%C3%A7%C3%A3o_do_Pinh%C3%A3o_com_os_seus_pain%C3%A9is_de_azulejos_exterior.jpg",
+        "alt": "Two-storey whitewashed station building with green doors and small blue tile panels beneath the ground-floor windows, with terraced hills behind",
+        "credit": "Photo: Sanjorgepinho · CC BY-SA 4.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Esta%C3%A7%C3%A3o_do_Pinh%C3%A3o_com_os_seus_pain%C3%A9is_de_azulejos_exterior.jpg"
+      },
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Esta%C3%A7%C3%A3o_Ferrovi%C3%A1ria_do_Pinh%C3%A3o_-_Portugal_%284227454717%29.jpg/1920px-Esta%C3%A7%C3%A3o_Ferrovi%C3%A1ria_do_Pinh%C3%A3o_-_Portugal_%284227454717%29.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.86
+        },
+        "alt": "Tile panel of rabelo boats loaded with barrels on a river below vine-covered hills",
+        "caption": "Wine barrels being carried downriver.",
+        "credit": "Photo: Vitor Oliveira from Torres Vedras, PORTUGAL · CC BY-SA 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_Ferrovi%C3%A1ria_do_Pinh%C3%A3o_-_Portugal_(4227454717).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It is a small riverside station on a line that was built to follow a valley of terraced vineyards."
+      },
+      {
+        "order": 2,
+        "text": "Its walls carry 24 painted tile panels with more than 3,000 tiles, showing the grape harvest and boats carrying barrels."
+      },
+      {
+        "order": 3,
+        "text": "The station opened in 1880 and its tiles were added in 1937, donated by a wine institute."
+      }
+    ],
+    "summary": {
+      "description": "This station on the Douro Line opened on 1 June 1880 and was a major depot for the wine trade. In 1937 it received 24 azulejo panels, made by the Aleluia factory in Aveiro, showing vineyards, grape treading and boats carrying wine barrels.",
+      "keyFeatures": [
+        "Douro Line station opened in 1880",
+        "24 tile panels with over 3,000 tiles",
+        "Scenes of vines, treading and river transport of wine",
+        "Panels painted by João Marques Oliveira and Lourenço Rodrigues Limas"
+      ],
+      "funFacts": [
+        "The tiles were based on photographs by the Casa Alvão studio.",
+        "In 2013 the station won the SOS Azulejo conservation and restoration award."
+      ]
+    }
+  },
+  {
+    "id": "casa-do-alentejo",
+    "name": "Casa do Alentejo",
+    "aliases": [
+      "Palácio Alverca",
+      "Palácio São Luís",
+      "Palácio Pais do Amaral",
+      "Magestic Club"
+    ],
+    "architects": [
+      {
+        "name": "António Rodrigues da Silva Júnior",
+        "aliases": [],
+        "lifespan": "",
+        "nationality": "Portuguese",
+        "bio": "Architect who directed the 1919 renovation that turned the old palace into a casino with a revivalist interior."
+      }
+    ],
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "countryCode": "PT"
+    },
+    "yearCompleted": 1919,
+    "era": "HISTORICISM",
+    "themes": [
+      "palaces",
+      "portuguese-azulejo"
+    ],
+    "style": "Revivalist (neo-Arabic, neo-Gothic and others)",
+    "wikipedia": "https://pt.wikipedia.org/wiki/Casa_do_Alentejo",
+    "drawings": [],
+    "photos": [
+      {
+        "view": "EXTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Lisboa_-_Casa_do_Alentejo_-_P%C3%A1tio.jpg/1920px-Lisboa_-_Casa_do_Alentejo_-_P%C3%A1tio.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.5
+        },
+        "alt": "Courtyard with horseshoe arches, slender columns, a small fountain and a red-and-white tiled floor",
+        "credit": "Photo: Concierge.2C · CC BY-SA 3.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lisboa_-_Casa_do_Alentejo_-_P%C3%A1tio.jpg"
+      },
+      {
+        "view": "INTERIOR",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Restaurant_at_Casa_do_Alentejo_%284142230354%29.jpg/1920px-Restaurant_at_Casa_do_Alentejo_%284142230354%29.jpg",
+        "alt": "Dining room with diners at tables and walls of blue and white tile panels around tall windows",
+        "credit": "Photo: Heather Cowper from Bristol, UK · CC BY 2.0 · Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Restaurant_at_Casa_do_Alentejo_(4142230354).jpg"
+      }
+    ],
+    "hints": [
+      {
+        "order": 1,
+        "text": "It began as a late 17th-century palace, and was later a school and a furniture warehouse."
+      },
+      {
+        "order": 2,
+        "text": "In 1919 it was rebuilt as one of the city's first casinos, with an interior mixing neo-Arabic, neo-Gothic and other revival styles."
+      },
+      {
+        "order": 3,
+        "text": "Since 1932 it has been the seat of a regional association, and its courtyards and tiled dining rooms are open to visitors."
+      }
+    ],
+    "summary": {
+      "description": "This Lisbon building began as a late 17th-century palace of the Paes de Amaral family. In 1919 it was converted into the Magestic Club casino under architect António Rodrigues da Silva Júnior, with a revivalist interior. The regional association Grémio Alentejano moved in in 1932.",
+      "keyFeatures": [
+        "Three courtyards around a quadrangular plan",
+        "Neo-Arabic, neo-Gothic, neo-Renaissance and Art Nouveau elements",
+        "Azulejos in the restaurant rooms",
+        "Decorative work by Jorge Colaço and other artists"
+      ],
+      "funFacts": [
+        "It once housed a secondary school and a furniture warehouse.",
+        "It is classified as a Monument of Public Interest."
+      ]
+    }
   }
 ]

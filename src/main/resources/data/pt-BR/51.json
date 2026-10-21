@@ -1,0 +1,235 @@
+{
+  "capela-das-almas-porto": {
+    "name": "Capela das Almas",
+    "aliases": [
+      "Capela de Santa Catarina",
+      "Capela das Almas de Santa Catarina"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "portuguesa",
+        "lifespan": "",
+        "bio": "Construtores anónimos da capela do final do século XVIII, ampliada e restaurada em 1801."
+      },
+      {
+        "aliases": [],
+        "nationality": "portuguesa",
+        "lifespan": "",
+        "bio": "Pintor que desenhou os painéis de azulejo de 1929, produzidos pela fábrica Viúva Lamego, em Lisboa."
+      }
+    ],
+    "city": "Porto",
+    "style": "Barroco, revestida de azulejos",
+    "photos": [
+      {
+        "alt": "Pequena igreja de pedra com empena sineira, com as paredes cobertas por painéis de azulejos azuis e brancos",
+        "caption": null
+      },
+      {
+        "alt": "Painel de azulejos azuis e brancos com uma cena de crucificação emoldurada por anjos e volutas",
+        "caption": "Uma das cenas das paredes exteriores."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "As suas paredes de pedra simples estão envolvidas, de alto a baixo, por uma pele de azulejos vidrados azuis e brancos.",
+      "Os azulejos mostram cenas da vida de santos e foram pintados no século XX, muito depois de a capela ter sido construída.",
+      "Cerca de 16 mil azulejos, cobrindo uns 360 metros quadrados, foram cozidos para ela numa fábrica de Lisboa em 1929."
+    ],
+    "summary": {
+      "description": "Capela do final do século XVIII, no Porto, ampliada e restaurada em 1801, cujas paredes exteriores estão cobertas por 15.947 azulejos. Eduardo Leite desenhou os painéis em 1929 e a fábrica Viúva Lamego, de Lisboa, produziu-os.",
+      "keyFeatures": [
+        "Fachadas revestidas de azulejos azuis e brancos",
+        "Cerca de 360 metros quadrados de azulejo",
+        "Cenas da vida de santos",
+        "Dois corpos, o segundo mais baixo"
+      ],
+      "funFacts": [
+        "Os seus azulejos somam 15.947.",
+        "A Irmandade das Almas mudou-se para aqui no final do século XVIII, vinda do Mosteiro de Santa Clara."
+      ]
+    }
+  },
+  "igreja-do-carmo-porto": {
+    "name": "Igreja do Carmo",
+    "aliases": [
+      "Igreja do Carmo do Porto"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "portuguesa",
+        "lifespan": "",
+        "bio": "Arquiteto da Igreja do Carmo, construída para a Ordem Terceira do Carmo entre 1756 e 1768."
+      }
+    ],
+    "city": "Porto",
+    "style": "Barroco com elementos rococó",
+    "photos": [
+      {
+        "alt": "Alta parede lateral de igreja coberta por um enorme painel de azulejos azuis e brancos entre janelas gradeadas",
+        "caption": null
+      },
+      {
+        "alt": "Pormenor de um painel de azulejos azuis e brancos com figuras de hábito reunidas numa encosta",
+        "caption": "Pormenor do painel da parede lateral."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma alta igreja barroca cuja parede lateral nua foi coberta, no início do século XX, por uma única pintura enorme.",
+      "O painel conta a lenda da ordem proprietária da igreja, e ela fica junto a outra igreja, separadas apenas por uma nesga de casa.",
+      "Foi construída entre 1756 e 1768, e o painel de azulejos é de 1912."
+    ],
+    "summary": {
+      "description": "Igreja barroca com toques rococó, construída entre 1756 e 1768 pela Ordem Terceira do Carmo e projetada por José Figueiredo Seixas. A parede lateral tem uma grande composição de azulejos desenhada por Silvestre Silvestri e pintada por Carlos Branco em 1912.",
+      "keyFeatures": [
+        "Desenho barroco com elementos rococó",
+        "Painel gigante de azulejos na parede lateral",
+        "Painel datado de 1912",
+        "Uma casa muito estreita e escondida separa-a da igreja vizinha"
+      ],
+      "funFacts": [
+        "A Casa Escondida, com pouco mais de 1,5 metro de largura, fica entre esta igreja e a Igreja dos Carmelitas.",
+        "O hospital da ordem só ficou pronto em 1801."
+      ]
+    }
+  },
+  "palacio-dos-marqueses-de-fronteira": {
+    "name": "Palácio dos Marqueses de Fronteira",
+    "aliases": [
+      "Palácio Fronteira"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "portuguesa",
+        "lifespan": "",
+        "bio": "Construtores do pavilhão de caça erguido em 1671-72 para João de Mascarenhas, 1.º Marquês de Fronteira."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Barroco",
+    "photos": [
+      {
+        "alt": "Galeria de jardim com nichos com bustos, paredes de azulejo azul, um longo tanque verde e sebes de buxo aparadas",
+        "caption": null
+      },
+      {
+        "alt": "Painéis de azulejo em arco com cavaleiros sobre um tanque verde, com bustos e um muro de seixos e cerâmica acima",
+        "caption": "Os cavaleiros de azulejo refletidos no tanque do jardim."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Começou como pavilhão de caça no campo, e a família ainda vive numa parte dele.",
+      "Os muros do jardim têm painéis de azulejo com cavaleiros que se refletem num longo tanque, e cenas de macacos.",
+      "Foi construído em 1671-72 para um nobre que ganhou o título pela lealdade durante a Guerra da Restauração."
+    ],
+    "summary": {
+      "description": "Construído em 1671-72 como pavilhão de caça para João de Mascarenhas, 1.º Marquês de Fronteira, este palácio de Lisboa continua habitado. É famoso pelos azulejos, das cenas de batalha da Sala das Batalhas aos painéis do jardim com cavaleiros e macacos.",
+      "keyFeatures": [
+        "Galeria do jardim com nichos e bustos de reis portugueses",
+        "Painéis de azulejo com cavaleiros refletidos num tanque",
+        "Sala das Batalhas, sobre a Guerra da Restauração",
+        "Fachada da capela decorada com pedras, conchas e fragmentos de porcelana"
+      ],
+      "funFacts": [
+        "O conjunto do palácio é Monumento Nacional desde 1982.",
+        "Os bustos do jardim representam reis portugueses, exceto os três Filipes."
+      ]
+    }
+  },
+  "convento-da-madre-de-deus": {
+    "name": "Convento da Madre de Deus",
+    "aliases": [
+      "Museu Nacional do Azulejo"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "portuguesa",
+        "lifespan": "",
+        "bio": "Construtores do Convento da Madre de Deus, fundado pela rainha D. Leonor em 1509."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Manuelino, maneirista e barroco",
+    "photos": [
+      {
+        "alt": "Vista a preto e branco de uma fileira de colunas de pedra esbeltas com arcos esculpidos e vazados em torno de um claustro",
+        "caption": null
+      },
+      {
+        "alt": "Corredor de claustro com silhar de azulejo azul sob parede branca e arcos de pedra junto ao pátio",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Uma rainha fundou este convento em 1509, e parte dos seus terrenos é hoje um museu dedicado a um único ofício.",
+      "A sua coleção de azulejos vai do final do século XV à atualidade, incluindo um painel de cerca de 1700 com uma vasta vista de uma capital.",
+      "A igreja tem um coro de madeira entalhada e dourada e uma capela barroca, e o claustro é maneirista."
+    ],
+    "summary": {
+      "description": "A rainha D. Leonor fundou este convento de Lisboa em 1509. Desde 1965 abriga o Museu Nacional do Azulejo, que passou a museu nacional em 1980 e traça a produção de azulejos do final do século XV à atualidade.",
+      "keyFeatures": [
+        "Claustro maneirista do século XVI",
+        "Igreja com coro de madeira entalhada e dourada",
+        "Capela barroca de Santo António com telas de André Gonçalves",
+        "Coleção de azulejos do final do século XV à atualidade"
+      ],
+      "funFacts": [
+        "A exposição permanente inclui um painel de cerca de 1700, a Grande Vista de Lisboa.",
+        "Tem uma das maiores coleções de cerâmica do mundo, segundo o artigo da Wikipédia."
+      ]
+    }
+  },
+  "igreja-de-sao-lourenco-de-almancil": {
+    "name": "Igreja de São Lourenço de Almancil",
+    "aliases": [
+      "Igreja de São Lourenço",
+      "Igreja de São Lourenço dos Matos"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "portuguesa",
+        "lifespan": "",
+        "bio": "Construtores da igreja do final do século XVII; o interior foi revestido em 1730 com painéis de Policarpo de Oliveira Bernardes."
+      }
+    ],
+    "city": "Almancil",
+    "style": "Barroco",
+    "photos": [
+      {
+        "alt": "Igreja caiada com torre do relógio, escada exterior e um painel de azulejo azul no frontão curvo",
+        "caption": null
+      },
+      {
+        "alt": "Nave e capela-mor com paredes de azulejos azuis e brancos em torno de um retábulo de talha dourada",
+        "caption": "Os azulejos cobrem as paredes e a cúpula."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Por fora é uma igreja caiada modesta, numa região costeira do sul.",
+      "Por dentro, painéis de azulejo azul e branco cobrem todas as paredes e até a cúpula, contando a história de um diácono mártir.",
+      "Os azulejos são datados de 1730 e vieram de barco de Lisboa, obra de um grande mestre."
+    ],
+    "summary": {
+      "description": "Igreja barroca do final do século XVII perto de Almancil, no Algarve, classificada como Imóvel de Interesse Público desde 1946. As paredes e a cúpula interiores estão cobertas por azulejos datados de 1730, de Policarpo de Oliveira Bernardes, que ilustram a vida de São Lourenço de Huesca.",
+      "keyFeatures": [
+        "Exterior barroco caiado",
+        "Azulejos em todo o interior e na cúpula",
+        "Cenas da vida de São Lourenço",
+        "Retábulo de talha dourada atribuído a Manuel Martins"
+      ],
+      "funFacts": [
+        "Os azulejos vieram de Lisboa em 1730.",
+        "A sacristia tem um móvel finamente esculpido."
+      ]
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "estacao-do-pinhao": {
+    "name": "Estação do Pinhão",
+    "aliases": [
+      "Estação Ferroviária do Pinhão"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "portuguesa",
+        "lifespan": "",
+        "bio": "Construtores anónimos da estação da Linha do Douro, inaugurada em 1880; os painéis de azulejo foram instalados em 1937."
+      }
+    ],
+    "city": "Pinhão",
+    "style": "Estação ferroviária do século XIX com painéis de azulejo",
+    "photos": [
+      {
+        "alt": "Edifício de estação caiado de dois pisos com portas verdes e pequenos painéis de azulejo azul sob as janelas do rés-do-chão, com encostas em socalcos atrás",
+        "caption": null
+      },
+      {
+        "alt": "Painel de azulejo com barcos rabelos carregados de pipas num rio sob colinas cobertas de vinha",
+        "caption": "Pipas de vinho a descer o rio."
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "É uma pequena estação à beira do rio, numa linha construída para seguir um vale de vinhas em socalcos.",
+      "As paredes têm 24 painéis de azulejo pintados, com mais de 3.000 azulejos, que mostram a vindima e barcos a transportar pipas.",
+      "A estação abriu em 1880 e os azulejos foram acrescentados em 1937, oferecidos por um instituto do vinho."
+    ],
+    "summary": {
+      "description": "Esta estação da Linha do Douro abriu a 1 de junho de 1880 e foi um grande entreposto do comércio do vinho. Em 1937 recebeu 24 painéis de azulejo, feitos pela fábrica Aleluia, de Aveiro, que mostram vinhas, a pisa da uva e barcos a transportar pipas.",
+      "keyFeatures": [
+        "Estação da Linha do Douro aberta em 1880",
+        "24 painéis com mais de 3.000 azulejos",
+        "Cenas de vinha, pisa e transporte fluvial do vinho",
+        "Painéis pintados por João Marques Oliveira e Lourenço Rodrigues Limas"
+      ],
+      "funFacts": [
+        "Os azulejos basearam-se em fotografias do estúdio Casa Alvão.",
+        "Em 2013 a estação ganhou o prémio SOS Azulejo de conservação e restauro."
+      ]
+    }
+  },
+  "casa-do-alentejo": {
+    "name": "Casa do Alentejo",
+    "aliases": [
+      "Palácio Alverca",
+      "Palácio São Luís",
+      "Palácio Pais do Amaral",
+      "Magestic Club"
+    ],
+    "architects": [
+      {
+        "aliases": [],
+        "nationality": "portuguesa",
+        "lifespan": "",
+        "bio": "Arquiteto que dirigiu a remodelação de 1919 que transformou o antigo palácio num casino com interior revivalista."
+      }
+    ],
+    "city": "Lisboa",
+    "style": "Revivalista (neoárabe, neogótico e outros)",
+    "photos": [
+      {
+        "alt": "Pátio com arcos de ferradura, colunas esbeltas, uma pequena fonte e piso de ladrilhos vermelhos e brancos",
+        "caption": null
+      },
+      {
+        "alt": "Sala de refeições com pessoas às mesas e paredes de painéis de azulejo azul e branco em torno de janelas altas",
+        "caption": null
+      }
+    ],
+    "drawings": [],
+    "hints": [
+      "Começou como palácio do final do século XVII e foi mais tarde liceu e armazém de móveis.",
+      "Em 1919 foi reconstruído como um dos primeiros casinos da cidade, com interior que mistura neoárabe, neogótico e outros revivalismos.",
+      "Desde 1932 é sede de uma associação regional, e os seus pátios e salas de refeições azulejadas estão abertos a visitantes."
+    ],
+    "summary": {
+      "description": "Este edifício de Lisboa começou como palácio da família Paes de Amaral, no final do século XVII. Em 1919 foi convertido no casino Magestic Club, sob o arquiteto António Rodrigues da Silva Júnior, com interior revivalista. O Grémio Alentejano mudou-se para lá em 1932.",
+      "keyFeatures": [
+        "Três pátios numa planta quadrangular",
+        "Elementos neoárabes, neogóticos, neorrenascentistas e art nouveau",
+        "Azulejos nas salas do restaurante",
+        "Trabalho decorativo de Jorge Colaço e outros artistas"
+      ],
+      "funFacts": [
+        "Já abrigou um liceu e um armazém de móveis.",
+        "Está classificado como Monumento de Interesse Público."
+      ]
+    }
+  }
+}
