@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import {
-  Building2, Castle, ChevronDown, ChevronRight, Church, Cross, Crown, Dices, Flower, Flower2, Gem, Goal,
+  ArrowDownUp, Building2, Castle, Check, ChevronDown, ChevronRight, Church, Cross, Crown, Dices, Flower, Flower2, Gem, Goal,
   Grid3x3, House, Layers, Library, Landmark, MoonStar, Sparkles, Theater, TrainFront,
 } from 'lucide-react'
 import { PlayIcon } from '../ui/icons.jsx'
@@ -37,12 +37,20 @@ export function ThemedSetup() {
   const [pick, setPick] = useState(readThemedPick)
   const [query, setQuery] = useState('')
   const [group, setGroup] = useState('all')
+  const [sortOpen, setSortOpen] = useState(false)
+  const [sort, setSort] = useState('') // '' keeps the theme list's order
   const sheetRef = useRef(null)
   const [rolling, setRolling] = useState(false)
   // The menu folds on wide screens; folded, the rail steps aside and the tiles take its room.
   const [menuOpen, setMenuOpen] = useState(true)
   const railClosed = !menuOpen
   const rollTimer = useRef(0)
+  useEffect(() => {
+    if (!sortOpen) return undefined
+    const close = (e) => !e.target.closest?.(`.${styles.order}`) && setSortOpen(false)
+    document.addEventListener('pointerdown', close)
+    return () => document.removeEventListener('pointerdown', close)
+  }, [sortOpen])
   const [geo, setGeo] = useState({ fit: 4, wide: false, width: 0, height: 0, pad: 0, padV: 0, gap: 0, rem: 16 }) // what the sheet can hold, measured
 
   useEffect(() => {
@@ -84,8 +92,11 @@ export function ThemedSetup() {
   const shown = useMemo(() => {
     const plain = (s) => s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
     const q = plain(query.trim())
-    return rows.filter(({ id }) => (group === 'all' || THEME_GROUPS[group].includes(id)) && plain(themed.themes[id]).includes(q))
-  }, [rows, query, group, themed.themes])
+    const list = rows.filter(({ id }) => (group === 'all' || THEME_GROUPS[group].includes(id)) && plain(themed.themes[id]).includes(q))
+    if (sort === 'az') list.sort((a, b) => themed.themes[a.id].localeCompare(themed.themes[b.id]))
+    if (sort === 'most') list.sort((a, b) => b.count - a.count)
+    return list
+  }, [rows, query, group, sort, themed.themes])
 
   const picked = rows.find((r) => r.id === pick.theme)
   const PickedIcon = ICONS[pick.theme] ?? Landmark
@@ -101,7 +112,8 @@ export function ThemedSetup() {
 
   // The opened block comes into view when it was chosen or its size changed (not while the dice are still rolling).
   useEffect(() => {
-    if (!block || rolling) return
+    // On phones the opened row's drawer is long; the row goes to the top of the list so the difficulty and Start show.
+    if (rolling || !pick.theme || (!block && !window.matchMedia('(max-width: 640px)').matches)) return
     // Measured from the layout (offsetTop), not from where the gliding tiles are drawn, so it lands right while they move.
     const sheet = sheetRef.current
     const row = document.getElementById(`theme-${pick.theme}`)
@@ -112,17 +124,17 @@ export function ThemedSetup() {
     startThemedSession(themePool(catalogue, theme), theme, pick.level, undefined, pick.extras)
     window.location.hash = '#/themed/play'
   }
-  // Random theme draws from what the filter shows. The dice roll while the highlight flicks through themes, slowing, and lands on the draw.
+  // Random theme draws from what the filter shows. The dice roll while the highlight flicks through themes, slowing, and lands on the draw, which opens so the player picks the difficulty.
   const surprise = () => {
     if (rolling) return
     const draw = () => shown[Math.floor(Math.random() * shown.length)].id
     const final = draw()
-    if (reduce) return start(final)
+    if (reduce) return setPick((p) => ({ ...p, theme: final }))
     setRolling(true)
     const STEPS = 11
     let i = 0
     const tick = () => {
-      if (i === STEPS) return start(final)
+      if (i === STEPS) return setRolling(false)
       i += 1
       setPick((p) => ({ ...p, theme: i === STEPS ? final : draw() }))
       rollTimer.current = setTimeout(tick, i === STEPS ? 450 : 60 + i * 16)
@@ -170,7 +182,24 @@ export function ThemedSetup() {
               </button>
             ))}
           </div>
-          <Button variant="ghost" icon={Dices} compact className={styles.random} aria-label={themed.surprise} data-sound="dice" disabled={shown.length === 0} data-rolling={rolling || undefined} onClick={surprise}>
+          <div className={styles.order} onKeyDown={(e) => e.key === 'Escape' && setSortOpen(false)}>
+            <button type="button" className={styles.orderBtn} data-set={sort || undefined} aria-haspopup="listbox" aria-expanded={sortOpen} aria-label={themed.menu.sortLabel} data-sound="toggle" onClick={() => setSortOpen((o) => !o)}>
+              <ArrowDownUp aria-hidden="true" strokeWidth={2} />
+              <span>{themed.menu.sort[sort || 'list']}</span>
+              <ChevronDown className={styles.orderChevron} aria-hidden="true" strokeWidth={2} />
+            </button>
+            {sortOpen && (
+              <ul className={styles.orderList} role="listbox" aria-label={themed.menu.sortLabel}>
+                {['', 'az', 'most'].map((k) => (
+                  <li key={k} role="option" aria-selected={sort === k} tabIndex={0} data-sound="choose" onClick={() => { setSort(k); setSortOpen(false) }} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setSort(k), setSortOpen(false))}>
+                    <Check aria-hidden="true" strokeWidth={2.5} />
+                    {themed.menu.sort[k || 'list']}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+          <Button icon={Dices} compact className={styles.random} aria-label={themed.surprise} data-sound="dice" disabled={shown.length === 0} data-rolling={rolling || undefined} onClick={surprise}>
             {themed.surprise}
           </Button>
           </div>
@@ -198,7 +227,7 @@ export function ThemedSetup() {
             const open = pick.theme === id
             return (
               // layout: when a tile opens or closes the grid re-flows, and every tile glides to its new place and size (a spring)
-              <motion.li key={id} id={`theme-${id}`} layout transition={reduce ? { duration: 0 } : springSoft} className={styles.row} data-open={open || undefined} data-block={(open && block) || undefined} style={open && block ? { '--w': block.w, '--h': block.h } : undefined}>
+              <motion.li key={id} id={`theme-${id}`} layout transition={reduce ? { duration: 0 } : springSoft} className={styles.row} data-open={open || undefined} data-block={(open && block) || undefined} style={{ '--cover': `url("${THEME_COVERS[id]}")`, ...(open && block ? { '--w': block.w, '--h': block.h } : null) }}>
                 <motion.button
                   layout
                   transition={reduce ? { duration: 0 } : springSoft}

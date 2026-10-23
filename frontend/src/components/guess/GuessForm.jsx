@@ -176,6 +176,14 @@ export function GuessForm({ building, eras, centuries, phase, fields, attempts, 
     wasRevealed.current = revealed
   }, [revealed])
 
+  // A wrong guess empties its field (the guess log keeps the text); a close one stays to be made more specific.
+  const prevFields = useRef(fields)
+  useEffect(() => {
+    const cleared = names.filter((f) => fields[f] === 'wrong' && prevFields.current[f] !== 'wrong')
+    prevFields.current = fields
+    if (cleared.length) setValues((v) => ({ ...v, ...Object.fromEntries(cleared.map((f) => [f, ''])) }))
+  }, [fields]) // eslint-disable-line react-hooks/exhaustive-deps
+
   function update(field, value) {
     // A new century clears the decade picked inside the old one.
     if (field === 'century' || field === 'decade') dial()

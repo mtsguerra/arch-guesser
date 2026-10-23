@@ -36,7 +36,7 @@ export function DifficultyAccordion({ level, onLevel, extras, onExtras, label, s
   }
 
   return (
-    <div role="radiogroup" aria-label={label} className={`${styles.accordion} ${fill ? styles.fill : ''} ${compact ? styles.compact : ''} ${className}`} onKeyDown={onKeyDown}>
+    <div role="radiogroup" aria-label={label} data-level={level} className={`${styles.accordion} ${fill ? styles.fill : ''} ${compact ? styles.compact : ''} ${className}`} onKeyDown={onKeyDown}>
       {LEVELS.map((l) => {
         const open = level === l
         return (
@@ -60,7 +60,6 @@ export function DifficultyAccordion({ level, onLevel, extras, onExtras, label, s
             >
               <motion.span className={styles.bar} initial={false} animate={{ scaleY: open ? 1 : 0, opacity: open ? 1 : 0 }} transition={transition} aria-hidden="true" />
               <span className={styles.name}>{themed.levels[l - 1].name}</span>
-              <span className={styles.text}>{themed.levels[l - 1].text}</span>
             </button>
             {/* What this difficulty asks. Custom's extras are toggles; they only take focus while it is open. */}
             <motion.div

@@ -126,6 +126,8 @@ export default {
       groupsLabel: 'Kind of building',
       all: 'All',
       groups: { sacred: 'Sacred', power: 'Power & ruins', civic: 'Public & civic', living: 'Towers & homes', styles: 'Styles' },
+      sortLabel: 'Order',
+      sort: { list: 'Default', az: 'A–Z', most: 'Most buildings' },
       none: 'No theme matches.',
       show: 'Show the menu',
     },

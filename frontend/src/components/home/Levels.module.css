@@ -361,32 +361,28 @@
     width: 100%;
   }
 
-  .mode[data-main] .go {
+  .mode[data-on] .go {
     background: var(--accent-ink);
     color: var(--accent);
   }
 
   .mode[data-on] .link {
-    border-color: var(--accent);
-  }
-
-  .mode[data-main] .link {
     background: var(--accent);
     border-color: var(--accent);
     color: var(--accent-ink);
   }
 
-  .mode[data-main] .height,
-  .mode[data-main] .text {
+  .mode[data-on] .height,
+  .mode[data-on] .text {
     color: color-mix(in oklab, var(--accent-ink) 82%, transparent);
   }
 
-  .mode[data-main] .badge {
+  .mode[data-on] .badge {
     background: var(--accent-ink);
     color: var(--accent);
   }
 
-  .mode[data-main] .underline path {
+  .mode[data-on] .underline path {
     stroke: var(--accent-ink);
   }
 

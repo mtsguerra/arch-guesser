@@ -17,8 +17,8 @@
 
 .skip {
   position: absolute;
-  top: var(--space-4);
-  right: var(--space-4);
+  top: calc(var(--space-4) + env(safe-area-inset-top)); /* clear of the phone's status bar and notch */
+  right: calc(var(--space-4) + env(safe-area-inset-right));
   min-height: 2.25rem;
   padding: 0 var(--space-4);
   border: var(--hairline) solid color-mix(in oklab, var(--cream) 40%, transparent);

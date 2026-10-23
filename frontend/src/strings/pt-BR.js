@@ -126,6 +126,8 @@ export default {
       groupsLabel: 'Tipo de edifício',
       all: 'Todos',
       groups: { sacred: 'Sagrados', power: 'Poder e ruínas', civic: 'Públicos e cívicos', living: 'Torres e casas', styles: 'Estilos' },
+      sortLabel: 'Ordem',
+      sort: { list: 'Padrão', az: 'A–Z', most: 'Mais edifícios' },
       none: 'Nenhum tema encontrado.',
       show: 'Mostrar o menu',
     },
