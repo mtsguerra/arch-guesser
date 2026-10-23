@@ -390,6 +390,24 @@
     stroke: var(--accent-ink);
   }
 
+  /* Touch has no hover: a pressed row takes the filled look of the main mode. */
+  .link:active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-ink);
+  }
+
+  .link:active .height,
+  .link:active .text {
+    color: color-mix(in oklab, var(--accent-ink) 82%, transparent);
+  }
+
+  .link:active .go,
+  .link:active .badge {
+    background: var(--accent-ink);
+    color: var(--accent);
+  }
+
   .name {
     font-size: 1.35rem;
   }

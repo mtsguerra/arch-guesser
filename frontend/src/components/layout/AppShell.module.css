@@ -525,3 +525,27 @@
     display: contents;
   }
 }
+
+/* On phones the Menu matches the Options button beside it: a round 2.75rem glass button. */
+@media (max-width: 640px) {
+  .phoneOnly .menuRound {
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
+    border-color: var(--paper-rule);
+    border-radius: 50%;
+    background: color-mix(in oklab, var(--paper) 82%, transparent);
+    backdrop-filter: blur(10px) saturate(1.2);
+    color: var(--ink);
+  }
+
+  .phoneOnly .menuRound svg {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .phoneOnly .menuRound::before {
+    display: none;
+  }
+}
