@@ -77,7 +77,7 @@ export function useGameRound(mode = 'normal') {
         const building = await fetchBuilding(id, controller.signal, langRef.current)
         const pool = themePool(catalogue, session.theme)
         setThemed({ eras: erasIn(pool), centuries: centuriesIn(pool) })
-        dispatch({ type: 'load/success', building, fields: fieldsFor(session.level, pool, catalogue.find((b) => b.id === id)) })
+        dispatch({ type: 'load/success', building, fields: fieldsFor(session.level, pool, catalogue.find((b) => b.id === id), session.extras) })
         return
       }
       if (mode === 'daily') {

@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { centuriesIn, centuryOf, decadeOf, decadesOfCentury, judgeCentury, judgeDecade } from './dates.js'
-import { erasIn, fieldsFor, themePool, themesOf } from './themed.js'
+import en from '../strings/en.js'
+import { THEME_GROUPS, blockLayout, columnsFor, sanitizeExtras, erasIn, fieldsFor, themePool, themesOf } from './themed.js'
 import { evaluateGuess } from './matchGuess.js'
 
 const entry = (id, themes, extra = {}) => ({ id, themes, era: 'MEDIEVAL', architects: ['Unknown masons'], yearCompleted: 1250, ...extra })
@@ -109,5 +110,63 @@ describe('guess text', () => {
     expect(guessText('century', '19', { strings })).toBe('C19')
     expect(guessText('decade', '1890', { strings })).toBe('D1890')
     expect(guessText('name', 'Tower', { strings })).toBe('Tower')
+  })
+})
+
+describe('theme groups', () => {
+  it('put every theme in exactly one group', () => {
+    const grouped = Object.values(THEME_GROUPS).flat()
+    expect([...grouped].sort()).toEqual(Object.keys(en.themed.themes).sort())
+  })
+})
+
+describe('columnsFor', () => {
+  it('puts a few tiles in one full row', () => {
+    expect(columnsFor(1, 4)).toBe(1)
+    expect(columnsFor(3, 4)).toBe(3)
+    expect(columnsFor(4, 5)).toBe(4)
+  })
+  it('picks the count that leaves the fewest empty cells', () => {
+    expect(columnsFor(20, 4)).toBe(4)
+    expect(columnsFor(20, 6)).toBe(5)
+    expect(columnsFor(5, 4)).toBe(3)
+    expect(columnsFor(7, 4)).toBe(4)
+  })
+})
+
+describe('custom difficulty', () => {
+  const named = [entry('a', ['castles'], { architects: ['Ada'] })]
+  it('always asks the name, then the extras picked, in order', () => {
+    expect(fieldsFor(3, named, named[0], ['architect', 'country', 'era'])).toEqual(['name', 'era', 'country', 'architect'])
+    expect(fieldsFor(3, named, named[0], [])).toEqual(['name'])
+  })
+  it('never asks a decade without its century', () => {
+    expect(sanitizeExtras(['decade'])).toEqual(['century', 'decade'])
+  })
+  it('falls back to the old third level for stored data it cannot read', () => {
+    expect(sanitizeExtras(undefined)).toEqual(['era', 'century', 'decade', 'architect'])
+    expect(sanitizeExtras(['nope', 'country'])).toEqual(['country'])
+  })
+})
+
+describe('blockLayout', () => {
+  it('opens the 20 themes as a 3 x 3 block in 4 columns', () => {
+    expect(blockLayout(20, 5)).toMatchObject({ cols: 4, w: 3, h: 3, exact: true })
+    expect(blockLayout(20, 4)).toMatchObject({ cols: 4, w: 3, h: 3, exact: true })
+  })
+  it('keeps every row full whenever it finds an exact block', () => {
+    for (let n = 1; n <= 24; n++) {
+      for (const fit of [3, 4, 5, 6]) {
+        const b = blockLayout(n, fit)
+        if (!b.exact) continue
+        const cells = n - 1 + b.w * b.h
+        expect(cells % b.cols).toBe(0)
+        expect(cells).toBeGreaterThanOrEqual(b.cols * b.h)
+      }
+    }
+  })
+  it('falls back to a full-width block when nothing closes the rows', () => {
+    const b = blockLayout(2, 4)
+    expect(b.w).toBe(b.cols)
   })
 })

@@ -41,7 +41,7 @@ export function ThemedRecap({ onAgain }) {
     if (busy) return
     setBusy(true)
     try {
-      startThemedSession(themePool(await fetchCatalogue(), session.theme), session.theme, session.level)
+      startThemedSession(themePool(await fetchCatalogue(), session.theme), session.theme, session.level, undefined, session.extras)
       onAgain()
     } catch {
       setBusy(false)

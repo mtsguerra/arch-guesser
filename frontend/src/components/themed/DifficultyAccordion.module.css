@@ -1,0 +1,182 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  height: 16rem;
+}
+
+.panel {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 2.75rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: var(--hairline) solid var(--paper-hairline);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  transition: border-color var(--dur-base) var(--ease-out), background-color var(--dur-base) var(--ease-out), box-shadow var(--dur-base) var(--ease-out);
+}
+
+.panel[data-open] {
+  border-color: var(--accent);
+  background: color-mix(in oklab, var(--accent) 9%, var(--paper));
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.head {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.0625rem;
+  flex: none;
+  min-height: 2.75rem;
+  padding: var(--space-2) var(--space-3) var(--space-2) var(--space-4);
+  border: 0;
+  border-radius: inherit;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  text-align: left;
+  color: var(--ink);
+  font-size: var(--text-sm);
+}
+
+.head:focus-visible {
+  outline: none; /* the ring is drawn on the rounded panel instead */
+}
+
+.panel:has(.head:focus-visible) {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* The accent bar of the open panel, like the caption bar of an image accordion. */
+.bar {
+  position: absolute;
+  left: var(--space-2);
+  top: 50%;
+  width: 3px;
+  height: 1.5rem;
+  margin-top: -0.75rem;
+  border-radius: 3px;
+  background: var(--accent);
+}
+
+.name {
+  font-weight: 800;
+  font-stretch: var(--stretch-wide);
+  color: var(--accent);
+}
+
+.text {
+  font-size: var(--text-xs);
+  color: var(--ink-soft);
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--space-2);
+  padding: 0 var(--space-3) var(--space-3) var(--space-4);
+}
+
+.chip {
+  min-height: 1.75rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 var(--space-3);
+  border: var(--hairline) solid var(--paper-hairline);
+  border-radius: 62.4375rem;
+  background: var(--paper);
+  font-size: var(--text-xs);
+  font-weight: 650;
+  color: var(--ink);
+  transition: background-color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+
+.chip[data-locked] {
+  border-style: dashed;
+  color: var(--ink-soft);
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.chip:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* The tablet dock is a row: the panels sit side by side and a closed one shows only its name. */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .accordion {
+    flex-direction: row;
+    height: 9rem;
+  }
+
+  .panel:not([data-open]) .text {
+    display: none;
+  }
+}
+
+/* Roomy variant, for the card over a big opened photo: nothing stretches, so no panel is mostly empty. */
+.fill {
+  height: auto;
+}
+
+.fill .panel {
+  flex: 0 0 auto;
+}
+
+.fill .panel[data-open] {
+  flex-grow: 1;
+}
+
+.fill .panel:not([data-open]) .body {
+  display: none;
+}
+
+.fill .head {
+  min-height: 3.25rem;
+}
+
+.fill .name {
+  font-size: var(--text-base);
+}
+
+.fill .text {
+  font-size: var(--text-sm);
+}
+
+.fill .chip {
+  min-height: 2rem;
+  font-size: var(--text-sm);
+}
+
+/* A short block: single-line closed panels, smaller chips. */
+.compact .head {
+  min-height: 2.25rem;
+  padding-block: 0.25rem;
+}
+
+.compact .panel:not([data-open]) .text {
+  display: none;
+}
+
+.compact .body {
+  gap: 0.25rem;
+  padding-bottom: var(--space-2);
+}
+
+.compact .chip {
+  min-height: 1.5rem;
+  font-size: var(--text-xs);
+}
