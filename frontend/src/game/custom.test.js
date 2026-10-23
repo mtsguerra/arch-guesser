@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { advanceSession, emptyConfig, facets, filterPool, pickedKeys, readSession, sanitizeConfig, shuffle } from './custom.js'
+import { advanceSession, emptyConfig, fieldsForConfig, facets, filterPool, pickedKeys, readSession, sanitizeConfig, shuffle } from './custom.js'
 
 const catalogue = [
   { id: 'a', architects: ['Wright'], era: 'MODERNISM', countryCode: 'US' },
@@ -95,5 +95,21 @@ describe('pickedKeys', () => {
     expect(pickedKeys({ ...config, mode: 'architect' })).toEqual([{ kind: 'architects', key: 'Siza' }])
     expect(pickedKeys({ ...config, mode: 'countryEra' }).map((p) => p.key)).toEqual(['PT', 'ES', 'BAROQUE'])
     expect(pickedKeys({ ...emptyConfig })).toEqual([])
+  })
+})
+
+describe('fieldsForConfig', () => {
+  const base = { ...emptyConfig, architects: [], eras: [], countries: [] }
+  it('asks everything while a filter has several picks', () => {
+    expect(fieldsForConfig({ ...base, mode: 'architect', architects: ['a', 'b'] })).toEqual(['name', 'architect', 'country', 'era'])
+  })
+  it('drops the field a single pick already gives away', () => {
+    expect(fieldsForConfig({ ...base, mode: 'architect', architects: ['a'] })).toEqual(['name', 'country', 'era'])
+    expect(fieldsForConfig({ ...base, mode: 'country', countries: ['PT'] })).toEqual(['name', 'architect', 'era'])
+    expect(fieldsForConfig({ ...base, mode: 'era', eras: ['GOTHIC'] })).toEqual(['name', 'architect', 'country'])
+  })
+  it('judges country and era separately in country + era', () => {
+    expect(fieldsForConfig({ ...base, mode: 'countryEra', countries: ['PT'], eras: ['A', 'B'] })).toEqual(['name', 'architect', 'era'])
+    expect(fieldsForConfig({ ...base, mode: 'countryEra', countries: ['PT'], eras: ['A'] })).toEqual(['name', 'architect'])
   })
 })

@@ -52,7 +52,7 @@ export function Round({ round, eras, view, onViewChange, daily = false }) {
       <div className={summary ? styles.summaryLayout : styles.playLayout} data-expanded={expanded || undefined}>
         <motion.div ref={board} layout="position" transition={layoutTransition} className={styles.boardSlot}>
           <motion.div layout transition={layoutTransition} hidden={summary && !expanded}>
-            <DrawingBoard building={building} revealed={revealed} fields={round.fields} />
+            <DrawingBoard building={building} revealed={revealed} fields={round.fields} given={round.given} />
           </motion.div>
           {summary ? (
             <motion.div {...fade} className={styles.boardAction}>

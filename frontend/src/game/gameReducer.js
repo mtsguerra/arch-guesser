@@ -21,6 +21,7 @@ export const initialState = {
   building: null,
   hintLevel: 0,
   guessFields: GUESS_FIELDS,
+  given: [], // fields the round does not ask because the setup already gives the answer (custom, one pick)
   fields: idle(GUESS_FIELDS),
   attempts: 0,
   log: [], // wrong guesses so far: [{ field, text }], newest last
@@ -40,7 +41,7 @@ export function gameReducer(state, action) {
 
     case 'load/success':
       // Themed rounds ask their own fields (action.fields); the other modes ask all four.
-      return { ...initialState, phase: 'playing', building: action.building, guessFields: action.fields ?? GUESS_FIELDS, fields: idle(action.fields ?? GUESS_FIELDS) }
+      return { ...initialState, phase: 'playing', building: action.building, guessFields: action.fields ?? GUESS_FIELDS, given: action.given ?? [], fields: idle(action.fields ?? GUESS_FIELDS) }
 
     case 'load/restore': {
       // A finished daily coming back: straight to the reveal, with the saved result.

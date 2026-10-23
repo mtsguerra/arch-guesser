@@ -1,3 +1,5 @@
+import { GUESS_FIELDS } from './matchGuess.js'
+
 export const MIN_BUILDINGS = 10
 export const MIN_ROUNDS = 3
 export const MAX_ROUNDS = 50
@@ -47,6 +49,16 @@ export function write(storage, key, value) {
   } catch {
     // Ignore: nothing is remembered.
   }
+}
+
+/** The fields a custom round asks: a filter narrowed to one architect, country or era already gives that answer away. */
+export function fieldsForConfig({ mode, architects, eras, countries }) {
+  const fixed = {
+    architect: mode === 'architect' && architects.length === 1,
+    country: ['country', 'countryEra'].includes(mode) && countries.length === 1,
+    era: ['era', 'countryEra'].includes(mode) && eras.length === 1,
+  }
+  return GUESS_FIELDS.filter((f) => !fixed[f])
 }
 
 /** What a setup has picked, for a one-line summary: [{ kind: 'architects' | 'eras' | 'countries', key }]. */

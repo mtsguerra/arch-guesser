@@ -1,13 +1,13 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from 'react'
 import { fetchBuilding, fetchBuildingIds, fetchCatalogue, fetchRandomBuilding } from '../api/buildings.js'
 import { useLanguage } from '../i18n.js'
-import { advanceSession, readSession } from './custom.js'
+import { advanceSession, fieldsForConfig, readSession } from './custom.js'
 import { dailyHold, dailyId, dailyNumber, readDaily, saveDaily } from './daily.js'
 import { gameReducer, initialState } from './gameReducer.js'
 import { recordReveal } from './progress.js'
 import { centuriesIn } from './dates.js'
 import { advanceThemedSession, erasIn, fieldsFor, readThemedSession, themePool } from './themed.js'
-import { evaluateGuess } from './matchGuess.js'
+import { GUESS_FIELDS, evaluateGuess } from './matchGuess.js'
 import { turn } from './sound.js'
 import { readSeen, recordSeen } from './seenBuildings.js'
 
@@ -53,7 +53,8 @@ export function useGameRound(mode = 'normal') {
           return
         }
         const building = await fetchBuilding(session.ids[session.index], controller.signal, langRef.current)
-        dispatch({ type: 'load/success', building })
+        const fields = fieldsForConfig(session.config)
+        dispatch({ type: 'load/success', building, fields, given: GUESS_FIELDS.filter((f) => !fields.includes(f)) })
         return
       }
       if (mode === 'themed') {
