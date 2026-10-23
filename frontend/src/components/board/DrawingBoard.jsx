@@ -57,7 +57,7 @@ const noteMotion = {
  * to load (a hotlinked file deleted upstream) removes itself instead of showing a
  * placeholder. Remount per building (`key={building.id}`) so the selection resets.
  */
-export function DrawingBoard({ building, revealed, fields }) {
+export function DrawingBoard({ building, revealed, fields, given = [] }) {
   const strings = useStrings()
   const idPrefix = useId()
   const [[requested, direction], setPage] = useState([0, 1])
@@ -156,7 +156,7 @@ export function DrawingBoard({ building, revealed, fields }) {
 
   // Title block cells fill in as soon as their guess field locks, not only at the reveal.
   const knowName = revealed || fields?.name === 'correct'
-  const knowArchitect = revealed || fields?.architect === 'correct'
+  const knowArchitect = revealed || fields?.architect === 'correct' || given.includes('architect')
 
   const titleFields = [
     {
@@ -313,7 +313,7 @@ export function DrawingBoard({ building, revealed, fields }) {
           </AnimatePresence>
           <TitleBlock fields={titleFields} />
           <div className={styles.globeSlot}>
-            <VeiledGlobe code={building.location.countryCode} found={revealed || fields?.country === 'correct'} />
+            <VeiledGlobe code={building.location.countryCode} found={revealed || fields?.country === 'correct' || given.includes('country')} />
           </div>
         </aside>
       </section>

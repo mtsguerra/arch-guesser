@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { animate, motion, useMotionValue, useTransform } from 'motion/react'
 import { countryName } from '../../game/countries.js'
 import { CENTROIDS } from '../../game/countryCentroids.js'
+import { SHAPES } from '../../game/countryShapes.js'
 import { useLanguage } from '../../i18n.js'
 import { easeOut } from '../../motion.js'
 import styles from './VeiledGlobe.module.css'
@@ -14,15 +15,31 @@ const IDLE = { lat: 25, lon: 20 }
 const TURN = { duration: 1.6, ease: easeOut }
 const SPIN = { duration: 2.6, ease: easeOut } // a full turn first, then it comes to rest on the country
 
-// Orthographic projection; null on the far side of the globe.
-function project(lat, lon, lat0, lon0) {
+// Orthographic projection; null on the far side of the globe (`limb`: pushed out to the edge of the disc instead).
+function project(lat, lon, lat0, lon0, limb = false) {
   const p = lat * RAD
   const p0 = lat0 * RAD
   const dl = (lon - lon0) * RAD
-  if (Math.sin(p0) * Math.sin(p) + Math.cos(p0) * Math.cos(p) * Math.cos(dl) <= 0) return null
-  const x = C + R * Math.cos(p) * Math.sin(dl)
-  const y = C - R * (Math.cos(p0) * Math.sin(p) - Math.sin(p0) * Math.cos(p) * Math.cos(dl))
-  return `${x.toFixed(1)} ${y.toFixed(1)}`
+  const front = Math.sin(p0) * Math.sin(p) + Math.cos(p0) * Math.cos(p) * Math.cos(dl) > 0
+  if (!front && !limb) return null
+  let x = R * Math.cos(p) * Math.sin(dl)
+  let y = -R * (Math.cos(p0) * Math.sin(p) - Math.sin(p0) * Math.cos(p) * Math.cos(dl))
+  if (!front) {
+    const norm = Math.hypot(x, y) || 1
+    x = (x / norm) * R
+    y = (y / norm) * R
+  }
+  return `${(C + x).toFixed(1)} ${(C + y).toFixed(1)}`
+}
+
+// A country as filled outlines. Points past the horizon sit on the edge, which clips a country that runs round the back.
+function silhouette(rings, lat0, lon0) {
+  let d = ''
+  for (const ring of rings) {
+    if (!ring.some(([lon, lat]) => project(lat, lon, lat0, lon0))) continue
+    d += `${ring.map(([lon, lat], i) => `${i ? 'L' : 'M'}${project(lat, lon, lat0, lon0, true)}`).join('')}Z`
+  }
+  return d
 }
 
 function graticule(lat0, lon0) {
@@ -55,6 +72,8 @@ export function VeiledGlobe({ code, found }) {
   const latValue = useMotionValue(lat)
   const lonValue = useMotionValue(lon)
   const path = useTransform([latValue, lonValue], ([a, b]) => graticule(a, b))
+  const rings = known ? SHAPES[code] : undefined // not before the guess: the outline would give the country away
+  const shape = useTransform([latValue, lonValue], ([a, b]) => (rings?.length ? silhouette(rings, a, b) : ''))
 
   useEffect(() => {
     if (reduceMotion) {
@@ -81,6 +100,13 @@ export function VeiledGlobe({ code, found }) {
       <svg viewBox="0 0 200 200" className={styles.svg} role="img" aria-label={name}>
         <circle className={styles.disc} cx={C} cy={C} r={R} />
         <motion.path className={styles.lines} d={path} />
+        <motion.path
+          className={styles.shape}
+          d={shape}
+          initial={false}
+          animate={{ opacity: rings?.length ? 1 : 0 }}
+          transition={{ duration: 0.6, ease: easeOut, delay: known && !reduceMotion ? 1.9 : 0 }}
+        />
         <motion.text
           className={styles.question}
           x={C}

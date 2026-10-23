@@ -27,6 +27,13 @@
   stroke-width: 1;
 }
 
+.shape {
+  fill: color-mix(in oklab, var(--accent) 30%, transparent);
+  stroke: var(--accent);
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+}
+
 .question {
   fill: var(--accent);
   font-size: 56px;
