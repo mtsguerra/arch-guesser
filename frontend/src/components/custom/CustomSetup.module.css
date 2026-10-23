@@ -16,20 +16,6 @@
   font-size: var(--text-base);
 }
 
-.intro {
-  display: grid;
-  gap: var(--space-2);
-}
-
-.eyebrow {
-  font-size: var(--text-2xs);
-  font-weight: 750;
-  font-stretch: var(--stretch-wide);
-  letter-spacing: var(--tracking-caps);
-  text-transform: uppercase;
-  color: var(--accent);
-}
-
 .heading {
   font-size: var(--text-xl);
   line-height: var(--leading-display);
@@ -169,7 +155,7 @@
   box-shadow: var(--edge-light), var(--shadow-sheet);
 }
 
-/* Phones: Foundation, count and Start stay on one row. */
+/* Phones: Arch, count and Start stay on one row. */
 @media (max-width: 640px) {
   .footer {
     flex-wrap: nowrap;
@@ -177,9 +163,12 @@
     padding: var(--space-2) var(--space-3);
   }
 
-  .count {
-    min-width: 0;
+  .status {
     font-size: var(--text-xs);
+  }
+
+  .status .lead {
+    display: none; /* the phone bar has no room; the "?" note carries the description */
   }
 }
 
@@ -200,8 +189,21 @@
   }
 }
 
-.count {
+.status {
   margin-right: auto;
-  font-weight: 650;
-  font-variant-numeric: tabular-nums;
+  min-width: 0;
 }
+
+.status .lead {
+  font-size: var(--text-xs);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+

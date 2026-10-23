@@ -1,0 +1,32 @@
+.svg {
+  width: 4.5rem;
+  height: auto;
+  overflow: visible;
+}
+
+.ground {
+  stroke: var(--accent);
+  stroke-width: 0.8;
+}
+
+.stone {
+  fill: color-mix(in oklab, var(--accent) 30%, var(--paper));
+  stroke: var(--ink);
+  stroke-width: 0.35;
+  stroke-opacity: 0.6;
+  stroke-linejoin: round;
+  transition: fill 0.4s var(--ease-out);
+}
+
+/* All ten placed and the keystone in: every stone takes the accent. */
+.svg[data-done] .stone {
+  fill: var(--accent);
+}
+
+.key {
+  fill: var(--accent);
+  stroke: var(--ink);
+  stroke-width: 0.35;
+  stroke-opacity: 0.6;
+  stroke-linejoin: round;
+}

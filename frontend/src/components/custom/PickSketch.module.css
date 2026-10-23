@@ -4,11 +4,13 @@
   gap: var(--space-2);
   height: 3.25rem;
   padding-inline: var(--space-2);
+  overflow: hidden;
   border-bottom: 1.5px dashed var(--paper-hairline);
 }
 
 .glyph {
-  flex: none;
+  flex: 0 1 2.5rem; /* narrow screens: the ten drawings shrink to fit the row */
+  min-width: 0;
   width: 2.5rem;
   height: 2.5rem;
   fill: none;
@@ -81,6 +83,7 @@
 }
 
 .more {
+  flex: none;
   font-size: var(--text-sm);
   font-weight: 700;
   color: var(--accent);

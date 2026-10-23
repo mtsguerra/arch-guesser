@@ -1,0 +1,42 @@
+.dim {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+  width: min(100%, 16rem);
+}
+
+/* Ticks at both ends, like a dimension line. */
+.track {
+  position: relative;
+  height: 0.75rem;
+  border-inline: 1.5px solid var(--ink-soft);
+  background: linear-gradient(var(--ink-soft), var(--ink-soft)) center / 100% 1px no-repeat;
+}
+
+.fill {
+  position: absolute;
+  inset: calc(50% - 1px) 0 auto;
+  height: 2px;
+  background: var(--accent);
+  transform-origin: left;
+}
+
+.marker {
+  position: absolute;
+  top: -0.2rem;
+  width: 0;
+  height: 0;
+  margin-left: -0.3rem;
+  border-inline: 0.3rem solid transparent;
+  border-top: 0.45rem solid var(--accent);
+}
+
+.label {
+  display: grid;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+.label > span {
+  grid-area: 1 / 1;
+}

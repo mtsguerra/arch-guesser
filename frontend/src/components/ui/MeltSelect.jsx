@@ -118,8 +118,9 @@ export function MeltSelect({ label, options, value, onChange }) {
       </div>
 
       <motion.div className={`${styles.row} ${styles.ink}`} style={{ clipPath: clip }} aria-hidden="true">
-        {options.map((option) => (
-          <span key={option.value} className={styles.option}>
+        {/* The light copy is what shows inside the pill, so the chosen icon's animation must run on it (no hover on touch). */}
+        {options.map((option, i) => (
+          <span key={option.value} className={styles.option} data-motion data-status={i === index ? 'correct' : undefined}>
             {option.icon}
             {option.label}
           </span>

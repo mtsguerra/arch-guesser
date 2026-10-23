@@ -21,9 +21,9 @@ import { InfoTip } from '../ui/InfoTip.jsx'
 import { Button } from '../ui/Button.jsx'
 import { CompassIcon, GlobeClockIcon, GlobeIcon, HourglassIcon } from '../ui/InstrumentIcons.jsx'
 import { MeltSelect } from '../ui/MeltSelect.jsx'
-import { RollingText } from '../ui/RollingNumber.jsx'
 import { RoundsSlider } from './RoundsSlider.jsx'
-import { Foundation } from './Foundation.jsx'
+import { Dimension } from './Dimension.jsx'
+import { Arch } from './Arch.jsx'
 import { MultiPicker } from './MultiPicker.jsx'
 import styles from './CustomSetup.module.css'
 
@@ -81,11 +81,7 @@ export function CustomSetup() {
       }
     >
       <div className={styles.setup}>
-        <header className={styles.intro}>
-          <p className={styles.eyebrow}>{custom.sheet} · {strings.titleBlock.sheetOf(1, 1)}</p>
-          <h1 className={styles.heading}>{custom.heading}</h1>
-          <p className={styles.lead}>{custom.lead(MIN_BUILDINGS)}</p>
-        </header>
+        <h1 className={styles.srOnly}>{custom.heading}</h1>
 
         {failed && <p role="alert">{custom.failed}</p>}
 
@@ -141,14 +137,11 @@ export function CustomSetup() {
         </div>
 
         <footer className={styles.footer}>
-          <Foundation count={pool.length} needed={MIN_BUILDINGS} />
-          <p className={styles.count}>
-            <RollingText
-              live
-              value={pool.length}
-              format={(n) => (n >= MIN_BUILDINGS ? custom.matches(n) : custom.needed(n, MIN_BUILDINGS))}
-            />
-          </p>
+          <Arch count={pool.length} needed={MIN_BUILDINGS} />
+          <div className={styles.status}>
+            <p className={styles.lead}>{custom.lead(MIN_BUILDINGS)}</p>
+            <Dimension count={pool.length} needed={MIN_BUILDINGS} text={custom.matches(pool.length)} />
+          </div>
           {/* Keyed on readiness so unlocking Start gives it a small settle. */}
           <motion.div key={ready} className={ready ? styles.go : undefined} initial={ready ? { scale: 0.92 } : false} animate={{ scale: 1 }} transition={springSoft}>
             <Button icon={PlayIcon} disabled={!ready} data-sound="start" onClick={start}>
