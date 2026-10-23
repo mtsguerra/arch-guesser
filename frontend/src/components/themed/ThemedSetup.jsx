@@ -1,13 +1,13 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import {
-  Building2, Cable, Castle, ChevronDown, Church, Cross, Crown, Dices, Flower, Flower2, Gem, Goal,
-  Grid3x3, Hourglass, Layers, Library, Landmark, MoonStar, Sparkles, Theater, TrainFront, Trees,
+  Building2, Castle, ChevronDown, ChevronRight, Church, Cross, Crown, Dices, Flower, Flower2, Gem, Goal,
+  Grid3x3, House, Layers, Library, Landmark, MoonStar, Sparkles, Theater, TrainFront,
 } from 'lucide-react'
 import { PlayIcon } from '../ui/icons.jsx'
 import { fetchCatalogue } from '../../api/buildings.js'
-import { LEVELS, THEMED_ROUNDS, readThemedPick, saveThemedPick, startThemedSession, themePool, themesOf } from '../../game/themed.js'
-import { duration, easeOut } from '../../motion.js'
+import { THEMED_ROUNDS, THEME_GROUPS, blockLayout, columnsFor, readThemedPick, saveThemedPick, startThemedSession, themePool, themesOf } from '../../game/themed.js'
+import { duration, easeOut, springSoft } from '../../motion.js'
 import { useStrings } from '../../i18n.js'
 import { useReducedMotion } from '../../motionPref.js'
 import { AppShell } from '../layout/AppShell.jsx'
@@ -15,46 +15,16 @@ import { menuSlots } from '../layout/menuSlots.jsx'
 import { Button } from '../ui/Button.jsx'
 import { InfoTip } from '../ui/InfoTip.jsx'
 import { THEME_COVERS } from './themeCovers.js'
+import { DifficultyAccordion } from './DifficultyAccordion.jsx'
+import { RuinsIcon, TowerIcon } from './ThemeIcons.jsx'
 import styles from './ThemedSetup.module.css'
 
 const ICONS = {
   castles: Castle, 'churches-cathedrals': Church, mosques: MoonStar, monasteries: Cross, palaces: Crown,
-  museums: Landmark, 'theatres-opera': Theater, 'railway-stations': TrainFront, 'bridges-towers': Cable,
-  skyscrapers: Building2, libraries: Library, 'houses-villas': Trees, stadiums: Goal, 'asian-temples': Flower,
-  'ancient-ruins': Hourglass, brutalism: Layers, 'art-nouveau': Flower2, 'art-deco': Gem,
+  museums: Landmark, 'theatres-opera': Theater, 'railway-stations': TrainFront, 'bridges-towers': TowerIcon,
+  skyscrapers: Building2, libraries: Library, 'houses-villas': House, stadiums: Goal, 'asian-temples': Flower,
+  'ancient-ruins': RuinsIcon, brutalism: Layers, 'art-nouveau': Flower2, 'art-deco': Gem,
   'portuguese-azulejo': Grid3x3, 'modern-icons': Sparkles,
-}
-
-/** The three difficulties as a radio group: one tab stop, arrow keys move and pick. */
-function LevelPicker({ level, onPick, label, levels }) {
-  const onKeyDown = (e) => {
-    const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key]
-    if (!step) return
-    e.preventDefault()
-    const next = LEVELS[(LEVELS.indexOf(level) + step + LEVELS.length) % LEVELS.length]
-    onPick(next)
-    e.currentTarget.querySelector(`[data-level="${next}"]`)?.focus()
-  }
-  return (
-    <div role="radiogroup" aria-label={label} className={styles.levels} onKeyDown={onKeyDown}>
-      {LEVELS.map((l) => (
-        <button
-          key={l}
-          type="button"
-          role="radio"
-          data-level={l}
-          aria-checked={level === l}
-          tabIndex={level === l ? 0 : -1}
-          className={styles.level}
-          data-sound="choose"
-          onClick={() => onPick(l)}
-        >
-          <span className={styles.levelName}>{levels[l - 1].name}</span>
-          <span>{levels[l - 1].text}</span>
-        </button>
-      ))}
-    </div>
-  )
 }
 
 /** The theme index: one numbered row per theme; the chosen row opens its difficulty strip. */
@@ -65,11 +35,43 @@ export function ThemedSetup() {
   const [catalogue, setCatalogue] = useState(null)
   const [failed, setFailed] = useState(false)
   const [pick, setPick] = useState(readThemedPick)
+  const [query, setQuery] = useState('')
+  const [group, setGroup] = useState('all')
+  const sheetRef = useRef(null)
+  const [rolling, setRolling] = useState(false)
+  // The menu folds on wide screens; folded, the rail steps aside and the tiles take its room.
+  const [menuOpen, setMenuOpen] = useState(true)
+  const railClosed = !menuOpen
+  const rollTimer = useRef(0)
+  const [geo, setGeo] = useState({ fit: 4, wide: false, width: 0, height: 0, pad: 0, padV: 0, gap: 0, rem: 16 }) // what the sheet can hold, measured
 
   useEffect(() => {
     fetchCatalogue().then(setCatalogue).catch(() => setFailed(true))
   }, [])
   useEffect(() => saveThemedPick(pick), [pick])
+  useEffect(() => () => clearTimeout(rollTimer.current), []) // leaving mid-roll must not start a game
+  useEffect(() => {
+    const el = sheetRef.current
+    if (!el) return undefined
+    const measure = () => {
+      const rem = parseFloat(getComputedStyle(document.documentElement).fontSize)
+      const css = getComputedStyle(el)
+      setGeo({
+        fit: Math.max(1, Math.floor((el.clientWidth / rem - 1.5 + 1) / 13.5)), // 12.5rem tiles, 1rem gaps, 1.5rem padding
+        wide: window.matchMedia('(min-width: 1025px)').matches,
+        width: el.clientWidth,
+        height: el.clientHeight,
+        pad: parseFloat(css.paddingLeft) + parseFloat(css.paddingRight),
+        padV: parseFloat(css.paddingTop) + parseFloat(css.paddingBottom),
+        gap: parseFloat(css.columnGap) || 0,
+        rem,
+      })
+    }
+    measure()
+    const observer = new ResizeObserver(measure)
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [catalogue])
 
   // Rows keep the order of the theme list, not of the counts, so a theme never jumps while the data grows.
   const rows = useMemo(() => {
@@ -78,20 +80,55 @@ export function ThemedSetup() {
     return Object.keys(themed.themes).filter((id) => counts.has(id)).map((id) => ({ id, count: counts.get(id) }))
   }, [catalogue, themed.themes])
 
+  // The menu's filter: a name search (accents ignored) and one group of themes.
+  const shown = useMemo(() => {
+    const plain = (s) => s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
+    const q = plain(query.trim())
+    return rows.filter(({ id }) => (group === 'all' || THEME_GROUPS[group].includes(id)) && plain(themed.themes[id]).includes(q))
+  }, [rows, query, group, themed.themes])
+
   const picked = rows.find((r) => r.id === pick.theme)
   const PickedIcon = ICONS[pick.theme] ?? Landmark
 
+  // Wide screens: the chosen tile opens into a block of cells (photo + difficulty) that closes every row. Rows then get a fixed height.
+  const block = geo.wide && shown.some((r) => r.id === pick.theme) ? blockLayout(shown.length, geo.fit) : null
+  const cols = block ? block.cols : columnsFor(shown.length, geo.fit)
+  // Rows are 4:3 tiles, but never so tall that the block outgrows the frame: it must show whole (the photo is cropped, not stretched).
+  const tileH = block
+    ? Math.max(7 * geo.rem, Math.min(((geo.width - geo.pad - geo.gap * (cols - 1)) / cols) * 0.75, (geo.height - geo.padV - geo.gap * (block.h - 1)) / block.h))
+    : 0
+  const compact = !!block && tileH * block.h + geo.gap * (block.h - 1) < 27 * geo.rem // a short block gets a tighter card
+
+  // The opened block comes into view when it was chosen or its size changed (not while the dice are still rolling).
+  useEffect(() => {
+    if (!block || rolling) return
+    // Measured from the layout (offsetTop), not from where the gliding tiles are drawn, so it lands right while they move.
+    const sheet = sheetRef.current
+    const row = document.getElementById(`theme-${pick.theme}`)
+    if (sheet && row) sheet.scrollTo({ top: row.offsetTop - sheet.offsetTop - parseFloat(getComputedStyle(sheet).paddingTop), behavior: reduce ? 'auto' : 'smooth' })
+  }, [pick.theme, !!block, rolling, reduce, cols, Math.round(tileH)]) // eslint-disable-line react-hooks/exhaustive-deps
+
   const start = (theme = pick.theme) => {
-    startThemedSession(themePool(catalogue, theme), theme, pick.level)
+    startThemedSession(themePool(catalogue, theme), theme, pick.level, undefined, pick.extras)
     window.location.hash = '#/themed/play'
   }
-  const surprise = () => start(rows[Math.floor(Math.random() * rows.length)].id)
-
-  const surpriseButton = rows.length > 0 && (
-    <Button variant="ghost" icon={Dices} className={styles.surprise} data-sound="dice" onClick={surprise}>
-      {themed.surprise}
-    </Button>
-  )
+  // Random theme draws from what the filter shows. The dice roll while the highlight flicks through themes, slowing, and lands on the draw.
+  const surprise = () => {
+    if (rolling) return
+    const draw = () => shown[Math.floor(Math.random() * shown.length)].id
+    const final = draw()
+    if (reduce) return start(final)
+    setRolling(true)
+    const STEPS = 11
+    let i = 0
+    const tick = () => {
+      if (i === STEPS) return start(final)
+      i += 1
+      setPick((p) => ({ ...p, theme: i === STEPS ? final : draw() }))
+      rollTimer.current = setTimeout(tick, i === STEPS ? 450 : 60 + i * 16)
+    }
+    tick()
+  }
 
   return (
     <AppShell place={strings.places.themed} slim {...menuSlots(strings.menu)} info={
@@ -105,21 +142,66 @@ export function ThemedSetup() {
       <div className={styles.setup}>
         <header className={styles.intro}>
           <h1 className={styles.srOnly}>{themed.heading}</h1>
-          <p className={styles.lead}>{themed.lead}</p>
         </header>
 
         {failed && <p role="alert">{themed.failed}</p>}
         {catalogue && rows.length === 0 && <p>{themed.empty}</p>}
 
-        <div className={styles.body}>
+        <div className={styles.body} data-rail={railClosed ? 'closed' : 'open'}>
+        <aside className={styles.menu} aria-label={themed.menu.label} data-closed={!menuOpen || undefined}>
+          <button type="button" className={styles.fold} aria-expanded={menuOpen} data-sound="toggle" onClick={() => setMenuOpen((o) => !o)}>
+            <span>{themed.menu.label}</span>
+            <ChevronDown className={styles.foldIcon} aria-hidden="true" strokeWidth={2} />
+          </button>
+          <div className={styles.collapse}>
+          <div className={styles.collapseInner}>
+          <input
+            type="search"
+            className={styles.search}
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={themed.menu.search}
+            aria-label={themed.menu.search}
+          />
+          <div className={styles.groups} role="group" aria-label={themed.menu.groupsLabel}>
+            {['all', ...Object.keys(THEME_GROUPS)].map((g) => (
+              <button key={g} type="button" className={styles.group} aria-pressed={group === g} data-sound="choose" onClick={() => setGroup(g)}>
+                {g === 'all' ? themed.menu.all : themed.menu.groups[g]}
+              </button>
+            ))}
+          </div>
+          <Button variant="ghost" icon={Dices} compact className={styles.random} aria-label={themed.surprise} data-sound="dice" disabled={shown.length === 0} data-rolling={rolling || undefined} onClick={surprise}>
+            {themed.surprise}
+          </Button>
+          </div>
+          </div>
+        </aside>
+        {/* Folded: a slim tab keeps the way back. */}
+        <div className={styles.railDock}>
+          <button type="button" className={styles.railTab} aria-label={themed.menu.show} data-sound="toggle" onClick={() => setMenuOpen(true)}>
+            <ChevronRight className={styles.foldIcon} aria-hidden="true" strokeWidth={2} />
+            <span>{themed.menu.label}</span>
+          </button>
+        </div>
         <div className={styles.frame}>
-        <ol className={styles.sheet} aria-label={themed.themeStep}>
-          {rows.map(({ id, count }, i) => {
+        <ol
+          ref={sheetRef}
+          className={styles.sheet}
+          aria-label={themed.themeStep}
+          data-few={shown.length <= 2 || undefined}
+          data-block={!!block || undefined}
+          style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))`, gridAutoRows: block ? `${tileH}px` : undefined }}
+        >
+          {shown.length === 0 && catalogue && rows.length > 0 && <li className={styles.none}>{themed.menu.none}</li>}
+          {shown.map(({ id, count }) => {
             const Icon = ICONS[id] ?? Landmark
             const open = pick.theme === id
             return (
-              <li key={id} className={styles.row} data-open={open || undefined}>
-                <button
+              // layout: when a tile opens or closes the grid re-flows, and every tile glides to its new place and size (a spring)
+              <motion.li key={id} id={`theme-${id}`} layout transition={reduce ? { duration: 0 } : springSoft} className={styles.row} data-open={open || undefined} data-block={(open && block) || undefined} style={open && block ? { '--w': block.w, '--h': block.h } : undefined}>
+                <motion.button
+                  layout
+                  transition={reduce ? { duration: 0 } : springSoft}
                   type="button"
                   className={styles.theme}
                   data-sound="pick"
@@ -128,13 +210,37 @@ export function ThemedSetup() {
                   onClick={() => setPick((p) => ({ ...p, theme: open ? null : id }))}
                 >
                   {/* Decorative and blurred: it must never help the player identify a building. */}
-                  <img className={styles.photo} src={THEME_COVERS[id]} alt="" loading="lazy" decoding="async" />
-                  <span className={styles.num}>{String(i + 1).padStart(2, '0')}</span>
+                  <motion.img layout className={styles.photo} src={THEME_COVERS[id]} alt="" loading="lazy" decoding="async" />
+                  <span className={styles.num}>{String(rows.findIndex((r) => r.id === id) + 1).padStart(2, '0')}</span>
                   <Icon className={styles.icon} aria-hidden="true" strokeWidth={1.6} />
-                  <span className={styles.name}>{themed.themes[id]}</span>
-                  <span className={styles.count}>{themed.count(count)}</span>
+                  <motion.span layout="position" className={styles.name}>{themed.themes[id]}</motion.span>
+                  <motion.span layout="position" className={styles.count}>{themed.count(count)}</motion.span>
+                  {open && (
+                    <motion.span className={styles.desc} initial={reduce ? false : { opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={reduce ? { duration: 0 } : { ...springSoft, delay: 0.2 }}>
+                      {themed.descriptions[id]}
+                    </motion.span>
+                  )}
                   <ChevronDown className={styles.caret} aria-hidden="true" strokeWidth={2} />
-                </button>
+                </motion.button>
+                {/* Wide screens: the difficulty is a glass card over the opened photo. */}
+                {open && (
+                  <motion.div
+                    className={styles.unitCard}
+                    data-compact={compact || undefined}
+                    initial={reduce ? false : { opacity: 0, y: 18, scale: 0.96 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    transition={reduce ? { duration: 0 } : { ...springSoft, delay: 0.22 }}
+                  >
+                    <p className={styles.levelTitle}>{themed.levelStep}</p>
+                    <DifficultyAccordion fill compact={compact} className={styles.unitAcc} level={pick.level} onLevel={(level) => setPick((p) => ({ ...p, level }))} extras={pick.extras} onExtras={(extras) => setPick((p) => ({ ...p, extras }))} label={themed.levelStep} strings={strings} />
+                    <div className={styles.go}>
+                      <span className={styles.rounds}>{themed.rounds(Math.min(THEMED_ROUNDS, count))}</span>
+                      <Button icon={PlayIcon} data-sound="start" onClick={() => start()}>
+                        {themed.start}
+                      </Button>
+                    </div>
+                  </motion.div>
+                )}
                 <AnimatePresence initial={false}>
                   {open && (
                     <motion.div
@@ -147,19 +253,18 @@ export function ThemedSetup() {
                     >
                       <div className={styles.drawerInner}>
                         <p className={styles.levelTitle}>{themed.levelStep}</p>
-                        <LevelPicker level={pick.level} onPick={(level) => setPick((p) => ({ ...p, level }))} label={themed.levelStep} levels={themed.levels} />
+                        <DifficultyAccordion level={pick.level} onLevel={(level) => setPick((p) => ({ ...p, level }))} extras={pick.extras} onExtras={(extras) => setPick((p) => ({ ...p, extras }))} label={themed.levelStep} strings={strings} />
                         <div className={styles.go}>
                           <span className={styles.rounds}>{themed.rounds(Math.min(THEMED_ROUNDS, count))}</span>
                           <Button icon={PlayIcon} data-sound="start" onClick={() => start()}>
                             {themed.start}
                           </Button>
                         </div>
-                        {surpriseButton}
                       </div>
                     </motion.div>
                   )}
                 </AnimatePresence>
-              </li>
+              </motion.li>
             )
           })}
         </ol>
@@ -177,7 +282,7 @@ export function ThemedSetup() {
                 </div>
               </div>
               <p className={styles.levelTitle}>{themed.levelStep}</p>
-              <LevelPicker level={pick.level} onPick={(level) => setPick((p) => ({ ...p, level }))} label={themed.levelStep} levels={themed.levels} />
+              <DifficultyAccordion level={pick.level} onLevel={(level) => setPick((p) => ({ ...p, level }))} extras={pick.extras} onExtras={(extras) => setPick((p) => ({ ...p, extras }))} label={themed.levelStep} strings={strings} />
               <div className={styles.go}>
                 <span className={styles.rounds}>{themed.rounds(Math.min(THEMED_ROUNDS, picked.count))}</span>
                 <Button icon={PlayIcon} data-sound="start" onClick={() => start()}>
@@ -188,14 +293,13 @@ export function ThemedSetup() {
           ) : (
             <p className={styles.lead}>{themed.pickOne}</p>
           )}
-          {surpriseButton}
         </aside>
-        </div>
-
         <p className={styles.credit}>
           {themed.coverCredit}{' '}
           <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
         </p>
+        </div>
+
       </div>
     </AppShell>
   )
