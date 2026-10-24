@@ -3,7 +3,8 @@ import { dailyNumber, readDaily } from '../../game/daily.js'
 import { lastWeek, readProgress, streakLength } from '../../game/progress.js'
 import { eraName } from '../../game/useEras.js'
 import { useStrings } from '../../i18n.js'
-import { Button } from '../ui/Button.jsx'
+import buttonStyles from '../ui/Button.module.css'
+import { readLibrary } from '../../game/library.js'
 import styles from './ProgressCards.module.css'
 
 function Check() {
@@ -82,18 +83,19 @@ export function ArchiveCard({ eras, countriesTotal }) {
   )
 }
 
-/** The themed sets, not built yet: a placeholder with a disabled button. */
-export function LibraryCard() {
+/** The Library: how many buildings this device has unlocked, and the way in. */
+export function LibraryCard({ total }) {
   const t = useStrings().home.library
+  const [unlocked] = useState(() => Object.keys(readLibrary()).length)
   return (
     <section className={`${styles.card} ${styles.library}`} aria-label={t.title}>
       <div className={styles.head}>
         <span>{t.title}</span>
       </div>
-      <p className={styles.libraryText}>{t.text}</p>
-      <Button variant="ghost" disabled>
-        {t.soon}
-      </Button>
+      <p className={styles.libraryText}>{total ? t.text(unlocked, total) : ''}</p>
+      <a className={`${buttonStyles.button} ${buttonStyles.ghost}`} href="#/library">
+        <span>{t.open}</span>
+      </a>
     </section>
   )
 }

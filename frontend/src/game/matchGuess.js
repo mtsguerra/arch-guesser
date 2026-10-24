@@ -19,7 +19,7 @@ const MIN_WORD = 4
  * "close": the field stays open and the player is nudged to the more specific style.
  * Each building stores exactly one era: the style it is known for, not its date.
  */
-const CLOSE_ERAS = [
+export const CLOSE_ERAS = [
   ['MODERNISM', 'BRUTALISM'],
   ['MODERNISM', 'CONTEMPORARY'],
   ['BRUTALISM', 'CONTEMPORARY'],

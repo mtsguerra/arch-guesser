@@ -43,6 +43,11 @@ public class BuildingService {
         return repository.findAll().stream().map(CatalogueEntry::of).toList();
     }
 
+    /** The Library's rows in {@code lang}; languages without translations serve the source text. */
+    public List<LibraryEntry> library(String lang) {
+        return repository.findAll(lang).stream().map(LibraryEntry::of).toList();
+    }
+
     /** Every building id, sorted: the browser derives the daily building from it. */
     public List<String> ids() {
         return repository.findAll().stream().map(Building::id).sorted().toList();

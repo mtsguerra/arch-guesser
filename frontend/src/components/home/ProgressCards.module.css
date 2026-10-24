@@ -178,7 +178,8 @@
   color: var(--ink-soft);
 }
 
-.library > button {
+.library > a {
+  text-decoration: none;
   width: 100%;
   justify-content: center;
 }

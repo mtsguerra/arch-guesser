@@ -1,0 +1,475 @@
+.page {
+  display: grid;
+  gap: var(--space-5);
+  align-content: start;
+  max-width: 84rem;
+  margin-inline: auto;
+  padding-block: var(--space-5);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* One drafting sheet, like the Custom setup. */
+.sheet {
+  display: grid;
+  gap: var(--space-4);
+  min-width: 0;
+  padding: var(--space-4);
+  border: 2px solid var(--paper-rule);
+  background: var(--paper);
+  box-shadow: 0.25rem 0.25rem 0 color-mix(in oklab, var(--accent) 18%, transparent);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  border: var(--hairline) solid var(--paper-hairline);
+  background: var(--paper-shade);
+}
+
+.stat {
+  display: grid;
+  gap: 0.125rem;
+  padding: var(--space-2) var(--space-3);
+  border-right: var(--hairline) solid var(--paper-hairline);
+}
+
+.stat:last-child {
+  border-right: 0;
+}
+
+.statLabel,
+.field > span,
+.sideTitle {
+  font-size: var(--text-2xs);
+  font-weight: 650;
+  font-stretch: var(--stretch-semi);
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.statValue {
+  font-size: var(--text-xl);
+  font-weight: 800;
+  font-stretch: var(--stretch-wide);
+  letter-spacing: var(--tracking-display);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.statValue small {
+  font-size: var(--text-sm);
+  font-weight: 650;
+  color: var(--ink-soft);
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: end;
+}
+
+.field {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.field input,
+.field select {
+  min-height: 2.5rem;
+  padding: var(--space-2) var(--space-3);
+  border: var(--hairline) solid var(--paper-rule);
+  border-radius: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-size: var(--text-sm);
+}
+
+.field input {
+  width: min(16rem, 100%);
+}
+
+.field select {
+  min-width: 9rem;
+}
+
+.field :focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.hint {
+  font-size: var(--text-xs);
+  color: var(--ink-soft);
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 15rem minmax(0, 1fr);
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.side {
+  display: grid;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+/* The globe leads the sidebar on wide screens; the era list is long, so nothing here sticks. */
+.globeSlot {
+  order: -1;
+}
+
+.eras {
+  display: grid;
+  gap: 0.125rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-left: auto;
+}
+
+.eraMark {
+  width: 1.8rem;
+  height: 1.1rem;
+}
+
+.count {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.sideTitle {
+  margin-bottom: var(--space-1);
+}
+
+.era {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.125rem var(--space-2);
+  padding: var(--space-1) var(--space-2);
+  border: 0;
+  border-left: 3px solid transparent;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-size: var(--text-xs);
+  text-align: left;
+  cursor: pointer;
+}
+
+.era[aria-pressed='true'] {
+  border-left-color: var(--accent);
+  background: var(--paper-shade);
+}
+
+.era:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: -2px;
+}
+
+.count {
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.done {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-left: var(--space-3);
+  color: var(--accent);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.done svg {
+  width: 2.4rem;
+}
+
+.table tbody tr:not(.group) {
+  cursor: pointer;
+}
+
+.table tbody tr[data-selected] td,
+.table tbody tr[data-selected] th[scope='row'] {
+  background: color-mix(in oklab, var(--accent) 10%, transparent);
+}
+
+.rowButton {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.rowButton:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.cmp {
+  width: 1.6rem;
+  height: 1.6rem;
+  border: var(--hairline) solid var(--paper-rule);
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.cmp[aria-pressed='true'] {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.cmp:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.era i {
+  grid-column: 1 / -1;
+  position: relative;
+  height: 4px;
+  background: var(--paper-hairline);
+}
+
+.era i::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: var(--p);
+  background: var(--accent);
+}
+
+.tableWrap {
+  min-width: 0;
+  overflow-x: auto;
+  border: var(--hairline) solid var(--paper-rule);
+}
+
+.table {
+  width: 100%;
+  min-width: 40rem;
+  border-collapse: collapse;
+  font-size: var(--text-xs);
+}
+
+.table thead th {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: var(--hairline) solid var(--paper-rule);
+  background: var(--paper-shade);
+  font-size: var(--text-2xs);
+  font-weight: 650;
+  font-stretch: var(--stretch-semi);
+  letter-spacing: var(--tracking-caps);
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.table td,
+.table tbody th[scope='row'] {
+  padding: var(--space-1) var(--space-3);
+  border-bottom: var(--hairline) solid var(--paper-hairline);
+  vertical-align: middle;
+  text-align: left;
+  font-weight: 400;
+}
+
+.group th {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: var(--hairline) solid var(--paper-rule);
+  background: var(--paper-shade);
+  font-size: var(--text-xs);
+  font-weight: 800;
+  font-stretch: var(--stretch-semi);
+  text-align: left;
+}
+
+.groupCount {
+  margin-left: var(--space-3);
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.name {
+  font-weight: 700 !important;
+}
+
+.no,
+.year {
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.thumb {
+  width: 3.4rem;
+  padding-block: 0.125rem !important;
+}
+
+.mass {
+  display: block;
+  width: 2.6rem;
+  height: 1.6rem;
+  fill: currentColor;
+  color: var(--ink);
+}
+
+tr[data-locked] .mass {
+  color: var(--paper-hairline);
+}
+
+.redact {
+  display: inline-block;
+  width: var(--w, 6rem);
+  height: 0.7rem;
+  background: repeating-linear-gradient(135deg, var(--paper-hairline) 0 3px, transparent 3px 6px);
+  vertical-align: middle;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.0625rem 0.4rem;
+  border: var(--hairline) dashed var(--paper-hairline);
+  color: var(--ink-soft);
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.marks {
+  display: inline-flex;
+  gap: 2px;
+  vertical-align: middle;
+}
+
+.marks i {
+  display: grid;
+  place-items: center;
+  width: 1rem;
+  height: 1rem;
+  border: 1.5px solid var(--accent);
+  border-radius: 50%;
+  color: var(--accent);
+  font-size: 0.6rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.marks i[data-mastered] {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.empty {
+  padding: var(--space-4);
+  color: var(--ink-soft);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 1024px) {
+  .body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .side {
+    grid-template-columns: minmax(0, 1fr) 15rem;
+    align-items: start;
+  }
+
+  .globeSlot {
+    order: 0;
+  }
+
+  .eras {
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  }
+
+  .sideTitle {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding-block: var(--space-4);
+  }
+
+  .sheet {
+    padding: var(--space-3);
+  }
+
+  .stat {
+    border-bottom: var(--hairline) solid var(--paper-hairline);
+  }
+
+  /* The group headers carry each era's count, and the Era menu filters, so the list steps aside. */
+  .eras {
+    display: none;
+  }
+
+  .side {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .actions {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .table {
+    min-width: 0;
+  }
+
+  .table thead th,
+  .table td,
+  .table tbody th[scope='row'] {
+    padding-inline: var(--space-2);
+  }
+
+  .chip {
+    max-width: 5.5rem;
+    white-space: normal;
+  }
+
+  /* The sheet number, silhouette, architect and country columns make way for the name, year and marks on a phone. */
+  .table thead th:nth-child(1),
+  .table td:nth-child(1),
+  .table th:nth-child(2),
+  .table td:nth-child(2),
+  .table th:nth-child(4),
+  .table td:nth-child(4),
+  .table th:nth-child(5),
+  .table td:nth-child(5) {
+    display: none;
+  }
+}
