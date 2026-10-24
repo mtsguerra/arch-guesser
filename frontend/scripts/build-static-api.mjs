@@ -160,6 +160,18 @@ write(
   })),
 )
 mkdirSync(join(out, 'pt-BR', 'buildings'), { recursive: true })
+// The Library's rows, per language (mirrors LibraryEntry.java).
+const libraryRow = (b) => ({
+  id: b.id,
+  name: b.name,
+  architects: b.architects.map((a) => a.name),
+  era: b.era,
+  yearCompleted: b.yearCompleted,
+  countryCode: b.location.countryCode,
+  country: b.location.country,
+})
+write(join(out, 'library.json'), buildings.map(libraryRow))
+write(join(out, 'pt-BR', 'library.json'), buildings.map((b) => libraryRow(translations[b.id] ? translate(b, translations[b.id]) : b)))
 for (const b of buildings) {
   write(join(out, 'buildings', `${b.id}.json`), b)
   write(join(out, 'pt-BR', 'buildings', `${b.id}.json`), translations[b.id] ? translate(b, translations[b.id]) : b)

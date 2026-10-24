@@ -1,0 +1,18 @@
+/* The way back is a text button in the header on wide screens and a round one on phones (640px, like the game's header). */
+.deskOnly {
+  display: contents;
+}
+
+.phoneOnly {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .deskOnly {
+    display: none;
+  }
+
+  .phoneOnly {
+    display: contents;
+  }
+}

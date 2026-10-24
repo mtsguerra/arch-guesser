@@ -74,6 +74,17 @@ export function fetchCatalogue() {
   return catalogue
 }
 
+const libraries = {}
+/** The Library's rows (id, name, architects, era, year, country) in `lang`, fetched once per language; a failure is not cached. */
+export function fetchLibrary(lang = 'en') {
+  const path = staticApi ? `/api/${lang !== 'en' ? `${lang}/` : ''}library.json` : `/api/buildings/library${lang !== 'en' ? `?${new URLSearchParams({ lang })}` : ''}`
+  libraries[lang] ??= getJson(path).catch((error) => {
+    delete libraries[lang]
+    throw error
+  })
+  return libraries[lang]
+}
+
 export function fetchEras(signal) {
   return getJson(staticApi ? '/api/eras.json' : '/api/eras', signal)
 }

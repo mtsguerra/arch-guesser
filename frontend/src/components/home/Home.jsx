@@ -63,7 +63,7 @@ export function Home() {
         <aside className={styles.aside}>
           <DailyTeaser />
           <StreakCard />
-          <LibraryCard />
+          <LibraryCard total={catalogue?.buildings} />
         </aside>
         <footer className={styles.foot}>
           <p>{home.how}</p>

@@ -1,11 +1,13 @@
 import { useEffect } from 'react'
-import { useRoute } from './route.js'
+import { libraryIdFrom, useRoute } from './route.js'
 import { readSession } from './game/custom.js'
 import { readThemedSession } from './game/themed.js'
 import Game from './Game.jsx'
 import { CustomSetup } from './components/custom/CustomSetup.jsx'
 import { ThemedSetup } from './components/themed/ThemedSetup.jsx'
 import { Home } from './components/home/Home.jsx'
+import { Library } from './components/library/Library.jsx'
+import { LibraryBuilding } from './components/library/LibraryBuilding.jsx'
 import { ToastHost } from './components/ui/ToastHost.jsx'
 
 // A custom game needs the session the setup screen starts; without one, go back to the setup.
@@ -28,6 +30,8 @@ function ThemedPlay() {
 
 function Screen({ route }) {
   if (route === 'home') return <Home />
+  if (route === 'library') return <Library />
+  if (route === 'libraryBuilding') return <LibraryBuilding key={libraryIdFrom(window.location.hash)} />
   if (route === 'custom') return <CustomSetup />
   if (route === 'customPlay') return <CustomPlay />
   if (route === 'themed') return <ThemedSetup />

@@ -23,14 +23,14 @@ const fade = {
 /**
  * One round. While playing: board | guess sheet + hints. Once revealed, the
  * board steps back into a reference column beside the summary; the player can
- * swap back to the full drawings at any time. Remount per building.
+ * swap back to the full drawings at any time. Remount per building. `replay={false}` (the Library) skips the build-up.
  */
-export function Round({ round, eras, view, onViewChange, daily = false }) {
+export function Round({ round, eras, view, onViewChange, daily = false, replay = true }) {
   const strings = useStrings()
   const { building, phase } = round
   const revealed = phase === 'revealed'
-  const [built, setBuilt] = useState(false)
-  const [settled, setSettled] = useState(false) // the reveal build-up has finished fading out
+  const [built, setBuilt] = useState(!replay) // the Library reopens a building without the build-up
+  const [settled, setSettled] = useState(!replay) // the reveal build-up has finished fading out
   const summary = revealed
   const expanded = revealed && view === 'board' // the drawings grown to full width above the summary
   const board = useRef(null)

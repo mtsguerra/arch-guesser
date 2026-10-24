@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { routeFrom } from './route.js'
+import { libraryIdFrom, routeFrom } from './route.js'
 
 describe('routeFrom', () => {
   it('opens the game on #/play and the homepage otherwise', () => {
@@ -9,8 +9,17 @@ describe('routeFrom', () => {
     expect(routeFrom('#/custom/play')).toBe('customPlay')
     expect(routeFrom('#/themed')).toBe('themed')
     expect(routeFrom('#/themed/play')).toBe('themedPlay')
+    expect(routeFrom('#/library')).toBe('library')
+    expect(routeFrom('#/library/villa-savoye')).toBe('libraryBuilding')
+    expect(routeFrom('#/library/Bad Id')).toBe('home')
     expect(routeFrom('')).toBe('home')
     expect(routeFrom('#/')).toBe('home')
     expect(routeFrom('#/nope')).toBe('home')
+  })
+
+  it('reads the building id from a Library hash', () => {
+    expect(libraryIdFrom('#/library/villa-savoye')).toBe('villa-savoye')
+    expect(libraryIdFrom('#/library')).toBeNull()
+    expect(libraryIdFrom('#/library/a/b')).toBeNull()
   })
 })

@@ -1,9 +1,12 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from 'react'
 import { fetchBuilding, fetchBuildingIds, fetchCatalogue, fetchRandomBuilding } from '../api/buildings.js'
-import { useLanguage } from '../i18n.js'
+import { useLanguage, useStrings } from '../i18n.js'
 import { advanceSession, fieldsForConfig, readSession } from './custom.js'
 import { dailyHold, dailyId, dailyNumber, readDaily, saveDaily } from './daily.js'
 import { gameReducer, initialState } from './gameReducer.js'
+import { showToast } from '../components/ui/toast.js'
+import { readLibrary, recordLibrary } from './library.js'
+import { completedEra } from './libraryView.js'
 import { recordReveal } from './progress.js'
 import { centuriesIn } from './dates.js'
 import { advanceThemedSession, erasIn, fieldsFor, readThemedSession, themePool } from './themed.js'
@@ -19,6 +22,7 @@ export function useGameRound(mode = 'normal') {
   const [state, dispatch] = useReducer(gameReducer, initialState)
   const pending = useRef(null)
   const { lang } = useLanguage()
+  const strings = useStrings()
   // Read through a ref so a language switch doesn't recreate loadNext and start a new round.
   const langRef = useRef(lang)
   useEffect(() => {
@@ -126,6 +130,21 @@ export function useGameRound(mode = 'normal') {
       recordReveal(buildingRef.current, mode === 'daily' ? dailyNumber() : undefined)
     }
   }, [mode, phase, currentId])
+
+  // The Library unlocks it too; naming the building (not only the era or architect) makes it mastered.
+  useEffect(() => {
+    if (phase === 'revealed' && buildingRef.current?.id === currentId && currentId) {
+      const before = readLibrary()
+      const after = recordLibrary(currentId, { mode, mastered: fields.name === 'correct', attempts })
+      // Unlocking the last building of an era says so.
+      fetchCatalogue()
+        .then((catalogue) => {
+          const era = completedEra(catalogue, before, after, currentId)
+          if (era) showToast({ text: strings.library.eraCompleted(strings.eras[era] ?? era) })
+        })
+        .catch(() => {}) // no catalogue: no toast
+    }
+  }, [mode, phase, currentId, fields, attempts, strings])
 
   // Switching language mid-round swaps the building's text but keeps guesses, hints and phase.
   const currentLang = useRef(lang)

@@ -33,6 +33,11 @@ class BuildingController {
         return service.catalogue();
     }
 
+    @GetMapping("/buildings/library")
+    List<LibraryEntry> library(@RequestParam(required = false) String lang) {
+        return service.library(lang);
+    }
+
     @GetMapping("/buildings/ids")
     List<String> ids() {
         return service.ids();

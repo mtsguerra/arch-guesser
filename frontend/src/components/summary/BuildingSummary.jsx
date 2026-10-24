@@ -258,7 +258,7 @@ function Hero({ building, onOpen }) {
  * the title; once the title is well inside the page the bar fades. The header hides its own label while the bar is
  * up in its spot (headerTitle.js), so the two never overlap.
  */
-function StickyTitle({ title, target, score, total }) {
+function StickyTitle({ title, target, score, total, viewing }) {
   const bar = useRef(null)
   useEffect(() => {
     const update = () => {
@@ -287,9 +287,11 @@ function StickyTitle({ title, target, score, total }) {
     <div className={styles.stickyHold} aria-hidden="true">
       <div ref={bar} className={styles.sticky} style={{ visibility: 'hidden' }}>
         <span className={styles.stickyName}>{title}</span>
-        <span className={styles.stickyScore}>
-          {score}/{total}
-        </span>
+        {!viewing && (
+          <span className={styles.stickyScore}>
+            {score}/{total}
+          </span>
+        )}
       </div>
     </div>
   )
@@ -390,9 +392,10 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
   const era = eras?.find((e) => e.id === building.era)
   const photos = building.photos ?? []
   const [lede, rest] = splitLede(building.summary.description)
-  const total = Object.keys(fields).length
-  const score = Object.values(fields).filter((s) => s === 'correct').length
-  const signedOff = score === total
+  const viewing = !fields // opened from the Library: nothing was guessed, so no score, level or recap
+  const total = viewing ? 0 : Object.keys(fields).length
+  const score = viewing ? 0 : Object.values(fields).filter((s) => s === 'correct').length
+  const signedOff = !viewing && score === total
   const facts = [...building.hints.map((h) => h.text), ...building.summary.funFacts]
 
   // Move focus to the summary so keyboard and screen-reader users land on the payoff.
@@ -401,7 +404,7 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
   return (
     <motion.article className={styles.monograph} aria-label={strings.summary.label} variants={unfold} initial="hidden" animate="shown" data-play={play || undefined} data-signed={signedOff || undefined}>
       {signedOff && <SignOff play={play} />}
-      <StickyTitle title={building.name} target={heading} score={score} total={total} />
+      <StickyTitle title={building.name} target={heading} score={score} total={total} viewing={viewing} />
       <motion.header className={styles.header} variants={section}>
         <h2 ref={heading} tabIndex={-1} className={styles.title}>
           {building.name}
@@ -430,13 +433,17 @@ export function BuildingSummary({ building, eras, fields, log, onOpenBoard, play
         <FactStrip building={building} era={era} />
       </motion.div>
 
-      <motion.div variants={section}>
-        <LevelMarker score={score} total={total} />
-      </motion.div>
+      {!viewing && (
+        <motion.div variants={section}>
+          <LevelMarker score={score} total={total} />
+        </motion.div>
+      )}
 
+      {!viewing && (
       <motion.div variants={section}>
         {daily ? <DailyCard daily={daily} play={play} /> : <Recap building={building} era={era} eras={eras} fields={fields} log={log} outcome={outcome} play={play} />}
       </motion.div>
+      )}
 
       <motion.div className={styles.reading} variants={section}>
         {lede && <p className={styles.ledeLine}>{lede}</p>}

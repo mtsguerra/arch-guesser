@@ -1,0 +1,42 @@
+/* The line drawings play even under reduced motion (see CLAUDE.md), like the reveal's. */
+.plot {
+  display: block;
+  width: 100%;
+  height: auto;
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.6px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.plot path {
+  vector-effect: non-scaling-stroke;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation: plot var(--dur) ease-out var(--delay) both;
+}
+
+.plot path[data-tone='ground'] {
+  stroke: var(--ink-soft);
+}
+
+.plot path[data-tone='dimension'] {
+  stroke: var(--paper-hairline);
+}
+
+/* Small marks leave out the dimension line and play faster. */
+.plot[data-small] path[data-tone='dimension'] {
+  display: none;
+}
+
+.plot[data-small] path {
+  animation-duration: calc(var(--dur) * 0.6);
+  animation-delay: calc(var(--delay) * 0.6);
+}
+
+@keyframes plot {
+  from {
+    stroke-dashoffset: 1;
+  }
+}

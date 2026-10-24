@@ -44,6 +44,15 @@ class BuildingControllerTest {
     }
 
     @Test
+    void libraryListsEveryBuildingWithTheFieldsItShows() throws Exception {
+        mvc.perform(get("/api/buildings/library"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.length()").value(repository.findAll().size()))
+                .andExpect(jsonPath("$[?(@.id == 'test-villa')].name").value(Matchers.contains("Villa Savoye")))
+                .andExpect(jsonPath("$[?(@.id == 'test-villa')].era").value(Matchers.contains("MODERNISM")));
+    }
+
+    @Test
     void unknownIdIsProblem404() throws Exception {
         mvc.perform(get("/api/buildings/nope"))
                 .andExpect(status().isNotFound())
