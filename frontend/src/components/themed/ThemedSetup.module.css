@@ -296,10 +296,6 @@
     background: transparent;
   }
 
-  .drawerInner .levelTitle {
-    display: none; /* the segmented control is named for assistive tech by its radiogroup label */
-  }
-
   .drawerInner .go {
     flex-direction: column-reverse;
     align-items: stretch;
@@ -1000,8 +996,25 @@
     padding: var(--space-4);
     border: var(--hairline) solid var(--paper-hairline);
     border-radius: var(--radius-md);
-    background: color-mix(in oklab, var(--paper) 86%, transparent);
+    border: 0;
+    background: rgb(42 26 16 / 0.5); /* the photo stays sharp around the card and is blurred only behind it */
     backdrop-filter: blur(14px) saturate(1.2);
+  }
+
+  .unitCard .go {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap: var(--space-2);
+  }
+
+  .unitCard .go button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .unitCard .rounds {
+    text-align: center;
+    color: var(--cream);
   }
 
   .unitCard .go {
@@ -1019,9 +1032,5 @@
   .unitCard[data-compact] {
     gap: var(--space-2);
     padding: var(--space-3);
-  }
-
-  .unitCard[data-compact] .levelTitle {
-    display: none;
   }
 }

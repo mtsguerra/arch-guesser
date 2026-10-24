@@ -13,6 +13,6 @@ describe('silhouettes', () => {
   it('falls back to the civic front for an era without its own drawing', () => {
     expect(silhouetteFor('CLASSICAL')).toBe(silhouettes.temple)
     expect(silhouetteFor('NOT_AN_ERA')).toBe(silhouettes.temple)
-    expect(silhouetteFor('MEDIEVAL')).toBe(silhouettes.gothic)
+    expect(silhouetteFor('MEDIEVAL')).toBe(silhouettes.notreDame)
   })
 })

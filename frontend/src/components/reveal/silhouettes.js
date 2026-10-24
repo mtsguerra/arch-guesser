@@ -47,26 +47,6 @@ const pyramid = {
   ],
 }
 
-// A Gothic west front: twin towers and spires, pointed portal, rose window.
-const gothic = {
-  mass: 'M110 214V80L130 24L150 80V120L200 70L250 120V80L270 24L290 80V214Z',
-  strokes: [
-    GROUND,
-    { d: 'M110 214V80H150V214', delay: 0.4, duration: 0.7 },
-    { d: 'M250 214V80H290V214', delay: 0.5, duration: 0.7 },
-    { d: 'M150 120L200 70L250 120', delay: 1.0, duration: 0.6 },
-    { d: 'M184 214V170Q184 150 200 138Q216 150 216 170V214', delay: 1.2, duration: 0.7, tone: 'column' },
-    { d: 'M190 106a10 10 0 1 0 20 0a10 10 0 1 0 -20 0', delay: 1.5, duration: 0.5, tone: 'column' },
-    { d: 'M124 160V130Q130 118 136 130V160', delay: 1.4, duration: 0.4 },
-    { d: 'M264 160V130Q270 118 276 130V160', delay: 1.5, duration: 0.4 },
-    { d: 'M110 80L130 24L150 80', delay: 1.7, duration: 0.6 },
-    { d: 'M250 80L270 24L290 80', delay: 1.8, duration: 0.6 },
-    { d: 'M130 24V12M126 17H134', delay: 2.2, duration: 0.3, tone: 'accent' },
-    { d: 'M270 24V12M266 17H274', delay: 2.25, duration: 0.3, tone: 'accent' },
-    dimension(110, 290),
-  ],
-}
-
 // Modernism: shell vaults like sails on a broad podium (the Sydney Opera House).
 const sail = (x0, x1, tipX, tipY, base) => {
   const h = base - tipY
@@ -97,49 +77,11 @@ const sails = {
   ],
 }
 
-// Contemporary: a twisting tower, each floor plate turned a little from the one below.
-const PLATES = Array.from({ length: 9 }, (_, i) => {
-  const cx = 200 + 22 * Math.sin(i * 0.75)
-  const w = 52 - i * 2.5
-  return { y: 192 - i * 16, l: +(cx - w).toFixed(1), r: +(cx + w).toFixed(1) }
-})
-const top = PLATES.at(-1)
-const edge = (side) => `M${PLATES.map((plate) => `${plate[side]} ${plate.y}`).join('L')}`
-const twist = {
-  mass: `${edge('l')}L${[...PLATES].reverse().map((plate) => `${plate.r} ${plate.y}`).join('L')}Z`,
-  strokes: [
-    GROUND,
-    { d: 'M110 214V192H290V214', delay: 0.4, duration: 0.5 },
-    ...PLATES.map((plate, i) => ({ d: `M${plate.l} ${plate.y}H${plate.r}`, delay: 0.7 + i * 0.12, duration: 0.3 })),
-    { d: edge('l'), delay: 1.0, duration: 1.1, tone: 'column' },
-    { d: edge('r'), delay: 1.1, duration: 1.1, tone: 'column' },
-    { d: `M${top.l} ${top.y}L${(top.l + top.r) / 2} 30L${top.r} ${top.y}`, delay: 2.0, duration: 0.5, tone: 'accent' },
-    dimension(110, 290),
-  ],
-}
-
 // Pointed or round-headed opening, `w` wide, from `bottom` up to the springing at `top`.
 const arch = (c, w, bottom, top, rise = w) =>
   `M${c - w / 2} ${bottom}V${top}Q${c - w / 2} ${top - rise} ${c} ${top - rise}Q${c + w / 2} ${top - rise} ${c + w / 2} ${top}V${bottom}`
 const spread = (xs, make, start, step, duration, tone) =>
   xs.map((x, i) => ({ d: make(x), delay: start + i * step, duration, tone }))
-
-// Neo-Gothic: a steep-roofed hall with lancets and one asymmetric tower.
-const neoGothic = {
-  mass: 'M80 214V130L190 76L300 130V60L325 8L350 60V214Z',
-  strokes: [
-    GROUND,
-    { d: 'M80 214V130H300V214', delay: 0.4, duration: 0.7 },
-    { d: 'M300 214V60H350V214', delay: 0.6, duration: 0.8 },
-    { d: 'M80 130L190 76L300 130', delay: 1.1, duration: 0.7 },
-    ...spread([120, 260], (c) => arch(c, 16, 186, 162, 18), 1.2, 0.15, 0.4, 'column'),
-    { d: 'M178 214V192Q190 174 202 192V214', delay: 1.4, duration: 0.5, tone: 'column' },
-    { d: 'M318 150V124Q325 108 332 124V150', delay: 1.6, duration: 0.4 },
-    { d: 'M296 60L325 8L354 60', delay: 1.8, duration: 0.7 },
-    { d: 'M325 8V0', delay: 2.4, duration: 0.2, tone: 'accent' },
-    dimension(80, 350),
-  ],
-}
 
 // Baroque: twin domed bell towers and a swelling façade with scrolls and a curved pediment.
 const baroque = {
@@ -177,41 +119,6 @@ const domedPortico = {
     { d: 'M165 46C165 14 235 14 235 46', delay: 2.1, duration: 0.6 },
     { d: 'M196 25V14H204V25', delay: 2.6, duration: 0.2, tone: 'accent' },
     dimension(80, 320),
-  ],
-}
-
-// Art Nouveau: a flat front with rounded corners, whiplash tendrils and organic arches.
-const nouveau = {
-  mass: 'M90 214V92Q90 70 112 70H150C160 40 190 36 200 52C210 36 240 40 250 70H288Q310 70 310 92V214Z',
-  strokes: [
-    GROUND,
-    { d: 'M90 214V92Q90 70 112 70H288Q310 70 310 92V214', delay: 0.4, duration: 1.0 },
-    { d: 'M170 214V150C170 110 230 110 230 150V214', delay: 1.0, duration: 0.8, tone: 'column' },
-    { d: arch(130, 30, 190, 150, 20), delay: 1.4, duration: 0.5 },
-    { d: arch(270, 30, 190, 150, 20), delay: 1.5, duration: 0.5 },
-    { d: 'M96 120C130 120 140 150 170 150', delay: 1.7, duration: 0.5, tone: 'column' },
-    { d: 'M304 120C270 120 260 150 230 150', delay: 1.8, duration: 0.5, tone: 'column' },
-    { d: 'M150 70C160 40 190 36 200 52C210 36 240 40 250 70', delay: 2.0, duration: 0.6, tone: 'accent' },
-    dimension(90, 310),
-  ],
-}
-
-// Postmodern: a plain block dressed in oversized classical parts: a giant keystone, fat
-// square columns, punched windows and a round-headed door.
-const postmodern = {
-  mass: 'M84 214V72H316V214Z',
-  strokes: [
-    GROUND,
-    { d: 'M90 214V80H310V214', delay: 0.4, duration: 0.8 },
-    { d: 'M84 80H316V72H84Z', delay: 0.9, duration: 0.5 },
-    { d: 'M104 214V120H136V214', delay: 1.0, duration: 0.6, tone: 'column' },
-    { d: 'M264 214V120H296V214', delay: 1.1, duration: 0.6, tone: 'column' },
-    { d: 'M100 120V108H140V120M260 120V108H300V120', delay: 1.4, duration: 0.4 },
-    { d: 'M150 150H174V174H150Z', delay: 1.5, duration: 0.3 },
-    { d: 'M226 150H250V174H226Z', delay: 1.6, duration: 0.3 },
-    { d: 'M176 214V176Q176 158 200 158Q224 158 224 176V214', delay: 1.7, duration: 0.5, tone: 'column' },
-    { d: 'M180 80L220 80L212 128H188Z', delay: 2.0, duration: 0.5, tone: 'accent' },
-    dimension(84, 316),
   ],
 }
 
@@ -311,26 +218,6 @@ const domedMinaret = {
   ],
 }
 
-// East Asian: a three-tier pagoda with upswept eaves and a finial of rings.
-const roof = (y, half, rise) =>
-  `M${200 - half} ${y - 8}Q${200 - half * 0.62} ${y - 4} ${200 - half * 0.4} ${y - rise}H${200 + half * 0.4}Q${200 + half * 0.62} ${y - 4} ${200 + half} ${y - 8}`
-const pagoda = {
-  mass: 'M90 214V172H110L115 128H155L168 88H232L245 128H285L290 172H310V214Z',
-  strokes: [
-    GROUND,
-    { d: 'M90 214V204H310V214', delay: 0.4, duration: 0.4 },
-    { d: 'M140 204V172H260V204', delay: 0.7, duration: 0.5 },
-    { d: 'M188 204V186H212V204', delay: 0.9, duration: 0.3, tone: 'column' },
-    { d: roof(172, 105, 22), delay: 1.0, duration: 0.5 },
-    { d: 'M155 150V128H245V150', delay: 1.3, duration: 0.4 },
-    { d: roof(128, 85, 20), delay: 1.5, duration: 0.5 },
-    { d: 'M168 108V88H232V108', delay: 1.8, duration: 0.4 },
-    { d: roof(88, 65, 18), delay: 2.0, duration: 0.5 },
-    { d: 'M200 70V30M194 56H206M195 46H205M197 38H203', delay: 2.4, duration: 0.3, tone: 'accent' },
-    dimension(90, 310),
-  ],
-}
-
 // Mannerism: the classical rules bent: giant pilasters, a pediment inside a pediment and a
 // keystone that has slipped out of its arch.
 const mannerist = {
@@ -345,23 +232,6 @@ const mannerist = {
     { d: 'M170 100L200 82L230 100', delay: 2.0, duration: 0.4 },
     { d: 'M193 140H207L204 158H196Z', delay: 2.3, duration: 0.3, tone: 'accent' },
     dimension(80, 320),
-  ],
-}
-
-// Industrial: an iron-and-glass vault with its glazing bars, and a tall brick chimney.
-const VAULT_BARS = Array.from({ length: 7 }, (_, i) => 88 + i * 32)
-const vaultY = (x) => 150 - 272 * ((x - 60) / 280) * (1 - (x - 60) / 280)
-const industrial = {
-  mass: 'M60 214V150Q200 14 340 150V214H352V40H368V214Z',
-  strokes: [
-    GROUND,
-    { d: 'M60 214V150H340V214', delay: 0.4, duration: 0.6 },
-    { d: 'M60 150Q200 14 340 150', delay: 0.9, duration: 0.9 },
-    ...spread(VAULT_BARS, (x) => `M${x} 150V${vaultY(x).toFixed(1)}`, 1.2, 0.1, 0.4, 'column'),
-    { d: 'M190 214V180H210V214', delay: 1.9, duration: 0.3 },
-    { d: 'M352 214V40H368V214', delay: 0.7, duration: 1.0 },
-    { d: 'M349 40H371', delay: 1.8, duration: 0.3, tone: 'accent' },
-    dimension(60, 368),
   ],
 }
 
@@ -430,52 +300,288 @@ const ottoman = {
   ],
 }
 
+// Pre-Columbian: Machu Picchu, terraces climbing to a plateau of gabled stone houses under Huayna Picchu.
+const machuPicchu = {
+  mass: 'M40 214V198H80V182H110V166L130 120C170 88 205 58 232 32L246 24L262 44C292 76 330 110 372 150V198H360V214Z',
+  strokes: [
+    GROUND,
+    { d: 'M110 166L130 120C170 88 205 58 232 32L246 24L262 44C292 76 330 110 372 150', delay: 0.4, duration: 1.0, tone: 'column' },
+    { d: 'M40 214V198H80V182H110V166H135V150H150', delay: 0.6, duration: 0.7 },
+    { d: 'M360 214V198H320V182H290V166H265V150H250', delay: 0.7, duration: 0.7 },
+    { d: 'M48 207H78M88 191H108M116 175H133', delay: 0.9, duration: 0.5, tone: 'column' },
+    { d: 'M352 207H322M312 191H292M284 175H267', delay: 1.0, duration: 0.5, tone: 'column' },
+    { d: 'M150 150H250', delay: 1.2, duration: 0.3 },
+    { d: 'M160 150V126H190V150', delay: 1.4, duration: 0.4 },
+    { d: 'M206 150V122H238V150', delay: 1.5, duration: 0.4 },
+    { d: 'M156 126L175 108L194 126', delay: 1.7, duration: 0.3 },
+    { d: 'M202 122L222 102L242 122', delay: 1.8, duration: 0.3 },
+    { d: 'M170 150V138H180V150M217 150V136H227V150', delay: 2.1, duration: 0.3, tone: 'accent' },
+    dimension(40, 360),
+  ],
+}
+
+// Islamic: the Taj Mahal, a great onion dome with four small domes, a pointed iwan and four minarets on a plinth.
+const tajMahal = {
+  mass: 'M30 214V198H72V70H88V198H140V120H168V104C168 70 190 60 200 40C210 60 232 70 232 104V120H260V188H312V70H328V198H370V214Z',
+  strokes: [
+    GROUND,
+    { d: 'M30 214V198H370V214', delay: 0.4, duration: 0.5 },
+    { d: 'M70 198V188H330V198', delay: 0.6, duration: 0.4 },
+    { d: 'M72 198V72H88V198', delay: 0.8, duration: 0.6 },
+    { d: 'M312 198V72H328V198', delay: 0.9, duration: 0.6 },
+    { d: 'M140 188V120H260V188', delay: 1.0, duration: 0.6 },
+    { d: 'M68 112H92M68 152H92', delay: 1.2, duration: 0.3, tone: 'column' },
+    { d: 'M68 72H92M72 72C72 58 88 58 88 72', delay: 1.3, duration: 0.3 },
+    { d: 'M308 112H332M308 152H332', delay: 1.3, duration: 0.3, tone: 'column' },
+    { d: 'M308 72H332M312 72C312 58 328 58 328 72', delay: 1.4, duration: 0.3 },
+    { d: 'M180 188V140L200 110L220 140V188', delay: 1.4, duration: 0.5, tone: 'column' },
+    { d: 'M168 120V104H232V120', delay: 1.6, duration: 0.3 },
+    { d: 'M170 104C170 72 190 62 200 42C210 62 230 72 230 104', delay: 1.8, duration: 0.7 },
+    { d: 'M146 120V112C146 100 160 96 160 86C160 96 174 100 174 112V120', delay: 2.0, duration: 0.4 },
+    { d: 'M226 120V112C226 100 240 96 240 86C240 96 254 100 254 112V120', delay: 2.1, duration: 0.4 },
+    { d: 'M200 42V20M195 30H205', delay: 2.4, duration: 0.3, tone: 'accent' },
+    dimension(30, 370),
+  ],
+}
+
+// East Asian: a five-tier pagoda; every eave sweeps up at its corners and each storey is a little narrower.
+const TIERS = Array.from({ length: 5 }, (_, i) => {
+  const bottom = 188 - i * 28
+  const hw = 50 - i * 8
+  return { bottom, top: bottom - 20, hw, eave: hw + 16 }
+})
+const pagodaMass =
+  `M120 214V188${TIERS.map((t) => `H${200 - t.eave}V${t.top - 2}L${200 - t.hw} ${t.top - 8}`).join('')}` +
+  `${[...TIERS].reverse().map((t) => `H${200 + t.hw}L${200 + t.eave} ${t.top - 2}V${t.bottom}`).join('')}H280V214Z`
+const pagoda = {
+  mass: pagodaMass,
+  strokes: [
+    GROUND,
+    { d: 'M120 214V202H280V214', delay: 0.4, duration: 0.4 },
+    { d: 'M130 202V188H270V202', delay: 0.6, duration: 0.4 },
+    { d: 'M192 188V174Q200 166 208 174V188', delay: 0.9, duration: 0.3, tone: 'column' },
+    ...TIERS.flatMap((t, i) => [
+      { d: `M${200 - t.hw} ${t.bottom}V${t.top}H${200 + t.hw}V${t.bottom}`, delay: 0.9 + i * 0.3, duration: 0.35 },
+      {
+        d: `M${200 - t.eave} ${t.top - 2}Q${200 - t.eave + 10} ${t.top + 8} ${200 - t.hw} ${t.top + 4}L200 ${t.top - 8}L${200 + t.hw} ${t.top + 4}Q${200 + t.eave - 10} ${t.top + 8} ${200 + t.eave} ${t.top - 2}H${200 - t.eave}`,
+        delay: 1.0 + i * 0.3,
+        duration: 0.45,
+      },
+      ...(i === 0 ? [] : [{ d: `M196 ${t.top + 5}H204V${t.bottom - 4}H196Z`, delay: 1.15 + i * 0.3, duration: 0.25, tone: 'column' }]),
+    ]),
+    { d: 'M200 48V10M194 40H206M195 32H205M196 24H204M197 17H203', delay: 2.3, duration: 0.4, tone: 'accent' },
+    dimension(120, 280),
+  ],
+}
+
+// Medieval: the west front of Notre-Dame de Paris: two square towers, three portals, the gallery of kings and the rose window.
+const notreDame = {
+  mass: 'M100 214V58H150V62H250V58H300V214Z',
+  strokes: [
+    GROUND,
+    { d: 'M100 214V58H150V214', delay: 0.4, duration: 0.8 },
+    { d: 'M250 214V58H300V214', delay: 0.5, duration: 0.8 },
+    { d: 'M96 58H154M246 58H304', delay: 1.0, duration: 0.4 },
+    { d: 'M150 62H250M150 68H250', delay: 1.0, duration: 0.4 },
+    { d: 'M100 118H300', delay: 1.1, duration: 0.5 },
+    { d: 'M100 124H300', delay: 1.2, duration: 0.5 },
+    { d: 'M176 214V172Q176 142 200 126Q224 142 224 172V214', delay: 1.2, duration: 0.7 },
+    { d: 'M110 214V178Q110 162 124 152Q138 162 138 178V214', delay: 1.3, duration: 0.6 },
+    { d: 'M262 214V178Q262 162 276 152Q290 162 290 178V214', delay: 1.4, duration: 0.6 },
+    { d: 'M110 100V78Q110 70 116 70Q122 70 122 78V100M128 100V78Q128 70 134 70Q140 70 140 78V100', delay: 1.3, duration: 0.5, tone: 'column' },
+    { d: 'M260 100V78Q260 70 266 70Q272 70 272 78V100M278 100V78Q278 70 284 70Q290 70 290 78V100', delay: 1.4, duration: 0.5, tone: 'column' },
+    { d: 'M178 86a22 22 0 1 0 44 0a22 22 0 1 0 -44 0', delay: 1.5, duration: 0.6, tone: 'accent' },
+    { d: 'M190 86a10 10 0 1 0 20 0a10 10 0 1 0 -20 0M200 64V108M178 86H222M184 70L216 102M216 70L184 102', delay: 1.8, duration: 0.5, tone: 'column' },
+    { d: 'M188 62L200 14L212 62', delay: 2.1, duration: 0.4 },
+    { d: 'M200 14V6M196 9H204', delay: 2.4, duration: 0.3, tone: 'accent' },
+    dimension(100, 300),
+  ],
+}
+
+// Historicism: Neuschwanstein, a white fairy-tale castle on a rock, with slim towers under steep conical roofs.
+const neuschwanstein = {
+  mass: 'M40 214L66 200V92L90 18L112 92V190H120V130L130 112H168V86L185 44L204 86V112H270L286 130V72L309 22L330 72V192L360 214Z',
+  strokes: [
+    GROUND,
+    { d: 'M40 214L66 200L92 204L118 192L150 196L196 190L240 194L268 188L296 196L330 200L360 214', delay: 0.4, duration: 1.0, tone: 'column' },
+    { d: 'M120 190V130H280V190', delay: 0.8, duration: 0.6 },
+    { d: 'M72 192V92H108V192', delay: 1.0, duration: 0.7 },
+    { d: 'M292 192V72H326V192', delay: 1.1, duration: 0.7 },
+    { d: 'M114 130L130 112H270L286 130', delay: 1.3, duration: 0.5 },
+    { d: 'M170 130V86H200V130', delay: 1.4, duration: 0.5 },
+    { d: 'M68 92H112L90 18Z', delay: 1.7, duration: 0.5 },
+    { d: 'M288 72H330L309 22Z', delay: 1.8, duration: 0.5 },
+    { d: 'M166 86H204L185 44Z', delay: 1.9, duration: 0.4 },
+    { d: 'M140 172V154Q140 146 146 146Q152 146 152 154V172M190 172V154Q190 146 196 146Q202 146 202 154V172M240 172V154Q240 146 246 146Q252 146 252 154V172', delay: 2.0, duration: 0.5, tone: 'column' },
+    { d: 'M86 168V146Q86 140 90 140Q94 140 94 146V168M86 128V114Q86 108 90 108Q94 108 94 114V128', delay: 2.1, duration: 0.4, tone: 'column' },
+    { d: 'M304 170V150Q304 144 309 144Q314 144 314 150V170M304 126V108Q304 102 309 102Q314 102 314 108V126', delay: 2.2, duration: 0.4, tone: 'column' },
+    { d: 'M90 18V8L100 12', delay: 2.5, duration: 0.3, tone: 'accent' },
+    dimension(40, 360),
+  ],
+}
+
+// Industrial: the Eiffel Tower, four legs curving into one shaft, three platforms and the lattice between them.
+const EIFFEL_Y = Array.from({ length: 16 }, (_, i) => 214 - (i * 178) / 15)
+const eiffelHalf = (y) => 4 + 74 * ((y - 36) / 178) ** 2.4
+const eiffelL = (y) => +(200 - eiffelHalf(y)).toFixed(1)
+const eiffelR = (y) => +(200 + eiffelHalf(y)).toFixed(1)
+const eiffelSide = (x) => `M${EIFFEL_Y.map((y) => `${x(y)} ${+y.toFixed(1)}`).join('L')}`
+const platform = (y) => `M${eiffelL(y) - 6} ${y}H${eiffelR(y) + 6}M${eiffelL(y) - 6} ${y + 4}H${eiffelR(y) + 6}`
+const lattice = (ya, yb) => `M${eiffelL(ya)} ${ya}L${eiffelR(yb)} ${yb}M${eiffelR(ya)} ${ya}L${eiffelL(yb)} ${yb}`
+const legInner = (y) => +(146 + (30 * (214 - y)) / 62).toFixed(1)
+const legZigzag = (side) => {
+  const x = side === 'l' ? (y) => eiffelL(y) : (y) => 400 - eiffelL(y)
+  const inner = side === 'l' ? legInner : (y) => 400 - legInner(y)
+  return `M${x(200)} 200L${inner(186)} 186L${x(172)} 172L${inner(160)} 160`
+}
+const eiffel = {
+  mass: `${eiffelSide(eiffelL)}L${[...EIFFEL_Y].reverse().map((y) => `${eiffelR(y)} ${+y.toFixed(1)}`).join('L')}Z`,
+  strokes: [
+    GROUND,
+    { d: eiffelSide(eiffelL), delay: 0.4, duration: 1.0 },
+    { d: eiffelSide(eiffelR), delay: 0.5, duration: 1.0 },
+    { d: 'M146 214Q150 178 200 168Q250 178 254 214', delay: 1.0, duration: 0.5 },
+    { d: 'M146 214L176 152', delay: 1.1, duration: 0.4 },
+    { d: 'M254 214L224 152', delay: 1.15, duration: 0.4 },
+    { d: platform(150), delay: 1.3, duration: 0.4 },
+    { d: `${legZigzag('l')}M176 152L200 168L224 152${legZigzag('r')}`, delay: 1.5, duration: 0.5, tone: 'column' },
+    { d: platform(100), delay: 1.6, duration: 0.35 },
+    { d: lattice(150, 100), delay: 1.7, duration: 0.5, tone: 'column' },
+    { d: platform(62), delay: 1.9, duration: 0.35 },
+    { d: lattice(100, 62), delay: 2.0, duration: 0.4, tone: 'column' },
+    { d: lattice(62, 36), delay: 2.2, duration: 0.3, tone: 'column' },
+    { d: 'M200 36V8M196 22H204', delay: 2.3, duration: 0.4, tone: 'accent' },
+    dimension(122, 278),
+  ],
+}
+
+// Art Nouveau: the Sagrada Família, parabolic spires over a rippling cornice, the tallest tower behind.
+const SAGRADA = [
+  { cx: 112, top: 52 },
+  { cx: 168, top: 38 },
+  { cx: 232, top: 38 },
+  { cx: 288, top: 52 },
+]
+const spire = (cx, top, hw = 16) =>
+  `M${cx - hw} 150C${cx - hw} ${(150 + top) / 2 + 10} ${cx - 5} ${top + 28} ${cx} ${top}C${cx + 5} ${top + 28} ${cx + hw} ${(150 + top) / 2 + 10} ${cx + hw} 150`
+const sagrada = {
+  mass: `M70 214V150H330V214Z${SAGRADA.map(({ cx, top }) => `${spire(cx, top)}Z`).join('')}${spire(200, 16, 16)}Z`,
+  strokes: [
+    GROUND,
+    { d: 'M70 214V150H330V214', delay: 0.4, duration: 0.6 },
+    { d: 'M70 160Q100 150 130 160T190 160T250 160T330 160', delay: 0.8, duration: 0.6, tone: 'column' },
+    { d: 'M180 214V178Q180 160 200 154Q220 160 220 178V214', delay: 1.0, duration: 0.5 },
+    { d: 'M96 214V190Q96 178 110 174Q124 178 124 190V214', delay: 1.1, duration: 0.5 },
+    { d: 'M276 214V190Q276 178 290 174Q304 178 304 190V214', delay: 1.2, duration: 0.5 },
+    ...SAGRADA.map(({ cx, top }, i) => ({ d: spire(cx, top), delay: 0.9 + i * 0.25, duration: 0.7 })),
+    { d: spire(200, 16), delay: 1.8, duration: 0.8 },
+    ...SAGRADA.map(({ cx }, i) => ({
+      d: `M${cx - 6} 134V96M${cx + 6} 134V96M${cx - 9} 112H${cx + 9}M${cx - 7} 94H${cx + 7}`,
+      delay: 1.25 + i * 0.25,
+      duration: 0.4,
+      tone: 'column',
+    })),
+    ...SAGRADA.map(({ cx, top }, i) => ({ d: `M${cx} ${top}V${top - 10}M${cx - 4} ${top - 6}H${cx + 4}`, delay: 2.0 + i * 0.1, duration: 0.3 })),
+    { d: 'M200 16V4M195 9H205', delay: 2.5, duration: 0.3, tone: 'accent' },
+    dimension(70, 330),
+  ],
+}
+
+// Postmodernism: the Petronas Towers, two stepped, ribbed towers with spires, joined by a skybridge.
+const PETRONAS = [148, 252]
+const petronasHalf = (y) => (y > 120 ? 30 : y > 90 ? 26 : y > 62 ? 20 : 14)
+const tower = (cx) =>
+  `M${cx - 30} 214V120H${cx - 26}V90H${cx - 20}V62H${cx - 14}V44L${cx} 12L${cx + 14} 44V62H${cx + 20}V90H${cx + 26}V120H${cx + 30}V214`
+const FLOORS = [200, 186, 172, 158, 144, 130, 112, 100, 84, 72, 56]
+const petronas = {
+  mass: PETRONAS.map((cx) => `${tower(cx)}Z`).join(''),
+  strokes: [
+    GROUND,
+    { d: 'M90 214V198H310V214', delay: 0.4, duration: 0.4 },
+    ...PETRONAS.map((cx, i) => ({ d: tower(cx), delay: 0.5 + i * 0.15, duration: 1.2 })),
+    ...PETRONAS.map((cx, i) => ({ d: `M${cx - 10} 214V120M${cx + 10} 214V120M${cx - 8} 120V62M${cx + 8} 120V62`, delay: 1.4 + i * 0.1, duration: 0.5, tone: 'column' })),
+    ...PETRONAS.map((cx, i) => ({
+      d: FLOORS.map((y) => `M${cx - petronasHalf(y)} ${y}H${cx + petronasHalf(y)}`).join(''),
+      delay: 1.6 + i * 0.1,
+      duration: 0.6,
+      tone: 'column',
+    })),
+    { d: 'M178 124H222V136H178ZM184 136L200 152L216 136', delay: 1.9, duration: 0.5 },
+    ...PETRONAS.map((cx, i) => ({ d: `M${cx} 12V3`, delay: 2.3 + i * 0.1, duration: 0.3, tone: 'accent' })),
+    dimension(90, 310),
+  ],
+}
+
+// Contemporary: the Burj Khalifa, nine setbacks each a little narrower than the last, and a needle spire.
+const BURJ = Array.from({ length: 9 }, (_, k) => {
+  const hw = 36 - 3.4 * k
+  return { yb: 214 - k * 16, yt: 198 - k * 16, l: +(hw + (k % 2 ? 2 : 0)).toFixed(1), r: +(hw + (k % 2 ? 0 : 2)).toFixed(1) }
+})
+const burjMass =
+  `M${200 - BURJ[0].l} 214${BURJ.map((t, k) => `V${t.yt}${k < 8 ? `H${200 - BURJ[k + 1].l}` : ''}`).join('')}H${200 + BURJ[8].r}` +
+  `${[...BURJ].reverse().map((t, k, all) => `V${t.yb}${k < 8 ? `H${200 + all[k + 1].r}` : ''}`).join('')}Z`
+const burj = {
+  mass: burjMass,
+  strokes: [
+    GROUND,
+    { d: 'M100 214V200H300V214', delay: 0.3, duration: 0.4 },
+    ...BURJ.map((t, k) => ({ d: `M${200 - t.l} ${t.yb}V${t.yt}H${200 + t.r}V${t.yb}`, delay: 0.5 + k * 0.18, duration: 0.3 })),
+    { d: 'M200 214V70', delay: 1.0, duration: 1.2, tone: 'column' },
+    { d: 'M182 214V150M218 214V150M190 150V110M210 150V110', delay: 1.2, duration: 0.8, tone: 'column' },
+    { d: 'M120 200V184H154M280 200V184H246', delay: 0.6, duration: 0.5, tone: 'column' },
+    { d: 'M197 70L200 8L203 70Z', delay: 2.2, duration: 0.5, tone: 'accent' },
+    dimension(100, 300),
+  ],
+}
+
 // CLASSICAL keeps the civic front; any era not listed falls back to it too.
 export const BY_ERA = {
   ANCIENT_EGYPTIAN: pyramid,
-  PRE_COLUMBIAN: pyramid,
-  MEDIEVAL: gothic,
-  HISTORICISM: neoGothic,
+  PRE_COLUMBIAN: machuPicchu,
+  MEDIEVAL: notreDame,
+  HISTORICISM: neuschwanstein,
   BAROQUE: baroque,
   NEOCLASSICAL: domedPortico,
-  ART_NOUVEAU: nouveau,
-  POSTMODERNISM: postmodern,
+  ART_NOUVEAU: sagrada,
+  POSTMODERNISM: petronas,
   BRUTALISM: brutalist,
   RENAISSANCE: palazzo,
   ART_DECO: deco,
   MANNERISM: mannerist,
-  INDUSTRIAL: industrial,
+  INDUSTRIAL: eiffel,
   INDIC: shikhara,
   RUSSIAN: russian,
   OTTOMAN: ottoman,
   MANUELINE: belem,
-  ISLAMIC: domedMinaret,
+  ISLAMIC: tajMahal,
   BYZANTINE: domedMinaret,
   EAST_ASIAN: pagoda,
   MODERNISM: sails,
-  CONTEMPORARY: twist,
+  CONTEMPORARY: burj,
 }
 
 export const silhouetteFor = (era) => BY_ERA[era] ?? temple
 export const silhouettes = {
   temple,
   pyramid,
-  gothic,
+  machuPicchu,
+  notreDame,
   sails,
-  twist,
-  neoGothic,
+  burj,
+  neuschwanstein,
   baroque,
   domedPortico,
-  nouveau,
-  postmodern,
+  sagrada,
+  petronas,
   brutalist,
   palazzo,
   deco,
   belem,
   domedMinaret,
+  tajMahal,
   pagoda,
   mannerist,
-  industrial,
+  eiffel,
   shikhara,
   russian,
   ottoman,
